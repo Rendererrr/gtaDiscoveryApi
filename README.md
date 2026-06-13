@@ -171,13 +171,27 @@ the whole domain in one file:
 | Domain   | `id` is…            | `hash`                              | Image format | Extra fields            |
 |----------|---------------------|-------------------------------------|--------------|-------------------------|
 | peds     | model name          | `joaat(model_name)`                 | `.webp`      | `props`, `components`   |
-| vehicles | spawn name          | `joaat(model_name)`                 | `.webp`      | —                       |
+| vehicles | spawn name          | `joaat(model_name)`                 | `.webp`      | `stats`                 |
 | weapons  | weapon id           | `joaat(codename)` (or `null`)       | `.png`       | `codename`, `stats`, `components` |
 
 - **`hash`** is GTA's joaat (Jenkins-one-at-a-time) hash — the same value the game/FiveM uses.
   For vehicles it is computed from the model name and matches the official hashes; for weapons it
   is computed from the internal `codename` (e.g. `weapon_assaultrifle`). A weapon whose codename
   is unknown gets `hash: null` (currently only "Acid Package").
+- **Vehicle `stats`** — all 861 vehicles carry curated performance stats from the game's handling
+  data (source: [DurtyFree gta-v-data-dumps](https://github.com/DurtyFree/gta-v-data-dumps),
+  joined by model name):
+  ```jsonc
+  // GET api/vehicles/index.json -> items[]
+  { "id": "adder", "name": "Adder", "hash": 3078201489, "category": "Super", "url": "…",
+    "stats": { "handlingId": "ADDER", "mass": 1800, "topSpeed": 160, "driveForce": 0.32,
+               "brakeForce": 1, "handBrakeForce": 0.7, "gears": 6, "driveBiasFront": 0.2,
+               "drivetrain": "AWD", "traction": { "max": 2.5, "min": 2.38, "lateral": 22.5 },
+               "suspensionForce": 2.4, "steeringLock": 42, "monetaryValue": 80000 } }
+  ```
+  `topSpeed` is the game's max flat velocity (not mph/kmh), `driveForce` is the acceleration
+  proxy, `monetaryValue` is the in-game price, and `drivetrain` is derived from `driveBiasFront`
+  (0 → RWD, 1 → FWD, between → AWD).
 - **Weapon `stats` + `components`** — each weapon carries `stats` (0–100 weapon-wheel values
   `{ damage, fireRate, accuracy, range }` plus `maxAmmo`) and `components[]`
   (`{ id, label, hash }` attachments/clips/tints). 88/104 weapons have these; the newest DLC
@@ -282,7 +296,7 @@ api/index.json                 # discovery root
 api/<domain>/...               # generated JSON per domain
 src/
   config.mjs                   # base URL target (jsDelivr/Pages/custom) — single source of truth
-  data/                        # build inputs: peds.json, vehicles.json, weapons.json, weapons.stats.json
+  data/                        # build inputs: peds/vehicles/weapons.json + weapons.stats.json, vehicles.handling.json
   lib/fs.mjs                   # shared fs helpers (folder-derived domains)
   lib/joaat.mjs                # GTA joaat hash
   lib/catalog.mjs              # shared writer for flat domains
@@ -376,3 +390,4 @@ Existing domains and their URLs are unaffected.
 - Per-drawable previews (hair, torsos, bags, armor, decals, and all props) sourced from the [RAGE Multiplayer Wiki](https://wiki.rage.mp/wiki/Clothes).
 - Ped & vehicle images sourced from the [FiveM docs image archive](https://docs.fivem.net/).
 - Weapon stats & components from [vespura.com/fivem/weapons](https://vespura.com/fivem/weapons/) (snapshot in `src/data/weapons.stats.json`).
+- Vehicle performance stats from [DurtyFree/gta-v-data-dumps](https://github.com/DurtyFree/gta-v-data-dumps) (snapshot in `src/data/vehicles.handling.json`).
