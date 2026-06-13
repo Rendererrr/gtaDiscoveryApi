@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "id": "mpbeach",
@@ -28,6 +28,129 @@
         "id": "mpbeach",
         "name": "Beach Bum",
         "releaseDate": "2013-11-19"
+      },
+      "details": {
+        "manufacturer": "BF",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [
+          "83_bifta_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.901,
+            "y": -1.954,
+            "z": -0.544
+          },
+          "max": {
+            "x": 0.901,
+            "y": 1.559,
+            "z": 0.831
+          },
+          "length": 3.512,
+          "width": 1.802,
+          "height": 1.375,
+          "boundingRadius": 1.925
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 41,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 1,
+            "secondary": 0,
+            "pearl": 7,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 4,
+            "secondary": 12,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 2,
+            "pearl": 70,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 3,
+            "secondary": 13,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 75,
+            "secondary": 0,
+            "pearl": 68,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 30,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 29,
+            "secondary": 38,
+            "pearl": 37,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 36,
+            "secondary": 27,
+            "pearl": 37,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 89,
+            "secondary": 39,
+            "pearl": 91,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_PEDS_INSIDE_CAN_BE_SET_ON_FIRE_MP"
+        ]
       },
       "stats": {
         "handlingId": "bifta",
@@ -60,6 +183,118 @@
         "name": "Beach Bum",
         "releaseDate": "2013-11-19"
       },
+      "details": {
+        "manufacturer": "Canis",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "84_kalahari_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.867,
+            "y": -2.107,
+            "z": -0.525
+          },
+          "max": {
+            "x": 0.867,
+            "y": 2.047,
+            "z": 1.191
+          },
+          "length": 4.155,
+          "width": 1.734,
+          "height": 1.716,
+          "boundingRadius": 2.349
+        },
+        "defaultColors": [
+          {
+            "primary": 52,
+            "secondary": 0,
+            "pearl": 52,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 54,
+            "secondary": 0,
+            "pearl": 54,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 68,
+            "secondary": 0,
+            "pearl": 68,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 90,
+            "secondary": 0,
+            "pearl": 90,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 93,
+            "secondary": 0,
+            "pearl": 93,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 105,
+            "secondary": 0,
+            "pearl": 105,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 138,
+            "secondary": 0,
+            "pearl": 138,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 144,
+            "secondary": 0,
+            "pearl": 144,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_SCRIPT",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY",
+          "FLAG_USE_STEERING_PARAM_FOR_LEAN",
+          "FLAG_HAS_NO_ROOF",
+          "FLAG_ALLOW_HATS_NO_ROOF"
+        ]
+      },
       "stats": {
         "handlingId": "kalahari",
         "mass": 800,
@@ -91,6 +326,62 @@
         "name": "Beach Bum",
         "releaseDate": "2013-11-19"
       },
+      "details": {
+        "manufacturer": "Bravado",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "85_paradise_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.192,
+            "y": -2.873,
+            "z": -1.037
+          },
+          "max": {
+            "x": 1.192,
+            "y": 2.596,
+            "z": 1.17
+          },
+          "length": 5.468,
+          "width": 2.384,
+          "height": 2.207,
+          "boundingRadius": 3.147
+        },
+        "defaultColors": [
+          {
+            "primary": 2,
+            "secondary": 111,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SMALL_WORKER",
+          "FLAG_IS_VAN",
+          "FLAG_HAS_LIVERY",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_DELIVERY",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_BULKY"
+        ]
+      },
       "stats": {
         "handlingId": "paradise",
         "mass": 2500,
@@ -121,6 +412,145 @@
         "id": "mpbeach",
         "name": "Beach Bum",
         "releaseDate": "2013-11-19"
+      },
+      "details": {
+        "manufacturer": "Pegassi",
+        "type": "BOAT",
+        "seats": 4,
+        "doors": 0,
+        "wheels": 0,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.338,
+            "y": -5.32,
+            "z": -0.864
+          },
+          "max": {
+            "x": 1.362,
+            "y": 5.575,
+            "z": 1.319
+          },
+          "length": 10.894,
+          "width": 2.7,
+          "height": 2.183,
+          "boundingRadius": 5.649
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 4,
+            "pearl": 7,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 4,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 111,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 30,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 38,
+            "secondary": 29,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 53,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 73,
+            "secondary": 111,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 95,
+            "secondary": 111,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 89,
+            "secondary": 2,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 70,
+            "secondary": 111,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 102,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 2,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
       },
       "stats": {
         "handlingId": "speeder",

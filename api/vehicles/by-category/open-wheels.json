@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "name": "Open Wheels",
@@ -26,6 +26,60 @@
         "id": "mpheist3",
         "name": "The Diamond Casino Heist",
         "releaseDate": "2019-12-12"
+      },
+      "details": {
+        "manufacturer": "Progen",
+        "type": "CAR",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [
+          "405_formula_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": true
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.906,
+            "y": -2.001,
+            "z": -0.237
+          },
+          "max": {
+            "x": 0.906,
+            "y": 2.474,
+            "z": 0.78
+          },
+          "length": 4.475,
+          "width": 1.812,
+          "height": 1.017,
+          "boundingRadius": 2.429
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 8,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_ALL",
+          "FLAG_NO_BOOT",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_PEDS_INSIDE_CAN_BE_SET_ON_FIRE_MP",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_IS_FORMULA_VEHICLE"
+        ]
       },
       "stats": {
         "handlingId": "FORMULA",
@@ -58,6 +112,60 @@
         "name": "The Diamond Casino Heist",
         "releaseDate": "2019-12-12"
       },
+      "details": {
+        "manufacturer": "Ocelot",
+        "type": "CAR",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [
+          "413_formula2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": true
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.905,
+            "y": -2.273,
+            "z": -0.269
+          },
+          "max": {
+            "x": 0.896,
+            "y": 2.272,
+            "z": 0.858
+          },
+          "length": 4.545,
+          "width": 1.801,
+          "height": 1.127,
+          "boundingRadius": 2.46
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 8,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_ALL",
+          "FLAG_NO_BOOT",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_PEDS_INSIDE_CAN_BE_SET_ON_FIRE_MP",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_IS_FORMULA_VEHICLE"
+        ]
+      },
       "stats": {
         "handlingId": "FORMULA2",
         "mass": 585,
@@ -89,6 +197,68 @@
         "name": "Los Santos Summer Special",
         "releaseDate": "2020-08-11"
       },
+      "details": {
+        "manufacturer": "Benefactor",
+        "type": "CAR",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [
+          "432_openwheel1_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": true
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.103,
+            "y": -2.477,
+            "z": -0.229
+          },
+          "max": {
+            "x": 1.126,
+            "y": 3.037,
+            "z": 0.959
+          },
+          "length": 5.514,
+          "width": 2.228,
+          "height": 1.188,
+          "boundingRadius": 2.893
+        },
+        "defaultColors": [
+          {
+            "primary": 62,
+            "secondary": 62,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 27,
+            "secondary": 27,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 8,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_ALL",
+          "FLAG_NO_BOOT",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_PEDS_INSIDE_CAN_BE_SET_ON_FIRE_MP",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_IS_FORMULA_VEHICLE"
+        ]
+      },
       "stats": {
         "handlingId": "OPENWHEEL1",
         "mass": 550,
@@ -119,6 +289,68 @@
         "id": "mpsum",
         "name": "Los Santos Summer Special",
         "releaseDate": "2020-08-11"
+      },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [
+          "434_openwheel2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": true
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.026,
+            "y": -2.422,
+            "z": -0.279
+          },
+          "max": {
+            "x": 1.026,
+            "y": 2.817,
+            "z": 0.745
+          },
+          "length": 5.24,
+          "width": 2.052,
+          "height": 1.024,
+          "boundingRadius": 2.783
+        },
+        "defaultColors": [
+          {
+            "primary": 62,
+            "secondary": 62,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 27,
+            "secondary": 27,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 8,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_ALL",
+          "FLAG_NO_BOOT",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_PEDS_INSIDE_CAN_BE_SET_ON_FIRE_MP",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_IS_FORMULA_VEHICLE"
+        ]
       },
       "stats": {
         "handlingId": "OPENWHEEL2",

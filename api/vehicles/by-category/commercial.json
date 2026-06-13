@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "name": "Commercial",
@@ -26,6 +26,120 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 6,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.515,
+            "y": -5.342,
+            "z": -1
+          },
+          "max": {
+            "x": 1.515,
+            "y": 4.211,
+            "z": 2.299
+          },
+          "length": 9.553,
+          "width": 3.03,
+          "height": 3.299,
+          "boundingRadius": 5.254
+        },
+        "defaultColors": [
+          {
+            "primary": 122,
+            "secondary": 2,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 1,
+            "pearl": 114,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 18,
+            "secondary": 122,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 77,
+            "secondary": 122,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 45,
+            "secondary": 122,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 122,
+            "secondary": 122,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 122,
+            "secondary": 122,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 122,
+            "secondary": 122,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_DELIVERY",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_EXTRAS_SCRIPT",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_INTERIOR_BLOCKED_BY_BOOT",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_IGNORE_RWINDOW_COLLISION"
+        ]
       },
       "stats": {
         "handlingId": "benson",
@@ -58,6 +172,115 @@
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
       },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 6,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.515,
+            "y": -5.342,
+            "z": -1
+          },
+          "max": {
+            "x": 1.515,
+            "y": 4.211,
+            "z": 2.299
+          },
+          "length": 9.553,
+          "width": 3.03,
+          "height": 3.299,
+          "boundingRadius": 5.254
+        },
+        "defaultColors": [
+          {
+            "primary": 122,
+            "secondary": 2,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 1,
+            "pearl": 114,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 18,
+            "secondary": 122,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 77,
+            "secondary": 122,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 45,
+            "secondary": 122,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 122,
+            "secondary": 122,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 122,
+            "secondary": 122,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 122,
+            "secondary": 122,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_DELIVERY",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_INTERIOR_BLOCKED_BY_BOOT"
+        ]
+      },
       "stats": {
         "handlingId": "benson",
         "mass": 7000,
@@ -88,6 +311,93 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "HVY",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 6,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.303,
+            "y": -3.91,
+            "z": -1.081
+          },
+          "max": {
+            "x": 1.309,
+            "y": 4.002,
+            "z": 2.682
+          },
+          "length": 7.912,
+          "width": 2.612,
+          "height": 3.763,
+          "boundingRadius": 4.568
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 58,
+            "pearl": 132,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 48,
+            "secondary": 58,
+            "pearl": 48,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 85,
+            "secondary": 58,
+            "pearl": 85,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 21,
+            "secondary": 59,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 132,
+            "secondary": 59,
+            "pearl": 132,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_AVOID_TURNS",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_EXTRAS_SCRIPT",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_CAN_BE_DRIVEN_ON"
+        ]
       },
       "stats": {
         "handlingId": "BIFF",
@@ -120,6 +430,99 @@
         "name": "Arena War",
         "releaseDate": "2018-12-11"
       },
+      "details": {
+        "manufacturer": "MTL",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 8,
+        "modKits": [
+          "330_cerberus_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_FLAMETHROWER"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.913,
+            "y": -8.858,
+            "z": -0.826
+          },
+          "max": {
+            "x": 1.913,
+            "y": 6.507,
+            "z": 3.941
+          },
+          "length": 15.365,
+          "width": 3.826,
+          "height": 4.768,
+          "boundingRadius": 7.136
+        },
+        "defaultColors": [
+          {
+            "primary": 34,
+            "secondary": 2,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 6,
+            "secondary": 134,
+            "pearl": 111,
+            "wheels": 1,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 15,
+            "secondary": 121,
+            "pearl": 138,
+            "wheels": 134,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 66,
+            "secondary": 1,
+            "pearl": 107,
+            "wheels": 1,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_DELIVERY",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_USE_FAT_INTERIOR_LIGHT",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS",
+          "FLAG_HAS_REAR_MOUNTED_TURRET",
+          "FLAG_TURRET_MODS_ON_ROOF",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_HAS_WEAPON_SPIKE_MODS",
+          "FLAG_HAS_NITROUS_MOD",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_HAS_SIDE_SHUNT",
+          "FLAG_HAS_RAMMING_SCOOP_MOD",
+          "FLAG_HAS_RAMMING_BAR_MOD",
+          "FLAG_INCREASE_LOW_SPEED_TORQUE"
+        ]
+      },
       "stats": {
         "handlingId": "CERBERUS",
         "mass": 6500,
@@ -150,6 +553,76 @@
         "id": "mpchristmas2018",
         "name": "Arena War",
         "releaseDate": "2018-12-11"
+      },
+      "details": {
+        "manufacturer": "MTL",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 8,
+        "modKits": [
+          "351_cerberus2_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_FLAMETHROWER_SCIFI"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -2.001,
+            "y": -8.858,
+            "z": -0.826
+          },
+          "max": {
+            "x": 2.001,
+            "y": 6.085,
+            "z": 3.941
+          },
+          "length": 14.943,
+          "width": 4.003,
+          "height": 4.768,
+          "boundingRadius": 7.136
+        },
+        "defaultColors": [
+          {
+            "primary": 107,
+            "secondary": 159,
+            "pearl": 160,
+            "wheels": 158,
+            "interior": 160,
+            "dashboard": 160
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_DELIVERY",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_USE_FAT_INTERIOR_LIGHT",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS",
+          "FLAG_HAS_REAR_MOUNTED_TURRET",
+          "FLAG_TURRET_MODS_ON_ROOF",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_HAS_WEAPON_SPIKE_MODS",
+          "FLAG_HAS_NITROUS_MOD",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_HAS_SIDE_SHUNT",
+          "FLAG_HAS_RAMMING_SCOOP_MOD",
+          "FLAG_HAS_RAMMING_BAR_MOD",
+          "FLAG_INCREASE_LOW_SPEED_TORQUE",
+          "FLAG_DISABLE_DEFORMATION"
+        ]
       },
       "stats": {
         "handlingId": "CERBERUS2",
@@ -182,6 +655,75 @@
         "name": "Arena War",
         "releaseDate": "2018-12-11"
       },
+      "details": {
+        "manufacturer": "MTL",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 8,
+        "modKits": [
+          "348_cerberus3_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_FLAMETHROWER"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.913,
+            "y": -8.858,
+            "z": -0.826
+          },
+          "max": {
+            "x": 1.913,
+            "y": 6.507,
+            "z": 3.941
+          },
+          "length": 15.365,
+          "width": 3.826,
+          "height": 4.768,
+          "boundingRadius": 7.136
+        },
+        "defaultColors": [
+          {
+            "primary": 135,
+            "secondary": 138,
+            "pearl": 29,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_DELIVERY",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_USE_FAT_INTERIOR_LIGHT",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS",
+          "FLAG_HAS_REAR_MOUNTED_TURRET",
+          "FLAG_TURRET_MODS_ON_ROOF",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_HAS_WEAPON_SPIKE_MODS",
+          "FLAG_HAS_NITROUS_MOD",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_HAS_SIDE_SHUNT",
+          "FLAG_HAS_RAMMING_SCOOP_MOD",
+          "FLAG_HAS_RAMMING_BAR_MOD",
+          "FLAG_INCREASE_LOW_SPEED_TORQUE"
+        ]
+      },
       "stats": {
         "handlingId": "CERBERUS",
         "mass": 6500,
@@ -212,6 +754,164 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "JoBuilt",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 6,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.519,
+            "y": -3.46,
+            "z": -1.266
+          },
+          "max": {
+            "x": 1.519,
+            "y": 3.389,
+            "z": 3.323
+          },
+          "length": 6.849,
+          "width": 3.038,
+          "height": 4.59,
+          "boundingRadius": 4.347
+        },
+        "defaultColors": [
+          {
+            "primary": 40,
+            "secondary": 40,
+            "pearl": 39,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 52,
+            "secondary": 37,
+            "pearl": 52,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 98,
+            "secondary": 107,
+            "pearl": 93,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 93,
+            "secondary": 98,
+            "pearl": 93,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 7,
+            "pearl": 122,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 2,
+            "secondary": 37,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 68,
+            "secondary": 38,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 14,
+            "pearl": 2,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 4,
+            "secondary": 4,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 2,
+            "secondary": 2,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 54,
+            "secondary": 51,
+            "pearl": 56,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 63,
+            "pearl": 122,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 122,
+            "secondary": 30,
+            "pearl": 121,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 76,
+            "secondary": 76,
+            "pearl": 78,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_CAN_HONK_WHEN_FLEEING",
+          "FLAG_AVOID_TURNS",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_USE_FAT_INTERIOR_LIGHT",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_ATTACH_TRAILER_ON_HIGHWAY",
+          "FLAG_USE_STRICTER_EXIT_COLLISION_TESTS"
+        ]
       },
       "stats": {
         "handlingId": "hauler",
@@ -244,6 +944,168 @@
         "name": "Gunrunning",
         "releaseDate": "2017-06-13"
       },
+      "details": {
+        "manufacturer": "JoBuilt",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 6,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.519,
+            "y": -4.197,
+            "z": -1.266
+          },
+          "max": {
+            "x": 1.519,
+            "y": 3.717,
+            "z": 2.94
+          },
+          "length": 7.914,
+          "width": 3.038,
+          "height": 4.206,
+          "boundingRadius": 4.622
+        },
+        "defaultColors": [
+          {
+            "primary": 1,
+            "secondary": 40,
+            "pearl": 120,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 52,
+            "secondary": 37,
+            "pearl": 52,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 98,
+            "secondary": 107,
+            "pearl": 93,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 93,
+            "secondary": 98,
+            "pearl": 93,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 7,
+            "pearl": 122,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 2,
+            "secondary": 37,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 68,
+            "secondary": 38,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 14,
+            "pearl": 2,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 4,
+            "secondary": 4,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 2,
+            "secondary": 2,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 54,
+            "secondary": 51,
+            "pearl": 56,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 63,
+            "pearl": 122,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 122,
+            "secondary": 30,
+            "pearl": 121,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 76,
+            "secondary": 76,
+            "pearl": 78,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_HAS_BULLET_RESISTANT_GLASS",
+          "FLAG_BIG",
+          "FLAG_CAN_HONK_WHEN_FLEEING",
+          "FLAG_AVOID_TURNS",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_USE_FAT_INTERIOR_LIGHT",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_ATTACH_TRAILER_ON_HIGHWAY",
+          "FLAG_USE_STRICTER_EXIT_COLLISION_TESTS",
+          "FLAG_DONT_HOLD_LOW_GEARS_WHEN_ENGINE_UNDER_LOAD"
+        ]
+      },
       "stats": {
         "handlingId": "HAULER2",
         "mass": 11000,
@@ -274,6 +1136,83 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "Maibatsu",
+        "type": "CAR",
+        "seats": 6,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.359,
+            "y": -4.258,
+            "z": -1.255
+          },
+          "max": {
+            "x": 1.359,
+            "y": 3.79,
+            "z": 2.494
+          },
+          "length": 8.048,
+          "width": 2.719,
+          "height": 3.75,
+          "boundingRadius": 4.512
+        },
+        "defaultColors": [
+          {
+            "primary": 121,
+            "secondary": 1,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 1,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 110,
+            "secondary": 0,
+            "pearl": 110,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_DELIVERY",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_INTERIOR_BLOCKED_BY_BOOT"
+        ]
       },
       "stats": {
         "handlingId": "MULE",
@@ -306,6 +1245,69 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": "Maibatsu",
+        "type": "CAR",
+        "seats": 6,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.359,
+            "y": -3.794,
+            "z": -1.255
+          },
+          "max": {
+            "x": 1.359,
+            "y": 3.791,
+            "z": 2.494
+          },
+          "length": 7.585,
+          "width": 2.719,
+          "height": 3.75,
+          "boundingRadius": 4.334
+        },
+        "defaultColors": [
+          {
+            "primary": 122,
+            "secondary": 2,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 132,
+            "secondary": 1,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_DELIVERY",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_INTERIOR_BLOCKED_BY_BOOT"
+        ]
+      },
       "stats": {
         "handlingId": "MULE",
         "mass": 5500,
@@ -336,6 +1338,90 @@
         "id": "mpheist",
         "name": "The Heists Update",
         "releaseDate": "2015-03-10"
+      },
+      "details": {
+        "manufacturer": "Maibatsu",
+        "type": "CAR",
+        "seats": 6,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.359,
+            "y": -4.258,
+            "z": -1.255
+          },
+          "max": {
+            "x": 1.359,
+            "y": 3.819,
+            "z": 2.494
+          },
+          "length": 8.077,
+          "width": 2.719,
+          "height": 3.75,
+          "boundingRadius": 4.541
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 1,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 1,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 110,
+            "secondary": 0,
+            "pearl": 110,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_DELIVERY",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_INTERIOR_BLOCKED_BY_BOOT"
+        ]
       },
       "stats": {
         "handlingId": "MULE3",
@@ -368,6 +1454,69 @@
         "name": "After Hours",
         "releaseDate": "2018-07-24"
       },
+      "details": {
+        "manufacturer": "Maibatsu",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "302_mule4_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_MULE4_MG",
+          "VEHICLE_WEAPON_MULE4_MISSILE",
+          "VEHICLE_WEAPON_MULE4_TURRET_GL"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -2.133,
+            "y": -4.258,
+            "z": -1.255
+          },
+          "max": {
+            "x": 2.08,
+            "y": 4.444,
+            "z": 2.948
+          },
+          "length": 8.702,
+          "width": 4.213,
+          "height": 4.203,
+          "boundingRadius": 4.601
+        },
+        "defaultColors": [
+          {
+            "primary": 5,
+            "secondary": 2,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_DELIVERY",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_INTERIOR_BLOCKED_BY_BOOT",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS",
+          "FLAG_TURRET_MODS_ON_ROOF",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_TURRET_MOD_WITH_NO_STOCK_TURRET",
+          "FLAG_HAS_INCREASED_RAMMING_FORCE_WITH_CHASSIS_MOD"
+        ]
+      },
       "stats": {
         "handlingId": "MULE4",
         "mass": 6000,
@@ -398,6 +1547,90 @@
         "id": "mpsecurity",
         "name": "The Contract",
         "releaseDate": "2021-12-15"
+      },
+      "details": {
+        "manufacturer": "Maibatsu",
+        "type": "CAR",
+        "seats": 6,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.359,
+            "y": -4.258,
+            "z": -1.255
+          },
+          "max": {
+            "x": 1.359,
+            "y": 3.819,
+            "z": 2.494
+          },
+          "length": 8.077,
+          "width": 2.719,
+          "height": 3.75,
+          "boundingRadius": 4.541
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 1,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 1,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 110,
+            "secondary": 0,
+            "pearl": 110,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_DELIVERY",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_INTERIOR_BLOCKED_BY_BOOT"
+        ]
       },
       "stats": {
         "handlingId": "MULE3",
@@ -430,6 +1663,98 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": "MTL",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 6,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.536,
+            "y": -4.573,
+            "z": -1.124
+          },
+          "max": {
+            "x": 1.536,
+            "y": 4.417,
+            "z": 3.458
+          },
+          "length": 8.989,
+          "width": 3.072,
+          "height": 4.582,
+          "boundingRadius": 5.23
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 112,
+            "pearl": 2,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 45,
+            "secondary": 40,
+            "pearl": 35,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 73,
+            "secondary": 70,
+            "pearl": 63,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 6,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 10,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_CAN_HONK_WHEN_FLEEING",
+          "FLAG_AVOID_TURNS",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_ATTACH_TRAILER_ON_HIGHWAY"
+        ]
+      },
       "stats": {
         "handlingId": "PACKER",
         "mass": 12000,
@@ -460,6 +1785,123 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "JoBuilt",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 6,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.537,
+            "y": -4.573,
+            "z": -1.129
+          },
+          "max": {
+            "x": 1.537,
+            "y": 4.733,
+            "z": 3.302
+          },
+          "length": 9.306,
+          "width": 3.073,
+          "height": 4.431,
+          "boundingRadius": 5.342
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 72,
+            "secondary": 0,
+            "pearl": 68,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 78,
+            "secondary": 0,
+            "pearl": 80,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 61,
+            "secondary": 0,
+            "pearl": 60,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 122,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 31,
+            "secondary": 0,
+            "pearl": 31,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 4,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 6,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_CAN_HONK_WHEN_FLEEING",
+          "FLAG_AVOID_TURNS",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_ATTACH_TRAILER_ON_HIGHWAY",
+          "FLAG_USE_STRICTER_EXIT_COLLISION_TESTS"
+        ]
       },
       "stats": {
         "handlingId": "PHANTOM",
@@ -492,6 +1934,71 @@
         "name": "Import/Export",
         "releaseDate": "2016-12-13"
       },
+      "details": {
+        "manufacturer": "JoBuilt",
+        "type": "CAR",
+        "seats": 5,
+        "doors": 2,
+        "wheels": 6,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -2.164,
+            "y": -4.573,
+            "z": -1.129
+          },
+          "max": {
+            "x": 2.164,
+            "y": 8.905,
+            "z": 2.751
+          },
+          "length": 13.478,
+          "width": 4.328,
+          "height": 3.88,
+          "boundingRadius": 7.165
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 13,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_CAN_HONK_WHEN_FLEEING",
+          "FLAG_AVOID_TURNS",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_ATTACH_TRAILER_ON_HIGHWAY",
+          "FLAG_USE_STRICTER_EXIT_COLLISION_TESTS",
+          "FLAG_RAMMING_SCOOP",
+          "FLAG_HAS_EXTRA_SHUFFLE_SEAT_ON_VEHICLE"
+        ]
+      },
       "stats": {
         "handlingId": "PHANTOM2",
         "mass": 14000,
@@ -522,6 +2029,72 @@
         "id": "mpgunrunning",
         "name": "Gunrunning",
         "releaseDate": "2017-06-13"
+      },
+      "details": {
+        "manufacturer": "JoBuilt",
+        "type": "CAR",
+        "seats": 5,
+        "doors": 2,
+        "wheels": 6,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.66,
+            "y": -4.573,
+            "z": -1.129
+          },
+          "max": {
+            "x": 1.66,
+            "y": 4.733,
+            "z": 3.302
+          },
+          "length": 9.306,
+          "width": 3.32,
+          "height": 4.431,
+          "boundingRadius": 5.341
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 13,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_HAS_BULLET_RESISTANT_GLASS",
+          "FLAG_BIG",
+          "FLAG_CAN_HONK_WHEN_FLEEING",
+          "FLAG_AVOID_TURNS",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_ATTACH_TRAILER_ON_HIGHWAY",
+          "FLAG_USE_STRICTER_EXIT_COLLISION_TESTS",
+          "FLAG_HAS_EXTRA_SHUFFLE_SEAT_ON_VEHICLE",
+          "FLAG_DONT_HOLD_LOW_GEARS_WHEN_ENGINE_UNDER_LOAD"
+        ]
       },
       "stats": {
         "handlingId": "PHANTOM3",
@@ -554,6 +2127,59 @@
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
       },
+      "details": {
+        "manufacturer": "JoBuilt",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 6,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.537,
+            "y": -4.573,
+            "z": -1.129
+          },
+          "max": {
+            "x": 1.537,
+            "y": 4.733,
+            "z": 3.302
+          },
+          "length": 9.306,
+          "width": 3.073,
+          "height": 4.431,
+          "boundingRadius": 5.348
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 160,
+            "pearl": 27,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_CAN_HONK_WHEN_FLEEING",
+          "FLAG_AVOID_TURNS",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_ATTACH_TRAILER_ON_HIGHWAY",
+          "FLAG_USE_STRICTER_EXIT_COLLISION_TESTS"
+        ]
+      },
       "stats": {
         "handlingId": "PHANTOM",
         "mass": 12000,
@@ -584,6 +2210,100 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "MTL",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 4,
+        "wheels": 6,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.537,
+            "y": -8.203,
+            "z": -1.117
+          },
+          "max": {
+            "x": 1.535,
+            "y": 4.511,
+            "z": 3.471
+          },
+          "length": 12.714,
+          "width": 3.072,
+          "height": 4.588,
+          "boundingRadius": 6.998
+        },
+        "defaultColors": [
+          {
+            "primary": 9,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 43,
+            "secondary": 43,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 3,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 24,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_DELIVERY",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_USE_FAT_INTERIOR_LIGHT",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO"
+        ]
       },
       "stats": {
         "handlingId": "POUNDER",
@@ -616,6 +2336,138 @@
         "name": "After Hours",
         "releaseDate": "2018-07-24"
       },
+      "details": {
+        "manufacturer": "MTL",
+        "type": "CAR",
+        "seats": 8,
+        "doors": 4,
+        "wheels": 6,
+        "modKits": [
+          "301_pounder2_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_POUNDER2_MINI",
+          "VEHICLE_WEAPON_POUNDER2_MISSILE",
+          "VEHICLE_WEAPON_POUNDER2_BARRAGE",
+          "VEHICLE_WEAPON_POUNDER2_GL"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -2.218,
+            "y": -8.203,
+            "z": -1.118
+          },
+          "max": {
+            "x": 2.202,
+            "y": 5.146,
+            "z": 3.944
+          },
+          "length": 13.349,
+          "width": 4.42,
+          "height": 5.062,
+          "boundingRadius": 7.006
+        },
+        "defaultColors": [
+          {
+            "primary": 66,
+            "secondary": 32,
+            "pearl": 7,
+            "wheels": 159,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 12,
+            "secondary": 12,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 30,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 33,
+            "secondary": 111,
+            "pearl": 38,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 90,
+            "secondary": 112,
+            "pearl": 38,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 53,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 82,
+            "secondary": 5,
+            "pearl": 68,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 55,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 94,
+            "secondary": 6,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_DELIVERY",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_USE_FAT_INTERIOR_LIGHT",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_TURRET_MODS_ON_ROOF",
+          "FLAG_THIRD_TURRET_MOD",
+          "FLAG_USE_TURRET_RELATIVE_AIM_CALCULATION",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_HAS_INCREASED_RAMMING_FORCE_WITH_CHASSIS_MOD"
+        ]
+      },
       "stats": {
         "handlingId": "POUNDER2",
         "mass": 5500,
@@ -646,6 +2498,62 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "Brute",
+        "type": "CAR",
+        "seats": 8,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.364,
+            "y": -3.908,
+            "z": -0.629
+          },
+          "max": {
+            "x": 1.364,
+            "y": 3.444,
+            "z": 2.324
+          },
+          "length": 7.352,
+          "width": 2.728,
+          "height": 2.954,
+          "boundingRadius": 4.158
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 125,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_DELIVERY",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_DAMPEN_STICKBOMB_DAMAGE",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_USE_FAT_INTERIOR_LIGHT",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_FLEE_FROM_COMBAT"
+        ]
       },
       "stats": {
         "handlingId": "stockade",
@@ -678,6 +2586,61 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": "Brute",
+        "type": "CAR",
+        "seats": 8,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.364,
+            "y": -3.928,
+            "z": -0.629
+          },
+          "max": {
+            "x": 1.364,
+            "y": 3.444,
+            "z": 2.484
+          },
+          "length": 7.372,
+          "width": 2.728,
+          "height": 3.113,
+          "boundingRadius": 4.195
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_DELIVERY",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_DAMPEN_STICKBOMB_DAMAGE",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_USE_FAT_INTERIOR_LIGHT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO"
+        ]
+      },
       "stats": {
         "handlingId": "stockade",
         "mass": 6500,
@@ -709,6 +2672,62 @@
         "name": "Money Fronts",
         "releaseDate": "2025-06-17"
       },
+      "details": {
+        "manufacturer": "Brute",
+        "type": "CAR",
+        "seats": 8,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.364,
+            "y": -3.928,
+            "z": -0.629
+          },
+          "max": {
+            "x": 1.364,
+            "y": 3.444,
+            "z": 2.475
+          },
+          "length": 7.372,
+          "width": 2.728,
+          "height": 3.104,
+          "boundingRadius": 4.157
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 125,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_DELIVERY",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_DAMPEN_STICKBOMB_DAMAGE",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_USE_FAT_INTERIOR_LIGHT",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_FLEE_FROM_COMBAT"
+        ]
+      },
       "stats": {
         "handlingId": "stockade",
         "mass": 6500,
@@ -739,6 +2758,132 @@
         "id": "mpbattle",
         "name": "After Hours",
         "releaseDate": "2018-07-24"
+      },
+      "details": {
+        "manufacturer": "Benefactor",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 6,
+        "modKits": [
+          "591_terbyte_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_HACKER_MISSILE",
+          "VEHICLE_WEAPON_HACKER_MISSILE_HOMING"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.527,
+            "y": -7.046,
+            "z": -1.119
+          },
+          "max": {
+            "x": 1.527,
+            "y": 5.695,
+            "z": 2.717
+          },
+          "length": 12.742,
+          "width": 3.053,
+          "height": 3.836,
+          "boundingRadius": 6.733
+        },
+        "defaultColors": [
+          {
+            "primary": 66,
+            "secondary": 32,
+            "pearl": 7,
+            "wheels": 159,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 12,
+            "secondary": 12,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 30,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 33,
+            "secondary": 111,
+            "pearl": 38,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 90,
+            "secondary": 112,
+            "pearl": 38,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 53,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 82,
+            "secondary": 5,
+            "pearl": 68,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 55,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 94,
+            "secondary": 6,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_DELIVERY",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_USE_FAT_INTERIOR_LIGHT",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_CREATE_WEAPON_MANAGER_ON_SPAWN",
+          "FLAG_HAS_CAPPED_EXPLOSION_DAMAGE"
+        ]
       },
       "stats": {
         "handlingId": "TERRORBYTE",

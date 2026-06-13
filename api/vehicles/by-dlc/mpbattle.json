@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "id": "mpbattle",
@@ -28,6 +28,97 @@
         "id": "mpbattle",
         "name": "After Hours",
         "releaseDate": "2018-07-24"
+      },
+      "details": {
+        "manufacturer": "Enus",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "310_stafford_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.999,
+            "y": -3.013,
+            "z": -0.514
+          },
+          "max": {
+            "x": 0.999,
+            "y": 2.456,
+            "z": 1.17
+          },
+          "length": 5.469,
+          "width": 1.998,
+          "height": 1.684,
+          "boundingRadius": 2.946
+        },
+        "defaultColors": [
+          {
+            "primary": 34,
+            "secondary": 107,
+            "pearl": 7,
+            "wheels": 159,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 8,
+            "secondary": 113,
+            "pearl": 7,
+            "wheels": 159,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 7,
+            "secondary": 4,
+            "pearl": 7,
+            "wheels": 159,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 22,
+            "secondary": 4,
+            "pearl": 7,
+            "wheels": 159,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 50,
+            "secondary": 52,
+            "pearl": 7,
+            "wheels": 159,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 62,
+            "secondary": 4,
+            "pearl": 7,
+            "wheels": 159,
+            "interior": 8,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_HAS_TWO_BONNET_BONES"
+        ]
       },
       "stats": {
         "handlingId": "STAFFORD",
@@ -60,6 +151,90 @@
         "name": "After Hours",
         "releaseDate": "2018-07-24"
       },
+      "details": {
+        "manufacturer": "Mammoth",
+        "type": "CAR",
+        "seats": 6,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "306_patriot2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.133,
+            "y": -3.268,
+            "z": -0.746
+          },
+          "max": {
+            "x": 1.133,
+            "y": 3.814,
+            "z": 1.485
+          },
+          "length": 7.082,
+          "width": 2.267,
+          "height": 2.23,
+          "boundingRadius": 3.832
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 73,
+            "secondary": 0,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 73,
+            "dashboard": 0
+          },
+          {
+            "primary": 2,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 0
+          },
+          {
+            "primary": 34,
+            "secondary": 0,
+            "pearl": 30,
+            "wheels": 0,
+            "interior": 34,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PARKING_SENSORS",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY"
+        ]
+      },
       "stats": {
         "handlingId": "PATRIOT2",
         "mass": 5500,
@@ -90,6 +265,59 @@
         "id": "mpbattle",
         "name": "After Hours",
         "releaseDate": "2018-07-24"
+      },
+      "details": {
+        "manufacturer": "Ocelot",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "305_swinger_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.979,
+            "y": -2.308,
+            "z": -0.375
+          },
+          "max": {
+            "x": 0.979,
+            "y": 2.201,
+            "z": 0.68
+          },
+          "length": 4.509,
+          "width": 1.958,
+          "height": 1.056,
+          "boundingRadius": 3.045
+        },
+        "defaultColors": [
+          {
+            "primary": 50,
+            "secondary": 4,
+            "pearl": 52,
+            "wheels": 4,
+            "interior": 4,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN",
+          "FLAG_NO_HEAVY_BRAKE_ANIMATION"
+        ]
       },
       "stats": {
         "handlingId": "SWINGER",
@@ -122,6 +350,129 @@
         "name": "After Hours",
         "releaseDate": "2018-07-24"
       },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "314_scramjet_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SCRAMJET_MG",
+          "VEHICLE_WEAPON_SCRAMJET_MISSILE"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.96,
+            "y": -2.231,
+            "z": -0.357
+          },
+          "max": {
+            "x": 0.96,
+            "y": 2.561,
+            "z": 0.652
+          },
+          "length": 4.792,
+          "width": 1.919,
+          "height": 1.008,
+          "boundingRadius": 2.629
+        },
+        "defaultColors": [
+          {
+            "primary": 66,
+            "secondary": 32,
+            "pearl": 7,
+            "wheels": 159,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 12,
+            "secondary": 12,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 30,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 33,
+            "secondary": 111,
+            "pearl": 38,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 90,
+            "secondary": 112,
+            "pearl": 38,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 53,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 82,
+            "secondary": 5,
+            "pearl": 68,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 55,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 94,
+            "secondary": 6,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_RICH_CAR",
+          "FLAG_SPORTS",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_ROCKET_BOOST",
+          "FLAG_JUMPING_CAR",
+          "FLAG_NO_HEAVY_BRAKE_ANIMATION"
+        ]
+      },
       "stats": {
         "handlingId": "SCRAMJET",
         "mass": 1600,
@@ -152,6 +503,129 @@
         "id": "mpbattle",
         "name": "After Hours",
         "releaseDate": "2018-07-24"
+      },
+      "details": {
+        "manufacturer": "Pegassi",
+        "type": "BIKE",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "309_oppressor2_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_OPPRESSOR2_MG",
+          "VEHICLE_WEAPON_OPPRESSOR2_CANNON",
+          "VEHICLE_WEAPON_OPPRESSOR2_MISSILE"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.69,
+            "y": -1.284,
+            "z": -0.498
+          },
+          "max": {
+            "x": 0.69,
+            "y": 1.044,
+            "z": 1.225
+          },
+          "length": 2.328,
+          "width": 1.379,
+          "height": 1.723,
+          "boundingRadius": 1.382
+        },
+        "defaultColors": [
+          {
+            "primary": 12,
+            "secondary": 12,
+            "pearl": 12,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 11,
+            "secondary": 0,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 88,
+            "secondary": 0,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 112,
+            "secondary": 112,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 95,
+            "secondary": 112,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 62,
+            "secondary": 0,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 49,
+            "secondary": 0,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 38,
+            "secondary": 88,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 135,
+            "secondary": 74,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_HAS_ROCKET_BOOST",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_USE_ROOT_AS_BASE_LOCKON_POS"
+        ]
       },
       "stats": {
         "handlingId": "OPPRESSOR2",
@@ -184,6 +658,59 @@
         "name": "After Hours",
         "releaseDate": "2018-07-24"
       },
+      "details": {
+        "manufacturer": "Canis",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "311_freecrawler_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.04,
+            "y": -2.234,
+            "z": -0.58
+          },
+          "max": {
+            "x": 1.04,
+            "y": 2.303,
+            "z": 1.527
+          },
+          "length": 4.537,
+          "width": 2.08,
+          "height": 2.107,
+          "boundingRadius": 2.64
+        },
+        "defaultColors": [
+          {
+            "primary": 5,
+            "secondary": 2,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_IS_BULKY",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
+      },
       "stats": {
         "handlingId": "FREECRAWLER",
         "mass": 2000,
@@ -214,6 +741,96 @@
         "id": "mpbattle",
         "name": "After Hours",
         "releaseDate": "2018-07-24"
+      },
+      "details": {
+        "manufacturer": "HVY",
+        "type": "CAR",
+        "seats": 5,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "307_menacer_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_TURRET_INSURGENT",
+          "VEHICLE_WEAPON_INSURGENT_MINIGUN",
+          "VEHICLE_WEAPON_MENACER_MG"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.447,
+            "y": -2.688,
+            "z": -0.684
+          },
+          "max": {
+            "x": 1.447,
+            "y": 2.756,
+            "z": 2.14
+          },
+          "length": 5.444,
+          "width": 2.895,
+          "height": 2.824,
+          "boundingRadius": 3.373
+        },
+        "defaultColors": [
+          {
+            "primary": 121,
+            "secondary": 2,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 1,
+            "secondary": 7,
+            "pearl": 14,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 98,
+            "secondary": 21,
+            "pearl": 14,
+            "wheels": 1,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 107,
+            "secondary": 27,
+            "pearl": 67,
+            "wheels": 111,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_IS_BULKY",
+          "FLAG_HAS_TURRET_SEAT_ON_VEHICLE",
+          "FLAG_CONSIDERED_FOR_VEHICLE_ENTRY_WHEN_STOOD_ON",
+          "FLAG_EXTRAS_ONLY_BREAK_WHEN_DESTROYED",
+          "FLAG_PREFER_ENTER_TURRET_AFTER_DRIVER",
+          "FLAG_HAS_DIRECTIONAL_SHUFFLES",
+          "FLAG_USE_SMALLER_OPEN_DOOR_RATIO_TOLERANCE",
+          "FLAG_DONT_STOP_WHEN_GOING_TO_CLIMB_UP_POINT",
+          "FLAG_DISABLE_BUSTING",
+          "FLAG_DONT_LINK_BOOT2",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING"
+        ]
       },
       "stats": {
         "handlingId": "MENACER",
@@ -246,6 +863,68 @@
         "name": "After Hours",
         "releaseDate": "2018-07-24"
       },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "303_speedo4_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SPEEDO4_MG",
+          "VEHICLE_WEAPON_SPEEDO4_TURRET_MG",
+          "VEHICLE_WEAPON_SPEEDO4_TURRET_MINI"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.173,
+            "y": -2.874,
+            "z": -0.752
+          },
+          "max": {
+            "x": 1.173,
+            "y": 3.509,
+            "z": 1.822
+          },
+          "length": 6.383,
+          "width": 2.346,
+          "height": 2.574,
+          "boundingRadius": 2.993
+        },
+        "defaultColors": [
+          {
+            "primary": 5,
+            "secondary": 2,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SMALL_WORKER",
+          "FLAG_IS_VAN",
+          "FLAG_DELIVERY",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_IS_BULKY",
+          "FLAG_TURRET_MODS_ON_ROOF",
+          "FLAG_CARGOBOB_HOOK_UP_CHASSIS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_KEEP_ALL_TURRETS_SYNCHRONISED",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS",
+          "FLAG_HAS_INCREASED_RAMMING_FORCE_WITH_CHASSIS_MOD"
+        ]
+      },
       "stats": {
         "handlingId": "SPEEDO4",
         "mass": 2500,
@@ -276,6 +955,85 @@
         "id": "mpbattle",
         "name": "After Hours",
         "releaseDate": "2018-07-24"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "BLIMP",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 3,
+        "modKits": [
+          "304_blimp3_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -7.736,
+            "y": -35.735,
+            "z": -3.286
+          },
+          "max": {
+            "x": 7.67,
+            "y": 23.777,
+            "z": 14.114
+          },
+          "length": 59.512,
+          "width": 15.406,
+          "height": 17.4,
+          "boundingRadius": 31.231
+        },
+        "defaultColors": [
+          {
+            "primary": 124,
+            "secondary": 124,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 87,
+            "secondary": 81,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 40,
+            "secondary": 44,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 25,
+            "secondary": 24,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS"
+        ]
       },
       "stats": {
         "handlingId": "BLIMP",
@@ -308,6 +1066,68 @@
         "name": "After Hours",
         "releaseDate": "2018-07-24"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "PLANE",
+        "seats": 1,
+        "doors": 3,
+        "wheels": 3,
+        "modKits": [
+          "308_strikeforce_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_STRIKEFORCE_CANNON",
+          "VEHICLE_WEAPON_STRIKEFORCE_MISSILE",
+          "VEHICLE_WEAPON_STRIKEFORCE_BARRAGE"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -7.432,
+            "y": -6.907,
+            "z": -1.867
+          },
+          "max": {
+            "x": 7.432,
+            "y": 6.725,
+            "z": 2.233
+          },
+          "length": 13.632,
+          "width": 14.864,
+          "height": 4.099,
+          "boundingRadius": 10.121
+        },
+        "defaultColors": [
+          {
+            "primary": 121,
+            "secondary": 121,
+            "pearl": 8,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_DISABLE_WEAPON_WHEEL_IN_FIRST_PERSON",
+          "FLAG_USE_WEAPON_WHEEL_WITHOUT_HELMET",
+          "FLAG_USE_PILOT_HELMET",
+          "FLAG_HAS_EJECTOR_SEATS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING"
+        ]
+      },
       "stats": {
         "handlingId": "STRIKEFORCE",
         "mass": 14000,
@@ -338,6 +1158,61 @@
         "id": "mpbattle",
         "name": "After Hours",
         "releaseDate": "2018-07-24"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 11,
+        "doors": 3,
+        "wheels": 4,
+        "modKits": [
+          "313_pbus2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": true,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -2.132,
+            "y": -7.414,
+            "z": -1.284
+          },
+          "max": {
+            "x": 2.49,
+            "y": 4.386,
+            "z": 9.458
+          },
+          "length": 11.8,
+          "width": 4.622,
+          "height": 10.741,
+          "boundingRadius": 8.271
+        },
+        "defaultColors": [
+          {
+            "primary": 12,
+            "secondary": 12,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_ALL",
+          "FLAG_BIG",
+          "FLAG_AVOID_TURNS",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_USE_FAT_INTERIOR_LIGHT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_USE_FULL_ANIMS_FOR_MP_WARP_ENTRY_POINTS"
+        ]
       },
       "stats": {
         "handlingId": "PBUS2",
@@ -370,6 +1245,69 @@
         "name": "After Hours",
         "releaseDate": "2018-07-24"
       },
+      "details": {
+        "manufacturer": "Maibatsu",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "302_mule4_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_MULE4_MG",
+          "VEHICLE_WEAPON_MULE4_MISSILE",
+          "VEHICLE_WEAPON_MULE4_TURRET_GL"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -2.133,
+            "y": -4.258,
+            "z": -1.255
+          },
+          "max": {
+            "x": 2.08,
+            "y": 4.444,
+            "z": 2.948
+          },
+          "length": 8.702,
+          "width": 4.213,
+          "height": 4.203,
+          "boundingRadius": 4.601
+        },
+        "defaultColors": [
+          {
+            "primary": 5,
+            "secondary": 2,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_DELIVERY",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_INTERIOR_BLOCKED_BY_BOOT",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS",
+          "FLAG_TURRET_MODS_ON_ROOF",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_TURRET_MOD_WITH_NO_STOCK_TURRET",
+          "FLAG_HAS_INCREASED_RAMMING_FORCE_WITH_CHASSIS_MOD"
+        ]
+      },
       "stats": {
         "handlingId": "MULE4",
         "mass": 6000,
@@ -401,6 +1339,138 @@
         "name": "After Hours",
         "releaseDate": "2018-07-24"
       },
+      "details": {
+        "manufacturer": "MTL",
+        "type": "CAR",
+        "seats": 8,
+        "doors": 4,
+        "wheels": 6,
+        "modKits": [
+          "301_pounder2_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_POUNDER2_MINI",
+          "VEHICLE_WEAPON_POUNDER2_MISSILE",
+          "VEHICLE_WEAPON_POUNDER2_BARRAGE",
+          "VEHICLE_WEAPON_POUNDER2_GL"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -2.218,
+            "y": -8.203,
+            "z": -1.118
+          },
+          "max": {
+            "x": 2.202,
+            "y": 5.146,
+            "z": 3.944
+          },
+          "length": 13.349,
+          "width": 4.42,
+          "height": 5.062,
+          "boundingRadius": 7.006
+        },
+        "defaultColors": [
+          {
+            "primary": 66,
+            "secondary": 32,
+            "pearl": 7,
+            "wheels": 159,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 12,
+            "secondary": 12,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 30,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 33,
+            "secondary": 111,
+            "pearl": 38,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 90,
+            "secondary": 112,
+            "pearl": 38,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 53,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 82,
+            "secondary": 5,
+            "pearl": 68,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 55,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 94,
+            "secondary": 6,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_DELIVERY",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_USE_FAT_INTERIOR_LIGHT",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_TURRET_MODS_ON_ROOF",
+          "FLAG_THIRD_TURRET_MOD",
+          "FLAG_USE_TURRET_RELATIVE_AIM_CALCULATION",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_HAS_INCREASED_RAMMING_FORCE_WITH_CHASSIS_MOD"
+        ]
+      },
       "stats": {
         "handlingId": "POUNDER2",
         "mass": 5500,
@@ -431,6 +1501,132 @@
         "id": "mpbattle",
         "name": "After Hours",
         "releaseDate": "2018-07-24"
+      },
+      "details": {
+        "manufacturer": "Benefactor",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 6,
+        "modKits": [
+          "591_terbyte_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_HACKER_MISSILE",
+          "VEHICLE_WEAPON_HACKER_MISSILE_HOMING"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.527,
+            "y": -7.046,
+            "z": -1.119
+          },
+          "max": {
+            "x": 1.527,
+            "y": 5.695,
+            "z": 2.717
+          },
+          "length": 12.742,
+          "width": 3.053,
+          "height": 3.836,
+          "boundingRadius": 6.733
+        },
+        "defaultColors": [
+          {
+            "primary": 66,
+            "secondary": 32,
+            "pearl": 7,
+            "wheels": 159,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 12,
+            "secondary": 12,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 30,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 33,
+            "secondary": 111,
+            "pearl": 38,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 90,
+            "secondary": 112,
+            "pearl": 38,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 53,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 82,
+            "secondary": 5,
+            "pearl": 68,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 55,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 94,
+            "secondary": 6,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_DELIVERY",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_USE_FAT_INTERIOR_LIGHT",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_CREATE_WEAPON_MANAGER_ON_SPAWN",
+          "FLAG_HAS_CAPPED_EXPLOSION_DAMAGE"
+        ]
       },
       "stats": {
         "handlingId": "TERRORBYTE",

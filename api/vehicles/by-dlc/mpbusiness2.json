@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "id": "mpbusiness2",
@@ -28,6 +28,170 @@
         "id": "mpbusiness2",
         "name": "The High Life Update",
         "releaseDate": "2014-05-13"
+      },
+      "details": {
+        "manufacturer": "Enus",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "90_huntley_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1,
+            "y": -2.314,
+            "z": -0.347
+          },
+          "max": {
+            "x": 1,
+            "y": 2.402,
+            "z": 1.32
+          },
+          "length": 4.716,
+          "width": 2,
+          "height": 1.667,
+          "boundingRadius": 2.628
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 1,
+            "secondary": 1,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 2,
+            "secondary": 2,
+            "pearl": 7,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 3,
+            "secondary": 3,
+            "pearl": 23,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 4,
+            "secondary": 4,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 5,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 73,
+            "secondary": 73,
+            "pearl": 74,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 34,
+            "secondary": 34,
+            "pearl": 44,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 31,
+            "secondary": 31,
+            "pearl": 36,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 71,
+            "secondary": 71,
+            "pearl": 74,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 66,
+            "secondary": 66,
+            "pearl": 67,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 5,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 11,
+            "secondary": 11,
+            "pearl": 6,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_PARKING_SENSORS",
+          "FLAG_RICH_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
       },
       "stats": {
         "handlingId": "huntley",
@@ -60,6 +224,154 @@
         "name": "The High Life Update",
         "releaseDate": "2014-05-13"
       },
+      "details": {
+        "manufacturer": "Dewbauchee",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "87_massacaro_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.981,
+            "y": -2.346,
+            "z": -0.42
+          },
+          "max": {
+            "x": 0.97,
+            "y": 2.4,
+            "z": 0.956
+          },
+          "length": 4.746,
+          "width": 1.951,
+          "height": 1.376,
+          "boundingRadius": 2.525
+        },
+        "defaultColors": [
+          {
+            "primary": 31,
+            "secondary": 31,
+            "pearl": 31,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 6,
+            "secondary": 6,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 63,
+            "secondary": 63,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 4,
+            "secondary": 4,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 72,
+            "secondary": 72,
+            "pearl": 65,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 30,
+            "secondary": 30,
+            "pearl": 36,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 1,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 2,
+            "secondary": 111,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 7,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 36,
+            "secondary": 0,
+            "pearl": 41,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 13,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
+      },
       "stats": {
         "handlingId": "massacro",
         "mass": 1700,
@@ -91,6 +403,130 @@
         "name": "The High Life Update",
         "releaseDate": "2014-05-13"
       },
+      "details": {
+        "manufacturer": "Pegassi",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "89_zentorno_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.198,
+            "y": -2.348,
+            "z": -0.604
+          },
+          "max": {
+            "x": 1.198,
+            "y": 2.538,
+            "z": 0.636
+          },
+          "length": 4.886,
+          "width": 2.395,
+          "height": 1.241,
+          "boundingRadius": 2.619
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 41,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 1,
+            "secondary": 41,
+            "pearl": 7,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 4,
+            "secondary": 41,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 41,
+            "pearl": 70,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 3,
+            "secondary": 41,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 75,
+            "secondary": 41,
+            "pearl": 68,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 41,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 29,
+            "secondary": 41,
+            "pearl": 37,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 36,
+            "secondary": 41,
+            "pearl": 37,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 89,
+            "secondary": 41,
+            "pearl": 91,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
+      },
       "stats": {
         "handlingId": "zentorno",
         "mass": 1500,
@@ -121,6 +557,121 @@
         "id": "mpbusiness2",
         "name": "The High Life Update",
         "releaseDate": "2014-05-13"
+      },
+      "details": {
+        "manufacturer": "Dinka",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "96_thrust_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.457,
+            "y": -1.335,
+            "z": -0.372
+          },
+          "max": {
+            "x": 0.457,
+            "y": 1.148,
+            "z": 1.395
+          },
+          "length": 2.483,
+          "width": 0.915,
+          "height": 1.766,
+          "boundingRadius": 1.349
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 156,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 149,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 131,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 107,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 88,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 82,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 72,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
       },
       "stats": {
         "handlingId": "THRUST",

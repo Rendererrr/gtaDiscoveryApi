@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "id": "mpsum",
@@ -28,6 +28,100 @@
         "id": "mpsum",
         "name": "Los Santos Summer Special",
         "releaseDate": "2020-08-11"
+      },
+      "details": {
+        "manufacturer": "BF",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "418_club_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.95,
+            "y": -1.941,
+            "z": -0.319
+          },
+          "max": {
+            "x": 0.95,
+            "y": 1.94,
+            "z": 1.629
+          },
+          "length": 3.881,
+          "width": 1.901,
+          "height": 1.948,
+          "boundingRadius": 2.129
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 70,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 122,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 92,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 94,
+            "secondary": 0,
+            "pearl": 110,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD",
+          "FLAG_CARGOBOB_HOOK_UP_CHASSIS"
+        ]
       },
       "stats": {
         "handlingId": "CLUB",
@@ -60,6 +154,56 @@
         "name": "Los Santos Summer Special",
         "releaseDate": "2020-08-11"
       },
+      "details": {
+        "manufacturer": "Benefactor",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "425_glendale2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.909,
+            "y": -2.446,
+            "z": -0.606
+          },
+          "max": {
+            "x": 0.909,
+            "y": 2.431,
+            "z": 0.989
+          },
+          "length": 4.877,
+          "width": 1.819,
+          "height": 1.594,
+          "boundingRadius": 2.656
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 36,
+            "pearl": 4,
+            "wheels": 143,
+            "interior": 27,
+            "dashboard": 38
+          }
+        ],
+        "flags": [
+          "FLAG_HAS_LOWRIDER_HYDRAULICS",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_CARGOBOB_HOOK_UP_CHASSIS"
+        ]
+      },
       "stats": {
         "handlingId": "GLENDALE2",
         "mass": 1550,
@@ -90,6 +234,154 @@
         "id": "mpsum",
         "name": "Los Santos Summer Special",
         "releaseDate": "2020-08-11"
+      },
+      "details": {
+        "manufacturer": "Dundreary",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "429_landstalker2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.079,
+            "y": -2.845,
+            "z": -0.851
+          },
+          "max": {
+            "x": 1.079,
+            "y": 2.818,
+            "z": 1.282
+          },
+          "length": 5.663,
+          "width": 2.157,
+          "height": 2.133,
+          "boundingRadius": 3.116
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 120,
+            "pearl": 8,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 1,
+            "secondary": 120,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 4,
+            "secondary": 120,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 32,
+            "secondary": 120,
+            "pearl": 37,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 32,
+            "secondary": 120,
+            "pearl": 33,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 33,
+            "secondary": 120,
+            "pearl": 35,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 120,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 61,
+            "secondary": 120,
+            "pearl": 67,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 73,
+            "secondary": 120,
+            "pearl": 74,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 10,
+            "secondary": 120,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 120,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 120,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 2,
+            "secondary": 120,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_PARKING_SENSORS",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY",
+          "FLAG_CAN_HAVE_NEONS"
+        ]
       },
       "stats": {
         "handlingId": "LANDSTLKR2",
@@ -122,6 +414,61 @@
         "name": "Los Santos Summer Special",
         "releaseDate": "2020-08-11"
       },
+      "details": {
+        "manufacturer": "Canis",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "430_seminole2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.948,
+            "y": -2.291,
+            "z": -0.411
+          },
+          "max": {
+            "x": 0.948,
+            "y": 2.223,
+            "z": 1.422
+          },
+          "length": 4.514,
+          "width": 1.895,
+          "height": 1.833,
+          "boundingRadius": 2.476
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 13,
+            "pearl": 134,
+            "wheels": 13,
+            "interior": 13,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_IS_BULKY",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG"
+        ]
+      },
       "stats": {
         "handlingId": "SEMINOLE2",
         "mass": 2200,
@@ -152,6 +499,121 @@
         "id": "mpsum",
         "name": "Los Santos Summer Special",
         "releaseDate": "2020-08-11"
+      },
+      "details": {
+        "manufacturer": "Imponte",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "415_dukes3_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.027,
+            "y": -3.326,
+            "z": -0.584
+          },
+          "max": {
+            "x": 1.027,
+            "y": 2.56,
+            "z": 0.803
+          },
+          "length": 5.887,
+          "width": 2.054,
+          "height": 1.387,
+          "boundingRadius": 2.939
+        },
+        "defaultColors": [
+          {
+            "primary": 4,
+            "secondary": 120,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 12,
+            "secondary": 12,
+            "pearl": 134,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 26,
+            "secondary": 24,
+            "pearl": 26,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 36,
+            "secondary": 120,
+            "pearl": 36,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 48,
+            "secondary": 24,
+            "pearl": 48,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 53,
+            "secondary": 120,
+            "pearl": 53,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 63,
+            "secondary": 120,
+            "pearl": 63,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 90,
+            "secondary": 120,
+            "pearl": 90,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 138,
+            "secondary": 12,
+            "pearl": 138,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
       },
       "stats": {
         "handlingId": "DUKES3",
@@ -184,6 +646,59 @@
         "name": "Los Santos Summer Special",
         "releaseDate": "2020-08-11"
       },
+      "details": {
+        "manufacturer": "Bravado",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "419_gauntlet5_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.972,
+            "y": -2.98,
+            "z": -0.356
+          },
+          "max": {
+            "x": 0.972,
+            "y": 2.785,
+            "z": 1.162
+          },
+          "length": 5.764,
+          "width": 1.944,
+          "height": 1.518,
+          "boundingRadius": 2.783
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 13,
+            "pearl": 134,
+            "wheels": 13,
+            "interior": 13,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_SPORTS",
+          "FLAG_PARKING_SENSORS",
+          "FLAG_RICH_CAR",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
+      },
       "stats": {
         "handlingId": "GAUNTLET5",
         "mass": 1700,
@@ -214,6 +729,163 @@
         "id": "mpsum",
         "name": "Los Santos Summer Special",
         "releaseDate": "2020-08-11"
+      },
+      "details": {
+        "manufacturer": "Albany",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "391_manana2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.01,
+            "y": -2.949,
+            "z": -0.426
+          },
+          "max": {
+            "x": 1.01,
+            "y": 2.439,
+            "z": 0.808
+          },
+          "length": 5.388,
+          "width": 2.02,
+          "height": 1.233,
+          "boundingRadius": 2.916
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 3,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 21,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 34,
+            "secondary": 0,
+            "pearl": 33,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 52,
+            "secondary": 0,
+            "pearl": 52,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 68,
+            "secondary": 0,
+            "pearl": 68,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 106,
+            "secondary": 0,
+            "pearl": 106,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 105,
+            "secondary": 0,
+            "pearl": 105,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 54,
+            "secondary": 0,
+            "pearl": 54,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 6,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 107,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_CONVERTIBLE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_HAS_LOWRIDER_HYDRAULICS",
+          "FLAG_HAS_SUPERCHARGER"
+        ]
       },
       "stats": {
         "handlingId": "MANANA2",
@@ -246,6 +918,60 @@
         "name": "Los Santos Summer Special",
         "releaseDate": "2020-08-11"
       },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "424_peyote3_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.037,
+            "y": -3.104,
+            "z": -0.262
+          },
+          "max": {
+            "x": 1.037,
+            "y": 2.411,
+            "z": 1.493
+          },
+          "length": 5.515,
+          "width": 2.074,
+          "height": 1.755,
+          "boundingRadius": 2.829
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 27,
+            "pearl": 4,
+            "wheels": 141,
+            "interior": 1,
+            "dashboard": 38
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_HAS_LOWRIDER_HYDRAULICS",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_EXTRAS_CONVERTIBLE"
+        ]
+      },
       "stats": {
         "handlingId": "PEYOTE3",
         "mass": 2250,
@@ -276,6 +1002,83 @@
         "id": "mpsum",
         "name": "Los Santos Summer Special",
         "releaseDate": "2020-08-11"
+      },
+      "details": {
+        "manufacturer": "Invetero",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "433_coquette4_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.039,
+            "y": -2.321,
+            "z": -0.276
+          },
+          "max": {
+            "x": 1.039,
+            "y": 2.52,
+            "z": 1.014
+          },
+          "length": 4.841,
+          "width": 2.078,
+          "height": 1.29,
+          "boundingRadius": 2.62
+        },
+        "defaultColors": [
+          {
+            "primary": 29,
+            "secondary": 111,
+            "pearl": 29,
+            "wheels": 156,
+            "interior": 29,
+            "dashboard": 111
+          },
+          {
+            "primary": 38,
+            "secondary": 111,
+            "pearl": 88,
+            "wheels": 156,
+            "interior": 38,
+            "dashboard": 111
+          },
+          {
+            "primary": 73,
+            "secondary": 111,
+            "pearl": 74,
+            "wheels": 156,
+            "interior": 73,
+            "dashboard": 111
+          },
+          {
+            "primary": 89,
+            "secondary": 111,
+            "pearl": 36,
+            "wheels": 156,
+            "interior": 89,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_BOOT_IN_FRONT",
+          "FLAG_EXTRAS_STRONG"
+        ]
       },
       "stats": {
         "handlingId": "COQUETTE4",
@@ -308,6 +1111,163 @@
         "name": "Los Santos Summer Special",
         "releaseDate": "2020-08-11"
       },
+      "details": {
+        "manufacturer": "Maibatsu",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "428_penumbra2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.99,
+            "y": -2.508,
+            "z": -0.637
+          },
+          "max": {
+            "x": 0.99,
+            "y": 2.282,
+            "z": 0.848
+          },
+          "length": 4.79,
+          "width": 1.98,
+          "height": 1.485,
+          "boundingRadius": 3.626
+        },
+        "defaultColors": [
+          {
+            "primary": 4,
+            "secondary": 4,
+            "pearl": 134,
+            "wheels": 156,
+            "interior": 160,
+            "dashboard": 160
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 10,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 1,
+            "secondary": 1,
+            "pearl": 10,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 2,
+            "secondary": 2,
+            "pearl": 7,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 3,
+            "secondary": 3,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 6,
+            "secondary": 6,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 4,
+            "secondary": 4,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 61,
+            "secondary": 61,
+            "pearl": 67,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 32,
+            "secondary": 32,
+            "pearl": 28,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 27,
+            "secondary": 27,
+            "pearl": 36,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 64,
+            "secondary": 64,
+            "pearl": 54,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 5,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 6,
+            "secondary": 6,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
+      },
       "stats": {
         "handlingId": "PENUMBRA2",
         "mass": 1300,
@@ -338,6 +1298,94 @@
         "id": "mpsum",
         "name": "Los Santos Summer Special",
         "releaseDate": "2020-08-11"
+      },
+      "details": {
+        "manufacturer": "Lampadati",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "431_tigon_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.062,
+            "y": -2.364,
+            "z": -0.351
+          },
+          "max": {
+            "x": 1.064,
+            "y": 2.497,
+            "z": 0.887
+          },
+          "length": 4.86,
+          "width": 2.125,
+          "height": 1.238,
+          "boundingRadius": 2.58
+        },
+        "defaultColors": [
+          {
+            "primary": 10,
+            "secondary": 15,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 36,
+            "secondary": 61,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 18,
+            "secondary": 92,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 105,
+            "secondary": 93,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 126,
+            "secondary": 143,
+            "pearl": 129,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_USE_RESTRICTED_DRIVEBY_HEIGHT_MID_ONLY",
+          "FLAG_HAS_GULL_WING_DOORS"
+        ]
       },
       "stats": {
         "handlingId": "Tigon",
@@ -370,6 +1418,93 @@
         "name": "Los Santos Summer Special",
         "releaseDate": "2020-08-11"
       },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "422_yosemite3_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.042,
+            "y": -2.407,
+            "z": -0.406
+          },
+          "max": {
+            "x": 1.042,
+            "y": 2.339,
+            "z": 1.636
+          },
+          "length": 4.746,
+          "width": 2.083,
+          "height": 2.041,
+          "boundingRadius": 2.582
+        },
+        "defaultColors": [
+          {
+            "primary": 112,
+            "secondary": 1,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 34,
+            "secondary": 1,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 56,
+            "secondary": 1,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 70,
+            "secondary": 1,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 107,
+            "secondary": 120,
+            "pearl": 129,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_IS_BULKY",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_SPOILER_MOD_DOESNT_INCREASE_GRIP"
+        ]
+      },
       "stats": {
         "handlingId": "YOSEMITE3",
         "mass": 1400,
@@ -400,6 +1535,58 @@
         "id": "mpsum",
         "name": "Los Santos Summer Special",
         "releaseDate": "2020-08-11"
+      },
+      "details": {
+        "manufacturer": "Bravado",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "423_youga3_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.215,
+            "y": -2.393,
+            "z": -1.188
+          },
+          "max": {
+            "x": 1.15,
+            "y": 2.611,
+            "z": 1.418
+          },
+          "length": 5.003,
+          "width": 2.365,
+          "height": 2.607,
+          "boundingRadius": 2.829
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 43,
+            "interior": 43,
+            "dashboard": 43
+          }
+        ],
+        "flags": [
+          "FLAG_IS_VAN",
+          "FLAG_POOR_CAR",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_IS_BULKY",
+          "FLAG_CARGOBOB_HOOK_UP_CHASSIS"
+        ]
       },
       "stats": {
         "handlingId": "YOUGA3",
@@ -432,6 +1619,68 @@
         "name": "Los Santos Summer Special",
         "releaseDate": "2020-08-11"
       },
+      "details": {
+        "manufacturer": "Benefactor",
+        "type": "CAR",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [
+          "432_openwheel1_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": true
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.103,
+            "y": -2.477,
+            "z": -0.229
+          },
+          "max": {
+            "x": 1.126,
+            "y": 3.037,
+            "z": 0.959
+          },
+          "length": 5.514,
+          "width": 2.228,
+          "height": 1.188,
+          "boundingRadius": 2.893
+        },
+        "defaultColors": [
+          {
+            "primary": 62,
+            "secondary": 62,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 27,
+            "secondary": 27,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 8,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_ALL",
+          "FLAG_NO_BOOT",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_PEDS_INSIDE_CAN_BE_SET_ON_FIRE_MP",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_IS_FORMULA_VEHICLE"
+        ]
+      },
       "stats": {
         "handlingId": "OPENWHEEL1",
         "mass": 550,
@@ -462,6 +1711,68 @@
         "id": "mpsum",
         "name": "Los Santos Summer Special",
         "releaseDate": "2020-08-11"
+      },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [
+          "434_openwheel2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": true
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.026,
+            "y": -2.422,
+            "z": -0.279
+          },
+          "max": {
+            "x": 1.026,
+            "y": 2.817,
+            "z": 0.745
+          },
+          "length": 5.24,
+          "width": 2.052,
+          "height": 1.024,
+          "boundingRadius": 2.783
+        },
+        "defaultColors": [
+          {
+            "primary": 62,
+            "secondary": 62,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 27,
+            "secondary": 27,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 8,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_ALL",
+          "FLAG_NO_BOOT",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_PEDS_INSIDE_CAN_BE_SET_ON_FIRE_MP",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_IS_FORMULA_VEHICLE"
+        ]
       },
       "stats": {
         "handlingId": "OPENWHEEL2",

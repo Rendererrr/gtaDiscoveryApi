@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "id": "mplowrider2",
@@ -28,6 +28,58 @@
         "id": "mplowrider2",
         "name": "Lowriders: Custom Classics",
         "releaseDate": "2016-03-15"
+      },
+      "details": {
+        "manufacturer": "Willard",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "147_faction3_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.928,
+            "y": -2.587,
+            "z": -0.546
+          },
+          "max": {
+            "x": 0.928,
+            "y": 2.665,
+            "z": 1.283
+          },
+          "length": 5.252,
+          "width": 1.856,
+          "height": 1.829,
+          "boundingRadius": 2.843
+        },
+        "defaultColors": [
+          {
+            "primary": 142,
+            "secondary": 25,
+            "pearl": 81,
+            "wheels": 88,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_HAS_LOWRIDER_DONK_HYDRAULICS"
+        ]
       },
       "stats": {
         "handlingId": "FACTION3",
@@ -60,6 +112,58 @@
         "name": "Lowriders: Custom Classics",
         "releaseDate": "2016-03-15"
       },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "172_sab2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.991,
+            "y": -2.687,
+            "z": -0.45
+          },
+          "max": {
+            "x": 0.991,
+            "y": 2.464,
+            "z": 0.868
+          },
+          "length": 5.15,
+          "width": 1.981,
+          "height": 1.319,
+          "boundingRadius": 2.776
+        },
+        "defaultColors": [
+          {
+            "primary": 142,
+            "secondary": 25,
+            "pearl": 81,
+            "wheels": 88,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_HAS_LOWRIDER_HYDRAULICS"
+        ]
+      },
       "stats": {
         "handlingId": "SABREGT2",
         "mass": 1300,
@@ -90,6 +194,127 @@
         "id": "mplowrider2",
         "name": "Lowriders: Custom Classics",
         "releaseDate": "2016-03-15"
+      },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "171_slamvan3_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.161,
+            "y": -2.511,
+            "z": -0.454
+          },
+          "max": {
+            "x": 1.169,
+            "y": 2.401,
+            "z": 1.304
+          },
+          "length": 4.912,
+          "width": 2.33,
+          "height": 1.758,
+          "boundingRadius": 2.77
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 20,
+            "wheels": 156,
+            "interior": 26,
+            "dashboard": 0
+          },
+          {
+            "primary": 12,
+            "secondary": 13,
+            "pearl": 20,
+            "wheels": 156,
+            "interior": 26,
+            "dashboard": 0
+          },
+          {
+            "primary": 22,
+            "secondary": 23,
+            "pearl": 20,
+            "wheels": 156,
+            "interior": 26,
+            "dashboard": 0
+          },
+          {
+            "primary": 26,
+            "secondary": 26,
+            "pearl": 20,
+            "wheels": 156,
+            "interior": 26,
+            "dashboard": 0
+          },
+          {
+            "primary": 29,
+            "secondary": 29,
+            "pearl": 29,
+            "wheels": 156,
+            "interior": 26,
+            "dashboard": 0
+          },
+          {
+            "primary": 34,
+            "secondary": 34,
+            "pearl": 29,
+            "wheels": 156,
+            "interior": 26,
+            "dashboard": 0
+          },
+          {
+            "primary": 62,
+            "secondary": 62,
+            "pearl": 63,
+            "wheels": 156,
+            "interior": 26,
+            "dashboard": 0
+          },
+          {
+            "primary": 66,
+            "secondary": 66,
+            "pearl": 63,
+            "wheels": 156,
+            "interior": 26,
+            "dashboard": 0
+          },
+          {
+            "primary": 88,
+            "secondary": 66,
+            "pearl": 63,
+            "wheels": 156,
+            "interior": 26,
+            "dashboard": 0
+          },
+          {
+            "primary": 99,
+            "secondary": 95,
+            "pearl": 20,
+            "wheels": 156,
+            "interior": 26,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_USE_STRICTER_EXIT_COLLISION_TESTS",
+          "FLAG_HAS_LOWRIDER_HYDRAULICS"
+        ]
       },
       "stats": {
         "handlingId": "SLAMVAN3",
@@ -122,6 +347,58 @@
         "name": "Lowriders: Custom Classics",
         "releaseDate": "2016-03-15"
       },
+      "details": {
+        "manufacturer": "Dundreary",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "119_virgo2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.969,
+            "y": -2.895,
+            "z": -0.439
+          },
+          "max": {
+            "x": 0.969,
+            "y": 2.419,
+            "z": 0.824
+          },
+          "length": 5.314,
+          "width": 1.938,
+          "height": 1.263,
+          "boundingRadius": 2.863
+        },
+        "defaultColors": [
+          {
+            "primary": 142,
+            "secondary": 25,
+            "pearl": 81,
+            "wheels": 88,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_HAS_LOWRIDER_HYDRAULICS"
+        ]
+      },
       "stats": {
         "handlingId": "VIRGO2",
         "mass": 2300,
@@ -152,6 +429,57 @@
         "id": "mplowrider2",
         "name": "Lowriders: Custom Classics",
         "releaseDate": "2016-03-15"
+      },
+      "details": {
+        "manufacturer": "Dundreary",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.969,
+            "y": -2.895,
+            "z": -0.443
+          },
+          "max": {
+            "x": 0.969,
+            "y": 2.419,
+            "z": 0.807
+          },
+          "length": 5.314,
+          "width": 1.938,
+          "height": 1.25,
+          "boundingRadius": 2.863
+        },
+        "defaultColors": [
+          {
+            "primary": 142,
+            "secondary": 25,
+            "pearl": 81,
+            "wheels": 88,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS"
+        ]
       },
       "stats": {
         "handlingId": "VIRGO3",
@@ -184,6 +512,163 @@
         "name": "Lowriders: Custom Classics",
         "releaseDate": "2016-03-15"
       },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "113_tornado5_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": true,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.054,
+            "y": -2.886,
+            "z": -0.666
+          },
+          "max": {
+            "x": 1.054,
+            "y": 2.353,
+            "z": 0.763
+          },
+          "length": 5.239,
+          "width": 2.109,
+          "height": 1.429,
+          "boundingRadius": 2.782
+        },
+        "defaultColors": [
+          {
+            "primary": 1,
+            "secondary": 25,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 1,
+            "dashboard": 111
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 1,
+            "wheels": 156,
+            "interior": 1,
+            "dashboard": 111
+          },
+          {
+            "primary": 3,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 1,
+            "dashboard": 111
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 1,
+            "dashboard": 111
+          },
+          {
+            "primary": 32,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 1,
+            "dashboard": 111
+          },
+          {
+            "primary": 54,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 1,
+            "dashboard": 111
+          },
+          {
+            "primary": 68,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 1,
+            "dashboard": 111
+          },
+          {
+            "primary": 37,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 1,
+            "dashboard": 111
+          },
+          {
+            "primary": 106,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 1,
+            "dashboard": 111
+          },
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 1,
+            "dashboard": 111
+          },
+          {
+            "primary": 107,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 1,
+            "dashboard": 111
+          },
+          {
+            "primary": 7,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 1,
+            "dashboard": 111
+          },
+          {
+            "primary": 35,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 1,
+            "dashboard": 111
+          },
+          {
+            "primary": 52,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 1,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_HAS_LOWRIDER_HYDRAULICS",
+          "FLAG_HAS_LIVERY"
+        ]
+      },
       "stats": {
         "handlingId": "TORNADO5",
         "mass": 2200,
@@ -214,6 +699,60 @@
         "id": "mplowrider2",
         "name": "Lowriders: Custom Classics",
         "releaseDate": "2016-03-15"
+      },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "132_minivan2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.148,
+            "y": -2.644,
+            "z": -0.697
+          },
+          "max": {
+            "x": 1.146,
+            "y": 2.599,
+            "z": 1.068
+          },
+          "length": 5.243,
+          "width": 2.294,
+          "height": 1.764,
+          "boundingRadius": 2.945
+        },
+        "defaultColors": [
+          {
+            "primary": 70,
+            "secondary": 73,
+            "pearl": 73,
+            "wheels": 73,
+            "interior": 73,
+            "dashboard": 73
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_HAS_REAR_SEAT_ACTIVITIES",
+          "FLAG_HAS_LOWRIDER_HYDRAULICS"
+        ]
       },
       "stats": {
         "handlingId": "MINIVAN2",

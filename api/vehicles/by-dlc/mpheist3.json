@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "id": "mpheist3",
@@ -28,6 +28,91 @@
         "id": "mpheist3",
         "name": "The Diamond Casino Heist",
         "releaseDate": "2019-12-12"
+      },
+      "details": {
+        "manufacturer": "Maxwell",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "387_asbo_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.94,
+            "y": -2.027,
+            "z": -0.397
+          },
+          "max": {
+            "x": 0.94,
+            "y": 2.158,
+            "z": 1.363
+          },
+          "length": 4.185,
+          "width": 1.879,
+          "height": 1.759,
+          "boundingRadius": 2.285
+        },
+        "defaultColors": [
+          {
+            "primary": 5,
+            "secondary": 111,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 3,
+            "dashboard": 160
+          },
+          {
+            "primary": 29,
+            "secondary": 111,
+            "pearl": 138,
+            "wheels": 156,
+            "interior": 3,
+            "dashboard": 160
+          },
+          {
+            "primary": 53,
+            "secondary": 111,
+            "pearl": 138,
+            "wheels": 156,
+            "interior": 3,
+            "dashboard": 160
+          },
+          {
+            "primary": 70,
+            "secondary": 111,
+            "pearl": 138,
+            "wheels": 156,
+            "interior": 3,
+            "dashboard": 160
+          },
+          {
+            "primary": 88,
+            "secondary": 111,
+            "pearl": 138,
+            "wheels": 156,
+            "interior": 3,
+            "dashboard": 160
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD",
+          "FLAG_HAS_TWO_BONNET_BONES"
+        ]
       },
       "stats": {
         "handlingId": "ASBO",
@@ -60,6 +145,162 @@
         "name": "The Diamond Casino Heist",
         "releaseDate": "2019-12-12"
       },
+      "details": {
+        "manufacturer": "Dinka",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "385_kanjo_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.144,
+            "y": -2.337,
+            "z": -0.443
+          },
+          "max": {
+            "x": 1.14,
+            "y": 2.226,
+            "z": 1.377
+          },
+          "length": 4.563,
+          "width": 2.284,
+          "height": 1.82,
+          "boundingRadius": 2.38
+        },
+        "defaultColors": [
+          {
+            "primary": 4,
+            "secondary": 4,
+            "pearl": 134,
+            "wheels": 156,
+            "interior": 160,
+            "dashboard": 160
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 10,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 1,
+            "secondary": 1,
+            "pearl": 10,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 2,
+            "secondary": 2,
+            "pearl": 7,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 3,
+            "secondary": 3,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 6,
+            "secondary": 6,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 4,
+            "secondary": 4,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 61,
+            "secondary": 61,
+            "pearl": 67,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 32,
+            "secondary": 32,
+            "pearl": 28,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 27,
+            "secondary": 27,
+            "pearl": 36,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 64,
+            "secondary": 64,
+            "pearl": 54,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 5,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 6,
+            "secondary": 6,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
+      },
       "stats": {
         "handlingId": "KANJO",
         "mass": 1150,
@@ -90,6 +331,84 @@
         "id": "mpheist3",
         "name": "The Diamond Casino Heist",
         "releaseDate": "2019-12-12"
+      },
+      "details": {
+        "manufacturer": "Ubermacht",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "388_rebla_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.063,
+            "y": -2.581,
+            "z": -0.395
+          },
+          "max": {
+            "x": 1.063,
+            "y": 2.405,
+            "z": 1.429
+          },
+          "length": 4.986,
+          "width": 2.126,
+          "height": 1.824,
+          "boundingRadius": 2.811
+        },
+        "defaultColors": [
+          {
+            "primary": 3,
+            "secondary": 30,
+            "pearl": 4,
+            "wheels": 0,
+            "interior": 4,
+            "dashboard": 0
+          },
+          {
+            "primary": 6,
+            "secondary": 30,
+            "pearl": 4,
+            "wheels": 0,
+            "interior": 4,
+            "dashboard": 0
+          },
+          {
+            "primary": 22,
+            "secondary": 30,
+            "pearl": 4,
+            "wheels": 0,
+            "interior": 4,
+            "dashboard": 0
+          },
+          {
+            "primary": 65,
+            "secondary": 30,
+            "pearl": 4,
+            "wheels": 0,
+            "interior": 4,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_IS_BULKY",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
       },
       "stats": {
         "handlingId": "REBLA",
@@ -122,6 +441,88 @@
         "name": "The Diamond Casino Heist",
         "releaseDate": "2019-12-12"
       },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "414_yosemite2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.085,
+            "y": -2.597,
+            "z": -0.391
+          },
+          "max": {
+            "x": 1.085,
+            "y": 2.339,
+            "z": 1.133
+          },
+          "length": 4.936,
+          "width": 2.17,
+          "height": 1.524,
+          "boundingRadius": 2.752
+        },
+        "defaultColors": [
+          {
+            "primary": 112,
+            "secondary": 1,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 34,
+            "secondary": 1,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 56,
+            "secondary": 1,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 70,
+            "secondary": 1,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 107,
+            "secondary": 120,
+            "pearl": 129,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_ALL",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_USE_STRICTER_EXIT_COLLISION_TESTS"
+        ]
+      },
       "stats": {
         "handlingId": "YOSEMITE2",
         "mass": 1200,
@@ -152,6 +553,109 @@
         "id": "mpheist3",
         "name": "The Diamond Casino Heist",
         "releaseDate": "2019-12-12"
+      },
+      "details": {
+        "manufacturer": "Dewbauchee",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "404_jb7002_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_JB700_MG"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.878,
+            "y": -2.499,
+            "z": -0.554
+          },
+          "max": {
+            "x": 0.878,
+            "y": 2.088,
+            "z": 0.821
+          },
+          "length": 4.588,
+          "width": 1.757,
+          "height": 1.375,
+          "boundingRadius": 2.491
+        },
+        "defaultColors": [
+          {
+            "primary": 93,
+            "secondary": 146,
+            "pearl": 157,
+            "wheels": 143,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 16,
+            "secondary": 143,
+            "pearl": 144,
+            "wheels": 21,
+            "interior": 22,
+            "dashboard": 65
+          },
+          {
+            "primary": 27,
+            "secondary": 33,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 33,
+            "dashboard": 65
+          },
+          {
+            "primary": 112,
+            "secondary": 70,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 28,
+            "secondary": 1,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 116,
+            "dashboard": 65
+          },
+          {
+            "primary": 88,
+            "secondary": 1,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 116,
+            "dashboard": 65
+          },
+          {
+            "primary": 4,
+            "secondary": 1,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 116,
+            "dashboard": 65
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING"
+        ]
       },
       "stats": {
         "handlingId": "JB7002",
@@ -184,6 +688,90 @@
         "name": "The Diamond Casino Heist",
         "releaseDate": "2019-12-12"
       },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "410_retinue2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.878,
+            "y": -2.387,
+            "z": -0.372
+          },
+          "max": {
+            "x": 0.878,
+            "y": 1.939,
+            "z": 1.083
+          },
+          "length": 4.326,
+          "width": 1.757,
+          "height": 1.455,
+          "boundingRadius": 2.333
+        },
+        "defaultColors": [
+          {
+            "primary": 5,
+            "secondary": 111,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 3,
+            "dashboard": 160
+          },
+          {
+            "primary": 29,
+            "secondary": 111,
+            "pearl": 138,
+            "wheels": 156,
+            "interior": 3,
+            "dashboard": 160
+          },
+          {
+            "primary": 53,
+            "secondary": 111,
+            "pearl": 138,
+            "wheels": 156,
+            "interior": 3,
+            "dashboard": 160
+          },
+          {
+            "primary": 70,
+            "secondary": 111,
+            "pearl": 138,
+            "wheels": 156,
+            "interior": 3,
+            "dashboard": 160
+          },
+          {
+            "primary": 88,
+            "secondary": 111,
+            "pearl": 138,
+            "wheels": 156,
+            "interior": 3,
+            "dashboard": 160
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
+      },
       "stats": {
         "handlingId": "RETINUE2",
         "mass": 950,
@@ -214,6 +802,76 @@
         "id": "mpheist3",
         "name": "The Diamond Casino Heist",
         "releaseDate": "2019-12-12"
+      },
+      "details": {
+        "manufacturer": "Overflod",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "386_imorgon_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.007,
+            "y": -2.192,
+            "z": -0.764
+          },
+          "max": {
+            "x": 1.007,
+            "y": 2.543,
+            "z": 0.647
+          },
+          "length": 4.735,
+          "width": 2.013,
+          "height": 1.411,
+          "boundingRadius": 2.524
+        },
+        "defaultColors": [
+          {
+            "primary": 41,
+            "secondary": 0,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 131,
+            "dashboard": 1
+          },
+          {
+            "primary": 34,
+            "secondary": 1,
+            "pearl": 44,
+            "wheels": 147,
+            "interior": 21,
+            "dashboard": 0
+          },
+          {
+            "primary": 93,
+            "secondary": 17,
+            "pearl": 77,
+            "wheels": 156,
+            "interior": 4,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD",
+          "FLAG_IS_ELECTRIC"
+        ]
       },
       "stats": {
         "handlingId": "IMORGON",
@@ -246,6 +904,57 @@
         "name": "The Diamond Casino Heist",
         "releaseDate": "2019-12-12"
       },
+      "details": {
+        "manufacturer": "Lampadati",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "389_komoda_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.996,
+            "y": -2.449,
+            "z": -0.367
+          },
+          "max": {
+            "x": 0.996,
+            "y": 2.317,
+            "z": 1.094
+          },
+          "length": 4.767,
+          "width": 1.992,
+          "height": 1.462,
+          "boundingRadius": 2.583
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 27,
+            "pearl": 4,
+            "wheels": 0,
+            "interior": 4,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS"
+        ]
+      },
       "stats": {
         "handlingId": "KOMODA",
         "mass": 1575,
@@ -276,6 +985,81 @@
         "id": "mpheist3",
         "name": "The Diamond Casino Heist",
         "releaseDate": "2019-12-12"
+      },
+      "details": {
+        "manufacturer": "Dinka",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "390_Sugoi_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.002,
+            "y": -2.453,
+            "z": -0.336
+          },
+          "max": {
+            "x": 0.994,
+            "y": 2.45,
+            "z": 1.292
+          },
+          "length": 4.903,
+          "width": 1.995,
+          "height": 1.628,
+          "boundingRadius": 2.602
+        },
+        "defaultColors": [
+          {
+            "primary": 146,
+            "secondary": 31,
+            "pearl": 4,
+            "wheels": 0,
+            "interior": 4,
+            "dashboard": 0
+          },
+          {
+            "primary": 20,
+            "secondary": 138,
+            "pearl": 4,
+            "wheels": 0,
+            "interior": 4,
+            "dashboard": 0
+          },
+          {
+            "primary": 27,
+            "secondary": 76,
+            "pearl": 4,
+            "wheels": 0,
+            "interior": 4,
+            "dashboard": 0
+          },
+          {
+            "primary": 42,
+            "secondary": 92,
+            "pearl": 4,
+            "wheels": 0,
+            "interior": 4,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS"
+        ]
       },
       "stats": {
         "handlingId": "SUGOI",
@@ -308,6 +1092,83 @@
         "name": "The Diamond Casino Heist",
         "releaseDate": "2019-12-12"
       },
+      "details": {
+        "manufacturer": "Karin",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "402_sultan2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.946,
+            "y": -2.33,
+            "z": -0.366
+          },
+          "max": {
+            "x": 0.946,
+            "y": 2.177,
+            "z": 1.307
+          },
+          "length": 4.507,
+          "width": 1.892,
+          "height": 1.673,
+          "boundingRadius": 2.45
+        },
+        "defaultColors": [
+          {
+            "primary": 64,
+            "secondary": 64,
+            "pearl": 63,
+            "wheels": 156,
+            "interior": 3,
+            "dashboard": 160
+          },
+          {
+            "primary": 50,
+            "secondary": 50,
+            "pearl": 57,
+            "wheels": 156,
+            "interior": 3,
+            "dashboard": 160
+          },
+          {
+            "primary": 9,
+            "secondary": 9,
+            "pearl": 2,
+            "wheels": 156,
+            "interior": 3,
+            "dashboard": 160
+          },
+          {
+            "primary": 29,
+            "secondary": 29,
+            "pearl": 36,
+            "wheels": 156,
+            "interior": 3,
+            "dashboard": 160
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD",
+          "FLAG_HAS_TWO_BONNET_BONES"
+        ]
+      },
       "stats": {
         "handlingId": "SULTAN2",
         "mass": 1100,
@@ -338,6 +1199,75 @@
         "id": "mpheist3",
         "name": "The Diamond Casino Heist",
         "releaseDate": "2019-12-12"
+      },
+      "details": {
+        "manufacturer": "Albany",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "401_vstr_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.066,
+            "y": -2.751,
+            "z": -0.414
+          },
+          "max": {
+            "x": 1.066,
+            "y": 2.467,
+            "z": 1.104
+          },
+          "length": 5.218,
+          "width": 2.132,
+          "height": 1.518,
+          "boundingRadius": 2.774
+        },
+        "defaultColors": [
+          {
+            "primary": 17,
+            "secondary": 27,
+            "pearl": 4,
+            "wheels": 0,
+            "interior": 4,
+            "dashboard": 0
+          },
+          {
+            "primary": 1,
+            "secondary": 27,
+            "pearl": 4,
+            "wheels": 0,
+            "interior": 4,
+            "dashboard": 0
+          },
+          {
+            "primary": 112,
+            "secondary": 27,
+            "pearl": 4,
+            "wheels": 0,
+            "interior": 4,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD",
+          "FLAG_NO_REVERSING_ANIMATION"
+        ]
       },
       "stats": {
         "handlingId": "VSTR",
@@ -370,6 +1300,109 @@
         "name": "The Diamond Casino Heist",
         "releaseDate": "2019-12-12"
       },
+      "details": {
+        "manufacturer": "Grotti",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "411_furia_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.018,
+            "y": -2.189,
+            "z": -0.379
+          },
+          "max": {
+            "x": 1.018,
+            "y": 2.346,
+            "z": 0.842
+          },
+          "length": 4.535,
+          "width": 2.037,
+          "height": 1.221,
+          "boundingRadius": 2.537
+        },
+        "defaultColors": [
+          {
+            "primary": 93,
+            "secondary": 146,
+            "pearl": 157,
+            "wheels": 143,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 16,
+            "secondary": 143,
+            "pearl": 144,
+            "wheels": 21,
+            "interior": 22,
+            "dashboard": 65
+          },
+          {
+            "primary": 27,
+            "secondary": 33,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 33,
+            "dashboard": 65
+          },
+          {
+            "primary": 112,
+            "secondary": 70,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 28,
+            "secondary": 1,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 116,
+            "dashboard": 65
+          },
+          {
+            "primary": 88,
+            "secondary": 1,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 116,
+            "dashboard": 65
+          },
+          {
+            "primary": 4,
+            "secondary": 1,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 116,
+            "dashboard": 65
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_USE_RESTRICTED_DRIVEBY_HEIGHT_MID_ONLY"
+        ]
+      },
       "stats": {
         "handlingId": "FURIA",
         "mass": 1898,
@@ -400,6 +1433,82 @@
         "id": "mpheist3",
         "name": "The Diamond Casino Heist",
         "releaseDate": "2019-12-12"
+      },
+      "details": {
+        "manufacturer": "Nagasaki",
+        "type": "QUADBIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 3,
+        "modKits": [
+          "408_Stryder_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.708,
+            "y": -1.013,
+            "z": -0.29
+          },
+          "max": {
+            "x": 0.708,
+            "y": 1.17,
+            "z": 1.521
+          },
+          "length": 2.184,
+          "width": 1.417,
+          "height": 1.811,
+          "boundingRadius": 1.327
+        },
+        "defaultColors": [
+          {
+            "primary": 10,
+            "secondary": 32,
+            "pearl": 4,
+            "wheels": 1,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 82,
+            "secondary": 12,
+            "pearl": 70,
+            "wheels": 1,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 125,
+            "pearl": 3,
+            "wheels": 1,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 27,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 1,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_PEDS_INSIDE_CAN_BE_SET_ON_FIRE_MP",
+          "FLAG_IS_QUADBIKE_USING_BIKE_ANIMATIONS"
+        ]
       },
       "stats": {
         "handlingId": "STRYDER",
@@ -432,6 +1541,83 @@
         "name": "The Diamond Casino Heist",
         "releaseDate": "2019-12-12"
       },
+      "details": {
+        "manufacturer": "Nagasaki",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "407_outlaw_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.964,
+            "y": -1.716,
+            "z": -0.81
+          },
+          "max": {
+            "x": 0.975,
+            "y": 1.677,
+            "z": 0.971
+          },
+          "length": 3.394,
+          "width": 1.939,
+          "height": 1.781,
+          "boundingRadius": 2.032
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 27,
+            "pearl": 4,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 14,
+            "secondary": 0,
+            "pearl": 13,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 36,
+            "secondary": 3,
+            "pearl": 20,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 64,
+            "secondary": 42,
+            "pearl": 13,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_PEDS_INSIDE_CAN_BE_SET_ON_FIRE_MP",
+          "FLAG_NO_HEAVY_BRAKE_ANIMATION",
+          "FLAG_PEDS_INSIDE_CAN_BE_SET_ON_FIRE_MP"
+        ]
+      },
       "stats": {
         "handlingId": "OUTLAW",
         "mass": 850,
@@ -462,6 +1648,165 @@
         "id": "mpheist3",
         "name": "The Diamond Casino Heist",
         "releaseDate": "2019-12-12"
+      },
+      "details": {
+        "manufacturer": "Maxwell",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [
+          "412_vagrant_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.946,
+            "y": -1.552,
+            "z": -0.626
+          },
+          "max": {
+            "x": 0.946,
+            "y": 1.819,
+            "z": 0.848
+          },
+          "length": 3.37,
+          "width": 1.891,
+          "height": 1.474,
+          "boundingRadius": 1.986
+        },
+        "defaultColors": [
+          {
+            "primary": 4,
+            "secondary": 4,
+            "pearl": 134,
+            "wheels": 156,
+            "interior": 160,
+            "dashboard": 160
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 10,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 1,
+            "secondary": 1,
+            "pearl": 10,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 2,
+            "secondary": 2,
+            "pearl": 7,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 3,
+            "secondary": 3,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 6,
+            "secondary": 6,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 4,
+            "secondary": 4,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 61,
+            "secondary": 61,
+            "pearl": 67,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 32,
+            "secondary": 32,
+            "pearl": 28,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 27,
+            "secondary": 27,
+            "pearl": 36,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 64,
+            "secondary": 64,
+            "pearl": 54,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 5,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 6,
+            "secondary": 6,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_NO_HEAVY_BRAKE_ANIMATION",
+          "FLAG_PEDS_INSIDE_CAN_BE_SET_ON_FIRE_MP"
+        ]
       },
       "stats": {
         "handlingId": "VAGRANT",
@@ -494,6 +1839,95 @@
         "name": "The Diamond Casino Heist",
         "releaseDate": "2019-12-12"
       },
+      "details": {
+        "manufacturer": "RUNE",
+        "type": "AMPHIBIOUS_AUTOMOBILE",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "403_zhaba_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.591,
+            "y": -2.052,
+            "z": -1.36
+          },
+          "max": {
+            "x": 1.591,
+            "y": 2.079,
+            "z": 1.5
+          },
+          "length": 4.13,
+          "width": 3.183,
+          "height": 2.86,
+          "boundingRadius": 2.663
+        },
+        "defaultColors": [
+          {
+            "primary": 155,
+            "secondary": 3,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 155,
+            "dashboard": 0
+          },
+          {
+            "primary": 154,
+            "secondary": 8,
+            "pearl": 18,
+            "wheels": 111,
+            "interior": 155,
+            "dashboard": 0
+          },
+          {
+            "primary": 153,
+            "secondary": 11,
+            "pearl": 6,
+            "wheels": 111,
+            "interior": 155,
+            "dashboard": 0
+          },
+          {
+            "primary": 151,
+            "secondary": 100,
+            "pearl": 8,
+            "wheels": 111,
+            "interior": 155,
+            "dashboard": 0
+          },
+          {
+            "primary": 152,
+            "secondary": 100,
+            "pearl": 8,
+            "wheels": 111,
+            "interior": 155,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_IS_VAN",
+          "FLAG_POOR_CAR",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_IS_BULKY",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_SPOILER_MOD_DOESNT_INCREASE_GRIP",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS",
+          "FLAG_HAS_CAPPED_EXPLOSION_DAMAGE"
+        ]
+      },
       "stats": {
         "handlingId": "ZHABA",
         "mass": 1600,
@@ -524,6 +1958,69 @@
         "id": "mpheist3",
         "name": "The Diamond Casino Heist",
         "releaseDate": "2019-12-12"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 6,
+        "modKits": [
+          "409_minitank_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_RCTANK_GUN",
+          "VEHICLE_WEAPON_RCTANK_FLAME",
+          "VEHICLE_WEAPON_RCTANK_ROCKET",
+          "VEHICLE_WEAPON_RCTANK_LAZER"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.53,
+            "y": -0.712,
+            "z": -0.268
+          },
+          "max": {
+            "x": 0.53,
+            "y": 0.919,
+            "z": 0.914
+          },
+          "length": 1.631,
+          "width": 1.06,
+          "height": 1.182,
+          "boundingRadius": 0.097
+        },
+        "defaultColors": [
+          {
+            "primary": 144,
+            "secondary": 144,
+            "pearl": 0,
+            "wheels": 144,
+            "interior": 8,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_ONLY_BREAK_WHEN_DESTROYED",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_IS_TANK",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_IS_ELECTRIC",
+          "FLAG_FORCE_BONNET_CAMERA_INSTEAD_OF_POV",
+          "FLAG_DISABLE_DEFORMATION",
+          "FLAG_JUMPING_CAR"
+        ]
       },
       "stats": {
         "handlingId": "MINITANK",
@@ -556,6 +2053,60 @@
         "name": "The Diamond Casino Heist",
         "releaseDate": "2019-12-12"
       },
+      "details": {
+        "manufacturer": "Progen",
+        "type": "CAR",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [
+          "405_formula_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": true
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.906,
+            "y": -2.001,
+            "z": -0.237
+          },
+          "max": {
+            "x": 0.906,
+            "y": 2.474,
+            "z": 0.78
+          },
+          "length": 4.475,
+          "width": 1.812,
+          "height": 1.017,
+          "boundingRadius": 2.429
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 8,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_ALL",
+          "FLAG_NO_BOOT",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_PEDS_INSIDE_CAN_BE_SET_ON_FIRE_MP",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_IS_FORMULA_VEHICLE"
+        ]
+      },
       "stats": {
         "handlingId": "FORMULA",
         "mass": 505,
@@ -586,6 +2137,60 @@
         "id": "mpheist3",
         "name": "The Diamond Casino Heist",
         "releaseDate": "2019-12-12"
+      },
+      "details": {
+        "manufacturer": "Ocelot",
+        "type": "CAR",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [
+          "413_formula2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": true
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.905,
+            "y": -2.273,
+            "z": -0.269
+          },
+          "max": {
+            "x": 0.896,
+            "y": 2.272,
+            "z": 0.858
+          },
+          "length": 4.545,
+          "width": 1.801,
+          "height": 1.127,
+          "boundingRadius": 2.46
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 8,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_ALL",
+          "FLAG_NO_BOOT",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_PEDS_INSIDE_CAN_BE_SET_ON_FIRE_MP",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_IS_FORMULA_VEHICLE"
+        ]
       },
       "stats": {
         "handlingId": "FORMULA2",

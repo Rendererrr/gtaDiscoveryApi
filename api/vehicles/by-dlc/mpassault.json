@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "id": "mpassault",
@@ -28,6 +28,59 @@
         "id": "mpassault",
         "name": "Southern San Andreas Super Sport Series",
         "releaseDate": "2018-03-20"
+      },
+      "details": {
+        "manufacturer": "Weeny",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "287_issi3_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.748,
+            "y": -1.608,
+            "z": -0.345
+          },
+          "max": {
+            "x": 0.748,
+            "y": 1.595,
+            "z": 1.384
+          },
+          "length": 3.203,
+          "width": 1.496,
+          "height": 1.729,
+          "boundingRadius": 1.876
+        },
+        "defaultColors": [
+          {
+            "primary": 29,
+            "secondary": 111,
+            "pearl": 7,
+            "wheels": 5,
+            "interior": 5,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
       },
       "stats": {
         "handlingId": "ISSI3",
@@ -60,6 +113,82 @@
         "name": "Southern San Andreas Super Sport Series",
         "releaseDate": "2018-03-20"
       },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "296_dominator3_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.145,
+            "y": -2.742,
+            "z": -0.433
+          },
+          "max": {
+            "x": 1.145,
+            "y": 2.451,
+            "z": 1.033
+          },
+          "length": 5.194,
+          "width": 2.29,
+          "height": 1.465,
+          "boundingRadius": 2.731
+        },
+        "defaultColors": [
+          {
+            "primary": 1,
+            "secondary": 131,
+            "pearl": 4,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 44,
+            "secondary": 21,
+            "pearl": 44,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 23,
+            "pearl": 87,
+            "wheels": 131,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 79,
+            "secondary": 73,
+            "pearl": 131,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS"
+        ]
+      },
       "stats": {
         "handlingId": "DOMINATOR3",
         "mass": 1670,
@@ -90,6 +219,89 @@
         "id": "mpassault",
         "name": "Southern San Andreas Super Sport Series",
         "releaseDate": "2018-03-20"
+      },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "286_ellie_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.957,
+            "y": -2.393,
+            "z": -0.652
+          },
+          "max": {
+            "x": 0.957,
+            "y": 2.406,
+            "z": 0.709
+          },
+          "length": 4.8,
+          "width": 1.913,
+          "height": 1.361,
+          "boundingRadius": 2.584
+        },
+        "defaultColors": [
+          {
+            "primary": 3,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 1,
+            "dashboard": 0
+          },
+          {
+            "primary": 27,
+            "secondary": 111,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 1,
+            "dashboard": 0
+          },
+          {
+            "primary": 61,
+            "secondary": 111,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 1,
+            "dashboard": 0
+          },
+          {
+            "primary": 62,
+            "secondary": 111,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 1,
+            "dashboard": 0
+          },
+          {
+            "primary": 49,
+            "secondary": 111,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 1,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
       },
       "stats": {
         "handlingId": "ELLIE",
@@ -122,6 +334,83 @@
         "name": "Southern San Andreas Super Sport Series",
         "releaseDate": "2018-03-20"
       },
+      "details": {
+        "manufacturer": "RUNE",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "294_cheburek_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.838,
+            "y": -2.172,
+            "z": -0.433
+          },
+          "max": {
+            "x": 0.838,
+            "y": 2.019,
+            "z": 1.162
+          },
+          "length": 4.191,
+          "width": 1.675,
+          "height": 1.596,
+          "boundingRadius": 2.24
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 68,
+            "secondary": 68,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 29,
+            "secondary": 29,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 50,
+            "secondary": 50,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
+      },
       "stats": {
         "handlingId": "CHEBUREK",
         "mass": 1100,
@@ -152,6 +441,87 @@
         "id": "mpassault",
         "name": "Southern San Andreas Super Sport Series",
         "releaseDate": "2018-03-20"
+      },
+      "details": {
+        "manufacturer": "Vulcar",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "284_fagaloa_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.817,
+            "y": -2.514,
+            "z": -0.2
+          },
+          "max": {
+            "x": 0.817,
+            "y": 1.999,
+            "z": 1.45
+          },
+          "length": 4.513,
+          "width": 1.634,
+          "height": 1.65,
+          "boundingRadius": 2.432
+        },
+        "defaultColors": [
+          {
+            "primary": 107,
+            "secondary": 120,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 68,
+            "secondary": 120,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 29,
+            "secondary": 120,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 50,
+            "secondary": 120,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 0,
+            "secondary": 120,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_CARGOBOB_HOOK_UP_CHASSIS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
       },
       "stats": {
         "handlingId": "FAGALOA",
@@ -184,6 +554,88 @@
         "name": "Southern San Andreas Super Sport Series",
         "releaseDate": "2018-03-20"
       },
+      "details": {
+        "manufacturer": "Lampadati",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "285_michelli_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.825,
+            "y": -2.204,
+            "z": -0.477
+          },
+          "max": {
+            "x": 0.825,
+            "y": 1.922,
+            "z": 1.149
+          },
+          "length": 4.126,
+          "width": 1.651,
+          "height": 1.626,
+          "boundingRadius": 2.233
+        },
+        "defaultColors": [
+          {
+            "primary": 3,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 1,
+            "dashboard": 0
+          },
+          {
+            "primary": 27,
+            "secondary": 111,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 1,
+            "dashboard": 0
+          },
+          {
+            "primary": 61,
+            "secondary": 111,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 1,
+            "dashboard": 0
+          },
+          {
+            "primary": 62,
+            "secondary": 111,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 1,
+            "dashboard": 0
+          },
+          {
+            "primary": 49,
+            "secondary": 111,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 1,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS"
+        ]
+      },
       "stats": {
         "handlingId": "MICHELLI",
         "mass": 840,
@@ -214,6 +666,70 @@
         "id": "mpassault",
         "name": "Southern San Andreas Super Sport Series",
         "releaseDate": "2018-03-20"
+      },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "293_flashgt_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.051,
+            "y": -2.559,
+            "z": -0.774
+          },
+          "max": {
+            "x": 1.051,
+            "y": 2.272,
+            "z": 0.913
+          },
+          "length": 4.831,
+          "width": 2.101,
+          "height": 1.687,
+          "boundingRadius": 2.645
+        },
+        "defaultColors": [
+          {
+            "primary": 73,
+            "secondary": 73,
+            "pearl": 73,
+            "wheels": 0,
+            "interior": 1,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_PARKING_SENSORS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG"
+        ]
       },
       "stats": {
         "handlingId": "FLASHGT",
@@ -246,6 +762,122 @@
         "name": "Southern San Andreas Super Sport Series",
         "releaseDate": "2018-03-20"
       },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "283_gb200_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.933,
+            "y": -2.298,
+            "z": -0.255
+          },
+          "max": {
+            "x": 0.933,
+            "y": 2.093,
+            "z": 1.138
+          },
+          "length": 4.391,
+          "width": 1.866,
+          "height": 1.392,
+          "boundingRadius": 2.286
+        },
+        "defaultColors": [
+          {
+            "primary": 66,
+            "secondary": 32,
+            "pearl": 7,
+            "wheels": 159,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 12,
+            "secondary": 12,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 30,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 33,
+            "secondary": 111,
+            "pearl": 38,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 90,
+            "secondary": 112,
+            "pearl": 38,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 53,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 82,
+            "secondary": 5,
+            "pearl": 68,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 55,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 94,
+            "secondary": 6,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS"
+        ]
+      },
       "stats": {
         "handlingId": "GB200",
         "mass": 1180,
@@ -276,6 +908,89 @@
         "id": "mpassault",
         "name": "Southern San Andreas Super Sport Series",
         "releaseDate": "2018-03-20"
+      },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "290_hotring_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.894,
+            "y": -2.676,
+            "z": -0.51
+          },
+          "max": {
+            "x": 0.894,
+            "y": 2.447,
+            "z": 0.876
+          },
+          "length": 5.123,
+          "width": 1.788,
+          "height": 1.387,
+          "boundingRadius": 2.757
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 1,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 28,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 1,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 74,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 1,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 91,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 1,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 1,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS"
+        ]
       },
       "stats": {
         "handlingId": "HOTRING",
@@ -308,6 +1023,123 @@
         "name": "Southern San Andreas Super Sport Series",
         "releaseDate": "2018-03-20"
       },
+      "details": {
+        "manufacturer": "Dinka",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "300_jester3_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.003,
+            "y": -2.392,
+            "z": -0.298
+          },
+          "max": {
+            "x": 0.999,
+            "y": 2.278,
+            "z": 1.116
+          },
+          "length": 4.671,
+          "width": 2.003,
+          "height": 1.414,
+          "boundingRadius": 2.462
+        },
+        "defaultColors": [
+          {
+            "primary": 7,
+            "secondary": 8,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 7,
+            "dashboard": 89
+          },
+          {
+            "primary": 29,
+            "secondary": 8,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 7,
+            "dashboard": 89
+          },
+          {
+            "primary": 38,
+            "secondary": 8,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 7,
+            "dashboard": 89
+          },
+          {
+            "primary": 50,
+            "secondary": 8,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 7,
+            "dashboard": 89
+          },
+          {
+            "primary": 64,
+            "secondary": 8,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 7,
+            "dashboard": 89
+          },
+          {
+            "primary": 70,
+            "secondary": 8,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 7,
+            "dashboard": 89
+          },
+          {
+            "primary": 89,
+            "secondary": 8,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 7,
+            "dashboard": 89
+          },
+          {
+            "primary": 112,
+            "secondary": 8,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 7,
+            "dashboard": 89
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 111,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS"
+        ]
+      },
       "stats": {
         "handlingId": "JESTER3",
         "mass": 1600,
@@ -338,6 +1170,125 @@
         "id": "mpassault",
         "name": "Southern San Andreas Super Sport Series",
         "releaseDate": "2018-03-20"
+      },
+      "details": {
+        "manufacturer": "Overflod",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "299_entity2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.961,
+            "y": -2.013,
+            "z": -0.427
+          },
+          "max": {
+            "x": 0.961,
+            "y": 2.171,
+            "z": 0.712
+          },
+          "length": 4.184,
+          "width": 1.922,
+          "height": 1.138,
+          "boundingRadius": 2.354
+        },
+        "defaultColors": [
+          {
+            "primary": 7,
+            "secondary": 8,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 7,
+            "dashboard": 89
+          },
+          {
+            "primary": 29,
+            "secondary": 8,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 7,
+            "dashboard": 89
+          },
+          {
+            "primary": 38,
+            "secondary": 8,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 7,
+            "dashboard": 89
+          },
+          {
+            "primary": 50,
+            "secondary": 8,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 7,
+            "dashboard": 89
+          },
+          {
+            "primary": 64,
+            "secondary": 8,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 7,
+            "dashboard": 89
+          },
+          {
+            "primary": 70,
+            "secondary": 8,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 7,
+            "dashboard": 89
+          },
+          {
+            "primary": 89,
+            "secondary": 8,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 7,
+            "dashboard": 89
+          },
+          {
+            "primary": 112,
+            "secondary": 8,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 7,
+            "dashboard": 89
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 111,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_PARKING_SENSORS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
       },
       "stats": {
         "handlingId": "ENTITY2",
@@ -370,6 +1321,98 @@
         "name": "Southern San Andreas Super Sport Series",
         "releaseDate": "2018-03-20"
       },
+      "details": {
+        "manufacturer": "Cheval",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "298_taipan_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.161,
+            "y": -2.472,
+            "z": -0.405
+          },
+          "max": {
+            "x": 1.161,
+            "y": 2.391,
+            "z": 0.848
+          },
+          "length": 4.863,
+          "width": 2.322,
+          "height": 1.253,
+          "boundingRadius": 2.663
+        },
+        "defaultColors": [
+          {
+            "primary": 11,
+            "secondary": 38,
+            "pearl": 7,
+            "wheels": 38,
+            "interior": 38,
+            "dashboard": 0
+          },
+          {
+            "primary": 11,
+            "secondary": 38,
+            "pearl": 7,
+            "wheels": 38,
+            "interior": 38,
+            "dashboard": 0
+          },
+          {
+            "primary": 61,
+            "secondary": 5,
+            "pearl": 70,
+            "wheels": 140,
+            "interior": 5,
+            "dashboard": 0
+          },
+          {
+            "primary": 50,
+            "secondary": 0,
+            "pearl": 92,
+            "wheels": 92,
+            "interior": 92,
+            "dashboard": 0
+          },
+          {
+            "primary": 27,
+            "secondary": 111,
+            "pearl": 27,
+            "wheels": 28,
+            "interior": 112,
+            "dashboard": 0
+          },
+          {
+            "primary": 1,
+            "secondary": 0,
+            "pearl": 7,
+            "wheels": 112,
+            "interior": 8,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS"
+        ]
+      },
       "stats": {
         "handlingId": "TAIPAN",
         "mass": 1400,
@@ -400,6 +1443,60 @@
         "id": "mpassault",
         "name": "Southern San Andreas Super Sport Series",
         "releaseDate": "2018-03-20"
+      },
+      "details": {
+        "manufacturer": "Pegassi",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "291_tezeract_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.144,
+            "y": -2.483,
+            "z": -0.216
+          },
+          "max": {
+            "x": 1.144,
+            "y": 2.454,
+            "z": 1.038
+          },
+          "length": 4.937,
+          "width": 2.288,
+          "height": 1.254,
+          "boundingRadius": 2.666
+        },
+        "defaultColors": [
+          {
+            "primary": 1,
+            "secondary": 38,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_IS_ELECTRIC",
+          "FLAG_HAS_GULL_WING_DOORS"
+        ]
       },
       "stats": {
         "handlingId": "TEZERACT",
@@ -432,6 +1529,85 @@
         "name": "Southern San Andreas Super Sport Series",
         "releaseDate": "2018-03-20"
       },
+      "details": {
+        "manufacturer": "Overflod",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "297_tyrant_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.242,
+            "y": -2.758,
+            "z": -0.263
+          },
+          "max": {
+            "x": 1.242,
+            "y": 2.81,
+            "z": 1.125
+          },
+          "length": 5.568,
+          "width": 2.485,
+          "height": 1.389,
+          "boundingRadius": 3.073
+        },
+        "defaultColors": [
+          {
+            "primary": 17,
+            "secondary": 80,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 112,
+            "secondary": 126,
+            "pearl": 78,
+            "wheels": 132,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 115,
+            "secondary": 1,
+            "pearl": 30,
+            "wheels": 1,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 38,
+            "secondary": 131,
+            "pearl": 126,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_HAS_GULL_WING_DOORS",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG"
+        ]
+      },
       "stats": {
         "handlingId": "TYRANT",
         "mass": 1175,
@@ -463,6 +1639,106 @@
         "name": "Southern San Andreas Super Sport Series",
         "releaseDate": "2018-03-20"
       },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 5,
+        "doors": 4,
+        "wheels": 6,
+        "modKits": [
+          "292_caracara_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_CARACARA_MG",
+          "VEHICLE_WEAPON_CARACARA_MINIGUN"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.111,
+            "y": -3.833,
+            "z": -0.717
+          },
+          "max": {
+            "x": 1.111,
+            "y": 3.523,
+            "z": 1.974
+          },
+          "length": 7.356,
+          "width": 2.222,
+          "height": 2.691,
+          "boundingRadius": 4.027
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 120,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 156
+          },
+          {
+            "primary": 29,
+            "secondary": 134,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 156
+          },
+          {
+            "primary": 2,
+            "secondary": 120,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 156
+          },
+          {
+            "primary": 38,
+            "secondary": 120,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 156
+          },
+          {
+            "primary": 64,
+            "secondary": 120,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 156
+          },
+          {
+            "primary": 89,
+            "secondary": 120,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_IS_BULKY",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_HAS_TURRET_SEAT_ON_VEHICLE",
+          "FLAG_DISABLE_AUTO_VAULT_ON_VEHICLE",
+          "FLAG_HAS_REAR_MOUNTED_TURRET",
+          "FLAG_TURRET_MODS_ON_ROOF",
+          "FLAG_KEEP_ALL_TURRETS_SYNCHRONISED"
+        ]
+      },
       "stats": {
         "handlingId": "CARACARA",
         "mass": 3500,
@@ -493,6 +1769,66 @@
         "id": "mpassault",
         "name": "Southern San Andreas Super Sport Series",
         "releaseDate": "2018-03-20"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "HELI",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "295_seasparrow_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_HAVOK_MINIGUN",
+          "VEHICLE_WEAPON_SPACE_ROCKET"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -5.876,
+            "y": -7.236,
+            "z": -2.052
+          },
+          "max": {
+            "x": 5.949,
+            "y": 6.836,
+            "z": 1.788
+          },
+          "length": 14.072,
+          "width": 11.826,
+          "height": 3.841,
+          "boundingRadius": 9.63
+        },
+        "defaultColors": [
+          {
+            "primary": 5,
+            "secondary": 2,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_STANDARD_FLIGHT_HELMET",
+          "FLAG_NO_HEAVY_BRAKE_ANIMATION",
+          "FLAG_CAN_NAVIGATE_TO_ON_VEHICLE_ENTRY"
+        ]
       },
       "stats": {
         "handlingId": "SEASPARROW",

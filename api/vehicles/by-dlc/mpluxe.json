@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "id": "mpluxe",
@@ -28,6 +28,122 @@
         "id": "mpluxe",
         "name": "Ill-Gotten Gains Part 1",
         "releaseDate": "2015-06-10"
+      },
+      "details": {
+        "manufacturer": "Enus",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "167_windsor_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.127,
+            "y": -2.857,
+            "z": -0.456
+          },
+          "max": {
+            "x": 1.125,
+            "y": 2.628,
+            "z": 1.13
+          },
+          "length": 5.485,
+          "width": 2.252,
+          "height": 1.587,
+          "boundingRadius": 2.957
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 98,
+            "secondary": 98,
+            "pearl": 98,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 134,
+            "secondary": 134,
+            "pearl": 134,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 98,
+            "secondary": 98,
+            "pearl": 98,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 92,
+            "secondary": 120,
+            "pearl": 89,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 60,
+            "secondary": 121,
+            "pearl": 98,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 59,
+            "secondary": 59,
+            "pearl": 54,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 138,
+            "secondary": 138,
+            "pearl": 138,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_HAS_LIVERY",
+          "FLAG_PARKING_SENSORS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO"
+        ]
       },
       "stats": {
         "handlingId": "WINDSOR",
@@ -60,6 +176,169 @@
         "name": "Ill-Gotten Gains Part 1",
         "releaseDate": "2015-06-10"
       },
+      "details": {
+        "manufacturer": "Albany",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "164_virgo_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.044,
+            "y": -3.093,
+            "z": -0.54
+          },
+          "max": {
+            "x": 1.044,
+            "y": 2.945,
+            "z": 0.918
+          },
+          "length": 6.039,
+          "width": 2.088,
+          "height": 1.458,
+          "boundingRadius": 3.069
+        },
+        "defaultColors": [
+          {
+            "primary": 61,
+            "secondary": 61,
+            "pearl": 58,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 3,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 21,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 34,
+            "secondary": 0,
+            "pearl": 33,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 52,
+            "secondary": 0,
+            "pearl": 52,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 68,
+            "secondary": 0,
+            "pearl": 68,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 106,
+            "secondary": 0,
+            "pearl": 106,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 105,
+            "secondary": 0,
+            "pearl": 105,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 54,
+            "secondary": 0,
+            "pearl": 54,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 6,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 107,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS"
+        ]
+      },
       "stats": {
         "handlingId": "VIRGO",
         "mass": 2200,
@@ -90,6 +369,142 @@
         "id": "mpluxe",
         "name": "Ill-Gotten Gains Part 1",
         "releaseDate": "2015-06-10"
+      },
+      "details": {
+        "manufacturer": "Benefactor",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "168_feltzer3_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.938,
+            "y": -2.532,
+            "z": -0.195
+          },
+          "max": {
+            "x": 0.938,
+            "y": 2.163,
+            "z": 1.108
+          },
+          "length": 4.695,
+          "width": 1.876,
+          "height": 1.303,
+          "boundingRadius": 2.532
+        },
+        "defaultColors": [
+          {
+            "primary": 3,
+            "secondary": 3,
+            "pearl": 134,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 7,
+            "secondary": 7,
+            "pearl": 134,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 3,
+            "secondary": 3,
+            "pearl": 134,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 27,
+            "secondary": 27,
+            "pearl": 28,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 34,
+            "secondary": 34,
+            "pearl": 28,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 66,
+            "secondary": 66,
+            "pearl": 61,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 73,
+            "secondary": 73,
+            "pearl": 70,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 76,
+            "secondary": 76,
+            "pearl": 70,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 88,
+            "secondary": 88,
+            "pearl": 88,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 90,
+            "secondary": 90,
+            "pearl": 88,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 102,
+            "secondary": 108,
+            "pearl": 88,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_EXTRAS_GANG",
+          "FLAG_EXTRAS_RARE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PARKING_SENSORS",
+          "FLAG_RICH_CAR",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_HAS_GULL_WING_DOORS",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
       },
       "stats": {
         "handlingId": "FELTZER3",
@@ -122,6 +537,154 @@
         "name": "Ill-Gotten Gains Part 1",
         "releaseDate": "2015-06-10"
       },
+      "details": {
+        "manufacturer": "Pegassi",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "160_osiris_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.056,
+            "y": -2.189,
+            "z": -0.583
+          },
+          "max": {
+            "x": 1.056,
+            "y": 2.428,
+            "z": 0.65
+          },
+          "length": 4.617,
+          "width": 2.112,
+          "height": 1.233,
+          "boundingRadius": 2.55
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 99,
+            "secondary": 1,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 116,
+            "secondary": 1,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 73,
+            "secondary": 1,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 28,
+            "secondary": 1,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 49,
+            "secondary": 1,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 53,
+            "secondary": 1,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 88,
+            "secondary": 1,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 14,
+            "secondary": 1,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 4,
+            "secondary": 1,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 8,
+            "secondary": 1,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 1,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 36,
+            "secondary": 1,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN",
+          "FLAG_HAS_GULL_WING_DOORS"
+        ]
+      },
       "stats": {
         "handlingId": "OSIRIS",
         "mass": 1350,
@@ -153,6 +716,66 @@
         "name": "Ill-Gotten Gains Part 1",
         "releaseDate": "2015-06-10"
       },
+      "details": {
+        "manufacturer": "Buckingham",
+        "type": "HELI",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 3,
+        "modKits": [
+          "106_swift_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SEARCHLIGHT"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -8.587,
+            "y": -9.991,
+            "z": -0.883
+          },
+          "max": {
+            "x": 8.586,
+            "y": 8.876,
+            "z": 3.393
+          },
+          "length": 18.867,
+          "width": 17.174,
+          "height": 4.276,
+          "boundingRadius": 13.545
+        },
+        "defaultColors": [
+          {
+            "primary": 159,
+            "secondary": 0,
+            "pearl": 160,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_HAS_REAR_SEAT_ACTIVITIES",
+          "FLAG_USE_LIGHTING_INTERIOR_OVERRIDE",
+          "FLAG_HELICOPTER_WITH_LANDING_GEAR"
+        ]
+      },
       "stats": {
         "handlingId": "SWIFT2",
         "mass": 6500,
@@ -183,6 +806,63 @@
         "id": "mpluxe",
         "name": "Ill-Gotten Gains Part 1",
         "releaseDate": "2015-06-10"
+      },
+      "details": {
+        "manufacturer": "Buckingham",
+        "type": "PLANE",
+        "seats": 8,
+        "doors": 1,
+        "wheels": 3,
+        "modKits": [
+          "0_defaultspraypatch"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -7.25,
+            "y": -11.62,
+            "z": -1.617
+          },
+          "max": {
+            "x": 7.249,
+            "y": 9.134,
+            "z": 3.329
+          },
+          "length": 20.755,
+          "width": 14.499,
+          "height": 4.946,
+          "boundingRadius": 12.706
+        },
+        "defaultColors": [
+          {
+            "primary": 159,
+            "secondary": 0,
+            "pearl": 160,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HEADLIGHTS_ON_LANDINGGEAR",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_HAS_REAR_SEAT_ACTIVITIES",
+          "FLAG_USE_LIGHTING_INTERIOR_OVERRIDE"
+        ]
       },
       "stats": {
         "handlingId": "luxor2",

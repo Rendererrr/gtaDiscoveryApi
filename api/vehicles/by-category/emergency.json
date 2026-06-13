@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "name": "Emergency",
@@ -26,6 +26,62 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": true,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.275,
+            "y": -4.239,
+            "z": -0.784
+          },
+          "max": {
+            "x": 1.275,
+            "y": 2.951,
+            "z": 1.971
+          },
+          "length": 7.19,
+          "width": 2.55,
+          "height": 2.755,
+          "boundingRadius": 3.994
+        },
+        "defaultColors": [
+          {
+            "primary": 112,
+            "secondary": 28,
+            "pearl": 112,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_HAS_LIVERY",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_EMERGENCY_SERVICE",
+          "FLAG_NO_RESPRAY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO"
+        ]
       },
       "stats": {
         "handlingId": "AMBULAN",
@@ -58,6 +114,58 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": true,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.021,
+            "y": -2.564,
+            "z": -0.66
+          },
+          "max": {
+            "x": 1.021,
+            "y": 2.514,
+            "z": 0.83
+          },
+          "length": 5.078,
+          "width": 2.043,
+          "height": 1.49,
+          "boundingRadius": 2.739
+        },
+        "defaultColors": [
+          {
+            "primary": 1,
+            "secondary": 1,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_LAW_ENFORCEMENT",
+          "FLAG_EMERGENCY_SERVICE",
+          "FLAG_NO_RESPRAY",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
+      },
       "stats": {
         "handlingId": "fbi",
         "mass": 1650,
@@ -88,6 +196,57 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 8,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": true,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.513,
+            "y": -3.075,
+            "z": -0.642
+          },
+          "max": {
+            "x": 1.514,
+            "y": 2.871,
+            "z": 1.72
+          },
+          "length": 5.946,
+          "width": 3.027,
+          "height": 2.362,
+          "boundingRadius": 3.357
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_LAW_ENFORCEMENT",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
       },
       "stats": {
         "handlingId": "fbi2",
@@ -120,6 +279,63 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": "MTL",
+        "type": "CAR",
+        "seats": 8,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_WATER_CANNON"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": true,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.26,
+            "y": -4.305,
+            "z": -1.098
+          },
+          "max": {
+            "x": 1.264,
+            "y": 4.538,
+            "z": 2.011
+          },
+          "length": 8.843,
+          "width": 2.525,
+          "height": 3.109,
+          "boundingRadius": 4.677
+        },
+        "defaultColors": [
+          {
+            "primary": 134,
+            "secondary": 28,
+            "pearl": 134,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_EMERGENCY_SERVICE",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_USE_STRICTER_EXIT_COLLISION_TESTS",
+          "FLAG_CREATE_WEAPON_MANAGER_ON_SPAWN"
+        ]
+      },
       "stats": {
         "handlingId": "firetruk",
         "mass": 7500,
@@ -150,6 +366,56 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": true,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.121,
+            "y": -3.075,
+            "z": -0.642
+          },
+          "max": {
+            "x": 1.121,
+            "y": 2.871,
+            "z": 1.884
+          },
+          "length": 5.946,
+          "width": 2.242,
+          "height": 2.525,
+          "boundingRadius": 3.394
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 91,
+            "wheels": 111,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
       },
       "stats": {
         "handlingId": "LGUARD",
@@ -182,6 +448,58 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 11,
+        "doors": 3,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.411,
+            "y": -4.839,
+            "z": -1.284
+          },
+          "max": {
+            "x": 1.415,
+            "y": 3.399,
+            "z": 1.965
+          },
+          "length": 8.239,
+          "width": 2.827,
+          "height": 3.248,
+          "boundingRadius": 4.583
+        },
+        "defaultColors": [
+          {
+            "primary": 77,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_AVOID_TURNS",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_USE_FAT_INTERIOR_LIGHT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_USE_FULL_ANIMS_FOR_MP_WARP_ENTRY_POINTS"
+        ]
+      },
       "stats": {
         "handlingId": "PBUS",
         "mass": 9000,
@@ -212,6 +530,60 @@
         "id": "mp2023_02",
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
+      },
+      "details": {
+        "manufacturer": "Bravado",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "392_polgauntlet_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": true,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.015,
+            "y": -3.072,
+            "z": -0.394
+          },
+          "max": {
+            "x": 1.015,
+            "y": 2.57,
+            "z": 1.229
+          },
+          "length": 5.641,
+          "width": 2.029,
+          "height": 1.624,
+          "boundingRadius": 2.819
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 111,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_LAW_ENFORCEMENT",
+          "FLAG_EMERGENCY_SERVICE",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_HAS_SUPERCHARGER"
+        ]
       },
       "stats": {
         "handlingId": "POLGAUNTLET",
@@ -244,6 +616,61 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": true,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.005,
+            "y": -2.745,
+            "z": -0.617
+          },
+          "max": {
+            "x": 1.005,
+            "y": 2.813,
+            "z": 1.033
+          },
+          "length": 5.558,
+          "width": 2.011,
+          "height": 1.65,
+          "boundingRadius": 3.024
+        },
+        "defaultColors": [
+          {
+            "primary": 134,
+            "secondary": 134,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_HAS_LIVERY",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_LAW_ENFORCEMENT",
+          "FLAG_EMERGENCY_SERVICE",
+          "FLAG_NO_RESPRAY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_REPORT_CRIME_IF_STANDING_ON"
+        ]
+      },
       "stats": {
         "handlingId": "police",
         "mass": 1400,
@@ -274,6 +701,59 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": true,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.021,
+            "y": -2.564,
+            "z": -0.626
+          },
+          "max": {
+            "x": 1.021,
+            "y": 2.611,
+            "z": 0.879
+          },
+          "length": 5.175,
+          "width": 2.043,
+          "height": 1.505,
+          "boundingRadius": 2.806
+        },
+        "defaultColors": [
+          {
+            "primary": 134,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_LAW_ENFORCEMENT",
+          "FLAG_EMERGENCY_SERVICE",
+          "FLAG_NO_RESPRAY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_REPORT_CRIME_IF_STANDING_ON",
+          "FLAG_HAS_LIVERY"
+        ]
       },
       "stats": {
         "handlingId": "police2",
@@ -306,6 +786,61 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "9_police3_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": true,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.014,
+            "y": -2.709,
+            "z": -0.769
+          },
+          "max": {
+            "x": 1.014,
+            "y": 2.609,
+            "z": 0.884
+          },
+          "length": 5.318,
+          "width": 2.027,
+          "height": 1.652,
+          "boundingRadius": 2.912
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 1,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_HAS_LIVERY",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_LAW_ENFORCEMENT",
+          "FLAG_EMERGENCY_SERVICE",
+          "FLAG_NO_RESPRAY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_REPORT_CRIME_IF_STANDING_ON"
+        ]
+      },
       "stats": {
         "handlingId": "police3",
         "mass": 1450,
@@ -336,6 +871,98 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": true,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.005,
+            "y": -2.745,
+            "z": -0.617
+          },
+          "max": {
+            "x": 1.005,
+            "y": 2.813,
+            "z": 0.886
+          },
+          "length": 5.558,
+          "width": 2.011,
+          "height": 1.504,
+          "boundingRadius": 3.002
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 11,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 2,
+            "secondary": 0,
+            "pearl": 134,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 75,
+            "secondary": 0,
+            "pearl": 157,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 7,
+            "secondary": 0,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 34,
+            "secondary": 0,
+            "pearl": 45,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_LAW_ENFORCEMENT",
+          "FLAG_EMERGENCY_SERVICE",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
       },
       "stats": {
         "handlingId": "police",
@@ -368,6 +995,59 @@
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
       },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "396_police5_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": true,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.005,
+            "y": -2.745,
+            "z": -0.617
+          },
+          "max": {
+            "x": 1.005,
+            "y": 2.813,
+            "z": 1.043
+          },
+          "length": 5.558,
+          "width": 2.011,
+          "height": 1.661,
+          "boundingRadius": 2.99
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 111,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_LAW_ENFORCEMENT",
+          "FLAG_EMERGENCY_SERVICE",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_REPORT_CRIME_IF_STANDING_ON"
+        ]
+      },
       "stats": {
         "handlingId": "police",
         "mass": 1400,
@@ -398,6 +1078,59 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "BIKE",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": true,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.433,
+            "y": -1.187,
+            "z": -0.5
+          },
+          "max": {
+            "x": 0.433,
+            "y": 1.152,
+            "z": 1.187
+          },
+          "length": 2.339,
+          "width": 0.866,
+          "height": 1.686,
+          "boundingRadius": 1.414
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 1,
+            "pearl": 134,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_LAW_ENFORCEMENT",
+          "FLAG_NO_RESPRAY",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_BIKE_CLAMP_PICKUP_LEAN_RATE",
+          "FLAG_REPORT_CRIME_IF_STANDING_ON"
+        ]
       },
       "stats": {
         "handlingId": "POLICEB",
@@ -430,6 +1163,61 @@
         "name": "Money Fronts",
         "releaseDate": "2025-06-17"
       },
+      "details": {
+        "manufacturer": "Western",
+        "type": "BIKE",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "598_policeb2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": true,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.433,
+            "y": -1.259,
+            "z": -0.5
+          },
+          "max": {
+            "x": 0.433,
+            "y": 1.152,
+            "z": 1.187
+          },
+          "length": 2.411,
+          "width": 0.866,
+          "height": 1.686,
+          "boundingRadius": 1.414
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_LAW_ENFORCEMENT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_BIKE_CLAMP_PICKUP_LEAN_RATE",
+          "FLAG_REPORT_CRIME_IF_STANDING_ON",
+          "FLAG_CARGOBOB_HOOK_UP_CHASSIS"
+        ]
+      },
       "stats": {
         "handlingId": "POLICEB2",
         "mass": 250,
@@ -460,6 +1248,57 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": true,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.095,
+            "y": -2.814,
+            "z": -0.652
+          },
+          "max": {
+            "x": 1.095,
+            "y": 2.509,
+            "z": 1.311
+          },
+          "length": 5.323,
+          "width": 2.189,
+          "height": 1.964,
+          "boundingRadius": 2.98
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 132,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_LAW_ENFORCEMENT",
+          "FLAG_EMERGENCY_SERVICE",
+          "FLAG_NO_RESPRAY",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_REPORT_CRIME_IF_STANDING_ON"
+        ]
       },
       "stats": {
         "handlingId": "POLICEOLD",
@@ -492,6 +1331,57 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": true,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.006,
+            "y": -2.585,
+            "z": -0.555
+          },
+          "max": {
+            "x": 1.014,
+            "y": 2.439,
+            "z": 0.977
+          },
+          "length": 5.025,
+          "width": 2.02,
+          "height": 1.532,
+          "boundingRadius": 2.756
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 132,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_LAW_ENFORCEMENT",
+          "FLAG_EMERGENCY_SERVICE",
+          "FLAG_NO_RESPRAY",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_REPORT_CRIME_IF_STANDING_ON"
+        ]
+      },
       "stats": {
         "handlingId": "POLICEOL2",
         "mass": 1800,
@@ -522,6 +1412,58 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": true,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.208,
+            "y": -3.115,
+            "z": -0.997
+          },
+          "max": {
+            "x": 1.203,
+            "y": 2.743,
+            "z": 1.523
+          },
+          "length": 5.858,
+          "width": 2.411,
+          "height": 2.52,
+          "boundingRadius": 3.32
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_LAW_ENFORCEMENT",
+          "FLAG_EMERGENCY_SERVICE",
+          "FLAG_NO_RESPRAY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_REPORT_CRIME_IF_STANDING_ON"
+        ]
       },
       "stats": {
         "handlingId": "POLICET",
@@ -554,6 +1496,58 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 8,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": true,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.513,
+            "y": -3.075,
+            "z": -0.642
+          },
+          "max": {
+            "x": 1.514,
+            "y": 2.871,
+            "z": 1.721
+          },
+          "length": 5.946,
+          "width": 3.027,
+          "height": 2.363,
+          "boundingRadius": 3.416
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 7,
+            "pearl": 2,
+            "wheels": 5,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_LAW_ENFORCEMENT",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_REPORT_CRIME_IF_STANDING_ON"
+        ]
+      },
       "stats": {
         "handlingId": "PRANGER",
         "mass": 2400,
@@ -584,6 +1578,61 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 8,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": true,
+          "armoredWindows": true,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.977,
+            "y": -3.896,
+            "z": -0.62
+          },
+          "max": {
+            "x": 1.977,
+            "y": 3.336,
+            "z": 2.331
+          },
+          "length": 7.233,
+          "width": 3.954,
+          "height": 2.951,
+          "boundingRadius": 4.111
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_DAMPEN_STICKBOMB_DAMAGE",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HAS_BULLETPROOF_GLASS"
+        ]
       },
       "stats": {
         "handlingId": "riot",
@@ -616,6 +1665,101 @@
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 6,
+        "doors": 4,
+        "wheels": 6,
+        "modKits": [
+          "259_riot2_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_WATER_CANNON"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": true,
+          "armoredWindows": true,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -2.014,
+            "y": -5.054,
+            "z": -0.816
+          },
+          "max": {
+            "x": 2.012,
+            "y": 5.207,
+            "z": 2.539
+          },
+          "length": 10.261,
+          "width": 4.026,
+          "height": 3.355,
+          "boundingRadius": 5.537
+        },
+        "defaultColors": [
+          {
+            "primary": 13,
+            "secondary": 12,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 153,
+            "secondary": 12,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 75,
+            "secondary": 12,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 144,
+            "secondary": 12,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 118,
+            "secondary": 12,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 8,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HAS_BULLETPROOF_GLASS",
+          "FLAG_CARGOBOB_HOOK_UP_CHASSIS",
+          "FLAG_HAS_INCREASED_RAMMING_FORCE",
+          "FLAG_HAS_REAR_MOUNTED_TURRET",
+          "FLAG_TURRET_MODS_ON_ROOF",
+          "FLAG_RESET_TURRET_SEAT_HEADING"
+        ]
+      },
       "stats": {
         "handlingId": "RIOT2",
         "mass": 12500,
@@ -647,6 +1791,62 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": true,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.005,
+            "y": -2.745,
+            "z": -0.617
+          },
+          "max": {
+            "x": 1.005,
+            "y": 2.813,
+            "z": 1.033
+          },
+          "length": 5.558,
+          "width": 2.011,
+          "height": 1.65,
+          "boundingRadius": 3.022
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_HAS_LIVERY",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_LAW_ENFORCEMENT",
+          "FLAG_EMERGENCY_SERVICE",
+          "FLAG_NO_RESPRAY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_REPORT_CRIME_IF_STANDING_ON",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
+      },
       "stats": {
         "handlingId": "sheriff",
         "mass": 1400,
@@ -677,6 +1877,59 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 8,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": true,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.121,
+            "y": -3.075,
+            "z": -0.642
+          },
+          "max": {
+            "x": 1.121,
+            "y": 2.871,
+            "z": 1.721
+          },
+          "length": 5.946,
+          "width": 2.242,
+          "height": 2.363,
+          "boundingRadius": 3.418
+        },
+        "defaultColors": [
+          {
+            "primary": 134,
+            "secondary": 134,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_HAS_LIVERY",
+          "FLAG_LAW_ENFORCEMENT",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_REPORT_CRIME_IF_STANDING_ON"
+        ]
       },
       "stats": {
         "handlingId": "fbi2",

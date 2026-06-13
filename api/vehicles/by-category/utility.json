@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "name": "Utility",
@@ -26,6 +26,56 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": true,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.676,
+            "y": -1.774,
+            "z": -0.445
+          },
+          "max": {
+            "x": 0.676,
+            "y": 1.35,
+            "z": 1.437
+          },
+          "length": 3.124,
+          "width": 1.352,
+          "height": 1.882,
+          "boundingRadius": 1.774
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_IS_ELECTRIC",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_INCREASE_PED_COMMENTS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_PEDS_INSIDE_CAN_BE_SET_ON_FIRE_MP"
+        ]
       },
       "stats": {
         "handlingId": "AIRTUG",
@@ -58,6 +108,59 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAILER",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.454,
+            "y": -6.381,
+            "z": -2.712
+          },
+          "max": {
+            "x": 1.454,
+            "y": 5.92,
+            "z": 1.339
+          },
+          "length": 12.301,
+          "width": 2.909,
+          "height": 4.051,
+          "boundingRadius": 6.591
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 0,
+            "pearl": 132,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_EXPLODE_ON_CONTACT",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO"
+        ]
+      },
       "stats": {
         "handlingId": "TANKER",
         "mass": 5000,
@@ -88,6 +191,58 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAILER",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 6,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.807,
+            "y": -6.361,
+            "z": -2.846
+          },
+          "max": {
+            "x": 1.808,
+            "y": 6.387,
+            "z": 0.046
+          },
+          "length": 12.748,
+          "width": 3.615,
+          "height": 2.893,
+          "boundingRadius": 6.757
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 0,
+            "pearl": 132,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_EXTRAS_SCRIPT",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO"
+        ]
       },
       "stats": {
         "handlingId": "ARMYTRAILER",
@@ -120,6 +275,57 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAILER",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 6,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -2.182,
+            "y": -6.361,
+            "z": -2.846
+          },
+          "max": {
+            "x": 2.182,
+            "y": 6.914,
+            "z": 1.36
+          },
+          "length": 13.275,
+          "width": 4.363,
+          "height": 4.207,
+          "boundingRadius": 7.265
+        },
+        "defaultColors": [
+          {
+            "primary": 154,
+            "secondary": 123,
+            "pearl": 132,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO"
+        ]
+      },
       "stats": {
         "handlingId": "ARMYTRAILER",
         "mass": 10000,
@@ -150,6 +356,56 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAILER",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.324,
+            "y": -4.735,
+            "z": -1.663
+          },
+          "max": {
+            "x": 1.324,
+            "y": 4.703,
+            "z": 1.599
+          },
+          "length": 9.438,
+          "width": 2.648,
+          "height": 3.261,
+          "boundingRadius": 5.108
+        },
+        "defaultColors": [
+          {
+            "primary": 59,
+            "secondary": 0,
+            "pearl": 59,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
       },
       "stats": {
         "handlingId": "BALETRAILER",
@@ -182,6 +438,58 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAILER",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.274,
+            "y": -3.644,
+            "z": -1.139
+          },
+          "max": {
+            "x": 1.274,
+            "y": 3.383,
+            "z": 0.761
+          },
+          "length": 7.027,
+          "width": 2.547,
+          "height": 1.9,
+          "boundingRadius": 3.893
+        },
+        "defaultColors": [
+          {
+            "primary": 6,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPAWN_BOAT_ON_TRAILER",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO"
+        ]
+      },
       "stats": {
         "handlingId": "BOATTRAILER",
         "mass": 1200,
@@ -212,6 +520,65 @@
         "id": "mp2023_02",
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAILER",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.489,
+            "y": -4.664,
+            "z": -1.139
+          },
+          "max": {
+            "x": 1.489,
+            "y": 3.383,
+            "z": 3.098
+          },
+          "length": 8.047,
+          "width": 2.977,
+          "height": 4.238,
+          "boundingRadius": 4.94
+        },
+        "defaultColors": [
+          {
+            "primary": 88,
+            "secondary": 7,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 6,
+            "dashboard": 0
+          },
+          {
+            "primary": 44,
+            "secondary": 42,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 6,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO"
+        ]
       },
       "stats": {
         "handlingId": "BOATTRAILER",
@@ -244,6 +611,65 @@
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAILER",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.274,
+            "y": -3.665,
+            "z": -1.139
+          },
+          "max": {
+            "x": 1.274,
+            "y": 3.383,
+            "z": 1.68
+          },
+          "length": 7.047,
+          "width": 2.548,
+          "height": 2.819,
+          "boundingRadius": 4.098
+        },
+        "defaultColors": [
+          {
+            "primary": 88,
+            "secondary": 7,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 6,
+            "dashboard": 0
+          },
+          {
+            "primary": 44,
+            "secondary": 42,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 6,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO"
+        ]
+      },
       "stats": {
         "handlingId": "BOATTRAILER",
         "mass": 1200,
@@ -274,6 +700,71 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.721,
+            "y": -1.377,
+            "z": -0.406
+          },
+          "max": {
+            "x": 0.721,
+            "y": 1.187,
+            "z": 1.553
+          },
+          "length": 2.564,
+          "width": 1.443,
+          "height": 1.959,
+          "boundingRadius": 1.654
+        },
+        "defaultColors": [
+          {
+            "primary": 7,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 50,
+            "secondary": 0,
+            "pearl": 50,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 84,
+            "secondary": 0,
+            "pearl": 75,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_IS_ELECTRIC",
+          "FLAG_INCREASE_PED_COMMENTS",
+          "FLAG_HAS_NO_ROOF",
+          "FLAG_PEDS_INSIDE_CAN_BE_SET_ON_FIRE_MP"
+        ]
       },
       "stats": {
         "handlingId": "caddy",
@@ -306,6 +797,87 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.668,
+            "y": -1.224,
+            "z": -0.413
+          },
+          "max": {
+            "x": 0.668,
+            "y": 1.235,
+            "z": 1.487
+          },
+          "length": 2.458,
+          "width": 1.336,
+          "height": 1.9,
+          "boundingRadius": 1.59
+        },
+        "defaultColors": [
+          {
+            "primary": 26,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 86,
+            "secondary": 0,
+            "pearl": 86,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 46,
+            "secondary": 0,
+            "pearl": 46,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 47,
+            "secondary": 0,
+            "pearl": 47,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 113,
+            "secondary": 0,
+            "pearl": 113,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_IS_ELECTRIC",
+          "FLAG_INCREASE_PED_COMMENTS",
+          "FLAG_HAS_NO_ROOF",
+          "FLAG_PEDS_INSIDE_CAN_BE_SET_ON_FIRE_MP"
+        ]
+      },
       "stats": {
         "handlingId": "CADDY2",
         "mass": 600,
@@ -336,6 +908,88 @@
         "id": "mpgunrunning",
         "name": "Gunrunning",
         "releaseDate": "2017-06-13"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.663,
+            "y": -1.698,
+            "z": -0.402
+          },
+          "max": {
+            "x": 0.663,
+            "y": 1.756,
+            "z": 1.208
+          },
+          "length": 3.455,
+          "width": 1.326,
+          "height": 1.61,
+          "boundingRadius": 1.851
+        },
+        "defaultColors": [
+          {
+            "primary": 7,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 77,
+            "secondary": 0,
+            "pearl": 63,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 30,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 31,
+            "secondary": 0,
+            "pearl": 30,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 96,
+            "secondary": 0,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_IS_ELECTRIC",
+          "FLAG_INCREASE_PED_COMMENTS",
+          "FLAG_HAS_NO_ROOF",
+          "FLAG_PEDS_INSIDE_CAN_BE_SET_ON_FIRE_MP",
+          "FLAG_EXTRAS_STRONG"
+        ]
       },
       "stats": {
         "handlingId": "CADDY3",
@@ -368,6 +1022,57 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAILER",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.523,
+            "y": -7.548,
+            "z": -1.127
+          },
+          "max": {
+            "x": 1.523,
+            "y": 7.574,
+            "z": 3.188
+          },
+          "length": 15.122,
+          "width": 3.046,
+          "height": 4.316,
+          "boundingRadius": 7.93
+        },
+        "defaultColors": [
+          {
+            "primary": 75,
+            "secondary": 75,
+            "pearl": 75,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_EXTRAS_SCRIPT",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
+      },
       "stats": {
         "handlingId": "DOCKTRAILER",
         "mass": 2000,
@@ -398,6 +1103,55 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 1,
+        "doors": 1,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.348,
+            "y": -2.379,
+            "z": -1.286
+          },
+          "max": {
+            "x": 1.685,
+            "y": 2.325,
+            "z": 2.244
+          },
+          "length": 4.704,
+          "width": 3.033,
+          "height": 3.531,
+          "boundingRadius": 3.203
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 0,
+            "pearl": 132,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_INCREASE_PED_COMMENTS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_ATTACH_TRAILER_ON_HIGHWAY"
+        ]
       },
       "stats": {
         "handlingId": "DOCKTUG",
@@ -430,6 +1184,69 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": "HVY",
+        "type": "CAR",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.666,
+            "y": -1.276,
+            "z": -0.483
+          },
+          "max": {
+            "x": 0.667,
+            "y": 2.448,
+            "z": 2.186
+          },
+          "length": 3.724,
+          "width": 1.333,
+          "height": 2.669,
+          "boundingRadius": 2.333
+        },
+        "defaultColors": [
+          {
+            "primary": 124,
+            "secondary": 28,
+            "pearl": 89,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 123,
+            "secondary": 73,
+            "pearl": 88,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 47,
+            "secondary": 73,
+            "pearl": 88,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
+      },
       "stats": {
         "handlingId": "forklift",
         "mass": 6000,
@@ -460,6 +1277,58 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAILER",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 6,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.807,
+            "y": -9.325,
+            "z": -2.846
+          },
+          "max": {
+            "x": 1.808,
+            "y": 9.34,
+            "z": 0.325
+          },
+          "length": 18.665,
+          "width": 3.615,
+          "height": 3.171,
+          "boundingRadius": 9.596
+        },
+        "defaultColors": [
+          {
+            "primary": 154,
+            "secondary": 0,
+            "pearl": 132,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_EXTRAS_SCRIPT",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO"
+        ]
       },
       "stats": {
         "handlingId": "ARMYTRAILER",
@@ -492,6 +1361,54 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAILER",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.414,
+            "y": -3.264,
+            "z": -1.006
+          },
+          "max": {
+            "x": 1.43,
+            "y": 3.537,
+            "z": 2.083
+          },
+          "length": 6.801,
+          "width": 2.844,
+          "height": 3.089,
+          "boundingRadius": 3.952
+        },
+        "defaultColors": [
+          {
+            "primary": 59,
+            "secondary": 0,
+            "pearl": 59,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
+      },
       "stats": {
         "handlingId": "GRAINTRAIL",
         "mass": 3000,
@@ -522,6 +1439,79 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.761,
+            "y": -1.066,
+            "z": -0.444
+          },
+          "max": {
+            "x": 1.145,
+            "y": 1.07,
+            "z": 1.359
+          },
+          "length": 2.137,
+          "width": 1.905,
+          "height": 1.803,
+          "boundingRadius": 1.484
+        },
+        "defaultColors": [
+          {
+            "primary": 52,
+            "secondary": 0,
+            "pearl": 51,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 43,
+            "secondary": 0,
+            "pearl": 43,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 73,
+            "secondary": 0,
+            "pearl": 74,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 61,
+            "secondary": 0,
+            "pearl": 61,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_INCREASE_PED_COMMENTS",
+          "FLAG_PEDS_INSIDE_CAN_BE_SET_ON_FIRE_MP"
+        ]
       },
       "stats": {
         "handlingId": "MOWER",
@@ -554,6 +1544,56 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAILER",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 0,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -2.767,
+            "y": -8.425,
+            "z": -0.376
+          },
+          "max": {
+            "x": 3.788,
+            "y": 7.945,
+            "z": 7.094
+          },
+          "length": 16.37,
+          "width": 6.554,
+          "height": 7.47,
+          "boundingRadius": 9.317
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 132,
+            "pearl": 132,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_SCRIPT",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
+      },
       "stats": {
         "handlingId": "proptrailer",
         "mass": 1800,
@@ -584,6 +1624,55 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAILER",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.757,
+            "y": -1.223,
+            "z": -0.984
+          },
+          "max": {
+            "x": 1.757,
+            "y": 0.837,
+            "z": 0.615
+          },
+          "length": 2.06,
+          "width": 3.514,
+          "height": 1.6,
+          "boundingRadius": 2.18
+        },
+        "defaultColors": [
+          {
+            "primary": 85,
+            "secondary": 0,
+            "pearl": 86,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
       },
       "stats": {
         "handlingId": "RAKETRAILER",
@@ -616,6 +1705,66 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.843,
+            "y": -3.978,
+            "z": -1.099
+          },
+          "max": {
+            "x": 2.013,
+            "y": 4.732,
+            "z": 1.846
+          },
+          "length": 8.71,
+          "width": 3.856,
+          "height": 2.944,
+          "boundingRadius": 4.941
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 121,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 132,
+            "secondary": 88,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_ALL",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_INCREASE_PED_COMMENTS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_IS_BULKY",
+          "FLAG_USE_STRICTER_EXIT_COLLISION_TESTS"
+        ]
+      },
       "stats": {
         "handlingId": "RIPLEY",
         "mass": 9500,
@@ -646,6 +1795,211 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_suv_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.237,
+            "y": -3.136,
+            "z": -0.769
+          },
+          "max": {
+            "x": 1.237,
+            "y": 3.234,
+            "z": 1.5
+          },
+          "length": 6.37,
+          "width": 2.474,
+          "height": 2.269,
+          "boundingRadius": 3.582
+        },
+        "defaultColors": [
+          {
+            "primary": 9,
+            "secondary": 9,
+            "pearl": 7,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 11,
+            "secondary": 11,
+            "pearl": 14,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 1,
+            "secondary": 1,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 18,
+            "secondary": 13,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 25,
+            "secondary": 23,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 6,
+            "secondary": 67,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 31,
+            "secondary": 31,
+            "pearl": 36,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 33,
+            "secondary": 36,
+            "pearl": 35,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 27,
+            "secondary": 41,
+            "pearl": 36,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 34,
+            "secondary": 48,
+            "pearl": 45,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 50,
+            "secondary": 50,
+            "pearl": 52,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 51,
+            "secondary": 51,
+            "pearl": 59,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 63,
+            "secondary": 63,
+            "pearl": 63,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 67,
+            "secondary": 70,
+            "pearl": 67,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 76,
+            "secondary": 76,
+            "pearl": 77,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 95,
+            "secondary": 95,
+            "pearl": 100,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 103,
+            "secondary": 103,
+            "pearl": 105,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 105,
+            "secondary": 105,
+            "pearl": 106,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 7,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY",
+          "FLAG_ATTACH_TRAILER_ON_HIGHWAY",
+          "FLAG_ATTACH_TRAILER_IN_CITY",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_EXTRAS_STRONG"
+        ]
       },
       "stats": {
         "handlingId": "SADLER",
@@ -678,6 +2032,211 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.237,
+            "y": -3.136,
+            "z": -0.769
+          },
+          "max": {
+            "x": 1.237,
+            "y": 3.234,
+            "z": 1.331
+          },
+          "length": 6.37,
+          "width": 2.474,
+          "height": 2.1,
+          "boundingRadius": 3.512
+        },
+        "defaultColors": [
+          {
+            "primary": 9,
+            "secondary": 9,
+            "pearl": 7,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 11,
+            "secondary": 11,
+            "pearl": 14,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 1,
+            "secondary": 1,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 18,
+            "secondary": 13,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 25,
+            "secondary": 23,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 6,
+            "secondary": 67,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 31,
+            "secondary": 31,
+            "pearl": 36,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 33,
+            "secondary": 36,
+            "pearl": 35,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 27,
+            "secondary": 41,
+            "pearl": 36,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 34,
+            "secondary": 48,
+            "pearl": 45,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 50,
+            "secondary": 50,
+            "pearl": 52,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 51,
+            "secondary": 51,
+            "pearl": 59,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 63,
+            "secondary": 63,
+            "pearl": 63,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 67,
+            "secondary": 70,
+            "pearl": 67,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 76,
+            "secondary": 76,
+            "pearl": 77,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 95,
+            "secondary": 95,
+            "pearl": 100,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 103,
+            "secondary": 103,
+            "pearl": 105,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 105,
+            "secondary": 105,
+            "pearl": 106,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 7,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY",
+          "FLAG_ATTACH_TRAILER_ON_HIGHWAY",
+          "FLAG_ATTACH_TRAILER_IN_CITY",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
+      },
       "stats": {
         "handlingId": "SADLER",
         "mass": 2100,
@@ -708,6 +2267,99 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 6,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.867,
+            "y": -3.436,
+            "z": -1.005
+          },
+          "max": {
+            "x": 1.96,
+            "y": 3.547,
+            "z": 2.785
+          },
+          "length": 6.983,
+          "width": 3.827,
+          "height": 3.79,
+          "boundingRadius": 4.277
+        },
+        "defaultColors": [
+          {
+            "primary": 85,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 48,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 21,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 59,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_IGNORE_RWINDOW_COLLISION"
+        ]
       },
       "stats": {
         "handlingId": "SCRAP",
@@ -740,6 +2392,88 @@
         "name": "The Cayo Perico Heist",
         "releaseDate": "2020-12-15"
       },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "444_slamtruck_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.205,
+            "y": -4.524,
+            "z": -0.35
+          },
+          "max": {
+            "x": 1.205,
+            "y": 2.898,
+            "z": 1.979
+          },
+          "length": 7.422,
+          "width": 2.411,
+          "height": 2.329,
+          "boundingRadius": 3.906
+        },
+        "defaultColors": [
+          {
+            "primary": 107,
+            "secondary": 28,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 12,
+            "secondary": 12,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 29,
+            "secondary": 29,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 50,
+            "secondary": 50,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_HAS_LOWRIDER_DONK_HYDRAULICS",
+          "FLAG_IS_BULKY",
+          "FLAG_PEDS_CAN_STAND_ON_TOP"
+        ]
+      },
       "stats": {
         "handlingId": "SLAMTRUCK",
         "mass": 6000,
@@ -770,6 +2504,58 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAILER",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.454,
+            "y": -6.291,
+            "z": -2.712
+          },
+          "max": {
+            "x": 1.454,
+            "y": 5.92,
+            "z": 1.339
+          },
+          "length": 12.21,
+          "width": 2.909,
+          "height": 4.051,
+          "boundingRadius": 6.552
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 111,
+            "pearl": 138,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_EXPLODE_ON_CONTACT",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_SPRAY_PETROL_BEFORE_EXPLOSION"
+        ]
       },
       "stats": {
         "handlingId": "TANKER",
@@ -802,6 +2588,58 @@
         "name": "The Heists Update",
         "releaseDate": "2015-03-10"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAILER",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.454,
+            "y": -6.291,
+            "z": -2.712
+          },
+          "max": {
+            "x": 1.454,
+            "y": 5.92,
+            "z": 1.339
+          },
+          "length": 12.21,
+          "width": 2.909,
+          "height": 4.051,
+          "boundingRadius": 6.552
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 111,
+            "pearl": 138,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_EXPLODE_ON_CONTACT",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_SPRAY_PETROL_BEFORE_EXPLOSION"
+        ]
+      },
       "stats": {
         "handlingId": "TANKER",
         "mass": 5000,
@@ -832,6 +2670,67 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 6,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": true,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.488,
+            "y": -4.333,
+            "z": -1.005
+          },
+          "max": {
+            "x": 1.488,
+            "y": 3.547,
+            "z": 2.162
+          },
+          "length": 7.88,
+          "width": 2.977,
+          "height": 3.167,
+          "boundingRadius": 4.443
+        },
+        "defaultColors": [
+          {
+            "primary": 121,
+            "secondary": 111,
+            "pearl": 122,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 47,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_USE_FAT_INTERIOR_LIGHT",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_USE_STRICTER_EXIT_COLLISION_TESTS"
+        ]
       },
       "stats": {
         "handlingId": "towtruck",
@@ -864,6 +2763,89 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": true,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.139,
+            "y": -2.893,
+            "z": -0.647
+          },
+          "max": {
+            "x": 1.155,
+            "y": 2.45,
+            "z": 1.436
+          },
+          "length": 5.343,
+          "width": 2.294,
+          "height": 2.084,
+          "boundingRadius": 2.992
+        },
+        "defaultColors": [
+          {
+            "primary": 47,
+            "secondary": 121,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 58,
+            "secondary": 60,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 86,
+            "secondary": 86,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 114,
+            "secondary": 23,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 122,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_USE_STRICTER_EXIT_COLLISION_TESTS",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
+      },
       "stats": {
         "handlingId": "towtruck2",
         "mass": 5000,
@@ -894,6 +2876,67 @@
         "id": "mp2023_02",
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 6,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": true,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.488,
+            "y": -4.333,
+            "z": -1.005
+          },
+          "max": {
+            "x": 1.488,
+            "y": 3.547,
+            "z": 2.162
+          },
+          "length": 7.88,
+          "width": 2.977,
+          "height": 3.167,
+          "boundingRadius": 4.443
+        },
+        "defaultColors": [
+          {
+            "primary": 121,
+            "secondary": 111,
+            "pearl": 122,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 47,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_USE_FAT_INTERIOR_LIGHT",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_USE_STRICTER_EXIT_COLLISION_TESTS"
+        ]
       },
       "stats": {
         "handlingId": "TOWTRUCK3",
@@ -926,6 +2969,67 @@
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 6,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": true,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.488,
+            "y": -4.333,
+            "z": -1.005
+          },
+          "max": {
+            "x": 1.488,
+            "y": 3.547,
+            "z": 2.162
+          },
+          "length": 7.88,
+          "width": 2.977,
+          "height": 3.167,
+          "boundingRadius": 4.443
+        },
+        "defaultColors": [
+          {
+            "primary": 121,
+            "secondary": 111,
+            "pearl": 122,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 47,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_USE_FAT_INTERIOR_LIGHT",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_USE_STRICTER_EXIT_COLLISION_TESTS"
+        ]
+      },
       "stats": {
         "handlingId": "TOWTRUCK3",
         "mass": 4950,
@@ -956,6 +3060,57 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAILER",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.469,
+            "y": -7.68,
+            "z": -1.164
+          },
+          "max": {
+            "x": 1.556,
+            "y": 8.106,
+            "z": 4.07
+          },
+          "length": 15.786,
+          "width": 3.026,
+          "height": 5.234,
+          "boundingRadius": 8.398
+        },
+        "defaultColors": [
+          {
+            "primary": 22,
+            "secondary": 112,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_EXTRAS_SCRIPT",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
       },
       "stats": {
         "handlingId": "tr2",
@@ -988,6 +3143,54 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAILER",
+        "seats": 2,
+        "doors": 1,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -2.22,
+            "y": -8.044,
+            "z": -1.122
+          },
+          "max": {
+            "x": 2.476,
+            "y": 8.547,
+            "z": 3.639
+          },
+          "length": 16.591,
+          "width": 4.697,
+          "height": 4.761,
+          "boundingRadius": 9.414
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 29,
+            "pearl": 4,
+            "wheels": 63,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
+      },
       "stats": {
         "handlingId": "TR3",
         "mass": 10000,
@@ -1018,6 +3221,57 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAILER",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.469,
+            "y": -7.68,
+            "z": -1.164
+          },
+          "max": {
+            "x": 1.556,
+            "y": 8.106,
+            "z": 4.07
+          },
+          "length": 15.786,
+          "width": 3.026,
+          "height": 5.234,
+          "boundingRadius": 8.398
+        },
+        "defaultColors": [
+          {
+            "primary": 22,
+            "secondary": 112,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_EXTRAS_SCRIPT",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
       },
       "stats": {
         "handlingId": "tr2",
@@ -1050,6 +3304,60 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.857,
+            "y": -2.22,
+            "z": -0.529
+          },
+          "max": {
+            "x": 0.86,
+            "y": 1.473,
+            "z": 1.573
+          },
+          "length": 3.693,
+          "width": 1.716,
+          "height": 2.102,
+          "boundingRadius": 1.936
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 132,
+            "pearl": 132,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_EXTRAS_SCRIPT",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_INCREASE_PED_COMMENTS",
+          "FLAG_IS_BULKY",
+          "FLAG_HAS_NO_ROOF",
+          "FLAG_PEDS_INSIDE_CAN_BE_SET_ON_FIRE_MP"
+        ]
+      },
       "stats": {
         "handlingId": "TRACTOR",
         "mass": 2400,
@@ -1080,6 +3388,64 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "Stanley",
+        "type": "CAR",
+        "seats": 1,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.516,
+            "y": -2.339,
+            "z": -1.164
+          },
+          "max": {
+            "x": 1.516,
+            "y": 2.473,
+            "z": 2.207
+          },
+          "length": 4.811,
+          "width": 3.033,
+          "height": 3.372,
+          "boundingRadius": 3.235
+        },
+        "defaultColors": [
+          {
+            "primary": 59,
+            "secondary": 0,
+            "pearl": 59,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 29,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_INCREASE_PED_COMMENTS",
+          "FLAG_USE_FAT_INTERIOR_LIGHT",
+          "FLAG_IS_BULKY"
+        ]
       },
       "stats": {
         "handlingId": "TRACTOR2",
@@ -1112,6 +3478,57 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": "Stanley",
+        "type": "CAR",
+        "seats": 1,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.516,
+            "y": -2.339,
+            "z": -1.164
+          },
+          "max": {
+            "x": 1.516,
+            "y": 2.473,
+            "z": 2.207
+          },
+          "length": 4.811,
+          "width": 3.033,
+          "height": 3.372,
+          "boundingRadius": 3.235
+        },
+        "defaultColors": [
+          {
+            "primary": 59,
+            "secondary": 0,
+            "pearl": 59,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_INCREASE_PED_COMMENTS",
+          "FLAG_USE_FAT_INTERIOR_LIGHT",
+          "FLAG_IS_BULKY",
+          "FLAG_EXTRAS_REQUIRE"
+        ]
+      },
       "stats": {
         "handlingId": "TRACTOR2",
         "mass": 6500,
@@ -1142,6 +3559,61 @@
         "id": "mpgunrunning",
         "name": "Gunrunning",
         "releaseDate": "2017-06-13"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAILER",
+        "seats": 3,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [
+          "234_trailerlarge_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_MOBILEOPS_CANNON"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -2.748,
+            "y": -7.96,
+            "z": -2.686
+          },
+          "max": {
+            "x": 2.748,
+            "y": 8.022,
+            "z": 1.771
+          },
+          "length": 15.982,
+          "width": 5.496,
+          "height": 4.457,
+          "boundingRadius": 8.239
+        },
+        "defaultColors": [
+          {
+            "primary": 1,
+            "secondary": 40,
+            "pearl": 120,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_USE_TURRET_RELATIVE_AIM_CALCULATION"
+        ]
       },
       "stats": {
         "handlingId": "TRAILERLARGE",
@@ -1174,6 +3646,56 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAILER",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.454,
+            "y": -6.691,
+            "z": -2.804
+          },
+          "max": {
+            "x": 1.454,
+            "y": 5.987,
+            "z": 1.172
+          },
+          "length": 12.679,
+          "width": 2.909,
+          "height": 3.976,
+          "boundingRadius": 6.743
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
+      },
       "stats": {
         "handlingId": "TRAILERL",
         "mass": 5000,
@@ -1204,6 +3726,56 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAILER",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.477,
+            "y": -6.289,
+            "z": -2.846
+          },
+          "max": {
+            "x": 1.477,
+            "y": 6.147,
+            "z": 1.488
+          },
+          "length": 12.436,
+          "width": 2.953,
+          "height": 4.334,
+          "boundingRadius": 6.668
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 0,
+            "pearl": 132,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
       },
       "stats": {
         "handlingId": "TRAILER",
@@ -1236,6 +3808,57 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAILER",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.477,
+            "y": -6.305,
+            "z": -2.846
+          },
+          "max": {
+            "x": 1.477,
+            "y": 6.423,
+            "z": 1.546
+          },
+          "length": 12.728,
+          "width": 2.953,
+          "height": 4.392,
+          "boundingRadius": 6.85
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_HAS_LIVERY",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
+      },
       "stats": {
         "handlingId": "TRAILER",
         "mass": 3500,
@@ -1266,6 +3889,56 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAILER",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.477,
+            "y": -6.313,
+            "z": -3.118
+          },
+          "max": {
+            "x": 1.477,
+            "y": 6.017,
+            "z": 1.735
+          },
+          "length": 12.331,
+          "width": 2.953,
+          "height": 4.853,
+          "boundingRadius": 6.747
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 132,
+            "pearl": 132,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
       },
       "stats": {
         "handlingId": "TRAILER",
@@ -1298,6 +3971,86 @@
         "name": "Gunrunning",
         "releaseDate": "2017-06-13"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAILER",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.477,
+            "y": -6.289,
+            "z": -2.846
+          },
+          "max": {
+            "x": 1.477,
+            "y": 6.147,
+            "z": 1.488
+          },
+          "length": 12.436,
+          "width": 2.953,
+          "height": 4.334,
+          "boundingRadius": 6.593
+        },
+        "defaultColors": [
+          {
+            "primary": 18,
+            "secondary": 18,
+            "pearl": 132,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 47,
+            "secondary": 18,
+            "pearl": 132,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 59,
+            "secondary": 18,
+            "pearl": 132,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 65,
+            "secondary": 18,
+            "pearl": 132,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 144,
+            "secondary": 18,
+            "pearl": 132,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
+      },
       "stats": {
         "handlingId": "TRAILER",
         "mass": 3500,
@@ -1328,6 +4081,56 @@
         "id": "mp2023_02",
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAILER",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.477,
+            "y": -6.305,
+            "z": -2.846
+          },
+          "max": {
+            "x": 1.477,
+            "y": 6.423,
+            "z": 1.546
+          },
+          "length": 12.728,
+          "width": 2.953,
+          "height": 4.392,
+          "boundingRadius": 6.844
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 160,
+            "pearl": 27,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
       },
       "stats": {
         "handlingId": "TRAILER",
@@ -1360,6 +4163,56 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAILER",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.145,
+            "y": -1.938,
+            "z": -0.81
+          },
+          "max": {
+            "x": 1.194,
+            "y": 1.799,
+            "z": 1.012
+          },
+          "length": 3.738,
+          "width": 2.339,
+          "height": 1.822,
+          "boundingRadius": 2.359
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
+      },
       "stats": {
         "handlingId": "TRAILERSMALL",
         "mass": 1000,
@@ -1390,6 +4243,58 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAILER",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.411,
+            "y": -6.254,
+            "z": -1.222
+          },
+          "max": {
+            "x": 1.411,
+            "y": 6.03,
+            "z": 0.434
+          },
+          "length": 12.285,
+          "width": 2.821,
+          "height": 1.656,
+          "boundingRadius": 6.289
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 132,
+            "pearl": 132,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
       },
       "stats": {
         "handlingId": "TRAILER",
@@ -1422,6 +4327,56 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAILER",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.454,
+            "y": -6.305,
+            "z": -2.846
+          },
+          "max": {
+            "x": 1.454,
+            "y": 6.017,
+            "z": 1.533
+          },
+          "length": 12.322,
+          "width": 2.909,
+          "height": 4.379,
+          "boundingRadius": 6.67
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 111,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
+      },
       "stats": {
         "handlingId": "TRAILER",
         "mass": 3500,
@@ -1452,6 +4407,56 @@
         "id": "mp2023_02",
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAILER",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.454,
+            "y": -6.305,
+            "z": -2.846
+          },
+          "max": {
+            "x": 1.454,
+            "y": 6.017,
+            "z": 1.533
+          },
+          "length": 12.322,
+          "width": 2.909,
+          "height": 4.379,
+          "boundingRadius": 6.67
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 111,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
       },
       "stats": {
         "handlingId": "TRAILER",
@@ -1484,6 +4489,59 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 6,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.33,
+            "y": -3.032,
+            "z": -1.013
+          },
+          "max": {
+            "x": 1.33,
+            "y": 4.276,
+            "z": 2.233
+          },
+          "length": 7.308,
+          "width": 2.661,
+          "height": 3.246,
+          "boundingRadius": 4.203
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 132,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_DELIVERY",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO"
+        ]
+      },
       "stats": {
         "handlingId": "UTILTRUC",
         "mass": 7500,
@@ -1515,6 +4573,59 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 6,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.33,
+            "y": -3.093,
+            "z": -1.013
+          },
+          "max": {
+            "x": 1.33,
+            "y": 4.218,
+            "z": 1.776
+          },
+          "length": 7.31,
+          "width": 2.661,
+          "height": 2.789,
+          "boundingRadius": 4.134
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 132,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_DELIVERY",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO"
+        ]
+      },
       "stats": {
         "handlingId": "UTILTRUC2",
         "mass": 6500,
@@ -1545,6 +4656,59 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.094,
+            "y": -3.263,
+            "z": -0.676
+          },
+          "max": {
+            "x": 1.094,
+            "y": 2.825,
+            "z": 1.272
+          },
+          "length": 6.087,
+          "width": 2.187,
+          "height": 1.948,
+          "boundingRadius": 3.395
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_DELIVERY",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO"
+        ]
       },
       "stats": {
         "handlingId": "UTILTRUC3",

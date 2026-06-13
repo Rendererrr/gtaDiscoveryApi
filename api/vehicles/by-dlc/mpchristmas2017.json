@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "id": "mpchristmas2017",
@@ -28,6 +28,88 @@
         "id": "mpchristmas2017",
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
+      },
+      "details": {
+        "manufacturer": "Albany",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "268_hermes_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.009,
+            "y": -2.898,
+            "z": -0.335
+          },
+          "max": {
+            "x": 1.009,
+            "y": 2.404,
+            "z": 1.059
+          },
+          "length": 5.302,
+          "width": 2.018,
+          "height": 1.394,
+          "boundingRadius": 2.841
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 120,
+            "pearl": 88,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 27,
+            "secondary": 120,
+            "pearl": 88,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 49,
+            "secondary": 120,
+            "pearl": 55,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 75,
+            "secondary": 120,
+            "pearl": 88,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 107,
+            "secondary": 120,
+            "pearl": 129,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_USE_STRICTER_EXIT_COLLISION_TESTS",
+          "FLAG_DROP_SUSPENSION_WHEN_STOPPED",
+          "FLAG_USE_RESTRICTED_DRIVEBY_HEIGHT_HIGH"
+        ]
       },
       "stats": {
         "handlingId": "HERMES",
@@ -60,6 +142,89 @@
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
       },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "272_hustler_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.977,
+            "y": -2.28,
+            "z": -0.368
+          },
+          "max": {
+            "x": 0.977,
+            "y": 1.946,
+            "z": 1.267
+          },
+          "length": 4.226,
+          "width": 1.955,
+          "height": 1.635,
+          "boundingRadius": 2.385
+        },
+        "defaultColors": [
+          {
+            "primary": 88,
+            "secondary": 88,
+            "pearl": 88,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 27,
+            "secondary": 27,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 0,
+            "secondary": 111,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 49,
+            "secondary": 49,
+            "pearl": 52,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 67,
+            "secondary": 67,
+            "pearl": 75,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_ALL",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_USE_STRICTER_EXIT_COLLISION_TESTS",
+          "FLAG_USE_RESTRICTED_DRIVEBY_HEIGHT"
+        ]
+      },
       "stats": {
         "handlingId": "HUSTLER",
         "mass": 1000,
@@ -90,6 +255,87 @@
         "id": "mpchristmas2017",
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
+      },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "258_yosemite_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.983,
+            "y": -2.597,
+            "z": -0.368
+          },
+          "max": {
+            "x": 0.983,
+            "y": 2.339,
+            "z": 1.133
+          },
+          "length": 4.936,
+          "width": 1.966,
+          "height": 1.501,
+          "boundingRadius": 2.716
+        },
+        "defaultColors": [
+          {
+            "primary": 112,
+            "secondary": 1,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 34,
+            "secondary": 1,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 56,
+            "secondary": 1,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 70,
+            "secondary": 1,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 107,
+            "secondary": 120,
+            "pearl": 129,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_USE_STRICTER_EXIT_COLLISION_TESTS",
+          "FLAG_DROP_SUSPENSION_WHEN_STOPPED"
+        ]
       },
       "stats": {
         "handlingId": "YOSEMITE",
@@ -122,6 +368,91 @@
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
       },
+      "details": {
+        "manufacturer": "Imponte",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "165_deluxo_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_DELUXO_MG",
+          "VEHICLE_WEAPON_DELUXO_MISSILE"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.968,
+            "y": -2.37,
+            "z": -0.45
+          },
+          "max": {
+            "x": 0.968,
+            "y": 2.141,
+            "z": 0.759
+          },
+          "length": 4.511,
+          "width": 1.937,
+          "height": 1.209,
+          "boundingRadius": 2.361
+        },
+        "defaultColors": [
+          {
+            "primary": 18,
+            "secondary": 8,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 19,
+            "dashboard": 156
+          },
+          {
+            "primary": 19,
+            "secondary": 10,
+            "pearl": 23,
+            "wheels": 0,
+            "interior": 19,
+            "dashboard": 156
+          },
+          {
+            "primary": 38,
+            "secondary": 38,
+            "pearl": 24,
+            "wheels": 0,
+            "interior": 19,
+            "dashboard": 156
+          },
+          {
+            "primary": 64,
+            "secondary": 64,
+            "pearl": 24,
+            "wheels": 0,
+            "interior": 19,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_GULL_WING_DOORS",
+          "FLAG_USE_ROOT_AS_BASE_LOCKON_POS",
+          "FLAG_DONT_TIMESLICE_WHEELS"
+        ]
+      },
       "stats": {
         "handlingId": "DELUXO",
         "mass": 1600,
@@ -152,6 +483,98 @@
         "id": "mpchristmas2017",
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
+      },
+      "details": {
+        "manufacturer": "Grotti",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "264_gt500_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.87,
+            "y": -2.115,
+            "z": -0.607
+          },
+          "max": {
+            "x": 0.87,
+            "y": 2.101,
+            "z": 0.647
+          },
+          "length": 4.217,
+          "width": 1.739,
+          "height": 1.255,
+          "boundingRadius": 2.298
+        },
+        "defaultColors": [
+          {
+            "primary": 28,
+            "secondary": 30,
+            "pearl": 30,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 111,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 111,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 62,
+            "secondary": 111,
+            "pearl": 64,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 4,
+            "secondary": 111,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 111,
+            "pearl": 1,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN"
+        ]
       },
       "stats": {
         "handlingId": "GT500",
@@ -184,6 +607,91 @@
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
       },
+      "details": {
+        "manufacturer": "Annis",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "169_savestra_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SAVESTRA_MG"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.947,
+            "y": -2.534,
+            "z": -0.358
+          },
+          "max": {
+            "x": 0.953,
+            "y": 1.9,
+            "z": 1.039
+          },
+          "length": 4.433,
+          "width": 1.899,
+          "height": 1.397,
+          "boundingRadius": 2.28
+        },
+        "defaultColors": [
+          {
+            "primary": 7,
+            "secondary": 14,
+            "pearl": 157,
+            "wheels": 1,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 50,
+            "secondary": 15,
+            "pearl": 7,
+            "wheels": 12,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 32,
+            "secondary": 12,
+            "pearl": 12,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 78,
+            "secondary": 120,
+            "pearl": 120,
+            "wheels": 120,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 88,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 111,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING"
+        ]
+      },
       "stats": {
         "handlingId": "SAVESTRA",
         "mass": 880,
@@ -214,6 +722,89 @@
         "id": "mpchristmas2017",
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
+      },
+      "details": {
+        "manufacturer": "Ocelot",
+        "type": "SUBMARINECAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SUBCAR_MG",
+          "VEHICLE_WEAPON_SUBCAR_MISSILE",
+          "VEHICLE_WEAPON_SUBCAR_TORPEDO"
+        ],
+        "features": {
+          "convertibleRoof": true,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.99,
+            "y": -2.054,
+            "z": -0.261
+          },
+          "max": {
+            "x": 0.99,
+            "y": 2.174,
+            "z": 0.853
+          },
+          "length": 4.227,
+          "width": 1.98,
+          "height": 1.114,
+          "boundingRadius": 2.318
+        },
+        "defaultColors": [
+          {
+            "primary": 18,
+            "secondary": 18,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 64,
+            "secondary": 64,
+            "pearl": 24,
+            "wheels": 0,
+            "interior": 19,
+            "dashboard": 156
+          },
+          {
+            "primary": 38,
+            "secondary": 38,
+            "pearl": 24,
+            "wheels": 0,
+            "interior": 19,
+            "dashboard": 156
+          },
+          {
+            "primary": 18,
+            "secondary": 8,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 19,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING"
+        ]
       },
       "stats": {
         "handlingId": "STROMBER",
@@ -246,6 +837,64 @@
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
       },
+      "details": {
+        "manufacturer": "Lampadati",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "278_viseris_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_VISERIS_MG"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.062,
+            "y": -2.503,
+            "z": -0.388
+          },
+          "max": {
+            "x": 1.064,
+            "y": 2.177,
+            "z": 0.837
+          },
+          "length": 4.679,
+          "width": 2.126,
+          "height": 1.225,
+          "boundingRadius": 2.378
+        },
+        "defaultColors": [
+          {
+            "primary": 8,
+            "secondary": 0,
+            "pearl": 134,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_FRONT_BOOT",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING"
+        ]
+      },
       "stats": {
         "handlingId": "VISERIS",
         "mass": 1400,
@@ -276,6 +925,100 @@
         "id": "mpchristmas2017",
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
+      },
+      "details": {
+        "manufacturer": "Karin",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "276_z190_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.092,
+            "y": -2.557,
+            "z": -0.326
+          },
+          "max": {
+            "x": 1.093,
+            "y": 2.285,
+            "z": 0.964
+          },
+          "length": 4.841,
+          "width": 2.185,
+          "height": 1.29,
+          "boundingRadius": 2.464
+        },
+        "defaultColors": [
+          {
+            "primary": 112,
+            "secondary": 10,
+            "pearl": 111,
+            "wheels": 9,
+            "interior": 141,
+            "dashboard": 0
+          },
+          {
+            "primary": 2,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 156,
+            "interior": 129,
+            "dashboard": 0
+          },
+          {
+            "primary": 153,
+            "secondary": 110,
+            "pearl": 116,
+            "wheels": 15,
+            "interior": 109,
+            "dashboard": 0
+          },
+          {
+            "primary": 6,
+            "secondary": 111,
+            "pearl": 131,
+            "wheels": 23,
+            "interior": 121,
+            "dashboard": 0
+          },
+          {
+            "primary": 151,
+            "secondary": 115,
+            "pearl": 154,
+            "wheels": 23,
+            "interior": 144,
+            "dashboard": 0
+          },
+          {
+            "primary": 43,
+            "secondary": 67,
+            "pearl": 150,
+            "wheels": 147,
+            "interior": 22,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG"
+        ]
       },
       "stats": {
         "handlingId": "z190",
@@ -308,6 +1051,121 @@
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
       },
+      "details": {
+        "manufacturer": "Pfister",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "262_comet4_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_COMET_MG"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.929,
+            "y": -2.27,
+            "z": -0.445
+          },
+          "max": {
+            "x": 0.929,
+            "y": 2.267,
+            "z": 1.401
+          },
+          "length": 4.537,
+          "width": 1.858,
+          "height": 1.847,
+          "boundingRadius": 2.407
+        },
+        "defaultColors": [
+          {
+            "primary": 12,
+            "secondary": 12,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 30,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 33,
+            "secondary": 111,
+            "pearl": 38,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 90,
+            "secondary": 112,
+            "pearl": 38,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 53,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 82,
+            "secondary": 5,
+            "pearl": 68,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 55,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 94,
+            "secondary": 6,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_BOOT_IN_FRONT",
+          "FLAG_SPORTS",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PARKING_SENSORS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_CARGOBOB_HOOK_UP_CHASSIS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING"
+        ]
+      },
       "stats": {
         "handlingId": "COMET4",
         "mass": 1150,
@@ -338,6 +1196,116 @@
         "id": "mpchristmas2017",
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
+      },
+      "details": {
+        "manufacturer": "Pfister",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "279_comet5_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.027,
+            "y": -2.234,
+            "z": -0.57
+          },
+          "max": {
+            "x": 1.027,
+            "y": 2.245,
+            "z": 0.779
+          },
+          "length": 4.479,
+          "width": 2.054,
+          "height": 1.348,
+          "boundingRadius": 2.447
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 73,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 89,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 38,
+            "secondary": 1,
+            "pearl": 89,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 70,
+            "secondary": 1,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 65
+          }
+        ],
+        "flags": [
+          "FLAG_BOOT_IN_FRONT",
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_PARKING_SENSORS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS"
+        ]
       },
       "stats": {
         "handlingId": "COMET5",
@@ -370,6 +1338,113 @@
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
       },
+      "details": {
+        "manufacturer": "Pfister",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "261_neon_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.034,
+            "y": -2.528,
+            "z": -0.655
+          },
+          "max": {
+            "x": 1.031,
+            "y": 2.477,
+            "z": 0.699
+          },
+          "length": 5.006,
+          "width": 2.064,
+          "height": 1.355,
+          "boundingRadius": 2.667
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 73,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 89,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 38,
+            "secondary": 1,
+            "pearl": 89,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 70,
+            "secondary": 1,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 65
+          }
+        ],
+        "flags": [
+          "FLAG_DISABLE_THROUGH_WINDSCREEN",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_ELECTRIC"
+        ]
+      },
       "stats": {
         "handlingId": "NEON",
         "mass": 2000,
@@ -400,6 +1475,89 @@
         "id": "mpchristmas2017",
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
+      },
+      "details": {
+        "manufacturer": "Ocelot",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "274_pariah_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.089,
+            "y": -2.482,
+            "z": -0.487
+          },
+          "max": {
+            "x": 1.089,
+            "y": 2.339,
+            "z": 0.943
+          },
+          "length": 4.822,
+          "width": 2.177,
+          "height": 1.43,
+          "boundingRadius": 2.574
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 41,
+            "pearl": 16,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 24,
+            "secondary": 32,
+            "pearl": 0,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 8,
+            "secondary": 0,
+            "pearl": 16,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 11,
+            "secondary": 0,
+            "pearl": 35,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 62,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 65
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS"
+        ]
       },
       "stats": {
         "handlingId": "PARIAH",
@@ -432,6 +1590,97 @@
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
       },
+      "details": {
+        "manufacturer": "Coil",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "280_raiden_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.048,
+            "y": -2.621,
+            "z": -0.696
+          },
+          "max": {
+            "x": 1.052,
+            "y": 2.471,
+            "z": 0.766
+          },
+          "length": 5.092,
+          "width": 2.1,
+          "height": 1.462,
+          "boundingRadius": 2.737
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 28,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 73,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 1,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 1,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 2,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 65
+          }
+        ],
+        "flags": [
+          "FLAG_DISABLE_THROUGH_WINDSCREEN",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_ELECTRIC"
+        ]
+      },
       "stats": {
         "handlingId": "RAIDEN",
         "mass": 2100,
@@ -462,6 +1711,94 @@
         "id": "mpchristmas2017",
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
+      },
+      "details": {
+        "manufacturer": "Ubermacht",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "269_revolter_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_REVOLTER_MG"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.049,
+            "y": -2.898,
+            "z": -0.514
+          },
+          "max": {
+            "x": 1.049,
+            "y": 2.695,
+            "z": 1.013
+          },
+          "length": 5.593,
+          "width": 2.099,
+          "height": 1.528,
+          "boundingRadius": 2.987
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 112,
+            "secondary": 29,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 1,
+            "secondary": 29,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 70,
+            "secondary": 112,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 88,
+            "secondary": 112,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS"
+        ]
       },
       "stats": {
         "handlingId": "REVOLTER",
@@ -494,6 +1831,89 @@
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
       },
+      "details": {
+        "manufacturer": "Ubermacht",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "266_sentinel3_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.89,
+            "y": -2.494,
+            "z": -0.441
+          },
+          "max": {
+            "x": 0.89,
+            "y": 2.106,
+            "z": 1.241
+          },
+          "length": 4.6,
+          "width": 1.781,
+          "height": 1.682,
+          "boundingRadius": 2.462
+        },
+        "defaultColors": [
+          {
+            "primary": 112,
+            "secondary": 1,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 112,
+            "secondary": 29,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 1,
+            "secondary": 29,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 70,
+            "secondary": 112,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 88,
+            "secondary": 112,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS"
+        ]
+      },
       "stats": {
         "handlingId": "SENTINEL3",
         "mass": 1100,
@@ -524,6 +1944,93 @@
         "id": "mpchristmas2017",
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
+      },
+      "details": {
+        "manufacturer": "Benefactor",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "267_streiter_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.985,
+            "y": -2.651,
+            "z": -0.549
+          },
+          "max": {
+            "x": 0.985,
+            "y": 2.334,
+            "z": 1.199
+          },
+          "length": 4.985,
+          "width": 1.97,
+          "height": 1.747,
+          "boundingRadius": 2.727
+        },
+        "defaultColors": [
+          {
+            "primary": 23,
+            "secondary": 14,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 27,
+            "secondary": 27,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 17,
+            "secondary": 17,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 57,
+            "secondary": 57,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 8,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_BOOT_IN_FRONT",
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PARKING_SENSORS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS"
+        ]
       },
       "stats": {
         "handlingId": "STREITER",
@@ -556,6 +2063,201 @@
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
       },
+      "details": {
+        "manufacturer": "Overflod",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "270_autarch_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.126,
+            "y": -2.402,
+            "z": -0.57
+          },
+          "max": {
+            "x": 1.508,
+            "y": 2.452,
+            "z": 1.157
+          },
+          "length": 4.855,
+          "width": 2.634,
+          "height": 1.727,
+          "boundingRadius": 2.552
+        },
+        "defaultColors": [
+          {
+            "primary": 92,
+            "secondary": 92,
+            "pearl": 88,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 88,
+            "secondary": 88,
+            "pearl": 89,
+            "wheels": 88,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 36,
+            "secondary": 36,
+            "pearl": 88,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 30,
+            "secondary": 30,
+            "pearl": 38,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 35,
+            "secondary": 35,
+            "pearl": 28,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 2,
+            "secondary": 2,
+            "pearl": 113,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 62,
+            "secondary": 62,
+            "pearl": 73,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 68,
+            "secondary": 68,
+            "pearl": 112,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 135,
+            "secondary": 135,
+            "pearl": 136,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 141,
+            "secondary": 141,
+            "pearl": 145,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 12,
+            "secondary": 12,
+            "pearl": 18,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 42,
+            "secondary": 42,
+            "pearl": 124,
+            "wheels": 42,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 41,
+            "secondary": 41,
+            "pearl": 124,
+            "wheels": 41,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 39,
+            "secondary": 39,
+            "pearl": 44,
+            "wheels": 39,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 83,
+            "secondary": 83,
+            "pearl": 77,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 131,
+            "secondary": 131,
+            "pearl": 19,
+            "wheels": 39,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 14,
+            "secondary": 14,
+            "pearl": 18,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 55,
+            "secondary": 55,
+            "pearl": 123,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO"
+        ]
+      },
       "stats": {
         "handlingId": "AUTARCH",
         "mass": 1300,
@@ -586,6 +2288,131 @@
         "id": "mpchristmas2017",
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
+      },
+      "details": {
+        "manufacturer": "Ubermacht",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "277_sc1_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.951,
+            "y": -2.394,
+            "z": -0.634
+          },
+          "max": {
+            "x": 0.951,
+            "y": 2.339,
+            "z": 0.576
+          },
+          "length": 4.733,
+          "width": 1.902,
+          "height": 1.211,
+          "boundingRadius": 2.477
+        },
+        "defaultColors": [
+          {
+            "primary": 1,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 36,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 73,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 89,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 38,
+            "secondary": 1,
+            "pearl": 89,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 70,
+            "secondary": 1,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 65
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN",
+          "FLAG_HAS_GULL_WING_DOORS"
+        ]
       },
       "stats": {
         "handlingId": "SC1",
@@ -618,6 +2445,69 @@
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
       },
+      "details": {
+        "manufacturer": "Canis",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "282_kamacho_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.229,
+            "y": -2.978,
+            "z": -0.706
+          },
+          "max": {
+            "x": 1.233,
+            "y": 3.061,
+            "z": 1.536
+          },
+          "length": 6.039,
+          "width": 2.462,
+          "height": 2.242,
+          "boundingRadius": 3.264
+        },
+        "defaultColors": [
+          {
+            "primary": 1,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 36,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 65
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_IS_BULKY",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG"
+        ]
+      },
       "stats": {
         "handlingId": "KAMACHO",
         "mass": 2350,
@@ -648,6 +2538,131 @@
         "id": "mpchristmas2017",
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
+      },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "273_riata_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.363,
+            "y": -2.85,
+            "z": -0.944
+          },
+          "max": {
+            "x": 1.366,
+            "y": 2.949,
+            "z": 1.642
+          },
+          "length": 5.8,
+          "width": 2.729,
+          "height": 2.586,
+          "boundingRadius": 3.162
+        },
+        "defaultColors": [
+          {
+            "primary": 1,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 36,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 12,
+            "secondary": 12,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 30,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 33,
+            "secondary": 111,
+            "pearl": 38,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 90,
+            "secondary": 112,
+            "pearl": 38,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 53,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 82,
+            "secondary": 5,
+            "pearl": 68,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 55,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 94,
+            "secondary": 6,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_IS_BULKY",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
       },
       "stats": {
         "handlingId": "RIATA",
@@ -680,6 +2695,108 @@
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "HELI",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 3,
+        "modKits": [
+          "256_akula_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_AKULA_TURRET_SINGLE",
+          "VEHICLE_WEAPON_AKULA_MISSILE",
+          "VEHICLE_WEAPON_AKULA_TURRET_DUAL",
+          "VEHICLE_WEAPON_AKULA_MINIGUN",
+          "VEHICLE_WEAPON_AKULA_BARRAGE"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -7.696,
+            "y": -6.328,
+            "z": -2.22
+          },
+          "max": {
+            "x": 7.696,
+            "y": 11.257,
+            "z": 2.246
+          },
+          "length": 17.585,
+          "width": 15.391,
+          "height": 4.466,
+          "boundingRadius": 11.707
+        },
+        "defaultColors": [
+          {
+            "primary": 152,
+            "secondary": 13,
+            "pearl": 154,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 154,
+            "secondary": 13,
+            "pearl": 154,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 14,
+            "secondary": 13,
+            "pearl": 14,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 151,
+            "secondary": 13,
+            "pearl": 14,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 153,
+            "secondary": 13,
+            "pearl": 14,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_HELICOPTER_WITH_LANDING_GEAR",
+          "FLAG_HELI_USES_FIXUPS_ON_OPEN_DOOR",
+          "FLAG_HAS_TURRET_SEAT_ON_VEHICLE",
+          "FLAG_DISABLE_WEAPON_WHEEL_IN_FIRST_PERSON",
+          "FLAG_USE_TURRET_RELATIVE_AIM_CALCULATION",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_USE_PILOT_HELMET",
+          "FLAG_HAS_CAPPED_EXPLOSION_DAMAGE",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_CHECK_WARP_TASK_FLAG_DURING_ENTER"
+        ]
+      },
       "stats": {
         "handlingId": "AKULA",
         "mass": 8000,
@@ -710,6 +2827,114 @@
         "id": "mpchristmas2017",
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
+      },
+      "details": {
+        "manufacturer": "Mammoth",
+        "type": "PLANE",
+        "seats": 3,
+        "doors": 4,
+        "wheels": 6,
+        "modKits": [
+          "257_avenger_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_AVENGER_CANNON"
+        ],
+        "features": {
+          "convertibleRoof": true,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -16.203,
+            "y": -11.641,
+            "z": -2.641
+          },
+          "max": {
+            "x": 16.203,
+            "y": 10.53,
+            "z": 6.101
+          },
+          "length": 22.171,
+          "width": 32.406,
+          "height": 8.742,
+          "boundingRadius": 20.056
+        },
+        "defaultColors": [
+          {
+            "primary": 14,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 13,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 13,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 155,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 152,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 153,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_USE_INTERIOR_RED_LIGHT",
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HEADLIGHTS_ON_LANDINGGEAR",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_TURRET_RELATIVE_AIM_CALCULATION",
+          "FLAG_USE_STANDARD_FLIGHT_HELMET",
+          "FLAG_HAS_JATO_BOOST_MOD",
+          "FLAG_HOLD_TO_SHUFFLE",
+          "FLAG_HAS_VERTICAL_FLIGHT_MODE",
+          "FLAG_DONT_CRASH_ABANDONED_NEAR_GROUND",
+          "FLAG_CREATE_WEAPON_MANAGER_ON_SPAWN",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS",
+          "FLAG_USE_ROOT_AS_BASE_LOCKON_POS",
+          "FLAG_DISABLE_CAMERA_PUSH_BEYOND",
+          "FLAG_CHECK_WARP_TASK_FLAG_DURING_ENTER",
+          "FLAG_PREFER_FRONT_SEAT"
+        ]
       },
       "stats": {
         "handlingId": "AVENGER",
@@ -742,6 +2967,110 @@
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
       },
+      "details": {
+        "manufacturer": "Mammoth",
+        "type": "PLANE",
+        "seats": 3,
+        "doors": 4,
+        "wheels": 6,
+        "modKits": [
+          "257_avenger_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_AVENGER_CANNON"
+        ],
+        "features": {
+          "convertibleRoof": true,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -7.87,
+            "y": -11.641,
+            "z": -2.641
+          },
+          "max": {
+            "x": 7.928,
+            "y": 10.53,
+            "z": 6.101
+          },
+          "length": 22.171,
+          "width": 15.798,
+          "height": 8.742,
+          "boundingRadius": 14.366
+        },
+        "defaultColors": [
+          {
+            "primary": 14,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 13,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 13,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 155,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 152,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 153,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_USE_INTERIOR_RED_LIGHT",
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HEADLIGHTS_ON_LANDINGGEAR",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_USE_TURRET_RELATIVE_AIM_CALCULATION",
+          "FLAG_USE_STANDARD_FLIGHT_HELMET",
+          "FLAG_HAS_JATO_BOOST_MOD",
+          "FLAG_HOLD_TO_SHUFFLE",
+          "FLAG_HAS_VERTICAL_FLIGHT_MODE",
+          "FLAG_DONT_CRASH_ABANDONED_NEAR_GROUND",
+          "FLAG_CHECK_WARP_TASK_FLAG_DURING_ENTER"
+        ]
+      },
       "stats": {
         "handlingId": "AVENGER",
         "mass": 18000,
@@ -772,6 +3101,100 @@
         "id": "mpchristmas2017",
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "PLANE",
+        "seats": 4,
+        "doors": 3,
+        "wheels": 5,
+        "modKits": [
+          "281_volatol_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_VOLATOL_DUALMG"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -20.389,
+            "y": -24.731,
+            "z": -2.221
+          },
+          "max": {
+            "x": 20.398,
+            "y": 13.724,
+            "z": 6.063
+          },
+          "length": 38.456,
+          "width": 40.787,
+          "height": 8.284,
+          "boundingRadius": 28.151
+        },
+        "defaultColors": [
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 112,
+            "secondary": 29,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 1,
+            "secondary": 29,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 70,
+            "secondary": 112,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 88,
+            "secondary": 112,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_LIGHTING_INTERIOR_OVERRIDE",
+          "FLAG_HAS_TURRET_SEAT_ON_VEHICLE",
+          "FLAG_USE_TURRET_RELATIVE_AIM_CALCULATION",
+          "FLAG_USE_STANDARD_FLIGHT_HELMET",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_DISABLE_CAMERA_PUSH_BEYOND",
+          "FLAG_CHECK_WARP_TASK_FLAG_DURING_ENTER",
+          "FLAG_DONT_CRASH_ABANDONED_NEAR_GROUND"
+        ]
       },
       "stats": {
         "handlingId": "VOLATOL",
@@ -804,6 +3227,101 @@
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 6,
+        "doors": 4,
+        "wheels": 6,
+        "modKits": [
+          "259_riot2_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_WATER_CANNON"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": true,
+          "armoredWindows": true,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -2.014,
+            "y": -5.054,
+            "z": -0.816
+          },
+          "max": {
+            "x": 2.012,
+            "y": 5.207,
+            "z": 2.539
+          },
+          "length": 10.261,
+          "width": 4.026,
+          "height": 3.355,
+          "boundingRadius": 5.537
+        },
+        "defaultColors": [
+          {
+            "primary": 13,
+            "secondary": 12,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 153,
+            "secondary": 12,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 75,
+            "secondary": 12,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 144,
+            "secondary": 12,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 118,
+            "secondary": 12,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 8,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HAS_BULLETPROOF_GLASS",
+          "FLAG_CARGOBOB_HOOK_UP_CHASSIS",
+          "FLAG_HAS_INCREASED_RAMMING_FORCE",
+          "FLAG_HAS_REAR_MOUNTED_TURRET",
+          "FLAG_TURRET_MODS_ON_ROOF",
+          "FLAG_RESET_TURRET_SEAT_HEADING"
+        ]
+      },
       "stats": {
         "handlingId": "RIOT2",
         "mass": 12500,
@@ -834,6 +3352,103 @@
         "id": "mpchristmas2017",
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 4,
+        "doors": 3,
+        "wheels": 4,
+        "modKits": [
+          "263_barrage_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_BARRAGE_TOP_MG",
+          "VEHICLE_WEAPON_BARRAGE_TOP_MINIGUN",
+          "VEHICLE_WEAPON_BARRAGE_REAR_MG",
+          "VEHICLE_WEAPON_BARRAGE_REAR_MINIGUN",
+          "VEHICLE_WEAPON_BARRAGE_REAR_GL"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.297,
+            "y": -3.504,
+            "z": -0.764
+          },
+          "max": {
+            "x": 1.297,
+            "y": 2.92,
+            "z": 1.964
+          },
+          "length": 6.425,
+          "width": 2.595,
+          "height": 2.728,
+          "boundingRadius": 3.574
+        },
+        "defaultColors": [
+          {
+            "primary": 155,
+            "secondary": 3,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 155,
+            "dashboard": 0
+          },
+          {
+            "primary": 154,
+            "secondary": 8,
+            "pearl": 18,
+            "wheels": 111,
+            "interior": 155,
+            "dashboard": 0
+          },
+          {
+            "primary": 153,
+            "secondary": 11,
+            "pearl": 6,
+            "wheels": 111,
+            "interior": 155,
+            "dashboard": 0
+          },
+          {
+            "primary": 151,
+            "secondary": 100,
+            "pearl": 8,
+            "wheels": 111,
+            "interior": 155,
+            "dashboard": 0
+          },
+          {
+            "primary": 152,
+            "secondary": 100,
+            "pearl": 8,
+            "wheels": 111,
+            "interior": 155,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_HAS_TURRET_SEAT_ON_VEHICLE",
+          "FLAG_CONSIDERED_FOR_VEHICLE_ENTRY_WHEN_STOOD_ON",
+          "FLAG_EXTRAS_ONLY_BREAK_WHEN_DESTROYED",
+          "FLAG_PREFER_ENTER_TURRET_AFTER_DRIVER",
+          "FLAG_DISABLE_BUSTING",
+          "FLAG_USE_TURRET_RELATIVE_AIM_CALCULATION",
+          "FLAG_RESET_TURRET_SEAT_HEADING"
+        ]
       },
       "stats": {
         "handlingId": "BARRAGE",
@@ -866,6 +3481,103 @@
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 2,
+        "doors": 3,
+        "wheels": 8,
+        "modKits": [
+          "231_chernobog_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_CHERNO_MISSILE"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.826,
+            "y": -5.522,
+            "z": -0.751
+          },
+          "max": {
+            "x": 1.826,
+            "y": 6.556,
+            "z": 3.231
+          },
+          "length": 12.078,
+          "width": 3.651,
+          "height": 3.982,
+          "boundingRadius": 6.543
+        },
+        "defaultColors": [
+          {
+            "primary": 154,
+            "secondary": 13,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 155,
+            "secondary": 13,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 153,
+            "secondary": 13,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 152,
+            "secondary": 13,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 151,
+            "secondary": 13,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 8,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_ONLY_BREAK_WHEN_DESTROYED",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_DONT_HOLD_LOW_GEARS_WHEN_ENGINE_UNDER_LOAD",
+          "FLAG_INCREASE_LOW_SPEED_TORQUE",
+          "FLAG_HAS_INCREASED_RAMMING_FORCE",
+          "FLAG_HAS_OUTRIGGER_LEGS",
+          "FLAG_HAS_REAR_SEAT_ACTIVITIES",
+          "FLAG_CREATE_WEAPON_MANAGER_ON_SPAWN",
+          "FLAG_HAS_REAR_MOUNTED_TURRET",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HEADLIGHTS_ON_TAP_ONLY"
+        ]
+      },
       "stats": {
         "handlingId": "CHERNOBOG",
         "mass": 40000,
@@ -897,6 +3609,112 @@
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 10,
+        "modKits": [
+          "265_khanjali_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_KHANJALI_CANNON",
+          "VEHICLE_WEAPON_KHANJALI_CANNON_HEAVY",
+          "VEHICLE_WEAPON_KHANJALI_MG",
+          "VEHICLE_WEAPON_KHANJALI_GL"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.903,
+            "y": -3.502,
+            "z": -1.473
+          },
+          "max": {
+            "x": 1.908,
+            "y": 4.395,
+            "z": 1.753
+          },
+          "length": 7.898,
+          "width": 3.81,
+          "height": 3.225,
+          "boundingRadius": 4.622
+        },
+        "defaultColors": [
+          {
+            "primary": 14,
+            "secondary": 14,
+            "pearl": 7,
+            "wheels": 111,
+            "interior": 155,
+            "dashboard": 134
+          },
+          {
+            "primary": 153,
+            "secondary": 154,
+            "pearl": 153,
+            "wheels": 111,
+            "interior": 155,
+            "dashboard": 134
+          },
+          {
+            "primary": 155,
+            "secondary": 14,
+            "pearl": 7,
+            "wheels": 111,
+            "interior": 155,
+            "dashboard": 134
+          },
+          {
+            "primary": 131,
+            "secondary": 13,
+            "pearl": 8,
+            "wheels": 111,
+            "interior": 155,
+            "dashboard": 134
+          },
+          {
+            "primary": 155,
+            "secondary": 155,
+            "pearl": 7,
+            "wheels": 111,
+            "interior": 155,
+            "dashboard": 134
+          },
+          {
+            "primary": 129,
+            "secondary": 129,
+            "pearl": 7,
+            "wheels": 111,
+            "interior": 155,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_ONLY_BREAK_WHEN_DESTROYED",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_DONT_CLOSE_DOOR_UPON_EXIT",
+          "FLAG_USE_HIGHER_DOOR_TORQUE",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_IS_TANK",
+          "FLAG_USE_COVERBOUND_INFO_FOR_COVERGEN",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_INCREASE_LOW_SPEED_TORQUE",
+          "FLAG_CAN_NAVIGATE_TO_ON_VEHICLE_ENTRY",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_USE_TURRET_RELATIVE_AIM_CALCULATION"
+        ]
+      },
       "stats": {
         "handlingId": "KHANJALI",
         "mass": 30000,
@@ -927,6 +3745,131 @@
         "id": "mpchristmas2017",
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
+      },
+      "details": {
+        "manufacturer": "Mammoth",
+        "type": "HELI",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [
+          "260_thruster_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_THRUSTER_MG",
+          "VEHICLE_WEAPON_THRUSTER_MISSILE"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.699,
+            "y": -0.399,
+            "z": -0.918
+          },
+          "max": {
+            "x": 0.699,
+            "y": 0.76,
+            "z": 1.054
+          },
+          "length": 1.159,
+          "width": 1.397,
+          "height": 1.972,
+          "boundingRadius": 1.272
+        },
+        "defaultColors": [
+          {
+            "primary": 61,
+            "secondary": 0,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 12,
+            "secondary": 12,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 30,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 33,
+            "secondary": 111,
+            "pearl": 38,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 90,
+            "secondary": 112,
+            "pearl": 38,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 53,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 82,
+            "secondary": 5,
+            "pearl": 68,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 55,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 94,
+            "secondary": 6,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_STANDARD_FLIGHT_HELMET",
+          "FLAG_HAS_JATO_BOOST_MOD",
+          "FLAG_HAS_HELI_STRAFE_MODE",
+          "FLAG_HAS_VERTICAL_ROCKET_BOOST",
+          "FLAG_HELICOPTER_WITH_LANDING_GEAR"
+        ]
       },
       "stats": {
         "handlingId": "THRUSTER",

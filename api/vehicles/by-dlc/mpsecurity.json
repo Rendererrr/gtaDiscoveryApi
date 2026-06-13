@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "id": "mpsecurity",
@@ -28,6 +28,121 @@
         "id": "mpsecurity",
         "name": "The Contract",
         "releaseDate": "2021-12-15"
+      },
+      "details": {
+        "manufacturer": "Lampadati",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "488_cinquemila_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.075,
+            "y": -2.769,
+            "z": -0.419
+          },
+          "max": {
+            "x": 1.075,
+            "y": 2.663,
+            "z": 1.099
+          },
+          "length": 5.432,
+          "width": 2.15,
+          "height": 1.518,
+          "boundingRadius": 2.909
+        },
+        "defaultColors": [
+          {
+            "primary": 2,
+            "secondary": 2,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 134
+          },
+          {
+            "primary": 27,
+            "secondary": 27,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 27,
+            "dashboard": 134
+          },
+          {
+            "primary": 64,
+            "secondary": 64,
+            "pearl": 73,
+            "wheels": 0,
+            "interior": 64,
+            "dashboard": 134
+          },
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 111,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 134
+          },
+          {
+            "primary": 88,
+            "secondary": 88,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 88,
+            "dashboard": 134
+          },
+          {
+            "primary": 3,
+            "secondary": 3,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 111,
+            "dashboard": 134
+          },
+          {
+            "primary": 38,
+            "secondary": 38,
+            "pearl": 89,
+            "wheels": 0,
+            "interior": 38,
+            "dashboard": 134
+          },
+          {
+            "primary": 70,
+            "secondary": 70,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 70,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_PARKING_SENSORS",
+          "FLAG_RICH_CAR",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
       },
       "stats": {
         "handlingId": "CINQUEMILA",
@@ -60,6 +175,119 @@
         "name": "The Contract",
         "releaseDate": "2021-12-15"
       },
+      "details": {
+        "manufacturer": "Enus",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "475_deity_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_GRANGER2_MG"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.094,
+            "y": -2.869,
+            "z": -0.383
+          },
+          "max": {
+            "x": 1.094,
+            "y": 2.566,
+            "z": 1.136
+          },
+          "length": 5.436,
+          "width": 2.189,
+          "height": 1.519,
+          "boundingRadius": 2.991
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 73,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 89,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 38,
+            "secondary": 1,
+            "pearl": 89,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 70,
+            "secondary": 1,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_PARKING_SENSORS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING"
+        ]
+      },
       "stats": {
         "handlingId": "DEITY",
         "mass": 2685,
@@ -90,6 +318,112 @@
         "id": "mpsecurity",
         "name": "The Contract",
         "releaseDate": "2021-12-15"
+      },
+      "details": {
+        "manufacturer": "Pfister",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "476_astron_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.945,
+            "y": -2.411,
+            "z": -0.382
+          },
+          "max": {
+            "x": 0.945,
+            "y": 2.381,
+            "z": 1.252
+          },
+          "length": 4.791,
+          "width": 1.891,
+          "height": 1.635,
+          "boundingRadius": 2.632
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 73,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 89,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 38,
+            "secondary": 1,
+            "pearl": 89,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 70,
+            "secondary": 1,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_RICH_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
       },
       "stats": {
         "handlingId": "ASTRON",
@@ -122,6 +456,114 @@
         "name": "The Contract",
         "releaseDate": "2021-12-15"
       },
+      "details": {
+        "manufacturer": "Gallivanter",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "485_baller7_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.151,
+            "y": -3.144,
+            "z": -0.923
+          },
+          "max": {
+            "x": 1.151,
+            "y": 2.439,
+            "z": 0.965
+          },
+          "length": 5.584,
+          "width": 2.301,
+          "height": 1.889,
+          "boundingRadius": 3.087
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 73,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 89,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 38,
+            "secondary": 1,
+            "pearl": 89,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 70,
+            "secondary": 1,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_PARKING_SENSORS",
+          "FLAG_RICH_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
+      },
       "stats": {
         "handlingId": "BALLER7",
         "mass": 2370,
@@ -152,6 +594,96 @@
         "id": "mpsecurity",
         "name": "The Contract",
         "releaseDate": "2021-12-15"
+      },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 8,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "473_granger2_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_GRANGER2_MG"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.504,
+            "y": -3.054,
+            "z": -0.667
+          },
+          "max": {
+            "x": 1.503,
+            "y": 2.709,
+            "z": 1.394
+          },
+          "length": 5.763,
+          "width": 3.008,
+          "height": 2.061,
+          "boundingRadius": 3.167
+        },
+        "defaultColors": [
+          {
+            "primary": 36,
+            "secondary": 3,
+            "pearl": 88,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 71,
+            "secondary": 0,
+            "pearl": 127,
+            "wheels": 3,
+            "interior": 7,
+            "dashboard": 156
+          },
+          {
+            "primary": 2,
+            "secondary": 6,
+            "pearl": 6,
+            "wheels": 118,
+            "interior": 32,
+            "dashboard": 156
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 90,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 9,
+            "secondary": 27,
+            "pearl": 62,
+            "wheels": 6,
+            "interior": 8,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_ALLOWS_RAPPEL",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS"
+        ]
       },
       "stats": {
         "handlingId": "GRANGER2",
@@ -184,6 +716,116 @@
         "name": "The Contract",
         "releaseDate": "2021-12-15"
       },
+      "details": {
+        "manufacturer": "Obey",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "489_iwagen_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.065,
+            "y": -2.357,
+            "z": -0.456
+          },
+          "max": {
+            "x": 1.067,
+            "y": 2.339,
+            "z": 1.206
+          },
+          "length": 4.696,
+          "width": 2.132,
+          "height": 1.663,
+          "boundingRadius": 2.642
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 73,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 89,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 38,
+            "secondary": 1,
+            "pearl": 89,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 70,
+            "secondary": 1,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_PARKING_SENSORS",
+          "FLAG_RICH_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_IS_ELECTRIC",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS"
+        ]
+      },
       "stats": {
         "handlingId": "I-WAGEN",
         "mass": 2445,
@@ -214,6 +856,118 @@
         "id": "mpsecurity",
         "name": "The Contract",
         "releaseDate": "2021-12-15"
+      },
+      "details": {
+        "manufacturer": "Enus",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "478_jubilee_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_GRANGER2_MG"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.08,
+            "y": -2.842,
+            "z": -0.544
+          },
+          "max": {
+            "x": 1.08,
+            "y": 2.59,
+            "z": 1.321
+          },
+          "length": 5.432,
+          "width": 2.16,
+          "height": 1.865,
+          "boundingRadius": 2.99
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 73,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 89,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 38,
+            "secondary": 1,
+            "pearl": 89,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 70,
+            "secondary": 1,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_PARKING_SENSORS",
+          "FLAG_RICH_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS"
+        ]
       },
       "stats": {
         "handlingId": "JUBILEE",
@@ -246,6 +1000,115 @@
         "name": "The Contract",
         "releaseDate": "2021-12-15"
       },
+      "details": {
+        "manufacturer": "Bravado",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "482_buffalo4_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_GRANGER2_MG"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.994,
+            "y": -2.945,
+            "z": -0.528
+          },
+          "max": {
+            "x": 0.993,
+            "y": 2.492,
+            "z": 1.067
+          },
+          "length": 5.436,
+          "width": 1.987,
+          "height": 1.596,
+          "boundingRadius": 2.793
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 73,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 89,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 38,
+            "secondary": 1,
+            "pearl": 89,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 70,
+            "secondary": 1,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS"
+        ]
+      },
       "stats": {
         "handlingId": "BUFFALO4",
         "mass": 1800,
@@ -276,6 +1139,116 @@
         "id": "mpsecurity",
         "name": "The Contract",
         "releaseDate": "2021-12-15"
+      },
+      "details": {
+        "manufacturer": "Pfister",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "481_comet7_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": true,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.199,
+            "y": -2.338,
+            "z": -0.416
+          },
+          "max": {
+            "x": 0.965,
+            "y": 2.296,
+            "z": 0.931
+          },
+          "length": 4.634,
+          "width": 2.164,
+          "height": 1.347,
+          "boundingRadius": 2.535
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 73,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 89,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 38,
+            "secondary": 1,
+            "pearl": 89,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 70,
+            "secondary": 1,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_BOOT_IN_FRONT",
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_PARKING_SENSORS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS"
+        ]
       },
       "stats": {
         "handlingId": "COMET7",
@@ -308,6 +1281,122 @@
         "name": "The Contract",
         "releaseDate": "2021-12-15"
       },
+      "details": {
+        "manufacturer": "Dewbauchee",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "490_champion_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_GRANGER2_MG"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.987,
+            "y": -2.348,
+            "z": -0.375
+          },
+          "max": {
+            "x": 0.987,
+            "y": 2.274,
+            "z": 0.899
+          },
+          "length": 4.622,
+          "width": 1.975,
+          "height": 1.274,
+          "boundingRadius": 2.481
+        },
+        "defaultColors": [
+          {
+            "primary": 2,
+            "secondary": 2,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 134
+          },
+          {
+            "primary": 27,
+            "secondary": 27,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 27,
+            "dashboard": 134
+          },
+          {
+            "primary": 64,
+            "secondary": 64,
+            "pearl": 73,
+            "wheels": 0,
+            "interior": 64,
+            "dashboard": 134
+          },
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 111,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 134
+          },
+          {
+            "primary": 88,
+            "secondary": 88,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 88,
+            "dashboard": 134
+          },
+          {
+            "primary": 3,
+            "secondary": 3,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 111,
+            "dashboard": 134
+          },
+          {
+            "primary": 38,
+            "secondary": 38,
+            "pearl": 89,
+            "wheels": 0,
+            "interior": 38,
+            "dashboard": 134
+          },
+          {
+            "primary": 70,
+            "secondary": 70,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 70,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_RICH_CAR",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS"
+        ]
+      },
       "stats": {
         "handlingId": "CHAMPION",
         "mass": 1500,
@@ -338,6 +1427,77 @@
         "id": "mpsecurity",
         "name": "The Contract",
         "releaseDate": "2021-12-15"
+      },
+      "details": {
+        "manufacturer": "Pegassi",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "455_ignus_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.237,
+            "y": -2.505,
+            "z": -0.349
+          },
+          "max": {
+            "x": 1.237,
+            "y": 2.644,
+            "z": 0.841
+          },
+          "length": 5.149,
+          "width": 2.475,
+          "height": 1.19,
+          "boundingRadius": 2.808
+        },
+        "defaultColors": [
+          {
+            "primary": 9,
+            "secondary": 27,
+            "pearl": 62,
+            "wheels": 6,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 59,
+            "secondary": 88,
+            "pearl": 94,
+            "wheels": 158,
+            "interior": 17,
+            "dashboard": 156
+          },
+          {
+            "primary": 117,
+            "secondary": 55,
+            "pearl": 73,
+            "wheels": 2,
+            "interior": 17,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_USE_RESTRICTED_DRIVEBY_HEIGHT_MID_ONLY"
+        ]
       },
       "stats": {
         "handlingId": "IGNUS",
@@ -370,6 +1530,116 @@
         "name": "The Contract",
         "releaseDate": "2021-12-15"
       },
+      "details": {
+        "manufacturer": "Overflod",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "484_zeno_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.755,
+            "y": -2.234,
+            "z": -0.787
+          },
+          "max": {
+            "x": 1.755,
+            "y": 2.566,
+            "z": 1.1
+          },
+          "length": 4.8,
+          "width": 3.51,
+          "height": 1.887,
+          "boundingRadius": 2.62
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 73,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 89,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 38,
+            "secondary": 1,
+            "pearl": 89,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 70,
+            "secondary": 1,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS"
+        ]
+      },
       "stats": {
         "handlingId": "ZENO",
         "mass": 1250,
@@ -400,6 +1670,90 @@
         "id": "mpsecurity",
         "name": "The Contract",
         "releaseDate": "2021-12-15"
+      },
+      "details": {
+        "manufacturer": "Western",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "491_reever_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.359,
+            "y": -1.073,
+            "z": -0.499
+          },
+          "max": {
+            "x": 0.359,
+            "y": 1.059,
+            "z": 0.914
+          },
+          "length": 2.131,
+          "width": 0.719,
+          "height": 1.413,
+          "boundingRadius": 1.095
+        },
+        "defaultColors": [
+          {
+            "primary": 131,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 40,
+            "interior": 2,
+            "dashboard": 0
+          },
+          {
+            "primary": 2,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 158,
+            "interior": 8,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 139,
+            "interior": 66,
+            "dashboard": 0
+          },
+          {
+            "primary": 29,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 1,
+            "interior": 14,
+            "dashboard": 0
+          },
+          {
+            "primary": 88,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 26,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
       },
       "stats": {
         "handlingId": "REEVER",
@@ -432,6 +1786,90 @@
         "name": "The Contract",
         "releaseDate": "2021-12-15"
       },
+      "details": {
+        "manufacturer": "Nagasaki",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "492_shinobi_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.386,
+            "y": -1.006,
+            "z": -0.55
+          },
+          "max": {
+            "x": 0.386,
+            "y": 1.062,
+            "z": 0.858
+          },
+          "length": 2.068,
+          "width": 0.771,
+          "height": 1.408,
+          "boundingRadius": 1.182
+        },
+        "defaultColors": [
+          {
+            "primary": 131,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 40,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 2,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 158,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 139,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 29,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 1,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 88,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
+      },
       "stats": {
         "handlingId": "SHINOBI",
         "mass": 165,
@@ -462,6 +1900,120 @@
         "id": "mpsecurity",
         "name": "The Contract",
         "releaseDate": "2021-12-15"
+      },
+      "details": {
+        "manufacturer": "Mammoth",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "479_patriot3_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_GRANGER2_MG"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.432,
+            "y": -2.543,
+            "z": -0.711
+          },
+          "max": {
+            "x": 1.432,
+            "y": 2.685,
+            "z": 1.553
+          },
+          "length": 5.228,
+          "width": 2.864,
+          "height": 2.264,
+          "boundingRadius": 3.086
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 27,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 27,
+            "dashboard": 134
+          },
+          {
+            "primary": 64,
+            "secondary": 64,
+            "pearl": 73,
+            "wheels": 0,
+            "interior": 64,
+            "dashboard": 134
+          },
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 111,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 134
+          },
+          {
+            "primary": 88,
+            "secondary": 88,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 88,
+            "dashboard": 134
+          },
+          {
+            "primary": 3,
+            "secondary": 3,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 111,
+            "dashboard": 134
+          },
+          {
+            "primary": 38,
+            "secondary": 38,
+            "pearl": 89,
+            "wheels": 0,
+            "interior": 38,
+            "dashboard": 134
+          },
+          {
+            "primary": 70,
+            "secondary": 70,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 70,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_ALLOWS_RAPPEL",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS"
+        ]
       },
       "stats": {
         "handlingId": "PATRIOT3",
@@ -494,6 +2046,60 @@
         "name": "The Contract",
         "releaseDate": "2021-12-15"
       },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.302,
+            "y": -2.62,
+            "z": -0.971
+          },
+          "max": {
+            "x": 1.302,
+            "y": 2.433,
+            "z": 1.083
+          },
+          "length": 5.052,
+          "width": 2.604,
+          "height": 2.053,
+          "boundingRadius": 2.93
+        },
+        "defaultColors": [
+          {
+            "primary": 152,
+            "secondary": 152,
+            "pearl": 152,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_ALLOWS_RAPPEL",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
+      },
       "stats": {
         "handlingId": "YOUGA4",
         "mass": 2500,
@@ -524,6 +2130,90 @@
         "id": "mpsecurity",
         "name": "The Contract",
         "releaseDate": "2021-12-15"
+      },
+      "details": {
+        "manufacturer": "Maibatsu",
+        "type": "CAR",
+        "seats": 6,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.359,
+            "y": -4.258,
+            "z": -1.255
+          },
+          "max": {
+            "x": 1.359,
+            "y": 3.819,
+            "z": 2.494
+          },
+          "length": 8.077,
+          "width": 2.719,
+          "height": 3.75,
+          "boundingRadius": 4.541
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 1,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 1,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 110,
+            "secondary": 0,
+            "pearl": 110,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_DELIVERY",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_INTERIOR_BLOCKED_BY_BOOT"
+        ]
       },
       "stats": {
         "handlingId": "MULE3",

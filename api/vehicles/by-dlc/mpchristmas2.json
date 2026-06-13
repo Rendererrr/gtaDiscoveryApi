@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "id": "mpchristmas2",
@@ -28,6 +28,123 @@
         "id": "mpchristmas2",
         "name": "Festive Surprise (2014)",
         "releaseDate": "2014-12-18"
+      },
+      "details": {
+        "manufacturer": "Bravado",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "158_ratloader2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.101,
+            "y": -1.937,
+            "z": -0.207
+          },
+          "max": {
+            "x": 1.101,
+            "y": 2.424,
+            "z": 1.634
+          },
+          "length": 4.361,
+          "width": 2.202,
+          "height": 1.841,
+          "boundingRadius": 2.565
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 20,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 13,
+            "secondary": 13,
+            "pearl": 20,
+            "wheels": 44,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 30,
+            "secondary": 30,
+            "pearl": 30,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 34,
+            "secondary": 34,
+            "pearl": 30,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 58,
+            "secondary": 58,
+            "pearl": 58,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 61,
+            "secondary": 61,
+            "pearl": 58,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 65,
+            "secondary": 65,
+            "pearl": 65,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 75,
+            "secondary": 75,
+            "pearl": 58,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 88,
+            "secondary": 88,
+            "pearl": 88,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_INCREASE_PED_COMMENTS",
+          "FLAG_IS_BULKY",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
       },
       "stats": {
         "handlingId": "RLOADER2",
@@ -60,6 +177,126 @@
         "name": "Festive Surprise (2014)",
         "releaseDate": "2014-12-18"
       },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "159_slamvan_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.161,
+            "y": -2.516,
+            "z": -0.648
+          },
+          "max": {
+            "x": 1.169,
+            "y": 2.398,
+            "z": 1.27
+          },
+          "length": 4.914,
+          "width": 2.33,
+          "height": 1.918,
+          "boundingRadius": 2.776
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 20,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 12,
+            "secondary": 13,
+            "pearl": 20,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 22,
+            "secondary": 23,
+            "pearl": 20,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 26,
+            "secondary": 26,
+            "pearl": 20,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 29,
+            "secondary": 29,
+            "pearl": 29,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 34,
+            "secondary": 34,
+            "pearl": 29,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 62,
+            "secondary": 62,
+            "pearl": 63,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 66,
+            "secondary": 66,
+            "pearl": 63,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 88,
+            "secondary": 66,
+            "pearl": 63,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 99,
+            "secondary": 95,
+            "pearl": 20,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_USE_STRICTER_EXIT_COLLISION_TESTS"
+        ]
+      },
       "stats": {
         "handlingId": "SLAMVAN",
         "mass": 1200,
@@ -91,6 +328,58 @@
         "name": "Festive Surprise (2014)",
         "releaseDate": "2014-12-18"
       },
+      "details": {
+        "manufacturer": "Dinka",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "156_jester2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.007,
+            "y": -2.314,
+            "z": -0.236
+          },
+          "max": {
+            "x": 1.007,
+            "y": 2.282,
+            "z": 0.936
+          },
+          "length": 4.596,
+          "width": 2.013,
+          "height": 1.172,
+          "boundingRadius": 2.433
+        },
+        "defaultColors": [
+          {
+            "primary": 134,
+            "secondary": 28,
+            "pearl": 134,
+            "wheels": 27,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
+      },
       "stats": {
         "handlingId": "jester2",
         "mass": 1300,
@@ -121,6 +410,58 @@
         "id": "mpchristmas2",
         "name": "Festive Surprise (2014)",
         "releaseDate": "2014-12-18"
+      },
+      "details": {
+        "manufacturer": "Dewbauchee",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "157_massacaro2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.981,
+            "y": -2.346,
+            "z": -0.42
+          },
+          "max": {
+            "x": 0.97,
+            "y": 2.4,
+            "z": 0.956
+          },
+          "length": 4.746,
+          "width": 1.951,
+          "height": 1.376,
+          "boundingRadius": 2.525
+        },
+        "defaultColors": [
+          {
+            "primary": 38,
+            "secondary": 38,
+            "pearl": 42,
+            "wheels": 38,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
       },
       "stats": {
         "handlingId": "massacro2",

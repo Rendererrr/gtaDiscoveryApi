@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "name": "Military",
@@ -26,6 +26,75 @@
         "id": "mpgunrunning",
         "name": "Gunrunning",
         "releaseDate": "2017-06-13"
+      },
+      "details": {
+        "manufacturer": "HVY",
+        "type": "AMPHIBIOUS_AUTOMOBILE",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "226_apc_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_APC_CANNON",
+          "VEHICLE_WEAPON_APC_MISSILE",
+          "VEHICLE_WEAPON_APC_MG"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.415,
+            "y": -2.644,
+            "z": -0.689
+          },
+          "max": {
+            "x": 1.415,
+            "y": 3.4,
+            "z": 2.241
+          },
+          "length": 6.044,
+          "width": 2.831,
+          "height": 2.93,
+          "boundingRadius": 3.533
+        },
+        "defaultColors": [
+          {
+            "primary": 154,
+            "secondary": 154,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_ONLY_BREAK_WHEN_DESTROYED",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_USE_HIGHER_DOOR_TORQUE",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_IS_TANK",
+          "FLAG_USE_COVERBOUND_INFO_FOR_COVERGEN",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_TURRET_MODS_ON_ROOF",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_UPDATE_WEAPON_BATTERY_BONES",
+          "FLAG_DONT_HOLD_LOW_GEARS_WHEN_ENGINE_UNDER_LOAD",
+          "FLAG_INCREASE_LOW_SPEED_TORQUE",
+          "FLAG_KEEP_ALL_TURRETS_SYNCHRONISED",
+          "FLAG_HAS_INCREASED_RAMMING_FORCE",
+          "FLAG_HOLD_TO_SHUFFLE",
+          "FLAG_HEADLIGHTS_ON_TAP_ONLY"
+        ]
       },
       "stats": {
         "handlingId": "APC",
@@ -58,6 +127,57 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 10,
+        "doors": 2,
+        "wheels": 6,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.438,
+            "y": -4.764,
+            "z": -0.659
+          },
+          "max": {
+            "x": 1.428,
+            "y": 4.529,
+            "z": 2.932
+          },
+          "length": 9.294,
+          "width": 2.866,
+          "height": 3.591,
+          "boundingRadius": 3.258
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 0,
+            "pearl": 132,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_AVOID_TURNS",
+          "FLAG_USE_FAT_INTERIOR_LIGHT",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
+      },
       "stats": {
         "handlingId": "BARRACKS",
         "mass": 9000,
@@ -88,6 +208,60 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "HVY",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 6,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.431,
+            "y": -3.413,
+            "z": -0.778
+          },
+          "max": {
+            "x": 1.431,
+            "y": 3.291,
+            "z": 2.46
+          },
+          "length": 6.704,
+          "width": 2.862,
+          "height": 3.238,
+          "boundingRadius": 3.951
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 0,
+            "pearl": 132,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_CAN_HONK_WHEN_FLEEING",
+          "FLAG_AVOID_TURNS",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_USE_FAT_INTERIOR_LIGHT",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_ATTACH_TRAILER_ON_HIGHWAY",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
       },
       "stats": {
         "handlingId": "BARRACKS2",
@@ -120,6 +294,57 @@
         "name": "The Heists Update",
         "releaseDate": "2015-03-10"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 10,
+        "doors": 2,
+        "wheels": 6,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.438,
+            "y": -4.764,
+            "z": -0.659
+          },
+          "max": {
+            "x": 1.428,
+            "y": 4.529,
+            "z": 2.932
+          },
+          "length": 9.294,
+          "width": 2.866,
+          "height": 3.591,
+          "boundingRadius": 3.21
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 0,
+            "pearl": 132,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_AVOID_TURNS",
+          "FLAG_USE_FAT_INTERIOR_LIGHT",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
+      },
       "stats": {
         "handlingId": "BARRACKS",
         "mass": 9000,
@@ -150,6 +375,103 @@
         "id": "mpchristmas2017",
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 4,
+        "doors": 3,
+        "wheels": 4,
+        "modKits": [
+          "263_barrage_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_BARRAGE_TOP_MG",
+          "VEHICLE_WEAPON_BARRAGE_TOP_MINIGUN",
+          "VEHICLE_WEAPON_BARRAGE_REAR_MG",
+          "VEHICLE_WEAPON_BARRAGE_REAR_MINIGUN",
+          "VEHICLE_WEAPON_BARRAGE_REAR_GL"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.297,
+            "y": -3.504,
+            "z": -0.764
+          },
+          "max": {
+            "x": 1.297,
+            "y": 2.92,
+            "z": 1.964
+          },
+          "length": 6.425,
+          "width": 2.595,
+          "height": 2.728,
+          "boundingRadius": 3.574
+        },
+        "defaultColors": [
+          {
+            "primary": 155,
+            "secondary": 3,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 155,
+            "dashboard": 0
+          },
+          {
+            "primary": 154,
+            "secondary": 8,
+            "pearl": 18,
+            "wheels": 111,
+            "interior": 155,
+            "dashboard": 0
+          },
+          {
+            "primary": 153,
+            "secondary": 11,
+            "pearl": 6,
+            "wheels": 111,
+            "interior": 155,
+            "dashboard": 0
+          },
+          {
+            "primary": 151,
+            "secondary": 100,
+            "pearl": 8,
+            "wheels": 111,
+            "interior": 155,
+            "dashboard": 0
+          },
+          {
+            "primary": 152,
+            "secondary": 100,
+            "pearl": 8,
+            "wheels": 111,
+            "interior": 155,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_HAS_TURRET_SEAT_ON_VEHICLE",
+          "FLAG_CONSIDERED_FOR_VEHICLE_ENTRY_WHEN_STOOD_ON",
+          "FLAG_EXTRAS_ONLY_BREAK_WHEN_DESTROYED",
+          "FLAG_PREFER_ENTER_TURRET_AFTER_DRIVER",
+          "FLAG_DISABLE_BUSTING",
+          "FLAG_USE_TURRET_RELATIVE_AIM_CALCULATION",
+          "FLAG_RESET_TURRET_SEAT_HEADING"
+        ]
       },
       "stats": {
         "handlingId": "BARRAGE",
@@ -182,6 +504,103 @@
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 2,
+        "doors": 3,
+        "wheels": 8,
+        "modKits": [
+          "231_chernobog_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_CHERNO_MISSILE"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.826,
+            "y": -5.522,
+            "z": -0.751
+          },
+          "max": {
+            "x": 1.826,
+            "y": 6.556,
+            "z": 3.231
+          },
+          "length": 12.078,
+          "width": 3.651,
+          "height": 3.982,
+          "boundingRadius": 6.543
+        },
+        "defaultColors": [
+          {
+            "primary": 154,
+            "secondary": 13,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 155,
+            "secondary": 13,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 153,
+            "secondary": 13,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 152,
+            "secondary": 13,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 151,
+            "secondary": 13,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 8,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_ONLY_BREAK_WHEN_DESTROYED",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_DONT_HOLD_LOW_GEARS_WHEN_ENGINE_UNDER_LOAD",
+          "FLAG_INCREASE_LOW_SPEED_TORQUE",
+          "FLAG_HAS_INCREASED_RAMMING_FORCE",
+          "FLAG_HAS_OUTRIGGER_LEGS",
+          "FLAG_HAS_REAR_SEAT_ACTIVITIES",
+          "FLAG_CREATE_WEAPON_MANAGER_ON_SPAWN",
+          "FLAG_HAS_REAR_MOUNTED_TURRET",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HEADLIGHTS_ON_TAP_ONLY"
+        ]
+      },
       "stats": {
         "handlingId": "CHERNOBOG",
         "mass": 40000,
@@ -212,6 +631,59 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "Canis",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.957,
+            "y": -2.231,
+            "z": -0.52
+          },
+          "max": {
+            "x": 0.957,
+            "y": 2.222,
+            "z": 1.332
+          },
+          "length": 4.453,
+          "width": 1.914,
+          "height": 1.852,
+          "boundingRadius": 2.589
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 132,
+            "pearl": 132,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_LAW_ENFORCEMENT",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_CANNOT_BE_MODDED",
+          "FLAG_IS_BULKY",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
       },
       "stats": {
         "handlingId": "crusader",
@@ -244,6 +716,70 @@
         "name": "Gunrunning",
         "releaseDate": "2017-06-13"
       },
+      "details": {
+        "manufacturer": "Bravado",
+        "type": "CAR",
+        "seats": 3,
+        "doors": 2,
+        "wheels": 10,
+        "modKits": [
+          "227_halftrack_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_HALFTRACK_DUALMG",
+          "VEHICLE_WEAPON_HALFTRACK_QUADMG"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.204,
+            "y": -3.723,
+            "z": -0.634
+          },
+          "max": {
+            "x": 1.204,
+            "y": 2.918,
+            "z": 2.405
+          },
+          "length": 6.641,
+          "width": 2.407,
+          "height": 3.04,
+          "boundingRadius": 3.751
+        },
+        "defaultColors": [
+          {
+            "primary": 154,
+            "secondary": 154,
+            "pearl": 3,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_IS_BULKY",
+          "FLAG_HAS_TURRET_SEAT_ON_VEHICLE",
+          "FLAG_HAS_REAR_MOUNTED_TURRET",
+          "FLAG_TURRET_MODS_ON_ROOF",
+          "FLAG_DONT_HOLD_LOW_GEARS_WHEN_ENGINE_UNDER_LOAD",
+          "FLAG_INCREASE_LOW_SPEED_TORQUE",
+          "FLAG_KEEP_ALL_TURRETS_SYNCHRONISED",
+          "FLAG_HAS_INCREASED_RAMMING_FORCE",
+          "FLAG_FORCE_AUTO_VAULT_ON_VEHICLE_WHEN_STUCK"
+        ]
+      },
       "stats": {
         "handlingId": "HALFTRACK",
         "mass": 10000,
@@ -274,6 +810,112 @@
         "id": "mpchristmas2017",
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 10,
+        "modKits": [
+          "265_khanjali_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_KHANJALI_CANNON",
+          "VEHICLE_WEAPON_KHANJALI_CANNON_HEAVY",
+          "VEHICLE_WEAPON_KHANJALI_MG",
+          "VEHICLE_WEAPON_KHANJALI_GL"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.903,
+            "y": -3.502,
+            "z": -1.473
+          },
+          "max": {
+            "x": 1.908,
+            "y": 4.395,
+            "z": 1.753
+          },
+          "length": 7.898,
+          "width": 3.81,
+          "height": 3.225,
+          "boundingRadius": 4.622
+        },
+        "defaultColors": [
+          {
+            "primary": 14,
+            "secondary": 14,
+            "pearl": 7,
+            "wheels": 111,
+            "interior": 155,
+            "dashboard": 134
+          },
+          {
+            "primary": 153,
+            "secondary": 154,
+            "pearl": 153,
+            "wheels": 111,
+            "interior": 155,
+            "dashboard": 134
+          },
+          {
+            "primary": 155,
+            "secondary": 14,
+            "pearl": 7,
+            "wheels": 111,
+            "interior": 155,
+            "dashboard": 134
+          },
+          {
+            "primary": 131,
+            "secondary": 13,
+            "pearl": 8,
+            "wheels": 111,
+            "interior": 155,
+            "dashboard": 134
+          },
+          {
+            "primary": 155,
+            "secondary": 155,
+            "pearl": 7,
+            "wheels": 111,
+            "interior": 155,
+            "dashboard": 134
+          },
+          {
+            "primary": 129,
+            "secondary": 129,
+            "pearl": 7,
+            "wheels": 111,
+            "interior": 155,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_ONLY_BREAK_WHEN_DESTROYED",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_DONT_CLOSE_DOOR_UPON_EXIT",
+          "FLAG_USE_HIGHER_DOOR_TORQUE",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_IS_TANK",
+          "FLAG_USE_COVERBOUND_INFO_FOR_COVERGEN",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_INCREASE_LOW_SPEED_TORQUE",
+          "FLAG_CAN_NAVIGATE_TO_ON_VEHICLE_ENTRY",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_USE_TURRET_RELATIVE_AIM_CALCULATION"
+        ]
       },
       "stats": {
         "handlingId": "KHANJALI",
@@ -306,6 +948,69 @@
         "name": "The Diamond Casino Heist",
         "releaseDate": "2019-12-12"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 6,
+        "modKits": [
+          "409_minitank_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_RCTANK_GUN",
+          "VEHICLE_WEAPON_RCTANK_FLAME",
+          "VEHICLE_WEAPON_RCTANK_ROCKET",
+          "VEHICLE_WEAPON_RCTANK_LAZER"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.53,
+            "y": -0.712,
+            "z": -0.268
+          },
+          "max": {
+            "x": 0.53,
+            "y": 0.919,
+            "z": 0.914
+          },
+          "length": 1.631,
+          "width": 1.06,
+          "height": 1.182,
+          "boundingRadius": 0.097
+        },
+        "defaultColors": [
+          {
+            "primary": 144,
+            "secondary": 144,
+            "pearl": 0,
+            "wheels": 144,
+            "interior": 8,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_ONLY_BREAK_WHEN_DESTROYED",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_IS_TANK",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_IS_ELECTRIC",
+          "FLAG_FORCE_BONNET_CAMERA_INSTEAD_OF_POV",
+          "FLAG_DISABLE_DEFORMATION",
+          "FLAG_JUMPING_CAR"
+        ]
+      },
       "stats": {
         "handlingId": "MINITANK",
         "mass": 500,
@@ -336,6 +1041,64 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 2,
+        "doors": 1,
+        "wheels": 10,
+        "modKits": [],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_TANK"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.84,
+            "y": -4.023,
+            "z": -0.874
+          },
+          "max": {
+            "x": 1.825,
+            "y": 6.308,
+            "z": 2.166
+          },
+          "length": 10.33,
+          "width": 3.665,
+          "height": 3.04,
+          "boundingRadius": 5.648
+        },
+        "defaultColors": [
+          {
+            "primary": 131,
+            "secondary": 132,
+            "pearl": 132,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_ONLY_BREAK_WHEN_DESTROYED",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_DONT_CLOSE_DOOR_UPON_EXIT",
+          "FLAG_USE_HIGHER_DOOR_TORQUE",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_IS_TANK",
+          "FLAG_USE_COVERBOUND_INFO_FOR_COVERGEN",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_CAN_NAVIGATE_TO_ON_VEHICLE_ENTRY"
+        ]
       },
       "stats": {
         "handlingId": "RHINO",
@@ -368,6 +1131,77 @@
         "name": "Arena War",
         "releaseDate": "2018-12-11"
       },
+      "details": {
+        "manufacturer": "HVY",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 10,
+        "modKits": [
+          "318_scarab_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SCARAB_50CAL"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.712,
+            "y": -2.588,
+            "z": -0.434
+          },
+          "max": {
+            "x": 1.712,
+            "y": 3.781,
+            "z": 1.883
+          },
+          "length": 6.369,
+          "width": 3.423,
+          "height": 2.318,
+          "boundingRadius": 3.317
+        },
+        "defaultColors": [
+          {
+            "primary": 9,
+            "secondary": 5,
+            "pearl": 4,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_ONLY_BREAK_WHEN_DESTROYED",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_USE_HIGHER_DOOR_TORQUE",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_IS_TANK",
+          "FLAG_USE_COVERBOUND_INFO_FOR_COVERGEN",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_INCREASE_LOW_SPEED_TORQUE",
+          "FLAG_CAN_NAVIGATE_TO_ON_VEHICLE_ENTRY",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_USE_TURRET_RELATIVE_AIM_CALCULATION",
+          "FLAG_HAS_RAMMING_SCOOP_MOD",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_NITROUS_MOD",
+          "FLAG_DISABLE_THROUGH_WINDSCREEN",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_HAS_SIDE_SHUNT",
+          "FLAG_HAS_WEAPON_SPIKE_MODS",
+          "FLAG_HAS_RAMMING_BAR_MOD",
+          "FLAG_IS_TANK_WITH_FLAME_DAMAGE"
+        ]
+      },
       "stats": {
         "handlingId": "SCARAB",
         "mass": 5000,
@@ -398,6 +1232,79 @@
         "id": "mpchristmas2018",
         "name": "Arena War",
         "releaseDate": "2018-12-11"
+      },
+      "details": {
+        "manufacturer": "HVY",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 10,
+        "modKits": [
+          "361_scarab2_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SCARAB_50CAL",
+          "VEHICLE_WEAPON_SCARAB2_50CAL_LASER"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.712,
+            "y": -2.588,
+            "z": -0.44
+          },
+          "max": {
+            "x": 1.712,
+            "y": 3.366,
+            "z": 1.743
+          },
+          "length": 5.954,
+          "width": 3.423,
+          "height": 2.183,
+          "boundingRadius": 3.319
+        },
+        "defaultColors": [
+          {
+            "primary": 107,
+            "secondary": 159,
+            "pearl": 160,
+            "wheels": 158,
+            "interior": 160,
+            "dashboard": 160
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_ONLY_BREAK_WHEN_DESTROYED",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_USE_HIGHER_DOOR_TORQUE",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_IS_TANK",
+          "FLAG_USE_COVERBOUND_INFO_FOR_COVERGEN",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_INCREASE_LOW_SPEED_TORQUE",
+          "FLAG_CAN_NAVIGATE_TO_ON_VEHICLE_ENTRY",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_USE_TURRET_RELATIVE_AIM_CALCULATION",
+          "FLAG_HAS_RAMMING_SCOOP_MOD",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_NITROUS_MOD",
+          "FLAG_DISABLE_THROUGH_WINDSCREEN",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_HAS_SIDE_SHUNT",
+          "FLAG_HAS_WEAPON_SPIKE_MODS",
+          "FLAG_HAS_RAMMING_BAR_MOD",
+          "FLAG_IS_TANK_WITH_FLAME_DAMAGE",
+          "FLAG_DISABLE_DEFORMATION"
+        ]
       },
       "stats": {
         "handlingId": "SCARAB2",
@@ -430,6 +1337,77 @@
         "name": "Arena War",
         "releaseDate": "2018-12-11"
       },
+      "details": {
+        "manufacturer": "HVY",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 10,
+        "modKits": [
+          "355_scarab3_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SCARAB_50CAL"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.712,
+            "y": -2.588,
+            "z": -0.434
+          },
+          "max": {
+            "x": 1.712,
+            "y": 3.781,
+            "z": 1.883
+          },
+          "length": 6.369,
+          "width": 3.423,
+          "height": 2.318,
+          "boundingRadius": 3.317
+        },
+        "defaultColors": [
+          {
+            "primary": 140,
+            "secondary": 138,
+            "pearl": 7,
+            "wheels": 135,
+            "interior": 2,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_ONLY_BREAK_WHEN_DESTROYED",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_USE_HIGHER_DOOR_TORQUE",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_IS_TANK",
+          "FLAG_USE_COVERBOUND_INFO_FOR_COVERGEN",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_INCREASE_LOW_SPEED_TORQUE",
+          "FLAG_CAN_NAVIGATE_TO_ON_VEHICLE_ENTRY",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_USE_TURRET_RELATIVE_AIM_CALCULATION",
+          "FLAG_HAS_RAMMING_SCOOP_MOD",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_NITROUS_MOD",
+          "FLAG_DISABLE_THROUGH_WINDSCREEN",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_HAS_SIDE_SHUNT",
+          "FLAG_HAS_WEAPON_SPIKE_MODS",
+          "FLAG_HAS_RAMMING_BAR_MOD",
+          "FLAG_IS_TANK_WITH_FLAME_DAMAGE"
+        ]
+      },
       "stats": {
         "handlingId": "SCARAB",
         "mass": 5000,
@@ -460,6 +1438,131 @@
         "id": "mpchristmas2017",
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
+      },
+      "details": {
+        "manufacturer": "Mammoth",
+        "type": "HELI",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [
+          "260_thruster_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_THRUSTER_MG",
+          "VEHICLE_WEAPON_THRUSTER_MISSILE"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.699,
+            "y": -0.399,
+            "z": -0.918
+          },
+          "max": {
+            "x": 0.699,
+            "y": 0.76,
+            "z": 1.054
+          },
+          "length": 1.159,
+          "width": 1.397,
+          "height": 1.972,
+          "boundingRadius": 1.272
+        },
+        "defaultColors": [
+          {
+            "primary": 61,
+            "secondary": 0,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 12,
+            "secondary": 12,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 30,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 33,
+            "secondary": 111,
+            "pearl": 38,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 90,
+            "secondary": 112,
+            "pearl": 38,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 53,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 82,
+            "secondary": 5,
+            "pearl": 68,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 55,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 94,
+            "secondary": 6,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_STANDARD_FLIGHT_HELMET",
+          "FLAG_HAS_JATO_BOOST_MOD",
+          "FLAG_HAS_HELI_STRAFE_MODE",
+          "FLAG_HAS_VERTICAL_ROCKET_BOOST",
+          "FLAG_HELICOPTER_WITH_LANDING_GEAR"
+        ]
       },
       "stats": {
         "handlingId": "THRUSTER",
@@ -492,6 +1595,69 @@
         "name": "Gunrunning",
         "releaseDate": "2017-06-13"
       },
+      "details": {
+        "manufacturer": "Vom Feuer",
+        "type": "TRAILER",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [
+          "233_trsmall2_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_TRAILER_QUADMG",
+          "VEHICLE_WEAPON_TRAILER_MISSILE",
+          "VEHICLE_WEAPON_TRAILER_DUALAA"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.291,
+            "y": -2.157,
+            "z": -0.773
+          },
+          "max": {
+            "x": 1.291,
+            "y": 2.231,
+            "z": 1.65
+          },
+          "length": 4.388,
+          "width": 2.583,
+          "height": 2.423,
+          "boundingRadius": 2.745
+        },
+        "defaultColors": [
+          {
+            "primary": 154,
+            "secondary": 154,
+            "pearl": 3,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_TURRET_MODS_ON_ROOF",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_KEEP_ALL_TURRETS_SYNCHRONISED",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_UPDATE_WEAPON_BATTERY_BONES",
+          "FLAG_SET_WANTED_FOR_ATTACHED_VEH",
+          "FLAG_HAS_TURRET_SEAT_ON_VEHICLE"
+        ]
+      },
       "stats": {
         "handlingId": "TRAILERSMALL2",
         "mass": 1000,
@@ -522,6 +1688,91 @@
         "id": "mpheist4",
         "name": "The Cayo Perico Heist",
         "releaseDate": "2020-12-15"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 10,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.097,
+            "y": -3.388,
+            "z": -1.332
+          },
+          "max": {
+            "x": 1.097,
+            "y": 3.265,
+            "z": 2.064
+          },
+          "length": 6.654,
+          "width": 2.194,
+          "height": 3.395,
+          "boundingRadius": 3.819
+        },
+        "defaultColors": [
+          {
+            "primary": 154,
+            "secondary": 13,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 154,
+            "dashboard": 156
+          },
+          {
+            "primary": 155,
+            "secondary": 13,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 156,
+            "dashboard": 156
+          },
+          {
+            "primary": 153,
+            "secondary": 13,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 153,
+            "dashboard": 156
+          },
+          {
+            "primary": 152,
+            "secondary": 13,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 152,
+            "dashboard": 156
+          },
+          {
+            "primary": 151,
+            "secondary": 13,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 151,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_AVOID_TURNS",
+          "FLAG_USE_FAT_INTERIOR_LIGHT",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
       },
       "stats": {
         "handlingId": "VETIR",

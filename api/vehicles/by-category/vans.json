@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "name": "Vans",
@@ -26,6 +26,146 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "Bravado",
+        "type": "CAR",
+        "seats": 6,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_suv_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.147,
+            "y": -2.775,
+            "z": -0.545
+          },
+          "max": {
+            "x": 1.147,
+            "y": 2.707,
+            "z": 1.347
+          },
+          "length": 5.483,
+          "width": 2.294,
+          "height": 1.892,
+          "boundingRadius": 3.105
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 1,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 4,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 30,
+            "secondary": 0,
+            "pearl": 32,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 31,
+            "secondary": 0,
+            "pearl": 32,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 2,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 68,
+            "secondary": 0,
+            "pearl": 73,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 94,
+            "secondary": 0,
+            "pearl": 94,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 39,
+            "secondary": 0,
+            "pearl": 39,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 61,
+            "secondary": 0,
+            "pearl": 26,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY",
+          "FLAG_ATTACH_TRAILER_ON_HIGHWAY",
+          "FLAG_ATTACH_TRAILER_IN_CITY",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
       },
       "stats": {
         "handlingId": "BISON",
@@ -58,6 +198,60 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": "Bravado",
+        "type": "CAR",
+        "seats": 6,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_suv_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.147,
+            "y": -2.775,
+            "z": -0.545
+          },
+          "max": {
+            "x": 1.147,
+            "y": 2.707,
+            "z": 1.347
+          },
+          "length": 5.483,
+          "width": 2.294,
+          "height": 1.892,
+          "boundingRadius": 3.104
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 0,
+            "pearl": 132,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_EXTRAS_SCRIPT",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY",
+          "FLAG_ATTACH_TRAILER_ON_HIGHWAY",
+          "FLAG_ATTACH_TRAILER_IN_CITY",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
+      },
       "stats": {
         "handlingId": "BISON",
         "mass": 2100,
@@ -88,6 +282,60 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "Bravado",
+        "type": "CAR",
+        "seats": 6,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.147,
+            "y": -2.785,
+            "z": -0.545
+          },
+          "max": {
+            "x": 1.147,
+            "y": 2.735,
+            "z": 1.474
+          },
+          "length": 5.52,
+          "width": 2.294,
+          "height": 2.019,
+          "boundingRadius": 3.126
+        },
+        "defaultColors": [
+          {
+            "primary": 7,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY",
+          "FLAG_ATTACH_TRAILER_ON_HIGHWAY",
+          "FLAG_ATTACH_TRAILER_IN_CITY",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
       },
       "stats": {
         "handlingId": "BISON",
@@ -120,6 +368,155 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "0_suv_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.19,
+            "y": -3.237,
+            "z": -0.79
+          },
+          "max": {
+            "x": 1.19,
+            "y": 2.545,
+            "z": 1.108
+          },
+          "length": 5.782,
+          "width": 2.379,
+          "height": 1.898,
+          "boundingRadius": 3.234
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 10,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 1,
+            "secondary": 1,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 2,
+            "secondary": 2,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 5,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 6,
+            "secondary": 6,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 52,
+            "secondary": 107,
+            "pearl": 52,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 100,
+            "secondary": 113,
+            "pearl": 106,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 72,
+            "secondary": 68,
+            "pearl": 68,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 34,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 31,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 77,
+            "secondary": 77,
+            "pearl": 77,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 49,
+            "secondary": 51,
+            "pearl": 51,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 103,
+            "secondary": 106,
+            "pearl": 103,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY",
+          "FLAG_ATTACH_TRAILER_ON_HIGHWAY",
+          "FLAG_ATTACH_TRAILER_IN_CITY"
+        ]
+      },
       "stats": {
         "handlingId": "BOBCATXL",
         "mass": 2600,
@@ -150,6 +547,62 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "Brute",
+        "type": "CAR",
+        "seats": 6,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": true,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.142,
+            "y": -3.846,
+            "z": -0.915
+          },
+          "max": {
+            "x": 1.142,
+            "y": 2.609,
+            "z": 1.983
+          },
+          "length": 6.454,
+          "width": 2.284,
+          "height": 2.898,
+          "boundingRadius": 3.771
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_HAS_LIVERY",
+          "FLAG_DELIVERY",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_PEDS_CAN_STAND_ON_TOP"
+        ]
       },
       "stats": {
         "handlingId": "BOXVILLE",
@@ -182,6 +635,69 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 6,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.142,
+            "y": -3.846,
+            "z": -0.915
+          },
+          "max": {
+            "x": 1.142,
+            "y": 2.503,
+            "z": 1.825
+          },
+          "length": 6.349,
+          "width": 2.284,
+          "height": 2.74,
+          "boundingRadius": 3.592
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 73,
+            "pearl": 111,
+            "wheels": 73,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 98,
+            "secondary": 98,
+            "pearl": 98,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_HAS_LIVERY",
+          "FLAG_DELIVERY",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
+      },
       "stats": {
         "handlingId": "BOXVILLE",
         "mass": 5500,
@@ -212,6 +728,61 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "Brute",
+        "type": "CAR",
+        "seats": 6,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.142,
+            "y": -3.846,
+            "z": -0.915
+          },
+          "max": {
+            "x": 1.142,
+            "y": 2.503,
+            "z": 1.825
+          },
+          "length": 6.349,
+          "width": 2.284,
+          "height": 2.74,
+          "boundingRadius": 3.592
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 1,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_DELIVERY",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_DAMPEN_STICKBOMB_DAMAGE",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
       },
       "stats": {
         "handlingId": "BOXVILLE",
@@ -244,6 +815,60 @@
         "name": "The Heists Update",
         "releaseDate": "2015-03-10"
       },
+      "details": {
+        "manufacturer": "Brute",
+        "type": "CAR",
+        "seats": 6,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.142,
+            "y": -3.846,
+            "z": -0.915
+          },
+          "max": {
+            "x": 1.142,
+            "y": 2.503,
+            "z": 1.825
+          },
+          "length": 6.349,
+          "width": 2.284,
+          "height": 2.74,
+          "boundingRadius": 3.593
+        },
+        "defaultColors": [
+          {
+            "primary": 98,
+            "secondary": 98,
+            "pearl": 98,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_DELIVERY",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_DAMPEN_STICKBOMB_DAMAGE",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO"
+        ]
+      },
       "stats": {
         "handlingId": "BOXVILLE",
         "mass": 5500,
@@ -274,6 +899,70 @@
         "id": "mpimportexport",
         "name": "Import/Export",
         "releaseDate": "2016-12-13"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 5,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_TURRET_BOXVILLE"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.173,
+            "y": -3.846,
+            "z": -0.921
+          },
+          "max": {
+            "x": 1.173,
+            "y": 3.501,
+            "z": 2.468
+          },
+          "length": 7.346,
+          "width": 2.346,
+          "height": 3.39,
+          "boundingRadius": 4.241
+        },
+        "defaultColors": [
+          {
+            "primary": 12,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_AVOID_TURNS",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_HAS_TURRET_SEAT_ON_VEHICLE",
+          "FLAG_HAS_DIRECTIONAL_SHUFFLES",
+          "FLAG_USE_HEADING_ONLY_IN_TURRET_MATRIX",
+          "FLAG_DISABLE_BUSTING",
+          "FLAG_RAMMING_SCOOP",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS"
+        ]
       },
       "stats": {
         "handlingId": "BOXVILLE5",
@@ -306,6 +995,61 @@
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
       },
+      "details": {
+        "manufacturer": "Brute",
+        "type": "CAR",
+        "seats": 6,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": true,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.142,
+            "y": -3.846,
+            "z": -0.915
+          },
+          "max": {
+            "x": 1.142,
+            "y": 2.609,
+            "z": 1.983
+          },
+          "length": 6.454,
+          "width": 2.284,
+          "height": 2.898,
+          "boundingRadius": 3.771
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_DELIVERY",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_PEDS_CAN_STAND_ON_TOP"
+        ]
+      },
       "stats": {
         "handlingId": "BOXVILLE",
         "mass": 5500,
@@ -336,6 +1080,110 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.262,
+            "y": -2.844,
+            "z": -0.829
+          },
+          "max": {
+            "x": 1.262,
+            "y": 2.714,
+            "z": 1.718
+          },
+          "length": 5.557,
+          "width": 2.524,
+          "height": 2.546,
+          "boundingRadius": 3.319
+        },
+        "defaultColors": [
+          {
+            "primary": 73,
+            "secondary": 73,
+            "pearl": 73,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 43,
+            "secondary": 43,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 110,
+            "secondary": 110,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 5,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 4,
+            "secondary": 4,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 132,
+            "secondary": 132,
+            "pearl": 132,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SMALL_WORKER",
+          "FLAG_IS_VAN",
+          "FLAG_HAS_LIVERY",
+          "FLAG_DELIVERY",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_IS_BULKY",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
       },
       "stats": {
         "handlingId": "BURRITO",
@@ -368,6 +1216,62 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.203,
+            "y": -2.836,
+            "z": -0.829
+          },
+          "max": {
+            "x": 1.203,
+            "y": 2.714,
+            "z": 1.302
+          },
+          "length": 5.55,
+          "width": 2.405,
+          "height": 2.131,
+          "boundingRadius": 3.151
+        },
+        "defaultColors": [
+          {
+            "primary": 74,
+            "secondary": 132,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SMALL_WORKER",
+          "FLAG_IS_VAN",
+          "FLAG_DELIVERY",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_IS_BULKY",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
+      },
       "stats": {
         "handlingId": "BURRITO",
         "mass": 2500,
@@ -398,6 +1302,189 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.203,
+            "y": -2.836,
+            "z": -0.829
+          },
+          "max": {
+            "x": 1.203,
+            "y": 2.714,
+            "z": 1.302
+          },
+          "length": 5.55,
+          "width": 2.405,
+          "height": 2.131,
+          "boundingRadius": 3.156
+        },
+        "defaultColors": [
+          {
+            "primary": 9,
+            "secondary": 9,
+            "pearl": 9,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 11,
+            "secondary": 11,
+            "pearl": 11,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 1,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 23,
+            "secondary": 23,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 66,
+            "secondary": 66,
+            "pearl": 66,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 31,
+            "secondary": 31,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 33,
+            "secondary": 33,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 93,
+            "secondary": 93,
+            "pearl": 93,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 56,
+            "secondary": 56,
+            "pearl": 56,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 63,
+            "secondary": 63,
+            "pearl": 63,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 76,
+            "secondary": 76,
+            "pearl": 76,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 5,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 103,
+            "secondary": 103,
+            "pearl": 103,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 105,
+            "secondary": 105,
+            "pearl": 103,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 7,
+            "secondary": 4,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 132,
+            "secondary": 132,
+            "pearl": 132,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SMALL_WORKER",
+          "FLAG_IS_VAN",
+          "FLAG_DELIVERY",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_IS_BULKY",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
       },
       "stats": {
         "handlingId": "BURRITO",
@@ -430,6 +1517,61 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.203,
+            "y": -2.836,
+            "z": -0.829
+          },
+          "max": {
+            "x": 1.203,
+            "y": 2.714,
+            "z": 1.302
+          },
+          "length": 5.55,
+          "width": 2.405,
+          "height": 2.131,
+          "boundingRadius": 3.156
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 0,
+            "pearl": 132,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SMALL_WORKER",
+          "FLAG_IS_VAN",
+          "FLAG_DELIVERY",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_IS_BULKY",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
+      },
       "stats": {
         "handlingId": "BURRITO",
         "mass": 2500,
@@ -460,6 +1602,62 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.203,
+            "y": -2.836,
+            "z": -0.829
+          },
+          "max": {
+            "x": 1.203,
+            "y": 2.714,
+            "z": 1.302
+          },
+          "length": 5.55,
+          "width": 2.405,
+          "height": 2.131,
+          "boundingRadius": 3.164
+        },
+        "defaultColors": [
+          {
+            "primary": 6,
+            "secondary": 0,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SMALL_WORKER",
+          "FLAG_IS_VAN",
+          "FLAG_DELIVERY",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_IS_BULKY",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
       },
       "stats": {
         "handlingId": "BURRITO",
@@ -492,6 +1690,110 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": "Brute",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 3,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.457,
+            "y": -4.676,
+            "z": -0.78
+          },
+          "max": {
+            "x": 1.496,
+            "y": 2.951,
+            "z": 2.48
+          },
+          "length": 7.627,
+          "width": 2.954,
+          "height": 3.261,
+          "boundingRadius": 4.38
+        },
+        "defaultColors": [
+          {
+            "primary": 122,
+            "secondary": 26,
+            "pearl": 122,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 122,
+            "secondary": 46,
+            "pearl": 122,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 122,
+            "secondary": 47,
+            "pearl": 122,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 122,
+            "secondary": 85,
+            "pearl": 122,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 122,
+            "secondary": 116,
+            "pearl": 122,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 122,
+            "secondary": 58,
+            "pearl": 122,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 122,
+            "secondary": 22,
+            "pearl": 21,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_HAS_LIVERY",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO"
+        ]
+      },
       "stats": {
         "handlingId": "CAMPER",
         "mass": 4000,
@@ -522,6 +1824,65 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.245,
+            "y": -2.844,
+            "z": -0.826
+          },
+          "max": {
+            "x": 1.245,
+            "y": 2.756,
+            "z": 1.313
+          },
+          "length": 5.599,
+          "width": 2.489,
+          "height": 2.14,
+          "boundingRadius": 3.229
+        },
+        "defaultColors": [
+          {
+            "primary": 12,
+            "secondary": 37,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 13,
+            "secondary": 3,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_IS_BULKY",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
       },
       "stats": {
         "handlingId": "BURRITO",
@@ -554,6 +1915,56 @@
         "name": "The Heists Update",
         "releaseDate": "2015-03-10"
       },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "107_gburrito2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.245,
+            "y": -2.852,
+            "z": -0.826
+          },
+          "max": {
+            "x": 1.245,
+            "y": 2.756,
+            "z": 1.434
+          },
+          "length": 5.607,
+          "width": 2.489,
+          "height": 2.261,
+          "boundingRadius": 3.229
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 29,
+            "pearl": 1,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_IS_BULKY",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS"
+        ]
+      },
       "stats": {
         "handlingId": "GBURRITO2",
         "mass": 2500,
@@ -584,6 +1995,85 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "Zirconium",
+        "type": "CAR",
+        "seats": 6,
+        "doors": 3,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.267,
+            "y": -3.578,
+            "z": -0.496
+          },
+          "max": {
+            "x": 1.22,
+            "y": 2.631,
+            "z": 1.984
+          },
+          "length": 6.209,
+          "width": 2.487,
+          "height": 2.48,
+          "boundingRadius": 3.515
+        },
+        "defaultColors": [
+          {
+            "primary": 121,
+            "secondary": 113,
+            "pearl": 121,
+            "wheels": 112,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 114,
+            "pearl": 121,
+            "wheels": 112,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 85,
+            "pearl": 112,
+            "wheels": 121,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 132,
+            "secondary": 132,
+            "pearl": 121,
+            "wheels": 47,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO"
+        ]
       },
       "stats": {
         "handlingId": "JOURNEY",
@@ -616,6 +2106,87 @@
         "name": "Los Santos Drug Wars",
         "releaseDate": "2022-12-13"
       },
+      "details": {
+        "manufacturer": "Zirconium",
+        "type": "CAR",
+        "seats": 6,
+        "doors": 3,
+        "wheels": 4,
+        "modKits": [
+          "514_journey2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.267,
+            "y": -3.578,
+            "z": -0.496
+          },
+          "max": {
+            "x": 1.22,
+            "y": 2.631,
+            "z": 2.018
+          },
+          "length": 6.209,
+          "width": 2.487,
+          "height": 2.514,
+          "boundingRadius": 3.514
+        },
+        "defaultColors": [
+          {
+            "primary": 121,
+            "secondary": 113,
+            "pearl": 121,
+            "wheels": 112,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 114,
+            "pearl": 121,
+            "wheels": 112,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 85,
+            "pearl": 112,
+            "wheels": 121,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 132,
+            "secondary": 132,
+            "pearl": 121,
+            "wheels": 47,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO"
+        ]
+      },
       "stats": {
         "handlingId": "JOURNEY",
         "mass": 4000,
@@ -646,6 +2217,163 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.08,
+            "y": -2.643,
+            "z": -0.755
+          },
+          "max": {
+            "x": 1.08,
+            "y": 2.599,
+            "z": 1.065
+          },
+          "length": 5.242,
+          "width": 2.159,
+          "height": 1.821,
+          "boundingRadius": 2.945
+        },
+        "defaultColors": [
+          {
+            "primary": 101,
+            "secondary": 0,
+            "pearl": 104,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 3,
+            "secondary": 3,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 6,
+            "secondary": 1,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 34,
+            "secondary": 34,
+            "pearl": 31,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 104,
+            "secondary": 4,
+            "pearl": 104,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 63,
+            "secondary": 66,
+            "pearl": 65,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 4,
+            "secondary": 4,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 10,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 106,
+            "secondary": 106,
+            "pearl": 106,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 4,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 5,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 7,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_CONVERTIBLE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS"
+        ]
       },
       "stats": {
         "handlingId": "MINIVAN",
@@ -678,6 +2406,60 @@
         "name": "Lowriders: Custom Classics",
         "releaseDate": "2016-03-15"
       },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "132_minivan2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.148,
+            "y": -2.644,
+            "z": -0.697
+          },
+          "max": {
+            "x": 1.146,
+            "y": 2.599,
+            "z": 1.068
+          },
+          "length": 5.243,
+          "width": 2.294,
+          "height": 1.764,
+          "boundingRadius": 2.945
+        },
+        "defaultColors": [
+          {
+            "primary": 70,
+            "secondary": 73,
+            "pearl": 73,
+            "wheels": 73,
+            "interior": 73,
+            "dashboard": 73
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_HAS_REAR_SEAT_ACTIVITIES",
+          "FLAG_HAS_LOWRIDER_HYDRAULICS"
+        ]
+      },
       "stats": {
         "handlingId": "MINIVAN2",
         "mass": 2200,
@@ -708,6 +2490,62 @@
         "id": "mpbeach",
         "name": "Beach Bum",
         "releaseDate": "2013-11-19"
+      },
+      "details": {
+        "manufacturer": "Bravado",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "85_paradise_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.192,
+            "y": -2.873,
+            "z": -1.037
+          },
+          "max": {
+            "x": 1.192,
+            "y": 2.596,
+            "z": 1.17
+          },
+          "length": 5.468,
+          "width": 2.384,
+          "height": 2.207,
+          "boundingRadius": 3.147
+        },
+        "defaultColors": [
+          {
+            "primary": 2,
+            "secondary": 111,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SMALL_WORKER",
+          "FLAG_IS_VAN",
+          "FLAG_HAS_LIVERY",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_DELIVERY",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_BULKY"
+        ]
       },
       "stats": {
         "handlingId": "paradise",
@@ -740,6 +2578,125 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": "Brute",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.162,
+            "y": -2.774,
+            "z": -0.801
+          },
+          "max": {
+            "x": 1.164,
+            "y": 2.587,
+            "z": 1.406
+          },
+          "length": 5.36,
+          "width": 2.326,
+          "height": 2.207,
+          "boundingRadius": 3.094
+        },
+        "defaultColors": [
+          {
+            "primary": 18,
+            "secondary": 18,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 16,
+            "secondary": 16,
+            "pearl": 16,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 20,
+            "secondary": 20,
+            "pearl": 20,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 43,
+            "secondary": 43,
+            "pearl": 43,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 110,
+            "secondary": 110,
+            "pearl": 110,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 56,
+            "pearl": 56,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 122,
+            "secondary": 122,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 19,
+            "secondary": 19,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SMALL_WORKER",
+          "FLAG_IS_VAN",
+          "FLAG_HAS_LIVERY",
+          "FLAG_DELIVERY",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_BULKY"
+        ]
+      },
       "stats": {
         "handlingId": "PONY",
         "mass": 2500,
@@ -770,6 +2727,60 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "Brute",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.162,
+            "y": -2.774,
+            "z": -0.801
+          },
+          "max": {
+            "x": 1.164,
+            "y": 2.587,
+            "z": 1.406
+          },
+          "length": 5.36,
+          "width": 2.326,
+          "height": 2.207,
+          "boundingRadius": 3.094
+        },
+        "defaultColors": [
+          {
+            "primary": 134,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SMALL_WORKER",
+          "FLAG_IS_VAN",
+          "FLAG_HAS_LIVERY",
+          "FLAG_DELIVERY",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_BULKY"
+        ]
       },
       "stats": {
         "handlingId": "PONY",
@@ -802,6 +2813,117 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": "Bravado",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "81_rumpo_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.192,
+            "y": -2.873,
+            "z": -1.037
+          },
+          "max": {
+            "x": 1.192,
+            "y": 2.596,
+            "z": 1.076
+          },
+          "length": 5.468,
+          "width": 2.384,
+          "height": 2.114,
+          "boundingRadius": 3.119
+        },
+        "defaultColors": [
+          {
+            "primary": 4,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 3,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 26,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 29,
+            "secondary": 0,
+            "pearl": 28,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 1,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 6,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SMALL_WORKER",
+          "FLAG_IS_VAN",
+          "FLAG_HAS_LIVERY",
+          "FLAG_DELIVERY",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_BULKY"
+        ]
+      },
       "stats": {
         "handlingId": "RUMPO",
         "mass": 2500,
@@ -832,6 +2954,68 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "Bravado",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.192,
+            "y": -2.873,
+            "z": -1.037
+          },
+          "max": {
+            "x": 1.192,
+            "y": 2.596,
+            "z": 1.076
+          },
+          "length": 5.468,
+          "width": 2.384,
+          "height": 2.114,
+          "boundingRadius": 3.118
+        },
+        "defaultColors": [
+          {
+            "primary": 4,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SMALL_WORKER",
+          "FLAG_IS_VAN",
+          "FLAG_DELIVERY",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_BULKY"
+        ]
       },
       "stats": {
         "handlingId": "RUMPO",
@@ -864,6 +3048,85 @@
         "name": "Further Adventures in Finance and Felony",
         "releaseDate": "2016-06-07"
       },
+      "details": {
+        "manufacturer": "Bravado",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.35,
+            "y": -3.165,
+            "z": -1.225
+          },
+          "max": {
+            "x": 1.35,
+            "y": 2.778,
+            "z": 1.432
+          },
+          "length": 5.943,
+          "width": 2.7,
+          "height": 2.657,
+          "boundingRadius": 3.394
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 1,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 100,
+            "secondary": 1,
+            "pearl": 1,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 105,
+            "secondary": 1,
+            "pearl": 1,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 52,
+            "secondary": 1,
+            "pearl": 1,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_IS_VAN",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY",
+          "FLAG_HAS_REAR_SEAT_ACTIVITIES",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS"
+        ]
+      },
       "stats": {
         "handlingId": "RUMPO3",
         "mass": 2250,
@@ -894,6 +3157,122 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.048,
+            "y": -2.801,
+            "z": -0.75
+          },
+          "max": {
+            "x": 1.048,
+            "y": 2.534,
+            "z": 1.433
+          },
+          "length": 5.335,
+          "width": 2.096,
+          "height": 2.183,
+          "boundingRadius": 3.027
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 7,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 10,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 28,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 73,
+            "secondary": 0,
+            "pearl": 6,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 4,
+            "secondary": 0,
+            "pearl": 110,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 111,
+            "pearl": 110,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SMALL_WORKER",
+          "FLAG_IS_VAN",
+          "FLAG_DELIVERY",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_IS_BULKY"
+        ]
       },
       "stats": {
         "handlingId": "speedo",
@@ -926,6 +3305,63 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit",
+          "1039161037"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.048,
+            "y": -2.801,
+            "z": -0.75
+          },
+          "max": {
+            "x": 1.048,
+            "y": 2.717,
+            "z": 1.367
+          },
+          "length": 5.518,
+          "width": 2.096,
+          "height": 2.117,
+          "boundingRadius": 3.09
+        },
+        "defaultColors": [
+          {
+            "primary": 131,
+            "secondary": 0,
+            "pearl": 31,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SMALL_WORKER",
+          "FLAG_IS_VAN",
+          "FLAG_DELIVERY",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_NO_RESPRAY",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_IS_BULKY"
+        ]
+      },
       "stats": {
         "handlingId": "speedo",
         "mass": 2500,
@@ -956,6 +3392,68 @@
         "id": "mpbattle",
         "name": "After Hours",
         "releaseDate": "2018-07-24"
+      },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "303_speedo4_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SPEEDO4_MG",
+          "VEHICLE_WEAPON_SPEEDO4_TURRET_MG",
+          "VEHICLE_WEAPON_SPEEDO4_TURRET_MINI"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.173,
+            "y": -2.874,
+            "z": -0.752
+          },
+          "max": {
+            "x": 1.173,
+            "y": 3.509,
+            "z": 1.822
+          },
+          "length": 6.383,
+          "width": 2.346,
+          "height": 2.574,
+          "boundingRadius": 2.993
+        },
+        "defaultColors": [
+          {
+            "primary": 5,
+            "secondary": 2,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SMALL_WORKER",
+          "FLAG_IS_VAN",
+          "FLAG_DELIVERY",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_IS_BULKY",
+          "FLAG_TURRET_MODS_ON_ROOF",
+          "FLAG_CARGOBOB_HOOK_UP_CHASSIS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_KEEP_ALL_TURRETS_SYNCHRONISED",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS",
+          "FLAG_HAS_INCREASED_RAMMING_FORCE_WITH_CHASSIS_MOD"
+        ]
       },
       "stats": {
         "handlingId": "SPEEDO4",
@@ -988,6 +3486,68 @@
         "name": "San Andreas Mercenaries",
         "releaseDate": "2023-06-13"
       },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "540_speedo5_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SPEEDO4_MG",
+          "VEHICLE_WEAPON_SPEEDO4_TURRET_MG",
+          "VEHICLE_WEAPON_SPEEDO4_TURRET_MINI"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.173,
+            "y": -2.874,
+            "z": -0.752
+          },
+          "max": {
+            "x": 1.173,
+            "y": 3.509,
+            "z": 1.822
+          },
+          "length": 6.383,
+          "width": 2.346,
+          "height": 2.574,
+          "boundingRadius": 2.993
+        },
+        "defaultColors": [
+          {
+            "primary": 5,
+            "secondary": 2,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SMALL_WORKER",
+          "FLAG_IS_VAN",
+          "FLAG_DELIVERY",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_IS_BULKY",
+          "FLAG_TURRET_MODS_ON_ROOF",
+          "FLAG_CARGOBOB_HOOK_UP_CHASSIS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_KEEP_ALL_TURRETS_SYNCHRONISED",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS",
+          "FLAG_HAS_INCREASED_RAMMING_FORCE_WITH_CHASSIS_MOD"
+        ]
+      },
       "stats": {
         "handlingId": "SPEEDO4",
         "mass": 2500,
@@ -1018,6 +3578,123 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "BF",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.984,
+            "y": -2.186,
+            "z": -0.679
+          },
+          "max": {
+            "x": 1.146,
+            "y": 2.202,
+            "z": 1.371
+          },
+          "length": 4.388,
+          "width": 2.131,
+          "height": 2.05,
+          "boundingRadius": 2.563
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 30,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 8,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 4,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 8,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 52,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 69,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 68,
+            "pearl": 68,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 29,
+            "secondary": 31,
+            "pearl": 28,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 74,
+            "secondary": 67,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_IS_VAN",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY"
+        ]
       },
       "stats": {
         "handlingId": "SURFER",
@@ -1050,6 +3727,123 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": "BF",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.984,
+            "y": -2.186,
+            "z": -0.788
+          },
+          "max": {
+            "x": 0.978,
+            "y": 2.202,
+            "z": 1.07
+          },
+          "length": 4.388,
+          "width": 1.962,
+          "height": 1.858,
+          "boundingRadius": 2.514
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 46,
+            "pearl": 132,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 22,
+            "secondary": 21,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 21,
+            "secondary": 21,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 23,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 60,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 87,
+            "secondary": 85,
+            "pearl": 19,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 132,
+            "secondary": 113,
+            "pearl": 68,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 23,
+            "secondary": 21,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 46,
+            "secondary": 47,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_IS_VAN",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_POOR_CAR",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY"
+        ]
+      },
       "stats": {
         "handlingId": "SURFER",
         "mass": 2500,
@@ -1080,6 +3874,126 @@
         "id": "mpchristmas3",
         "name": "Los Santos Drug Wars",
         "releaseDate": "2022-12-13"
+      },
+      "details": {
+        "manufacturer": "BF",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "400_surfer3_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.07,
+            "y": -2.186,
+            "z": -0.679
+          },
+          "max": {
+            "x": 1.07,
+            "y": 2.346,
+            "z": 1.537
+          },
+          "length": 4.532,
+          "width": 2.14,
+          "height": 2.216,
+          "boundingRadius": 2.506
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 30,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 8,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 4,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 8,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 52,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 69,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 68,
+            "pearl": 68,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 29,
+            "secondary": 31,
+            "pearl": 28,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 74,
+            "secondary": 67,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_IS_VAN",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY",
+          "FLAG_CARGOBOB_HOOK_UP_CHASSIS",
+          "FLAG_SPOILER_MOD_DOESNT_INCREASE_GRIP"
+        ]
       },
       "stats": {
         "handlingId": "SURFER",
@@ -1112,6 +4026,58 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": "Brute",
+        "type": "CAR",
+        "seats": 1,
+        "doors": 3,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.138,
+            "y": -4.687,
+            "z": -0.915
+          },
+          "max": {
+            "x": 1.138,
+            "y": 2.503,
+            "z": 3.014
+          },
+          "length": 7.19,
+          "width": 2.276,
+          "height": 3.928,
+          "boundingRadius": 4.191
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_AVOID_TURNS",
+          "FLAG_DELIVERY",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO"
+        ]
+      },
       "stats": {
         "handlingId": "TACO",
         "mass": 5500,
@@ -1142,6 +4108,112 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "Bravado",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "16_youga_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.136,
+            "y": -2.593,
+            "z": -0.516
+          },
+          "max": {
+            "x": 1.136,
+            "y": 2.364,
+            "z": 1.802
+          },
+          "length": 4.958,
+          "width": 2.272,
+          "height": 2.318,
+          "boundingRadius": 2.867
+        },
+        "defaultColors": [
+          {
+            "primary": 7,
+            "secondary": 2,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 10,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 27,
+            "secondary": 27,
+            "pearl": 28,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 73,
+            "secondary": 73,
+            "pearl": 6,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 14,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 4,
+            "secondary": 4,
+            "pearl": 110,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 5,
+            "pearl": 110,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_BULKY"
+        ]
       },
       "stats": {
         "handlingId": "YOUGA",
@@ -1174,6 +4246,82 @@
         "name": "Bikers",
         "releaseDate": "2016-10-04"
       },
+      "details": {
+        "manufacturer": "Bravado",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "198_youga2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.302,
+            "y": -2.623,
+            "z": -0.971
+          },
+          "max": {
+            "x": 1.302,
+            "y": 2.47,
+            "z": 1.083
+          },
+          "length": 5.093,
+          "width": 2.604,
+          "height": 2.053,
+          "boundingRadius": 2.781
+        },
+        "defaultColors": [
+          {
+            "primary": 73,
+            "secondary": 112,
+            "pearl": 4,
+            "wheels": 112,
+            "interior": 156,
+            "dashboard": 0
+          },
+          {
+            "primary": 107,
+            "secondary": 68,
+            "pearl": 4,
+            "wheels": 112,
+            "interior": 156,
+            "dashboard": 0
+          },
+          {
+            "primary": 88,
+            "secondary": 88,
+            "pearl": 4,
+            "wheels": 112,
+            "interior": 156,
+            "dashboard": 0
+          },
+          {
+            "primary": 73,
+            "secondary": 73,
+            "pearl": 4,
+            "wheels": 112,
+            "interior": 156,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_IS_VAN",
+          "FLAG_POOR_CAR",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_IS_BULKY",
+          "FLAG_HAS_REAR_SEAT_ACTIVITIES"
+        ]
+      },
       "stats": {
         "handlingId": "YOUGA2",
         "mass": 2500,
@@ -1205,6 +4353,58 @@
         "name": "Los Santos Summer Special",
         "releaseDate": "2020-08-11"
       },
+      "details": {
+        "manufacturer": "Bravado",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "423_youga3_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.215,
+            "y": -2.393,
+            "z": -1.188
+          },
+          "max": {
+            "x": 1.15,
+            "y": 2.611,
+            "z": 1.418
+          },
+          "length": 5.003,
+          "width": 2.365,
+          "height": 2.607,
+          "boundingRadius": 2.829
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 43,
+            "interior": 43,
+            "dashboard": 43
+          }
+        ],
+        "flags": [
+          "FLAG_IS_VAN",
+          "FLAG_POOR_CAR",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_IS_BULKY",
+          "FLAG_CARGOBOB_HOOK_UP_CHASSIS"
+        ]
+      },
       "stats": {
         "handlingId": "YOUGA3",
         "mass": 2700,
@@ -1235,6 +4435,60 @@
         "id": "mpsecurity",
         "name": "The Contract",
         "releaseDate": "2021-12-15"
+      },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.302,
+            "y": -2.62,
+            "z": -0.971
+          },
+          "max": {
+            "x": 1.302,
+            "y": 2.433,
+            "z": 1.083
+          },
+          "length": 5.052,
+          "width": 2.604,
+          "height": 2.053,
+          "boundingRadius": 2.93
+        },
+        "defaultColors": [
+          {
+            "primary": 152,
+            "secondary": 152,
+            "pearl": 152,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_ALLOWS_RAPPEL",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
       },
       "stats": {
         "handlingId": "YOUGA4",

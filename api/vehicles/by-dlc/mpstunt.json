@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "id": "mpstunt",
@@ -28,6 +28,128 @@
         "id": "mpstunt",
         "name": "Cunning Stunts",
         "releaseDate": "2016-07-12"
+      },
+      "details": {
+        "manufacturer": "Grotti",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "140_brioso_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.857,
+            "y": -1.775,
+            "z": -0.202
+          },
+          "max": {
+            "x": 0.857,
+            "y": 1.949,
+            "z": 1.345
+          },
+          "length": 3.724,
+          "width": 1.715,
+          "height": 1.546,
+          "boundingRadius": 2.133
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 111,
+            "wheels": 29,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 50,
+            "secondary": 0,
+            "pearl": 55,
+            "wheels": 92,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 0,
+            "secondary": 4,
+            "pearl": 5,
+            "wheels": 112,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 1,
+            "secondary": 38,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 38,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 27,
+            "secondary": 112,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 64,
+            "secondary": 2,
+            "pearl": 70,
+            "wheels": 112,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 64,
+            "secondary": 42,
+            "pearl": 64,
+            "wheels": 42,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 50,
+            "secondary": 112,
+            "pearl": 55,
+            "wheels": 112,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 88,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 112,
+            "interior": 111,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_ALL",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_POOR_CAR"
+        ]
       },
       "stats": {
         "handlingId": "BRIOSO",
@@ -60,6 +182,57 @@
         "name": "Cunning Stunts",
         "releaseDate": "2016-07-12"
       },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.103,
+            "y": -3.072,
+            "z": -1.237
+          },
+          "max": {
+            "x": 1.103,
+            "y": 3.25,
+            "z": 0.979
+          },
+          "length": 6.322,
+          "width": 2.206,
+          "height": 2.216,
+          "boundingRadius": 3.459
+        },
+        "defaultColors": [
+          {
+            "primary": 12,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 7,
+            "interior": 8,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS"
+        ]
+      },
       "stats": {
         "handlingId": "CONTENDER",
         "mass": 2750,
@@ -90,6 +263,121 @@
         "id": "mpstunt",
         "name": "Cunning Stunts",
         "releaseDate": "2016-07-12"
+      },
+      "details": {
+        "manufacturer": "Ocelot",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "142_lynx_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.993,
+            "y": -2.431,
+            "z": -0.633
+          },
+          "max": {
+            "x": 0.993,
+            "y": 2.273,
+            "z": 0.684
+          },
+          "length": 4.704,
+          "width": 1.987,
+          "height": 1.316,
+          "boundingRadius": 2.567
+        },
+        "defaultColors": [
+          {
+            "primary": 28,
+            "secondary": 28,
+            "pearl": 41,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 5,
+            "secondary": 12,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 9,
+            "secondary": 36,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 32,
+            "secondary": 7,
+            "pearl": 36,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 50,
+            "secondary": 0,
+            "pearl": 55,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 64,
+            "secondary": 3,
+            "pearl": 73,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 64,
+            "secondary": 88,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 88,
+            "secondary": 2,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 0,
+            "secondary": 3,
+            "pearl": 5,
+            "wheels": 3,
+            "interior": 111,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO"
+        ]
       },
       "stats": {
         "handlingId": "LYNX",
@@ -122,6 +410,98 @@
         "name": "Cunning Stunts",
         "releaseDate": "2016-07-12"
       },
+      "details": {
+        "manufacturer": "Obey",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "141_omnis_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.963,
+            "y": -2.125,
+            "z": -0.417
+          },
+          "max": {
+            "x": 0.963,
+            "y": 1.978,
+            "z": 1.45
+          },
+          "length": 4.103,
+          "width": 1.926,
+          "height": 1.867,
+          "boundingRadius": 2.4
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 111,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 0,
+            "secondary": 3,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 32,
+            "secondary": 5,
+            "pearl": 36,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 55,
+            "secondary": 92,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 64,
+            "secondary": 5,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 88,
+            "secondary": 3,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG"
+        ]
+      },
       "stats": {
         "handlingId": "OMNIS",
         "mass": 1090,
@@ -152,6 +532,113 @@
         "id": "mpstunt",
         "name": "Cunning Stunts",
         "releaseDate": "2016-07-12"
+      },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "143_tampa2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.04,
+            "y": -2.687,
+            "z": -0.342
+          },
+          "max": {
+            "x": 1.04,
+            "y": 2.448,
+            "z": 0.872
+          },
+          "length": 5.135,
+          "width": 2.08,
+          "height": 1.214,
+          "boundingRadius": 2.811
+        },
+        "defaultColors": [
+          {
+            "primary": 13,
+            "secondary": 92,
+            "pearl": 55,
+            "wheels": 92,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 0,
+            "secondary": 3,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 1,
+            "secondary": 38,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 38,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 64,
+            "secondary": 2,
+            "pearl": 70,
+            "wheels": 112,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 64,
+            "secondary": 42,
+            "pearl": 64,
+            "wheels": 42,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 88,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 2,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 112,
+            "secondary": 3,
+            "pearl": 5,
+            "wheels": 112,
+            "interior": 111,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS"
+        ]
       },
       "stats": {
         "handlingId": "TAMPA2",
@@ -184,6 +671,122 @@
         "name": "Cunning Stunts",
         "releaseDate": "2016-07-12"
       },
+      "details": {
+        "manufacturer": "Lampadati",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "145_tropos_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.002,
+            "y": -1.867,
+            "z": -0.325
+          },
+          "max": {
+            "x": 1.002,
+            "y": 2.316,
+            "z": 0.999
+          },
+          "length": 4.184,
+          "width": 2.004,
+          "height": 1.324,
+          "boundingRadius": 2.229
+        },
+        "defaultColors": [
+          {
+            "primary": 5,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 1,
+            "secondary": 38,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 38,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 0,
+            "secondary": 92,
+            "pearl": 55,
+            "wheels": 92,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 64,
+            "secondary": 2,
+            "pearl": 70,
+            "wheels": 112,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 64,
+            "secondary": 42,
+            "pearl": 64,
+            "wheels": 42,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 88,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 2,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 0,
+            "secondary": 112,
+            "pearl": 5,
+            "wheels": 3,
+            "interior": 111,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS"
+        ]
+      },
       "stats": {
         "handlingId": "TROPOS",
         "mass": 800,
@@ -214,6 +817,115 @@
         "id": "mpstunt",
         "name": "Cunning Stunts",
         "releaseDate": "2016-07-12"
+      },
+      "details": {
+        "manufacturer": "Annis",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "178_le7b_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.076,
+            "y": -2.657,
+            "z": -0.38
+          },
+          "max": {
+            "x": 1.076,
+            "y": 2.429,
+            "z": 0.944
+          },
+          "length": 5.086,
+          "width": 2.152,
+          "height": 1.324,
+          "boundingRadius": 2.775
+        },
+        "defaultColors": [
+          {
+            "primary": 5,
+            "secondary": 5,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 111,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 27,
+            "secondary": 5,
+            "pearl": 38,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 55,
+            "secondary": 64,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 88,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 38,
+            "secondary": 5,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 3,
+            "secondary": 5,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_RICH_CAR",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_HAS_GULL_WING_DOORS",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG"
+        ]
       },
       "stats": {
         "handlingId": "LE7B",
@@ -246,6 +958,90 @@
         "name": "Cunning Stunts",
         "releaseDate": "2016-07-12"
       },
+      "details": {
+        "manufacturer": "Emperor",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "179_sheava_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.109,
+            "y": -2.376,
+            "z": -0.439
+          },
+          "max": {
+            "x": 1.109,
+            "y": 2.428,
+            "z": 0.852
+          },
+          "length": 4.804,
+          "width": 2.218,
+          "height": 1.291,
+          "boundingRadius": 2.659
+        },
+        "defaultColors": [
+          {
+            "primary": 5,
+            "secondary": 6,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 111,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 27,
+            "secondary": 5,
+            "pearl": 38,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 55,
+            "secondary": 64,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 64,
+            "secondary": 42,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_EXTRAS_STRONG"
+        ]
+      },
       "stats": {
         "handlingId": "SHEAVA",
         "mass": 1400,
@@ -276,6 +1072,121 @@
         "id": "mpstunt",
         "name": "Cunning Stunts",
         "releaseDate": "2016-07-12"
+      },
+      "details": {
+        "manufacturer": "Progen",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "146_tyrus_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.653,
+            "y": -2.586,
+            "z": -0.356
+          },
+          "max": {
+            "x": 1.668,
+            "y": 2.455,
+            "z": 1.103
+          },
+          "length": 5.041,
+          "width": 3.32,
+          "height": 1.459,
+          "boundingRadius": 2.679
+        },
+        "defaultColors": [
+          {
+            "primary": 5,
+            "secondary": 5,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 1,
+            "secondary": 3,
+            "pearl": 3,
+            "wheels": 38,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 5,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 6,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 38,
+            "wheels": 5,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 55,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 64,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 42,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 88,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 2,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 27,
+            "secondary": 3,
+            "pearl": 5,
+            "wheels": 112,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 0,
+            "secondary": 3,
+            "pearl": 5,
+            "wheels": 2,
+            "interior": 111,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO"
+        ]
       },
       "stats": {
         "handlingId": "TYRUS",
@@ -308,6 +1219,114 @@
         "name": "Cunning Stunts",
         "releaseDate": "2016-07-12"
       },
+      "details": {
+        "manufacturer": "Nagasaki",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "174_bf400_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.451,
+            "y": -1.091,
+            "z": -0.493
+          },
+          "max": {
+            "x": 0.451,
+            "y": 1.173,
+            "z": 0.979
+          },
+          "length": 2.264,
+          "width": 0.903,
+          "height": 1.472,
+          "boundingRadius": 1.292
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 55,
+            "pearl": 5,
+            "wheels": 112,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 0,
+            "secondary": 4,
+            "pearl": 5,
+            "wheels": 112,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 1,
+            "secondary": 38,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 0,
+            "secondary": 27,
+            "pearl": 38,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 27,
+            "secondary": 112,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 64,
+            "secondary": 3,
+            "pearl": 70,
+            "wheels": 112,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 3,
+            "secondary": 3,
+            "pearl": 3,
+            "wheels": 112,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 88,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 112,
+            "interior": 111,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
+      },
       "stats": {
         "handlingId": "BF400",
         "mass": 150,
@@ -338,6 +1357,114 @@
         "id": "mpstunt",
         "name": "Cunning Stunts",
         "releaseDate": "2016-07-12"
+      },
+      "details": {
+        "manufacturer": "Western",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "175_cliffhanger_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.432,
+            "y": -1.187,
+            "z": -0.5
+          },
+          "max": {
+            "x": 0.432,
+            "y": 1.154,
+            "z": 1.186
+          },
+          "length": 2.341,
+          "width": 0.863,
+          "height": 1.686,
+          "boundingRadius": 1.176
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 92,
+            "pearl": 5,
+            "wheels": 112,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 0,
+            "secondary": 5,
+            "pearl": 5,
+            "wheels": 112,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 1,
+            "secondary": 38,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 27,
+            "secondary": 5,
+            "pearl": 38,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 27,
+            "secondary": 112,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 64,
+            "secondary": 112,
+            "pearl": 70,
+            "wheels": 112,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 50,
+            "secondary": 120,
+            "pearl": 55,
+            "wheels": 112,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 88,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 112,
+            "interior": 111,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
       },
       "stats": {
         "handlingId": "CLIFFHANG",
@@ -370,6 +1497,108 @@
         "name": "Cunning Stunts",
         "releaseDate": "2016-07-12"
       },
+      "details": {
+        "manufacturer": "Western",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "173_gargoyle_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.486,
+            "y": -1.187,
+            "z": -0.509
+          },
+          "max": {
+            "x": 0.486,
+            "y": 1.213,
+            "z": 1.206
+          },
+          "length": 2.4,
+          "width": 0.973,
+          "height": 1.715,
+          "boundingRadius": 1.15
+        },
+        "defaultColors": [
+          {
+            "primary": 1,
+            "secondary": 5,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 34,
+            "secondary": 9,
+            "pearl": 38,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 50,
+            "secondary": 49,
+            "pearl": 92,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 30,
+            "secondary": 34,
+            "pearl": 138,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 62,
+            "pearl": 64,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 108,
+            "secondary": 106,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 59,
+            "secondary": 52,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_BIKE_CLAMP_PICKUP_LEAN_RATE"
+        ]
+      },
       "stats": {
         "handlingId": "GARGOYLE",
         "mass": 135,
@@ -400,6 +1629,133 @@
         "id": "mpstunt",
         "name": "Cunning Stunts",
         "releaseDate": "2016-07-12"
+      },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "144_trophytruck_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.222,
+            "y": -2.834,
+            "z": -0.766
+          },
+          "max": {
+            "x": 1.218,
+            "y": 2.622,
+            "z": 1.352
+          },
+          "length": 5.455,
+          "width": 2.44,
+          "height": 2.118,
+          "boundingRadius": 3.027
+        },
+        "defaultColors": [
+          {
+            "primary": 12,
+            "secondary": 88,
+            "pearl": 5,
+            "wheels": 88,
+            "interior": 29,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 92,
+            "pearl": 5,
+            "wheels": 92,
+            "interior": 42,
+            "dashboard": 111
+          },
+          {
+            "primary": 38,
+            "secondary": 2,
+            "pearl": 5,
+            "wheels": 3,
+            "interior": 3,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 5,
+            "pearl": 5,
+            "wheels": 112,
+            "interior": 5,
+            "dashboard": 134
+          },
+          {
+            "primary": 1,
+            "secondary": 38,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 134
+          },
+          {
+            "primary": 27,
+            "secondary": 5,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 111,
+            "dashboard": 134
+          },
+          {
+            "primary": 64,
+            "secondary": 112,
+            "pearl": 70,
+            "wheels": 88,
+            "interior": 29,
+            "dashboard": 134
+          },
+          {
+            "primary": 50,
+            "secondary": 92,
+            "pearl": 55,
+            "wheels": 92,
+            "interior": 88,
+            "dashboard": 134
+          },
+          {
+            "primary": 88,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 112,
+            "interior": 112,
+            "dashboard": 134
+          },
+          {
+            "primary": 1,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_IS_BULKY",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
       },
       "stats": {
         "handlingId": "TROPHY",
@@ -432,6 +1788,141 @@
         "name": "Cunning Stunts",
         "releaseDate": "2016-07-12"
       },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "176_trophytruck2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.299,
+            "y": -3.423,
+            "z": -0.766
+          },
+          "max": {
+            "x": 1.299,
+            "y": 2.482,
+            "z": 1.368
+          },
+          "length": 5.906,
+          "width": 2.598,
+          "height": 2.134,
+          "boundingRadius": 3.276
+        },
+        "defaultColors": [
+          {
+            "primary": 41,
+            "secondary": 111,
+            "pearl": 5,
+            "wheels": 41,
+            "interior": 29,
+            "dashboard": 134
+          },
+          {
+            "primary": 12,
+            "secondary": 88,
+            "pearl": 5,
+            "wheels": 88,
+            "interior": 29,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 92,
+            "pearl": 5,
+            "wheels": 92,
+            "interior": 42,
+            "dashboard": 111
+          },
+          {
+            "primary": 38,
+            "secondary": 3,
+            "pearl": 5,
+            "wheels": 3,
+            "interior": 112,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 5,
+            "pearl": 5,
+            "wheels": 112,
+            "interior": 5,
+            "dashboard": 134
+          },
+          {
+            "primary": 1,
+            "secondary": 38,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 134
+          },
+          {
+            "primary": 27,
+            "secondary": 5,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 111,
+            "dashboard": 134
+          },
+          {
+            "primary": 64,
+            "secondary": 112,
+            "pearl": 70,
+            "wheels": 88,
+            "interior": 29,
+            "dashboard": 134
+          },
+          {
+            "primary": 50,
+            "secondary": 3,
+            "pearl": 55,
+            "wheels": 92,
+            "interior": 88,
+            "dashboard": 134
+          },
+          {
+            "primary": 88,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 112,
+            "interior": 112,
+            "dashboard": 134
+          },
+          {
+            "primary": 1,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_IS_BULKY",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
+      },
       "stats": {
         "handlingId": "TROPHY2",
         "mass": 2200,
@@ -462,6 +1953,129 @@
         "id": "mpstunt",
         "name": "Cunning Stunts",
         "releaseDate": "2016-07-12"
+      },
+      "details": {
+        "manufacturer": "MTL",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "177_rallytruck_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.467,
+            "y": -4.43,
+            "z": -1.384
+          },
+          "max": {
+            "x": 1.467,
+            "y": 4.515,
+            "z": 2.417
+          },
+          "length": 8.944,
+          "width": 2.934,
+          "height": 3.801,
+          "boundingRadius": 4.986
+        },
+        "defaultColors": [
+          {
+            "primary": 6,
+            "secondary": 17,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 28,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 110,
+            "secondary": 114,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 155,
+            "secondary": 93,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 62,
+            "secondary": 7,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 50,
+            "secondary": 12,
+            "pearl": 55,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 24,
+            "secondary": 53,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 38,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 38,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 14,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_USE_FAT_INTERIOR_LIGHT"
+        ]
       },
       "stats": {
         "handlingId": "RALLYTRUCK",

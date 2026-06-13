@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "id": "mpspecialraces",
@@ -28,6 +28,117 @@
         "id": "mpspecialraces",
         "name": "Cunning Stunts: Special Vehicle Circuit",
         "releaseDate": "2016-11-08"
+      },
+      "details": {
+        "manufacturer": "Pegassi",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "221_infernus2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.387,
+            "y": -2.348,
+            "z": -0.529
+          },
+          "max": {
+            "x": 1.387,
+            "y": 2.263,
+            "z": 0.767
+          },
+          "length": 4.611,
+          "width": 2.775,
+          "height": 1.297,
+          "boundingRadius": 2.478
+        },
+        "defaultColors": [
+          {
+            "primary": 70,
+            "secondary": 73,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 63,
+            "dashboard": 65
+          },
+          {
+            "primary": 145,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 64,
+            "secondary": 62,
+            "pearl": 68,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 28,
+            "secondary": 31,
+            "pearl": 28,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 38,
+            "secondary": 4,
+            "pearl": 38,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 53,
+            "secondary": 54,
+            "pearl": 55,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 89,
+            "secondary": 88,
+            "pearl": 88,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 65
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG"
+        ]
       },
       "stats": {
         "handlingId": "INFERNUS2",
@@ -60,6 +171,110 @@
         "name": "Cunning Stunts: Special Vehicle Circuit",
         "releaseDate": "2016-11-08"
       },
+      "details": {
+        "manufacturer": "Grotti",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "225_turismo2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.007,
+            "y": -2.18,
+            "z": -0.641
+          },
+          "max": {
+            "x": 1.007,
+            "y": 2.366,
+            "z": 0.611
+          },
+          "length": 4.546,
+          "width": 2.015,
+          "height": 1.252,
+          "boundingRadius": 2.449
+        },
+        "defaultColors": [
+          {
+            "primary": 29,
+            "secondary": 40,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 112,
+            "secondary": 29,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 43,
+            "dashboard": 93
+          },
+          {
+            "primary": 1,
+            "secondary": 29,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 43,
+            "dashboard": 93
+          },
+          {
+            "primary": 38,
+            "secondary": 88,
+            "pearl": 88,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 92,
+            "secondary": 89,
+            "pearl": 88,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 62,
+            "secondary": 68,
+            "pearl": 67,
+            "wheels": 112,
+            "interior": 112,
+            "dashboard": 93
+          },
+          {
+            "primary": 13,
+            "secondary": 40,
+            "pearl": 13,
+            "wheels": 112,
+            "interior": 40,
+            "dashboard": 93
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_FRONT_BOOT"
+        ]
+      },
       "stats": {
         "handlingId": "TURISMO2",
         "mass": 1100,
@@ -91,6 +306,91 @@
         "name": "Cunning Stunts: Special Vehicle Circuit",
         "releaseDate": "2016-11-08"
       },
+      "details": {
+        "manufacturer": "Hijak",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "217_ruston_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.982,
+            "y": -1.943,
+            "z": -0.353
+          },
+          "max": {
+            "x": 0.977,
+            "y": 1.908,
+            "z": 0.862
+          },
+          "length": 3.851,
+          "width": 1.959,
+          "height": 1.214,
+          "boundingRadius": 2.156
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 5,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 88,
+            "secondary": 5,
+            "pearl": 89,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 73,
+            "secondary": 5,
+            "pearl": 68,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 3,
+            "secondary": 5,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 27,
+            "secondary": 5,
+            "pearl": 29,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_EXTRAS_CONVERTIBLE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS"
+        ]
+      },
       "stats": {
         "handlingId": "RUSTON",
         "mass": 800,
@@ -121,6 +421,114 @@
         "id": "mpspecialraces",
         "name": "Cunning Stunts: Special Vehicle Circuit",
         "releaseDate": "2016-11-08"
+      },
+      "details": {
+        "manufacturer": "Progen",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "223_gp1_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.69,
+            "y": -2.234,
+            "z": -0.685
+          },
+          "max": {
+            "x": 1.69,
+            "y": 2.177,
+            "z": 0.956
+          },
+          "length": 4.411,
+          "width": 3.38,
+          "height": 1.641,
+          "boundingRadius": 2.369
+        },
+        "defaultColors": [
+          {
+            "primary": 36,
+            "secondary": 36,
+            "pearl": 88,
+            "wheels": 38,
+            "interior": 6,
+            "dashboard": 0
+          },
+          {
+            "primary": 2,
+            "secondary": 36,
+            "pearl": 111,
+            "wheels": 38,
+            "interior": 41,
+            "dashboard": 0
+          },
+          {
+            "primary": 29,
+            "secondary": 111,
+            "pearl": 6,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 50,
+            "secondary": 92,
+            "pearl": 92,
+            "wheels": 92,
+            "interior": 92,
+            "dashboard": 0
+          },
+          {
+            "primary": 89,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 89,
+            "interior": 7,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 140,
+            "pearl": 111,
+            "wheels": 140,
+            "interior": 140,
+            "dashboard": 0
+          },
+          {
+            "primary": 61,
+            "secondary": 111,
+            "pearl": 70,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 37,
+            "pearl": 37,
+            "wheels": 37,
+            "interior": 37,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_HAS_GULL_WING_DOORS"
+        ]
       },
       "stats": {
         "handlingId": "GP1",

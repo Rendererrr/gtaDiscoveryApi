@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "name": "Motorcycles",
@@ -26,6 +26,129 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "Dinka",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "4_akuma_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.353,
+            "y": -0.976,
+            "z": -0.54
+          },
+          "max": {
+            "x": 0.371,
+            "y": 1.056,
+            "z": 1.153
+          },
+          "length": 2.032,
+          "width": 0.724,
+          "height": 1.693,
+          "boundingRadius": 1.054
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 38,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 2,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 88,
+            "secondary": 88,
+            "pearl": 88,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 6,
+            "secondary": 6,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 5,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 27,
+            "secondary": 27,
+            "pearl": 38,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 33,
+            "secondary": 38,
+            "pearl": 31,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 37,
+            "secondary": 37,
+            "pearl": 88,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 50,
+            "secondary": 53,
+            "pearl": 52,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 62,
+            "secondary": 63,
+            "pearl": 63,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
       },
       "stats": {
         "handlingId": "AKUMA",
@@ -58,6 +181,97 @@
         "name": "Bikers",
         "releaseDate": "2016-10-04"
       },
+      "details": {
+        "manufacturer": "LCC",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "182_avarus_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.46,
+            "y": -1.121,
+            "z": -0.498
+          },
+          "max": {
+            "x": 0.46,
+            "y": 1.332,
+            "z": 1.051
+          },
+          "length": 2.453,
+          "width": 0.92,
+          "height": 1.549,
+          "boundingRadius": 1.272
+        },
+        "defaultColors": [
+          {
+            "primary": 1,
+            "secondary": 30,
+            "pearl": 2,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 145,
+            "secondary": 142,
+            "pearl": 2,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 73,
+            "secondary": 64,
+            "pearl": 2,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 5,
+            "secondary": 88,
+            "pearl": 60,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 50,
+            "secondary": 12,
+            "pearl": 55,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 70,
+            "secondary": 18,
+            "pearl": 68,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
+      },
       "stats": {
         "handlingId": "AVARUS",
         "mass": 230,
@@ -88,6 +302,124 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "Western",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "58_bagger_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.432,
+            "y": -1.187,
+            "z": -0.5
+          },
+          "max": {
+            "x": 0.459,
+            "y": 1.154,
+            "z": 1.186
+          },
+          "length": 2.341,
+          "width": 0.891,
+          "height": 1.686,
+          "boundingRadius": 1.287
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 33,
+            "secondary": 0,
+            "pearl": 33,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 37,
+            "secondary": 0,
+            "pearl": 106,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 65,
+            "secondary": 1,
+            "pearl": 65,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 8,
+            "secondary": 2,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 4,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 6,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 9,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_BIKE_CLAMP_PICKUP_LEAN_RATE"
+        ]
       },
       "stats": {
         "handlingId": "BAGGER",
@@ -120,6 +452,97 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": "Pegassi",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "0_bike_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.387,
+            "y": -1.061,
+            "z": -0.37
+          },
+          "max": {
+            "x": 0.387,
+            "y": 1.019,
+            "z": 1.197
+          },
+          "length": 2.08,
+          "width": 0.774,
+          "height": 1.567,
+          "boundingRadius": 1.147
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 27,
+            "secondary": 27,
+            "pearl": 0,
+            "wheels": 27,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 4,
+            "secondary": 4,
+            "pearl": 111,
+            "wheels": 27,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 38,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 27,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 64,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 41,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
+      },
       "stats": {
         "handlingId": "BATI",
         "mass": 230,
@@ -150,6 +573,83 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "Pegassi",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "77_bati2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.387,
+            "y": -1.061,
+            "z": -0.37
+          },
+          "max": {
+            "x": 0.387,
+            "y": 1.019,
+            "z": 1.197
+          },
+          "length": 2.08,
+          "width": 0.774,
+          "height": 1.567,
+          "boundingRadius": 1.14
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_HAS_LIVERY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
       },
       "stats": {
         "handlingId": "BATI",
@@ -182,6 +682,114 @@
         "name": "Cunning Stunts",
         "releaseDate": "2016-07-12"
       },
+      "details": {
+        "manufacturer": "Nagasaki",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "174_bf400_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.451,
+            "y": -1.091,
+            "z": -0.493
+          },
+          "max": {
+            "x": 0.451,
+            "y": 1.173,
+            "z": 0.979
+          },
+          "length": 2.264,
+          "width": 0.903,
+          "height": 1.472,
+          "boundingRadius": 1.292
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 55,
+            "pearl": 5,
+            "wheels": 112,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 0,
+            "secondary": 4,
+            "pearl": 5,
+            "wheels": 112,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 1,
+            "secondary": 38,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 0,
+            "secondary": 27,
+            "pearl": 38,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 27,
+            "secondary": 112,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 64,
+            "secondary": 3,
+            "pearl": 70,
+            "wheels": 112,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 3,
+            "secondary": 3,
+            "pearl": 3,
+            "wheels": 112,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 88,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 112,
+            "interior": 111,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
+      },
       "stats": {
         "handlingId": "BF400",
         "mass": 150,
@@ -212,6 +820,58 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "Nagasaki",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "0_bike_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.372,
+            "y": -0.978,
+            "z": -0.542
+          },
+          "max": {
+            "x": 0.38,
+            "y": 1.083,
+            "z": 1.383
+          },
+          "length": 2.061,
+          "width": 0.751,
+          "height": 1.925,
+          "boundingRadius": 1.07
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 132,
+            "pearl": 132,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_NO_RESPRAY",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
       },
       "stats": {
         "handlingId": "CARBON",
@@ -244,6 +904,100 @@
         "name": "Bikers",
         "releaseDate": "2016-10-04"
       },
+      "details": {
+        "manufacturer": "Nagasaki",
+        "type": "QUADBIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 3,
+        "modKits": [
+          "188_chimera_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.622,
+            "y": -1.259,
+            "z": -0.382
+          },
+          "max": {
+            "x": 0.622,
+            "y": 1.28,
+            "z": 1.105
+          },
+          "length": 2.539,
+          "width": 1.245,
+          "height": 1.487,
+          "boundingRadius": 1.327
+        },
+        "defaultColors": [
+          {
+            "primary": 29,
+            "secondary": 158,
+            "pearl": 160,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 50,
+            "secondary": 120,
+            "pearl": 55,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 62,
+            "secondary": 120,
+            "pearl": 70,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 34,
+            "secondary": 120,
+            "pearl": 38,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 112,
+            "secondary": 0,
+            "pearl": 66,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 112,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_IS_QUADBIKE_USING_BIKE_ANIMATIONS"
+        ]
+      },
       "stats": {
         "handlingId": "CHIMERA",
         "mass": 401,
@@ -274,6 +1028,114 @@
         "id": "mpstunt",
         "name": "Cunning Stunts",
         "releaseDate": "2016-07-12"
+      },
+      "details": {
+        "manufacturer": "Western",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "175_cliffhanger_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.432,
+            "y": -1.187,
+            "z": -0.5
+          },
+          "max": {
+            "x": 0.432,
+            "y": 1.154,
+            "z": 1.186
+          },
+          "length": 2.341,
+          "width": 0.863,
+          "height": 1.686,
+          "boundingRadius": 1.176
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 92,
+            "pearl": 5,
+            "wheels": 112,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 0,
+            "secondary": 5,
+            "pearl": 5,
+            "wheels": 112,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 1,
+            "secondary": 38,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 27,
+            "secondary": 5,
+            "pearl": 38,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 27,
+            "secondary": 112,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 64,
+            "secondary": 112,
+            "pearl": 70,
+            "wheels": 112,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 50,
+            "secondary": 120,
+            "pearl": 55,
+            "wheels": 112,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 88,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 112,
+            "interior": 111,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
       },
       "stats": {
         "handlingId": "CLIFFHANG",
@@ -306,6 +1168,89 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": "Western",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "12_daemon_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.426,
+            "y": -1.066,
+            "z": -0.495
+          },
+          "max": {
+            "x": 0.426,
+            "y": 1.154,
+            "z": 1.17
+          },
+          "length": 2.221,
+          "width": 0.852,
+          "height": 1.665,
+          "boundingRadius": 1.214
+        },
+        "defaultColors": [
+          {
+            "primary": 3,
+            "secondary": 3,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 28,
+            "secondary": 28,
+            "pearl": 32,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 38,
+            "secondary": 38,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 92,
+            "secondary": 92,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
+      },
       "stats": {
         "handlingId": "DAEMON",
         "mass": 250,
@@ -336,6 +1281,97 @@
         "id": "mpbiker",
         "name": "Bikers",
         "releaseDate": "2016-10-04"
+      },
+      "details": {
+        "manufacturer": "Western",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "186_daemon2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.425,
+            "y": -1.066,
+            "z": -0.496
+          },
+          "max": {
+            "x": 0.425,
+            "y": 1.154,
+            "z": 1.166
+          },
+          "length": 2.221,
+          "width": 0.851,
+          "height": 1.662,
+          "boundingRadius": 1.218
+        },
+        "defaultColors": [
+          {
+            "primary": 30,
+            "secondary": 118,
+            "pearl": 0,
+            "wheels": 35,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 49,
+            "secondary": 120,
+            "pearl": 55,
+            "wheels": 112,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 20,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 37,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 37,
+            "secondary": 66,
+            "pearl": 160,
+            "wheels": 0,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 0,
+            "secondary": 120,
+            "pearl": 66,
+            "wheels": 154,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 36,
+            "secondary": 120,
+            "pearl": 37,
+            "wheels": 36,
+            "interior": 111,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
       },
       "stats": {
         "handlingId": "DAEMON2",
@@ -368,6 +1404,122 @@
         "name": "Arena War",
         "releaseDate": "2018-12-11"
       },
+      "details": {
+        "manufacturer": "Western",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "331_deathbike_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_DEATHBIKE_DUALMINIGUN"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.672,
+            "y": -1.086,
+            "z": -0.501
+          },
+          "max": {
+            "x": 0.672,
+            "y": 1.213,
+            "z": 1.186
+          },
+          "length": 2.299,
+          "width": 1.343,
+          "height": 1.687,
+          "boundingRadius": 1.115
+        },
+        "defaultColors": [
+          {
+            "primary": 6,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 0,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 7,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 32,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 8,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 50,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 64,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 89,
+            "secondary": 120,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_BIKE_CLAMP_PICKUP_LEAN_RATE",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_HAS_NITROUS_MOD",
+          "FLAG_HAS_WEAPON_BLADE_MODS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING"
+        ]
+      },
       "stats": {
         "handlingId": "DEATHBIKE",
         "mass": 135,
@@ -398,6 +1550,74 @@
         "id": "mpchristmas2018",
         "name": "Arena War",
         "releaseDate": "2018-12-11"
+      },
+      "details": {
+        "manufacturer": "Western",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "345_deathbike2_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_DEATHBIKE2_MINIGUN_LASER"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.672,
+            "y": -1.086,
+            "z": -0.501
+          },
+          "max": {
+            "x": 0.672,
+            "y": 1.213,
+            "z": 1.335
+          },
+          "length": 2.299,
+          "width": 1.343,
+          "height": 1.836,
+          "boundingRadius": 1.314
+        },
+        "defaultColors": [
+          {
+            "primary": 107,
+            "secondary": 159,
+            "pearl": 160,
+            "wheels": 158,
+            "interior": 160,
+            "dashboard": 140
+          },
+          {
+            "primary": 34,
+            "secondary": 159,
+            "pearl": 160,
+            "wheels": 158,
+            "interior": 160,
+            "dashboard": 140
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_BIKE_CLAMP_PICKUP_LEAN_RATE",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_HAS_NITROUS_MOD",
+          "FLAG_HAS_WEAPON_BLADE_MODS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING"
+        ]
       },
       "stats": {
         "handlingId": "DEATHBIKE2",
@@ -430,6 +1650,66 @@
         "name": "Arena War",
         "releaseDate": "2018-12-11"
       },
+      "details": {
+        "manufacturer": "Western",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "344_deathbike3_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_DEATHBIKE_DUALMINIGUN"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.672,
+            "y": -1.086,
+            "z": -0.501
+          },
+          "max": {
+            "x": 0.672,
+            "y": 1.213,
+            "z": 1.186
+          },
+          "length": 2.299,
+          "width": 1.343,
+          "height": 1.687,
+          "boundingRadius": 1.115
+        },
+        "defaultColors": [
+          {
+            "primary": 135,
+            "secondary": 139,
+            "pearl": 20,
+            "wheels": 138,
+            "interior": 2,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_BIKE_CLAMP_PICKUP_LEAN_RATE",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_HAS_NITROUS_MOD",
+          "FLAG_HAS_WEAPON_BLADE_MODS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING"
+        ]
+      },
       "stats": {
         "handlingId": "DEATHBIKE",
         "mass": 135,
@@ -460,6 +1740,98 @@
         "id": "mpbiker",
         "name": "Bikers",
         "releaseDate": "2016-10-04"
+      },
+      "details": {
+        "manufacturer": "Shitzu",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "183_defiler_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.391,
+            "y": -1.061,
+            "z": -0.534
+          },
+          "max": {
+            "x": 0.358,
+            "y": 1.072,
+            "z": 0.873
+          },
+          "length": 2.133,
+          "width": 0.75,
+          "height": 1.407,
+          "boundingRadius": 1.082
+        },
+        "defaultColors": [
+          {
+            "primary": 131,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 4,
+            "secondary": 31,
+            "pearl": 24,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 55,
+            "pearl": 50,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 29,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 36,
+            "secondary": 0,
+            "pearl": 37,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 63,
+            "secondary": 5,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
       },
       "stats": {
         "handlingId": "DEFILER",
@@ -492,6 +1864,112 @@
         "name": "Import/Export",
         "releaseDate": "2016-12-13"
       },
+      "details": {
+        "manufacturer": "Principe",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.508,
+            "y": -1.222,
+            "z": -0.379
+          },
+          "max": {
+            "x": 0.508,
+            "y": 1.048,
+            "z": 1.353
+          },
+          "length": 2.271,
+          "width": 1.015,
+          "height": 1.732,
+          "boundingRadius": 1.314
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 7,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 32,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 50,
+            "secondary": 0,
+            "pearl": 133,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 112,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 89,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 94,
+            "secondary": 0,
+            "pearl": 112,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 118,
+            "secondary": 0,
+            "pearl": 112,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
+      },
       "stats": {
         "handlingId": "DIABLOUS",
         "mass": 220,
@@ -522,6 +2000,89 @@
         "id": "mpimportexport",
         "name": "Import/Export",
         "releaseDate": "2016-12-13"
+      },
+      "details": {
+        "manufacturer": "Principe",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "209_diablous2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.493,
+            "y": -1.002,
+            "z": -0.363
+          },
+          "max": {
+            "x": 0.495,
+            "y": 1.229,
+            "z": 1.046
+          },
+          "length": 2.231,
+          "width": 0.988,
+          "height": 1.409,
+          "boundingRadius": 1.178
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 89,
+            "pearl": 3,
+            "wheels": 89,
+            "interior": 156,
+            "dashboard": 89
+          },
+          {
+            "primary": 0,
+            "secondary": 27,
+            "pearl": 3,
+            "wheels": 27,
+            "interior": 156,
+            "dashboard": 111
+          },
+          {
+            "primary": 0,
+            "secondary": 112,
+            "pearl": 3,
+            "wheels": 112,
+            "interior": 156,
+            "dashboard": 111
+          },
+          {
+            "primary": 0,
+            "secondary": 92,
+            "pearl": 92,
+            "wheels": 92,
+            "interior": 156,
+            "dashboard": 92
+          },
+          {
+            "primary": 94,
+            "secondary": 94,
+            "pearl": 18,
+            "wheels": 94,
+            "interior": 156,
+            "dashboard": 94
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
       },
       "stats": {
         "handlingId": "DIABLOUS2",
@@ -554,6 +2115,106 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": "Dinka",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "0_default_modkit",
+          "14_double_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.356,
+            "y": -1.075,
+            "z": -0.532
+          },
+          "max": {
+            "x": 0.356,
+            "y": 1.048,
+            "z": 1.277
+          },
+          "length": 2.123,
+          "width": 0.712,
+          "height": 1.809,
+          "boundingRadius": 1.104
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 27,
+            "secondary": 27,
+            "pearl": 27,
+            "wheels": 27,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 6,
+            "secondary": 1,
+            "pearl": 111,
+            "wheels": 27,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 131,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 27,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 4,
+            "secondary": 7,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 38,
+            "secondary": 88,
+            "pearl": 102,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 13,
+            "secondary": 13,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
+      },
       "stats": {
         "handlingId": "DOUBLE",
         "mass": 200,
@@ -584,6 +2245,123 @@
         "id": "mpheist",
         "name": "The Heists Update",
         "releaseDate": "2015-03-10"
+      },
+      "details": {
+        "manufacturer": "Dinka",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "109_enduro_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.413,
+            "y": -1.077,
+            "z": -0.493
+          },
+          "max": {
+            "x": 0.413,
+            "y": 1.14,
+            "z": 0.841
+          },
+          "length": 2.217,
+          "width": 0.827,
+          "height": 1.334,
+          "boundingRadius": 1.196
+        },
+        "defaultColors": [
+          {
+            "primary": 6,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 4,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 11,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 28,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 33,
+            "secondary": 127,
+            "pearl": 90,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 62,
+            "secondary": 1,
+            "pearl": 62,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 38,
+            "secondary": 35,
+            "pearl": 88,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 92,
+            "secondary": 0,
+            "pearl": 89,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 1,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_HAS_LIVERY",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
       },
       "stats": {
         "handlingId": "ENDURO",
@@ -616,6 +2394,105 @@
         "name": "Bikers",
         "releaseDate": "2016-10-04"
       },
+      "details": {
+        "manufacturer": "Pegassi",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "195_esskey_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.483,
+            "y": -0.918,
+            "z": -0.536
+          },
+          "max": {
+            "x": 0.483,
+            "y": 1.197,
+            "z": 0.863
+          },
+          "length": 2.114,
+          "width": 0.967,
+          "height": 1.399,
+          "boundingRadius": 1.219
+        },
+        "defaultColors": [
+          {
+            "primary": 12,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 131,
+            "interior": 131,
+            "dashboard": 131
+          },
+          {
+            "primary": 12,
+            "secondary": 38,
+            "pearl": 2,
+            "wheels": 131,
+            "interior": 131,
+            "dashboard": 131
+          },
+          {
+            "primary": 29,
+            "secondary": 112,
+            "pearl": 158,
+            "wheels": 131,
+            "interior": 131,
+            "dashboard": 131
+          },
+          {
+            "primary": 0,
+            "secondary": 55,
+            "pearl": 118,
+            "wheels": 131,
+            "interior": 131,
+            "dashboard": 131
+          },
+          {
+            "primary": 18,
+            "secondary": 120,
+            "pearl": 158,
+            "wheels": 131,
+            "interior": 131,
+            "dashboard": 131
+          },
+          {
+            "primary": 77,
+            "secondary": 120,
+            "pearl": 158,
+            "wheels": 131,
+            "interior": 131,
+            "dashboard": 131
+          },
+          {
+            "primary": 100,
+            "secondary": 115,
+            "pearl": 158,
+            "wheels": 131,
+            "interior": 131,
+            "dashboard": 131
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
+      },
       "stats": {
         "handlingId": "ESSKEY",
         "mass": 190,
@@ -646,6 +2523,98 @@
         "id": "mpbiker",
         "name": "Bikers",
         "releaseDate": "2016-10-04"
+      },
+      "details": {
+        "manufacturer": "Pegassi",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "0_bike_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.353,
+            "y": -1.1,
+            "z": -0.5
+          },
+          "max": {
+            "x": 0.353,
+            "y": 0.901,
+            "z": 0.935
+          },
+          "length": 2.001,
+          "width": 0.706,
+          "height": 1.435,
+          "boundingRadius": 1.119
+        },
+        "defaultColors": [
+          {
+            "primary": 29,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 1,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 36,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 1,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 42,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 1,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 51,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 1,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 62,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 1,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 73,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 1,
+            "interior": 111,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_RICH_CAR",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
       },
       "stats": {
         "handlingId": "FAGGION",
@@ -678,6 +2647,170 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": "Pegassi",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "0_bike_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.394,
+            "y": -0.935,
+            "z": -0.503
+          },
+          "max": {
+            "x": 0.394,
+            "y": 0.931,
+            "z": 1.11
+          },
+          "length": 1.866,
+          "width": 0.788,
+          "height": 1.613,
+          "boundingRadius": 1.138
+        },
+        "defaultColors": [
+          {
+            "primary": 1,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 7,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 4,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 1,
+            "pearl": 112,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 8,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 30,
+            "secondary": 2,
+            "pearl": 36,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 31,
+            "secondary": 31,
+            "pearl": 31,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 34,
+            "secondary": 38,
+            "pearl": 30,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 53,
+            "secondary": 5,
+            "pearl": 53,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 50,
+            "secondary": 30,
+            "pearl": 56,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 65,
+            "secondary": 16,
+            "pearl": 60,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 67,
+            "secondary": 101,
+            "pearl": 67,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 72,
+            "secondary": 111,
+            "pearl": 78,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 99,
+            "secondary": 101,
+            "pearl": 99,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_RICH_CAR",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
+      },
       "stats": {
         "handlingId": "FAGGIO",
         "mass": 100,
@@ -708,6 +2841,58 @@
         "id": "mpbiker",
         "name": "Bikers",
         "releaseDate": "2016-10-04"
+      },
+      "details": {
+        "manufacturer": "Pegassi",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "197_faggio3_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.394,
+            "y": -0.935,
+            "z": -0.503
+          },
+          "max": {
+            "x": 0.394,
+            "y": 0.931,
+            "z": 1.11
+          },
+          "length": 1.866,
+          "width": 0.788,
+          "height": 1.613,
+          "boundingRadius": 1.145
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 120,
+            "pearl": 2,
+            "wheels": 1,
+            "interior": 111,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_RICH_CAR",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
       },
       "stats": {
         "handlingId": "FAGGIO3",
@@ -740,6 +2925,98 @@
         "name": "Import/Export",
         "releaseDate": "2016-12-13"
       },
+      "details": {
+        "manufacturer": "Pegassi",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "202_fcr_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.379,
+            "y": -1.174,
+            "z": -0.438
+          },
+          "max": {
+            "x": 0.359,
+            "y": 1.037,
+            "z": 0.944
+          },
+          "length": 2.212,
+          "width": 0.738,
+          "height": 1.382,
+          "boundingRadius": 1.168
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 32,
+            "secondary": 4,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 122,
+            "secondary": 38,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 92,
+            "pearl": 92,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 64,
+            "secondary": 118,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 94,
+            "secondary": 0,
+            "pearl": 110,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
+      },
       "stats": {
         "handlingId": "FCR",
         "mass": 210,
@@ -770,6 +3047,100 @@
         "id": "mpimportexport",
         "name": "Import/Export",
         "releaseDate": "2016-12-13"
+      },
+      "details": {
+        "manufacturer": "Pegassi",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "204_fcr2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.359,
+            "y": -1.116,
+            "z": -0.437
+          },
+          "max": {
+            "x": 0.359,
+            "y": 1.072,
+            "z": 0.939
+          },
+          "length": 2.188,
+          "width": 0.719,
+          "height": 1.376,
+          "boundingRadius": 1.06
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 32,
+            "secondary": 4,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 122,
+            "secondary": 38,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 92,
+            "pearl": 92,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 64,
+            "secondary": 118,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 94,
+            "secondary": 0,
+            "pearl": 110,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_EXTRAS_SCRIPT",
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
       },
       "stats": {
         "handlingId": "FCR2",
@@ -802,6 +3173,108 @@
         "name": "Cunning Stunts",
         "releaseDate": "2016-07-12"
       },
+      "details": {
+        "manufacturer": "Western",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "173_gargoyle_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.486,
+            "y": -1.187,
+            "z": -0.509
+          },
+          "max": {
+            "x": 0.486,
+            "y": 1.213,
+            "z": 1.206
+          },
+          "length": 2.4,
+          "width": 0.973,
+          "height": 1.715,
+          "boundingRadius": 1.15
+        },
+        "defaultColors": [
+          {
+            "primary": 1,
+            "secondary": 5,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 34,
+            "secondary": 9,
+            "pearl": 38,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 50,
+            "secondary": 49,
+            "pearl": 92,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 30,
+            "secondary": 34,
+            "pearl": 138,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 62,
+            "pearl": 64,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 108,
+            "secondary": 106,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 59,
+            "secondary": 52,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_BIKE_CLAMP_PICKUP_LEAN_RATE"
+        ]
+      },
       "stats": {
         "handlingId": "GARGOYLE",
         "mass": 135,
@@ -832,6 +3305,104 @@
         "id": "mplts",
         "name": "Last Team Standing Update",
         "releaseDate": "2014-10-08"
+      },
+      "details": {
+        "manufacturer": "Shitzu",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "0_bike_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.41,
+            "y": -1.134,
+            "z": -0.537
+          },
+          "max": {
+            "x": 0.41,
+            "y": 1.084,
+            "z": 0.863
+          },
+          "length": 2.219,
+          "width": 0.819,
+          "height": 1.4,
+          "boundingRadius": 1.261
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 27,
+            "secondary": 27,
+            "pearl": 27,
+            "wheels": 27,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 6,
+            "secondary": 1,
+            "pearl": 111,
+            "wheels": 27,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 131,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 27,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 4,
+            "secondary": 7,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 38,
+            "secondary": 88,
+            "pearl": 102,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 13,
+            "secondary": 13,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
       },
       "stats": {
         "handlingId": "HAKUCHOU",
@@ -864,6 +3435,64 @@
         "name": "Bikers",
         "releaseDate": "2016-10-04"
       },
+      "details": {
+        "manufacturer": "Shitzu",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "191_hakuchou2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.388,
+            "y": -1.474,
+            "z": -0.545
+          },
+          "max": {
+            "x": 0.388,
+            "y": 1.084,
+            "z": 0.863
+          },
+          "length": 2.558,
+          "width": 0.777,
+          "height": 1.408,
+          "boundingRadius": 1.309
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 112,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
+      },
       "stats": {
         "handlingId": "HAKUCHOU2",
         "mass": 270,
@@ -894,6 +3523,121 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "LCC",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "0_bike_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.438,
+            "y": -1.114,
+            "z": -0.495
+          },
+          "max": {
+            "x": 0.438,
+            "y": 1.442,
+            "z": 1.157
+          },
+          "length": 2.556,
+          "width": 0.877,
+          "height": 1.652,
+          "boundingRadius": 1.307
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 29,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 58,
+            "pearl": 7,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 1,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 61,
+            "secondary": 111,
+            "pearl": 11,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 88,
+            "secondary": 111,
+            "pearl": 88,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 89,
+            "secondary": 90,
+            "pearl": 89,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 32,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 7,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
       },
       "stats": {
         "handlingId": "HEXER",
@@ -926,6 +3670,105 @@
         "name": "Last Team Standing Update",
         "releaseDate": "2014-10-08"
       },
+      "details": {
+        "manufacturer": "LCC",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "0_bike_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.434,
+            "y": -1.076,
+            "z": -0.444
+          },
+          "max": {
+            "x": 0.434,
+            "y": 1.251,
+            "z": 1.178
+          },
+          "length": 2.327,
+          "width": 0.868,
+          "height": 1.621,
+          "boundingRadius": 1.254
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 27,
+            "secondary": 27,
+            "pearl": 27,
+            "wheels": 27,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 6,
+            "secondary": 1,
+            "pearl": 111,
+            "wheels": 27,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 131,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 27,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 4,
+            "secondary": 7,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 38,
+            "secondary": 88,
+            "pearl": 102,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 13,
+            "secondary": 13,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
+      },
       "stats": {
         "handlingId": "INNOVAT",
         "mass": 250,
@@ -956,6 +3799,89 @@
         "id": "mpheist",
         "name": "The Heists Update",
         "releaseDate": "2015-03-10"
+      },
+      "details": {
+        "manufacturer": "Principe",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "0_bike_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": true
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.362,
+            "y": -1.033,
+            "z": -0.578
+          },
+          "max": {
+            "x": 0.362,
+            "y": 1.062,
+            "z": 1.397
+          },
+          "length": 2.094,
+          "width": 0.724,
+          "height": 1.975,
+          "boundingRadius": 1.061
+        },
+        "defaultColors": [
+          {
+            "primary": 28,
+            "secondary": 93,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 3,
+            "secondary": 93,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 3,
+            "secondary": 31,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 28,
+            "secondary": 28,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 88,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
       },
       "stats": {
         "handlingId": "LECTRO",
@@ -988,6 +3914,105 @@
         "name": "Bikers",
         "releaseDate": "2016-10-04"
       },
+      "details": {
+        "manufacturer": "Maibatsu",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "193_manchez_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.441,
+            "y": -1.061,
+            "z": -0.493
+          },
+          "max": {
+            "x": 0.443,
+            "y": 1.139,
+            "z": 0.946
+          },
+          "length": 2.199,
+          "width": 0.884,
+          "height": 1.439,
+          "boundingRadius": 1.137
+        },
+        "defaultColors": [
+          {
+            "primary": 5,
+            "secondary": 2,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 33,
+            "secondary": 5,
+            "pearl": 39,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 33,
+            "secondary": 5,
+            "pearl": 38,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 55,
+            "pearl": 53,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 64,
+            "secondary": 131,
+            "pearl": 70,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 42,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 59,
+            "secondary": 106,
+            "pearl": 108,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
+      },
       "stats": {
         "handlingId": "MANCHEZ",
         "mass": 190,
@@ -1018,6 +4043,57 @@
         "id": "mpheist4",
         "name": "The Cayo Perico Heist",
         "releaseDate": "2020-12-15"
+      },
+      "details": {
+        "manufacturer": "Maibatsu",
+        "type": "BIKE",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "438_manchez2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.466,
+            "y": -0.97,
+            "z": -0.5
+          },
+          "max": {
+            "x": 0.466,
+            "y": 1.083,
+            "z": 1.092
+          },
+          "length": 2.053,
+          "width": 0.931,
+          "height": 1.592,
+          "boundingRadius": 1.263
+        },
+        "defaultColors": [
+          {
+            "primary": 151,
+            "secondary": 129,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
       },
       "stats": {
         "handlingId": "MANCHEZ2",
@@ -1050,6 +4126,121 @@
         "name": "Los Santos Drug Wars",
         "releaseDate": "2022-12-13"
       },
+      "details": {
+        "manufacturer": "Maibatsu",
+        "type": "BIKE",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "515_manchez3_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.466,
+            "y": -0.97,
+            "z": -0.5
+          },
+          "max": {
+            "x": 0.466,
+            "y": 1.083,
+            "z": 1.092
+          },
+          "length": 2.053,
+          "width": 0.931,
+          "height": 1.592,
+          "boundingRadius": 1.263
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 30,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 8,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 4,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 8,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 52,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 69,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 68,
+            "pearl": 68,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 29,
+            "secondary": 31,
+            "pearl": 28,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 74,
+            "secondary": 67,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
+      },
       "stats": {
         "handlingId": "MANCHEZ3",
         "mass": 175,
@@ -1080,6 +4271,105 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "Principe",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "0_bike_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.362,
+            "y": -1,
+            "z": -0.574
+          },
+          "max": {
+            "x": 0.37,
+            "y": 1.062,
+            "z": 1.366
+          },
+          "length": 2.062,
+          "width": 0.732,
+          "height": 1.94,
+          "boundingRadius": 1.062
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 111,
+            "pearl": 28,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 27,
+            "pearl": 2,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 88,
+            "secondary": 23,
+            "pearl": 89,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 88,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 36,
+            "secondary": 0,
+            "pearl": 38,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 73,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
       },
       "stats": {
         "handlingId": "NEMESIS",
@@ -1112,6 +4402,97 @@
         "name": "Bikers",
         "releaseDate": "2016-10-04"
       },
+      "details": {
+        "manufacturer": "Western",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "185_nightblade_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.484,
+            "y": -1.174,
+            "z": -0.551
+          },
+          "max": {
+            "x": 0.48,
+            "y": 1.233,
+            "z": 1.142
+          },
+          "length": 2.407,
+          "width": 0.964,
+          "height": 1.693,
+          "boundingRadius": 1.268
+        },
+        "defaultColors": [
+          {
+            "primary": 12,
+            "secondary": 55,
+            "pearl": 4,
+            "wheels": 55,
+            "interior": 156,
+            "dashboard": 0
+          },
+          {
+            "primary": 131,
+            "secondary": 131,
+            "pearl": 4,
+            "wheels": 131,
+            "interior": 156,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 41,
+            "pearl": 4,
+            "wheels": 38,
+            "interior": 156,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 111,
+            "pearl": 4,
+            "wheels": 111,
+            "interior": 156,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 89,
+            "pearl": 4,
+            "wheels": 89,
+            "interior": 156,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 27,
+            "pearl": 4,
+            "wheels": 27,
+            "interior": 156,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
+      },
       "stats": {
         "handlingId": "NIGHTBLADE",
         "mass": 205,
@@ -1142,6 +4523,129 @@
         "id": "mpgunrunning",
         "name": "Gunrunning",
         "releaseDate": "2017-06-13"
+      },
+      "details": {
+        "manufacturer": "Pegassi",
+        "type": "BIKE",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "232_oppressor_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_OPPRESSOR_MG",
+          "VEHICLE_WEAPON_OPPRESSOR_MISSILE"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.632,
+            "y": -0.925,
+            "z": -0.503
+          },
+          "max": {
+            "x": 0.632,
+            "y": 1.098,
+            "z": 1.225
+          },
+          "length": 2.023,
+          "width": 1.265,
+          "height": 1.728,
+          "boundingRadius": 1.232
+        },
+        "defaultColors": [
+          {
+            "primary": 12,
+            "secondary": 12,
+            "pearl": 12,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 11,
+            "secondary": 0,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 88,
+            "secondary": 0,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 112,
+            "secondary": 112,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 95,
+            "secondary": 112,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 62,
+            "secondary": 0,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 49,
+            "secondary": 0,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 38,
+            "secondary": 88,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 135,
+            "secondary": 74,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_HAS_GLIDER",
+          "FLAG_HAS_ROCKET_BOOST",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_INCREASED_RAMMING_FORCE"
+        ]
       },
       "stats": {
         "handlingId": "OPPRESSOR",
@@ -1174,6 +4678,129 @@
         "name": "After Hours",
         "releaseDate": "2018-07-24"
       },
+      "details": {
+        "manufacturer": "Pegassi",
+        "type": "BIKE",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "309_oppressor2_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_OPPRESSOR2_MG",
+          "VEHICLE_WEAPON_OPPRESSOR2_CANNON",
+          "VEHICLE_WEAPON_OPPRESSOR2_MISSILE"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.69,
+            "y": -1.284,
+            "z": -0.498
+          },
+          "max": {
+            "x": 0.69,
+            "y": 1.044,
+            "z": 1.225
+          },
+          "length": 2.328,
+          "width": 1.379,
+          "height": 1.723,
+          "boundingRadius": 1.382
+        },
+        "defaultColors": [
+          {
+            "primary": 12,
+            "secondary": 12,
+            "pearl": 12,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 11,
+            "secondary": 0,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 88,
+            "secondary": 0,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 112,
+            "secondary": 112,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 95,
+            "secondary": 112,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 62,
+            "secondary": 0,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 49,
+            "secondary": 0,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 38,
+            "secondary": 88,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 135,
+            "secondary": 74,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_HAS_ROCKET_BOOST",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_USE_ROOT_AS_BASE_LOCKON_POS"
+        ]
+      },
       "stats": {
         "handlingId": "OPPRESSOR2",
         "mass": 220,
@@ -1204,6 +4831,138 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "Shitzu",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "42_pcj_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.372,
+            "y": -1.168,
+            "z": -0.533
+          },
+          "max": {
+            "x": 0.372,
+            "y": 1.072,
+            "z": 1.005
+          },
+          "length": 2.24,
+          "width": 0.743,
+          "height": 1.538,
+          "boundingRadius": 1.231
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 1,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 33,
+            "secondary": 127,
+            "pearl": 90,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 1,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 62,
+            "secondary": 1,
+            "pearl": 65,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 28,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 11,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 4,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 6,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 38,
+            "secondary": 35,
+            "pearl": 88,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 92,
+            "secondary": 0,
+            "pearl": 89,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 1,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
       },
       "stats": {
         "handlingId": "PCJ",
@@ -1236,6 +4995,83 @@
         "name": "Los Santos Drug Wars",
         "releaseDate": "2022-12-13"
       },
+      "details": {
+        "manufacturer": "Western",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "512_powersurge_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.368,
+            "y": -1.016,
+            "z": -0.532
+          },
+          "max": {
+            "x": 0.38,
+            "y": 1.063,
+            "z": 0.845
+          },
+          "length": 2.078,
+          "width": 0.748,
+          "height": 1.377,
+          "boundingRadius": 1.177
+        },
+        "defaultColors": [
+          {
+            "primary": 112,
+            "secondary": 1,
+            "pearl": 7,
+            "wheels": 112,
+            "interior": 70,
+            "dashboard": 156
+          },
+          {
+            "primary": 43,
+            "secondary": 43,
+            "pearl": 35,
+            "wheels": 156,
+            "interior": 154,
+            "dashboard": 156
+          },
+          {
+            "primary": 77,
+            "secondary": 1,
+            "pearl": 7,
+            "wheels": 156,
+            "interior": 154,
+            "dashboard": 156
+          },
+          {
+            "primary": 88,
+            "secondary": 1,
+            "pearl": 7,
+            "wheels": 156,
+            "interior": 154,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_IS_ELECTRIC"
+        ]
+      },
       "stats": {
         "handlingId": "POWERSURGE",
         "mass": 255,
@@ -1266,6 +5102,60 @@
         "id": "mpbiker",
         "name": "Bikers",
         "releaseDate": "2016-10-04"
+      },
+      "details": {
+        "manufacturer": "Western",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "187_ratbike_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.432,
+            "y": -1.066,
+            "z": -0.496
+          },
+          "max": {
+            "x": 0.432,
+            "y": 1.219,
+            "z": 1.169
+          },
+          "length": 2.285,
+          "width": 0.863,
+          "height": 1.665,
+          "boundingRadius": 1.228
+        },
+        "defaultColors": [
+          {
+            "primary": 131,
+            "secondary": 132,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 111,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_BIKE_CLAMP_PICKUP_LEAN_RATE"
+        ]
       },
       "stats": {
         "handlingId": "RATBIKE",
@@ -1298,6 +5188,90 @@
         "name": "The Contract",
         "releaseDate": "2021-12-15"
       },
+      "details": {
+        "manufacturer": "Western",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "491_reever_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.359,
+            "y": -1.073,
+            "z": -0.499
+          },
+          "max": {
+            "x": 0.359,
+            "y": 1.059,
+            "z": 0.914
+          },
+          "length": 2.131,
+          "width": 0.719,
+          "height": 1.413,
+          "boundingRadius": 1.095
+        },
+        "defaultColors": [
+          {
+            "primary": 131,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 40,
+            "interior": 2,
+            "dashboard": 0
+          },
+          {
+            "primary": 2,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 158,
+            "interior": 8,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 139,
+            "interior": 66,
+            "dashboard": 0
+          },
+          {
+            "primary": 29,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 1,
+            "interior": 14,
+            "dashboard": 0
+          },
+          {
+            "primary": 88,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 26,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
+      },
       "stats": {
         "handlingId": "REEVER",
         "mass": 205,
@@ -1328,6 +5302,60 @@
         "id": "mpvinewood",
         "name": "The Diamond Casino & Resort",
         "releaseDate": "2019-07-23"
+      },
+      "details": {
+        "manufacturer": "Western",
+        "type": "QUADBIKE",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 3,
+        "modKits": [
+          "382_rrocket_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.846,
+            "y": -1.78,
+            "z": -0.3
+          },
+          "max": {
+            "x": 0.846,
+            "y": 2.656,
+            "z": 1.339
+          },
+          "length": 4.437,
+          "width": 1.691,
+          "height": 1.639,
+          "boundingRadius": 2.162
+        },
+        "defaultColors": [
+          {
+            "primary": 113,
+            "secondary": 113,
+            "pearl": 111,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_IS_QUADBIKE_USING_BIKE_ANIMATIONS"
+        ]
       },
       "stats": {
         "handlingId": "RROCKET",
@@ -1360,6 +5388,105 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": "Pegassi",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "10_barbarian_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.362,
+            "y": -1.168,
+            "z": -0.541
+          },
+          "max": {
+            "x": 0.362,
+            "y": 1.08,
+            "z": 1.249
+          },
+          "length": 2.248,
+          "width": 0.724,
+          "height": 1.79,
+          "boundingRadius": 1.202
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 36,
+            "wheels": 111,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 6,
+            "secondary": 18,
+            "pearl": 111,
+            "wheels": 111,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 38,
+            "secondary": 0,
+            "pearl": 89,
+            "wheels": 38,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 66,
+            "secondary": 0,
+            "pearl": 67,
+            "wheels": 111,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 4,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 111,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
+      },
       "stats": {
         "handlingId": "RUFFIAN",
         "mass": 250,
@@ -1390,6 +5517,83 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "Maibatsu",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "78_sanchez_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.413,
+            "y": -1.077,
+            "z": -0.493
+          },
+          "max": {
+            "x": 0.413,
+            "y": 1.173,
+            "z": 0.979
+          },
+          "length": 2.25,
+          "width": 0.827,
+          "height": 1.472,
+          "boundingRadius": 1.275
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_HAS_LIVERY",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
       },
       "stats": {
         "handlingId": "sanchez",
@@ -1422,6 +5626,146 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": "Maibatsu",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "78_sanchez_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.413,
+            "y": -1.077,
+            "z": -0.493
+          },
+          "max": {
+            "x": 0.413,
+            "y": 1.173,
+            "z": 0.979
+          },
+          "length": 2.25,
+          "width": 0.827,
+          "height": 1.472,
+          "boundingRadius": 1.275
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 27,
+            "pearl": 27,
+            "wheels": 47,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 2,
+            "secondary": 2,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 34,
+            "secondary": 34,
+            "pearl": 34,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 36,
+            "secondary": 36,
+            "pearl": 36,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 38,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 88,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 51,
+            "secondary": 51,
+            "pearl": 51,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 53,
+            "secondary": 53,
+            "pearl": 53,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 63,
+            "secondary": 63,
+            "pearl": 63,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 70,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 92,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 133,
+            "secondary": 133,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
+      },
       "stats": {
         "handlingId": "sanchez",
         "mass": 220,
@@ -1452,6 +5796,81 @@
         "id": "mpbiker",
         "name": "Bikers",
         "releaseDate": "2016-10-04"
+      },
+      "details": {
+        "manufacturer": "LCC",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "194_sanctus_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.46,
+            "y": -1.121,
+            "z": -0.498
+          },
+          "max": {
+            "x": 0.46,
+            "y": 1.332,
+            "z": 1.051
+          },
+          "length": 2.453,
+          "width": 0.92,
+          "height": 1.549,
+          "boundingRadius": 1.292
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 120,
+            "pearl": 2,
+            "wheels": 1,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 141,
+            "secondary": 14,
+            "pearl": 73,
+            "wheels": 73,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 0,
+            "secondary": 26,
+            "pearl": 27,
+            "wheels": 33,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 28,
+            "secondary": 40,
+            "pearl": 38,
+            "wheels": 28,
+            "interior": 111,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
       },
       "stats": {
         "handlingId": "SANCTUS",
@@ -1484,6 +5903,90 @@
         "name": "The Contract",
         "releaseDate": "2021-12-15"
       },
+      "details": {
+        "manufacturer": "Nagasaki",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "492_shinobi_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.386,
+            "y": -1.006,
+            "z": -0.55
+          },
+          "max": {
+            "x": 0.386,
+            "y": 1.062,
+            "z": 0.858
+          },
+          "length": 2.068,
+          "width": 0.771,
+          "height": 1.408,
+          "boundingRadius": 1.182
+        },
+        "defaultColors": [
+          {
+            "primary": 131,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 40,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 2,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 158,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 139,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 29,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 1,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 88,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
+      },
       "stats": {
         "handlingId": "SHINOBI",
         "mass": 165,
@@ -1514,6 +6017,89 @@
         "id": "mpbiker",
         "name": "Bikers",
         "releaseDate": "2016-10-04"
+      },
+      "details": {
+        "manufacturer": "Nagasaki",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "199_shotaro_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.329,
+            "y": -1.219,
+            "z": -0.304
+          },
+          "max": {
+            "x": 0.329,
+            "y": 1.179,
+            "z": 0.991
+          },
+          "length": 2.399,
+          "width": 0.658,
+          "height": 1.294,
+          "boundingRadius": 1.337
+        },
+        "defaultColors": [
+          {
+            "primary": 28,
+            "secondary": 28,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 0,
+            "secondary": 140,
+            "pearl": 75,
+            "wheels": 12,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 0,
+            "secondary": 55,
+            "pearl": 55,
+            "wheels": 55,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 5,
+            "secondary": 38,
+            "pearl": 38,
+            "wheels": 36,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 5,
+            "secondary": 134,
+            "pearl": 5,
+            "wheels": 134,
+            "interior": 111,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
       },
       "stats": {
         "handlingId": "SHOTARO",
@@ -1546,6 +6132,59 @@
         "name": "Independence Day Special",
         "releaseDate": "2014-07-01"
       },
+      "details": {
+        "manufacturer": "Western",
+        "type": "BIKE",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "0_bike_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.433,
+            "y": -1.187,
+            "z": -0.5
+          },
+          "max": {
+            "x": 0.433,
+            "y": 1.152,
+            "z": 1.187
+          },
+          "length": 2.339,
+          "width": 0.866,
+          "height": 1.686,
+          "boundingRadius": 1.413
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_NO_RESPRAY",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_BIKE_CLAMP_PICKUP_LEAN_RATE"
+        ]
+      },
       "stats": {
         "handlingId": "POLICEB",
         "mass": 250,
@@ -1576,6 +6215,82 @@
         "id": "mpheist3",
         "name": "The Diamond Casino Heist",
         "releaseDate": "2019-12-12"
+      },
+      "details": {
+        "manufacturer": "Nagasaki",
+        "type": "QUADBIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 3,
+        "modKits": [
+          "408_Stryder_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.708,
+            "y": -1.013,
+            "z": -0.29
+          },
+          "max": {
+            "x": 0.708,
+            "y": 1.17,
+            "z": 1.521
+          },
+          "length": 2.184,
+          "width": 1.417,
+          "height": 1.811,
+          "boundingRadius": 1.327
+        },
+        "defaultColors": [
+          {
+            "primary": 10,
+            "secondary": 32,
+            "pearl": 4,
+            "wheels": 1,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 82,
+            "secondary": 12,
+            "pearl": 70,
+            "wheels": 1,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 125,
+            "pearl": 3,
+            "wheels": 1,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 27,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 1,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_PEDS_INSIDE_CAN_BE_SET_ON_FIRE_MP",
+          "FLAG_IS_QUADBIKE_USING_BIKE_ANIMATIONS"
+        ]
       },
       "stats": {
         "handlingId": "STRYDER",
@@ -1608,6 +6323,121 @@
         "name": "The High Life Update",
         "releaseDate": "2014-05-13"
       },
+      "details": {
+        "manufacturer": "Dinka",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "96_thrust_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.457,
+            "y": -1.335,
+            "z": -0.372
+          },
+          "max": {
+            "x": 0.457,
+            "y": 1.148,
+            "z": 1.395
+          },
+          "length": 2.483,
+          "width": 0.915,
+          "height": 1.766,
+          "boundingRadius": 1.349
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 156,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 149,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 131,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 107,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 88,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 82,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 72,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
+      },
       "stats": {
         "handlingId": "THRUST",
         "mass": 270,
@@ -1638,6 +6468,161 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "Shitzu",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "0_bike_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.377,
+            "y": -1.119,
+            "z": -0.533
+          },
+          "max": {
+            "x": 0.377,
+            "y": 1.072,
+            "z": 1.385
+          },
+          "length": 2.191,
+          "width": 0.753,
+          "height": 1.918,
+          "boundingRadius": 1.223
+        },
+        "defaultColors": [
+          {
+            "primary": 51,
+            "secondary": 55,
+            "pearl": 126,
+            "wheels": 55,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 88,
+            "pearl": 8,
+            "wheels": 88,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 55,
+            "pearl": 51,
+            "wheels": 55,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 1,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 33,
+            "secondary": 28,
+            "pearl": 27,
+            "wheels": 28,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 84,
+            "secondary": 88,
+            "pearl": 83,
+            "wheels": 88,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 88,
+            "secondary": 0,
+            "pearl": 89,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 41,
+            "secondary": 41,
+            "pearl": 88,
+            "wheels": 41,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 70,
+            "secondary": 70,
+            "pearl": 67,
+            "wheels": 70,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 73,
+            "pearl": 1,
+            "wheels": 73,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 4,
+            "secondary": 4,
+            "pearl": 111,
+            "wheels": 4,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 29,
+            "secondary": 1,
+            "pearl": 33,
+            "wheels": 1,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 6,
+            "secondary": 28,
+            "pearl": 5,
+            "wheels": 28,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
       },
       "stats": {
         "handlingId": "VADER",
@@ -1670,6 +6655,113 @@
         "name": "Ill-Gotten Gains Part 2",
         "releaseDate": "2015-07-08"
       },
+      "details": {
+        "manufacturer": "Dinka",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "162_vindicator_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": true
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.536,
+            "y": -1.227,
+            "z": -0.371
+          },
+          "max": {
+            "x": 0.536,
+            "y": 1.148,
+            "z": 1.383
+          },
+          "length": 2.375,
+          "width": 1.073,
+          "height": 1.754,
+          "boundingRadius": 1.284
+        },
+        "defaultColors": [
+          {
+            "primary": 131,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 2,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 50,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 89,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 82,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 72,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 34,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
+      },
       "stats": {
         "handlingId": "VINDICATOR",
         "mass": 280,
@@ -1700,6 +6792,90 @@
         "id": "mpbiker",
         "name": "Bikers",
         "releaseDate": "2016-10-04"
+      },
+      "details": {
+        "manufacturer": "Pegassi",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "190_vortex_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.359,
+            "y": -1.081,
+            "z": -0.55
+          },
+          "max": {
+            "x": 0.359,
+            "y": 1.062,
+            "z": 0.873
+          },
+          "length": 2.143,
+          "width": 0.719,
+          "height": 1.422,
+          "boundingRadius": 1.087
+        },
+        "defaultColors": [
+          {
+            "primary": 131,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 2,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 29,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 88,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
       },
       "stats": {
         "handlingId": "VORTEX",
@@ -1732,6 +6908,97 @@
         "name": "Bikers",
         "releaseDate": "2016-10-04"
       },
+      "details": {
+        "manufacturer": "Western",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "189_wolfsbane_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.432,
+            "y": -1.066,
+            "z": -0.496
+          },
+          "max": {
+            "x": 0.432,
+            "y": 1.219,
+            "z": 1.169
+          },
+          "length": 2.285,
+          "width": 0.863,
+          "height": 1.665,
+          "boundingRadius": 1.228
+        },
+        "defaultColors": [
+          {
+            "primary": 30,
+            "secondary": 118,
+            "pearl": 0,
+            "wheels": 35,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 49,
+            "secondary": 120,
+            "pearl": 55,
+            "wheels": 112,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 20,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 37,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 37,
+            "secondary": 66,
+            "pearl": 160,
+            "wheels": 0,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 0,
+            "secondary": 120,
+            "pearl": 66,
+            "wheels": 154,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 36,
+            "secondary": 120,
+            "pearl": 37,
+            "wheels": 36,
+            "interior": 111,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
+      },
       "stats": {
         "handlingId": "WOLFSBANE",
         "mass": 180,
@@ -1763,6 +7030,97 @@
         "name": "Bikers",
         "releaseDate": "2016-10-04"
       },
+      "details": {
+        "manufacturer": "Western",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "180_zombiea_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.448,
+            "y": -1.071,
+            "z": -0.5
+          },
+          "max": {
+            "x": 0.448,
+            "y": 1.186,
+            "z": 0.713
+          },
+          "length": 2.258,
+          "width": 0.896,
+          "height": 1.213,
+          "boundingRadius": 1.188
+        },
+        "defaultColors": [
+          {
+            "primary": 30,
+            "secondary": 118,
+            "pearl": 0,
+            "wheels": 35,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 49,
+            "secondary": 120,
+            "pearl": 55,
+            "wheels": 112,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 20,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 37,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 37,
+            "secondary": 66,
+            "pearl": 160,
+            "wheels": 0,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 0,
+            "secondary": 120,
+            "pearl": 66,
+            "wheels": 154,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 36,
+            "secondary": 120,
+            "pearl": 37,
+            "wheels": 36,
+            "interior": 111,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
+      },
       "stats": {
         "handlingId": "ZOMBIEA",
         "mass": 225,
@@ -1793,6 +7151,105 @@
         "id": "mpbiker",
         "name": "Bikers",
         "releaseDate": "2016-10-04"
+      },
+      "details": {
+        "manufacturer": "Western",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "181_zombieb_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.448,
+            "y": -1.122,
+            "z": -0.5
+          },
+          "max": {
+            "x": 0.448,
+            "y": 1.186,
+            "z": 1.089
+          },
+          "length": 2.309,
+          "width": 0.896,
+          "height": 1.589,
+          "boundingRadius": 1.262
+        },
+        "defaultColors": [
+          {
+            "primary": 12,
+            "secondary": 12,
+            "pearl": 0,
+            "wheels": 35,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 30,
+            "secondary": 118,
+            "pearl": 0,
+            "wheels": 35,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 49,
+            "secondary": 120,
+            "pearl": 55,
+            "wheels": 53,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 20,
+            "secondary": 22,
+            "pearl": 4,
+            "wheels": 25,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 37,
+            "secondary": 66,
+            "pearl": 160,
+            "wheels": 0,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 0,
+            "secondary": 120,
+            "pearl": 66,
+            "wheels": 154,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 36,
+            "secondary": 120,
+            "pearl": 37,
+            "wheels": 36,
+            "interior": 111,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
       },
       "stats": {
         "handlingId": "ZOMBIEB",

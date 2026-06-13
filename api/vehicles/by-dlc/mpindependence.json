@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "id": "mpindependence",
@@ -28,6 +28,59 @@
         "id": "mpindependence",
         "name": "Independence Day Special",
         "releaseDate": "2014-07-01"
+      },
+      "details": {
+        "manufacturer": "Western",
+        "type": "BIKE",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "0_bike_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.433,
+            "y": -1.187,
+            "z": -0.5
+          },
+          "max": {
+            "x": 0.433,
+            "y": 1.152,
+            "z": 1.187
+          },
+          "length": 2.339,
+          "width": 0.866,
+          "height": 1.686,
+          "boundingRadius": 1.413
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_NO_RESPRAY",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_BIKE_CLAMP_PICKUP_LEAN_RATE"
+        ]
       },
       "stats": {
         "handlingId": "POLICEB",
@@ -59,6 +112,74 @@
         "id": "mpindependence",
         "name": "Independence Day Special",
         "releaseDate": "2014-07-01"
+      },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "0_bike_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.95,
+            "y": -2.711,
+            "z": -1.142
+          },
+          "max": {
+            "x": 1.95,
+            "y": 2.783,
+            "z": 2.183
+          },
+          "length": 5.494,
+          "width": 3.9,
+          "height": 3.325,
+          "boundingRadius": 0.916
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 29,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 64,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_USE_RESTRICTED_DRIVEBY_HEIGHT"
+        ]
       },
       "stats": {
         "handlingId": "MONSTER",

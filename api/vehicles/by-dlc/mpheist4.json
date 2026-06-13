@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "id": "mpheist4",
@@ -28,6 +28,93 @@
         "id": "mpheist4",
         "name": "The Cayo Perico Heist",
         "releaseDate": "2020-12-15"
+      },
+      "details": {
+        "manufacturer": "Grotti",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "440_brioso2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.796,
+            "y": -2.019,
+            "z": -0.383
+          },
+          "max": {
+            "x": 0.796,
+            "y": 1.727,
+            "z": 1.47
+          },
+          "length": 3.746,
+          "width": 1.593,
+          "height": 1.853,
+          "boundingRadius": 2.045
+        },
+        "defaultColors": [
+          {
+            "primary": 107,
+            "secondary": 107,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 68,
+            "secondary": 68,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 29,
+            "secondary": 29,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 50,
+            "secondary": 50,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_ALL",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
       },
       "stats": {
         "handlingId": "BRIOSO2",
@@ -60,6 +147,92 @@
         "name": "The Cayo Perico Heist",
         "releaseDate": "2020-12-15"
       },
+      "details": {
+        "manufacturer": "BF",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "442_weevil_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.953,
+            "y": -2.295,
+            "z": -0.466
+          },
+          "max": {
+            "x": 0.953,
+            "y": 2.003,
+            "z": 1.289
+          },
+          "length": 4.297,
+          "width": 1.906,
+          "height": 1.755,
+          "boundingRadius": 2.168
+        },
+        "defaultColors": [
+          {
+            "primary": 107,
+            "secondary": 107,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 68,
+            "secondary": 68,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 29,
+            "secondary": 29,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 50,
+            "secondary": 50,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_ALL",
+          "FLAG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_HAS_SUPERCHARGER",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
+      },
       "stats": {
         "handlingId": "WEEVIL",
         "mass": 820,
@@ -90,6 +263,65 @@
         "id": "mpheist4",
         "name": "The Cayo Perico Heist",
         "releaseDate": "2020-12-15"
+      },
+      "details": {
+        "manufacturer": "Mammoth",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "449_squaddie_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.453,
+            "y": -2.606,
+            "z": -0.763
+          },
+          "max": {
+            "x": 1.453,
+            "y": 2.858,
+            "z": 2.085
+          },
+          "length": 5.464,
+          "width": 2.906,
+          "height": 2.847,
+          "boundingRadius": 3.199
+        },
+        "defaultColors": [
+          {
+            "primary": 133,
+            "secondary": 133,
+            "pearl": 133,
+            "wheels": 133,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 154,
+            "secondary": 154,
+            "pearl": 154,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
       },
       "stats": {
         "handlingId": "SQUADDIE",
@@ -122,6 +354,92 @@
         "name": "The Cayo Perico Heist",
         "releaseDate": "2020-12-15"
       },
+      "details": {
+        "manufacturer": "Pegassi",
+        "type": "SUBMARINECAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "447_toreador_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SUBCAR_MG",
+          "VEHICLE_WEAPON_SUBCAR_MISSILE",
+          "VEHICLE_WEAPON_SUBCAR_TORPEDO"
+        ],
+        "features": {
+          "convertibleRoof": true,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.908,
+            "y": -2.205,
+            "z": -0.329
+          },
+          "max": {
+            "x": 0.908,
+            "y": 2.364,
+            "z": 0.803
+          },
+          "length": 4.569,
+          "width": 1.816,
+          "height": 1.132,
+          "boundingRadius": 2.424
+        },
+        "defaultColors": [
+          {
+            "primary": 3,
+            "secondary": 2,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 7,
+            "dashboard": 156
+          },
+          {
+            "primary": 27,
+            "secondary": 61,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 38,
+            "secondary": 38,
+            "pearl": 24,
+            "wheels": 0,
+            "interior": 19,
+            "dashboard": 156
+          },
+          {
+            "primary": 0,
+            "secondary": 16,
+            "pearl": 61,
+            "wheels": 0,
+            "interior": 11,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_HAS_GULL_WING_DOORS",
+          "FLAG_HAS_ROCKET_BOOST",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_PREFER_FRONT_SEAT"
+        ]
+      },
       "stats": {
         "handlingId": "TOREADOR",
         "mass": 1600,
@@ -152,6 +470,74 @@
         "id": "mpheist4",
         "name": "The Cayo Perico Heist",
         "releaseDate": "2020-12-15"
+      },
+      "details": {
+        "manufacturer": "Grotti",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "446_italirsx_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.054,
+            "y": -2.24,
+            "z": -0.356
+          },
+          "max": {
+            "x": 1.054,
+            "y": 2.619,
+            "z": 0.87
+          },
+          "length": 4.86,
+          "width": 2.108,
+          "height": 1.226,
+          "boundingRadius": 2.692
+        },
+        "defaultColors": [
+          {
+            "primary": 9,
+            "secondary": 91,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 43,
+            "secondary": 43,
+            "pearl": 35,
+            "wheels": 0,
+            "interior": 39,
+            "dashboard": 156
+          },
+          {
+            "primary": 72,
+            "secondary": 122,
+            "pearl": 8,
+            "wheels": 0,
+            "interior": 18,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN"
+        ]
       },
       "stats": {
         "handlingId": "ITALIRSX",
@@ -184,6 +570,60 @@
         "name": "The Cayo Perico Heist",
         "releaseDate": "2020-12-15"
       },
+      "details": {
+        "manufacturer": "Dinka",
+        "type": "CAR",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [
+          "451_veto_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.533,
+            "y": -0.965,
+            "z": -0.167
+          },
+          "max": {
+            "x": 0.533,
+            "y": 0.897,
+            "z": 0.861
+          },
+          "length": 1.862,
+          "width": 1.066,
+          "height": 1.028,
+          "boundingRadius": 1.024
+        },
+        "defaultColors": [
+          {
+            "primary": 22,
+            "secondary": 22,
+            "pearl": 21,
+            "wheels": 22,
+            "interior": 0,
+            "dashboard": 35
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN",
+          "FLAG_RENDER_WHEELS_WITH_ZERO_COMPRESSION",
+          "FLAG_USE_STEERING_PARAM_FOR_LEAN"
+        ]
+      },
       "stats": {
         "handlingId": "VETO",
         "mass": 450,
@@ -214,6 +654,60 @@
         "id": "mpheist4",
         "name": "The Cayo Perico Heist",
         "releaseDate": "2020-12-15"
+      },
+      "details": {
+        "manufacturer": "Dinka",
+        "type": "CAR",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [
+          "453_veto2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.749,
+            "y": -1.227,
+            "z": -0.158
+          },
+          "max": {
+            "x": 0.749,
+            "y": 1.153,
+            "z": 0.861
+          },
+          "length": 2.38,
+          "width": 1.499,
+          "height": 1.019,
+          "boundingRadius": 1.405
+        },
+        "defaultColors": [
+          {
+            "primary": 22,
+            "secondary": 22,
+            "pearl": 21,
+            "wheels": 22,
+            "interior": 0,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN",
+          "FLAG_RENDER_WHEELS_WITH_ZERO_COMPRESSION",
+          "FLAG_USE_STEERING_PARAM_FOR_LEAN"
+        ]
       },
       "stats": {
         "handlingId": "VETO2",
@@ -246,6 +740,57 @@
         "name": "The Cayo Perico Heist",
         "releaseDate": "2020-12-15"
       },
+      "details": {
+        "manufacturer": "Maibatsu",
+        "type": "BIKE",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "438_manchez2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.466,
+            "y": -0.97,
+            "z": -0.5
+          },
+          "max": {
+            "x": 0.466,
+            "y": 1.083,
+            "z": 1.092
+          },
+          "length": 2.053,
+          "width": 0.931,
+          "height": 1.592,
+          "boundingRadius": 1.263
+        },
+        "defaultColors": [
+          {
+            "primary": 151,
+            "secondary": 129,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
+      },
       "stats": {
         "handlingId": "MANCHEZ2",
         "mass": 160,
@@ -276,6 +821,56 @@
         "id": "mpheist4",
         "name": "The Cayo Perico Heist",
         "releaseDate": "2020-12-15"
+      },
+      "details": {
+        "manufacturer": "Dinka",
+        "type": "QUADBIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [
+          "439_verus_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.651,
+            "y": -1.413,
+            "z": -0.636
+          },
+          "max": {
+            "x": 0.651,
+            "y": 1.211,
+            "z": 1.091
+          },
+          "length": 2.624,
+          "width": 1.302,
+          "height": 1.726,
+          "boundingRadius": 1.341
+        },
+        "defaultColors": [
+          {
+            "primary": 154,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 153
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_TIMESLICE_WHEELS"
+        ]
       },
       "stats": {
         "handlingId": "VERUS",
@@ -308,6 +903,85 @@
         "name": "The Cayo Perico Heist",
         "releaseDate": "2020-12-15"
       },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 3,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [
+          "450_winky_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.025,
+            "y": -2.148,
+            "z": -0.426
+          },
+          "max": {
+            "x": 1.025,
+            "y": 2.004,
+            "z": 1.717
+          },
+          "length": 4.152,
+          "width": 2.051,
+          "height": 2.143,
+          "boundingRadius": 2.221
+        },
+        "defaultColors": [
+          {
+            "primary": 133,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 133,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 152,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 152,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 155,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 155,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 154,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_IS_BULKY",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_SPOILER_MOD_DOESNT_INCREASE_GRIP"
+        ]
+      },
       "stats": {
         "handlingId": "WINKY",
         "mass": 1113,
@@ -338,6 +1012,88 @@
         "id": "mpheist4",
         "name": "The Cayo Perico Heist",
         "releaseDate": "2020-12-15"
+      },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "444_slamtruck_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.205,
+            "y": -4.524,
+            "z": -0.35
+          },
+          "max": {
+            "x": 1.205,
+            "y": 2.898,
+            "z": 1.979
+          },
+          "length": 7.422,
+          "width": 2.411,
+          "height": 2.329,
+          "boundingRadius": 3.906
+        },
+        "defaultColors": [
+          {
+            "primary": 107,
+            "secondary": 28,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 12,
+            "secondary": 12,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 29,
+            "secondary": 29,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 50,
+            "secondary": 50,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_HAS_LOWRIDER_DONK_HYDRAULICS",
+          "FLAG_IS_BULKY",
+          "FLAG_PEDS_CAN_STAND_ON_TOP"
+        ]
       },
       "stats": {
         "handlingId": "SLAMTRUCK",
@@ -370,6 +1126,62 @@
         "name": "The Cayo Perico Heist",
         "releaseDate": "2020-12-15"
       },
+      "details": {
+        "manufacturer": "Kraken",
+        "type": "SUBMARINE",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 0,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.579,
+            "y": -3.087,
+            "z": -1.156
+          },
+          "max": {
+            "x": 1.592,
+            "y": 3.089,
+            "z": 1.467
+          },
+          "length": 6.176,
+          "width": 3.17,
+          "height": 2.623,
+          "boundingRadius": 3.633
+        },
+        "defaultColors": [
+          {
+            "primary": 8,
+            "secondary": 28,
+            "pearl": 28,
+            "wheels": 6,
+            "interior": 27,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_GIVE_SCUBA_GEAR_ON_EXIT",
+          "FLAG_PREFER_FRONT_SEAT"
+        ]
+      },
       "stats": {
         "handlingId": "AVISA",
         "mass": 2000,
@@ -400,6 +1212,64 @@
         "id": "mpheist4",
         "name": "The Cayo Perico Heist",
         "releaseDate": "2020-12-15"
+      },
+      "details": {
+        "manufacturer": "Nagasaki",
+        "type": "BOAT",
+        "seats": 5,
+        "doors": 0,
+        "wheels": 0,
+        "modKits": [],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_TURRET_DINGHY5_50CAL"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.489,
+            "y": -3.972,
+            "z": -0.644
+          },
+          "max": {
+            "x": 1.489,
+            "y": 4.102,
+            "z": 2.79
+          },
+          "length": 8.074,
+          "width": 2.977,
+          "height": 3.434,
+          "boundingRadius": 14.529
+        },
+        "defaultColors": [
+          {
+            "primary": 152,
+            "secondary": 46,
+            "pearl": 52,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_LAW_ENFORCEMENT",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_HAS_TURRET_SEAT_ON_VEHICLE",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_CHECK_IF_DRIVER_SEAT_IS_CLOSER_THAN_TURRETS_WITH_ON_BOARD_ENTER"
+        ]
       },
       "stats": {
         "handlingId": "DINGHY5",
@@ -432,6 +1302,70 @@
         "name": "The Cayo Perico Heist",
         "releaseDate": "2020-12-15"
       },
+      "details": {
+        "manufacturer": "RUNE",
+        "type": "SUBMARINE",
+        "seats": 1,
+        "doors": 3,
+        "wheels": 0,
+        "modKits": [
+          "445_kosatka_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_KOSATKA_TORPEDO"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -10.337,
+            "y": -84.656,
+            "z": -7.945
+          },
+          "max": {
+            "x": 10.337,
+            "y": 52.386,
+            "z": 13.115
+          },
+          "length": 137.042,
+          "width": 20.673,
+          "height": 21.061,
+          "boundingRadius": 70.233
+        },
+        "defaultColors": [
+          {
+            "primary": 21,
+            "secondary": 46,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 158,
+            "dashboard": 24
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_GIVE_SCUBA_GEAR_ON_EXIT",
+          "FLAG_FORCE_BONNET_CAMERA_INSTEAD_OF_POV",
+          "FLAG_LATCH_ALL_JOINTS",
+          "FLAG_CANNOT_BE_PICKUP_BY_CARGOBOB",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_REJECT_ENTRY_TO_VEHICLE_WHEN_STOOD_ON",
+          "FLAG_ALLOW_OBJECT_LOW_LOD_COLLISION",
+          "FLAG_USE_LENGTH_OF_VEHICLE_BOUNDS_FOR_PLAYER_LOCKON_POS"
+        ]
+      },
       "stats": {
         "handlingId": "KOSATKA",
         "mass": 20000,
@@ -462,6 +1396,83 @@
         "id": "mpheist4",
         "name": "The Cayo Perico Heist",
         "releaseDate": "2020-12-15"
+      },
+      "details": {
+        "manufacturer": "Shitzu",
+        "type": "BOAT",
+        "seats": 4,
+        "doors": 0,
+        "wheels": 0,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.721,
+            "y": -6.296,
+            "z": -1.171
+          },
+          "max": {
+            "x": 1.721,
+            "y": 7.084,
+            "z": 2.537
+          },
+          "length": 13.38,
+          "width": 3.442,
+          "height": 3.708,
+          "boundingRadius": 7.109
+        },
+        "defaultColors": [
+          {
+            "primary": 134,
+            "secondary": 1,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 99,
+            "dashboard": 0
+          },
+          {
+            "primary": 66,
+            "secondary": 22,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 0
+          },
+          {
+            "primary": 38,
+            "secondary": 1,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 121,
+            "dashboard": 0
+          },
+          {
+            "primary": 29,
+            "secondary": 1,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 112,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
       },
       "stats": {
         "handlingId": "LONGFIN",
@@ -494,6 +1505,67 @@
         "name": "The Cayo Perico Heist",
         "releaseDate": "2020-12-15"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "BOAT",
+        "seats": 4,
+        "doors": 0,
+        "wheels": 0,
+        "modKits": [],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_TURRET_PATROLBOAT_50CAL",
+          "VEHICLE_WEAPON_PATROLBOAT_DUALMG"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.789,
+            "y": -5.061,
+            "z": -1.053
+          },
+          "max": {
+            "x": 1.789,
+            "y": 5.459,
+            "z": 2.954
+          },
+          "length": 10.52,
+          "width": 3.579,
+          "height": 4.007,
+          "boundingRadius": 0.346
+        },
+        "defaultColors": [
+          {
+            "primary": 152,
+            "secondary": 46,
+            "pearl": 52,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_LAW_ENFORCEMENT",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_HAS_TURRET_SEAT_ON_VEHICLE",
+          "FLAG_PREFER_ENTER_TURRET_AFTER_DRIVER",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_USE_TURRET_RELATIVE_AIM_CALCULATION",
+          "FLAG_DISABLE_DEFORMATION",
+          "FLAG_CHECK_IF_DRIVER_SEAT_IS_CLOSER_THAN_TURRETS_WITH_ON_BOARD_ENTER"
+        ]
+      },
       "stats": {
         "handlingId": "PATROLBOAT",
         "mass": 2500,
@@ -524,6 +1596,67 @@
         "id": "mpheist4",
         "name": "The Cayo Perico Heist",
         "releaseDate": "2020-12-15"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "HELI",
+        "seats": 6,
+        "doors": 2,
+        "wheels": 3,
+        "modKits": [
+          "448_annihilator2_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_ANNIHILATOR2_MINI",
+          "VEHICLE_WEAPON_ANNIHILATOR2_MISSILE",
+          "VEHICLE_WEAPON_ANNIHILATOR2_BARRAGE"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -8.374,
+            "y": -10.738,
+            "z": -0.75
+          },
+          "max": {
+            "x": 8.376,
+            "y": 8.542,
+            "z": 4.575
+          },
+          "length": 19.28,
+          "width": 16.75,
+          "height": 5.325,
+          "boundingRadius": 13.677
+        },
+        "defaultColors": [
+          {
+            "primary": 22,
+            "secondary": 22,
+            "pearl": 21,
+            "wheels": 22,
+            "interior": 0,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_ALLOWS_RAPPEL",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_PILOT_HELMET",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HELICOPTER_WITH_LANDING_GEAR"
+        ]
       },
       "stats": {
         "handlingId": "ANNIHLATOR2",
@@ -556,6 +1689,67 @@
         "name": "The Cayo Perico Heist",
         "releaseDate": "2020-12-15"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "HELI",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "437_seasparrow2_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SEASPARROW2_MINIGUN",
+          "VEHICLE_WEAPON_SPACE_ROCKET"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -5.876,
+            "y": -7.236,
+            "z": -1.638
+          },
+          "max": {
+            "x": 5.949,
+            "y": 6.836,
+            "z": 1.798
+          },
+          "length": 14.072,
+          "width": 11.826,
+          "height": 3.436,
+          "boundingRadius": 9.592
+        },
+        "defaultColors": [
+          {
+            "primary": 5,
+            "secondary": 2,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_STANDARD_FLIGHT_HELMET",
+          "FLAG_NO_HEAVY_BRAKE_ANIMATION",
+          "FLAG_CAN_NAVIGATE_TO_ON_VEHICLE_ENTRY",
+          "FLAG_CANNOT_BE_PICKUP_BY_CARGOBOB"
+        ]
+      },
       "stats": {
         "handlingId": "SEASPARROW2",
         "mass": 800,
@@ -586,6 +1780,66 @@
         "id": "mpheist4",
         "name": "The Cayo Perico Heist",
         "releaseDate": "2020-12-15"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "HELI",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "443_seasparrow3_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SEASPARROW2_MINIGUN",
+          "VEHICLE_WEAPON_SPACE_ROCKET"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -5.876,
+            "y": -7.015,
+            "z": -1.638
+          },
+          "max": {
+            "x": 5.949,
+            "y": 6.836,
+            "z": 1.798
+          },
+          "length": 13.851,
+          "width": 11.826,
+          "height": 3.436,
+          "boundingRadius": 9.592
+        },
+        "defaultColors": [
+          {
+            "primary": 5,
+            "secondary": 2,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_STANDARD_FLIGHT_HELMET",
+          "FLAG_NO_HEAVY_BRAKE_ANIMATION",
+          "FLAG_CAN_NAVIGATE_TO_ON_VEHICLE_ENTRY"
+        ]
       },
       "stats": {
         "handlingId": "SEASPARROW2",
@@ -618,6 +1872,94 @@
         "name": "The Cayo Perico Heist",
         "releaseDate": "2020-12-15"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "PLANE",
+        "seats": 10,
+        "doors": 3,
+        "wheels": 5,
+        "modKits": [
+          "452_alkonost_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -28.49,
+            "y": -33.273,
+            "z": -2.736
+          },
+          "max": {
+            "x": 28.49,
+            "y": 22.039,
+            "z": 8.09
+          },
+          "length": 55.312,
+          "width": 56.981,
+          "height": 10.827,
+          "boundingRadius": 38.042
+        },
+        "defaultColors": [
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 112,
+            "secondary": 29,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 1,
+            "secondary": 29,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 70,
+            "secondary": 112,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 88,
+            "secondary": 112,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_LIGHTING_INTERIOR_OVERRIDE",
+          "FLAG_USE_STANDARD_FLIGHT_HELMET",
+          "FLAG_DISABLE_CAMERA_PUSH_BEYOND",
+          "FLAG_CHECK_WARP_TASK_FLAG_DURING_ENTER",
+          "FLAG_DONT_CRASH_ABANDONED_NEAR_GROUND"
+        ]
+      },
       "stats": {
         "handlingId": "ALKONOST",
         "mass": 55500,
@@ -648,6 +1990,91 @@
         "id": "mpheist4",
         "name": "The Cayo Perico Heist",
         "releaseDate": "2020-12-15"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 10,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.097,
+            "y": -3.388,
+            "z": -1.332
+          },
+          "max": {
+            "x": 1.097,
+            "y": 3.265,
+            "z": 2.064
+          },
+          "length": 6.654,
+          "width": 2.194,
+          "height": 3.395,
+          "boundingRadius": 3.819
+        },
+        "defaultColors": [
+          {
+            "primary": 154,
+            "secondary": 13,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 154,
+            "dashboard": 156
+          },
+          {
+            "primary": 155,
+            "secondary": 13,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 156,
+            "dashboard": 156
+          },
+          {
+            "primary": 153,
+            "secondary": 13,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 153,
+            "dashboard": 156
+          },
+          {
+            "primary": 152,
+            "secondary": 13,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 152,
+            "dashboard": 156
+          },
+          {
+            "primary": 151,
+            "secondary": 13,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 151,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_AVOID_TURNS",
+          "FLAG_USE_FAT_INTERIOR_LIGHT",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
       },
       "stats": {
         "handlingId": "VETIR",

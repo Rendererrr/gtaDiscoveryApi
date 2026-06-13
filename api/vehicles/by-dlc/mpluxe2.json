@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "id": "mpluxe2",
@@ -28,6 +28,98 @@
         "id": "mpluxe2",
         "name": "Ill-Gotten Gains Part 2",
         "releaseDate": "2015-07-08"
+      },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "165_chino_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.148,
+            "y": -3.112,
+            "z": -0.511
+          },
+          "max": {
+            "x": 1.148,
+            "y": 2.871,
+            "z": 0.898
+          },
+          "length": 5.983,
+          "width": 2.297,
+          "height": 1.409,
+          "boundingRadius": 3.048
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 7,
+            "wheels": 13,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 62,
+            "secondary": 62,
+            "pearl": 2,
+            "wheels": 8,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 34,
+            "secondary": 34,
+            "pearl": 46,
+            "wheels": 22,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 49,
+            "secondary": 49,
+            "pearl": 106,
+            "wheels": 21,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 145,
+            "secondary": 145,
+            "pearl": 119,
+            "wheels": 24,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 55,
+            "secondary": 55,
+            "pearl": 37,
+            "wheels": 121,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_CONVERTIBLE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS"
+        ]
       },
       "stats": {
         "handlingId": "CHINO",
@@ -60,6 +152,139 @@
         "name": "Ill-Gotten Gains Part 2",
         "releaseDate": "2015-07-08"
       },
+      "details": {
+        "manufacturer": "Invetero",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "166_coquette3_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.933,
+            "y": -2.46,
+            "z": -0.427
+          },
+          "max": {
+            "x": 0.942,
+            "y": 2.15,
+            "z": 0.991
+          },
+          "length": 4.609,
+          "width": 1.875,
+          "height": 1.418,
+          "boundingRadius": 2.482
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 6,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 2,
+            "secondary": 2,
+            "pearl": 134,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 8,
+            "secondary": 8,
+            "pearl": 134,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 19,
+            "secondary": 19,
+            "pearl": 134,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 31,
+            "secondary": 31,
+            "pearl": 28,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 34,
+            "secondary": 34,
+            "pearl": 28,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 64,
+            "secondary": 64,
+            "pearl": 53,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 73,
+            "secondary": 73,
+            "pearl": 60,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 75,
+            "secondary": 75,
+            "pearl": 60,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 89,
+            "secondary": 89,
+            "pearl": 89,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 107,
+            "secondary": 107,
+            "pearl": 110,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_EXTRAS_CONVERTIBLE",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS"
+        ]
+      },
       "stats": {
         "handlingId": "COQUETTE3",
         "mass": 1400,
@@ -90,6 +315,114 @@
         "id": "mpluxe2",
         "name": "Ill-Gotten Gains Part 2",
         "releaseDate": "2015-07-08"
+      },
+      "details": {
+        "manufacturer": "Progen",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "161_t20_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.437,
+            "y": -2.16,
+            "z": -0.689
+          },
+          "max": {
+            "x": 1.437,
+            "y": 2.443,
+            "z": 0.609
+          },
+          "length": 4.603,
+          "width": 2.874,
+          "height": 1.298,
+          "boundingRadius": 2.554
+        },
+        "defaultColors": [
+          {
+            "primary": 3,
+            "secondary": 3,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 7,
+            "secondary": 7,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 89,
+            "secondary": 89,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 53,
+            "secondary": 53,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 36,
+            "secondary": 36,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 73,
+            "secondary": 73,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 28,
+            "secondary": 28,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN"
+        ]
       },
       "stats": {
         "handlingId": "T20",
@@ -122,6 +455,113 @@
         "name": "Ill-Gotten Gains Part 2",
         "releaseDate": "2015-07-08"
       },
+      "details": {
+        "manufacturer": "Dinka",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "162_vindicator_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": true
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.536,
+            "y": -1.227,
+            "z": -0.371
+          },
+          "max": {
+            "x": 0.536,
+            "y": 1.148,
+            "z": 1.383
+          },
+          "length": 2.375,
+          "width": 1.073,
+          "height": 1.754,
+          "boundingRadius": 1.284
+        },
+        "defaultColors": [
+          {
+            "primary": 131,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 2,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 50,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 89,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 82,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 72,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 34,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
+      },
       "stats": {
         "handlingId": "VINDICATOR",
         "mass": 280,
@@ -153,6 +593,111 @@
         "name": "Ill-Gotten Gains Part 2",
         "releaseDate": "2015-07-08"
       },
+      "details": {
+        "manufacturer": "Coil",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "163_brawler_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.039,
+            "y": -2.722,
+            "z": -0.867
+          },
+          "max": {
+            "x": 1.039,
+            "y": 2.564,
+            "z": 1.302
+          },
+          "length": 5.287,
+          "width": 2.077,
+          "height": 2.169,
+          "boundingRadius": 2.66
+        },
+        "defaultColors": [
+          {
+            "primary": 59,
+            "secondary": 152,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 126,
+            "secondary": 13,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 13,
+            "secondary": 12,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 70,
+            "secondary": 55,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 41,
+            "secondary": 152,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 53,
+            "secondary": 152,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 55,
+            "secondary": 152,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_IS_BULKY",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CARGOBOB_HOOK_UP_CHASSIS"
+        ]
+      },
       "stats": {
         "handlingId": "BRAWLER",
         "mass": 2100,
@@ -183,6 +728,63 @@
         "id": "mpluxe2",
         "name": "Ill-Gotten Gains Part 2",
         "releaseDate": "2015-07-08"
+      },
+      "details": {
+        "manufacturer": "Lampadati",
+        "type": "BOAT",
+        "seats": 4,
+        "doors": 0,
+        "wheels": 0,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.673,
+            "y": -5.197,
+            "z": -1.388
+          },
+          "max": {
+            "x": 1.673,
+            "y": 4.917,
+            "z": 1.52
+          },
+          "length": 10.114,
+          "width": 3.346,
+          "height": 2.908,
+          "boundingRadius": 5.554
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_SPAWN_BOAT_ON_TRAILER",
+          "FLAG_EXTRAS_RARE",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_RICH_CAR",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_HAS_REAR_SEAT_ACTIVITIES"
+        ]
       },
       "stats": {
         "handlingId": "TORO",

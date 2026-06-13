@@ -204,6 +204,34 @@ the whole domain in one file:
   const tuners = items.filter(v => v.dlc?.id === 'mptuner');               // by code
   const recent = items.filter(v => v.dlc?.releaseDate >= '2023-01-01');    // by date (ISO sorts lexically)
   ```
+- **Vehicle `details`** — all 861 vehicles carry a `details` object from
+  [DurtyFree](https://github.com/DurtyFree/gta-v-data-dumps) (joined by model name) with the
+  physical/spec data that isn't handling: `manufacturer`, `type` (CAR/BIKE/HELI/…), `seats`,
+  `doors` (counted from the model's door bones), `wheels`, `modKits`, `weaponized` + `weapons[]`
+  (vehicle-weapon names), `features` (convertibleRoof, sirens, armoredWindows, parachute, kers),
+  `dimensions` (metres — `length`=Y, `width`=X, `height`=Z, plus raw `min`/`max` and
+  `boundingRadius`), `defaultColors[]` (factory colour combos as **GTA palette indices** —
+  primary/secondary/pearl/wheels/interior/dashboard), and the raw vehicle `flags[]`.
+  ```jsonc
+  "details": {
+    "manufacturer": "Truffade", "type": "CAR", "seats": 2, "doors": 2, "wheels": 4,
+    "modKits": ["0_hiend_modkit"], "weaponized": false, "weapons": [],
+    "features": { "convertibleRoof": false, "sirens": false, "armoredWindows": false,
+                  "parachute": false, "kers": false },
+    "dimensions": { "length": 4.496, "width": 2.145, "height": 1.227, "boundingRadius": 2.439,
+                    "min": { "x": -1.072, "y": -2.209, "z": -0.596 },
+                    "max": { "x":  1.072, "y":  2.287, "z":  0.631 } },
+    "defaultColors": [ { "primary": 0, "secondary": 41, "pearl": 3, "wheels": 156,
+                         "interior": 0, "dashboard": 0 } /* … */ ],
+    "flags": [ "FLAG_SPORTS", "FLAG_CAN_HAVE_NEONS" /* … */ ]
+  }
+  ```
+  ```js
+  const armed     = items.filter(v => v.details?.weaponized);            // weaponized vehicles
+  const fourSeat  = items.filter(v => v.details?.seats >= 4);            // by seat count
+  const truffade  = items.filter(v => v.details?.manufacturer === 'Truffade'); // by brand
+  ```
+  `defaultColors` are palette **indices**, not names/hex (mapping them needs the GTA colour table).
 - **Weapon `dlc`, `stats`, `components` + `tints`** — each weapon carries `dlc`
   (`{ id, name, releaseDate }` — the update it shipped in, e.g. `{ "id": "mpheist4", "name":
   "The Cayo Perico Heist", "releaseDate": "2020-12-15" }`; `null` for a few codenameless items),
@@ -492,6 +520,7 @@ src/
                                #   weapons.stats.json (vespura) + weapons.stats.extra.json (gtabase)
                                #   weapons.components.json (DurtyFree: dlc + components + tints)
                                #   vehicles.handling.json (DurtyFree performance)
+                               #   vehicles.details.json (DurtyFree: manufacturer/seats/doors/colors/…)
                                #   vehicles.dlc.json / peds.dlc.json (DurtyFree: model -> DLC code)
                                #   dlc.labels.json (DLC code -> { name, releaseDate }; shared)
                                #   objects.all.json (DurtyFree ObjectList.ini: all object names)

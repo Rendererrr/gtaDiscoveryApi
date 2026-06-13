@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "id": "mpvalentines2",
@@ -28,6 +28,56 @@
         "id": "mpvalentines2",
         "name": "Be My Valentine",
         "releaseDate": "2016-02-14"
+      },
+      "details": {
+        "manufacturer": "Albany",
+        "type": "CAR",
+        "seats": 6,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "148_btype3_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.41,
+            "y": -2.863,
+            "z": -0.46
+          },
+          "max": {
+            "x": 1.392,
+            "y": 2.368,
+            "z": 1.497
+          },
+          "length": 5.232,
+          "width": 2.802,
+          "height": 1.958,
+          "boundingRadius": 2.772
+        },
+        "defaultColors": [
+          {
+            "primary": 5,
+            "secondary": 2,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 26,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN"
+        ]
       },
       "stats": {
         "handlingId": "ROOSEVELT2",

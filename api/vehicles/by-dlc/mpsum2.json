@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "id": "mpsum2",
@@ -28,6 +28,93 @@
         "id": "mpsum2",
         "name": "The Criminal Enterprises",
         "releaseDate": "2022-07-26"
+      },
+      "details": {
+        "manufacturer": "Grotti",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "506_brioso3_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.089,
+            "y": -2.019,
+            "z": -0.326
+          },
+          "max": {
+            "x": 1.089,
+            "y": 1.782,
+            "z": 1.47
+          },
+          "length": 3.801,
+          "width": 2.177,
+          "height": 1.796,
+          "boundingRadius": 2.053
+        },
+        "defaultColors": [
+          {
+            "primary": 107,
+            "secondary": 107,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 68,
+            "secondary": 68,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 29,
+            "secondary": 29,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 50,
+            "secondary": 50,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_ALL",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
       },
       "stats": {
         "handlingId": "BRIOSO3",
@@ -60,6 +147,114 @@
         "name": "The Criminal Enterprises",
         "releaseDate": "2022-07-26"
       },
+      "details": {
+        "manufacturer": "Ubermacht",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "495_rhinehart_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.984,
+            "y": -2.638,
+            "z": -0.737
+          },
+          "max": {
+            "x": 0.984,
+            "y": 2.278,
+            "z": 1.026
+          },
+          "length": 4.916,
+          "width": 1.968,
+          "height": 1.763,
+          "boundingRadius": 2.654
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 73,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 89,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 38,
+            "secondary": 1,
+            "pearl": 89,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 70,
+            "secondary": 1,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS"
+        ]
+      },
       "stats": {
         "handlingId": "RHINEHART",
         "mass": 1660,
@@ -90,6 +285,107 @@
         "id": "mpsum2",
         "name": "The Criminal Enterprises",
         "releaseDate": "2022-07-26"
+      },
+      "details": {
+        "manufacturer": "Dinka",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "502_kanjosj_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.008,
+            "y": -2.329,
+            "z": -0.318
+          },
+          "max": {
+            "x": 1.008,
+            "y": 2.283,
+            "z": 1.177
+          },
+          "length": 4.613,
+          "width": 2.016,
+          "height": 1.495,
+          "boundingRadius": 2.476
+        },
+        "defaultColors": [
+          {
+            "primary": 3,
+            "secondary": 3,
+            "pearl": 10,
+            "wheels": 156,
+            "interior": 26,
+            "dashboard": 0
+          },
+          {
+            "primary": 61,
+            "secondary": 61,
+            "pearl": 10,
+            "wheels": 156,
+            "interior": 6,
+            "dashboard": 0
+          },
+          {
+            "primary": 1,
+            "secondary": 1,
+            "pearl": 7,
+            "wheels": 156,
+            "interior": 27,
+            "dashboard": 0
+          },
+          {
+            "primary": 62,
+            "secondary": 62,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 42,
+            "dashboard": 0
+          },
+          {
+            "primary": 95,
+            "secondary": 95,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 3,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 37,
+            "dashboard": 0
+          },
+          {
+            "primary": 31,
+            "secondary": 31,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 51,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD",
+          "FLAG_EXTRAS_ALL"
+        ]
       },
       "stats": {
         "handlingId": "KANJOSJ",
@@ -122,6 +418,162 @@
         "name": "The Criminal Enterprises",
         "releaseDate": "2022-07-26"
       },
+      "details": {
+        "manufacturer": "Dinka",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "501_postlude_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.886,
+            "y": -2.731,
+            "z": -0.389
+          },
+          "max": {
+            "x": 0.886,
+            "y": 2.078,
+            "z": 1.377
+          },
+          "length": 4.809,
+          "width": 1.773,
+          "height": 1.765,
+          "boundingRadius": 2.314
+        },
+        "defaultColors": [
+          {
+            "primary": 4,
+            "secondary": 4,
+            "pearl": 134,
+            "wheels": 156,
+            "interior": 160,
+            "dashboard": 160
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 10,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 1,
+            "secondary": 1,
+            "pearl": 10,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 2,
+            "secondary": 2,
+            "pearl": 7,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 3,
+            "secondary": 3,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 6,
+            "secondary": 6,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 4,
+            "secondary": 4,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 61,
+            "secondary": 61,
+            "pearl": 67,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 32,
+            "secondary": 32,
+            "pearl": 28,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 27,
+            "secondary": 27,
+            "pearl": 36,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 64,
+            "secondary": 64,
+            "pearl": 54,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 5,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 6,
+            "secondary": 6,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
+      },
       "stats": {
         "handlingId": "POSTLUDE",
         "mass": 1150,
@@ -152,6 +604,115 @@
         "id": "mpsum2",
         "name": "The Criminal Enterprises",
         "releaseDate": "2022-07-26"
+      },
+      "details": {
+        "manufacturer": "Bravado",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "500_greenwood_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.033,
+            "y": -2.904,
+            "z": -0.444
+          },
+          "max": {
+            "x": 1.033,
+            "y": 2.433,
+            "z": 1.057
+          },
+          "length": 5.337,
+          "width": 2.067,
+          "height": 1.501,
+          "boundingRadius": 2.894
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 73,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 89,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 38,
+            "secondary": 1,
+            "pearl": 89,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 70,
+            "secondary": 1,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
       },
       "stats": {
         "handlingId": "GREENWOOD",
@@ -184,6 +745,84 @@
         "name": "The Criminal Enterprises",
         "releaseDate": "2022-07-26"
       },
+      "details": {
+        "manufacturer": "Imponte",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "508_ruiner4_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.995,
+            "y": -2.474,
+            "z": -0.398
+          },
+          "max": {
+            "x": 1.004,
+            "y": 2.639,
+            "z": 1.072
+          },
+          "length": 5.114,
+          "width": 1.999,
+          "height": 1.471,
+          "boundingRadius": 2.725
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 156,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 156,
+            "dashboard": 0
+          },
+          {
+            "primary": 36,
+            "secondary": 36,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 156,
+            "dashboard": 0
+          },
+          {
+            "primary": 31,
+            "secondary": 31,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 156,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_ALL",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_HAS_NO_ROOF",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS"
+        ]
+      },
       "stats": {
         "handlingId": "RUINER4",
         "mass": 1590,
@@ -214,6 +853,114 @@
         "id": "mpsum2",
         "name": "The Criminal Enterprises",
         "releaseDate": "2022-07-26"
+      },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "497_vigero2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.098,
+            "y": -2.718,
+            "z": -0.41
+          },
+          "max": {
+            "x": 1.098,
+            "y": 2.47,
+            "z": 1.056
+          },
+          "length": 5.188,
+          "width": 2.197,
+          "height": 1.466,
+          "boundingRadius": 2.683
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 73,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 89,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 38,
+            "secondary": 1,
+            "pearl": 89,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 70,
+            "secondary": 1,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_HAS_SUPERCHARGER"
+        ]
       },
       "stats": {
         "handlingId": "VIGERO2",
@@ -246,6 +993,92 @@
         "name": "The Criminal Enterprises",
         "releaseDate": "2022-07-26"
       },
+      "details": {
+        "manufacturer": "BF",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "494_weevil2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.068,
+            "y": -2.293,
+            "z": -0.381
+          },
+          "max": {
+            "x": 1.069,
+            "y": 2.006,
+            "z": 1.289
+          },
+          "length": 4.299,
+          "width": 2.137,
+          "height": 1.67,
+          "boundingRadius": 2.166
+        },
+        "defaultColors": [
+          {
+            "primary": 107,
+            "secondary": 107,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 68,
+            "secondary": 68,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 29,
+            "secondary": 29,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 50,
+            "secondary": 50,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_ALL",
+          "FLAG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_HAS_SUPERCHARGER",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
+      },
       "stats": {
         "handlingId": "WEEVIL2",
         "mass": 780,
@@ -276,6 +1109,82 @@
         "id": "mpsum2",
         "name": "The Criminal Enterprises",
         "releaseDate": "2022-07-26"
+      },
+      "details": {
+        "manufacturer": "Lampadati",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "504_corsita_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.414,
+            "y": -2.462,
+            "z": -0.524
+          },
+          "max": {
+            "x": 1.417,
+            "y": 2.599,
+            "z": 1.197
+          },
+          "length": 5.062,
+          "width": 2.831,
+          "height": 1.722,
+          "boundingRadius": 2.636
+        },
+        "defaultColors": [
+          {
+            "primary": 112,
+            "secondary": 1,
+            "pearl": 7,
+            "wheels": 112,
+            "interior": 70,
+            "dashboard": 156
+          },
+          {
+            "primary": 43,
+            "secondary": 43,
+            "pearl": 35,
+            "wheels": 156,
+            "interior": 154,
+            "dashboard": 156
+          },
+          {
+            "primary": 77,
+            "secondary": 1,
+            "pearl": 7,
+            "wheels": 156,
+            "interior": 154,
+            "dashboard": 156
+          },
+          {
+            "primary": 88,
+            "secondary": 1,
+            "pearl": 7,
+            "wheels": 156,
+            "interior": 154,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN"
+        ]
       },
       "stats": {
         "handlingId": "CORSITA",
@@ -308,6 +1217,83 @@
         "name": "The Criminal Enterprises",
         "releaseDate": "2022-07-26"
       },
+      "details": {
+        "manufacturer": "Obey",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "511_omnisegt_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.029,
+            "y": -2.551,
+            "z": -0.462
+          },
+          "max": {
+            "x": 1.029,
+            "y": 2.491,
+            "z": 1.302
+          },
+          "length": 5.042,
+          "width": 2.057,
+          "height": 1.764,
+          "boundingRadius": 2.792
+        },
+        "defaultColors": [
+          {
+            "primary": 112,
+            "secondary": 1,
+            "pearl": 7,
+            "wheels": 112,
+            "interior": 70,
+            "dashboard": 156
+          },
+          {
+            "primary": 43,
+            "secondary": 43,
+            "pearl": 35,
+            "wheels": 156,
+            "interior": 154,
+            "dashboard": 156
+          },
+          {
+            "primary": 77,
+            "secondary": 1,
+            "pearl": 7,
+            "wheels": 156,
+            "interior": 154,
+            "dashboard": 156
+          },
+          {
+            "primary": 88,
+            "secondary": 1,
+            "pearl": 7,
+            "wheels": 156,
+            "interior": 154,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_IS_ELECTRIC",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
+      },
       "stats": {
         "handlingId": "OMNISEGT",
         "mass": 2350,
@@ -338,6 +1324,90 @@
         "id": "mpsum2",
         "name": "The Criminal Enterprises",
         "releaseDate": "2022-07-26"
+      },
+      "details": {
+        "manufacturer": "Ubermacht",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "510_sentinel4_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.96,
+            "y": -2.445,
+            "z": -0.434
+          },
+          "max": {
+            "x": 0.96,
+            "y": 2.125,
+            "z": 1.14
+          },
+          "length": 4.571,
+          "width": 1.921,
+          "height": 1.573,
+          "boundingRadius": 2.486
+        },
+        "defaultColors": [
+          {
+            "primary": 112,
+            "secondary": 1,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 112,
+            "secondary": 29,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 1,
+            "secondary": 29,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 70,
+            "secondary": 112,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 88,
+            "secondary": 112,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
       },
       "stats": {
         "handlingId": "SENTINEL4",
@@ -370,6 +1440,75 @@
         "name": "The Criminal Enterprises",
         "releaseDate": "2022-07-26"
       },
+      "details": {
+        "manufacturer": "Benefactor",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "493_sm722_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.032,
+            "y": -2.467,
+            "z": -0.339
+          },
+          "max": {
+            "x": 1.032,
+            "y": 2.454,
+            "z": 1.014
+          },
+          "length": 4.921,
+          "width": 2.063,
+          "height": 1.353,
+          "boundingRadius": 2.697
+        },
+        "defaultColors": [
+          {
+            "primary": 29,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 19,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 0,
+            "interior": 37,
+            "dashboard": 156
+          },
+          {
+            "primary": 2,
+            "secondary": 30,
+            "pearl": 4,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
+      },
       "stats": {
         "handlingId": "SM722",
         "mass": 1551,
@@ -400,6 +1539,75 @@
         "id": "mpsum2",
         "name": "The Criminal Enterprises",
         "releaseDate": "2022-07-26"
+      },
+      "details": {
+        "manufacturer": "Obey",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "499_tenf_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.035,
+            "y": -2.22,
+            "z": -0.342
+          },
+          "max": {
+            "x": 1.035,
+            "y": 2.352,
+            "z": 0.921
+          },
+          "length": 4.572,
+          "width": 2.07,
+          "height": 1.263,
+          "boundingRadius": 2.501
+        },
+        "defaultColors": [
+          {
+            "primary": 29,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 19,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 0,
+            "interior": 37,
+            "dashboard": 156
+          },
+          {
+            "primary": 2,
+            "secondary": 30,
+            "pearl": 4,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_BOOT_IN_FRONT",
+          "FLAG_EXTRAS_STRONG"
+        ]
       },
       "stats": {
         "handlingId": "TENF",
@@ -432,6 +1640,76 @@
         "name": "The Criminal Enterprises",
         "releaseDate": "2022-07-26"
       },
+      "details": {
+        "manufacturer": "Obey",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "505_tenf2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.092,
+            "y": -2.22,
+            "z": -0.329
+          },
+          "max": {
+            "x": 1.092,
+            "y": 2.352,
+            "z": 0.921
+          },
+          "length": 4.572,
+          "width": 2.183,
+          "height": 1.25,
+          "boundingRadius": 2.501
+        },
+        "defaultColors": [
+          {
+            "primary": 29,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 19,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 0,
+            "interior": 37,
+            "dashboard": 156
+          },
+          {
+            "primary": 2,
+            "secondary": 30,
+            "pearl": 4,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_BOOT_IN_FRONT",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
+      },
       "stats": {
         "handlingId": "TENF2",
         "mass": 1650,
@@ -462,6 +1740,88 @@
         "id": "mpsum2",
         "name": "The Criminal Enterprises",
         "releaseDate": "2022-07-26"
+      },
+      "details": {
+        "manufacturer": "Benefactor",
+        "type": "CAR",
+        "seats": 1,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "496_lm87_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.096,
+            "y": -2.711,
+            "z": -0.224
+          },
+          "max": {
+            "x": 1.109,
+            "y": 2.299,
+            "z": 0.977
+          },
+          "length": 5.01,
+          "width": 2.206,
+          "height": 1.201,
+          "boundingRadius": 2.708
+        },
+        "defaultColors": [
+          {
+            "primary": 6,
+            "secondary": 89,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 37
+          },
+          {
+            "primary": 27,
+            "secondary": 1,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 37
+          },
+          {
+            "primary": 73,
+            "secondary": 1,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 37
+          },
+          {
+            "primary": 88,
+            "secondary": 1,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 37
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_FRONT_BOOT",
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN",
+          "FLAG_HAS_GULL_WING_DOORS",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_USE_RESTRICTED_DRIVEBY_HEIGHT_MID_ONLY"
+        ]
       },
       "stats": {
         "handlingId": "LM87",
@@ -494,6 +1854,117 @@
         "name": "The Criminal Enterprises",
         "releaseDate": "2022-07-26"
       },
+      "details": {
+        "manufacturer": "Pegassi",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "498_torero2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.454,
+            "y": -2.379,
+            "z": -0.412
+          },
+          "max": {
+            "x": 1.454,
+            "y": 2.654,
+            "z": 0.949
+          },
+          "length": 5.033,
+          "width": 2.907,
+          "height": 1.36,
+          "boundingRadius": 2.748
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 73,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 89,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 38,
+            "secondary": 1,
+            "pearl": 89,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 70,
+            "secondary": 1,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_USE_RESTRICTED_DRIVEBY_HEIGHT_MID_ONLY"
+        ]
+      },
       "stats": {
         "handlingId": "TORERO2",
         "mass": 1595,
@@ -525,6 +1996,117 @@
         "name": "The Criminal Enterprises",
         "releaseDate": "2022-07-26"
       },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "503_draugur_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.159,
+            "y": -2.81,
+            "z": -0.797
+          },
+          "max": {
+            "x": 1.159,
+            "y": 2.655,
+            "z": 1.312
+          },
+          "length": 5.465,
+          "width": 2.319,
+          "height": 2.109,
+          "boundingRadius": 2.934
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 73,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 89,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 38,
+            "secondary": 1,
+            "pearl": 89,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 70,
+            "secondary": 1,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_IS_BULKY",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
+      },
       "stats": {
         "handlingId": "DRAUGUR",
         "mass": 2450,
@@ -555,6 +2137,116 @@
         "id": "mpsum2",
         "name": "The Criminal Enterprises",
         "releaseDate": "2022-07-26"
+      },
+      "details": {
+        "manufacturer": "Buckingham",
+        "type": "HELI",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "509_conada_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -5.283,
+            "y": -7.534,
+            "z": -0.928
+          },
+          "max": {
+            "x": 5.283,
+            "y": 4.635,
+            "z": 2.475
+          },
+          "length": 12.168,
+          "width": 10.565,
+          "height": 3.403,
+          "boundingRadius": 8.139
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 73,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 89,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 38,
+            "secondary": 1,
+            "pearl": 89,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 70,
+            "secondary": 1,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_DONT_ROTATE_TAIL_ROTOR",
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_DONT_TIMESLICE_WHEELS"
+        ]
       },
       "stats": {
         "handlingId": "CONADA",

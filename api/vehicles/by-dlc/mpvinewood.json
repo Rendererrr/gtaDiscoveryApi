@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "id": "mpvinewood",
@@ -28,6 +28,61 @@
         "id": "mpvinewood",
         "name": "The Diamond Casino & Resort",
         "releaseDate": "2019-07-23"
+      },
+      "details": {
+        "manufacturer": "Lampadati",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "370_novak_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.012,
+            "y": -2.494,
+            "z": -0.493
+          },
+          "max": {
+            "x": 1.012,
+            "y": 2.536,
+            "z": 1.593
+          },
+          "length": 5.029,
+          "width": 2.024,
+          "height": 2.086,
+          "boundingRadius": 2.761
+        },
+        "defaultColors": [
+          {
+            "primary": 112,
+            "secondary": 112,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_IS_BULKY",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CARGOBOB_HOOK_UP_CHASSIS",
+          "FLAG_NO_HEAVY_BRAKE_ANIMATION"
+        ]
       },
       "stats": {
         "handlingId": "NOVAK",
@@ -60,6 +115,59 @@
         "name": "The Diamond Casino & Resort",
         "releaseDate": "2019-07-23"
       },
+      "details": {
+        "manufacturer": "Bravado",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "374_gauntlet3_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.972,
+            "y": -2.47,
+            "z": -0.356
+          },
+          "max": {
+            "x": 0.972,
+            "y": 2.55,
+            "z": 1.162
+          },
+          "length": 5.021,
+          "width": 1.944,
+          "height": 1.518,
+          "boundingRadius": 2.678
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 13,
+            "pearl": 134,
+            "wheels": 13,
+            "interior": 13,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_SPORTS",
+          "FLAG_PARKING_SENSORS",
+          "FLAG_RICH_CAR",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
+      },
       "stats": {
         "handlingId": "GAUNTLET3",
         "mass": 1350,
@@ -90,6 +198,58 @@
         "id": "mpvinewood",
         "name": "The Diamond Casino & Resort",
         "releaseDate": "2019-07-23"
+      },
+      "details": {
+        "manufacturer": "Bravado",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "377_gauntlet4_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.015,
+            "y": -3.072,
+            "z": -0.394
+          },
+          "max": {
+            "x": 1.015,
+            "y": 2.57,
+            "z": 1.108
+          },
+          "length": 5.641,
+          "width": 2.029,
+          "height": 1.502,
+          "boundingRadius": 2.832
+        },
+        "defaultColors": [
+          {
+            "primary": 28,
+            "secondary": 28,
+            "pearl": 29,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_HAS_SUPERCHARGER"
+        ]
       },
       "stats": {
         "handlingId": "GAUNTLET4",
@@ -122,6 +282,58 @@
         "name": "The Diamond Casino & Resort",
         "releaseDate": "2019-07-23"
       },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "380_peyote2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.037,
+            "y": -2.829,
+            "z": -0.539
+          },
+          "max": {
+            "x": 1.037,
+            "y": 2.331,
+            "z": 1.045
+          },
+          "length": 5.161,
+          "width": 2.074,
+          "height": 1.583,
+          "boundingRadius": 2.805
+        },
+        "defaultColors": [
+          {
+            "primary": 28,
+            "secondary": 28,
+            "pearl": 29,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_CONVERTIBLE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_HAS_SUPERCHARGER"
+        ]
+      },
       "stats": {
         "handlingId": "PEYOTE2",
         "mass": 2100,
@@ -152,6 +364,89 @@
         "id": "mpvinewood",
         "name": "The Diamond Casino & Resort",
         "releaseDate": "2019-07-23"
+      },
+      "details": {
+        "manufacturer": "Weeny",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "371_Dynasty_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.911,
+            "y": -2.546,
+            "z": -0.322
+          },
+          "max": {
+            "x": 1.076,
+            "y": 2.126,
+            "z": 1.724
+          },
+          "length": 4.671,
+          "width": 1.987,
+          "height": 2.046,
+          "boundingRadius": 2.531
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 31,
+            "pearl": 131,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 34,
+            "secondary": 93,
+            "pearl": 131,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 61,
+            "secondary": 60,
+            "pearl": 131,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 70,
+            "secondary": 5,
+            "pearl": 131,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 154,
+            "secondary": 128,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_USE_STRICTER_EXIT_COLLISION_TESTS",
+          "FLAG_DROP_SUSPENSION_WHEN_STOPPED",
+          "FLAG_USE_RESTRICTED_DRIVEBY_HEIGHT_HIGH",
+          "FLAG_CARGOBOB_HOOK_UP_CHASSIS"
+        ]
       },
       "stats": {
         "handlingId": "DYNASTY",
@@ -184,6 +479,59 @@
         "name": "The Diamond Casino & Resort",
         "releaseDate": "2019-07-23"
       },
+      "details": {
+        "manufacturer": "Vulcar",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "372_nebula_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.91,
+            "y": -2.622,
+            "z": -0.409
+          },
+          "max": {
+            "x": 0.91,
+            "y": 2.323,
+            "z": 1.322
+          },
+          "length": 4.945,
+          "width": 1.82,
+          "height": 1.731,
+          "boundingRadius": 2.671
+        },
+        "defaultColors": [
+          {
+            "primary": 4,
+            "secondary": 4,
+            "pearl": 134,
+            "wheels": 156,
+            "interior": 160,
+            "dashboard": 160
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_HAS_SUPERCHARGER",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
+      },
       "stats": {
         "handlingId": "NEBULA",
         "mass": 1320,
@@ -214,6 +562,60 @@
         "id": "mpvinewood",
         "name": "The Diamond Casino & Resort",
         "releaseDate": "2019-07-23"
+      },
+      "details": {
+        "manufacturer": "Ubermacht",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "364_zion3_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.995,
+            "y": -2.375,
+            "z": -0.354
+          },
+          "max": {
+            "x": 0.995,
+            "y": 2.271,
+            "z": 1.325
+          },
+          "length": 4.645,
+          "width": 1.99,
+          "height": 1.679,
+          "boundingRadius": 2.579
+        },
+        "defaultColors": [
+          {
+            "primary": 112,
+            "secondary": 112,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD",
+          "FLAG_CARGOBOB_HOOK_UP_CHASSIS"
+        ]
       },
       "stats": {
         "handlingId": "ZION3",
@@ -246,6 +648,60 @@
         "name": "The Diamond Casino & Resort",
         "releaseDate": "2019-07-23"
       },
+      "details": {
+        "manufacturer": "Obey",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "373_drafter_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.005,
+            "y": -2.426,
+            "z": -0.52
+          },
+          "max": {
+            "x": 1.005,
+            "y": 2.401,
+            "z": 0.958
+          },
+          "length": 4.828,
+          "width": 2.011,
+          "height": 1.478,
+          "boundingRadius": 2.639
+        },
+        "defaultColors": [
+          {
+            "primary": 9,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
+      },
       "stats": {
         "handlingId": "DRAFTER",
         "mass": 1650,
@@ -276,6 +732,60 @@
         "id": "mpvinewood",
         "name": "The Diamond Casino & Resort",
         "releaseDate": "2019-07-23"
+      },
+      "details": {
+        "manufacturer": "Weeny",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "367_issi7_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.98,
+            "y": -1.901,
+            "z": -0.65
+          },
+          "max": {
+            "x": 0.98,
+            "y": 2.11,
+            "z": 0.845
+          },
+          "length": 4.011,
+          "width": 1.959,
+          "height": 1.495,
+          "boundingRadius": 2.247
+        },
+        "defaultColors": [
+          {
+            "primary": 112,
+            "secondary": 112,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 112,
+            "dashboard": 112
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD",
+          "FLAG_EXTRAS_REQUIRE"
+        ]
       },
       "stats": {
         "handlingId": "ISSI7",
@@ -308,6 +818,102 @@
         "name": "The Diamond Casino & Resort",
         "releaseDate": "2019-07-23"
       },
+      "details": {
+        "manufacturer": "Ocelot",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "383_jugular_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.02,
+            "y": -2.6,
+            "z": -0.443
+          },
+          "max": {
+            "x": 1.02,
+            "y": 2.364,
+            "z": 1.116
+          },
+          "length": 4.963,
+          "width": 2.039,
+          "height": 1.559,
+          "boundingRadius": 2.731
+        },
+        "defaultColors": [
+          {
+            "primary": 36,
+            "secondary": 0,
+            "pearl": 89,
+            "wheels": 111,
+            "interior": 3,
+            "dashboard": 111
+          },
+          {
+            "primary": 73,
+            "secondary": 0,
+            "pearl": 70,
+            "wheels": 111,
+            "interior": 3,
+            "dashboard": 111
+          },
+          {
+            "primary": 53,
+            "secondary": 0,
+            "pearl": 55,
+            "wheels": 111,
+            "interior": 3,
+            "dashboard": 111
+          },
+          {
+            "primary": 88,
+            "secondary": 0,
+            "pearl": 36,
+            "wheels": 111,
+            "interior": 3,
+            "dashboard": 111
+          },
+          {
+            "primary": 6,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 3,
+            "dashboard": 111
+          },
+          {
+            "primary": 31,
+            "secondary": 0,
+            "pearl": 37,
+            "wheels": 111,
+            "interior": 3,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
+      },
       "stats": {
         "handlingId": "JUGULAR",
         "mass": 1745,
@@ -338,6 +944,120 @@
         "id": "mpvinewood",
         "name": "The Diamond Casino & Resort",
         "releaseDate": "2019-07-23"
+      },
+      "details": {
+        "manufacturer": "Ocelot",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "368_locust_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.009,
+            "y": -2.202,
+            "z": -0.404
+          },
+          "max": {
+            "x": 1.009,
+            "y": 2.202,
+            "z": 0.835
+          },
+          "length": 4.405,
+          "width": 2.019,
+          "height": 1.238,
+          "boundingRadius": 2.35
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 14,
+            "dashboard": 131
+          },
+          {
+            "primary": 88,
+            "secondary": 88,
+            "pearl": 89,
+            "wheels": 156,
+            "interior": 14,
+            "dashboard": 88
+          },
+          {
+            "primary": 36,
+            "secondary": 36,
+            "pearl": 88,
+            "wheels": 156,
+            "interior": 14,
+            "dashboard": 41
+          },
+          {
+            "primary": 30,
+            "secondary": 30,
+            "pearl": 88,
+            "wheels": 156,
+            "interior": 14,
+            "dashboard": 39
+          },
+          {
+            "primary": 62,
+            "secondary": 62,
+            "pearl": 73,
+            "wheels": 156,
+            "interior": 14,
+            "dashboard": 39
+          },
+          {
+            "primary": 51,
+            "secondary": 88,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 14,
+            "dashboard": 39
+          },
+          {
+            "primary": 36,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 14,
+            "dashboard": 41
+          },
+          {
+            "primary": 30,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 14,
+            "dashboard": 39
+          },
+          {
+            "primary": 62,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 14,
+            "dashboard": 39
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO"
+        ]
       },
       "stats": {
         "handlingId": "LOCUST",
@@ -370,6 +1090,83 @@
         "name": "The Diamond Casino & Resort",
         "releaseDate": "2019-07-23"
       },
+      "details": {
+        "manufacturer": "Vysser",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "379_neo_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.257,
+            "y": -2.405,
+            "z": -0.358
+          },
+          "max": {
+            "x": 1.257,
+            "y": 2.367,
+            "z": 0.896
+          },
+          "length": 4.772,
+          "width": 2.515,
+          "height": 1.254,
+          "boundingRadius": 2.592
+        },
+        "defaultColors": [
+          {
+            "primary": 93,
+            "secondary": 146,
+            "pearl": 157,
+            "wheels": 143,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 20,
+            "secondary": 1,
+            "pearl": 24,
+            "wheels": 137,
+            "interior": 13,
+            "dashboard": 65
+          },
+          {
+            "primary": 27,
+            "secondary": 27,
+            "pearl": 111,
+            "wheels": 112,
+            "interior": 29,
+            "dashboard": 65
+          },
+          {
+            "primary": 67,
+            "secondary": 147,
+            "pearl": 111,
+            "wheels": 131,
+            "interior": 3,
+            "dashboard": 65
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN",
+          "FLAG_FRONT_BOOT"
+        ]
+      },
       "stats": {
         "handlingId": "NEO",
         "mass": 1390,
@@ -400,6 +1197,58 @@
         "id": "mpvinewood",
         "name": "The Diamond Casino & Resort",
         "releaseDate": "2019-07-23"
+      },
+      "details": {
+        "manufacturer": "Enus",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "384_paragon_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.004,
+            "y": -2.609,
+            "z": -0.408
+          },
+          "max": {
+            "x": 1.004,
+            "y": 2.469,
+            "z": 1.041
+          },
+          "length": 5.078,
+          "width": 2.008,
+          "height": 1.45,
+          "boundingRadius": 2.783
+        },
+        "defaultColors": [
+          {
+            "primary": 57,
+            "secondary": 57,
+            "pearl": 55,
+            "wheels": 13,
+            "interior": 13,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_HAS_SUPERCHARGER"
+        ]
       },
       "stats": {
         "handlingId": "PARAGON",
@@ -432,6 +1281,63 @@
         "name": "The Diamond Casino & Resort",
         "releaseDate": "2019-07-23"
       },
+      "details": {
+        "manufacturer": "Enus",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "384_paragon_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_PARAGON2_MG"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.004,
+            "y": -2.609,
+            "z": -0.408
+          },
+          "max": {
+            "x": 1.004,
+            "y": 2.469,
+            "z": 1.041
+          },
+          "length": 5.078,
+          "width": 2.008,
+          "height": 1.45,
+          "boundingRadius": 2.783
+        },
+        "defaultColors": [
+          {
+            "primary": 13,
+            "secondary": 13,
+            "pearl": 0,
+            "wheels": 13,
+            "interior": 13,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_HAS_SUPERCHARGER",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS",
+          "FLAG_HAS_CAPPED_EXPLOSION_DAMAGE"
+        ]
+      },
       "stats": {
         "handlingId": "PARAGON2",
         "mass": 2555,
@@ -462,6 +1368,84 @@
         "id": "mpvinewood",
         "name": "The Diamond Casino & Resort",
         "releaseDate": "2019-07-23"
+      },
+      "details": {
+        "manufacturer": "Progen",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "381_emerus_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.123,
+            "y": -2.782,
+            "z": -0.28
+          },
+          "max": {
+            "x": 1.123,
+            "y": 2.501,
+            "z": 1.008
+          },
+          "length": 5.283,
+          "width": 2.247,
+          "height": 1.288,
+          "boundingRadius": 2.796
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 14,
+            "dashboard": 131
+          },
+          {
+            "primary": 36,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 14,
+            "dashboard": 131
+          },
+          {
+            "primary": 30,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 14,
+            "dashboard": 131
+          },
+          {
+            "primary": 62,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 14,
+            "dashboard": 131
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_EXTRAS_REQUIRE"
+        ]
       },
       "stats": {
         "handlingId": "EMERUS",
@@ -494,6 +1478,110 @@
         "name": "The Diamond Casino & Resort",
         "releaseDate": "2019-07-23"
       },
+      "details": {
+        "manufacturer": "Benefactor",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "378_krieger_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.054,
+            "y": -2.444,
+            "z": -0.563
+          },
+          "max": {
+            "x": 1.054,
+            "y": 2.323,
+            "z": 0.603
+          },
+          "length": 4.767,
+          "width": 2.108,
+          "height": 1.166,
+          "boundingRadius": 2.485
+        },
+        "defaultColors": [
+          {
+            "primary": 93,
+            "secondary": 146,
+            "pearl": 157,
+            "wheels": 143,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 16,
+            "secondary": 143,
+            "pearl": 144,
+            "wheels": 21,
+            "interior": 22,
+            "dashboard": 65
+          },
+          {
+            "primary": 27,
+            "secondary": 33,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 33,
+            "dashboard": 65
+          },
+          {
+            "primary": 112,
+            "secondary": 70,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 28,
+            "secondary": 1,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 116,
+            "dashboard": 65
+          },
+          {
+            "primary": 88,
+            "secondary": 1,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 116,
+            "dashboard": 65
+          },
+          {
+            "primary": 4,
+            "secondary": 1,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 116,
+            "dashboard": 65
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_HAS_GULL_WING_DOORS",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG"
+        ]
+      },
       "stats": {
         "handlingId": "KRIEGER",
         "mass": 1250,
@@ -524,6 +1612,88 @@
         "id": "mpvinewood",
         "name": "The Diamond Casino & Resort",
         "releaseDate": "2019-07-23"
+      },
+      "details": {
+        "manufacturer": "Annis",
+        "type": "CAR",
+        "seats": 1,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "376_s80_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.047,
+            "y": -2.537,
+            "z": -0.24
+          },
+          "max": {
+            "x": 1.047,
+            "y": 2.275,
+            "z": 0.877
+          },
+          "length": 4.812,
+          "width": 2.094,
+          "height": 1.117,
+          "boundingRadius": 2.647
+        },
+        "defaultColors": [
+          {
+            "primary": 6,
+            "secondary": 6,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 27,
+            "secondary": 27,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 73,
+            "secondary": 73,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 88,
+            "secondary": 88,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_FRONT_BOOT",
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN",
+          "FLAG_HAS_GULL_WING_DOORS",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_USE_RESTRICTED_DRIVEBY_HEIGHT_MID_ONLY"
+        ]
       },
       "stats": {
         "handlingId": "S80",
@@ -556,6 +1726,108 @@
         "name": "The Diamond Casino & Resort",
         "releaseDate": "2019-07-23"
       },
+      "details": {
+        "manufacturer": "Truffade",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "366_thrax_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.034,
+            "y": -2.452,
+            "z": -0.306
+          },
+          "max": {
+            "x": 1.02,
+            "y": 2.366,
+            "z": 1.02
+          },
+          "length": 4.818,
+          "width": 2.053,
+          "height": 1.325,
+          "boundingRadius": 2.54
+        },
+        "defaultColors": [
+          {
+            "primary": 93,
+            "secondary": 146,
+            "pearl": 157,
+            "wheels": 143,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 16,
+            "secondary": 143,
+            "pearl": 144,
+            "wheels": 21,
+            "interior": 22,
+            "dashboard": 65
+          },
+          {
+            "primary": 27,
+            "secondary": 33,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 33,
+            "dashboard": 65
+          },
+          {
+            "primary": 112,
+            "secondary": 70,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 28,
+            "secondary": 1,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 116,
+            "dashboard": 65
+          },
+          {
+            "primary": 88,
+            "secondary": 1,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 116,
+            "dashboard": 65
+          },
+          {
+            "primary": 4,
+            "secondary": 1,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 116,
+            "dashboard": 65
+          }
+        ],
+        "flags": [
+          "FLAG_FRONT_BOOT",
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS"
+        ]
+      },
       "stats": {
         "handlingId": "THRAX",
         "mass": 1960,
@@ -586,6 +1858,89 @@
         "id": "mpvinewood",
         "name": "The Diamond Casino & Resort",
         "releaseDate": "2019-07-23"
+      },
+      "details": {
+        "manufacturer": "Pegassi",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "369_zorrusso_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.103,
+            "y": -2.549,
+            "z": -0.555
+          },
+          "max": {
+            "x": 1.103,
+            "y": 2.493,
+            "z": 0.843
+          },
+          "length": 5.041,
+          "width": 2.206,
+          "height": 1.398,
+          "boundingRadius": 2.64
+        },
+        "defaultColors": [
+          {
+            "primary": 112,
+            "secondary": 1,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 112,
+            "secondary": 29,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 1,
+            "secondary": 29,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 70,
+            "secondary": 112,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 88,
+            "secondary": 112,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO"
+        ]
       },
       "stats": {
         "handlingId": "ZORRUSSO",
@@ -618,6 +1973,60 @@
         "name": "The Diamond Casino & Resort",
         "releaseDate": "2019-07-23"
       },
+      "details": {
+        "manufacturer": "Western",
+        "type": "QUADBIKE",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 3,
+        "modKits": [
+          "382_rrocket_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.846,
+            "y": -1.78,
+            "z": -0.3
+          },
+          "max": {
+            "x": 0.846,
+            "y": 2.656,
+            "z": 1.339
+          },
+          "length": 4.437,
+          "width": 1.691,
+          "height": 1.639,
+          "boundingRadius": 2.162
+        },
+        "defaultColors": [
+          {
+            "primary": 113,
+            "secondary": 113,
+            "pearl": 111,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_IS_QUADBIKE_USING_BIKE_ANIMATIONS"
+        ]
+      },
       "stats": {
         "handlingId": "RROCKET",
         "mass": 1140,
@@ -649,6 +2058,99 @@
         "name": "The Diamond Casino & Resort",
         "releaseDate": "2019-07-23"
       },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "375_caracara2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.125,
+            "y": -3.348,
+            "z": -0.737
+          },
+          "max": {
+            "x": 1.125,
+            "y": 3.076,
+            "z": 1.698
+          },
+          "length": 6.424,
+          "width": 2.251,
+          "height": 2.436,
+          "boundingRadius": 3.485
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 120,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 156
+          },
+          {
+            "primary": 29,
+            "secondary": 134,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 156
+          },
+          {
+            "primary": 2,
+            "secondary": 120,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 156
+          },
+          {
+            "primary": 38,
+            "secondary": 120,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 156
+          },
+          {
+            "primary": 64,
+            "secondary": 120,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 156
+          },
+          {
+            "primary": 89,
+            "secondary": 120,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_IS_BULKY",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
+      },
       "stats": {
         "handlingId": "CARACARA2",
         "mass": 2480,
@@ -679,6 +2181,77 @@
         "id": "mpvinewood",
         "name": "The Diamond Casino & Resort",
         "releaseDate": "2019-07-23"
+      },
+      "details": {
+        "manufacturer": "Annis",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "365_hellion_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.104,
+            "y": -2.607,
+            "z": -0.641
+          },
+          "max": {
+            "x": 1.104,
+            "y": 2.521,
+            "z": 1.572
+          },
+          "length": 5.127,
+          "width": 2.207,
+          "height": 2.212,
+          "boundingRadius": 2.863
+        },
+        "defaultColors": [
+          {
+            "primary": 79,
+            "secondary": 12,
+            "pearl": 4,
+            "wheels": 1,
+            "interior": 1,
+            "dashboard": 0
+          },
+          {
+            "primary": 132,
+            "secondary": 35,
+            "pearl": 18,
+            "wheels": 1,
+            "interior": 1,
+            "dashboard": 0
+          },
+          {
+            "primary": 117,
+            "secondary": 112,
+            "pearl": 112,
+            "wheels": 112,
+            "interior": 13,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_IS_BULKY",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG"
+        ]
       },
       "stats": {
         "handlingId": "HELLION",

@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "id": "mpheist",
@@ -28,6 +28,55 @@
         "id": "mpheist",
         "name": "The Heists Update",
         "releaseDate": "2015-03-10"
+      },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "159_slamvan_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.161,
+            "y": -2.7,
+            "z": -0.648
+          },
+          "max": {
+            "x": 1.169,
+            "y": 2.398,
+            "z": 1.529
+          },
+          "length": 5.098,
+          "width": 2.33,
+          "height": 2.177,
+          "boundingRadius": 2.889
+        },
+        "defaultColors": [
+          {
+            "primary": 12,
+            "secondary": 12,
+            "pearl": 3,
+            "wheels": 27,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_HAS_LIVERY",
+          "FLAG_USE_STRICTER_EXIT_COLLISION_TESTS"
+        ]
       },
       "stats": {
         "handlingId": "SLAMVAN2",
@@ -60,6 +109,83 @@
         "name": "The Heists Update",
         "releaseDate": "2015-03-10"
       },
+      "details": {
+        "manufacturer": "Lampadati",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.944,
+            "y": -2.409,
+            "z": -0.197
+          },
+          "max": {
+            "x": 0.944,
+            "y": 2.187,
+            "z": 1.14
+          },
+          "length": 4.596,
+          "width": 1.889,
+          "height": 1.337,
+          "boundingRadius": 2.503
+        },
+        "defaultColors": [
+          {
+            "primary": 28,
+            "secondary": 28,
+            "pearl": 28,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 31,
+            "secondary": 31,
+            "pearl": 28,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 89,
+            "secondary": 89,
+            "pearl": 89,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 50,
+            "secondary": 89,
+            "pearl": 53,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_EXTRAS_CONVERTIBLE",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN"
+        ]
+      },
       "stats": {
         "handlingId": "CASCO",
         "mass": 1100,
@@ -90,6 +216,175 @@
         "id": "mpheist",
         "name": "The Heists Update",
         "releaseDate": "2015-03-10"
+      },
+      "details": {
+        "manufacturer": "Karin",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "110_kuruma_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.956,
+            "y": -2.695,
+            "z": -0.733
+          },
+          "max": {
+            "x": 0.956,
+            "y": 2.212,
+            "z": 0.817
+          },
+          "length": 4.907,
+          "width": 1.912,
+          "height": 1.55,
+          "boundingRadius": 2.511
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 10,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 1,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 2,
+            "secondary": 2,
+            "pearl": 7,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 4,
+            "secondary": 4,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 6,
+            "secondary": 6,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 30,
+            "secondary": 30,
+            "pearl": 36,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 65,
+            "secondary": 65,
+            "pearl": 68,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 34,
+            "secondary": 34,
+            "pearl": 33,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 64,
+            "secondary": 64,
+            "pearl": 68,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 37,
+            "secondary": 37,
+            "pearl": 106,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 68,
+            "secondary": 68,
+            "pearl": 64,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 5,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 7,
+            "secondary": 7,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 9,
+            "secondary": 9,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR"
+        ]
       },
       "stats": {
         "handlingId": "KURUMA",
@@ -122,6 +417,56 @@
         "name": "The Heists Update",
         "releaseDate": "2015-03-10"
       },
+      "details": {
+        "manufacturer": "Karin",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "110_kuruma_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.956,
+            "y": -2.695,
+            "z": -0.733
+          },
+          "max": {
+            "x": 0.956,
+            "y": 2.212,
+            "z": 0.817
+          },
+          "length": 4.907,
+          "width": 1.913,
+          "height": 1.55,
+          "boundingRadius": 2.512
+        },
+        "defaultColors": [
+          {
+            "primary": 12,
+            "secondary": 12,
+            "pearl": 13,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_DISABLE_THROUGH_WINDSCREEN",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR"
+        ]
+      },
       "stats": {
         "handlingId": "KURUMA2",
         "mass": 3200,
@@ -152,6 +497,123 @@
         "id": "mpheist",
         "name": "The Heists Update",
         "releaseDate": "2015-03-10"
+      },
+      "details": {
+        "manufacturer": "Dinka",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "109_enduro_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.413,
+            "y": -1.077,
+            "z": -0.493
+          },
+          "max": {
+            "x": 0.413,
+            "y": 1.14,
+            "z": 0.841
+          },
+          "length": 2.217,
+          "width": 0.827,
+          "height": 1.334,
+          "boundingRadius": 1.196
+        },
+        "defaultColors": [
+          {
+            "primary": 6,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 4,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 11,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 28,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 33,
+            "secondary": 127,
+            "pearl": 90,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 62,
+            "secondary": 1,
+            "pearl": 62,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 38,
+            "secondary": 35,
+            "pearl": 88,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 92,
+            "secondary": 0,
+            "pearl": 89,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 1,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_HAS_LIVERY",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
       },
       "stats": {
         "handlingId": "ENDURO",
@@ -184,6 +646,89 @@
         "name": "The Heists Update",
         "releaseDate": "2015-03-10"
       },
+      "details": {
+        "manufacturer": "Principe",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "0_bike_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": true
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.362,
+            "y": -1.033,
+            "z": -0.578
+          },
+          "max": {
+            "x": 0.362,
+            "y": 1.062,
+            "z": 1.397
+          },
+          "length": 2.094,
+          "width": 0.724,
+          "height": 1.975,
+          "boundingRadius": 1.061
+        },
+        "defaultColors": [
+          {
+            "primary": 28,
+            "secondary": 93,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 3,
+            "secondary": 93,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 3,
+            "secondary": 31,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 28,
+            "secondary": 28,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 88,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
+      },
       "stats": {
         "handlingId": "LECTRO",
         "mass": 250,
@@ -214,6 +759,100 @@
         "id": "mpheist",
         "name": "The Heists Update",
         "releaseDate": "2015-03-10"
+      },
+      "details": {
+        "manufacturer": "HVY",
+        "type": "CAR",
+        "seats": 9,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_TURRET_INSURGENT"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.423,
+            "y": -3.243,
+            "z": -0.922
+          },
+          "max": {
+            "x": 1.417,
+            "y": 3,
+            "z": 2.241
+          },
+          "length": 6.243,
+          "width": 2.84,
+          "height": 3.163,
+          "boundingRadius": 3.673
+        },
+        "defaultColors": [
+          {
+            "primary": 13,
+            "secondary": 13,
+            "pearl": 18,
+            "wheels": 13,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 152,
+            "secondary": 152,
+            "pearl": 18,
+            "wheels": 152,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 153,
+            "secondary": 153,
+            "pearl": 18,
+            "wheels": 153,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 154,
+            "secondary": 154,
+            "pearl": 18,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 133,
+            "secondary": 133,
+            "pearl": 18,
+            "wheels": 133,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_IS_BULKY",
+          "FLAG_HAS_TURRET_SEAT_ON_VEHICLE",
+          "FLAG_CONSIDERED_FOR_VEHICLE_ENTRY_WHEN_STOOD_ON",
+          "FLAG_EXTRAS_ONLY_BREAK_WHEN_DESTROYED",
+          "FLAG_PREFER_ENTER_TURRET_AFTER_DRIVER",
+          "FLAG_HAS_DIRECTIONAL_SHUFFLES",
+          "FLAG_USE_SMALLER_OPEN_DOOR_RATIO_TOLERANCE",
+          "FLAG_DONT_STOP_WHEN_GOING_TO_CLIMB_UP_POINT",
+          "FLAG_DISABLE_BUSTING"
+        ]
       },
       "stats": {
         "handlingId": "INSURGENT",
@@ -246,6 +885,94 @@
         "name": "The Heists Update",
         "releaseDate": "2015-03-10"
       },
+      "details": {
+        "manufacturer": "HVY",
+        "type": "CAR",
+        "seats": 9,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_TURRET_INSURGENT"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.423,
+            "y": -3.243,
+            "z": -0.922
+          },
+          "max": {
+            "x": 1.417,
+            "y": 3,
+            "z": 1.714
+          },
+          "length": 6.243,
+          "width": 2.84,
+          "height": 2.636,
+          "boundingRadius": 3.591
+        },
+        "defaultColors": [
+          {
+            "primary": 13,
+            "secondary": 13,
+            "pearl": 18,
+            "wheels": 13,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 152,
+            "secondary": 152,
+            "pearl": 18,
+            "wheels": 152,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 153,
+            "secondary": 153,
+            "pearl": 18,
+            "wheels": 153,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 154,
+            "secondary": 154,
+            "pearl": 18,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 133,
+            "secondary": 133,
+            "pearl": 18,
+            "wheels": 133,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_IS_BULKY",
+          "FLAG_USE_SMALLER_OPEN_DOOR_RATIO_TOLERANCE",
+          "FLAG_DISABLE_BUSTING"
+        ]
+      },
       "stats": {
         "handlingId": "INSURGENT2",
         "mass": 8600,
@@ -276,6 +1003,64 @@
         "id": "mpheist",
         "name": "The Heists Update",
         "releaseDate": "2015-03-10"
+      },
+      "details": {
+        "manufacturer": "Karin",
+        "type": "CAR",
+        "seats": 3,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_TURRET_TECHNICAL"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.093,
+            "y": -2.491,
+            "z": -0.606
+          },
+          "max": {
+            "x": 1.093,
+            "y": 2.444,
+            "z": 2.094
+          },
+          "length": 4.936,
+          "width": 2.186,
+          "height": 2.701,
+          "boundingRadius": 2.922
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 12,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_IS_BULKY",
+          "FLAG_HAS_TURRET_SEAT_ON_VEHICLE",
+          "FLAG_DISABLE_AUTO_VAULT_ON_VEHICLE",
+          "FLAG_HAS_REAR_MOUNTED_TURRET"
+        ]
       },
       "stats": {
         "handlingId": "TECHNICAL",
@@ -308,6 +1093,63 @@
         "name": "The Heists Update",
         "releaseDate": "2015-03-10"
       },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 6,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "108_guardian_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.274,
+            "y": -3.514,
+            "z": -1.3
+          },
+          "max": {
+            "x": 1.274,
+            "y": 3.216,
+            "z": 1.481
+          },
+          "length": 6.73,
+          "width": 2.547,
+          "height": 2.782,
+          "boundingRadius": 3.746
+        },
+        "defaultColors": [
+          {
+            "primary": 12,
+            "secondary": 12,
+            "pearl": 13,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_CAN_HONK_WHEN_FLEEING",
+          "FLAG_AVOID_TURNS",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_USE_FAT_INTERIOR_LIGHT",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_CANNOT_TAKE_COVER_WHEN_STOOD_ON",
+          "FLAG_USE_FIVE_ANIM_THROW_FP"
+        ]
+      },
       "stats": {
         "handlingId": "GUARDIAN",
         "mass": 3800,
@@ -338,6 +1180,58 @@
         "id": "mpheist",
         "name": "The Heists Update",
         "releaseDate": "2015-03-10"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAILER",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.454,
+            "y": -6.291,
+            "z": -2.712
+          },
+          "max": {
+            "x": 1.454,
+            "y": 5.92,
+            "z": 1.339
+          },
+          "length": 12.21,
+          "width": 2.909,
+          "height": 4.051,
+          "boundingRadius": 6.552
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 111,
+            "pearl": 138,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_EXPLODE_ON_CONTACT",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_SPRAY_PETROL_BEFORE_EXPLOSION"
+        ]
       },
       "stats": {
         "handlingId": "TANKER",
@@ -370,6 +1264,60 @@
         "name": "The Heists Update",
         "releaseDate": "2015-03-10"
       },
+      "details": {
+        "manufacturer": "Brute",
+        "type": "CAR",
+        "seats": 6,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.142,
+            "y": -3.846,
+            "z": -0.915
+          },
+          "max": {
+            "x": 1.142,
+            "y": 2.503,
+            "z": 1.825
+          },
+          "length": 6.349,
+          "width": 2.284,
+          "height": 2.74,
+          "boundingRadius": 3.593
+        },
+        "defaultColors": [
+          {
+            "primary": 98,
+            "secondary": 98,
+            "pearl": 98,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_DELIVERY",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_DAMPEN_STICKBOMB_DAMAGE",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO"
+        ]
+      },
       "stats": {
         "handlingId": "BOXVILLE",
         "mass": 5500,
@@ -400,6 +1348,56 @@
         "id": "mpheist",
         "name": "The Heists Update",
         "releaseDate": "2015-03-10"
+      },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "107_gburrito2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.245,
+            "y": -2.852,
+            "z": -0.826
+          },
+          "max": {
+            "x": 1.245,
+            "y": 2.756,
+            "z": 1.434
+          },
+          "length": 5.607,
+          "width": 2.489,
+          "height": 2.261,
+          "boundingRadius": 3.229
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 29,
+            "pearl": 1,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_IS_BULKY",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS"
+        ]
       },
       "stats": {
         "handlingId": "GBURRITO2",
@@ -432,6 +1430,61 @@
         "name": "The Heists Update",
         "releaseDate": "2015-03-10"
       },
+      "details": {
+        "manufacturer": "Nagasaki",
+        "type": "BOAT",
+        "seats": 4,
+        "doors": 0,
+        "wheels": 0,
+        "modKits": [],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SEARCHLIGHT"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.489,
+            "y": -3.711,
+            "z": -0.644
+          },
+          "max": {
+            "x": 1.489,
+            "y": 4.102,
+            "z": 2.79
+          },
+          "length": 7.813,
+          "width": 2.977,
+          "height": 3.434,
+          "boundingRadius": 13.054
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 8,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_SPAWN_BOAT_ON_TRAILER",
+          "FLAG_EXTRAS_RARE",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_GIVE_SCUBA_GEAR_ON_EXIT"
+        ]
+      },
       "stats": {
         "handlingId": "DINGHY",
         "mass": 2000,
@@ -462,6 +1515,68 @@
         "id": "mpheist",
         "name": "The Heists Update",
         "releaseDate": "2015-03-10"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "HELI",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 3,
+        "modKits": [
+          "0_defaultspraypatch"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_PLAYER_SAVAGE",
+          "VEHICLE_WEAPON_SPACE_ROCKET"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -11.535,
+            "y": -12.599,
+            "z": -1.494
+          },
+          "max": {
+            "x": 11.535,
+            "y": 11.507,
+            "z": 5.373
+          },
+          "length": 24.106,
+          "width": 23.069,
+          "height": 6.867,
+          "boundingRadius": 17.891
+        },
+        "defaultColors": [
+          {
+            "primary": 154,
+            "secondary": 24,
+            "pearl": 13,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_HELI_USES_FIXUPS_ON_OPEN_DOOR",
+          "FLAG_USE_PILOT_HELMET",
+          "FLAG_DISABLE_WEAPON_WHEEL_IN_FIRST_PERSON",
+          "FLAG_HELICOPTER_WITH_LANDING_GEAR",
+          "FLAG_HAS_CAPPED_EXPLOSION_DAMAGE"
+        ]
       },
       "stats": {
         "handlingId": "SAVAGE",
@@ -494,6 +1609,65 @@
         "name": "The Heists Update",
         "releaseDate": "2015-03-10"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "HELI",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "0_defaultspraypatch"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_NOSE_TURRET_VALKYRIE",
+          "VEHICLE_WEAPON_TURRET_VALKYRIE"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -7.78,
+            "y": -10.729,
+            "z": -1.416
+          },
+          "max": {
+            "x": 7.78,
+            "y": 7.724,
+            "z": 3.25
+          },
+          "length": 18.453,
+          "width": 15.56,
+          "height": 4.666,
+          "boundingRadius": 12.709
+        },
+        "defaultColors": [
+          {
+            "primary": 14,
+            "secondary": 12,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_LAW_ENFORCEMENT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_HAS_TURRET_SEAT_ON_VEHICLE",
+          "FLAG_USE_TURRET_RELATIVE_AIM_CALCULATION"
+        ]
+      },
       "stats": {
         "handlingId": "VALKYR",
         "mass": 6500,
@@ -524,6 +1698,65 @@
         "id": "mpheist",
         "name": "The Heists Update",
         "releaseDate": "2015-03-10"
+      },
+      "details": {
+        "manufacturer": "Mammoth",
+        "type": "PLANE",
+        "seats": 1,
+        "doors": 1,
+        "wheels": 5,
+        "modKits": [
+          "0_defaultspraypatch"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_PLAYER_LAZER",
+          "VEHICLE_WEAPON_SPACE_ROCKET"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -5.638,
+            "y": -8.943,
+            "z": -1.577
+          },
+          "max": {
+            "x": 5.638,
+            "y": 8.027,
+            "z": 2.43
+          },
+          "length": 16.97,
+          "width": 11.276,
+          "height": 4.008,
+          "boundingRadius": 10.321
+        },
+        "defaultColors": [
+          {
+            "primary": 121,
+            "secondary": 121,
+            "pearl": 8,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_PILOT_HELMET",
+          "FLAG_DISABLE_WEAPON_WHEEL_IN_FIRST_PERSON",
+          "FLAG_HAS_EJECTOR_SEATS"
+        ]
       },
       "stats": {
         "handlingId": "HYDRA",
@@ -556,6 +1789,100 @@
         "name": "The Heists Update",
         "releaseDate": "2015-03-10"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "PLANE",
+        "seats": 5,
+        "doors": 3,
+        "wheels": 3,
+        "modKits": [
+          "0_defaultspraypatch"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": true,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -6.452,
+            "y": -6.308,
+            "z": -2.21
+          },
+          "max": {
+            "x": 6.452,
+            "y": 5.143,
+            "z": 2.432
+          },
+          "length": 11.451,
+          "width": 12.903,
+          "height": 4.642,
+          "boundingRadius": 8.854
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 84,
+            "pearl": 111,
+            "wheels": 5,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 27,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 99,
+            "pearl": 111,
+            "wheels": 96,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 42,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 30,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 30,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_HAS_LIVERY",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HEADLIGHTS_ON_LANDINGGEAR",
+          "FLAG_DONT_TIMESLICE_WHEELS"
+        ]
+      },
       "stats": {
         "handlingId": "velum",
         "mass": 5000,
@@ -586,6 +1913,58 @@
         "id": "mpheist",
         "name": "The Heists Update",
         "releaseDate": "2015-03-10"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 6,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.551,
+            "y": -5.637,
+            "z": -0.761
+          },
+          "max": {
+            "x": 1.551,
+            "y": 4.514,
+            "z": 3.017
+          },
+          "length": 10.152,
+          "width": 3.101,
+          "height": 3.777,
+          "boundingRadius": 5.452
+        },
+        "defaultColors": [
+          {
+            "primary": 85,
+            "secondary": 59,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_AVOID_TURNS",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_USE_FAT_INTERIOR_LIGHT",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_PEDS_CAN_STAND_ON_TOP"
+        ]
       },
       "stats": {
         "handlingId": "trash",
@@ -618,6 +1997,57 @@
         "name": "The Heists Update",
         "releaseDate": "2015-03-10"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 10,
+        "doors": 2,
+        "wheels": 6,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.438,
+            "y": -4.764,
+            "z": -0.659
+          },
+          "max": {
+            "x": 1.428,
+            "y": 4.529,
+            "z": 2.932
+          },
+          "length": 9.294,
+          "width": 2.866,
+          "height": 3.591,
+          "boundingRadius": 3.21
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 0,
+            "pearl": 132,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_AVOID_TURNS",
+          "FLAG_USE_FAT_INTERIOR_LIGHT",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
+      },
       "stats": {
         "handlingId": "BARRACKS",
         "mass": 9000,
@@ -648,6 +2078,90 @@
         "id": "mpheist",
         "name": "The Heists Update",
         "releaseDate": "2015-03-10"
+      },
+      "details": {
+        "manufacturer": "Maibatsu",
+        "type": "CAR",
+        "seats": 6,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.359,
+            "y": -4.258,
+            "z": -1.255
+          },
+          "max": {
+            "x": 1.359,
+            "y": 3.819,
+            "z": 2.494
+          },
+          "length": 8.077,
+          "width": 2.719,
+          "height": 3.75,
+          "boundingRadius": 4.541
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 1,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 1,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 110,
+            "secondary": 0,
+            "pearl": 110,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_DELIVERY",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_INTERIOR_BLOCKED_BY_BOOT"
+        ]
       },
       "stats": {
         "handlingId": "MULE3",

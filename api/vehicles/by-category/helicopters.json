@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "name": "Helicopters",
@@ -26,6 +26,108 @@
         "id": "mpchristmas2017",
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "HELI",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 3,
+        "modKits": [
+          "256_akula_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_AKULA_TURRET_SINGLE",
+          "VEHICLE_WEAPON_AKULA_MISSILE",
+          "VEHICLE_WEAPON_AKULA_TURRET_DUAL",
+          "VEHICLE_WEAPON_AKULA_MINIGUN",
+          "VEHICLE_WEAPON_AKULA_BARRAGE"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -7.696,
+            "y": -6.328,
+            "z": -2.22
+          },
+          "max": {
+            "x": 7.696,
+            "y": 11.257,
+            "z": 2.246
+          },
+          "length": 17.585,
+          "width": 15.391,
+          "height": 4.466,
+          "boundingRadius": 11.707
+        },
+        "defaultColors": [
+          {
+            "primary": 152,
+            "secondary": 13,
+            "pearl": 154,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 154,
+            "secondary": 13,
+            "pearl": 154,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 14,
+            "secondary": 13,
+            "pearl": 14,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 151,
+            "secondary": 13,
+            "pearl": 14,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 153,
+            "secondary": 13,
+            "pearl": 14,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_HELICOPTER_WITH_LANDING_GEAR",
+          "FLAG_HELI_USES_FIXUPS_ON_OPEN_DOOR",
+          "FLAG_HAS_TURRET_SEAT_ON_VEHICLE",
+          "FLAG_DISABLE_WEAPON_WHEEL_IN_FIRST_PERSON",
+          "FLAG_USE_TURRET_RELATIVE_AIM_CALCULATION",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_USE_PILOT_HELMET",
+          "FLAG_HAS_CAPPED_EXPLOSION_DAMAGE",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_CHECK_WARP_TASK_FLAG_DURING_ENTER"
+        ]
       },
       "stats": {
         "handlingId": "AKULA",
@@ -58,6 +160,66 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "HELI",
+        "seats": 6,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "0_defaultspraypatch"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_PLAYER_BUZZARD",
+          "VEHICLE_WEAPON_SPACE_ROCKET"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -11.002,
+            "y": -11.708,
+            "z": -0.75
+          },
+          "max": {
+            "x": 11.002,
+            "y": 10.989,
+            "z": 5.089
+          },
+          "length": 22.697,
+          "width": 22.005,
+          "height": 5.839,
+          "boundingRadius": 16.893
+        },
+        "defaultColors": [
+          {
+            "primary": 21,
+            "secondary": 21,
+            "pearl": 2,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_LAW_ENFORCEMENT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_ALLOWS_RAPPEL",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_DISABLE_WEAPON_WHEEL_IN_FIRST_PERSON",
+          "FLAG_USE_PILOT_HELMET"
+        ]
+      },
       "stats": {
         "handlingId": "ANNIHL",
         "mass": 13000,
@@ -88,6 +250,67 @@
         "id": "mpheist4",
         "name": "The Cayo Perico Heist",
         "releaseDate": "2020-12-15"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "HELI",
+        "seats": 6,
+        "doors": 2,
+        "wheels": 3,
+        "modKits": [
+          "448_annihilator2_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_ANNIHILATOR2_MINI",
+          "VEHICLE_WEAPON_ANNIHILATOR2_MISSILE",
+          "VEHICLE_WEAPON_ANNIHILATOR2_BARRAGE"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -8.374,
+            "y": -10.738,
+            "z": -0.75
+          },
+          "max": {
+            "x": 8.376,
+            "y": 8.542,
+            "z": 4.575
+          },
+          "length": 19.28,
+          "width": 16.75,
+          "height": 5.325,
+          "boundingRadius": 13.677
+        },
+        "defaultColors": [
+          {
+            "primary": 22,
+            "secondary": 22,
+            "pearl": 21,
+            "wheels": 22,
+            "interior": 0,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_ALLOWS_RAPPEL",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_PILOT_HELMET",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HELICOPTER_WITH_LANDING_GEAR"
+        ]
       },
       "stats": {
         "handlingId": "ANNIHLATOR2",
@@ -120,6 +343,67 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "HELI",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "0_defaultspraypatch"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_PLAYER_BUZZARD",
+          "VEHICLE_WEAPON_SPACE_ROCKET",
+          "VEHICLE_WEAPON_SEARCHLIGHT"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -6.018,
+            "y": -6.866,
+            "z": -0.953
+          },
+          "max": {
+            "x": 6.035,
+            "y": 5.161,
+            "z": 3.131
+          },
+          "length": 12.027,
+          "width": 12.054,
+          "height": 4.084,
+          "boundingRadius": 9.003
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_ALLOW_RAPPEL_AI_ONLY",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_PILOT_HELMET",
+          "FLAG_DISABLE_WEAPON_WHEEL_IN_FIRST_PERSON"
+        ]
+      },
       "stats": {
         "handlingId": "BUZZARD",
         "mass": 3800,
@@ -150,6 +434,63 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "HELI",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SEARCHLIGHT"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -6.018,
+            "y": -6.866,
+            "z": -0.953
+          },
+          "max": {
+            "x": 6.035,
+            "y": 5.161,
+            "z": 3.145
+          },
+          "length": 12.027,
+          "width": 12.054,
+          "height": 4.098,
+          "boundingRadius": 9.003
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 112,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_ALLOW_RAPPEL_AI_ONLY",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_PILOT_HELMET",
+          "FLAG_DISABLE_WEAPON_WHEEL_IN_FIRST_PERSON"
+        ]
       },
       "stats": {
         "handlingId": "BUZZARD2",
@@ -182,6 +523,62 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "HELI",
+        "seats": 10,
+        "doors": 3,
+        "wheels": 3,
+        "modKits": [
+          "0_defaultspraypatch"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -6.618,
+            "y": -11.748,
+            "z": -1.459
+          },
+          "max": {
+            "x": 6.618,
+            "y": 10.756,
+            "z": 3.822
+          },
+          "length": 22.504,
+          "width": 13.235,
+          "height": 5.281,
+          "boundingRadius": 13.96
+        },
+        "defaultColors": [
+          {
+            "primary": 131,
+            "secondary": 131,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DONT_ROTATE_TAIL_ROTOR",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_CAN_BE_DRIVEN_ON",
+          "FLAG_DONT_TIMESLICE_WHEELS"
+        ]
+      },
       "stats": {
         "handlingId": "cargobob",
         "mass": 15000,
@@ -212,6 +609,62 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "HELI",
+        "seats": 10,
+        "doors": 3,
+        "wheels": 3,
+        "modKits": [
+          "0_defaultspraypatch"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -6.618,
+            "y": -11.748,
+            "z": -1.459
+          },
+          "max": {
+            "x": 6.618,
+            "y": 10.756,
+            "z": 3.822
+          },
+          "length": 22.504,
+          "width": 13.235,
+          "height": 5.281,
+          "boundingRadius": 13.96
+        },
+        "defaultColors": [
+          {
+            "primary": 121,
+            "secondary": 46,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DONT_ROTATE_TAIL_ROTOR",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_CAN_BE_DRIVEN_ON",
+          "FLAG_DONT_TIMESLICE_WHEELS"
+        ]
       },
       "stats": {
         "handlingId": "cargobob",
@@ -244,6 +697,60 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "HELI",
+        "seats": 10,
+        "doors": 3,
+        "wheels": 3,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -6.618,
+            "y": -11.748,
+            "z": -1.459
+          },
+          "max": {
+            "x": 6.618,
+            "y": 10.756,
+            "z": 3.822
+          },
+          "length": 22.504,
+          "width": 13.235,
+          "height": 5.281,
+          "boundingRadius": 13.96
+        },
+        "defaultColors": [
+          {
+            "primary": 121,
+            "secondary": 121,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DONT_ROTATE_TAIL_ROTOR",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_CAN_BE_DRIVEN_ON",
+          "FLAG_DONT_TIMESLICE_WHEELS"
+        ]
+      },
       "stats": {
         "handlingId": "cargobob",
         "mass": 15000,
@@ -274,6 +781,60 @@
         "id": "mpapartment",
         "name": "Executives and Other Criminals",
         "releaseDate": "2015-12-15"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "HELI",
+        "seats": 10,
+        "doors": 3,
+        "wheels": 3,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -6.618,
+            "y": -11.748,
+            "z": -1.459
+          },
+          "max": {
+            "x": 6.618,
+            "y": 10.756,
+            "z": 3.822
+          },
+          "length": 22.504,
+          "width": 13.235,
+          "height": 5.281,
+          "boundingRadius": 13.96
+        },
+        "defaultColors": [
+          {
+            "primary": 131,
+            "secondary": 131,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DONT_ROTATE_TAIL_ROTOR",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_CAN_BE_DRIVEN_ON",
+          "FLAG_DONT_TIMESLICE_WHEELS"
+        ]
       },
       "stats": {
         "handlingId": "cargobob",
@@ -306,6 +867,116 @@
         "name": "The Criminal Enterprises",
         "releaseDate": "2022-07-26"
       },
+      "details": {
+        "manufacturer": "Buckingham",
+        "type": "HELI",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "509_conada_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -5.283,
+            "y": -7.534,
+            "z": -0.928
+          },
+          "max": {
+            "x": 5.283,
+            "y": 4.635,
+            "z": 2.475
+          },
+          "length": 12.168,
+          "width": 10.565,
+          "height": 3.403,
+          "boundingRadius": 8.139
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 73,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 89,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 38,
+            "secondary": 1,
+            "pearl": 89,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 70,
+            "secondary": 1,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_DONT_ROTATE_TAIL_ROTOR",
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_DONT_TIMESLICE_WHEELS"
+        ]
+      },
       "stats": {
         "handlingId": "CONADA",
         "mass": 1550,
@@ -336,6 +1007,96 @@
         "id": "mp2023_01",
         "name": "San Andreas Mercenaries",
         "releaseDate": "2023-06-13"
+      },
+      "details": {
+        "manufacturer": "Buckingham",
+        "type": "HELI",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "527_conada2_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_CONADA2_MINIGUN",
+          "VEHICLE_WEAPON_CONADA2_MISSILE",
+          "VEHICLE_WEAPON_SEARCHLIGHT"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -5.283,
+            "y": -7.534,
+            "z": -0.928
+          },
+          "max": {
+            "x": 5.283,
+            "y": 4.635,
+            "z": 2.475
+          },
+          "length": 12.168,
+          "width": 10.565,
+          "height": 3.403,
+          "boundingRadius": 8.139
+        },
+        "defaultColors": [
+          {
+            "primary": 152,
+            "secondary": 13,
+            "pearl": 154,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 154,
+            "secondary": 13,
+            "pearl": 154,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 14,
+            "secondary": 13,
+            "pearl": 14,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 151,
+            "secondary": 13,
+            "pearl": 14,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 153,
+            "secondary": 13,
+            "pearl": 14,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_DONT_ROTATE_TAIL_ROTOR",
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_DONT_TIMESLICE_WHEELS"
+        ]
       },
       "stats": {
         "handlingId": "CONADA2",
@@ -368,6 +1129,118 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "HELI",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "0_defaultspraypatch"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SEARCHLIGHT"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -5.283,
+            "y": -7.218,
+            "z": -0.739
+          },
+          "max": {
+            "x": 5.283,
+            "y": 5.283,
+            "z": 2.699
+          },
+          "length": 12.5,
+          "width": 10.565,
+          "height": 3.438,
+          "boundingRadius": 8.288
+        },
+        "defaultColors": [
+          {
+            "primary": 1,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 1,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 30,
+            "secondary": 111,
+            "pearl": 30,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 36,
+            "secondary": 0,
+            "pearl": 36,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 62,
+            "secondary": 0,
+            "pearl": 70,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 6,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 7,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_DONT_TIMESLICE_WHEELS"
+        ]
+      },
       "stats": {
         "handlingId": "FROGGER",
         "mass": 7000,
@@ -398,6 +1271,61 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "HELI",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SEARCHLIGHT"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -5.283,
+            "y": -7.218,
+            "z": -0.739
+          },
+          "max": {
+            "x": 5.283,
+            "y": 5.283,
+            "z": 2.699
+          },
+          "length": 12.5,
+          "width": 10.565,
+          "height": 3.438,
+          "boundingRadius": 8.288
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_HAS_LIVERY",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_DONT_TIMESLICE_WHEELS"
+        ]
       },
       "stats": {
         "handlingId": "FROGGER",
@@ -430,6 +1358,103 @@
         "name": "Smuggler's Run",
         "releaseDate": "2017-08-29"
       },
+      "details": {
+        "manufacturer": "Nagasaki",
+        "type": "HELI",
+        "seats": 1,
+        "doors": 1,
+        "wheels": 4,
+        "modKits": [
+          "238_havok_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_HAVOK_MINIGUN"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -3.094,
+            "y": -4.26,
+            "z": -1.618
+          },
+          "max": {
+            "x": 3.094,
+            "y": 4.218,
+            "z": 1.111
+          },
+          "length": 8.478,
+          "width": 6.187,
+          "height": 2.729,
+          "boundingRadius": 5.145
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 111,
+            "pearl": 7,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 7,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 38,
+            "secondary": 5,
+            "pearl": 38,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 88,
+            "secondary": 5,
+            "pearl": 88,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 92,
+            "secondary": 112,
+            "pearl": 50,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 64,
+            "secondary": 112,
+            "pearl": 70,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_STANDARD_FLIGHT_HELMET"
+        ]
+      },
       "stats": {
         "handlingId": "HAVOK",
         "mass": 1000,
@@ -460,6 +1485,89 @@
         "id": "mpsmuggler",
         "name": "Smuggler's Run",
         "releaseDate": "2017-08-29"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "HELI",
+        "seats": 2,
+        "doors": 6,
+        "wheels": 3,
+        "modKits": [
+          "247_hunter_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_HUNTER_MG",
+          "VEHICLE_WEAPON_HUNTER_MISSILE",
+          "VEHICLE_WEAPON_HUNTER_CANNON",
+          "VEHICLE_WEAPON_HUNTER_BARRAGE"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -11.002,
+            "y": -8.548,
+            "z": -2.305
+          },
+          "max": {
+            "x": 11.002,
+            "y": 13.589,
+            "z": 2.225
+          },
+          "length": 22.137,
+          "width": 22.005,
+          "height": 4.531,
+          "boundingRadius": 16.523
+        },
+        "defaultColors": [
+          {
+            "primary": 152,
+            "secondary": 13,
+            "pearl": 154,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 154,
+            "secondary": 13,
+            "pearl": 154,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 14,
+            "secondary": 13,
+            "pearl": 14,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_HELI_USES_FIXUPS_ON_OPEN_DOOR",
+          "FLAG_HAS_TURRET_SEAT_ON_VEHICLE",
+          "FLAG_DISABLE_WEAPON_WHEEL_IN_FIRST_PERSON",
+          "FLAG_USE_TURRET_RELATIVE_AIM_CALCULATION",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_USE_PILOT_HELMET",
+          "FLAG_HAS_CAPPED_EXPLOSION_DAMAGE",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING"
+        ]
       },
       "stats": {
         "handlingId": "HUNTER",
@@ -492,6 +1600,119 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "HELI",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "0_defaultspraypatch"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SEARCHLIGHT"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -6.816,
+            "y": -9.167,
+            "z": -1.287
+          },
+          "max": {
+            "x": 6.816,
+            "y": 9.181,
+            "z": 3.14
+          },
+          "length": 18.348,
+          "width": 13.632,
+          "height": 4.427,
+          "boundingRadius": 11.003
+        },
+        "defaultColors": [
+          {
+            "primary": 1,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 10,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 6,
+            "secondary": 30,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 31,
+            "secondary": 0,
+            "pearl": 29,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 36,
+            "secondary": 0,
+            "pearl": 88,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 50,
+            "secondary": 0,
+            "pearl": 55,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 3,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_ALLOWS_RAPPEL",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS"
+        ]
+      },
       "stats": {
         "handlingId": "MAVERICK",
         "mass": 6500,
@@ -522,6 +1743,119 @@
         "id": "mp2025_01",
         "name": "Money Fronts",
         "releaseDate": "2025-06-17"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "HELI",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "0_defaultspraypatch"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SEARCHLIGHT"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -6.816,
+            "y": -9.167,
+            "z": -1.287
+          },
+          "max": {
+            "x": 6.816,
+            "y": 9.181,
+            "z": 3.14
+          },
+          "length": 18.348,
+          "width": 13.632,
+          "height": 4.427,
+          "boundingRadius": 11.003
+        },
+        "defaultColors": [
+          {
+            "primary": 1,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 10,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 6,
+            "secondary": 30,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 31,
+            "secondary": 0,
+            "pearl": 29,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 36,
+            "secondary": 0,
+            "pearl": 88,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 50,
+            "secondary": 0,
+            "pearl": 55,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 3,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_ALLOWS_RAPPEL",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS"
+        ]
       },
       "stats": {
         "handlingId": "MAVERICK",
@@ -554,6 +1888,66 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "HELI",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "82_polmav_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SEARCHLIGHT"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -5.856,
+            "y": -7.526,
+            "z": -1.516
+          },
+          "max": {
+            "x": 5.808,
+            "y": 6.72,
+            "z": 1.848
+          },
+          "length": 14.246,
+          "width": 11.664,
+          "height": 3.364,
+          "boundingRadius": 9.653
+        },
+        "defaultColors": [
+          {
+            "primary": 134,
+            "secondary": 0,
+            "pearl": 112,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_HAS_LIVERY",
+          "FLAG_LAW_ENFORCEMENT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_ALLOWS_RAPPEL",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS"
+        ]
+      },
       "stats": {
         "handlingId": "polmav",
         "mass": 6500,
@@ -584,6 +1978,68 @@
         "id": "mpheist",
         "name": "The Heists Update",
         "releaseDate": "2015-03-10"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "HELI",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 3,
+        "modKits": [
+          "0_defaultspraypatch"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_PLAYER_SAVAGE",
+          "VEHICLE_WEAPON_SPACE_ROCKET"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -11.535,
+            "y": -12.599,
+            "z": -1.494
+          },
+          "max": {
+            "x": 11.535,
+            "y": 11.507,
+            "z": 5.373
+          },
+          "length": 24.106,
+          "width": 23.069,
+          "height": 6.867,
+          "boundingRadius": 17.891
+        },
+        "defaultColors": [
+          {
+            "primary": 154,
+            "secondary": 24,
+            "pearl": 13,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_HELI_USES_FIXUPS_ON_OPEN_DOOR",
+          "FLAG_USE_PILOT_HELMET",
+          "FLAG_DISABLE_WEAPON_WHEEL_IN_FIRST_PERSON",
+          "FLAG_HELICOPTER_WITH_LANDING_GEAR",
+          "FLAG_HAS_CAPPED_EXPLOSION_DAMAGE"
+        ]
       },
       "stats": {
         "handlingId": "SAVAGE",
@@ -616,6 +2072,66 @@
         "name": "Southern San Andreas Super Sport Series",
         "releaseDate": "2018-03-20"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "HELI",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "295_seasparrow_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_HAVOK_MINIGUN",
+          "VEHICLE_WEAPON_SPACE_ROCKET"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -5.876,
+            "y": -7.236,
+            "z": -2.052
+          },
+          "max": {
+            "x": 5.949,
+            "y": 6.836,
+            "z": 1.788
+          },
+          "length": 14.072,
+          "width": 11.826,
+          "height": 3.841,
+          "boundingRadius": 9.63
+        },
+        "defaultColors": [
+          {
+            "primary": 5,
+            "secondary": 2,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_STANDARD_FLIGHT_HELMET",
+          "FLAG_NO_HEAVY_BRAKE_ANIMATION",
+          "FLAG_CAN_NAVIGATE_TO_ON_VEHICLE_ENTRY"
+        ]
+      },
       "stats": {
         "handlingId": "SEASPARROW",
         "mass": 3500,
@@ -646,6 +2162,67 @@
         "id": "mpheist4",
         "name": "The Cayo Perico Heist",
         "releaseDate": "2020-12-15"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "HELI",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "437_seasparrow2_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SEASPARROW2_MINIGUN",
+          "VEHICLE_WEAPON_SPACE_ROCKET"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -5.876,
+            "y": -7.236,
+            "z": -1.638
+          },
+          "max": {
+            "x": 5.949,
+            "y": 6.836,
+            "z": 1.798
+          },
+          "length": 14.072,
+          "width": 11.826,
+          "height": 3.436,
+          "boundingRadius": 9.592
+        },
+        "defaultColors": [
+          {
+            "primary": 5,
+            "secondary": 2,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_STANDARD_FLIGHT_HELMET",
+          "FLAG_NO_HEAVY_BRAKE_ANIMATION",
+          "FLAG_CAN_NAVIGATE_TO_ON_VEHICLE_ENTRY",
+          "FLAG_CANNOT_BE_PICKUP_BY_CARGOBOB"
+        ]
       },
       "stats": {
         "handlingId": "SEASPARROW2",
@@ -678,6 +2255,66 @@
         "name": "The Cayo Perico Heist",
         "releaseDate": "2020-12-15"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "HELI",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "443_seasparrow3_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SEASPARROW2_MINIGUN",
+          "VEHICLE_WEAPON_SPACE_ROCKET"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -5.876,
+            "y": -7.015,
+            "z": -1.638
+          },
+          "max": {
+            "x": 5.949,
+            "y": 6.836,
+            "z": 1.798
+          },
+          "length": 13.851,
+          "width": 11.826,
+          "height": 3.436,
+          "boundingRadius": 9.592
+        },
+        "defaultColors": [
+          {
+            "primary": 5,
+            "secondary": 2,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_STANDARD_FLIGHT_HELMET",
+          "FLAG_NO_HEAVY_BRAKE_ANIMATION",
+          "FLAG_CAN_NAVIGATE_TO_ON_VEHICLE_ENTRY"
+        ]
+      },
       "stats": {
         "handlingId": "SEASPARROW2",
         "mass": 800,
@@ -708,6 +2345,90 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "HELI",
+        "seats": 2,
+        "doors": 3,
+        "wheels": 3,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -12.421,
+            "y": -20.582,
+            "z": -4.231
+          },
+          "max": {
+            "x": 12.421,
+            "y": 9.228,
+            "z": 5.73
+          },
+          "length": 29.81,
+          "width": 24.841,
+          "height": 9.961,
+          "boundingRadius": 19.666
+        },
+        "defaultColors": [
+          {
+            "primary": 23,
+            "secondary": 0,
+            "pearl": 14,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 24,
+            "secondary": 0,
+            "pearl": 14,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 100,
+            "secondary": 0,
+            "pearl": 24,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 133,
+            "secondary": 0,
+            "pearl": 24,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 14,
+            "secondary": 0,
+            "pearl": 23,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_SCRIPT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_DONT_TIMESLICE_WHEELS"
+        ]
       },
       "stats": {
         "handlingId": "SKYLIFT",
@@ -740,6 +2461,64 @@
         "name": "Executives and Other Criminals",
         "releaseDate": "2015-12-15"
       },
+      "details": {
+        "manufacturer": "Buckingham",
+        "type": "HELI",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_defaultspraypatch"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SEARCHLIGHT"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -5.384,
+            "y": -8.237,
+            "z": -1.718
+          },
+          "max": {
+            "x": 5.384,
+            "y": 4.604,
+            "z": 2.516
+          },
+          "length": 12.841,
+          "width": 10.768,
+          "height": 4.234,
+          "boundingRadius": 8.48
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 63,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_HAS_REAR_SEAT_ACTIVITIES",
+          "FLAG_USE_LIGHTING_INTERIOR_OVERRIDE"
+        ]
+      },
       "stats": {
         "handlingId": "SVOLITO",
         "mass": 6500,
@@ -770,6 +2549,64 @@
         "id": "mpapartment",
         "name": "Executives and Other Criminals",
         "releaseDate": "2015-12-15"
+      },
+      "details": {
+        "manufacturer": "Buckingham",
+        "type": "HELI",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_defaultspraypatch"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SEARCHLIGHT"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -5.384,
+            "y": -8.237,
+            "z": -1.718
+          },
+          "max": {
+            "x": 5.384,
+            "y": 4.604,
+            "z": 2.516
+          },
+          "length": 12.841,
+          "width": 10.768,
+          "height": 4.234,
+          "boundingRadius": 8.48
+        },
+        "defaultColors": [
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_HAS_REAR_SEAT_ACTIVITIES",
+          "FLAG_USE_LIGHTING_INTERIOR_OVERRIDE"
+        ]
       },
       "stats": {
         "handlingId": "SVOLITO",
@@ -802,6 +2639,73 @@
         "name": "San Andreas Flight School Update",
         "releaseDate": "2014-08-19"
       },
+      "details": {
+        "manufacturer": "Buckingham",
+        "type": "HELI",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 3,
+        "modKits": [
+          "106_swift_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SEARCHLIGHT"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -8.587,
+            "y": -9.988,
+            "z": -0.883
+          },
+          "max": {
+            "x": 8.586,
+            "y": 8.876,
+            "z": 3.393
+          },
+          "length": 18.865,
+          "width": 17.174,
+          "height": 4.276,
+          "boundingRadius": 13.553
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 10,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_HAS_LIVERY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_HELICOPTER_WITH_LANDING_GEAR"
+        ]
+      },
       "stats": {
         "handlingId": "SWIFT",
         "mass": 6500,
@@ -832,6 +2736,66 @@
         "id": "mpluxe",
         "name": "Ill-Gotten Gains Part 1",
         "releaseDate": "2015-06-10"
+      },
+      "details": {
+        "manufacturer": "Buckingham",
+        "type": "HELI",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 3,
+        "modKits": [
+          "106_swift_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SEARCHLIGHT"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -8.587,
+            "y": -9.991,
+            "z": -0.883
+          },
+          "max": {
+            "x": 8.586,
+            "y": 8.876,
+            "z": 3.393
+          },
+          "length": 18.867,
+          "width": 17.174,
+          "height": 4.276,
+          "boundingRadius": 13.545
+        },
+        "defaultColors": [
+          {
+            "primary": 159,
+            "secondary": 0,
+            "pearl": 160,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_HAS_REAR_SEAT_ACTIVITIES",
+          "FLAG_USE_LIGHTING_INTERIOR_OVERRIDE",
+          "FLAG_HELICOPTER_WITH_LANDING_GEAR"
+        ]
       },
       "stats": {
         "handlingId": "SWIFT2",
@@ -864,6 +2828,65 @@
         "name": "The Heists Update",
         "releaseDate": "2015-03-10"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "HELI",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "0_defaultspraypatch"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_NOSE_TURRET_VALKYRIE",
+          "VEHICLE_WEAPON_TURRET_VALKYRIE"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -7.78,
+            "y": -10.729,
+            "z": -1.416
+          },
+          "max": {
+            "x": 7.78,
+            "y": 7.724,
+            "z": 3.25
+          },
+          "length": 18.453,
+          "width": 15.56,
+          "height": 4.666,
+          "boundingRadius": 12.709
+        },
+        "defaultColors": [
+          {
+            "primary": 14,
+            "secondary": 12,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_LAW_ENFORCEMENT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_HAS_TURRET_SEAT_ON_VEHICLE",
+          "FLAG_USE_TURRET_RELATIVE_AIM_CALCULATION"
+        ]
+      },
       "stats": {
         "handlingId": "VALKYR",
         "mass": 6500,
@@ -895,6 +2918,62 @@
         "name": "Executives and Other Criminals",
         "releaseDate": "2015-12-15"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "HELI",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_TURRET_VALKYRIE"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -7.78,
+            "y": -10.729,
+            "z": -1.416
+          },
+          "max": {
+            "x": 7.78,
+            "y": 7.724,
+            "z": 3.25
+          },
+          "length": 18.453,
+          "width": 15.56,
+          "height": 4.666,
+          "boundingRadius": 12.709
+        },
+        "defaultColors": [
+          {
+            "primary": 14,
+            "secondary": 12,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_LAW_ENFORCEMENT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_HAS_TURRET_SEAT_ON_VEHICLE",
+          "FLAG_USE_TURRET_RELATIVE_AIM_CALCULATION"
+        ]
+      },
       "stats": {
         "handlingId": "VALKYR2",
         "mass": 6500,
@@ -925,6 +3004,113 @@
         "id": "mpexecutive",
         "name": "Further Adventures in Finance and Felony",
         "releaseDate": "2016-06-07"
+      },
+      "details": {
+        "manufacturer": "Buckingham",
+        "type": "HELI",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 3,
+        "modKits": [
+          "0_defaultspraypatch"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SEARCHLIGHT"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -6.376,
+            "y": -8.492,
+            "z": -1.714
+          },
+          "max": {
+            "x": 6.376,
+            "y": 6.925,
+            "z": 3.182
+          },
+          "length": 15.417,
+          "width": 12.753,
+          "height": 4.896,
+          "boundingRadius": 10.191
+        },
+        "defaultColors": [
+          {
+            "primary": 112,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 73,
+            "secondary": 0,
+            "pearl": 62,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 26,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 67,
+            "secondary": 3,
+            "pearl": 1,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 73,
+            "secondary": 0,
+            "pearl": 62,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 117,
+            "pearl": 158,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 1,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_HELICOPTER_WITH_LANDING_GEAR",
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_HAS_REAR_SEAT_ACTIVITIES",
+          "FLAG_USE_LIGHTING_INTERIOR_OVERRIDE"
+        ]
       },
       "stats": {
         "handlingId": "VOLATUS",

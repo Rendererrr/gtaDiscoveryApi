@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "name": "Sports Classic",
@@ -26,6 +26,124 @@
         "id": "mpgunrunning",
         "name": "Gunrunning",
         "releaseDate": "2017-06-13"
+      },
+      "details": {
+        "manufacturer": "Ocelot",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "220_ardent_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_ARDENT_MG"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.915,
+            "y": -1.934,
+            "z": -0.367
+          },
+          "max": {
+            "x": 0.915,
+            "y": 2.341,
+            "z": 0.889
+          },
+          "length": 4.275,
+          "width": 1.831,
+          "height": 1.257,
+          "boundingRadius": 2.354
+        },
+        "defaultColors": [
+          {
+            "primary": 29,
+            "secondary": 112,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 11,
+            "secondary": 0,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 88,
+            "secondary": 0,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 112,
+            "secondary": 112,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 95,
+            "secondary": 112,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 62,
+            "secondary": 0,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 49,
+            "secondary": 0,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 38,
+            "secondary": 88,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 135,
+            "secondary": 74,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          }
+        ],
+        "flags": [
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING"
+        ]
       },
       "stats": {
         "handlingId": "ARDENT",
@@ -58,6 +176,122 @@
         "name": "Valentine's Day Massacre",
         "releaseDate": "2014-02-13"
       },
+      "details": {
+        "manufacturer": "Albany",
+        "type": "CAR",
+        "seats": 6,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.41,
+            "y": -2.702,
+            "z": -0.46
+          },
+          "max": {
+            "x": 1.392,
+            "y": 2.368,
+            "z": 1.497
+          },
+          "length": 5.07,
+          "width": 2.802,
+          "height": 1.958,
+          "boundingRadius": 2.772
+        },
+        "defaultColors": [
+          {
+            "primary": 50,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 58,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 61,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 75,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 45,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 48,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 3,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_EXTRAS_STRONG"
+        ]
+      },
       "stats": {
         "handlingId": "ROOSEVELT",
         "mass": 2400,
@@ -88,6 +322,59 @@
         "id": "mphalloween",
         "name": "Halloween Surprise",
         "releaseDate": "2015-10-29"
+      },
+      "details": {
+        "manufacturer": "Albany",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "118_btype2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.191,
+            "y": -2.481,
+            "z": -0.328
+          },
+          "max": {
+            "x": 1.191,
+            "y": 2.226,
+            "z": 1.326
+          },
+          "length": 4.708,
+          "width": 2.381,
+          "height": 1.654,
+          "boundingRadius": 2.759
+        },
+        "defaultColors": [
+          {
+            "primary": 142,
+            "secondary": 0,
+            "pearl": 145,
+            "wheels": 90,
+            "interior": 156,
+            "dashboard": 73
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_INCREASE_PED_COMMENTS"
+        ]
       },
       "stats": {
         "handlingId": "BTYPE2",
@@ -120,6 +407,56 @@
         "name": "Be My Valentine",
         "releaseDate": "2016-02-14"
       },
+      "details": {
+        "manufacturer": "Albany",
+        "type": "CAR",
+        "seats": 6,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "148_btype3_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.41,
+            "y": -2.863,
+            "z": -0.46
+          },
+          "max": {
+            "x": 1.392,
+            "y": 2.368,
+            "z": 1.497
+          },
+          "length": 5.232,
+          "width": 2.802,
+          "height": 1.958,
+          "boundingRadius": 2.772
+        },
+        "defaultColors": [
+          {
+            "primary": 5,
+            "secondary": 2,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 26,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN"
+        ]
+      },
       "stats": {
         "handlingId": "ROOSEVELT2",
         "mass": 2420,
@@ -150,6 +487,83 @@
         "id": "mpheist",
         "name": "The Heists Update",
         "releaseDate": "2015-03-10"
+      },
+      "details": {
+        "manufacturer": "Lampadati",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.944,
+            "y": -2.409,
+            "z": -0.197
+          },
+          "max": {
+            "x": 0.944,
+            "y": 2.187,
+            "z": 1.14
+          },
+          "length": 4.596,
+          "width": 1.889,
+          "height": 1.337,
+          "boundingRadius": 2.503
+        },
+        "defaultColors": [
+          {
+            "primary": 28,
+            "secondary": 28,
+            "pearl": 28,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 31,
+            "secondary": 31,
+            "pearl": 28,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 89,
+            "secondary": 89,
+            "pearl": 89,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 50,
+            "secondary": 89,
+            "pearl": 53,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_EXTRAS_CONVERTIBLE",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN"
+        ]
       },
       "stats": {
         "handlingId": "CASCO",
@@ -182,6 +596,83 @@
         "name": "Southern San Andreas Super Sport Series",
         "releaseDate": "2018-03-20"
       },
+      "details": {
+        "manufacturer": "RUNE",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "294_cheburek_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.838,
+            "y": -2.172,
+            "z": -0.433
+          },
+          "max": {
+            "x": 0.838,
+            "y": 2.019,
+            "z": 1.162
+          },
+          "length": 4.191,
+          "width": 1.675,
+          "height": 1.596,
+          "boundingRadius": 2.24
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 68,
+            "secondary": 68,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 29,
+            "secondary": 29,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 50,
+            "secondary": 50,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
+      },
       "stats": {
         "handlingId": "CHEBUREK",
         "mass": 1100,
@@ -212,6 +703,122 @@
         "id": "mpgunrunning",
         "name": "Gunrunning",
         "releaseDate": "2017-06-13"
+      },
+      "details": {
+        "manufacturer": "Grotti",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "218_cheetah2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.021,
+            "y": -2.226,
+            "z": -0.582
+          },
+          "max": {
+            "x": 1.021,
+            "y": 2.444,
+            "z": 0.626
+          },
+          "length": 4.671,
+          "width": 2.041,
+          "height": 1.208,
+          "boundingRadius": 2.504
+        },
+        "defaultColors": [
+          {
+            "primary": 29,
+            "secondary": 112,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 11,
+            "secondary": 0,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 88,
+            "secondary": 0,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 112,
+            "secondary": 112,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 95,
+            "secondary": 112,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 62,
+            "secondary": 0,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 49,
+            "secondary": 0,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 38,
+            "secondary": 88,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 135,
+            "secondary": 74,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          }
+        ],
+        "flags": [
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_FRONT_BOOT"
+        ]
       },
       "stats": {
         "handlingId": "CHEETAH2",
@@ -244,6 +851,122 @@
         "name": "Money Fronts",
         "releaseDate": "2025-06-17"
       },
+      "details": {
+        "manufacturer": "Grotti",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "605_cheetah3_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.063,
+            "y": -2.176,
+            "z": -0.527
+          },
+          "max": {
+            "x": 1.063,
+            "y": 2.444,
+            "z": 0.626
+          },
+          "length": 4.621,
+          "width": 2.125,
+          "height": 1.153,
+          "boundingRadius": 2.554
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 14,
+            "pearl": 32,
+            "wheels": 15,
+            "interior": 110,
+            "dashboard": 156
+          },
+          {
+            "primary": 71,
+            "secondary": 137,
+            "pearl": 71,
+            "wheels": 0,
+            "interior": 99,
+            "dashboard": 90
+          },
+          {
+            "primary": 64,
+            "secondary": 137,
+            "pearl": 73,
+            "wheels": 0,
+            "interior": 99,
+            "dashboard": 90
+          },
+          {
+            "primary": 111,
+            "secondary": 137,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 99,
+            "dashboard": 90
+          },
+          {
+            "primary": 0,
+            "secondary": 137,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 99,
+            "dashboard": 90
+          },
+          {
+            "primary": 89,
+            "secondary": 137,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 99,
+            "dashboard": 90
+          },
+          {
+            "primary": 3,
+            "secondary": 137,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 99,
+            "dashboard": 90
+          },
+          {
+            "primary": 38,
+            "secondary": 137,
+            "pearl": 89,
+            "wheels": 0,
+            "interior": 99,
+            "dashboard": 90
+          },
+          {
+            "primary": 70,
+            "secondary": 137,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 99,
+            "dashboard": 90
+          }
+        ],
+        "flags": [
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_FRONT_BOOT"
+        ]
+      },
       "stats": {
         "handlingId": "CHEETAH3",
         "mass": 1400,
@@ -274,6 +997,139 @@
         "id": "mppilot",
         "name": "San Andreas Flight School Update",
         "releaseDate": "2014-08-19"
+      },
+      "details": {
+        "manufacturer": "Invetero",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "105_coquette2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.934,
+            "y": -2.543,
+            "z": -0.256
+          },
+          "max": {
+            "x": 0.937,
+            "y": 2.235,
+            "z": 1.053
+          },
+          "length": 4.779,
+          "width": 1.871,
+          "height": 1.309,
+          "boundingRadius": 2.577
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 6,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 2,
+            "secondary": 2,
+            "pearl": 134,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 8,
+            "secondary": 8,
+            "pearl": 134,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 19,
+            "secondary": 19,
+            "pearl": 134,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 31,
+            "secondary": 31,
+            "pearl": 28,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 34,
+            "secondary": 34,
+            "pearl": 28,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 64,
+            "secondary": 64,
+            "pearl": 53,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 73,
+            "secondary": 73,
+            "pearl": 60,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 75,
+            "secondary": 75,
+            "pearl": 60,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 89,
+            "secondary": 89,
+            "pearl": 89,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 107,
+            "secondary": 107,
+            "pearl": 110,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_EXTRAS_CONVERTIBLE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS"
+        ]
       },
       "stats": {
         "handlingId": "COQUETTE2",
@@ -306,6 +1162,91 @@
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
       },
+      "details": {
+        "manufacturer": "Imponte",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "165_deluxo_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_DELUXO_MG",
+          "VEHICLE_WEAPON_DELUXO_MISSILE"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.968,
+            "y": -2.37,
+            "z": -0.45
+          },
+          "max": {
+            "x": 0.968,
+            "y": 2.141,
+            "z": 0.759
+          },
+          "length": 4.511,
+          "width": 1.937,
+          "height": 1.209,
+          "boundingRadius": 2.361
+        },
+        "defaultColors": [
+          {
+            "primary": 18,
+            "secondary": 8,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 19,
+            "dashboard": 156
+          },
+          {
+            "primary": 19,
+            "secondary": 10,
+            "pearl": 23,
+            "wheels": 0,
+            "interior": 19,
+            "dashboard": 156
+          },
+          {
+            "primary": 38,
+            "secondary": 38,
+            "pearl": 24,
+            "wheels": 0,
+            "interior": 19,
+            "dashboard": 156
+          },
+          {
+            "primary": 64,
+            "secondary": 64,
+            "pearl": 24,
+            "wheels": 0,
+            "interior": 19,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_GULL_WING_DOORS",
+          "FLAG_USE_ROOT_AS_BASE_LOCKON_POS",
+          "FLAG_DONT_TIMESLICE_WHEELS"
+        ]
+      },
       "stats": {
         "handlingId": "DELUXO",
         "mass": 1600,
@@ -336,6 +1277,89 @@
         "id": "mpvinewood",
         "name": "The Diamond Casino & Resort",
         "releaseDate": "2019-07-23"
+      },
+      "details": {
+        "manufacturer": "Weeny",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "371_Dynasty_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.911,
+            "y": -2.546,
+            "z": -0.322
+          },
+          "max": {
+            "x": 1.076,
+            "y": 2.126,
+            "z": 1.724
+          },
+          "length": 4.671,
+          "width": 1.987,
+          "height": 2.046,
+          "boundingRadius": 2.531
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 31,
+            "pearl": 131,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 34,
+            "secondary": 93,
+            "pearl": 131,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 61,
+            "secondary": 60,
+            "pearl": 131,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 70,
+            "secondary": 5,
+            "pearl": 131,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 154,
+            "secondary": 128,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_USE_STRICTER_EXIT_COLLISION_TESTS",
+          "FLAG_DROP_SUSPENSION_WHEN_STOPPED",
+          "FLAG_USE_RESTRICTED_DRIVEBY_HEIGHT_HIGH",
+          "FLAG_CARGOBOB_HOOK_UP_CHASSIS"
+        ]
       },
       "stats": {
         "handlingId": "DYNASTY",
@@ -368,6 +1392,87 @@
         "name": "Southern San Andreas Super Sport Series",
         "releaseDate": "2018-03-20"
       },
+      "details": {
+        "manufacturer": "Vulcar",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "284_fagaloa_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.817,
+            "y": -2.514,
+            "z": -0.2
+          },
+          "max": {
+            "x": 0.817,
+            "y": 1.999,
+            "z": 1.45
+          },
+          "length": 4.513,
+          "width": 1.634,
+          "height": 1.65,
+          "boundingRadius": 2.432
+        },
+        "defaultColors": [
+          {
+            "primary": 107,
+            "secondary": 120,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 68,
+            "secondary": 120,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 29,
+            "secondary": 120,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 50,
+            "secondary": 120,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 0,
+            "secondary": 120,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_CARGOBOB_HOOK_UP_CHASSIS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
+      },
       "stats": {
         "handlingId": "FAGALOA",
         "mass": 1100,
@@ -398,6 +1503,142 @@
         "id": "mpluxe",
         "name": "Ill-Gotten Gains Part 1",
         "releaseDate": "2015-06-10"
+      },
+      "details": {
+        "manufacturer": "Benefactor",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "168_feltzer3_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.938,
+            "y": -2.532,
+            "z": -0.195
+          },
+          "max": {
+            "x": 0.938,
+            "y": 2.163,
+            "z": 1.108
+          },
+          "length": 4.695,
+          "width": 1.876,
+          "height": 1.303,
+          "boundingRadius": 2.532
+        },
+        "defaultColors": [
+          {
+            "primary": 3,
+            "secondary": 3,
+            "pearl": 134,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 7,
+            "secondary": 7,
+            "pearl": 134,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 3,
+            "secondary": 3,
+            "pearl": 134,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 27,
+            "secondary": 27,
+            "pearl": 28,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 34,
+            "secondary": 34,
+            "pearl": 28,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 66,
+            "secondary": 66,
+            "pearl": 61,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 73,
+            "secondary": 73,
+            "pearl": 70,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 76,
+            "secondary": 76,
+            "pearl": 70,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 88,
+            "secondary": 88,
+            "pearl": 88,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 90,
+            "secondary": 90,
+            "pearl": 88,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 102,
+            "secondary": 108,
+            "pearl": 88,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_EXTRAS_GANG",
+          "FLAG_EXTRAS_RARE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PARKING_SENSORS",
+          "FLAG_RICH_CAR",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_HAS_GULL_WING_DOORS",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
       },
       "stats": {
         "handlingId": "FELTZER3",
@@ -430,6 +1671,98 @@
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
       },
+      "details": {
+        "manufacturer": "Grotti",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "264_gt500_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.87,
+            "y": -2.115,
+            "z": -0.607
+          },
+          "max": {
+            "x": 0.87,
+            "y": 2.101,
+            "z": 0.647
+          },
+          "length": 4.217,
+          "width": 1.739,
+          "height": 1.255,
+          "boundingRadius": 2.298
+        },
+        "defaultColors": [
+          {
+            "primary": 28,
+            "secondary": 30,
+            "pearl": 30,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 111,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 111,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 62,
+            "secondary": 111,
+            "pearl": 64,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 4,
+            "secondary": 111,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 111,
+            "pearl": 1,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN"
+        ]
+      },
       "stats": {
         "handlingId": "GT500",
         "mass": 800,
@@ -460,6 +1793,117 @@
         "id": "mpspecialraces",
         "name": "Cunning Stunts: Special Vehicle Circuit",
         "releaseDate": "2016-11-08"
+      },
+      "details": {
+        "manufacturer": "Pegassi",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "221_infernus2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.387,
+            "y": -2.348,
+            "z": -0.529
+          },
+          "max": {
+            "x": 1.387,
+            "y": 2.263,
+            "z": 0.767
+          },
+          "length": 4.611,
+          "width": 2.775,
+          "height": 1.297,
+          "boundingRadius": 2.478
+        },
+        "defaultColors": [
+          {
+            "primary": 70,
+            "secondary": 73,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 63,
+            "dashboard": 65
+          },
+          {
+            "primary": 145,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 64,
+            "secondary": 62,
+            "pearl": 68,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 28,
+            "secondary": 31,
+            "pearl": 28,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 38,
+            "secondary": 4,
+            "pearl": 38,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 53,
+            "secondary": 54,
+            "pearl": 55,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 89,
+            "secondary": 88,
+            "pearl": 88,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 65
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG"
+        ]
       },
       "stats": {
         "handlingId": "INFERNUS2",
@@ -492,6 +1936,58 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": "Dewbauchee",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "0_hiend_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.878,
+            "y": -2.499,
+            "z": -0.554
+          },
+          "max": {
+            "x": 0.878,
+            "y": 2.088,
+            "z": 0.821
+          },
+          "length": 4.588,
+          "width": 1.757,
+          "height": 1.375,
+          "boundingRadius": 2.491
+        },
+        "defaultColors": [
+          {
+            "primary": 4,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
+      },
       "stats": {
         "handlingId": "JB700",
         "mass": 1600,
@@ -522,6 +2018,109 @@
         "id": "mpheist3",
         "name": "The Diamond Casino Heist",
         "releaseDate": "2019-12-12"
+      },
+      "details": {
+        "manufacturer": "Dewbauchee",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "404_jb7002_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_JB700_MG"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.878,
+            "y": -2.499,
+            "z": -0.554
+          },
+          "max": {
+            "x": 0.878,
+            "y": 2.088,
+            "z": 0.821
+          },
+          "length": 4.588,
+          "width": 1.757,
+          "height": 1.375,
+          "boundingRadius": 2.491
+        },
+        "defaultColors": [
+          {
+            "primary": 93,
+            "secondary": 146,
+            "pearl": 157,
+            "wheels": 143,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 16,
+            "secondary": 143,
+            "pearl": 144,
+            "wheels": 21,
+            "interior": 22,
+            "dashboard": 65
+          },
+          {
+            "primary": 27,
+            "secondary": 33,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 33,
+            "dashboard": 65
+          },
+          {
+            "primary": 112,
+            "secondary": 70,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 28,
+            "secondary": 1,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 116,
+            "dashboard": 65
+          },
+          {
+            "primary": 88,
+            "secondary": 1,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 116,
+            "dashboard": 65
+          },
+          {
+            "primary": 4,
+            "secondary": 1,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 116,
+            "dashboard": 65
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING"
+        ]
       },
       "stats": {
         "handlingId": "JB7002",
@@ -554,6 +2153,59 @@
         "name": "Executives and Other Criminals",
         "releaseDate": "2015-12-15"
       },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "125_mamba_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.867,
+            "y": -2.133,
+            "z": -0.296
+          },
+          "max": {
+            "x": 0.867,
+            "y": 1.829,
+            "z": 0.911
+          },
+          "length": 3.962,
+          "width": 1.735,
+          "height": 1.207,
+          "boundingRadius": 2.155
+        },
+        "defaultColors": [
+          {
+            "primary": 75,
+            "secondary": 75,
+            "pearl": 70,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_EXTRAS_CONVERTIBLE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
+      },
       "stats": {
         "handlingId": "MAMBA",
         "mass": 1160,
@@ -584,6 +2236,163 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "Albany",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "59_manana_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.01,
+            "y": -2.949,
+            "z": -0.511
+          },
+          "max": {
+            "x": 1.01,
+            "y": 2.439,
+            "z": 0.803
+          },
+          "length": 5.388,
+          "width": 2.02,
+          "height": 1.315,
+          "boundingRadius": 2.91
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 3,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 21,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 34,
+            "secondary": 0,
+            "pearl": 33,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 52,
+            "secondary": 0,
+            "pearl": 52,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 68,
+            "secondary": 0,
+            "pearl": 68,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 106,
+            "secondary": 0,
+            "pearl": 106,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 105,
+            "secondary": 0,
+            "pearl": 105,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 54,
+            "secondary": 0,
+            "pearl": 54,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 6,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 107,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_EXTRAS_CONVERTIBLE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_POOR_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS"
+        ]
       },
       "stats": {
         "handlingId": "MANANA",
@@ -616,6 +2425,88 @@
         "name": "Southern San Andreas Super Sport Series",
         "releaseDate": "2018-03-20"
       },
+      "details": {
+        "manufacturer": "Lampadati",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "285_michelli_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.825,
+            "y": -2.204,
+            "z": -0.477
+          },
+          "max": {
+            "x": 0.825,
+            "y": 1.922,
+            "z": 1.149
+          },
+          "length": 4.126,
+          "width": 1.651,
+          "height": 1.626,
+          "boundingRadius": 2.233
+        },
+        "defaultColors": [
+          {
+            "primary": 3,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 1,
+            "dashboard": 0
+          },
+          {
+            "primary": 27,
+            "secondary": 111,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 1,
+            "dashboard": 0
+          },
+          {
+            "primary": 61,
+            "secondary": 111,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 1,
+            "dashboard": 0
+          },
+          {
+            "primary": 62,
+            "secondary": 111,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 1,
+            "dashboard": 0
+          },
+          {
+            "primary": 49,
+            "secondary": 111,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 1,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS"
+        ]
+      },
       "stats": {
         "handlingId": "MICHELLI",
         "mass": 840,
@@ -646,6 +2537,151 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "Pegassi",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "0_lowcar_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.952,
+            "y": -2.198,
+            "z": -0.258
+          },
+          "max": {
+            "x": 0.942,
+            "y": 2.194,
+            "z": 0.845
+          },
+          "length": 4.392,
+          "width": 1.893,
+          "height": 1.103,
+          "boundingRadius": 2.412
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 4,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 31,
+            "secondary": 0,
+            "pearl": 30,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 52,
+            "secondary": 0,
+            "pearl": 78,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 63,
+            "secondary": 0,
+            "pearl": 7,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 62,
+            "secondary": 0,
+            "pearl": 87,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 90,
+            "secondary": 0,
+            "pearl": 130,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 36,
+            "secondary": 0,
+            "pearl": 37,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 4,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BOOT_IN_FRONT",
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS"
+        ]
       },
       "stats": {
         "handlingId": "monroe",
@@ -678,6 +2714,59 @@
         "name": "The Diamond Casino & Resort",
         "releaseDate": "2019-07-23"
       },
+      "details": {
+        "manufacturer": "Vulcar",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "372_nebula_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.91,
+            "y": -2.622,
+            "z": -0.409
+          },
+          "max": {
+            "x": 0.91,
+            "y": 2.323,
+            "z": 1.322
+          },
+          "length": 4.945,
+          "width": 1.82,
+          "height": 1.731,
+          "boundingRadius": 2.671
+        },
+        "defaultColors": [
+          {
+            "primary": 4,
+            "secondary": 4,
+            "pearl": 134,
+            "wheels": 156,
+            "interior": 160,
+            "dashboard": 160
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_HAS_SUPERCHARGER",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
+      },
       "stats": {
         "handlingId": "NEBULA",
         "mass": 1320,
@@ -708,6 +2797,122 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "62_peyote_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.037,
+            "y": -3.036,
+            "z": -0.33
+          },
+          "max": {
+            "x": 1.037,
+            "y": 2.411,
+            "z": 1.044
+          },
+          "length": 5.448,
+          "width": 2.074,
+          "height": 1.374,
+          "boundingRadius": 2.825
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 99,
+            "secondary": 0,
+            "pearl": 99,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 9,
+            "secondary": 0,
+            "pearl": 6,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 29,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 73,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 74,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 51,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 107,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_EXTRAS_CONVERTIBLE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_RICH_CAR",
+          "FLAG_AVERAGE_CAR"
+        ]
       },
       "stats": {
         "handlingId": "PEYOTE",
@@ -740,6 +2945,60 @@
         "name": "Los Santos Summer Special",
         "releaseDate": "2020-08-11"
       },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "424_peyote3_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.037,
+            "y": -3.104,
+            "z": -0.262
+          },
+          "max": {
+            "x": 1.037,
+            "y": 2.411,
+            "z": 1.493
+          },
+          "length": 5.515,
+          "width": 2.074,
+          "height": 1.755,
+          "boundingRadius": 2.829
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 27,
+            "pearl": 4,
+            "wheels": 141,
+            "interior": 1,
+            "dashboard": 38
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_HAS_LOWRIDER_HYDRAULICS",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_EXTRAS_CONVERTIBLE"
+        ]
+      },
       "stats": {
         "handlingId": "PEYOTE3",
         "mass": 2250,
@@ -770,6 +3029,160 @@
         "id": "mphipster",
         "name": "I'm Not a Hipster Update",
         "releaseDate": "2014-06-17"
+      },
+      "details": {
+        "manufacturer": "Lampadati",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "104_pigalle_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.963,
+            "y": -2.617,
+            "z": -0.443
+          },
+          "max": {
+            "x": 0.963,
+            "y": 2.548,
+            "z": 1.142
+          },
+          "length": 5.166,
+          "width": 1.925,
+          "height": 1.584,
+          "boundingRadius": 2.761
+        },
+        "defaultColors": [
+          {
+            "primary": 37,
+            "secondary": 94,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 93,
+            "secondary": 95,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 1,
+            "secondary": 0,
+            "pearl": 6,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 96,
+            "secondary": 95,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 87,
+            "secondary": 87,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 99,
+            "secondary": 99,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 91,
+            "secondary": 59,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 108,
+            "secondary": 99,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 78,
+            "secondary": 74,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 66,
+            "secondary": 67,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 58,
+            "secondary": 59,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 52,
+            "secondary": 60,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 46,
+            "secondary": 25,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 23,
+            "secondary": 24,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS"
+        ]
       },
       "stats": {
         "handlingId": "PIGALLE",
@@ -802,6 +3215,129 @@
         "name": "Smuggler's Run",
         "releaseDate": "2017-08-29"
       },
+      "details": {
+        "manufacturer": "Dewbauchee",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "260_rapidgt3_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.957,
+            "y": -2.609,
+            "z": -0.657
+          },
+          "max": {
+            "x": 0.957,
+            "y": 2.325,
+            "z": 0.703
+          },
+          "length": 4.934,
+          "width": 1.913,
+          "height": 1.36,
+          "boundingRadius": 2.666
+        },
+        "defaultColors": [
+          {
+            "primary": 50,
+            "secondary": 132,
+            "pearl": 55,
+            "wheels": 156,
+            "interior": 154,
+            "dashboard": 0
+          },
+          {
+            "primary": 29,
+            "secondary": 112,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 11,
+            "secondary": 0,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 88,
+            "secondary": 0,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 112,
+            "secondary": 112,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 95,
+            "secondary": 112,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 62,
+            "secondary": 0,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 49,
+            "secondary": 0,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 38,
+            "secondary": 88,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 135,
+            "secondary": 74,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS"
+        ]
+      },
       "stats": {
         "handlingId": "RAPIDGT3",
         "mass": 1570,
@@ -832,6 +3368,57 @@
         "id": "mpsmuggler",
         "name": "Smuggler's Run",
         "releaseDate": "2017-08-29"
+      },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "252_retinue_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.93,
+            "y": -2.537,
+            "z": -0.358
+          },
+          "max": {
+            "x": 0.93,
+            "y": 1.958,
+            "z": 1.1
+          },
+          "length": 4.494,
+          "width": 1.859,
+          "height": 1.457,
+          "boundingRadius": 2.375
+        },
+        "defaultColors": [
+          {
+            "primary": 38,
+            "secondary": 38,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 111,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS"
+        ]
       },
       "stats": {
         "handlingId": "RETINUE",
@@ -864,6 +3451,90 @@
         "name": "The Diamond Casino Heist",
         "releaseDate": "2019-12-12"
       },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "410_retinue2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.878,
+            "y": -2.387,
+            "z": -0.372
+          },
+          "max": {
+            "x": 0.878,
+            "y": 1.939,
+            "z": 1.083
+          },
+          "length": 4.326,
+          "width": 1.757,
+          "height": 1.455,
+          "boundingRadius": 2.333
+        },
+        "defaultColors": [
+          {
+            "primary": 5,
+            "secondary": 111,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 3,
+            "dashboard": 160
+          },
+          {
+            "primary": 29,
+            "secondary": 111,
+            "pearl": 138,
+            "wheels": 156,
+            "interior": 3,
+            "dashboard": 160
+          },
+          {
+            "primary": 53,
+            "secondary": 111,
+            "pearl": 138,
+            "wheels": 156,
+            "interior": 3,
+            "dashboard": 160
+          },
+          {
+            "primary": 70,
+            "secondary": 111,
+            "pearl": 138,
+            "wheels": 156,
+            "interior": 3,
+            "dashboard": 160
+          },
+          {
+            "primary": 88,
+            "secondary": 111,
+            "pearl": 138,
+            "wheels": 156,
+            "interior": 3,
+            "dashboard": 160
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
+      },
       "stats": {
         "handlingId": "RETINUE2",
         "mass": 950,
@@ -894,6 +3565,91 @@
         "id": "mpchristmas2017",
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
+      },
+      "details": {
+        "manufacturer": "Annis",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "169_savestra_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SAVESTRA_MG"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.947,
+            "y": -2.534,
+            "z": -0.358
+          },
+          "max": {
+            "x": 0.953,
+            "y": 1.9,
+            "z": 1.039
+          },
+          "length": 4.433,
+          "width": 1.899,
+          "height": 1.397,
+          "boundingRadius": 2.28
+        },
+        "defaultColors": [
+          {
+            "primary": 7,
+            "secondary": 14,
+            "pearl": 157,
+            "wheels": 1,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 50,
+            "secondary": 15,
+            "pearl": 7,
+            "wheels": 12,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 32,
+            "secondary": 12,
+            "pearl": 12,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 78,
+            "secondary": 120,
+            "pearl": 120,
+            "wheels": 120,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 88,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 111,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING"
+        ]
       },
       "stats": {
         "handlingId": "SAVESTRA",
@@ -926,6 +3682,172 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": "Grotti",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "0_hiend_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.939,
+            "y": -2.304,
+            "z": -0.435
+          },
+          "max": {
+            "x": 0.939,
+            "y": 2.479,
+            "z": 0.806
+          },
+          "length": 4.783,
+          "width": 1.879,
+          "height": 1.241,
+          "boundingRadius": 2.563
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 63,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 33,
+            "secondary": 33,
+            "pearl": 27,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 37,
+            "secondary": 46,
+            "pearl": 126,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 6,
+            "secondary": 6,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 49,
+            "secondary": 49,
+            "pearl": 60,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 75,
+            "secondary": 66,
+            "pearl": 87,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 4,
+            "secondary": 4,
+            "pearl": 106,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 88,
+            "secondary": 88,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 10,
+            "secondary": 22,
+            "pearl": 63,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 1,
+            "secondary": 0,
+            "pearl": 14,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 36,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 7,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_EXTRAS_CONVERTIBLE",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
+      },
       "stats": {
         "handlingId": "STINGER",
         "mass": 1100,
@@ -956,6 +3878,170 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "Grotti",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "0_hiend_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.939,
+            "y": -2.492,
+            "z": -0.461
+          },
+          "max": {
+            "x": 0.94,
+            "y": 2.431,
+            "z": 0.787
+          },
+          "length": 4.923,
+          "width": 1.879,
+          "height": 1.248,
+          "boundingRadius": 2.63
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 63,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 33,
+            "secondary": 33,
+            "pearl": 27,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 37,
+            "secondary": 46,
+            "pearl": 126,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 6,
+            "secondary": 6,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 49,
+            "secondary": 49,
+            "pearl": 60,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 75,
+            "secondary": 66,
+            "pearl": 87,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 4,
+            "secondary": 4,
+            "pearl": 106,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 88,
+            "secondary": 88,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 10,
+            "secondary": 22,
+            "pearl": 63,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 1,
+            "secondary": 0,
+            "pearl": 14,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 36,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 7,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
       },
       "stats": {
         "handlingId": "STINGERGT",
@@ -988,6 +4074,89 @@
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
       },
+      "details": {
+        "manufacturer": "Ocelot",
+        "type": "SUBMARINECAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SUBCAR_MG",
+          "VEHICLE_WEAPON_SUBCAR_MISSILE",
+          "VEHICLE_WEAPON_SUBCAR_TORPEDO"
+        ],
+        "features": {
+          "convertibleRoof": true,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.99,
+            "y": -2.054,
+            "z": -0.261
+          },
+          "max": {
+            "x": 0.99,
+            "y": 2.174,
+            "z": 0.853
+          },
+          "length": 4.227,
+          "width": 1.98,
+          "height": 1.114,
+          "boundingRadius": 2.318
+        },
+        "defaultColors": [
+          {
+            "primary": 18,
+            "secondary": 18,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 64,
+            "secondary": 64,
+            "pearl": 24,
+            "wheels": 0,
+            "interior": 19,
+            "dashboard": 156
+          },
+          {
+            "primary": 38,
+            "secondary": 38,
+            "pearl": 24,
+            "wheels": 0,
+            "interior": 19,
+            "dashboard": 156
+          },
+          {
+            "primary": 18,
+            "secondary": 8,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 19,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING"
+        ]
+      },
       "stats": {
         "handlingId": "STROMBER",
         "mass": 1300,
@@ -1018,6 +4187,59 @@
         "id": "mpbattle",
         "name": "After Hours",
         "releaseDate": "2018-07-24"
+      },
+      "details": {
+        "manufacturer": "Ocelot",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "305_swinger_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.979,
+            "y": -2.308,
+            "z": -0.375
+          },
+          "max": {
+            "x": 0.979,
+            "y": 2.201,
+            "z": 0.68
+          },
+          "length": 4.509,
+          "width": 1.958,
+          "height": 1.056,
+          "boundingRadius": 3.045
+        },
+        "defaultColors": [
+          {
+            "primary": 50,
+            "secondary": 4,
+            "pearl": 52,
+            "wheels": 4,
+            "interior": 4,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN",
+          "FLAG_NO_HEAVY_BRAKE_ANIMATION"
+        ]
       },
       "stats": {
         "handlingId": "SWINGER",
@@ -1050,6 +4272,92 @@
         "name": "The Cayo Perico Heist",
         "releaseDate": "2020-12-15"
       },
+      "details": {
+        "manufacturer": "Pegassi",
+        "type": "SUBMARINECAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "447_toreador_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SUBCAR_MG",
+          "VEHICLE_WEAPON_SUBCAR_MISSILE",
+          "VEHICLE_WEAPON_SUBCAR_TORPEDO"
+        ],
+        "features": {
+          "convertibleRoof": true,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.908,
+            "y": -2.205,
+            "z": -0.329
+          },
+          "max": {
+            "x": 0.908,
+            "y": 2.364,
+            "z": 0.803
+          },
+          "length": 4.569,
+          "width": 1.816,
+          "height": 1.132,
+          "boundingRadius": 2.424
+        },
+        "defaultColors": [
+          {
+            "primary": 3,
+            "secondary": 2,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 7,
+            "dashboard": 156
+          },
+          {
+            "primary": 27,
+            "secondary": 61,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 38,
+            "secondary": 38,
+            "pearl": 24,
+            "wheels": 0,
+            "interior": 19,
+            "dashboard": 156
+          },
+          {
+            "primary": 0,
+            "secondary": 16,
+            "pearl": 61,
+            "wheels": 0,
+            "interior": 11,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_HAS_GULL_WING_DOORS",
+          "FLAG_HAS_ROCKET_BOOST",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_PREFER_FRONT_SEAT"
+        ]
+      },
       "stats": {
         "handlingId": "TOREADOR",
         "mass": 1600,
@@ -1080,6 +4388,174 @@
         "id": "mpgunrunning",
         "name": "Gunrunning",
         "releaseDate": "2017-06-13"
+      },
+      "details": {
+        "manufacturer": "Pegassi",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "224_torero_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.175,
+            "y": -2.108,
+            "z": -0.494
+          },
+          "max": {
+            "x": 1.183,
+            "y": 2.16,
+            "z": 0.83
+          },
+          "length": 4.268,
+          "width": 2.358,
+          "height": 1.324,
+          "boundingRadius": 2.369
+        },
+        "defaultColors": [
+          {
+            "primary": 34,
+            "secondary": 18,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 99,
+            "dashboard": 65
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 4,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 6,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 38,
+            "secondary": 0,
+            "pearl": 89,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 80,
+            "secondary": 0,
+            "pearl": 68,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 89,
+            "secondary": 0,
+            "pearl": 89,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 92,
+            "secondary": 0,
+            "pearl": 90,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 13,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 39,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 31,
+            "secondary": 0,
+            "pearl": 28,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 41,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 37,
+            "secondary": 0,
+            "pearl": 106,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_HAS_GULL_WING_DOORS",
+          "FLAG_FRONT_BOOT"
+        ]
       },
       "stats": {
         "handlingId": "TORERO",
@@ -1112,6 +4588,153 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "60_tornado_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.054,
+            "y": -2.729,
+            "z": -0.716
+          },
+          "max": {
+            "x": 1.054,
+            "y": 2.353,
+            "z": 0.754
+          },
+          "length": 5.082,
+          "width": 2.109,
+          "height": 1.47,
+          "boundingRadius": 2.774
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 1,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 3,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 32,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 54,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 68,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 37,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 106,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 107,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 7,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 35,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 52,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
+      },
       "stats": {
         "handlingId": "TORNADO",
         "mass": 2100,
@@ -1142,6 +4765,153 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "60_tornado_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": true,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.054,
+            "y": -2.729,
+            "z": -0.716
+          },
+          "max": {
+            "x": 1.054,
+            "y": 2.353,
+            "z": 0.763
+          },
+          "length": 5.082,
+          "width": 2.109,
+          "height": 1.479,
+          "boundingRadius": 2.774
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 1,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 3,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 32,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 54,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 68,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 37,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 106,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 107,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 7,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 35,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 52,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
       },
       "stats": {
         "handlingId": "TORNADO",
@@ -1174,6 +4944,112 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.054,
+            "y": -2.729,
+            "z": -0.716
+          },
+          "max": {
+            "x": 1.054,
+            "y": 2.353,
+            "z": 0.749
+          },
+          "length": 5.082,
+          "width": 2.109,
+          "height": 1.465,
+          "boundingRadius": 2.775
+        },
+        "defaultColors": [
+          {
+            "primary": 22,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 25,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 46,
+            "secondary": 0,
+            "pearl": 6,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 47,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 87,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 113,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 60,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_POOR_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
+      },
       "stats": {
         "handlingId": "TORNADO",
         "mass": 2100,
@@ -1204,6 +5080,57 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.054,
+            "y": -2.729,
+            "z": -0.716
+          },
+          "max": {
+            "x": 1.154,
+            "y": 2.353,
+            "z": 0.703
+          },
+          "length": 5.082,
+          "width": 2.208,
+          "height": 1.419,
+          "boundingRadius": 2.808
+        },
+        "defaultColors": [
+          {
+            "primary": 46,
+            "secondary": 21,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_POOR_CAR",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
       },
       "stats": {
         "handlingId": "TORNADO",
@@ -1236,6 +5163,163 @@
         "name": "Lowriders: Custom Classics",
         "releaseDate": "2016-03-15"
       },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "113_tornado5_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": true,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.054,
+            "y": -2.886,
+            "z": -0.666
+          },
+          "max": {
+            "x": 1.054,
+            "y": 2.353,
+            "z": 0.763
+          },
+          "length": 5.239,
+          "width": 2.109,
+          "height": 1.429,
+          "boundingRadius": 2.782
+        },
+        "defaultColors": [
+          {
+            "primary": 1,
+            "secondary": 25,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 1,
+            "dashboard": 111
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 1,
+            "wheels": 156,
+            "interior": 1,
+            "dashboard": 111
+          },
+          {
+            "primary": 3,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 1,
+            "dashboard": 111
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 1,
+            "dashboard": 111
+          },
+          {
+            "primary": 32,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 1,
+            "dashboard": 111
+          },
+          {
+            "primary": 54,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 1,
+            "dashboard": 111
+          },
+          {
+            "primary": 68,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 1,
+            "dashboard": 111
+          },
+          {
+            "primary": 37,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 1,
+            "dashboard": 111
+          },
+          {
+            "primary": 106,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 1,
+            "dashboard": 111
+          },
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 1,
+            "dashboard": 111
+          },
+          {
+            "primary": 107,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 1,
+            "dashboard": 111
+          },
+          {
+            "primary": 7,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 1,
+            "dashboard": 111
+          },
+          {
+            "primary": 35,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 1,
+            "dashboard": 111
+          },
+          {
+            "primary": 52,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 1,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_HAS_LOWRIDER_HYDRAULICS",
+          "FLAG_HAS_LIVERY"
+        ]
+      },
       "stats": {
         "handlingId": "TORNADO5",
         "mass": 2200,
@@ -1266,6 +5350,112 @@
         "id": "mpbiker",
         "name": "Bikers",
         "releaseDate": "2016-10-04"
+      },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "196_tornado6_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.088,
+            "y": -2.72,
+            "z": -0.722
+          },
+          "max": {
+            "x": 1.088,
+            "y": 2.211,
+            "z": 0.723
+          },
+          "length": 4.931,
+          "width": 2.176,
+          "height": 1.445,
+          "boundingRadius": 2.603
+        },
+        "defaultColors": [
+          {
+            "primary": 22,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 22,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 25,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 25,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 46,
+            "secondary": 0,
+            "pearl": 6,
+            "wheels": 46,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 47,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 47,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 87,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 87,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 113,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 113,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 121,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 60,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 60,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR"
+        ]
       },
       "stats": {
         "handlingId": "TORNADO6",
@@ -1298,6 +5488,110 @@
         "name": "Cunning Stunts: Special Vehicle Circuit",
         "releaseDate": "2016-11-08"
       },
+      "details": {
+        "manufacturer": "Grotti",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "225_turismo2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.007,
+            "y": -2.18,
+            "z": -0.641
+          },
+          "max": {
+            "x": 1.007,
+            "y": 2.366,
+            "z": 0.611
+          },
+          "length": 4.546,
+          "width": 2.015,
+          "height": 1.252,
+          "boundingRadius": 2.449
+        },
+        "defaultColors": [
+          {
+            "primary": 29,
+            "secondary": 40,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 112,
+            "secondary": 29,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 43,
+            "dashboard": 93
+          },
+          {
+            "primary": 1,
+            "secondary": 29,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 43,
+            "dashboard": 93
+          },
+          {
+            "primary": 38,
+            "secondary": 88,
+            "pearl": 88,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 92,
+            "secondary": 89,
+            "pearl": 88,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 62,
+            "secondary": 68,
+            "pearl": 67,
+            "wheels": 112,
+            "interior": 112,
+            "dashboard": 93
+          },
+          {
+            "primary": 13,
+            "secondary": 40,
+            "pearl": 13,
+            "wheels": 112,
+            "interior": 40,
+            "dashboard": 93
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_FRONT_BOOT"
+        ]
+      },
       "stats": {
         "handlingId": "TURISMO2",
         "mass": 1100,
@@ -1328,6 +5622,64 @@
         "id": "mpchristmas2017",
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
+      },
+      "details": {
+        "manufacturer": "Lampadati",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "278_viseris_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_VISERIS_MG"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.062,
+            "y": -2.503,
+            "z": -0.388
+          },
+          "max": {
+            "x": 1.064,
+            "y": 2.177,
+            "z": 0.837
+          },
+          "length": 4.679,
+          "width": 2.126,
+          "height": 1.225,
+          "boundingRadius": 2.378
+        },
+        "defaultColors": [
+          {
+            "primary": 8,
+            "secondary": 0,
+            "pearl": 134,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_FRONT_BOOT",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING"
+        ]
       },
       "stats": {
         "handlingId": "VISERIS",
@@ -1360,6 +5712,100 @@
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
       },
+      "details": {
+        "manufacturer": "Karin",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "276_z190_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.092,
+            "y": -2.557,
+            "z": -0.326
+          },
+          "max": {
+            "x": 1.093,
+            "y": 2.285,
+            "z": 0.964
+          },
+          "length": 4.841,
+          "width": 2.185,
+          "height": 1.29,
+          "boundingRadius": 2.464
+        },
+        "defaultColors": [
+          {
+            "primary": 112,
+            "secondary": 10,
+            "pearl": 111,
+            "wheels": 9,
+            "interior": 141,
+            "dashboard": 0
+          },
+          {
+            "primary": 2,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 156,
+            "interior": 129,
+            "dashboard": 0
+          },
+          {
+            "primary": 153,
+            "secondary": 110,
+            "pearl": 116,
+            "wheels": 15,
+            "interior": 109,
+            "dashboard": 0
+          },
+          {
+            "primary": 6,
+            "secondary": 111,
+            "pearl": 131,
+            "wheels": 23,
+            "interior": 121,
+            "dashboard": 0
+          },
+          {
+            "primary": 151,
+            "secondary": 115,
+            "pearl": 154,
+            "wheels": 23,
+            "interior": 144,
+            "dashboard": 0
+          },
+          {
+            "primary": 43,
+            "secondary": 67,
+            "pearl": 150,
+            "wheels": 147,
+            "interior": 22,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG"
+        ]
+      },
       "stats": {
         "handlingId": "z190",
         "mass": 1100,
@@ -1391,6 +5837,60 @@
         "name": "The Diamond Casino & Resort",
         "releaseDate": "2019-07-23"
       },
+      "details": {
+        "manufacturer": "Ubermacht",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "364_zion3_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.995,
+            "y": -2.375,
+            "z": -0.354
+          },
+          "max": {
+            "x": 0.995,
+            "y": 2.271,
+            "z": 1.325
+          },
+          "length": 4.645,
+          "width": 1.99,
+          "height": 1.679,
+          "boundingRadius": 2.579
+        },
+        "defaultColors": [
+          {
+            "primary": 112,
+            "secondary": 112,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD",
+          "FLAG_CARGOBOB_HOOK_UP_CHASSIS"
+        ]
+      },
       "stats": {
         "handlingId": "ZION3",
         "mass": 1450,
@@ -1421,6 +5921,104 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "Truffade",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "13_ztype_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.961,
+            "y": -3.076,
+            "z": -0.443
+          },
+          "max": {
+            "x": 0.961,
+            "y": 2.269,
+            "z": 1.162
+          },
+          "length": 5.345,
+          "width": 1.921,
+          "height": 1.605,
+          "boundingRadius": 2.892
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 33,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 6,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 76,
+            "secondary": 75,
+            "pearl": 68,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 29,
+            "secondary": 0,
+            "pearl": 6,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 6,
+            "secondary": 6,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 4,
+            "secondary": 3,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN"
+        ]
       },
       "stats": {
         "handlingId": "ztype",

@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "id": "mplowrider",
@@ -28,6 +28,58 @@
         "id": "mplowrider",
         "name": "Lowriders",
         "releaseDate": "2015-10-20"
+      },
+      "details": {
+        "manufacturer": "Albany",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "114_primo2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.025,
+            "y": -2.762,
+            "z": -0.5
+          },
+          "max": {
+            "x": 1.025,
+            "y": 2.617,
+            "z": 0.88
+          },
+          "length": 5.378,
+          "width": 2.051,
+          "height": 1.38,
+          "boundingRadius": 2.899
+        },
+        "defaultColors": [
+          {
+            "primary": 64,
+            "secondary": 5,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 73,
+            "dashboard": 64
+          }
+        ],
+        "flags": [
+          "FLAG_PARKING_SENSORS",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_HAS_LOWRIDER_HYDRAULICS"
+        ]
       },
       "stats": {
         "handlingId": "PRIMO2",
@@ -60,6 +112,60 @@
         "name": "Lowriders",
         "releaseDate": "2015-10-20"
       },
+      "details": {
+        "manufacturer": "Albany",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "153_buccaneer_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.012,
+            "y": -3.028,
+            "z": -0.194
+          },
+          "max": {
+            "x": 1.012,
+            "y": 2.473,
+            "z": 1.037
+          },
+          "length": 5.501,
+          "width": 2.024,
+          "height": 1.23,
+          "boundingRadius": 2.881
+        },
+        "defaultColors": [
+          {
+            "primary": 34,
+            "secondary": 34,
+            "pearl": 35,
+            "wheels": 90,
+            "interior": 156,
+            "dashboard": 27
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_CONVERTIBLE",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_HAS_LOWRIDER_HYDRAULICS"
+        ]
+      },
       "stats": {
         "handlingId": "BUCCANEE2",
         "mass": 1600,
@@ -90,6 +196,59 @@
         "id": "mplowrider",
         "name": "Lowriders",
         "releaseDate": "2015-10-20"
+      },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "117_chino2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.178,
+            "y": -2.846,
+            "z": -0.373
+          },
+          "max": {
+            "x": 1.178,
+            "y": 2.871,
+            "z": 0.898
+          },
+          "length": 5.717,
+          "width": 2.357,
+          "height": 1.271,
+          "boundingRadius": 3.04
+        },
+        "defaultColors": [
+          {
+            "primary": 142,
+            "secondary": 25,
+            "pearl": 120,
+            "wheels": 88,
+            "interior": 3,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_CONVERTIBLE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_HAS_LOWRIDER_HYDRAULICS"
+        ]
       },
       "stats": {
         "handlingId": "CHINO2",
@@ -122,6 +281,57 @@
         "name": "Lowriders",
         "releaseDate": "2015-10-20"
       },
+      "details": {
+        "manufacturer": "Willard",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.928,
+            "y": -2.667,
+            "z": -0.484
+          },
+          "max": {
+            "x": 0.928,
+            "y": 2.585,
+            "z": 0.908
+          },
+          "length": 5.252,
+          "width": 1.856,
+          "height": 1.393,
+          "boundingRadius": 2.787
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_CONVERTIBLE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_CAN_HAVE_NEONS"
+        ]
+      },
       "stats": {
         "handlingId": "FACTION",
         "mass": 1200,
@@ -152,6 +362,58 @@
         "id": "mplowrider",
         "name": "Lowriders",
         "releaseDate": "2015-10-20"
+      },
+      "details": {
+        "manufacturer": "Willard",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "111_faction2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.928,
+            "y": -2.667,
+            "z": -0.367
+          },
+          "max": {
+            "x": 0.928,
+            "y": 2.585,
+            "z": 0.908
+          },
+          "length": 5.252,
+          "width": 1.856,
+          "height": 1.276,
+          "boundingRadius": 2.784
+        },
+        "defaultColors": [
+          {
+            "primary": 73,
+            "secondary": 73,
+            "pearl": 92,
+            "wheels": 88,
+            "interior": 48,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_HAS_LOWRIDER_HYDRAULICS"
+        ]
       },
       "stats": {
         "handlingId": "FACTION",
@@ -184,6 +446,58 @@
         "name": "Lowriders",
         "releaseDate": "2015-10-20"
       },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.135,
+            "y": -2.702,
+            "z": -0.598
+          },
+          "max": {
+            "x": 1.135,
+            "y": 2.306,
+            "z": 1.325
+          },
+          "length": 5.007,
+          "width": 2.271,
+          "height": 1.923,
+          "boundingRadius": 2.777
+        },
+        "defaultColors": [
+          {
+            "primary": 34,
+            "secondary": 32,
+            "pearl": 29,
+            "wheels": 88,
+            "interior": 34,
+            "dashboard": 42
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_HAS_REAR_SEAT_ACTIVITIES"
+        ]
+      },
       "stats": {
         "handlingId": "MOONBEAM",
         "mass": 2400,
@@ -215,6 +529,59 @@
         "name": "Lowriders",
         "releaseDate": "2015-10-20"
       },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "115_moonbeam2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.135,
+            "y": -2.838,
+            "z": -0.426
+          },
+          "max": {
+            "x": 1.135,
+            "y": 2.306,
+            "z": 1.576
+          },
+          "length": 5.144,
+          "width": 2.271,
+          "height": 2.003,
+          "boundingRadius": 2.77
+        },
+        "defaultColors": [
+          {
+            "primary": 34,
+            "secondary": 32,
+            "pearl": 29,
+            "wheels": 88,
+            "interior": 34,
+            "dashboard": 42
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_HAS_REAR_SEAT_ACTIVITIES",
+          "FLAG_HAS_LOWRIDER_HYDRAULICS"
+        ]
+      },
       "stats": {
         "handlingId": "MOONBEAM",
         "mass": 2400,
@@ -245,6 +612,55 @@
         "id": "mplowrider",
         "name": "Lowriders",
         "releaseDate": "2015-10-20"
+      },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "112_voodoo_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.083,
+            "y": -2.996,
+            "z": -0.464
+          },
+          "max": {
+            "x": 1.083,
+            "y": 2.376,
+            "z": 0.783
+          },
+          "length": 5.372,
+          "width": 2.166,
+          "height": 1.246,
+          "boundingRadius": 2.866
+        },
+        "defaultColors": [
+          {
+            "primary": 53,
+            "secondary": 89,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 53,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_POOR_CAR",
+          "FLAG_HAS_LOWRIDER_HYDRAULICS"
+        ]
       },
       "stats": {
         "handlingId": "VOODOO",

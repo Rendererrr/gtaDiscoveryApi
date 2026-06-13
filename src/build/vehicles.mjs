@@ -22,6 +22,8 @@ const HANDLING = JSON.parse(await readFile(join(ROOT, 'src', 'data', 'vehicles.h
 // model name (lowercased) -> internal DLC code (DurtyFree), resolved to { id, name, releaseDate }.
 const DLC_BY_MODEL = JSON.parse(await readFile(join(ROOT, 'src', 'data', 'vehicles.dlc.json'), 'utf-8')).models;
 const DLC_LABELS = JSON.parse(await readFile(join(ROOT, 'src', 'data', 'dlc.labels.json'), 'utf-8')).labels;
+// model (lowercased) -> details (manufacturer, seats, doors, colors, dimensions, …) from DurtyFree.
+const DETAILS_BY_MODEL = JSON.parse(await readFile(join(ROOT, 'src', 'data', 'vehicles.details.json'), 'utf-8')).models;
 function dlcFor(model) {
   const id = DLC_BY_MODEL[model.toLowerCase()];
   if (!id) return null;
@@ -64,6 +66,7 @@ export async function build({ assetsDir, apiDir, log = console.log }) {
   let mismatches = 0;
   let withStats = 0;
   let withDlc = 0;
+  let withDetails = 0;
   const items = [];
   for (const veh of SRC) {
     const id = veh.model_name;
@@ -82,6 +85,8 @@ export async function build({ assetsDir, apiDir, log = console.log }) {
     if (stats) withStats++;
     const dlc = dlcFor(id);
     if (dlc) withDlc++;
+    const details = DETAILS_BY_MODEL[id.toLowerCase()] ?? null;
+    if (details) withDetails++;
     items.push({
       id,
       name: veh.display_name,
@@ -89,6 +94,7 @@ export async function build({ assetsDir, apiDir, log = console.log }) {
       category: veh.category,
       url: hasImage ? `${CDN_BASE}/assets/${DOMAIN}/images/${id}.webp` : null,
       dlc,
+      details,
       stats,
     });
   }
@@ -97,11 +103,12 @@ export async function build({ assetsDir, apiDir, log = console.log }) {
   if (mismatches) log(`  note: ${mismatches} archive hash(es) overridden by joaat (data errors in source).`);
   log(`  stats: ${withStats}/${items.length} vehicles have performance stats (handling snapshot).`);
   log(`  dlc: ${withDlc}/${items.length} vehicles tagged with source DLC + release date (DurtyFree + dlc.labels).`);
+  log(`  details: ${withDetails}/${items.length} vehicles have manufacturer/seats/doors/colors/dimensions (DurtyFree).`);
 
   return writeFlatDomain({
     apiDir, domain: DOMAIN, label: LABEL,
     urlPattern: `{cdnBase}/assets/${DOMAIN}/images/{model_name}.webp`,
-    note: 'Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …).',
+    note: 'Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …).',
     items, log,
   });
 }

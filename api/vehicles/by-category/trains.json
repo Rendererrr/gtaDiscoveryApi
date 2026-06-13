@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "name": "Trains",
@@ -26,6 +26,54 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAIN",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 0,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.706,
+            "y": -3.363,
+            "z": -7.202
+          },
+          "max": {
+            "x": 1.784,
+            "y": 3.396,
+            "z": 0.072
+          },
+          "length": 6.759,
+          "width": 3.489,
+          "height": 7.273,
+          "boundingRadius": 5.213
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 0,
+            "pearl": 132,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
       },
       "stats": {
         "handlingId": "FREIGHT",
@@ -58,6 +106,56 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAIN",
+        "seats": 4,
+        "doors": 1,
+        "wheels": 8,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.719,
+            "y": -8.578,
+            "z": -1.518
+          },
+          "max": {
+            "x": 1.719,
+            "y": 8.845,
+            "z": 3.333
+          },
+          "length": 17.424,
+          "width": 3.438,
+          "height": 4.851,
+          "boundingRadius": 9.542
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 126,
+            "pearl": 2,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
+      },
       "stats": {
         "handlingId": "FREIGHT",
         "mass": 25084,
@@ -88,6 +186,58 @@
         "id": "mp2023_02",
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAIN",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 8,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.81,
+            "y": -8.578,
+            "z": -1.518
+          },
+          "max": {
+            "x": 1.886,
+            "y": 8.845,
+            "z": 3.333
+          },
+          "length": 17.424,
+          "width": 3.697,
+          "height": 4.851,
+          "boundingRadius": 9.568
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 126,
+            "pearl": 2,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_FORCE_ENABLE_CHASSIS_COLLISION",
+          "FLAG_NO_BOOT",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_CAN_NAVIGATE_TO_ON_VEHICLE_ENTRY"
+        ]
       },
       "stats": {
         "handlingId": "FREIGHT",
@@ -120,6 +270,87 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAIN",
+        "seats": 4,
+        "doors": 0,
+        "wheels": 8,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.672,
+            "y": -9.241,
+            "z": -0.576
+          },
+          "max": {
+            "x": 1.672,
+            "y": 9.193,
+            "z": 1.234
+          },
+          "length": 18.434,
+          "width": 3.343,
+          "height": 1.81,
+          "boundingRadius": 9.856
+        },
+        "defaultColors": [
+          {
+            "primary": 39,
+            "secondary": 0,
+            "pearl": 39,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 85,
+            "secondary": 0,
+            "pearl": 85,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 41,
+            "secondary": 0,
+            "pearl": 41,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 18,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 47,
+            "secondary": 0,
+            "pearl": 47,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
+      },
       "stats": {
         "handlingId": "FREIGHTCAR",
         "mass": 25084,
@@ -150,6 +381,88 @@
         "id": "mptuner",
         "name": "Los Santos Tuners",
         "releaseDate": "2021-07-20"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAIN",
+        "seats": 4,
+        "doors": 0,
+        "wheels": 8,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.672,
+            "y": -9.241,
+            "z": -0.576
+          },
+          "max": {
+            "x": 1.672,
+            "y": 9.193,
+            "z": 2.63
+          },
+          "length": 18.434,
+          "width": 3.343,
+          "height": 3.206,
+          "boundingRadius": 9.856
+        },
+        "defaultColors": [
+          {
+            "primary": 39,
+            "secondary": 0,
+            "pearl": 39,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 85,
+            "secondary": 0,
+            "pearl": 85,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 41,
+            "secondary": 0,
+            "pearl": 41,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 18,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 47,
+            "secondary": 0,
+            "pearl": 47,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_EXTRAS_SCRIPT"
+        ]
       },
       "stats": {
         "handlingId": "FREIGHTCAR",
@@ -182,6 +495,81 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAIN",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 8,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.561,
+            "y": -7.507,
+            "z": -0.563
+          },
+          "max": {
+            "x": 1.561,
+            "y": 7.507,
+            "z": 3.471
+          },
+          "length": 15.015,
+          "width": 3.122,
+          "height": 4.034,
+          "boundingRadius": 8.294
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 88,
+            "pearl": 132,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 132,
+            "secondary": 104,
+            "pearl": 132,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 132,
+            "secondary": 74,
+            "pearl": 132,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 132,
+            "secondary": 4,
+            "pearl": 132,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_FORCE_ENABLE_CHASSIS_COLLISION"
+        ]
+      },
       "stats": {
         "handlingId": "FREIGHT",
         "mass": 25084,
@@ -212,6 +600,80 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAIN",
+        "seats": 4,
+        "doors": 0,
+        "wheels": 8,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.561,
+            "y": -7.507,
+            "z": -0.563
+          },
+          "max": {
+            "x": 1.561,
+            "y": 7.507,
+            "z": 3.275
+          },
+          "length": 15.015,
+          "width": 3.122,
+          "height": 3.838,
+          "boundingRadius": 8.27
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 88,
+            "pearl": 132,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 132,
+            "secondary": 104,
+            "pearl": 132,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 132,
+            "secondary": 74,
+            "pearl": 132,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 132,
+            "secondary": 4,
+            "pearl": 132,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_FORCE_ENABLE_CHASSIS_COLLISION"
+        ]
       },
       "stats": {
         "handlingId": "FREIGHT",
@@ -244,6 +706,55 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAIN",
+        "seats": 4,
+        "doors": 1,
+        "wheels": 8,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.537,
+            "y": -8.127,
+            "z": -0.72
+          },
+          "max": {
+            "x": 1.487,
+            "y": 8.126,
+            "z": 3.431
+          },
+          "length": 16.253,
+          "width": 3.024,
+          "height": 4.152,
+          "boundingRadius": 9.167
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
+      },
       "stats": {
         "handlingId": "FREIGHT",
         "mass": 25084,
@@ -275,6 +786,59 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAIN",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 8,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.702,
+            "y": -5.668,
+            "z": -0.418
+          },
+          "max": {
+            "x": 1.702,
+            "y": 5.611,
+            "z": 5.173
+          },
+          "length": 11.279,
+          "width": 3.404,
+          "height": 5.591,
+          "boundingRadius": 6.526
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_IS_ELECTRIC",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_CANNOT_BE_DRIVEN_BY_PLAYER"
+        ]
+      },
       "stats": {
         "handlingId": "metrotrain",
         "mass": 25000,
@@ -305,6 +869,59 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAIN",
+        "seats": 4,
+        "doors": 0,
+        "wheels": 8,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.701,
+            "y": -8.411,
+            "z": -0.852
+          },
+          "max": {
+            "x": 1.701,
+            "y": 8.411,
+            "z": 3.4
+          },
+          "length": 16.822,
+          "width": 3.403,
+          "height": 4.252,
+          "boundingRadius": 9.143
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_EXTRAS_SCRIPT",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_EXPLODE_ON_CONTACT",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
       },
       "stats": {
         "handlingId": "FREIGHT",

@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "id": "mpexecutive",
@@ -28,6 +28,90 @@
         "id": "mpexecutive",
         "name": "Further Adventures in Finance and Felony",
         "releaseDate": "2016-06-07"
+      },
+      "details": {
+        "manufacturer": "Benefactor",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.029,
+            "y": -2.644,
+            "z": -0.928
+          },
+          "max": {
+            "x": 1.029,
+            "y": 2.474,
+            "z": 0.943
+          },
+          "length": 5.119,
+          "width": 2.058,
+          "height": 1.871,
+          "boundingRadius": 2.833
+        },
+        "defaultColors": [
+          {
+            "primary": 2,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 50,
+            "secondary": 1,
+            "pearl": 92,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 33,
+            "secondary": 1,
+            "pearl": 160,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 62,
+            "secondary": 1,
+            "pearl": 70,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 27,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_PARKING_SENSORS",
+          "FLAG_RICH_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
       },
       "stats": {
         "handlingId": "XLS",
@@ -60,6 +144,61 @@
         "name": "Further Adventures in Finance and Felony",
         "releaseDate": "2016-06-07"
       },
+      "details": {
+        "manufacturer": "Benefactor",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.029,
+            "y": -2.644,
+            "z": -0.928
+          },
+          "max": {
+            "x": 1.029,
+            "y": 2.474,
+            "z": 0.943
+          },
+          "length": 5.119,
+          "width": 2.058,
+          "height": 1.871,
+          "boundingRadius": 2.833
+        },
+        "defaultColors": [
+          {
+            "primary": 12,
+            "secondary": 12,
+            "pearl": 12,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_PARKING_SENSORS",
+          "FLAG_RICH_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS",
+          "FLAG_HAS_CAPPED_EXPLOSION_DAMAGE",
+          "FLAG_HAS_INCREASED_RAMMING_FORCE"
+        ]
+      },
       "stats": {
         "handlingId": "XLS2",
         "mass": 3000,
@@ -90,6 +229,58 @@
         "id": "mpexecutive",
         "name": "Further Adventures in Finance and Felony",
         "releaseDate": "2016-06-07"
+      },
+      "details": {
+        "manufacturer": "Enus",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "136_windsor2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": true,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.127,
+            "y": -3.167,
+            "z": -0.456
+          },
+          "max": {
+            "x": 1.125,
+            "y": 2.628,
+            "z": 1.105
+          },
+          "length": 5.795,
+          "width": 2.252,
+          "height": 1.561,
+          "boundingRadius": 3.103
+        },
+        "defaultColors": [
+          {
+            "primary": 112,
+            "secondary": 112,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 27,
+            "dashboard": 27
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_HAS_LIVERY",
+          "FLAG_PARKING_SENSORS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO"
+        ]
       },
       "stats": {
         "handlingId": "WINDSOR2",
@@ -122,6 +313,108 @@
         "name": "Further Adventures in Finance and Felony",
         "releaseDate": "2016-06-07"
       },
+      "details": {
+        "manufacturer": "Grotti",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "133_bestia_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.064,
+            "y": -2.551,
+            "z": -0.254
+          },
+          "max": {
+            "x": 1.064,
+            "y": 2.584,
+            "z": 1.218
+          },
+          "length": 5.135,
+          "width": 2.127,
+          "height": 1.472,
+          "boundingRadius": 2.786
+        },
+        "defaultColors": [
+          {
+            "primary": 5,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 57,
+            "pearl": 92,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 33,
+            "secondary": 40,
+            "pearl": 29,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 38,
+            "secondary": 5,
+            "pearl": 160,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 64,
+            "secondary": 9,
+            "pearl": 67,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 9,
+            "secondary": 4,
+            "pearl": 67,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS"
+        ]
+      },
       "stats": {
         "handlingId": "BESTIAGTS",
         "mass": 1800,
@@ -152,6 +445,100 @@
         "id": "mpexecutive",
         "name": "Further Adventures in Finance and Felony",
         "releaseDate": "2016-06-07"
+      },
+      "details": {
+        "manufacturer": "Dewbauchee",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "137_seven70_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.101,
+            "y": -2.424,
+            "z": -0.321
+          },
+          "max": {
+            "x": 1.103,
+            "y": 2.327,
+            "z": 1.051
+          },
+          "length": 4.751,
+          "width": 2.204,
+          "height": 1.371,
+          "boundingRadius": 2.563
+        },
+        "defaultColors": [
+          {
+            "primary": 3,
+            "secondary": 3,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 33,
+            "secondary": 3,
+            "pearl": 160,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 39,
+            "secondary": 3,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 76,
+            "secondary": 3,
+            "pearl": 46,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 94,
+            "secondary": 3,
+            "pearl": 160,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 50,
+            "secondary": 3,
+            "pearl": 92,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS"
+        ]
       },
       "stats": {
         "handlingId": "SEVEN70",
@@ -184,6 +571,100 @@
         "name": "Further Adventures in Finance and Felony",
         "releaseDate": "2016-06-07"
       },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "138_fmj_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.056,
+            "y": -2.478,
+            "z": -0.389
+          },
+          "max": {
+            "x": 1.056,
+            "y": 2.373,
+            "z": 0.734
+          },
+          "length": 4.851,
+          "width": 2.112,
+          "height": 1.123,
+          "boundingRadius": 2.601
+        },
+        "defaultColors": [
+          {
+            "primary": 62,
+            "secondary": 111,
+            "pearl": 70,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 38,
+            "pearl": 38,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 27,
+            "secondary": 88,
+            "pearl": 38,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 92,
+            "secondary": 88,
+            "pearl": 55,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 10,
+            "secondary": 5,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 4,
+            "secondary": 2,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS"
+        ]
+      },
       "stats": {
         "handlingId": "FMJ",
         "mass": 1315,
@@ -214,6 +695,110 @@
         "id": "mpexecutive",
         "name": "Further Adventures in Finance and Felony",
         "releaseDate": "2016-06-07"
+      },
+      "details": {
+        "manufacturer": "Pfister",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "134_811_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.055,
+            "y": -2.5,
+            "z": -0.331
+          },
+          "max": {
+            "x": 1.055,
+            "y": 2.428,
+            "z": 0.933
+          },
+          "length": 4.927,
+          "width": 2.11,
+          "height": 1.264,
+          "boundingRadius": 2.648
+        },
+        "defaultColors": [
+          {
+            "primary": 5,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 57,
+            "pearl": 92,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 33,
+            "secondary": 40,
+            "pearl": 29,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 38,
+            "secondary": 5,
+            "pearl": 160,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 64,
+            "secondary": 9,
+            "pearl": 67,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 9,
+            "secondary": 4,
+            "pearl": 67,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_EXTRAS_STRONG"
+        ]
       },
       "stats": {
         "handlingId": "pfister811",
@@ -246,6 +831,148 @@
         "name": "Further Adventures in Finance and Felony",
         "releaseDate": "2016-06-07"
       },
+      "details": {
+        "manufacturer": "Grotti",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "135_prototipo_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.068,
+            "y": -2.42,
+            "z": -0.282
+          },
+          "max": {
+            "x": 1.069,
+            "y": 2.625,
+            "z": 0.839
+          },
+          "length": 5.045,
+          "width": 2.137,
+          "height": 1.121,
+          "boundingRadius": 2.753
+        },
+        "defaultColors": [
+          {
+            "primary": 112,
+            "secondary": 112,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 27,
+            "dashboard": 27
+          },
+          {
+            "primary": 138,
+            "secondary": 36,
+            "pearl": 160,
+            "wheels": 0,
+            "interior": 112,
+            "dashboard": 112
+          },
+          {
+            "primary": 5,
+            "secondary": 9,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 134,
+            "dashboard": 134
+          },
+          {
+            "primary": 27,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 134,
+            "dashboard": 134
+          },
+          {
+            "primary": 27,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 134,
+            "dashboard": 134
+          },
+          {
+            "primary": 53,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 134,
+            "dashboard": 134
+          },
+          {
+            "primary": 64,
+            "secondary": 75,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 134,
+            "dashboard": 140
+          },
+          {
+            "primary": 6,
+            "secondary": 27,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 134,
+            "dashboard": 27
+          },
+          {
+            "primary": 6,
+            "secondary": 53,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 134,
+            "dashboard": 92
+          },
+          {
+            "primary": 6,
+            "secondary": 64,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 134,
+            "dashboard": 140
+          },
+          {
+            "primary": 6,
+            "secondary": 38,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 134,
+            "dashboard": 38
+          },
+          {
+            "primary": 6,
+            "secondary": 89,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 134,
+            "dashboard": 89
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN",
+          "FLAG_HAS_GULL_WING_DOORS",
+          "FLAG_EXTRAS_STRONG"
+        ]
+      },
       "stats": {
         "handlingId": "PROTOTIPO",
         "mass": 900,
@@ -276,6 +1003,59 @@
         "id": "mpexecutive",
         "name": "Further Adventures in Finance and Felony",
         "releaseDate": "2016-06-07"
+      },
+      "details": {
+        "manufacturer": "Pegassi",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "139_reaper_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.04,
+            "y": -2.059,
+            "z": -0.533
+          },
+          "max": {
+            "x": 1.04,
+            "y": 2.654,
+            "z": 0.668
+          },
+          "length": 4.713,
+          "width": 2.079,
+          "height": 1.201,
+          "boundingRadius": 2.508
+        },
+        "defaultColors": [
+          {
+            "primary": 3,
+            "secondary": 3,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN",
+          "FLAG_EXTRAS_STRONG"
+        ]
       },
       "stats": {
         "handlingId": "REAPER",
@@ -308,6 +1088,85 @@
         "name": "Further Adventures in Finance and Felony",
         "releaseDate": "2016-06-07"
       },
+      "details": {
+        "manufacturer": "Bravado",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.35,
+            "y": -3.165,
+            "z": -1.225
+          },
+          "max": {
+            "x": 1.35,
+            "y": 2.778,
+            "z": 1.432
+          },
+          "length": 5.943,
+          "width": 2.7,
+          "height": 2.657,
+          "boundingRadius": 3.394
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 1,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 100,
+            "secondary": 1,
+            "pearl": 1,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 105,
+            "secondary": 1,
+            "pearl": 1,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 52,
+            "secondary": 1,
+            "pearl": 1,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_IS_VAN",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY",
+          "FLAG_HAS_REAR_SEAT_ACTIVITIES",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS"
+        ]
+      },
       "stats": {
         "handlingId": "RUMPO3",
         "mass": 2250,
@@ -338,6 +1197,59 @@
         "id": "mpexecutive",
         "name": "Further Adventures in Finance and Felony",
         "releaseDate": "2016-06-07"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "BOAT",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 0,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -5.193,
+            "y": -17.035,
+            "z": -3.9
+          },
+          "max": {
+            "x": 5.193,
+            "y": 14.444,
+            "z": 10.992
+          },
+          "length": 31.479,
+          "width": 10.386,
+          "height": 14.892,
+          "boundingRadius": 1.55
+        },
+        "defaultColors": [
+          {
+            "primary": 122,
+            "secondary": 0,
+            "pearl": 122,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_TALL_SHIP",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_CANNOT_TAKE_COVER_WHEN_STOOD_ON",
+          "FLAG_CANNOT_BE_PICKUP_BY_CARGOBOB"
+        ]
       },
       "stats": {
         "handlingId": "TUG",
@@ -370,6 +1282,113 @@
         "name": "Further Adventures in Finance and Felony",
         "releaseDate": "2016-06-07"
       },
+      "details": {
+        "manufacturer": "Buckingham",
+        "type": "HELI",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 3,
+        "modKits": [
+          "0_defaultspraypatch"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SEARCHLIGHT"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -6.376,
+            "y": -8.492,
+            "z": -1.714
+          },
+          "max": {
+            "x": 6.376,
+            "y": 6.925,
+            "z": 3.182
+          },
+          "length": 15.417,
+          "width": 12.753,
+          "height": 4.896,
+          "boundingRadius": 10.191
+        },
+        "defaultColors": [
+          {
+            "primary": 112,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 73,
+            "secondary": 0,
+            "pearl": 62,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 26,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 67,
+            "secondary": 3,
+            "pearl": 1,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 73,
+            "secondary": 0,
+            "pearl": 62,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 117,
+            "pearl": 158,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 1,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_HELICOPTER_WITH_LANDING_GEAR",
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_HAS_REAR_SEAT_ACTIVITIES",
+          "FLAG_USE_LIGHTING_INTERIOR_OVERRIDE"
+        ]
+      },
       "stats": {
         "handlingId": "VOLATUS",
         "mass": 8000,
@@ -401,6 +1420,87 @@
         "name": "Further Adventures in Finance and Felony",
         "releaseDate": "2016-06-07"
       },
+      "details": {
+        "manufacturer": "Buckingham",
+        "type": "PLANE",
+        "seats": 8,
+        "doors": 1,
+        "wheels": 4,
+        "modKits": [
+          "0_defaultspraypatch"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -9.81,
+            "y": -12.713,
+            "z": -1.655
+          },
+          "max": {
+            "x": 9.81,
+            "y": 9.097,
+            "z": 4.047
+          },
+          "length": 21.81,
+          "width": 19.621,
+          "height": 5.702,
+          "boundingRadius": 14.844
+        },
+        "defaultColors": [
+          {
+            "primary": 4,
+            "secondary": 0,
+            "pearl": 106,
+            "wheels": 150,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 28,
+            "pearl": 1,
+            "wheels": 6,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 126,
+            "pearl": 0,
+            "wheels": 90,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 31,
+            "pearl": 0,
+            "wheels": 5,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HEADLIGHTS_ON_LANDINGGEAR",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_HAS_REAR_SEAT_ACTIVITIES",
+          "FLAG_USE_LIGHTING_INTERIOR_OVERRIDE"
+        ]
+      },
       "stats": {
         "handlingId": "NIMBUS",
         "mass": 6500,
@@ -431,6 +1531,84 @@
         "id": "mpexecutive",
         "name": "Further Adventures in Finance and Felony",
         "releaseDate": "2016-06-07"
+      },
+      "details": {
+        "manufacturer": "MTL",
+        "type": "CAR",
+        "seats": 6,
+        "doors": 2,
+        "wheels": 6,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.9,
+            "y": -7.207,
+            "z": -1.384
+          },
+          "max": {
+            "x": 1.906,
+            "y": 4.836,
+            "z": 2.59
+          },
+          "length": 12.043,
+          "width": 3.806,
+          "height": 3.974,
+          "boundingRadius": 6.457
+        },
+        "defaultColors": [
+          {
+            "primary": 154,
+            "secondary": 14,
+            "pearl": 1,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 18,
+            "secondary": 12,
+            "pearl": 1,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 152,
+            "secondary": 95,
+            "pearl": 1,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 154,
+            "secondary": 95,
+            "pearl": 1,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_USE_FAT_INTERIOR_LIGHT",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS"
+        ]
       },
       "stats": {
         "handlingId": "BRICKADE",

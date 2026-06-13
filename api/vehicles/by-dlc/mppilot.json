@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "id": "mppilot",
@@ -28,6 +28,139 @@
         "id": "mppilot",
         "name": "San Andreas Flight School Update",
         "releaseDate": "2014-08-19"
+      },
+      "details": {
+        "manufacturer": "Invetero",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "105_coquette2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.934,
+            "y": -2.543,
+            "z": -0.256
+          },
+          "max": {
+            "x": 0.937,
+            "y": 2.235,
+            "z": 1.053
+          },
+          "length": 4.779,
+          "width": 1.871,
+          "height": 1.309,
+          "boundingRadius": 2.577
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 6,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 2,
+            "secondary": 2,
+            "pearl": 134,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 8,
+            "secondary": 8,
+            "pearl": 134,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 19,
+            "secondary": 19,
+            "pearl": 134,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 31,
+            "secondary": 31,
+            "pearl": 28,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 34,
+            "secondary": 34,
+            "pearl": 28,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 64,
+            "secondary": 64,
+            "pearl": 53,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 73,
+            "secondary": 73,
+            "pearl": 60,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 75,
+            "secondary": 75,
+            "pearl": 60,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 89,
+            "secondary": 89,
+            "pearl": 89,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 107,
+            "secondary": 107,
+            "pearl": 110,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_EXTRAS_CONVERTIBLE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS"
+        ]
       },
       "stats": {
         "handlingId": "COQUETTE2",
@@ -60,6 +193,73 @@
         "name": "San Andreas Flight School Update",
         "releaseDate": "2014-08-19"
       },
+      "details": {
+        "manufacturer": "Buckingham",
+        "type": "HELI",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 3,
+        "modKits": [
+          "106_swift_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SEARCHLIGHT"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -8.587,
+            "y": -9.988,
+            "z": -0.883
+          },
+          "max": {
+            "x": 8.586,
+            "y": 8.876,
+            "z": 3.393
+          },
+          "length": 18.865,
+          "width": 17.174,
+          "height": 4.276,
+          "boundingRadius": 13.553
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 10,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_HAS_LIVERY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_HELICOPTER_WITH_LANDING_GEAR"
+        ]
+      },
       "stats": {
         "handlingId": "SWIFT",
         "mass": 6500,
@@ -91,6 +291,93 @@
         "name": "San Andreas Flight School Update",
         "releaseDate": "2014-08-19"
       },
+      "details": {
+        "manufacturer": "Western",
+        "type": "PLANE",
+        "seats": 1,
+        "doors": 1,
+        "wheels": 3,
+        "modKits": [
+          "0_defaultspraypatch"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -4.705,
+            "y": -6.312,
+            "z": -1.817
+          },
+          "max": {
+            "x": 4.705,
+            "y": 6.205,
+            "z": 2.859
+          },
+          "length": 12.516,
+          "width": 9.409,
+          "height": 4.676,
+          "boundingRadius": 8.074
+        },
+        "defaultColors": [
+          {
+            "primary": 122,
+            "secondary": 0,
+            "pearl": 25,
+            "wheels": 121,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 122,
+            "secondary": 89,
+            "pearl": 25,
+            "wheels": 121,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 122,
+            "secondary": 28,
+            "pearl": 25,
+            "wheels": 121,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 122,
+            "secondary": 64,
+            "pearl": 25,
+            "wheels": 121,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 122,
+            "secondary": 53,
+            "pearl": 25,
+            "wheels": 121,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_PILOT_HELMET",
+          "FLAG_HAS_EJECTOR_SEATS"
+        ]
+      },
       "stats": {
         "handlingId": "BESRA",
         "mass": 8000,
@@ -121,6 +408,61 @@
         "id": "mppilot",
         "name": "San Andreas Flight School Update",
         "releaseDate": "2014-08-19"
+      },
+      "details": {
+        "manufacturer": "Buckingham",
+        "type": "PLANE",
+        "seats": 16,
+        "doors": 1,
+        "wheels": 4,
+        "modKits": [
+          "0_defaultspraypatch"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -10.518,
+            "y": -15.115,
+            "z": -2.184
+          },
+          "max": {
+            "x": 10.518,
+            "y": 12.126,
+            "z": 3.97
+          },
+          "length": 27.241,
+          "width": 21.035,
+          "height": 6.154,
+          "boundingRadius": 17.299
+        },
+        "defaultColors": [
+          {
+            "primary": 121,
+            "secondary": 21,
+            "pearl": 8,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HEADLIGHTS_ON_LANDINGGEAR",
+          "FLAG_DONT_TIMESLICE_WHEELS"
+        ]
       },
       "stats": {
         "handlingId": "MILJET",

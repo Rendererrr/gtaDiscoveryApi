@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "id": "mpimportexport",
@@ -28,6 +28,67 @@
         "id": "mpimportexport",
         "name": "Import/Export",
         "releaseDate": "2016-12-13"
+      },
+      "details": {
+        "manufacturer": "Imponte",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_RUINER_BULLET",
+          "VEHICLE_WEAPON_RUINER_ROCKET"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": true,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.972,
+            "y": -2.489,
+            "z": -0.725
+          },
+          "max": {
+            "x": 1.019,
+            "y": 2.481,
+            "z": 0.606
+          },
+          "length": 4.971,
+          "width": 1.991,
+          "height": 1.331,
+          "boundingRadius": 2.691
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_HAS_PARACHUTE",
+          "FLAG_JUMPING_CAR",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_HAS_NO_ROOF",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING"
+        ]
       },
       "stats": {
         "handlingId": "RUINER2",
@@ -60,6 +121,61 @@
         "name": "Import/Export",
         "releaseDate": "2016-12-13"
       },
+      "details": {
+        "manufacturer": "Imponte",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.955,
+            "y": -2.489,
+            "z": -0.559
+          },
+          "max": {
+            "x": 1.003,
+            "y": 2.446,
+            "z": 0.599
+          },
+          "length": 4.935,
+          "width": 1.958,
+          "height": 1.158,
+          "boundingRadius": 2.696
+        },
+        "defaultColors": [
+          {
+            "primary": 8,
+            "secondary": 8,
+            "pearl": 18,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_HAS_NO_ROOF",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
+      },
       "stats": {
         "handlingId": "RUINER",
         "mass": 1300,
@@ -90,6 +206,117 @@
         "id": "mpimportexport",
         "name": "Import/Export",
         "releaseDate": "2016-12-13"
+      },
+      "details": {
+        "manufacturer": "Pfister",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "213_comet3_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.032,
+            "y": -2.499,
+            "z": -0.289
+          },
+          "max": {
+            "x": 1.032,
+            "y": 2.245,
+            "z": 1.044
+          },
+          "length": 4.744,
+          "width": 2.063,
+          "height": 1.333,
+          "boundingRadius": 2.421
+        },
+        "defaultColors": [
+          {
+            "primary": 12,
+            "secondary": 12,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 30,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 33,
+            "secondary": 111,
+            "pearl": 38,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 90,
+            "secondary": 112,
+            "pearl": 38,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 53,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 82,
+            "secondary": 5,
+            "pearl": 68,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 55,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          },
+          {
+            "primary": 94,
+            "secondary": 6,
+            "pearl": 18,
+            "wheels": 158,
+            "interior": 158,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_BOOT_IN_FRONT",
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PARKING_SENSORS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS"
+        ]
       },
       "stats": {
         "handlingId": "COMET3",
@@ -122,6 +349,88 @@
         "name": "Import/Export",
         "releaseDate": "2016-12-13"
       },
+      "details": {
+        "manufacturer": "Annis",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "211_elegy1_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.99,
+            "y": -2.454,
+            "z": -0.332
+          },
+          "max": {
+            "x": 0.99,
+            "y": 2.306,
+            "z": 1.147
+          },
+          "length": 4.76,
+          "width": 1.98,
+          "height": 1.479,
+          "boundingRadius": 2.525
+        },
+        "defaultColors": [
+          {
+            "primary": 146,
+            "secondary": 146,
+            "pearl": 61,
+            "wheels": 158,
+            "interior": 63,
+            "dashboard": 134
+          },
+          {
+            "primary": 117,
+            "secondary": 84,
+            "pearl": 61,
+            "wheels": 158,
+            "interior": 63,
+            "dashboard": 134
+          },
+          {
+            "primary": 79,
+            "secondary": 5,
+            "pearl": 61,
+            "wheels": 158,
+            "interior": 63,
+            "dashboard": 134
+          },
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 61,
+            "wheels": 158,
+            "interior": 63,
+            "dashboard": 134
+          },
+          {
+            "primary": 38,
+            "secondary": 0,
+            "pearl": 61,
+            "wheels": 158,
+            "interior": 63,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
+      },
       "stats": {
         "handlingId": "ELEGY",
         "mass": 1450,
@@ -152,6 +461,107 @@
         "id": "mpimportexport",
         "name": "Import/Export",
         "releaseDate": "2016-12-13"
+      },
+      "details": {
+        "manufacturer": "Dewbauchee",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "216_specter_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.071,
+            "y": -2.318,
+            "z": -0.321
+          },
+          "max": {
+            "x": 1.071,
+            "y": 2.168,
+            "z": 1.036
+          },
+          "length": 4.486,
+          "width": 2.142,
+          "height": 1.357,
+          "boundingRadius": 2.487
+        },
+        "defaultColors": [
+          {
+            "primary": 3,
+            "secondary": 3,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 8,
+            "dashboard": 11
+          },
+          {
+            "primary": 28,
+            "secondary": 3,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 8,
+            "dashboard": 11
+          },
+          {
+            "primary": 38,
+            "secondary": 3,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 8,
+            "dashboard": 11
+          },
+          {
+            "primary": 42,
+            "secondary": 3,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 8,
+            "dashboard": 11
+          },
+          {
+            "primary": 53,
+            "secondary": 3,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 8,
+            "dashboard": 11
+          },
+          {
+            "primary": 64,
+            "secondary": 3,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 8,
+            "dashboard": 11
+          },
+          {
+            "primary": 94,
+            "secondary": 3,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 8,
+            "dashboard": 11
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS"
+        ]
       },
       "stats": {
         "handlingId": "SPECTER",
@@ -184,6 +594,59 @@
         "name": "Import/Export",
         "releaseDate": "2016-12-13"
       },
+      "details": {
+        "manufacturer": "Dewbauchee",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "214_specter2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.14,
+            "y": -2.734,
+            "z": -0.321
+          },
+          "max": {
+            "x": 1.143,
+            "y": 2.177,
+            "z": 1.058
+          },
+          "length": 4.911,
+          "width": 2.283,
+          "height": 1.378,
+          "boundingRadius": 2.512
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 3,
+            "pearl": 5,
+            "wheels": 140,
+            "interior": 92,
+            "dashboard": 11
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS"
+        ]
+      },
       "stats": {
         "handlingId": "SPECTER2",
         "mass": 1450,
@@ -214,6 +677,202 @@
         "id": "mpimportexport",
         "name": "Import/Export",
         "releaseDate": "2016-12-13"
+      },
+      "details": {
+        "manufacturer": "Progen",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "207_italigtb_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.968,
+            "y": -2.109,
+            "z": -0.302
+          },
+          "max": {
+            "x": 0.968,
+            "y": 2.28,
+            "z": 0.804
+          },
+          "length": 4.389,
+          "width": 1.936,
+          "height": 1.106,
+          "boundingRadius": 2.386
+        },
+        "defaultColors": [
+          {
+            "primary": 92,
+            "secondary": 92,
+            "pearl": 88,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 88,
+            "secondary": 88,
+            "pearl": 89,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 36,
+            "secondary": 36,
+            "pearl": 88,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 30,
+            "secondary": 30,
+            "pearl": 38,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 35,
+            "secondary": 35,
+            "pearl": 28,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 2,
+            "secondary": 2,
+            "pearl": 113,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 62,
+            "secondary": 62,
+            "pearl": 73,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 68,
+            "secondary": 68,
+            "pearl": 112,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 135,
+            "secondary": 135,
+            "pearl": 136,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 141,
+            "secondary": 141,
+            "pearl": 145,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 12,
+            "secondary": 12,
+            "pearl": 18,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 42,
+            "secondary": 42,
+            "pearl": 124,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 41,
+            "secondary": 41,
+            "pearl": 124,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 39,
+            "secondary": 39,
+            "pearl": 44,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 83,
+            "secondary": 83,
+            "pearl": 77,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 131,
+            "secondary": 131,
+            "pearl": 19,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 14,
+            "secondary": 14,
+            "pearl": 18,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 55,
+            "secondary": 55,
+            "pearl": 123,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN"
+        ]
       },
       "stats": {
         "handlingId": "ITALIGTB",
@@ -246,6 +905,58 @@
         "name": "Import/Export",
         "releaseDate": "2016-12-13"
       },
+      "details": {
+        "manufacturer": "Progen",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "208_italigtb2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.033,
+            "y": -2.41,
+            "z": -0.305
+          },
+          "max": {
+            "x": 1.033,
+            "y": 2.28,
+            "z": 0.986
+          },
+          "length": 4.69,
+          "width": 2.065,
+          "height": 1.291,
+          "boundingRadius": 2.625
+        },
+        "defaultColors": [
+          {
+            "primary": 38,
+            "secondary": 38,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 38,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN"
+        ]
+      },
       "stats": {
         "handlingId": "ITALIGTB2",
         "mass": 1600,
@@ -276,6 +987,107 @@
         "id": "mpimportexport",
         "name": "Import/Export",
         "releaseDate": "2016-12-13"
+      },
+      "details": {
+        "manufacturer": "Truffade",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "206_nero_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.079,
+            "y": -2.236,
+            "z": -0.59
+          },
+          "max": {
+            "x": 1.079,
+            "y": 2.333,
+            "z": 0.641
+          },
+          "length": 4.569,
+          "width": 2.158,
+          "height": 1.231,
+          "boundingRadius": 2.51
+        },
+        "defaultColors": [
+          {
+            "primary": 70,
+            "secondary": 64,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 63,
+            "dashboard": 65
+          },
+          {
+            "primary": 27,
+            "secondary": 33,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 33,
+            "dashboard": 65
+          },
+          {
+            "primary": 106,
+            "secondary": 1,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 112,
+            "secondary": 70,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 28,
+            "secondary": 1,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 116,
+            "dashboard": 65
+          },
+          {
+            "primary": 88,
+            "secondary": 1,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 116,
+            "dashboard": 65
+          },
+          {
+            "primary": 4,
+            "secondary": 1,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 116,
+            "dashboard": 65
+          }
+        ],
+        "flags": [
+          "FLAG_FRONT_BOOT",
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS"
+        ]
       },
       "stats": {
         "handlingId": "NERO",
@@ -308,6 +1120,109 @@
         "name": "Import/Export",
         "releaseDate": "2016-12-13"
       },
+      "details": {
+        "manufacturer": "Truffade",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "212_nero2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.079,
+            "y": -2.438,
+            "z": -0.59
+          },
+          "max": {
+            "x": 1.079,
+            "y": 2.333,
+            "z": 0.742
+          },
+          "length": 4.771,
+          "width": 2.158,
+          "height": 1.331,
+          "boundingRadius": 2.64
+        },
+        "defaultColors": [
+          {
+            "primary": 70,
+            "secondary": 64,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 63,
+            "dashboard": 65
+          },
+          {
+            "primary": 27,
+            "secondary": 33,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 33,
+            "dashboard": 65
+          },
+          {
+            "primary": 106,
+            "secondary": 1,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 112,
+            "secondary": 70,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 28,
+            "secondary": 1,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 116,
+            "dashboard": 65
+          },
+          {
+            "primary": 88,
+            "secondary": 1,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 116,
+            "dashboard": 65
+          },
+          {
+            "primary": 4,
+            "secondary": 1,
+            "pearl": 18,
+            "wheels": 112,
+            "interior": 116,
+            "dashboard": 65
+          }
+        ],
+        "flags": [
+          "FLAG_FRONT_BOOT",
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG"
+        ]
+      },
       "stats": {
         "handlingId": "NERO2",
         "mass": 1800,
@@ -338,6 +1253,90 @@
         "id": "mpimportexport",
         "name": "Import/Export",
         "releaseDate": "2016-12-13"
+      },
+      "details": {
+        "manufacturer": "Ocelot",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "205_penetrator_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.107,
+            "y": -2.532,
+            "z": -0.286
+          },
+          "max": {
+            "x": 1.107,
+            "y": 2.557,
+            "z": 0.892
+          },
+          "length": 5.089,
+          "width": 2.214,
+          "height": 1.179,
+          "boundingRadius": 2.686
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 32,
+            "secondary": 4,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 122,
+            "secondary": 38,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 64,
+            "secondary": 118,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 94,
+            "secondary": 0,
+            "pearl": 110,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
       },
       "stats": {
         "handlingId": "PENETRATOR",
@@ -370,6 +1369,202 @@
         "name": "Import/Export",
         "releaseDate": "2016-12-13"
       },
+      "details": {
+        "manufacturer": "Pegassi",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "210_tempesta_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.057,
+            "y": -2.333,
+            "z": -0.343
+          },
+          "max": {
+            "x": 1.057,
+            "y": 2.331,
+            "z": 0.983
+          },
+          "length": 4.664,
+          "width": 2.114,
+          "height": 1.326,
+          "boundingRadius": 2.514
+        },
+        "defaultColors": [
+          {
+            "primary": 92,
+            "secondary": 92,
+            "pearl": 88,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 88,
+            "secondary": 88,
+            "pearl": 89,
+            "wheels": 88,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 36,
+            "secondary": 36,
+            "pearl": 88,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 30,
+            "secondary": 30,
+            "pearl": 38,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 35,
+            "secondary": 35,
+            "pearl": 28,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 2,
+            "secondary": 2,
+            "pearl": 113,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 62,
+            "secondary": 62,
+            "pearl": 73,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 68,
+            "secondary": 68,
+            "pearl": 112,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 135,
+            "secondary": 135,
+            "pearl": 136,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 141,
+            "secondary": 141,
+            "pearl": 145,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 12,
+            "secondary": 12,
+            "pearl": 18,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 42,
+            "secondary": 42,
+            "pearl": 124,
+            "wheels": 42,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 41,
+            "secondary": 41,
+            "pearl": 124,
+            "wheels": 41,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 39,
+            "secondary": 39,
+            "pearl": 44,
+            "wheels": 39,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 83,
+            "secondary": 83,
+            "pearl": 77,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 131,
+            "secondary": 131,
+            "pearl": 19,
+            "wheels": 39,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 14,
+            "secondary": 14,
+            "pearl": 18,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 55,
+            "secondary": 55,
+            "pearl": 123,
+            "wheels": 12,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN"
+        ]
+      },
       "stats": {
         "handlingId": "TEMPESTA",
         "mass": 1422,
@@ -400,6 +1595,61 @@
         "id": "mpimportexport",
         "name": "Import/Export",
         "releaseDate": "2016-12-13"
+      },
+      "details": {
+        "manufacturer": "Coil",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "215_voltic2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.94,
+            "y": -2.215,
+            "z": -0.564
+          },
+          "max": {
+            "x": 0.94,
+            "y": 2.148,
+            "z": 0.627
+          },
+          "length": 4.364,
+          "width": 1.88,
+          "height": 1.192,
+          "boundingRadius": 2.379
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 6,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 5,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_HAS_ROCKET_BOOST",
+          "FLAG_SPORTS",
+          "FLAG_EXTRAS_CONVERTIBLE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_RICH_CAR",
+          "FLAG_IS_ELECTRIC",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
       },
       "stats": {
         "handlingId": "VOLTIC2",
@@ -432,6 +1682,112 @@
         "name": "Import/Export",
         "releaseDate": "2016-12-13"
       },
+      "details": {
+        "manufacturer": "Principe",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.508,
+            "y": -1.222,
+            "z": -0.379
+          },
+          "max": {
+            "x": 0.508,
+            "y": 1.048,
+            "z": 1.353
+          },
+          "length": 2.271,
+          "width": 1.015,
+          "height": 1.732,
+          "boundingRadius": 1.314
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 7,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 32,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 50,
+            "secondary": 0,
+            "pearl": 133,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 112,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 89,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 94,
+            "secondary": 0,
+            "pearl": 112,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 118,
+            "secondary": 0,
+            "pearl": 112,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
+      },
       "stats": {
         "handlingId": "DIABLOUS",
         "mass": 220,
@@ -462,6 +1818,89 @@
         "id": "mpimportexport",
         "name": "Import/Export",
         "releaseDate": "2016-12-13"
+      },
+      "details": {
+        "manufacturer": "Principe",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "209_diablous2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.493,
+            "y": -1.002,
+            "z": -0.363
+          },
+          "max": {
+            "x": 0.495,
+            "y": 1.229,
+            "z": 1.046
+          },
+          "length": 2.231,
+          "width": 0.988,
+          "height": 1.409,
+          "boundingRadius": 1.178
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 89,
+            "pearl": 3,
+            "wheels": 89,
+            "interior": 156,
+            "dashboard": 89
+          },
+          {
+            "primary": 0,
+            "secondary": 27,
+            "pearl": 3,
+            "wheels": 27,
+            "interior": 156,
+            "dashboard": 111
+          },
+          {
+            "primary": 0,
+            "secondary": 112,
+            "pearl": 3,
+            "wheels": 112,
+            "interior": 156,
+            "dashboard": 111
+          },
+          {
+            "primary": 0,
+            "secondary": 92,
+            "pearl": 92,
+            "wheels": 92,
+            "interior": 156,
+            "dashboard": 92
+          },
+          {
+            "primary": 94,
+            "secondary": 94,
+            "pearl": 18,
+            "wheels": 94,
+            "interior": 156,
+            "dashboard": 94
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
       },
       "stats": {
         "handlingId": "DIABLOUS2",
@@ -494,6 +1933,98 @@
         "name": "Import/Export",
         "releaseDate": "2016-12-13"
       },
+      "details": {
+        "manufacturer": "Pegassi",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "202_fcr_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.379,
+            "y": -1.174,
+            "z": -0.438
+          },
+          "max": {
+            "x": 0.359,
+            "y": 1.037,
+            "z": 0.944
+          },
+          "length": 2.212,
+          "width": 0.738,
+          "height": 1.382,
+          "boundingRadius": 1.168
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 32,
+            "secondary": 4,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 122,
+            "secondary": 38,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 92,
+            "pearl": 92,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 64,
+            "secondary": 118,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 94,
+            "secondary": 0,
+            "pearl": 110,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
+      },
       "stats": {
         "handlingId": "FCR",
         "mass": 210,
@@ -524,6 +2055,100 @@
         "id": "mpimportexport",
         "name": "Import/Export",
         "releaseDate": "2016-12-13"
+      },
+      "details": {
+        "manufacturer": "Pegassi",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "204_fcr2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.359,
+            "y": -1.116,
+            "z": -0.437
+          },
+          "max": {
+            "x": 0.359,
+            "y": 1.072,
+            "z": 0.939
+          },
+          "length": 2.188,
+          "width": 0.719,
+          "height": 1.376,
+          "boundingRadius": 1.06
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 32,
+            "secondary": 4,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 122,
+            "secondary": 38,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 92,
+            "pearl": 92,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 64,
+            "secondary": 118,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 94,
+            "secondary": 0,
+            "pearl": 110,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_EXTRAS_SCRIPT",
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
       },
       "stats": {
         "handlingId": "FCR2",
@@ -556,6 +2181,61 @@
         "name": "Import/Export",
         "releaseDate": "2016-12-13"
       },
+      "details": {
+        "manufacturer": "Nagasaki",
+        "type": "AMPHIBIOUS_QUADBIKE",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_CANNON_BLAZER"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.68,
+            "y": -1.247,
+            "z": -0.259
+          },
+          "max": {
+            "x": 0.68,
+            "y": 1.33,
+            "z": 1.436
+          },
+          "length": 2.576,
+          "width": 1.361,
+          "height": 1.695,
+          "boundingRadius": 1.473
+        },
+        "defaultColors": [
+          {
+            "primary": 3,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_TIMESLICE_WHEELS"
+        ]
+      },
       "stats": {
         "handlingId": "BLAZER5",
         "mass": 550,
@@ -586,6 +2266,60 @@
         "id": "mpimportexport",
         "name": "Import/Export",
         "releaseDate": "2016-12-13"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [
+          "0_default_no_lower"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.07,
+            "y": -2.432,
+            "z": -0.481
+          },
+          "max": {
+            "x": 1.07,
+            "y": 2.945,
+            "z": 0.727
+          },
+          "length": 5.377,
+          "width": 2.14,
+          "height": 1.208,
+          "boundingRadius": 2.868
+        },
+        "defaultColors": [
+          {
+            "primary": 22,
+            "secondary": 12,
+            "pearl": 134,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_PEDS_INSIDE_CAN_BE_SET_ON_FIRE_MP",
+          "FLAG_RAMP"
+        ]
       },
       "stats": {
         "handlingId": "DUNE4",
@@ -618,6 +2352,60 @@
         "name": "Import/Export",
         "releaseDate": "2016-12-13"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [
+          "0_default_no_lower"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.07,
+            "y": -2.432,
+            "z": -0.481
+          },
+          "max": {
+            "x": 1.07,
+            "y": 2.945,
+            "z": 0.727
+          },
+          "length": 5.377,
+          "width": 2.14,
+          "height": 1.208,
+          "boundingRadius": 2.774
+        },
+        "defaultColors": [
+          {
+            "primary": 22,
+            "secondary": 12,
+            "pearl": 134,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_PEDS_INSIDE_CAN_BE_SET_ON_FIRE_MP",
+          "FLAG_RAMP"
+        ]
+      },
       "stats": {
         "handlingId": "DUNE5",
         "mass": 1000,
@@ -648,6 +2436,72 @@
         "id": "mpimportexport",
         "name": "Import/Export",
         "releaseDate": "2016-12-13"
+      },
+      "details": {
+        "manufacturer": "Karin",
+        "type": "AMPHIBIOUS_AUTOMOBILE",
+        "seats": 3,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "0_default_no_lower"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_TURRET_TECHNICAL"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.638,
+            "y": -3.293,
+            "z": -0.606
+          },
+          "max": {
+            "x": 1.639,
+            "y": 2.778,
+            "z": 2.094
+          },
+          "length": 6.072,
+          "width": 3.277,
+          "height": 2.7,
+          "boundingRadius": 3.596
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 12,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_IS_BULKY",
+          "FLAG_HAS_TURRET_SEAT_ON_VEHICLE",
+          "FLAG_DISABLE_AUTO_VAULT_ON_VEHICLE",
+          "FLAG_HAS_REAR_MOUNTED_TURRET"
+        ]
       },
       "stats": {
         "handlingId": "TECHNICAL2",
@@ -680,6 +2534,70 @@
         "name": "Import/Export",
         "releaseDate": "2016-12-13"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 5,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_TURRET_BOXVILLE"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.173,
+            "y": -3.846,
+            "z": -0.921
+          },
+          "max": {
+            "x": 1.173,
+            "y": 3.501,
+            "z": 2.468
+          },
+          "length": 7.346,
+          "width": 2.346,
+          "height": 3.39,
+          "boundingRadius": 4.241
+        },
+        "defaultColors": [
+          {
+            "primary": 12,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_AVOID_TURNS",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_HAS_TURRET_SEAT_ON_VEHICLE",
+          "FLAG_HAS_DIRECTIONAL_SHUFFLES",
+          "FLAG_USE_HEADING_ONLY_IN_TURRET_MATRIX",
+          "FLAG_DISABLE_BUSTING",
+          "FLAG_RAMMING_SCOOP",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS"
+        ]
+      },
       "stats": {
         "handlingId": "BOXVILLE5",
         "mass": 7500,
@@ -711,6 +2629,58 @@
         "name": "Import/Export",
         "releaseDate": "2016-12-13"
       },
+      "details": {
+        "manufacturer": "MTL",
+        "type": "CAR",
+        "seats": 6,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.709,
+            "y": -4.249,
+            "z": -0.838
+          },
+          "max": {
+            "x": 1.709,
+            "y": 4.685,
+            "z": 2.933
+          },
+          "length": 8.934,
+          "width": 3.418,
+          "height": 3.771,
+          "boundingRadius": 4.992
+        },
+        "defaultColors": [
+          {
+            "primary": 151,
+            "secondary": 129,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_USE_FAT_INTERIOR_LIGHT",
+          "FLAG_CAN_NAVIGATE_TO_ON_VEHICLE_ENTRY"
+        ]
+      },
       "stats": {
         "handlingId": "WASTELANDER",
         "mass": 7000,
@@ -741,6 +2711,71 @@
         "id": "mpimportexport",
         "name": "Import/Export",
         "releaseDate": "2016-12-13"
+      },
+      "details": {
+        "manufacturer": "JoBuilt",
+        "type": "CAR",
+        "seats": 5,
+        "doors": 2,
+        "wheels": 6,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -2.164,
+            "y": -4.573,
+            "z": -1.129
+          },
+          "max": {
+            "x": 2.164,
+            "y": 8.905,
+            "z": 2.751
+          },
+          "length": 13.478,
+          "width": 4.328,
+          "height": 3.88,
+          "boundingRadius": 7.165
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 13,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_CAN_HONK_WHEN_FLEEING",
+          "FLAG_AVOID_TURNS",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_ATTACH_TRAILER_ON_HIGHWAY",
+          "FLAG_USE_STRICTER_EXIT_COLLISION_TESTS",
+          "FLAG_RAMMING_SCOOP",
+          "FLAG_HAS_EXTRA_SHUFFLE_SEAT_ON_VEHICLE"
+        ]
       },
       "stats": {
         "handlingId": "PHANTOM2",

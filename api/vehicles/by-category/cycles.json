@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "name": "Cycles",
@@ -26,6 +26,97 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "BICYCLE",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.273,
+            "y": -0.83,
+            "z": -0.384
+          },
+          "max": {
+            "x": 0.273,
+            "y": 0.825,
+            "z": 0.853
+          },
+          "length": 1.655,
+          "width": 0.546,
+          "height": 1.237,
+          "boundingRadius": 0.763
+        },
+        "defaultColors": [
+          {
+            "primary": 2,
+            "secondary": 111,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 7,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 29,
+            "secondary": 0,
+            "pearl": 38,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 57,
+            "secondary": 0,
+            "pearl": 57,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 88,
+            "secondary": 0,
+            "pearl": 89,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 73,
+            "secondary": 0,
+            "pearl": 74,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_DRIVER_SHOULD_BE_MALE"
+        ]
       },
       "stats": {
         "handlingId": "BMX",
@@ -58,6 +149,80 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "BICYCLE",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.348,
+            "y": -0.81,
+            "z": -0.587
+          },
+          "max": {
+            "x": 0.379,
+            "y": 1.022,
+            "z": 0.847
+          },
+          "length": 1.832,
+          "width": 0.727,
+          "height": 1.434,
+          "boundingRadius": 0.988
+        },
+        "defaultColors": [
+          {
+            "primary": 75,
+            "secondary": 7,
+            "pearl": 75,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 35,
+            "secondary": 7,
+            "pearl": 35,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 38,
+            "secondary": 7,
+            "pearl": 38,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 88,
+            "secondary": 7,
+            "pearl": 88,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_DRIVER_SHOULD_BE_MALE"
+        ]
+      },
       "stats": {
         "handlingId": "CRUISER",
         "mass": 120,
@@ -88,6 +253,111 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "BICYCLE",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.31,
+            "y": -0.812,
+            "z": -0.61
+          },
+          "max": {
+            "x": 0.31,
+            "y": 0.961,
+            "z": 1.002
+          },
+          "length": 1.773,
+          "width": 0.62,
+          "height": 1.612,
+          "boundingRadius": 0.759
+        },
+        "defaultColors": [
+          {
+            "primary": 4,
+            "secondary": 4,
+            "pearl": 0,
+            "wheels": 91,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 38,
+            "pearl": 1,
+            "wheels": 38,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 1,
+            "secondary": 27,
+            "pearl": 2,
+            "wheels": 27,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 70,
+            "secondary": 1,
+            "pearl": 70,
+            "wheels": 1,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 29,
+            "pearl": 111,
+            "wheels": 29,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 1,
+            "pearl": 111,
+            "wheels": 70,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 1,
+            "secondary": 111,
+            "pearl": 1,
+            "wheels": 42,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 55,
+            "secondary": 0,
+            "pearl": 65,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_TIMESLICE_WHEELS"
+        ]
       },
       "stats": {
         "handlingId": "FIXTER",
@@ -120,6 +390,114 @@
         "name": "San Andreas Mercenaries",
         "releaseDate": "2023-06-13"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "BICYCLE",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": true
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.495,
+            "y": -0.898,
+            "z": -0.664
+          },
+          "max": {
+            "x": 0.505,
+            "y": 1.046,
+            "z": 1.01
+          },
+          "length": 1.943,
+          "width": 1,
+          "height": 1.674,
+          "boundingRadius": 0.892
+        },
+        "defaultColors": [
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 112,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 89,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 38,
+            "secondary": 1,
+            "pearl": 89,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 70,
+            "secondary": 1,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_IS_ELECTRIC"
+        ]
+      },
       "stats": {
         "handlingId": "INDUCTOR",
         "mass": 125,
@@ -150,6 +528,113 @@
         "id": "mp2023_01",
         "name": "San Andreas Mercenaries",
         "releaseDate": "2023-06-13"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "BICYCLE",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": true
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.495,
+            "y": -0.898,
+            "z": -0.664
+          },
+          "max": {
+            "x": 0.505,
+            "y": 1.046,
+            "z": 1.01
+          },
+          "length": 1.943,
+          "width": 1,
+          "height": 1.674,
+          "boundingRadius": 0.892
+        },
+        "defaultColors": [
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 112,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 89,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 38,
+            "secondary": 1,
+            "pearl": 89,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 70,
+            "secondary": 1,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_TIMESLICE_WHEELS"
+        ]
       },
       "stats": {
         "handlingId": "INDUCTOR",
@@ -182,6 +667,105 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "BICYCLE",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.495,
+            "y": -0.894,
+            "z": -0.664
+          },
+          "max": {
+            "x": 0.505,
+            "y": 1.046,
+            "z": 0.888
+          },
+          "length": 1.94,
+          "width": 1,
+          "height": 1.552,
+          "boundingRadius": 0.923
+        },
+        "defaultColors": [
+          {
+            "primary": 29,
+            "secondary": 111,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 89,
+            "secondary": 111,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 92,
+            "secondary": 111,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 1,
+            "secondary": 111,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 3,
+            "secondary": 111,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 62,
+            "secondary": 111,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_TIMESLICE_WHEELS"
+        ]
+      },
       "stats": {
         "handlingId": "scorcher",
         "mass": 115,
@@ -212,6 +796,57 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "BICYCLE",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.31,
+            "y": -0.81,
+            "z": -0.61
+          },
+          "max": {
+            "x": 0.31,
+            "y": 0.961,
+            "z": 1.002
+          },
+          "length": 1.771,
+          "width": 0.62,
+          "height": 1.612,
+          "boundingRadius": 0.78
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 132,
+            "pearl": 132,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_DRIVER_SHOULD_BE_MALE"
+        ]
       },
       "stats": {
         "handlingId": "TRIBIKE",
@@ -244,6 +879,57 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "BICYCLE",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.31,
+            "y": -0.81,
+            "z": -0.61
+          },
+          "max": {
+            "x": 0.31,
+            "y": 0.961,
+            "z": 1.002
+          },
+          "length": 1.771,
+          "width": 0.62,
+          "height": 1.612,
+          "boundingRadius": 0.78
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 132,
+            "pearl": 132,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_DRIVER_SHOULD_BE_MALE"
+        ]
+      },
       "stats": {
         "handlingId": "TRIBIKE",
         "mass": 110,
@@ -274,6 +960,57 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "BICYCLE",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.31,
+            "y": -0.81,
+            "z": -0.61
+          },
+          "max": {
+            "x": 0.31,
+            "y": 0.961,
+            "z": 1.002
+          },
+          "length": 1.771,
+          "width": 0.62,
+          "height": 1.612,
+          "boundingRadius": 0.78
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 132,
+            "pearl": 132,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_DRIVER_SHOULD_BE_MALE"
+        ]
       },
       "stats": {
         "handlingId": "TRIBIKE",

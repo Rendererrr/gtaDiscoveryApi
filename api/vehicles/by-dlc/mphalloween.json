@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "id": "mphalloween",
@@ -28,6 +28,58 @@
         "id": "mphalloween",
         "name": "Halloween Surprise",
         "releaseDate": "2015-10-29"
+      },
+      "details": {
+        "manufacturer": "Albany",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "116_lurcher_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.012,
+            "y": -3.616,
+            "z": -0.352
+          },
+          "max": {
+            "x": 1.012,
+            "y": 2.466,
+            "z": 1.181
+          },
+          "length": 6.082,
+          "width": 2.024,
+          "height": 1.533,
+          "boundingRadius": 3.159
+        },
+        "defaultColors": [
+          {
+            "primary": 12,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 90,
+            "interior": 156,
+            "dashboard": 73
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_ALL",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
       },
       "stats": {
         "handlingId": "LURCHER",
@@ -59,6 +111,59 @@
         "id": "mphalloween",
         "name": "Halloween Surprise",
         "releaseDate": "2015-10-29"
+      },
+      "details": {
+        "manufacturer": "Albany",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "118_btype2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.191,
+            "y": -2.481,
+            "z": -0.328
+          },
+          "max": {
+            "x": 1.191,
+            "y": 2.226,
+            "z": 1.326
+          },
+          "length": 4.708,
+          "width": 2.381,
+          "height": 1.654,
+          "boundingRadius": 2.759
+        },
+        "defaultColors": [
+          {
+            "primary": 142,
+            "secondary": 0,
+            "pearl": 145,
+            "wheels": 90,
+            "interior": 156,
+            "dashboard": 73
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_INCREASE_PED_COMMENTS"
+        ]
       },
       "stats": {
         "handlingId": "BTYPE2",

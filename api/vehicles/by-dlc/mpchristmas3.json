@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "id": "mpchristmas3",
@@ -28,6 +28,116 @@
         "id": "mpchristmas3",
         "name": "Los Santos Drug Wars",
         "releaseDate": "2022-12-13"
+      },
+      "details": {
+        "manufacturer": "Weeny",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "526_issi8_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.969,
+            "y": -2.207,
+            "z": -0.704
+          },
+          "max": {
+            "x": 0.976,
+            "y": 2.097,
+            "z": 1.184
+          },
+          "length": 4.304,
+          "width": 1.945,
+          "height": 1.888,
+          "boundingRadius": 2.389
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 73,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 89,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 38,
+            "secondary": 1,
+            "pearl": 89,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 70,
+            "secondary": 1,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG"
+        ]
       },
       "stats": {
         "handlingId": "ISSI8",
@@ -60,6 +170,88 @@
         "name": "Los Santos Drug Wars",
         "releaseDate": "2022-12-13"
       },
+      "details": {
+        "manufacturer": "Classique",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "522_broadway_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.908,
+            "y": -2.621,
+            "z": -0.329
+          },
+          "max": {
+            "x": 0.908,
+            "y": 2.212,
+            "z": 1.243
+          },
+          "length": 4.833,
+          "width": 1.816,
+          "height": 1.573,
+          "boundingRadius": 2.626
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 88,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 27,
+            "secondary": 27,
+            "pearl": 88,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 49,
+            "secondary": 49,
+            "pearl": 55,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 75,
+            "secondary": 75,
+            "pearl": 88,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 107,
+            "secondary": 107,
+            "pearl": 129,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_USE_STRICTER_EXIT_COLLISION_TESTS",
+          "FLAG_USE_RESTRICTED_DRIVEBY_HEIGHT_HIGH",
+          "FLAG_EXTRAS_ALL"
+        ]
+      },
       "stats": {
         "handlingId": "BROADWAY",
         "mass": 1570,
@@ -90,6 +282,120 @@
         "id": "mpchristmas3",
         "name": "Los Santos Drug Wars",
         "releaseDate": "2022-12-13"
+      },
+      "details": {
+        "manufacturer": "Willard",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "513_eudora_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.159,
+            "y": -3.305,
+            "z": -0.506
+          },
+          "max": {
+            "x": 1.159,
+            "y": 2.805,
+            "z": 1.256
+          },
+          "length": 6.11,
+          "width": 2.318,
+          "height": 1.762,
+          "boundingRadius": 3.119
+        },
+        "defaultColors": [
+          {
+            "primary": 29,
+            "secondary": 29,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 29,
+            "dashboard": 156
+          },
+          {
+            "primary": 7,
+            "secondary": 7,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 66,
+            "dashboard": 156
+          },
+          {
+            "primary": 38,
+            "secondary": 38,
+            "pearl": 24,
+            "wheels": 0,
+            "interior": 38,
+            "dashboard": 156
+          },
+          {
+            "primary": 0,
+            "secondary": 16,
+            "pearl": 62,
+            "wheels": 0,
+            "interior": 11,
+            "dashboard": 156
+          },
+          {
+            "primary": 73,
+            "secondary": 73,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 73,
+            "dashboard": 156
+          },
+          {
+            "primary": 62,
+            "secondary": 62,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 62,
+            "dashboard": 156
+          },
+          {
+            "primary": 111,
+            "secondary": 62,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 62,
+            "dashboard": 156
+          },
+          {
+            "primary": 107,
+            "secondary": 107,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 65,
+            "dashboard": 156
+          },
+          {
+            "primary": 111,
+            "secondary": 97,
+            "pearl": 97,
+            "wheels": 0,
+            "interior": 99,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_POOR_CAR",
+          "FLAG_HAS_LOWRIDER_HYDRAULICS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
       },
       "stats": {
         "handlingId": "EUDORA",
@@ -122,6 +428,115 @@
         "name": "Los Santos Drug Wars",
         "releaseDate": "2022-12-13"
       },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "525_tahoma_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.955,
+            "y": -2.718,
+            "z": -0.322
+          },
+          "max": {
+            "x": 0.955,
+            "y": 2.486,
+            "z": 1.317
+          },
+          "length": 5.204,
+          "width": 1.909,
+          "height": 1.639,
+          "boundingRadius": 2.796
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 73,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 89,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 38,
+            "secondary": 1,
+            "pearl": 89,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 70,
+            "secondary": 1,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_HAS_SUPERCHARGER",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
+      },
       "stats": {
         "handlingId": "TAHOMA",
         "mass": 1380,
@@ -152,6 +567,91 @@
         "id": "mpchristmas3",
         "name": "Los Santos Drug Wars",
         "releaseDate": "2022-12-13"
+      },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "523_tulip2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.943,
+            "y": -3.03,
+            "z": -0.474
+          },
+          "max": {
+            "x": 0.943,
+            "y": 2.324,
+            "z": 0.932
+          },
+          "length": 5.354,
+          "width": 1.886,
+          "height": 1.406,
+          "boundingRadius": 2.691
+        },
+        "defaultColors": [
+          {
+            "primary": 1,
+            "secondary": 0,
+            "pearl": 121,
+            "wheels": 156,
+            "interior": 34,
+            "dashboard": 0
+          },
+          {
+            "primary": 49,
+            "secondary": 120,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 102,
+            "dashboard": 0
+          },
+          {
+            "primary": 31,
+            "secondary": 120,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 113,
+            "dashboard": 0
+          },
+          {
+            "primary": 105,
+            "secondary": 120,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 114,
+            "dashboard": 0
+          },
+          {
+            "primary": 79,
+            "secondary": 120,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 106,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_HAS_SUPERCHARGER",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
       },
       "stats": {
         "handlingId": "TULIP2",
@@ -184,6 +684,90 @@
         "name": "Los Santos Drug Wars",
         "releaseDate": "2022-12-13"
       },
+      "details": {
+        "manufacturer": "Karin",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "520_everon2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.061,
+            "y": -2.843,
+            "z": -0.311
+          },
+          "max": {
+            "x": 1.061,
+            "y": 2.368,
+            "z": 1.287
+          },
+          "length": 5.21,
+          "width": 2.121,
+          "height": 1.598,
+          "boundingRadius": 2.899
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 1,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 28,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 1,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 74,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 1,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 91,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 1,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 5,
+            "wheels": 1,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
+      },
       "stats": {
         "handlingId": "Everon2",
         "mass": 1565,
@@ -214,6 +798,117 @@
         "id": "mpchristmas3",
         "name": "Los Santos Drug Wars",
         "releaseDate": "2022-12-13"
+      },
+      "details": {
+        "manufacturer": "Toundra",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "516_panthere_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.098,
+            "y": -2.413,
+            "z": -0.364
+          },
+          "max": {
+            "x": 1.098,
+            "y": 2.191,
+            "z": 0.948
+          },
+          "length": 4.604,
+          "width": 2.197,
+          "height": 1.312,
+          "boundingRadius": 2.384
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 73,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 89,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 38,
+            "secondary": 1,
+            "pearl": 89,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 70,
+            "secondary": 1,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_BOOT_IN_FRONT",
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_PARKING_SENSORS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
       },
       "stats": {
         "handlingId": "PANTHERE",
@@ -246,6 +941,75 @@
         "name": "Los Santos Drug Wars",
         "releaseDate": "2022-12-13"
       },
+      "details": {
+        "manufacturer": "Annis",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "521_r300_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.005,
+            "y": -2.323,
+            "z": -0.357
+          },
+          "max": {
+            "x": 1.005,
+            "y": 2.294,
+            "z": 0.975
+          },
+          "length": 4.618,
+          "width": 2.009,
+          "height": 1.332,
+          "boundingRadius": 2.482
+        },
+        "defaultColors": [
+          {
+            "primary": 35,
+            "secondary": 3,
+            "pearl": 88,
+            "wheels": 0,
+            "interior": 27,
+            "dashboard": 156
+          },
+          {
+            "primary": 20,
+            "secondary": 36,
+            "pearl": 5,
+            "wheels": 134,
+            "interior": 27,
+            "dashboard": 156
+          },
+          {
+            "primary": 112,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 88,
+            "interior": 27,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
+      },
       "stats": {
         "handlingId": "R300",
         "mass": 1590,
@@ -276,6 +1040,125 @@
         "id": "mpchristmas3",
         "name": "Los Santos Drug Wars",
         "releaseDate": "2022-12-13"
+      },
+      "details": {
+        "manufacturer": "Overflod",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "517_entity3_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.101,
+            "y": -2.423,
+            "z": -0.386
+          },
+          "max": {
+            "x": 1.101,
+            "y": 2.425,
+            "z": 0.86
+          },
+          "length": 4.847,
+          "width": 2.202,
+          "height": 1.246,
+          "boundingRadius": 2.619
+        },
+        "defaultColors": [
+          {
+            "primary": 7,
+            "secondary": 8,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 7,
+            "dashboard": 89
+          },
+          {
+            "primary": 29,
+            "secondary": 8,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 7,
+            "dashboard": 89
+          },
+          {
+            "primary": 38,
+            "secondary": 8,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 7,
+            "dashboard": 89
+          },
+          {
+            "primary": 50,
+            "secondary": 8,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 7,
+            "dashboard": 89
+          },
+          {
+            "primary": 64,
+            "secondary": 8,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 7,
+            "dashboard": 89
+          },
+          {
+            "primary": 70,
+            "secondary": 8,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 7,
+            "dashboard": 89
+          },
+          {
+            "primary": 89,
+            "secondary": 8,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 7,
+            "dashboard": 89
+          },
+          {
+            "primary": 112,
+            "secondary": 8,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 7,
+            "dashboard": 89
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 111,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_PARKING_SENSORS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
       },
       "stats": {
         "handlingId": "ENTITY3",
@@ -308,6 +1191,117 @@
         "name": "Los Santos Drug Wars",
         "releaseDate": "2022-12-13"
       },
+      "details": {
+        "manufacturer": "Ocelot",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "519_virtue_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.888,
+            "y": -2.352,
+            "z": -0.855
+          },
+          "max": {
+            "x": 1.893,
+            "y": 2.495,
+            "z": 1.26
+          },
+          "length": 4.847,
+          "width": 3.781,
+          "height": 2.115,
+          "boundingRadius": 2.493
+        },
+        "defaultColors": [
+          {
+            "primary": 70,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 89,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 7,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 38,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN",
+          "FLAG_IS_ELECTRIC"
+        ]
+      },
       "stats": {
         "handlingId": "VIRTUE",
         "mass": 1680,
@@ -338,6 +1332,121 @@
         "id": "mpchristmas3",
         "name": "Los Santos Drug Wars",
         "releaseDate": "2022-12-13"
+      },
+      "details": {
+        "manufacturer": "Maibatsu",
+        "type": "BIKE",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "515_manchez3_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.466,
+            "y": -0.97,
+            "z": -0.5
+          },
+          "max": {
+            "x": 0.466,
+            "y": 1.083,
+            "z": 1.092
+          },
+          "length": 2.053,
+          "width": 0.931,
+          "height": 1.592,
+          "boundingRadius": 1.263
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 30,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 8,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 4,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 8,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 52,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 69,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 68,
+            "pearl": 68,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 29,
+            "secondary": 31,
+            "pearl": 28,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 74,
+            "secondary": 67,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
       },
       "stats": {
         "handlingId": "MANCHEZ3",
@@ -370,6 +1479,83 @@
         "name": "Los Santos Drug Wars",
         "releaseDate": "2022-12-13"
       },
+      "details": {
+        "manufacturer": "Western",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "512_powersurge_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.368,
+            "y": -1.016,
+            "z": -0.532
+          },
+          "max": {
+            "x": 0.38,
+            "y": 1.063,
+            "z": 0.845
+          },
+          "length": 2.078,
+          "width": 0.748,
+          "height": 1.377,
+          "boundingRadius": 1.177
+        },
+        "defaultColors": [
+          {
+            "primary": 112,
+            "secondary": 1,
+            "pearl": 7,
+            "wheels": 112,
+            "interior": 70,
+            "dashboard": 156
+          },
+          {
+            "primary": 43,
+            "secondary": 43,
+            "pearl": 35,
+            "wheels": 156,
+            "interior": 154,
+            "dashboard": 156
+          },
+          {
+            "primary": 77,
+            "secondary": 1,
+            "pearl": 7,
+            "wheels": 156,
+            "interior": 154,
+            "dashboard": 156
+          },
+          {
+            "primary": 88,
+            "secondary": 1,
+            "pearl": 7,
+            "wheels": 156,
+            "interior": 154,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_IS_ELECTRIC"
+        ]
+      },
       "stats": {
         "handlingId": "POWERSURGE",
         "mass": 255,
@@ -400,6 +1586,117 @@
         "id": "mpchristmas3",
         "name": "Los Santos Drug Wars",
         "releaseDate": "2022-12-13"
+      },
+      "details": {
+        "manufacturer": "Karin",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "518_boor_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.819,
+            "y": -2.235,
+            "z": -0.313
+          },
+          "max": {
+            "x": 0.819,
+            "y": 2.172,
+            "z": 1.259
+          },
+          "length": 4.407,
+          "width": 1.638,
+          "height": 1.572,
+          "boundingRadius": 2.466
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 73,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 89,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 38,
+            "secondary": 1,
+            "pearl": 89,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 70,
+            "secondary": 1,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_IS_BULKY",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_SPOILER_MOD_DOESNT_INCREASE_GRIP"
+        ]
       },
       "stats": {
         "handlingId": "BOOR",
@@ -432,6 +1729,87 @@
         "name": "Los Santos Drug Wars",
         "releaseDate": "2022-12-13"
       },
+      "details": {
+        "manufacturer": "Zirconium",
+        "type": "CAR",
+        "seats": 6,
+        "doors": 3,
+        "wheels": 4,
+        "modKits": [
+          "514_journey2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.267,
+            "y": -3.578,
+            "z": -0.496
+          },
+          "max": {
+            "x": 1.22,
+            "y": 2.631,
+            "z": 2.018
+          },
+          "length": 6.209,
+          "width": 2.487,
+          "height": 2.514,
+          "boundingRadius": 3.514
+        },
+        "defaultColors": [
+          {
+            "primary": 121,
+            "secondary": 113,
+            "pearl": 121,
+            "wheels": 112,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 114,
+            "pearl": 121,
+            "wheels": 112,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 85,
+            "pearl": 112,
+            "wheels": 121,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 132,
+            "secondary": 132,
+            "pearl": 121,
+            "wheels": 47,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO"
+        ]
+      },
       "stats": {
         "handlingId": "JOURNEY",
         "mass": 4000,
@@ -462,6 +1840,126 @@
         "id": "mpchristmas3",
         "name": "Los Santos Drug Wars",
         "releaseDate": "2022-12-13"
+      },
+      "details": {
+        "manufacturer": "BF",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "400_surfer3_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.07,
+            "y": -2.186,
+            "z": -0.679
+          },
+          "max": {
+            "x": 1.07,
+            "y": 2.346,
+            "z": 1.537
+          },
+          "length": 4.532,
+          "width": 2.14,
+          "height": 2.216,
+          "boundingRadius": 2.506
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 30,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 8,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 4,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 8,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 52,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 69,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 68,
+            "pearl": 68,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 29,
+            "secondary": 31,
+            "pearl": 28,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 74,
+            "secondary": 67,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_IS_VAN",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY",
+          "FLAG_CARGOBOB_HOOK_UP_CHASSIS",
+          "FLAG_SPOILER_MOD_DOESNT_INCREASE_GRIP"
+        ]
       },
       "stats": {
         "handlingId": "SURFER",
@@ -494,6 +1992,59 @@
         "name": "Los Santos Drug Wars",
         "releaseDate": "2022-12-13"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "PLANE",
+        "seats": 5,
+        "doors": 3,
+        "wheels": 5,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -48.838,
+            "y": -53.75,
+            "z": -6.581
+          },
+          "max": {
+            "x": 48.838,
+            "y": 37.035,
+            "z": 15.11
+          },
+          "length": 90.785,
+          "width": 97.675,
+          "height": 21.692,
+          "boundingRadius": 67.257
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 87,
+            "pearl": 17,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_SCRIPT",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS"
+        ]
+      },
       "stats": {
         "handlingId": "cargoplane",
         "mass": 38000,
@@ -524,6 +2075,72 @@
         "id": "mpchristmas3",
         "name": "Los Santos Drug Wars",
         "releaseDate": "2022-12-13"
+      },
+      "details": {
+        "manufacturer": "MTL",
+        "type": "CAR",
+        "seats": 6,
+        "doors": 2,
+        "wheels": 6,
+        "modKits": [
+          "524_brickade2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.886,
+            "y": -7.581,
+            "z": -1.384
+          },
+          "max": {
+            "x": 1.883,
+            "y": 5.508,
+            "z": 2.59
+          },
+          "length": 13.089,
+          "width": 3.769,
+          "height": 3.974,
+          "boundingRadius": 6.642
+        },
+        "defaultColors": [
+          {
+            "primary": 154,
+            "secondary": 14,
+            "pearl": 1,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 18,
+            "secondary": 12,
+            "pearl": 1,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_HAS_RAMMING_SCOOP_MOD",
+          "FLAG_HAS_RAMMING_BAR_MOD",
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_USE_FAT_INTERIOR_LIGHT",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS",
+          "FLAG_HAS_CAPPED_EXPLOSION_DAMAGE"
+        ]
       },
       "stats": {
         "handlingId": "BRICKADE",

@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "id": "mpchristmas2018",
@@ -28,6 +28,68 @@
         "id": "mpchristmas2018",
         "name": "Arena War",
         "releaseDate": "2018-12-11"
+      },
+      "details": {
+        "manufacturer": "Weeny",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "332_issi4_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_ISSI4_50CAL",
+          "VEHICLE_WEAPON_MORTAR_KINETIC"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1,
+            "y": -1.798,
+            "z": -0.545
+          },
+          "max": {
+            "x": 1,
+            "y": 2.488,
+            "z": 1.343
+          },
+          "length": 4.287,
+          "width": 2,
+          "height": 1.888,
+          "boundingRadius": 1.922
+        },
+        "defaultColors": [
+          {
+            "primary": 6,
+            "secondary": 0,
+            "pearl": 7,
+            "wheels": 12,
+            "interior": 129,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_HAS_NITROUS_MOD",
+          "FLAG_HAS_RAMMING_SCOOP_MOD",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_WEAPON_SPIKE_MODS",
+          "FLAG_HAS_SIDE_SHUNT",
+          "FLAG_HAS_SUPERCHARGER"
+        ]
       },
       "stats": {
         "handlingId": "ISSI4",
@@ -60,6 +122,70 @@
         "name": "Arena War",
         "releaseDate": "2018-12-11"
       },
+      "details": {
+        "manufacturer": "Weeny",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "362_issi5_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_ISSI4_50CAL",
+          "VEHICLE_WEAPON_ISSI5_50CAL_LASER",
+          "VEHICLE_WEAPON_MORTAR_KINETIC"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.041,
+            "y": -1.798,
+            "z": -0.545
+          },
+          "max": {
+            "x": 1.041,
+            "y": 2.386,
+            "z": 1.343
+          },
+          "length": 4.185,
+          "width": 2.081,
+          "height": 1.888,
+          "boundingRadius": 1.923
+        },
+        "defaultColors": [
+          {
+            "primary": 107,
+            "secondary": 159,
+            "pearl": 160,
+            "wheels": 158,
+            "interior": 160,
+            "dashboard": 160
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_HAS_NITROUS_MOD",
+          "FLAG_HAS_RAMMING_SCOOP_MOD",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_WEAPON_SPIKE_MODS",
+          "FLAG_HAS_SIDE_SHUNT",
+          "FLAG_HAS_SUPERCHARGER",
+          "FLAG_DISABLE_DEFORMATION"
+        ]
+      },
       "stats": {
         "handlingId": "ISSI5",
         "mass": 1200,
@@ -90,6 +216,68 @@
         "id": "mpchristmas2018",
         "name": "Arena War",
         "releaseDate": "2018-12-11"
+      },
+      "details": {
+        "manufacturer": "Weeny",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "350_issi6_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_ISSI4_50CAL",
+          "VEHICLE_WEAPON_MORTAR_KINETIC"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1,
+            "y": -1.798,
+            "z": -0.545
+          },
+          "max": {
+            "x": 1,
+            "y": 2.488,
+            "z": 1.343
+          },
+          "length": 4.287,
+          "width": 2,
+          "height": 1.888,
+          "boundingRadius": 1.922
+        },
+        "defaultColors": [
+          {
+            "primary": 138,
+            "secondary": 135,
+            "pearl": 20,
+            "wheels": 139,
+            "interior": 129,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_HAS_NITROUS_MOD",
+          "FLAG_HAS_RAMMING_SCOOP_MOD",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_WEAPON_SPIKE_MODS",
+          "FLAG_HAS_SIDE_SHUNT",
+          "FLAG_HAS_SUPERCHARGER"
+        ]
       },
       "stats": {
         "handlingId": "ISSI4",
@@ -122,6 +310,59 @@
         "name": "Arena War",
         "releaseDate": "2018-12-11"
       },
+      "details": {
+        "manufacturer": "Pegassi",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "319_toros_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.112,
+            "y": -2.494,
+            "z": -0.498
+          },
+          "max": {
+            "x": 1.112,
+            "y": 2.675,
+            "z": 1.353
+          },
+          "length": 5.169,
+          "width": 2.224,
+          "height": 1.851,
+          "boundingRadius": 2.884
+        },
+        "defaultColors": [
+          {
+            "primary": 1,
+            "secondary": 121,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_IS_BULKY",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
+      },
       "stats": {
         "handlingId": "TOROS",
         "mass": 2200,
@@ -152,6 +393,58 @@
         "id": "mpchristmas2018",
         "name": "Arena War",
         "releaseDate": "2018-12-11"
+      },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "317_clique_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.929,
+            "y": -2.596,
+            "z": -0.358
+          },
+          "max": {
+            "x": 0.929,
+            "y": 2.39,
+            "z": 1.168
+          },
+          "length": 4.986,
+          "width": 1.859,
+          "height": 1.527,
+          "boundingRadius": 2.626
+        },
+        "defaultColors": [
+          {
+            "primary": 6,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
       },
       "stats": {
         "handlingId": "CLIQUE",
@@ -184,6 +477,115 @@
         "name": "Arena War",
         "releaseDate": "2018-12-11"
       },
+      "details": {
+        "manufacturer": "Schyster",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "321_deviant_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.016,
+            "y": -2.551,
+            "z": -0.426
+          },
+          "max": {
+            "x": 1.016,
+            "y": 2.611,
+            "z": 0.927
+          },
+          "length": 5.161,
+          "width": 2.032,
+          "height": 1.352,
+          "boundingRadius": 2.737
+        },
+        "defaultColors": [
+          {
+            "primary": 6,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 0,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 7,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 32,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 8,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 50,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 64,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 89,
+            "secondary": 120,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_ALL",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_HAS_SUPERCHARGER"
+        ]
+      },
       "stats": {
         "handlingId": "DEVIANT",
         "mass": 1500,
@@ -214,6 +616,128 @@
         "id": "mpchristmas2018",
         "name": "Arena War",
         "releaseDate": "2018-12-11"
+      },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "326_dominator4_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_DOMINATOR4_50CAL"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.191,
+            "y": -3.032,
+            "z": -0.304
+          },
+          "max": {
+            "x": 1.191,
+            "y": 3.315,
+            "z": 1.38
+          },
+          "length": 6.347,
+          "width": 2.382,
+          "height": 1.683,
+          "boundingRadius": 2.989
+        },
+        "defaultColors": [
+          {
+            "primary": 6,
+            "secondary": 6,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 0,
+            "secondary": 6,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 7,
+            "secondary": 6,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 32,
+            "secondary": 6,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 8,
+            "secondary": 6,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 50,
+            "secondary": 6,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 64,
+            "secondary": 6,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 89,
+            "secondary": 6,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_PARKING_SENSORS",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_HAS_RAMMING_SCOOP_MOD",
+          "FLAG_HAS_SUPER_BRAKES_MOD",
+          "FLAG_HAS_WEAPON_BLADE_MODS",
+          "FLAG_HAS_WEAPON_SPIKE_MODS",
+          "FLAG_HAS_NITROUS_MOD",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_HAS_TOMBSTONE",
+          "FLAG_HAS_SIDE_SHUNT",
+          "FLAG_HAS_FRONT_SPIKE_MOD",
+          "FLAG_HAS_SUPERCHARGER",
+          "FLAG_DISABLE_THROUGH_WINDSCREEN"
+        ]
       },
       "stats": {
         "handlingId": "DOMINATOR4",
@@ -246,6 +770,74 @@
         "name": "Arena War",
         "releaseDate": "2018-12-11"
       },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "341_dominator5_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_DOMINATOR4_50CAL",
+          "VEHICLE_WEAPON_DOMINATOR5_50CAL_LASER"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.191,
+            "y": -2.947,
+            "z": -0.335
+          },
+          "max": {
+            "x": 1.191,
+            "y": 3.315,
+            "z": 1.385
+          },
+          "length": 6.262,
+          "width": 2.382,
+          "height": 1.72,
+          "boundingRadius": 2.925
+        },
+        "defaultColors": [
+          {
+            "primary": 107,
+            "secondary": 159,
+            "pearl": 160,
+            "wheels": 158,
+            "interior": 160,
+            "dashboard": 160
+          }
+        ],
+        "flags": [
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_PARKING_SENSORS",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_HAS_RAMMING_SCOOP_MOD",
+          "FLAG_HAS_SUPER_BRAKES_MOD",
+          "FLAG_HAS_WEAPON_BLADE_MODS",
+          "FLAG_HAS_WEAPON_SPIKE_MODS",
+          "FLAG_HAS_NITROUS_MOD",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_HAS_TOMBSTONE",
+          "FLAG_HAS_SIDE_SHUNT",
+          "FLAG_HAS_FRONT_SPIKE_MOD",
+          "FLAG_HAS_SUPERCHARGER",
+          "FLAG_DISABLE_THROUGH_WINDSCREEN",
+          "FLAG_DISABLE_DEFORMATION"
+        ]
+      },
       "stats": {
         "handlingId": "DOMINATOR5",
         "mass": 1550,
@@ -276,6 +868,72 @@
         "id": "mpchristmas2018",
         "name": "Arena War",
         "releaseDate": "2018-12-11"
+      },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "346_dominator6_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_DOMINATOR4_50CAL"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.191,
+            "y": -3.032,
+            "z": -0.304
+          },
+          "max": {
+            "x": 1.191,
+            "y": 3.315,
+            "z": 1.38
+          },
+          "length": 6.347,
+          "width": 2.382,
+          "height": 1.683,
+          "boundingRadius": 2.989
+        },
+        "defaultColors": [
+          {
+            "primary": 145,
+            "secondary": 29,
+            "pearl": 20,
+            "wheels": 139,
+            "interior": 2,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_PARKING_SENSORS",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_HAS_RAMMING_SCOOP_MOD",
+          "FLAG_HAS_SUPER_BRAKES_MOD",
+          "FLAG_HAS_WEAPON_BLADE_MODS",
+          "FLAG_HAS_WEAPON_SPIKE_MODS",
+          "FLAG_HAS_NITROUS_MOD",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_HAS_TOMBSTONE",
+          "FLAG_HAS_SIDE_SHUNT",
+          "FLAG_HAS_FRONT_SPIKE_MOD",
+          "FLAG_HAS_SUPERCHARGER",
+          "FLAG_DISABLE_THROUGH_WINDSCREEN"
+        ]
       },
       "stats": {
         "handlingId": "DOMINATOR4",
@@ -308,6 +966,115 @@
         "name": "Arena War",
         "releaseDate": "2018-12-11"
       },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "315_impaler_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.027,
+            "y": -3.117,
+            "z": -0.397
+          },
+          "max": {
+            "x": 1.027,
+            "y": 2.417,
+            "z": 0.989
+          },
+          "length": 5.533,
+          "width": 2.054,
+          "height": 1.386,
+          "boundingRadius": 2.911
+        },
+        "defaultColors": [
+          {
+            "primary": 6,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 0,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 7,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 32,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 8,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 50,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 64,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 89,
+            "secondary": 120,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD",
+          "FLAG_HAS_SUPERCHARGER"
+        ]
+      },
       "stats": {
         "handlingId": "IMPALER",
         "mass": 1550,
@@ -338,6 +1105,124 @@
         "id": "mpchristmas2018",
         "name": "Arena War",
         "releaseDate": "2018-12-11"
+      },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "325_impaler2_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_IMPALER2_50CAL"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.168,
+            "y": -3.117,
+            "z": -0.418
+          },
+          "max": {
+            "x": 1.168,
+            "y": 3.219,
+            "z": 1.113
+          },
+          "length": 6.336,
+          "width": 2.336,
+          "height": 1.53,
+          "boundingRadius": 2.92
+        },
+        "defaultColors": [
+          {
+            "primary": 6,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 0,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 7,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 32,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 8,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 50,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 64,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 89,
+            "secondary": 120,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_HAS_NITROUS_MOD",
+          "FLAG_HAS_RAMMING_SCOOP_MOD",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_SIDE_SHUNT",
+          "FLAG_HAS_WEAPON_SPIKE_MODS",
+          "FLAG_HAS_SUPERCHARGER",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
       },
       "stats": {
         "handlingId": "IMPALER2",
@@ -370,6 +1255,70 @@
         "name": "Arena War",
         "releaseDate": "2018-12-11"
       },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "354_impaler3_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_IMPALER2_50CAL",
+          "VEHICLE_WEAPON_IMPALER3_50CAL_LASER"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.224,
+            "y": -3.017,
+            "z": -0.387
+          },
+          "max": {
+            "x": 1.222,
+            "y": 3.222,
+            "z": 1.191
+          },
+          "length": 6.24,
+          "width": 2.446,
+          "height": 1.578,
+          "boundingRadius": 2.91
+        },
+        "defaultColors": [
+          {
+            "primary": 107,
+            "secondary": 159,
+            "pearl": 160,
+            "wheels": 158,
+            "interior": 160,
+            "dashboard": 160
+          }
+        ],
+        "flags": [
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_HAS_NITROUS_MOD",
+          "FLAG_HAS_RAMMING_SCOOP_MOD",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_SIDE_SHUNT",
+          "FLAG_HAS_WEAPON_SPIKE_MODS",
+          "FLAG_HAS_SUPERCHARGER",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD",
+          "FLAG_DISABLE_DEFORMATION"
+        ]
+      },
       "stats": {
         "handlingId": "IMPALER3",
         "mass": 1400,
@@ -400,6 +1349,68 @@
         "id": "mpchristmas2018",
         "name": "Arena War",
         "releaseDate": "2018-12-11"
+      },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "343_impaler4_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_IMPALER2_50CAL"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.168,
+            "y": -3.117,
+            "z": -0.418
+          },
+          "max": {
+            "x": 1.168,
+            "y": 3.219,
+            "z": 1.113
+          },
+          "length": 6.336,
+          "width": 2.336,
+          "height": 1.53,
+          "boundingRadius": 2.92
+        },
+        "defaultColors": [
+          {
+            "primary": 130,
+            "secondary": 135,
+            "pearl": 7,
+            "wheels": 138,
+            "interior": 2,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_HAS_NITROUS_MOD",
+          "FLAG_HAS_RAMMING_SCOOP_MOD",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_SIDE_SHUNT",
+          "FLAG_HAS_WEAPON_SPIKE_MODS",
+          "FLAG_HAS_SUPERCHARGER",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
       },
       "stats": {
         "handlingId": "IMPALER2",
@@ -432,6 +1443,124 @@
         "name": "Arena War",
         "releaseDate": "2018-12-11"
       },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "328_imperator_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_IMPERATOR_50CAL",
+          "VEHICLE_WEAPON_MORTAR_KINETIC"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.28,
+            "y": -2.968,
+            "z": -0.396
+          },
+          "max": {
+            "x": 1.267,
+            "y": 3.251,
+            "z": 2.033
+          },
+          "length": 6.219,
+          "width": 2.547,
+          "height": 2.429,
+          "boundingRadius": 2.75
+        },
+        "defaultColors": [
+          {
+            "primary": 6,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 0,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 7,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 32,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 8,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 50,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 64,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 89,
+            "secondary": 120,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_HAS_NITROUS_MOD",
+          "FLAG_HAS_RAMMING_SCOOP_MOD",
+          "FLAG_HAS_WEAPON_BLADE_MODS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_WEAPON_SPIKE_MODS",
+          "FLAG_HAS_SIDE_SHUNT",
+          "FLAG_HAS_SUPERCHARGER"
+        ]
+      },
       "stats": {
         "handlingId": "IMPERATOR",
         "mass": 2000,
@@ -462,6 +1591,70 @@
         "id": "mpchristmas2018",
         "name": "Arena War",
         "releaseDate": "2018-12-11"
+      },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "339_imperator2_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_IMPERATOR_50CAL",
+          "VEHICLE_WEAPON_MORTAR_KINETIC",
+          "VEHICLE_WEAPON_IMPERATOR2_50CAL_LASER"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.28,
+            "y": -2.968,
+            "z": -0.396
+          },
+          "max": {
+            "x": 1.267,
+            "y": 3.015,
+            "z": 1.481
+          },
+          "length": 5.983,
+          "width": 2.547,
+          "height": 1.877,
+          "boundingRadius": 2.75
+        },
+        "defaultColors": [
+          {
+            "primary": 107,
+            "secondary": 159,
+            "pearl": 160,
+            "wheels": 158,
+            "interior": 160,
+            "dashboard": 140
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_HAS_NITROUS_MOD",
+          "FLAG_HAS_RAMMING_SCOOP_MOD",
+          "FLAG_HAS_WEAPON_BLADE_MODS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_WEAPON_SPIKE_MODS",
+          "FLAG_HAS_SIDE_SHUNT",
+          "FLAG_HAS_SUPERCHARGER",
+          "FLAG_DISABLE_DEFORMATION"
+        ]
       },
       "stats": {
         "handlingId": "IMPERATOR2",
@@ -494,6 +1687,68 @@
         "name": "Arena War",
         "releaseDate": "2018-12-11"
       },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "342_imperator3_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_IMPERATOR_50CAL",
+          "VEHICLE_WEAPON_MORTAR_KINETIC"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.28,
+            "y": -2.968,
+            "z": -0.396
+          },
+          "max": {
+            "x": 1.267,
+            "y": 3.251,
+            "z": 2.033
+          },
+          "length": 6.219,
+          "width": 2.547,
+          "height": 2.429,
+          "boundingRadius": 2.75
+        },
+        "defaultColors": [
+          {
+            "primary": 135,
+            "secondary": 140,
+            "pearl": 7,
+            "wheels": 126,
+            "interior": 2,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_HAS_NITROUS_MOD",
+          "FLAG_HAS_RAMMING_SCOOP_MOD",
+          "FLAG_HAS_WEAPON_BLADE_MODS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_WEAPON_SPIKE_MODS",
+          "FLAG_HAS_SIDE_SHUNT",
+          "FLAG_HAS_SUPERCHARGER"
+        ]
+      },
       "stats": {
         "handlingId": "IMPERATOR",
         "mass": 2000,
@@ -524,6 +1779,123 @@
         "id": "mpchristmas2018",
         "name": "Arena War",
         "releaseDate": "2018-12-11"
+      },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "336_slamvan4_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SLAMVAN4_50CAL"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.362,
+            "y": -2.803,
+            "z": -0.584
+          },
+          "max": {
+            "x": 1.362,
+            "y": 2.623,
+            "z": 2.215
+          },
+          "length": 5.427,
+          "width": 2.724,
+          "height": 2.799,
+          "boundingRadius": 2.56
+        },
+        "defaultColors": [
+          {
+            "primary": 6,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 0,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 7,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 32,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 8,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 50,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 64,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 89,
+            "secondary": 120,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_HAS_SIDE_SHUNT",
+          "FLAG_HAS_WEAPON_BLADE_MODS",
+          "FLAG_HAS_WEAPON_SPIKE_MODS",
+          "FLAG_HAS_RAMMING_SCOOP_MOD",
+          "FLAG_HAS_RAMMING_BAR_MOD",
+          "FLAG_HAS_NITROUS_MOD"
+        ]
       },
       "stats": {
         "handlingId": "SLAMVAN4",
@@ -556,6 +1928,77 @@
         "name": "Arena War",
         "releaseDate": "2018-12-11"
       },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "358_slamvan5_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SLAMVAN4_50CAL",
+          "VEHICLE_WEAPON_SLAMVAN5_50CAL_LASER"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.362,
+            "y": -2.803,
+            "z": -0.582
+          },
+          "max": {
+            "x": 1.362,
+            "y": 2.845,
+            "z": 1.955
+          },
+          "length": 5.648,
+          "width": 2.724,
+          "height": 2.536,
+          "boundingRadius": 2.616
+        },
+        "defaultColors": [
+          {
+            "primary": 107,
+            "secondary": 159,
+            "pearl": 160,
+            "wheels": 158,
+            "interior": 160,
+            "dashboard": 140
+          },
+          {
+            "primary": 34,
+            "secondary": 159,
+            "pearl": 160,
+            "wheels": 158,
+            "interior": 160,
+            "dashboard": 140
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_HAS_SIDE_SHUNT",
+          "FLAG_HAS_WEAPON_BLADE_MODS",
+          "FLAG_HAS_WEAPON_SPIKE_MODS",
+          "FLAG_HAS_RAMMING_SCOOP_MOD",
+          "FLAG_HAS_RAMMING_BAR_MOD",
+          "FLAG_HAS_NITROUS_MOD",
+          "FLAG_DISABLE_DEFORMATION"
+        ]
+      },
       "stats": {
         "handlingId": "SLAMVAN5",
         "mass": 1245,
@@ -586,6 +2029,67 @@
         "id": "mpchristmas2018",
         "name": "Arena War",
         "releaseDate": "2018-12-11"
+      },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "352_slamvan6_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SLAMVAN4_50CAL"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.429,
+            "y": -2.803,
+            "z": -0.584
+          },
+          "max": {
+            "x": 1.362,
+            "y": 2.623,
+            "z": 2.33
+          },
+          "length": 5.427,
+          "width": 2.791,
+          "height": 2.914,
+          "boundingRadius": 2.56
+        },
+        "defaultColors": [
+          {
+            "primary": 83,
+            "secondary": 135,
+            "pearl": 7,
+            "wheels": 88,
+            "interior": 2,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_HAS_SIDE_SHUNT",
+          "FLAG_HAS_WEAPON_BLADE_MODS",
+          "FLAG_HAS_WEAPON_SPIKE_MODS",
+          "FLAG_HAS_RAMMING_SCOOP_MOD",
+          "FLAG_HAS_RAMMING_BAR_MOD",
+          "FLAG_HAS_NITROUS_MOD"
+        ]
       },
       "stats": {
         "handlingId": "SLAMVAN4",
@@ -618,6 +2122,115 @@
         "name": "Arena War",
         "releaseDate": "2018-12-11"
       },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "324_tulip_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.031,
+            "y": -2.816,
+            "z": -0.403
+          },
+          "max": {
+            "x": 1.031,
+            "y": 2.436,
+            "z": 1.049
+          },
+          "length": 5.252,
+          "width": 2.061,
+          "height": 1.452,
+          "boundingRadius": 2.812
+        },
+        "defaultColors": [
+          {
+            "primary": 6,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 0,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 7,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 32,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 8,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 50,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 64,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 89,
+            "secondary": 120,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD",
+          "FLAG_HAS_SUPERCHARGER"
+        ]
+      },
       "stats": {
         "handlingId": "TULIP",
         "mass": 1545,
@@ -648,6 +2261,114 @@
         "id": "mpchristmas2018",
         "name": "Arena War",
         "releaseDate": "2018-12-11"
+      },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "322_vamos_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.949,
+            "y": -3.05,
+            "z": -0.514
+          },
+          "max": {
+            "x": 0.949,
+            "y": 2.346,
+            "z": 0.883
+          },
+          "length": 5.396,
+          "width": 1.898,
+          "height": 1.397,
+          "boundingRadius": 2.663
+        },
+        "defaultColors": [
+          {
+            "primary": 6,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 0,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 7,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 32,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 8,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 50,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 64,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 89,
+            "secondary": 120,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_HAS_SUPERCHARGER"
+        ]
       },
       "stats": {
         "handlingId": "VAMOS",
@@ -680,6 +2401,58 @@
         "name": "Arena War",
         "releaseDate": "2018-12-11"
       },
+      "details": {
+        "manufacturer": "Grotti",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "327_italigto_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.999,
+            "y": -2.419,
+            "z": -0.405
+          },
+          "max": {
+            "x": 0.999,
+            "y": 2.336,
+            "z": 0.862
+          },
+          "length": 4.756,
+          "width": 1.997,
+          "height": 1.267,
+          "boundingRadius": 2.56
+        },
+        "defaultColors": [
+          {
+            "primary": 32,
+            "secondary": 0,
+            "pearl": 7,
+            "wheels": 111,
+            "interior": 28,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN"
+        ]
+      },
       "stats": {
         "handlingId": "ITALIGTO",
         "mass": 1520,
@@ -710,6 +2483,90 @@
         "id": "mpchristmas2018",
         "name": "Arena War",
         "releaseDate": "2018-12-11"
+      },
+      "details": {
+        "manufacturer": "Benefactor",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "320_schlagen_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.068,
+            "y": -2.37,
+            "z": -0.297
+          },
+          "max": {
+            "x": 1.048,
+            "y": 2.403,
+            "z": 1.145
+          },
+          "length": 4.773,
+          "width": 2.116,
+          "height": 1.441,
+          "boundingRadius": 2.542
+        },
+        "defaultColors": [
+          {
+            "primary": 10,
+            "secondary": 10,
+            "pearl": 9,
+            "wheels": 12,
+            "interior": 27,
+            "dashboard": 0
+          },
+          {
+            "primary": 73,
+            "secondary": 73,
+            "pearl": 10,
+            "wheels": 12,
+            "interior": 3,
+            "dashboard": 0
+          },
+          {
+            "primary": 38,
+            "secondary": 38,
+            "pearl": 20,
+            "wheels": 12,
+            "interior": 2,
+            "dashboard": 0
+          },
+          {
+            "primary": 112,
+            "secondary": 121,
+            "pearl": 10,
+            "wheels": 12,
+            "interior": 32,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 12,
+            "interior": 1,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN"
+        ]
       },
       "stats": {
         "handlingId": "SCHLAGEN",
@@ -742,6 +2599,69 @@
         "name": "Arena War",
         "releaseDate": "2018-12-11"
       },
+      "details": {
+        "manufacturer": "Annis",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "335_zr380_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_ZR380_50CAL"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.28,
+            "y": -2.572,
+            "z": -0.348
+          },
+          "max": {
+            "x": 1.267,
+            "y": 3.003,
+            "z": 1.251
+          },
+          "length": 5.575,
+          "width": 2.547,
+          "height": 1.599,
+          "boundingRadius": 2.455
+        },
+        "defaultColors": [
+          {
+            "primary": 52,
+            "secondary": 151,
+            "pearl": 11,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_PARKING_SENSORS",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_HAS_NITROUS_MOD",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_WEAPON_BLADE_MODS",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_HAS_SIDE_SHUNT",
+          "FLAG_HAS_RAMMING_SCOOP_MOD",
+          "FLAG_DISABLE_THROUGH_WINDSCREEN",
+          "FLAG_HAS_WEAPON_SPIKE_MODS"
+        ]
+      },
       "stats": {
         "handlingId": "ZR380",
         "mass": 1600,
@@ -772,6 +2692,71 @@
         "id": "mpchristmas2018",
         "name": "Arena War",
         "releaseDate": "2018-12-11"
+      },
+      "details": {
+        "manufacturer": "Annis",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "347_zr3802_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_ZR380_50CAL",
+          "VEHICLE_WEAPON_ZR3802_50CAL_LASER"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.28,
+            "y": -2.572,
+            "z": -0.348
+          },
+          "max": {
+            "x": 1.267,
+            "y": 3.003,
+            "z": 1.496
+          },
+          "length": 5.575,
+          "width": 2.547,
+          "height": 1.844,
+          "boundingRadius": 2.464
+        },
+        "defaultColors": [
+          {
+            "primary": 107,
+            "secondary": 159,
+            "pearl": 160,
+            "wheels": 158,
+            "interior": 160,
+            "dashboard": 160
+          }
+        ],
+        "flags": [
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_PARKING_SENSORS",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_HAS_NITROUS_MOD",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_WEAPON_BLADE_MODS",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_HAS_SIDE_SHUNT",
+          "FLAG_HAS_RAMMING_SCOOP_MOD",
+          "FLAG_DISABLE_THROUGH_WINDSCREEN",
+          "FLAG_HAS_WEAPON_SPIKE_MODS",
+          "FLAG_DISABLE_DEFORMATION"
+        ]
       },
       "stats": {
         "handlingId": "ZR3802",
@@ -804,6 +2789,69 @@
         "name": "Arena War",
         "releaseDate": "2018-12-11"
       },
+      "details": {
+        "manufacturer": "Annis",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "349_zr3803_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_ZR380_50CAL"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.28,
+            "y": -2.572,
+            "z": -0.348
+          },
+          "max": {
+            "x": 1.267,
+            "y": 3.003,
+            "z": 1.251
+          },
+          "length": 5.575,
+          "width": 2.547,
+          "height": 1.599,
+          "boundingRadius": 2.455
+        },
+        "defaultColors": [
+          {
+            "primary": 92,
+            "secondary": 140,
+            "pearl": 7,
+            "wheels": 126,
+            "interior": 2,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_PARKING_SENSORS",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_HAS_NITROUS_MOD",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_WEAPON_BLADE_MODS",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_HAS_SIDE_SHUNT",
+          "FLAG_HAS_RAMMING_SCOOP_MOD",
+          "FLAG_DISABLE_THROUGH_WINDSCREEN",
+          "FLAG_HAS_WEAPON_SPIKE_MODS"
+        ]
+      },
       "stats": {
         "handlingId": "ZR380",
         "mass": 1600,
@@ -834,6 +2882,93 @@
         "id": "mpchristmas2018",
         "name": "Arena War",
         "releaseDate": "2018-12-11"
+      },
+      "details": {
+        "manufacturer": "Principe",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "316_deveste_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.383,
+            "y": -2.418,
+            "z": -0.495
+          },
+          "max": {
+            "x": 1.385,
+            "y": 2.728,
+            "z": 0.885
+          },
+          "length": 5.146,
+          "width": 2.768,
+          "height": 1.38,
+          "boundingRadius": 2.778
+        },
+        "defaultColors": [
+          {
+            "primary": 131,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 1,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 2,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 1,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 1,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 29,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 1,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 88,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 1,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_HAS_GULL_WING_DOORS",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG"
+        ]
       },
       "stats": {
         "handlingId": "DEVESTE",
@@ -866,6 +3001,122 @@
         "name": "Arena War",
         "releaseDate": "2018-12-11"
       },
+      "details": {
+        "manufacturer": "Western",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "331_deathbike_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_DEATHBIKE_DUALMINIGUN"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.672,
+            "y": -1.086,
+            "z": -0.501
+          },
+          "max": {
+            "x": 0.672,
+            "y": 1.213,
+            "z": 1.186
+          },
+          "length": 2.299,
+          "width": 1.343,
+          "height": 1.687,
+          "boundingRadius": 1.115
+        },
+        "defaultColors": [
+          {
+            "primary": 6,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 0,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 7,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 32,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 8,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 50,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 64,
+            "secondary": 120,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 89,
+            "secondary": 120,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_BIKE_CLAMP_PICKUP_LEAN_RATE",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_HAS_NITROUS_MOD",
+          "FLAG_HAS_WEAPON_BLADE_MODS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING"
+        ]
+      },
       "stats": {
         "handlingId": "DEATHBIKE",
         "mass": 135,
@@ -896,6 +3147,74 @@
         "id": "mpchristmas2018",
         "name": "Arena War",
         "releaseDate": "2018-12-11"
+      },
+      "details": {
+        "manufacturer": "Western",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "345_deathbike2_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_DEATHBIKE2_MINIGUN_LASER"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.672,
+            "y": -1.086,
+            "z": -0.501
+          },
+          "max": {
+            "x": 0.672,
+            "y": 1.213,
+            "z": 1.335
+          },
+          "length": 2.299,
+          "width": 1.343,
+          "height": 1.836,
+          "boundingRadius": 1.314
+        },
+        "defaultColors": [
+          {
+            "primary": 107,
+            "secondary": 159,
+            "pearl": 160,
+            "wheels": 158,
+            "interior": 160,
+            "dashboard": 140
+          },
+          {
+            "primary": 34,
+            "secondary": 159,
+            "pearl": 160,
+            "wheels": 158,
+            "interior": 160,
+            "dashboard": 140
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_BIKE_CLAMP_PICKUP_LEAN_RATE",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_HAS_NITROUS_MOD",
+          "FLAG_HAS_WEAPON_BLADE_MODS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING"
+        ]
       },
       "stats": {
         "handlingId": "DEATHBIKE2",
@@ -928,6 +3247,66 @@
         "name": "Arena War",
         "releaseDate": "2018-12-11"
       },
+      "details": {
+        "manufacturer": "Western",
+        "type": "BIKE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [
+          "344_deathbike3_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_DEATHBIKE_DUALMINIGUN"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.672,
+            "y": -1.086,
+            "z": -0.501
+          },
+          "max": {
+            "x": 0.672,
+            "y": 1.213,
+            "z": 1.186
+          },
+          "length": 2.299,
+          "width": 1.343,
+          "height": 1.687,
+          "boundingRadius": 1.115
+        },
+        "defaultColors": [
+          {
+            "primary": 135,
+            "secondary": 139,
+            "pearl": 20,
+            "wheels": 138,
+            "interior": 2,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_BIKE_CLAMP_PICKUP_LEAN_RATE",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_HAS_NITROUS_MOD",
+          "FLAG_HAS_WEAPON_BLADE_MODS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING"
+        ]
+      },
       "stats": {
         "handlingId": "DEATHBIKE",
         "mass": 135,
@@ -958,6 +3337,68 @@
         "id": "mpchristmas2018",
         "name": "Arena War",
         "releaseDate": "2018-12-11"
+      },
+      "details": {
+        "manufacturer": "Benefactor",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 6,
+        "modKits": [
+          "329_bruiser_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_BRUISER_50CAL"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.654,
+            "y": -4.84,
+            "z": -1.02
+          },
+          "max": {
+            "x": 1.654,
+            "y": 4.445,
+            "z": 1.793
+          },
+          "length": 9.285,
+          "width": 3.308,
+          "height": 2.813,
+          "boundingRadius": 4.35
+        },
+        "defaultColors": [
+          {
+            "primary": 121,
+            "secondary": 2,
+            "pearl": 12,
+            "wheels": 7,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_NITROUS_MOD",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_NO_BOOT",
+          "FLAG_BIG",
+          "FLAG_AVOID_TURNS",
+          "FLAG_INCREASE_LOW_SPEED_TORQUE",
+          "FLAG_HAS_RAMMING_SCOOP_MOD",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_WEAPON_SPIKE_MODS",
+          "FLAG_HAS_SIDE_SHUNT",
+          "FLAG_HAS_RAMMING_BAR_MOD"
+        ]
       },
       "stats": {
         "handlingId": "BRUISER",
@@ -990,6 +3431,77 @@
         "name": "Arena War",
         "releaseDate": "2018-12-11"
       },
+      "details": {
+        "manufacturer": "Benefactor",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 6,
+        "modKits": [
+          "359_bruiser2_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_BRUISER_50CAL",
+          "VEHICLE_WEAPON_BRUISER2_50CAL_LASER"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.654,
+            "y": -4.84,
+            "z": -1.019
+          },
+          "max": {
+            "x": 1.654,
+            "y": 4.445,
+            "z": 1.793
+          },
+          "length": 9.285,
+          "width": 3.308,
+          "height": 2.812,
+          "boundingRadius": 4.328
+        },
+        "defaultColors": [
+          {
+            "primary": 121,
+            "secondary": 159,
+            "pearl": 160,
+            "wheels": 158,
+            "interior": 160,
+            "dashboard": 89
+          },
+          {
+            "primary": 34,
+            "secondary": 159,
+            "pearl": 160,
+            "wheels": 158,
+            "interior": 160,
+            "dashboard": 28
+          }
+        ],
+        "flags": [
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_NITROUS_MOD",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_NO_BOOT",
+          "FLAG_BIG",
+          "FLAG_AVOID_TURNS",
+          "FLAG_INCREASE_LOW_SPEED_TORQUE",
+          "FLAG_HAS_RAMMING_SCOOP_MOD",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_WEAPON_SPIKE_MODS",
+          "FLAG_HAS_SIDE_SHUNT",
+          "FLAG_HAS_RAMMING_BAR_MOD"
+        ]
+      },
       "stats": {
         "handlingId": "BRUISER2",
         "mass": 6000,
@@ -1020,6 +3532,68 @@
         "id": "mpchristmas2018",
         "name": "Arena War",
         "releaseDate": "2018-12-11"
+      },
+      "details": {
+        "manufacturer": "Benefactor",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 6,
+        "modKits": [
+          "357_bruiser3_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_BRUISER_50CAL"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.654,
+            "y": -4.997,
+            "z": -1.02
+          },
+          "max": {
+            "x": 1.654,
+            "y": 4.445,
+            "z": 1.824
+          },
+          "length": 9.442,
+          "width": 3.308,
+          "height": 2.844,
+          "boundingRadius": 4.35
+        },
+        "defaultColors": [
+          {
+            "primary": 140,
+            "secondary": 81,
+            "pearl": 20,
+            "wheels": 44,
+            "interior": 156,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_NITROUS_MOD",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_NO_BOOT",
+          "FLAG_BIG",
+          "FLAG_AVOID_TURNS",
+          "FLAG_INCREASE_LOW_SPEED_TORQUE",
+          "FLAG_HAS_RAMMING_SCOOP_MOD",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_WEAPON_SPIKE_MODS",
+          "FLAG_HAS_SIDE_SHUNT",
+          "FLAG_HAS_RAMMING_BAR_MOD"
+        ]
       },
       "stats": {
         "handlingId": "BRUISER",
@@ -1052,6 +3626,69 @@
         "name": "Arena War",
         "releaseDate": "2018-12-11"
       },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "340_brutus_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_BRUTUS_50CAL"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.325,
+            "y": -4.033,
+            "z": -0.981
+          },
+          "max": {
+            "x": 1.31,
+            "y": 3.847,
+            "z": 2.022
+          },
+          "length": 7.881,
+          "width": 2.635,
+          "height": 3.003,
+          "boundingRadius": 3.127
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 157,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_IS_BULKY",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_HAS_NITROUS_MOD",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_HAS_SIDE_SHUNT",
+          "FLAG_HAS_RAMMING_SCOOP_MOD",
+          "FLAG_HAS_WEAPON_BLADE_MODS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_RAMMING_BAR_MOD"
+        ]
+      },
       "stats": {
         "handlingId": "BRUTUS",
         "mass": 3500,
@@ -1082,6 +3719,71 @@
         "id": "mpchristmas2018",
         "name": "Arena War",
         "releaseDate": "2018-12-11"
+      },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "363_brutus2_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_BRUTUS_50CAL",
+          "VEHICLE_WEAPON_BRUTUS2_50CAL_LASER"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.325,
+            "y": -3.416,
+            "z": -0.981
+          },
+          "max": {
+            "x": 1.31,
+            "y": 3.847,
+            "z": 1.499
+          },
+          "length": 7.263,
+          "width": 2.635,
+          "height": 2.48,
+          "boundingRadius": 3.136
+        },
+        "defaultColors": [
+          {
+            "primary": 107,
+            "secondary": 159,
+            "pearl": 160,
+            "wheels": 158,
+            "interior": 160,
+            "dashboard": 160
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_IS_BULKY",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_HAS_NITROUS_MOD",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_HAS_SIDE_SHUNT",
+          "FLAG_HAS_RAMMING_SCOOP_MOD",
+          "FLAG_HAS_RAMMING_BAR_MOD",
+          "FLAG_HAS_WEAPON_BLADE_MODS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_DISABLE_DEFORMATION"
+        ]
       },
       "stats": {
         "handlingId": "BRUTUS2",
@@ -1114,6 +3816,69 @@
         "name": "Arena War",
         "releaseDate": "2018-12-11"
       },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "356_brutus3_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_BRUTUS_50CAL"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.325,
+            "y": -4.033,
+            "z": -0.981
+          },
+          "max": {
+            "x": 1.31,
+            "y": 3.847,
+            "z": 2.022
+          },
+          "length": 7.881,
+          "width": 2.635,
+          "height": 3.003,
+          "boundingRadius": 3.127
+        },
+        "defaultColors": [
+          {
+            "primary": 135,
+            "secondary": 92,
+            "pearl": 17,
+            "wheels": 138,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_IS_BULKY",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_HAS_NITROUS_MOD",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_HAS_SIDE_SHUNT",
+          "FLAG_HAS_RAMMING_SCOOP_MOD",
+          "FLAG_HAS_WEAPON_BLADE_MODS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_RAMMING_BAR_MOD"
+        ]
+      },
       "stats": {
         "handlingId": "BRUTUS",
         "mass": 3500,
@@ -1144,6 +3909,133 @@
         "id": "mpchristmas2018",
         "name": "Arena War",
         "releaseDate": "2018-12-11"
+      },
+      "details": {
+        "manufacturer": "Bravado",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "338_monster3_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_MONSTER3_GLKIN"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.95,
+            "y": -2.738,
+            "z": -1.142
+          },
+          "max": {
+            "x": 1.95,
+            "y": 5.475,
+            "z": 2.974
+          },
+          "length": 8.213,
+          "width": 3.9,
+          "height": 4.116,
+          "boundingRadius": 3.079
+        },
+        "defaultColors": [
+          {
+            "primary": 119,
+            "secondary": 0,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 6,
+            "secondary": 0,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 7,
+            "secondary": 0,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 32,
+            "secondary": 0,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 8,
+            "secondary": 0,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 50,
+            "secondary": 0,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 89,
+            "secondary": 0,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_USE_RESTRICTED_DRIVEBY_HEIGHT",
+          "FLAG_CRUSHES_OTHER_VEHICLES",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_HAS_NITROUS_MOD",
+          "FLAG_HAS_RAMMING_SCOOP_MOD",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_SIDE_SHUNT",
+          "FLAG_HAS_RAMMING_BAR_MOD",
+          "FLAG_TURRET_MODS_ON_CHASSIS5",
+          "FLAG_TURRET_MOD_WITH_NO_STOCK_TURRET"
+        ]
       },
       "stats": {
         "handlingId": "MONSTER3",
@@ -1176,6 +4068,70 @@
         "name": "Arena War",
         "releaseDate": "2018-12-11"
       },
+      "details": {
+        "manufacturer": "Bravado",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "360_monster4_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_MONSTER3_GLKIN"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.95,
+            "y": -2.738,
+            "z": -1.142
+          },
+          "max": {
+            "x": 1.95,
+            "y": 5.475,
+            "z": 3.01
+          },
+          "length": 8.213,
+          "width": 3.9,
+          "height": 4.152,
+          "boundingRadius": 3.1
+        },
+        "defaultColors": [
+          {
+            "primary": 107,
+            "secondary": 159,
+            "pearl": 160,
+            "wheels": 158,
+            "interior": 160,
+            "dashboard": 160
+          }
+        ],
+        "flags": [
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_USE_RESTRICTED_DRIVEBY_HEIGHT",
+          "FLAG_CRUSHES_OTHER_VEHICLES",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_HAS_NITROUS_MOD",
+          "FLAG_HAS_RAMMING_SCOOP_MOD",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_SIDE_SHUNT",
+          "FLAG_HAS_RAMMING_BAR_MOD",
+          "FLAG_TURRET_MODS_ON_CHASSIS5",
+          "FLAG_TURRET_MOD_WITH_NO_STOCK_TURRET",
+          "FLAG_DISABLE_DEFORMATION"
+        ]
+      },
       "stats": {
         "handlingId": "MONSTER3",
         "mass": 4400,
@@ -1206,6 +4162,69 @@
         "id": "mpchristmas2018",
         "name": "Arena War",
         "releaseDate": "2018-12-11"
+      },
+      "details": {
+        "manufacturer": "Bravado",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "353_monster5_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_MONSTER3_GLKIN"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.95,
+            "y": -2.738,
+            "z": -1.142
+          },
+          "max": {
+            "x": 1.95,
+            "y": 5.475,
+            "z": 2.974
+          },
+          "length": 8.213,
+          "width": 3.9,
+          "height": 4.116,
+          "boundingRadius": 3.079
+        },
+        "defaultColors": [
+          {
+            "primary": 139,
+            "secondary": 70,
+            "pearl": 7,
+            "wheels": 89,
+            "interior": 2,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_USE_RESTRICTED_DRIVEBY_HEIGHT",
+          "FLAG_CRUSHES_OTHER_VEHICLES",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_HAS_NITROUS_MOD",
+          "FLAG_HAS_RAMMING_SCOOP_MOD",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_SIDE_SHUNT",
+          "FLAG_HAS_RAMMING_BAR_MOD",
+          "FLAG_TURRET_MODS_ON_CHASSIS5",
+          "FLAG_TURRET_MOD_WITH_NO_STOCK_TURRET"
+        ]
       },
       "stats": {
         "handlingId": "MONSTER3",
@@ -1238,6 +4257,60 @@
         "name": "Arena War",
         "releaseDate": "2018-12-11"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 4,
+        "modKits": [
+          "334_rcbandito_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.38,
+            "y": -0.54,
+            "z": -0.162
+          },
+          "max": {
+            "x": 0.38,
+            "y": 0.551,
+            "z": 0.53
+          },
+          "length": 1.091,
+          "width": 0.76,
+          "height": 0.692,
+          "boundingRadius": 0.657
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 156,
+            "pearl": 10,
+            "wheels": 0,
+            "interior": 111,
+            "dashboard": 73
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_ELECTRIC",
+          "FLAG_FORCE_BONNET_CAMERA_INSTEAD_OF_POV",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_DISABLE_DEFORMATION"
+        ]
+      },
       "stats": {
         "handlingId": "RCBANDITO",
         "mass": 85,
@@ -1268,6 +4341,77 @@
         "id": "mpchristmas2018",
         "name": "Arena War",
         "releaseDate": "2018-12-11"
+      },
+      "details": {
+        "manufacturer": "HVY",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 10,
+        "modKits": [
+          "318_scarab_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SCARAB_50CAL"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.712,
+            "y": -2.588,
+            "z": -0.434
+          },
+          "max": {
+            "x": 1.712,
+            "y": 3.781,
+            "z": 1.883
+          },
+          "length": 6.369,
+          "width": 3.423,
+          "height": 2.318,
+          "boundingRadius": 3.317
+        },
+        "defaultColors": [
+          {
+            "primary": 9,
+            "secondary": 5,
+            "pearl": 4,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_ONLY_BREAK_WHEN_DESTROYED",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_USE_HIGHER_DOOR_TORQUE",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_IS_TANK",
+          "FLAG_USE_COVERBOUND_INFO_FOR_COVERGEN",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_INCREASE_LOW_SPEED_TORQUE",
+          "FLAG_CAN_NAVIGATE_TO_ON_VEHICLE_ENTRY",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_USE_TURRET_RELATIVE_AIM_CALCULATION",
+          "FLAG_HAS_RAMMING_SCOOP_MOD",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_NITROUS_MOD",
+          "FLAG_DISABLE_THROUGH_WINDSCREEN",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_HAS_SIDE_SHUNT",
+          "FLAG_HAS_WEAPON_SPIKE_MODS",
+          "FLAG_HAS_RAMMING_BAR_MOD",
+          "FLAG_IS_TANK_WITH_FLAME_DAMAGE"
+        ]
       },
       "stats": {
         "handlingId": "SCARAB",
@@ -1300,6 +4444,79 @@
         "name": "Arena War",
         "releaseDate": "2018-12-11"
       },
+      "details": {
+        "manufacturer": "HVY",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 10,
+        "modKits": [
+          "361_scarab2_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SCARAB_50CAL",
+          "VEHICLE_WEAPON_SCARAB2_50CAL_LASER"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.712,
+            "y": -2.588,
+            "z": -0.44
+          },
+          "max": {
+            "x": 1.712,
+            "y": 3.366,
+            "z": 1.743
+          },
+          "length": 5.954,
+          "width": 3.423,
+          "height": 2.183,
+          "boundingRadius": 3.319
+        },
+        "defaultColors": [
+          {
+            "primary": 107,
+            "secondary": 159,
+            "pearl": 160,
+            "wheels": 158,
+            "interior": 160,
+            "dashboard": 160
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_ONLY_BREAK_WHEN_DESTROYED",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_USE_HIGHER_DOOR_TORQUE",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_IS_TANK",
+          "FLAG_USE_COVERBOUND_INFO_FOR_COVERGEN",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_INCREASE_LOW_SPEED_TORQUE",
+          "FLAG_CAN_NAVIGATE_TO_ON_VEHICLE_ENTRY",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_USE_TURRET_RELATIVE_AIM_CALCULATION",
+          "FLAG_HAS_RAMMING_SCOOP_MOD",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_NITROUS_MOD",
+          "FLAG_DISABLE_THROUGH_WINDSCREEN",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_HAS_SIDE_SHUNT",
+          "FLAG_HAS_WEAPON_SPIKE_MODS",
+          "FLAG_HAS_RAMMING_BAR_MOD",
+          "FLAG_IS_TANK_WITH_FLAME_DAMAGE",
+          "FLAG_DISABLE_DEFORMATION"
+        ]
+      },
       "stats": {
         "handlingId": "SCARAB2",
         "mass": 5000,
@@ -1330,6 +4547,77 @@
         "id": "mpchristmas2018",
         "name": "Arena War",
         "releaseDate": "2018-12-11"
+      },
+      "details": {
+        "manufacturer": "HVY",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 10,
+        "modKits": [
+          "355_scarab3_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SCARAB_50CAL"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.712,
+            "y": -2.588,
+            "z": -0.434
+          },
+          "max": {
+            "x": 1.712,
+            "y": 3.781,
+            "z": 1.883
+          },
+          "length": 6.369,
+          "width": 3.423,
+          "height": 2.318,
+          "boundingRadius": 3.317
+        },
+        "defaultColors": [
+          {
+            "primary": 140,
+            "secondary": 138,
+            "pearl": 7,
+            "wheels": 135,
+            "interior": 2,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_ONLY_BREAK_WHEN_DESTROYED",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_USE_HIGHER_DOOR_TORQUE",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_IS_TANK",
+          "FLAG_USE_COVERBOUND_INFO_FOR_COVERGEN",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_INCREASE_LOW_SPEED_TORQUE",
+          "FLAG_CAN_NAVIGATE_TO_ON_VEHICLE_ENTRY",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_USE_TURRET_RELATIVE_AIM_CALCULATION",
+          "FLAG_HAS_RAMMING_SCOOP_MOD",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_NITROUS_MOD",
+          "FLAG_DISABLE_THROUGH_WINDSCREEN",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_HAS_SIDE_SHUNT",
+          "FLAG_HAS_WEAPON_SPIKE_MODS",
+          "FLAG_HAS_RAMMING_BAR_MOD",
+          "FLAG_IS_TANK_WITH_FLAME_DAMAGE"
+        ]
       },
       "stats": {
         "handlingId": "SCARAB",
@@ -1362,6 +4650,99 @@
         "name": "Arena War",
         "releaseDate": "2018-12-11"
       },
+      "details": {
+        "manufacturer": "MTL",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 8,
+        "modKits": [
+          "330_cerberus_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_FLAMETHROWER"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.913,
+            "y": -8.858,
+            "z": -0.826
+          },
+          "max": {
+            "x": 1.913,
+            "y": 6.507,
+            "z": 3.941
+          },
+          "length": 15.365,
+          "width": 3.826,
+          "height": 4.768,
+          "boundingRadius": 7.136
+        },
+        "defaultColors": [
+          {
+            "primary": 34,
+            "secondary": 2,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 6,
+            "secondary": 134,
+            "pearl": 111,
+            "wheels": 1,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 15,
+            "secondary": 121,
+            "pearl": 138,
+            "wheels": 134,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 66,
+            "secondary": 1,
+            "pearl": 107,
+            "wheels": 1,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_DELIVERY",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_USE_FAT_INTERIOR_LIGHT",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS",
+          "FLAG_HAS_REAR_MOUNTED_TURRET",
+          "FLAG_TURRET_MODS_ON_ROOF",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_HAS_WEAPON_SPIKE_MODS",
+          "FLAG_HAS_NITROUS_MOD",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_HAS_SIDE_SHUNT",
+          "FLAG_HAS_RAMMING_SCOOP_MOD",
+          "FLAG_HAS_RAMMING_BAR_MOD",
+          "FLAG_INCREASE_LOW_SPEED_TORQUE"
+        ]
+      },
       "stats": {
         "handlingId": "CERBERUS",
         "mass": 6500,
@@ -1393,6 +4774,76 @@
         "name": "Arena War",
         "releaseDate": "2018-12-11"
       },
+      "details": {
+        "manufacturer": "MTL",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 8,
+        "modKits": [
+          "351_cerberus2_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_FLAMETHROWER_SCIFI"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -2.001,
+            "y": -8.858,
+            "z": -0.826
+          },
+          "max": {
+            "x": 2.001,
+            "y": 6.085,
+            "z": 3.941
+          },
+          "length": 14.943,
+          "width": 4.003,
+          "height": 4.768,
+          "boundingRadius": 7.136
+        },
+        "defaultColors": [
+          {
+            "primary": 107,
+            "secondary": 159,
+            "pearl": 160,
+            "wheels": 158,
+            "interior": 160,
+            "dashboard": 160
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_DELIVERY",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_USE_FAT_INTERIOR_LIGHT",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS",
+          "FLAG_HAS_REAR_MOUNTED_TURRET",
+          "FLAG_TURRET_MODS_ON_ROOF",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_HAS_WEAPON_SPIKE_MODS",
+          "FLAG_HAS_NITROUS_MOD",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_HAS_SIDE_SHUNT",
+          "FLAG_HAS_RAMMING_SCOOP_MOD",
+          "FLAG_HAS_RAMMING_BAR_MOD",
+          "FLAG_INCREASE_LOW_SPEED_TORQUE",
+          "FLAG_DISABLE_DEFORMATION"
+        ]
+      },
       "stats": {
         "handlingId": "CERBERUS2",
         "mass": 6500,
@@ -1423,6 +4874,75 @@
         "id": "mpchristmas2018",
         "name": "Arena War",
         "releaseDate": "2018-12-11"
+      },
+      "details": {
+        "manufacturer": "MTL",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 8,
+        "modKits": [
+          "348_cerberus3_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_FLAMETHROWER"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.913,
+            "y": -8.858,
+            "z": -0.826
+          },
+          "max": {
+            "x": 1.913,
+            "y": 6.507,
+            "z": 3.941
+          },
+          "length": 15.365,
+          "width": 3.826,
+          "height": 4.768,
+          "boundingRadius": 7.136
+        },
+        "defaultColors": [
+          {
+            "primary": 135,
+            "secondary": 138,
+            "pearl": 29,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_DELIVERY",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_USE_FAT_INTERIOR_LIGHT",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS",
+          "FLAG_HAS_REAR_MOUNTED_TURRET",
+          "FLAG_TURRET_MODS_ON_ROOF",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_HAS_WEAPON_SPIKE_MODS",
+          "FLAG_HAS_NITROUS_MOD",
+          "FLAG_HAS_JUMP_MOD",
+          "FLAG_HAS_SIDE_SHUNT",
+          "FLAG_HAS_RAMMING_SCOOP_MOD",
+          "FLAG_HAS_RAMMING_BAR_MOD",
+          "FLAG_INCREASE_LOW_SPEED_TORQUE"
+        ]
       },
       "stats": {
         "handlingId": "CERBERUS",

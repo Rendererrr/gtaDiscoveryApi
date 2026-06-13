@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "name": "Boats",
@@ -26,6 +26,62 @@
         "id": "mpheist4",
         "name": "The Cayo Perico Heist",
         "releaseDate": "2020-12-15"
+      },
+      "details": {
+        "manufacturer": "Kraken",
+        "type": "SUBMARINE",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 0,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.579,
+            "y": -3.087,
+            "z": -1.156
+          },
+          "max": {
+            "x": 1.592,
+            "y": 3.089,
+            "z": 1.467
+          },
+          "length": 6.176,
+          "width": 3.17,
+          "height": 2.623,
+          "boundingRadius": 3.633
+        },
+        "defaultColors": [
+          {
+            "primary": 8,
+            "secondary": 28,
+            "pearl": 28,
+            "wheels": 6,
+            "interior": 27,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_GIVE_SCUBA_GEAR_ON_EXIT",
+          "FLAG_PREFER_FRONT_SEAT"
+        ]
       },
       "stats": {
         "handlingId": "AVISA",
@@ -58,6 +114,85 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": "Nagasaki",
+        "type": "BOAT",
+        "seats": 4,
+        "doors": 0,
+        "wheels": 0,
+        "modKits": [],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SEARCHLIGHT"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.489,
+            "y": -3.711,
+            "z": -0.644
+          },
+          "max": {
+            "x": 1.489,
+            "y": 4.102,
+            "z": 2.79
+          },
+          "length": 7.813,
+          "width": 2.977,
+          "height": 3.434,
+          "boundingRadius": 13.054
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 8,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 27,
+            "secondary": 1,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 88,
+            "secondary": 88,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 122,
+            "secondary": 122,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_SPAWN_BOAT_ON_TRAILER",
+          "FLAG_EXTRAS_RARE",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_GIVE_SCUBA_GEAR_ON_EXIT"
+        ]
+      },
       "stats": {
         "handlingId": "DINGHY",
         "mass": 2000,
@@ -88,6 +223,60 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "Nagasaki",
+        "type": "BOAT",
+        "seats": 4,
+        "doors": 0,
+        "wheels": 0,
+        "modKits": [],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SEARCHLIGHT"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.489,
+            "y": -3.711,
+            "z": -0.644
+          },
+          "max": {
+            "x": 1.489,
+            "y": 4.102,
+            "z": 2.79
+          },
+          "length": 7.813,
+          "width": 2.977,
+          "height": 3.434,
+          "boundingRadius": 13.054
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 8,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_RARE",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_GIVE_SCUBA_GEAR_ON_EXIT"
+        ]
       },
       "stats": {
         "handlingId": "DINGHY2",
@@ -120,6 +309,61 @@
         "name": "The Heists Update",
         "releaseDate": "2015-03-10"
       },
+      "details": {
+        "manufacturer": "Nagasaki",
+        "type": "BOAT",
+        "seats": 4,
+        "doors": 0,
+        "wheels": 0,
+        "modKits": [],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SEARCHLIGHT"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.489,
+            "y": -3.711,
+            "z": -0.644
+          },
+          "max": {
+            "x": 1.489,
+            "y": 4.102,
+            "z": 2.79
+          },
+          "length": 7.813,
+          "width": 2.977,
+          "height": 3.434,
+          "boundingRadius": 13.054
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 8,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_SPAWN_BOAT_ON_TRAILER",
+          "FLAG_EXTRAS_RARE",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_GIVE_SCUBA_GEAR_ON_EXIT"
+        ]
+      },
       "stats": {
         "handlingId": "DINGHY",
         "mass": 2000,
@@ -150,6 +394,61 @@
         "id": "mpapartment",
         "name": "Executives and Other Criminals",
         "releaseDate": "2015-12-15"
+      },
+      "details": {
+        "manufacturer": "Nagasaki",
+        "type": "BOAT",
+        "seats": 4,
+        "doors": 0,
+        "wheels": 0,
+        "modKits": [],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SEARCHLIGHT"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.489,
+            "y": -3.711,
+            "z": -0.644
+          },
+          "max": {
+            "x": 1.489,
+            "y": 4.102,
+            "z": 2.79
+          },
+          "length": 7.813,
+          "width": 2.977,
+          "height": 3.434,
+          "boundingRadius": 13.054
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 8,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_SPAWN_BOAT_ON_TRAILER",
+          "FLAG_EXTRAS_RARE",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_GIVE_SCUBA_GEAR_ON_EXIT"
+        ]
       },
       "stats": {
         "handlingId": "DINGHY",
@@ -182,6 +481,64 @@
         "name": "The Cayo Perico Heist",
         "releaseDate": "2020-12-15"
       },
+      "details": {
+        "manufacturer": "Nagasaki",
+        "type": "BOAT",
+        "seats": 5,
+        "doors": 0,
+        "wheels": 0,
+        "modKits": [],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_TURRET_DINGHY5_50CAL"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.489,
+            "y": -3.972,
+            "z": -0.644
+          },
+          "max": {
+            "x": 1.489,
+            "y": 4.102,
+            "z": 2.79
+          },
+          "length": 8.074,
+          "width": 2.977,
+          "height": 3.434,
+          "boundingRadius": 14.529
+        },
+        "defaultColors": [
+          {
+            "primary": 152,
+            "secondary": 46,
+            "pearl": 52,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_LAW_ENFORCEMENT",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_HAS_TURRET_SEAT_ON_VEHICLE",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_CHECK_IF_DRIVER_SEAT_IS_CLOSER_THAN_TURRETS_WITH_ON_BOARD_ENTER"
+        ]
+      },
       "stats": {
         "handlingId": "DINGHY5",
         "mass": 2100,
@@ -212,6 +569,145 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "Shitzu",
+        "type": "BOAT",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 0,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.288,
+            "y": -5.371,
+            "z": -1.026
+          },
+          "max": {
+            "x": 1.287,
+            "y": 5.458,
+            "z": 2.175
+          },
+          "length": 10.828,
+          "width": 2.575,
+          "height": 3.201,
+          "boundingRadius": 5.629
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 4,
+            "pearl": 7,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 4,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 111,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 30,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 38,
+            "secondary": 29,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 53,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 73,
+            "secondary": 111,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 95,
+            "secondary": 111,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 89,
+            "secondary": 2,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 70,
+            "secondary": 111,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 102,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 2,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
       },
       "stats": {
         "handlingId": "JETMAX",
@@ -244,6 +740,70 @@
         "name": "The Cayo Perico Heist",
         "releaseDate": "2020-12-15"
       },
+      "details": {
+        "manufacturer": "RUNE",
+        "type": "SUBMARINE",
+        "seats": 1,
+        "doors": 3,
+        "wheels": 0,
+        "modKits": [
+          "445_kosatka_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_KOSATKA_TORPEDO"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -10.337,
+            "y": -84.656,
+            "z": -7.945
+          },
+          "max": {
+            "x": 10.337,
+            "y": 52.386,
+            "z": 13.115
+          },
+          "length": 137.042,
+          "width": 20.673,
+          "height": 21.061,
+          "boundingRadius": 70.233
+        },
+        "defaultColors": [
+          {
+            "primary": 21,
+            "secondary": 46,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 158,
+            "dashboard": 24
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_GIVE_SCUBA_GEAR_ON_EXIT",
+          "FLAG_FORCE_BONNET_CAMERA_INSTEAD_OF_POV",
+          "FLAG_LATCH_ALL_JOINTS",
+          "FLAG_CANNOT_BE_PICKUP_BY_CARGOBOB",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_REJECT_ENTRY_TO_VEHICLE_WHEN_STOOD_ON",
+          "FLAG_ALLOW_OBJECT_LOW_LOD_COLLISION",
+          "FLAG_USE_LENGTH_OF_VEHICLE_BOUNDS_FOR_PLAYER_LOCKON_POS"
+        ]
+      },
       "stats": {
         "handlingId": "KOSATKA",
         "mass": 20000,
@@ -274,6 +834,83 @@
         "id": "mpheist4",
         "name": "The Cayo Perico Heist",
         "releaseDate": "2020-12-15"
+      },
+      "details": {
+        "manufacturer": "Shitzu",
+        "type": "BOAT",
+        "seats": 4,
+        "doors": 0,
+        "wheels": 0,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.721,
+            "y": -6.296,
+            "z": -1.171
+          },
+          "max": {
+            "x": 1.721,
+            "y": 7.084,
+            "z": 2.537
+          },
+          "length": 13.38,
+          "width": 3.442,
+          "height": 3.708,
+          "boundingRadius": 7.109
+        },
+        "defaultColors": [
+          {
+            "primary": 134,
+            "secondary": 1,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 99,
+            "dashboard": 0
+          },
+          {
+            "primary": 66,
+            "secondary": 22,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 0
+          },
+          {
+            "primary": 38,
+            "secondary": 1,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 121,
+            "dashboard": 0
+          },
+          {
+            "primary": 29,
+            "secondary": 1,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 112,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
       },
       "stats": {
         "handlingId": "LONGFIN",
@@ -306,6 +943,75 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": "Dinka",
+        "type": "BOAT",
+        "seats": 4,
+        "doors": 0,
+        "wheels": 0,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -2.22,
+            "y": -8.89,
+            "z": -2.05
+          },
+          "max": {
+            "x": 2.22,
+            "y": 7.522,
+            "z": 19.77
+          },
+          "length": 16.411,
+          "width": 4.44,
+          "height": 21.819,
+          "boundingRadius": 10.43
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 68,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 32,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 52,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_TALL_SHIP",
+          "FLAG_EXTRAS_RARE",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_RICH_CAR",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
+      },
       "stats": {
         "handlingId": "MARQUIS",
         "mass": 12200,
@@ -336,6 +1042,67 @@
         "id": "mpheist4",
         "name": "The Cayo Perico Heist",
         "releaseDate": "2020-12-15"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "BOAT",
+        "seats": 4,
+        "doors": 0,
+        "wheels": 0,
+        "modKits": [],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_TURRET_PATROLBOAT_50CAL",
+          "VEHICLE_WEAPON_PATROLBOAT_DUALMG"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.789,
+            "y": -5.061,
+            "z": -1.053
+          },
+          "max": {
+            "x": 1.789,
+            "y": 5.459,
+            "z": 2.954
+          },
+          "length": 10.52,
+          "width": 3.579,
+          "height": 4.007,
+          "boundingRadius": 0.346
+        },
+        "defaultColors": [
+          {
+            "primary": 152,
+            "secondary": 46,
+            "pearl": 52,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_LAW_ENFORCEMENT",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_HAS_TURRET_SEAT_ON_VEHICLE",
+          "FLAG_PREFER_ENTER_TURRET_AFTER_DRIVER",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_USE_TURRET_RELATIVE_AIM_CALCULATION",
+          "FLAG_DISABLE_DEFORMATION",
+          "FLAG_CHECK_IF_DRIVER_SEAT_IS_CLOSER_THAN_TURRETS_WITH_ON_BOARD_ENTER"
+        ]
       },
       "stats": {
         "handlingId": "PATROLBOAT",
@@ -368,6 +1135,60 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "BOAT",
+        "seats": 4,
+        "doors": 0,
+        "wheels": 0,
+        "modKits": [],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_RADAR"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.652,
+            "y": -5.154,
+            "z": -1.246
+          },
+          "max": {
+            "x": 1.652,
+            "y": 5.458,
+            "z": 2.356
+          },
+          "length": 10.611,
+          "width": 3.303,
+          "height": 3.602,
+          "boundingRadius": 5.943
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_LAW_ENFORCEMENT",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
+      },
       "stats": {
         "handlingId": "predator",
         "mass": 2500,
@@ -398,6 +1219,112 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "Speedophile",
+        "type": "BOAT",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 0,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.62,
+            "y": -1.742,
+            "z": -0.178
+          },
+          "max": {
+            "x": 0.62,
+            "y": 1.757,
+            "z": 1.665
+          },
+          "length": 3.499,
+          "width": 1.24,
+          "height": 1.843,
+          "boundingRadius": 1.942
+        },
+        "defaultColors": [
+          {
+            "primary": 88,
+            "secondary": 28,
+            "pearl": 89,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 1,
+            "secondary": 73,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 29,
+            "secondary": 0,
+            "pearl": 28,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 67,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 92,
+            "secondary": 0,
+            "pearl": 89,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 13,
+            "secondary": 0,
+            "pearl": 62,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_RARE",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_IS_JETSKI",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
       },
       "stats": {
         "handlingId": "SEASHARK",
@@ -430,6 +1357,56 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": "Speedophile",
+        "type": "BOAT",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 0,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.62,
+            "y": -1.742,
+            "z": -0.196
+          },
+          "max": {
+            "x": 0.62,
+            "y": 1.757,
+            "z": 1.665
+          },
+          "length": 3.499,
+          "width": 1.24,
+          "height": 1.862,
+          "boundingRadius": 1.942
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 132,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_RARE",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_IS_JETSKI",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
+      },
       "stats": {
         "handlingId": "SEASHARK",
         "mass": 400,
@@ -460,6 +1437,56 @@
         "id": "mpapartment",
         "name": "Executives and Other Criminals",
         "releaseDate": "2015-12-15"
+      },
+      "details": {
+        "manufacturer": "Speedophile",
+        "type": "BOAT",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 0,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.62,
+            "y": -1.742,
+            "z": -0.178
+          },
+          "max": {
+            "x": 0.62,
+            "y": 1.757,
+            "z": 1.665
+          },
+          "length": 3.499,
+          "width": 1.24,
+          "height": 1.843,
+          "boundingRadius": 1.942
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 132,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_RARE",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_IS_JETSKI",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
       },
       "stats": {
         "handlingId": "SEASHARK",
@@ -492,6 +1519,145 @@
         "name": "Beach Bum",
         "releaseDate": "2013-11-19"
       },
+      "details": {
+        "manufacturer": "Pegassi",
+        "type": "BOAT",
+        "seats": 4,
+        "doors": 0,
+        "wheels": 0,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.338,
+            "y": -5.32,
+            "z": -0.864
+          },
+          "max": {
+            "x": 1.362,
+            "y": 5.575,
+            "z": 1.319
+          },
+          "length": 10.894,
+          "width": 2.7,
+          "height": 2.183,
+          "boundingRadius": 5.649
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 4,
+            "pearl": 7,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 4,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 111,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 30,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 38,
+            "secondary": 29,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 53,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 73,
+            "secondary": 111,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 95,
+            "secondary": 111,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 89,
+            "secondary": 2,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 70,
+            "secondary": 111,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 102,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 2,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
+      },
       "stats": {
         "handlingId": "speeder",
         "mass": 2400,
@@ -522,6 +1688,57 @@
         "id": "mpapartment",
         "name": "Executives and Other Criminals",
         "releaseDate": "2015-12-15"
+      },
+      "details": {
+        "manufacturer": "Pegassi",
+        "type": "BOAT",
+        "seats": 4,
+        "doors": 0,
+        "wheels": 0,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.338,
+            "y": -5.32,
+            "z": -0.864
+          },
+          "max": {
+            "x": 1.362,
+            "y": 5.575,
+            "z": 1.319
+          },
+          "length": 10.894,
+          "width": 2.7,
+          "height": 2.183,
+          "boundingRadius": 5.649
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 12,
+            "pearl": 7,
+            "wheels": 28,
+            "interior": 88,
+            "dashboard": 55
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
       },
       "stats": {
         "handlingId": "speeder",
@@ -554,6 +1771,132 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": "Shitzu",
+        "type": "BOAT",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 0,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.32,
+            "y": -4.416,
+            "z": -1.185
+          },
+          "max": {
+            "x": 1.32,
+            "y": 4.454,
+            "z": 1.723
+          },
+          "length": 8.869,
+          "width": 2.639,
+          "height": 2.907,
+          "boundingRadius": 5.012
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 32,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 68,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 65,
+            "secondary": 72,
+            "pearl": 112,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 88,
+            "pearl": 112,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 38,
+            "pearl": 112,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 88,
+            "secondary": 27,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 6,
+            "secondary": 6,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 107,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_SPAWN_BOAT_ON_TRAILER",
+          "FLAG_EXTRAS_RARE",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_RICH_CAR",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
+      },
       "stats": {
         "handlingId": "SQUALO",
         "mass": 3000,
@@ -584,6 +1927,59 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "SUBMARINE",
+        "seats": 1,
+        "doors": 1,
+        "wheels": 0,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -2.062,
+            "y": -7.364,
+            "z": -1.999
+          },
+          "max": {
+            "x": 2.062,
+            "y": 1.887,
+            "z": 1.871
+          },
+          "length": 9.251,
+          "width": 4.123,
+          "height": 3.869,
+          "boundingRadius": 5.311
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 0,
+            "pearl": 122,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_GIVE_SCUBA_GEAR_ON_EXIT"
+        ]
       },
       "stats": {
         "handlingId": "SUBMERSIBLE",
@@ -616,6 +2012,59 @@
         "name": "Story Mode (Next-Gen)",
         "releaseDate": "2014-11-18"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "SUBMARINE",
+        "seats": 1,
+        "doors": 1,
+        "wheels": 0,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -2.713,
+            "y": -3.295,
+            "z": -2.478
+          },
+          "max": {
+            "x": 2.713,
+            "y": 2.753,
+            "z": 1.441
+          },
+          "length": 6.048,
+          "width": 5.426,
+          "height": 3.919,
+          "boundingRadius": 4.362
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 0,
+            "pearl": 122,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_GIVE_SCUBA_GEAR_ON_EXIT"
+        ]
+      },
       "stats": {
         "handlingId": "SUBMERSIBLE2",
         "mass": 2800,
@@ -646,6 +2095,106 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "Shitzu",
+        "type": "BOAT",
+        "seats": 4,
+        "doors": 0,
+        "wheels": 0,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.156,
+            "y": -4.102,
+            "z": -0.877
+          },
+          "max": {
+            "x": 1.154,
+            "y": 3.797,
+            "z": 2.59
+          },
+          "length": 7.899,
+          "width": 2.311,
+          "height": 3.467,
+          "boundingRadius": 4.455
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 28,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 65,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 107,
+            "secondary": 105,
+            "pearl": 112,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 93,
+            "pearl": 112,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 112,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 37,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 54,
+            "pearl": 112,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
       },
       "stats": {
         "handlingId": "SUNTRAP",
@@ -678,6 +2227,63 @@
         "name": "Ill-Gotten Gains Part 2",
         "releaseDate": "2015-07-08"
       },
+      "details": {
+        "manufacturer": "Lampadati",
+        "type": "BOAT",
+        "seats": 4,
+        "doors": 0,
+        "wheels": 0,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.673,
+            "y": -5.197,
+            "z": -1.388
+          },
+          "max": {
+            "x": 1.673,
+            "y": 4.917,
+            "z": 1.52
+          },
+          "length": 10.114,
+          "width": 3.346,
+          "height": 2.908,
+          "boundingRadius": 5.554
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_SPAWN_BOAT_ON_TRAILER",
+          "FLAG_EXTRAS_RARE",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_RICH_CAR",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_HAS_REAR_SEAT_ACTIVITIES"
+        ]
+      },
       "stats": {
         "handlingId": "TORO",
         "mass": 1100,
@@ -708,6 +2314,63 @@
         "id": "mpapartment",
         "name": "Executives and Other Criminals",
         "releaseDate": "2015-12-15"
+      },
+      "details": {
+        "manufacturer": "Lampadati",
+        "type": "BOAT",
+        "seats": 4,
+        "doors": 0,
+        "wheels": 0,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.673,
+            "y": -5.197,
+            "z": -1.388
+          },
+          "max": {
+            "x": 1.673,
+            "y": 4.917,
+            "z": 1.52
+          },
+          "length": 10.114,
+          "width": 3.346,
+          "height": 2.908,
+          "boundingRadius": 5.554
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_SPAWN_BOAT_ON_TRAILER",
+          "FLAG_EXTRAS_RARE",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_RICH_CAR",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_HAS_REAR_SEAT_ACTIVITIES"
+        ]
       },
       "stats": {
         "handlingId": "TORO",
@@ -740,6 +2403,115 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": "Shitzu",
+        "type": "BOAT",
+        "seats": 4,
+        "doors": 0,
+        "wheels": 0,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.275,
+            "y": -3.781,
+            "z": -1.167
+          },
+          "max": {
+            "x": 1.275,
+            "y": 4.25,
+            "z": 2.705
+          },
+          "length": 8.031,
+          "width": 2.551,
+          "height": 3.872,
+          "boundingRadius": 4.741
+        },
+        "defaultColors": [
+          {
+            "primary": 121,
+            "secondary": 11,
+            "pearl": 7,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 20,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 46,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 46,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 113,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 87,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 98,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 58,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_SPAWN_BOAT_ON_TRAILER",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
+      },
       "stats": {
         "handlingId": "TROPIC",
         "mass": 2000,
@@ -771,6 +2543,115 @@
         "name": "Executives and Other Criminals",
         "releaseDate": "2015-12-15"
       },
+      "details": {
+        "manufacturer": "Shitzu",
+        "type": "BOAT",
+        "seats": 4,
+        "doors": 0,
+        "wheels": 0,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.275,
+            "y": -3.781,
+            "z": -1.167
+          },
+          "max": {
+            "x": 1.275,
+            "y": 4.25,
+            "z": 2.705
+          },
+          "length": 8.031,
+          "width": 2.551,
+          "height": 3.872,
+          "boundingRadius": 4.741
+        },
+        "defaultColors": [
+          {
+            "primary": 121,
+            "secondary": 11,
+            "pearl": 7,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 20,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 46,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 46,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 113,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 87,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 98,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 58,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_SPAWN_BOAT_ON_TRAILER",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
+      },
       "stats": {
         "handlingId": "TROPIC",
         "mass": 2000,
@@ -801,6 +2682,59 @@
         "id": "mpexecutive",
         "name": "Further Adventures in Finance and Felony",
         "releaseDate": "2016-06-07"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "BOAT",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 0,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -5.193,
+            "y": -17.035,
+            "z": -3.9
+          },
+          "max": {
+            "x": 5.193,
+            "y": 14.444,
+            "z": 10.992
+          },
+          "length": 31.479,
+          "width": 10.386,
+          "height": 14.892,
+          "boundingRadius": 1.55
+        },
+        "defaultColors": [
+          {
+            "primary": 122,
+            "secondary": 0,
+            "pearl": 122,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_TALL_SHIP",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_CANNOT_TAKE_COVER_WHEN_STOOD_ON",
+          "FLAG_CANNOT_BE_PICKUP_BY_CARGOBOB"
+        ]
       },
       "stats": {
         "handlingId": "TUG",

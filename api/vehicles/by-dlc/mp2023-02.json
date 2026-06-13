@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "id": "mp2023_02",
@@ -28,6 +28,91 @@
         "id": "mp2023_02",
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
+      },
+      "details": {
+        "manufacturer": "Karin",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "560_asterope2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.99,
+            "y": -2.808,
+            "z": -0.507
+          },
+          "max": {
+            "x": 0.99,
+            "y": 2.446,
+            "z": 1.131
+          },
+          "length": 5.254,
+          "width": 1.98,
+          "height": 1.638,
+          "boundingRadius": 2.696
+        },
+        "defaultColors": [
+          {
+            "primary": 112,
+            "secondary": 1,
+            "pearl": 7,
+            "wheels": 112,
+            "interior": 70,
+            "dashboard": 156
+          },
+          {
+            "primary": 43,
+            "secondary": 43,
+            "pearl": 35,
+            "wheels": 156,
+            "interior": 154,
+            "dashboard": 156
+          },
+          {
+            "primary": 77,
+            "secondary": 1,
+            "pearl": 7,
+            "wheels": 156,
+            "interior": 154,
+            "dashboard": 156
+          },
+          {
+            "primary": 88,
+            "secondary": 1,
+            "pearl": 7,
+            "wheels": 156,
+            "interior": 154,
+            "dashboard": 156
+          },
+          {
+            "primary": 66,
+            "secondary": 66,
+            "pearl": 137,
+            "wheels": 137,
+            "interior": 66,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
       },
       "stats": {
         "handlingId": "ASTEROPE2",
@@ -60,6 +145,56 @@
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
       },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "548_impaler5_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.044,
+            "y": -3.24,
+            "z": -0.261
+          },
+          "max": {
+            "x": 1.044,
+            "y": 2.597,
+            "z": 1.192
+          },
+          "length": 5.836,
+          "width": 2.088,
+          "height": 1.453,
+          "boundingRadius": 3
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 6,
+            "interior": 8,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
+      },
       "stats": {
         "handlingId": "IMPALER5",
         "mass": 1830,
@@ -90,6 +225,119 @@
         "id": "mp2023_02",
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
+      },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "545_aleutian_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.162,
+            "y": -2.925,
+            "z": -0.658
+          },
+          "max": {
+            "x": 1.162,
+            "y": 2.673,
+            "z": 1.422
+          },
+          "length": 5.598,
+          "width": 2.324,
+          "height": 2.08,
+          "boundingRadius": 3.029
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 73,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 89,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 38,
+            "secondary": 1,
+            "pearl": 89,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 70,
+            "secondary": 1,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR",
+          "FLAG_ALLOWS_RAPPEL",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS",
+          "FLAG_SPOILER_MOD_DOESNT_INCREASE_GRIP"
+        ]
       },
       "stats": {
         "handlingId": "ALEUTIAN",
@@ -122,6 +370,91 @@
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
       },
+      "details": {
+        "manufacturer": "Gallivanter",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "558_baller8_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.056,
+            "y": -2.784,
+            "z": -0.641
+          },
+          "max": {
+            "x": 1.056,
+            "y": 2.409,
+            "z": 1.404
+          },
+          "length": 5.192,
+          "width": 2.112,
+          "height": 2.046,
+          "boundingRadius": 2.878
+        },
+        "defaultColors": [
+          {
+            "primary": 75,
+            "secondary": 75,
+            "pearl": 75,
+            "wheels": 6,
+            "interior": 99,
+            "dashboard": 6
+          },
+          {
+            "primary": 4,
+            "secondary": 4,
+            "pearl": 3,
+            "wheels": 6,
+            "interior": 99,
+            "dashboard": 6
+          },
+          {
+            "primary": 32,
+            "secondary": 32,
+            "pearl": 34,
+            "wheels": 6,
+            "interior": 99,
+            "dashboard": 6
+          },
+          {
+            "primary": 50,
+            "secondary": 50,
+            "pearl": 51,
+            "wheels": 6,
+            "interior": 99,
+            "dashboard": 6
+          },
+          {
+            "primary": 93,
+            "secondary": 93,
+            "pearl": 3,
+            "wheels": 6,
+            "interior": 99,
+            "dashboard": 6
+          }
+        ],
+        "flags": [
+          "FLAG_PARKING_SENSORS",
+          "FLAG_RICH_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS"
+        ]
+      },
       "stats": {
         "handlingId": "BALLER8",
         "mass": 2600,
@@ -152,6 +485,82 @@
         "id": "mp2023_02",
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
+      },
+      "details": {
+        "manufacturer": "Albany",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "546_cavalcade3_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.154,
+            "y": -2.713,
+            "z": -0.607
+          },
+          "max": {
+            "x": 1.154,
+            "y": 2.685,
+            "z": 1.701
+          },
+          "length": 5.399,
+          "width": 2.309,
+          "height": 2.308,
+          "boundingRadius": 3.024
+        },
+        "defaultColors": [
+          {
+            "primary": 36,
+            "secondary": 0,
+            "pearl": 1,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 34,
+            "secondary": 0,
+            "pearl": 1,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 71,
+            "secondary": 0,
+            "pearl": 127,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 31,
+            "secondary": 31,
+            "pearl": 30,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
       },
       "stats": {
         "handlingId": "CAVALCADE3",
@@ -184,6 +593,81 @@
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
       },
+      "details": {
+        "manufacturer": "Bravado",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "557_dorado_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.996,
+            "y": -2.763,
+            "z": -0.598
+          },
+          "max": {
+            "x": 1.097,
+            "y": 2.573,
+            "z": 1.651
+          },
+          "length": 5.337,
+          "width": 2.093,
+          "height": 2.249,
+          "boundingRadius": 2.772
+        },
+        "defaultColors": [
+          {
+            "primary": 36,
+            "secondary": 0,
+            "pearl": 1,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 34,
+            "secondary": 0,
+            "pearl": 1,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 71,
+            "secondary": 0,
+            "pearl": 127,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 31,
+            "secondary": 31,
+            "pearl": 30,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY"
+        ]
+      },
       "stats": {
         "handlingId": "DORADO",
         "mass": 2150,
@@ -214,6 +698,115 @@
         "id": "mp2023_02",
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
+      },
+      "details": {
+        "manufacturer": "Karin",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "561_vivanite_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.155,
+            "y": -2.885,
+            "z": -0.597
+          },
+          "max": {
+            "x": 1.155,
+            "y": 2.657,
+            "z": 1.449
+          },
+          "length": 5.542,
+          "width": 2.31,
+          "height": 2.046,
+          "boundingRadius": 2.971
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 73,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 89,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 38,
+            "secondary": 1,
+            "pearl": 89,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 70,
+            "secondary": 1,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_HAS_REAR_SEAT_ACTIVITIES",
+          "FLAG_IS_ELECTRIC"
+        ]
       },
       "stats": {
         "handlingId": "VIVANITE",
@@ -246,6 +839,92 @@
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
       },
+      "details": {
+        "manufacturer": "Fathom",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "550_driftfr36_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.99,
+            "y": -2.722,
+            "z": -0.548
+          },
+          "max": {
+            "x": 0.99,
+            "y": 2.364,
+            "z": 0.992
+          },
+          "length": 5.086,
+          "width": 1.98,
+          "height": 1.54,
+          "boundingRadius": 2.581
+        },
+        "defaultColors": [
+          {
+            "primary": 112,
+            "secondary": 1,
+            "pearl": 7,
+            "wheels": 112,
+            "interior": 70,
+            "dashboard": 156
+          },
+          {
+            "primary": 43,
+            "secondary": 43,
+            "pearl": 35,
+            "wheels": 156,
+            "interior": 154,
+            "dashboard": 156
+          },
+          {
+            "primary": 77,
+            "secondary": 1,
+            "pearl": 7,
+            "wheels": 156,
+            "interior": 154,
+            "dashboard": 156
+          },
+          {
+            "primary": 88,
+            "secondary": 1,
+            "pearl": 7,
+            "wheels": 156,
+            "interior": 154,
+            "dashboard": 156
+          },
+          {
+            "primary": 66,
+            "secondary": 66,
+            "pearl": 137,
+            "wheels": 137,
+            "interior": 66,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS"
+        ]
+      },
       "stats": {
         "handlingId": "DRIFTFR36",
         "mass": 1510,
@@ -276,6 +955,92 @@
         "id": "mp2023_02",
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
+      },
+      "details": {
+        "manufacturer": "Fathom",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "544_fr36_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.99,
+            "y": -2.722,
+            "z": -0.548
+          },
+          "max": {
+            "x": 0.99,
+            "y": 2.364,
+            "z": 0.992
+          },
+          "length": 5.086,
+          "width": 1.98,
+          "height": 1.54,
+          "boundingRadius": 2.581
+        },
+        "defaultColors": [
+          {
+            "primary": 112,
+            "secondary": 1,
+            "pearl": 7,
+            "wheels": 112,
+            "interior": 70,
+            "dashboard": 156
+          },
+          {
+            "primary": 43,
+            "secondary": 43,
+            "pearl": 35,
+            "wheels": 156,
+            "interior": 154,
+            "dashboard": 156
+          },
+          {
+            "primary": 77,
+            "secondary": 1,
+            "pearl": 7,
+            "wheels": 156,
+            "interior": 154,
+            "dashboard": 156
+          },
+          {
+            "primary": 88,
+            "secondary": 1,
+            "pearl": 7,
+            "wheels": 156,
+            "interior": 154,
+            "dashboard": 156
+          },
+          {
+            "primary": 66,
+            "secondary": 66,
+            "pearl": 137,
+            "wheels": 137,
+            "interior": 66,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS"
+        ]
       },
       "stats": {
         "handlingId": "FR36",
@@ -308,6 +1073,113 @@
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
       },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "543_dominator9_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": true,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.057,
+            "y": -2.467,
+            "z": -0.321
+          },
+          "max": {
+            "x": 1.057,
+            "y": 2.572,
+            "z": 1.126
+          },
+          "length": 5.04,
+          "width": 2.114,
+          "height": 1.447,
+          "boundingRadius": 2.729
+        },
+        "defaultColors": [
+          {
+            "primary": 38,
+            "secondary": 1,
+            "pearl": 89,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 89,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 73,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 70,
+            "secondary": 1,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS"
+        ]
+      },
       "stats": {
         "handlingId": "DOMINATOR9",
         "mass": 1820,
@@ -338,6 +1210,89 @@
         "id": "mp2023_02",
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
+      },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "555_driftyosemite_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.085,
+            "y": -2.597,
+            "z": -0.391
+          },
+          "max": {
+            "x": 1.085,
+            "y": 2.339,
+            "z": 1.133
+          },
+          "length": 4.936,
+          "width": 2.17,
+          "height": 1.524,
+          "boundingRadius": 2.752
+        },
+        "defaultColors": [
+          {
+            "primary": 112,
+            "secondary": 1,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 34,
+            "secondary": 1,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 56,
+            "secondary": 1,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 70,
+            "secondary": 1,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 107,
+            "secondary": 120,
+            "pearl": 129,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_ALL",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_USE_STRICTER_EXIT_COLLISION_TESTS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
       },
       "stats": {
         "handlingId": "DRIFTYOSEMITE",
@@ -370,6 +1325,111 @@
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
       },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "559_impaler6_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.045,
+            "y": -3.017,
+            "z": -0.461
+          },
+          "max": {
+            "x": 1.045,
+            "y": 2.737,
+            "z": 1.256
+          },
+          "length": 5.755,
+          "width": 2.09,
+          "height": 1.716,
+          "boundingRadius": 2.931
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 27,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 1,
+            "dashboard": 134
+          },
+          {
+            "primary": 104,
+            "secondary": 104,
+            "pearl": 73,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 112,
+            "secondary": 112,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 1,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 1,
+            "dashboard": 134
+          },
+          {
+            "primary": 69,
+            "secondary": 69,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 69,
+            "dashboard": 134
+          },
+          {
+            "primary": 3,
+            "secondary": 3,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 1,
+            "dashboard": 134
+          },
+          {
+            "primary": 38,
+            "secondary": 38,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 70,
+            "secondary": 70,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS"
+        ]
+      },
       "stats": {
         "handlingId": "IMPALER6",
         "mass": 1630,
@@ -400,6 +1460,113 @@
         "id": "mp2023_02",
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
+      },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "547_vigero3_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": true,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.098,
+            "y": -2.718,
+            "z": -0.41
+          },
+          "max": {
+            "x": 1.098,
+            "y": 2.47,
+            "z": 1.056
+          },
+          "length": 5.188,
+          "width": 2.197,
+          "height": 1.466,
+          "boundingRadius": 2.715
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 73,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 89,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 38,
+            "secondary": 1,
+            "pearl": 89,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 70,
+            "secondary": 1,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS"
+        ]
       },
       "stats": {
         "handlingId": "VIGERO3",
@@ -432,6 +1599,83 @@
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
       },
+      "details": {
+        "manufacturer": "Annis",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "549_drifteuros_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.945,
+            "y": -2.138,
+            "z": -0.339
+          },
+          "max": {
+            "x": 0.945,
+            "y": 2.192,
+            "z": 1.011
+          },
+          "length": 4.33,
+          "width": 1.89,
+          "height": 1.35,
+          "boundingRadius": 2.412
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 27,
+            "pearl": 2,
+            "wheels": 3,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 73,
+            "secondary": 65,
+            "pearl": 60,
+            "wheels": 0,
+            "interior": 7,
+            "dashboard": 156
+          },
+          {
+            "primary": 2,
+            "secondary": 6,
+            "pearl": 6,
+            "wheels": 118,
+            "interior": 32,
+            "dashboard": 156
+          },
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 97,
+            "interior": 2,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
+      },
       "stats": {
         "handlingId": "DRIFTEUROS",
         "mass": 1415,
@@ -462,6 +1706,177 @@
         "id": "mp2023_02",
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
+      },
+      "details": {
+        "manufacturer": "Karin",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "551_driftfuto_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.971,
+            "y": -2.697,
+            "z": -0.486
+          },
+          "max": {
+            "x": 0.971,
+            "y": 2.212,
+            "z": 1.315
+          },
+          "length": 4.908,
+          "width": 1.943,
+          "height": 1.801,
+          "boundingRadius": 2.376
+        },
+        "defaultColors": [
+          {
+            "primary": 33,
+            "secondary": 0,
+            "pearl": 26,
+            "wheels": 106,
+            "interior": 134,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 26,
+            "wheels": 156,
+            "interior": 134,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 3,
+            "pearl": 6,
+            "wheels": 156,
+            "interior": 134,
+            "dashboard": 134
+          },
+          {
+            "primary": 3,
+            "secondary": 3,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 134,
+            "dashboard": 134
+          },
+          {
+            "primary": 4,
+            "secondary": 4,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 134,
+            "dashboard": 134
+          },
+          {
+            "primary": 6,
+            "secondary": 6,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 134,
+            "dashboard": 134
+          },
+          {
+            "primary": 72,
+            "secondary": 72,
+            "pearl": 73,
+            "wheels": 156,
+            "interior": 134,
+            "dashboard": 134
+          },
+          {
+            "primary": 1,
+            "secondary": 1,
+            "pearl": 65,
+            "wheels": 106,
+            "interior": 134,
+            "dashboard": 134
+          },
+          {
+            "primary": 111,
+            "secondary": 14,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 134,
+            "dashboard": 134
+          },
+          {
+            "primary": 93,
+            "secondary": 95,
+            "pearl": 98,
+            "wheels": 156,
+            "interior": 134,
+            "dashboard": 134
+          },
+          {
+            "primary": 7,
+            "secondary": 1,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 134,
+            "dashboard": 134
+          },
+          {
+            "primary": 10,
+            "secondary": 10,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 134,
+            "dashboard": 134
+          },
+          {
+            "primary": 14,
+            "secondary": 12,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 134,
+            "dashboard": 134
+          },
+          {
+            "primary": 50,
+            "secondary": 1,
+            "pearl": 51,
+            "wheels": 156,
+            "interior": 134,
+            "dashboard": 134
+          },
+          {
+            "primary": 105,
+            "secondary": 105,
+            "pearl": 106,
+            "wheels": 156,
+            "interior": 134,
+            "dashboard": 134
+          },
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 0,
+            "wheels": 106,
+            "interior": 134,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_POOR_CAR",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
       },
       "stats": {
         "handlingId": "DRIFTFUTO",
@@ -494,6 +1909,75 @@
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
       },
+      "details": {
+        "manufacturer": "Dinka",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "552_driftjester_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.969,
+            "y": -2.454,
+            "z": -0.35
+          },
+          "max": {
+            "x": 0.969,
+            "y": 2.286,
+            "z": 0.983
+          },
+          "length": 4.74,
+          "width": 1.939,
+          "height": 1.333,
+          "boundingRadius": 2.457
+        },
+        "defaultColors": [
+          {
+            "primary": 35,
+            "secondary": 3,
+            "pearl": 88,
+            "wheels": 0,
+            "interior": 27,
+            "dashboard": 156
+          },
+          {
+            "primary": 20,
+            "secondary": 36,
+            "pearl": 5,
+            "wheels": 134,
+            "interior": 27,
+            "dashboard": 156
+          },
+          {
+            "primary": 112,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 88,
+            "interior": 27,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
+      },
       "stats": {
         "handlingId": "DRIFTJESTER",
         "mass": 1525,
@@ -524,6 +2008,66 @@
         "id": "mp2023_02",
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
+      },
+      "details": {
+        "manufacturer": "Annis",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "553_driftremus_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.893,
+            "y": -2.956,
+            "z": -0.298
+          },
+          "max": {
+            "x": 0.893,
+            "y": 2.25,
+            "z": 1.482
+          },
+          "length": 5.207,
+          "width": 1.787,
+          "height": 1.78,
+          "boundingRadius": 2.491
+        },
+        "defaultColors": [
+          {
+            "primary": 30,
+            "secondary": 30,
+            "pearl": 30,
+            "wheels": 6,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 112,
+            "secondary": 5,
+            "pearl": 0,
+            "wheels": 6,
+            "interior": 8,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
       },
       "stats": {
         "handlingId": "DRIFTREMUS",
@@ -556,6 +2100,58 @@
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
       },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "554_drifttampa_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.04,
+            "y": -2.687,
+            "z": -0.342
+          },
+          "max": {
+            "x": 1.04,
+            "y": 2.448,
+            "z": 0.872
+          },
+          "length": 5.135,
+          "width": 2.08,
+          "height": 1.214,
+          "boundingRadius": 2.811
+        },
+        "defaultColors": [
+          {
+            "primary": 13,
+            "secondary": 13,
+            "pearl": 111,
+            "wheels": 92,
+            "interior": 111,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
+      },
       "stats": {
         "handlingId": "DRIFTTAMPA",
         "mass": 1097,
@@ -586,6 +2182,92 @@
         "id": "mp2023_02",
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
+      },
+      "details": {
+        "manufacturer": "Annis",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "556_driftzr350_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.99,
+            "y": -2.446,
+            "z": -0.613
+          },
+          "max": {
+            "x": 0.99,
+            "y": 2.065,
+            "z": 0.805
+          },
+          "length": 4.512,
+          "width": 1.98,
+          "height": 1.417,
+          "boundingRadius": 2.389
+        },
+        "defaultColors": [
+          {
+            "primary": 36,
+            "secondary": 3,
+            "pearl": 88,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 71,
+            "secondary": 0,
+            "pearl": 127,
+            "wheels": 3,
+            "interior": 7,
+            "dashboard": 156
+          },
+          {
+            "primary": 2,
+            "secondary": 6,
+            "pearl": 6,
+            "wheels": 118,
+            "interior": 32,
+            "dashboard": 156
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 90,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 9,
+            "secondary": 27,
+            "pearl": 62,
+            "wheels": 6,
+            "interior": 8,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS"
+        ]
       },
       "stats": {
         "handlingId": "DRIFTZR350",
@@ -618,6 +2300,74 @@
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
       },
+      "details": {
+        "manufacturer": "Grotti",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "542_turismo3_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.037,
+            "y": -2.181,
+            "z": -0.223
+          },
+          "max": {
+            "x": 1.037,
+            "y": 2.538,
+            "z": 1.041
+          },
+          "length": 4.719,
+          "width": 2.075,
+          "height": 1.265,
+          "boundingRadius": 2.605
+        },
+        "defaultColors": [
+          {
+            "primary": 9,
+            "secondary": 91,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 9,
+            "dashboard": 156
+          },
+          {
+            "primary": 43,
+            "secondary": 43,
+            "pearl": 35,
+            "wheels": 0,
+            "interior": 43,
+            "dashboard": 156
+          },
+          {
+            "primary": 72,
+            "secondary": 122,
+            "pearl": 8,
+            "wheels": 0,
+            "interior": 72,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN"
+        ]
+      },
       "stats": {
         "handlingId": "TURISMO3",
         "mass": 1435,
@@ -648,6 +2398,58 @@
         "id": "mp2023_02",
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
+      },
+      "details": {
+        "manufacturer": "Canis",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "562_terminus_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.971,
+            "y": -2.57,
+            "z": -0.697
+          },
+          "max": {
+            "x": 0.971,
+            "y": 2.32,
+            "z": 1.188
+          },
+          "length": 4.89,
+          "width": 1.943,
+          "height": 1.885,
+          "boundingRadius": 2.716
+        },
+        "defaultColors": [
+          {
+            "primary": 112,
+            "secondary": 112,
+            "pearl": 112,
+            "wheels": 6,
+            "interior": 8,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_SPOILER_MOD_DOESNT_INCREASE_GRIP"
+        ]
       },
       "stats": {
         "handlingId": "TERMINUS",
@@ -680,6 +2482,65 @@
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAILER",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.489,
+            "y": -4.664,
+            "z": -1.139
+          },
+          "max": {
+            "x": 1.489,
+            "y": 3.383,
+            "z": 3.098
+          },
+          "length": 8.047,
+          "width": 2.977,
+          "height": 4.238,
+          "boundingRadius": 4.94
+        },
+        "defaultColors": [
+          {
+            "primary": 88,
+            "secondary": 7,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 6,
+            "dashboard": 0
+          },
+          {
+            "primary": 44,
+            "secondary": 42,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 6,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO"
+        ]
+      },
       "stats": {
         "handlingId": "BOATTRAILER",
         "mass": 1200,
@@ -710,6 +2571,65 @@
         "id": "mp2023_02",
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAILER",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.274,
+            "y": -3.665,
+            "z": -1.139
+          },
+          "max": {
+            "x": 1.274,
+            "y": 3.383,
+            "z": 1.68
+          },
+          "length": 7.047,
+          "width": 2.548,
+          "height": 2.819,
+          "boundingRadius": 4.098
+        },
+        "defaultColors": [
+          {
+            "primary": 88,
+            "secondary": 7,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 6,
+            "dashboard": 0
+          },
+          {
+            "primary": 44,
+            "secondary": 42,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 6,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO"
+        ]
       },
       "stats": {
         "handlingId": "BOATTRAILER",
@@ -742,6 +2662,67 @@
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 6,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": true,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.488,
+            "y": -4.333,
+            "z": -1.005
+          },
+          "max": {
+            "x": 1.488,
+            "y": 3.547,
+            "z": 2.162
+          },
+          "length": 7.88,
+          "width": 2.977,
+          "height": 3.167,
+          "boundingRadius": 4.443
+        },
+        "defaultColors": [
+          {
+            "primary": 121,
+            "secondary": 111,
+            "pearl": 122,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 47,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_USE_FAT_INTERIOR_LIGHT",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_USE_STRICTER_EXIT_COLLISION_TESTS"
+        ]
+      },
       "stats": {
         "handlingId": "TOWTRUCK3",
         "mass": 4950,
@@ -772,6 +2753,67 @@
         "id": "mp2023_02",
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 6,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": true,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.488,
+            "y": -4.333,
+            "z": -1.005
+          },
+          "max": {
+            "x": 1.488,
+            "y": 3.547,
+            "z": 2.162
+          },
+          "length": 7.88,
+          "width": 2.977,
+          "height": 3.167,
+          "boundingRadius": 4.443
+        },
+        "defaultColors": [
+          {
+            "primary": 121,
+            "secondary": 111,
+            "pearl": 122,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 47,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_USE_FAT_INTERIOR_LIGHT",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_USE_STRICTER_EXIT_COLLISION_TESTS"
+        ]
       },
       "stats": {
         "handlingId": "TOWTRUCK3",
@@ -804,6 +2846,56 @@
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAILER",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.477,
+            "y": -6.305,
+            "z": -2.846
+          },
+          "max": {
+            "x": 1.477,
+            "y": 6.423,
+            "z": 1.546
+          },
+          "length": 12.728,
+          "width": 2.953,
+          "height": 4.392,
+          "boundingRadius": 6.844
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 160,
+            "pearl": 27,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
+      },
       "stats": {
         "handlingId": "TRAILER",
         "mass": 3500,
@@ -834,6 +2926,56 @@
         "id": "mp2023_02",
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAILER",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.454,
+            "y": -6.305,
+            "z": -2.846
+          },
+          "max": {
+            "x": 1.454,
+            "y": 6.017,
+            "z": 1.533
+          },
+          "length": 12.322,
+          "width": 2.909,
+          "height": 4.379,
+          "boundingRadius": 6.67
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 111,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
       },
       "stats": {
         "handlingId": "TRAILER",
@@ -866,6 +3008,61 @@
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
       },
+      "details": {
+        "manufacturer": "Brute",
+        "type": "CAR",
+        "seats": 6,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": true,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.142,
+            "y": -3.846,
+            "z": -0.915
+          },
+          "max": {
+            "x": 1.142,
+            "y": 2.609,
+            "z": 1.983
+          },
+          "length": 6.454,
+          "width": 2.284,
+          "height": 2.898,
+          "boundingRadius": 3.771
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_DELIVERY",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_PEDS_CAN_STAND_ON_TOP"
+        ]
+      },
       "stats": {
         "handlingId": "BOXVILLE",
         "mass": 5500,
@@ -896,6 +3093,60 @@
         "id": "mp2023_02",
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
+      },
+      "details": {
+        "manufacturer": "Bravado",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "392_polgauntlet_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": true,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.015,
+            "y": -3.072,
+            "z": -0.394
+          },
+          "max": {
+            "x": 1.015,
+            "y": 2.57,
+            "z": 1.229
+          },
+          "length": 5.641,
+          "width": 2.029,
+          "height": 1.624,
+          "boundingRadius": 2.819
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 111,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_LAW_ENFORCEMENT",
+          "FLAG_EMERGENCY_SERVICE",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_HAS_SUPERCHARGER"
+        ]
       },
       "stats": {
         "handlingId": "POLGAUNTLET",
@@ -928,6 +3179,59 @@
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
       },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "396_police5_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": true,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.005,
+            "y": -2.745,
+            "z": -0.617
+          },
+          "max": {
+            "x": 1.005,
+            "y": 2.813,
+            "z": 1.043
+          },
+          "length": 5.558,
+          "width": 2.011,
+          "height": 1.661,
+          "boundingRadius": 2.99
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 111,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 2,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_LAW_ENFORCEMENT",
+          "FLAG_EMERGENCY_SERVICE",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_REPORT_CRIME_IF_STANDING_ON"
+        ]
+      },
       "stats": {
         "handlingId": "police",
         "mass": 1400,
@@ -958,6 +3262,115 @@
         "id": "mp2023_02",
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
+      },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 6,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.515,
+            "y": -5.342,
+            "z": -1
+          },
+          "max": {
+            "x": 1.515,
+            "y": 4.211,
+            "z": 2.299
+          },
+          "length": 9.553,
+          "width": 3.03,
+          "height": 3.299,
+          "boundingRadius": 5.254
+        },
+        "defaultColors": [
+          {
+            "primary": 122,
+            "secondary": 2,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 1,
+            "pearl": 114,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 18,
+            "secondary": 122,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 77,
+            "secondary": 122,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 45,
+            "secondary": 122,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 122,
+            "secondary": 122,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 122,
+            "secondary": 122,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 122,
+            "secondary": 122,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVOID_TURNS",
+          "FLAG_DELIVERY",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_INTERIOR_BLOCKED_BY_BOOT"
+        ]
       },
       "stats": {
         "handlingId": "benson",
@@ -990,6 +3403,59 @@
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
       },
+      "details": {
+        "manufacturer": "JoBuilt",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 6,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.537,
+            "y": -4.573,
+            "z": -1.129
+          },
+          "max": {
+            "x": 1.537,
+            "y": 4.733,
+            "z": 3.302
+          },
+          "length": 9.306,
+          "width": 3.073,
+          "height": 4.431,
+          "boundingRadius": 5.348
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 160,
+            "pearl": 27,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_BIG",
+          "FLAG_CAN_HONK_WHEN_FLEEING",
+          "FLAG_AVOID_TURNS",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_IS_BULKY",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_ATTACH_TRAILER_ON_HIGHWAY",
+          "FLAG_USE_STRICTER_EXIT_COLLISION_TESTS"
+        ]
+      },
       "stats": {
         "handlingId": "PHANTOM",
         "mass": 12000,
@@ -1020,6 +3486,58 @@
         "id": "mp2023_02",
         "name": "The Chop Shop",
         "releaseDate": "2023-12-12"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAIN",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 8,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.81,
+            "y": -8.578,
+            "z": -1.518
+          },
+          "max": {
+            "x": 1.886,
+            "y": 8.845,
+            "z": 3.333
+          },
+          "length": 17.424,
+          "width": 3.697,
+          "height": 4.851,
+          "boundingRadius": 9.568
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 126,
+            "pearl": 2,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_FORCE_ENABLE_CHASSIS_COLLISION",
+          "FLAG_NO_BOOT",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_CAN_NAVIGATE_TO_ON_VEHICLE_ENTRY"
+        ]
       },
       "stats": {
         "handlingId": "FREIGHT",

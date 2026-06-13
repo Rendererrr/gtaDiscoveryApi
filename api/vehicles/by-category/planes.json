@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "name": "Planes",
@@ -26,6 +26,94 @@
         "id": "mpheist4",
         "name": "The Cayo Perico Heist",
         "releaseDate": "2020-12-15"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "PLANE",
+        "seats": 10,
+        "doors": 3,
+        "wheels": 5,
+        "modKits": [
+          "452_alkonost_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -28.49,
+            "y": -33.273,
+            "z": -2.736
+          },
+          "max": {
+            "x": 28.49,
+            "y": 22.039,
+            "z": 8.09
+          },
+          "length": 55.312,
+          "width": 56.981,
+          "height": 10.827,
+          "boundingRadius": 38.042
+        },
+        "defaultColors": [
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 112,
+            "secondary": 29,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 1,
+            "secondary": 29,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 70,
+            "secondary": 112,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 88,
+            "secondary": 112,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_LIGHTING_INTERIOR_OVERRIDE",
+          "FLAG_USE_STANDARD_FLIGHT_HELMET",
+          "FLAG_DISABLE_CAMERA_PUSH_BEYOND",
+          "FLAG_CHECK_WARP_TASK_FLAG_DURING_ENTER",
+          "FLAG_DONT_CRASH_ABANDONED_NEAR_GROUND"
+        ]
       },
       "stats": {
         "handlingId": "ALKONOST",
@@ -58,6 +146,107 @@
         "name": "Smuggler's Run",
         "releaseDate": "2017-08-29"
       },
+      "details": {
+        "manufacturer": "Buckingham",
+        "type": "PLANE",
+        "seats": 1,
+        "doors": 1,
+        "wheels": 3,
+        "modKits": [
+          "242_alphaz1_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -3.791,
+            "y": -3.058,
+            "z": -1.018
+          },
+          "max": {
+            "x": 3.791,
+            "y": 3.053,
+            "z": 0.807
+          },
+          "length": 6.111,
+          "width": 7.582,
+          "height": 1.825,
+          "boundingRadius": 4.886
+        },
+        "defaultColors": [
+          {
+            "primary": 5,
+            "secondary": 5,
+            "pearl": 7,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 112,
+            "secondary": 112,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 67,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 64,
+            "secondary": 112,
+            "pearl": 74,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 88,
+            "secondary": 111,
+            "pearl": 38,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 38,
+            "secondary": 111,
+            "pearl": 7,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 37,
+            "secondary": 11,
+            "pearl": 90,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS"
+        ]
+      },
       "stats": {
         "handlingId": "ALPHAZ1",
         "mass": 450,
@@ -88,6 +277,114 @@
         "id": "mpchristmas2017",
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
+      },
+      "details": {
+        "manufacturer": "Mammoth",
+        "type": "PLANE",
+        "seats": 3,
+        "doors": 4,
+        "wheels": 6,
+        "modKits": [
+          "257_avenger_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_AVENGER_CANNON"
+        ],
+        "features": {
+          "convertibleRoof": true,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -16.203,
+            "y": -11.641,
+            "z": -2.641
+          },
+          "max": {
+            "x": 16.203,
+            "y": 10.53,
+            "z": 6.101
+          },
+          "length": 22.171,
+          "width": 32.406,
+          "height": 8.742,
+          "boundingRadius": 20.056
+        },
+        "defaultColors": [
+          {
+            "primary": 14,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 13,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 13,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 155,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 152,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 153,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_USE_INTERIOR_RED_LIGHT",
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HEADLIGHTS_ON_LANDINGGEAR",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_TURRET_RELATIVE_AIM_CALCULATION",
+          "FLAG_USE_STANDARD_FLIGHT_HELMET",
+          "FLAG_HAS_JATO_BOOST_MOD",
+          "FLAG_HOLD_TO_SHUFFLE",
+          "FLAG_HAS_VERTICAL_FLIGHT_MODE",
+          "FLAG_DONT_CRASH_ABANDONED_NEAR_GROUND",
+          "FLAG_CREATE_WEAPON_MANAGER_ON_SPAWN",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS",
+          "FLAG_USE_ROOT_AS_BASE_LOCKON_POS",
+          "FLAG_DISABLE_CAMERA_PUSH_BEYOND",
+          "FLAG_CHECK_WARP_TASK_FLAG_DURING_ENTER",
+          "FLAG_PREFER_FRONT_SEAT"
+        ]
       },
       "stats": {
         "handlingId": "AVENGER",
@@ -120,6 +417,110 @@
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
       },
+      "details": {
+        "manufacturer": "Mammoth",
+        "type": "PLANE",
+        "seats": 3,
+        "doors": 4,
+        "wheels": 6,
+        "modKits": [
+          "257_avenger_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_AVENGER_CANNON"
+        ],
+        "features": {
+          "convertibleRoof": true,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -7.87,
+            "y": -11.641,
+            "z": -2.641
+          },
+          "max": {
+            "x": 7.928,
+            "y": 10.53,
+            "z": 6.101
+          },
+          "length": 22.171,
+          "width": 15.798,
+          "height": 8.742,
+          "boundingRadius": 14.366
+        },
+        "defaultColors": [
+          {
+            "primary": 14,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 13,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 13,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 155,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 152,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 153,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_USE_INTERIOR_RED_LIGHT",
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HEADLIGHTS_ON_LANDINGGEAR",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_USE_TURRET_RELATIVE_AIM_CALCULATION",
+          "FLAG_USE_STANDARD_FLIGHT_HELMET",
+          "FLAG_HAS_JATO_BOOST_MOD",
+          "FLAG_HOLD_TO_SHUFFLE",
+          "FLAG_HAS_VERTICAL_FLIGHT_MODE",
+          "FLAG_DONT_CRASH_ABANDONED_NEAR_GROUND",
+          "FLAG_CHECK_WARP_TASK_FLAG_DURING_ENTER"
+        ]
+      },
       "stats": {
         "handlingId": "AVENGER",
         "mass": 18000,
@@ -150,6 +551,113 @@
         "id": "mp2023_01",
         "name": "San Andreas Mercenaries",
         "releaseDate": "2023-06-13"
+      },
+      "details": {
+        "manufacturer": "Mammoth",
+        "type": "PLANE",
+        "seats": 3,
+        "doors": 4,
+        "wheels": 6,
+        "modKits": [
+          "532_avenger3_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_AVENGER_CANNON",
+          "VEHICLE_WEAPON_AVENGER3_MINIGUN",
+          "VEHICLE_WEAPON_AVENGER3_MISSILE"
+        ],
+        "features": {
+          "convertibleRoof": true,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -16.203,
+            "y": -11.641,
+            "z": -2.641
+          },
+          "max": {
+            "x": 16.203,
+            "y": 10.53,
+            "z": 6.101
+          },
+          "length": 22.171,
+          "width": 32.406,
+          "height": 8.742,
+          "boundingRadius": 20.056
+        },
+        "defaultColors": [
+          {
+            "primary": 14,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 13,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 13,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 155,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 152,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 153,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_USE_INTERIOR_RED_LIGHT",
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HEADLIGHTS_ON_LANDINGGEAR",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_USE_TURRET_RELATIVE_AIM_CALCULATION",
+          "FLAG_USE_STANDARD_FLIGHT_HELMET",
+          "FLAG_HAS_JATO_BOOST_MOD",
+          "FLAG_HOLD_TO_SHUFFLE",
+          "FLAG_HAS_VERTICAL_FLIGHT_MODE",
+          "FLAG_DONT_CRASH_ABANDONED_NEAR_GROUND",
+          "FLAG_CHECK_WARP_TASK_FLAG_DURING_ENTER",
+          "FLAG_USE_ROOT_AS_BASE_LOCKON_POS"
+        ]
       },
       "stats": {
         "handlingId": "AVENGER3",
@@ -182,6 +690,113 @@
         "name": "San Andreas Mercenaries",
         "releaseDate": "2023-06-13"
       },
+      "details": {
+        "manufacturer": "Mammoth",
+        "type": "PLANE",
+        "seats": 3,
+        "doors": 4,
+        "wheels": 6,
+        "modKits": [
+          "532_avenger3_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_AVENGER_CANNON",
+          "VEHICLE_WEAPON_AVENGER3_MINIGUN",
+          "VEHICLE_WEAPON_AVENGER3_MISSILE"
+        ],
+        "features": {
+          "convertibleRoof": true,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -7.87,
+            "y": -11.641,
+            "z": -2.641
+          },
+          "max": {
+            "x": 7.928,
+            "y": 10.53,
+            "z": 6.101
+          },
+          "length": 22.171,
+          "width": 15.798,
+          "height": 8.742,
+          "boundingRadius": 14.366
+        },
+        "defaultColors": [
+          {
+            "primary": 14,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 13,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 13,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 155,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 152,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 153,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_USE_INTERIOR_RED_LIGHT",
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HEADLIGHTS_ON_LANDINGGEAR",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_USE_TURRET_RELATIVE_AIM_CALCULATION",
+          "FLAG_USE_STANDARD_FLIGHT_HELMET",
+          "FLAG_HAS_JATO_BOOST_MOD",
+          "FLAG_HOLD_TO_SHUFFLE",
+          "FLAG_HAS_VERTICAL_FLIGHT_MODE",
+          "FLAG_DONT_CRASH_ABANDONED_NEAR_GROUND",
+          "FLAG_CHECK_WARP_TASK_FLAG_DURING_ENTER",
+          "FLAG_USE_ROOT_AS_BASE_LOCKON_POS"
+        ]
+      },
       "stats": {
         "handlingId": "AVENGER3",
         "mass": 18250,
@@ -212,6 +827,93 @@
         "id": "mppilot",
         "name": "San Andreas Flight School Update",
         "releaseDate": "2014-08-19"
+      },
+      "details": {
+        "manufacturer": "Western",
+        "type": "PLANE",
+        "seats": 1,
+        "doors": 1,
+        "wheels": 3,
+        "modKits": [
+          "0_defaultspraypatch"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -4.705,
+            "y": -6.312,
+            "z": -1.817
+          },
+          "max": {
+            "x": 4.705,
+            "y": 6.205,
+            "z": 2.859
+          },
+          "length": 12.516,
+          "width": 9.409,
+          "height": 4.676,
+          "boundingRadius": 8.074
+        },
+        "defaultColors": [
+          {
+            "primary": 122,
+            "secondary": 0,
+            "pearl": 25,
+            "wheels": 121,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 122,
+            "secondary": 89,
+            "pearl": 25,
+            "wheels": 121,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 122,
+            "secondary": 28,
+            "pearl": 25,
+            "wheels": 121,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 122,
+            "secondary": 64,
+            "pearl": 25,
+            "wheels": 121,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 122,
+            "secondary": 53,
+            "pearl": 25,
+            "wheels": 121,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_PILOT_HELMET",
+          "FLAG_HAS_EJECTOR_SEATS"
+        ]
       },
       "stats": {
         "handlingId": "BESRA",
@@ -244,6 +946,60 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "BLIMP",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 3,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -7.736,
+            "y": -35.735,
+            "z": -3.286
+          },
+          "max": {
+            "x": 7.67,
+            "y": 23.723,
+            "z": 14.114
+          },
+          "length": 59.458,
+          "width": 15.406,
+          "height": 17.4,
+          "boundingRadius": 31.232
+        },
+        "defaultColors": [
+          {
+            "primary": 134,
+            "secondary": 134,
+            "pearl": 134,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_ALLOWS_RAPPEL",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS"
+        ]
+      },
       "stats": {
         "handlingId": "BLIMP",
         "mass": 12000,
@@ -274,6 +1030,60 @@
         "id": "spupgrade",
         "name": "Story Mode (Next-Gen)",
         "releaseDate": "2014-11-18"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "BLIMP",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 3,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -7.736,
+            "y": -35.735,
+            "z": -3.286
+          },
+          "max": {
+            "x": 7.67,
+            "y": 23.723,
+            "z": 14.114
+          },
+          "length": 59.458,
+          "width": 15.406,
+          "height": 17.4,
+          "boundingRadius": 31.232
+        },
+        "defaultColors": [
+          {
+            "primary": 134,
+            "secondary": 134,
+            "pearl": 134,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_ALLOWS_RAPPEL",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS"
+        ]
       },
       "stats": {
         "handlingId": "BLIMP2",
@@ -306,6 +1116,85 @@
         "name": "After Hours",
         "releaseDate": "2018-07-24"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "BLIMP",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 3,
+        "modKits": [
+          "304_blimp3_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -7.736,
+            "y": -35.735,
+            "z": -3.286
+          },
+          "max": {
+            "x": 7.67,
+            "y": 23.777,
+            "z": 14.114
+          },
+          "length": 59.512,
+          "width": 15.406,
+          "height": 17.4,
+          "boundingRadius": 31.231
+        },
+        "defaultColors": [
+          {
+            "primary": 124,
+            "secondary": 124,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 87,
+            "secondary": 81,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 40,
+            "secondary": 44,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 25,
+            "secondary": 24,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS"
+        ]
+      },
       "stats": {
         "handlingId": "BLIMP",
         "mass": 12000,
@@ -336,6 +1225,122 @@
         "id": "mpsmuggler",
         "name": "Smuggler's Run",
         "releaseDate": "2017-08-29"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "PLANE",
+        "seats": 6,
+        "doors": 3,
+        "wheels": 5,
+        "modKits": [
+          "243_bombushka_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_BOMBUSHKA_DUALMG",
+          "VEHICLE_WEAPON_BOMBUSHKA_CANNON"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -19.178,
+            "y": -23.639,
+            "z": -1.847
+          },
+          "max": {
+            "x": 19.178,
+            "y": 11.178,
+            "z": 8.907
+          },
+          "length": 34.817,
+          "width": 38.356,
+          "height": 10.754,
+          "boundingRadius": 26.261
+        },
+        "defaultColors": [
+          {
+            "primary": 121,
+            "secondary": 25,
+            "pearl": 7,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 14,
+            "secondary": 25,
+            "pearl": 7,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 154,
+            "secondary": 25,
+            "pearl": 3,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 152,
+            "secondary": 25,
+            "pearl": 3,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 133,
+            "secondary": 10,
+            "pearl": 3,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 13,
+            "secondary": 10,
+            "pearl": 3,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 10,
+            "pearl": 3,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_LIGHTING_INTERIOR_OVERRIDE",
+          "FLAG_HAS_TURRET_SEAT_ON_VEHICLE",
+          "FLAG_USE_TURRET_RELATIVE_AIM_CALCULATION",
+          "FLAG_USE_STANDARD_FLIGHT_HELMET",
+          "FLAG_TURRET_MODS_ON_ROOF",
+          "FLAG_SECOND_TURRET_MOD",
+          "FLAG_HAS_JATO_BOOST_MOD",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_KEEP_ALL_TURRETS_SYNCHRONISED",
+          "FLAG_DISABLE_CAMERA_PUSH_BEYOND",
+          "FLAG_HAS_EXTRA_SHUFFLE_SEAT_ON_VEHICLE",
+          "FLAG_DONT_CRASH_ABANDONED_NEAR_GROUND"
+        ]
       },
       "stats": {
         "handlingId": "BOMBUSHKA",
@@ -368,6 +1373,59 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "PLANE",
+        "seats": 4,
+        "doors": 3,
+        "wheels": 5,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -48.838,
+            "y": -53.75,
+            "z": -6.581
+          },
+          "max": {
+            "x": 48.838,
+            "y": 37.035,
+            "z": 15.11
+          },
+          "length": 90.785,
+          "width": 97.675,
+          "height": 21.692,
+          "boundingRadius": 67.257
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 87,
+            "pearl": 17,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_SCRIPT",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS"
+        ]
+      },
       "stats": {
         "handlingId": "cargoplane",
         "mass": 38000,
@@ -398,6 +1456,59 @@
         "id": "mpchristmas3",
         "name": "Los Santos Drug Wars",
         "releaseDate": "2022-12-13"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "PLANE",
+        "seats": 5,
+        "doors": 3,
+        "wheels": 5,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -48.838,
+            "y": -53.75,
+            "z": -6.581
+          },
+          "max": {
+            "x": 48.838,
+            "y": 37.035,
+            "z": 15.11
+          },
+          "length": 90.785,
+          "width": 97.675,
+          "height": 21.692,
+          "boundingRadius": 67.257
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 87,
+            "pearl": 17,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_SCRIPT",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS"
+        ]
       },
       "stats": {
         "handlingId": "cargoplane",
@@ -430,6 +1541,85 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "PLANE",
+        "seats": 2,
+        "doors": 4,
+        "wheels": 3,
+        "modKits": [
+          "251_cuban800_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": true,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -5.51,
+            "y": -3.71,
+            "z": -1.646
+          },
+          "max": {
+            "x": 5.51,
+            "y": 3.974,
+            "z": 1.577
+          },
+          "length": 7.684,
+          "width": 11.02,
+          "height": 3.223,
+          "boundingRadius": 6.78
+        },
+        "defaultColors": [
+          {
+            "primary": 85,
+            "secondary": 132,
+            "pearl": 67,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 132,
+            "secondary": 26,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 43,
+            "secondary": 132,
+            "pearl": 46,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 132,
+            "secondary": 85,
+            "pearl": 132,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_RESTRICTED_DRIVEBY_HEIGHT"
+        ]
+      },
       "stats": {
         "handlingId": "CUBAN800",
         "mass": 5000,
@@ -460,6 +1650,61 @@
         "id": "spupgrade",
         "name": "Story Mode (Next-Gen)",
         "releaseDate": "2014-11-18"
+      },
+      "details": {
+        "manufacturer": "Mammoth",
+        "type": "PLANE",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_defaultspraypatch"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -7.313,
+            "y": -6.599,
+            "z": -1.819
+          },
+          "max": {
+            "x": 7.355,
+            "y": 3.14,
+            "z": 2.1
+          },
+          "length": 9.739,
+          "width": 14.668,
+          "height": 3.919,
+          "boundingRadius": 8.944
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 0,
+            "pearl": 122,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_HAS_LIVERY",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_IGNORE_TRAPPED_HULL_CHECK"
+        ]
       },
       "stats": {
         "handlingId": "SEAPLANE",
@@ -492,6 +1737,132 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "PLANE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 3,
+        "modKits": [
+          "0_defaultspraypatch"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -5.312,
+            "y": -4.852,
+            "z": -1.714
+          },
+          "max": {
+            "x": 5.312,
+            "y": 3.22,
+            "z": 1.755
+          },
+          "length": 8.072,
+          "width": 10.625,
+          "height": 3.469,
+          "boundingRadius": 6.816
+        },
+        "defaultColors": [
+          {
+            "primary": 126,
+            "secondary": 22,
+            "pearl": 107,
+            "wheels": 126,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 46,
+            "secondary": 24,
+            "pearl": 46,
+            "wheels": 24,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 22,
+            "pearl": 121,
+            "wheels": 121,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 124,
+            "secondary": 46,
+            "pearl": 124,
+            "wheels": 46,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 24,
+            "secondary": 126,
+            "pearl": 24,
+            "wheels": 126,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 113,
+            "secondary": 22,
+            "pearl": 113,
+            "wheels": 22,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 46,
+            "secondary": 123,
+            "pearl": 43,
+            "wheels": 123,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 126,
+            "secondary": 0,
+            "pearl": 126,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 25,
+            "secondary": 26,
+            "pearl": 25,
+            "wheels": 26,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 47,
+            "secondary": 112,
+            "pearl": 47,
+            "wheels": 112,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_PLANE_WEAR_ALTERNATIVE_HELMET"
+        ]
+      },
       "stats": {
         "handlingId": "duster",
         "mass": 2000,
@@ -522,6 +1893,60 @@
         "id": "mpsmuggler",
         "name": "Smuggler's Run",
         "releaseDate": "2017-08-29"
+      },
+      "details": {
+        "manufacturer": "Buckingham",
+        "type": "PLANE",
+        "seats": 1,
+        "doors": 1,
+        "wheels": 3,
+        "modKits": [
+          "129_howard_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -4.783,
+            "y": -4.47,
+            "z": -1.482
+          },
+          "max": {
+            "x": 4.783,
+            "y": 3.813,
+            "z": 1.872
+          },
+          "length": 8.283,
+          "width": 9.567,
+          "height": 3.355,
+          "boundingRadius": 6.522
+        },
+        "defaultColors": [
+          {
+            "primary": 14,
+            "secondary": 25,
+            "pearl": 7,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_STANDARD_FLIGHT_HELMET"
+        ]
       },
       "stats": {
         "handlingId": "HOWARD",
@@ -554,6 +1979,65 @@
         "name": "The Heists Update",
         "releaseDate": "2015-03-10"
       },
+      "details": {
+        "manufacturer": "Mammoth",
+        "type": "PLANE",
+        "seats": 1,
+        "doors": 1,
+        "wheels": 5,
+        "modKits": [
+          "0_defaultspraypatch"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_PLAYER_LAZER",
+          "VEHICLE_WEAPON_SPACE_ROCKET"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -5.638,
+            "y": -8.943,
+            "z": -1.577
+          },
+          "max": {
+            "x": 5.638,
+            "y": 8.027,
+            "z": 2.43
+          },
+          "length": 16.97,
+          "width": 11.276,
+          "height": 4.008,
+          "boundingRadius": 10.321
+        },
+        "defaultColors": [
+          {
+            "primary": 121,
+            "secondary": 121,
+            "pearl": 8,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_PILOT_HELMET",
+          "FLAG_DISABLE_WEAPON_WHEEL_IN_FIRST_PERSON",
+          "FLAG_HAS_EJECTOR_SEATS"
+        ]
+      },
       "stats": {
         "handlingId": "HYDRA",
         "mass": 8000,
@@ -584,6 +2068,59 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "PLANE",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 10,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -33.132,
+            "y": -36.968,
+            "z": -9.835
+          },
+          "max": {
+            "x": 33.144,
+            "y": 35.915,
+            "z": 9.516
+          },
+          "length": 72.883,
+          "width": 66.276,
+          "height": 19.35,
+          "boundingRadius": 49.591
+        },
+        "defaultColors": [
+          {
+            "primary": 24,
+            "secondary": 111,
+            "pearl": 111,
+            "wheels": 6,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_HAS_LIVERY",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HEADLIGHTS_ON_LANDINGGEAR",
+          "FLAG_DONT_TIMESLICE_WHEELS"
+        ]
       },
       "stats": {
         "handlingId": "jet",
@@ -616,6 +2153,66 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "PLANE",
+        "seats": 1,
+        "doors": 1,
+        "wheels": 3,
+        "modKits": [
+          "0_defaultspraypatch"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_PLAYER_LAZER",
+          "VEHICLE_WEAPON_PLANE_ROCKET"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -5.129,
+            "y": -6.923,
+            "z": -1.522
+          },
+          "max": {
+            "x": 5.129,
+            "y": 8.659,
+            "z": 2.708
+          },
+          "length": 15.582,
+          "width": 10.258,
+          "height": 4.23,
+          "boundingRadius": 9.484
+        },
+        "defaultColors": [
+          {
+            "primary": 121,
+            "secondary": 21,
+            "pearl": 8,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_DISABLE_WEAPON_WHEEL_IN_FIRST_PERSON",
+          "FLAG_USE_WEAPON_WHEEL_WITHOUT_HELMET",
+          "FLAG_USE_PILOT_HELMET",
+          "FLAG_HAS_EJECTOR_SEATS"
+        ]
+      },
       "stats": {
         "handlingId": "LAZER",
         "mass": 8000,
@@ -646,6 +2243,61 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": "Buckingham",
+        "type": "PLANE",
+        "seats": 10,
+        "doors": 1,
+        "wheels": 3,
+        "modKits": [
+          "0_defaultspraypatch"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -7.25,
+            "y": -11.62,
+            "z": -1.617
+          },
+          "max": {
+            "x": 7.249,
+            "y": 9.134,
+            "z": 3.329
+          },
+          "length": 20.754,
+          "width": 14.499,
+          "height": 4.946,
+          "boundingRadius": 12.706
+        },
+        "defaultColors": [
+          {
+            "primary": 112,
+            "secondary": 0,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HEADLIGHTS_ON_LANDINGGEAR",
+          "FLAG_DONT_TIMESLICE_WHEELS"
+        ]
       },
       "stats": {
         "handlingId": "luxor",
@@ -678,6 +2330,63 @@
         "name": "Ill-Gotten Gains Part 1",
         "releaseDate": "2015-06-10"
       },
+      "details": {
+        "manufacturer": "Buckingham",
+        "type": "PLANE",
+        "seats": 8,
+        "doors": 1,
+        "wheels": 3,
+        "modKits": [
+          "0_defaultspraypatch"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -7.25,
+            "y": -11.62,
+            "z": -1.617
+          },
+          "max": {
+            "x": 7.249,
+            "y": 9.134,
+            "z": 3.329
+          },
+          "length": 20.755,
+          "width": 14.499,
+          "height": 4.946,
+          "boundingRadius": 12.706
+        },
+        "defaultColors": [
+          {
+            "primary": 159,
+            "secondary": 0,
+            "pearl": 160,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HEADLIGHTS_ON_LANDINGGEAR",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_HAS_REAR_SEAT_ACTIVITIES",
+          "FLAG_USE_LIGHTING_INTERIOR_OVERRIDE"
+        ]
+      },
       "stats": {
         "handlingId": "luxor2",
         "mass": 6500,
@@ -708,6 +2417,94 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "PLANE",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 3,
+        "modKits": [
+          "0_defaultspraypatch"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -7.384,
+            "y": -7.621,
+            "z": -1.162
+          },
+          "max": {
+            "x": 7.384,
+            "y": 3.471,
+            "z": 2.142
+          },
+          "length": 11.092,
+          "width": 14.769,
+          "height": 3.304,
+          "boundingRadius": 9.283
+        },
+        "defaultColors": [
+          {
+            "primary": 131,
+            "secondary": 74,
+            "pearl": 131,
+            "wheels": 62,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 131,
+            "secondary": 31,
+            "pearl": 131,
+            "wheels": 34,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 131,
+            "secondary": 41,
+            "pearl": 131,
+            "wheels": 40,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 131,
+            "secondary": 54,
+            "pearl": 131,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 131,
+            "secondary": 89,
+            "pearl": 131,
+            "wheels": 1,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_HAS_LIVERY",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_RESTRICTED_DRIVEBY_HEIGHT",
+          "FLAG_IGNORE_TRAPPED_HULL_CHECK"
+        ]
       },
       "stats": {
         "handlingId": "mammatus",
@@ -740,6 +2537,131 @@
         "name": "Smuggler's Run",
         "releaseDate": "2017-08-29"
       },
+      "details": {
+        "manufacturer": "Nagasaki",
+        "type": "PLANE",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 3,
+        "modKits": [
+          "253_microlight_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_MICROLIGHT_MG"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -4.755,
+            "y": -2.167,
+            "z": -0.45
+          },
+          "max": {
+            "x": 4.755,
+            "y": 1.265,
+            "z": 2.938
+          },
+          "length": 3.433,
+          "width": 9.51,
+          "height": 3.388,
+          "boundingRadius": 5.232
+        },
+        "defaultColors": [
+          {
+            "primary": 155,
+            "secondary": 144,
+            "pearl": 155,
+            "wheels": 111,
+            "interior": 13,
+            "dashboard": 0
+          },
+          {
+            "primary": 9,
+            "secondary": 6,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 13,
+            "dashboard": 0
+          },
+          {
+            "primary": 112,
+            "secondary": 7,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 13,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 2,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 13,
+            "dashboard": 0
+          },
+          {
+            "primary": 64,
+            "secondary": 112,
+            "pearl": 70,
+            "wheels": 111,
+            "interior": 13,
+            "dashboard": 0
+          },
+          {
+            "primary": 38,
+            "secondary": 7,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 13,
+            "dashboard": 0
+          },
+          {
+            "primary": 28,
+            "secondary": 5,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 13,
+            "dashboard": 0
+          },
+          {
+            "primary": 92,
+            "secondary": 53,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 13,
+            "dashboard": 0
+          },
+          {
+            "primary": 88,
+            "secondary": 112,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 13,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_USE_STANDARD_FLIGHT_HELMET",
+          "FLAG_HAS_TURRET_SEAT_ON_VEHICLE",
+          "FLAG_USE_TURRET_RELATIVE_AIM_CALCULATION",
+          "FLAG_TURRET_MODS_ON_ROOF",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_TURRET_MOD_WITH_NO_STOCK_TURRET",
+          "FLAG_EQUIP_UNARMED_ON_ENTER",
+          "FLAG_DONT_CRASH_ABANDONED_NEAR_GROUND"
+        ]
+      },
       "stats": {
         "handlingId": "MICROLIGHT",
         "mass": 250,
@@ -770,6 +2692,61 @@
         "id": "mppilot",
         "name": "San Andreas Flight School Update",
         "releaseDate": "2014-08-19"
+      },
+      "details": {
+        "manufacturer": "Buckingham",
+        "type": "PLANE",
+        "seats": 16,
+        "doors": 1,
+        "wheels": 4,
+        "modKits": [
+          "0_defaultspraypatch"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -10.518,
+            "y": -15.115,
+            "z": -2.184
+          },
+          "max": {
+            "x": 10.518,
+            "y": 12.126,
+            "z": 3.97
+          },
+          "length": 27.241,
+          "width": 21.035,
+          "height": 6.154,
+          "boundingRadius": 17.299
+        },
+        "defaultColors": [
+          {
+            "primary": 121,
+            "secondary": 21,
+            "pearl": 8,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HEADLIGHTS_ON_LANDINGGEAR",
+          "FLAG_DONT_TIMESLICE_WHEELS"
+        ]
       },
       "stats": {
         "handlingId": "MILJET",
@@ -802,6 +2779,137 @@
         "name": "Smuggler's Run",
         "releaseDate": "2017-08-29"
       },
+      "details": {
+        "manufacturer": "Mammoth",
+        "type": "PLANE",
+        "seats": 3,
+        "doors": 5,
+        "wheels": 3,
+        "modKits": [
+          "240_mogul_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_MOGUL_NOSE",
+          "VEHICLE_WEAPON_MOGUL_DUALNOSE",
+          "VEHICLE_WEAPON_MOGUL_TURRET",
+          "VEHICLE_WEAPON_MOGUL_DUALTURRET"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -7.203,
+            "y": -6.152,
+            "z": -1.768
+          },
+          "max": {
+            "x": 7.203,
+            "y": 4.444,
+            "z": 1.764
+          },
+          "length": 10.596,
+          "width": 14.407,
+          "height": 3.532,
+          "boundingRadius": 9.035
+        },
+        "defaultColors": [
+          {
+            "primary": 24,
+            "secondary": 29,
+            "pearl": 65,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 25,
+            "pearl": 7,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 14,
+            "secondary": 25,
+            "pearl": 7,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 154,
+            "secondary": 154,
+            "pearl": 3,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 152,
+            "secondary": 154,
+            "pearl": 3,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 133,
+            "secondary": 10,
+            "pearl": 3,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 13,
+            "secondary": 10,
+            "pearl": 3,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 10,
+            "pearl": 3,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 14,
+            "secondary": 14,
+            "pearl": 14,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_HAS_TURRET_SEAT_ON_VEHICLE",
+          "FLAG_TURRET_ENTRY_ATTACH_TO_DRIVER_SEAT",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_KEEP_ALL_TURRETS_SYNCHRONISED",
+          "FLAG_TURRET_MODS_ON_ROOF",
+          "FLAG_USE_STANDARD_FLIGHT_HELMET",
+          "FLAG_HAS_JATO_BOOST_MOD",
+          "FLAG_IGNORE_TRAPPED_HULL_CHECK",
+          "FLAG_HOLD_TO_SHUFFLE"
+        ]
+      },
       "stats": {
         "handlingId": "MOGUL",
         "mass": 5000,
@@ -832,6 +2940,65 @@
         "id": "mpsmuggler",
         "name": "Smuggler's Run",
         "releaseDate": "2017-08-29"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "PLANE",
+        "seats": 1,
+        "doors": 1,
+        "wheels": 3,
+        "modKits": [
+          "249_molotok_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_DOGFIGHTER_MG",
+          "VEHICLE_WEAPON_DOGFIGHTER_MISSILE"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -4.809,
+            "y": -7.862,
+            "z": -1.467
+          },
+          "max": {
+            "x": 4.809,
+            "y": 3.339,
+            "z": 2.434
+          },
+          "length": 11.201,
+          "width": 9.618,
+          "height": 3.901,
+          "boundingRadius": 7.558
+        },
+        "defaultColors": [
+          {
+            "primary": 117,
+            "secondary": 35,
+            "pearl": 134,
+            "wheels": 119,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_WEAPON_WHEEL_WITHOUT_HELMET",
+          "FLAG_USE_PILOT_HELMET",
+          "FLAG_HAS_EJECTOR_SEATS"
+        ]
       },
       "stats": {
         "handlingId": "MOLOTOK",
@@ -864,6 +3031,87 @@
         "name": "Further Adventures in Finance and Felony",
         "releaseDate": "2016-06-07"
       },
+      "details": {
+        "manufacturer": "Buckingham",
+        "type": "PLANE",
+        "seats": 8,
+        "doors": 1,
+        "wheels": 4,
+        "modKits": [
+          "0_defaultspraypatch"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -9.81,
+            "y": -12.713,
+            "z": -1.655
+          },
+          "max": {
+            "x": 9.81,
+            "y": 9.097,
+            "z": 4.047
+          },
+          "length": 21.81,
+          "width": 19.621,
+          "height": 5.702,
+          "boundingRadius": 14.844
+        },
+        "defaultColors": [
+          {
+            "primary": 4,
+            "secondary": 0,
+            "pearl": 106,
+            "wheels": 150,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 28,
+            "pearl": 1,
+            "wheels": 6,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 126,
+            "pearl": 0,
+            "wheels": 90,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 31,
+            "pearl": 0,
+            "wheels": 5,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HEADLIGHTS_ON_LANDINGGEAR",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_HAS_REAR_SEAT_ACTIVITIES",
+          "FLAG_USE_LIGHTING_INTERIOR_OVERRIDE"
+        ]
+      },
       "stats": {
         "handlingId": "NIMBUS",
         "mass": 6500,
@@ -894,6 +3142,63 @@
         "id": "mpsmuggler",
         "name": "Smuggler's Run",
         "releaseDate": "2017-08-29"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "PLANE",
+        "seats": 1,
+        "doors": 1,
+        "wheels": 3,
+        "modKits": [
+          "248_nokota_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_DOGFIGHTER_MG",
+          "VEHICLE_WEAPON_DOGFIGHTER_MISSILE"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -5.591,
+            "y": -6.294,
+            "z": -2.217
+          },
+          "max": {
+            "x": 5.591,
+            "y": 3.663,
+            "z": 2.217
+          },
+          "length": 9.957,
+          "width": 11.181,
+          "height": 4.434,
+          "boundingRadius": 7.819
+        },
+        "defaultColors": [
+          {
+            "primary": 117,
+            "secondary": 35,
+            "pearl": 134,
+            "wheels": 119,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_PILOT_HELMET",
+          "FLAG_IGNORE_TRAPPED_HULL_CHECK"
+        ]
       },
       "stats": {
         "handlingId": "NOKOTA",
@@ -926,6 +3231,65 @@
         "name": "Smuggler's Run",
         "releaseDate": "2017-08-29"
       },
+      "details": {
+        "manufacturer": "Buckingham",
+        "type": "PLANE",
+        "seats": 2,
+        "doors": 1,
+        "wheels": 3,
+        "modKits": [
+          "246_pyro_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_DOGFIGHTER_MG",
+          "VEHICLE_WEAPON_DOGFIGHTER_MISSILE"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -6.047,
+            "y": -6.939,
+            "z": -1.166
+          },
+          "max": {
+            "x": 6.047,
+            "y": 4.131,
+            "z": 1.741
+          },
+          "length": 11.07,
+          "width": 12.095,
+          "height": 2.907,
+          "boundingRadius": 8.224
+        },
+        "defaultColors": [
+          {
+            "primary": 24,
+            "secondary": 124,
+            "pearl": 0,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HAS_JATO_BOOST_MOD",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_PILOT_HELMET",
+          "FLAG_HAS_EJECTOR_SEATS"
+        ]
+      },
       "stats": {
         "handlingId": "PYRO",
         "mass": 4000,
@@ -956,6 +3320,64 @@
         "id": "mp2023_01",
         "name": "San Andreas Mercenaries",
         "releaseDate": "2023-06-13"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "PLANE",
+        "seats": 1,
+        "doors": 1,
+        "wheels": 3,
+        "modKits": [
+          "539_raiju_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_RAIJU_CANNONS",
+          "VEHICLE_WEAPON_RAIJU_MISSILES"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -5.423,
+            "y": -8.375,
+            "z": -2.049
+          },
+          "max": {
+            "x": 5.423,
+            "y": 7.641,
+            "z": 2.085
+          },
+          "length": 16.016,
+          "width": 10.847,
+          "height": 4.134,
+          "boundingRadius": 9.638
+        },
+        "defaultColors": [
+          {
+            "primary": 121,
+            "secondary": 121,
+            "pearl": 8,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_PILOT_HELMET",
+          "FLAG_DISABLE_WEAPON_WHEEL_IN_FIRST_PERSON"
+        ]
       },
       "stats": {
         "handlingId": "RAIJU",
@@ -988,6 +3410,131 @@
         "name": "Smuggler's Run",
         "releaseDate": "2017-08-29"
       },
+      "details": {
+        "manufacturer": "Western",
+        "type": "PLANE",
+        "seats": 2,
+        "doors": 4,
+        "wheels": 3,
+        "modKits": [
+          "239_rogue_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_ROGUE_MG",
+          "VEHICLE_WEAPON_ROGUE_CANNON",
+          "VEHICLE_WEAPON_ROGUE_MISSILE"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -5.654,
+            "y": -7.643,
+            "z": -1.751
+          },
+          "max": {
+            "x": 5.654,
+            "y": 2.424,
+            "z": 2.003
+          },
+          "length": 10.067,
+          "width": 11.309,
+          "height": 3.754,
+          "boundingRadius": 7.766
+        },
+        "defaultColors": [
+          {
+            "primary": 24,
+            "secondary": 29,
+            "pearl": 65,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 14,
+            "secondary": 14,
+            "pearl": 14,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 25,
+            "pearl": 7,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 14,
+            "secondary": 25,
+            "pearl": 7,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 154,
+            "secondary": 154,
+            "pearl": 3,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 152,
+            "secondary": 154,
+            "pearl": 3,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 133,
+            "secondary": 10,
+            "pearl": 3,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 13,
+            "secondary": 10,
+            "pearl": 3,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 10,
+            "pearl": 3,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_DISABLE_WEAPON_WHEEL_IN_FIRST_PERSON",
+          "FLAG_USE_PILOT_HELMET",
+          "FLAG_IGNORE_TRAPPED_HULL_CHECK",
+          "FLAG_HAS_EJECTOR_SEATS"
+        ]
+      },
       "stats": {
         "handlingId": "ROGUE",
         "mass": 4200,
@@ -1018,6 +3565,63 @@
         "id": "mpsmuggler",
         "name": "Smuggler's Run",
         "releaseDate": "2017-08-29"
+      },
+      "details": {
+        "manufacturer": "Western",
+        "type": "PLANE",
+        "seats": 2,
+        "doors": 3,
+        "wheels": 3,
+        "modKits": [
+          "245_seabreeze_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SEABREEZE_MG"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -4.937,
+            "y": -5.246,
+            "z": -0.947
+          },
+          "max": {
+            "x": 4.937,
+            "y": 3.943,
+            "z": 3.316
+          },
+          "length": 9.189,
+          "width": 9.874,
+          "height": 4.263,
+          "boundingRadius": 7.005
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 68,
+            "pearl": 111,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_STANDARD_FLIGHT_HELMET",
+          "FLAG_IGNORE_TRAPPED_HULL_CHECK"
+        ]
       },
       "stats": {
         "handlingId": "SEABREEZE",
@@ -1050,6 +3654,62 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": "Buckingham",
+        "type": "PLANE",
+        "seats": 10,
+        "doors": 1,
+        "wheels": 3,
+        "modKits": [
+          "80_Shamal_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -7.25,
+            "y": -11.62,
+            "z": -1.617
+          },
+          "max": {
+            "x": 7.249,
+            "y": 9.134,
+            "z": 3.329
+          },
+          "length": 20.754,
+          "width": 14.499,
+          "height": 4.946,
+          "boundingRadius": 12.707
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 64,
+            "pearl": 112,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_HAS_LIVERY",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HEADLIGHTS_ON_LANDINGGEAR",
+          "FLAG_DONT_TIMESLICE_WHEELS"
+        ]
+      },
       "stats": {
         "handlingId": "shamal",
         "mass": 6400,
@@ -1080,6 +3740,113 @@
         "id": "mpsmuggler",
         "name": "Smuggler's Run",
         "releaseDate": "2017-08-29"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "PLANE",
+        "seats": 1,
+        "doors": 3,
+        "wheels": 2,
+        "modKits": [
+          "241_starling_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_DOGFIGHTER_MG",
+          "VEHICLE_WEAPON_DOGFIGHTER_MISSILE"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -4.773,
+            "y": -3.749,
+            "z": -1.092
+          },
+          "max": {
+            "x": 4.773,
+            "y": 2.331,
+            "z": 1.816
+          },
+          "length": 6.079,
+          "width": 9.546,
+          "height": 2.908,
+          "boundingRadius": 5.722
+        },
+        "defaultColors": [
+          {
+            "primary": 121,
+            "secondary": 25,
+            "pearl": 7,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 14,
+            "secondary": 25,
+            "pearl": 7,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 154,
+            "secondary": 25,
+            "pearl": 3,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 152,
+            "secondary": 25,
+            "pearl": 3,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 133,
+            "secondary": 10,
+            "pearl": 3,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 13,
+            "secondary": 10,
+            "pearl": 3,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 10,
+            "pearl": 3,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_HAS_ROCKET_BOOST",
+          "FLAG_USE_STANDARD_FLIGHT_HELMET",
+          "FLAG_IGNORE_TRAPPED_HULL_CHECK"
+        ]
       },
       "stats": {
         "handlingId": "STARLING",
@@ -1112,6 +3879,122 @@
         "name": "San Andreas Mercenaries",
         "releaseDate": "2023-06-13"
       },
+      "details": {
+        "manufacturer": "Mammoth",
+        "type": "PLANE",
+        "seats": 4,
+        "doors": 5,
+        "wheels": 3,
+        "modKits": [
+          "536_streamer216_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_STREAMER_NOSEMG"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -9.923,
+            "y": -10.027,
+            "z": -2.559
+          },
+          "max": {
+            "x": 9.923,
+            "y": 6.872,
+            "z": 3.449
+          },
+          "length": 16.899,
+          "width": 19.846,
+          "height": 6.007,
+          "boundingRadius": 12.978
+        },
+        "defaultColors": [
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 73,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 23,
+            "secondary": 0,
+            "pearl": 23,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 89,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 38,
+            "secondary": 1,
+            "pearl": 89,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 70,
+            "secondary": 1,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_STANDARD_FLIGHT_HELMET",
+          "FLAG_HAS_JATO_BOOST_MOD",
+          "FLAG_IGNORE_TRAPPED_HULL_CHECK",
+          "FLAG_HOLD_TO_SHUFFLE",
+          "FLAG_USE_ROOT_AS_BASE_LOCKON_POS"
+        ]
+      },
       "stats": {
         "handlingId": "STREAMER216",
         "mass": 3400,
@@ -1142,6 +4025,68 @@
         "id": "mpbattle",
         "name": "After Hours",
         "releaseDate": "2018-07-24"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "PLANE",
+        "seats": 1,
+        "doors": 3,
+        "wheels": 3,
+        "modKits": [
+          "308_strikeforce_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_STRIKEFORCE_CANNON",
+          "VEHICLE_WEAPON_STRIKEFORCE_MISSILE",
+          "VEHICLE_WEAPON_STRIKEFORCE_BARRAGE"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -7.432,
+            "y": -6.907,
+            "z": -1.867
+          },
+          "max": {
+            "x": 7.432,
+            "y": 6.725,
+            "z": 2.233
+          },
+          "length": 13.632,
+          "width": 14.864,
+          "height": 4.099,
+          "boundingRadius": 10.121
+        },
+        "defaultColors": [
+          {
+            "primary": 121,
+            "secondary": 121,
+            "pearl": 8,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_DISABLE_WEAPON_WHEEL_IN_FIRST_PERSON",
+          "FLAG_USE_WEAPON_WHEEL_WITHOUT_HELMET",
+          "FLAG_USE_PILOT_HELMET",
+          "FLAG_HAS_EJECTOR_SEATS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING"
+        ]
       },
       "stats": {
         "handlingId": "STRIKEFORCE",
@@ -1174,6 +4119,61 @@
         "name": "Base Game",
         "releaseDate": "2013-09-17"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "PLANE",
+        "seats": 1,
+        "doors": 1,
+        "wheels": 3,
+        "modKits": [
+          "79_Stunt_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -4.078,
+            "y": -4.993,
+            "z": -1.314
+          },
+          "max": {
+            "x": 4.078,
+            "y": 2.273,
+            "z": 1.389
+          },
+          "length": 7.266,
+          "width": 8.156,
+          "height": 2.703,
+          "boundingRadius": 5.539
+        },
+        "defaultColors": [
+          {
+            "primary": 132,
+            "secondary": 28,
+            "pearl": 112,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_HAS_LIVERY",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_PLANE_WEAR_ALTERNATIVE_HELMET"
+        ]
+      },
       "stats": {
         "handlingId": "stunt",
         "mass": 2000,
@@ -1204,6 +4204,62 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "PLANE",
+        "seats": 10,
+        "doors": 1,
+        "wheels": 5,
+        "modKits": [
+          "0_defaultspraypatch"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -19.67,
+            "y": -18.582,
+            "z": -1.877
+          },
+          "max": {
+            "x": 19.663,
+            "y": 10.684,
+            "z": 9.512
+          },
+          "length": 29.267,
+          "width": 39.333,
+          "height": 11.389,
+          "boundingRadius": 25.089
+        },
+        "defaultColors": [
+          {
+            "primary": 121,
+            "secondary": 111,
+            "pearl": 122,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_LIGHTING_INTERIOR_OVERRIDE",
+          "FLAG_USE_PILOT_HELMET",
+          "FLAG_DISABLE_CAMERA_PUSH_BEYOND"
+        ]
       },
       "stats": {
         "handlingId": "titan",
@@ -1236,6 +4292,72 @@
         "name": "Smuggler's Run",
         "releaseDate": "2017-08-29"
       },
+      "details": {
+        "manufacturer": "Mammoth",
+        "type": "PLANE",
+        "seats": 5,
+        "doors": 4,
+        "wheels": 3,
+        "modKits": [
+          "244_tula_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_TULA_NOSEMG",
+          "VEHICLE_WEAPON_TULA_MG",
+          "VEHICLE_WEAPON_TULA_DUALMG",
+          "VEHICLE_WEAPON_TULA_MINIGUN"
+        ],
+        "features": {
+          "convertibleRoof": true,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -7.486,
+            "y": -6.334,
+            "z": -1.635
+          },
+          "max": {
+            "x": 7.486,
+            "y": 5.992,
+            "z": 3.277
+          },
+          "length": 12.325,
+          "width": 14.973,
+          "height": 4.912,
+          "boundingRadius": 10.162
+        },
+        "defaultColors": [
+          {
+            "primary": 14,
+            "secondary": 121,
+            "pearl": 121,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HEADLIGHTS_ON_LANDINGGEAR",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_HAS_TURRET_SEAT_ON_VEHICLE",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_KEEP_ALL_TURRETS_SYNCHRONISED",
+          "FLAG_TURRET_MODS_ON_ROOF",
+          "FLAG_USE_TURRET_RELATIVE_AIM_CALCULATION",
+          "FLAG_USE_STANDARD_FLIGHT_HELMET",
+          "FLAG_HAS_JATO_BOOST_MOD",
+          "FLAG_HOLD_TO_SHUFFLE"
+        ]
+      },
       "stats": {
         "handlingId": "TULA",
         "mass": 2000,
@@ -1266,6 +4388,101 @@
         "id": "TitleUpdate",
         "name": "Base Game",
         "releaseDate": "2013-09-17"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "PLANE",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 3,
+        "modKits": [
+          "0_defaultspraypatch"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": true,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -6.452,
+            "y": -6.308,
+            "z": -2.21
+          },
+          "max": {
+            "x": 6.452,
+            "y": 5.143,
+            "z": 2.432
+          },
+          "length": 11.451,
+          "width": 12.903,
+          "height": 4.642,
+          "boundingRadius": 8.854
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 84,
+            "pearl": 111,
+            "wheels": 5,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 27,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 99,
+            "pearl": 111,
+            "wheels": 96,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 42,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 30,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 30,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_HAS_LIVERY",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HEADLIGHTS_ON_LANDINGGEAR",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_RESTRICTED_DRIVEBY_HEIGHT"
+        ]
       },
       "stats": {
         "handlingId": "velum",
@@ -1298,6 +4515,100 @@
         "name": "The Heists Update",
         "releaseDate": "2015-03-10"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "PLANE",
+        "seats": 5,
+        "doors": 3,
+        "wheels": 3,
+        "modKits": [
+          "0_defaultspraypatch"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": true,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -6.452,
+            "y": -6.308,
+            "z": -2.21
+          },
+          "max": {
+            "x": 6.452,
+            "y": 5.143,
+            "z": 2.432
+          },
+          "length": 11.451,
+          "width": 12.903,
+          "height": 4.642,
+          "boundingRadius": 8.854
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 84,
+            "pearl": 111,
+            "wheels": 5,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 27,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 99,
+            "pearl": 111,
+            "wheels": 96,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 42,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 30,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 30,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_HAS_LIVERY",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HEADLIGHTS_ON_LANDINGGEAR",
+          "FLAG_DONT_TIMESLICE_WHEELS"
+        ]
+      },
       "stats": {
         "handlingId": "velum",
         "mass": 5000,
@@ -1329,6 +4640,136 @@
         "name": "The Business Update",
         "releaseDate": "2014-03-04"
       },
+      "details": {
+        "manufacturer": "Buckingham",
+        "type": "PLANE",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 3,
+        "modKits": [
+          "0_defaultspraypatch"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -5.914,
+            "y": -5.399,
+            "z": -1.183
+          },
+          "max": {
+            "x": 5.914,
+            "y": 3.598,
+            "z": 1.669
+          },
+          "length": 8.996,
+          "width": 11.828,
+          "height": 2.852,
+          "boundingRadius": 7.418
+        },
+        "defaultColors": [
+          {
+            "primary": 131,
+            "secondary": 74,
+            "pearl": 131,
+            "wheels": 62,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 131,
+            "secondary": 31,
+            "pearl": 131,
+            "wheels": 34,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 131,
+            "secondary": 41,
+            "pearl": 131,
+            "wheels": 40,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 131,
+            "secondary": 54,
+            "pearl": 131,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 131,
+            "secondary": 89,
+            "pearl": 131,
+            "wheels": 1,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 28,
+            "secondary": 28,
+            "pearl": 28,
+            "wheels": 1,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 18,
+            "secondary": 18,
+            "pearl": 131,
+            "wheels": 1,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 18,
+            "secondary": 24,
+            "pearl": 131,
+            "wheels": 1,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 89,
+            "pearl": 131,
+            "wheels": 1,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 118,
+            "secondary": 118,
+            "pearl": 89,
+            "wheels": 1,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HEADLIGHTS_ON_LANDINGGEAR",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_HAS_LIVERY",
+          "FLAG_USE_RESTRICTED_DRIVEBY_HEIGHT",
+          "FLAG_IGNORE_TRAPPED_HULL_CHECK"
+        ]
+      },
       "stats": {
         "handlingId": "vestra",
         "mass": 5000,
@@ -1359,6 +4800,100 @@
         "id": "mpchristmas2017",
         "name": "The Doomsday Heist",
         "releaseDate": "2017-12-12"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "PLANE",
+        "seats": 4,
+        "doors": 3,
+        "wheels": 5,
+        "modKits": [
+          "281_volatol_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_VOLATOL_DUALMG"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -20.389,
+            "y": -24.731,
+            "z": -2.221
+          },
+          "max": {
+            "x": 20.398,
+            "y": 13.724,
+            "z": 6.063
+          },
+          "length": 38.456,
+          "width": 40.787,
+          "height": 8.284,
+          "boundingRadius": 28.151
+        },
+        "defaultColors": [
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 112,
+            "secondary": 29,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 1,
+            "secondary": 29,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 70,
+            "secondary": 112,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          },
+          {
+            "primary": 88,
+            "secondary": 112,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 13,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_LIGHTING_INTERIOR_OVERRIDE",
+          "FLAG_HAS_TURRET_SEAT_ON_VEHICLE",
+          "FLAG_USE_TURRET_RELATIVE_AIM_CALCULATION",
+          "FLAG_USE_STANDARD_FLIGHT_HELMET",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_DISABLE_CAMERA_PUSH_BEYOND",
+          "FLAG_CHECK_WARP_TASK_FLAG_DURING_ENTER",
+          "FLAG_DONT_CRASH_ABANDONED_NEAR_GROUND"
+        ]
       },
       "stats": {
         "handlingId": "VOLATOL",

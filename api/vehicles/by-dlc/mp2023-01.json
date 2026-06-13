@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "id": "mp2023_01",
@@ -28,6 +28,104 @@
         "id": "mp2023_01",
         "name": "San Andreas Mercenaries",
         "releaseDate": "2023-06-13"
+      },
+      "details": {
+        "manufacturer": "Albany",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "529_brigham_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.129,
+            "y": -3.427,
+            "z": -0.526
+          },
+          "max": {
+            "x": 1.129,
+            "y": 3.091,
+            "z": 1.563
+          },
+          "length": 6.519,
+          "width": 2.258,
+          "height": 2.089,
+          "boundingRadius": 3.416
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 31,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 22,
+            "dashboard": 156
+          },
+          {
+            "primary": 7,
+            "secondary": 7,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 22,
+            "dashboard": 156
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 62,
+            "wheels": 0,
+            "interior": 22,
+            "dashboard": 156
+          },
+          {
+            "primary": 73,
+            "secondary": 73,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 22,
+            "dashboard": 156
+          },
+          {
+            "primary": 62,
+            "secondary": 62,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 22,
+            "dashboard": 156
+          },
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 22,
+            "dashboard": 156
+          },
+          {
+            "primary": 107,
+            "secondary": 107,
+            "pearl": 7,
+            "wheels": 0,
+            "interior": 22,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS"
+        ]
       },
       "stats": {
         "handlingId": "BRIGHAM",
@@ -60,6 +158,117 @@
         "name": "San Andreas Mercenaries",
         "releaseDate": "2023-06-13"
       },
+      "details": {
+        "manufacturer": "Bravado",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "538_buffalo5_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.056,
+            "y": -3.097,
+            "z": -0.518
+          },
+          "max": {
+            "x": 1.056,
+            "y": 2.519,
+            "z": 0.974
+          },
+          "length": 5.615,
+          "width": 2.112,
+          "height": 1.491,
+          "boundingRadius": 2.891
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 27,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 64,
+            "secondary": 64,
+            "pearl": 73,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 1,
+            "secondary": 64,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 89,
+            "secondary": 89,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 3,
+            "secondary": 89,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 38,
+            "secondary": 38,
+            "pearl": 89,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 70,
+            "secondary": 70,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_HAS_SUPERCHARGER",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_IS_ELECTRIC"
+        ]
+      },
       "stats": {
         "handlingId": "BUFFALO5",
         "mass": 1820,
@@ -90,6 +299,87 @@
         "id": "mp2023_01",
         "name": "San Andreas Mercenaries",
         "releaseDate": "2023-06-13"
+      },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "530_clique2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.954,
+            "y": -2.954,
+            "z": -0.45
+          },
+          "max": {
+            "x": 0.954,
+            "y": 2.403,
+            "z": 1.512
+          },
+          "length": 5.356,
+          "width": 1.907,
+          "height": 1.961,
+          "boundingRadius": 2.912
+        },
+        "defaultColors": [
+          {
+            "primary": 107,
+            "secondary": 120,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 68,
+            "secondary": 120,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 29,
+            "secondary": 120,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 50,
+            "secondary": 120,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 0,
+            "secondary": 120,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_CARGOBOB_HOOK_UP_CHASSIS",
+          "FLAG_EXTRAS_REQUIRE"
+        ]
       },
       "stats": {
         "handlingId": "CLIQUE2",
@@ -122,6 +412,104 @@
         "name": "San Andreas Mercenaries",
         "releaseDate": "2023-06-13"
       },
+      "details": {
+        "manufacturer": "Penaud",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "535_coureur_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.119,
+            "y": -2.395,
+            "z": -0.331
+          },
+          "max": {
+            "x": 1.119,
+            "y": 2.005,
+            "z": 1.336
+          },
+          "length": 4.4,
+          "width": 2.238,
+          "height": 1.667,
+          "boundingRadius": 2.468
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 89,
+            "pearl": 112,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 27,
+            "secondary": 27,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 64,
+            "secondary": 64,
+            "pearl": 73,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 89,
+            "secondary": 89,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 3,
+            "secondary": 27,
+            "pearl": 5,
+            "wheels": 27,
+            "interior": 93,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_IS_ELECTRIC",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
+      },
       "stats": {
         "handlingId": "COUREUR",
         "mass": 1500,
@@ -152,6 +540,122 @@
         "id": "mp2023_01",
         "name": "San Andreas Mercenaries",
         "releaseDate": "2023-06-13"
+      },
+      "details": {
+        "manufacturer": "Bravado",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "528_gauntlet6_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.013,
+            "y": -2.683,
+            "z": -0.375
+          },
+          "max": {
+            "x": 1.013,
+            "y": 2.493,
+            "z": 0.961
+          },
+          "length": 5.177,
+          "width": 2.026,
+          "height": 1.336,
+          "boundingRadius": 2.793
+        },
+        "defaultColors": [
+          {
+            "primary": 7,
+            "secondary": 8,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 7,
+            "dashboard": 89
+          },
+          {
+            "primary": 29,
+            "secondary": 8,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 7,
+            "dashboard": 89
+          },
+          {
+            "primary": 38,
+            "secondary": 8,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 7,
+            "dashboard": 89
+          },
+          {
+            "primary": 50,
+            "secondary": 8,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 7,
+            "dashboard": 89
+          },
+          {
+            "primary": 64,
+            "secondary": 8,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 7,
+            "dashboard": 89
+          },
+          {
+            "primary": 70,
+            "secondary": 8,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 7,
+            "dashboard": 89
+          },
+          {
+            "primary": 89,
+            "secondary": 8,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 7,
+            "dashboard": 89
+          },
+          {
+            "primary": 112,
+            "secondary": 8,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 7,
+            "dashboard": 89
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 111,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_ALL",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS"
+        ]
       },
       "stats": {
         "handlingId": "GAUNTLET6",
@@ -184,6 +688,114 @@
         "name": "San Andreas Mercenaries",
         "releaseDate": "2023-06-13"
       },
+      "details": {
+        "manufacturer": "Grotti",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "534_stingertt_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.113,
+            "y": -2.74,
+            "z": -0.488
+          },
+          "max": {
+            "x": 1.113,
+            "y": 2.38,
+            "z": 0.931
+          },
+          "length": 5.119,
+          "width": 2.226,
+          "height": 1.419,
+          "boundingRadius": 2.643
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 73,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 89,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 38,
+            "secondary": 1,
+            "pearl": 89,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 70,
+            "secondary": 1,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN"
+        ]
+      },
       "stats": {
         "handlingId": "STINGERTT",
         "mass": 1570,
@@ -214,6 +826,111 @@
         "id": "mp2023_01",
         "name": "San Andreas Mercenaries",
         "releaseDate": "2023-06-13"
+      },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "531_l35_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.997,
+            "y": -2.516,
+            "z": -0.664
+          },
+          "max": {
+            "x": 0.997,
+            "y": 2.293,
+            "z": 1.431
+          },
+          "length": 4.809,
+          "width": 1.994,
+          "height": 2.096,
+          "boundingRadius": 2.64
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 73,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 89,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 38,
+            "secondary": 1,
+            "pearl": 89,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 70,
+            "secondary": 1,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_SPOILER_MOD_DOESNT_INCREASE_GRIP",
+          "FLAG_USE_STRICTER_EXIT_COLLISION_TESTS"
+        ]
       },
       "stats": {
         "handlingId": "L35",
@@ -246,6 +963,85 @@
         "name": "San Andreas Mercenaries",
         "releaseDate": "2023-06-13"
       },
+      "details": {
+        "manufacturer": "Maibatsu",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "541_monstrociti_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.978,
+            "y": -2.228,
+            "z": -0.608
+          },
+          "max": {
+            "x": 0.978,
+            "y": 2.035,
+            "z": 1.617
+          },
+          "length": 4.263,
+          "width": 1.956,
+          "height": 2.225,
+          "boundingRadius": 2.448
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 27,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 29,
+            "dashboard": 134
+          },
+          {
+            "primary": 25,
+            "secondary": 25,
+            "pearl": 5,
+            "wheels": 88,
+            "interior": 29,
+            "dashboard": 134
+          },
+          {
+            "primary": 12,
+            "secondary": 12,
+            "pearl": 5,
+            "wheels": 88,
+            "interior": 29,
+            "dashboard": 134
+          },
+          {
+            "primary": 39,
+            "secondary": 39,
+            "pearl": 5,
+            "wheels": 87,
+            "interior": 29,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_ALL",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_NO_BOOT",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_IS_BULKY",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS"
+        ]
+      },
       "stats": {
         "handlingId": "MONSTROCITI",
         "mass": 1990,
@@ -276,6 +1072,82 @@
         "id": "mp2023_01",
         "name": "San Andreas Mercenaries",
         "releaseDate": "2023-06-13"
+      },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "533_ratel_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.148,
+            "y": -2.686,
+            "z": -0.755
+          },
+          "max": {
+            "x": 1.148,
+            "y": 2.437,
+            "z": 1.317
+          },
+          "length": 5.123,
+          "width": 2.296,
+          "height": 2.071,
+          "boundingRadius": 2.74
+        },
+        "defaultColors": [
+          {
+            "primary": 14,
+            "secondary": 13,
+            "pearl": 5,
+            "wheels": 88,
+            "interior": 29,
+            "dashboard": 134
+          },
+          {
+            "primary": 25,
+            "secondary": 13,
+            "pearl": 5,
+            "wheels": 88,
+            "interior": 29,
+            "dashboard": 134
+          },
+          {
+            "primary": 12,
+            "secondary": 13,
+            "pearl": 5,
+            "wheels": 88,
+            "interior": 29,
+            "dashboard": 134
+          },
+          {
+            "primary": 39,
+            "secondary": 13,
+            "pearl": 5,
+            "wheels": 87,
+            "interior": 29,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_IS_BULKY"
+        ]
       },
       "stats": {
         "handlingId": "RATEL",
@@ -308,6 +1180,68 @@
         "name": "San Andreas Mercenaries",
         "releaseDate": "2023-06-13"
       },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "540_speedo5_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SPEEDO4_MG",
+          "VEHICLE_WEAPON_SPEEDO4_TURRET_MG",
+          "VEHICLE_WEAPON_SPEEDO4_TURRET_MINI"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.173,
+            "y": -2.874,
+            "z": -0.752
+          },
+          "max": {
+            "x": 1.173,
+            "y": 3.509,
+            "z": 1.822
+          },
+          "length": 6.383,
+          "width": 2.346,
+          "height": 2.574,
+          "boundingRadius": 2.993
+        },
+        "defaultColors": [
+          {
+            "primary": 5,
+            "secondary": 2,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SMALL_WORKER",
+          "FLAG_IS_VAN",
+          "FLAG_DELIVERY",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_IS_BULKY",
+          "FLAG_TURRET_MODS_ON_ROOF",
+          "FLAG_CARGOBOB_HOOK_UP_CHASSIS",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_KEEP_ALL_TURRETS_SYNCHRONISED",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS",
+          "FLAG_HAS_INCREASED_RAMMING_FORCE_WITH_CHASSIS_MOD"
+        ]
+      },
       "stats": {
         "handlingId": "SPEEDO4",
         "mass": 2500,
@@ -338,6 +1272,114 @@
         "id": "mp2023_01",
         "name": "San Andreas Mercenaries",
         "releaseDate": "2023-06-13"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "BICYCLE",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": true
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.495,
+            "y": -0.898,
+            "z": -0.664
+          },
+          "max": {
+            "x": 0.505,
+            "y": 1.046,
+            "z": 1.01
+          },
+          "length": 1.943,
+          "width": 1,
+          "height": 1.674,
+          "boundingRadius": 0.892
+        },
+        "defaultColors": [
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 112,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 89,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 38,
+            "secondary": 1,
+            "pearl": 89,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 70,
+            "secondary": 1,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_IS_ELECTRIC"
+        ]
       },
       "stats": {
         "handlingId": "INDUCTOR",
@@ -370,6 +1412,113 @@
         "name": "San Andreas Mercenaries",
         "releaseDate": "2023-06-13"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "BICYCLE",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 2,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": true
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.495,
+            "y": -0.898,
+            "z": -0.664
+          },
+          "max": {
+            "x": 0.505,
+            "y": 1.046,
+            "z": 1.01
+          },
+          "length": 1.943,
+          "width": 1,
+          "height": 1.674,
+          "boundingRadius": 0.892
+        },
+        "defaultColors": [
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 112,
+            "secondary": 0,
+            "pearl": 0,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 89,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 38,
+            "secondary": 1,
+            "pearl": 89,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 70,
+            "secondary": 1,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_TIMESLICE_WHEELS"
+        ]
+      },
       "stats": {
         "handlingId": "INDUCTOR",
         "mass": 125,
@@ -400,6 +1549,96 @@
         "id": "mp2023_01",
         "name": "San Andreas Mercenaries",
         "releaseDate": "2023-06-13"
+      },
+      "details": {
+        "manufacturer": "Buckingham",
+        "type": "HELI",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "527_conada2_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_CONADA2_MINIGUN",
+          "VEHICLE_WEAPON_CONADA2_MISSILE",
+          "VEHICLE_WEAPON_SEARCHLIGHT"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -5.283,
+            "y": -7.534,
+            "z": -0.928
+          },
+          "max": {
+            "x": 5.283,
+            "y": 4.635,
+            "z": 2.475
+          },
+          "length": 12.168,
+          "width": 10.565,
+          "height": 3.403,
+          "boundingRadius": 8.139
+        },
+        "defaultColors": [
+          {
+            "primary": 152,
+            "secondary": 13,
+            "pearl": 154,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 154,
+            "secondary": 13,
+            "pearl": 154,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 14,
+            "secondary": 13,
+            "pearl": 14,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 151,
+            "secondary": 13,
+            "pearl": 14,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 153,
+            "secondary": 13,
+            "pearl": 14,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_DONT_ROTATE_TAIL_ROTOR",
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_DONT_TIMESLICE_WHEELS"
+        ]
       },
       "stats": {
         "handlingId": "CONADA2",
@@ -432,6 +1671,113 @@
         "name": "San Andreas Mercenaries",
         "releaseDate": "2023-06-13"
       },
+      "details": {
+        "manufacturer": "Mammoth",
+        "type": "PLANE",
+        "seats": 3,
+        "doors": 4,
+        "wheels": 6,
+        "modKits": [
+          "532_avenger3_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_AVENGER_CANNON",
+          "VEHICLE_WEAPON_AVENGER3_MINIGUN",
+          "VEHICLE_WEAPON_AVENGER3_MISSILE"
+        ],
+        "features": {
+          "convertibleRoof": true,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -16.203,
+            "y": -11.641,
+            "z": -2.641
+          },
+          "max": {
+            "x": 16.203,
+            "y": 10.53,
+            "z": 6.101
+          },
+          "length": 22.171,
+          "width": 32.406,
+          "height": 8.742,
+          "boundingRadius": 20.056
+        },
+        "defaultColors": [
+          {
+            "primary": 14,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 13,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 13,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 155,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 152,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 153,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_USE_INTERIOR_RED_LIGHT",
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HEADLIGHTS_ON_LANDINGGEAR",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_USE_TURRET_RELATIVE_AIM_CALCULATION",
+          "FLAG_USE_STANDARD_FLIGHT_HELMET",
+          "FLAG_HAS_JATO_BOOST_MOD",
+          "FLAG_HOLD_TO_SHUFFLE",
+          "FLAG_HAS_VERTICAL_FLIGHT_MODE",
+          "FLAG_DONT_CRASH_ABANDONED_NEAR_GROUND",
+          "FLAG_CHECK_WARP_TASK_FLAG_DURING_ENTER",
+          "FLAG_USE_ROOT_AS_BASE_LOCKON_POS"
+        ]
+      },
       "stats": {
         "handlingId": "AVENGER3",
         "mass": 18250,
@@ -462,6 +1808,113 @@
         "id": "mp2023_01",
         "name": "San Andreas Mercenaries",
         "releaseDate": "2023-06-13"
+      },
+      "details": {
+        "manufacturer": "Mammoth",
+        "type": "PLANE",
+        "seats": 3,
+        "doors": 4,
+        "wheels": 6,
+        "modKits": [
+          "532_avenger3_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_AVENGER_CANNON",
+          "VEHICLE_WEAPON_AVENGER3_MINIGUN",
+          "VEHICLE_WEAPON_AVENGER3_MISSILE"
+        ],
+        "features": {
+          "convertibleRoof": true,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -7.87,
+            "y": -11.641,
+            "z": -2.641
+          },
+          "max": {
+            "x": 7.928,
+            "y": 10.53,
+            "z": 6.101
+          },
+          "length": 22.171,
+          "width": 15.798,
+          "height": 8.742,
+          "boundingRadius": 14.366
+        },
+        "defaultColors": [
+          {
+            "primary": 14,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 13,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 13,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 155,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 152,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 153,
+            "secondary": 131,
+            "pearl": 131,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_USE_INTERIOR_RED_LIGHT",
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HEADLIGHTS_ON_LANDINGGEAR",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_USE_TURRET_RELATIVE_AIM_CALCULATION",
+          "FLAG_USE_STANDARD_FLIGHT_HELMET",
+          "FLAG_HAS_JATO_BOOST_MOD",
+          "FLAG_HOLD_TO_SHUFFLE",
+          "FLAG_HAS_VERTICAL_FLIGHT_MODE",
+          "FLAG_DONT_CRASH_ABANDONED_NEAR_GROUND",
+          "FLAG_CHECK_WARP_TASK_FLAG_DURING_ENTER",
+          "FLAG_USE_ROOT_AS_BASE_LOCKON_POS"
+        ]
       },
       "stats": {
         "handlingId": "AVENGER3",
@@ -494,6 +1947,64 @@
         "name": "San Andreas Mercenaries",
         "releaseDate": "2023-06-13"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "PLANE",
+        "seats": 1,
+        "doors": 1,
+        "wheels": 3,
+        "modKits": [
+          "539_raiju_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_RAIJU_CANNONS",
+          "VEHICLE_WEAPON_RAIJU_MISSILES"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -5.423,
+            "y": -8.375,
+            "z": -2.049
+          },
+          "max": {
+            "x": 5.423,
+            "y": 7.641,
+            "z": 2.085
+          },
+          "length": 16.016,
+          "width": 10.847,
+          "height": 4.134,
+          "boundingRadius": 9.638
+        },
+        "defaultColors": [
+          {
+            "primary": 121,
+            "secondary": 121,
+            "pearl": 8,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_PILOT_HELMET",
+          "FLAG_DISABLE_WEAPON_WHEEL_IN_FIRST_PERSON"
+        ]
+      },
       "stats": {
         "handlingId": "RAIJU",
         "mass": 11000,
@@ -524,6 +2035,122 @@
         "id": "mp2023_01",
         "name": "San Andreas Mercenaries",
         "releaseDate": "2023-06-13"
+      },
+      "details": {
+        "manufacturer": "Mammoth",
+        "type": "PLANE",
+        "seats": 4,
+        "doors": 5,
+        "wheels": 3,
+        "modKits": [
+          "536_streamer216_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_STREAMER_NOSEMG"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -9.923,
+            "y": -10.027,
+            "z": -2.559
+          },
+          "max": {
+            "x": 9.923,
+            "y": 6.872,
+            "z": 3.449
+          },
+          "length": 16.899,
+          "width": 19.846,
+          "height": 6.007,
+          "boundingRadius": 12.978
+        },
+        "defaultColors": [
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 73,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 23,
+            "secondary": 0,
+            "pearl": 23,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 89,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 38,
+            "secondary": 1,
+            "pearl": 89,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 70,
+            "secondary": 1,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_STANDARD_FLIGHT_HELMET",
+          "FLAG_HAS_JATO_BOOST_MOD",
+          "FLAG_IGNORE_TRAPPED_HULL_CHECK",
+          "FLAG_HOLD_TO_SHUFFLE",
+          "FLAG_USE_ROOT_AS_BASE_LOCKON_POS"
+        ]
       },
       "stats": {
         "handlingId": "STREAMER216",

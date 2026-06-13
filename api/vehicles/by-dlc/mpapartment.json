@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "id": "mpapartment",
@@ -28,6 +28,58 @@
         "id": "mpapartment",
         "name": "Executives and Other Criminals",
         "releaseDate": "2015-12-15"
+      },
+      "details": {
+        "manufacturer": "Enus",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.996,
+            "y": -2.938,
+            "z": -0.521
+          },
+          "max": {
+            "x": 0.999,
+            "y": 2.759,
+            "z": 1.063
+          },
+          "length": 5.697,
+          "width": 1.995,
+          "height": 1.584,
+          "boundingRadius": 3.047
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 156,
+            "wheels": 156,
+            "interior": 48,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_PARKING_SENSORS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
       },
       "stats": {
         "handlingId": "COG55",
@@ -60,6 +112,61 @@
         "name": "Executives and Other Criminals",
         "releaseDate": "2015-12-15"
       },
+      "details": {
+        "manufacturer": "Enus",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.996,
+            "y": -2.938,
+            "z": -0.521
+          },
+          "max": {
+            "x": 0.999,
+            "y": 2.759,
+            "z": 1.063
+          },
+          "length": 5.697,
+          "width": 1.995,
+          "height": 1.584,
+          "boundingRadius": 3.047
+        },
+        "defaultColors": [
+          {
+            "primary": 12,
+            "secondary": 12,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 48,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_PARKING_SENSORS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS",
+          "FLAG_HAS_INCREASED_RAMMING_FORCE",
+          "FLAG_HAS_CAPPED_EXPLOSION_DAMAGE"
+        ]
+      },
       "stats": {
         "handlingId": "COG552",
         "mass": 2600,
@@ -90,6 +197,58 @@
         "id": "mpapartment",
         "name": "Executives and Other Criminals",
         "releaseDate": "2015-12-15"
+      },
+      "details": {
+        "manufacturer": "Enus",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.005,
+            "y": -3.311,
+            "z": -0.628
+          },
+          "max": {
+            "x": 0.999,
+            "y": 3.015,
+            "z": 1.005
+          },
+          "length": 6.326,
+          "width": 2.004,
+          "height": 1.632,
+          "boundingRadius": 3.327
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 156,
+            "wheels": 156,
+            "interior": 48,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_PARKING_SENSORS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
       },
       "stats": {
         "handlingId": "COGNOSC",
@@ -122,6 +281,61 @@
         "name": "Executives and Other Criminals",
         "releaseDate": "2015-12-15"
       },
+      "details": {
+        "manufacturer": "Enus",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.005,
+            "y": -3.311,
+            "z": -0.628
+          },
+          "max": {
+            "x": 0.999,
+            "y": 3.015,
+            "z": 1.005
+          },
+          "length": 6.326,
+          "width": 2.004,
+          "height": 1.632,
+          "boundingRadius": 3.327
+        },
+        "defaultColors": [
+          {
+            "primary": 12,
+            "secondary": 12,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 48,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_PARKING_SENSORS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS",
+          "FLAG_HAS_INCREASED_RAMMING_FORCE",
+          "FLAG_HAS_CAPPED_EXPLOSION_DAMAGE"
+        ]
+      },
       "stats": {
         "handlingId": "COGNOSC2",
         "mass": 2800,
@@ -152,6 +366,66 @@
         "id": "mpapartment",
         "name": "Executives and Other Criminals",
         "releaseDate": "2015-12-15"
+      },
+      "details": {
+        "manufacturer": "Benefactor",
+        "type": "CAR",
+        "seats": 5,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_TURRET_LIMO"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.988,
+            "y": -3.304,
+            "z": -0.523
+          },
+          "max": {
+            "x": 0.988,
+            "y": 3.13,
+            "z": 1.602
+          },
+          "length": 6.434,
+          "width": 1.976,
+          "height": 2.125,
+          "boundingRadius": 3.37
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 156,
+            "wheels": 156,
+            "interior": 48,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_PARKING_SENSORS",
+          "FLAG_RICH_CAR",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_HAS_TURRET_SEAT_ON_VEHICLE",
+          "FLAG_HAS_DIRECTIONAL_SHUFFLES",
+          "FLAG_USE_HEADING_ONLY_IN_TURRET_MATRIX",
+          "FLAG_DISABLE_BUSTING",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS",
+          "FLAG_HAS_CAPPED_EXPLOSION_DAMAGE",
+          "FLAG_HAS_INCREASED_RAMMING_FORCE"
+        ]
       },
       "stats": {
         "handlingId": "LIMO2",
@@ -184,6 +458,60 @@
         "name": "Executives and Other Criminals",
         "releaseDate": "2015-12-15"
       },
+      "details": {
+        "manufacturer": "Benefactor",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "126_schafter5_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.988,
+            "y": -2.828,
+            "z": -0.577
+          },
+          "max": {
+            "x": 0.988,
+            "y": 2.594,
+            "z": 0.947
+          },
+          "length": 5.422,
+          "width": 1.976,
+          "height": 1.525,
+          "boundingRadius": 2.895
+        },
+        "defaultColors": [
+          {
+            "primary": 12,
+            "secondary": 12,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 48,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_PARKING_SENSORS",
+          "FLAG_RICH_CAR",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS",
+          "FLAG_HAS_INCREASED_RAMMING_FORCE",
+          "FLAG_HAS_CAPPED_EXPLOSION_DAMAGE"
+        ]
+      },
       "stats": {
         "handlingId": "SCHAFTER5",
         "mass": 1650,
@@ -214,6 +542,60 @@
         "id": "mpapartment",
         "name": "Executives and Other Criminals",
         "releaseDate": "2015-12-15"
+      },
+      "details": {
+        "manufacturer": "Benefactor",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "127_schafter6_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.988,
+            "y": -3.029,
+            "z": -0.608
+          },
+          "max": {
+            "x": 0.988,
+            "y": 2.594,
+            "z": 0.947
+          },
+          "length": 5.623,
+          "width": 1.976,
+          "height": 1.555,
+          "boundingRadius": 2.991
+        },
+        "defaultColors": [
+          {
+            "primary": 12,
+            "secondary": 12,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 48,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_PARKING_SENSORS",
+          "FLAG_RICH_CAR",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS",
+          "FLAG_HAS_INCREASED_RAMMING_FORCE",
+          "FLAG_HAS_CAPPED_EXPLOSION_DAMAGE"
+        ]
       },
       "stats": {
         "handlingId": "SCHAFTER6",
@@ -246,6 +628,66 @@
         "name": "Executives and Other Criminals",
         "releaseDate": "2015-12-15"
       },
+      "details": {
+        "manufacturer": "Gallivanter",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.144,
+            "y": -2.818,
+            "z": -0.928
+          },
+          "max": {
+            "x": 1.144,
+            "y": 2.439,
+            "z": 0.947
+          },
+          "length": 5.258,
+          "width": 2.288,
+          "height": 1.875,
+          "boundingRadius": 2.949
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 7,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 7,
+            "interior": 8,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_PARKING_SENSORS",
+          "FLAG_RICH_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
+      },
       "stats": {
         "handlingId": "BALLER3",
         "mass": 2175,
@@ -276,6 +718,66 @@
         "id": "mpapartment",
         "name": "Executives and Other Criminals",
         "releaseDate": "2015-12-15"
+      },
+      "details": {
+        "manufacturer": "Gallivanter",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.144,
+            "y": -3.144,
+            "z": -0.923
+          },
+          "max": {
+            "x": 1.144,
+            "y": 2.439,
+            "z": 0.947
+          },
+          "length": 5.584,
+          "width": 2.288,
+          "height": 1.871,
+          "boundingRadius": 3.085
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 7,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 7,
+            "interior": 8,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_PARKING_SENSORS",
+          "FLAG_RICH_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
       },
       "stats": {
         "handlingId": "BALLER4",
@@ -308,6 +810,61 @@
         "name": "Executives and Other Criminals",
         "releaseDate": "2015-12-15"
       },
+      "details": {
+        "manufacturer": "Gallivanter",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.144,
+            "y": -2.818,
+            "z": -0.928
+          },
+          "max": {
+            "x": 1.144,
+            "y": 2.439,
+            "z": 0.947
+          },
+          "length": 5.258,
+          "width": 2.288,
+          "height": 1.875,
+          "boundingRadius": 2.949
+        },
+        "defaultColors": [
+          {
+            "primary": 12,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 7,
+            "interior": 8,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_PARKING_SENSORS",
+          "FLAG_RICH_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS",
+          "FLAG_HAS_INCREASED_RAMMING_FORCE",
+          "FLAG_HAS_CAPPED_EXPLOSION_DAMAGE"
+        ]
+      },
       "stats": {
         "handlingId": "BALLER5",
         "mass": 2275,
@@ -338,6 +895,61 @@
         "id": "mpapartment",
         "name": "Executives and Other Criminals",
         "releaseDate": "2015-12-15"
+      },
+      "details": {
+        "manufacturer": "Gallivanter",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.144,
+            "y": -3.144,
+            "z": -0.923
+          },
+          "max": {
+            "x": 1.144,
+            "y": 2.439,
+            "z": 0.947
+          },
+          "length": 5.584,
+          "width": 2.288,
+          "height": 1.871,
+          "boundingRadius": 3.085
+        },
+        "defaultColors": [
+          {
+            "primary": 12,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 7,
+            "interior": 8,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_PARKING_SENSORS",
+          "FLAG_RICH_CAR",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "FLAG_IS_BULKY",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS",
+          "FLAG_HAS_INCREASED_RAMMING_FORCE",
+          "FLAG_HAS_CAPPED_EXPLOSION_DAMAGE"
+        ]
       },
       "stats": {
         "handlingId": "BALLER6",
@@ -370,6 +982,58 @@
         "name": "Executives and Other Criminals",
         "releaseDate": "2015-12-15"
       },
+      "details": {
+        "manufacturer": "Imponte",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "122_nightshade_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.14,
+            "y": -2.978,
+            "z": -0.406
+          },
+          "max": {
+            "x": 1.14,
+            "y": 2.327,
+            "z": 0.923
+          },
+          "length": 5.305,
+          "width": 2.279,
+          "height": 1.329,
+          "boundingRadius": 2.663
+        },
+        "defaultColors": [
+          {
+            "primary": 75,
+            "secondary": 75,
+            "pearl": 70,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
+      },
       "stats": {
         "handlingId": "NITESHAD",
         "mass": 1400,
@@ -400,6 +1064,59 @@
         "id": "mpapartment",
         "name": "Executives and Other Criminals",
         "releaseDate": "2015-12-15"
+      },
+      "details": {
+        "manufacturer": "Declasse",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "125_mamba_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.867,
+            "y": -2.133,
+            "z": -0.296
+          },
+          "max": {
+            "x": 0.867,
+            "y": 1.829,
+            "z": 0.911
+          },
+          "length": 3.962,
+          "width": 1.735,
+          "height": 1.207,
+          "boundingRadius": 2.155
+        },
+        "defaultColors": [
+          {
+            "primary": 75,
+            "secondary": 75,
+            "pearl": 70,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_EXTRAS_CONVERTIBLE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS"
+        ]
       },
       "stats": {
         "handlingId": "MAMBA",
@@ -432,6 +1149,57 @@
         "name": "Executives and Other Criminals",
         "releaseDate": "2015-12-15"
       },
+      "details": {
+        "manufacturer": "Benefactor",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "123_schafter3_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.988,
+            "y": -2.828,
+            "z": -0.577
+          },
+          "max": {
+            "x": 0.988,
+            "y": 2.594,
+            "z": 0.947
+          },
+          "length": 5.422,
+          "width": 1.976,
+          "height": 1.525,
+          "boundingRadius": 2.895
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 156,
+            "wheels": 156,
+            "interior": 48,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_PARKING_SENSORS",
+          "FLAG_RICH_CAR",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
+      },
       "stats": {
         "handlingId": "SCHAFTER3",
         "mass": 1500,
@@ -462,6 +1230,57 @@
         "id": "mpapartment",
         "name": "Executives and Other Criminals",
         "releaseDate": "2015-12-15"
+      },
+      "details": {
+        "manufacturer": "Benefactor",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "124_schafter4_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.988,
+            "y": -3.029,
+            "z": -0.608
+          },
+          "max": {
+            "x": 0.988,
+            "y": 2.594,
+            "z": 0.947
+          },
+          "length": 5.623,
+          "width": 1.976,
+          "height": 1.555,
+          "boundingRadius": 2.991
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 156,
+            "wheels": 156,
+            "interior": 48,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_PARKING_SENSORS",
+          "FLAG_RICH_CAR",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS"
+        ]
       },
       "stats": {
         "handlingId": "SCHAFTER4",
@@ -494,6 +1313,168 @@
         "name": "Executives and Other Criminals",
         "releaseDate": "2015-12-15"
       },
+      "details": {
+        "manufacturer": "Bravado",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "121_verlierer2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.005,
+            "y": -2.275,
+            "z": -0.485
+          },
+          "max": {
+            "x": 1.005,
+            "y": 2.392,
+            "z": 0.729
+          },
+          "length": 4.667,
+          "width": 2.011,
+          "height": 1.214,
+          "boundingRadius": 2.491
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 3,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 63,
+            "secondary": 0,
+            "pearl": 7,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 4,
+            "secondary": 3,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 3,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 6,
+            "secondary": 3,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 38,
+            "secondary": 3,
+            "pearl": 89,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 80,
+            "secondary": 3,
+            "pearl": 68,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 89,
+            "secondary": 3,
+            "pearl": 89,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 92,
+            "secondary": 3,
+            "pearl": 90,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 3,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 13,
+            "secondary": 3,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 39,
+            "secondary": 3,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 31,
+            "secondary": 3,
+            "pearl": 28,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 41,
+            "secondary": 3,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 37,
+            "secondary": 0,
+            "pearl": 106,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO"
+        ]
+      },
       "stats": {
         "handlingId": "VERLIER",
         "mass": 1100,
@@ -524,6 +1505,61 @@
         "id": "mpapartment",
         "name": "Executives and Other Criminals",
         "releaseDate": "2015-12-15"
+      },
+      "details": {
+        "manufacturer": "Nagasaki",
+        "type": "BOAT",
+        "seats": 4,
+        "doors": 0,
+        "wheels": 0,
+        "modKits": [],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SEARCHLIGHT"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.489,
+            "y": -3.711,
+            "z": -0.644
+          },
+          "max": {
+            "x": 1.489,
+            "y": 4.102,
+            "z": 2.79
+          },
+          "length": 7.813,
+          "width": 2.977,
+          "height": 3.434,
+          "boundingRadius": 13.054
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 8,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_SPAWN_BOAT_ON_TRAILER",
+          "FLAG_EXTRAS_RARE",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_GIVE_SCUBA_GEAR_ON_EXIT"
+        ]
       },
       "stats": {
         "handlingId": "DINGHY",
@@ -556,6 +1592,56 @@
         "name": "Executives and Other Criminals",
         "releaseDate": "2015-12-15"
       },
+      "details": {
+        "manufacturer": "Speedophile",
+        "type": "BOAT",
+        "seats": 2,
+        "doors": 0,
+        "wheels": 0,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.62,
+            "y": -1.742,
+            "z": -0.178
+          },
+          "max": {
+            "x": 0.62,
+            "y": 1.757,
+            "z": 1.665
+          },
+          "length": 3.499,
+          "width": 1.24,
+          "height": 1.843,
+          "boundingRadius": 1.942
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 132,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_RARE",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_IS_JETSKI",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
+      },
       "stats": {
         "handlingId": "SEASHARK",
         "mass": 400,
@@ -586,6 +1672,57 @@
         "id": "mpapartment",
         "name": "Executives and Other Criminals",
         "releaseDate": "2015-12-15"
+      },
+      "details": {
+        "manufacturer": "Pegassi",
+        "type": "BOAT",
+        "seats": 4,
+        "doors": 0,
+        "wheels": 0,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.338,
+            "y": -5.32,
+            "z": -0.864
+          },
+          "max": {
+            "x": 1.362,
+            "y": 5.575,
+            "z": 1.319
+          },
+          "length": 10.894,
+          "width": 2.7,
+          "height": 2.183,
+          "boundingRadius": 5.649
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 12,
+            "pearl": 7,
+            "wheels": 28,
+            "interior": 88,
+            "dashboard": 55
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
       },
       "stats": {
         "handlingId": "speeder",
@@ -618,6 +1755,63 @@
         "name": "Executives and Other Criminals",
         "releaseDate": "2015-12-15"
       },
+      "details": {
+        "manufacturer": "Lampadati",
+        "type": "BOAT",
+        "seats": 4,
+        "doors": 0,
+        "wheels": 0,
+        "modKits": [
+          "0_default_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.673,
+            "y": -5.197,
+            "z": -1.388
+          },
+          "max": {
+            "x": 1.673,
+            "y": 4.917,
+            "z": 1.52
+          },
+          "length": 10.114,
+          "width": 3.346,
+          "height": 2.908,
+          "boundingRadius": 5.554
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 0,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_SPAWN_BOAT_ON_TRAILER",
+          "FLAG_EXTRAS_RARE",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_RICH_CAR",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_HAS_REAR_SEAT_ACTIVITIES"
+        ]
+      },
       "stats": {
         "handlingId": "TORO",
         "mass": 1100,
@@ -648,6 +1842,115 @@
         "id": "mpapartment",
         "name": "Executives and Other Criminals",
         "releaseDate": "2015-12-15"
+      },
+      "details": {
+        "manufacturer": "Shitzu",
+        "type": "BOAT",
+        "seats": 4,
+        "doors": 0,
+        "wheels": 0,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.275,
+            "y": -3.781,
+            "z": -1.167
+          },
+          "max": {
+            "x": 1.275,
+            "y": 4.25,
+            "z": 2.705
+          },
+          "length": 8.031,
+          "width": 2.551,
+          "height": 3.872,
+          "boundingRadius": 4.741
+        },
+        "defaultColors": [
+          {
+            "primary": 121,
+            "secondary": 11,
+            "pearl": 7,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 20,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 46,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 46,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 113,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 87,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 98,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 111,
+            "secondary": 58,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_SPAWN_BOAT_ON_TRAILER",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT"
+        ]
       },
       "stats": {
         "handlingId": "TROPIC",
@@ -680,6 +1983,60 @@
         "name": "Executives and Other Criminals",
         "releaseDate": "2015-12-15"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "HELI",
+        "seats": 10,
+        "doors": 3,
+        "wheels": 3,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -6.618,
+            "y": -11.748,
+            "z": -1.459
+          },
+          "max": {
+            "x": 6.618,
+            "y": 10.756,
+            "z": 3.822
+          },
+          "length": 22.504,
+          "width": 13.235,
+          "height": 5.281,
+          "boundingRadius": 13.96
+        },
+        "defaultColors": [
+          {
+            "primary": 131,
+            "secondary": 131,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DONT_ROTATE_TAIL_ROTOR",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_CAN_BE_DRIVEN_ON",
+          "FLAG_DONT_TIMESLICE_WHEELS"
+        ]
+      },
       "stats": {
         "handlingId": "cargobob",
         "mass": 15000,
@@ -710,6 +2067,64 @@
         "id": "mpapartment",
         "name": "Executives and Other Criminals",
         "releaseDate": "2015-12-15"
+      },
+      "details": {
+        "manufacturer": "Buckingham",
+        "type": "HELI",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_defaultspraypatch"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SEARCHLIGHT"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -5.384,
+            "y": -8.237,
+            "z": -1.718
+          },
+          "max": {
+            "x": 5.384,
+            "y": 4.604,
+            "z": 2.516
+          },
+          "length": 12.841,
+          "width": 10.768,
+          "height": 4.234,
+          "boundingRadius": 8.48
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 63,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_HAS_REAR_SEAT_ACTIVITIES",
+          "FLAG_USE_LIGHTING_INTERIOR_OVERRIDE"
+        ]
       },
       "stats": {
         "handlingId": "SVOLITO",
@@ -742,6 +2157,64 @@
         "name": "Executives and Other Criminals",
         "releaseDate": "2015-12-15"
       },
+      "details": {
+        "manufacturer": "Buckingham",
+        "type": "HELI",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "0_defaultspraypatch"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SEARCHLIGHT"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -5.384,
+            "y": -8.237,
+            "z": -1.718
+          },
+          "max": {
+            "x": 5.384,
+            "y": 4.604,
+            "z": 2.516
+          },
+          "length": 12.841,
+          "width": 10.768,
+          "height": 4.234,
+          "boundingRadius": 8.48
+        },
+        "defaultColors": [
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_HAS_REAR_SEAT_ACTIVITIES",
+          "FLAG_USE_LIGHTING_INTERIOR_OVERRIDE"
+        ]
+      },
       "stats": {
         "handlingId": "SVOLITO",
         "mass": 6500,
@@ -772,6 +2245,62 @@
         "id": "mpapartment",
         "name": "Executives and Other Criminals",
         "releaseDate": "2015-12-15"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "HELI",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_TURRET_VALKYRIE"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -7.78,
+            "y": -10.729,
+            "z": -1.416
+          },
+          "max": {
+            "x": 7.78,
+            "y": 7.724,
+            "z": 3.25
+          },
+          "length": 18.453,
+          "width": 15.56,
+          "height": 4.666,
+          "boundingRadius": 12.709
+        },
+        "defaultColors": [
+          {
+            "primary": 14,
+            "secondary": 12,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_LAW_ENFORCEMENT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_HAS_TURRET_SEAT_ON_VEHICLE",
+          "FLAG_USE_TURRET_RELATIVE_AIM_CALCULATION"
+        ]
       },
       "stats": {
         "handlingId": "VALKYR2",

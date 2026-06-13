@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "id": "mpsmuggler",
@@ -28,6 +28,129 @@
         "id": "mpsmuggler",
         "name": "Smuggler's Run",
         "releaseDate": "2017-08-29"
+      },
+      "details": {
+        "manufacturer": "Dewbauchee",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "260_rapidgt3_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.957,
+            "y": -2.609,
+            "z": -0.657
+          },
+          "max": {
+            "x": 0.957,
+            "y": 2.325,
+            "z": 0.703
+          },
+          "length": 4.934,
+          "width": 1.913,
+          "height": 1.36,
+          "boundingRadius": 2.666
+        },
+        "defaultColors": [
+          {
+            "primary": 50,
+            "secondary": 132,
+            "pearl": 55,
+            "wheels": 156,
+            "interior": 154,
+            "dashboard": 0
+          },
+          {
+            "primary": 29,
+            "secondary": 112,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 11,
+            "secondary": 0,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 88,
+            "secondary": 0,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 112,
+            "secondary": 112,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 95,
+            "secondary": 112,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 62,
+            "secondary": 0,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 49,
+            "secondary": 0,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 38,
+            "secondary": 88,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 135,
+            "secondary": 74,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS"
+        ]
       },
       "stats": {
         "handlingId": "RAPIDGT3",
@@ -60,6 +183,57 @@
         "name": "Smuggler's Run",
         "releaseDate": "2017-08-29"
       },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "252_retinue_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.93,
+            "y": -2.537,
+            "z": -0.358
+          },
+          "max": {
+            "x": 0.93,
+            "y": 1.958,
+            "z": 1.1
+          },
+          "length": 4.494,
+          "width": 1.859,
+          "height": 1.457,
+          "boundingRadius": 2.375
+        },
+        "defaultColors": [
+          {
+            "primary": 38,
+            "secondary": 38,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 111,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS"
+        ]
+      },
       "stats": {
         "handlingId": "RETINUE",
         "mass": 900,
@@ -90,6 +264,92 @@
         "id": "mpsmuggler",
         "name": "Smuggler's Run",
         "releaseDate": "2017-08-29"
+      },
+      "details": {
+        "manufacturer": "Coil",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "254_cyclone_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.968,
+            "y": -2.233,
+            "z": -0.39
+          },
+          "max": {
+            "x": 0.968,
+            "y": 2.483,
+            "z": 0.858
+          },
+          "length": 4.715,
+          "width": 1.935,
+          "height": 1.249,
+          "boundingRadius": 2.502
+        },
+        "defaultColors": [
+          {
+            "primary": 5,
+            "secondary": 63,
+            "pearl": 63,
+            "wheels": 63,
+            "interior": 63,
+            "dashboard": 0
+          },
+          {
+            "primary": 34,
+            "secondary": 1,
+            "pearl": 158,
+            "wheels": 1,
+            "interior": 1,
+            "dashboard": 0
+          },
+          {
+            "primary": 38,
+            "secondary": 38,
+            "pearl": 134,
+            "wheels": 0,
+            "interior": 111,
+            "dashboard": 111
+          },
+          {
+            "primary": 11,
+            "secondary": 0,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          },
+          {
+            "primary": 88,
+            "secondary": 0,
+            "pearl": 87,
+            "wheels": 112,
+            "interior": 93,
+            "dashboard": 93
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_IS_ELECTRIC"
+        ]
       },
       "stats": {
         "handlingId": "CYCLONE",
@@ -122,6 +382,66 @@
         "name": "Smuggler's Run",
         "releaseDate": "2017-08-29"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "120_vigilante_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_VIGILANTE_MG",
+          "VEHICLE_WEAPON_VIGILANTE_MISSILE"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": true,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.352,
+            "y": -2.261,
+            "z": -0.602
+          },
+          "max": {
+            "x": 1.352,
+            "y": 4.33,
+            "z": 1.154
+          },
+          "length": 6.592,
+          "width": 2.704,
+          "height": 1.756,
+          "boundingRadius": 3.916
+        },
+        "defaultColors": [
+          {
+            "primary": 12,
+            "secondary": 0,
+            "pearl": 6,
+            "wheels": 0,
+            "interior": 8,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN",
+          "FLAG_HAS_GULL_WING_DOORS",
+          "FLAG_HAS_ROCKET_BOOST",
+          "FLAG_HAS_INCREASED_RAMMING_FORCE",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "FLAG_HAS_BULLETPROOF_GLASS"
+        ]
+      },
       "stats": {
         "handlingId": "VIGILANTE",
         "mass": 7500,
@@ -152,6 +472,61 @@
         "id": "mpsmuggler",
         "name": "Smuggler's Run",
         "releaseDate": "2017-08-29"
+      },
+      "details": {
+        "manufacturer": "Grotti",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "111_visione_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.413,
+            "y": -2.443,
+            "z": -0.64
+          },
+          "max": {
+            "x": 1.413,
+            "y": 2.345,
+            "z": 0.742
+          },
+          "length": 4.788,
+          "width": 2.826,
+          "height": 1.382,
+          "boundingRadius": 2.582
+        },
+        "defaultColors": [
+          {
+            "primary": 34,
+            "secondary": 1,
+            "pearl": 158,
+            "wheels": 1,
+            "interior": 1,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN",
+          "FLAG_HAS_GULL_WING_DOORS",
+          "FLAG_CARGOBOB_HOOK_UP_CHASSIS",
+          "FLAG_NO_HEAVY_BRAKE_ANIMATION"
+        ]
       },
       "stats": {
         "handlingId": "VISIONE",
@@ -184,6 +559,103 @@
         "name": "Smuggler's Run",
         "releaseDate": "2017-08-29"
       },
+      "details": {
+        "manufacturer": "Nagasaki",
+        "type": "HELI",
+        "seats": 1,
+        "doors": 1,
+        "wheels": 4,
+        "modKits": [
+          "238_havok_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_HAVOK_MINIGUN"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -3.094,
+            "y": -4.26,
+            "z": -1.618
+          },
+          "max": {
+            "x": 3.094,
+            "y": 4.218,
+            "z": 1.111
+          },
+          "length": 8.478,
+          "width": 6.187,
+          "height": 2.729,
+          "boundingRadius": 5.145
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 111,
+            "pearl": 7,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 5,
+            "secondary": 7,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 38,
+            "secondary": 5,
+            "pearl": 38,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 88,
+            "secondary": 5,
+            "pearl": 88,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 92,
+            "secondary": 112,
+            "pearl": 50,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 64,
+            "secondary": 112,
+            "pearl": 70,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_STANDARD_FLIGHT_HELMET"
+        ]
+      },
       "stats": {
         "handlingId": "HAVOK",
         "mass": 1000,
@@ -214,6 +686,89 @@
         "id": "mpsmuggler",
         "name": "Smuggler's Run",
         "releaseDate": "2017-08-29"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "HELI",
+        "seats": 2,
+        "doors": 6,
+        "wheels": 3,
+        "modKits": [
+          "247_hunter_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_HUNTER_MG",
+          "VEHICLE_WEAPON_HUNTER_MISSILE",
+          "VEHICLE_WEAPON_HUNTER_CANNON",
+          "VEHICLE_WEAPON_HUNTER_BARRAGE"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -11.002,
+            "y": -8.548,
+            "z": -2.305
+          },
+          "max": {
+            "x": 11.002,
+            "y": 13.589,
+            "z": 2.225
+          },
+          "length": 22.137,
+          "width": 22.005,
+          "height": 4.531,
+          "boundingRadius": 16.523
+        },
+        "defaultColors": [
+          {
+            "primary": 152,
+            "secondary": 13,
+            "pearl": 154,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 154,
+            "secondary": 13,
+            "pearl": 154,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 14,
+            "secondary": 13,
+            "pearl": 14,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_NO_RESPRAY",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_HELI_USES_FIXUPS_ON_OPEN_DOOR",
+          "FLAG_HAS_TURRET_SEAT_ON_VEHICLE",
+          "FLAG_DISABLE_WEAPON_WHEEL_IN_FIRST_PERSON",
+          "FLAG_USE_TURRET_RELATIVE_AIM_CALCULATION",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_USE_PILOT_HELMET",
+          "FLAG_HAS_CAPPED_EXPLOSION_DAMAGE",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING"
+        ]
       },
       "stats": {
         "handlingId": "HUNTER",
@@ -246,6 +801,107 @@
         "name": "Smuggler's Run",
         "releaseDate": "2017-08-29"
       },
+      "details": {
+        "manufacturer": "Buckingham",
+        "type": "PLANE",
+        "seats": 1,
+        "doors": 1,
+        "wheels": 3,
+        "modKits": [
+          "242_alphaz1_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -3.791,
+            "y": -3.058,
+            "z": -1.018
+          },
+          "max": {
+            "x": 3.791,
+            "y": 3.053,
+            "z": 0.807
+          },
+          "length": 6.111,
+          "width": 7.582,
+          "height": 1.825,
+          "boundingRadius": 4.886
+        },
+        "defaultColors": [
+          {
+            "primary": 5,
+            "secondary": 5,
+            "pearl": 7,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 112,
+            "secondary": 112,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 67,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 64,
+            "secondary": 112,
+            "pearl": 74,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 88,
+            "secondary": 111,
+            "pearl": 38,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 38,
+            "secondary": 111,
+            "pearl": 7,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 37,
+            "secondary": 11,
+            "pearl": 90,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS"
+        ]
+      },
       "stats": {
         "handlingId": "ALPHAZ1",
         "mass": 450,
@@ -276,6 +932,122 @@
         "id": "mpsmuggler",
         "name": "Smuggler's Run",
         "releaseDate": "2017-08-29"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "PLANE",
+        "seats": 6,
+        "doors": 3,
+        "wheels": 5,
+        "modKits": [
+          "243_bombushka_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_BOMBUSHKA_DUALMG",
+          "VEHICLE_WEAPON_BOMBUSHKA_CANNON"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -19.178,
+            "y": -23.639,
+            "z": -1.847
+          },
+          "max": {
+            "x": 19.178,
+            "y": 11.178,
+            "z": 8.907
+          },
+          "length": 34.817,
+          "width": 38.356,
+          "height": 10.754,
+          "boundingRadius": 26.261
+        },
+        "defaultColors": [
+          {
+            "primary": 121,
+            "secondary": 25,
+            "pearl": 7,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 14,
+            "secondary": 25,
+            "pearl": 7,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 154,
+            "secondary": 25,
+            "pearl": 3,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 152,
+            "secondary": 25,
+            "pearl": 3,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 133,
+            "secondary": 10,
+            "pearl": 3,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 13,
+            "secondary": 10,
+            "pearl": 3,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 10,
+            "pearl": 3,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_LIGHTING_INTERIOR_OVERRIDE",
+          "FLAG_HAS_TURRET_SEAT_ON_VEHICLE",
+          "FLAG_USE_TURRET_RELATIVE_AIM_CALCULATION",
+          "FLAG_USE_STANDARD_FLIGHT_HELMET",
+          "FLAG_TURRET_MODS_ON_ROOF",
+          "FLAG_SECOND_TURRET_MOD",
+          "FLAG_HAS_JATO_BOOST_MOD",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_KEEP_ALL_TURRETS_SYNCHRONISED",
+          "FLAG_DISABLE_CAMERA_PUSH_BEYOND",
+          "FLAG_HAS_EXTRA_SHUFFLE_SEAT_ON_VEHICLE",
+          "FLAG_DONT_CRASH_ABANDONED_NEAR_GROUND"
+        ]
       },
       "stats": {
         "handlingId": "BOMBUSHKA",
@@ -308,6 +1080,60 @@
         "name": "Smuggler's Run",
         "releaseDate": "2017-08-29"
       },
+      "details": {
+        "manufacturer": "Buckingham",
+        "type": "PLANE",
+        "seats": 1,
+        "doors": 1,
+        "wheels": 3,
+        "modKits": [
+          "129_howard_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -4.783,
+            "y": -4.47,
+            "z": -1.482
+          },
+          "max": {
+            "x": 4.783,
+            "y": 3.813,
+            "z": 1.872
+          },
+          "length": 8.283,
+          "width": 9.567,
+          "height": 3.355,
+          "boundingRadius": 6.522
+        },
+        "defaultColors": [
+          {
+            "primary": 14,
+            "secondary": 25,
+            "pearl": 7,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_STANDARD_FLIGHT_HELMET"
+        ]
+      },
       "stats": {
         "handlingId": "HOWARD",
         "mass": 450,
@@ -338,6 +1164,131 @@
         "id": "mpsmuggler",
         "name": "Smuggler's Run",
         "releaseDate": "2017-08-29"
+      },
+      "details": {
+        "manufacturer": "Nagasaki",
+        "type": "PLANE",
+        "seats": 1,
+        "doors": 0,
+        "wheels": 3,
+        "modKits": [
+          "253_microlight_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_MICROLIGHT_MG"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -4.755,
+            "y": -2.167,
+            "z": -0.45
+          },
+          "max": {
+            "x": 4.755,
+            "y": 1.265,
+            "z": 2.938
+          },
+          "length": 3.433,
+          "width": 9.51,
+          "height": 3.388,
+          "boundingRadius": 5.232
+        },
+        "defaultColors": [
+          {
+            "primary": 155,
+            "secondary": 144,
+            "pearl": 155,
+            "wheels": 111,
+            "interior": 13,
+            "dashboard": 0
+          },
+          {
+            "primary": 9,
+            "secondary": 6,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 13,
+            "dashboard": 0
+          },
+          {
+            "primary": 112,
+            "secondary": 7,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 13,
+            "dashboard": 0
+          },
+          {
+            "primary": 0,
+            "secondary": 2,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 13,
+            "dashboard": 0
+          },
+          {
+            "primary": 64,
+            "secondary": 112,
+            "pearl": 70,
+            "wheels": 111,
+            "interior": 13,
+            "dashboard": 0
+          },
+          {
+            "primary": 38,
+            "secondary": 7,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 13,
+            "dashboard": 0
+          },
+          {
+            "primary": 28,
+            "secondary": 5,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 13,
+            "dashboard": 0
+          },
+          {
+            "primary": 92,
+            "secondary": 53,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 13,
+            "dashboard": 0
+          },
+          {
+            "primary": 88,
+            "secondary": 112,
+            "pearl": 5,
+            "wheels": 111,
+            "interior": 13,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_USE_STANDARD_FLIGHT_HELMET",
+          "FLAG_HAS_TURRET_SEAT_ON_VEHICLE",
+          "FLAG_USE_TURRET_RELATIVE_AIM_CALCULATION",
+          "FLAG_TURRET_MODS_ON_ROOF",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_TURRET_MOD_WITH_NO_STOCK_TURRET",
+          "FLAG_EQUIP_UNARMED_ON_ENTER",
+          "FLAG_DONT_CRASH_ABANDONED_NEAR_GROUND"
+        ]
       },
       "stats": {
         "handlingId": "MICROLIGHT",
@@ -370,6 +1321,137 @@
         "name": "Smuggler's Run",
         "releaseDate": "2017-08-29"
       },
+      "details": {
+        "manufacturer": "Mammoth",
+        "type": "PLANE",
+        "seats": 3,
+        "doors": 5,
+        "wheels": 3,
+        "modKits": [
+          "240_mogul_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_MOGUL_NOSE",
+          "VEHICLE_WEAPON_MOGUL_DUALNOSE",
+          "VEHICLE_WEAPON_MOGUL_TURRET",
+          "VEHICLE_WEAPON_MOGUL_DUALTURRET"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -7.203,
+            "y": -6.152,
+            "z": -1.768
+          },
+          "max": {
+            "x": 7.203,
+            "y": 4.444,
+            "z": 1.764
+          },
+          "length": 10.596,
+          "width": 14.407,
+          "height": 3.532,
+          "boundingRadius": 9.035
+        },
+        "defaultColors": [
+          {
+            "primary": 24,
+            "secondary": 29,
+            "pearl": 65,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 25,
+            "pearl": 7,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 14,
+            "secondary": 25,
+            "pearl": 7,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 154,
+            "secondary": 154,
+            "pearl": 3,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 152,
+            "secondary": 154,
+            "pearl": 3,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 133,
+            "secondary": 10,
+            "pearl": 3,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 13,
+            "secondary": 10,
+            "pearl": 3,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 10,
+            "pearl": 3,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 14,
+            "secondary": 14,
+            "pearl": 14,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_HAS_TURRET_SEAT_ON_VEHICLE",
+          "FLAG_TURRET_ENTRY_ATTACH_TO_DRIVER_SEAT",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_KEEP_ALL_TURRETS_SYNCHRONISED",
+          "FLAG_TURRET_MODS_ON_ROOF",
+          "FLAG_USE_STANDARD_FLIGHT_HELMET",
+          "FLAG_HAS_JATO_BOOST_MOD",
+          "FLAG_IGNORE_TRAPPED_HULL_CHECK",
+          "FLAG_HOLD_TO_SHUFFLE"
+        ]
+      },
       "stats": {
         "handlingId": "MOGUL",
         "mass": 5000,
@@ -400,6 +1482,65 @@
         "id": "mpsmuggler",
         "name": "Smuggler's Run",
         "releaseDate": "2017-08-29"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "PLANE",
+        "seats": 1,
+        "doors": 1,
+        "wheels": 3,
+        "modKits": [
+          "249_molotok_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_DOGFIGHTER_MG",
+          "VEHICLE_WEAPON_DOGFIGHTER_MISSILE"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -4.809,
+            "y": -7.862,
+            "z": -1.467
+          },
+          "max": {
+            "x": 4.809,
+            "y": 3.339,
+            "z": 2.434
+          },
+          "length": 11.201,
+          "width": 9.618,
+          "height": 3.901,
+          "boundingRadius": 7.558
+        },
+        "defaultColors": [
+          {
+            "primary": 117,
+            "secondary": 35,
+            "pearl": 134,
+            "wheels": 119,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_WEAPON_WHEEL_WITHOUT_HELMET",
+          "FLAG_USE_PILOT_HELMET",
+          "FLAG_HAS_EJECTOR_SEATS"
+        ]
       },
       "stats": {
         "handlingId": "MOLOTOK",
@@ -432,6 +1573,63 @@
         "name": "Smuggler's Run",
         "releaseDate": "2017-08-29"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "PLANE",
+        "seats": 1,
+        "doors": 1,
+        "wheels": 3,
+        "modKits": [
+          "248_nokota_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_DOGFIGHTER_MG",
+          "VEHICLE_WEAPON_DOGFIGHTER_MISSILE"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -5.591,
+            "y": -6.294,
+            "z": -2.217
+          },
+          "max": {
+            "x": 5.591,
+            "y": 3.663,
+            "z": 2.217
+          },
+          "length": 9.957,
+          "width": 11.181,
+          "height": 4.434,
+          "boundingRadius": 7.819
+        },
+        "defaultColors": [
+          {
+            "primary": 117,
+            "secondary": 35,
+            "pearl": 134,
+            "wheels": 119,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_PILOT_HELMET",
+          "FLAG_IGNORE_TRAPPED_HULL_CHECK"
+        ]
+      },
       "stats": {
         "handlingId": "NOKOTA",
         "mass": 3200,
@@ -462,6 +1660,65 @@
         "id": "mpsmuggler",
         "name": "Smuggler's Run",
         "releaseDate": "2017-08-29"
+      },
+      "details": {
+        "manufacturer": "Buckingham",
+        "type": "PLANE",
+        "seats": 2,
+        "doors": 1,
+        "wheels": 3,
+        "modKits": [
+          "246_pyro_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_DOGFIGHTER_MG",
+          "VEHICLE_WEAPON_DOGFIGHTER_MISSILE"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -6.047,
+            "y": -6.939,
+            "z": -1.166
+          },
+          "max": {
+            "x": 6.047,
+            "y": 4.131,
+            "z": 1.741
+          },
+          "length": 11.07,
+          "width": 12.095,
+          "height": 2.907,
+          "boundingRadius": 8.224
+        },
+        "defaultColors": [
+          {
+            "primary": 24,
+            "secondary": 124,
+            "pearl": 0,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HAS_JATO_BOOST_MOD",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_PILOT_HELMET",
+          "FLAG_HAS_EJECTOR_SEATS"
+        ]
       },
       "stats": {
         "handlingId": "PYRO",
@@ -494,6 +1751,131 @@
         "name": "Smuggler's Run",
         "releaseDate": "2017-08-29"
       },
+      "details": {
+        "manufacturer": "Western",
+        "type": "PLANE",
+        "seats": 2,
+        "doors": 4,
+        "wheels": 3,
+        "modKits": [
+          "239_rogue_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_ROGUE_MG",
+          "VEHICLE_WEAPON_ROGUE_CANNON",
+          "VEHICLE_WEAPON_ROGUE_MISSILE"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -5.654,
+            "y": -7.643,
+            "z": -1.751
+          },
+          "max": {
+            "x": 5.654,
+            "y": 2.424,
+            "z": 2.003
+          },
+          "length": 10.067,
+          "width": 11.309,
+          "height": 3.754,
+          "boundingRadius": 7.766
+        },
+        "defaultColors": [
+          {
+            "primary": 24,
+            "secondary": 29,
+            "pearl": 65,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 14,
+            "secondary": 14,
+            "pearl": 14,
+            "wheels": 156,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 25,
+            "pearl": 7,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 14,
+            "secondary": 25,
+            "pearl": 7,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 154,
+            "secondary": 154,
+            "pearl": 3,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 152,
+            "secondary": 154,
+            "pearl": 3,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 133,
+            "secondary": 10,
+            "pearl": 3,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 13,
+            "secondary": 10,
+            "pearl": 3,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 10,
+            "pearl": 3,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_DISABLE_WEAPON_WHEEL_IN_FIRST_PERSON",
+          "FLAG_USE_PILOT_HELMET",
+          "FLAG_IGNORE_TRAPPED_HULL_CHECK",
+          "FLAG_HAS_EJECTOR_SEATS"
+        ]
+      },
       "stats": {
         "handlingId": "ROGUE",
         "mass": 4200,
@@ -524,6 +1906,63 @@
         "id": "mpsmuggler",
         "name": "Smuggler's Run",
         "releaseDate": "2017-08-29"
+      },
+      "details": {
+        "manufacturer": "Western",
+        "type": "PLANE",
+        "seats": 2,
+        "doors": 3,
+        "wheels": 3,
+        "modKits": [
+          "245_seabreeze_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_SEABREEZE_MG"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -4.937,
+            "y": -5.246,
+            "z": -0.947
+          },
+          "max": {
+            "x": 4.937,
+            "y": 3.943,
+            "z": 3.316
+          },
+          "length": 9.189,
+          "width": 9.874,
+          "height": 4.263,
+          "boundingRadius": 7.005
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 68,
+            "pearl": 111,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_USE_STANDARD_FLIGHT_HELMET",
+          "FLAG_IGNORE_TRAPPED_HULL_CHECK"
+        ]
       },
       "stats": {
         "handlingId": "SEABREEZE",
@@ -556,6 +1995,113 @@
         "name": "Smuggler's Run",
         "releaseDate": "2017-08-29"
       },
+      "details": {
+        "manufacturer": null,
+        "type": "PLANE",
+        "seats": 1,
+        "doors": 3,
+        "wheels": 2,
+        "modKits": [
+          "241_starling_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_DOGFIGHTER_MG",
+          "VEHICLE_WEAPON_DOGFIGHTER_MISSILE"
+        ],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -4.773,
+            "y": -3.749,
+            "z": -1.092
+          },
+          "max": {
+            "x": 4.773,
+            "y": 2.331,
+            "z": 1.816
+          },
+          "length": 6.079,
+          "width": 9.546,
+          "height": 2.908,
+          "boundingRadius": 5.722
+        },
+        "defaultColors": [
+          {
+            "primary": 121,
+            "secondary": 25,
+            "pearl": 7,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 14,
+            "secondary": 25,
+            "pearl": 7,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          },
+          {
+            "primary": 154,
+            "secondary": 25,
+            "pearl": 3,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 152,
+            "secondary": 25,
+            "pearl": 3,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 133,
+            "secondary": 10,
+            "pearl": 3,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 13,
+            "secondary": 10,
+            "pearl": 3,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 121,
+            "secondary": 10,
+            "pearl": 3,
+            "wheels": 154,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_HAS_ROCKET_BOOST",
+          "FLAG_USE_STANDARD_FLIGHT_HELMET",
+          "FLAG_IGNORE_TRAPPED_HULL_CHECK"
+        ]
+      },
       "stats": {
         "handlingId": "STARLING",
         "mass": 2000,
@@ -586,6 +2132,72 @@
         "id": "mpsmuggler",
         "name": "Smuggler's Run",
         "releaseDate": "2017-08-29"
+      },
+      "details": {
+        "manufacturer": "Mammoth",
+        "type": "PLANE",
+        "seats": 5,
+        "doors": 4,
+        "wheels": 3,
+        "modKits": [
+          "244_tula_modkit"
+        ],
+        "weaponized": true,
+        "weapons": [
+          "VEHICLE_WEAPON_TULA_NOSEMG",
+          "VEHICLE_WEAPON_TULA_MG",
+          "VEHICLE_WEAPON_TULA_DUALMG",
+          "VEHICLE_WEAPON_TULA_MINIGUN"
+        ],
+        "features": {
+          "convertibleRoof": true,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -7.486,
+            "y": -6.334,
+            "z": -1.635
+          },
+          "max": {
+            "x": 7.486,
+            "y": 5.992,
+            "z": 3.277
+          },
+          "length": 12.325,
+          "width": 14.973,
+          "height": 4.912,
+          "boundingRadius": 10.162
+        },
+        "defaultColors": [
+          {
+            "primary": 14,
+            "secondary": 121,
+            "pearl": 121,
+            "wheels": 111,
+            "interior": 111,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "FLAG_HEADLIGHTS_ON_LANDINGGEAR",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "FLAG_HAS_TURRET_SEAT_ON_VEHICLE",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "FLAG_KEEP_ALL_TURRETS_SYNCHRONISED",
+          "FLAG_TURRET_MODS_ON_ROOF",
+          "FLAG_USE_TURRET_RELATIVE_AIM_CALCULATION",
+          "FLAG_USE_STANDARD_FLIGHT_HELMET",
+          "FLAG_HAS_JATO_BOOST_MOD",
+          "FLAG_HOLD_TO_SHUFFLE"
+        ]
       },
       "stats": {
         "handlingId": "TULA",

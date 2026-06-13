@@ -6,7 +6,7 @@
     "domain": "vehicles",
     "label": "Vehicles",
     "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate }. details = { manufacturer, type, seats, doors, wheels, modKits, weaponized, weapons, features, dimensions, defaultColors, flags }. stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
   },
   "group": {
     "id": "mptuner",
@@ -28,6 +28,73 @@
         "id": "mptuner",
         "name": "Los Santos Tuners",
         "releaseDate": "2021-07-20"
+      },
+      "details": {
+        "manufacturer": "Obey",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 4,
+        "wheels": 4,
+        "modKits": [
+          "466_tailgater2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.969,
+            "y": -2.441,
+            "z": -0.368
+          },
+          "max": {
+            "x": 0.969,
+            "y": 2.246,
+            "z": 1.087
+          },
+          "length": 4.687,
+          "width": 1.939,
+          "height": 1.455,
+          "boundingRadius": 2.528
+        },
+        "defaultColors": [
+          {
+            "primary": 73,
+            "secondary": 2,
+            "pearl": 3,
+            "wheels": 156,
+            "interior": 5,
+            "dashboard": 111
+          },
+          {
+            "primary": 4,
+            "secondary": 2,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 5,
+            "dashboard": 111
+          },
+          {
+            "primary": 111,
+            "secondary": 2,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 5,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
       },
       "stats": {
         "handlingId": "TAILGATER2",
@@ -60,6 +127,88 @@
         "name": "Los Santos Tuners",
         "releaseDate": "2021-07-20"
       },
+      "details": {
+        "manufacturer": "Vulcar",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "465_warrener2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.94,
+            "y": -2.812,
+            "z": -0.201
+          },
+          "max": {
+            "x": 0.941,
+            "y": 2.263,
+            "z": 1.233
+          },
+          "length": 5.075,
+          "width": 1.881,
+          "height": 1.435,
+          "boundingRadius": 2.529
+        },
+        "defaultColors": [
+          {
+            "primary": 36,
+            "secondary": 3,
+            "pearl": 88,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 71,
+            "secondary": 0,
+            "pearl": 127,
+            "wheels": 3,
+            "interior": 7,
+            "dashboard": 156
+          },
+          {
+            "primary": 2,
+            "secondary": 6,
+            "pearl": 6,
+            "wheels": 118,
+            "interior": 32,
+            "dashboard": 156
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 90,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 9,
+            "secondary": 27,
+            "pearl": 62,
+            "wheels": 6,
+            "interior": 8,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
+      },
       "stats": {
         "handlingId": "WARRENER2",
         "mass": 965,
@@ -90,6 +239,92 @@
         "id": "mptuner",
         "name": "Los Santos Tuners",
         "releaseDate": "2021-07-20"
+      },
+      "details": {
+        "manufacturer": "Karin",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "470_previon_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.99,
+            "y": -2.829,
+            "z": -0.664
+          },
+          "max": {
+            "x": 0.99,
+            "y": 2.462,
+            "z": 0.812
+          },
+          "length": 5.291,
+          "width": 1.98,
+          "height": 1.476,
+          "boundingRadius": 2.714
+        },
+        "defaultColors": [
+          {
+            "primary": 36,
+            "secondary": 3,
+            "pearl": 88,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 71,
+            "secondary": 0,
+            "pearl": 127,
+            "wheels": 3,
+            "interior": 7,
+            "dashboard": 156
+          },
+          {
+            "primary": 2,
+            "secondary": 6,
+            "pearl": 6,
+            "wheels": 118,
+            "interior": 32,
+            "dashboard": 156
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 90,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 9,
+            "secondary": 27,
+            "pearl": 62,
+            "wheels": 6,
+            "interior": 8,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS"
+        ]
       },
       "stats": {
         "handlingId": "PREVION",
@@ -122,6 +357,79 @@
         "name": "Los Santos Tuners",
         "releaseDate": "2021-07-20"
       },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "462_dominator7_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.981,
+            "y": -2.318,
+            "z": -0.417
+          },
+          "max": {
+            "x": 0.981,
+            "y": 2.437,
+            "z": 0.962
+          },
+          "length": 4.755,
+          "width": 1.961,
+          "height": 1.379,
+          "boundingRadius": 2.546
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 27,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 5,
+            "dashboard": 111
+          },
+          {
+            "primary": 88,
+            "secondary": 88,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 5,
+            "dashboard": 111
+          },
+          {
+            "primary": 4,
+            "secondary": 4,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 5,
+            "dashboard": 111
+          },
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 5,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR"
+        ]
+      },
       "stats": {
         "handlingId": "DOMINATOR7",
         "mass": 1665,
@@ -152,6 +460,111 @@
         "id": "mptuner",
         "name": "Los Santos Tuners",
         "releaseDate": "2021-07-20"
+      },
+      "details": {
+        "manufacturer": "Vapid",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "469_dominator8_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.904,
+            "y": -2.424,
+            "z": -0.533
+          },
+          "max": {
+            "x": 0.904,
+            "y": 2.403,
+            "z": 0.79
+          },
+          "length": 4.826,
+          "width": 1.807,
+          "height": 1.324,
+          "boundingRadius": 2.603
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 73,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 89,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 38,
+            "secondary": 1,
+            "pearl": 89,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 70,
+            "secondary": 1,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_AVERAGE_CAR",
+          "FLAG_POOR_CAR"
+        ]
       },
       "stats": {
         "handlingId": "DOMINATOR8",
@@ -184,6 +597,57 @@
         "name": "Los Santos Tuners",
         "releaseDate": "2021-07-20"
       },
+      "details": {
+        "manufacturer": "Karin",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "457_calico_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.935,
+            "y": -2.011,
+            "z": -0.39
+          },
+          "max": {
+            "x": 0.935,
+            "y": 2.562,
+            "z": 0.98
+          },
+          "length": 4.573,
+          "width": 1.87,
+          "height": 1.37,
+          "boundingRadius": 2.495
+        },
+        "defaultColors": [
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 4,
+            "wheels": 111,
+            "interior": 5,
+            "dashboard": 111
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
+      },
       "stats": {
         "handlingId": "CALICO",
         "mass": 1448,
@@ -214,6 +678,116 @@
         "id": "mptuner",
         "name": "Los Santos Tuners",
         "releaseDate": "2021-07-20"
+      },
+      "details": {
+        "manufacturer": "Pfister",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "463_comet6_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.025,
+            "y": -2.511,
+            "z": -0.416
+          },
+          "max": {
+            "x": 1.025,
+            "y": 2.296,
+            "z": 1.375
+          },
+          "length": 4.807,
+          "width": 2.05,
+          "height": 1.791,
+          "boundingRadius": 2.535
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 73,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 89,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 38,
+            "secondary": 1,
+            "pearl": 89,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          },
+          {
+            "primary": 70,
+            "secondary": 1,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_BOOT_IN_FRONT",
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_PARKING_SENSORS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS"
+        ]
       },
       "stats": {
         "handlingId": "COMET6",
@@ -246,6 +820,78 @@
         "name": "Los Santos Tuners",
         "releaseDate": "2021-07-20"
       },
+      "details": {
+        "manufacturer": "Ubermacht",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "460_cypher_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.984,
+            "y": -2.089,
+            "z": -0.41
+          },
+          "max": {
+            "x": 0.984,
+            "y": 2.457,
+            "z": 1.034
+          },
+          "length": 4.546,
+          "width": 1.967,
+          "height": 1.444,
+          "boundingRadius": 2.526
+        },
+        "defaultColors": [
+          {
+            "primary": 35,
+            "secondary": 3,
+            "pearl": 88,
+            "wheels": 0,
+            "interior": 27,
+            "dashboard": 156
+          },
+          {
+            "primary": 20,
+            "secondary": 36,
+            "pearl": 5,
+            "wheels": 134,
+            "interior": 27,
+            "dashboard": 156
+          },
+          {
+            "primary": 112,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 88,
+            "interior": 27,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_SPORTS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
+      },
       "stats": {
         "handlingId": "CYPHER",
         "mass": 1625,
@@ -276,6 +922,83 @@
         "id": "mptuner",
         "name": "Los Santos Tuners",
         "releaseDate": "2021-07-20"
+      },
+      "details": {
+        "manufacturer": "Annis",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "468_euros_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.945,
+            "y": -2.138,
+            "z": -0.339
+          },
+          "max": {
+            "x": 0.945,
+            "y": 2.192,
+            "z": 1.011
+          },
+          "length": 4.33,
+          "width": 1.89,
+          "height": 1.35,
+          "boundingRadius": 2.412
+        },
+        "defaultColors": [
+          {
+            "primary": 0,
+            "secondary": 27,
+            "pearl": 2,
+            "wheels": 3,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 73,
+            "secondary": 65,
+            "pearl": 60,
+            "wheels": 0,
+            "interior": 7,
+            "dashboard": 156
+          },
+          {
+            "primary": 2,
+            "secondary": 6,
+            "pearl": 6,
+            "wheels": 118,
+            "interior": 32,
+            "dashboard": 156
+          },
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 2,
+            "wheels": 97,
+            "interior": 2,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
       },
       "stats": {
         "handlingId": "EUROS",
@@ -308,6 +1031,177 @@
         "name": "Los Santos Tuners",
         "releaseDate": "2021-07-20"
       },
+      "details": {
+        "manufacturer": "Karin",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "471_futo2_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.971,
+            "y": -2.697,
+            "z": -0.486
+          },
+          "max": {
+            "x": 0.971,
+            "y": 2.212,
+            "z": 1.315
+          },
+          "length": 4.908,
+          "width": 1.943,
+          "height": 1.801,
+          "boundingRadius": 2.376
+        },
+        "defaultColors": [
+          {
+            "primary": 33,
+            "secondary": 0,
+            "pearl": 26,
+            "wheels": 106,
+            "interior": 134,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 0,
+            "pearl": 26,
+            "wheels": 156,
+            "interior": 134,
+            "dashboard": 134
+          },
+          {
+            "primary": 0,
+            "secondary": 3,
+            "pearl": 6,
+            "wheels": 156,
+            "interior": 134,
+            "dashboard": 134
+          },
+          {
+            "primary": 3,
+            "secondary": 3,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 134,
+            "dashboard": 134
+          },
+          {
+            "primary": 4,
+            "secondary": 4,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 134,
+            "dashboard": 134
+          },
+          {
+            "primary": 6,
+            "secondary": 6,
+            "pearl": 111,
+            "wheels": 156,
+            "interior": 134,
+            "dashboard": 134
+          },
+          {
+            "primary": 72,
+            "secondary": 72,
+            "pearl": 73,
+            "wheels": 156,
+            "interior": 134,
+            "dashboard": 134
+          },
+          {
+            "primary": 1,
+            "secondary": 1,
+            "pearl": 65,
+            "wheels": 106,
+            "interior": 134,
+            "dashboard": 134
+          },
+          {
+            "primary": 111,
+            "secondary": 14,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 134,
+            "dashboard": 134
+          },
+          {
+            "primary": 93,
+            "secondary": 95,
+            "pearl": 98,
+            "wheels": 156,
+            "interior": 134,
+            "dashboard": 134
+          },
+          {
+            "primary": 7,
+            "secondary": 1,
+            "pearl": 4,
+            "wheels": 156,
+            "interior": 134,
+            "dashboard": 134
+          },
+          {
+            "primary": 10,
+            "secondary": 10,
+            "pearl": 5,
+            "wheels": 156,
+            "interior": 134,
+            "dashboard": 134
+          },
+          {
+            "primary": 14,
+            "secondary": 12,
+            "pearl": 0,
+            "wheels": 156,
+            "interior": 134,
+            "dashboard": 134
+          },
+          {
+            "primary": 50,
+            "secondary": 1,
+            "pearl": 51,
+            "wheels": 156,
+            "interior": 134,
+            "dashboard": 134
+          },
+          {
+            "primary": 105,
+            "secondary": 105,
+            "pearl": 106,
+            "wheels": 156,
+            "interior": 134,
+            "dashboard": 134
+          },
+          {
+            "primary": 111,
+            "secondary": 111,
+            "pearl": 0,
+            "wheels": 106,
+            "interior": 134,
+            "dashboard": 134
+          }
+        ],
+        "flags": [
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_POOR_CAR",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
+      },
       "stats": {
         "handlingId": "FUTO2",
         "mass": 950,
@@ -338,6 +1232,116 @@
         "id": "mptuner",
         "name": "Los Santos Tuners",
         "releaseDate": "2021-07-20"
+      },
+      "details": {
+        "manufacturer": "Pfister",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "472_growler_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.947,
+            "y": -2.22,
+            "z": -0.352
+          },
+          "max": {
+            "x": 0.947,
+            "y": 2.319,
+            "z": 1.244
+          },
+          "length": 4.539,
+          "width": 1.894,
+          "height": 1.596,
+          "boundingRadius": 2.485
+        },
+        "defaultColors": [
+          {
+            "primary": 27,
+            "secondary": 0,
+            "pearl": 28,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 73,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 111,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 0,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 89,
+            "secondary": 1,
+            "pearl": 2,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 3,
+            "secondary": 1,
+            "pearl": 5,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 38,
+            "secondary": 1,
+            "pearl": 89,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 65
+          },
+          {
+            "primary": 70,
+            "secondary": 1,
+            "pearl": 67,
+            "wheels": 0,
+            "interior": 93,
+            "dashboard": 65
+          }
+        ],
+        "flags": [
+          "FLAG_BOOT_IN_FRONT",
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_PARKING_SENSORS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS"
+        ]
       },
       "stats": {
         "handlingId": "GROWLER",
@@ -370,6 +1374,75 @@
         "name": "Los Santos Tuners",
         "releaseDate": "2021-07-20"
       },
+      "details": {
+        "manufacturer": "Dinka",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "456_jester4_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.969,
+            "y": -2.454,
+            "z": -0.35
+          },
+          "max": {
+            "x": 0.969,
+            "y": 2.286,
+            "z": 0.983
+          },
+          "length": 4.74,
+          "width": 1.939,
+          "height": 1.333,
+          "boundingRadius": 2.457
+        },
+        "defaultColors": [
+          {
+            "primary": 35,
+            "secondary": 3,
+            "pearl": 88,
+            "wheels": 0,
+            "interior": 27,
+            "dashboard": 156
+          },
+          {
+            "primary": 20,
+            "secondary": 36,
+            "pearl": 5,
+            "wheels": 134,
+            "interior": 27,
+            "dashboard": 156
+          },
+          {
+            "primary": 112,
+            "secondary": 0,
+            "pearl": 111,
+            "wheels": 88,
+            "interior": 27,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
+      },
       "stats": {
         "handlingId": "JESTER4",
         "mass": 1575,
@@ -400,6 +1473,66 @@
         "id": "mptuner",
         "name": "Los Santos Tuners",
         "releaseDate": "2021-07-20"
+      },
+      "details": {
+        "manufacturer": "Annis",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "459_remus_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.893,
+            "y": -2.956,
+            "z": -0.298
+          },
+          "max": {
+            "x": 0.893,
+            "y": 2.25,
+            "z": 1.482
+          },
+          "length": 5.207,
+          "width": 1.787,
+          "height": 1.78,
+          "boundingRadius": 2.491
+        },
+        "defaultColors": [
+          {
+            "primary": 30,
+            "secondary": 30,
+            "pearl": 30,
+            "wheels": 6,
+            "interior": 8,
+            "dashboard": 156
+          },
+          {
+            "primary": 112,
+            "secondary": 5,
+            "pearl": 0,
+            "wheels": 6,
+            "interior": 8,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
       },
       "stats": {
         "handlingId": "REMUS",
@@ -432,6 +1565,60 @@
         "name": "Los Santos Tuners",
         "releaseDate": "2021-07-20"
       },
+      "details": {
+        "manufacturer": "Dinka",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "464_rt3000_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": true,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.909,
+            "y": -2.261,
+            "z": -0.323
+          },
+          "max": {
+            "x": 0.909,
+            "y": 2.031,
+            "z": 0.984
+          },
+          "length": 4.292,
+          "width": 1.818,
+          "height": 1.307,
+          "boundingRadius": 2.338
+        },
+        "defaultColors": [
+          {
+            "primary": 4,
+            "secondary": 12,
+            "pearl": 0,
+            "wheels": 6,
+            "interior": 8,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_PARKING_SENSORS",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
+      },
       "stats": {
         "handlingId": "RT3000",
         "mass": 1275,
@@ -462,6 +1649,83 @@
         "id": "mptuner",
         "name": "Los Santos Tuners",
         "releaseDate": "2021-07-20"
+      },
+      "details": {
+        "manufacturer": "Karin",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "467_sultan3_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.981,
+            "y": -2.33,
+            "z": -0.366
+          },
+          "max": {
+            "x": 0.981,
+            "y": 2.177,
+            "z": 1.307
+          },
+          "length": 4.507,
+          "width": 1.962,
+          "height": 1.673,
+          "boundingRadius": 2.45
+        },
+        "defaultColors": [
+          {
+            "primary": 64,
+            "secondary": 64,
+            "pearl": 63,
+            "wheels": 156,
+            "interior": 3,
+            "dashboard": 160
+          },
+          {
+            "primary": 50,
+            "secondary": 50,
+            "pearl": 57,
+            "wheels": 156,
+            "interior": 3,
+            "dashboard": 160
+          },
+          {
+            "primary": 9,
+            "secondary": 9,
+            "pearl": 2,
+            "wheels": 156,
+            "interior": 3,
+            "dashboard": 160
+          },
+          {
+            "primary": 29,
+            "secondary": 29,
+            "pearl": 36,
+            "wheels": 156,
+            "interior": 3,
+            "dashboard": 160
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD",
+          "FLAG_HAS_TWO_BONNET_BONES"
+        ]
       },
       "stats": {
         "handlingId": "SULTAN3",
@@ -494,6 +1758,83 @@
         "name": "Los Santos Tuners",
         "releaseDate": "2021-07-20"
       },
+      "details": {
+        "manufacturer": "Emperor",
+        "type": "CAR",
+        "seats": 4,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "461_vectre_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.973,
+            "y": -2.555,
+            "z": -0.333
+          },
+          "max": {
+            "x": 0.973,
+            "y": 2.344,
+            "z": 1.107
+          },
+          "length": 4.899,
+          "width": 1.946,
+          "height": 1.44,
+          "boundingRadius": 2.638
+        },
+        "defaultColors": [
+          {
+            "primary": 36,
+            "secondary": 3,
+            "pearl": 88,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 71,
+            "secondary": 0,
+            "pearl": 127,
+            "wheels": 3,
+            "interior": 7,
+            "dashboard": 156
+          },
+          {
+            "primary": 2,
+            "secondary": 6,
+            "pearl": 6,
+            "wheels": 118,
+            "interior": 32,
+            "dashboard": 156
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 90,
+            "interior": 2,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_SPORTS",
+          "FLAG_SPAWN_ON_TRAILER",
+          "FLAG_RICH_CAR",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD"
+        ]
+      },
       "stats": {
         "handlingId": "VECTRE",
         "mass": 1765,
@@ -525,6 +1866,92 @@
         "name": "Los Santos Tuners",
         "releaseDate": "2021-07-20"
       },
+      "details": {
+        "manufacturer": "Annis",
+        "type": "CAR",
+        "seats": 2,
+        "doors": 2,
+        "wheels": 4,
+        "modKits": [
+          "458_zr350_modkit"
+        ],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -0.99,
+            "y": -2.446,
+            "z": -0.613
+          },
+          "max": {
+            "x": 0.99,
+            "y": 2.065,
+            "z": 0.805
+          },
+          "length": 4.512,
+          "width": 1.98,
+          "height": 1.417,
+          "boundingRadius": 2.389
+        },
+        "defaultColors": [
+          {
+            "primary": 36,
+            "secondary": 3,
+            "pearl": 88,
+            "wheels": 0,
+            "interior": 3,
+            "dashboard": 156
+          },
+          {
+            "primary": 71,
+            "secondary": 0,
+            "pearl": 127,
+            "wheels": 3,
+            "interior": 7,
+            "dashboard": 156
+          },
+          {
+            "primary": 2,
+            "secondary": 6,
+            "pearl": 6,
+            "wheels": 118,
+            "interior": 32,
+            "dashboard": 156
+          },
+          {
+            "primary": 64,
+            "secondary": 0,
+            "pearl": 3,
+            "wheels": 90,
+            "interior": 2,
+            "dashboard": 156
+          },
+          {
+            "primary": 9,
+            "secondary": 27,
+            "pearl": 62,
+            "wheels": 6,
+            "interior": 8,
+            "dashboard": 156
+          }
+        ],
+        "flags": [
+          "FLAG_EXTRAS_STRONG",
+          "FLAG_AVERAGE_CAR",
+          "FLAG_CAN_HAVE_NEONS",
+          "FLAG_EXTRAS_REQUIRE",
+          "FLAG_EXTRAS_ALL",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS"
+        ]
+      },
       "stats": {
         "handlingId": "ZR350",
         "mass": 1300,
@@ -555,6 +1982,88 @@
         "id": "mptuner",
         "name": "Los Santos Tuners",
         "releaseDate": "2021-07-20"
+      },
+      "details": {
+        "manufacturer": null,
+        "type": "TRAIN",
+        "seats": 4,
+        "doors": 0,
+        "wheels": 8,
+        "modKits": [],
+        "weaponized": false,
+        "weapons": [],
+        "features": {
+          "convertibleRoof": false,
+          "sirens": false,
+          "armoredWindows": false,
+          "parachute": false,
+          "kers": false
+        },
+        "dimensions": {
+          "min": {
+            "x": -1.672,
+            "y": -9.241,
+            "z": -0.576
+          },
+          "max": {
+            "x": 1.672,
+            "y": 9.193,
+            "z": 2.63
+          },
+          "length": 18.434,
+          "width": 3.343,
+          "height": 3.206,
+          "boundingRadius": 9.856
+        },
+        "defaultColors": [
+          {
+            "primary": 39,
+            "secondary": 0,
+            "pearl": 39,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 85,
+            "secondary": 0,
+            "pearl": 85,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 41,
+            "secondary": 0,
+            "pearl": 41,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 18,
+            "secondary": 0,
+            "pearl": 18,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          },
+          {
+            "primary": 47,
+            "secondary": 0,
+            "pearl": 47,
+            "wheels": 156,
+            "interior": 0,
+            "dashboard": 0
+          }
+        ],
+        "flags": [
+          "FLAG_NO_BOOT",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "FLAG_GEN_NAVMESH",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "FLAG_EXTRAS_SCRIPT"
+        ]
       },
       "stats": {
         "handlingId": "FREIGHTCAR",
