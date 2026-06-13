@@ -19,6 +19,15 @@ export const LABEL = 'Vehicles';
 const ROOT = join(import.meta.dirname, '..', '..');
 const SRC = JSON.parse(await readFile(join(ROOT, 'src', 'data', 'vehicles.json'), 'utf-8'));
 const HANDLING = JSON.parse(await readFile(join(ROOT, 'src', 'data', 'vehicles.handling.json'), 'utf-8'));
+// model name (lowercased) -> internal DLC code (DurtyFree), resolved to { id, name, releaseDate }.
+const DLC_BY_MODEL = JSON.parse(await readFile(join(ROOT, 'src', 'data', 'vehicles.dlc.json'), 'utf-8')).models;
+const DLC_LABELS = JSON.parse(await readFile(join(ROOT, 'src', 'data', 'dlc.labels.json'), 'utf-8')).labels;
+function dlcFor(model) {
+  const id = DLC_BY_MODEL[model.toLowerCase()];
+  if (!id) return null;
+  const l = DLC_LABELS[id];
+  return { id, name: l?.name ?? id, releaseDate: l?.releaseDate ?? null };
+}
 
 // model name (lowercased) -> curated performance stats.
 // One handling can be shared by several models (the VehicleModels array).
@@ -54,6 +63,7 @@ export async function build({ assetsDir, apiDir, log = console.log }) {
   let missing = 0;
   let mismatches = 0;
   let withStats = 0;
+  let withDlc = 0;
   const items = [];
   for (const veh of SRC) {
     const id = veh.model_name;
@@ -70,12 +80,15 @@ export async function build({ assetsDir, apiDir, log = console.log }) {
     if (!hasImage) missing++;
     const stats = STATS_BY_MODEL.get(id.toLowerCase()) ?? null;
     if (stats) withStats++;
+    const dlc = dlcFor(id);
+    if (dlc) withDlc++;
     items.push({
       id,
       name: veh.display_name,
       hash: computed,
       category: veh.category,
       url: hasImage ? `${CDN_BASE}/assets/${DOMAIN}/images/${id}.webp` : null,
+      dlc,
       stats,
     });
   }
@@ -83,11 +96,12 @@ export async function build({ assetsDir, apiDir, log = console.log }) {
   if (missing) log(`  ! ${missing} vehicle(s) have no image (url: null).`);
   if (mismatches) log(`  note: ${mismatches} archive hash(es) overridden by joaat (data errors in source).`);
   log(`  stats: ${withStats}/${items.length} vehicles have performance stats (handling snapshot).`);
+  log(`  dlc: ${withDlc}/${items.length} vehicles tagged with source DLC + release date (DurtyFree + dlc.labels).`);
 
   return writeFlatDomain({
     apiDir, domain: DOMAIN, label: LABEL,
     urlPattern: `{cdnBase}/assets/${DOMAIN}/images/{model_name}.webp`,
-    note: 'Flat catalog keyed by model_name. hash = joaat(model_name). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …).',
+    note: 'Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …).',
     items, log,
   });
 }

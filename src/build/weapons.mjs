@@ -86,7 +86,9 @@ export async function build({ assetsDir, apiDir, log = console.log }) {
       const df = COMP_BY_CODE.get(ref.codename.toUpperCase());
       const components = df?.components?.length ? df.components : (ves?.components ?? []);
       const tints = df?.tints ?? [];
-      const dlc = df?.dlc ? { id: df.dlc, name: DLC_LABELS[df.dlc] ?? df.dlc } : null;
+      const dlc = df?.dlc
+        ? { id: df.dlc, name: DLC_LABELS[df.dlc]?.name ?? df.dlc, releaseDate: DLC_LABELS[df.dlc]?.releaseDate ?? null }
+        : null;
       if (components.length) withComponents++;
       if (tints.length) withTints++;
       if (dlc) withDlc++;
@@ -130,7 +132,7 @@ export async function build({ assetsDir, apiDir, log = console.log }) {
   return writeFlatDomain({
     apiDir, domain: DOMAIN, label: LABEL,
     urlPattern: `{cdnBase}/assets/${DOMAIN}/images/{File}-icon.png`,
-    note: 'Flat catalog. hash = joaat(codename). dlc = { id, name } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }.',
+    note: 'Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }.',
     items, log,
   });
 }

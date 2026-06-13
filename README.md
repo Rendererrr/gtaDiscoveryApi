@@ -184,6 +184,7 @@ the whole domain in one file:
   ```jsonc
   // GET api/vehicles/index.json -> items[]
   { "id": "adder", "name": "Adder", "hash": 3078201489, "category": "Super", "url": "…",
+    "dlc": { "id": "TitleUpdate", "name": "Base Game", "releaseDate": "2013-09-17" },
     "stats": { "handlingId": "ADDER", "mass": 1800, "topSpeed": 160, "driveForce": 0.32,
                "brakeForce": 1, "handBrakeForce": 0.7, "gears": 6, "driveBiasFront": 0.2,
                "drivetrain": "AWD", "traction": { "max": 2.5, "min": 2.38, "lateral": 22.5 },
@@ -192,9 +193,20 @@ the whole domain in one file:
   `topSpeed` is the game's max flat velocity (not mph/kmh), `driveForce` is the acceleration
   proxy, `monetaryValue` is the in-game price, and `drivetrain` is derived from `driveBiasFront`
   (0 → RWD, 1 → FWD, between → AWD).
+- **Vehicle `dlc`** — all 861 vehicles carry `dlc` (`{ id, name, releaseDate }`) — the update
+  they shipped in and its **launch date** (ISO `yyyy-mm-dd`). 43 distinct DLCs, 861/861 tagged.
+  The DLC code comes from [DurtyFree](https://github.com/DurtyFree/gta-v-data-dumps) (joined by
+  model name); `name` + `releaseDate` come from `src/data/dlc.labels.json` (shared with weapons).
+  Note: vehicles that drip-fed weekly within a DLC share that DLC's launch date, not their exact
+  drip date. Filter the same way as weapons:
+  ```js
+  const tuners = items.filter(v => v.dlc?.id === 'mptuner');               // by code
+  const recent = items.filter(v => v.dlc?.releaseDate >= '2023-01-01');    // by date (ISO sorts lexically)
+  ```
 - **Weapon `dlc`, `stats`, `components` + `tints`** — each weapon carries `dlc`
-  (`{ id, name }` — the update it shipped in, e.g. `{ "id": "mpheist4", "name": "The Cayo
-  Perico Heist" }`; `null` for a few codenameless items), `stats` (0–100 weapon-wheel values
+  (`{ id, name, releaseDate }` — the update it shipped in, e.g. `{ "id": "mpheist4", "name":
+  "The Cayo Perico Heist", "releaseDate": "2020-12-15" }`; `null` for a few codenameless items),
+  `stats` (0–100 weapon-wheel values
   `{ damage, fireRate, accuracy, range }` plus `maxAmmo`), `components[]`
   (`{ id, label, hash, default }` attachments/clips/finishes) and `tints[]`
   (`{ index, label }` weapon-wheel tint slots). Coverage: **104/104** have `dlc` and `tints`,
@@ -210,7 +222,7 @@ the whole domain in one file:
   // GET api/weapons/index.json -> items[]
   { "id": "advancedrifle", "name": "Advanced Rifle", "codename": "weapon_advancedrifle",
     "hash": 2937143193, "category": "Rifle", "url": "…",
-    "dlc": { "id": "TitleUpdate", "name": "Base Game" },
+    "dlc": { "id": "TitleUpdate", "name": "Base Game", "releaseDate": "2013-09-17" },
     "stats": { "damage": 34, "fireRate": 70, "accuracy": 50, "range": 45, "maxAmmo": 250 },
     "components": [ { "id": "COMPONENT_AT_AR_SUPP", "label": "Suppressor", "hash": 2205435306, "default": false } ],
     "tints": [ { "index": 0, "label": "Black tint" } ] }
@@ -250,8 +262,8 @@ and is frozen into `api/weapons/index.json`.
    (English labels only). DurtyFree is a superset of vespura's component coverage, so its
    components win when present; its `tints` and raw `DlcName` are applied to every weapon.
 4. **DLC labels** — the raw `DlcName` code (e.g. `mpheist4`) is mapped to a friendly marketing
-   name (`The Cayo Perico Heist`) via `dlc.labels.json`, producing `dlc: { id, name }`. Unknown
-   codes fall back to the raw id as the name.
+   name + launch date via `dlc.labels.json`, producing `dlc: { id, name, releaseDate }`. The same
+   map is shared by the vehicles builder. Unknown codes fall back to the raw id as the name.
 
 To refresh the DurtyFree-sourced snapshot (new DLC weapons, components, tints), regenerate
 `weapons.components.json` from the upstream `weapons.json` dump and add any new DLC codes to
@@ -347,8 +359,9 @@ src/
                                #   peds/vehicles/weapons.json (curated codename refs)
                                #   weapons.stats.json (vespura) + weapons.stats.extra.json (gtabase)
                                #   weapons.components.json (DurtyFree: dlc + components + tints)
-                               #   dlc.labels.json (DLC code -> friendly name)
                                #   vehicles.handling.json (DurtyFree performance)
+                               #   vehicles.dlc.json (DurtyFree: model -> DLC code)
+                               #   dlc.labels.json (DLC code -> { name, releaseDate }; shared)
   lib/fs.mjs                   # shared fs helpers (folder-derived domains)
   lib/joaat.mjs                # GTA joaat hash
   lib/catalog.mjs              # shared writer for flat domains
@@ -442,4 +455,4 @@ Existing domains and their URLs are unaffected.
 - Per-drawable previews (hair, torsos, bags, armor, decals, and all props) sourced from the [RAGE Multiplayer Wiki](https://wiki.rage.mp/wiki/Clothes).
 - Ped & vehicle images sourced from the [FiveM docs image archive](https://docs.fivem.net/).
 - Weapon stats from [vespura.com/fivem/weapons](https://vespura.com/fivem/weapons/) (snapshot in `src/data/weapons.stats.json`), with newer DLC guns supplemented from [gtabase.com](https://www.gtabase.com/grand-theft-auto-v/weapons/) (`src/data/weapons.stats.extra.json`). Weapon DLC, components & tints from [DurtyFree/gta-v-data-dumps](https://github.com/DurtyFree/gta-v-data-dumps) (snapshot in `src/data/weapons.components.json`; DLC code→name map in `src/data/dlc.labels.json`).
-- Vehicle performance stats from [DurtyFree/gta-v-data-dumps](https://github.com/DurtyFree/gta-v-data-dumps) (snapshot in `src/data/vehicles.handling.json`).
+- Vehicle performance stats from [DurtyFree/gta-v-data-dumps](https://github.com/DurtyFree/gta-v-data-dumps) (snapshot in `src/data/vehicles.handling.json`). Vehicle DLC tags from the same dump (`src/data/vehicles.dlc.json`); DLC names & launch dates in `src/data/dlc.labels.json` (cross-checked against [gtacars.net](https://gtacars.net/gta5)).

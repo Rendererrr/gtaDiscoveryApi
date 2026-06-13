@@ -6,7 +6,7 @@
     "domain": "weapons",
     "label": "Weapons",
     "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
-    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
+    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
   },
   "categories": [
     {
@@ -61,7 +61,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Acid-package-icon.png",
       "dlc": {
         "id": "mpchristmas3",
-        "name": "Los Santos Drug Wars"
+        "name": "Los Santos Drug Wars",
+        "releaseDate": "2022-12-13"
       },
       "stats": null,
       "components": [],
@@ -109,7 +110,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Advanced-rifle-icon.png",
       "dlc": {
         "id": "TitleUpdate",
-        "name": "Base Game"
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
       },
       "stats": {
         "damage": 34,
@@ -200,7 +202,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Antique-cavalry-dagger-icon.png",
       "dlc": {
         "id": "mphipster",
-        "name": "I'm Not a Hipster Update"
+        "name": "I'm Not a Hipster Update",
+        "releaseDate": "2014-06-17"
       },
       "stats": {
         "damage": 20,
@@ -254,7 +257,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Appistol-icon.png",
       "dlc": {
         "id": "TitleUpdate",
-        "name": "Base Game"
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
       },
       "stats": {
         "damage": 26,
@@ -345,7 +349,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Assault-rifle-icon.png",
       "dlc": {
         "id": "TitleUpdate",
-        "name": "Base Game"
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
       },
       "stats": {
         "damage": 30,
@@ -454,7 +459,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Assault-rifle-mk2-icon.png",
       "dlc": {
         "id": "mpgunrunning",
-        "name": "Gunrunning"
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
       },
       "stats": {
         "damage": 33,
@@ -735,7 +741,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Assault-shotgun-icon.png",
       "dlc": {
         "id": "TitleUpdate",
-        "name": "Base Game"
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
       },
       "stats": {
         "damage": 77,
@@ -820,7 +827,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Assault-smg-icon.png",
       "dlc": {
         "id": "TitleUpdate",
-        "name": "Base Game"
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
       },
       "stats": {
         "damage": 23,
@@ -911,7 +919,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Ball-icon.png",
       "dlc": {
         "id": "TitleUpdate",
-        "name": "Base Game"
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
       },
       "stats": {
         "damage": 0,
@@ -965,7 +974,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Baseball-bat-icon.png",
       "dlc": {
         "id": "TitleUpdate",
-        "name": "Base Game"
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
       },
       "stats": {
         "damage": 20,
@@ -1080,7 +1090,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Battle-axe-icon.png",
       "dlc": {
         "id": "mpbiker",
-        "name": "Bikers"
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
       },
       "stats": {
         "damage": 15,
@@ -1134,7 +1145,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Knuckles-icon.png",
       "dlc": {
         "id": "mpluxe2",
-        "name": "Ill-Gotten Gains Part 2"
+        "name": "Ill-Gotten Gains Part 2",
+        "releaseDate": "2015-07-08"
       },
       "stats": {
         "damage": 5,
@@ -1249,7 +1261,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Broken-bottle-icon.png",
       "dlc": {
         "id": "mpbeach",
-        "name": "Beach Bum"
+        "name": "Beach Bum",
+        "releaseDate": "2013-11-19"
       },
       "stats": {
         "damage": 20,
@@ -1303,7 +1316,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Bullpup-rifle-icon.png",
       "dlc": {
         "id": "mpbusiness2",
-        "name": "The High Life Update"
+        "name": "The High Life Update",
+        "releaseDate": "2014-05-13"
       },
       "stats": {
         "damage": 32,
@@ -1406,7 +1420,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Bullpup-rifle-mk2-icon.png",
       "dlc": {
         "id": "mpchristmas2017",
-        "name": "The Doomsday Heist"
+        "name": "The Doomsday Heist",
+        "releaseDate": "2017-12-12"
       },
       "stats": {
         "damage": 34,
@@ -1687,7 +1702,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Bullpup-shotgun-icon.png",
       "dlc": {
         "id": "TitleUpdate",
-        "name": "Base Game"
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
       },
       "stats": {
         "damage": 67,
@@ -1766,7 +1782,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Bz-gas-icon.png",
       "dlc": {
         "id": "TitleUpdate",
-        "name": "Base Game"
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
       },
       "stats": {
         "damage": 0,
@@ -1820,7 +1837,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Candy-cane-icon.png",
       "dlc": {
         "id": "mpchristmas3",
-        "name": "Los Santos Drug Wars"
+        "name": "Los Santos Drug Wars",
+        "releaseDate": "2022-12-13"
       },
       "stats": null,
       "components": [],
@@ -1868,7 +1886,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Carbine-rifle-icon.png",
       "dlc": {
         "id": "TitleUpdate",
-        "name": "Base Game"
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
       },
       "stats": {
         "damage": 32,
@@ -1989,7 +2008,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Carbine-rifle-mk2-icon.png",
       "dlc": {
         "id": "mpgunrunning",
-        "name": "Gunrunning"
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
       },
       "stats": {
         "damage": 36,
@@ -2270,7 +2290,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Ceramic-pistol-icon.png",
       "dlc": {
         "id": "mpheist3",
-        "name": "The Diamond Casino Heist"
+        "name": "The Diamond Casino Heist",
+        "releaseDate": "2019-12-12"
       },
       "stats": {
         "damage": 32,
@@ -2343,7 +2364,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Combat-mg-icon.png",
       "dlc": {
         "id": "TitleUpdate",
-        "name": "Base Game"
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
       },
       "stats": {
         "damage": 55,
@@ -2434,7 +2456,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Combat-mg-mk2-icon.png",
       "dlc": {
         "id": "mpgunrunning",
-        "name": "Gunrunning"
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
       },
       "stats": {
         "damage": 57,
@@ -2703,7 +2726,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Combat-pdw-icon.png",
       "dlc": {
         "id": "mpluxe",
-        "name": "Ill-Gotten Gains Part 1"
+        "name": "Ill-Gotten Gains Part 1",
+        "releaseDate": "2015-06-10"
       },
       "stats": {
         "damage": 25,
@@ -2794,7 +2818,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Combat-pistol-icon.png",
       "dlc": {
         "id": "TitleUpdate",
-        "name": "Base Game"
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
       },
       "stats": {
         "damage": 27,
@@ -2885,7 +2910,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Combat-shotgun-icon.png",
       "dlc": {
         "id": "mpheist4",
-        "name": "The Cayo Perico Heist"
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
       },
       "stats": {
         "damage": 77,
@@ -2958,7 +2984,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/EMP-launcher-icon.png",
       "dlc": {
         "id": "mpsecurity",
-        "name": "The Contract"
+        "name": "The Contract",
+        "releaseDate": "2021-12-15"
       },
       "stats": {
         "damage": 95,
@@ -3019,7 +3046,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Grenade-compact-launcher-icon.png",
       "dlc": {
         "id": "mpbiker",
-        "name": "Bikers"
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
       },
       "stats": {
         "damage": 95,
@@ -3080,7 +3108,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Compact-rifle-icon.png",
       "dlc": {
         "id": "mplowrider2",
-        "name": "Lowriders: Custom Classics"
+        "name": "Lowriders: Custom Classics",
+        "releaseDate": "2016-03-15"
       },
       "stats": {
         "damage": 36,
@@ -3153,7 +3182,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Crowbar-icon.png",
       "dlc": {
         "id": "TitleUpdate",
-        "name": "Base Game"
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
       },
       "stats": {
         "damage": 10,
@@ -3207,7 +3237,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Double-barrel-shotgun-icon.png",
       "dlc": {
         "id": "mplowrider2",
-        "name": "Lowriders: Custom Classics"
+        "name": "Lowriders: Custom Classics",
+        "releaseDate": "2016-03-15"
       },
       "stats": {
         "damage": 98,
@@ -3268,7 +3299,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Double-action-revolver-icon.png",
       "dlc": {
         "id": "mpchristmas2017",
-        "name": "The Doomsday Heist"
+        "name": "The Doomsday Heist",
+        "releaseDate": "2017-12-12"
       },
       "stats": {
         "damage": 60,
@@ -3301,7 +3333,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Firework-launcher-icon.png",
       "dlc": {
         "id": "mpindependence",
-        "name": "Independence Day Special"
+        "name": "Independence Day Special",
+        "releaseDate": "2014-07-01"
       },
       "stats": {
         "damage": 45,
@@ -3362,7 +3395,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Fist-icon.png",
       "dlc": {
         "id": "TitleUpdate",
-        "name": "Base Game"
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
       },
       "stats": null,
       "components": [],
@@ -3410,7 +3444,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Flare-icon.png",
       "dlc": {
         "id": "TitleUpdate",
-        "name": "Base Game"
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
       },
       "stats": {
         "damage": 0,
@@ -3464,7 +3499,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Flaregun-icon.png",
       "dlc": {
         "id": "mpheist",
-        "name": "The Heists Update"
+        "name": "The Heists Update",
+        "releaseDate": "2015-03-10"
       },
       "stats": {
         "damage": 20,
@@ -3525,7 +3561,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Flashlight-icon.png",
       "dlc": {
         "id": "mphalloween",
-        "name": "Halloween Surprise"
+        "name": "Halloween Surprise",
+        "releaseDate": "2015-10-29"
       },
       "stats": {
         "damage": 10,
@@ -3586,7 +3623,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Golf-club-icon.png",
       "dlc": {
         "id": "TitleUpdate",
-        "name": "Base Game"
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
       },
       "stats": {
         "damage": 20,
@@ -3640,7 +3678,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Grenade-icon.png",
       "dlc": {
         "id": "TitleUpdate",
-        "name": "Base Game"
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
       },
       "stats": {
         "damage": 95,
@@ -3694,7 +3733,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Grenade-launcher-icon.png",
       "dlc": {
         "id": "TitleUpdate",
-        "name": "Base Game"
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
       },
       "stats": {
         "damage": 95,
@@ -3773,7 +3813,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Gusenberg-sweeper-icon.png",
       "dlc": {
         "id": "mpvalentines",
-        "name": "Valentine's Day Massacre"
+        "name": "Valentine's Day Massacre",
+        "releaseDate": "2014-02-13"
       },
       "stats": {
         "damage": 34,
@@ -3840,7 +3881,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Hammer-icon.png",
       "dlc": {
         "id": "TitleUpdate",
-        "name": "Base Game"
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
       },
       "stats": {
         "damage": 10,
@@ -3894,7 +3936,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Hatchet-icon.png",
       "dlc": {
         "id": "spupgrade",
-        "name": "Story Mode (Next-Gen)"
+        "name": "Story Mode (Next-Gen)",
+        "releaseDate": "2014-11-18"
       },
       "stats": {
         "damage": 15,
@@ -3948,7 +3991,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-pistol-icon.png",
       "dlc": {
         "id": "mpbusiness",
-        "name": "The Business Update"
+        "name": "The Business Update",
+        "releaseDate": "2014-03-04"
       },
       "stats": {
         "damage": 40,
@@ -4033,7 +4077,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-revolver-icon.png",
       "dlc": {
         "id": "mpapartment",
-        "name": "Executives and Other Criminals"
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
       },
       "stats": {
         "damage": 70,
@@ -4112,7 +4157,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-revolver-mk2-icon.png",
       "dlc": {
         "id": "mpchristmas2017",
-        "name": "The Doomsday Heist"
+        "name": "The Doomsday Heist",
+        "releaseDate": "2017-12-12"
       },
       "stats": {
         "damage": 75,
@@ -4321,7 +4367,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-rifle-icon.png",
       "dlc": {
         "id": "mpsecurity",
-        "name": "The Contract"
+        "name": "The Contract",
+        "releaseDate": "2021-12-15"
       },
       "stats": {
         "damage": 40,
@@ -4418,7 +4465,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-shotgun-icon.png",
       "dlc": {
         "id": "mplts",
-        "name": "Last Team Standing Update"
+        "name": "Last Team Standing Update",
+        "releaseDate": "2014-10-08"
       },
       "stats": {
         "damage": 85,
@@ -4509,7 +4557,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-sniper-icon.png",
       "dlc": {
         "id": "TitleUpdate",
-        "name": "Base Game"
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
       },
       "stats": {
         "damage": 98,
@@ -4594,7 +4643,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-sniper-mk2-icon.png",
       "dlc": {
         "id": "mpgunrunning",
-        "name": "Gunrunning"
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
       },
       "stats": {
         "damage": 100,
@@ -4839,7 +4889,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Homing-launcher-icon.png",
       "dlc": {
         "id": "mpchristmas2",
-        "name": "Festive Surprise (2014)"
+        "name": "Festive Surprise (2014)",
+        "releaseDate": "2014-12-18"
       },
       "stats": {
         "damage": 95,
@@ -4900,7 +4951,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Petrolcan-icon.png",
       "dlc": {
         "id": "TitleUpdate",
-        "name": "Base Game"
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
       },
       "stats": {
         "damage": 0,
@@ -4954,7 +5006,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Knife-icon.png",
       "dlc": {
         "id": "TitleUpdate",
-        "name": "Base Game"
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
       },
       "stats": {
         "damage": 15,
@@ -5069,7 +5122,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Machete-icon.png",
       "dlc": {
         "id": "mplowrider",
-        "name": "Lowriders"
+        "name": "Lowriders",
+        "releaseDate": "2015-10-20"
       },
       "stats": {
         "damage": 15,
@@ -5123,7 +5177,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Machine-pistol-icon.png",
       "dlc": {
         "id": "mplowrider",
-        "name": "Lowriders"
+        "name": "Lowriders",
+        "releaseDate": "2015-10-20"
       },
       "stats": {
         "damage": 28,
@@ -5202,7 +5257,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Marksman-pistol-icon.png",
       "dlc": {
         "id": "mpluxe2",
-        "name": "Ill-Gotten Gains Part 2"
+        "name": "Ill-Gotten Gains Part 2",
+        "releaseDate": "2015-07-08"
       },
       "stats": {
         "damage": 80,
@@ -5263,7 +5319,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Marksman-rifle-icon.png",
       "dlc": {
         "id": "mplts",
-        "name": "Last Team Standing Update"
+        "name": "Last Team Standing Update",
+        "releaseDate": "2014-10-08"
       },
       "stats": {
         "damage": 70,
@@ -5366,7 +5423,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Marksman-rifle-mk2-icon.png",
       "dlc": {
         "id": "mpchristmas2017",
-        "name": "The Doomsday Heist"
+        "name": "The Doomsday Heist",
+        "releaseDate": "2017-12-12"
       },
       "stats": {
         "damage": 75,
@@ -5647,7 +5705,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Mg-icon.png",
       "dlc": {
         "id": "TitleUpdate",
-        "name": "Base Game"
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
       },
       "stats": {
         "damage": 50,
@@ -5726,7 +5785,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Micro-smg-icon.png",
       "dlc": {
         "id": "TitleUpdate",
-        "name": "Base Game"
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
       },
       "stats": {
         "damage": 21,
@@ -5835,7 +5895,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Military-rifle-icon.png",
       "dlc": {
         "id": "mpheist4",
-        "name": "The Cayo Perico Heist"
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
       },
       "stats": {
         "damage": 38,
@@ -5926,7 +5987,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Mini-smg-icon.png",
       "dlc": {
         "id": "mpbiker",
-        "name": "Bikers"
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
       },
       "stats": {
         "damage": 22,
@@ -5993,7 +6055,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Minigun-icon.png",
       "dlc": {
         "id": "TitleUpdate",
-        "name": "Base Game"
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
       },
       "stats": {
         "damage": 30,
@@ -6054,7 +6117,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Molotov-icon.png",
       "dlc": {
         "id": "TitleUpdate",
-        "name": "Base Game"
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
       },
       "stats": {
         "damage": 50,
@@ -6108,7 +6172,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Musket-icon.png",
       "dlc": {
         "id": "mpindependence",
-        "name": "Independence Day Special"
+        "name": "Independence Day Special",
+        "releaseDate": "2014-07-01"
       },
       "stats": {
         "damage": 97,
@@ -6169,7 +6234,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Navy-revolver-icon.png",
       "dlc": {
         "id": "mpheist3",
-        "name": "The Diamond Casino Heist"
+        "name": "The Diamond Casino Heist",
+        "releaseDate": "2019-12-12"
       },
       "stats": {
         "damage": 70,
@@ -6202,7 +6268,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Nightstick-icon.png",
       "dlc": {
         "id": "TitleUpdate",
-        "name": "Base Game"
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
       },
       "stats": {
         "damage": 10,
@@ -6256,7 +6323,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Parachute-icon.png",
       "dlc": {
         "id": "TitleUpdate",
-        "name": "Base Game"
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
       },
       "stats": null,
       "components": [],
@@ -6304,7 +6372,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Perico-pistol-icon.png",
       "dlc": {
         "id": "mpheist4",
-        "name": "The Cayo Perico Heist"
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
       },
       "stats": {
         "damage": 80,
@@ -6365,7 +6434,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pipe-bomb-icon.png",
       "dlc": {
         "id": "mpbiker",
-        "name": "Bikers"
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
       },
       "stats": {
         "damage": 85,
@@ -6419,7 +6489,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pipe-wrench-icon.png",
       "dlc": {
         "id": "mpbiker",
-        "name": "Bikers"
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
       },
       "stats": {
         "damage": 10,
@@ -6473,7 +6544,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pistol-icon.png",
       "dlc": {
         "id": "TitleUpdate",
-        "name": "Base Game"
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
       },
       "stats": {
         "damage": 26,
@@ -6564,7 +6636,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pistol.50-icon.png",
       "dlc": {
         "id": "TitleUpdate",
-        "name": "Base Game"
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
       },
       "stats": {
         "damage": 51,
@@ -6649,7 +6722,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pistol-mk2-icon.png",
       "dlc": {
         "id": "mpgunrunning",
-        "name": "Gunrunning"
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
       },
       "stats": {
         "damage": 38,
@@ -6876,7 +6950,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pool-cue-icon.png",
       "dlc": {
         "id": "mpbiker",
-        "name": "Bikers"
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
       },
       "stats": {
         "damage": 20,
@@ -6930,7 +7005,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Precision-rifle-icon.png",
       "dlc": {
         "id": "mpsum2",
-        "name": "The Criminal Enterprises"
+        "name": "The Criminal Enterprises",
+        "releaseDate": "2022-07-26"
       },
       "stats": {
         "damage": 88,
@@ -6991,7 +7067,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Proximity-mines-icon.png",
       "dlc": {
         "id": "mpchristmas2",
-        "name": "Festive Surprise (2014)"
+        "name": "Festive Surprise (2014)",
+        "releaseDate": "2014-12-18"
       },
       "stats": {
         "damage": 90,
@@ -7045,7 +7122,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pump-shotgun-icon.png",
       "dlc": {
         "id": "TitleUpdate",
-        "name": "Base Game"
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
       },
       "stats": {
         "damage": 67,
@@ -7142,7 +7220,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pump-shotgun-mk2-icon.png",
       "dlc": {
         "id": "mpchristmas2017",
-        "name": "The Doomsday Heist"
+        "name": "The Doomsday Heist",
+        "releaseDate": "2017-12-12"
       },
       "stats": {
         "damage": 70,
@@ -7363,7 +7442,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Railgun-icon.png",
       "dlc": {
         "id": "spupgrade",
-        "name": "Story Mode (Next-Gen)"
+        "name": "Story Mode (Next-Gen)",
+        "releaseDate": "2014-11-18"
       },
       "stats": {
         "damage": 90,
@@ -7424,7 +7504,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Rocket-launcher-icon.png",
       "dlc": {
         "id": "TitleUpdate",
-        "name": "Base Game"
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
       },
       "stats": {
         "damage": 100,
@@ -7491,7 +7572,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Sawed-off-shotgun-icon.png",
       "dlc": {
         "id": "TitleUpdate",
-        "name": "Base Game"
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
       },
       "stats": {
         "damage": 96,
@@ -7558,7 +7640,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Tactical-rifle-icon.png",
       "dlc": {
         "id": "mpsum2",
-        "name": "The Criminal Enterprises"
+        "name": "The Criminal Enterprises",
+        "releaseDate": "2022-07-26"
       },
       "stats": {
         "damage": 39,
@@ -7643,7 +7726,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Smg-icon.png",
       "dlc": {
         "id": "TitleUpdate",
-        "name": "Base Game"
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
       },
       "stats": {
         "damage": 22,
@@ -7746,7 +7830,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Smg-mk2-icon.png",
       "dlc": {
         "id": "mpgunrunning",
-        "name": "Gunrunning"
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
       },
       "stats": {
         "damage": 26,
@@ -8021,7 +8106,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Sniper-rifle-icon.png",
       "dlc": {
         "id": "TitleUpdate",
-        "name": "Base Game"
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
       },
       "stats": {
         "damage": 96,
@@ -8106,7 +8192,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Snowball-icon.png",
       "dlc": {
         "id": "mpchristmas2",
-        "name": "Festive Surprise (2014)"
+        "name": "Festive Surprise (2014)",
+        "releaseDate": "2014-12-18"
       },
       "stats": {
         "damage": 0,
@@ -8160,7 +8247,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Sns-pistol-icon.png",
       "dlc": {
         "id": "mpbeach",
-        "name": "Beach Bum"
+        "name": "Beach Bum",
+        "releaseDate": "2013-11-19"
       },
       "stats": {
         "damage": 30,
@@ -8239,7 +8327,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Sns-pistol-mk2-icon.png",
       "dlc": {
         "id": "mpchristmas2017",
-        "name": "The Doomsday Heist"
+        "name": "The Doomsday Heist",
+        "releaseDate": "2017-12-12"
       },
       "stats": {
         "damage": 32,
@@ -8454,7 +8543,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Special-carbine-icon.png",
       "dlc": {
         "id": "mpbusiness",
-        "name": "The Business Update"
+        "name": "The Business Update",
+        "releaseDate": "2014-03-04"
       },
       "stats": {
         "damage": 34,
@@ -8569,7 +8659,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Special-carbine-mk2-icon.png",
       "dlc": {
         "id": "mpchristmas2017",
-        "name": "The Doomsday Heist"
+        "name": "The Doomsday Heist",
+        "releaseDate": "2017-12-12"
       },
       "stats": {
         "damage": 36,
@@ -8850,7 +8941,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Sticky-bomb-icon.png",
       "dlc": {
         "id": "TitleUpdate",
-        "name": "Base Game"
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
       },
       "stats": {
         "damage": 95,
@@ -8904,7 +8996,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Stone-hatchet-icon.png",
       "dlc": {
         "id": "mpbattle",
-        "name": "After Hours"
+        "name": "After Hours",
+        "releaseDate": "2018-07-24"
       },
       "stats": {
         "damage": 30,
@@ -8958,7 +9051,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Stungun-icon.png",
       "dlc": {
         "id": "TitleUpdate",
-        "name": "Base Game"
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
       },
       "stats": {
         "damage": 1,
@@ -9012,7 +9106,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Sweeper-shotgun-icon.png",
       "dlc": {
         "id": "mpbiker",
-        "name": "Bikers"
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
       },
       "stats": {
         "damage": 70,
@@ -9073,7 +9168,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Switch-blade-icon.png",
       "dlc": {
         "id": "mpapartment",
-        "name": "Executives and Other Criminals"
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
       },
       "stats": {
         "damage": 15,
@@ -9146,7 +9242,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Tactical-smg-icon.png",
       "dlc": {
         "id": "mp2023_01",
-        "name": "San Andreas Mercenaries"
+        "name": "San Andreas Mercenaries",
+        "releaseDate": "2023-06-13"
       },
       "stats": {
         "damage": 28,
@@ -9225,7 +9322,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Tear-gas-icon.png",
       "dlc": {
         "id": "TitleUpdate",
-        "name": "Base Game"
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
       },
       "stats": {
         "damage": 10,
@@ -9279,7 +9377,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/The-shocker-icon.png",
       "dlc": {
         "id": "mp2024_01",
-        "name": "Bottom Dollar Bounties"
+        "name": "Bottom Dollar Bounties",
+        "releaseDate": "2024-06-25"
       },
       "stats": null,
       "components": [],
@@ -9327,7 +9426,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Unholy-hellbringer-icon.png",
       "dlc": {
         "id": "mpchristmas2018",
-        "name": "Arena War"
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
       },
       "stats": {
         "damage": 55,
@@ -9377,7 +9477,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Up-n-atomizer-icon.png",
       "dlc": {
         "id": "mpchristmas2018",
-        "name": "Arena War"
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
       },
       "stats": {
         "damage": 30,
@@ -9434,7 +9535,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Vintage-pistol-icon.png",
       "dlc": {
         "id": "mphipster",
-        "name": "I'm Not a Hipster Update"
+        "name": "I'm Not a Hipster Update",
+        "releaseDate": "2014-06-17"
       },
       "stats": {
         "damage": 35,
@@ -9507,7 +9609,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Widowmaker-icon.png",
       "dlc": {
         "id": "mpchristmas2018",
-        "name": "Arena War"
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
       },
       "stats": {
         "damage": 30,
@@ -9564,7 +9667,8 @@
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/WM-29-pistol-icon.png",
       "dlc": {
         "id": "mpchristmas3",
-        "name": "Los Santos Drug Wars"
+        "name": "Los Santos Drug Wars",
+        "releaseDate": "2022-12-13"
       },
       "stats": {
         "damage": 36,
