@@ -1,8 +1,9 @@
 {
-  "note": "Weapon components, tints and liveries from DurtyFree/gta-v-data-dumps (weapons.json). Keyed by uppercase codename. components[]={id,label,hash,default}; tints[]={index,label}. English labels only.",
+  "note": "Weapon DLC, components and tints from DurtyFree/gta-v-data-dumps (weapons.json). Keyed by uppercase codename. dlc=internal DLC code (see dlc.labels.json); components[]={id,label,hash,default}; tints[]={index,label}. English labels only.",
   "source": "https://github.com/DurtyFree/gta-v-data-dumps/blob/master/weapons.json",
   "weapons": {
     "WEAPON_UNARMED": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -40,6 +41,7 @@
       ]
     },
     "WEAPON_ANIMAL": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -77,6 +79,7 @@
       ]
     },
     "WEAPON_COUGAR": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -114,6 +117,7 @@
       ]
     },
     "WEAPON_KNIFE": {
+      "dlc": "TitleUpdate",
       "components": [
         {
           "id": "COMPONENT_KNIFE_VARMOD_XM3",
@@ -212,6 +216,7 @@
       ]
     },
     "WEAPON_NIGHTSTICK": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -249,6 +254,7 @@
       ]
     },
     "WEAPON_HAMMER": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -286,6 +292,7 @@
       ]
     },
     "WEAPON_BAT": {
+      "dlc": "TitleUpdate",
       "components": [
         {
           "id": "COMPONENT_BAT_VARMOD_XM3",
@@ -384,6 +391,7 @@
       ]
     },
     "WEAPON_GOLFCLUB": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -421,6 +429,7 @@
       ]
     },
     "WEAPON_CROWBAR": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -458,6 +467,7 @@
       ]
     },
     "WEAPON_PISTOL": {
+      "dlc": "TitleUpdate",
       "components": [
         {
           "id": "COMPONENT_PISTOL_CLIP_01",
@@ -532,6 +542,7 @@
       ]
     },
     "WEAPON_COMBATPISTOL": {
+      "dlc": "TitleUpdate",
       "components": [
         {
           "id": "COMPONENT_COMBATPISTOL_CLIP_01",
@@ -606,6 +617,7 @@
       ]
     },
     "WEAPON_APPISTOL": {
+      "dlc": "TitleUpdate",
       "components": [
         {
           "id": "COMPONENT_APPISTOL_CLIP_01",
@@ -680,6 +692,7 @@
       ]
     },
     "WEAPON_PISTOL50": {
+      "dlc": "TitleUpdate",
       "components": [
         {
           "id": "COMPONENT_PISTOL50_CLIP_01",
@@ -748,6 +761,7 @@
       ]
     },
     "WEAPON_MICROSMG": {
+      "dlc": "TitleUpdate",
       "components": [
         {
           "id": "COMPONENT_MICROSMG_CLIP_01",
@@ -840,6 +854,7 @@
       ]
     },
     "WEAPON_SMG": {
+      "dlc": "TitleUpdate",
       "components": [
         {
           "id": "COMPONENT_SMG_CLIP_01",
@@ -926,6 +941,7 @@
       ]
     },
     "WEAPON_ASSAULTSMG": {
+      "dlc": "TitleUpdate",
       "components": [
         {
           "id": "COMPONENT_ASSAULTSMG_CLIP_01",
@@ -1000,6 +1016,7 @@
       ]
     },
     "WEAPON_ASSAULTRIFLE": {
+      "dlc": "TitleUpdate",
       "components": [
         {
           "id": "COMPONENT_ASSAULTRIFLE_CLIP_01",
@@ -1092,6 +1109,7 @@
       ]
     },
     "WEAPON_CARBINERIFLE": {
+      "dlc": "TitleUpdate",
       "components": [
         {
           "id": "COMPONENT_CARBINERIFLE_CLIP_01",
@@ -1196,6 +1214,7 @@
       ]
     },
     "WEAPON_ADVANCEDRIFLE": {
+      "dlc": "TitleUpdate",
       "components": [
         {
           "id": "COMPONENT_ADVANCEDRIFLE_CLIP_01",
@@ -1270,6 +1289,7 @@
       ]
     },
     "WEAPON_MG": {
+      "dlc": "TitleUpdate",
       "components": [
         {
           "id": "COMPONENT_MG_CLIP_01",
@@ -1332,6 +1352,7 @@
       ]
     },
     "WEAPON_COMBATMG": {
+      "dlc": "TitleUpdate",
       "components": [
         {
           "id": "COMPONENT_COMBATMG_CLIP_01",
@@ -1406,6 +1427,7 @@
       ]
     },
     "WEAPON_PUMPSHOTGUN": {
+      "dlc": "TitleUpdate",
       "components": [
         {
           "id": "COMPONENT_PUMPSHOTGUN_CLIP_01",
@@ -1486,6 +1508,7 @@
       ]
     },
     "WEAPON_SAWNOFFSHOTGUN": {
+      "dlc": "TitleUpdate",
       "components": [
         {
           "id": "COMPONENT_SAWNOFFSHOTGUN_CLIP_01",
@@ -1536,6 +1559,7 @@
       ]
     },
     "WEAPON_ASSAULTSHOTGUN": {
+      "dlc": "TitleUpdate",
       "components": [
         {
           "id": "COMPONENT_ASSAULTSHOTGUN_CLIP_01",
@@ -1604,6 +1628,7 @@
       ]
     },
     "WEAPON_BULLPUPSHOTGUN": {
+      "dlc": "TitleUpdate",
       "components": [
         {
           "id": "COMPONENT_BULLPUPSHOTGUN_CLIP_01",
@@ -1666,6 +1691,7 @@
       ]
     },
     "WEAPON_STUNGUN": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -1703,6 +1729,7 @@
       ]
     },
     "WEAPON_SNIPERRIFLE": {
+      "dlc": "TitleUpdate",
       "components": [
         {
           "id": "COMPONENT_SNIPERRIFLE_CLIP_01",
@@ -1771,6 +1798,7 @@
       ]
     },
     "WEAPON_HEAVYSNIPER": {
+      "dlc": "TitleUpdate",
       "components": [
         {
           "id": "COMPONENT_HEAVYSNIPER_CLIP_01",
@@ -1839,6 +1867,7 @@
       ]
     },
     "WEAPON_REMOTESNIPER": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -1876,6 +1905,7 @@
       ]
     },
     "WEAPON_GRENADELAUNCHER": {
+      "dlc": "TitleUpdate",
       "components": [
         {
           "id": "COMPONENT_GRENADELAUNCHER_CLIP_01",
@@ -1938,6 +1968,7 @@
       ]
     },
     "WEAPON_GRENADELAUNCHER_SMOKE": {
+      "dlc": "TitleUpdate",
       "components": [
         {
           "id": "COMPONENT_AT_AR_FLSH",
@@ -1994,6 +2025,7 @@
       ]
     },
     "WEAPON_RPG": {
+      "dlc": "TitleUpdate",
       "components": [
         {
           "id": "COMPONENT_RPG_CLIP_01",
@@ -2044,6 +2076,7 @@
       ]
     },
     "WEAPON_PASSENGER_ROCKET": {
+      "dlc": "TitleUpdate",
       "components": [
         {
           "id": "COMPONENT_RPG_CLIP_01",
@@ -2088,6 +2121,7 @@
       ]
     },
     "WEAPON_AIRSTRIKE_ROCKET": {
+      "dlc": "TitleUpdate",
       "components": [
         {
           "id": "COMPONENT_RPG_CLIP_01",
@@ -2132,6 +2166,7 @@
       ]
     },
     "WEAPON_STINGER": {
+      "dlc": "TitleUpdate",
       "components": [
         {
           "id": "COMPONENT_RPG_CLIP_01",
@@ -2176,6 +2211,7 @@
       ]
     },
     "WEAPON_MINIGUN": {
+      "dlc": "TitleUpdate",
       "components": [
         {
           "id": "COMPONENT_MINIGUN_CLIP_01",
@@ -2220,6 +2256,7 @@
       ]
     },
     "WEAPON_GRENADE": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -2257,6 +2294,7 @@
       ]
     },
     "WEAPON_STICKYBOMB": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -2294,6 +2332,7 @@
       ]
     },
     "WEAPON_SMOKEGRENADE": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -2331,6 +2370,7 @@
       ]
     },
     "WEAPON_BZGAS": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -2368,6 +2408,7 @@
       ]
     },
     "WEAPON_MOLOTOV": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -2405,6 +2446,7 @@
       ]
     },
     "WEAPON_FIREEXTINGUISHER": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -2442,6 +2484,7 @@
       ]
     },
     "WEAPON_PETROLCAN": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -2479,6 +2522,7 @@
       ]
     },
     "WEAPON_DIGISCANNER": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -2516,6 +2560,7 @@
       ]
     },
     "GADGET_NIGHTVISION": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -2553,6 +2598,7 @@
       ]
     },
     "GADGET_PARACHUTE": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -2590,6 +2636,7 @@
       ]
     },
     "OBJECT": {
+      "dlc": "TitleUpdate",
       "components": [
         {
           "id": "POLICE_TORCH_FLASHLIGHT",
@@ -2634,6 +2681,7 @@
       ]
     },
     "WEAPON_BRIEFCASE": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -2671,6 +2719,7 @@
       ]
     },
     "WEAPON_BRIEFCASE_02": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -2708,6 +2757,7 @@
       ]
     },
     "WEAPON_BALL": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -2745,6 +2795,7 @@
       ]
     },
     "WEAPON_FLARE": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -2782,6 +2833,7 @@
       ]
     },
     "VEHICLE_WEAPON_TANK": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -2819,6 +2871,7 @@
       ]
     },
     "VEHICLE_WEAPON_SPACE_ROCKET": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -2856,6 +2909,7 @@
       ]
     },
     "VEHICLE_WEAPON_PLANE_ROCKET": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -2893,6 +2947,7 @@
       ]
     },
     "VEHICLE_WEAPON_PLAYER_LASER": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -2930,6 +2985,7 @@
       ]
     },
     "VEHICLE_WEAPON_PLAYER_BULLET": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -2967,6 +3023,7 @@
       ]
     },
     "VEHICLE_WEAPON_PLAYER_BUZZARD": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -3004,6 +3061,7 @@
       ]
     },
     "VEHICLE_WEAPON_PLAYER_HUNTER": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -3041,6 +3099,7 @@
       ]
     },
     "VEHICLE_WEAPON_PLAYER_LAZER": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -3078,6 +3137,7 @@
       ]
     },
     "VEHICLE_WEAPON_ENEMY_LASER": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -3115,6 +3175,7 @@
       ]
     },
     "VEHICLE_WEAPON_SEARCHLIGHT": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -3152,6 +3213,7 @@
       ]
     },
     "VEHICLE_WEAPON_RADAR": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -3189,6 +3251,7 @@
       ]
     },
     "WEAPON_VEHICLE_ROCKET": {
+      "dlc": "TitleUpdate",
       "components": [
         {
           "id": "COMPONENT_RPG_CLIP_01",
@@ -3233,6 +3296,7 @@
       ]
     },
     "WEAPON_BARBED_WIRE": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -3270,6 +3334,7 @@
       ]
     },
     "WEAPON_DROWNING": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -3307,6 +3372,7 @@
       ]
     },
     "WEAPON_DROWNING_IN_VEHICLE": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -3344,6 +3410,7 @@
       ]
     },
     "WEAPON_BLEEDING": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -3381,6 +3448,7 @@
       ]
     },
     "WEAPON_ELECTRIC_FENCE": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -3418,6 +3486,7 @@
       ]
     },
     "WEAPON_EXPLOSION": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -3455,6 +3524,7 @@
       ]
     },
     "WEAPON_FALL": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -3492,6 +3562,7 @@
       ]
     },
     "WEAPON_EXHAUSTION": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -3529,6 +3600,7 @@
       ]
     },
     "WEAPON_HIT_BY_WATER_CANNON": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -3566,6 +3638,7 @@
       ]
     },
     "WEAPON_RAMMED_BY_CAR": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -3603,6 +3676,7 @@
       ]
     },
     "WEAPON_RUN_OVER_BY_CAR": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -3640,6 +3714,7 @@
       ]
     },
     "WEAPON_HELI_CRASH": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -3677,6 +3752,7 @@
       ]
     },
     "VEHICLE_WEAPON_ROTORS": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -3714,6 +3790,7 @@
       ]
     },
     "WEAPON_FIRE": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -3751,6 +3828,7 @@
       ]
     },
     "WEAPON_ANIMAL_RETRIEVER": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -3788,6 +3866,7 @@
       ]
     },
     "WEAPON_SMALL_DOG": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -3825,6 +3904,7 @@
       ]
     },
     "WEAPON_TIGER_SHARK": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -3862,6 +3942,7 @@
       ]
     },
     "WEAPON_HAMMERHEAD_SHARK": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -3899,6 +3980,7 @@
       ]
     },
     "WEAPON_KILLER_WHALE": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -3936,6 +4018,7 @@
       ]
     },
     "WEAPON_BOAR": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -3973,6 +4056,7 @@
       ]
     },
     "WEAPON_PIG": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -4010,6 +4094,7 @@
       ]
     },
     "WEAPON_COYOTE": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -4047,6 +4132,7 @@
       ]
     },
     "WEAPON_DEER": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -4084,6 +4170,7 @@
       ]
     },
     "WEAPON_HEN": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -4121,6 +4208,7 @@
       ]
     },
     "WEAPON_RABBIT": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -4158,6 +4246,7 @@
       ]
     },
     "WEAPON_CAT": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -4195,6 +4284,7 @@
       ]
     },
     "WEAPON_COW": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -4232,6 +4322,7 @@
       ]
     },
     "WEAPON_BIRD_CRAP": {
+      "dlc": "TitleUpdate",
       "components": [],
       "tints": [
         {
@@ -4269,6 +4360,7 @@
       ]
     },
     "WEAPON_BOTTLE": {
+      "dlc": "mpbeach",
       "components": [],
       "tints": [
         {
@@ -4306,6 +4398,7 @@
       ]
     },
     "WEAPON_SNSPISTOL": {
+      "dlc": "mpbeach",
       "components": [
         {
           "id": "COMPONENT_SNSPISTOL_CLIP_01",
@@ -4368,6 +4461,7 @@
       ]
     },
     "WEAPON_HEAVYPISTOL": {
+      "dlc": "mpbusiness",
       "components": [
         {
           "id": "COMPONENT_HEAVYPISTOL_CLIP_01",
@@ -4436,6 +4530,7 @@
       ]
     },
     "WEAPON_BULLPUPRIFLE": {
+      "dlc": "mpbusiness2",
       "components": [
         {
           "id": "COMPONENT_BULLPUPRIFLE_CLIP_01",
@@ -4522,6 +4617,7 @@
       ]
     },
     "WEAPON_SPECIALCARBINE": {
+      "dlc": "mpbusiness",
       "components": [
         {
           "id": "COMPONENT_SPECIALCARBINE_CLIP_01",
@@ -4620,6 +4716,7 @@
       ]
     },
     "WEAPON_SNSPISTOL_MK2": {
+      "dlc": "mpchristmas2017",
       "components": [
         {
           "id": "COMPONENT_SNSPISTOL_MK2_CLIP_01",
@@ -4818,6 +4915,7 @@
       ]
     },
     "WEAPON_MARKSMANRIFLE_MK2": {
+      "dlc": "mpchristmas2017",
       "components": [
         {
           "id": "COMPONENT_MARKSMANRIFLE_MK2_CLIP_01",
@@ -5082,6 +5180,7 @@
       ]
     },
     "WEAPON_PUMPSHOTGUN_MK2": {
+      "dlc": "mpchristmas2017",
       "components": [
         {
           "id": "COMPONENT_PUMPSHOTGUN_MK2_CLIP_01",
@@ -5286,6 +5385,7 @@
       ]
     },
     "WEAPON_BULLPUPRIFLE_MK2": {
+      "dlc": "mpchristmas2017",
       "components": [
         {
           "id": "COMPONENT_BULLPUPRIFLE_MK2_CLIP_01",
@@ -5550,6 +5650,7 @@
       ]
     },
     "WEAPON_SPECIALCARBINE_MK2": {
+      "dlc": "mpchristmas2017",
       "components": [
         {
           "id": "COMPONENT_SPECIALCARBINE_MK2_CLIP_01",
@@ -5814,6 +5915,7 @@
       ]
     },
     "WEAPON_ACIDPACKAGE": {
+      "dlc": "mpchristmas3",
       "components": [],
       "tints": [
         {
@@ -5851,6 +5953,7 @@
       ]
     },
     "WEAPON_ARENA_MACHINE_GUN": {
+      "dlc": "mpchristmas2018",
       "components": [],
       "tints": [
         {
@@ -5888,6 +5991,7 @@
       ]
     },
     "WEAPON_ARENA_HOMING_MISSILE": {
+      "dlc": "mpchristmas2018",
       "components": [],
       "tints": [
         {
@@ -5925,6 +6029,7 @@
       ]
     },
     "WEAPON_CANDYCANE": {
+      "dlc": "mpchristmas3",
       "components": [],
       "tints": [
         {
@@ -5962,6 +6067,7 @@
       ]
     },
     "WEAPON_RAILGUNXM3": {
+      "dlc": "mpchristmas3",
       "components": [
         {
           "id": "COMPONENT_RAILGUNXM3_CLIP_01",
@@ -6006,6 +6112,7 @@
       ]
     },
     "WEAPON_PISTOLXM3": {
+      "dlc": "mpchristmas3",
       "components": [
         {
           "id": "COMPONENT_PISTOLXM3_CLIP_01",
@@ -6056,6 +6163,7 @@
       ]
     },
     "WEAPON_RAYPISTOL": {
+      "dlc": "mpchristmas2018",
       "components": [
         {
           "id": "COMPONENT_RAYPISTOL_VARMOD_XMAS18",
@@ -6096,6 +6204,7 @@
       ]
     },
     "WEAPON_RAYCARBINE": {
+      "dlc": "mpchristmas2018",
       "components": [],
       "tints": [
         {
@@ -6129,6 +6238,7 @@
       ]
     },
     "WEAPON_RAYMINIGUN": {
+      "dlc": "mpchristmas2018",
       "components": [
         {
           "id": "COMPONENT_MINIGUN_CLIP_01",
@@ -6169,6 +6279,7 @@
       ]
     },
     "WEAPON_DOUBLEACTION": {
+      "dlc": "mpchristmas2017",
       "components": [
         {
           "id": "COMPONENT_DOUBLEACTION_CLIP_01",
@@ -6185,6 +6296,7 @@
       ]
     },
     "WEAPON_SNOWBALL": {
+      "dlc": "mpchristmas2",
       "components": [],
       "tints": [
         {
@@ -6222,6 +6334,7 @@
       ]
     },
     "WEAPON_PROXMINE": {
+      "dlc": "mpchristmas2",
       "components": [],
       "tints": [
         {
@@ -6259,6 +6372,7 @@
       ]
     },
     "WEAPON_HOMINGLAUNCHER": {
+      "dlc": "mpchristmas2",
       "components": [
         {
           "id": "COMPONENT_HOMINGLAUNCHER_CLIP_01",
@@ -6303,6 +6417,7 @@
       ]
     },
     "WEAPON_REVOLVER_MK2": {
+      "dlc": "mpchristmas2017",
       "components": [
         {
           "id": "COMPONENT_REVOLVER_MK2_CLIP_01",
@@ -6495,6 +6610,7 @@
       ]
     },
     "WEAPON_GUSENBERG": {
+      "dlc": "mpvalentines",
       "components": [
         {
           "id": "COMPONENT_GUSENBERG_CLIP_01",
@@ -6545,6 +6661,7 @@
       ]
     },
     "WEAPON_DAGGER": {
+      "dlc": "mphipster",
       "components": [],
       "tints": [
         {
@@ -6582,6 +6699,7 @@
       ]
     },
     "WEAPON_VINTAGEPISTOL": {
+      "dlc": "mphipster",
       "components": [
         {
           "id": "COMPONENT_VINTAGEPISTOL_CLIP_01",
@@ -6638,6 +6756,7 @@
       ]
     },
     "WEAPON_MUSKET": {
+      "dlc": "mpindependence",
       "components": [
         {
           "id": "COMPONENT_MUSKET_CLIP_01",
@@ -6682,6 +6801,7 @@
       ]
     },
     "WEAPON_FIREWORK": {
+      "dlc": "mpindependence",
       "components": [
         {
           "id": "COMPONENT_FIREWORK_CLIP_01",
@@ -6726,6 +6846,7 @@
       ]
     },
     "WEAPON_HATCHET": {
+      "dlc": "spupgrade",
       "components": [],
       "tints": [
         {
@@ -6763,6 +6884,7 @@
       ]
     },
     "WEAPON_RAILGUN": {
+      "dlc": "spupgrade",
       "components": [
         {
           "id": "COMPONENT_RAILGUN_CLIP_01",
@@ -6807,6 +6929,7 @@
       ]
     },
     "WEAPON_HEAVYSHOTGUN": {
+      "dlc": "mplts",
       "components": [
         {
           "id": "COMPONENT_HEAVYSHOTGUN_CLIP_01",
@@ -6881,6 +7004,7 @@
       ]
     },
     "WEAPON_MARKSMANRIFLE": {
+      "dlc": "mplts",
       "components": [
         {
           "id": "COMPONENT_MARKSMANRIFLE_CLIP_01",
@@ -6967,6 +7091,7 @@
       ]
     },
     "WEAPON_GARBAGEBAG": {
+      "dlc": "mpheist",
       "components": [],
       "tints": [
         {
@@ -7004,6 +7129,7 @@
       ]
     },
     "WEAPON_HANDCUFFS": {
+      "dlc": "mpheist",
       "components": [],
       "tints": [
         {
@@ -7041,6 +7167,7 @@
       ]
     },
     "WEAPON_CERAMICPISTOL": {
+      "dlc": "mpheist3",
       "components": [
         {
           "id": "COMPONENT_CERAMICPISTOL_CLIP_01",
@@ -7097,6 +7224,7 @@
       ]
     },
     "WEAPON_MILITARYRIFLE": {
+      "dlc": "mpheist4",
       "components": [
         {
           "id": "COMPONENT_MILITARYRIFLE_CLIP_01",
@@ -7171,6 +7299,7 @@
       ]
     },
     "WEAPON_COMBATSHOTGUN": {
+      "dlc": "mpheist4",
       "components": [
         {
           "id": "COMPONENT_COMBATSHOTGUN_CLIP_01",
@@ -7227,6 +7356,7 @@
       ]
     },
     "WEAPON_TRANQUILIZER": {
+      "dlc": "mpheist3",
       "components": [],
       "tints": [
         {
@@ -7264,6 +7394,7 @@
       ]
     },
     "WEAPON_HAZARDCAN": {
+      "dlc": "mpheist3",
       "components": [],
       "tints": [
         {
@@ -7301,6 +7432,7 @@
       ]
     },
     "VEHICLE_WEAPON_NOSE_TURRET_VALKYRIE": {
+      "dlc": "mpheist",
       "components": [],
       "tints": [
         {
@@ -7338,6 +7470,7 @@
       ]
     },
     "VEHICLE_WEAPON_TURRET_VALKYRIE": {
+      "dlc": "mpheist",
       "components": [],
       "tints": [
         {
@@ -7375,6 +7508,7 @@
       ]
     },
     "WEAPON_FLAREGUN": {
+      "dlc": "mpheist",
       "components": [
         {
           "id": "COMPONENT_FLAREGUN_CLIP_01",
@@ -7419,6 +7553,7 @@
       ]
     },
     "VEHICLE_WEAPON_TURRET_TECHNICAL": {
+      "dlc": "mpheist",
       "components": [],
       "tints": [
         {
@@ -7456,6 +7591,7 @@
       ]
     },
     "VEHICLE_WEAPON_TURRET_INSURGENT": {
+      "dlc": "mpheist",
       "components": [],
       "tints": [
         {
@@ -7493,6 +7629,7 @@
       ]
     },
     "WEAPON_GADGETPISTOL": {
+      "dlc": "mpheist4",
       "components": [
         {
           "id": "COMPONENT_GADGETPISTOL_CLIP_01",
@@ -7537,6 +7674,7 @@
       ]
     },
     "WEAPON_NAVYREVOLVER": {
+      "dlc": "mpheist3",
       "components": [
         {
           "id": "COMPONENT_NAVYREVOLVER_CLIP_01",
@@ -7553,6 +7691,7 @@
       ]
     },
     "VEHICLE_WEAPON_PLAYER_SAVAGE": {
+      "dlc": "mpheist",
       "components": [],
       "tints": [
         {
@@ -7590,6 +7729,7 @@
       ]
     },
     "WEAPON_KNUCKLE": {
+      "dlc": "mpluxe2",
       "components": [
         {
           "id": "COMPONENT_KNUCKLE_VARMOD_BASE",
@@ -7688,6 +7828,7 @@
       ]
     },
     "WEAPON_COMBATPDW": {
+      "dlc": "mpluxe",
       "components": [
         {
           "id": "COMPONENT_COMBATPDW_CLIP_01",
@@ -7762,6 +7903,7 @@
       ]
     },
     "WEAPON_MARKSMANPISTOL": {
+      "dlc": "mpluxe2",
       "components": [
         {
           "id": "COMPONENT_MARKSMANPISTOL_CLIP_01",
@@ -7806,6 +7948,7 @@
       ]
     },
     "WEAPON_DBSHOTGUN": {
+      "dlc": "mplowrider2",
       "components": [
         {
           "id": "COMPONENT_DBSHOTGUN_CLIP_01",
@@ -7850,6 +7993,7 @@
       ]
     },
     "WEAPON_MACHETE": {
+      "dlc": "mplowrider",
       "components": [],
       "tints": [
         {
@@ -7887,6 +8031,7 @@
       ]
     },
     "WEAPON_MACHINEPISTOL": {
+      "dlc": "mplowrider",
       "components": [
         {
           "id": "COMPONENT_MACHINEPISTOL_CLIP_01",
@@ -7949,6 +8094,7 @@
       ]
     },
     "WEAPON_COMPACTRIFLE": {
+      "dlc": "mplowrider2",
       "components": [
         {
           "id": "COMPONENT_COMPACTRIFLE_CLIP_01",
@@ -8005,6 +8151,7 @@
       ]
     },
     "WEAPON_FLASHLIGHT": {
+      "dlc": "mphalloween",
       "components": [
         {
           "id": "COMPONENT_FLASHLIGHT_LIGHT",
@@ -8049,6 +8196,7 @@
       ]
     },
     "VEHICLE_WEAPON_TURRET_LIMO": {
+      "dlc": "mpapartment",
       "components": [],
       "tints": [
         {
@@ -8086,6 +8234,7 @@
       ]
     },
     "WEAPON_AIR_DEFENCE_GUN": {
+      "dlc": "mpapartment",
       "components": [],
       "tints": [
         {
@@ -8123,6 +8272,7 @@
       ]
     },
     "WEAPON_SWITCHBLADE": {
+      "dlc": "mpapartment",
       "components": [
         {
           "id": "COMPONENT_SWITCHBLADE_VARMOD_BASE",
@@ -8179,6 +8329,7 @@
       ]
     },
     "WEAPON_REVOLVER": {
+      "dlc": "mpapartment",
       "components": [
         {
           "id": "COMPONENT_REVOLVER_CLIP_01",
@@ -8241,6 +8392,7 @@
       ]
     },
     "VEHICLE_WEAPON_TURRET_BOXVILLE": {
+      "dlc": "mpimportexport",
       "components": [],
       "tints": [
         {
@@ -8278,6 +8430,7 @@
       ]
     },
     "VEHICLE_WEAPON_CANNON_BLAZER": {
+      "dlc": "mpimportexport",
       "components": [],
       "tints": [
         {
@@ -8315,6 +8468,7 @@
       ]
     },
     "VEHICLE_WEAPON_RUINER_BULLET": {
+      "dlc": "mpimportexport",
       "components": [],
       "tints": [
         {
@@ -8352,6 +8506,7 @@
       ]
     },
     "VEHICLE_WEAPON_RUINER_ROCKET": {
+      "dlc": "mpimportexport",
       "components": [],
       "tints": [
         {
@@ -8389,6 +8544,7 @@
       ]
     },
     "WEAPON_COMPACTLAUNCHER": {
+      "dlc": "mpbiker",
       "components": [
         {
           "id": "COMPONENT_COMPACTLAUNCHER_CLIP_01",
@@ -8433,6 +8589,7 @@
       ]
     },
     "WEAPON_MINISMG": {
+      "dlc": "mpbiker",
       "components": [
         {
           "id": "COMPONENT_MINISMG_CLIP_01",
@@ -8483,6 +8640,7 @@
       ]
     },
     "WEAPON_WRENCH": {
+      "dlc": "mpbiker",
       "components": [],
       "tints": [
         {
@@ -8520,6 +8678,7 @@
       ]
     },
     "WEAPON_AUTOSHOTGUN": {
+      "dlc": "mpbiker",
       "components": [
         {
           "id": "COMPONENT_AUTOSHOTGUN_CLIP_01",
@@ -8564,6 +8723,7 @@
       ]
     },
     "WEAPON_POOLCUE": {
+      "dlc": "mpbiker",
       "components": [],
       "tints": [
         {
@@ -8601,6 +8761,7 @@
       ]
     },
     "WEAPON_BATTLEAXE": {
+      "dlc": "mpbiker",
       "components": [],
       "tints": [
         {
@@ -8638,6 +8799,7 @@
       ]
     },
     "WEAPON_PIPEBOMB": {
+      "dlc": "mpbiker",
       "components": [],
       "tints": [
         {
@@ -8675,6 +8837,7 @@
       ]
     },
     "WEAPON_CARBINERIFLE_MK2": {
+      "dlc": "mpgunrunning",
       "components": [
         {
           "id": "COMPONENT_CARBINERIFLE_MK2_CLIP_01",
@@ -8939,6 +9102,7 @@
       ]
     },
     "WEAPON_COMBATMG_MK2": {
+      "dlc": "mpgunrunning",
       "components": [
         {
           "id": "COMPONENT_COMBATMG_MK2_CLIP_01",
@@ -9191,6 +9355,7 @@
       ]
     },
     "WEAPON_SMG_MK2": {
+      "dlc": "mpgunrunning",
       "components": [
         {
           "id": "COMPONENT_SMG_MK2_CLIP_01",
@@ -9449,6 +9614,7 @@
       ]
     },
     "WEAPON_ASSAULTRIFLE_MK2": {
+      "dlc": "mpgunrunning",
       "components": [
         {
           "id": "COMPONENT_ASSAULTRIFLE_MK2_CLIP_01",
@@ -9713,6 +9879,7 @@
       ]
     },
     "WEAPON_HEAVYSNIPER_MK2": {
+      "dlc": "mpgunrunning",
       "components": [
         {
           "id": "COMPONENT_HEAVYSNIPER_MK2_CLIP_01",
@@ -9941,6 +10108,7 @@
       ]
     },
     "WEAPON_PISTOL_MK2": {
+      "dlc": "mpgunrunning",
       "components": [
         {
           "id": "COMPONENT_PISTOL_MK2_CLIP_01",
@@ -10151,6 +10319,7 @@
       ]
     },
     "WEAPON_STONE_HATCHET": {
+      "dlc": "mpbattle",
       "components": [],
       "tints": [
         {
@@ -10188,6 +10357,7 @@
       ]
     },
     "WEAPON_TACTICALRIFLE": {
+      "dlc": "mpsum2",
       "components": [
         {
           "id": "COMPONENT_TACTICALRIFLE_CLIP_01",
@@ -10256,6 +10426,7 @@
       ]
     },
     "WEAPON_METALDETECTOR": {
+      "dlc": "mpsum2",
       "components": [],
       "tints": [
         {
@@ -10293,6 +10464,7 @@
       ]
     },
     "WEAPON_PRECISIONRIFLE": {
+      "dlc": "mpsum2",
       "components": [
         {
           "id": "COMPONENT_PRECISIONRIFLE_CLIP_01",
@@ -10337,6 +10509,7 @@
       ]
     },
     "WEAPON_HEAVYRIFLE": {
+      "dlc": "mpsecurity",
       "components": [
         {
           "id": "COMPONENT_HEAVYRIFLE_CLIP_01",
@@ -10417,6 +10590,7 @@
       ]
     },
     "WEAPON_FERTILIZERCAN": {
+      "dlc": "mpsecurity",
       "components": [],
       "tints": [
         {
@@ -10454,6 +10628,7 @@
       ]
     },
     "WEAPON_EMPLAUNCHER": {
+      "dlc": "mpsecurity",
       "components": [
         {
           "id": "COMPONENT_EMPLAUNCHER_CLIP_01",
@@ -10498,6 +10673,7 @@
       ]
     },
     "WEAPON_STUNGUN_MP": {
+      "dlc": "mpsecurity",
       "components": [
         {
           "id": "COMPONENT_STUNGUN_VARMOD_BAIL",
@@ -10542,6 +10718,7 @@
       ]
     },
     "WEAPON_TECPISTOL": {
+      "dlc": "mp2023_01",
       "components": [
         {
           "id": "COMPONENT_TECPISTOL_CLIP_01",
@@ -10604,6 +10781,7 @@
       ]
     },
     "WEAPON_SNOWLAUNCHER": {
+      "dlc": "mp2023_02",
       "components": [],
       "tints": [
         {
@@ -10641,6 +10819,7 @@
       ]
     },
     "WEAPON_BATTLERIFLE": {
+      "dlc": "mp2023_02",
       "components": [
         {
           "id": "COMPONENT_BATTLERIFLE_CLIP_01",
@@ -10697,6 +10876,7 @@
       ]
     },
     "WEAPON_HACKINGDEVICE": {
+      "dlc": "mp2023_02",
       "components": [],
       "tints": [
         {
@@ -10734,6 +10914,7 @@
       ]
     },
     "WEAPON_STUNROD": {
+      "dlc": "mp2024_01",
       "components": [],
       "tints": [
         {
@@ -10771,6 +10952,7 @@
       ]
     },
     "WEAPON_STRICKLER": {
+      "dlc": "mp2024_02_g9ec",
       "components": [
         {
           "id": "COMPONENT_STRICKLER_CLIP_01",
@@ -10799,6 +10981,7 @@
       ]
     },
     "WEAPON_BRIEFCASE_03": {
+      "dlc": "mp2025_01",
       "components": [],
       "tints": [
         {
@@ -10836,6 +11019,7 @@
       ]
     },
     "WEAPON_NEWSPAPER": {
+      "dlc": "mp2025_02",
       "components": [],
       "tints": [
         {

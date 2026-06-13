@@ -6,9 +6,9 @@
     "domain": "weapons",
     "label": "Weapons",
     "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
-    "note": "Flat catalog. hash = joaat(codename). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
+    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
   },
-  "count": 103,
+  "count": 104,
   "hashes": {
     "94989220": {
       "id": "combatshotgun",
@@ -73,6 +73,11 @@
     "453432689": {
       "id": "pistol",
       "name": "Pistol",
+      "category": "Handgun"
+    },
+    "465894841": {
+      "id": "pistolxm3",
+      "name": "WM 29 Pistol",
       "category": "Handgun"
     },
     "487013001": {
@@ -145,11 +150,6 @@
       "name": "Golf Club",
       "category": "Melee"
     },
-    "1171102963": {
-      "id": "stungun_mp",
-      "name": "The Shocker",
-      "category": "Misc"
-    },
     "1198256469": {
       "id": "raycarbine",
       "name": "Unholy Hellbringer",
@@ -177,7 +177,7 @@
     },
     "1470379660": {
       "id": "gadgetpistol",
-      "name": "WM 29 Pistol",
+      "name": "Perico Pistol",
       "category": "Handgun"
     },
     "1593441988": {
@@ -450,6 +450,11 @@
       "name": "Brass Knuckles",
       "category": "Melee"
     },
+    "3670016037": {
+      "id": "stunrod",
+      "name": "The Shocker",
+      "category": "Misc"
+    },
     "3675956304": {
       "id": "machinepistol",
       "name": "Machine Pistol",
@@ -494,6 +499,11 @@
       "id": "assaultsmg",
       "name": "Assault SMG",
       "category": "SMG"
+    },
+    "4159824478": {
+      "id": "acidpackage",
+      "name": "Acid Package",
+      "category": "Misc"
     },
     "4191993645": {
       "id": "hatchet",

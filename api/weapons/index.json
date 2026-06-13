@@ -6,7 +6,7 @@
     "domain": "weapons",
     "label": "Weapons",
     "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
-    "note": "Flat catalog. hash = joaat(codename). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
+    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
   },
   "categories": [
     {
@@ -53,15 +53,52 @@
   "count": 104,
   "items": [
     {
-      "id": "acid-package",
+      "id": "acidpackage",
       "name": "Acid Package",
-      "codename": null,
-      "hash": null,
+      "codename": "weapon_acidpackage",
+      "hash": 4159824478,
       "category": "Misc",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Acid-package-icon.png",
+      "dlc": {
+        "id": "mpchristmas3",
+        "name": "Los Santos Drug Wars"
+      },
       "stats": null,
       "components": [],
-      "tints": []
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
     },
     {
       "id": "advancedrifle",
@@ -70,6 +107,10 @@
       "hash": 2937143193,
       "category": "Rifle",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Advanced-rifle-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game"
+      },
       "stats": {
         "damage": 34,
         "fireRate": 70,
@@ -157,6 +198,10 @@
       "hash": 2460120199,
       "category": "Melee",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Antique-cavalry-dagger-icon.png",
+      "dlc": {
+        "id": "mphipster",
+        "name": "I'm Not a Hipster Update"
+      },
       "stats": {
         "damage": 20,
         "fireRate": 20,
@@ -207,6 +252,10 @@
       "hash": 584646201,
       "category": "Handgun",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Appistol-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game"
+      },
       "stats": {
         "damage": 26,
         "fireRate": 80,
@@ -294,6 +343,10 @@
       "hash": 3220176749,
       "category": "Rifle",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Assault-rifle-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game"
+      },
       "stats": {
         "damage": 30,
         "fireRate": 60,
@@ -399,6 +452,10 @@
       "hash": 961495388,
       "category": "Rifle",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Assault-rifle-mk2-icon.png",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning"
+      },
       "stats": {
         "damage": 33,
         "fireRate": 60,
@@ -676,6 +733,10 @@
       "hash": 3800352039,
       "category": "Shotgun",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Assault-shotgun-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game"
+      },
       "stats": {
         "damage": 77,
         "fireRate": 50,
@@ -757,6 +818,10 @@
       "hash": 4024951519,
       "category": "SMG",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Assault-smg-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game"
+      },
       "stats": {
         "damage": 23,
         "fireRate": 55,
@@ -844,6 +909,10 @@
       "hash": 600439132,
       "category": "Thrown",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Ball-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game"
+      },
       "stats": {
         "damage": 0,
         "fireRate": 1,
@@ -894,6 +963,10 @@
       "hash": 2508868239,
       "category": "Melee",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Baseball-bat-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game"
+      },
       "stats": {
         "damage": 20,
         "fireRate": 10,
@@ -1005,6 +1078,10 @@
       "hash": 3441901897,
       "category": "Melee",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Battle-axe-icon.png",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers"
+      },
       "stats": {
         "damage": 15,
         "fireRate": 15,
@@ -1055,6 +1132,10 @@
       "hash": 3638508604,
       "category": "Melee",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Knuckles-icon.png",
+      "dlc": {
+        "id": "mpluxe2",
+        "name": "Ill-Gotten Gains Part 2"
+      },
       "stats": {
         "damage": 5,
         "fireRate": 20,
@@ -1166,6 +1247,10 @@
       "hash": 4192643659,
       "category": "Melee",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Broken-bottle-icon.png",
+      "dlc": {
+        "id": "mpbeach",
+        "name": "Beach Bum"
+      },
       "stats": {
         "damage": 20,
         "fireRate": 15,
@@ -1216,6 +1301,10 @@
       "hash": 2132975508,
       "category": "Rifle",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Bullpup-rifle-icon.png",
+      "dlc": {
+        "id": "mpbusiness2",
+        "name": "The High Life Update"
+      },
       "stats": {
         "damage": 32,
         "fireRate": 72,
@@ -1315,6 +1404,10 @@
       "hash": 2228681469,
       "category": "Rifle",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Bullpup-rifle-mk2-icon.png",
+      "dlc": {
+        "id": "mpchristmas2017",
+        "name": "The Doomsday Heist"
+      },
       "stats": {
         "damage": 34,
         "fireRate": 72,
@@ -1592,6 +1685,10 @@
       "hash": 2640438543,
       "category": "Shotgun",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Bullpup-shotgun-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game"
+      },
       "stats": {
         "damage": 67,
         "fireRate": 20,
@@ -1667,6 +1764,10 @@
       "hash": 2694266206,
       "category": "Thrown",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Bz-gas-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game"
+      },
       "stats": {
         "damage": 0,
         "fireRate": 1,
@@ -1717,6 +1818,10 @@
       "hash": 1703483498,
       "category": "Melee",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Candy-cane-icon.png",
+      "dlc": {
+        "id": "mpchristmas3",
+        "name": "Los Santos Drug Wars"
+      },
       "stats": null,
       "components": [],
       "tints": [
@@ -1761,6 +1866,10 @@
       "hash": 2210333304,
       "category": "Rifle",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Carbine-rifle-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game"
+      },
       "stats": {
         "damage": 32,
         "fireRate": 65,
@@ -1878,6 +1987,10 @@
       "hash": 4208062921,
       "category": "Rifle",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Carbine-rifle-mk2-icon.png",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning"
+      },
       "stats": {
         "damage": 36,
         "fireRate": 65,
@@ -2155,6 +2268,10 @@
       "hash": 727643628,
       "category": "Handgun",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Ceramic-pistol-icon.png",
+      "dlc": {
+        "id": "mpheist3",
+        "name": "The Diamond Casino Heist"
+      },
       "stats": {
         "damage": 32,
         "fireRate": 44,
@@ -2224,6 +2341,10 @@
       "hash": 2144741730,
       "category": "MG",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Combat-mg-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game"
+      },
       "stats": {
         "damage": 55,
         "fireRate": 65,
@@ -2311,6 +2432,10 @@
       "hash": 3686625920,
       "category": "MG",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Combat-mg-mk2-icon.png",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning"
+      },
       "stats": {
         "damage": 57,
         "fireRate": 65,
@@ -2576,6 +2701,10 @@
       "hash": 171789620,
       "category": "SMG",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Combat-pdw-icon.png",
+      "dlc": {
+        "id": "mpluxe",
+        "name": "Ill-Gotten Gains Part 1"
+      },
       "stats": {
         "damage": 25,
         "fireRate": 50,
@@ -2663,6 +2792,10 @@
       "hash": 1593441988,
       "category": "Handgun",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Combat-pistol-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game"
+      },
       "stats": {
         "damage": 27,
         "fireRate": 40,
@@ -2750,6 +2883,10 @@
       "hash": 94989220,
       "category": "Shotgun",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Combat-shotgun-icon.png",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist"
+      },
       "stats": {
         "damage": 77,
         "fireRate": 50,
@@ -2819,6 +2956,10 @@
       "hash": 3676729658,
       "category": "Heavy",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/EMP-launcher-icon.png",
+      "dlc": {
+        "id": "mpsecurity",
+        "name": "The Contract"
+      },
       "stats": {
         "damage": 95,
         "fireRate": 10,
@@ -2876,6 +3017,10 @@
       "hash": 125959754,
       "category": "Heavy",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Grenade-compact-launcher-icon.png",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers"
+      },
       "stats": {
         "damage": 95,
         "fireRate": 10,
@@ -2933,6 +3078,10 @@
       "hash": 1649403952,
       "category": "Rifle",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Compact-rifle-icon.png",
+      "dlc": {
+        "id": "mplowrider2",
+        "name": "Lowriders: Custom Classics"
+      },
       "stats": {
         "damage": 36,
         "fireRate": 60,
@@ -3002,6 +3151,10 @@
       "hash": 2227010557,
       "category": "Melee",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Crowbar-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game"
+      },
       "stats": {
         "damage": 10,
         "fireRate": 15,
@@ -3052,6 +3205,10 @@
       "hash": 4019527611,
       "category": "Shotgun",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Double-barrel-shotgun-icon.png",
+      "dlc": {
+        "id": "mplowrider2",
+        "name": "Lowriders: Custom Classics"
+      },
       "stats": {
         "damage": 98,
         "fireRate": 25,
@@ -3109,6 +3266,10 @@
       "hash": 2548703416,
       "category": "Handgun",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Double-action-revolver-icon.png",
+      "dlc": {
+        "id": "mpchristmas2017",
+        "name": "The Doomsday Heist"
+      },
       "stats": {
         "damage": 60,
         "fireRate": 40,
@@ -3138,6 +3299,10 @@
       "hash": 2138347493,
       "category": "Heavy",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Firework-launcher-icon.png",
+      "dlc": {
+        "id": "mpindependence",
+        "name": "Independence Day Special"
+      },
       "stats": {
         "damage": 45,
         "fireRate": 5,
@@ -3195,6 +3360,10 @@
       "hash": 2725352035,
       "category": "Melee",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Fist-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game"
+      },
       "stats": null,
       "components": [],
       "tints": [
@@ -3239,6 +3408,10 @@
       "hash": 1233104067,
       "category": "Thrown",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Flare-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game"
+      },
       "stats": {
         "damage": 0,
         "fireRate": 1,
@@ -3289,6 +3462,10 @@
       "hash": 1198879012,
       "category": "Handgun",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Flaregun-icon.png",
+      "dlc": {
+        "id": "mpheist",
+        "name": "The Heists Update"
+      },
       "stats": {
         "damage": 20,
         "fireRate": 10,
@@ -3346,6 +3523,10 @@
       "hash": 2343591895,
       "category": "Melee",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Flashlight-icon.png",
+      "dlc": {
+        "id": "mphalloween",
+        "name": "Halloween Surprise"
+      },
       "stats": {
         "damage": 10,
         "fireRate": 15,
@@ -3403,6 +3584,10 @@
       "hash": 1141786504,
       "category": "Melee",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Golf-club-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game"
+      },
       "stats": {
         "damage": 20,
         "fireRate": 10,
@@ -3453,6 +3638,10 @@
       "hash": 2481070269,
       "category": "Thrown",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Grenade-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game"
+      },
       "stats": {
         "damage": 95,
         "fireRate": 1,
@@ -3503,6 +3692,10 @@
       "hash": 2726580491,
       "category": "Heavy",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Grenade-launcher-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game"
+      },
       "stats": {
         "damage": 95,
         "fireRate": 20,
@@ -3578,6 +3771,10 @@
       "hash": 1627465347,
       "category": "SMG",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Gusenberg-sweeper-icon.png",
+      "dlc": {
+        "id": "mpvalentines",
+        "name": "Valentine's Day Massacre"
+      },
       "stats": {
         "damage": 34,
         "fireRate": 65,
@@ -3641,6 +3838,10 @@
       "hash": 1317494643,
       "category": "Melee",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Hammer-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game"
+      },
       "stats": {
         "damage": 10,
         "fireRate": 15,
@@ -3691,6 +3892,10 @@
       "hash": 4191993645,
       "category": "Melee",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Hatchet-icon.png",
+      "dlc": {
+        "id": "spupgrade",
+        "name": "Story Mode (Next-Gen)"
+      },
       "stats": {
         "damage": 15,
         "fireRate": 15,
@@ -3741,6 +3946,10 @@
       "hash": 3523564046,
       "category": "Handgun",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-pistol-icon.png",
+      "dlc": {
+        "id": "mpbusiness",
+        "name": "The Business Update"
+      },
       "stats": {
         "damage": 40,
         "fireRate": 40,
@@ -3822,6 +4031,10 @@
       "hash": 3249783761,
       "category": "Handgun",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-revolver-icon.png",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals"
+      },
       "stats": {
         "damage": 70,
         "fireRate": 20,
@@ -3897,6 +4110,10 @@
       "hash": 3415619887,
       "category": "Handgun",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-revolver-mk2-icon.png",
+      "dlc": {
+        "id": "mpchristmas2017",
+        "name": "The Doomsday Heist"
+      },
       "stats": {
         "damage": 75,
         "fireRate": 30,
@@ -4102,6 +4319,10 @@
       "hash": 3347935668,
       "category": "Rifle",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-rifle-icon.png",
+      "dlc": {
+        "id": "mpsecurity",
+        "name": "The Contract"
+      },
       "stats": {
         "damage": 40,
         "fireRate": 50,
@@ -4195,6 +4416,10 @@
       "hash": 984333226,
       "category": "Shotgun",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-shotgun-icon.png",
+      "dlc": {
+        "id": "mplts",
+        "name": "Last Team Standing Update"
+      },
       "stats": {
         "damage": 85,
         "fireRate": 45,
@@ -4282,6 +4507,10 @@
       "hash": 205991906,
       "category": "Sniper",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-sniper-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game"
+      },
       "stats": {
         "damage": 98,
         "fireRate": 20,
@@ -4363,6 +4592,10 @@
       "hash": 177293209,
       "category": "Sniper",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-sniper-mk2-icon.png",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning"
+      },
       "stats": {
         "damage": 100,
         "fireRate": 20,
@@ -4604,6 +4837,10 @@
       "hash": 1672152130,
       "category": "Heavy",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Homing-launcher-icon.png",
+      "dlc": {
+        "id": "mpchristmas2",
+        "name": "Festive Surprise (2014)"
+      },
       "stats": {
         "damage": 95,
         "fireRate": 5,
@@ -4661,6 +4898,10 @@
       "hash": 883325847,
       "category": "Misc",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Petrolcan-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game"
+      },
       "stats": {
         "damage": 0,
         "fireRate": 10,
@@ -4711,6 +4952,10 @@
       "hash": 2578778090,
       "category": "Melee",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Knife-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game"
+      },
       "stats": {
         "damage": 15,
         "fireRate": 20,
@@ -4822,6 +5067,10 @@
       "hash": 3713923289,
       "category": "Melee",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Machete-icon.png",
+      "dlc": {
+        "id": "mplowrider",
+        "name": "Lowriders"
+      },
       "stats": {
         "damage": 15,
         "fireRate": 15,
@@ -4872,6 +5121,10 @@
       "hash": 3675956304,
       "category": "SMG",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Machine-pistol-icon.png",
+      "dlc": {
+        "id": "mplowrider",
+        "name": "Lowriders"
+      },
       "stats": {
         "damage": 28,
         "fireRate": 70,
@@ -4947,6 +5200,10 @@
       "hash": 3696079510,
       "category": "Handgun",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Marksman-pistol-icon.png",
+      "dlc": {
+        "id": "mpluxe2",
+        "name": "Ill-Gotten Gains Part 2"
+      },
       "stats": {
         "damage": 80,
         "fireRate": 15,
@@ -5004,6 +5261,10 @@
       "hash": 3342088282,
       "category": "Sniper",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Marksman-rifle-icon.png",
+      "dlc": {
+        "id": "mplts",
+        "name": "Last Team Standing Update"
+      },
       "stats": {
         "damage": 70,
         "fireRate": 40,
@@ -5103,6 +5364,10 @@
       "hash": 1785463520,
       "category": "Sniper",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Marksman-rifle-mk2-icon.png",
+      "dlc": {
+        "id": "mpchristmas2017",
+        "name": "The Doomsday Heist"
+      },
       "stats": {
         "damage": 75,
         "fireRate": 40,
@@ -5380,6 +5645,10 @@
       "hash": 2634544996,
       "category": "MG",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Mg-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game"
+      },
       "stats": {
         "damage": 50,
         "fireRate": 60,
@@ -5455,6 +5724,10 @@
       "hash": 324215364,
       "category": "SMG",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Micro-smg-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game"
+      },
       "stats": {
         "damage": 21,
         "fireRate": 60,
@@ -5560,6 +5833,10 @@
       "hash": 2636060646,
       "category": "Rifle",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Military-rifle-icon.png",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist"
+      },
       "stats": {
         "damage": 38,
         "fireRate": 55,
@@ -5647,6 +5924,10 @@
       "hash": 3173288789,
       "category": "SMG",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Mini-smg-icon.png",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers"
+      },
       "stats": {
         "damage": 22,
         "fireRate": 84,
@@ -5710,6 +5991,10 @@
       "hash": 1119849093,
       "category": "Heavy",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Minigun-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game"
+      },
       "stats": {
         "damage": 30,
         "fireRate": 100,
@@ -5767,6 +6052,10 @@
       "hash": 615608432,
       "category": "Thrown",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Molotov-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game"
+      },
       "stats": {
         "damage": 50,
         "fireRate": 1,
@@ -5817,6 +6106,10 @@
       "hash": 2828843422,
       "category": "Shotgun",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Musket-icon.png",
+      "dlc": {
+        "id": "mpindependence",
+        "name": "Independence Day Special"
+      },
       "stats": {
         "damage": 97,
         "fireRate": 10,
@@ -5874,6 +6167,10 @@
       "hash": 2441047180,
       "category": "Handgun",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Navy-revolver-icon.png",
+      "dlc": {
+        "id": "mpheist3",
+        "name": "The Diamond Casino Heist"
+      },
       "stats": {
         "damage": 70,
         "fireRate": 25,
@@ -5903,6 +6200,10 @@
       "hash": 1737195953,
       "category": "Melee",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Nightstick-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game"
+      },
       "stats": {
         "damage": 10,
         "fireRate": 15,
@@ -5953,6 +6254,10 @@
       "hash": 4222310262,
       "category": "Misc",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Parachute-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game"
+      },
       "stats": null,
       "components": [],
       "tints": [
@@ -5997,10 +6302,14 @@
       "hash": 1470379660,
       "category": "Handgun",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Perico-pistol-icon.png",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist"
+      },
       "stats": {
-        "damage": 36,
-        "fireRate": 40,
-        "accuracy": 50,
+        "damage": 80,
+        "fireRate": 15,
+        "accuracy": 30,
         "range": 35,
         "maxAmmo": null
       },
@@ -6054,6 +6363,10 @@
       "hash": 3125143736,
       "category": "Thrown",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pipe-bomb-icon.png",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers"
+      },
       "stats": {
         "damage": 85,
         "fireRate": 1,
@@ -6104,6 +6417,10 @@
       "hash": 419712736,
       "category": "Melee",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pipe-wrench-icon.png",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers"
+      },
       "stats": {
         "damage": 10,
         "fireRate": 15,
@@ -6154,6 +6471,10 @@
       "hash": 453432689,
       "category": "Handgun",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pistol-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game"
+      },
       "stats": {
         "damage": 26,
         "fireRate": 40,
@@ -6241,6 +6562,10 @@
       "hash": 2578377531,
       "category": "Handgun",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pistol.50-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game"
+      },
       "stats": {
         "damage": 51,
         "fireRate": 40,
@@ -6322,6 +6647,10 @@
       "hash": 3219281620,
       "category": "Handgun",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pistol-mk2-icon.png",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning"
+      },
       "stats": {
         "damage": 38,
         "fireRate": 40,
@@ -6545,6 +6874,10 @@
       "hash": 2484171525,
       "category": "Melee",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pool-cue-icon.png",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers"
+      },
       "stats": {
         "damage": 20,
         "fireRate": 10,
@@ -6595,6 +6928,10 @@
       "hash": 1853742572,
       "category": "Sniper",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Precision-rifle-icon.png",
+      "dlc": {
+        "id": "mpsum2",
+        "name": "The Criminal Enterprises"
+      },
       "stats": {
         "damage": 88,
         "fireRate": 27,
@@ -6652,6 +6989,10 @@
       "hash": 2874559379,
       "category": "Thrown",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Proximity-mines-icon.png",
+      "dlc": {
+        "id": "mpchristmas2",
+        "name": "Festive Surprise (2014)"
+      },
       "stats": {
         "damage": 90,
         "fireRate": 1,
@@ -6702,6 +7043,10 @@
       "hash": 487013001,
       "category": "Shotgun",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pump-shotgun-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game"
+      },
       "stats": {
         "damage": 67,
         "fireRate": 20,
@@ -6795,6 +7140,10 @@
       "hash": 1432025498,
       "category": "Shotgun",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pump-shotgun-mk2-icon.png",
+      "dlc": {
+        "id": "mpchristmas2017",
+        "name": "The Doomsday Heist"
+      },
       "stats": {
         "damage": 70,
         "fireRate": 20,
@@ -7012,6 +7361,10 @@
       "hash": 1834241177,
       "category": "Heavy",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Railgun-icon.png",
+      "dlc": {
+        "id": "spupgrade",
+        "name": "Story Mode (Next-Gen)"
+      },
       "stats": {
         "damage": 90,
         "fireRate": 25,
@@ -7069,6 +7422,10 @@
       "hash": 2982836145,
       "category": "Heavy",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Rocket-launcher-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game"
+      },
       "stats": {
         "damage": 100,
         "fireRate": 5,
@@ -7132,6 +7489,10 @@
       "hash": 2017895192,
       "category": "Shotgun",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Sawed-off-shotgun-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game"
+      },
       "stats": {
         "damage": 96,
         "fireRate": 20,
@@ -7195,6 +7556,10 @@
       "hash": 3520460075,
       "category": "Rifle",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Tactical-rifle-icon.png",
+      "dlc": {
+        "id": "mpsum2",
+        "name": "The Criminal Enterprises"
+      },
       "stats": {
         "damage": 39,
         "fireRate": 63,
@@ -7276,6 +7641,10 @@
       "hash": 736523883,
       "category": "SMG",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Smg-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game"
+      },
       "stats": {
         "damage": 22,
         "fireRate": 55,
@@ -7375,6 +7744,10 @@
       "hash": 2024373456,
       "category": "SMG",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Smg-mk2-icon.png",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning"
+      },
       "stats": {
         "damage": 26,
         "fireRate": 55,
@@ -7646,6 +8019,10 @@
       "hash": 100416529,
       "category": "Sniper",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Sniper-rifle-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game"
+      },
       "stats": {
         "damage": 96,
         "fireRate": 25,
@@ -7727,6 +8104,10 @@
       "hash": 126349499,
       "category": "Thrown",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Snowball-icon.png",
+      "dlc": {
+        "id": "mpchristmas2",
+        "name": "Festive Surprise (2014)"
+      },
       "stats": {
         "damage": 0,
         "fireRate": 1,
@@ -7777,6 +8158,10 @@
       "hash": 3218215474,
       "category": "Handgun",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Sns-pistol-icon.png",
+      "dlc": {
+        "id": "mpbeach",
+        "name": "Beach Bum"
+      },
       "stats": {
         "damage": 30,
         "fireRate": 40,
@@ -7852,6 +8237,10 @@
       "hash": 2285322324,
       "category": "Handgun",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Sns-pistol-mk2-icon.png",
+      "dlc": {
+        "id": "mpchristmas2017",
+        "name": "The Doomsday Heist"
+      },
       "stats": {
         "damage": 32,
         "fireRate": 40,
@@ -8063,6 +8452,10 @@
       "hash": 3231910285,
       "category": "Rifle",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Special-carbine-icon.png",
+      "dlc": {
+        "id": "mpbusiness",
+        "name": "The Business Update"
+      },
       "stats": {
         "damage": 34,
         "fireRate": 65,
@@ -8174,6 +8567,10 @@
       "hash": 2526821735,
       "category": "Rifle",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Special-carbine-mk2-icon.png",
+      "dlc": {
+        "id": "mpchristmas2017",
+        "name": "The Doomsday Heist"
+      },
       "stats": {
         "damage": 36,
         "fireRate": 65,
@@ -8451,6 +8848,10 @@
       "hash": 741814745,
       "category": "Thrown",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Sticky-bomb-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game"
+      },
       "stats": {
         "damage": 95,
         "fireRate": 1,
@@ -8501,6 +8902,10 @@
       "hash": 940833800,
       "category": "Melee",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Stone-hatchet-icon.png",
+      "dlc": {
+        "id": "mpbattle",
+        "name": "After Hours"
+      },
       "stats": {
         "damage": 30,
         "fireRate": 15,
@@ -8551,6 +8956,10 @@
       "hash": 911657153,
       "category": "Misc",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Stungun-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game"
+      },
       "stats": {
         "damage": 1,
         "fireRate": 10,
@@ -8601,6 +9010,10 @@
       "hash": 317205821,
       "category": "Shotgun",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Sweeper-shotgun-icon.png",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers"
+      },
       "stats": {
         "damage": 70,
         "fireRate": 45,
@@ -8658,6 +9071,10 @@
       "hash": 3756226112,
       "category": "Melee",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Switch-blade-icon.png",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals"
+      },
       "stats": {
         "damage": 15,
         "fireRate": 20,
@@ -8727,6 +9144,10 @@
       "hash": 350597077,
       "category": "SMG",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Tactical-smg-icon.png",
+      "dlc": {
+        "id": "mp2023_01",
+        "name": "San Andreas Mercenaries"
+      },
       "stats": {
         "damage": 28,
         "fireRate": 80,
@@ -8802,6 +9223,10 @@
       "hash": 4256991824,
       "category": "Thrown",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Tear-gas-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game"
+      },
       "stats": {
         "damage": 10,
         "fireRate": 1,
@@ -8846,21 +9271,18 @@
       ]
     },
     {
-      "id": "stungun_mp",
+      "id": "stunrod",
       "name": "The Shocker",
-      "codename": "weapon_stungun_mp",
-      "hash": 1171102963,
+      "codename": "weapon_stunrod",
+      "hash": 3670016037,
       "category": "Misc",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/The-shocker-icon.png",
+      "dlc": {
+        "id": "mp2024_01",
+        "name": "Bottom Dollar Bounties"
+      },
       "stats": null,
-      "components": [
-        {
-          "id": "COMPONENT_STUNGUN_VARMOD_BAIL",
-          "label": "COMPONENT_STUNGUN_VARMOD_BAIL",
-          "hash": 2619062263,
-          "default": false
-        }
-      ],
+      "components": [],
       "tints": [
         {
           "index": 0,
@@ -8903,6 +9325,10 @@
       "hash": 1198256469,
       "category": "SMG",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Unholy-hellbringer-icon.png",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War"
+      },
       "stats": {
         "damage": 55,
         "fireRate": 65,
@@ -8949,6 +9375,10 @@
       "hash": 2939590305,
       "category": "Misc",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Up-n-atomizer-icon.png",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War"
+      },
       "stats": {
         "damage": 30,
         "fireRate": 10,
@@ -9002,6 +9432,10 @@
       "hash": 137902532,
       "category": "Handgun",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Vintage-pistol-icon.png",
+      "dlc": {
+        "id": "mphipster",
+        "name": "I'm Not a Hipster Update"
+      },
       "stats": {
         "damage": 35,
         "fireRate": 40,
@@ -9071,6 +9505,10 @@
       "hash": 3056410471,
       "category": "Heavy",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Widowmaker-icon.png",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War"
+      },
       "stats": {
         "damage": 30,
         "fireRate": 100,
@@ -9118,12 +9556,16 @@
       ]
     },
     {
-      "id": "gadgetpistol",
+      "id": "pistolxm3",
       "name": "WM 29 Pistol",
-      "codename": "weapon_gadgetpistol",
-      "hash": 1470379660,
+      "codename": "weapon_pistolxm3",
+      "hash": 465894841,
       "category": "Handgun",
       "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/WM-29-pistol-icon.png",
+      "dlc": {
+        "id": "mpchristmas3",
+        "name": "Los Santos Drug Wars"
+      },
       "stats": {
         "damage": 36,
         "fireRate": 40,
@@ -9133,10 +9575,16 @@
       },
       "components": [
         {
-          "id": "COMPONENT_GADGETPISTOL_CLIP_01",
+          "id": "COMPONENT_PISTOLXM3_CLIP_01",
           "label": "Default Clip",
-          "hash": 2871488073,
+          "hash": 375646046,
           "default": true
+        },
+        {
+          "id": "COMPONENT_PISTOLXM3_SUPP",
+          "label": "Suppressor",
+          "hash": 503494624,
+          "default": false
         }
       ],
       "tints": [

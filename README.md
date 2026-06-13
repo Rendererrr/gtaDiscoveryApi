@@ -192,25 +192,33 @@ the whole domain in one file:
   `topSpeed` is the game's max flat velocity (not mph/kmh), `driveForce` is the acceleration
   proxy, `monetaryValue` is the in-game price, and `drivetrain` is derived from `driveBiasFront`
   (0 → RWD, 1 → FWD, between → AWD).
-- **Weapon `stats`, `components` + `tints`** — each weapon carries `stats` (0–100 weapon-wheel
-  values `{ damage, fireRate, accuracy, range }` plus `maxAmmo`), `components[]`
+- **Weapon `dlc`, `stats`, `components` + `tints`** — each weapon carries `dlc`
+  (`{ id, name }` — the update it shipped in, e.g. `{ "id": "mpheist4", "name": "The Cayo
+  Perico Heist" }`; `null` for a few codenameless items), `stats` (0–100 weapon-wheel values
+  `{ damage, fireRate, accuracy, range }` plus `maxAmmo`), `components[]`
   (`{ id, label, hash, default }` attachments/clips/finishes) and `tints[]`
-  (`{ index, label }` weapon-wheel tint slots). **99/104** weapons have stats; the remaining
-  5 (Fist, Parachute, Acid Package, Candy Cane, The Shocker) are melee/gadget items with no
-  weapon-wheel stats in-game (`stats: null`). Coverage: **75/104** have components, **103/104**
-  have tints. Stats sourced from
+  (`{ index, label }` weapon-wheel tint slots). Coverage: **104/104** have `dlc` and `tints`,
+  **99/104** have `stats` (the other 5 — Fist, Parachute, Acid Package, Candy Cane, The
+  Shocker — are melee/gadget items with no weapon-wheel stats in-game, so `stats: null`),
+  **74/104** have `components` (the rest take no attachments). Stats sourced from
   [vespura.com/fivem/weapons](https://vespura.com/fivem/weapons/) with newer DLC guns filled from
   [gtabase.com](https://www.gtabase.com/grand-theft-auto-v/weapons/) (same 0–100 scale, verified
-  identical on overlapping weapons); components + tints from
+  identical on overlapping weapons); `dlc`, components + tints from
   [DurtyFree/gta-v-data-dumps](https://github.com/DurtyFree/gta-v-data-dumps). All joined by
   `codename`. (gtabase-sourced stat entries have `maxAmmo: null`.)
   ```jsonc
   // GET api/weapons/index.json -> items[]
   { "id": "advancedrifle", "name": "Advanced Rifle", "codename": "weapon_advancedrifle",
     "hash": 2937143193, "category": "Rifle", "url": "…",
+    "dlc": { "id": "TitleUpdate", "name": "Base Game" },
     "stats": { "damage": 34, "fireRate": 70, "accuracy": 50, "range": 45, "maxAmmo": 250 },
     "components": [ { "id": "COMPONENT_AT_AR_SUPP", "label": "Suppressor", "hash": 2205435306, "default": false } ],
     "tints": [ { "index": 0, "label": "Black tint" } ] }
+  ```
+  Filter by DLC with either the stable `dlc.id` or the friendly `dlc.name`:
+  ```js
+  const cayo = items.filter(w => w.dlc?.id === 'mpheist4');          // by internal code
+  const byUpdate = items.filter(w => w.dlc?.name === 'The Contract'); // by marketing name
   ```
 - **Image URL** — build it directly or read `item.url`:
   ```
@@ -218,6 +226,37 @@ the whole domain in one file:
   https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/{model_name}.webp
   https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/{File}-icon.png
   ```
+
+### How weapon enrichment works
+
+The weapons catalog is assembled at build time (`src/build/weapons.mjs`) by **left-joining
+several independent sources onto one canonical key — the in-game `codename`** (e.g.
+`weapon_advancedrifle`). Nothing is fetched at runtime; every join happens during `npm run build`
+and is frozen into `api/weapons/index.json`.
+
+1. **Catalog + identity** — the build walks the weapon icons in `assets/weapons/images/` and
+   matches each to a curated entry in `src/data/weapons.json` by filename. That entry supplies
+   the canonical `codename` and `category`; the `hash` is then computed locally as
+   `joaat(codename)` (`src/lib/joaat.mjs`) — the same one-way hash the game uses. **Because every
+   downstream join keys on `codename`, a wrong codename silently produces a wrong hash and breaks
+   every join for that weapon — so codenames are verified against DurtyFree's hashes.**
+2. **Stats (0–100 weapon-wheel)** — joined from `weapons.stats.json` (a
+   [vespura](https://vespura.com/fivem/weapons/) snapshot). Newer DLC guns missing from that
+   snapshot fall back to `weapons.stats.extra.json` ([gtabase](https://www.gtabase.com/grand-theft-auto-v/weapons/),
+   verified to use the identical 0–100 scale). Weapons with no weapon-wheel stats in-game
+   (melee/gadget) stay `stats: null`.
+3. **`dlc`, `components`, `tints`** — joined from `weapons.components.json`, a lean snapshot
+   distilled from [DurtyFree/gta-v-data-dumps](https://github.com/DurtyFree/gta-v-data-dumps)
+   (English labels only). DurtyFree is a superset of vespura's component coverage, so its
+   components win when present; its `tints` and raw `DlcName` are applied to every weapon.
+4. **DLC labels** — the raw `DlcName` code (e.g. `mpheist4`) is mapped to a friendly marketing
+   name (`The Cayo Perico Heist`) via `dlc.labels.json`, producing `dlc: { id, name }`. Unknown
+   codes fall back to the raw id as the name.
+
+To refresh the DurtyFree-sourced snapshot (new DLC weapons, components, tints), regenerate
+`weapons.components.json` from the upstream `weapons.json` dump and add any new DLC codes to
+`dlc.labels.json`, then `npm run build`. The build logs per-field coverage
+(`components: N/104, tints: N/104, dlc: N/104`) so regressions are visible.
 
 ### Quick start (JavaScript)
 
@@ -304,7 +343,12 @@ api/index.json                 # discovery root
 api/<domain>/...               # generated JSON per domain
 src/
   config.mjs                   # base URL target (jsDelivr/Pages/custom) — single source of truth
-  data/                        # build inputs: peds/vehicles/weapons.json + weapons.stats.json, vehicles.handling.json
+  data/                        # build inputs (see "How weapon enrichment works"):
+                               #   peds/vehicles/weapons.json (curated codename refs)
+                               #   weapons.stats.json (vespura) + weapons.stats.extra.json (gtabase)
+                               #   weapons.components.json (DurtyFree: dlc + components + tints)
+                               #   dlc.labels.json (DLC code -> friendly name)
+                               #   vehicles.handling.json (DurtyFree performance)
   lib/fs.mjs                   # shared fs helpers (folder-derived domains)
   lib/joaat.mjs                # GTA joaat hash
   lib/catalog.mjs              # shared writer for flat domains
@@ -397,5 +441,5 @@ Existing domains and their URLs are unaffected.
 - Per-texture `.webp` sets (masks, legs, shoes, accessories, undershirts, tops) originally collected by [ShortByte / Enneken Solutions](https://github.com/ShortByte/GTA5-Cloth-Assets).
 - Per-drawable previews (hair, torsos, bags, armor, decals, and all props) sourced from the [RAGE Multiplayer Wiki](https://wiki.rage.mp/wiki/Clothes).
 - Ped & vehicle images sourced from the [FiveM docs image archive](https://docs.fivem.net/).
-- Weapon stats from [vespura.com/fivem/weapons](https://vespura.com/fivem/weapons/) (snapshot in `src/data/weapons.stats.json`), with newer DLC guns supplemented from [gtabase.com](https://www.gtabase.com/grand-theft-auto-v/weapons/) (`src/data/weapons.stats.extra.json`). Weapon components & tints from [DurtyFree/gta-v-data-dumps](https://github.com/DurtyFree/gta-v-data-dumps) (snapshot in `src/data/weapons.components.json`).
+- Weapon stats from [vespura.com/fivem/weapons](https://vespura.com/fivem/weapons/) (snapshot in `src/data/weapons.stats.json`), with newer DLC guns supplemented from [gtabase.com](https://www.gtabase.com/grand-theft-auto-v/weapons/) (`src/data/weapons.stats.extra.json`). Weapon DLC, components & tints from [DurtyFree/gta-v-data-dumps](https://github.com/DurtyFree/gta-v-data-dumps) (snapshot in `src/data/weapons.components.json`; DLC code→name map in `src/data/dlc.labels.json`).
 - Vehicle performance stats from [DurtyFree/gta-v-data-dumps](https://github.com/DurtyFree/gta-v-data-dumps) (snapshot in `src/data/vehicles.handling.json`).

@@ -30,6 +30,8 @@ const EXTRA_BY_CODE = new Map(Object.entries(EXTRA).map(([cn, s]) => [cn.toLower
 // plus tints for every weapon). Keyed by uppercase codename.
 const COMP = JSON.parse(await readFile(join(ROOT, 'src', 'data', 'weapons.components.json'), 'utf-8')).weapons;
 const COMP_BY_CODE = new Map(Object.entries(COMP).map(([cn, v]) => [cn.toUpperCase(), v]));
+// Internal DLC code -> friendly marketing name.
+const DLC_LABELS = JSON.parse(await readFile(join(ROOT, 'src', 'data', 'dlc.labels.json'), 'utf-8')).labels;
 
 // stem -> reference entry
 const BY_FILE = new Map(REF.weapons.map((w) => [w.file.toLowerCase(), w]));
@@ -65,6 +67,7 @@ export async function build({ assetsDir, apiDir, log = console.log }) {
   let withStats = 0;
   let withComponents = 0;
   let withTints = 0;
+  let withDlc = 0;
   const unmatched = [];
   const items = [];
 
@@ -83,8 +86,10 @@ export async function build({ assetsDir, apiDir, log = console.log }) {
       const df = COMP_BY_CODE.get(ref.codename.toUpperCase());
       const components = df?.components?.length ? df.components : (ves?.components ?? []);
       const tints = df?.tints ?? [];
+      const dlc = df?.dlc ? { id: df.dlc, name: DLC_LABELS[df.dlc] ?? df.dlc } : null;
       if (components.length) withComponents++;
       if (tints.length) withTints++;
+      if (dlc) withDlc++;
       items.push({
         id: idFromCodename(ref.codename),
         name: ref.name,
@@ -92,6 +97,7 @@ export async function build({ assetsDir, apiDir, log = console.log }) {
         hash: joaat(ref.codename),
         category: ref.category,
         url,
+        dlc,
         stats,
         components,
         tints,
@@ -106,6 +112,7 @@ export async function build({ assetsDir, apiDir, log = console.log }) {
         hash: null,
         category: ref?.category ?? 'Misc',
         url,
+        dlc: null,
         stats: null,
         components: [],
         tints: [],
@@ -115,7 +122,7 @@ export async function build({ assetsDir, apiDir, log = console.log }) {
 
   log(`  matched ${matched}/${files.length} icons to canonical codenames.`);
   log(`  stats: ${withStats}/${files.length} weapons have stats (vespura + gtabase); remaining are melee/gadget with no weapon-wheel stats.`);
-  log(`  components: ${withComponents}/${files.length}, tints: ${withTints}/${files.length} (DurtyFree).`);
+  log(`  components: ${withComponents}/${files.length}, tints: ${withTints}/${files.length}, dlc: ${withDlc}/${files.length} (DurtyFree).`);
   if (unmatched.length) log(`  ! no reference entry for: ${unmatched.join(', ')}`);
 
   items.sort((a, b) => a.name.localeCompare(b.name));
@@ -123,7 +130,7 @@ export async function build({ assetsDir, apiDir, log = console.log }) {
   return writeFlatDomain({
     apiDir, domain: DOMAIN, label: LABEL,
     urlPattern: `{cdnBase}/assets/${DOMAIN}/images/{File}-icon.png`,
-    note: 'Flat catalog. hash = joaat(codename). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }.',
+    note: 'Flat catalog. hash = joaat(codename). dlc = { id, name } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }.',
     items, log,
   });
 }
