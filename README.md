@@ -2,7 +2,7 @@
 
 A **static JSON API** for GTA 5 / FiveM game assets, served straight from the [jsDelivr](https://www.jsdelivr.com/) CDN — no server, no rate limits, free hosting on GitHub.
 
-The API is split into **domains**. Today there is one — **clothing** (clothes + props). Vehicles, peds and more are planned and slot in alongside it without disturbing the existing endpoints.
+The API is split into **domains**: **clothing**, **peds**, **vehicles**, and **weapons**. More slot in alongside without disturbing the existing endpoints.
 
 ```
 api/index.json                 # discovery root — lists every domain
@@ -10,11 +10,18 @@ api/<domain>/index.json        # one domain's catalog
 assets/<domain>/...            # the raw images for that domain
 ```
 
+There are two domain shapes:
+- **Folder-derived** (clothing): the catalog is generated from the `assets/` folder tree (category/gender/drawable/texture).
+- **Metadata-driven flat** (peds, vehicles, weapons): one image per item, keyed by a model name / weapon id, with per-item metadata and a `hash`.
+
 ## Domains
 
 | Domain   | Contents                          | Catalog                          |
 |----------|-----------------------------------|----------------------------------|
 | clothing | Clothes + props (16 components)   | [`api/clothing/index.json`](./api/clothing/index.json) |
+| peds     | Ped models (848)                  | [`api/peds/index.json`](./api/peds/index.json) |
+| vehicles | Vehicle models (861)              | [`api/vehicles/index.json`](./api/vehicles/index.json) |
+| weapons  | Weapon icons (104)                | [`api/weapons/index.json`](./api/weapons/index.json) |
 
 Read the discovery root to enumerate what's available:
 
@@ -144,6 +151,62 @@ const catalog = await clothing.getIndex();             // clothing components
 
 ---
 
+## Peds, Vehicles & Weapons domains
+
+These three are **flat catalogs**: one image per item, each `api/<domain>/index.json` holding
+the whole domain in one file:
+
+```jsonc
+{
+  "meta": { "domain": "vehicles", "label": "Vehicles", "cdnBase": "…", "urlPattern": "…" },
+  "categories": [ { "name": "Sports", "count": 112 }, … ],
+  "count": 861,
+  "items": [
+    { "id": "asbo", "name": "Asbo", "hash": 1118611807, "category": "Compacts",
+      "url": "https://.../assets/vehicles/images/asbo.webp" }
+  ]
+}
+```
+
+| Domain   | `id` is…            | `hash`                              | Image format | Extra fields            |
+|----------|---------------------|-------------------------------------|--------------|-------------------------|
+| peds     | model name          | `joaat(model_name)`                 | `.webp`      | `props`, `components`   |
+| vehicles | spawn name          | `joaat(model_name)`                 | `.webp`      | —                       |
+| weapons  | weapon id           | `joaat(codename)` (or `null`)       | `.png`       | `codename`              |
+
+- **`hash`** is GTA's joaat (Jenkins-one-at-a-time) hash — the same value the game/FiveM uses.
+  For vehicles it is computed from the model name and matches the official hashes; for weapons it
+  is computed from the internal `codename` (e.g. `weapon_assaultrifle`). A weapon whose codename
+  is unknown gets `hash: null` (currently only "Acid Package").
+- **Image URL** — build it directly or read `item.url`:
+  ```
+  https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/{model_name}.webp
+  https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/{model_name}.webp
+  https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/{File}-icon.png
+  ```
+
+### Quick start (JavaScript)
+
+```js
+import vehicles from 'https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/client/vehicles.js';
+
+const all      = await vehicles.getItems();              // every vehicle
+const sports   = await vehicles.byCategory('Sports');    // filter by category
+const adder    = await vehicles.byId('adder');           // one item
+const byHashed = await vehicles.byHash(1118611807);      // look up by joaat hash
+const url      = await vehicles.imageUrl('adder');       // its image URL
+
+// peds and weapons expose the same helpers
+import weapons from 'https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/client/weapons.js';
+const ar = await weapons.byId('assaultrifle_mk2');       // { hash: 961495388, codename, category, url }
+```
+
+> **Future stats.** Each flat item reserves an optional `stats` object (vehicle stats, weapon
+> stats). It's absent today; when stat data is added it merges in under `item.stats` keyed by the
+> existing `id` — no URL or shape changes.
+
+---
+
 ## Repository layout
 
 ```
@@ -152,12 +215,20 @@ api/index.json                 # discovery root
 api/<domain>/...               # generated JSON per domain
 src/
   config.mjs                   # GH owner/repo/branch -> CDN base (single source of truth)
-  lib/fs.mjs                   # shared filesystem helpers
+  data/                        # build inputs for flat domains (peds.json, vehicles.json, weapons.json)
+  lib/fs.mjs                   # shared fs helpers (folder-derived domains)
+  lib/joaat.mjs                # GTA joaat hash
+  lib/catalog.mjs              # shared writer for flat domains
   build/index.mjs              # orchestrator: runs each domain, writes api/index.json
-  build/clothing.mjs           # clothing domain builder (CATEGORY_MAP lives here)
+  build/clothing.mjs           # clothing builder (CATEGORY_MAP lives here)
+  build/peds.mjs               # peds builder
+  build/vehicles.mjs           # vehicles builder
+  build/weapons.mjs            # weapons builder (matches icons to src/data/weapons.json)
 client/
   index.js                     # discovery + namespaced domain helpers
   clothing.js                  # clothing helpers
+  _flat.js                     # shared flat-domain client factory
+  peds.js  vehicles.js  weapons.js
 ```
 
 ## Rebuilding

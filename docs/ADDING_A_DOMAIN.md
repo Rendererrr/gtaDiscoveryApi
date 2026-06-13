@@ -2,7 +2,22 @@
 
 This guide walks through adding a brand-new data domain (e.g. **vehicles**, **peds**, **weapons**) to the API. The repo is built so a new domain **never touches existing endpoints** — you drop assets, add one builder module, register it, and rebuild.
 
-> Worked example below uses **`vehicles`**. Swap the name for whatever you're adding.
+> The generic walkthrough below is framed around a hypothetical domain. Swap the name for
+> whatever you're adding.
+
+## Two domain shapes (copy the closest one)
+
+There are already real, working examples of both shapes — start by copying the closest:
+
+- **Metadata-driven flat** — one image per item keyed by an id, with per-item metadata
+  (peds, vehicles, weapons). Reuse `src/lib/catalog.mjs` (`writeFlatDomain`, `listImages`,
+  `fileExists`, `summariseCategories`) and copy **`src/build/vehicles.mjs`** as the template.
+  Source metadata lives in `src/data/<domain>.json`. This is almost certainly the shape you
+  want for a new GTA data set. Client: copy `client/vehicles.js` (built on `client/_flat.js`).
+- **Folder-derived** — the catalog is generated from the `assets/` folder tree (clothing's
+  category/gender/drawable/texture). Copy **`src/build/clothing.mjs`** and reuse `src/lib/fs.mjs`.
+
+`src/lib/joaat.mjs` gives you GTA's `joaat(name)` hash if your items are keyed by model/codename.
 
 ---
 

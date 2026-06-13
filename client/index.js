@@ -7,6 +7,9 @@
 //   const url = await clothing.getTexture({ componentId: 11, gender: 'male', drawable: 0 });
 
 import * as clothing from './clothing.js';
+import peds from './peds.js';
+import vehicles from './vehicles.js';
+import weapons from './weapons.js';
 
 const BASE = 'https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main';
 
@@ -17,6 +20,6 @@ export async function getDomains() {
   return res.json();
 }
 
-export { clothing };
+export { clothing, peds, vehicles, weapons };
 
-export default { getDomains, clothing };
+export default { getDomains, clothing, peds, vehicles, weapons };

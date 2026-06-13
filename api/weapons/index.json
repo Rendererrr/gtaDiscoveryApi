@@ -1,0 +1,888 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "weapons",
+    "label": "Weapons",
+    "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
+    "note": "Flat catalog. hash = joaat(codename); null when the internal codename is unknown."
+  },
+  "categories": [
+    {
+      "name": "Melee",
+      "count": 19
+    },
+    {
+      "name": "Handgun",
+      "count": 18
+    },
+    {
+      "name": "Rifle",
+      "count": 13
+    },
+    {
+      "name": "Shotgun",
+      "count": 10
+    },
+    {
+      "name": "SMG",
+      "count": 10
+    },
+    {
+      "name": "Thrown",
+      "count": 10
+    },
+    {
+      "name": "Heavy",
+      "count": 9
+    },
+    {
+      "name": "Misc",
+      "count": 6
+    },
+    {
+      "name": "Sniper",
+      "count": 6
+    },
+    {
+      "name": "MG",
+      "count": 3
+    }
+  ],
+  "count": 104,
+  "items": [
+    {
+      "id": "acid-package",
+      "name": "Acid Package",
+      "codename": null,
+      "hash": null,
+      "category": "Misc",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Acid-package-icon.png"
+    },
+    {
+      "id": "advancedrifle",
+      "name": "Advanced Rifle",
+      "codename": "weapon_advancedrifle",
+      "hash": 2937143193,
+      "category": "Rifle",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Advanced-rifle-icon.png"
+    },
+    {
+      "id": "dagger",
+      "name": "Antique Cavalry Dagger",
+      "codename": "weapon_dagger",
+      "hash": 2460120199,
+      "category": "Melee",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Antique-cavalry-dagger-icon.png"
+    },
+    {
+      "id": "appistol",
+      "name": "AP Pistol",
+      "codename": "weapon_appistol",
+      "hash": 584646201,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Appistol-icon.png"
+    },
+    {
+      "id": "assaultrifle",
+      "name": "Assault Rifle",
+      "codename": "weapon_assaultrifle",
+      "hash": 3220176749,
+      "category": "Rifle",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Assault-rifle-icon.png"
+    },
+    {
+      "id": "assaultrifle_mk2",
+      "name": "Assault Rifle Mk II",
+      "codename": "weapon_assaultrifle_mk2",
+      "hash": 961495388,
+      "category": "Rifle",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Assault-rifle-mk2-icon.png"
+    },
+    {
+      "id": "assaultshotgun",
+      "name": "Assault Shotgun",
+      "codename": "weapon_assaultshotgun",
+      "hash": 3800352039,
+      "category": "Shotgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Assault-shotgun-icon.png"
+    },
+    {
+      "id": "assaultsmg",
+      "name": "Assault SMG",
+      "codename": "weapon_assaultsmg",
+      "hash": 4024951519,
+      "category": "SMG",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Assault-smg-icon.png"
+    },
+    {
+      "id": "ball",
+      "name": "Baseball",
+      "codename": "weapon_ball",
+      "hash": 600439132,
+      "category": "Thrown",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Ball-icon.png"
+    },
+    {
+      "id": "bat",
+      "name": "Baseball Bat",
+      "codename": "weapon_bat",
+      "hash": 2508868239,
+      "category": "Melee",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Baseball-bat-icon.png"
+    },
+    {
+      "id": "battleaxe",
+      "name": "Battle Axe",
+      "codename": "weapon_battleaxe",
+      "hash": 3441901897,
+      "category": "Melee",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Battle-axe-icon.png"
+    },
+    {
+      "id": "knuckle",
+      "name": "Brass Knuckles",
+      "codename": "weapon_knuckle",
+      "hash": 3638508604,
+      "category": "Melee",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Knuckles-icon.png"
+    },
+    {
+      "id": "bottle",
+      "name": "Broken Bottle",
+      "codename": "weapon_bottle",
+      "hash": 4192643659,
+      "category": "Melee",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Broken-bottle-icon.png"
+    },
+    {
+      "id": "bullpuprifle",
+      "name": "Bullpup Rifle",
+      "codename": "weapon_bullpuprifle",
+      "hash": 2132975508,
+      "category": "Rifle",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Bullpup-rifle-icon.png"
+    },
+    {
+      "id": "bullpuprifle_mk2",
+      "name": "Bullpup Rifle Mk II",
+      "codename": "weapon_bullpuprifle_mk2",
+      "hash": 2228681469,
+      "category": "Rifle",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Bullpup-rifle-mk2-icon.png"
+    },
+    {
+      "id": "bullpupshotgun",
+      "name": "Bullpup Shotgun",
+      "codename": "weapon_bullpupshotgun",
+      "hash": 2640438543,
+      "category": "Shotgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Bullpup-shotgun-icon.png"
+    },
+    {
+      "id": "bzgas",
+      "name": "BZ Gas",
+      "codename": "weapon_bzgas",
+      "hash": 2694266206,
+      "category": "Thrown",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Bz-gas-icon.png"
+    },
+    {
+      "id": "candycane",
+      "name": "Candy Cane",
+      "codename": "weapon_candycane",
+      "hash": 1703483498,
+      "category": "Melee",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Candy-cane-icon.png"
+    },
+    {
+      "id": "carbinerifle",
+      "name": "Carbine Rifle",
+      "codename": "weapon_carbinerifle",
+      "hash": 2210333304,
+      "category": "Rifle",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Carbine-rifle-icon.png"
+    },
+    {
+      "id": "carbinerifle_mk2",
+      "name": "Carbine Rifle Mk II",
+      "codename": "weapon_carbinerifle_mk2",
+      "hash": 4208062921,
+      "category": "Rifle",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Carbine-rifle-mk2-icon.png"
+    },
+    {
+      "id": "ceramicpistol",
+      "name": "Ceramic Pistol",
+      "codename": "weapon_ceramicpistol",
+      "hash": 727643628,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Ceramic-pistol-icon.png"
+    },
+    {
+      "id": "combatmg",
+      "name": "Combat MG",
+      "codename": "weapon_combatmg",
+      "hash": 2144741730,
+      "category": "MG",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Combat-mg-icon.png"
+    },
+    {
+      "id": "combatmg_mk2",
+      "name": "Combat MG Mk II",
+      "codename": "weapon_combatmg_mk2",
+      "hash": 3686625920,
+      "category": "MG",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Combat-mg-mk2-icon.png"
+    },
+    {
+      "id": "combatpdw",
+      "name": "Combat PDW",
+      "codename": "weapon_combatpdw",
+      "hash": 171789620,
+      "category": "SMG",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Combat-pdw-icon.png"
+    },
+    {
+      "id": "combatpistol",
+      "name": "Combat Pistol",
+      "codename": "weapon_combatpistol",
+      "hash": 1593441988,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Combat-pistol-icon.png"
+    },
+    {
+      "id": "combatshotgun",
+      "name": "Combat Shotgun",
+      "codename": "weapon_combatshotgun",
+      "hash": 94989220,
+      "category": "Shotgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Combat-shotgun-icon.png"
+    },
+    {
+      "id": "emplauncher",
+      "name": "Compact EMP Launcher",
+      "codename": "weapon_emplauncher",
+      "hash": 3676729658,
+      "category": "Heavy",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/EMP-launcher-icon.png"
+    },
+    {
+      "id": "compactlauncher",
+      "name": "Compact Grenade Launcher",
+      "codename": "weapon_compactlauncher",
+      "hash": 125959754,
+      "category": "Heavy",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Grenade-compact-launcher-icon.png"
+    },
+    {
+      "id": "compactrifle",
+      "name": "Compact Rifle",
+      "codename": "weapon_compactrifle",
+      "hash": 1649403952,
+      "category": "Rifle",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Compact-rifle-icon.png"
+    },
+    {
+      "id": "crowbar",
+      "name": "Crowbar",
+      "codename": "weapon_crowbar",
+      "hash": 2227010557,
+      "category": "Melee",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Crowbar-icon.png"
+    },
+    {
+      "id": "dbshotgun",
+      "name": "Double Barrel Shotgun",
+      "codename": "weapon_dbshotgun",
+      "hash": 4019527611,
+      "category": "Shotgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Double-barrel-shotgun-icon.png"
+    },
+    {
+      "id": "doubleaction",
+      "name": "Double-Action Revolver",
+      "codename": "weapon_doubleaction",
+      "hash": 2548703416,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Double-action-revolver-icon.png"
+    },
+    {
+      "id": "firework",
+      "name": "Firework Launcher",
+      "codename": "weapon_firework",
+      "hash": 2138347493,
+      "category": "Heavy",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Firework-launcher-icon.png"
+    },
+    {
+      "id": "unarmed",
+      "name": "Fist",
+      "codename": "weapon_unarmed",
+      "hash": 2725352035,
+      "category": "Melee",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Fist-icon.png"
+    },
+    {
+      "id": "flare",
+      "name": "Flare",
+      "codename": "weapon_flare",
+      "hash": 1233104067,
+      "category": "Thrown",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Flare-icon.png"
+    },
+    {
+      "id": "flaregun",
+      "name": "Flare Gun",
+      "codename": "weapon_flaregun",
+      "hash": 1198879012,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Flaregun-icon.png"
+    },
+    {
+      "id": "flashlight",
+      "name": "Flashlight",
+      "codename": "weapon_flashlight",
+      "hash": 2343591895,
+      "category": "Melee",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Flashlight-icon.png"
+    },
+    {
+      "id": "golfclub",
+      "name": "Golf Club",
+      "codename": "weapon_golfclub",
+      "hash": 1141786504,
+      "category": "Melee",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Golf-club-icon.png"
+    },
+    {
+      "id": "grenade",
+      "name": "Grenade",
+      "codename": "weapon_grenade",
+      "hash": 2481070269,
+      "category": "Thrown",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Grenade-icon.png"
+    },
+    {
+      "id": "grenadelauncher",
+      "name": "Grenade Launcher",
+      "codename": "weapon_grenadelauncher",
+      "hash": 2726580491,
+      "category": "Heavy",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Grenade-launcher-icon.png"
+    },
+    {
+      "id": "gusenberg",
+      "name": "Gusenberg Sweeper",
+      "codename": "weapon_gusenberg",
+      "hash": 1627465347,
+      "category": "SMG",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Gusenberg-sweeper-icon.png"
+    },
+    {
+      "id": "hammer",
+      "name": "Hammer",
+      "codename": "weapon_hammer",
+      "hash": 1317494643,
+      "category": "Melee",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Hammer-icon.png"
+    },
+    {
+      "id": "hatchet",
+      "name": "Hatchet",
+      "codename": "weapon_hatchet",
+      "hash": 4191993645,
+      "category": "Melee",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Hatchet-icon.png"
+    },
+    {
+      "id": "heavypistol",
+      "name": "Heavy Pistol",
+      "codename": "weapon_heavypistol",
+      "hash": 3523564046,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-pistol-icon.png"
+    },
+    {
+      "id": "revolver",
+      "name": "Heavy Revolver",
+      "codename": "weapon_revolver",
+      "hash": 3249783761,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-revolver-icon.png"
+    },
+    {
+      "id": "revolver_mk2",
+      "name": "Heavy Revolver Mk II",
+      "codename": "weapon_revolver_mk2",
+      "hash": 3415619887,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-revolver-mk2-icon.png"
+    },
+    {
+      "id": "heavyrifle",
+      "name": "Heavy Rifle",
+      "codename": "weapon_heavyrifle",
+      "hash": 3347935668,
+      "category": "Rifle",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-rifle-icon.png"
+    },
+    {
+      "id": "heavyshotgun",
+      "name": "Heavy Shotgun",
+      "codename": "weapon_heavyshotgun",
+      "hash": 984333226,
+      "category": "Shotgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-shotgun-icon.png"
+    },
+    {
+      "id": "heavysniper",
+      "name": "Heavy Sniper",
+      "codename": "weapon_heavysniper",
+      "hash": 205991906,
+      "category": "Sniper",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-sniper-icon.png"
+    },
+    {
+      "id": "heavysniper_mk2",
+      "name": "Heavy Sniper Mk II",
+      "codename": "weapon_heavysniper_mk2",
+      "hash": 177293209,
+      "category": "Sniper",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-sniper-mk2-icon.png"
+    },
+    {
+      "id": "hominglauncher",
+      "name": "Homing Launcher",
+      "codename": "weapon_hominglauncher",
+      "hash": 1672152130,
+      "category": "Heavy",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Homing-launcher-icon.png"
+    },
+    {
+      "id": "petrolcan",
+      "name": "Jerry Can",
+      "codename": "weapon_petrolcan",
+      "hash": 883325847,
+      "category": "Misc",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Petrolcan-icon.png"
+    },
+    {
+      "id": "knife",
+      "name": "Knife",
+      "codename": "weapon_knife",
+      "hash": 2578778090,
+      "category": "Melee",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Knife-icon.png"
+    },
+    {
+      "id": "machete",
+      "name": "Machete",
+      "codename": "weapon_machete",
+      "hash": 3713923289,
+      "category": "Melee",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Machete-icon.png"
+    },
+    {
+      "id": "machinepistol",
+      "name": "Machine Pistol",
+      "codename": "weapon_machinepistol",
+      "hash": 3675956304,
+      "category": "SMG",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Machine-pistol-icon.png"
+    },
+    {
+      "id": "marksmanpistol",
+      "name": "Marksman Pistol",
+      "codename": "weapon_marksmanpistol",
+      "hash": 3696079510,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Marksman-pistol-icon.png"
+    },
+    {
+      "id": "marksmanrifle",
+      "name": "Marksman Rifle",
+      "codename": "weapon_marksmanrifle",
+      "hash": 3342088282,
+      "category": "Sniper",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Marksman-rifle-icon.png"
+    },
+    {
+      "id": "marksmanrifle_mk2",
+      "name": "Marksman Rifle Mk II",
+      "codename": "weapon_marksmanrifle_mk2",
+      "hash": 1785463520,
+      "category": "Sniper",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Marksman-rifle-mk2-icon.png"
+    },
+    {
+      "id": "mg",
+      "name": "MG",
+      "codename": "weapon_mg",
+      "hash": 2634544996,
+      "category": "MG",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Mg-icon.png"
+    },
+    {
+      "id": "microsmg",
+      "name": "Micro SMG",
+      "codename": "weapon_microsmg",
+      "hash": 324215364,
+      "category": "SMG",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Micro-smg-icon.png"
+    },
+    {
+      "id": "militaryrifle",
+      "name": "Military Rifle",
+      "codename": "weapon_militaryrifle",
+      "hash": 2636060646,
+      "category": "Rifle",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Military-rifle-icon.png"
+    },
+    {
+      "id": "minismg",
+      "name": "Mini SMG",
+      "codename": "weapon_minismg",
+      "hash": 3173288789,
+      "category": "SMG",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Mini-smg-icon.png"
+    },
+    {
+      "id": "minigun",
+      "name": "Minigun",
+      "codename": "weapon_minigun",
+      "hash": 1119849093,
+      "category": "Heavy",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Minigun-icon.png"
+    },
+    {
+      "id": "molotov",
+      "name": "Molotov",
+      "codename": "weapon_molotov",
+      "hash": 615608432,
+      "category": "Thrown",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Molotov-icon.png"
+    },
+    {
+      "id": "musket",
+      "name": "Musket",
+      "codename": "weapon_musket",
+      "hash": 2828843422,
+      "category": "Shotgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Musket-icon.png"
+    },
+    {
+      "id": "navyrevolver",
+      "name": "Navy Revolver",
+      "codename": "weapon_navyrevolver",
+      "hash": 2441047180,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Navy-revolver-icon.png"
+    },
+    {
+      "id": "nightstick",
+      "name": "Nightstick",
+      "codename": "weapon_nightstick",
+      "hash": 1737195953,
+      "category": "Melee",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Nightstick-icon.png"
+    },
+    {
+      "id": "parachute",
+      "name": "Parachute",
+      "codename": "gadget_parachute",
+      "hash": 4222310262,
+      "category": "Misc",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Parachute-icon.png"
+    },
+    {
+      "id": "pericopistol",
+      "name": "Perico Pistol",
+      "codename": "weapon_pericopistol",
+      "hash": 1792218062,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Perico-pistol-icon.png"
+    },
+    {
+      "id": "pipebomb",
+      "name": "Pipe Bomb",
+      "codename": "weapon_pipebomb",
+      "hash": 3125143736,
+      "category": "Thrown",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pipe-bomb-icon.png"
+    },
+    {
+      "id": "wrench",
+      "name": "Pipe Wrench",
+      "codename": "weapon_wrench",
+      "hash": 419712736,
+      "category": "Melee",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pipe-wrench-icon.png"
+    },
+    {
+      "id": "pistol",
+      "name": "Pistol",
+      "codename": "weapon_pistol",
+      "hash": 453432689,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pistol-icon.png"
+    },
+    {
+      "id": "pistol50",
+      "name": "Pistol .50",
+      "codename": "weapon_pistol50",
+      "hash": 2578377531,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pistol.50-icon.png"
+    },
+    {
+      "id": "pistol_mk2",
+      "name": "Pistol Mk II",
+      "codename": "weapon_pistol_mk2",
+      "hash": 3219281620,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pistol-mk2-icon.png"
+    },
+    {
+      "id": "poolcue",
+      "name": "Pool Cue",
+      "codename": "weapon_poolcue",
+      "hash": 2484171525,
+      "category": "Melee",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pool-cue-icon.png"
+    },
+    {
+      "id": "precisionrifle",
+      "name": "Precision Rifle",
+      "codename": "weapon_precisionrifle",
+      "hash": 1853742572,
+      "category": "Sniper",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Precision-rifle-icon.png"
+    },
+    {
+      "id": "proxmine",
+      "name": "Proximity Mine",
+      "codename": "weapon_proxmine",
+      "hash": 2874559379,
+      "category": "Thrown",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Proximity-mines-icon.png"
+    },
+    {
+      "id": "pumpshotgun",
+      "name": "Pump Shotgun",
+      "codename": "weapon_pumpshotgun",
+      "hash": 487013001,
+      "category": "Shotgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pump-shotgun-icon.png"
+    },
+    {
+      "id": "pumpshotgun_mk2",
+      "name": "Pump Shotgun Mk II",
+      "codename": "weapon_pumpshotgun_mk2",
+      "hash": 1432025498,
+      "category": "Shotgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pump-shotgun-mk2-icon.png"
+    },
+    {
+      "id": "railgun",
+      "name": "Railgun",
+      "codename": "weapon_railgun",
+      "hash": 1834241177,
+      "category": "Heavy",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Railgun-icon.png"
+    },
+    {
+      "id": "rpg",
+      "name": "RPG",
+      "codename": "weapon_rpg",
+      "hash": 2982836145,
+      "category": "Heavy",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Rocket-launcher-icon.png"
+    },
+    {
+      "id": "sawnoffshotgun",
+      "name": "Sawed-Off Shotgun",
+      "codename": "weapon_sawnoffshotgun",
+      "hash": 2017895192,
+      "category": "Shotgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Sawed-off-shotgun-icon.png"
+    },
+    {
+      "id": "tacticalrifle",
+      "name": "Service Carbine",
+      "codename": "weapon_tacticalrifle",
+      "hash": 3520460075,
+      "category": "Rifle",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Tactical-rifle-icon.png"
+    },
+    {
+      "id": "smg",
+      "name": "SMG",
+      "codename": "weapon_smg",
+      "hash": 736523883,
+      "category": "SMG",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Smg-icon.png"
+    },
+    {
+      "id": "smg_mk2",
+      "name": "SMG Mk II",
+      "codename": "weapon_smg_mk2",
+      "hash": 2024373456,
+      "category": "SMG",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Smg-mk2-icon.png"
+    },
+    {
+      "id": "sniperrifle",
+      "name": "Sniper Rifle",
+      "codename": "weapon_sniperrifle",
+      "hash": 100416529,
+      "category": "Sniper",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Sniper-rifle-icon.png"
+    },
+    {
+      "id": "snowball",
+      "name": "Snowball",
+      "codename": "weapon_snowball",
+      "hash": 126349499,
+      "category": "Thrown",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Snowball-icon.png"
+    },
+    {
+      "id": "snspistol",
+      "name": "SNS Pistol",
+      "codename": "weapon_snspistol",
+      "hash": 3218215474,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Sns-pistol-icon.png"
+    },
+    {
+      "id": "snspistol_mk2",
+      "name": "SNS Pistol Mk II",
+      "codename": "weapon_snspistol_mk2",
+      "hash": 2285322324,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Sns-pistol-mk2-icon.png"
+    },
+    {
+      "id": "specialcarbine",
+      "name": "Special Carbine",
+      "codename": "weapon_specialcarbine",
+      "hash": 3231910285,
+      "category": "Rifle",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Special-carbine-icon.png"
+    },
+    {
+      "id": "specialcarbine_mk2",
+      "name": "Special Carbine Mk II",
+      "codename": "weapon_specialcarbine_mk2",
+      "hash": 2526821735,
+      "category": "Rifle",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Special-carbine-mk2-icon.png"
+    },
+    {
+      "id": "stickybomb",
+      "name": "Sticky Bomb",
+      "codename": "weapon_stickybomb",
+      "hash": 741814745,
+      "category": "Thrown",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Sticky-bomb-icon.png"
+    },
+    {
+      "id": "stone_hatchet",
+      "name": "Stone Hatchet",
+      "codename": "weapon_stone_hatchet",
+      "hash": 940833800,
+      "category": "Melee",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Stone-hatchet-icon.png"
+    },
+    {
+      "id": "stungun",
+      "name": "Stun Gun",
+      "codename": "weapon_stungun",
+      "hash": 911657153,
+      "category": "Misc",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Stungun-icon.png"
+    },
+    {
+      "id": "autoshotgun",
+      "name": "Sweeper Shotgun",
+      "codename": "weapon_autoshotgun",
+      "hash": 317205821,
+      "category": "Shotgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Sweeper-shotgun-icon.png"
+    },
+    {
+      "id": "switchblade",
+      "name": "Switchblade",
+      "codename": "weapon_switchblade",
+      "hash": 3756226112,
+      "category": "Melee",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Switch-blade-icon.png"
+    },
+    {
+      "id": "tacticalsmg",
+      "name": "Tactical SMG",
+      "codename": "weapon_tacticalsmg",
+      "hash": 951184880,
+      "category": "SMG",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Tactical-smg-icon.png"
+    },
+    {
+      "id": "smokegrenade",
+      "name": "Tear Gas",
+      "codename": "weapon_smokegrenade",
+      "hash": 4256991824,
+      "category": "Thrown",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Tear-gas-icon.png"
+    },
+    {
+      "id": "stungun_mp",
+      "name": "The Shocker",
+      "codename": "weapon_stungun_mp",
+      "hash": 1171102963,
+      "category": "Misc",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/The-shocker-icon.png"
+    },
+    {
+      "id": "raycarbine",
+      "name": "Unholy Hellbringer",
+      "codename": "weapon_raycarbine",
+      "hash": 1198256469,
+      "category": "SMG",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Unholy-hellbringer-icon.png"
+    },
+    {
+      "id": "raypistol",
+      "name": "Up-n-Atomizer",
+      "codename": "weapon_raypistol",
+      "hash": 2939590305,
+      "category": "Misc",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Up-n-atomizer-icon.png"
+    },
+    {
+      "id": "vintagepistol",
+      "name": "Vintage Pistol",
+      "codename": "weapon_vintagepistol",
+      "hash": 137902532,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Vintage-pistol-icon.png"
+    },
+    {
+      "id": "rayminigun",
+      "name": "Widowmaker",
+      "codename": "weapon_rayminigun",
+      "hash": 3056410471,
+      "category": "Heavy",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Widowmaker-icon.png"
+    },
+    {
+      "id": "gadgetpistol",
+      "name": "WM 29 Pistol",
+      "codename": "weapon_gadgetpistol",
+      "hash": 1470379660,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/WM-29-pistol-icon.png"
+    }
+  ]
+}

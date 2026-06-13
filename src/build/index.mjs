@@ -14,13 +14,15 @@ import { join } from 'path';
 import { baseMeta } from '../config.mjs';
 
 import * as clothing from './clothing.mjs';
-// import * as vehicles from './vehicles.mjs';   // future
-// import * as peds from './peds.mjs';            // future
+import * as peds from './peds.mjs';
+import * as vehicles from './vehicles.mjs';
+import * as weapons from './weapons.mjs';
 
 const DOMAINS = [
   clothing,
-  // vehicles,
-  // peds,
+  peds,
+  vehicles,
+  weapons,
 ];
 
 const ROOT = join(import.meta.dirname, '..', '..');
