@@ -1,12 +1,12 @@
 // Objects (props) domain builder.
 //
 // Two sources, joined by model name:
-//   - src/data/objects.all.json    : every object name (DurtyFree ObjectList.ini)
-//   - src/data/objects.known.json  : a curated subset with display name + category
+//   - src/data/objects.all.json      : every object name (DurtyFree ObjectList.ini)
+//   - src/data/objects.curated.json  : a curated subset with display name + category
 //     (parsed from InfamousSrc objectList.cpp)
 //
-// Every object gets hash = joaat(name). Known objects also get a friendly `name`
-// and a `category` (and `known: true`); the rest have `name === id`, `category: null`.
+// Every object gets hash = joaat(name). Curated objects also get a friendly `name`
+// and a `category` (and `curated: true`); the rest have `name === id`, `category: null`.
 //
 // Objects have no images, so items carry no `url`. The catalog is large (~21.6k),
 // so index.json is written compact; per-category slices are pre-generated for the
@@ -23,29 +23,29 @@ export const LABEL = 'Objects';
 
 const ROOT = join(import.meta.dirname, '..', '..');
 const ALL = JSON.parse(await readFile(join(ROOT, 'src', 'data', 'objects.all.json'), 'utf-8'));
-const KNOWN = JSON.parse(await readFile(join(ROOT, 'src', 'data', 'objects.known.json'), 'utf-8'));
+const CURATED = JSON.parse(await readFile(join(ROOT, 'src', 'data', 'objects.curated.json'), 'utf-8'));
 
 export async function build({ apiDir, log = console.log }) {
   // model (lowercased) -> { name, category }
-  const knownByModel = new Map(KNOWN.objects.map((o) => [o.model.toLowerCase(), o]));
+  const curatedByModel = new Map(CURATED.objects.map((o) => [o.model.toLowerCase(), o]));
 
-  // Union: every ini name, plus any known model missing from the ini.
+  // Union: every ini name, plus any curated model missing from the ini.
   const names = [...ALL.models];
   const haveLower = new Set(names.map((n) => n.toLowerCase()));
-  for (const o of KNOWN.objects) {
+  for (const o of CURATED.objects) {
     if (!haveLower.has(o.model.toLowerCase())) { names.push(o.model); haveLower.add(o.model.toLowerCase()); }
   }
 
-  let knownCount = 0;
+  let curatedCount = 0;
   const items = names.map((id) => {
-    const k = knownByModel.get(id.toLowerCase());
-    if (k) knownCount++;
+    const k = curatedByModel.get(id.toLowerCase());
+    if (k) curatedCount++;
     return {
       id,
       name: k?.name ?? id,
       hash: joaat(id),
       category: k?.category ?? null,
-      known: !!k,
+      curated: !!k,
     };
   });
   items.sort((a, b) => a.id.localeCompare(b.id));
@@ -54,17 +54,17 @@ export async function build({ apiDir, log = console.log }) {
   await rm(domainApi, { recursive: true, force: true });
   await mkdir(domainApi, { recursive: true });
 
-  // Categories cover only the curated (known) objects.
+  // Categories cover only the curated objects.
   const categories = summariseCategories(items.filter((i) => i.category));
   const meta = {
     ...baseMeta(), domain: DOMAIN, label: LABEL,
-    note: 'Flat catalog of GTA object/prop models. hash = joaat(id). Curated objects carry a display `name` + `category` (known: true); the rest have name === id and category: null. No images. index.json is compact due to size; per-category slices live under by-category/.',
+    note: 'Flat catalog of GTA object/prop models. hash = joaat(id). Curated objects carry a display `name` + `category` (curated: true); the rest have name === id and category: null. No images. index.json is compact due to size; per-category slices live under by-category/.',
   };
 
   // index.json — every object (compact: this domain is ~21.6k items).
   await writeFile(
     join(domainApi, 'index.json'),
-    JSON.stringify({ meta, categories, count: items.length, knownCount, items }),
+    JSON.stringify({ meta, categories, count: items.length, curatedCount, items }),
     'utf-8',
   );
 
@@ -97,7 +97,7 @@ export async function build({ apiDir, log = console.log }) {
     'utf-8',
   );
 
-  log(`  ${items.length} objects (${knownCount} curated) across ${categories.length} categories.`);
+  log(`  ${items.length} objects (${curatedCount} curated) across ${categories.length} categories.`);
   log(`  by-category: ${listed.length} groups written.`);
   log(`Done ${DOMAIN}: ${items.length} items, ${Object.keys(hashes).length} hashed.`);
 

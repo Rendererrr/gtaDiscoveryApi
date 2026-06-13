@@ -464,17 +464,17 @@ joined by model name:
   [DurtyFree `ObjectList.ini`](https://github.com/DurtyFree/gta-v-data-dumps/blob/master/ObjectList.ini).
 - **Curated objects** — 3,050 of them carry a friendly `name` and a `category` (71 categories like
   *Bags*, *Beach*, *Doors*, *Weaponry*), parsed from a hand-maintained list. These have
-  `known: true`; the rest have `name === id`, `category: null`, `known: false`.
+  `curated: true`; the rest have `name === id`, `category: null`, `curated: false`.
 
 Objects have **no images** (so no `url`). `hash = joaat(id)`, like every other domain.
 
 ```jsonc
 // GET api/objects/index.json   (compact — ~21.6k items; meta + categories[] + items[])
-{ "count": 21634, "knownCount": 3050,
+{ "count": 21634, "curatedCount": 3050,
   "items": [ { "id": "prop_beachball_01", "name": "Beach Ball", "hash": 1574107526,
-               "category": "Beach", "known": true },
+               "category": "Beach", "curated": true },
              { "id": "apa_ch2_04_armco02", "name": "apa_ch2_04_armco02", "hash": 2291838436,
-               "category": null, "known": false } ] }
+               "category": null, "curated": false } ] }
 ```
 
 **List categories / list by category.** Same static layout as the other domains — covering the
@@ -557,17 +557,17 @@ Every GTA **particle (PTFX) effect** from
 **2,907 effects across 360 dictionaries**. A particle is used as a **(dict, effect) pair** —
 `REQUEST_NAMED_PTFX_ASSET(dict)` then `START_PARTICLE_FX_LOOPED_AT_COORD(effect, …)` — so there's
 **no joaat hash**; identity is the pair. The **dictionary is the category** (it's the asset you
-load). A curated **81** effects carry a friendly `name` (`known: true`); the rest have
+load). A curated **81** effects carry a friendly `name` (`curated: true`); the rest have
 `name === effect`.
 
 ```jsonc
 // GET api/particles/index.json   (compact; meta + categories[] + items[])
-{ "count": 2907, "knownCount": 81, "dictionaryCount": 360,
+{ "count": 2907, "curatedCount": 81, "dictionaryCount": 360,
   "items": [ { "id": "scr_rcbarry2/scr_clown_appears", "name": "Purple Cloud 1",
                "dict": "scr_rcbarry2", "effect": "scr_clown_appears",
-               "category": "scr_rcbarry2", "known": true },
+               "category": "scr_rcbarry2", "curated": true },
              { "id": "core/bang_snow", "name": "bang_snow", "dict": "core",
-               "effect": "bang_snow", "category": "core", "known": false } ] }
+               "effect": "bang_snow", "category": "core", "curated": false } ] }
 ```
 
 **List categories / list by category** — the category is the dictionary:
@@ -606,10 +606,10 @@ src/
                                #   vehicles.dlc.json / peds.dlc.json (DurtyFree: model -> DLC code)
                                #   dlc.labels.json (DLC code -> { name, releaseDate }; shared)
                                #   objects.all.json (DurtyFree ObjectList.ini: all object names)
-                               #   objects.known.json (curated objects: name + category, 71 cats)
+                               #   objects.curated.json (curated objects: name + category, 71 cats)
                                #   explosions.json (DurtyFree explosion tags: name + category, 9 cats)
                                #   particles.all.json (DurtyFree PTFX: all effects by dict)
-                               #   particles.known.json (curated effects: friendly names)
+                               #   particles.curated.json (curated effects: friendly names)
   lib/fs.mjs                   # shared fs helpers (folder-derived domains)
   lib/joaat.mjs                # GTA joaat hash
   lib/catalog.mjs              # shared writer for flat domains (+ slugify, groupings)
@@ -710,6 +710,6 @@ Existing domains and their URLs are unaffected.
 - Ped & vehicle images sourced from the [FiveM docs image archive](https://docs.fivem.net/).
 - Weapon stats from [vespura.com/fivem/weapons](https://vespura.com/fivem/weapons/) (snapshot in `src/data/weapons.stats.json`), with newer DLC guns supplemented from [gtabase.com](https://www.gtabase.com/grand-theft-auto-v/weapons/) (`src/data/weapons.stats.extra.json`). Weapon DLC, components & tints from [DurtyFree/gta-v-data-dumps](https://github.com/DurtyFree/gta-v-data-dumps) (snapshot in `src/data/weapons.components.json`; DLC code→name map in `src/data/dlc.labels.json`).
 - Vehicle performance stats from [DurtyFree/gta-v-data-dumps](https://github.com/DurtyFree/gta-v-data-dumps) (snapshot in `src/data/vehicles.handling.json`). Vehicle DLC tags from the same dump (`src/data/vehicles.dlc.json`); DLC names & launch dates in `src/data/dlc.labels.json` (cross-checked against [gtacars.net](https://gtacars.net/gta5)).
-- Object/prop model list from [DurtyFree `ObjectList.ini`](https://github.com/DurtyFree/gta-v-data-dumps/blob/master/ObjectList.ini) (`src/data/objects.all.json`); curated object display names + categories in `src/data/objects.known.json`.
+- Object/prop model list from [DurtyFree `ObjectList.ini`](https://github.com/DurtyFree/gta-v-data-dumps/blob/master/ObjectList.ini) (`src/data/objects.all.json`); curated object display names + categories in `src/data/objects.curated.json`.
 - Explosion types from [DurtyFree `explosionTypesCompact.json`](https://github.com/DurtyFree/gta-v-data-dumps/blob/master/explosionTypesCompact.json), categorized with friendly names in `src/data/explosions.json`.
-- Particle (PTFX) effects from [DurtyFree `particleEffectsCompact.json`](https://github.com/DurtyFree/gta-v-data-dumps/blob/master/particleEffectsCompact.json) (`src/data/particles.all.json`); curated friendly names in `src/data/particles.known.json`.
+- Particle (PTFX) effects from [DurtyFree `particleEffectsCompact.json`](https://github.com/DurtyFree/gta-v-data-dumps/blob/master/particleEffectsCompact.json) (`src/data/particles.all.json`); curated friendly names in `src/data/particles.curated.json`.

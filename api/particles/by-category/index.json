@@ -5,7 +5,7 @@
     "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
     "domain": "particles",
     "label": "Particles",
-    "note": "Flat catalog of particle (PTFX) effects. A particle is a (dict, effect) pair: REQUEST_NAMED_PTFX_ASSET(dict) then START_PARTICLE_FX_*(effect). category = dictionary. Curated effects carry a friendly name (known: true); the rest have name === effect. No images, no hash. index.json is compact; per-dictionary slices live under by-category/."
+    "note": "Flat catalog of particle (PTFX) effects. A particle is a (dict, effect) pair: REQUEST_NAMED_PTFX_ASSET(dict) then START_PARTICLE_FX_*(effect). category = dictionary. Curated effects carry a friendly name (curated: true); the rest have name === effect. No images, no hash. index.json is compact; per-dictionary slices live under by-category/."
   },
   "count": 360,
   "groups": [
