@@ -6,6 +6,11 @@
     "name": "GTA Discovery API",
     "note": "A static JSON API for GTA 5 / FiveM game assets, split by domain. Pick a domain, then read its index for endpoints."
   },
+  "endpoints": {
+    "hashes": "api/hashes.json",
+    "categories": "api/categories.json",
+    "dlc": "api/dlc.json"
+  },
   "domains": [
     {
       "domain": "clothing",

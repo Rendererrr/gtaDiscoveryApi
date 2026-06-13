@@ -1,0 +1,286 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "note": "Every category in each flat domain. Each entry -> a by-category slice at `path`."
+  },
+  "domains": {
+    "peds": [
+      {
+        "name": "Story",
+        "slug": "story",
+        "count": 155,
+        "path": "api/peds/by-category/story.json"
+      },
+      {
+        "name": "Cutscene",
+        "slug": "cutscene",
+        "count": 154,
+        "path": "api/peds/by-category/cutscene.json"
+      },
+      {
+        "name": "Ambient male",
+        "slug": "ambient-male",
+        "count": 129,
+        "path": "api/peds/by-category/ambient-male.json"
+      },
+      {
+        "name": "Scenario male",
+        "slug": "scenario-male",
+        "count": 99,
+        "path": "api/peds/by-category/scenario-male.json"
+      },
+      {
+        "name": "Ambient female",
+        "slug": "ambient-female",
+        "count": 75,
+        "path": "api/peds/by-category/ambient-female.json"
+      },
+      {
+        "name": "Story scenario male",
+        "slug": "story-scenario-male",
+        "count": 63,
+        "path": "api/peds/by-category/story-scenario-male.json"
+      },
+      {
+        "name": "Gang male",
+        "slug": "gang-male",
+        "count": 41,
+        "path": "api/peds/by-category/gang-male.json"
+      },
+      {
+        "name": "Multiplayer",
+        "slug": "multiplayer",
+        "count": 40,
+        "path": "api/peds/by-category/multiplayer.json"
+      },
+      {
+        "name": "Animals",
+        "slug": "animals",
+        "count": 33,
+        "path": "api/peds/by-category/animals.json"
+      },
+      {
+        "name": "Story scenario female",
+        "slug": "story-scenario-female",
+        "count": 28,
+        "path": "api/peds/by-category/story-scenario-female.json"
+      },
+      {
+        "name": "Scenario female",
+        "slug": "scenario-female",
+        "count": 25,
+        "path": "api/peds/by-category/scenario-female.json"
+      },
+      {
+        "name": "Gang female",
+        "slug": "gang-female",
+        "count": 6,
+        "path": "api/peds/by-category/gang-female.json"
+      }
+    ],
+    "vehicles": [
+      {
+        "name": "Sports",
+        "slug": "sports",
+        "count": 112,
+        "path": "api/vehicles/by-category/sports.json"
+      },
+      {
+        "name": "Muscles",
+        "slug": "muscles",
+        "count": 92,
+        "path": "api/vehicles/by-category/muscles.json"
+      },
+      {
+        "name": "Off-Road",
+        "slug": "off-road",
+        "count": 67,
+        "path": "api/vehicles/by-category/off-road.json"
+      },
+      {
+        "name": "Motorcycles",
+        "slug": "motorcycles",
+        "count": 58,
+        "path": "api/vehicles/by-category/motorcycles.json"
+      },
+      {
+        "name": "Super",
+        "slug": "super",
+        "count": 57,
+        "path": "api/vehicles/by-category/super.json"
+      },
+      {
+        "name": "Utility",
+        "slug": "utility",
+        "count": 50,
+        "path": "api/vehicles/by-category/utility.json"
+      },
+      {
+        "name": "SUVs",
+        "slug": "suvs",
+        "count": 47,
+        "path": "api/vehicles/by-category/suvs.json"
+      },
+      {
+        "name": "Sports Classic",
+        "slug": "sports-classic",
+        "count": 46,
+        "path": "api/vehicles/by-category/sports-classic.json"
+      },
+      {
+        "name": "Planes",
+        "slug": "planes",
+        "count": 44,
+        "path": "api/vehicles/by-category/planes.json"
+      },
+      {
+        "name": "Sedans",
+        "slug": "sedans",
+        "count": 44,
+        "path": "api/vehicles/by-category/sedans.json"
+      },
+      {
+        "name": "Vans",
+        "slug": "vans",
+        "count": 40,
+        "path": "api/vehicles/by-category/vans.json"
+      },
+      {
+        "name": "Helicopters",
+        "slug": "helicopters",
+        "count": 30,
+        "path": "api/vehicles/by-category/helicopters.json"
+      },
+      {
+        "name": "Boats",
+        "slug": "boats",
+        "count": 26,
+        "path": "api/vehicles/by-category/boats.json"
+      },
+      {
+        "name": "Commercial",
+        "slug": "commercial",
+        "count": 24,
+        "path": "api/vehicles/by-category/commercial.json"
+      },
+      {
+        "name": "Emergency",
+        "slug": "emergency",
+        "count": 22,
+        "path": "api/vehicles/by-category/emergency.json"
+      },
+      {
+        "name": "Coupes",
+        "slug": "coupes",
+        "count": 19,
+        "path": "api/vehicles/by-category/coupes.json"
+      },
+      {
+        "name": "Compacts",
+        "slug": "compacts",
+        "count": 18,
+        "path": "api/vehicles/by-category/compacts.json"
+      },
+      {
+        "name": "Military",
+        "slug": "military",
+        "count": 17,
+        "path": "api/vehicles/by-category/military.json"
+      },
+      {
+        "name": "Service",
+        "slug": "service",
+        "count": 13,
+        "path": "api/vehicles/by-category/service.json"
+      },
+      {
+        "name": "Industrial",
+        "slug": "industrial",
+        "count": 12,
+        "path": "api/vehicles/by-category/industrial.json"
+      },
+      {
+        "name": "Trains",
+        "slug": "trains",
+        "count": 10,
+        "path": "api/vehicles/by-category/trains.json"
+      },
+      {
+        "name": "Cycles",
+        "slug": "cycles",
+        "count": 9,
+        "path": "api/vehicles/by-category/cycles.json"
+      },
+      {
+        "name": "Open Wheels",
+        "slug": "open-wheels",
+        "count": 4,
+        "path": "api/vehicles/by-category/open-wheels.json"
+      }
+    ],
+    "weapons": [
+      {
+        "name": "Melee",
+        "slug": "melee",
+        "count": 19,
+        "path": "api/weapons/by-category/melee.json"
+      },
+      {
+        "name": "Handgun",
+        "slug": "handgun",
+        "count": 18,
+        "path": "api/weapons/by-category/handgun.json"
+      },
+      {
+        "name": "Rifle",
+        "slug": "rifle",
+        "count": 13,
+        "path": "api/weapons/by-category/rifle.json"
+      },
+      {
+        "name": "Shotgun",
+        "slug": "shotgun",
+        "count": 10,
+        "path": "api/weapons/by-category/shotgun.json"
+      },
+      {
+        "name": "SMG",
+        "slug": "smg",
+        "count": 10,
+        "path": "api/weapons/by-category/smg.json"
+      },
+      {
+        "name": "Thrown",
+        "slug": "thrown",
+        "count": 10,
+        "path": "api/weapons/by-category/thrown.json"
+      },
+      {
+        "name": "Heavy",
+        "slug": "heavy",
+        "count": 9,
+        "path": "api/weapons/by-category/heavy.json"
+      },
+      {
+        "name": "Misc",
+        "slug": "misc",
+        "count": 6,
+        "path": "api/weapons/by-category/misc.json"
+      },
+      {
+        "name": "Sniper",
+        "slug": "sniper",
+        "count": 6,
+        "path": "api/weapons/by-category/sniper.json"
+      },
+      {
+        "name": "MG",
+        "slug": "mg",
+        "count": 3,
+        "path": "api/weapons/by-category/mg.json"
+      }
+    ]
+  }
+}

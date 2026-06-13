@@ -43,11 +43,63 @@ async function main() {
 
   domains.sort((a, b) => (a.domain < b.domain ? -1 : a.domain > b.domain ? 1 : 0));
 
+  // Combined cross-domain listings of every category and every DLC, merged from
+  // each flat domain's by-category/by-dlc index files (static API -> no query params).
+  // DLCs are merged by friendly NAME, so alias codes for the same update collapse
+  // into one row (TitleUpdate+basegame -> "Base Game"; mpsum2+mpg9ec -> "The Criminal
+  // Enterprises"; mp2024_02+mp2024_02_g9ec -> "Agents of Sabotage").
+  const catsByDomain = {};
+  const dlcMap = new Map(); // name -> { name, ids:Set, releaseDate, domains:{}, paths:{}, total }
+  for (const d of domains) {
+    if (d.byCategory) {
+      const { groups } = JSON.parse(await readFile(join(ROOT, d.byCategory), 'utf-8'));
+      catsByDomain[d.domain] = groups.map((g) => ({ name: g.name, slug: g.slug, count: g.count, path: g.path }));
+    }
+    if (d.byDlc) {
+      const { groups } = JSON.parse(await readFile(join(ROOT, d.byDlc), 'utf-8'));
+      for (const g of groups) {
+        if (!dlcMap.has(g.name)) dlcMap.set(g.name, { name: g.name, ids: new Set(), releaseDate: g.releaseDate ?? null, domains: {}, paths: {}, total: 0 });
+        const e = dlcMap.get(g.name);
+        e.ids.add(g.id);
+        if (g.releaseDate && !e.releaseDate) e.releaseDate = g.releaseDate;
+        e.domains[d.domain] = (e.domains[d.domain] ?? 0) + g.count;
+        e.paths[d.domain] = g.path;
+        e.total += g.count;
+      }
+    }
+  }
+  const dlcs = [...dlcMap.values()]
+    .map((e) => ({ name: e.name, ids: [...e.ids], releaseDate: e.releaseDate, domains: e.domains, paths: e.paths, total: e.total }))
+    .sort((a, b) => (a.releaseDate ?? '￿').localeCompare(b.releaseDate ?? '￿') || a.name.localeCompare(b.name));
+
+  await writeFile(
+    join(API_DIR, 'categories.json'),
+    JSON.stringify({
+      meta: { ...baseMeta(), note: 'Every category in each flat domain. Each entry -> a by-category slice at `path`.' },
+      domains: catsByDomain,
+    }, null, 2),
+    'utf-8',
+  );
+  await writeFile(
+    join(API_DIR, 'dlc.json'),
+    JSON.stringify({
+      meta: { ...baseMeta(), note: 'Every GTA DLC that introduced a tagged item, merged across domains and ordered by releaseDate (a content timeline). `domains` = item count per domain; `paths` = the by-dlc slice per domain.' },
+      count: dlcs.length,
+      dlcs,
+    }, null, 2),
+    'utf-8',
+  );
+
   const root = {
     meta: {
       ...baseMeta(),
       name: 'GTA Discovery API',
       note: 'A static JSON API for GTA 5 / FiveM game assets, split by domain. Pick a domain, then read its index for endpoints.',
+    },
+    endpoints: {
+      hashes: 'api/hashes.json',
+      categories: 'api/categories.json',
+      dlc: 'api/dlc.json',
     },
     domains,
   };
@@ -78,6 +130,7 @@ async function main() {
 
   console.log(`\n✓ Wrote api/index.json — ${domains.length} domain(s): ${domains.map((d) => d.domain).join(', ')}`);
   console.log(`✓ Wrote api/hashes.json — ${Object.keys(combined).length} hashes${collisions ? ` (${collisions} cross-domain collision(s))` : ''}.`);
+  console.log(`✓ Wrote api/categories.json (${Object.values(catsByDomain).reduce((n, a) => n + a.length, 0)} categories) and api/dlc.json (${dlcs.length} DLCs).`);
 }
 
 main().catch((err) => {

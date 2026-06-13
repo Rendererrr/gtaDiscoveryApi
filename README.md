@@ -392,6 +392,31 @@ The client helpers `byCategory()` / `byDlc()` / `getDlcs()` give the same result
 full catalog; the static files above are for fetching a single slice directly (smaller payload,
 cacheable per slice).
 
+**Global listings (all categories / all DLCs at once).** Two top-level files aggregate across
+every domain — linked from `api/index.json` → `endpoints`:
+
+```
+api/categories.json   # { domains: { peds:[…], vehicles:[…], weapons:[…] } }  — each entry { name, slug, count, path }
+api/dlc.json          # { dlcs: [ { name, ids[], releaseDate, domains, paths, total } ] }  — release-ordered
+```
+
+`api/dlc.json` merges DLCs by **name**, so alias codes for the same update collapse into one row
+— e.g. `Base Game` combines `TitleUpdate` (vehicles/weapons) + `basegame` (peds) and reports
+`domains: { peds: 506, vehicles: 298, weapons: 38 }` with a `paths` map to each domain's slice. It
+reads as a single GTA content timeline across cars, weapons and peds (patch-day ped additions have
+`releaseDate: null` and sort last).
+
+```jsonc
+// GET api/dlc.json
+{ "count": 59, "dlcs": [
+  { "name": "Base Game", "ids": ["basegame","TitleUpdate"], "releaseDate": "2013-09-17",
+    "domains": { "peds": 506, "vehicles": 298, "weapons": 38 }, "total": 842,
+    "paths": { "vehicles": "api/vehicles/by-dlc/titleupdate.json", "...": "..." } },
+  { "name": "Los Santos Tuners", "ids": ["mptuner"], "releaseDate": "2021-07-20",
+    "domains": { "vehicles": 18 }, "total": 18, "paths": { "vehicles": "api/vehicles/by-dlc/mptuner.json" } }
+] }
+```
+
 > **Future stats.** Each flat item reserves an optional `stats` object (vehicle stats, weapon
 > stats). It's absent today; when stat data is added it merges in under `item.stats` keyed by the
 > existing `id` — no URL or shape changes.
@@ -413,7 +438,7 @@ src/
                                #   weapons.stats.json (vespura) + weapons.stats.extra.json (gtabase)
                                #   weapons.components.json (DurtyFree: dlc + components + tints)
                                #   vehicles.handling.json (DurtyFree performance)
-                               #   vehicles.dlc.json (DurtyFree: model -> DLC code)
+                               #   vehicles.dlc.json / peds.dlc.json (DurtyFree: model -> DLC code)
                                #   dlc.labels.json (DLC code -> { name, releaseDate }; shared)
   lib/fs.mjs                   # shared fs helpers (folder-derived domains)
   lib/joaat.mjs                # GTA joaat hash

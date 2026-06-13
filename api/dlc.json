@@ -1,0 +1,922 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "note": "Every GTA DLC that introduced a tagged item, merged across domains and ordered by releaseDate (a content timeline). `domains` = item count per domain; `paths` = the by-dlc slice per domain."
+  },
+  "count": 59,
+  "dlcs": [
+    {
+      "name": "Base Game",
+      "ids": [
+        "basegame",
+        "TitleUpdate"
+      ],
+      "releaseDate": "2013-09-17",
+      "domains": {
+        "peds": 506,
+        "vehicles": 298,
+        "weapons": 38
+      },
+      "paths": {
+        "peds": "api/peds/by-dlc/basegame.json",
+        "vehicles": "api/vehicles/by-dlc/titleupdate.json",
+        "weapons": "api/weapons/by-dlc/titleupdate.json"
+      },
+      "total": 842
+    },
+    {
+      "name": "Beach Bum",
+      "ids": [
+        "mpbeach"
+      ],
+      "releaseDate": "2013-11-19",
+      "domains": {
+        "vehicles": 4,
+        "weapons": 2
+      },
+      "paths": {
+        "vehicles": "api/vehicles/by-dlc/mpbeach.json",
+        "weapons": "api/weapons/by-dlc/mpbeach.json"
+      },
+      "total": 6
+    },
+    {
+      "name": "Valentine's Day Massacre",
+      "ids": [
+        "mpvalentines"
+      ],
+      "releaseDate": "2014-02-13",
+      "domains": {
+        "vehicles": 1,
+        "weapons": 1
+      },
+      "paths": {
+        "vehicles": "api/vehicles/by-dlc/mpvalentines.json",
+        "weapons": "api/weapons/by-dlc/mpvalentines.json"
+      },
+      "total": 2
+    },
+    {
+      "name": "The Business Update",
+      "ids": [
+        "mpbusiness"
+      ],
+      "releaseDate": "2014-03-04",
+      "domains": {
+        "vehicles": 4,
+        "weapons": 2
+      },
+      "paths": {
+        "vehicles": "api/vehicles/by-dlc/mpbusiness.json",
+        "weapons": "api/weapons/by-dlc/mpbusiness.json"
+      },
+      "total": 6
+    },
+    {
+      "name": "The High Life Update",
+      "ids": [
+        "mpbusiness2"
+      ],
+      "releaseDate": "2014-05-13",
+      "domains": {
+        "vehicles": 4,
+        "weapons": 1
+      },
+      "paths": {
+        "vehicles": "api/vehicles/by-dlc/mpbusiness2.json",
+        "weapons": "api/weapons/by-dlc/mpbusiness2.json"
+      },
+      "total": 5
+    },
+    {
+      "name": "I'm Not a Hipster Update",
+      "ids": [
+        "mphipster"
+      ],
+      "releaseDate": "2014-06-17",
+      "domains": {
+        "vehicles": 7,
+        "weapons": 2
+      },
+      "paths": {
+        "vehicles": "api/vehicles/by-dlc/mphipster.json",
+        "weapons": "api/weapons/by-dlc/mphipster.json"
+      },
+      "total": 9
+    },
+    {
+      "name": "Independence Day Special",
+      "ids": [
+        "mpindependence"
+      ],
+      "releaseDate": "2014-07-01",
+      "domains": {
+        "vehicles": 2,
+        "weapons": 2
+      },
+      "paths": {
+        "vehicles": "api/vehicles/by-dlc/mpindependence.json",
+        "weapons": "api/weapons/by-dlc/mpindependence.json"
+      },
+      "total": 4
+    },
+    {
+      "name": "San Andreas Flight School Update",
+      "ids": [
+        "mppilot"
+      ],
+      "releaseDate": "2014-08-19",
+      "domains": {
+        "vehicles": 4
+      },
+      "paths": {
+        "vehicles": "api/vehicles/by-dlc/mppilot.json"
+      },
+      "total": 4
+    },
+    {
+      "name": "Last Team Standing Update",
+      "ids": [
+        "mplts"
+      ],
+      "releaseDate": "2014-10-08",
+      "domains": {
+        "vehicles": 3,
+        "weapons": 2
+      },
+      "paths": {
+        "vehicles": "api/vehicles/by-dlc/mplts.json",
+        "weapons": "api/weapons/by-dlc/mplts.json"
+      },
+      "total": 5
+    },
+    {
+      "name": "Story Mode (Next-Gen)",
+      "ids": [
+        "spupgrade"
+      ],
+      "releaseDate": "2014-11-18",
+      "domains": {
+        "vehicles": 13,
+        "weapons": 2
+      },
+      "paths": {
+        "vehicles": "api/vehicles/by-dlc/spupgrade.json",
+        "weapons": "api/weapons/by-dlc/spupgrade.json"
+      },
+      "total": 15
+    },
+    {
+      "name": "Festive Surprise (2014)",
+      "ids": [
+        "mpchristmas2"
+      ],
+      "releaseDate": "2014-12-18",
+      "domains": {
+        "vehicles": 4,
+        "weapons": 3
+      },
+      "paths": {
+        "vehicles": "api/vehicles/by-dlc/mpchristmas2.json",
+        "weapons": "api/weapons/by-dlc/mpchristmas2.json"
+      },
+      "total": 7
+    },
+    {
+      "name": "The Heists Update",
+      "ids": [
+        "mpheist"
+      ],
+      "releaseDate": "2015-03-10",
+      "domains": {
+        "peds": 23,
+        "vehicles": 21,
+        "weapons": 1
+      },
+      "paths": {
+        "peds": "api/peds/by-dlc/mpheist.json",
+        "vehicles": "api/vehicles/by-dlc/mpheist.json",
+        "weapons": "api/weapons/by-dlc/mpheist.json"
+      },
+      "total": 45
+    },
+    {
+      "name": "Ill-Gotten Gains Part 1",
+      "ids": [
+        "mpluxe"
+      ],
+      "releaseDate": "2015-06-10",
+      "domains": {
+        "vehicles": 6,
+        "weapons": 1
+      },
+      "paths": {
+        "vehicles": "api/vehicles/by-dlc/mpluxe.json",
+        "weapons": "api/weapons/by-dlc/mpluxe.json"
+      },
+      "total": 7
+    },
+    {
+      "name": "Ill-Gotten Gains Part 2",
+      "ids": [
+        "mpluxe2"
+      ],
+      "releaseDate": "2015-07-08",
+      "domains": {
+        "vehicles": 6,
+        "weapons": 2
+      },
+      "paths": {
+        "vehicles": "api/vehicles/by-dlc/mpluxe2.json",
+        "weapons": "api/weapons/by-dlc/mpluxe2.json"
+      },
+      "total": 8
+    },
+    {
+      "name": "Lowriders",
+      "ids": [
+        "mplowrider"
+      ],
+      "releaseDate": "2015-10-20",
+      "domains": {
+        "peds": 5,
+        "vehicles": 8,
+        "weapons": 2
+      },
+      "paths": {
+        "peds": "api/peds/by-dlc/mplowrider.json",
+        "vehicles": "api/vehicles/by-dlc/mplowrider.json",
+        "weapons": "api/weapons/by-dlc/mplowrider.json"
+      },
+      "total": 15
+    },
+    {
+      "name": "Halloween Surprise",
+      "ids": [
+        "mphalloween"
+      ],
+      "releaseDate": "2015-10-29",
+      "domains": {
+        "vehicles": 2,
+        "weapons": 1
+      },
+      "paths": {
+        "vehicles": "api/vehicles/by-dlc/mphalloween.json",
+        "weapons": "api/weapons/by-dlc/mphalloween.json"
+      },
+      "total": 3
+    },
+    {
+      "name": "Executives and Other Criminals",
+      "ids": [
+        "mpapartment"
+      ],
+      "releaseDate": "2015-12-15",
+      "domains": {
+        "peds": 2,
+        "vehicles": 25,
+        "weapons": 2
+      },
+      "paths": {
+        "peds": "api/peds/by-dlc/mpapartment.json",
+        "vehicles": "api/vehicles/by-dlc/mpapartment.json",
+        "weapons": "api/weapons/by-dlc/mpapartment.json"
+      },
+      "total": 29
+    },
+    {
+      "name": "Festive Surprise 2015",
+      "ids": [
+        "mpxmas_604490"
+      ],
+      "releaseDate": "2015-12-22",
+      "domains": {
+        "vehicles": 1
+      },
+      "paths": {
+        "vehicles": "api/vehicles/by-dlc/mpxmas-604490.json"
+      },
+      "total": 1
+    },
+    {
+      "name": "January 2016 Update",
+      "ids": [
+        "mpjanuary2016"
+      ],
+      "releaseDate": "2016-01-29",
+      "domains": {
+        "vehicles": 2
+      },
+      "paths": {
+        "vehicles": "api/vehicles/by-dlc/mpjanuary2016.json"
+      },
+      "total": 2
+    },
+    {
+      "name": "Be My Valentine",
+      "ids": [
+        "mpvalentines2"
+      ],
+      "releaseDate": "2016-02-14",
+      "domains": {
+        "vehicles": 1
+      },
+      "paths": {
+        "vehicles": "api/vehicles/by-dlc/mpvalentines2.json"
+      },
+      "total": 1
+    },
+    {
+      "name": "Lowriders: Custom Classics",
+      "ids": [
+        "mplowrider2"
+      ],
+      "releaseDate": "2016-03-15",
+      "domains": {
+        "vehicles": 7,
+        "weapons": 2
+      },
+      "paths": {
+        "vehicles": "api/vehicles/by-dlc/mplowrider2.json",
+        "weapons": "api/weapons/by-dlc/mplowrider2.json"
+      },
+      "total": 9
+    },
+    {
+      "name": "Further Adventures in Finance and Felony",
+      "ids": [
+        "mpexecutive"
+      ],
+      "releaseDate": "2016-06-07",
+      "domains": {
+        "peds": 3,
+        "vehicles": 14
+      },
+      "paths": {
+        "peds": "api/peds/by-dlc/mpexecutive.json",
+        "vehicles": "api/vehicles/by-dlc/mpexecutive.json"
+      },
+      "total": 17
+    },
+    {
+      "name": "Cunning Stunts",
+      "ids": [
+        "mpstunt"
+      ],
+      "releaseDate": "2016-07-12",
+      "domains": {
+        "vehicles": 15
+      },
+      "paths": {
+        "vehicles": "api/vehicles/by-dlc/mpstunt.json"
+      },
+      "total": 15
+    },
+    {
+      "name": "Bikers",
+      "ids": [
+        "mpbiker"
+      ],
+      "releaseDate": "2016-10-04",
+      "domains": {
+        "peds": 11,
+        "vehicles": 21,
+        "weapons": 7
+      },
+      "paths": {
+        "peds": "api/peds/by-dlc/mpbiker.json",
+        "vehicles": "api/vehicles/by-dlc/mpbiker.json",
+        "weapons": "api/weapons/by-dlc/mpbiker.json"
+      },
+      "total": 39
+    },
+    {
+      "name": "Cunning Stunts: Special Vehicle Circuit",
+      "ids": [
+        "mpspecialraces"
+      ],
+      "releaseDate": "2016-11-08",
+      "domains": {
+        "vehicles": 4
+      },
+      "paths": {
+        "vehicles": "api/vehicles/by-dlc/mpspecialraces.json"
+      },
+      "total": 4
+    },
+    {
+      "name": "Import/Export",
+      "ids": [
+        "mpimportexport"
+      ],
+      "releaseDate": "2016-12-13",
+      "domains": {
+        "peds": 6,
+        "vehicles": 24
+      },
+      "paths": {
+        "peds": "api/peds/by-dlc/mpimportexport.json",
+        "vehicles": "api/vehicles/by-dlc/mpimportexport.json"
+      },
+      "total": 30
+    },
+    {
+      "name": "Gunrunning",
+      "ids": [
+        "mpgunrunning"
+      ],
+      "releaseDate": "2017-06-13",
+      "domains": {
+        "peds": 1,
+        "vehicles": 19,
+        "weapons": 6
+      },
+      "paths": {
+        "peds": "api/peds/by-dlc/mpgunrunning.json",
+        "vehicles": "api/vehicles/by-dlc/mpgunrunning.json",
+        "weapons": "api/weapons/by-dlc/mpgunrunning.json"
+      },
+      "total": 26
+    },
+    {
+      "name": "Smuggler's Run",
+      "ids": [
+        "mpsmuggler"
+      ],
+      "releaseDate": "2017-08-29",
+      "domains": {
+        "peds": 1,
+        "vehicles": 19
+      },
+      "paths": {
+        "peds": "api/peds/by-dlc/mpsmuggler.json",
+        "vehicles": "api/vehicles/by-dlc/mpsmuggler.json"
+      },
+      "total": 20
+    },
+    {
+      "name": "The Doomsday Heist",
+      "ids": [
+        "mpchristmas2017"
+      ],
+      "releaseDate": "2017-12-12",
+      "domains": {
+        "peds": 9,
+        "vehicles": 30,
+        "weapons": 7
+      },
+      "paths": {
+        "peds": "api/peds/by-dlc/mpchristmas2017.json",
+        "vehicles": "api/vehicles/by-dlc/mpchristmas2017.json",
+        "weapons": "api/weapons/by-dlc/mpchristmas2017.json"
+      },
+      "total": 46
+    },
+    {
+      "name": "Southern San Andreas Super Sport Series",
+      "ids": [
+        "mpassault"
+      ],
+      "releaseDate": "2018-03-20",
+      "domains": {
+        "vehicles": 16
+      },
+      "paths": {
+        "vehicles": "api/vehicles/by-dlc/mpassault.json"
+      },
+      "total": 16
+    },
+    {
+      "name": "After Hours",
+      "ids": [
+        "mpbattle"
+      ],
+      "releaseDate": "2018-07-24",
+      "domains": {
+        "peds": 48,
+        "vehicles": 14,
+        "weapons": 1
+      },
+      "paths": {
+        "peds": "api/peds/by-dlc/mpbattle.json",
+        "vehicles": "api/vehicles/by-dlc/mpbattle.json",
+        "weapons": "api/weapons/by-dlc/mpbattle.json"
+      },
+      "total": 63
+    },
+    {
+      "name": "Arena War",
+      "ids": [
+        "mpchristmas2018"
+      ],
+      "releaseDate": "2018-12-11",
+      "domains": {
+        "peds": 4,
+        "vehicles": 46,
+        "weapons": 3
+      },
+      "paths": {
+        "peds": "api/peds/by-dlc/mpchristmas2018.json",
+        "vehicles": "api/vehicles/by-dlc/mpchristmas2018.json",
+        "weapons": "api/weapons/by-dlc/mpchristmas2018.json"
+      },
+      "total": 53
+    },
+    {
+      "name": "The Diamond Casino & Resort",
+      "ids": [
+        "mpvinewood"
+      ],
+      "releaseDate": "2019-07-23",
+      "domains": {
+        "peds": 33,
+        "vehicles": 22
+      },
+      "paths": {
+        "peds": "api/peds/by-dlc/mpvinewood.json",
+        "vehicles": "api/vehicles/by-dlc/mpvinewood.json"
+      },
+      "total": 55
+    },
+    {
+      "name": "The Diamond Casino Heist",
+      "ids": [
+        "mpheist3"
+      ],
+      "releaseDate": "2019-12-12",
+      "domains": {
+        "vehicles": 19,
+        "weapons": 2
+      },
+      "paths": {
+        "vehicles": "api/vehicles/by-dlc/mpheist3.json",
+        "weapons": "api/weapons/by-dlc/mpheist3.json"
+      },
+      "total": 21
+    },
+    {
+      "name": "Los Santos Summer Special",
+      "ids": [
+        "mpsum"
+      ],
+      "releaseDate": "2020-08-11",
+      "domains": {
+        "vehicles": 15
+      },
+      "paths": {
+        "vehicles": "api/vehicles/by-dlc/mpsum.json"
+      },
+      "total": 15
+    },
+    {
+      "name": "The Cayo Perico Heist",
+      "ids": [
+        "mpheist4"
+      ],
+      "releaseDate": "2020-12-15",
+      "domains": {
+        "vehicles": 21,
+        "weapons": 3
+      },
+      "paths": {
+        "vehicles": "api/vehicles/by-dlc/mpheist4.json",
+        "weapons": "api/weapons/by-dlc/mpheist4.json"
+      },
+      "total": 24
+    },
+    {
+      "name": "Los Santos Tuners",
+      "ids": [
+        "mptuner"
+      ],
+      "releaseDate": "2021-07-20",
+      "domains": {
+        "vehicles": 18
+      },
+      "paths": {
+        "vehicles": "api/vehicles/by-dlc/mptuner.json"
+      },
+      "total": 18
+    },
+    {
+      "name": "The Contract",
+      "ids": [
+        "mpsecurity"
+      ],
+      "releaseDate": "2021-12-15",
+      "domains": {
+        "vehicles": 17,
+        "weapons": 2
+      },
+      "paths": {
+        "vehicles": "api/vehicles/by-dlc/mpsecurity.json",
+        "weapons": "api/weapons/by-dlc/mpsecurity.json"
+      },
+      "total": 19
+    },
+    {
+      "name": "The Criminal Enterprises",
+      "ids": [
+        "mpsum2"
+      ],
+      "releaseDate": "2022-07-26",
+      "domains": {
+        "vehicles": 18,
+        "weapons": 2
+      },
+      "paths": {
+        "vehicles": "api/vehicles/by-dlc/mpsum2.json",
+        "weapons": "api/weapons/by-dlc/mpsum2.json"
+      },
+      "total": 20
+    },
+    {
+      "name": "Los Santos Drug Wars",
+      "ids": [
+        "mpchristmas3"
+      ],
+      "releaseDate": "2022-12-13",
+      "domains": {
+        "vehicles": 17,
+        "weapons": 3
+      },
+      "paths": {
+        "vehicles": "api/vehicles/by-dlc/mpchristmas3.json",
+        "weapons": "api/weapons/by-dlc/mpchristmas3.json"
+      },
+      "total": 20
+    },
+    {
+      "name": "San Andreas Mercenaries",
+      "ids": [
+        "mp2023_01"
+      ],
+      "releaseDate": "2023-06-13",
+      "domains": {
+        "vehicles": 17,
+        "weapons": 1
+      },
+      "paths": {
+        "vehicles": "api/vehicles/by-dlc/mp2023-01.json",
+        "weapons": "api/weapons/by-dlc/mp2023-01.json"
+      },
+      "total": 18
+    },
+    {
+      "name": "The Chop Shop",
+      "ids": [
+        "mp2023_02"
+      ],
+      "releaseDate": "2023-12-12",
+      "domains": {
+        "vehicles": 33
+      },
+      "paths": {
+        "vehicles": "api/vehicles/by-dlc/mp2023-02.json"
+      },
+      "total": 33
+    },
+    {
+      "name": "Bottom Dollar Bounties",
+      "ids": [
+        "mp2024_01"
+      ],
+      "releaseDate": "2024-06-25",
+      "domains": {
+        "weapons": 1
+      },
+      "paths": {
+        "weapons": "api/weapons/by-dlc/mp2024-01.json"
+      },
+      "total": 1
+    },
+    {
+      "name": "Money Fronts",
+      "ids": [
+        "mp2025_01"
+      ],
+      "releaseDate": "2025-06-17",
+      "domains": {
+        "peds": 18,
+        "vehicles": 19
+      },
+      "paths": {
+        "peds": "api/peds/by-dlc/mp2025-01.json",
+        "vehicles": "api/vehicles/by-dlc/mp2025-01.json"
+      },
+      "total": 37
+    },
+    {
+      "name": "Multiplayer Patches",
+      "ids": [
+        "mppatchesng"
+      ],
+      "releaseDate": null,
+      "domains": {
+        "peds": 50
+      },
+      "paths": {
+        "peds": "api/peds/by-dlc/mppatchesng.json"
+      },
+      "total": 50
+    },
+    {
+      "name": "Patch Day 10",
+      "ids": [
+        "patchday10ng"
+      ],
+      "releaseDate": null,
+      "domains": {
+        "peds": 1
+      },
+      "paths": {
+        "peds": "api/peds/by-dlc/patchday10ng.json"
+      },
+      "total": 1
+    },
+    {
+      "name": "Patch Day 13",
+      "ids": [
+        "patchday13ng"
+      ],
+      "releaseDate": null,
+      "domains": {
+        "peds": 1
+      },
+      "paths": {
+        "peds": "api/peds/by-dlc/patchday13ng.json"
+      },
+      "total": 1
+    },
+    {
+      "name": "Patch Day 19",
+      "ids": [
+        "patchday19ng"
+      ],
+      "releaseDate": null,
+      "domains": {
+        "peds": 1
+      },
+      "paths": {
+        "peds": "api/peds/by-dlc/patchday19ng.json"
+      },
+      "total": 1
+    },
+    {
+      "name": "Patch Day 20",
+      "ids": [
+        "patchday20ng"
+      ],
+      "releaseDate": null,
+      "domains": {
+        "peds": 1
+      },
+      "paths": {
+        "peds": "api/peds/by-dlc/patchday20ng.json"
+      },
+      "total": 1
+    },
+    {
+      "name": "Patch Day 21",
+      "ids": [
+        "patchday21ng"
+      ],
+      "releaseDate": null,
+      "domains": {
+        "peds": 1
+      },
+      "paths": {
+        "peds": "api/peds/by-dlc/patchday21ng.json"
+      },
+      "total": 1
+    },
+    {
+      "name": "Patch Day 22",
+      "ids": [
+        "patchday22ng"
+      ],
+      "releaseDate": null,
+      "domains": {
+        "peds": 5
+      },
+      "paths": {
+        "peds": "api/peds/by-dlc/patchday22ng.json"
+      },
+      "total": 5
+    },
+    {
+      "name": "Patch Day 23",
+      "ids": [
+        "patchday23ng"
+      ],
+      "releaseDate": null,
+      "domains": {
+        "peds": 2
+      },
+      "paths": {
+        "peds": "api/peds/by-dlc/patchday23ng.json"
+      },
+      "total": 2
+    },
+    {
+      "name": "Patch Day 25",
+      "ids": [
+        "patchday25ng"
+      ],
+      "releaseDate": null,
+      "domains": {
+        "peds": 1
+      },
+      "paths": {
+        "peds": "api/peds/by-dlc/patchday25ng.json"
+      },
+      "total": 1
+    },
+    {
+      "name": "Patch Day 27",
+      "ids": [
+        "patchday27ng"
+      ],
+      "releaseDate": null,
+      "domains": {
+        "peds": 1
+      },
+      "paths": {
+        "peds": "api/peds/by-dlc/patchday27ng.json"
+      },
+      "total": 1
+    },
+    {
+      "name": "Patch Day 3",
+      "ids": [
+        "patchday3ng"
+      ],
+      "releaseDate": null,
+      "domains": {
+        "peds": 79
+      },
+      "paths": {
+        "peds": "api/peds/by-dlc/patchday3ng.json"
+      },
+      "total": 79
+    },
+    {
+      "name": "Patch Day 4",
+      "ids": [
+        "patchday4ng"
+      ],
+      "releaseDate": null,
+      "domains": {
+        "peds": 22
+      },
+      "paths": {
+        "peds": "api/peds/by-dlc/patchday4ng.json"
+      },
+      "total": 22
+    },
+    {
+      "name": "Patch Day 6",
+      "ids": [
+        "patchday6ng"
+      ],
+      "releaseDate": null,
+      "domains": {
+        "peds": 10
+      },
+      "paths": {
+        "peds": "api/peds/by-dlc/patchday6ng.json"
+      },
+      "total": 10
+    },
+    {
+      "name": "Patch Day 7",
+      "ids": [
+        "patchday7ng"
+      ],
+      "releaseDate": null,
+      "domains": {
+        "peds": 2
+      },
+      "paths": {
+        "peds": "api/peds/by-dlc/patchday7ng.json"
+      },
+      "total": 2
+    },
+    {
+      "name": "Patch Day 9",
+      "ids": [
+        "patchday9ng"
+      ],
+      "releaseDate": null,
+      "domains": {
+        "peds": 1
+      },
+      "paths": {
+        "peds": "api/peds/by-dlc/patchday9ng.json"
+      },
+      "total": 1
+    }
+  ]
+}
