@@ -192,21 +192,25 @@ the whole domain in one file:
   `topSpeed` is the game's max flat velocity (not mph/kmh), `driveForce` is the acceleration
   proxy, `monetaryValue` is the in-game price, and `drivetrain` is derived from `driveBiasFront`
   (0 → RWD, 1 → FWD, between → AWD).
-- **Weapon `stats` + `components`** — each weapon carries `stats` (0–100 weapon-wheel values
-  `{ damage, fireRate, accuracy, range }` plus `maxAmmo`) and `components[]`
-  (`{ id, label, hash }` attachments/clips/tints). **99/104** weapons have stats; the remaining
+- **Weapon `stats`, `components` + `tints`** — each weapon carries `stats` (0–100 weapon-wheel
+  values `{ damage, fireRate, accuracy, range }` plus `maxAmmo`), `components[]`
+  (`{ id, label, hash, default }` attachments/clips/finishes) and `tints[]`
+  (`{ index, label }` weapon-wheel tint slots). **99/104** weapons have stats; the remaining
   5 (Fist, Parachute, Acid Package, Candy Cane, The Shocker) are melee/gadget items with no
-  weapon-wheel stats in-game (`stats: null`). Stats sourced from
+  weapon-wheel stats in-game (`stats: null`). Coverage: **75/104** have components, **103/104**
+  have tints. Stats sourced from
   [vespura.com/fivem/weapons](https://vespura.com/fivem/weapons/) with newer DLC guns filled from
   [gtabase.com](https://www.gtabase.com/grand-theft-auto-v/weapons/) (same 0–100 scale, verified
-  identical on overlapping weapons); joined by `codename`. (gtabase-sourced entries have
-  `maxAmmo: null`.)
+  identical on overlapping weapons); components + tints from
+  [DurtyFree/gta-v-data-dumps](https://github.com/DurtyFree/gta-v-data-dumps). All joined by
+  `codename`. (gtabase-sourced stat entries have `maxAmmo: null`.)
   ```jsonc
   // GET api/weapons/index.json -> items[]
   { "id": "advancedrifle", "name": "Advanced Rifle", "codename": "weapon_advancedrifle",
     "hash": 2937143193, "category": "Rifle", "url": "…",
     "stats": { "damage": 34, "fireRate": 70, "accuracy": 50, "range": 45, "maxAmmo": 250 },
-    "components": [ { "id": "COMPONENT_AT_AR_SUPP", "label": "Suppressor", "hash": 2205435306 } ] }
+    "components": [ { "id": "COMPONENT_AT_AR_SUPP", "label": "Suppressor", "hash": 2205435306, "default": false } ],
+    "tints": [ { "index": 0, "label": "Black tint" } ] }
   ```
 - **Image URL** — build it directly or read `item.url`:
   ```
@@ -393,5 +397,5 @@ Existing domains and their URLs are unaffected.
 - Per-texture `.webp` sets (masks, legs, shoes, accessories, undershirts, tops) originally collected by [ShortByte / Enneken Solutions](https://github.com/ShortByte/GTA5-Cloth-Assets).
 - Per-drawable previews (hair, torsos, bags, armor, decals, and all props) sourced from the [RAGE Multiplayer Wiki](https://wiki.rage.mp/wiki/Clothes).
 - Ped & vehicle images sourced from the [FiveM docs image archive](https://docs.fivem.net/).
-- Weapon stats & components from [vespura.com/fivem/weapons](https://vespura.com/fivem/weapons/) (snapshot in `src/data/weapons.stats.json`), with newer DLC guns supplemented from [gtabase.com](https://www.gtabase.com/grand-theft-auto-v/weapons/) (`src/data/weapons.stats.extra.json`).
+- Weapon stats from [vespura.com/fivem/weapons](https://vespura.com/fivem/weapons/) (snapshot in `src/data/weapons.stats.json`), with newer DLC guns supplemented from [gtabase.com](https://www.gtabase.com/grand-theft-auto-v/weapons/) (`src/data/weapons.stats.extra.json`). Weapon components & tints from [DurtyFree/gta-v-data-dumps](https://github.com/DurtyFree/gta-v-data-dumps) (snapshot in `src/data/weapons.components.json`).
 - Vehicle performance stats from [DurtyFree/gta-v-data-dumps](https://github.com/DurtyFree/gta-v-data-dumps) (snapshot in `src/data/vehicles.handling.json`).

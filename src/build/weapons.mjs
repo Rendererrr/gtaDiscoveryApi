@@ -26,6 +26,10 @@ const STATS = JSON.parse(await readFile(join(ROOT, 'src', 'data', 'weapons.stats
 // Supplementary stats (gtabase) for newer guns missing from the vespura snapshot.
 const EXTRA = JSON.parse(await readFile(join(ROOT, 'src', 'data', 'weapons.stats.extra.json'), 'utf-8')).stats;
 const EXTRA_BY_CODE = new Map(Object.entries(EXTRA).map(([cn, s]) => [cn.toLowerCase(), { ...s, maxAmmo: null }]));
+// Components + tints from DurtyFree (superset of the vespura component coverage,
+// plus tints for every weapon). Keyed by uppercase codename.
+const COMP = JSON.parse(await readFile(join(ROOT, 'src', 'data', 'weapons.components.json'), 'utf-8')).weapons;
+const COMP_BY_CODE = new Map(Object.entries(COMP).map(([cn, v]) => [cn.toUpperCase(), v]));
 
 // stem -> reference entry
 const BY_FILE = new Map(REF.weapons.map((w) => [w.file.toLowerCase(), w]));
@@ -59,6 +63,8 @@ export async function build({ assetsDir, apiDir, log = console.log }) {
 
   let matched = 0;
   let withStats = 0;
+  let withComponents = 0;
+  let withTints = 0;
   const unmatched = [];
   const items = [];
 
@@ -73,6 +79,12 @@ export async function build({ assetsDir, apiDir, log = console.log }) {
       // vespura stats first; fall back to the gtabase supplement for newer guns.
       const stats = ves?.stats ?? EXTRA_BY_CODE.get(ref.codename.toLowerCase()) ?? null;
       if (stats) withStats++;
+      // DurtyFree components (superset) preferred; vespura's as fallback. Tints from DurtyFree.
+      const df = COMP_BY_CODE.get(ref.codename.toUpperCase());
+      const components = df?.components?.length ? df.components : (ves?.components ?? []);
+      const tints = df?.tints ?? [];
+      if (components.length) withComponents++;
+      if (tints.length) withTints++;
       items.push({
         id: idFromCodename(ref.codename),
         name: ref.name,
@@ -81,7 +93,8 @@ export async function build({ assetsDir, apiDir, log = console.log }) {
         category: ref.category,
         url,
         stats,
-        components: ves?.components ?? [],
+        components,
+        tints,
       });
     } else {
       // Known-but-codenameless (e.g. Acid Package), or no reference entry at all.
@@ -95,12 +108,14 @@ export async function build({ assetsDir, apiDir, log = console.log }) {
         url,
         stats: null,
         components: [],
+        tints: [],
       });
     }
   }
 
   log(`  matched ${matched}/${files.length} icons to canonical codenames.`);
   log(`  stats: ${withStats}/${files.length} weapons have stats (vespura + gtabase); remaining are melee/gadget with no weapon-wheel stats.`);
+  log(`  components: ${withComponents}/${files.length}, tints: ${withTints}/${files.length} (DurtyFree).`);
   if (unmatched.length) log(`  ! no reference entry for: ${unmatched.join(', ')}`);
 
   items.sort((a, b) => a.name.localeCompare(b.name));
@@ -108,7 +123,7 @@ export async function build({ assetsDir, apiDir, log = console.log }) {
   return writeFlatDomain({
     apiDir, domain: DOMAIN, label: LABEL,
     urlPattern: `{cdnBase}/assets/${DOMAIN}/images/{File}-icon.png`,
-    note: 'Flat catalog. hash = joaat(codename). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash }.',
+    note: 'Flat catalog. hash = joaat(codename). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }.',
     items, log,
   });
 }

@@ -6,7 +6,7 @@
     "domain": "weapons",
     "label": "Weapons",
     "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
-    "note": "Flat catalog. hash = joaat(codename). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash }."
+    "note": "Flat catalog. hash = joaat(codename). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
   },
   "count": 103,
   "hashes": {
@@ -58,6 +58,11 @@
     "324215364": {
       "id": "microsmg",
       "name": "Micro SMG",
+      "category": "SMG"
+    },
+    "350597077": {
+      "id": "tecpistol",
+      "name": "Tactical SMG",
       "category": "SMG"
     },
     "419712736": {
@@ -119,11 +124,6 @@
       "id": "stone_hatchet",
       "name": "Stone Hatchet",
       "category": "Melee"
-    },
-    "951184880": {
-      "id": "tacticalsmg",
-      "name": "Tactical SMG",
-      "category": "SMG"
     },
     "961495388": {
       "id": "assaultrifle_mk2",
@@ -214,11 +214,6 @@
       "id": "marksmanrifle_mk2",
       "name": "Marksman Rifle Mk II",
       "category": "Sniper"
-    },
-    "1792218062": {
-      "id": "pericopistol",
-      "name": "Perico Pistol",
-      "category": "Handgun"
     },
     "1834241177": {
       "id": "railgun",
