@@ -283,10 +283,20 @@ const url      = await vehicles.imageUrl('adder');       // its image URL
 const hits     = await vehicles.search('adder');         // fuzzy search -> [{ id, url, ... }]
 const img      = hits[0]?.url;                            // the adder image
 
+// DLC + release date
+const tuners   = await vehicles.byDlc('mptuner');                  // by code OR name (case-insensitive)
+const named    = await vehicles.byDlc('Los Santos Tuners');        // same result
+const dlcs     = await vehicles.getDlcs();                         // [{ id, name, releaseDate }], oldest→newest
+const recent   = (await vehicles.getItems())                       // released since 2023 (ISO dates sort lexically)
+  .filter((v) => v.dlc?.releaseDate >= '2023-01-01');
+
 // peds and weapons expose the same helpers
 import weapons from 'https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/client/weapons.js';
-const ar = await weapons.byId('assaultrifle_mk2');       // { hash: 961495388, codename, category, url }
+const ar    = await weapons.byId('assaultrifle_mk2');    // { hash: 961495388, codename, category, dlc, stats, ... }
+const cayo  = await weapons.byDlc('The Cayo Perico Heist'); // weapons added in that DLC
 ```
+(`peds` has no `dlc`, so `byDlc`/`getDlcs` return empty there — the helpers exist on every flat
+domain but only `vehicles` and `weapons` carry DLC data.)
 
 ### Search
 

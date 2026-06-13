@@ -60,6 +60,29 @@ export function makeFlatClient(domain) {
     return (await getItems()).find((i) => i.hash === h) ?? null;
   }
 
+  /**
+   * Items from a DLC, matched against dlc.id OR dlc.name (case-insensitive).
+   * Items without a dlc are skipped.
+   *
+   *   await vehicles.byDlc('mptuner');              // by internal code
+   *   await vehicles.byDlc('Los Santos Tuners');    // by marketing name
+   */
+  async function byDlc(dlc) {
+    const d = String(dlc).toLowerCase();
+    return (await getItems()).filter(
+      (i) => i.dlc && ((i.dlc.id ?? '').toLowerCase() === d || (i.dlc.name ?? '').toLowerCase() === d),
+    );
+  }
+
+  /** The distinct DLCs in this domain: [{ id, name, releaseDate }], sorted by releaseDate. */
+  async function getDlcs() {
+    const seen = new Map();
+    for (const i of await getItems()) {
+      if (i.dlc && !seen.has(i.dlc.id)) seen.set(i.dlc.id, i.dlc);
+    }
+    return [...seen.values()].sort((a, b) => (a.releaseDate ?? '').localeCompare(b.releaseDate ?? ''));
+  }
+
   /** The image URL for an id (or null if the item has no image). */
   async function imageUrl(id) {
     return (await byId(id))?.url ?? null;
@@ -91,5 +114,5 @@ export function makeFlatClient(domain) {
     return scored.slice(0, limit).map((s) => s.it);
   }
 
-  return { domain, getIndex, getItems, getCategories, byCategory, byId, byHash, imageUrl, search, getHashes, nameForHash };
+  return { domain, getIndex, getItems, getCategories, byCategory, byId, byHash, byDlc, getDlcs, imageUrl, search, getHashes, nameForHash };
 }
