@@ -25,6 +25,7 @@ There are two domain shapes:
 | objects  | Object/prop models (21,634; 3,050 categorized) | [`api/objects/index.json`](./api/objects/index.json) |
 | explosions | Explosion types (88, 9 categories) | [`api/explosions/index.json`](./api/explosions/index.json) |
 | particles | Particle (PTFX) effects (2,907; 81 named) in 360 dictionaries | [`api/particles/index.json`](./api/particles/index.json) |
+| animations | 204 curated (6 categories) + full list (269,414 anims in 20,179 dicts) | [`api/animations/index.json`](./api/animations/index.json) |
 
 Read the discovery root to enumerate what's available:
 
@@ -587,6 +588,46 @@ strings.)
 
 ---
 
+## Animations domain
+
+An animation is a **(dict, anim) pair** — `REQUEST_ANIM_DICT(dict)` then
+`TASK_PLAY_ANIM(dict, anim, …)`. No images, no joaat hash. This domain has two halves:
+
+**1. Curated** — **204** animations with friendly names, in **6 categories** (Dance, Gestures,
+Common, Idle, Animal, Bike Tricks), from a hand-maintained list (`animationList.cpp`). This is
+the browsable catalog at `index.json`, with the usual `by-category` slices:
+```jsonc
+// GET api/animations/index.json -> items[]
+{ "id": "anim@mp_player_intcelebrationmale@thumbs_up/thumbs_up", "name": "Thumbs Up",
+  "dict": "anim@mp_player_intcelebrationmale@thumbs_up", "anim": "thumbs_up",
+  "category": "Gestures", "curated": true }
+```
+```
+api/animations/by-category/index.json     # list the 6 curated categories
+api/animations/by-category/<slug>.json    # e.g. .../by-category/dance.json
+```
+
+**2. Full list** — the complete **269,414 animations across 20,179 dictionaries** from
+[DurtyFree `animDictsCompact.json`](https://github.com/DurtyFree/gta-v-data-dumps/blob/master/animDictsCompact.json).
+Too large to inline in `index.json`, so it's served as two files (linked from `index.json` →
+`full`):
+```
+api/animations/dictionaries.json   # { dictionaries: [ { dict, count } ] }  — every dictionary name (≈94 KB gz)
+api/animations/all.json            # { dictionaries: [ { dict, animations: [...] } ] }  — everything (≈0.8 MB gz)
+```
+
+```js
+import animations from 'https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/client/animations.js';
+// curated
+await animations.byCategory('Dance');          // curated dances
+await animations.getCategories();              // the 6 curated categories
+// full list
+await animations.getDictionaries();            // [{ dict, count }] for all 20,179 dictionaries
+await animations.byDictionary('missheist');    // every anim name in a dictionary (loads all.json once, cached)
+```
+
+---
+
 ## Repository layout
 
 ```
@@ -610,6 +651,8 @@ src/
                                #   explosions.json (DurtyFree explosion tags: name + category, 9 cats)
                                #   particles.all.json (DurtyFree PTFX: all effects by dict)
                                #   particles.curated.json (curated effects: friendly names)
+                               #   animations.all.json (DurtyFree: all anims by dictionary)
+                               #   animations.curated.json (curated anims: name + category)
   lib/fs.mjs                   # shared fs helpers (folder-derived domains)
   lib/joaat.mjs                # GTA joaat hash
   lib/catalog.mjs              # shared writer for flat domains (+ slugify, groupings)
@@ -621,12 +664,14 @@ src/
   build/objects.mjs            # objects builder (joins ObjectList.ini + curated categories)
   build/explosions.mjs         # explosions builder (categorized explosion types)
   build/particles.mjs          # particles builder (effects grouped by dictionary)
+  build/animations.mjs         # animations builder (curated + full dictionary list)
 client/
   index.js                     # discovery + namespaced domain helpers
   clothing.js                  # clothing helpers
   objects.js                   # objects helpers (byHash/nameForHash/byCategory)
   explosions.js                # explosions helpers (byHash/byCategory)
   particles.js                 # particles helpers (byCategory/byId, by dictionary)
+  animations.js                # animations helpers (curated byCategory + getDictionaries/byDictionary)
   _flat.js                     # shared flat-domain client factory
   peds.js  vehicles.js  weapons.js
 ```
@@ -713,3 +758,4 @@ Existing domains and their URLs are unaffected.
 - Object/prop model list from [DurtyFree `ObjectList.ini`](https://github.com/DurtyFree/gta-v-data-dumps/blob/master/ObjectList.ini) (`src/data/objects.all.json`); curated object display names + categories in `src/data/objects.curated.json`.
 - Explosion types from [DurtyFree `explosionTypesCompact.json`](https://github.com/DurtyFree/gta-v-data-dumps/blob/master/explosionTypesCompact.json), categorized with friendly names in `src/data/explosions.json`.
 - Particle (PTFX) effects from [DurtyFree `particleEffectsCompact.json`](https://github.com/DurtyFree/gta-v-data-dumps/blob/master/particleEffectsCompact.json) (`src/data/particles.all.json`); curated friendly names in `src/data/particles.curated.json`.
+- Animations from [DurtyFree `animDictsCompact.json`](https://github.com/DurtyFree/gta-v-data-dumps/blob/master/animDictsCompact.json) (`src/data/animations.all.json`); curated names + categories in `src/data/animations.curated.json`.

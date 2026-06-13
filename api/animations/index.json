@@ -1,0 +1,1678 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "animations",
+    "label": "Animations",
+    "note": "An animation is a (dict, anim) pair: REQUEST_ANIM_DICT(dict) then TASK_PLAY_ANIM(dict, anim). index.json = the CURATED set with friendly names + categories (browse via by-category/). The FULL list lives in dictionaries.json (names + counts) and all.json (every dictionary + animations). No images, no hash."
+  },
+  "categories": [
+    {
+      "name": "Dance",
+      "count": 55
+    },
+    {
+      "name": "Gestures",
+      "count": 46
+    },
+    {
+      "name": "Common",
+      "count": 43
+    },
+    {
+      "name": "Idle",
+      "count": 34
+    },
+    {
+      "name": "Animal",
+      "count": 16
+    },
+    {
+      "name": "Bike Tricks",
+      "count": 10
+    }
+  ],
+  "count": 204,
+  "curatedCount": 204,
+  "full": {
+    "dictionaryCount": 20179,
+    "animationCount": 269414,
+    "dictionaries": "api/animations/dictionaries.json",
+    "all": "api/animations/all.json"
+  },
+  "items": [
+    {
+      "id": "creatures@cat@player_action@/action_a",
+      "name": "Cat - Scratching Ear",
+      "dict": "creatures@cat@player_action@",
+      "anim": "action_a",
+      "category": "Animal",
+      "curated": true
+    },
+    {
+      "id": "creatures@dog@move/sit_loop",
+      "name": "Dog - Sitting",
+      "dict": "creatures@dog@move",
+      "anim": "sit_loop",
+      "category": "Animal",
+      "curated": true
+    },
+    {
+      "id": "creatures@dog@move/idle_turn_l",
+      "name": "Dog - Walking in Circles",
+      "dict": "creatures@dog@move",
+      "anim": "idle_turn_l",
+      "category": "Animal",
+      "curated": true
+    },
+    {
+      "id": "missfbi5ig_30monkeys/monkey_a_freakout_in",
+      "name": "Monkey - Freakout In 1",
+      "dict": "missfbi5ig_30monkeys",
+      "anim": "monkey_a_freakout_in",
+      "category": "Animal",
+      "curated": true
+    },
+    {
+      "id": "missfbi5ig_30monkeys/monkey_b_freakout_in",
+      "name": "Monkey - Freakout In 2",
+      "dict": "missfbi5ig_30monkeys",
+      "anim": "monkey_b_freakout_in",
+      "category": "Animal",
+      "curated": true
+    },
+    {
+      "id": "missfbi5ig_30monkeys/monkey_c_freakout_in",
+      "name": "Monkey - Freakout In 3",
+      "dict": "missfbi5ig_30monkeys",
+      "anim": "monkey_c_freakout_in",
+      "category": "Animal",
+      "curated": true
+    },
+    {
+      "id": "missfbi5ig_30monkeys/monkey_a_freakout_loop",
+      "name": "Monkey - Freakout Loop 1",
+      "dict": "missfbi5ig_30monkeys",
+      "anim": "monkey_a_freakout_loop",
+      "category": "Animal",
+      "curated": true
+    },
+    {
+      "id": "missfbi5ig_30monkeys/monkey_b_freakout_loop",
+      "name": "Monkey - Freakout Loop 2",
+      "dict": "missfbi5ig_30monkeys",
+      "anim": "monkey_b_freakout_loop",
+      "category": "Animal",
+      "curated": true
+    },
+    {
+      "id": "missfbi5ig_30monkeys/monkey_c_freakout_loop",
+      "name": "Monkey - Freakout Loop 3",
+      "dict": "missfbi5ig_30monkeys",
+      "anim": "monkey_c_freakout_loop",
+      "category": "Animal",
+      "curated": true
+    },
+    {
+      "id": "missfbi5ig_30monkeys/monkey_a_freakout_out",
+      "name": "Monkey - Freakout Out 1",
+      "dict": "missfbi5ig_30monkeys",
+      "anim": "monkey_a_freakout_out",
+      "category": "Animal",
+      "curated": true
+    },
+    {
+      "id": "missfbi5ig_30monkeys/monkey_b_freakout_out",
+      "name": "Monkey - Freakout Out 2",
+      "dict": "missfbi5ig_30monkeys",
+      "anim": "monkey_b_freakout_out",
+      "category": "Animal",
+      "curated": true
+    },
+    {
+      "id": "missfbi5ig_30monkeys/monkey_c_freakout_out",
+      "name": "Monkey - Freakout Out 3",
+      "dict": "missfbi5ig_30monkeys",
+      "anim": "monkey_c_freakout_out",
+      "category": "Animal",
+      "curated": true
+    },
+    {
+      "id": "missfbi5ig_30monkeys/monkey_a_idle",
+      "name": "Monkey - Idle 1",
+      "dict": "missfbi5ig_30monkeys",
+      "anim": "monkey_a_idle",
+      "category": "Animal",
+      "curated": true
+    },
+    {
+      "id": "missfbi5ig_30monkeys/monkey_b_idle",
+      "name": "Monkey - Idle 2",
+      "dict": "missfbi5ig_30monkeys",
+      "anim": "monkey_b_idle",
+      "category": "Animal",
+      "curated": true
+    },
+    {
+      "id": "missfbi5ig_30monkeys/monkey_c_idle",
+      "name": "Monkey - Idle 3",
+      "dict": "missfbi5ig_30monkeys",
+      "anim": "monkey_c_idle",
+      "category": "Animal",
+      "curated": true
+    },
+    {
+      "id": "creatures@rabbit@player_action@/action_a",
+      "name": "Rabbit - Scratching Ear",
+      "dict": "creatures@rabbit@player_action@",
+      "anim": "action_a",
+      "category": "Animal",
+      "curated": true
+    },
+    {
+      "id": "mini@racing@bike@/celebrate_c",
+      "name": "Celebratory Gesture",
+      "dict": "mini@racing@bike@",
+      "anim": "celebrate_c",
+      "category": "Bike Tricks",
+      "curated": true
+    },
+    {
+      "id": "mini@racing@bike@/celebrate_b",
+      "name": "Celebratory Gesture 1",
+      "dict": "mini@racing@bike@",
+      "anim": "celebrate_b",
+      "category": "Bike Tricks",
+      "curated": true
+    },
+    {
+      "id": "mini@racing@bike@/celebrate_a",
+      "name": "Celebratory Gesture 2",
+      "dict": "mini@racing@bike@",
+      "anim": "celebrate_a",
+      "category": "Bike Tricks",
+      "curated": true
+    },
+    {
+      "id": "rcmextreme2atv/idle_a",
+      "name": "Lazy Boy Stunt",
+      "dict": "rcmextreme2atv",
+      "anim": "idle_a",
+      "category": "Bike Tricks",
+      "curated": true
+    },
+    {
+      "id": "rcmextreme2atv/idle_b",
+      "name": "Left Nac-Nac",
+      "dict": "rcmextreme2atv",
+      "anim": "idle_b",
+      "category": "Bike Tricks",
+      "curated": true
+    },
+    {
+      "id": "rcmextreme2atv/idle_c",
+      "name": "Right Nac-Nac",
+      "dict": "rcmextreme2atv",
+      "anim": "idle_c",
+      "category": "Bike Tricks",
+      "curated": true
+    },
+    {
+      "id": "rcmextreme2atv/idle_d",
+      "name": "Side-to-Side Movement",
+      "dict": "rcmextreme2atv",
+      "anim": "idle_d",
+      "category": "Bike Tricks",
+      "curated": true
+    },
+    {
+      "id": "veh@bike@dirt@front@base/sit_high",
+      "name": "Sit High",
+      "dict": "veh@bike@dirt@front@base",
+      "anim": "sit_high",
+      "category": "Bike Tricks",
+      "curated": true
+    },
+    {
+      "id": "skydive@freefall/free_back",
+      "name": "Sky-Dive Pose",
+      "dict": "skydive@freefall",
+      "anim": "free_back",
+      "category": "Bike Tricks",
+      "curated": true
+    },
+    {
+      "id": "rcmextreme2atv/idle_e",
+      "name": "Surfing",
+      "dict": "rcmextreme2atv",
+      "anim": "idle_e",
+      "category": "Bike Tricks",
+      "curated": true
+    },
+    {
+      "id": "missfbi3_camcrew/first_action_gal",
+      "name": "Arguing Girl",
+      "dict": "missfbi3_camcrew",
+      "anim": "first_action_gal",
+      "category": "Common",
+      "curated": true
+    },
+    {
+      "id": "missfbi3_camcrew/first_action_guy",
+      "name": "Arguing Guy",
+      "dict": "missfbi3_camcrew",
+      "anim": "first_action_guy",
+      "category": "Common",
+      "curated": true
+    },
+    {
+      "id": "switch@franklin@admire_motorcycle/base_franklin",
+      "name": "Bend Over to Look",
+      "dict": "switch@franklin@admire_motorcycle",
+      "anim": "base_franklin",
+      "category": "Common",
+      "curated": true
+    },
+    {
+      "id": "missfbi3_camcrew/base_gal",
+      "name": "Brush Shoulders Off",
+      "dict": "missfbi3_camcrew",
+      "anim": "base_gal",
+      "category": "Common",
+      "curated": true
+    },
+    {
+      "id": "ragdoll@human/on_fire",
+      "name": "Burning",
+      "dict": "ragdoll@human",
+      "anim": "on_fire",
+      "category": "Common",
+      "curated": true
+    },
+    {
+      "id": "mp_player_int_upperarse_pick/mp_player_int_arse_pick",
+      "name": "Butt Scratch",
+      "dict": "mp_player_int_upperarse_pick",
+      "anim": "mp_player_int_arse_pick",
+      "category": "Common",
+      "curated": true
+    },
+    {
+      "id": "friends@laf@ig_1@base/base",
+      "name": "Chilling",
+      "dict": "friends@laf@ig_1@base",
+      "anim": "base",
+      "category": "Common",
+      "curated": true
+    },
+    {
+      "id": "move_weapon@rifle@generic/walk_crouch",
+      "name": "Crouch Walking",
+      "dict": "move_weapon@rifle@generic",
+      "anim": "walk_crouch",
+      "category": "Common",
+      "curated": true
+    },
+    {
+      "id": "missfbi5ig_15/look_into_microscope_c_scientistb",
+      "name": "Examining",
+      "dict": "missfbi5ig_15",
+      "anim": "look_into_microscope_c_scientistb",
+      "category": "Common",
+      "curated": true
+    },
+    {
+      "id": "ragdoll@human/electrocute",
+      "name": "Getting Stunned",
+      "dict": "ragdoll@human",
+      "anim": "electrocute",
+      "category": "Common",
+      "curated": true
+    },
+    {
+      "id": "misscarsteal4/assistant_loop",
+      "name": "Getting Yelled At",
+      "dict": "misscarsteal4",
+      "anim": "assistant_loop",
+      "category": "Common",
+      "curated": true
+    },
+    {
+      "id": "mini@prostitutes@sexnorm_veh/bj_loop_prostitute",
+      "name": "Give BJ to Driver",
+      "dict": "mini@prostitutes@sexnorm_veh",
+      "anim": "bj_loop_prostitute",
+      "category": "Common",
+      "curated": true
+    },
+    {
+      "id": "random@bicycle_thief@ask_help/please_man_you_gotta_help_me",
+      "name": "Help Me",
+      "dict": "random@bicycle_thief@ask_help",
+      "anim": "please_man_you_gotta_help_me",
+      "category": "Common",
+      "curated": true
+    },
+    {
+      "id": "rcmpaparazzo_2/shag_loop_a",
+      "name": "Invisible Man",
+      "dict": "rcmpaparazzo_2",
+      "anim": "shag_loop_a",
+      "category": "Common",
+      "curated": true
+    },
+    {
+      "id": "oddjobs@basejump@/ped_a_loop",
+      "name": "It's a Bird, It's a Plane",
+      "dict": "oddjobs@basejump@",
+      "anim": "ped_a_loop",
+      "category": "Common",
+      "curated": true
+    },
+    {
+      "id": "switch@trevor@jerking_off/trev_jerking_off_loop",
+      "name": "Jerking Off",
+      "dict": "switch@trevor@jerking_off",
+      "anim": "trev_jerking_off_loop",
+      "category": "Common",
+      "curated": true
+    },
+    {
+      "id": "amb@world_human_jog_standing@male@fitbase/base",
+      "name": "Jog in Place",
+      "dict": "amb@world_human_jog_standing@male@fitbase",
+      "anim": "base",
+      "category": "Common",
+      "curated": true
+    },
+    {
+      "id": "random@bicycle_thief@ask_help/my_dads_going_to_kill_me",
+      "name": "Kill Me",
+      "dict": "random@bicycle_thief@ask_help",
+      "anim": "my_dads_going_to_kill_me",
+      "category": "Common",
+      "curated": true
+    },
+    {
+      "id": "missfbi3_camcrew/base_gal",
+      "name": "Look at Fingernails",
+      "dict": "missfbi3_camcrew",
+      "anim": "base_gal",
+      "category": "Common",
+      "curated": true
+    },
+    {
+      "id": "special_ped@mime@monologue_8@monologue_8a/08_ig_1_wall_ba_0",
+      "name": "Mime",
+      "dict": "special_ped@mime@monologue_8@monologue_8a",
+      "anim": "08_ig_1_wall_ba_0",
+      "category": "Common",
+      "curated": true
+    },
+    {
+      "id": "special_ped@mime@monologue_7@monologue_7a/11_ig_1_run_aw_0",
+      "name": "Mime 2",
+      "dict": "special_ped@mime@monologue_7@monologue_7a",
+      "anim": "11_ig_1_run_aw_0",
+      "category": "Common",
+      "curated": true
+    },
+    {
+      "id": "amb@world_human_strip_watch_stand@male_a@base/base",
+      "name": "Move to the Beat 1",
+      "dict": "amb@world_human_strip_watch_stand@male_a@base",
+      "anim": "base",
+      "category": "Common",
+      "curated": true
+    },
+    {
+      "id": "amb@world_human_strip_watch_stand@male_b@base/base",
+      "name": "Move to the Beat 2",
+      "dict": "amb@world_human_strip_watch_stand@male_b@base",
+      "anim": "base",
+      "category": "Common",
+      "curated": true
+    },
+    {
+      "id": "amb@world_human_strip_watch_stand@male_c@base/base",
+      "name": "Move to the Beat 3",
+      "dict": "amb@world_human_strip_watch_stand@male_c@base",
+      "anim": "base",
+      "category": "Common",
+      "curated": true
+    },
+    {
+      "id": "amb@world_human_partying@female@partying_beer@base/base",
+      "name": "Move to the Beat 5",
+      "dict": "amb@world_human_partying@female@partying_beer@base",
+      "anim": "base",
+      "category": "Common",
+      "curated": true
+    },
+    {
+      "id": "re@construction/out_of_breath",
+      "name": "Out of Breath",
+      "dict": "re@construction",
+      "anim": "out_of_breath",
+      "category": "Common",
+      "curated": true
+    },
+    {
+      "id": "misscarsteal2peeing/peeing_loop",
+      "name": "Peeing",
+      "dict": "misscarsteal2peeing",
+      "anim": "peeing_loop",
+      "category": "Common",
+      "curated": true
+    },
+    {
+      "id": "mini@prostitutes@sexnorm_veh/sex_loop_prostitute",
+      "name": "Pleasure Driver",
+      "dict": "mini@prostitutes@sexnorm_veh",
+      "anim": "sex_loop_prostitute",
+      "category": "Common",
+      "curated": true
+    },
+    {
+      "id": "random@arrests/generic_radio_chatter",
+      "name": "Police - Use Radio",
+      "dict": "random@arrests",
+      "anim": "generic_radio_chatter",
+      "category": "Common",
+      "curated": true
+    },
+    {
+      "id": "missfbi3ig_0/shit_loop_trev",
+      "name": "Pooping",
+      "dict": "missfbi3ig_0",
+      "anim": "shit_loop_trev",
+      "category": "Common",
+      "curated": true
+    },
+    {
+      "id": "amb@world_human_push_ups@male@base/base",
+      "name": "Push ups",
+      "dict": "amb@world_human_push_ups@male@base",
+      "anim": "base",
+      "category": "Common",
+      "curated": true
+    },
+    {
+      "id": "amb@world_human_sit_ups@male@base/base",
+      "name": "Sit ups",
+      "dict": "amb@world_human_sit_ups@male@base",
+      "anim": "base",
+      "category": "Common",
+      "curated": true
+    },
+    {
+      "id": "savecouch@/t_sleep_loop_couch",
+      "name": "Sleep",
+      "dict": "savecouch@",
+      "anim": "t_sleep_loop_couch",
+      "category": "Common",
+      "curated": true
+    },
+    {
+      "id": "savem_default@/m_sleep_r_loop",
+      "name": "Sleep 2",
+      "dict": "savem_default@",
+      "anim": "m_sleep_r_loop",
+      "category": "Common",
+      "curated": true
+    },
+    {
+      "id": "missfbi2/franklin_sniper_crouch",
+      "name": "Sniper Crouch",
+      "dict": "missfbi2",
+      "anim": "franklin_sniper_crouch",
+      "category": "Common",
+      "curated": true
+    },
+    {
+      "id": "anim@amb@yacht@rail@standing@male@variant_01@/base",
+      "name": "Stand at Rail",
+      "dict": "anim@amb@yacht@rail@standing@male@variant_01@",
+      "anim": "base",
+      "category": "Common",
+      "curated": true
+    },
+    {
+      "id": "timetable@ron@they_think_were_stupid/they_think_were_stupid",
+      "name": "Think We Dumb",
+      "dict": "timetable@ron@they_think_were_stupid",
+      "anim": "they_think_were_stupid",
+      "category": "Common",
+      "curated": true
+    },
+    {
+      "id": "switch@franklin@throw_cup/throw_cup_loop",
+      "name": "Throw",
+      "dict": "switch@franklin@throw_cup",
+      "anim": "throw_cup_loop",
+      "category": "Common",
+      "curated": true
+    },
+    {
+      "id": "mini@triathlon/ig_2_gen_warmup_01",
+      "name": "Warmup Stretching 2",
+      "dict": "mini@triathlon",
+      "anim": "ig_2_gen_warmup_01",
+      "category": "Common",
+      "curated": true
+    },
+    {
+      "id": "missheist_agency3aig_23/urinal_sink_loop",
+      "name": "Wash Hands",
+      "dict": "missheist_agency3aig_23",
+      "anim": "urinal_sink_loop",
+      "category": "Common",
+      "curated": true
+    },
+    {
+      "id": "random@car_thief@victimpoints_ig_3/arms_waving",
+      "name": "Wave Arms",
+      "dict": "random@car_thief@victimpoints_ig_3",
+      "anim": "arms_waving",
+      "category": "Common",
+      "curated": true
+    },
+    {
+      "id": "special_ped@jessie@michael_1@michael_1b/jessie_ig_2_yeahyeahyeah_1",
+      "name": "Yeah Yeah",
+      "dict": "special_ped@jessie@michael_1@michael_1b",
+      "anim": "jessie_ig_2_yeahyeahyeah_1",
+      "category": "Common",
+      "curated": true
+    },
+    {
+      "id": "misscarsteal4@actor/actor_berating_loop",
+      "name": "Yelling at Someone",
+      "dict": "misscarsteal4@actor",
+      "anim": "actor_berating_loop",
+      "category": "Common",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@lap_dance@/ld_girl_a_song_a_p3_f",
+      "name": "Bong Stage 3",
+      "dict": "mini@strip_club@lap_dance@",
+      "anim": "ld_girl_a_song_a_p3_f",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "switch@trevor@mocks_lapdance/001443_01_trvs_28_idle_stripper",
+      "name": "Booty Shake",
+      "dict": "switch@trevor@mocks_lapdance",
+      "anim": "001443_01_trvs_28_idle_stripper",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "anim@amb@casino@mini@dance@dance_solo@female@var_b@/med_center",
+      "name": "Casino Mini Dance",
+      "dict": "anim@amb@casino@mini@dance@dance_solo@female@var_b@",
+      "anim": "med_center",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "random@peyote@chicken/wakeup",
+      "name": "Chicken Dance",
+      "dict": "random@peyote@chicken",
+      "anim": "wakeup",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "rcm_barry2/clown_idle_6",
+      "name": "Clown Dance",
+      "dict": "rcm_barry2",
+      "anim": "clown_idle_6",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "anim@amb@nightclub@lazlow@hi_podium@/danceidle_hi_11_buttwiggle_b_laz",
+      "name": "Dance Idle Hi 11 Buttwiggle B Laz",
+      "dict": "anim@amb@nightclub@lazlow@hi_podium@",
+      "anim": "danceidle_hi_11_buttwiggle_b_laz",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "anim@amb@nightclub@lazlow@hi_podium@/danceidle_hi_15_crazyrobot_laz",
+      "name": "Dance Idle Hi 15 Crazyrobot Laz",
+      "dict": "anim@amb@nightclub@lazlow@hi_podium@",
+      "anim": "danceidle_hi_15_crazyrobot_laz",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "rcmnigel1bnmt_1b/dance_loop_tyler",
+      "name": "Dance Tyler",
+      "dict": "rcmnigel1bnmt_1b",
+      "anim": "dance_loop_tyler",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "anim@amb@nightclub@lazlow@hi_dancefloor@/dancecrowd_li_11_hu_shimmy_laz",
+      "name": "Dancecrowd Li 11 Hu Shimmy Laz",
+      "dict": "anim@amb@nightclub@lazlow@hi_dancefloor@",
+      "anim": "dancecrowd_li_11_hu_shimmy_laz",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "misschinese1crazydance/crazy_dance_1",
+      "name": "Energetic Crazy Dance",
+      "dict": "misschinese1crazydance",
+      "anim": "crazy_dance_1",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "misschinese2_crystalmazemcs1_ig/dance_loop_tao",
+      "name": "Enigmatic Crazy Dancing",
+      "dict": "misschinese2_crystalmazemcs1_ig",
+      "anim": "dance_loop_tao",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "rcmpaparazzo_2/shag_loop_poppy",
+      "name": "Extravagant Performance",
+      "dict": "rcmpaparazzo_2",
+      "anim": "shag_loop_poppy",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "anim@amb@casino@mini@dance@dance_solo@female@var_b@/high_center",
+      "name": "High Center",
+      "dict": "anim@amb@casino@mini@dance@dance_solo@female@var_b@",
+      "anim": "high_center",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "anim@amb@nightclub@mini@dance@dance_solo@techno_monkey@/high_center_down",
+      "name": "High Center Down",
+      "dict": "anim@amb@nightclub@mini@dance@dance_solo@techno_monkey@",
+      "anim": "high_center_down",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "missfbi3_sniping/dance_m_default",
+      "name": "Hip Hop Groove",
+      "dict": "missfbi3_sniping",
+      "anim": "dance_m_default",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mp_am_stripper/lap_dance_girl",
+      "name": "Lap Dance Girl",
+      "dict": "mp_am_stripper",
+      "anim": "lap_dance_girl",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mp_am_stripper/lap_dance_player",
+      "name": "Lap Dance Player",
+      "dict": "mp_am_stripper",
+      "anim": "lap_dance_player",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "anim@amb@nightclub@mini@dance@dance_solo@female@var_a@/low_center_down",
+      "name": "Low Center Down",
+      "dict": "anim@amb@nightclub@mini@dance@dance_solo@female@var_a@",
+      "anim": "low_center_down",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "special_ped@mountain_dancer@base/base",
+      "name": "Mountain Dance - Base",
+      "dict": "special_ped@mountain_dancer@base",
+      "anim": "base",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "special_ped@mountain_dancer@monologue_1@monologue_1a/mtn_dnc_if_you_want_to_get_to_heaven",
+      "name": "Mountain Dance - Monologue 1a",
+      "dict": "special_ped@mountain_dancer@monologue_1@monologue_1a",
+      "anim": "mtn_dnc_if_you_want_to_get_to_heaven",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "special_ped@mountain_dancer@monologue_1@monologue_1a/mtn_dnc_if_you_want_to_get_to_heaven_facial",
+      "name": "Mountain Dance - Monologue 1a Facial",
+      "dict": "special_ped@mountain_dancer@monologue_1@monologue_1a",
+      "anim": "mtn_dnc_if_you_want_to_get_to_heaven_facial",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "special_ped@mountain_dancer@monologue_2@monologue_2a/mnt_dnc_angel",
+      "name": "Mountain Dance - Monologue 2a",
+      "dict": "special_ped@mountain_dancer@monologue_2@monologue_2a",
+      "anim": "mnt_dnc_angel",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "special_ped@mountain_dancer@monologue_3@monologue_3a/mnt_dnc_buttwag",
+      "name": "Mountain Dance - Monologue 3a",
+      "dict": "special_ped@mountain_dancer@monologue_3@monologue_3a",
+      "anim": "mnt_dnc_buttwag",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "special_ped@mountain_dancer@monologue_4@monologue_4a/mnt_dnc_verse",
+      "name": "Mountain Dance - Monologue 4a",
+      "dict": "special_ped@mountain_dancer@monologue_4@monologue_4a",
+      "anim": "mnt_dnc_verse",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "special_ped@mountain_dancer@monologue_1@monologue_1a/mtn_dnc_if_you_want_to_get_to_heaven",
+      "name": "Mountain Spirit Dance",
+      "dict": "special_ped@mountain_dancer@monologue_1@monologue_1a",
+      "anim": "mtn_dnc_if_you_want_to_get_to_heaven",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "anim@amb@nightclub@mini@dance@dance_paired@dance_d@/ped_a_dance_idle",
+      "name": "Ped A Dance Idle",
+      "dict": "anim@amb@nightclub@mini@dance@dance_paired@dance_d@",
+      "anim": "ped_a_dance_idle",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@pole_dance@pole_dance1/pd_dance_01",
+      "name": "Pole 1",
+      "dict": "mini@strip_club@pole_dance@pole_dance1",
+      "anim": "pd_dance_01",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@pole_dance@pole_dance2/pd_dance_02",
+      "name": "Pole 2",
+      "dict": "mini@strip_club@pole_dance@pole_dance2",
+      "anim": "pd_dance_02",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@pole_dance@pole_a_2_stage/pole_a_2_stage",
+      "name": "Pole A 2 Stage",
+      "dict": "mini@strip_club@pole_dance@pole_a_2_stage",
+      "anim": "pole_a_2_stage",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@pole_dance@pole_b_2_stage/pole_b_2_stage",
+      "name": "Pole B 2 Stage",
+      "dict": "mini@strip_club@pole_dance@pole_b_2_stage",
+      "anim": "pole_b_2_stage",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@pole_dance@pole_c_2_prvd_a/pole_c_2_prvd_a",
+      "name": "Pole C 2 Prvd A",
+      "dict": "mini@strip_club@pole_dance@pole_c_2_prvd_a",
+      "anim": "pole_c_2_prvd_a",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@pole_dance@pole_c_2_prvd_b/pole_c_2_prvd_b",
+      "name": "Pole C 2 Prvd B",
+      "dict": "mini@strip_club@pole_dance@pole_c_2_prvd_b",
+      "anim": "pole_c_2_prvd_b",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@pole_dance@pole_c_2_prvd_c/pole_c_2_prvd_c",
+      "name": "Pole C 2 Prvd C",
+      "dict": "mini@strip_club@pole_dance@pole_c_2_prvd_c",
+      "anim": "pole_c_2_prvd_c",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@pole_dance@pole_c_2_stage/pole_c_2_stage",
+      "name": "Pole C 2 Stage",
+      "dict": "mini@strip_club@pole_dance@pole_c_2_stage",
+      "anim": "pole_c_2_stage",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@pole_dance@pole_enter/pd_enter",
+      "name": "Pole Enter",
+      "dict": "mini@strip_club@pole_dance@pole_enter",
+      "anim": "pd_enter",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@pole_dance@pole_exit/pd_exit",
+      "name": "Pole Exit",
+      "dict": "mini@strip_club@pole_dance@pole_exit",
+      "anim": "pd_exit",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@private_dance@exit/priv_dance_exit",
+      "name": "Private Dance - Exit",
+      "dict": "mini@strip_club@private_dance@exit",
+      "anim": "priv_dance_exit",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@private_dance@part1/priv_dance_p1",
+      "name": "Private Dance - Part 1",
+      "dict": "mini@strip_club@private_dance@part1",
+      "anim": "priv_dance_p1",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@private_dance@part2/priv_dance_p2",
+      "name": "Private Dance - Part 2",
+      "dict": "mini@strip_club@private_dance@part2",
+      "anim": "priv_dance_p2",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@private_dance@part3/priv_dance_p3",
+      "name": "Private Dance - Part 3",
+      "dict": "mini@strip_club@private_dance@part3",
+      "anim": "priv_dance_p3",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@private_dance@part1/priv_dance_p1",
+      "name": "Private Dance Show",
+      "dict": "mini@strip_club@private_dance@part1",
+      "anim": "priv_dance_p1",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "oddjobs@assassinate@multi@yachttarget@lapdance/yacht_ld_f",
+      "name": "Seductive Dirty Dance",
+      "dict": "oddjobs@assassinate@multi@yachttarget@lapdance",
+      "anim": "yacht_ld_f",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@pole_dance@pole_dance3/pd_dance_03",
+      "name": "Sensual Pole Dance",
+      "dict": "mini@strip_club@pole_dance@pole_dance3",
+      "anim": "pd_dance_03",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "anim@mp_player_intincardancebodhi@rds@/idle_a",
+      "name": "Silly Corny Dancing",
+      "dict": "anim@mp_player_intincardancebodhi@rds@",
+      "anim": "idle_a",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@pole_dance@stage_2_pole_a/stage_2_pole_a",
+      "name": "Stage 2 Pole A",
+      "dict": "mini@strip_club@pole_dance@stage_2_pole_a",
+      "anim": "stage_2_pole_a",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@pole_dance@stage_2_pole_b/stage_2_pole_b",
+      "name": "Stage 2 Pole B",
+      "dict": "mini@strip_club@pole_dance@stage_2_pole_b",
+      "anim": "stage_2_pole_b",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@pole_dance@stage_2_pole_c/stage_2_pole_c",
+      "name": "Stage 2 Pole C",
+      "dict": "mini@strip_club@pole_dance@stage_2_pole_c",
+      "anim": "stage_2_pole_c",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@pole_dance@stage_enter/stage_enter",
+      "name": "Stage Enter",
+      "dict": "mini@strip_club@pole_dance@stage_enter",
+      "anim": "stage_enter",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@pole_dance@stage_exit/stage_exit",
+      "name": "Stage Exit",
+      "dict": "mini@strip_club@pole_dance@stage_exit",
+      "anim": "stage_exit",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "anim@mp_player_intcelebrationfemale@the_woogie/the_woogie",
+      "name": "The Woogie",
+      "dict": "anim@mp_player_intcelebrationfemale@the_woogie",
+      "anim": "the_woogie",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "missfbi3_sniping/dance_m_default",
+      "name": "Urban Hood Dance",
+      "dict": "missfbi3_sniping",
+      "anim": "dance_m_default",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "misschinese1crazydance/crazy_dance_2",
+      "name": "Wild Crazy Dance 1",
+      "dict": "misschinese1crazydance",
+      "anim": "crazy_dance_2",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "misschinese1crazydance/crazy_dance_3",
+      "name": "Wild Crazy Dance 2",
+      "dict": "misschinese1crazydance",
+      "anim": "crazy_dance_3",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "misschinese1crazydance/crazy_dance_base",
+      "name": "Wild Crazy Dance 3",
+      "dict": "misschinese1crazydance",
+      "anim": "crazy_dance_base",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "oddjobs@assassinate@multi@yachttarget@lapdance/yacht_ld_f",
+      "name": "Yacht Dance",
+      "dict": "oddjobs@assassinate@multi@yachttarget@lapdance",
+      "anim": "yacht_ld_f",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "anim@safehouse@bong/bong_stage3",
+      "name": "Bong Stage 3",
+      "dict": "anim@safehouse@bong",
+      "anim": "bong_stage3",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "gestures@m@standing@fat/gesture_bring_it_on",
+      "name": "Bring It On",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_bring_it_on",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "gestures@m@standing@fat/gesture_bye_hard",
+      "name": "Bye Hard",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_bye_hard",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "gestures@m@standing@fat/gesture_bye_soft",
+      "name": "Bye Soft",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_bye_soft",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "random@street_race/_car_a_flirt_girl",
+      "name": "Car Flirt Girl",
+      "dict": "random@street_race",
+      "anim": "_car_a_flirt_girl",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "misscarsteal2chad_goodbye/chad_armsaround_girl",
+      "name": "Chad Arms Around Girl",
+      "dict": "misscarsteal2chad_goodbye",
+      "anim": "chad_armsaround_girl",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "gestures@m@standing@fat/gesture_come_here_hard",
+      "name": "Come Here Hard",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_come_here_hard",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "gestures@m@standing@fat/gesture_come_here_soft",
+      "name": "Come Here Soft",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_come_here_soft",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "gestures@m@standing@fat/gesture_damn",
+      "name": "Damn",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_damn",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "gestures@m@standing@fat/gesture_displeased",
+      "name": "Displeased",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_displeased",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "gestures@m@standing@fat/gesture_easy_now",
+      "name": "Easy Now",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_easy_now",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "random@kidnap_girl/ig_1_girl_on_phone_loop",
+      "name": "Girl on Phone Loop",
+      "dict": "random@kidnap_girl",
+      "anim": "ig_1_girl_on_phone_loop",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "gestures@m@standing@fat/gesture_hand_down",
+      "name": "Hand Down",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_hand_down",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "gestures@m@standing@fat/gesture_hand_left",
+      "name": "Hand Left",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_hand_left",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "gestures@m@standing@fat/gesture_hand_right",
+      "name": "Hand Right",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_hand_right",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "gestures@m@standing@fat/gesture_head_no",
+      "name": "Head No",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_head_no",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "gestures@m@standing@fat/gesture_hello",
+      "name": "Hello",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_hello",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "anim@scripted@island@special_peds@couple@hs4_couple_stage2_ig10/i_saw_it_when_we_were_flying_in_female",
+      "name": "I Saw It When We Were Flying In Female",
+      "dict": "anim@scripted@island@special_peds@couple@hs4_couple_stage2_ig10",
+      "anim": "i_saw_it_when_we_were_flying_in_female",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "gestures@m@standing@fat/gesture_i_will",
+      "name": "I Will",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_i_will",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "gestures@m@standing@fat/gesture_its_mine",
+      "name": "It's Mine",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_its_mine",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "anim@mp_player_intcelebrationfemale@karate_chops/karate_chops",
+      "name": "Karate Chops (Female)",
+      "dict": "anim@mp_player_intcelebrationfemale@karate_chops",
+      "anim": "karate_chops",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "anim@mp_player_intcelebrationmale@karate_chops/karate_chops",
+      "name": "Karate Chops (Male)",
+      "dict": "anim@mp_player_intcelebrationmale@karate_chops",
+      "anim": "karate_chops",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "gestures@m@standing@fat/gesture_me",
+      "name": "Me",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_me",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "gestures@m@standing@fat/gesture_me_hard",
+      "name": "Me Hard",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_me_hard",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "gestures@m@standing@fat/gesture_no_way",
+      "name": "No Way",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_no_way",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "gestures@m@standing@fat/gesture_nod_no_hard",
+      "name": "Nod No Hard",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_nod_no_hard",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "gestures@m@standing@fat/gesture_nod_no_soft",
+      "name": "Nod No Soft",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_nod_no_soft",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "gestures@m@standing@fat/gesture_nod_yes_hard",
+      "name": "Nod Yes Hard",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_nod_yes_hard",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "gestures@m@standing@fat/gesture_nod_yes_soft",
+      "name": "Nod Yes Soft",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_nod_yes_soft",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "melee@unarmed@streamed_variations/plyr_takedown_front_headbutt",
+      "name": "Player Front Headbutt",
+      "dict": "melee@unarmed@streamed_variations",
+      "anim": "plyr_takedown_front_headbutt",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "melee@unarmed@streamed_variations/plyr_takedown_front_slap",
+      "name": "Player Front Slap",
+      "dict": "melee@unarmed@streamed_variations",
+      "anim": "plyr_takedown_front_slap",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "gestures@m@standing@fat/gesture_pleased",
+      "name": "Pleased",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_pleased",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "gestures@m@standing@fat/gesture_point",
+      "name": "Point",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_point",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "gestures@m@standing@fat/gesture_shrug_hard",
+      "name": "Shrug Hard",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_shrug_hard",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "gestures@m@standing@fat/gesture_shrug_soft",
+      "name": "Shrug Soft",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_shrug_soft",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@backroom@/stripper_b_backroom_idle_b",
+      "name": "Stripper Backroom Idle B",
+      "dict": "mini@strip_club@backroom@",
+      "anim": "stripper_b_backroom_idle_b",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "switch@trevor@annoys_sunbathers/trev_annoys_sunbathers_loop_girl",
+      "name": "Trevor Annoys Sunbathers Loop Girl",
+      "dict": "switch@trevor@annoys_sunbathers",
+      "anim": "trev_annoys_sunbathers_loop_girl",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "random@peyote@bird/wakeup",
+      "name": "Wakeup",
+      "dict": "random@peyote@bird",
+      "anim": "wakeup",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "gestures@m@standing@fat/gesture_what_hard",
+      "name": "What Hard",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_what_hard",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "gestures@m@standing@fat/gesture_what_soft",
+      "name": "What Soft",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_what_soft",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "gestures@m@standing@fat/gesture_why",
+      "name": "Why",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_why",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "gestures@m@standing@fat/gesture_why_left",
+      "name": "Why Left",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_why_left",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "missfam1_yachtbattleonyacht01_/onyacht_fight01loop_f",
+      "name": "Yacht Fight 01 Loop F",
+      "dict": "missfam1_yachtbattleonyacht01_",
+      "anim": "onyacht_fight01loop_f",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "missfam1_yachtbattleonyacht01_/onyacht_fight02intro_thug",
+      "name": "Yacht Fight 02 Intro Thug",
+      "dict": "missfam1_yachtbattleonyacht01_",
+      "anim": "onyacht_fight02intro_thug",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "gestures@m@standing@fat/gesture_you_hard",
+      "name": "You Hard",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_you_hard",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "gestures@m@standing@fat/gesture_you_soft",
+      "name": "You Soft",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_you_soft",
+      "category": "Gestures",
+      "curated": true
+    },
+    {
+      "id": "oddjobs@bailbond_mountain/base_jump_idle",
+      "name": "Base Jump Preparation",
+      "dict": "oddjobs@bailbond_mountain",
+      "anim": "base_jump_idle",
+      "category": "Idle",
+      "curated": true
+    },
+    {
+      "id": "anim@mp_player_intupperslow_clap/idle_a",
+      "name": "Clap",
+      "dict": "anim@mp_player_intupperslow_clap",
+      "anim": "idle_a",
+      "category": "Idle",
+      "curated": true
+    },
+    {
+      "id": "timetable@gardener@smoking_joint/idle_cough",
+      "name": "Cough While Smoking",
+      "dict": "timetable@gardener@smoking_joint",
+      "anim": "idle_cough",
+      "category": "Idle",
+      "curated": true
+    },
+    {
+      "id": "misscarsteal4@actor/dazed_idle",
+      "name": "Dazed and Confused",
+      "dict": "misscarsteal4@actor",
+      "anim": "dazed_idle",
+      "category": "Idle",
+      "curated": true
+    },
+    {
+      "id": "move_m@drunk@verydrunk_idles@/fidget_01",
+      "name": "Drunk and Stumbling",
+      "dict": "move_m@drunk@verydrunk_idles@",
+      "anim": "fidget_01",
+      "category": "Idle",
+      "curated": true
+    },
+    {
+      "id": "oddjobs@bailbond_hobodepressed/idle_a",
+      "name": "Feeling Depressed",
+      "dict": "oddjobs@bailbond_hobodepressed",
+      "anim": "idle_a",
+      "category": "Idle",
+      "curated": true
+    },
+    {
+      "id": "missheistdockssetup1ig_13@kick_idle/guard_beatup_kickidle_dockworker",
+      "name": "Getting Kicked",
+      "dict": "missheistdockssetup1ig_13@kick_idle",
+      "anim": "guard_beatup_kickidle_dockworker",
+      "category": "Idle",
+      "curated": true
+    },
+    {
+      "id": "anim@miss@low@fin@vagos@/idle_ped01",
+      "name": "Idle - Conceal Weapon 1",
+      "dict": "anim@miss@low@fin@vagos@",
+      "anim": "idle_ped01",
+      "category": "Idle",
+      "curated": true
+    },
+    {
+      "id": "anim@miss@low@fin@vagos@/idle_ped02",
+      "name": "Idle - Conceal Weapon 2",
+      "dict": "anim@miss@low@fin@vagos@",
+      "anim": "idle_ped02",
+      "category": "Idle",
+      "curated": true
+    },
+    {
+      "id": "anim@miss@low@fin@vagos@/idle_ped03",
+      "name": "Idle - Conceal Weapon 3",
+      "dict": "anim@miss@low@fin@vagos@",
+      "anim": "idle_ped03",
+      "category": "Idle",
+      "curated": true
+    },
+    {
+      "id": "anim@miss@low@fin@vagos@/idle_ped04",
+      "name": "Idle - Conceal Weapon 4",
+      "dict": "anim@miss@low@fin@vagos@",
+      "anim": "idle_ped04",
+      "category": "Idle",
+      "curated": true
+    },
+    {
+      "id": "anim@miss@low@fin@vagos@/idle_ped05",
+      "name": "Idle - Conceal Weapon 5",
+      "dict": "anim@miss@low@fin@vagos@",
+      "anim": "idle_ped05",
+      "category": "Idle",
+      "curated": true
+    },
+    {
+      "id": "anim@miss@low@fin@vagos@/idle_ped06",
+      "name": "Idle - Conceal Weapon 6",
+      "dict": "anim@miss@low@fin@vagos@",
+      "anim": "idle_ped06",
+      "category": "Idle",
+      "curated": true
+    },
+    {
+      "id": "anim@miss@low@fin@vagos@/idle_ped07",
+      "name": "Idle - Conceal Weapon 7",
+      "dict": "anim@miss@low@fin@vagos@",
+      "anim": "idle_ped07",
+      "category": "Idle",
+      "curated": true
+    },
+    {
+      "id": "anim@miss@low@fin@vagos@/idle_ped08",
+      "name": "Idle - Conceal Weapon 8",
+      "dict": "anim@miss@low@fin@vagos@",
+      "anim": "idle_ped08",
+      "category": "Idle",
+      "curated": true
+    },
+    {
+      "id": "timetable@tracy@ig_5@idle_a/idle_c",
+      "name": "Jazzercise 1",
+      "dict": "timetable@tracy@ig_5@idle_a",
+      "anim": "idle_c",
+      "category": "Idle",
+      "curated": true
+    },
+    {
+      "id": "timetable@tracy@ig_5@idle_b/idle_c",
+      "name": "Jazzercise 2",
+      "dict": "timetable@tracy@ig_5@idle_b",
+      "anim": "idle_c",
+      "category": "Idle",
+      "curated": true
+    },
+    {
+      "id": "missheistdockssetup1ig_13@kick_idle/guard_beatup_kickidle_guard1",
+      "name": "Kicking Guy on Ground 1",
+      "dict": "missheistdockssetup1ig_13@kick_idle",
+      "anim": "guard_beatup_kickidle_guard1",
+      "category": "Idle",
+      "curated": true
+    },
+    {
+      "id": "missheistdockssetup1ig_13@kick_idle/guard_beatup_kickidle_guard2",
+      "name": "Kicking Guy on Ground 2",
+      "dict": "missheistdockssetup1ig_13@kick_idle",
+      "anim": "guard_beatup_kickidle_guard2",
+      "category": "Idle",
+      "curated": true
+    },
+    {
+      "id": "timetable@ron@ig_1/ig_1_idle_a",
+      "name": "Kicking Rocks",
+      "dict": "timetable@ron@ig_1",
+      "anim": "ig_1_idle_a",
+      "category": "Idle",
+      "curated": true
+    },
+    {
+      "id": "anim@mp_player_intincarfingerbodhi@ds@/idle_a",
+      "name": "Making Rude Gesture",
+      "dict": "anim@mp_player_intincarfingerbodhi@ds@",
+      "anim": "idle_a",
+      "category": "Idle",
+      "curated": true
+    },
+    {
+      "id": "rcmcollect_paperleadinout@/meditiate_idle",
+      "name": "Meditation",
+      "dict": "rcmcollect_paperleadinout@",
+      "anim": "meditiate_idle",
+      "category": "Idle",
+      "curated": true
+    },
+    {
+      "id": "amb@world_human_strip_watch_stand@male_c@idle_a/idle_a",
+      "name": "Move to the Beat",
+      "dict": "amb@world_human_strip_watch_stand@male_c@idle_a",
+      "anim": "idle_a",
+      "category": "Idle",
+      "curated": true
+    },
+    {
+      "id": "anim@mp_player_intincarnose_pickstd@rps@/idle_a",
+      "name": "Picking Nose",
+      "dict": "anim@mp_player_intincarnose_pickstd@rps@",
+      "anim": "idle_a",
+      "category": "Idle",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@private_dance@idle/priv_dance_idle",
+      "name": "Private Dance - Idle",
+      "dict": "mini@strip_club@private_dance@idle",
+      "anim": "priv_dance_idle",
+      "category": "Idle",
+      "curated": true
+    },
+    {
+      "id": "anim@mp_player_intuppersalute/idle_a",
+      "name": "Salute",
+      "dict": "anim@mp_player_intuppersalute",
+      "anim": "idle_a",
+      "category": "Idle",
+      "curated": true
+    },
+    {
+      "id": "missmic_4premierejimwaitbef_prem/wait_idle_a",
+      "name": "Searching for Something",
+      "dict": "missmic_4premierejimwaitbef_prem",
+      "anim": "wait_idle_a",
+      "category": "Idle",
+      "curated": true
+    },
+    {
+      "id": "timetable@tracy@sleep@/idle_c",
+      "name": "Sleeping (Variant 3)",
+      "dict": "timetable@tracy@sleep@",
+      "anim": "idle_c",
+      "category": "Idle",
+      "curated": true
+    },
+    {
+      "id": "random@arrests@busted/idle_a",
+      "name": "Surrendering",
+      "dict": "random@arrests@busted",
+      "anim": "idle_a",
+      "category": "Idle",
+      "curated": true
+    },
+    {
+      "id": "timetable@denice@ig_1/idle_b",
+      "name": "Time Table - Idle",
+      "dict": "timetable@denice@ig_1",
+      "anim": "idle_b",
+      "category": "Idle",
+      "curated": true
+    },
+    {
+      "id": "missdocksshowoffcar@idle_a/idle_b_5",
+      "name": "Tough Guy - Arms Crossed",
+      "dict": "missdocksshowoffcar@idle_a",
+      "anim": "idle_b_5",
+      "category": "Idle",
+      "curated": true
+    },
+    {
+      "id": "oddjobs@bailbond_hobotwitchy/idle_a",
+      "name": "Twitchy",
+      "dict": "oddjobs@bailbond_hobotwitchy",
+      "anim": "idle_a",
+      "category": "Idle",
+      "curated": true
+    },
+    {
+      "id": "switch@franklin@on_laptop/001927_01_fras_v2_4_on_laptop_idle",
+      "name": "Using Laptop",
+      "dict": "switch@franklin@on_laptop",
+      "anim": "001927_01_fras_v2_4_on_laptop_idle",
+      "category": "Idle",
+      "curated": true
+    },
+    {
+      "id": "mini@triathlon/idle_a",
+      "name": "Warmup Stretching 1",
+      "dict": "mini@triathlon",
+      "anim": "idle_a",
+      "category": "Idle",
+      "curated": true
+    }
+  ]
+}

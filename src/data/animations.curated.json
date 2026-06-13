@@ -1,0 +1,1237 @@
+{
+  "note": "Curated GTA animations with friendly names + categories, parsed from InfamousSrc animationList.cpp. An animation is a (dict, anim) pair. animations[] = { name, dict, anim, category }.",
+  "categories": [
+    "Bike Tricks",
+    "Common",
+    "Dance",
+    "Animal",
+    "Gestures",
+    "Idle"
+  ],
+  "animations": [
+    {
+      "name": "Surfing",
+      "dict": "rcmextreme2atv",
+      "anim": "idle_e",
+      "category": "Bike Tricks"
+    },
+    {
+      "name": "Left Nac-Nac",
+      "dict": "rcmextreme2atv",
+      "anim": "idle_b",
+      "category": "Bike Tricks"
+    },
+    {
+      "name": "Right Nac-Nac",
+      "dict": "rcmextreme2atv",
+      "anim": "idle_c",
+      "category": "Bike Tricks"
+    },
+    {
+      "name": "Lazy Boy Stunt",
+      "dict": "rcmextreme2atv",
+      "anim": "idle_a",
+      "category": "Bike Tricks"
+    },
+    {
+      "name": "Side-to-Side Movement",
+      "dict": "rcmextreme2atv",
+      "anim": "idle_d",
+      "category": "Bike Tricks"
+    },
+    {
+      "name": "Sky-Dive Pose",
+      "dict": "skydive@freefall",
+      "anim": "free_back",
+      "category": "Bike Tricks"
+    },
+    {
+      "name": "Celebratory Gesture",
+      "dict": "mini@racing@bike@",
+      "anim": "celebrate_c",
+      "category": "Bike Tricks"
+    },
+    {
+      "name": "Celebratory Gesture 1",
+      "dict": "mini@racing@bike@",
+      "anim": "celebrate_b",
+      "category": "Bike Tricks"
+    },
+    {
+      "name": "Celebratory Gesture 2",
+      "dict": "mini@racing@bike@",
+      "anim": "celebrate_a",
+      "category": "Bike Tricks"
+    },
+    {
+      "name": "Sit High",
+      "dict": "veh@bike@dirt@front@base",
+      "anim": "sit_high",
+      "category": "Bike Tricks"
+    },
+    {
+      "name": "Burning",
+      "dict": "ragdoll@human",
+      "anim": "on_fire",
+      "category": "Common"
+    },
+    {
+      "name": "Getting Stunned",
+      "dict": "ragdoll@human",
+      "anim": "electrocute",
+      "category": "Common"
+    },
+    {
+      "name": "Invisible Man",
+      "dict": "rcmpaparazzo_2",
+      "anim": "shag_loop_a",
+      "category": "Common"
+    },
+    {
+      "name": "Push ups",
+      "dict": "amb@world_human_push_ups@male@base",
+      "anim": "base",
+      "category": "Common"
+    },
+    {
+      "name": "Sit ups",
+      "dict": "amb@world_human_sit_ups@male@base",
+      "anim": "base",
+      "category": "Common"
+    },
+    {
+      "name": "Wave Arms",
+      "dict": "random@car_thief@victimpoints_ig_3",
+      "anim": "arms_waving",
+      "category": "Common"
+    },
+    {
+      "name": "Give BJ to Driver",
+      "dict": "mini@prostitutes@sexnorm_veh",
+      "anim": "bj_loop_prostitute",
+      "category": "Common"
+    },
+    {
+      "name": "Pleasure Driver",
+      "dict": "mini@prostitutes@sexnorm_veh",
+      "anim": "sex_loop_prostitute",
+      "category": "Common"
+    },
+    {
+      "name": "Mime",
+      "dict": "special_ped@mime@monologue_8@monologue_8a",
+      "anim": "08_ig_1_wall_ba_0",
+      "category": "Common"
+    },
+    {
+      "name": "Mime 2",
+      "dict": "special_ped@mime@monologue_7@monologue_7a",
+      "anim": "11_ig_1_run_aw_0",
+      "category": "Common"
+    },
+    {
+      "name": "Throw",
+      "dict": "switch@franklin@throw_cup",
+      "anim": "throw_cup_loop",
+      "category": "Common"
+    },
+    {
+      "name": "Chilling",
+      "dict": "friends@laf@ig_1@base",
+      "anim": "base",
+      "category": "Common"
+    },
+    {
+      "name": "Think We Dumb",
+      "dict": "timetable@ron@they_think_were_stupid",
+      "anim": "they_think_were_stupid",
+      "category": "Common"
+    },
+    {
+      "name": "Kill Me",
+      "dict": "random@bicycle_thief@ask_help",
+      "anim": "my_dads_going_to_kill_me",
+      "category": "Common"
+    },
+    {
+      "name": "Help Me",
+      "dict": "random@bicycle_thief@ask_help",
+      "anim": "please_man_you_gotta_help_me",
+      "category": "Common"
+    },
+    {
+      "name": "Sleep",
+      "dict": "savecouch@",
+      "anim": "t_sleep_loop_couch",
+      "category": "Common"
+    },
+    {
+      "name": "Sleep 2",
+      "dict": "savem_default@",
+      "anim": "m_sleep_r_loop",
+      "category": "Common"
+    },
+    {
+      "name": "Yeah Yeah",
+      "dict": "special_ped@jessie@michael_1@michael_1b",
+      "anim": "jessie_ig_2_yeahyeahyeah_1",
+      "category": "Common"
+    },
+    {
+      "name": "Police - Use Radio",
+      "dict": "random@arrests",
+      "anim": "generic_radio_chatter",
+      "category": "Common"
+    },
+    {
+      "name": "Sniper Crouch",
+      "dict": "missfbi2",
+      "anim": "franklin_sniper_crouch",
+      "category": "Common"
+    },
+    {
+      "name": "Crouch Walking",
+      "dict": "move_weapon@rifle@generic",
+      "anim": "walk_crouch",
+      "category": "Common"
+    },
+    {
+      "name": "Move to the Beat 1",
+      "dict": "amb@world_human_strip_watch_stand@male_a@base",
+      "anim": "base",
+      "category": "Common"
+    },
+    {
+      "name": "Move to the Beat 2",
+      "dict": "amb@world_human_strip_watch_stand@male_b@base",
+      "anim": "base",
+      "category": "Common"
+    },
+    {
+      "name": "Move to the Beat 3",
+      "dict": "amb@world_human_strip_watch_stand@male_c@base",
+      "anim": "base",
+      "category": "Common"
+    },
+    {
+      "name": "Move to the Beat 5",
+      "dict": "amb@world_human_partying@female@partying_beer@base",
+      "anim": "base",
+      "category": "Common"
+    },
+    {
+      "name": "Jerking Off",
+      "dict": "switch@trevor@jerking_off",
+      "anim": "trev_jerking_off_loop",
+      "category": "Common"
+    },
+    {
+      "name": "Butt Scratch",
+      "dict": "mp_player_int_upperarse_pick",
+      "anim": "mp_player_int_arse_pick",
+      "category": "Common"
+    },
+    {
+      "name": "Peeing",
+      "dict": "misscarsteal2peeing",
+      "anim": "peeing_loop",
+      "category": "Common"
+    },
+    {
+      "name": "Pooping",
+      "dict": "missfbi3ig_0",
+      "anim": "shit_loop_trev",
+      "category": "Common"
+    },
+    {
+      "name": "Wash Hands",
+      "dict": "missheist_agency3aig_23",
+      "anim": "urinal_sink_loop",
+      "category": "Common"
+    },
+    {
+      "name": "Look at Fingernails",
+      "dict": "missfbi3_camcrew",
+      "anim": "base_gal",
+      "category": "Common"
+    },
+    {
+      "name": "Brush Shoulders Off",
+      "dict": "missfbi3_camcrew",
+      "anim": "base_gal",
+      "category": "Common"
+    },
+    {
+      "name": "Bend Over to Look",
+      "dict": "switch@franklin@admire_motorcycle",
+      "anim": "base_franklin",
+      "category": "Common"
+    },
+    {
+      "name": "Examining",
+      "dict": "missfbi5ig_15",
+      "anim": "look_into_microscope_c_scientistb",
+      "category": "Common"
+    },
+    {
+      "name": "It's a Bird, It's a Plane",
+      "dict": "oddjobs@basejump@",
+      "anim": "ped_a_loop",
+      "category": "Common"
+    },
+    {
+      "name": "Yelling at Someone",
+      "dict": "misscarsteal4@actor",
+      "anim": "actor_berating_loop",
+      "category": "Common"
+    },
+    {
+      "name": "Getting Yelled At",
+      "dict": "misscarsteal4",
+      "anim": "assistant_loop",
+      "category": "Common"
+    },
+    {
+      "name": "Arguing Girl",
+      "dict": "missfbi3_camcrew",
+      "anim": "first_action_gal",
+      "category": "Common"
+    },
+    {
+      "name": "Arguing Guy",
+      "dict": "missfbi3_camcrew",
+      "anim": "first_action_guy",
+      "category": "Common"
+    },
+    {
+      "name": "Stand at Rail",
+      "dict": "anim@amb@yacht@rail@standing@male@variant_01@",
+      "anim": "base",
+      "category": "Common"
+    },
+    {
+      "name": "Out of Breath",
+      "dict": "re@construction",
+      "anim": "out_of_breath",
+      "category": "Common"
+    },
+    {
+      "name": "Warmup Stretching 2",
+      "dict": "mini@triathlon",
+      "anim": "ig_2_gen_warmup_01",
+      "category": "Common"
+    },
+    {
+      "name": "Jog in Place",
+      "dict": "amb@world_human_jog_standing@male@fitbase",
+      "anim": "base",
+      "category": "Common"
+    },
+    {
+      "name": "Sensual Pole Dance",
+      "dict": "mini@strip_club@pole_dance@pole_dance3",
+      "anim": "pd_dance_03",
+      "category": "Dance"
+    },
+    {
+      "name": "Urban Hood Dance",
+      "dict": "missfbi3_sniping",
+      "anim": "dance_m_default",
+      "category": "Dance"
+    },
+    {
+      "name": "Private Dance Show",
+      "dict": "mini@strip_club@private_dance@part1",
+      "anim": "priv_dance_p1",
+      "category": "Dance"
+    },
+    {
+      "name": "Extravagant Performance",
+      "dict": "rcmpaparazzo_2",
+      "anim": "shag_loop_poppy",
+      "category": "Dance"
+    },
+    {
+      "name": "Energetic Crazy Dance",
+      "dict": "misschinese1crazydance",
+      "anim": "crazy_dance_1",
+      "category": "Dance"
+    },
+    {
+      "name": "Wild Crazy Dance 1",
+      "dict": "misschinese1crazydance",
+      "anim": "crazy_dance_2",
+      "category": "Dance"
+    },
+    {
+      "name": "Wild Crazy Dance 2",
+      "dict": "misschinese1crazydance",
+      "anim": "crazy_dance_3",
+      "category": "Dance"
+    },
+    {
+      "name": "Wild Crazy Dance 3",
+      "dict": "misschinese1crazydance",
+      "anim": "crazy_dance_base",
+      "category": "Dance"
+    },
+    {
+      "name": "Lap Dance Girl",
+      "dict": "mp_am_stripper",
+      "anim": "lap_dance_girl",
+      "category": "Dance"
+    },
+    {
+      "name": "Lap Dance Player",
+      "dict": "mp_am_stripper",
+      "anim": "lap_dance_player",
+      "category": "Dance"
+    },
+    {
+      "name": "Hip Hop Groove",
+      "dict": "missfbi3_sniping",
+      "anim": "dance_m_default",
+      "category": "Dance"
+    },
+    {
+      "name": "Mountain Spirit Dance",
+      "dict": "special_ped@mountain_dancer@monologue_1@monologue_1a",
+      "anim": "mtn_dnc_if_you_want_to_get_to_heaven",
+      "category": "Dance"
+    },
+    {
+      "name": "Silly Corny Dancing",
+      "dict": "anim@mp_player_intincardancebodhi@rds@",
+      "anim": "idle_a",
+      "category": "Dance"
+    },
+    {
+      "name": "Seductive Dirty Dance",
+      "dict": "oddjobs@assassinate@multi@yachttarget@lapdance",
+      "anim": "yacht_ld_f",
+      "category": "Dance"
+    },
+    {
+      "name": "Enigmatic Crazy Dancing",
+      "dict": "misschinese2_crystalmazemcs1_ig",
+      "anim": "dance_loop_tao",
+      "category": "Dance"
+    },
+    {
+      "name": "Booty Shake",
+      "dict": "switch@trevor@mocks_lapdance",
+      "anim": "001443_01_trvs_28_idle_stripper",
+      "category": "Dance"
+    },
+    {
+      "name": "Pole A 2 Stage",
+      "dict": "mini@strip_club@pole_dance@pole_a_2_stage",
+      "anim": "pole_a_2_stage",
+      "category": "Dance"
+    },
+    {
+      "name": "Pole B 2 Stage",
+      "dict": "mini@strip_club@pole_dance@pole_b_2_stage",
+      "anim": "pole_b_2_stage",
+      "category": "Dance"
+    },
+    {
+      "name": "Pole C 2 Prvd A",
+      "dict": "mini@strip_club@pole_dance@pole_c_2_prvd_a",
+      "anim": "pole_c_2_prvd_a",
+      "category": "Dance"
+    },
+    {
+      "name": "Pole C 2 Prvd B",
+      "dict": "mini@strip_club@pole_dance@pole_c_2_prvd_b",
+      "anim": "pole_c_2_prvd_b",
+      "category": "Dance"
+    },
+    {
+      "name": "Pole C 2 Prvd C",
+      "dict": "mini@strip_club@pole_dance@pole_c_2_prvd_c",
+      "anim": "pole_c_2_prvd_c",
+      "category": "Dance"
+    },
+    {
+      "name": "Pole C 2 Stage",
+      "dict": "mini@strip_club@pole_dance@pole_c_2_stage",
+      "anim": "pole_c_2_stage",
+      "category": "Dance"
+    },
+    {
+      "name": "Pole 1",
+      "dict": "mini@strip_club@pole_dance@pole_dance1",
+      "anim": "pd_dance_01",
+      "category": "Dance"
+    },
+    {
+      "name": "Pole 2",
+      "dict": "mini@strip_club@pole_dance@pole_dance2",
+      "anim": "pd_dance_02",
+      "category": "Dance"
+    },
+    {
+      "name": "Pole Enter",
+      "dict": "mini@strip_club@pole_dance@pole_enter",
+      "anim": "pd_enter",
+      "category": "Dance"
+    },
+    {
+      "name": "Pole Exit",
+      "dict": "mini@strip_club@pole_dance@pole_exit",
+      "anim": "pd_exit",
+      "category": "Dance"
+    },
+    {
+      "name": "Stage 2 Pole A",
+      "dict": "mini@strip_club@pole_dance@stage_2_pole_a",
+      "anim": "stage_2_pole_a",
+      "category": "Dance"
+    },
+    {
+      "name": "Stage 2 Pole B",
+      "dict": "mini@strip_club@pole_dance@stage_2_pole_b",
+      "anim": "stage_2_pole_b",
+      "category": "Dance"
+    },
+    {
+      "name": "Stage 2 Pole C",
+      "dict": "mini@strip_club@pole_dance@stage_2_pole_c",
+      "anim": "stage_2_pole_c",
+      "category": "Dance"
+    },
+    {
+      "name": "Stage Enter",
+      "dict": "mini@strip_club@pole_dance@stage_enter",
+      "anim": "stage_enter",
+      "category": "Dance"
+    },
+    {
+      "name": "Stage Exit",
+      "dict": "mini@strip_club@pole_dance@stage_exit",
+      "anim": "stage_exit",
+      "category": "Dance"
+    },
+    {
+      "name": "Private Dance - Exit",
+      "dict": "mini@strip_club@private_dance@exit",
+      "anim": "priv_dance_exit",
+      "category": "Dance"
+    },
+    {
+      "name": "Private Dance - Part 1",
+      "dict": "mini@strip_club@private_dance@part1",
+      "anim": "priv_dance_p1",
+      "category": "Dance"
+    },
+    {
+      "name": "Private Dance - Part 2",
+      "dict": "mini@strip_club@private_dance@part2",
+      "anim": "priv_dance_p2",
+      "category": "Dance"
+    },
+    {
+      "name": "Private Dance - Part 3",
+      "dict": "mini@strip_club@private_dance@part3",
+      "anim": "priv_dance_p3",
+      "category": "Dance"
+    },
+    {
+      "name": "Mountain Dance - Base",
+      "dict": "special_ped@mountain_dancer@base",
+      "anim": "base",
+      "category": "Dance"
+    },
+    {
+      "name": "Mountain Dance - Monologue 1a",
+      "dict": "special_ped@mountain_dancer@monologue_1@monologue_1a",
+      "anim": "mtn_dnc_if_you_want_to_get_to_heaven",
+      "category": "Dance"
+    },
+    {
+      "name": "Mountain Dance - Monologue 1a Facial",
+      "dict": "special_ped@mountain_dancer@monologue_1@monologue_1a",
+      "anim": "mtn_dnc_if_you_want_to_get_to_heaven_facial",
+      "category": "Dance"
+    },
+    {
+      "name": "Mountain Dance - Monologue 2a",
+      "dict": "special_ped@mountain_dancer@monologue_2@monologue_2a",
+      "anim": "mnt_dnc_angel",
+      "category": "Dance"
+    },
+    {
+      "name": "Mountain Dance - Monologue 3a",
+      "dict": "special_ped@mountain_dancer@monologue_3@monologue_3a",
+      "anim": "mnt_dnc_buttwag",
+      "category": "Dance"
+    },
+    {
+      "name": "Mountain Dance - Monologue 4a",
+      "dict": "special_ped@mountain_dancer@monologue_4@monologue_4a",
+      "anim": "mnt_dnc_verse",
+      "category": "Dance"
+    },
+    {
+      "name": "Low Center Down",
+      "dict": "anim@amb@nightclub@mini@dance@dance_solo@female@var_a@",
+      "anim": "low_center_down",
+      "category": "Dance"
+    },
+    {
+      "name": "High Center Down",
+      "dict": "anim@amb@nightclub@mini@dance@dance_solo@techno_monkey@",
+      "anim": "high_center_down",
+      "category": "Dance"
+    },
+    {
+      "name": "Clown Dance",
+      "dict": "rcm_barry2",
+      "anim": "clown_idle_6",
+      "category": "Dance"
+    },
+    {
+      "name": "Chicken Dance",
+      "dict": "random@peyote@chicken",
+      "anim": "wakeup",
+      "category": "Dance"
+    },
+    {
+      "name": "Yacht Dance",
+      "dict": "oddjobs@assassinate@multi@yachttarget@lapdance",
+      "anim": "yacht_ld_f",
+      "category": "Dance"
+    },
+    {
+      "name": "Dance Tyler",
+      "dict": "rcmnigel1bnmt_1b",
+      "anim": "dance_loop_tyler",
+      "category": "Dance"
+    },
+    {
+      "name": "Casino Mini Dance",
+      "dict": "anim@amb@casino@mini@dance@dance_solo@female@var_b@",
+      "anim": "med_center",
+      "category": "Dance"
+    },
+    {
+      "name": "Bong Stage 3",
+      "dict": "mini@strip_club@lap_dance@",
+      "anim": "ld_girl_a_song_a_p3_f",
+      "category": "Dance"
+    },
+    {
+      "name": "High Center",
+      "dict": "anim@amb@casino@mini@dance@dance_solo@female@var_b@",
+      "anim": "high_center",
+      "category": "Dance"
+    },
+    {
+      "name": "Dancecrowd Li 11 Hu Shimmy Laz",
+      "dict": "anim@amb@nightclub@lazlow@hi_dancefloor@",
+      "anim": "dancecrowd_li_11_hu_shimmy_laz",
+      "category": "Dance"
+    },
+    {
+      "name": "The Woogie",
+      "dict": "anim@mp_player_intcelebrationfemale@the_woogie",
+      "anim": "the_woogie",
+      "category": "Dance"
+    },
+    {
+      "name": "Ped A Dance Idle",
+      "dict": "anim@amb@nightclub@mini@dance@dance_paired@dance_d@",
+      "anim": "ped_a_dance_idle",
+      "category": "Dance"
+    },
+    {
+      "name": "Dance Idle Hi 11 Buttwiggle B Laz",
+      "dict": "anim@amb@nightclub@lazlow@hi_podium@",
+      "anim": "danceidle_hi_11_buttwiggle_b_laz",
+      "category": "Dance"
+    },
+    {
+      "name": "Dance Idle Hi 15 Crazyrobot Laz",
+      "dict": "anim@amb@nightclub@lazlow@hi_podium@",
+      "anim": "danceidle_hi_15_crazyrobot_laz",
+      "category": "Dance"
+    },
+    {
+      "name": "Cat - Scratching Ear",
+      "dict": "creatures@cat@player_action@",
+      "anim": "action_a",
+      "category": "Animal"
+    },
+    {
+      "name": "Dog - Sitting",
+      "dict": "creatures@dog@move",
+      "anim": "sit_loop",
+      "category": "Animal"
+    },
+    {
+      "name": "Dog - Walking in Circles",
+      "dict": "creatures@dog@move",
+      "anim": "idle_turn_l",
+      "category": "Animal"
+    },
+    {
+      "name": "Rabbit - Scratching Ear",
+      "dict": "creatures@rabbit@player_action@",
+      "anim": "action_a",
+      "category": "Animal"
+    },
+    {
+      "name": "Monkey - Freakout In 1",
+      "dict": "missfbi5ig_30monkeys",
+      "anim": "monkey_a_freakout_in",
+      "category": "Animal"
+    },
+    {
+      "name": "Monkey - Freakout Loop 1",
+      "dict": "missfbi5ig_30monkeys",
+      "anim": "monkey_a_freakout_loop",
+      "category": "Animal"
+    },
+    {
+      "name": "Monkey - Freakout Out 1",
+      "dict": "missfbi5ig_30monkeys",
+      "anim": "monkey_a_freakout_out",
+      "category": "Animal"
+    },
+    {
+      "name": "Monkey - Idle 1",
+      "dict": "missfbi5ig_30monkeys",
+      "anim": "monkey_a_idle",
+      "category": "Animal"
+    },
+    {
+      "name": "Monkey - Freakout In 2",
+      "dict": "missfbi5ig_30monkeys",
+      "anim": "monkey_b_freakout_in",
+      "category": "Animal"
+    },
+    {
+      "name": "Monkey - Freakout Loop 2",
+      "dict": "missfbi5ig_30monkeys",
+      "anim": "monkey_b_freakout_loop",
+      "category": "Animal"
+    },
+    {
+      "name": "Monkey - Freakout Out 2",
+      "dict": "missfbi5ig_30monkeys",
+      "anim": "monkey_b_freakout_out",
+      "category": "Animal"
+    },
+    {
+      "name": "Monkey - Idle 2",
+      "dict": "missfbi5ig_30monkeys",
+      "anim": "monkey_b_idle",
+      "category": "Animal"
+    },
+    {
+      "name": "Monkey - Freakout In 3",
+      "dict": "missfbi5ig_30monkeys",
+      "anim": "monkey_c_freakout_in",
+      "category": "Animal"
+    },
+    {
+      "name": "Monkey - Freakout Loop 3",
+      "dict": "missfbi5ig_30monkeys",
+      "anim": "monkey_c_freakout_loop",
+      "category": "Animal"
+    },
+    {
+      "name": "Monkey - Freakout Out 3",
+      "dict": "missfbi5ig_30monkeys",
+      "anim": "monkey_c_freakout_out",
+      "category": "Animal"
+    },
+    {
+      "name": "Monkey - Idle 3",
+      "dict": "missfbi5ig_30monkeys",
+      "anim": "monkey_c_idle",
+      "category": "Animal"
+    },
+    {
+      "name": "Bring It On",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_bring_it_on",
+      "category": "Gestures"
+    },
+    {
+      "name": "Bye Hard",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_bye_hard",
+      "category": "Gestures"
+    },
+    {
+      "name": "Bye Soft",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_bye_soft",
+      "category": "Gestures"
+    },
+    {
+      "name": "Come Here Hard",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_come_here_hard",
+      "category": "Gestures"
+    },
+    {
+      "name": "Come Here Soft",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_come_here_soft",
+      "category": "Gestures"
+    },
+    {
+      "name": "Damn",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_damn",
+      "category": "Gestures"
+    },
+    {
+      "name": "Displeased",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_displeased",
+      "category": "Gestures"
+    },
+    {
+      "name": "Easy Now",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_easy_now",
+      "category": "Gestures"
+    },
+    {
+      "name": "Hand Down",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_hand_down",
+      "category": "Gestures"
+    },
+    {
+      "name": "Hand Left",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_hand_left",
+      "category": "Gestures"
+    },
+    {
+      "name": "Hand Right",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_hand_right",
+      "category": "Gestures"
+    },
+    {
+      "name": "Head No",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_head_no",
+      "category": "Gestures"
+    },
+    {
+      "name": "Hello",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_hello",
+      "category": "Gestures"
+    },
+    {
+      "name": "I Will",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_i_will",
+      "category": "Gestures"
+    },
+    {
+      "name": "Me",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_me",
+      "category": "Gestures"
+    },
+    {
+      "name": "Me Hard",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_me_hard",
+      "category": "Gestures"
+    },
+    {
+      "name": "No Way",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_no_way",
+      "category": "Gestures"
+    },
+    {
+      "name": "Nod No Hard",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_nod_no_hard",
+      "category": "Gestures"
+    },
+    {
+      "name": "Nod No Soft",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_nod_no_soft",
+      "category": "Gestures"
+    },
+    {
+      "name": "Nod Yes Hard",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_nod_yes_hard",
+      "category": "Gestures"
+    },
+    {
+      "name": "Nod Yes Soft",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_nod_yes_soft",
+      "category": "Gestures"
+    },
+    {
+      "name": "Pleased",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_pleased",
+      "category": "Gestures"
+    },
+    {
+      "name": "Point",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_point",
+      "category": "Gestures"
+    },
+    {
+      "name": "Shrug Hard",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_shrug_hard",
+      "category": "Gestures"
+    },
+    {
+      "name": "Shrug Soft",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_shrug_soft",
+      "category": "Gestures"
+    },
+    {
+      "name": "What Hard",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_what_hard",
+      "category": "Gestures"
+    },
+    {
+      "name": "What Soft",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_what_soft",
+      "category": "Gestures"
+    },
+    {
+      "name": "Why",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_why",
+      "category": "Gestures"
+    },
+    {
+      "name": "Why Left",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_why_left",
+      "category": "Gestures"
+    },
+    {
+      "name": "You Hard",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_you_hard",
+      "category": "Gestures"
+    },
+    {
+      "name": "You Soft",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_you_soft",
+      "category": "Gestures"
+    },
+    {
+      "name": "It's Mine",
+      "dict": "gestures@m@standing@fat",
+      "anim": "gesture_its_mine",
+      "category": "Gestures"
+    },
+    {
+      "name": "Bong Stage 3",
+      "dict": "anim@safehouse@bong",
+      "anim": "bong_stage3",
+      "category": "Gestures"
+    },
+    {
+      "name": "Player Front Slap",
+      "dict": "melee@unarmed@streamed_variations",
+      "anim": "plyr_takedown_front_slap",
+      "category": "Gestures"
+    },
+    {
+      "name": "Player Front Headbutt",
+      "dict": "melee@unarmed@streamed_variations",
+      "anim": "plyr_takedown_front_headbutt",
+      "category": "Gestures"
+    },
+    {
+      "name": "Wakeup",
+      "dict": "random@peyote@bird",
+      "anim": "wakeup",
+      "category": "Gestures"
+    },
+    {
+      "name": "Stripper Backroom Idle B",
+      "dict": "mini@strip_club@backroom@",
+      "anim": "stripper_b_backroom_idle_b",
+      "category": "Gestures"
+    },
+    {
+      "name": "Karate Chops (Male)",
+      "dict": "anim@mp_player_intcelebrationmale@karate_chops",
+      "anim": "karate_chops",
+      "category": "Gestures"
+    },
+    {
+      "name": "Karate Chops (Female)",
+      "dict": "anim@mp_player_intcelebrationfemale@karate_chops",
+      "anim": "karate_chops",
+      "category": "Gestures"
+    },
+    {
+      "name": "Yacht Fight 02 Intro Thug",
+      "dict": "missfam1_yachtbattleonyacht01_",
+      "anim": "onyacht_fight02intro_thug",
+      "category": "Gestures"
+    },
+    {
+      "name": "Yacht Fight 01 Loop F",
+      "dict": "missfam1_yachtbattleonyacht01_",
+      "anim": "onyacht_fight01loop_f",
+      "category": "Gestures"
+    },
+    {
+      "name": "Girl on Phone Loop",
+      "dict": "random@kidnap_girl",
+      "anim": "ig_1_girl_on_phone_loop",
+      "category": "Gestures"
+    },
+    {
+      "name": "Chad Arms Around Girl",
+      "dict": "misscarsteal2chad_goodbye",
+      "anim": "chad_armsaround_girl",
+      "category": "Gestures"
+    },
+    {
+      "name": "Car Flirt Girl",
+      "dict": "random@street_race",
+      "anim": "_car_a_flirt_girl",
+      "category": "Gestures"
+    },
+    {
+      "name": "Trevor Annoys Sunbathers Loop Girl",
+      "dict": "switch@trevor@annoys_sunbathers",
+      "anim": "trev_annoys_sunbathers_loop_girl",
+      "category": "Gestures"
+    },
+    {
+      "name": "I Saw It When We Were Flying In Female",
+      "dict": "anim@scripted@island@special_peds@couple@hs4_couple_stage2_ig10",
+      "anim": "i_saw_it_when_we_were_flying_in_female",
+      "category": "Gestures"
+    },
+    {
+      "name": "Cough While Smoking",
+      "dict": "timetable@gardener@smoking_joint",
+      "anim": "idle_cough",
+      "category": "Idle"
+    },
+    {
+      "name": "Sleeping (Variant 3)",
+      "dict": "timetable@tracy@sleep@",
+      "anim": "idle_c",
+      "category": "Idle"
+    },
+    {
+      "name": "Meditation",
+      "dict": "rcmcollect_paperleadinout@",
+      "anim": "meditiate_idle",
+      "category": "Idle"
+    },
+    {
+      "name": "Using Laptop",
+      "dict": "switch@franklin@on_laptop",
+      "anim": "001927_01_fras_v2_4_on_laptop_idle",
+      "category": "Idle"
+    },
+    {
+      "name": "Idle - Conceal Weapon 1",
+      "dict": "anim@miss@low@fin@vagos@",
+      "anim": "idle_ped01",
+      "category": "Idle"
+    },
+    {
+      "name": "Idle - Conceal Weapon 2",
+      "dict": "anim@miss@low@fin@vagos@",
+      "anim": "idle_ped02",
+      "category": "Idle"
+    },
+    {
+      "name": "Idle - Conceal Weapon 3",
+      "dict": "anim@miss@low@fin@vagos@",
+      "anim": "idle_ped03",
+      "category": "Idle"
+    },
+    {
+      "name": "Idle - Conceal Weapon 4",
+      "dict": "anim@miss@low@fin@vagos@",
+      "anim": "idle_ped04",
+      "category": "Idle"
+    },
+    {
+      "name": "Idle - Conceal Weapon 5",
+      "dict": "anim@miss@low@fin@vagos@",
+      "anim": "idle_ped05",
+      "category": "Idle"
+    },
+    {
+      "name": "Idle - Conceal Weapon 6",
+      "dict": "anim@miss@low@fin@vagos@",
+      "anim": "idle_ped06",
+      "category": "Idle"
+    },
+    {
+      "name": "Idle - Conceal Weapon 7",
+      "dict": "anim@miss@low@fin@vagos@",
+      "anim": "idle_ped07",
+      "category": "Idle"
+    },
+    {
+      "name": "Idle - Conceal Weapon 8",
+      "dict": "anim@miss@low@fin@vagos@",
+      "anim": "idle_ped08",
+      "category": "Idle"
+    },
+    {
+      "name": "Surrendering",
+      "dict": "random@arrests@busted",
+      "anim": "idle_a",
+      "category": "Idle"
+    },
+    {
+      "name": "Move to the Beat",
+      "dict": "amb@world_human_strip_watch_stand@male_c@idle_a",
+      "anim": "idle_a",
+      "category": "Idle"
+    },
+    {
+      "name": "Picking Nose",
+      "dict": "anim@mp_player_intincarnose_pickstd@rps@",
+      "anim": "idle_a",
+      "category": "Idle"
+    },
+    {
+      "name": "Drunk and Stumbling",
+      "dict": "move_m@drunk@verydrunk_idles@",
+      "anim": "fidget_01",
+      "category": "Idle"
+    },
+    {
+      "name": "Twitchy",
+      "dict": "oddjobs@bailbond_hobotwitchy",
+      "anim": "idle_a",
+      "category": "Idle"
+    },
+    {
+      "name": "Dazed and Confused",
+      "dict": "misscarsteal4@actor",
+      "anim": "dazed_idle",
+      "category": "Idle"
+    },
+    {
+      "name": "Feeling Depressed",
+      "dict": "oddjobs@bailbond_hobodepressed",
+      "anim": "idle_a",
+      "category": "Idle"
+    },
+    {
+      "name": "Kicking Rocks",
+      "dict": "timetable@ron@ig_1",
+      "anim": "ig_1_idle_a",
+      "category": "Idle"
+    },
+    {
+      "name": "Searching for Something",
+      "dict": "missmic_4premierejimwaitbef_prem",
+      "anim": "wait_idle_a",
+      "category": "Idle"
+    },
+    {
+      "name": "Making Rude Gesture",
+      "dict": "anim@mp_player_intincarfingerbodhi@ds@",
+      "anim": "idle_a",
+      "category": "Idle"
+    },
+    {
+      "name": "Kicking Guy on Ground 1",
+      "dict": "missheistdockssetup1ig_13@kick_idle",
+      "anim": "guard_beatup_kickidle_guard1",
+      "category": "Idle"
+    },
+    {
+      "name": "Kicking Guy on Ground 2",
+      "dict": "missheistdockssetup1ig_13@kick_idle",
+      "anim": "guard_beatup_kickidle_guard2",
+      "category": "Idle"
+    },
+    {
+      "name": "Getting Kicked",
+      "dict": "missheistdockssetup1ig_13@kick_idle",
+      "anim": "guard_beatup_kickidle_dockworker",
+      "category": "Idle"
+    },
+    {
+      "name": "Tough Guy - Arms Crossed",
+      "dict": "missdocksshowoffcar@idle_a",
+      "anim": "idle_b_5",
+      "category": "Idle"
+    },
+    {
+      "name": "Base Jump Preparation",
+      "dict": "oddjobs@bailbond_mountain",
+      "anim": "base_jump_idle",
+      "category": "Idle"
+    },
+    {
+      "name": "Jazzercise 1",
+      "dict": "timetable@tracy@ig_5@idle_a",
+      "anim": "idle_c",
+      "category": "Idle"
+    },
+    {
+      "name": "Jazzercise 2",
+      "dict": "timetable@tracy@ig_5@idle_b",
+      "anim": "idle_c",
+      "category": "Idle"
+    },
+    {
+      "name": "Warmup Stretching 1",
+      "dict": "mini@triathlon",
+      "anim": "idle_a",
+      "category": "Idle"
+    },
+    {
+      "name": "Private Dance - Idle",
+      "dict": "mini@strip_club@private_dance@idle",
+      "anim": "priv_dance_idle",
+      "category": "Idle"
+    },
+    {
+      "name": "Time Table - Idle",
+      "dict": "timetable@denice@ig_1",
+      "anim": "idle_b",
+      "category": "Idle"
+    },
+    {
+      "name": "Salute",
+      "dict": "anim@mp_player_intuppersalute",
+      "anim": "idle_a",
+      "category": "Idle"
+    },
+    {
+      "name": "Clap",
+      "dict": "anim@mp_player_intupperslow_clap",
+      "anim": "idle_a",
+      "category": "Idle"
+    }
+  ]
+}

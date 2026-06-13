@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "animations",
+    "label": "Animations",
+    "note": "An animation is a (dict, anim) pair: REQUEST_ANIM_DICT(dict) then TASK_PLAY_ANIM(dict, anim). index.json = the CURATED set with friendly names + categories (browse via by-category/). The FULL list lives in dictionaries.json (names + counts) and all.json (every dictionary + animations). No images, no hash."
+  },
+  "count": 6,
+  "groups": [
+    {
+      "name": "Dance",
+      "slug": "dance",
+      "count": 55,
+      "path": "api/animations/by-category/dance.json"
+    },
+    {
+      "name": "Gestures",
+      "slug": "gestures",
+      "count": 46,
+      "path": "api/animations/by-category/gestures.json"
+    },
+    {
+      "name": "Common",
+      "slug": "common",
+      "count": 43,
+      "path": "api/animations/by-category/common.json"
+    },
+    {
+      "name": "Idle",
+      "slug": "idle",
+      "count": 34,
+      "path": "api/animations/by-category/idle.json"
+    },
+    {
+      "name": "Animal",
+      "slug": "animal",
+      "count": 16,
+      "path": "api/animations/by-category/animal.json"
+    },
+    {
+      "name": "Bike Tricks",
+      "slug": "bike-tricks",
+      "count": 10,
+      "path": "api/animations/by-category/bike-tricks.json"
+    }
+  ]
+}

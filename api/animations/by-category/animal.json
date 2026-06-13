@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "animations",
+    "label": "Animations",
+    "note": "An animation is a (dict, anim) pair: REQUEST_ANIM_DICT(dict) then TASK_PLAY_ANIM(dict, anim). index.json = the CURATED set with friendly names + categories (browse via by-category/). The FULL list lives in dictionaries.json (names + counts) and all.json (every dictionary + animations). No images, no hash."
+  },
+  "group": {
+    "name": "Animal",
+    "slug": "animal",
+    "count": 16
+  },
+  "count": 16,
+  "items": [
+    {
+      "id": "creatures@cat@player_action@/action_a",
+      "name": "Cat - Scratching Ear",
+      "dict": "creatures@cat@player_action@",
+      "anim": "action_a",
+      "category": "Animal",
+      "curated": true
+    },
+    {
+      "id": "creatures@dog@move/sit_loop",
+      "name": "Dog - Sitting",
+      "dict": "creatures@dog@move",
+      "anim": "sit_loop",
+      "category": "Animal",
+      "curated": true
+    },
+    {
+      "id": "creatures@dog@move/idle_turn_l",
+      "name": "Dog - Walking in Circles",
+      "dict": "creatures@dog@move",
+      "anim": "idle_turn_l",
+      "category": "Animal",
+      "curated": true
+    },
+    {
+      "id": "missfbi5ig_30monkeys/monkey_a_freakout_in",
+      "name": "Monkey - Freakout In 1",
+      "dict": "missfbi5ig_30monkeys",
+      "anim": "monkey_a_freakout_in",
+      "category": "Animal",
+      "curated": true
+    },
+    {
+      "id": "missfbi5ig_30monkeys/monkey_b_freakout_in",
+      "name": "Monkey - Freakout In 2",
+      "dict": "missfbi5ig_30monkeys",
+      "anim": "monkey_b_freakout_in",
+      "category": "Animal",
+      "curated": true
+    },
+    {
+      "id": "missfbi5ig_30monkeys/monkey_c_freakout_in",
+      "name": "Monkey - Freakout In 3",
+      "dict": "missfbi5ig_30monkeys",
+      "anim": "monkey_c_freakout_in",
+      "category": "Animal",
+      "curated": true
+    },
+    {
+      "id": "missfbi5ig_30monkeys/monkey_a_freakout_loop",
+      "name": "Monkey - Freakout Loop 1",
+      "dict": "missfbi5ig_30monkeys",
+      "anim": "monkey_a_freakout_loop",
+      "category": "Animal",
+      "curated": true
+    },
+    {
+      "id": "missfbi5ig_30monkeys/monkey_b_freakout_loop",
+      "name": "Monkey - Freakout Loop 2",
+      "dict": "missfbi5ig_30monkeys",
+      "anim": "monkey_b_freakout_loop",
+      "category": "Animal",
+      "curated": true
+    },
+    {
+      "id": "missfbi5ig_30monkeys/monkey_c_freakout_loop",
+      "name": "Monkey - Freakout Loop 3",
+      "dict": "missfbi5ig_30monkeys",
+      "anim": "monkey_c_freakout_loop",
+      "category": "Animal",
+      "curated": true
+    },
+    {
+      "id": "missfbi5ig_30monkeys/monkey_a_freakout_out",
+      "name": "Monkey - Freakout Out 1",
+      "dict": "missfbi5ig_30monkeys",
+      "anim": "monkey_a_freakout_out",
+      "category": "Animal",
+      "curated": true
+    },
+    {
+      "id": "missfbi5ig_30monkeys/monkey_b_freakout_out",
+      "name": "Monkey - Freakout Out 2",
+      "dict": "missfbi5ig_30monkeys",
+      "anim": "monkey_b_freakout_out",
+      "category": "Animal",
+      "curated": true
+    },
+    {
+      "id": "missfbi5ig_30monkeys/monkey_c_freakout_out",
+      "name": "Monkey - Freakout Out 3",
+      "dict": "missfbi5ig_30monkeys",
+      "anim": "monkey_c_freakout_out",
+      "category": "Animal",
+      "curated": true
+    },
+    {
+      "id": "missfbi5ig_30monkeys/monkey_a_idle",
+      "name": "Monkey - Idle 1",
+      "dict": "missfbi5ig_30monkeys",
+      "anim": "monkey_a_idle",
+      "category": "Animal",
+      "curated": true
+    },
+    {
+      "id": "missfbi5ig_30monkeys/monkey_b_idle",
+      "name": "Monkey - Idle 2",
+      "dict": "missfbi5ig_30monkeys",
+      "anim": "monkey_b_idle",
+      "category": "Animal",
+      "curated": true
+    },
+    {
+      "id": "missfbi5ig_30monkeys/monkey_c_idle",
+      "name": "Monkey - Idle 3",
+      "dict": "missfbi5ig_30monkeys",
+      "anim": "monkey_c_idle",
+      "category": "Animal",
+      "curated": true
+    },
+    {
+      "id": "creatures@rabbit@player_action@/action_a",
+      "name": "Rabbit - Scratching Ear",
+      "dict": "creatures@rabbit@player_action@",
+      "anim": "action_a",
+      "category": "Animal",
+      "curated": true
+    }
+  ]
+}

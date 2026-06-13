@@ -6,6 +6,44 @@
     "note": "Every category in each flat domain. Each entry -> a by-category slice at `path`."
   },
   "domains": {
+    "animations": [
+      {
+        "name": "Dance",
+        "slug": "dance",
+        "count": 55,
+        "path": "api/animations/by-category/dance.json"
+      },
+      {
+        "name": "Gestures",
+        "slug": "gestures",
+        "count": 46,
+        "path": "api/animations/by-category/gestures.json"
+      },
+      {
+        "name": "Common",
+        "slug": "common",
+        "count": 43,
+        "path": "api/animations/by-category/common.json"
+      },
+      {
+        "name": "Idle",
+        "slug": "idle",
+        "count": 34,
+        "path": "api/animations/by-category/idle.json"
+      },
+      {
+        "name": "Animal",
+        "slug": "animal",
+        "count": 16,
+        "path": "api/animations/by-category/animal.json"
+      },
+      {
+        "name": "Bike Tricks",
+        "slug": "bike-tricks",
+        "count": 10,
+        "path": "api/animations/by-category/bike-tricks.json"
+      }
+    ],
     "explosions": [
       {
         "name": "Vehicle Weapons",

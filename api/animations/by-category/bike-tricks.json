@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "animations",
+    "label": "Animations",
+    "note": "An animation is a (dict, anim) pair: REQUEST_ANIM_DICT(dict) then TASK_PLAY_ANIM(dict, anim). index.json = the CURATED set with friendly names + categories (browse via by-category/). The FULL list lives in dictionaries.json (names + counts) and all.json (every dictionary + animations). No images, no hash."
+  },
+  "group": {
+    "name": "Bike Tricks",
+    "slug": "bike-tricks",
+    "count": 10
+  },
+  "count": 10,
+  "items": [
+    {
+      "id": "mini@racing@bike@/celebrate_c",
+      "name": "Celebratory Gesture",
+      "dict": "mini@racing@bike@",
+      "anim": "celebrate_c",
+      "category": "Bike Tricks",
+      "curated": true
+    },
+    {
+      "id": "mini@racing@bike@/celebrate_b",
+      "name": "Celebratory Gesture 1",
+      "dict": "mini@racing@bike@",
+      "anim": "celebrate_b",
+      "category": "Bike Tricks",
+      "curated": true
+    },
+    {
+      "id": "mini@racing@bike@/celebrate_a",
+      "name": "Celebratory Gesture 2",
+      "dict": "mini@racing@bike@",
+      "anim": "celebrate_a",
+      "category": "Bike Tricks",
+      "curated": true
+    },
+    {
+      "id": "rcmextreme2atv/idle_a",
+      "name": "Lazy Boy Stunt",
+      "dict": "rcmextreme2atv",
+      "anim": "idle_a",
+      "category": "Bike Tricks",
+      "curated": true
+    },
+    {
+      "id": "rcmextreme2atv/idle_b",
+      "name": "Left Nac-Nac",
+      "dict": "rcmextreme2atv",
+      "anim": "idle_b",
+      "category": "Bike Tricks",
+      "curated": true
+    },
+    {
+      "id": "rcmextreme2atv/idle_c",
+      "name": "Right Nac-Nac",
+      "dict": "rcmextreme2atv",
+      "anim": "idle_c",
+      "category": "Bike Tricks",
+      "curated": true
+    },
+    {
+      "id": "rcmextreme2atv/idle_d",
+      "name": "Side-to-Side Movement",
+      "dict": "rcmextreme2atv",
+      "anim": "idle_d",
+      "category": "Bike Tricks",
+      "curated": true
+    },
+    {
+      "id": "veh@bike@dirt@front@base/sit_high",
+      "name": "Sit High",
+      "dict": "veh@bike@dirt@front@base",
+      "anim": "sit_high",
+      "category": "Bike Tricks",
+      "curated": true
+    },
+    {
+      "id": "skydive@freefall/free_back",
+      "name": "Sky-Dive Pose",
+      "dict": "skydive@freefall",
+      "anim": "free_back",
+      "category": "Bike Tricks",
+      "curated": true
+    },
+    {
+      "id": "rcmextreme2atv/idle_e",
+      "name": "Surfing",
+      "dict": "rcmextreme2atv",
+      "anim": "idle_e",
+      "category": "Bike Tricks",
+      "curated": true
+    }
+  ]
+}

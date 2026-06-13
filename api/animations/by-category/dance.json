@@ -1,0 +1,458 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "animations",
+    "label": "Animations",
+    "note": "An animation is a (dict, anim) pair: REQUEST_ANIM_DICT(dict) then TASK_PLAY_ANIM(dict, anim). index.json = the CURATED set with friendly names + categories (browse via by-category/). The FULL list lives in dictionaries.json (names + counts) and all.json (every dictionary + animations). No images, no hash."
+  },
+  "group": {
+    "name": "Dance",
+    "slug": "dance",
+    "count": 55
+  },
+  "count": 55,
+  "items": [
+    {
+      "id": "mini@strip_club@lap_dance@/ld_girl_a_song_a_p3_f",
+      "name": "Bong Stage 3",
+      "dict": "mini@strip_club@lap_dance@",
+      "anim": "ld_girl_a_song_a_p3_f",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "switch@trevor@mocks_lapdance/001443_01_trvs_28_idle_stripper",
+      "name": "Booty Shake",
+      "dict": "switch@trevor@mocks_lapdance",
+      "anim": "001443_01_trvs_28_idle_stripper",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "anim@amb@casino@mini@dance@dance_solo@female@var_b@/med_center",
+      "name": "Casino Mini Dance",
+      "dict": "anim@amb@casino@mini@dance@dance_solo@female@var_b@",
+      "anim": "med_center",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "random@peyote@chicken/wakeup",
+      "name": "Chicken Dance",
+      "dict": "random@peyote@chicken",
+      "anim": "wakeup",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "rcm_barry2/clown_idle_6",
+      "name": "Clown Dance",
+      "dict": "rcm_barry2",
+      "anim": "clown_idle_6",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "anim@amb@nightclub@lazlow@hi_podium@/danceidle_hi_11_buttwiggle_b_laz",
+      "name": "Dance Idle Hi 11 Buttwiggle B Laz",
+      "dict": "anim@amb@nightclub@lazlow@hi_podium@",
+      "anim": "danceidle_hi_11_buttwiggle_b_laz",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "anim@amb@nightclub@lazlow@hi_podium@/danceidle_hi_15_crazyrobot_laz",
+      "name": "Dance Idle Hi 15 Crazyrobot Laz",
+      "dict": "anim@amb@nightclub@lazlow@hi_podium@",
+      "anim": "danceidle_hi_15_crazyrobot_laz",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "rcmnigel1bnmt_1b/dance_loop_tyler",
+      "name": "Dance Tyler",
+      "dict": "rcmnigel1bnmt_1b",
+      "anim": "dance_loop_tyler",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "anim@amb@nightclub@lazlow@hi_dancefloor@/dancecrowd_li_11_hu_shimmy_laz",
+      "name": "Dancecrowd Li 11 Hu Shimmy Laz",
+      "dict": "anim@amb@nightclub@lazlow@hi_dancefloor@",
+      "anim": "dancecrowd_li_11_hu_shimmy_laz",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "misschinese1crazydance/crazy_dance_1",
+      "name": "Energetic Crazy Dance",
+      "dict": "misschinese1crazydance",
+      "anim": "crazy_dance_1",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "misschinese2_crystalmazemcs1_ig/dance_loop_tao",
+      "name": "Enigmatic Crazy Dancing",
+      "dict": "misschinese2_crystalmazemcs1_ig",
+      "anim": "dance_loop_tao",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "rcmpaparazzo_2/shag_loop_poppy",
+      "name": "Extravagant Performance",
+      "dict": "rcmpaparazzo_2",
+      "anim": "shag_loop_poppy",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "anim@amb@casino@mini@dance@dance_solo@female@var_b@/high_center",
+      "name": "High Center",
+      "dict": "anim@amb@casino@mini@dance@dance_solo@female@var_b@",
+      "anim": "high_center",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "anim@amb@nightclub@mini@dance@dance_solo@techno_monkey@/high_center_down",
+      "name": "High Center Down",
+      "dict": "anim@amb@nightclub@mini@dance@dance_solo@techno_monkey@",
+      "anim": "high_center_down",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "missfbi3_sniping/dance_m_default",
+      "name": "Hip Hop Groove",
+      "dict": "missfbi3_sniping",
+      "anim": "dance_m_default",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mp_am_stripper/lap_dance_girl",
+      "name": "Lap Dance Girl",
+      "dict": "mp_am_stripper",
+      "anim": "lap_dance_girl",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mp_am_stripper/lap_dance_player",
+      "name": "Lap Dance Player",
+      "dict": "mp_am_stripper",
+      "anim": "lap_dance_player",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "anim@amb@nightclub@mini@dance@dance_solo@female@var_a@/low_center_down",
+      "name": "Low Center Down",
+      "dict": "anim@amb@nightclub@mini@dance@dance_solo@female@var_a@",
+      "anim": "low_center_down",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "special_ped@mountain_dancer@base/base",
+      "name": "Mountain Dance - Base",
+      "dict": "special_ped@mountain_dancer@base",
+      "anim": "base",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "special_ped@mountain_dancer@monologue_1@monologue_1a/mtn_dnc_if_you_want_to_get_to_heaven",
+      "name": "Mountain Dance - Monologue 1a",
+      "dict": "special_ped@mountain_dancer@monologue_1@monologue_1a",
+      "anim": "mtn_dnc_if_you_want_to_get_to_heaven",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "special_ped@mountain_dancer@monologue_1@monologue_1a/mtn_dnc_if_you_want_to_get_to_heaven_facial",
+      "name": "Mountain Dance - Monologue 1a Facial",
+      "dict": "special_ped@mountain_dancer@monologue_1@monologue_1a",
+      "anim": "mtn_dnc_if_you_want_to_get_to_heaven_facial",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "special_ped@mountain_dancer@monologue_2@monologue_2a/mnt_dnc_angel",
+      "name": "Mountain Dance - Monologue 2a",
+      "dict": "special_ped@mountain_dancer@monologue_2@monologue_2a",
+      "anim": "mnt_dnc_angel",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "special_ped@mountain_dancer@monologue_3@monologue_3a/mnt_dnc_buttwag",
+      "name": "Mountain Dance - Monologue 3a",
+      "dict": "special_ped@mountain_dancer@monologue_3@monologue_3a",
+      "anim": "mnt_dnc_buttwag",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "special_ped@mountain_dancer@monologue_4@monologue_4a/mnt_dnc_verse",
+      "name": "Mountain Dance - Monologue 4a",
+      "dict": "special_ped@mountain_dancer@monologue_4@monologue_4a",
+      "anim": "mnt_dnc_verse",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "special_ped@mountain_dancer@monologue_1@monologue_1a/mtn_dnc_if_you_want_to_get_to_heaven",
+      "name": "Mountain Spirit Dance",
+      "dict": "special_ped@mountain_dancer@monologue_1@monologue_1a",
+      "anim": "mtn_dnc_if_you_want_to_get_to_heaven",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "anim@amb@nightclub@mini@dance@dance_paired@dance_d@/ped_a_dance_idle",
+      "name": "Ped A Dance Idle",
+      "dict": "anim@amb@nightclub@mini@dance@dance_paired@dance_d@",
+      "anim": "ped_a_dance_idle",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@pole_dance@pole_dance1/pd_dance_01",
+      "name": "Pole 1",
+      "dict": "mini@strip_club@pole_dance@pole_dance1",
+      "anim": "pd_dance_01",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@pole_dance@pole_dance2/pd_dance_02",
+      "name": "Pole 2",
+      "dict": "mini@strip_club@pole_dance@pole_dance2",
+      "anim": "pd_dance_02",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@pole_dance@pole_a_2_stage/pole_a_2_stage",
+      "name": "Pole A 2 Stage",
+      "dict": "mini@strip_club@pole_dance@pole_a_2_stage",
+      "anim": "pole_a_2_stage",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@pole_dance@pole_b_2_stage/pole_b_2_stage",
+      "name": "Pole B 2 Stage",
+      "dict": "mini@strip_club@pole_dance@pole_b_2_stage",
+      "anim": "pole_b_2_stage",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@pole_dance@pole_c_2_prvd_a/pole_c_2_prvd_a",
+      "name": "Pole C 2 Prvd A",
+      "dict": "mini@strip_club@pole_dance@pole_c_2_prvd_a",
+      "anim": "pole_c_2_prvd_a",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@pole_dance@pole_c_2_prvd_b/pole_c_2_prvd_b",
+      "name": "Pole C 2 Prvd B",
+      "dict": "mini@strip_club@pole_dance@pole_c_2_prvd_b",
+      "anim": "pole_c_2_prvd_b",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@pole_dance@pole_c_2_prvd_c/pole_c_2_prvd_c",
+      "name": "Pole C 2 Prvd C",
+      "dict": "mini@strip_club@pole_dance@pole_c_2_prvd_c",
+      "anim": "pole_c_2_prvd_c",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@pole_dance@pole_c_2_stage/pole_c_2_stage",
+      "name": "Pole C 2 Stage",
+      "dict": "mini@strip_club@pole_dance@pole_c_2_stage",
+      "anim": "pole_c_2_stage",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@pole_dance@pole_enter/pd_enter",
+      "name": "Pole Enter",
+      "dict": "mini@strip_club@pole_dance@pole_enter",
+      "anim": "pd_enter",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@pole_dance@pole_exit/pd_exit",
+      "name": "Pole Exit",
+      "dict": "mini@strip_club@pole_dance@pole_exit",
+      "anim": "pd_exit",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@private_dance@exit/priv_dance_exit",
+      "name": "Private Dance - Exit",
+      "dict": "mini@strip_club@private_dance@exit",
+      "anim": "priv_dance_exit",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@private_dance@part1/priv_dance_p1",
+      "name": "Private Dance - Part 1",
+      "dict": "mini@strip_club@private_dance@part1",
+      "anim": "priv_dance_p1",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@private_dance@part2/priv_dance_p2",
+      "name": "Private Dance - Part 2",
+      "dict": "mini@strip_club@private_dance@part2",
+      "anim": "priv_dance_p2",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@private_dance@part3/priv_dance_p3",
+      "name": "Private Dance - Part 3",
+      "dict": "mini@strip_club@private_dance@part3",
+      "anim": "priv_dance_p3",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@private_dance@part1/priv_dance_p1",
+      "name": "Private Dance Show",
+      "dict": "mini@strip_club@private_dance@part1",
+      "anim": "priv_dance_p1",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "oddjobs@assassinate@multi@yachttarget@lapdance/yacht_ld_f",
+      "name": "Seductive Dirty Dance",
+      "dict": "oddjobs@assassinate@multi@yachttarget@lapdance",
+      "anim": "yacht_ld_f",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@pole_dance@pole_dance3/pd_dance_03",
+      "name": "Sensual Pole Dance",
+      "dict": "mini@strip_club@pole_dance@pole_dance3",
+      "anim": "pd_dance_03",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "anim@mp_player_intincardancebodhi@rds@/idle_a",
+      "name": "Silly Corny Dancing",
+      "dict": "anim@mp_player_intincardancebodhi@rds@",
+      "anim": "idle_a",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@pole_dance@stage_2_pole_a/stage_2_pole_a",
+      "name": "Stage 2 Pole A",
+      "dict": "mini@strip_club@pole_dance@stage_2_pole_a",
+      "anim": "stage_2_pole_a",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@pole_dance@stage_2_pole_b/stage_2_pole_b",
+      "name": "Stage 2 Pole B",
+      "dict": "mini@strip_club@pole_dance@stage_2_pole_b",
+      "anim": "stage_2_pole_b",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@pole_dance@stage_2_pole_c/stage_2_pole_c",
+      "name": "Stage 2 Pole C",
+      "dict": "mini@strip_club@pole_dance@stage_2_pole_c",
+      "anim": "stage_2_pole_c",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@pole_dance@stage_enter/stage_enter",
+      "name": "Stage Enter",
+      "dict": "mini@strip_club@pole_dance@stage_enter",
+      "anim": "stage_enter",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "mini@strip_club@pole_dance@stage_exit/stage_exit",
+      "name": "Stage Exit",
+      "dict": "mini@strip_club@pole_dance@stage_exit",
+      "anim": "stage_exit",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "anim@mp_player_intcelebrationfemale@the_woogie/the_woogie",
+      "name": "The Woogie",
+      "dict": "anim@mp_player_intcelebrationfemale@the_woogie",
+      "anim": "the_woogie",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "missfbi3_sniping/dance_m_default",
+      "name": "Urban Hood Dance",
+      "dict": "missfbi3_sniping",
+      "anim": "dance_m_default",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "misschinese1crazydance/crazy_dance_2",
+      "name": "Wild Crazy Dance 1",
+      "dict": "misschinese1crazydance",
+      "anim": "crazy_dance_2",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "misschinese1crazydance/crazy_dance_3",
+      "name": "Wild Crazy Dance 2",
+      "dict": "misschinese1crazydance",
+      "anim": "crazy_dance_3",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "misschinese1crazydance/crazy_dance_base",
+      "name": "Wild Crazy Dance 3",
+      "dict": "misschinese1crazydance",
+      "anim": "crazy_dance_base",
+      "category": "Dance",
+      "curated": true
+    },
+    {
+      "id": "oddjobs@assassinate@multi@yachttarget@lapdance/yacht_ld_f",
+      "name": "Yacht Dance",
+      "dict": "oddjobs@assassinate@multi@yachttarget@lapdance",
+      "anim": "yacht_ld_f",
+      "category": "Dance",
+      "curated": true
+    }
+  ]
+}

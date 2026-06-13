@@ -13,6 +13,7 @@ import weapons from './weapons.js';
 import objects from './objects.js';
 import explosions from './explosions.js';
 import particles from './particles.js';
+import animations from './animations.js';
 
 // Self-locating: resolve the API root relative to this module's own URL, so it
 // works wherever it's served from (jsDelivr, GitHub Pages, or a custom host).
@@ -34,7 +35,7 @@ export async function getDomains() {
  *   const img = vehicles[0]?.url;
  */
 export async function search(query, { limit = 25, domains = ['peds', 'vehicles', 'weapons'] } = {}) {
-  const clients = { peds, vehicles, weapons, objects, explosions, particles };
+  const clients = { peds, vehicles, weapons, objects, explosions, particles, animations };
   const out = {};
   await Promise.all(domains.map(async (d) => { out[d] = await clients[d].search(query, { limit }); }));
   return out;
@@ -57,6 +58,6 @@ export async function byHash(hash) {
   return (await getHashes())[String(hash)] ?? null;
 }
 
-export { clothing, peds, vehicles, weapons, objects, explosions, particles };
+export { clothing, peds, vehicles, weapons, objects, explosions, particles, animations };
 
-export default { getDomains, search, getHashes, byHash, clothing, peds, vehicles, weapons, objects, explosions, particles };
+export default { getDomains, search, getHashes, byHash, clothing, peds, vehicles, weapons, objects, explosions, particles, animations };
