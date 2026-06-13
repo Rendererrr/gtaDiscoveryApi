@@ -1,0 +1,2762 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehiclebones",
+    "label": "Vehicle Bones",
+    "urlPattern": null,
+    "note": "Vehicle bone names. hash = joaat(id) (resolves via GET_ENTITY_BONE_INDEX_BY_NAME). No images. category groups under by-category/; reverse hash -> { id, name, category } in hashes.json."
+  },
+  "categories": [
+    {
+      "name": "Aircraft",
+      "count": 49
+    },
+    {
+      "name": "Wheels & Suspension",
+      "count": 48
+    },
+    {
+      "name": "Body",
+      "count": 47
+    },
+    {
+      "name": "Misc",
+      "count": 47
+    },
+    {
+      "name": "Industrial & Special",
+      "count": 43
+    },
+    {
+      "name": "Sirens",
+      "count": 40
+    },
+    {
+      "name": "Weapons",
+      "count": 40
+    },
+    {
+      "name": "Engine & Drivetrain",
+      "count": 36
+    },
+    {
+      "name": "Doors & Roof",
+      "count": 32
+    },
+    {
+      "name": "Lights",
+      "count": 27
+    },
+    {
+      "name": "Windows & Glass",
+      "count": 20
+    },
+    {
+      "name": "Seats",
+      "count": 18
+    },
+    {
+      "name": "Boat",
+      "count": 2
+    }
+  ],
+  "count": 449,
+  "items": [
+    {
+      "id": "aileron_l",
+      "name": "Aileron Left",
+      "hash": 1564121135,
+      "category": "Aircraft"
+    },
+    {
+      "id": "aileron_r",
+      "name": "Aileron Rear",
+      "hash": 3421631880,
+      "category": "Aircraft"
+    },
+    {
+      "id": "airbrake_l",
+      "name": "Airbrake Left",
+      "hash": 2243771225,
+      "category": "Aircraft"
+    },
+    {
+      "id": "airbrake_r",
+      "name": "Airbrake Rear",
+      "hash": 3434989913,
+      "category": "Aircraft"
+    },
+    {
+      "id": "elevator_l",
+      "name": "Elevator Left",
+      "hash": 1926359547,
+      "category": "Aircraft"
+    },
+    {
+      "id": "elevator_r",
+      "name": "Elevator Rear",
+      "hash": 1085146552,
+      "category": "Aircraft"
+    },
+    {
+      "id": "elevators",
+      "name": "Elevators",
+      "hash": 3055659594,
+      "category": "Aircraft"
+    },
+    {
+      "id": "gear_door_fl",
+      "name": "Gear Door Front Left",
+      "hash": 3259062382,
+      "category": "Aircraft"
+    },
+    {
+      "id": "gear_door_fr",
+      "name": "Gear Door Front Right",
+      "hash": 1006128098,
+      "category": "Aircraft"
+    },
+    {
+      "id": "gear_door_rl1",
+      "name": "Gear Door Rear Left 1",
+      "hash": 4086164091,
+      "category": "Aircraft"
+    },
+    {
+      "id": "gear_door_rl2",
+      "name": "Gear Door Rear Left 2",
+      "hash": 3302427918,
+      "category": "Aircraft"
+    },
+    {
+      "id": "gear_door_rml",
+      "name": "Gear Door Rear Mid Left",
+      "hash": 4131548884,
+      "category": "Aircraft"
+    },
+    {
+      "id": "gear_door_rmr",
+      "name": "Gear Door Rear Mid Right",
+      "hash": 1661618310,
+      "category": "Aircraft"
+    },
+    {
+      "id": "gear_door_rr1",
+      "name": "Gear Door Right Rear 1",
+      "hash": 182624272,
+      "category": "Aircraft"
+    },
+    {
+      "id": "gear_door_rr2",
+      "name": "Gear Door Right Rear 2",
+      "hash": 1564722389,
+      "category": "Aircraft"
+    },
+    {
+      "id": "gear_f",
+      "name": "Gear Front",
+      "hash": 2490314370,
+      "category": "Aircraft"
+    },
+    {
+      "id": "gear_lm1",
+      "name": "Gear Left Middle 1",
+      "hash": 1953793501,
+      "category": "Aircraft"
+    },
+    {
+      "id": "gear_rl",
+      "name": "Gear Rear Left",
+      "hash": 3333456806,
+      "category": "Aircraft"
+    },
+    {
+      "id": "gear_rm",
+      "name": "Gear Right Middle",
+      "hash": 550746095,
+      "category": "Aircraft"
+    },
+    {
+      "id": "gear_rm1",
+      "name": "Gear Right Middle 1",
+      "hash": 2070512691,
+      "category": "Aircraft"
+    },
+    {
+      "id": "gear_rr",
+      "name": "Gear Right Rear",
+      "hash": 1898993831,
+      "category": "Aircraft"
+    },
+    {
+      "id": "outriggers_l",
+      "name": "Outriggers Left",
+      "hash": 1851296602,
+      "category": "Aircraft"
+    },
+    {
+      "id": "outriggers_r",
+      "name": "Outriggers Rear",
+      "hash": 3688949357,
+      "category": "Aircraft"
+    },
+    {
+      "id": "prop_1",
+      "name": "Prop 1",
+      "hash": 1838424552,
+      "category": "Aircraft"
+    },
+    {
+      "id": "prop_2",
+      "name": "Prop 2",
+      "hash": 1599243621,
+      "category": "Aircraft"
+    },
+    {
+      "id": "prop_3",
+      "name": "Prop 3",
+      "hash": 3684793857,
+      "category": "Aircraft"
+    },
+    {
+      "id": "prop_4",
+      "name": "Prop 4",
+      "hash": 3416710668,
+      "category": "Aircraft"
+    },
+    {
+      "id": "prop_5",
+      "name": "Prop 5",
+      "hash": 3056317206,
+      "category": "Aircraft"
+    },
+    {
+      "id": "prop_6",
+      "name": "Prop 6",
+      "hash": 2800096395,
+      "category": "Aircraft"
+    },
+    {
+      "id": "prop_7",
+      "name": "Prop 7",
+      "hash": 11454491,
+      "category": "Aircraft"
+    },
+    {
+      "id": "prop_8",
+      "name": "Prop 8",
+      "hash": 942421757,
+      "category": "Aircraft"
+    },
+    {
+      "id": "prop_left",
+      "name": "Prop Left",
+      "hash": 2970875470,
+      "category": "Aircraft"
+    },
+    {
+      "id": "prop_right",
+      "name": "Prop Right",
+      "hash": 4031099223,
+      "category": "Aircraft"
+    },
+    {
+      "id": "rotor_main",
+      "name": "Rotor Main",
+      "hash": 3684207747,
+      "category": "Aircraft"
+    },
+    {
+      "id": "rotor_main_2",
+      "name": "Rotor Main 2",
+      "hash": 3827508025,
+      "category": "Aircraft"
+    },
+    {
+      "id": "rotor_rear",
+      "name": "Rotor Rear",
+      "hash": 2757650424,
+      "category": "Aircraft"
+    },
+    {
+      "id": "rotor_rear_2",
+      "name": "Rotor Rear 2",
+      "hash": 691372201,
+      "category": "Aircraft"
+    },
+    {
+      "id": "rudder",
+      "name": "Rudder",
+      "hash": 1540408273,
+      "category": "Aircraft"
+    },
+    {
+      "id": "rudder2",
+      "name": "Rudder 2",
+      "hash": 1097854375,
+      "category": "Aircraft"
+    },
+    {
+      "id": "rudder_2",
+      "name": "Rudder 2",
+      "hash": 950042043,
+      "category": "Aircraft"
+    },
+    {
+      "id": "rudder_l",
+      "name": "Rudder Left",
+      "hash": 3711813315,
+      "category": "Aircraft"
+    },
+    {
+      "id": "rudder_r",
+      "name": "Rudder Rear",
+      "hash": 2754565287,
+      "category": "Aircraft"
+    },
+    {
+      "id": "tail",
+      "name": "Tail",
+      "hash": 2092843852,
+      "category": "Aircraft"
+    },
+    {
+      "id": "wing_l",
+      "name": "Wing Left",
+      "hash": 365218459,
+      "category": "Aircraft"
+    },
+    {
+      "id": "wing_lr",
+      "name": "Wing Left Rear",
+      "hash": 3569501075,
+      "category": "Aircraft"
+    },
+    {
+      "id": "wing_r",
+      "name": "Wing Rear",
+      "hash": 843154324,
+      "category": "Aircraft"
+    },
+    {
+      "id": "wing_rr",
+      "name": "Wing Right Rear",
+      "hash": 3331761504,
+      "category": "Aircraft"
+    },
+    {
+      "id": "wingtip_1",
+      "name": "Wingtip 1",
+      "hash": 369208546,
+      "category": "Aircraft"
+    },
+    {
+      "id": "wingtip_2",
+      "name": "Wingtip 2",
+      "hash": 597772321,
+      "category": "Aircraft"
+    },
+    {
+      "id": "pontoon_l",
+      "name": "Pontoon Left",
+      "hash": 4095770520,
+      "category": "Boat"
+    },
+    {
+      "id": "pontoon_r",
+      "name": "Pontoon Rear",
+      "hash": 1127095726,
+      "category": "Boat"
+    },
+    {
+      "id": "bodyshell",
+      "name": "Body Shell",
+      "hash": 1970334199,
+      "category": "Body"
+    },
+    {
+      "id": "bumper_f",
+      "name": "Bumper Front",
+      "hash": 3886330357,
+      "category": "Body"
+    },
+    {
+      "id": "bumper_r",
+      "name": "Bumper Rear",
+      "hash": 2370370867,
+      "category": "Body"
+    },
+    {
+      "id": "chassis",
+      "name": "Chassis",
+      "hash": 3558367838,
+      "category": "Body"
+    },
+    {
+      "id": "chassis_Control",
+      "name": "Chassis Control",
+      "hash": 2715513554,
+      "category": "Body"
+    },
+    {
+      "id": "chassis_dummy",
+      "name": "Chassis Dummy",
+      "hash": 2413525755,
+      "category": "Body"
+    },
+    {
+      "id": "chassis_lowlod",
+      "name": "Chassis Lowlod",
+      "hash": 3093086555,
+      "category": "Body"
+    },
+    {
+      "id": "misc_1",
+      "name": "Misc 1",
+      "hash": 2690009945,
+      "category": "Body"
+    },
+    {
+      "id": "misc_2",
+      "name": "Misc 2",
+      "hash": 1385115596,
+      "category": "Body"
+    },
+    {
+      "id": "misc_a",
+      "name": "Misc A",
+      "hash": 2172915033,
+      "category": "Body"
+    },
+    {
+      "id": "misc_b",
+      "name": "Misc B",
+      "hash": 2948983260,
+      "category": "Body"
+    },
+    {
+      "id": "misc_c",
+      "name": "Misc C",
+      "hash": 3705750550,
+      "category": "Body"
+    },
+    {
+      "id": "misc_d",
+      "name": "Misc D",
+      "hash": 2334728355,
+      "category": "Body"
+    },
+    {
+      "id": "misc_e",
+      "name": "Misc E",
+      "hash": 3629890315,
+      "category": "Body"
+    },
+    {
+      "id": "misc_f",
+      "name": "Misc Front",
+      "hash": 4003129225,
+      "category": "Body"
+    },
+    {
+      "id": "misc_g",
+      "name": "Misc G",
+      "hash": 867496380,
+      "category": "Body"
+    },
+    {
+      "id": "misc_h",
+      "name": "Misc H",
+      "hash": 702996000,
+      "category": "Body"
+    },
+    {
+      "id": "misc_i",
+      "name": "Misc I",
+      "hash": 2672412968,
+      "category": "Body"
+    },
+    {
+      "id": "misc_j",
+      "name": "Misc J",
+      "hash": 2246219354,
+      "category": "Body"
+    },
+    {
+      "id": "misc_k",
+      "name": "Misc K",
+      "hash": 986218535,
+      "category": "Body"
+    },
+    {
+      "id": "misc_l",
+      "name": "Misc Left",
+      "hash": 1360178363,
+      "category": "Body"
+    },
+    {
+      "id": "misc_m",
+      "name": "Misc Middle",
+      "hash": 4199644986,
+      "category": "Body"
+    },
+    {
+      "id": "misc_n",
+      "name": "Misc N",
+      "hash": 3363543951,
+      "category": "Body"
+    },
+    {
+      "id": "misc_o",
+      "name": "Misc O",
+      "hash": 2517907133,
+      "category": "Body"
+    },
+    {
+      "id": "misc_p",
+      "name": "Misc P",
+      "hash": 3821556264,
+      "category": "Body"
+    },
+    {
+      "id": "misc_q",
+      "name": "Misc Q",
+      "hash": 101324459,
+      "category": "Body"
+    },
+    {
+      "id": "misc_r",
+      "name": "Misc Rear",
+      "hash": 332902982,
+      "category": "Body"
+    },
+    {
+      "id": "misc_s",
+      "name": "Misc S",
+      "hash": 3515428266,
+      "category": "Body"
+    },
+    {
+      "id": "misc_t",
+      "name": "Misc T",
+      "hash": 526666079,
+      "category": "Body"
+    },
+    {
+      "id": "misc_u",
+      "name": "Misc U",
+      "hash": 1020363837,
+      "category": "Body"
+    },
+    {
+      "id": "misc_v",
+      "name": "Misc V",
+      "hash": 1257971856,
+      "category": "Body"
+    },
+    {
+      "id": "misc_w",
+      "name": "Misc W",
+      "hash": 1686098841,
+      "category": "Body"
+    },
+    {
+      "id": "misc_x",
+      "name": "Misc X",
+      "hash": 2041970181,
+      "category": "Body"
+    },
+    {
+      "id": "misc_y",
+      "name": "Misc Y",
+      "hash": 1413133063,
+      "category": "Body"
+    },
+    {
+      "id": "misc_z",
+      "name": "Misc Z",
+      "hash": 2850643555,
+      "category": "Body"
+    },
+    {
+      "id": "mod_col_1",
+      "name": "Mod Colour 1",
+      "hash": 1338030889,
+      "category": "Body"
+    },
+    {
+      "id": "mod_col_2",
+      "name": "Mod Colour 2",
+      "hash": 2758960267,
+      "category": "Body"
+    },
+    {
+      "id": "mod_col_3",
+      "name": "Mod Colour 3",
+      "hash": 1785032818,
+      "category": "Body"
+    },
+    {
+      "id": "mod_col_4",
+      "name": "Mod Colour 4",
+      "hash": 1092558310,
+      "category": "Body"
+    },
+    {
+      "id": "mod_col_5",
+      "name": "Mod Colour 5",
+      "hash": 119450078,
+      "category": "Body"
+    },
+    {
+      "id": "numberplate",
+      "name": "Number Plate",
+      "hash": 1937064677,
+      "category": "Body"
+    },
+    {
+      "id": "slipstream_l",
+      "name": "Slipstream Left",
+      "hash": 728133965,
+      "category": "Body"
+    },
+    {
+      "id": "slipstream_r",
+      "name": "Slipstream Rear",
+      "hash": 3354208872,
+      "category": "Body"
+    },
+    {
+      "id": "spoiler",
+      "name": "Spoiler",
+      "hash": 2360874625,
+      "category": "Body"
+    },
+    {
+      "id": "struts",
+      "name": "Struts",
+      "hash": 2597961148,
+      "category": "Body"
+    },
+    {
+      "id": "wing_lf",
+      "name": "Wing Left Front",
+      "hash": 491509005,
+      "category": "Body"
+    },
+    {
+      "id": "wing_rf",
+      "name": "Wing Right Front",
+      "hash": 3902761333,
+      "category": "Body"
+    },
+    {
+      "id": "bonnet",
+      "name": "Bonnet",
+      "hash": 1704829083,
+      "category": "Doors & Roof"
+    },
+    {
+      "id": "boot",
+      "name": "Boot",
+      "hash": 3042873625,
+      "category": "Doors & Roof"
+    },
+    {
+      "id": "door_dside_f",
+      "name": "Door Driver Front",
+      "hash": 1744947660,
+      "category": "Doors & Roof"
+    },
+    {
+      "id": "door_dside_r",
+      "name": "Door Driver Rear",
+      "hash": 3782851822,
+      "category": "Doors & Roof"
+    },
+    {
+      "id": "door_hatch_l",
+      "name": "Door Hatch Left",
+      "hash": 2448786506,
+      "category": "Doors & Roof"
+    },
+    {
+      "id": "door_hatch_r",
+      "name": "Door Hatch Rear",
+      "hash": 4170207614,
+      "category": "Doors & Roof"
+    },
+    {
+      "id": "doorlight_lf",
+      "name": "Door Light Left Front",
+      "hash": 73299200,
+      "category": "Doors & Roof"
+    },
+    {
+      "id": "doorlight_lr",
+      "name": "Door Light Left Rear",
+      "hash": 94271380,
+      "category": "Doors & Roof"
+    },
+    {
+      "id": "doorlight_rf",
+      "name": "Door Light Right Front",
+      "hash": 3169510302,
+      "category": "Doors & Roof"
+    },
+    {
+      "id": "doorlight_rr",
+      "name": "Door Light Right Rear",
+      "hash": 2392885006,
+      "category": "Doors & Roof"
+    },
+    {
+      "id": "door_pside_f",
+      "name": "Door Passenger Front",
+      "hash": 2553297679,
+      "category": "Doors & Roof"
+    },
+    {
+      "id": "door_pside_r",
+      "name": "Door Passenger Rear",
+      "hash": 1096977781,
+      "category": "Doors & Roof"
+    },
+    {
+      "id": "handle_dside_f",
+      "name": "Handle Driver Front",
+      "hash": 34687845,
+      "category": "Doors & Roof"
+    },
+    {
+      "id": "handle_dside_r",
+      "name": "Handle Driver Rear",
+      "hash": 2549413686,
+      "category": "Doors & Roof"
+    },
+    {
+      "id": "handle_pside_f",
+      "name": "Handle Passenger Front",
+      "hash": 834744094,
+      "category": "Doors & Roof"
+    },
+    {
+      "id": "handle_pside_r",
+      "name": "Handle Passenger Rear",
+      "hash": 2575892152,
+      "category": "Doors & Roof"
+    },
+    {
+      "id": "handlebars",
+      "name": "Handlebars",
+      "hash": 2921986035,
+      "category": "Doors & Roof"
+    },
+    {
+      "id": "roof",
+      "name": "Roof",
+      "hash": 3163989989,
+      "category": "Doors & Roof"
+    },
+    {
+      "id": "roof2",
+      "name": "Roof 2",
+      "hash": 609751117,
+      "category": "Doors & Roof"
+    },
+    {
+      "id": "soft_1",
+      "name": "Soft 1",
+      "hash": 2824268194,
+      "category": "Doors & Roof"
+    },
+    {
+      "id": "soft_10",
+      "name": "Soft 10",
+      "hash": 1458969179,
+      "category": "Doors & Roof"
+    },
+    {
+      "id": "soft_11",
+      "name": "Soft 11",
+      "hash": 767412203,
+      "category": "Doors & Roof"
+    },
+    {
+      "id": "soft_12",
+      "name": "Soft 12",
+      "hash": 1934152448,
+      "category": "Doors & Roof"
+    },
+    {
+      "id": "soft_13",
+      "name": "Soft 13",
+      "hash": 2283666602,
+      "category": "Doors & Roof"
+    },
+    {
+      "id": "soft_2",
+      "name": "Soft 2",
+      "hash": 948406789,
+      "category": "Doors & Roof"
+    },
+    {
+      "id": "soft_3",
+      "name": "Soft 3",
+      "hash": 1194960745,
+      "category": "Doors & Roof"
+    },
+    {
+      "id": "soft_4",
+      "name": "Soft 4",
+      "hash": 1428046642,
+      "category": "Doors & Roof"
+    },
+    {
+      "id": "soft_5",
+      "name": "Soft 5",
+      "hash": 1934327692,
+      "category": "Doors & Roof"
+    },
+    {
+      "id": "soft_6",
+      "name": "Soft 6",
+      "hash": 4294056155,
+      "category": "Doors & Roof"
+    },
+    {
+      "id": "soft_7",
+      "name": "Soft 7",
+      "hash": 237516103,
+      "category": "Doors & Roof"
+    },
+    {
+      "id": "soft_8",
+      "name": "Soft 8",
+      "hash": 471257380,
+      "category": "Doors & Roof"
+    },
+    {
+      "id": "soft_9",
+      "name": "Soft 9",
+      "hash": 32152788,
+      "category": "Doors & Roof"
+    },
+    {
+      "id": "afterburner",
+      "name": "Afterburner",
+      "hash": 2931836722,
+      "category": "Engine & Drivetrain"
+    },
+    {
+      "id": "crank",
+      "name": "Crank",
+      "hash": 4145913474,
+      "category": "Engine & Drivetrain"
+    },
+    {
+      "id": "engine",
+      "name": "Engine",
+      "hash": 321178074,
+      "category": "Engine & Drivetrain"
+    },
+    {
+      "id": "engineblock",
+      "name": "Engine Block",
+      "hash": 2036489924,
+      "category": "Engine & Drivetrain"
+    },
+    {
+      "id": "engine_l",
+      "name": "Engine Left",
+      "hash": 3404831228,
+      "category": "Engine & Drivetrain"
+    },
+    {
+      "id": "engine_r",
+      "name": "Engine Rear",
+      "hash": 368062460,
+      "category": "Engine & Drivetrain"
+    },
+    {
+      "id": "exhaust",
+      "name": "Exhaust",
+      "hash": 2148626005,
+      "category": "Engine & Drivetrain"
+    },
+    {
+      "id": "exhaust_10",
+      "name": "Exhaust 10",
+      "hash": 2600343066,
+      "category": "Engine & Drivetrain"
+    },
+    {
+      "id": "exhaust_11",
+      "name": "Exhaust 11",
+      "hash": 3598945568,
+      "category": "Engine & Drivetrain"
+    },
+    {
+      "id": "exhaust_12",
+      "name": "Exhaust 12",
+      "hash": 3896619164,
+      "category": "Engine & Drivetrain"
+    },
+    {
+      "id": "exhaust_13",
+      "name": "Exhaust 13",
+      "hash": 2989016171,
+      "category": "Engine & Drivetrain"
+    },
+    {
+      "id": "exhaust_14",
+      "name": "Exhaust 14",
+      "hash": 3320572913,
+      "category": "Engine & Drivetrain"
+    },
+    {
+      "id": "exhaust_15",
+      "name": "Exhaust 15",
+      "hash": 529211190,
+      "category": "Engine & Drivetrain"
+    },
+    {
+      "id": "exhaust_16",
+      "name": "Exhaust 16",
+      "hash": 823345734,
+      "category": "Engine & Drivetrain"
+    },
+    {
+      "id": "exhaust_2",
+      "name": "Exhaust 2",
+      "hash": 3047243728,
+      "category": "Engine & Drivetrain"
+    },
+    {
+      "id": "exhaust_3",
+      "name": "Exhaust 3",
+      "hash": 4276408918,
+      "category": "Engine & Drivetrain"
+    },
+    {
+      "id": "exhaust_4",
+      "name": "Exhaust 4",
+      "hash": 286750395,
+      "category": "Engine & Drivetrain"
+    },
+    {
+      "id": "exhaust_5",
+      "name": "Exhaust 5",
+      "hash": 1666652977,
+      "category": "Engine & Drivetrain"
+    },
+    {
+      "id": "exhaust_6",
+      "name": "Exhaust 6",
+      "hash": 1972682668,
+      "category": "Engine & Drivetrain"
+    },
+    {
+      "id": "exhaust_7",
+      "name": "Exhaust 7",
+      "hash": 3204862618,
+      "category": "Engine & Drivetrain"
+    },
+    {
+      "id": "exhaust_8",
+      "name": "Exhaust 8",
+      "hash": 3503093287,
+      "category": "Engine & Drivetrain"
+    },
+    {
+      "id": "exhaust_9",
+      "name": "Exhaust 9",
+      "hash": 442599751,
+      "category": "Engine & Drivetrain"
+    },
+    {
+      "id": "nozzles_f",
+      "name": "Nozzles Front",
+      "hash": 1548376449,
+      "category": "Engine & Drivetrain"
+    },
+    {
+      "id": "nozzles_r",
+      "name": "Nozzles Rear",
+      "hash": 3460644209,
+      "category": "Engine & Drivetrain"
+    },
+    {
+      "id": "overheat",
+      "name": "Overheat",
+      "hash": 2950266945,
+      "category": "Engine & Drivetrain"
+    },
+    {
+      "id": "overheat_2",
+      "name": "Overheat 2",
+      "hash": 3144473719,
+      "category": "Engine & Drivetrain"
+    },
+    {
+      "id": "pedal_l",
+      "name": "Pedal Left",
+      "hash": 2931699593,
+      "category": "Engine & Drivetrain"
+    },
+    {
+      "id": "pedal_r",
+      "name": "Pedal Rear",
+      "hash": 3507745844,
+      "category": "Engine & Drivetrain"
+    },
+    {
+      "id": "petrolcap",
+      "name": "Petrol Cap",
+      "hash": 4148304182,
+      "category": "Engine & Drivetrain"
+    },
+    {
+      "id": "petroltank",
+      "name": "Petrol Tank",
+      "hash": 2873059849,
+      "category": "Engine & Drivetrain"
+    },
+    {
+      "id": "petroltank_l",
+      "name": "Petrol Tank Left",
+      "hash": 2820499899,
+      "category": "Engine & Drivetrain"
+    },
+    {
+      "id": "petroltank_r",
+      "name": "Petrol Tank Rear",
+      "hash": 4180741097,
+      "category": "Engine & Drivetrain"
+    },
+    {
+      "id": "steering",
+      "name": "Steering",
+      "hash": 1960173713,
+      "category": "Engine & Drivetrain"
+    },
+    {
+      "id": "transmission_f",
+      "name": "Transmission Front",
+      "hash": 3812481676,
+      "category": "Engine & Drivetrain"
+    },
+    {
+      "id": "transmission_m",
+      "name": "Transmission Middle",
+      "hash": 4217539289,
+      "category": "Engine & Drivetrain"
+    },
+    {
+      "id": "transmission_r",
+      "name": "Transmission Rear",
+      "hash": 2010022827,
+      "category": "Engine & Drivetrain"
+    },
+    {
+      "id": "arm_1",
+      "name": "Arm 1",
+      "hash": 1503144375,
+      "category": "Industrial & Special"
+    },
+    {
+      "id": "arm_2",
+      "name": "Arm 2",
+      "hash": 2140304811,
+      "category": "Industrial & Special"
+    },
+    {
+      "id": "arm_3",
+      "name": "Arm 3",
+      "hash": 3056820976,
+      "category": "Industrial & Special"
+    },
+    {
+      "id": "arm_4",
+      "name": "Arm 4",
+      "hash": 1282903926,
+      "category": "Industrial & Special"
+    },
+    {
+      "id": "barracks",
+      "name": "Barracks",
+      "hash": 3471458123,
+      "category": "Industrial & Special"
+    },
+    {
+      "id": "boom",
+      "name": "Boom",
+      "hash": 343330484,
+      "category": "Industrial & Special"
+    },
+    {
+      "id": "Boom_Driver",
+      "name": "Boom Driver",
+      "hash": 400253475,
+      "category": "Industrial & Special"
+    },
+    {
+      "id": "bucket",
+      "name": "Bucket",
+      "hash": 2870891701,
+      "category": "Industrial & Special"
+    },
+    {
+      "id": "carriage",
+      "name": "Carriage",
+      "hash": 407242486,
+      "category": "Industrial & Special"
+    },
+    {
+      "id": "combine_auger",
+      "name": "Combine Auger",
+      "hash": 1576366368,
+      "category": "Industrial & Special"
+    },
+    {
+      "id": "combine_reel",
+      "name": "Combine Reel",
+      "hash": 3040922125,
+      "category": "Industrial & Special"
+    },
+    {
+      "id": "cutter_driver",
+      "name": "Cutter Driver",
+      "hash": 3444045709,
+      "category": "Industrial & Special"
+    },
+    {
+      "id": "draft_animal_attach_lf",
+      "name": "Draft Animal Attach Left Front",
+      "hash": 2807782403,
+      "category": "Industrial & Special"
+    },
+    {
+      "id": "draft_animal_attach_lm",
+      "name": "Draft Animal Attach Left Middle",
+      "hash": 2333614973,
+      "category": "Industrial & Special"
+    },
+    {
+      "id": "draft_animal_attach_lr",
+      "name": "Draft Animal Attach Left Rear",
+      "hash": 541412861,
+      "category": "Industrial & Special"
+    },
+    {
+      "id": "draft_animal_attach_rf",
+      "name": "Draft Animal Attach Right Front",
+      "hash": 602142446,
+      "category": "Industrial & Special"
+    },
+    {
+      "id": "draft_animal_attach_rm",
+      "name": "Draft Animal Attach Right Middle",
+      "hash": 1078013860,
+      "category": "Industrial & Special"
+    },
+    {
+      "id": "draft_animal_attach_rr",
+      "name": "Draft Animal Attach Right Rear",
+      "hash": 283627774,
+      "category": "Industrial & Special"
+    },
+    {
+      "id": "fork_l",
+      "name": "Fork Left",
+      "hash": 808489686,
+      "category": "Industrial & Special"
+    },
+    {
+      "id": "fork_r",
+      "name": "Fork Rear",
+      "hash": 3821107701,
+      "category": "Industrial & Special"
+    },
+    {
+      "id": "forks",
+      "name": "Forks",
+      "hash": 3667688280,
+      "category": "Industrial & Special"
+    },
+    {
+      "id": "forks_attach",
+      "name": "Forks Attach",
+      "hash": 1049020617,
+      "category": "Industrial & Special"
+    },
+    {
+      "id": "forks_l",
+      "name": "Forks Left",
+      "hash": 991413023,
+      "category": "Industrial & Special"
+    },
+    {
+      "id": "forks_u",
+      "name": "Forks U",
+      "hash": 837923007,
+      "category": "Industrial & Special"
+    },
+    {
+      "id": "frame_1",
+      "name": "Frame 1",
+      "hash": 3138834167,
+      "category": "Industrial & Special"
+    },
+    {
+      "id": "frame_2",
+      "name": "Frame 2",
+      "hash": 8706514,
+      "category": "Industrial & Special"
+    },
+    {
+      "id": "frame_3",
+      "name": "Frame 3",
+      "hash": 231404638,
+      "category": "Industrial & Special"
+    },
+    {
+      "id": "frame_pickup_1",
+      "name": "Frame Pickup 1",
+      "hash": 663801699,
+      "category": "Industrial & Special"
+    },
+    {
+      "id": "frame_pickup_2",
+      "name": "Frame Pickup 2",
+      "hash": 1483354389,
+      "category": "Industrial & Special"
+    },
+    {
+      "id": "frame_pickup_3",
+      "name": "Frame Pickup 3",
+      "hash": 1244959914,
+      "category": "Industrial & Special"
+    },
+    {
+      "id": "frame_pickup_4",
+      "name": "Frame Pickup 4",
+      "hash": 1495347847,
+      "category": "Industrial & Special"
+    },
+    {
+      "id": "legs",
+      "name": "Legs",
+      "hash": 2253452915,
+      "category": "Industrial & Special"
+    },
+    {
+      "id": "Lookat_LowrPiston_boom",
+      "name": "Lookat LowrPiston Boom",
+      "hash": 1771566553,
+      "category": "Industrial & Special"
+    },
+    {
+      "id": "Lookat_UpprPiston_head",
+      "name": "Lookat UpprPiston Head",
+      "hash": 1186321159,
+      "category": "Industrial & Special"
+    },
+    {
+      "id": "mast",
+      "name": "Mast",
+      "hash": 2038919246,
+      "category": "Industrial & Special"
+    },
+    {
+      "id": "scoop",
+      "name": "Scoop",
+      "hash": 1960713981,
+      "category": "Industrial & Special"
+    },
+    {
+      "id": "shovel_2",
+      "name": "Shovel 2",
+      "hash": 958705909,
+      "category": "Industrial & Special"
+    },
+    {
+      "id": "shovel_3",
+      "name": "Shovel 3",
+      "hash": 1330830673,
+      "category": "Industrial & Special"
+    },
+    {
+      "id": "stick",
+      "name": "Stick",
+      "hash": 368635778,
+      "category": "Industrial & Special"
+    },
+    {
+      "id": "tipper",
+      "name": "Tipper",
+      "hash": 2767446693,
+      "category": "Industrial & Special"
+    },
+    {
+      "id": "tow_arm",
+      "name": "Tow Arm",
+      "hash": 1722953818,
+      "category": "Industrial & Special"
+    },
+    {
+      "id": "tow_mount_a",
+      "name": "Tow Mount A",
+      "hash": 1555372895,
+      "category": "Industrial & Special"
+    },
+    {
+      "id": "tow_mount_b",
+      "name": "Tow Mount B",
+      "hash": 1793537987,
+      "category": "Industrial & Special"
+    },
+    {
+      "id": "brakelight_l",
+      "name": "Brake Light Left",
+      "hash": 3747065281,
+      "category": "Lights"
+    },
+    {
+      "id": "brakelight_m",
+      "name": "Brake Light Middle",
+      "hash": 3238949171,
+      "category": "Lights"
+    },
+    {
+      "id": "brakelight_r",
+      "name": "Brake Light Rear",
+      "hash": 126221853,
+      "category": "Lights"
+    },
+    {
+      "id": "dashglow",
+      "name": "Dash Glow",
+      "hash": 1186026603,
+      "category": "Lights"
+    },
+    {
+      "id": "emissives",
+      "name": "Emissives",
+      "hash": 2219647018,
+      "category": "Lights"
+    },
+    {
+      "id": "extralight_1",
+      "name": "Extra Light 1",
+      "hash": 3928290667,
+      "category": "Lights"
+    },
+    {
+      "id": "extralight_2",
+      "name": "Extra Light 2",
+      "hash": 4273348237,
+      "category": "Lights"
+    },
+    {
+      "id": "extralight_3",
+      "name": "Extra Light 3",
+      "hash": 4268451,
+      "category": "Lights"
+    },
+    {
+      "id": "extralight_4",
+      "name": "Extra Light 4",
+      "hash": 302499120,
+      "category": "Lights"
+    },
+    {
+      "id": "headlight_l",
+      "name": "Headlight Left",
+      "hash": 2403350912,
+      "category": "Lights"
+    },
+    {
+      "id": "headlight_r",
+      "name": "Headlight Rear",
+      "hash": 3886869072,
+      "category": "Lights"
+    },
+    {
+      "id": "indicator_lf",
+      "name": "Indicator Left Front",
+      "hash": 3403024362,
+      "category": "Lights"
+    },
+    {
+      "id": "indicator_lr",
+      "name": "Indicator Left Rear",
+      "hash": 3979005071,
+      "category": "Lights"
+    },
+    {
+      "id": "indicator_rf",
+      "name": "Indicator Right Front",
+      "hash": 2051585809,
+      "category": "Lights"
+    },
+    {
+      "id": "indicator_rr",
+      "name": "Indicator Right Rear",
+      "hash": 112742354,
+      "category": "Lights"
+    },
+    {
+      "id": "interiorlight",
+      "name": "Interior Light",
+      "hash": 1438187442,
+      "category": "Lights"
+    },
+    {
+      "id": "light_cover",
+      "name": "Light Cover",
+      "hash": 2609315116,
+      "category": "Lights"
+    },
+    {
+      "id": "neon_b",
+      "name": "Neon B",
+      "hash": 728001778,
+      "category": "Lights"
+    },
+    {
+      "id": "neon_f",
+      "name": "Neon Front",
+      "hash": 3850133799,
+      "category": "Lights"
+    },
+    {
+      "id": "neon_l",
+      "name": "Neon Left",
+      "hash": 4084563217,
+      "category": "Lights"
+    },
+    {
+      "id": "neon_r",
+      "name": "Neon Rear",
+      "hash": 556062831,
+      "category": "Lights"
+    },
+    {
+      "id": "reversinglight_l",
+      "name": "Reversing Light Left",
+      "hash": 1550779230,
+      "category": "Lights"
+    },
+    {
+      "id": "reversinglight_r",
+      "name": "Reversing Light Rear",
+      "hash": 1199528315,
+      "category": "Lights"
+    },
+    {
+      "id": "searchlight_base",
+      "name": "Searchlight Base",
+      "hash": 2719617007,
+      "category": "Lights"
+    },
+    {
+      "id": "searchlight_light",
+      "name": "Searchlight Light",
+      "hash": 737874551,
+      "category": "Lights"
+    },
+    {
+      "id": "taillight_l",
+      "name": "Taillight Left",
+      "hash": 3008822349,
+      "category": "Lights"
+    },
+    {
+      "id": "taillight_r",
+      "name": "Taillight Rear",
+      "hash": 914195096,
+      "category": "Lights"
+    },
+    {
+      "id": "attach_female",
+      "name": "Attach Female",
+      "hash": 1231601033,
+      "category": "Misc"
+    },
+    {
+      "id": "attach_male",
+      "name": "Attach Male",
+      "hash": 3761448825,
+      "category": "Misc"
+    },
+    {
+      "id": "bobble_base",
+      "name": "Bobble Base",
+      "hash": 1417117096,
+      "category": "Misc"
+    },
+    {
+      "id": "bobble_hand",
+      "name": "Bobble Hand",
+      "hash": 785162942,
+      "category": "Misc"
+    },
+    {
+      "id": "bobble_head",
+      "name": "Bobble Head",
+      "hash": 1789547068,
+      "category": "Misc"
+    },
+    {
+      "id": "break_extra_1",
+      "name": "Break Extra 1",
+      "hash": 2190258525,
+      "category": "Misc"
+    },
+    {
+      "id": "break_extra_10",
+      "name": "Break Extra 10",
+      "hash": 2734584581,
+      "category": "Misc"
+    },
+    {
+      "id": "break_extra_2",
+      "name": "Break Extra 2",
+      "hash": 1950749904,
+      "category": "Misc"
+    },
+    {
+      "id": "break_extra_3",
+      "name": "Break Extra 3",
+      "hash": 1709504522,
+      "category": "Misc"
+    },
+    {
+      "id": "break_extra_4",
+      "name": "Break Extra 4",
+      "hash": 1480285367,
+      "category": "Misc"
+    },
+    {
+      "id": "break_extra_5",
+      "name": "Break Extra 5",
+      "hash": 1213709552,
+      "category": "Misc"
+    },
+    {
+      "id": "break_extra_6",
+      "name": "Break Extra 6",
+      "hash": 848662892,
+      "category": "Misc"
+    },
+    {
+      "id": "break_extra_7",
+      "name": "Break Extra 7",
+      "hash": 3990325233,
+      "category": "Misc"
+    },
+    {
+      "id": "break_extra_8",
+      "name": "Break Extra 8",
+      "hash": 367056899,
+      "category": "Misc"
+    },
+    {
+      "id": "break_extra_9",
+      "name": "Break Extra 9",
+      "hash": 3413787451,
+      "category": "Misc"
+    },
+    {
+      "id": "dials",
+      "name": "Dials",
+      "hash": 1329176190,
+      "category": "Misc"
+    },
+    {
+      "id": "extra_1",
+      "name": "Extra 1",
+      "hash": 3819846466,
+      "category": "Misc"
+    },
+    {
+      "id": "extra_11",
+      "name": "Extra 11",
+      "hash": 2431830489,
+      "category": "Misc"
+    },
+    {
+      "id": "extra_12",
+      "name": "Extra 12",
+      "hash": 2720558148,
+      "category": "Misc"
+    },
+    {
+      "id": "extra_2",
+      "name": "Extra 2",
+      "hash": 3050790801,
+      "category": "Misc"
+    },
+    {
+      "id": "extra_3",
+      "name": "Extra 3",
+      "hash": 2297431491,
+      "category": "Misc"
+    },
+    {
+      "id": "extra_4",
+      "name": "Extra 4",
+      "hash": 2590320813,
+      "category": "Misc"
+    },
+    {
+      "id": "extra_5",
+      "name": "Extra 5",
+      "hash": 2830583129,
+      "category": "Misc"
+    },
+    {
+      "id": "extra_6",
+      "name": "Extra 6",
+      "hash": 3145755371,
+      "category": "Misc"
+    },
+    {
+      "id": "extra_7",
+      "name": "Extra 7",
+      "hash": 2360446286,
+      "category": "Misc"
+    },
+    {
+      "id": "extra_8",
+      "name": "Extra 8",
+      "hash": 2661527858,
+      "category": "Misc"
+    },
+    {
+      "id": "extra_9",
+      "name": "Extra 9",
+      "hash": 1913477126,
+      "category": "Misc"
+    },
+    {
+      "id": "extra_ten",
+      "name": "Extra Ten",
+      "hash": 1084087263,
+      "category": "Misc"
+    },
+    {
+      "id": "freight_bogey",
+      "name": "Freight Bogey",
+      "hash": 74543036,
+      "category": "Misc"
+    },
+    {
+      "id": "freight_cont",
+      "name": "Freight Cont",
+      "hash": 658873738,
+      "category": "Misc"
+    },
+    {
+      "id": "freightgrain_slidedoor",
+      "name": "Freight Grain Slidedoor",
+      "hash": 1655512691,
+      "category": "Misc"
+    },
+    {
+      "id": "hbgrip_l",
+      "name": "Handbrake Grip Left",
+      "hash": 114870059,
+      "category": "Misc"
+    },
+    {
+      "id": "hbgrip_r",
+      "name": "Handbrake Grip Rear",
+      "hash": 948021888,
+      "category": "Misc"
+    },
+    {
+      "id": "moving_prop",
+      "name": "Moving Prop",
+      "hash": 1525079545,
+      "category": "Misc"
+    },
+    {
+      "id": "moving_prop2",
+      "name": "Moving Prop 2",
+      "hash": 2426255685,
+      "category": "Misc"
+    },
+    {
+      "id": "no_ped_col_step_l",
+      "name": "No Ped Colour Step Left",
+      "hash": 2156328735,
+      "category": "Misc"
+    },
+    {
+      "id": "no_ped_col_step_r",
+      "name": "No Ped Colour Step Rear",
+      "hash": 3970912142,
+      "category": "Misc"
+    },
+    {
+      "id": "no_ped_col_strut_1_l",
+      "name": "No Ped Colour Strut 1 Left",
+      "hash": 2201601151,
+      "category": "Misc"
+    },
+    {
+      "id": "no_ped_col_strut_1_r",
+      "name": "No Ped Colour Strut 1 Rear",
+      "hash": 809803422,
+      "category": "Misc"
+    },
+    {
+      "id": "no_ped_col_strut_2_l",
+      "name": "No Ped Colour Strut 2 Left",
+      "hash": 467174123,
+      "category": "Misc"
+    },
+    {
+      "id": "no_ped_col_strut_2_r",
+      "name": "No Ped Colour Strut 2 Rear",
+      "hash": 531827348,
+      "category": "Misc"
+    },
+    {
+      "id": "rope_attach_a",
+      "name": "Rope Attach A",
+      "hash": 2581854493,
+      "category": "Misc"
+    },
+    {
+      "id": "rope_attach_b",
+      "name": "Rope Attach B",
+      "hash": 3307655074,
+      "category": "Misc"
+    },
+    {
+      "id": "static_prop",
+      "name": "Static Prop",
+      "hash": 3323987447,
+      "category": "Misc"
+    },
+    {
+      "id": "static_prop2",
+      "name": "Static Prop 2",
+      "hash": 372133150,
+      "category": "Misc"
+    },
+    {
+      "id": "swingarm",
+      "name": "Swing Arm",
+      "hash": 3929033220,
+      "category": "Misc"
+    },
+    {
+      "id": "unknown_id",
+      "name": "Unknown Id",
+      "hash": 931198016,
+      "category": "Misc"
+    },
+    {
+      "id": "seat_dside_f",
+      "name": "Seat Driver Front",
+      "hash": 3570590826,
+      "category": "Seats"
+    },
+    {
+      "id": "seat_dside_r",
+      "name": "Seat Driver Rear",
+      "hash": 229922352,
+      "category": "Seats"
+    },
+    {
+      "id": "seat_dside_r1",
+      "name": "Seat Driver Rear 1",
+      "hash": 1245168190,
+      "category": "Seats"
+    },
+    {
+      "id": "seat_dside_r2",
+      "name": "Seat Driver Rear 2",
+      "hash": 928488574,
+      "category": "Seats"
+    },
+    {
+      "id": "seat_dside_r3",
+      "name": "Seat Driver Rear 3",
+      "hash": 1175075299,
+      "category": "Seats"
+    },
+    {
+      "id": "seat_dside_r4",
+      "name": "Seat Driver Rear 4",
+      "hash": 3265409805,
+      "category": "Seats"
+    },
+    {
+      "id": "seat_dside_r5",
+      "name": "Seat Driver Rear 5",
+      "hash": 2439991464,
+      "category": "Seats"
+    },
+    {
+      "id": "seat_dside_r6",
+      "name": "Seat Driver Rear 6",
+      "hash": 2655873636,
+      "category": "Seats"
+    },
+    {
+      "id": "seat_dside_r7",
+      "name": "Seat Driver Rear 7",
+      "hash": 1829963760,
+      "category": "Seats"
+    },
+    {
+      "id": "seat_pside_f",
+      "name": "Seat Passenger Front",
+      "hash": 2783429980,
+      "category": "Seats"
+    },
+    {
+      "id": "seat_pside_r",
+      "name": "Seat Passenger Rear",
+      "hash": 2358776709,
+      "category": "Seats"
+    },
+    {
+      "id": "seat_pside_r1",
+      "name": "Seat Passenger Rear 1",
+      "hash": 589227221,
+      "category": "Seats"
+    },
+    {
+      "id": "seat_pside_r2",
+      "name": "Seat Passenger Rear 2",
+      "hash": 509664089,
+      "category": "Seats"
+    },
+    {
+      "id": "seat_pside_r3",
+      "name": "Seat Passenger Rear 3",
+      "hash": 1219735550,
+      "category": "Seats"
+    },
+    {
+      "id": "seat_pside_r4",
+      "name": "Seat Passenger Rear 4",
+      "hash": 836403788,
+      "category": "Seats"
+    },
+    {
+      "id": "seat_pside_r5",
+      "name": "Seat Passenger Rear 5",
+      "hash": 2039517623,
+      "category": "Seats"
+    },
+    {
+      "id": "seat_pside_r6",
+      "name": "Seat Passenger Rear 6",
+      "hash": 1802302832,
+      "category": "Seats"
+    },
+    {
+      "id": "seat_pside_r7",
+      "name": "Seat Passenger Rear 7",
+      "hash": 2633717900,
+      "category": "Seats"
+    },
+    {
+      "id": "siren1",
+      "name": "Siren 1",
+      "hash": 1133173557,
+      "category": "Sirens"
+    },
+    {
+      "id": "siren10",
+      "name": "Siren 10",
+      "hash": 441985071,
+      "category": "Sirens"
+    },
+    {
+      "id": "siren11",
+      "name": "Siren 11",
+      "hash": 1601352263,
+      "category": "Sirens"
+    },
+    {
+      "id": "siren12",
+      "name": "Siren 12",
+      "hash": 836359986,
+      "category": "Sirens"
+    },
+    {
+      "id": "siren13",
+      "name": "Siren 13",
+      "hash": 3896361951,
+      "category": "Sirens"
+    },
+    {
+      "id": "siren14",
+      "name": "Siren 14",
+      "hash": 4185351762,
+      "category": "Sirens"
+    },
+    {
+      "id": "siren15",
+      "name": "Siren 15",
+      "hash": 179865812,
+      "category": "Sirens"
+    },
+    {
+      "id": "siren16",
+      "name": "Siren 16",
+      "hash": 503000921,
+      "category": "Sirens"
+    },
+    {
+      "id": "siren17",
+      "name": "Siren 17",
+      "hash": 2924498945,
+      "category": "Sirens"
+    },
+    {
+      "id": "siren18",
+      "name": "Siren 18",
+      "hash": 3232625852,
+      "category": "Sirens"
+    },
+    {
+      "id": "siren19",
+      "name": "Siren 19",
+      "hash": 3538098474,
+      "category": "Sirens"
+    },
+    {
+      "id": "siren2",
+      "name": "Siren 2",
+      "hash": 229109612,
+      "category": "Sirens"
+    },
+    {
+      "id": "siren20",
+      "name": "Siren 20",
+      "hash": 3026278567,
+      "category": "Sirens"
+    },
+    {
+      "id": "siren3",
+      "name": "Siren 3",
+      "hash": 3741225498,
+      "category": "Sirens"
+    },
+    {
+      "id": "siren4",
+      "name": "Siren 4",
+      "hash": 61856632,
+      "category": "Sirens"
+    },
+    {
+      "id": "siren5",
+      "name": "Siren 5",
+      "hash": 359038693,
+      "category": "Sirens"
+    },
+    {
+      "id": "siren6",
+      "name": "Siren 6",
+      "hash": 2669843039,
+      "category": "Sirens"
+    },
+    {
+      "id": "siren7",
+      "name": "Siren 7",
+      "hash": 3000809939,
+      "category": "Sirens"
+    },
+    {
+      "id": "siren8",
+      "name": "Siren 8",
+      "hash": 3132508550,
+      "category": "Sirens"
+    },
+    {
+      "id": "siren9",
+      "name": "Siren 9",
+      "hash": 3430477067,
+      "category": "Sirens"
+    },
+    {
+      "id": "siren_glass1",
+      "name": "Siren Glass 1",
+      "hash": 3052505711,
+      "category": "Sirens"
+    },
+    {
+      "id": "siren_glass10",
+      "name": "Siren Glass 10",
+      "hash": 1527806985,
+      "category": "Sirens"
+    },
+    {
+      "id": "siren_glass11",
+      "name": "Siren Glass 11",
+      "hash": 1288036212,
+      "category": "Sirens"
+    },
+    {
+      "id": "siren_glass12",
+      "name": "Siren Glass 12",
+      "hash": 913617618,
+      "category": "Sirens"
+    },
+    {
+      "id": "siren_glass13",
+      "name": "Siren Glass 13",
+      "hash": 674436687,
+      "category": "Sirens"
+    },
+    {
+      "id": "siren_glass14",
+      "name": "Siren Glass 14",
+      "hash": 2507895034,
+      "category": "Sirens"
+    },
+    {
+      "id": "siren_glass15",
+      "name": "Siren Glass 15",
+      "hash": 2268714103,
+      "category": "Sirens"
+    },
+    {
+      "id": "siren_glass16",
+      "name": "Siren Glass 16",
+      "hash": 2045688289,
+      "category": "Sirens"
+    },
+    {
+      "id": "siren_glass17",
+      "name": "Siren Glass 17",
+      "hash": 1806966124,
+      "category": "Sirens"
+    },
+    {
+      "id": "siren_glass18",
+      "name": "Siren Glass 18",
+      "hash": 1335092524,
+      "category": "Sirens"
+    },
+    {
+      "id": "siren_glass19",
+      "name": "Siren Glass 19",
+      "hash": 1078871713,
+      "category": "Sirens"
+    },
+    {
+      "id": "siren_glass2",
+      "name": "Siren Glass 2",
+      "hash": 3645493535,
+      "category": "Sirens"
+    },
+    {
+      "id": "siren_glass20",
+      "name": "Siren Glass 20",
+      "hash": 1361570188,
+      "category": "Sirens"
+    },
+    {
+      "id": "siren_glass3",
+      "name": "Siren Glass 3",
+      "hash": 2497595493,
+      "category": "Sirens"
+    },
+    {
+      "id": "siren_glass4",
+      "name": "Siren Glass 4",
+      "hash": 2266672350,
+      "category": "Sirens"
+    },
+    {
+      "id": "siren_glass5",
+      "name": "Siren Glass 5",
+      "hash": 1901887842,
+      "category": "Sirens"
+    },
+    {
+      "id": "siren_glass6",
+      "name": "Siren Glass 6",
+      "hash": 1671816693,
+      "category": "Sirens"
+    },
+    {
+      "id": "siren_glass7",
+      "name": "Siren Glass 7",
+      "hash": 1575017067,
+      "category": "Sirens"
+    },
+    {
+      "id": "siren_glass8",
+      "name": "Siren Glass 8",
+      "hash": 1344225000,
+      "category": "Sirens"
+    },
+    {
+      "id": "siren_glass9",
+      "name": "Siren Glass 9",
+      "hash": 976556820,
+      "category": "Sirens"
+    },
+    {
+      "id": "ammobelt",
+      "name": "Ammo Belt",
+      "hash": 1361626010,
+      "category": "Weapons"
+    },
+    {
+      "id": "turret_1barrel",
+      "name": "Turret 1barrel",
+      "hash": 3659124601,
+      "category": "Weapons"
+    },
+    {
+      "id": "turret_1base",
+      "name": "Turret 1base",
+      "hash": 3647462574,
+      "category": "Weapons"
+    },
+    {
+      "id": "turret_2barrel",
+      "name": "Turret 2barrel",
+      "hash": 248660324,
+      "category": "Weapons"
+    },
+    {
+      "id": "turret_2base",
+      "name": "Turret 2base",
+      "hash": 4223082216,
+      "category": "Weapons"
+    },
+    {
+      "id": "turret_3barrel",
+      "name": "Turret 3barrel",
+      "hash": 1791224164,
+      "category": "Weapons"
+    },
+    {
+      "id": "turret_3base",
+      "name": "Turret 3base",
+      "hash": 2517196376,
+      "category": "Weapons"
+    },
+    {
+      "id": "vehicle_blocker",
+      "name": "Vehicle Blocker",
+      "hash": 2302604994,
+      "category": "Weapons"
+    },
+    {
+      "id": "weapon_1a",
+      "name": "Weapon 1A",
+      "hash": 2849320446,
+      "category": "Weapons"
+    },
+    {
+      "id": "weapon_1a_rot",
+      "name": "Weapon 1A Rotation",
+      "hash": 2502318366,
+      "category": "Weapons"
+    },
+    {
+      "id": "weapon_1b",
+      "name": "Weapon 1B",
+      "hash": 1378418339,
+      "category": "Weapons"
+    },
+    {
+      "id": "weapon_1b_rot",
+      "name": "Weapon 1B Rotation",
+      "hash": 1361635793,
+      "category": "Weapons"
+    },
+    {
+      "id": "weapon_1c",
+      "name": "Weapon 1C",
+      "hash": 468357671,
+      "category": "Weapons"
+    },
+    {
+      "id": "weapon_1c_rot",
+      "name": "Weapon 1C Rotation",
+      "hash": 2576710153,
+      "category": "Weapons"
+    },
+    {
+      "id": "weapon_1d",
+      "name": "Weapon 1D",
+      "hash": 3600648078,
+      "category": "Weapons"
+    },
+    {
+      "id": "weapon_1d_rot",
+      "name": "Weapon 1D Rotation",
+      "hash": 2732563752,
+      "category": "Weapons"
+    },
+    {
+      "id": "weapon_2a",
+      "name": "Weapon 2A",
+      "hash": 2183881279,
+      "category": "Weapons"
+    },
+    {
+      "id": "weapon_2a_rot",
+      "name": "Weapon 2A Rotation",
+      "hash": 553930385,
+      "category": "Weapons"
+    },
+    {
+      "id": "weapon_2b",
+      "name": "Weapon 2B",
+      "hash": 1271756164,
+      "category": "Weapons"
+    },
+    {
+      "id": "weapon_2b_rot",
+      "name": "Weapon 2B Rotation",
+      "hash": 890351475,
+      "category": "Weapons"
+    },
+    {
+      "id": "weapon_2c",
+      "name": "Weapon 2C",
+      "hash": 1034443066,
+      "category": "Weapons"
+    },
+    {
+      "id": "weapon_2c_rot",
+      "name": "Weapon 2C Rotation",
+      "hash": 1576138266,
+      "category": "Weapons"
+    },
+    {
+      "id": "weapon_2d",
+      "name": "Weapon 2D",
+      "hash": 2504296569,
+      "category": "Weapons"
+    },
+    {
+      "id": "weapon_2d_rot",
+      "name": "Weapon 2D Rotation",
+      "hash": 243306980,
+      "category": "Weapons"
+    },
+    {
+      "id": "weapon_3a",
+      "name": "Weapon 3A",
+      "hash": 3311277811,
+      "category": "Weapons"
+    },
+    {
+      "id": "weapon_3a_rot",
+      "name": "Weapon 3A Rotation",
+      "hash": 1721141370,
+      "category": "Weapons"
+    },
+    {
+      "id": "weapon_3b",
+      "name": "Weapon 3B",
+      "hash": 705060934,
+      "category": "Weapons"
+    },
+    {
+      "id": "weapon_3b_rot",
+      "name": "Weapon 3B Rotation",
+      "hash": 3836007400,
+      "category": "Weapons"
+    },
+    {
+      "id": "weapon_3c",
+      "name": "Weapon 3C",
+      "hash": 1506131908,
+      "category": "Weapons"
+    },
+    {
+      "id": "weapon_3c_rot",
+      "name": "Weapon 3C Rotation",
+      "hash": 1333036062,
+      "category": "Weapons"
+    },
+    {
+      "id": "weapon_3d",
+      "name": "Weapon 3D",
+      "hash": 242198809,
+      "category": "Weapons"
+    },
+    {
+      "id": "weapon_3d_rot",
+      "name": "Weapon 3D Rotation",
+      "hash": 1806578734,
+      "category": "Weapons"
+    },
+    {
+      "id": "weapon_4a",
+      "name": "Weapon 4A",
+      "hash": 4060998910,
+      "category": "Weapons"
+    },
+    {
+      "id": "weapon_4a_rot",
+      "name": "Weapon 4A Rotation",
+      "hash": 3878466399,
+      "category": "Weapons"
+    },
+    {
+      "id": "weapon_4b",
+      "name": "Weapon 4B",
+      "hash": 2610380818,
+      "category": "Weapons"
+    },
+    {
+      "id": "weapon_4b_rot",
+      "name": "Weapon 4B Rotation",
+      "hash": 2420004558,
+      "category": "Weapons"
+    },
+    {
+      "id": "weapon_4c",
+      "name": "Weapon 4C",
+      "hash": 2372314033,
+      "category": "Weapons"
+    },
+    {
+      "id": "weapon_4c_rot",
+      "name": "Weapon 4C Rotation",
+      "hash": 2244156136,
+      "category": "Weapons"
+    },
+    {
+      "id": "weapon_4d",
+      "name": "Weapon 4D",
+      "hash": 925792066,
+      "category": "Weapons"
+    },
+    {
+      "id": "weapon_4d_rot",
+      "name": "Weapon 4D Rotation",
+      "hash": 2027437970,
+      "category": "Weapons"
+    },
+    {
+      "id": "bogie_front",
+      "name": "Bogie Front",
+      "hash": 400834712,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "bogie_rear",
+      "name": "Bogie Rear",
+      "hash": 926956161,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "hub_lf",
+      "name": "Hub Left Front",
+      "hash": 3891344909,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "hub_lm1",
+      "name": "Hub Left Middle 1",
+      "hash": 1769279058,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "hub_lm2",
+      "name": "Hub Left Middle 2",
+      "hash": 789027240,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "hub_lm3",
+      "name": "Hub Left Middle 3",
+      "hash": 2267040168,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "hub_lr",
+      "name": "Hub Left Rear",
+      "hash": 224559343,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "hub_rf",
+      "name": "Hub Right Front",
+      "hash": 2300894090,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "hub_rm1",
+      "name": "Hub Right Middle 1",
+      "hash": 2848740237,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "hub_rm2",
+      "name": "Hub Right Middle 2",
+      "hash": 1894670802,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "hub_rm3",
+      "name": "Hub Right Middle 3",
+      "hash": 2187330741,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "hub_rr",
+      "name": "Hub Right Rear",
+      "hash": 3080665218,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "spring_lf",
+      "name": "Spring Left Front",
+      "hash": 3224753878,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "spring_lr",
+      "name": "Spring Left Rear",
+      "hash": 112550868,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "spring_rf",
+      "name": "Spring Right Front",
+      "hash": 1916083698,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "spring_rr",
+      "name": "Spring Right Rear",
+      "hash": 247256879,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "suspension_lf",
+      "name": "Suspension Left Front",
+      "hash": 2162349233,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "suspension_lm",
+      "name": "Suspension Left Middle",
+      "hash": 2975020497,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "suspension_lr",
+      "name": "Suspension Left Rear",
+      "hash": 1236788888,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "suspension_rf",
+      "name": "Suspension Right Front",
+      "hash": 621876467,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "suspension_rm",
+      "name": "Suspension Right Middle",
+      "hash": 4258252401,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "suspension_rr",
+      "name": "Suspension Right Rear",
+      "hash": 2477617722,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "wheelcover_l",
+      "name": "Wheel Cover Left",
+      "hash": 3015120219,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "wheelcover_r",
+      "name": "Wheel Cover Rear",
+      "hash": 2418953802,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "wheel_f",
+      "name": "Wheel Front",
+      "hash": 3981561930,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "wheel_lb1_dummy",
+      "name": "Wheel Left Back 1 Dummy",
+      "hash": 1096178267,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "wheel_lb2_dummy",
+      "name": "Wheel Left Back 2 Dummy",
+      "hash": 2926658743,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "wheel_lb3_dummy",
+      "name": "Wheel Left Back 3 Dummy",
+      "hash": 1352438795,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "wheel_lf",
+      "name": "Wheel Left Front",
+      "hash": 3311608449,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "wheel_lf1_dummy",
+      "name": "Wheel Left Front 1 Dummy",
+      "hash": 1614447454,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "wheel_lf2_dummy",
+      "name": "Wheel Left Front 2 Dummy",
+      "hash": 1060690740,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "wheel_lf3_dummy",
+      "name": "Wheel Left Front 3 Dummy",
+      "hash": 1478801330,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "wheel_lm1",
+      "name": "Wheel Left Middle 1",
+      "hash": 1705452237,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "wheel_lm2",
+      "name": "Wheel Left Middle 2",
+      "hash": 1415282742,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "wheel_lm3",
+      "name": "Wheel Left Middle 3",
+      "hash": 3392433122,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "wheel_lr",
+      "name": "Wheel Left Rear",
+      "hash": 1695736278,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "wheel_r",
+      "name": "Wheel Rear",
+      "hash": 647316180,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "wheel_rb1_dummy",
+      "name": "Wheel Right Back 1 Dummy",
+      "hash": 1823538754,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "wheel_rb2_dummy",
+      "name": "Wheel Right Back 2 Dummy",
+      "hash": 489119919,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "wheel_rb3_dummy",
+      "name": "Wheel Right Back 3 Dummy",
+      "hash": 107902306,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "wheel_rf",
+      "name": "Wheel Right Front",
+      "hash": 133671269,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "wheel_rf1_dummy",
+      "name": "Wheel Right Front 1 Dummy",
+      "hash": 3298277717,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "wheel_rf2_dummy",
+      "name": "Wheel Right Front 2 Dummy",
+      "hash": 1243371182,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "wheel_rf3_dummy",
+      "name": "Wheel Right Front 3 Dummy",
+      "hash": 460701361,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "wheel_rm1",
+      "name": "Wheel Right Middle 1",
+      "hash": 2908525601,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "wheel_rm2",
+      "name": "Wheel Right Middle 2",
+      "hash": 2835549038,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "wheel_rm3",
+      "name": "Wheel Right Middle 3",
+      "hash": 4148013026,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "wheel_rr",
+      "name": "Wheel Right Rear",
+      "hash": 1670111368,
+      "category": "Wheels & Suspension"
+    },
+    {
+      "id": "window_lf",
+      "name": "Window Left Front",
+      "hash": 4283577347,
+      "category": "Windows & Glass"
+    },
+    {
+      "id": "window_lf1",
+      "name": "Window Left Front 1",
+      "hash": 1555168897,
+      "category": "Windows & Glass"
+    },
+    {
+      "id": "window_lf2",
+      "name": "Window Left Front 2",
+      "hash": 3694624138,
+      "category": "Windows & Glass"
+    },
+    {
+      "id": "window_lf3",
+      "name": "Window Left Front 3",
+      "hash": 3388856599,
+      "category": "Windows & Glass"
+    },
+    {
+      "id": "window_lm",
+      "name": "Window Left Middle",
+      "hash": 2675373130,
+      "category": "Windows & Glass"
+    },
+    {
+      "id": "window_lr",
+      "name": "Window Left Rear",
+      "hash": 2639884295,
+      "category": "Windows & Glass"
+    },
+    {
+      "id": "window_lr1",
+      "name": "Window Left Rear 1",
+      "hash": 1370009367,
+      "category": "Windows & Glass"
+    },
+    {
+      "id": "window_lr2",
+      "name": "Window Left Rear 2",
+      "hash": 903903159,
+      "category": "Windows & Glass"
+    },
+    {
+      "id": "window_lr3",
+      "name": "Window Left Rear 3",
+      "hash": 598856538,
+      "category": "Windows & Glass"
+    },
+    {
+      "id": "window_rf",
+      "name": "Window Right Front",
+      "hash": 498851022,
+      "category": "Windows & Glass"
+    },
+    {
+      "id": "window_rf1",
+      "name": "Window Right Front 1",
+      "hash": 2033386959,
+      "category": "Windows & Glass"
+    },
+    {
+      "id": "window_rf2",
+      "name": "Window Right Front 2",
+      "hash": 2474457699,
+      "category": "Windows & Glass"
+    },
+    {
+      "id": "window_rf3",
+      "name": "Window Right Front 3",
+      "hash": 4074338594,
+      "category": "Windows & Glass"
+    },
+    {
+      "id": "window_rm",
+      "name": "Window Right Middle",
+      "hash": 3523659197,
+      "category": "Windows & Glass"
+    },
+    {
+      "id": "window_rr",
+      "name": "Window Right Rear",
+      "hash": 2355575415,
+      "category": "Windows & Glass"
+    },
+    {
+      "id": "window_rr1",
+      "name": "Window Right Rear 1",
+      "hash": 2735566395,
+      "category": "Windows & Glass"
+    },
+    {
+      "id": "window_rr2",
+      "name": "Window Right Rear 2",
+      "hash": 882282831,
+      "category": "Windows & Glass"
+    },
+    {
+      "id": "window_rr3",
+      "name": "Window Right Rear 3",
+      "hash": 2127537600,
+      "category": "Windows & Glass"
+    },
+    {
+      "id": "windscreen",
+      "name": "Windscreen",
+      "hash": 3615744592,
+      "category": "Windows & Glass"
+    },
+    {
+      "id": "windscreen_r",
+      "name": "Windscreen Rear",
+      "hash": 1088105007,
+      "category": "Windows & Glass"
+    }
+  ]
+}

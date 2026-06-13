@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "pedbones",
+    "label": "Ped Bones",
+    "note": "Ped skeleton bones. boneId = the bone tag used with GET_PED_BONE_INDEX (not a joaat hash). type = bone kind (Skeleton/Facial/IK/Roll/Physics/Helper). No images. category groups under by-category/; reverse boneId -> bone in byid.json."
+  },
+  "group": {
+    "name": "Left Hand",
+    "slug": "left-hand",
+    "count": 18
+  },
+  "count": 18,
+  "items": [
+    {
+      "id": "SKEL_L_Finger00",
+      "name": "Left Finger 00",
+      "boneId": 26610,
+      "type": "Skeleton",
+      "category": "Left Hand"
+    },
+    {
+      "id": "SKEL_L_Finger01",
+      "name": "Left Finger 01",
+      "boneId": 4089,
+      "type": "Skeleton",
+      "category": "Left Hand"
+    },
+    {
+      "id": "SKEL_L_Finger02",
+      "name": "Left Finger 02",
+      "boneId": 4090,
+      "type": "Skeleton",
+      "category": "Left Hand"
+    },
+    {
+      "id": "SKEL_L_Finger10",
+      "name": "Left Finger 10",
+      "boneId": 26611,
+      "type": "Skeleton",
+      "category": "Left Hand"
+    },
+    {
+      "id": "SKEL_L_Finger11",
+      "name": "Left Finger 11",
+      "boneId": 4169,
+      "type": "Skeleton",
+      "category": "Left Hand"
+    },
+    {
+      "id": "SKEL_L_Finger12",
+      "name": "Left Finger 12",
+      "boneId": 4170,
+      "type": "Skeleton",
+      "category": "Left Hand"
+    },
+    {
+      "id": "SKEL_L_Finger20",
+      "name": "Left Finger 20",
+      "boneId": 26612,
+      "type": "Skeleton",
+      "category": "Left Hand"
+    },
+    {
+      "id": "SKEL_L_Finger21",
+      "name": "Left Finger 21",
+      "boneId": 4185,
+      "type": "Skeleton",
+      "category": "Left Hand"
+    },
+    {
+      "id": "SKEL_L_Finger22",
+      "name": "Left Finger 22",
+      "boneId": 4186,
+      "type": "Skeleton",
+      "category": "Left Hand"
+    },
+    {
+      "id": "SKEL_L_Finger30",
+      "name": "Left Finger 30",
+      "boneId": 26613,
+      "type": "Skeleton",
+      "category": "Left Hand"
+    },
+    {
+      "id": "SKEL_L_Finger31",
+      "name": "Left Finger 31",
+      "boneId": 4137,
+      "type": "Skeleton",
+      "category": "Left Hand"
+    },
+    {
+      "id": "SKEL_L_Finger32",
+      "name": "Left Finger 32",
+      "boneId": 4138,
+      "type": "Skeleton",
+      "category": "Left Hand"
+    },
+    {
+      "id": "SKEL_L_Finger40",
+      "name": "Left Finger 40",
+      "boneId": 26614,
+      "type": "Skeleton",
+      "category": "Left Hand"
+    },
+    {
+      "id": "SKEL_L_Finger41",
+      "name": "Left Finger 41",
+      "boneId": 4153,
+      "type": "Skeleton",
+      "category": "Left Hand"
+    },
+    {
+      "id": "SKEL_L_Finger42",
+      "name": "Left Finger 42",
+      "boneId": 4154,
+      "type": "Skeleton",
+      "category": "Left Hand"
+    },
+    {
+      "id": "SKEL_L_Hand",
+      "name": "Left Hand",
+      "boneId": 18905,
+      "type": "Skeleton",
+      "category": "Left Hand"
+    },
+    {
+      "id": "IK_L_Hand",
+      "name": "Left Hand (IK)",
+      "boneId": 36029,
+      "type": "IK",
+      "category": "Left Hand"
+    },
+    {
+      "id": "PH_L_Hand",
+      "name": "Left Hand (Physics)",
+      "boneId": 60309,
+      "type": "Physics",
+      "category": "Left Hand"
+    }
+  ]
+}

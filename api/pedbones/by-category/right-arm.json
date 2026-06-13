@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "pedbones",
+    "label": "Ped Bones",
+    "note": "Ped skeleton bones. boneId = the bone tag used with GET_PED_BONE_INDEX (not a joaat hash). type = bone kind (Skeleton/Facial/IK/Roll/Physics/Helper). No images. category groups under by-category/; reverse boneId -> bone in byid.json."
+  },
+  "group": {
+    "name": "Right Arm",
+    "slug": "right-arm",
+    "count": 6
+  },
+  "count": 6,
+  "items": [
+    {
+      "id": "RB_R_ArmRoll",
+      "name": "Right Arm Roll",
+      "boneId": 37119,
+      "type": "Roll",
+      "category": "Right Arm"
+    },
+    {
+      "id": "SKEL_R_Clavicle",
+      "name": "Right Clavicle",
+      "boneId": 10706,
+      "type": "Skeleton",
+      "category": "Right Arm"
+    },
+    {
+      "id": "MH_R_Elbow",
+      "name": "Right Elbow (Helper)",
+      "boneId": 2992,
+      "type": "Helper",
+      "category": "Right Arm"
+    },
+    {
+      "id": "RB_R_ForeArmRoll",
+      "name": "Right Fore Arm Roll",
+      "boneId": 43810,
+      "type": "Roll",
+      "category": "Right Arm"
+    },
+    {
+      "id": "SKEL_R_Forearm",
+      "name": "Right Forearm",
+      "boneId": 28252,
+      "type": "Skeleton",
+      "category": "Right Arm"
+    },
+    {
+      "id": "SKEL_R_UpperArm",
+      "name": "Right Upper Arm",
+      "boneId": 40269,
+      "type": "Skeleton",
+      "category": "Right Arm"
+    }
+  ]
+}

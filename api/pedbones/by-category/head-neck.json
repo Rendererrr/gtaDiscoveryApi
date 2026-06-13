@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "pedbones",
+    "label": "Ped Bones",
+    "note": "Ped skeleton bones. boneId = the bone tag used with GET_PED_BONE_INDEX (not a joaat hash). type = bone kind (Skeleton/Facial/IK/Roll/Physics/Helper). No images. category groups under by-category/; reverse boneId -> bone in byid.json."
+  },
+  "group": {
+    "name": "Head & Neck",
+    "slug": "head-neck",
+    "count": 4
+  },
+  "count": 4,
+  "items": [
+    {
+      "id": "SKEL_Head",
+      "name": "Head",
+      "boneId": 31086,
+      "type": "Skeleton",
+      "category": "Head & Neck"
+    },
+    {
+      "id": "IK_Head",
+      "name": "Head (IK)",
+      "boneId": 12844,
+      "type": "IK",
+      "category": "Head & Neck"
+    },
+    {
+      "id": "RB_Neck_1",
+      "name": "Neck 1",
+      "boneId": 35731,
+      "type": "Roll",
+      "category": "Head & Neck"
+    },
+    {
+      "id": "SKEL_Neck_1",
+      "name": "Neck 1",
+      "boneId": 39317,
+      "type": "Skeleton",
+      "category": "Head & Neck"
+    }
+  ]
+}

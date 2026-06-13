@@ -1,0 +1,314 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehiclebones",
+    "label": "Vehicle Bones",
+    "urlPattern": null,
+    "note": "Vehicle bone names. hash = joaat(id) (resolves via GET_ENTITY_BONE_INDEX_BY_NAME). No images. category groups under by-category/; reverse hash -> { id, name, category } in hashes.json."
+  },
+  "group": {
+    "name": "Aircraft",
+    "key": "Aircraft",
+    "slug": "aircraft",
+    "count": 49
+  },
+  "count": 49,
+  "items": [
+    {
+      "id": "aileron_l",
+      "name": "Aileron Left",
+      "hash": 1564121135,
+      "category": "Aircraft"
+    },
+    {
+      "id": "aileron_r",
+      "name": "Aileron Rear",
+      "hash": 3421631880,
+      "category": "Aircraft"
+    },
+    {
+      "id": "airbrake_l",
+      "name": "Airbrake Left",
+      "hash": 2243771225,
+      "category": "Aircraft"
+    },
+    {
+      "id": "airbrake_r",
+      "name": "Airbrake Rear",
+      "hash": 3434989913,
+      "category": "Aircraft"
+    },
+    {
+      "id": "elevator_l",
+      "name": "Elevator Left",
+      "hash": 1926359547,
+      "category": "Aircraft"
+    },
+    {
+      "id": "elevator_r",
+      "name": "Elevator Rear",
+      "hash": 1085146552,
+      "category": "Aircraft"
+    },
+    {
+      "id": "elevators",
+      "name": "Elevators",
+      "hash": 3055659594,
+      "category": "Aircraft"
+    },
+    {
+      "id": "gear_door_fl",
+      "name": "Gear Door Front Left",
+      "hash": 3259062382,
+      "category": "Aircraft"
+    },
+    {
+      "id": "gear_door_fr",
+      "name": "Gear Door Front Right",
+      "hash": 1006128098,
+      "category": "Aircraft"
+    },
+    {
+      "id": "gear_door_rl1",
+      "name": "Gear Door Rear Left 1",
+      "hash": 4086164091,
+      "category": "Aircraft"
+    },
+    {
+      "id": "gear_door_rl2",
+      "name": "Gear Door Rear Left 2",
+      "hash": 3302427918,
+      "category": "Aircraft"
+    },
+    {
+      "id": "gear_door_rml",
+      "name": "Gear Door Rear Mid Left",
+      "hash": 4131548884,
+      "category": "Aircraft"
+    },
+    {
+      "id": "gear_door_rmr",
+      "name": "Gear Door Rear Mid Right",
+      "hash": 1661618310,
+      "category": "Aircraft"
+    },
+    {
+      "id": "gear_door_rr1",
+      "name": "Gear Door Right Rear 1",
+      "hash": 182624272,
+      "category": "Aircraft"
+    },
+    {
+      "id": "gear_door_rr2",
+      "name": "Gear Door Right Rear 2",
+      "hash": 1564722389,
+      "category": "Aircraft"
+    },
+    {
+      "id": "gear_f",
+      "name": "Gear Front",
+      "hash": 2490314370,
+      "category": "Aircraft"
+    },
+    {
+      "id": "gear_lm1",
+      "name": "Gear Left Middle 1",
+      "hash": 1953793501,
+      "category": "Aircraft"
+    },
+    {
+      "id": "gear_rl",
+      "name": "Gear Rear Left",
+      "hash": 3333456806,
+      "category": "Aircraft"
+    },
+    {
+      "id": "gear_rm",
+      "name": "Gear Right Middle",
+      "hash": 550746095,
+      "category": "Aircraft"
+    },
+    {
+      "id": "gear_rm1",
+      "name": "Gear Right Middle 1",
+      "hash": 2070512691,
+      "category": "Aircraft"
+    },
+    {
+      "id": "gear_rr",
+      "name": "Gear Right Rear",
+      "hash": 1898993831,
+      "category": "Aircraft"
+    },
+    {
+      "id": "outriggers_l",
+      "name": "Outriggers Left",
+      "hash": 1851296602,
+      "category": "Aircraft"
+    },
+    {
+      "id": "outriggers_r",
+      "name": "Outriggers Rear",
+      "hash": 3688949357,
+      "category": "Aircraft"
+    },
+    {
+      "id": "prop_1",
+      "name": "Prop 1",
+      "hash": 1838424552,
+      "category": "Aircraft"
+    },
+    {
+      "id": "prop_2",
+      "name": "Prop 2",
+      "hash": 1599243621,
+      "category": "Aircraft"
+    },
+    {
+      "id": "prop_3",
+      "name": "Prop 3",
+      "hash": 3684793857,
+      "category": "Aircraft"
+    },
+    {
+      "id": "prop_4",
+      "name": "Prop 4",
+      "hash": 3416710668,
+      "category": "Aircraft"
+    },
+    {
+      "id": "prop_5",
+      "name": "Prop 5",
+      "hash": 3056317206,
+      "category": "Aircraft"
+    },
+    {
+      "id": "prop_6",
+      "name": "Prop 6",
+      "hash": 2800096395,
+      "category": "Aircraft"
+    },
+    {
+      "id": "prop_7",
+      "name": "Prop 7",
+      "hash": 11454491,
+      "category": "Aircraft"
+    },
+    {
+      "id": "prop_8",
+      "name": "Prop 8",
+      "hash": 942421757,
+      "category": "Aircraft"
+    },
+    {
+      "id": "prop_left",
+      "name": "Prop Left",
+      "hash": 2970875470,
+      "category": "Aircraft"
+    },
+    {
+      "id": "prop_right",
+      "name": "Prop Right",
+      "hash": 4031099223,
+      "category": "Aircraft"
+    },
+    {
+      "id": "rotor_main",
+      "name": "Rotor Main",
+      "hash": 3684207747,
+      "category": "Aircraft"
+    },
+    {
+      "id": "rotor_main_2",
+      "name": "Rotor Main 2",
+      "hash": 3827508025,
+      "category": "Aircraft"
+    },
+    {
+      "id": "rotor_rear",
+      "name": "Rotor Rear",
+      "hash": 2757650424,
+      "category": "Aircraft"
+    },
+    {
+      "id": "rotor_rear_2",
+      "name": "Rotor Rear 2",
+      "hash": 691372201,
+      "category": "Aircraft"
+    },
+    {
+      "id": "rudder",
+      "name": "Rudder",
+      "hash": 1540408273,
+      "category": "Aircraft"
+    },
+    {
+      "id": "rudder2",
+      "name": "Rudder 2",
+      "hash": 1097854375,
+      "category": "Aircraft"
+    },
+    {
+      "id": "rudder_2",
+      "name": "Rudder 2",
+      "hash": 950042043,
+      "category": "Aircraft"
+    },
+    {
+      "id": "rudder_l",
+      "name": "Rudder Left",
+      "hash": 3711813315,
+      "category": "Aircraft"
+    },
+    {
+      "id": "rudder_r",
+      "name": "Rudder Rear",
+      "hash": 2754565287,
+      "category": "Aircraft"
+    },
+    {
+      "id": "tail",
+      "name": "Tail",
+      "hash": 2092843852,
+      "category": "Aircraft"
+    },
+    {
+      "id": "wing_l",
+      "name": "Wing Left",
+      "hash": 365218459,
+      "category": "Aircraft"
+    },
+    {
+      "id": "wing_lr",
+      "name": "Wing Left Rear",
+      "hash": 3569501075,
+      "category": "Aircraft"
+    },
+    {
+      "id": "wing_r",
+      "name": "Wing Rear",
+      "hash": 843154324,
+      "category": "Aircraft"
+    },
+    {
+      "id": "wing_rr",
+      "name": "Wing Right Rear",
+      "hash": 3331761504,
+      "category": "Aircraft"
+    },
+    {
+      "id": "wingtip_1",
+      "name": "Wingtip 1",
+      "hash": 369208546,
+      "category": "Aircraft"
+    },
+    {
+      "id": "wingtip_2",
+      "name": "Wingtip 2",
+      "hash": 597772321,
+      "category": "Aircraft"
+    }
+  ]
+}

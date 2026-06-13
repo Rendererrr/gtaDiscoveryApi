@@ -1,0 +1,702 @@
+{
+  "note": "GTA ped skeleton bones with bone IDs (boneId — the value used by GET_PED_BONE_INDEX / bone tag). Categorized by body region with friendly display names. type = bone kind (Skeleton/Facial/IK/Roll/Physics/Helper).",
+  "categories": [
+    "Face",
+    "Head & Neck",
+    "Left Arm",
+    "Left Hand",
+    "Left Leg",
+    "Right Arm",
+    "Right Hand",
+    "Right Leg",
+    "Spine & Root"
+  ],
+  "bones": [
+    {
+      "id": "FB_Brow_Centre_000",
+      "name": "Brow Centre",
+      "boneId": 37193,
+      "type": "Facial",
+      "category": "Face"
+    },
+    {
+      "id": "FACIAL_facialRoot",
+      "name": "Facial Root",
+      "boneId": 65068,
+      "type": "Facial",
+      "category": "Face"
+    },
+    {
+      "id": "FB_Jaw_000",
+      "name": "Jaw",
+      "boneId": 46240,
+      "type": "Facial",
+      "category": "Face"
+    },
+    {
+      "id": "FB_L_Brow_Out_000",
+      "name": "Left Brow Out",
+      "boneId": 58331,
+      "type": "Facial",
+      "category": "Face"
+    },
+    {
+      "id": "FB_L_CheekBone_000",
+      "name": "Left Cheek Bone",
+      "boneId": 21550,
+      "type": "Facial",
+      "category": "Face"
+    },
+    {
+      "id": "FB_L_Eye_000",
+      "name": "Left Eye",
+      "boneId": 25260,
+      "type": "Facial",
+      "category": "Face"
+    },
+    {
+      "id": "FB_L_Lid_Upper_000",
+      "name": "Left Lid Upper",
+      "boneId": 45750,
+      "type": "Facial",
+      "category": "Face"
+    },
+    {
+      "id": "FB_L_Lip_Bot_000",
+      "name": "Left Lip Bot",
+      "boneId": 47419,
+      "type": "Facial",
+      "category": "Face"
+    },
+    {
+      "id": "FB_L_Lip_Corner_000",
+      "name": "Left Lip Corner",
+      "boneId": 29868,
+      "type": "Facial",
+      "category": "Face"
+    },
+    {
+      "id": "FB_L_Lip_Top_000",
+      "name": "Left Lip Top",
+      "boneId": 20279,
+      "type": "Facial",
+      "category": "Face"
+    },
+    {
+      "id": "FB_LowerLip_000",
+      "name": "Lower Lip",
+      "boneId": 20623,
+      "type": "Facial",
+      "category": "Face"
+    },
+    {
+      "id": "FB_LowerLipRoot_000",
+      "name": "Lower Lip Root",
+      "boneId": 17188,
+      "type": "Facial",
+      "category": "Face"
+    },
+    {
+      "id": "FB_R_Brow_Out_000",
+      "name": "Right Brow Out",
+      "boneId": 1356,
+      "type": "Facial",
+      "category": "Face"
+    },
+    {
+      "id": "FB_R_CheekBone_000",
+      "name": "Right Cheek Bone",
+      "boneId": 19336,
+      "type": "Facial",
+      "category": "Face"
+    },
+    {
+      "id": "FB_R_Eye_000",
+      "name": "Right Eye",
+      "boneId": 27474,
+      "type": "Facial",
+      "category": "Face"
+    },
+    {
+      "id": "FB_R_Lid_Upper_000",
+      "name": "Right Lid Upper",
+      "boneId": 43536,
+      "type": "Facial",
+      "category": "Face"
+    },
+    {
+      "id": "FB_R_Lip_Bot_000",
+      "name": "Right Lip Bot",
+      "boneId": 49979,
+      "type": "Facial",
+      "category": "Face"
+    },
+    {
+      "id": "FB_R_Lip_Corner_000",
+      "name": "Right Lip Corner",
+      "boneId": 11174,
+      "type": "Facial",
+      "category": "Face"
+    },
+    {
+      "id": "FB_R_Lip_Top_000",
+      "name": "Right Lip Top",
+      "boneId": 17719,
+      "type": "Facial",
+      "category": "Face"
+    },
+    {
+      "id": "FB_Tongue_000",
+      "name": "Tongue",
+      "boneId": 47495,
+      "type": "Facial",
+      "category": "Face"
+    },
+    {
+      "id": "FB_UpperLip_000",
+      "name": "Upper Lip",
+      "boneId": 61839,
+      "type": "Facial",
+      "category": "Face"
+    },
+    {
+      "id": "FB_UpperLipRoot_000",
+      "name": "Upper Lip Root",
+      "boneId": 20178,
+      "type": "Facial",
+      "category": "Face"
+    },
+    {
+      "id": "SKEL_Head",
+      "name": "Head",
+      "boneId": 31086,
+      "type": "Skeleton",
+      "category": "Head & Neck"
+    },
+    {
+      "id": "IK_Head",
+      "name": "Head (IK)",
+      "boneId": 12844,
+      "type": "IK",
+      "category": "Head & Neck"
+    },
+    {
+      "id": "RB_Neck_1",
+      "name": "Neck 1",
+      "boneId": 35731,
+      "type": "Roll",
+      "category": "Head & Neck"
+    },
+    {
+      "id": "SKEL_Neck_1",
+      "name": "Neck 1",
+      "boneId": 39317,
+      "type": "Skeleton",
+      "category": "Head & Neck"
+    },
+    {
+      "id": "RB_L_ArmRoll",
+      "name": "Left Arm Roll",
+      "boneId": 5232,
+      "type": "Roll",
+      "category": "Left Arm"
+    },
+    {
+      "id": "SKEL_L_Clavicle",
+      "name": "Left Clavicle",
+      "boneId": 64729,
+      "type": "Skeleton",
+      "category": "Left Arm"
+    },
+    {
+      "id": "MH_L_Elbow",
+      "name": "Left Elbow (Helper)",
+      "boneId": 22711,
+      "type": "Helper",
+      "category": "Left Arm"
+    },
+    {
+      "id": "RB_L_ForeArmRoll",
+      "name": "Left Fore Arm Roll",
+      "boneId": 61007,
+      "type": "Roll",
+      "category": "Left Arm"
+    },
+    {
+      "id": "SKEL_L_Forearm",
+      "name": "Left Forearm",
+      "boneId": 61163,
+      "type": "Skeleton",
+      "category": "Left Arm"
+    },
+    {
+      "id": "SKEL_L_UpperArm",
+      "name": "Left Upper Arm",
+      "boneId": 45509,
+      "type": "Skeleton",
+      "category": "Left Arm"
+    },
+    {
+      "id": "SKEL_L_Finger00",
+      "name": "Left Finger 00",
+      "boneId": 26610,
+      "type": "Skeleton",
+      "category": "Left Hand"
+    },
+    {
+      "id": "SKEL_L_Finger01",
+      "name": "Left Finger 01",
+      "boneId": 4089,
+      "type": "Skeleton",
+      "category": "Left Hand"
+    },
+    {
+      "id": "SKEL_L_Finger02",
+      "name": "Left Finger 02",
+      "boneId": 4090,
+      "type": "Skeleton",
+      "category": "Left Hand"
+    },
+    {
+      "id": "SKEL_L_Finger10",
+      "name": "Left Finger 10",
+      "boneId": 26611,
+      "type": "Skeleton",
+      "category": "Left Hand"
+    },
+    {
+      "id": "SKEL_L_Finger11",
+      "name": "Left Finger 11",
+      "boneId": 4169,
+      "type": "Skeleton",
+      "category": "Left Hand"
+    },
+    {
+      "id": "SKEL_L_Finger12",
+      "name": "Left Finger 12",
+      "boneId": 4170,
+      "type": "Skeleton",
+      "category": "Left Hand"
+    },
+    {
+      "id": "SKEL_L_Finger20",
+      "name": "Left Finger 20",
+      "boneId": 26612,
+      "type": "Skeleton",
+      "category": "Left Hand"
+    },
+    {
+      "id": "SKEL_L_Finger21",
+      "name": "Left Finger 21",
+      "boneId": 4185,
+      "type": "Skeleton",
+      "category": "Left Hand"
+    },
+    {
+      "id": "SKEL_L_Finger22",
+      "name": "Left Finger 22",
+      "boneId": 4186,
+      "type": "Skeleton",
+      "category": "Left Hand"
+    },
+    {
+      "id": "SKEL_L_Finger30",
+      "name": "Left Finger 30",
+      "boneId": 26613,
+      "type": "Skeleton",
+      "category": "Left Hand"
+    },
+    {
+      "id": "SKEL_L_Finger31",
+      "name": "Left Finger 31",
+      "boneId": 4137,
+      "type": "Skeleton",
+      "category": "Left Hand"
+    },
+    {
+      "id": "SKEL_L_Finger32",
+      "name": "Left Finger 32",
+      "boneId": 4138,
+      "type": "Skeleton",
+      "category": "Left Hand"
+    },
+    {
+      "id": "SKEL_L_Finger40",
+      "name": "Left Finger 40",
+      "boneId": 26614,
+      "type": "Skeleton",
+      "category": "Left Hand"
+    },
+    {
+      "id": "SKEL_L_Finger41",
+      "name": "Left Finger 41",
+      "boneId": 4153,
+      "type": "Skeleton",
+      "category": "Left Hand"
+    },
+    {
+      "id": "SKEL_L_Finger42",
+      "name": "Left Finger 42",
+      "boneId": 4154,
+      "type": "Skeleton",
+      "category": "Left Hand"
+    },
+    {
+      "id": "SKEL_L_Hand",
+      "name": "Left Hand",
+      "boneId": 18905,
+      "type": "Skeleton",
+      "category": "Left Hand"
+    },
+    {
+      "id": "IK_L_Hand",
+      "name": "Left Hand (IK)",
+      "boneId": 36029,
+      "type": "IK",
+      "category": "Left Hand"
+    },
+    {
+      "id": "PH_L_Hand",
+      "name": "Left Hand (Physics)",
+      "boneId": 60309,
+      "type": "Physics",
+      "category": "Left Hand"
+    },
+    {
+      "id": "SKEL_L_Calf",
+      "name": "Left Calf",
+      "boneId": 63931,
+      "type": "Skeleton",
+      "category": "Left Leg"
+    },
+    {
+      "id": "SKEL_L_Foot",
+      "name": "Left Foot",
+      "boneId": 14201,
+      "type": "Skeleton",
+      "category": "Left Leg"
+    },
+    {
+      "id": "IK_L_Foot",
+      "name": "Left Foot (IK)",
+      "boneId": 65245,
+      "type": "IK",
+      "category": "Left Leg"
+    },
+    {
+      "id": "PH_L_Foot",
+      "name": "Left Foot (Physics)",
+      "boneId": 57717,
+      "type": "Physics",
+      "category": "Left Leg"
+    },
+    {
+      "id": "MH_L_Knee",
+      "name": "Left Knee (Helper)",
+      "boneId": 46078,
+      "type": "Helper",
+      "category": "Left Leg"
+    },
+    {
+      "id": "SKEL_L_Thigh",
+      "name": "Left Thigh",
+      "boneId": 58271,
+      "type": "Skeleton",
+      "category": "Left Leg"
+    },
+    {
+      "id": "RB_L_ThighRoll",
+      "name": "Left Thigh Roll",
+      "boneId": 23639,
+      "type": "Roll",
+      "category": "Left Leg"
+    },
+    {
+      "id": "SKEL_L_Toe0",
+      "name": "Left Toe 0",
+      "boneId": 2108,
+      "type": "Skeleton",
+      "category": "Left Leg"
+    },
+    {
+      "id": "RB_R_ArmRoll",
+      "name": "Right Arm Roll",
+      "boneId": 37119,
+      "type": "Roll",
+      "category": "Right Arm"
+    },
+    {
+      "id": "SKEL_R_Clavicle",
+      "name": "Right Clavicle",
+      "boneId": 10706,
+      "type": "Skeleton",
+      "category": "Right Arm"
+    },
+    {
+      "id": "MH_R_Elbow",
+      "name": "Right Elbow (Helper)",
+      "boneId": 2992,
+      "type": "Helper",
+      "category": "Right Arm"
+    },
+    {
+      "id": "RB_R_ForeArmRoll",
+      "name": "Right Fore Arm Roll",
+      "boneId": 43810,
+      "type": "Roll",
+      "category": "Right Arm"
+    },
+    {
+      "id": "SKEL_R_Forearm",
+      "name": "Right Forearm",
+      "boneId": 28252,
+      "type": "Skeleton",
+      "category": "Right Arm"
+    },
+    {
+      "id": "SKEL_R_UpperArm",
+      "name": "Right Upper Arm",
+      "boneId": 40269,
+      "type": "Skeleton",
+      "category": "Right Arm"
+    },
+    {
+      "id": "SKEL_R_Finger00",
+      "name": "Right Finger 00",
+      "boneId": 58866,
+      "type": "Skeleton",
+      "category": "Right Hand"
+    },
+    {
+      "id": "SKEL_R_Finger01",
+      "name": "Right Finger 01",
+      "boneId": 64016,
+      "type": "Skeleton",
+      "category": "Right Hand"
+    },
+    {
+      "id": "SKEL_R_Finger02",
+      "name": "Right Finger 02",
+      "boneId": 64017,
+      "type": "Skeleton",
+      "category": "Right Hand"
+    },
+    {
+      "id": "SKEL_R_Finger10",
+      "name": "Right Finger 10",
+      "boneId": 58867,
+      "type": "Skeleton",
+      "category": "Right Hand"
+    },
+    {
+      "id": "SKEL_R_Finger11",
+      "name": "Right Finger 11",
+      "boneId": 64096,
+      "type": "Skeleton",
+      "category": "Right Hand"
+    },
+    {
+      "id": "SKEL_R_Finger12",
+      "name": "Right Finger 12",
+      "boneId": 64097,
+      "type": "Skeleton",
+      "category": "Right Hand"
+    },
+    {
+      "id": "SKEL_R_Finger20",
+      "name": "Right Finger 20",
+      "boneId": 58868,
+      "type": "Skeleton",
+      "category": "Right Hand"
+    },
+    {
+      "id": "SKEL_R_Finger21",
+      "name": "Right Finger 21",
+      "boneId": 64112,
+      "type": "Skeleton",
+      "category": "Right Hand"
+    },
+    {
+      "id": "SKEL_R_Finger22",
+      "name": "Right Finger 22",
+      "boneId": 64113,
+      "type": "Skeleton",
+      "category": "Right Hand"
+    },
+    {
+      "id": "SKEL_R_Finger30",
+      "name": "Right Finger 30",
+      "boneId": 58869,
+      "type": "Skeleton",
+      "category": "Right Hand"
+    },
+    {
+      "id": "SKEL_R_Finger31",
+      "name": "Right Finger 31",
+      "boneId": 64064,
+      "type": "Skeleton",
+      "category": "Right Hand"
+    },
+    {
+      "id": "SKEL_R_Finger32",
+      "name": "Right Finger 32",
+      "boneId": 64065,
+      "type": "Skeleton",
+      "category": "Right Hand"
+    },
+    {
+      "id": "SKEL_R_Finger40",
+      "name": "Right Finger 40",
+      "boneId": 58870,
+      "type": "Skeleton",
+      "category": "Right Hand"
+    },
+    {
+      "id": "SKEL_R_Finger41",
+      "name": "Right Finger 41",
+      "boneId": 64080,
+      "type": "Skeleton",
+      "category": "Right Hand"
+    },
+    {
+      "id": "SKEL_R_Finger42",
+      "name": "Right Finger 42",
+      "boneId": 64081,
+      "type": "Skeleton",
+      "category": "Right Hand"
+    },
+    {
+      "id": "SKEL_R_Hand",
+      "name": "Right Hand",
+      "boneId": 57005,
+      "type": "Skeleton",
+      "category": "Right Hand"
+    },
+    {
+      "id": "IK_R_Hand",
+      "name": "Right Hand (IK)",
+      "boneId": 6286,
+      "type": "IK",
+      "category": "Right Hand"
+    },
+    {
+      "id": "PH_R_Hand",
+      "name": "Right Hand (Physics)",
+      "boneId": 28422,
+      "type": "Physics",
+      "category": "Right Hand"
+    },
+    {
+      "id": "SKEL_R_Calf",
+      "name": "Right Calf",
+      "boneId": 36864,
+      "type": "Skeleton",
+      "category": "Right Leg"
+    },
+    {
+      "id": "SKEL_R_Foot",
+      "name": "Right Foot",
+      "boneId": 52301,
+      "type": "Skeleton",
+      "category": "Right Leg"
+    },
+    {
+      "id": "IK_R_Foot",
+      "name": "Right Foot (IK)",
+      "boneId": 35502,
+      "type": "IK",
+      "category": "Right Leg"
+    },
+    {
+      "id": "PH_R_Foot",
+      "name": "Right Foot (Physics)",
+      "boneId": 24806,
+      "type": "Physics",
+      "category": "Right Leg"
+    },
+    {
+      "id": "MH_R_Knee",
+      "name": "Right Knee (Helper)",
+      "boneId": 16335,
+      "type": "Helper",
+      "category": "Right Leg"
+    },
+    {
+      "id": "SKEL_R_Thigh",
+      "name": "Right Thigh",
+      "boneId": 51826,
+      "type": "Skeleton",
+      "category": "Right Leg"
+    },
+    {
+      "id": "RB_R_ThighRoll",
+      "name": "Right Thigh Roll",
+      "boneId": 6442,
+      "type": "Roll",
+      "category": "Right Leg"
+    },
+    {
+      "id": "SKEL_R_Toe0",
+      "name": "Right Toe 0",
+      "boneId": 20781,
+      "type": "Skeleton",
+      "category": "Right Leg"
+    },
+    {
+      "id": "SKEL_Pelvis",
+      "name": "Pelvis",
+      "boneId": 11816,
+      "type": "Skeleton",
+      "category": "Spine & Root"
+    },
+    {
+      "id": "SKEL_ROOT",
+      "name": "ROOT",
+      "boneId": 0,
+      "type": "Skeleton",
+      "category": "Spine & Root"
+    },
+    {
+      "id": "IK_Root",
+      "name": "Root (IK)",
+      "boneId": 56604,
+      "type": "IK",
+      "category": "Spine & Root"
+    },
+    {
+      "id": "SKEL_Spine0",
+      "name": "Spine 0",
+      "boneId": 23553,
+      "type": "Skeleton",
+      "category": "Spine & Root"
+    },
+    {
+      "id": "SKEL_Spine1",
+      "name": "Spine 1",
+      "boneId": 24816,
+      "type": "Skeleton",
+      "category": "Spine & Root"
+    },
+    {
+      "id": "SKEL_Spine2",
+      "name": "Spine 2",
+      "boneId": 24817,
+      "type": "Skeleton",
+      "category": "Spine & Root"
+    },
+    {
+      "id": "SKEL_Spine3",
+      "name": "Spine 3",
+      "boneId": 24818,
+      "type": "Skeleton",
+      "category": "Spine & Root"
+    },
+    {
+      "id": "SKEL_Spine_Root",
+      "name": "Spine Root",
+      "boneId": 57597,
+      "type": "Skeleton",
+      "category": "Spine & Root"
+    }
+  ]
+}

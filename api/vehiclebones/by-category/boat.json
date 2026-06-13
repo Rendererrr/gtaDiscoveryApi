@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehiclebones",
+    "label": "Vehicle Bones",
+    "urlPattern": null,
+    "note": "Vehicle bone names. hash = joaat(id) (resolves via GET_ENTITY_BONE_INDEX_BY_NAME). No images. category groups under by-category/; reverse hash -> { id, name, category } in hashes.json."
+  },
+  "group": {
+    "name": "Boat",
+    "key": "Boat",
+    "slug": "boat",
+    "count": 2
+  },
+  "count": 2,
+  "items": [
+    {
+      "id": "pontoon_l",
+      "name": "Pontoon Left",
+      "hash": 4095770520,
+      "category": "Boat"
+    },
+    {
+      "id": "pontoon_r",
+      "name": "Pontoon Rear",
+      "hash": 1127095726,
+      "category": "Boat"
+    }
+  ]
+}

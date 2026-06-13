@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "pedbones",
+    "label": "Ped Bones",
+    "note": "Ped skeleton bones. boneId = the bone tag used with GET_PED_BONE_INDEX (not a joaat hash). type = bone kind (Skeleton/Facial/IK/Roll/Physics/Helper). No images. category groups under by-category/; reverse boneId -> bone in byid.json."
+  },
+  "count": 9,
+  "groups": [
+    {
+      "name": "Face",
+      "slug": "face",
+      "count": 22,
+      "path": "api/pedbones/by-category/face.json"
+    },
+    {
+      "name": "Left Hand",
+      "slug": "left-hand",
+      "count": 18,
+      "path": "api/pedbones/by-category/left-hand.json"
+    },
+    {
+      "name": "Right Hand",
+      "slug": "right-hand",
+      "count": 18,
+      "path": "api/pedbones/by-category/right-hand.json"
+    },
+    {
+      "name": "Left Leg",
+      "slug": "left-leg",
+      "count": 8,
+      "path": "api/pedbones/by-category/left-leg.json"
+    },
+    {
+      "name": "Right Leg",
+      "slug": "right-leg",
+      "count": 8,
+      "path": "api/pedbones/by-category/right-leg.json"
+    },
+    {
+      "name": "Spine & Root",
+      "slug": "spine-root",
+      "count": 8,
+      "path": "api/pedbones/by-category/spine-root.json"
+    },
+    {
+      "name": "Left Arm",
+      "slug": "left-arm",
+      "count": 6,
+      "path": "api/pedbones/by-category/left-arm.json"
+    },
+    {
+      "name": "Right Arm",
+      "slug": "right-arm",
+      "count": 6,
+      "path": "api/pedbones/by-category/right-arm.json"
+    },
+    {
+      "name": "Head & Neck",
+      "slug": "head-neck",
+      "count": 4,
+      "path": "api/pedbones/by-category/head-neck.json"
+    }
+  ]
+}

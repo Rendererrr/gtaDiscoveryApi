@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "pedbones",
+    "label": "Ped Bones",
+    "note": "Ped skeleton bones. boneId = the bone tag used with GET_PED_BONE_INDEX (not a joaat hash). type = bone kind (Skeleton/Facial/IK/Roll/Physics/Helper). No images. category groups under by-category/; reverse boneId -> bone in byid.json."
+  },
+  "group": {
+    "name": "Right Leg",
+    "slug": "right-leg",
+    "count": 8
+  },
+  "count": 8,
+  "items": [
+    {
+      "id": "SKEL_R_Calf",
+      "name": "Right Calf",
+      "boneId": 36864,
+      "type": "Skeleton",
+      "category": "Right Leg"
+    },
+    {
+      "id": "SKEL_R_Foot",
+      "name": "Right Foot",
+      "boneId": 52301,
+      "type": "Skeleton",
+      "category": "Right Leg"
+    },
+    {
+      "id": "IK_R_Foot",
+      "name": "Right Foot (IK)",
+      "boneId": 35502,
+      "type": "IK",
+      "category": "Right Leg"
+    },
+    {
+      "id": "PH_R_Foot",
+      "name": "Right Foot (Physics)",
+      "boneId": 24806,
+      "type": "Physics",
+      "category": "Right Leg"
+    },
+    {
+      "id": "MH_R_Knee",
+      "name": "Right Knee (Helper)",
+      "boneId": 16335,
+      "type": "Helper",
+      "category": "Right Leg"
+    },
+    {
+      "id": "SKEL_R_Thigh",
+      "name": "Right Thigh",
+      "boneId": 51826,
+      "type": "Skeleton",
+      "category": "Right Leg"
+    },
+    {
+      "id": "RB_R_ThighRoll",
+      "name": "Right Thigh Roll",
+      "boneId": 6442,
+      "type": "Roll",
+      "category": "Right Leg"
+    },
+    {
+      "id": "SKEL_R_Toe0",
+      "name": "Right Toe 0",
+      "boneId": 20781,
+      "type": "Skeleton",
+      "category": "Right Leg"
+    }
+  ]
+}

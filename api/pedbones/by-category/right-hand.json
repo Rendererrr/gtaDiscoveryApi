@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "pedbones",
+    "label": "Ped Bones",
+    "note": "Ped skeleton bones. boneId = the bone tag used with GET_PED_BONE_INDEX (not a joaat hash). type = bone kind (Skeleton/Facial/IK/Roll/Physics/Helper). No images. category groups under by-category/; reverse boneId -> bone in byid.json."
+  },
+  "group": {
+    "name": "Right Hand",
+    "slug": "right-hand",
+    "count": 18
+  },
+  "count": 18,
+  "items": [
+    {
+      "id": "SKEL_R_Finger00",
+      "name": "Right Finger 00",
+      "boneId": 58866,
+      "type": "Skeleton",
+      "category": "Right Hand"
+    },
+    {
+      "id": "SKEL_R_Finger01",
+      "name": "Right Finger 01",
+      "boneId": 64016,
+      "type": "Skeleton",
+      "category": "Right Hand"
+    },
+    {
+      "id": "SKEL_R_Finger02",
+      "name": "Right Finger 02",
+      "boneId": 64017,
+      "type": "Skeleton",
+      "category": "Right Hand"
+    },
+    {
+      "id": "SKEL_R_Finger10",
+      "name": "Right Finger 10",
+      "boneId": 58867,
+      "type": "Skeleton",
+      "category": "Right Hand"
+    },
+    {
+      "id": "SKEL_R_Finger11",
+      "name": "Right Finger 11",
+      "boneId": 64096,
+      "type": "Skeleton",
+      "category": "Right Hand"
+    },
+    {
+      "id": "SKEL_R_Finger12",
+      "name": "Right Finger 12",
+      "boneId": 64097,
+      "type": "Skeleton",
+      "category": "Right Hand"
+    },
+    {
+      "id": "SKEL_R_Finger20",
+      "name": "Right Finger 20",
+      "boneId": 58868,
+      "type": "Skeleton",
+      "category": "Right Hand"
+    },
+    {
+      "id": "SKEL_R_Finger21",
+      "name": "Right Finger 21",
+      "boneId": 64112,
+      "type": "Skeleton",
+      "category": "Right Hand"
+    },
+    {
+      "id": "SKEL_R_Finger22",
+      "name": "Right Finger 22",
+      "boneId": 64113,
+      "type": "Skeleton",
+      "category": "Right Hand"
+    },
+    {
+      "id": "SKEL_R_Finger30",
+      "name": "Right Finger 30",
+      "boneId": 58869,
+      "type": "Skeleton",
+      "category": "Right Hand"
+    },
+    {
+      "id": "SKEL_R_Finger31",
+      "name": "Right Finger 31",
+      "boneId": 64064,
+      "type": "Skeleton",
+      "category": "Right Hand"
+    },
+    {
+      "id": "SKEL_R_Finger32",
+      "name": "Right Finger 32",
+      "boneId": 64065,
+      "type": "Skeleton",
+      "category": "Right Hand"
+    },
+    {
+      "id": "SKEL_R_Finger40",
+      "name": "Right Finger 40",
+      "boneId": 58870,
+      "type": "Skeleton",
+      "category": "Right Hand"
+    },
+    {
+      "id": "SKEL_R_Finger41",
+      "name": "Right Finger 41",
+      "boneId": 64080,
+      "type": "Skeleton",
+      "category": "Right Hand"
+    },
+    {
+      "id": "SKEL_R_Finger42",
+      "name": "Right Finger 42",
+      "boneId": 64081,
+      "type": "Skeleton",
+      "category": "Right Hand"
+    },
+    {
+      "id": "SKEL_R_Hand",
+      "name": "Right Hand",
+      "boneId": 57005,
+      "type": "Skeleton",
+      "category": "Right Hand"
+    },
+    {
+      "id": "IK_R_Hand",
+      "name": "Right Hand (IK)",
+      "boneId": 6286,
+      "type": "IK",
+      "category": "Right Hand"
+    },
+    {
+      "id": "PH_R_Hand",
+      "name": "Right Hand (Physics)",
+      "boneId": 28422,
+      "type": "Physics",
+      "category": "Right Hand"
+    }
+  ]
+}

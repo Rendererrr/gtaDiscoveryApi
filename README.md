@@ -26,6 +26,8 @@ There are two domain shapes:
 | explosions | Explosion types (88, 9 categories) | [`api/explosions/index.json`](./api/explosions/index.json) |
 | particles | Particle (PTFX) effects (2,907; 81 named) in 360 dictionaries | [`api/particles/index.json`](./api/particles/index.json) |
 | animations | 204 curated (6 categories) + full list (269,414 anims in 20,179 dicts) | [`api/animations/index.json`](./api/animations/index.json) |
+| pedbones | Ped skeleton bones (98, 9 body regions) with bone IDs | [`api/pedbones/index.json`](./api/pedbones/index.json) |
+| vehiclebones | Vehicle bones (449, 13 categories) with joaat hashes | [`api/vehiclebones/index.json`](./api/vehiclebones/index.json) |
 
 Read the discovery root to enumerate what's available:
 
@@ -628,6 +630,48 @@ await animations.byDictionary('missheist');    // every anim name in a dictionar
 
 ---
 
+## Bones domains
+
+Two skeleton/rig domains, each categorized with friendly display names. No images.
+
+### Ped bones (`pedbones`)
+98 ped skeleton bones in **9 body regions** (Face, Left/Right Arm, Left/Right Hand, Left/Right Leg,
+Spine & Root, Head & Neck). Each carries `boneId` — the bone tag used with `GET_PED_BONE_INDEX`
+(this is **not** a joaat hash, so it has its own reverse map rather than `hashes.json`).
+```jsonc
+// GET api/pedbones/index.json -> items[]
+{ "id": "SKEL_Head", "name": "Head", "boneId": 31086, "type": "Skeleton", "category": "Head & Neck" }
+```
+```
+api/pedbones/by-category/index.json   # list the 9 body regions
+api/pedbones/by-category/<slug>.json  # bones in a region  e.g. .../left-hand.json
+api/pedbones/byid.json                # reverse boneId -> { id, name, category }
+```
+```js
+import pedbones from 'https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/client/pedbones.js';
+await pedbones.byId('SKEL_Head');     // the bone by name
+await pedbones.byBoneId(31086);       // reverse: → { id:'SKEL_Head', name:'Head', category:'Head & Neck' }
+await pedbones.byCategory('Left Hand');
+```
+
+### Vehicle bones (`vehiclebones`)
+449 vehicle bones in **13 categories** (Seats, Windows & Glass, Doors & Roof, Wheels & Suspension,
+Lights, Sirens, Weapons, Engine & Drivetrain, Aircraft, Boat, Body, Industrial & Special, Misc).
+Each carries `hash = joaat(id)` — what `GET_ENTITY_BONE_INDEX_BY_NAME` resolves — so reverse hash
+lookup works (per-domain `hashes.json` and the combined `api/hashes.json`).
+```jsonc
+// GET api/vehiclebones/index.json -> items[]
+{ "id": "seat_dside_f", "name": "Seat Driver Front", "hash": 3570590826, "category": "Seats" }
+```
+```js
+import vehiclebones from 'https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/client/vehiclebones.js';
+await vehiclebones.byId('wheel_lf');                 // { name:'Wheel Left Front', hash, category }
+await vehiclebones.byHash(3570590826);               // reverse → seat_dside_f
+await vehiclebones.byCategory('Wheels & Suspension');
+```
+
+---
+
 ## Repository layout
 
 ```
@@ -653,6 +697,8 @@ src/
                                #   particles.curated.json (curated effects: friendly names)
                                #   animations.all.json (DurtyFree: all anims by dictionary)
                                #   animations.curated.json (curated anims: name + category)
+                               #   pedbones.json (ped bones: name + boneId + category)
+                               #   vehiclebones.json (vehicle bones: name + hash + category)
   lib/fs.mjs                   # shared fs helpers (folder-derived domains)
   lib/joaat.mjs                # GTA joaat hash
   lib/catalog.mjs              # shared writer for flat domains (+ slugify, groupings)
@@ -665,6 +711,8 @@ src/
   build/explosions.mjs         # explosions builder (categorized explosion types)
   build/particles.mjs          # particles builder (effects grouped by dictionary)
   build/animations.mjs         # animations builder (curated + full dictionary list)
+  build/pedbones.mjs           # ped bones builder (boneId reverse map)
+  build/vehiclebones.mjs       # vehicle bones builder (joaat hashes)
 client/
   index.js                     # discovery + namespaced domain helpers
   clothing.js                  # clothing helpers
@@ -672,6 +720,8 @@ client/
   explosions.js                # explosions helpers (byHash/byCategory)
   particles.js                 # particles helpers (byCategory/byId, by dictionary)
   animations.js                # animations helpers (curated byCategory + getDictionaries/byDictionary)
+  pedbones.js                  # ped bones helpers (byCategory/byBoneId)
+  vehiclebones.js              # vehicle bones helpers (byCategory/byHash)
   _flat.js                     # shared flat-domain client factory
   peds.js  vehicles.js  weapons.js
 ```
@@ -759,3 +809,4 @@ Existing domains and their URLs are unaffected.
 - Explosion types from [DurtyFree `explosionTypesCompact.json`](https://github.com/DurtyFree/gta-v-data-dumps/blob/master/explosionTypesCompact.json), categorized with friendly names in `src/data/explosions.json`.
 - Particle (PTFX) effects from [DurtyFree `particleEffectsCompact.json`](https://github.com/DurtyFree/gta-v-data-dumps/blob/master/particleEffectsCompact.json) (`src/data/particles.all.json`); curated friendly names in `src/data/particles.curated.json`.
 - Animations from [DurtyFree `animDictsCompact.json`](https://github.com/DurtyFree/gta-v-data-dumps/blob/master/animDictsCompact.json) (`src/data/animations.all.json`); curated names + categories in `src/data/animations.curated.json`.
+- Ped & vehicle bone lists curated with categories + friendly names in `src/data/pedbones.json` and `src/data/vehiclebones.json`.

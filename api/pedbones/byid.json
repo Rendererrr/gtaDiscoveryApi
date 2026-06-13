@@ -1,0 +1,503 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "pedbones",
+    "label": "Ped Bones",
+    "note": "Ped skeleton bones. boneId = the bone tag used with GET_PED_BONE_INDEX (not a joaat hash). type = bone kind (Skeleton/Facial/IK/Roll/Physics/Helper). No images. category groups under by-category/; reverse boneId -> bone in byid.json."
+  },
+  "count": 98,
+  "bones": {
+    "0": {
+      "id": "SKEL_ROOT",
+      "name": "ROOT",
+      "category": "Spine & Root"
+    },
+    "1356": {
+      "id": "FB_R_Brow_Out_000",
+      "name": "Right Brow Out",
+      "category": "Face"
+    },
+    "2108": {
+      "id": "SKEL_L_Toe0",
+      "name": "Left Toe 0",
+      "category": "Left Leg"
+    },
+    "2992": {
+      "id": "MH_R_Elbow",
+      "name": "Right Elbow (Helper)",
+      "category": "Right Arm"
+    },
+    "4089": {
+      "id": "SKEL_L_Finger01",
+      "name": "Left Finger 01",
+      "category": "Left Hand"
+    },
+    "4090": {
+      "id": "SKEL_L_Finger02",
+      "name": "Left Finger 02",
+      "category": "Left Hand"
+    },
+    "4137": {
+      "id": "SKEL_L_Finger31",
+      "name": "Left Finger 31",
+      "category": "Left Hand"
+    },
+    "4138": {
+      "id": "SKEL_L_Finger32",
+      "name": "Left Finger 32",
+      "category": "Left Hand"
+    },
+    "4153": {
+      "id": "SKEL_L_Finger41",
+      "name": "Left Finger 41",
+      "category": "Left Hand"
+    },
+    "4154": {
+      "id": "SKEL_L_Finger42",
+      "name": "Left Finger 42",
+      "category": "Left Hand"
+    },
+    "4169": {
+      "id": "SKEL_L_Finger11",
+      "name": "Left Finger 11",
+      "category": "Left Hand"
+    },
+    "4170": {
+      "id": "SKEL_L_Finger12",
+      "name": "Left Finger 12",
+      "category": "Left Hand"
+    },
+    "4185": {
+      "id": "SKEL_L_Finger21",
+      "name": "Left Finger 21",
+      "category": "Left Hand"
+    },
+    "4186": {
+      "id": "SKEL_L_Finger22",
+      "name": "Left Finger 22",
+      "category": "Left Hand"
+    },
+    "5232": {
+      "id": "RB_L_ArmRoll",
+      "name": "Left Arm Roll",
+      "category": "Left Arm"
+    },
+    "6286": {
+      "id": "IK_R_Hand",
+      "name": "Right Hand (IK)",
+      "category": "Right Hand"
+    },
+    "6442": {
+      "id": "RB_R_ThighRoll",
+      "name": "Right Thigh Roll",
+      "category": "Right Leg"
+    },
+    "10706": {
+      "id": "SKEL_R_Clavicle",
+      "name": "Right Clavicle",
+      "category": "Right Arm"
+    },
+    "11174": {
+      "id": "FB_R_Lip_Corner_000",
+      "name": "Right Lip Corner",
+      "category": "Face"
+    },
+    "11816": {
+      "id": "SKEL_Pelvis",
+      "name": "Pelvis",
+      "category": "Spine & Root"
+    },
+    "12844": {
+      "id": "IK_Head",
+      "name": "Head (IK)",
+      "category": "Head & Neck"
+    },
+    "14201": {
+      "id": "SKEL_L_Foot",
+      "name": "Left Foot",
+      "category": "Left Leg"
+    },
+    "16335": {
+      "id": "MH_R_Knee",
+      "name": "Right Knee (Helper)",
+      "category": "Right Leg"
+    },
+    "17188": {
+      "id": "FB_LowerLipRoot_000",
+      "name": "Lower Lip Root",
+      "category": "Face"
+    },
+    "17719": {
+      "id": "FB_R_Lip_Top_000",
+      "name": "Right Lip Top",
+      "category": "Face"
+    },
+    "18905": {
+      "id": "SKEL_L_Hand",
+      "name": "Left Hand",
+      "category": "Left Hand"
+    },
+    "19336": {
+      "id": "FB_R_CheekBone_000",
+      "name": "Right Cheek Bone",
+      "category": "Face"
+    },
+    "20178": {
+      "id": "FB_UpperLipRoot_000",
+      "name": "Upper Lip Root",
+      "category": "Face"
+    },
+    "20279": {
+      "id": "FB_L_Lip_Top_000",
+      "name": "Left Lip Top",
+      "category": "Face"
+    },
+    "20623": {
+      "id": "FB_LowerLip_000",
+      "name": "Lower Lip",
+      "category": "Face"
+    },
+    "20781": {
+      "id": "SKEL_R_Toe0",
+      "name": "Right Toe 0",
+      "category": "Right Leg"
+    },
+    "21550": {
+      "id": "FB_L_CheekBone_000",
+      "name": "Left Cheek Bone",
+      "category": "Face"
+    },
+    "22711": {
+      "id": "MH_L_Elbow",
+      "name": "Left Elbow (Helper)",
+      "category": "Left Arm"
+    },
+    "23553": {
+      "id": "SKEL_Spine0",
+      "name": "Spine 0",
+      "category": "Spine & Root"
+    },
+    "23639": {
+      "id": "RB_L_ThighRoll",
+      "name": "Left Thigh Roll",
+      "category": "Left Leg"
+    },
+    "24806": {
+      "id": "PH_R_Foot",
+      "name": "Right Foot (Physics)",
+      "category": "Right Leg"
+    },
+    "24816": {
+      "id": "SKEL_Spine1",
+      "name": "Spine 1",
+      "category": "Spine & Root"
+    },
+    "24817": {
+      "id": "SKEL_Spine2",
+      "name": "Spine 2",
+      "category": "Spine & Root"
+    },
+    "24818": {
+      "id": "SKEL_Spine3",
+      "name": "Spine 3",
+      "category": "Spine & Root"
+    },
+    "25260": {
+      "id": "FB_L_Eye_000",
+      "name": "Left Eye",
+      "category": "Face"
+    },
+    "26610": {
+      "id": "SKEL_L_Finger00",
+      "name": "Left Finger 00",
+      "category": "Left Hand"
+    },
+    "26611": {
+      "id": "SKEL_L_Finger10",
+      "name": "Left Finger 10",
+      "category": "Left Hand"
+    },
+    "26612": {
+      "id": "SKEL_L_Finger20",
+      "name": "Left Finger 20",
+      "category": "Left Hand"
+    },
+    "26613": {
+      "id": "SKEL_L_Finger30",
+      "name": "Left Finger 30",
+      "category": "Left Hand"
+    },
+    "26614": {
+      "id": "SKEL_L_Finger40",
+      "name": "Left Finger 40",
+      "category": "Left Hand"
+    },
+    "27474": {
+      "id": "FB_R_Eye_000",
+      "name": "Right Eye",
+      "category": "Face"
+    },
+    "28252": {
+      "id": "SKEL_R_Forearm",
+      "name": "Right Forearm",
+      "category": "Right Arm"
+    },
+    "28422": {
+      "id": "PH_R_Hand",
+      "name": "Right Hand (Physics)",
+      "category": "Right Hand"
+    },
+    "29868": {
+      "id": "FB_L_Lip_Corner_000",
+      "name": "Left Lip Corner",
+      "category": "Face"
+    },
+    "31086": {
+      "id": "SKEL_Head",
+      "name": "Head",
+      "category": "Head & Neck"
+    },
+    "35502": {
+      "id": "IK_R_Foot",
+      "name": "Right Foot (IK)",
+      "category": "Right Leg"
+    },
+    "35731": {
+      "id": "RB_Neck_1",
+      "name": "Neck 1",
+      "category": "Head & Neck"
+    },
+    "36029": {
+      "id": "IK_L_Hand",
+      "name": "Left Hand (IK)",
+      "category": "Left Hand"
+    },
+    "36864": {
+      "id": "SKEL_R_Calf",
+      "name": "Right Calf",
+      "category": "Right Leg"
+    },
+    "37119": {
+      "id": "RB_R_ArmRoll",
+      "name": "Right Arm Roll",
+      "category": "Right Arm"
+    },
+    "37193": {
+      "id": "FB_Brow_Centre_000",
+      "name": "Brow Centre",
+      "category": "Face"
+    },
+    "39317": {
+      "id": "SKEL_Neck_1",
+      "name": "Neck 1",
+      "category": "Head & Neck"
+    },
+    "40269": {
+      "id": "SKEL_R_UpperArm",
+      "name": "Right Upper Arm",
+      "category": "Right Arm"
+    },
+    "43536": {
+      "id": "FB_R_Lid_Upper_000",
+      "name": "Right Lid Upper",
+      "category": "Face"
+    },
+    "43810": {
+      "id": "RB_R_ForeArmRoll",
+      "name": "Right Fore Arm Roll",
+      "category": "Right Arm"
+    },
+    "45509": {
+      "id": "SKEL_L_UpperArm",
+      "name": "Left Upper Arm",
+      "category": "Left Arm"
+    },
+    "45750": {
+      "id": "FB_L_Lid_Upper_000",
+      "name": "Left Lid Upper",
+      "category": "Face"
+    },
+    "46078": {
+      "id": "MH_L_Knee",
+      "name": "Left Knee (Helper)",
+      "category": "Left Leg"
+    },
+    "46240": {
+      "id": "FB_Jaw_000",
+      "name": "Jaw",
+      "category": "Face"
+    },
+    "47419": {
+      "id": "FB_L_Lip_Bot_000",
+      "name": "Left Lip Bot",
+      "category": "Face"
+    },
+    "47495": {
+      "id": "FB_Tongue_000",
+      "name": "Tongue",
+      "category": "Face"
+    },
+    "49979": {
+      "id": "FB_R_Lip_Bot_000",
+      "name": "Right Lip Bot",
+      "category": "Face"
+    },
+    "51826": {
+      "id": "SKEL_R_Thigh",
+      "name": "Right Thigh",
+      "category": "Right Leg"
+    },
+    "52301": {
+      "id": "SKEL_R_Foot",
+      "name": "Right Foot",
+      "category": "Right Leg"
+    },
+    "56604": {
+      "id": "IK_Root",
+      "name": "Root (IK)",
+      "category": "Spine & Root"
+    },
+    "57005": {
+      "id": "SKEL_R_Hand",
+      "name": "Right Hand",
+      "category": "Right Hand"
+    },
+    "57597": {
+      "id": "SKEL_Spine_Root",
+      "name": "Spine Root",
+      "category": "Spine & Root"
+    },
+    "57717": {
+      "id": "PH_L_Foot",
+      "name": "Left Foot (Physics)",
+      "category": "Left Leg"
+    },
+    "58271": {
+      "id": "SKEL_L_Thigh",
+      "name": "Left Thigh",
+      "category": "Left Leg"
+    },
+    "58331": {
+      "id": "FB_L_Brow_Out_000",
+      "name": "Left Brow Out",
+      "category": "Face"
+    },
+    "58866": {
+      "id": "SKEL_R_Finger00",
+      "name": "Right Finger 00",
+      "category": "Right Hand"
+    },
+    "58867": {
+      "id": "SKEL_R_Finger10",
+      "name": "Right Finger 10",
+      "category": "Right Hand"
+    },
+    "58868": {
+      "id": "SKEL_R_Finger20",
+      "name": "Right Finger 20",
+      "category": "Right Hand"
+    },
+    "58869": {
+      "id": "SKEL_R_Finger30",
+      "name": "Right Finger 30",
+      "category": "Right Hand"
+    },
+    "58870": {
+      "id": "SKEL_R_Finger40",
+      "name": "Right Finger 40",
+      "category": "Right Hand"
+    },
+    "60309": {
+      "id": "PH_L_Hand",
+      "name": "Left Hand (Physics)",
+      "category": "Left Hand"
+    },
+    "61007": {
+      "id": "RB_L_ForeArmRoll",
+      "name": "Left Fore Arm Roll",
+      "category": "Left Arm"
+    },
+    "61163": {
+      "id": "SKEL_L_Forearm",
+      "name": "Left Forearm",
+      "category": "Left Arm"
+    },
+    "61839": {
+      "id": "FB_UpperLip_000",
+      "name": "Upper Lip",
+      "category": "Face"
+    },
+    "63931": {
+      "id": "SKEL_L_Calf",
+      "name": "Left Calf",
+      "category": "Left Leg"
+    },
+    "64016": {
+      "id": "SKEL_R_Finger01",
+      "name": "Right Finger 01",
+      "category": "Right Hand"
+    },
+    "64017": {
+      "id": "SKEL_R_Finger02",
+      "name": "Right Finger 02",
+      "category": "Right Hand"
+    },
+    "64064": {
+      "id": "SKEL_R_Finger31",
+      "name": "Right Finger 31",
+      "category": "Right Hand"
+    },
+    "64065": {
+      "id": "SKEL_R_Finger32",
+      "name": "Right Finger 32",
+      "category": "Right Hand"
+    },
+    "64080": {
+      "id": "SKEL_R_Finger41",
+      "name": "Right Finger 41",
+      "category": "Right Hand"
+    },
+    "64081": {
+      "id": "SKEL_R_Finger42",
+      "name": "Right Finger 42",
+      "category": "Right Hand"
+    },
+    "64096": {
+      "id": "SKEL_R_Finger11",
+      "name": "Right Finger 11",
+      "category": "Right Hand"
+    },
+    "64097": {
+      "id": "SKEL_R_Finger12",
+      "name": "Right Finger 12",
+      "category": "Right Hand"
+    },
+    "64112": {
+      "id": "SKEL_R_Finger21",
+      "name": "Right Finger 21",
+      "category": "Right Hand"
+    },
+    "64113": {
+      "id": "SKEL_R_Finger22",
+      "name": "Right Finger 22",
+      "category": "Right Hand"
+    },
+    "64729": {
+      "id": "SKEL_L_Clavicle",
+      "name": "Left Clavicle",
+      "category": "Left Arm"
+    },
+    "65068": {
+      "id": "FACIAL_facialRoot",
+      "name": "Facial Root",
+      "category": "Face"
+    },
+    "65245": {
+      "id": "IK_L_Foot",
+      "name": "Left Foot (IK)",
+      "category": "Left Leg"
+    }
+  }
+}

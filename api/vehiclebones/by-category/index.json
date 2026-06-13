@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehiclebones",
+    "label": "Vehicle Bones",
+    "urlPattern": null,
+    "note": "Vehicle bone names. hash = joaat(id) (resolves via GET_ENTITY_BONE_INDEX_BY_NAME). No images. category groups under by-category/; reverse hash -> { id, name, category } in hashes.json."
+  },
+  "count": 13,
+  "groups": [
+    {
+      "name": "Aircraft",
+      "key": "Aircraft",
+      "slug": "aircraft",
+      "count": 49,
+      "path": "api/vehiclebones/by-category/aircraft.json"
+    },
+    {
+      "name": "Wheels & Suspension",
+      "key": "Wheels & Suspension",
+      "slug": "wheels-suspension",
+      "count": 48,
+      "path": "api/vehiclebones/by-category/wheels-suspension.json"
+    },
+    {
+      "name": "Body",
+      "key": "Body",
+      "slug": "body",
+      "count": 47,
+      "path": "api/vehiclebones/by-category/body.json"
+    },
+    {
+      "name": "Misc",
+      "key": "Misc",
+      "slug": "misc",
+      "count": 47,
+      "path": "api/vehiclebones/by-category/misc.json"
+    },
+    {
+      "name": "Industrial & Special",
+      "key": "Industrial & Special",
+      "slug": "industrial-special",
+      "count": 43,
+      "path": "api/vehiclebones/by-category/industrial-special.json"
+    },
+    {
+      "name": "Sirens",
+      "key": "Sirens",
+      "slug": "sirens",
+      "count": 40,
+      "path": "api/vehiclebones/by-category/sirens.json"
+    },
+    {
+      "name": "Weapons",
+      "key": "Weapons",
+      "slug": "weapons",
+      "count": 40,
+      "path": "api/vehiclebones/by-category/weapons.json"
+    },
+    {
+      "name": "Engine & Drivetrain",
+      "key": "Engine & Drivetrain",
+      "slug": "engine-drivetrain",
+      "count": 36,
+      "path": "api/vehiclebones/by-category/engine-drivetrain.json"
+    },
+    {
+      "name": "Doors & Roof",
+      "key": "Doors & Roof",
+      "slug": "doors-roof",
+      "count": 32,
+      "path": "api/vehiclebones/by-category/doors-roof.json"
+    },
+    {
+      "name": "Lights",
+      "key": "Lights",
+      "slug": "lights",
+      "count": 27,
+      "path": "api/vehiclebones/by-category/lights.json"
+    },
+    {
+      "name": "Windows & Glass",
+      "key": "Windows & Glass",
+      "slug": "windows-glass",
+      "count": 20,
+      "path": "api/vehiclebones/by-category/windows-glass.json"
+    },
+    {
+      "name": "Seats",
+      "key": "Seats",
+      "slug": "seats",
+      "count": 18,
+      "path": "api/vehiclebones/by-category/seats.json"
+    },
+    {
+      "name": "Boat",
+      "key": "Boat",
+      "slug": "boat",
+      "count": 2,
+      "path": "api/vehiclebones/by-category/boat.json"
+    }
+  ]
+}

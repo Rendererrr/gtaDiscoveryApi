@@ -1,0 +1,172 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "pedbones",
+    "label": "Ped Bones",
+    "note": "Ped skeleton bones. boneId = the bone tag used with GET_PED_BONE_INDEX (not a joaat hash). type = bone kind (Skeleton/Facial/IK/Roll/Physics/Helper). No images. category groups under by-category/; reverse boneId -> bone in byid.json."
+  },
+  "group": {
+    "name": "Face",
+    "slug": "face",
+    "count": 22
+  },
+  "count": 22,
+  "items": [
+    {
+      "id": "FB_Brow_Centre_000",
+      "name": "Brow Centre",
+      "boneId": 37193,
+      "type": "Facial",
+      "category": "Face"
+    },
+    {
+      "id": "FACIAL_facialRoot",
+      "name": "Facial Root",
+      "boneId": 65068,
+      "type": "Facial",
+      "category": "Face"
+    },
+    {
+      "id": "FB_Jaw_000",
+      "name": "Jaw",
+      "boneId": 46240,
+      "type": "Facial",
+      "category": "Face"
+    },
+    {
+      "id": "FB_L_Brow_Out_000",
+      "name": "Left Brow Out",
+      "boneId": 58331,
+      "type": "Facial",
+      "category": "Face"
+    },
+    {
+      "id": "FB_L_CheekBone_000",
+      "name": "Left Cheek Bone",
+      "boneId": 21550,
+      "type": "Facial",
+      "category": "Face"
+    },
+    {
+      "id": "FB_L_Eye_000",
+      "name": "Left Eye",
+      "boneId": 25260,
+      "type": "Facial",
+      "category": "Face"
+    },
+    {
+      "id": "FB_L_Lid_Upper_000",
+      "name": "Left Lid Upper",
+      "boneId": 45750,
+      "type": "Facial",
+      "category": "Face"
+    },
+    {
+      "id": "FB_L_Lip_Bot_000",
+      "name": "Left Lip Bot",
+      "boneId": 47419,
+      "type": "Facial",
+      "category": "Face"
+    },
+    {
+      "id": "FB_L_Lip_Corner_000",
+      "name": "Left Lip Corner",
+      "boneId": 29868,
+      "type": "Facial",
+      "category": "Face"
+    },
+    {
+      "id": "FB_L_Lip_Top_000",
+      "name": "Left Lip Top",
+      "boneId": 20279,
+      "type": "Facial",
+      "category": "Face"
+    },
+    {
+      "id": "FB_LowerLip_000",
+      "name": "Lower Lip",
+      "boneId": 20623,
+      "type": "Facial",
+      "category": "Face"
+    },
+    {
+      "id": "FB_LowerLipRoot_000",
+      "name": "Lower Lip Root",
+      "boneId": 17188,
+      "type": "Facial",
+      "category": "Face"
+    },
+    {
+      "id": "FB_R_Brow_Out_000",
+      "name": "Right Brow Out",
+      "boneId": 1356,
+      "type": "Facial",
+      "category": "Face"
+    },
+    {
+      "id": "FB_R_CheekBone_000",
+      "name": "Right Cheek Bone",
+      "boneId": 19336,
+      "type": "Facial",
+      "category": "Face"
+    },
+    {
+      "id": "FB_R_Eye_000",
+      "name": "Right Eye",
+      "boneId": 27474,
+      "type": "Facial",
+      "category": "Face"
+    },
+    {
+      "id": "FB_R_Lid_Upper_000",
+      "name": "Right Lid Upper",
+      "boneId": 43536,
+      "type": "Facial",
+      "category": "Face"
+    },
+    {
+      "id": "FB_R_Lip_Bot_000",
+      "name": "Right Lip Bot",
+      "boneId": 49979,
+      "type": "Facial",
+      "category": "Face"
+    },
+    {
+      "id": "FB_R_Lip_Corner_000",
+      "name": "Right Lip Corner",
+      "boneId": 11174,
+      "type": "Facial",
+      "category": "Face"
+    },
+    {
+      "id": "FB_R_Lip_Top_000",
+      "name": "Right Lip Top",
+      "boneId": 17719,
+      "type": "Facial",
+      "category": "Face"
+    },
+    {
+      "id": "FB_Tongue_000",
+      "name": "Tongue",
+      "boneId": 47495,
+      "type": "Facial",
+      "category": "Face"
+    },
+    {
+      "id": "FB_UpperLip_000",
+      "name": "Upper Lip",
+      "boneId": 61839,
+      "type": "Facial",
+      "category": "Face"
+    },
+    {
+      "id": "FB_UpperLipRoot_000",
+      "name": "Upper Lip Root",
+      "boneId": 20178,
+      "type": "Facial",
+      "category": "Face"
+    }
+  ]
+}

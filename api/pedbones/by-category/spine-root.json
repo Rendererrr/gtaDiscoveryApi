@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "pedbones",
+    "label": "Ped Bones",
+    "note": "Ped skeleton bones. boneId = the bone tag used with GET_PED_BONE_INDEX (not a joaat hash). type = bone kind (Skeleton/Facial/IK/Roll/Physics/Helper). No images. category groups under by-category/; reverse boneId -> bone in byid.json."
+  },
+  "group": {
+    "name": "Spine & Root",
+    "slug": "spine-root",
+    "count": 8
+  },
+  "count": 8,
+  "items": [
+    {
+      "id": "SKEL_Pelvis",
+      "name": "Pelvis",
+      "boneId": 11816,
+      "type": "Skeleton",
+      "category": "Spine & Root"
+    },
+    {
+      "id": "SKEL_ROOT",
+      "name": "ROOT",
+      "boneId": 0,
+      "type": "Skeleton",
+      "category": "Spine & Root"
+    },
+    {
+      "id": "IK_Root",
+      "name": "Root (IK)",
+      "boneId": 56604,
+      "type": "IK",
+      "category": "Spine & Root"
+    },
+    {
+      "id": "SKEL_Spine0",
+      "name": "Spine 0",
+      "boneId": 23553,
+      "type": "Skeleton",
+      "category": "Spine & Root"
+    },
+    {
+      "id": "SKEL_Spine1",
+      "name": "Spine 1",
+      "boneId": 24816,
+      "type": "Skeleton",
+      "category": "Spine & Root"
+    },
+    {
+      "id": "SKEL_Spine2",
+      "name": "Spine 2",
+      "boneId": 24817,
+      "type": "Skeleton",
+      "category": "Spine & Root"
+    },
+    {
+      "id": "SKEL_Spine3",
+      "name": "Spine 3",
+      "boneId": 24818,
+      "type": "Skeleton",
+      "category": "Spine & Root"
+    },
+    {
+      "id": "SKEL_Spine_Root",
+      "name": "Spine Root",
+      "boneId": 57597,
+      "type": "Skeleton",
+      "category": "Spine & Root"
+    }
+  ]
+}
