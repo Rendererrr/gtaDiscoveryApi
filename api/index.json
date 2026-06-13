@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "name": "GTA Discovery API",
+    "note": "A static JSON API for GTA 5 / FiveM game assets, split by domain. Pick a domain, then read its index for endpoints."
+  },
+  "domains": [
+    {
+      "domain": "clothing",
+      "label": "Clothing",
+      "componentCount": 16,
+      "drawableCount": 4403,
+      "textureCount": 26031,
+      "index": "api/clothing/index.json",
+      "manifest": "api/clothing/manifest.json"
+    }
+  ]
+}

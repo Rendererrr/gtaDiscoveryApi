@@ -1,0 +1,231 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "clothing",
+    "label": "Clothing",
+    "urlPattern": "{cdnBase}/assets/clothing/{category}/[{gender}/]{drawableId}/{textureId}.webp",
+    "note": "Look up category from componentId+type via this index, then build the image URL or read the per-component endpoint."
+  },
+  "components": [
+    {
+      "type": "clothes",
+      "componentId": 1,
+      "category": "masks",
+      "label": "Masks",
+      "gendered": false,
+      "genders": [],
+      "drawableCount": 244,
+      "textureCount": 1616,
+      "endpoint": "api/clothing/clothes/1.json"
+    },
+    {
+      "type": "clothes",
+      "componentId": 2,
+      "category": "hair",
+      "label": "Hair Styles",
+      "gendered": true,
+      "genders": [
+        "female",
+        "male"
+      ],
+      "drawableCount": 164,
+      "textureCount": 164,
+      "endpoint": "api/clothing/clothes/2.json"
+    },
+    {
+      "type": "clothes",
+      "componentId": 3,
+      "category": "torsos",
+      "label": "Torsos",
+      "gendered": true,
+      "genders": [
+        "female",
+        "male"
+      ],
+      "drawableCount": 439,
+      "textureCount": 439,
+      "endpoint": "api/clothing/clothes/3.json"
+    },
+    {
+      "type": "clothes",
+      "componentId": 4,
+      "category": "legs",
+      "label": "Legs",
+      "gendered": true,
+      "genders": [
+        "female",
+        "male"
+      ],
+      "drawableCount": 419,
+      "textureCount": 3499,
+      "endpoint": "api/clothing/clothes/4.json"
+    },
+    {
+      "type": "clothes",
+      "componentId": 5,
+      "category": "bags",
+      "label": "Bags & Parachutes",
+      "gendered": false,
+      "genders": [],
+      "drawableCount": 100,
+      "textureCount": 100,
+      "endpoint": "api/clothing/clothes/5.json"
+    },
+    {
+      "type": "clothes",
+      "componentId": 6,
+      "category": "shoes",
+      "label": "Shoes",
+      "gendered": true,
+      "genders": [
+        "female",
+        "male"
+      ],
+      "drawableCount": 310,
+      "textureCount": 3091,
+      "endpoint": "api/clothing/clothes/6.json"
+    },
+    {
+      "type": "clothes",
+      "componentId": 7,
+      "category": "accessories",
+      "label": "Accessories",
+      "gendered": true,
+      "genders": [
+        "female",
+        "male"
+      ],
+      "drawableCount": 354,
+      "textureCount": 1399,
+      "endpoint": "api/clothing/clothes/7.json"
+    },
+    {
+      "type": "clothes",
+      "componentId": 8,
+      "category": "undershirts",
+      "label": "Undershirts",
+      "gendered": true,
+      "genders": [
+        "female",
+        "male"
+      ],
+      "drawableCount": 472,
+      "textureCount": 4802,
+      "endpoint": "api/clothing/clothes/8.json"
+    },
+    {
+      "type": "clothes",
+      "componentId": 9,
+      "category": "armor",
+      "label": "Body Armor",
+      "gendered": true,
+      "genders": [
+        "female",
+        "male"
+      ],
+      "drawableCount": 44,
+      "textureCount": 44,
+      "endpoint": "api/clothing/clothes/9.json"
+    },
+    {
+      "type": "clothes",
+      "componentId": 10,
+      "category": "decals",
+      "label": "Decals",
+      "gendered": true,
+      "genders": [
+        "female",
+        "male"
+      ],
+      "drawableCount": 157,
+      "textureCount": 157,
+      "endpoint": "api/clothing/clothes/10.json"
+    },
+    {
+      "type": "clothes",
+      "componentId": 11,
+      "category": "tops",
+      "label": "Tops",
+      "gendered": true,
+      "genders": [
+        "female",
+        "male"
+      ],
+      "drawableCount": 1132,
+      "textureCount": 10152,
+      "endpoint": "api/clothing/clothes/11.json"
+    },
+    {
+      "type": "props",
+      "componentId": 0,
+      "category": "hats",
+      "label": "Hats",
+      "gendered": true,
+      "genders": [
+        "female",
+        "male"
+      ],
+      "drawableCount": 327,
+      "textureCount": 327,
+      "endpoint": "api/clothing/props/0.json"
+    },
+    {
+      "type": "props",
+      "componentId": 1,
+      "category": "glasses",
+      "label": "Glasses",
+      "gendered": true,
+      "genders": [
+        "female",
+        "male"
+      ],
+      "drawableCount": 82,
+      "textureCount": 82,
+      "endpoint": "api/clothing/props/1.json"
+    },
+    {
+      "type": "props",
+      "componentId": 2,
+      "category": "ears",
+      "label": "Ears",
+      "gendered": true,
+      "genders": [
+        "female",
+        "male"
+      ],
+      "drawableCount": 63,
+      "textureCount": 63,
+      "endpoint": "api/clothing/props/2.json"
+    },
+    {
+      "type": "props",
+      "componentId": 6,
+      "category": "watches",
+      "label": "Watches",
+      "gendered": true,
+      "genders": [
+        "female",
+        "male"
+      ],
+      "drawableCount": 71,
+      "textureCount": 71,
+      "endpoint": "api/clothing/props/6.json"
+    },
+    {
+      "type": "props",
+      "componentId": 7,
+      "category": "bracelets",
+      "label": "Bracelets",
+      "gendered": true,
+      "genders": [
+        "female",
+        "male"
+      ],
+      "drawableCount": 25,
+      "textureCount": 25,
+      "endpoint": "api/clothing/props/7.json"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "gta-discovery-api",
+  "version": "1.0.0",
+  "description": "Static JSON API for GTA 5 / FiveM game assets, split by domain (clothing, and more to come). Images served via jsdelivr CDN.",
+  "type": "module",
+  "scripts": {
+    "build": "node src/build/index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rendererrr/gtaDiscoveryApi.git"
+  },
+  "keywords": [
+    "GTA",
+    "GTA5",
+    "FiveM",
+    "Clothing",
+    "Props",
+    "Assets",
+    "API"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "playwright": "^1.60.0"
+  }
+}
