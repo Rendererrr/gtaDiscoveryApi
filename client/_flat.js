@@ -51,5 +51,31 @@ export function makeFlatClient(domain) {
     return (await byId(id))?.url ?? null;
   }
 
-  return { domain, getIndex, getItems, getCategories, byCategory, byId, byHash, imageUrl };
+  /**
+   * Fuzzy substring search over id, name and category (case-insensitive),
+   * ranked exact > prefix > substring > category. Each result is a full item
+   * (so result.url is the image). Runs client-side over the cached catalog.
+   *
+   *   const hits = await vehicles.search('adder');   // [{ id:'adder', url, ... }]
+   */
+  async function search(query, { limit = 25 } = {}) {
+    const q = String(query ?? '').trim().toLowerCase();
+    if (!q) return [];
+    const scored = [];
+    for (const it of await getItems()) {
+      const id = (it.id ?? '').toLowerCase();
+      const name = (it.name ?? '').toLowerCase();
+      const cat = (it.category ?? '').toLowerCase();
+      let score = 0;
+      if (id === q || name === q) score = 100;
+      else if (id.startsWith(q) || name.startsWith(q)) score = 75;
+      else if (id.includes(q) || name.includes(q)) score = 50;
+      else if (cat.includes(q)) score = 25;
+      if (score) scored.push({ it, score });
+    }
+    scored.sort((a, b) => b.score - a.score || (a.it.name ?? '').localeCompare(b.it.name ?? ''));
+    return scored.slice(0, limit).map((s) => s.it);
+  }
+
+  return { domain, getIndex, getItems, getCategories, byCategory, byId, byHash, imageUrl, search };
 }

@@ -195,11 +195,34 @@ const sports   = await vehicles.byCategory('Sports');    // filter by category
 const adder    = await vehicles.byId('adder');           // one item
 const byHashed = await vehicles.byHash(1118611807);      // look up by joaat hash
 const url      = await vehicles.imageUrl('adder');       // its image URL
+const hits     = await vehicles.search('adder');         // fuzzy search -> [{ id, url, ... }]
+const img      = hits[0]?.url;                            // the adder image
 
 // peds and weapons expose the same helpers
 import weapons from 'https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/client/weapons.js';
 const ar = await weapons.byId('assaultrifle_mk2');       // { hash: 961495388, codename, category, url }
 ```
+
+### Search
+
+This is a **static** API — there's no server, so there is no `?q=` endpoint. "Search" means
+fetching a domain catalog once (one small JSON file) and filtering it. The client does this for
+you with `search()` (ranked exact > prefix > substring > category); each result is a full item,
+so `result.url` is the image.
+
+```js
+import vehicles from 'https://rendererrr.github.io/gtaDiscoveryApi/client/vehicles.js';
+const [adder] = await vehicles.search('adder');
+console.log(adder.url);   // the adder image URL
+
+// search every flat domain at once
+import discovery from 'https://rendererrr.github.io/gtaDiscoveryApi/client/index.js';
+const { peds, vehicles: v, weapons } = await discovery.search('police');
+```
+
+No JavaScript? Fetch the catalog and filter it yourself:
+`GET https://rendererrr.github.io/gtaDiscoveryApi/api/vehicles/index.json` → filter `items[]`
+where `id`/`name`/`category` contains your query.
 
 > **Future stats.** Each flat item reserves an optional `stats` object (vehicle stats, weapon
 > stats). It's absent today; when stat data is added it merges in under `item.stats` keyed by the
@@ -258,7 +281,18 @@ On Windows you can double-click `regenerate.bat` (jsDelivr) or `regenerate-pages
 
 ### GitHub Pages
 
-It works on Pages out of the box — the repo is all static files. Two notes:
+**Enable it:**
+
+1. (Optional, for self-contained URLs) run `regenerate-pages.bat` / `npm run build:pages`, so the
+   image `url`s in the JSON point at Pages instead of jsDelivr.
+2. Commit and push to `main` (this includes `.nojekyll`, `api/`, `assets/`, `client/`).
+3. On GitHub: **Settings → Pages → Build and deployment → Source: _Deploy from a branch_**,
+   pick **`main`** + **`/ (root)`**, Save.
+4. Wait ~1 min for the first deploy. The site is then live at
+   `https://rendererrr.github.io/gtaDiscoveryApi/` and every file is reachable, e.g.
+   `…/api/vehicles/index.json` and `…/assets/vehicles/images/adder.webp`.
+
+It works out of the box — the repo is all static files. Two notes:
 
 - **`.nojekyll`** (included) disables Jekyll so files like `client/_flat.js` (leading `_`) are
   actually published. Don't delete it.

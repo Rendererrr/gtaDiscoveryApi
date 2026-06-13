@@ -22,6 +22,21 @@ export async function getDomains() {
   return res.json();
 }
 
+/**
+ * Search the flat domains (peds, vehicles, weapons) at once.
+ * Returns { peds, vehicles, weapons } each an array of matching items.
+ * Pass { domains: ['vehicles'] } to limit which are searched.
+ *
+ *   const { vehicles } = await search('adder');
+ *   const img = vehicles[0]?.url;
+ */
+export async function search(query, { limit = 25, domains = ['peds', 'vehicles', 'weapons'] } = {}) {
+  const clients = { peds, vehicles, weapons };
+  const out = {};
+  await Promise.all(domains.map(async (d) => { out[d] = await clients[d].search(query, { limit }); }));
+  return out;
+}
+
 export { clothing, peds, vehicles, weapons };
 
-export default { getDomains, clothing, peds, vehicles, weapons };
+export default { getDomains, search, clothing, peds, vehicles, weapons };

@@ -6,5 +6,5 @@ import { makeFlatClient } from './_flat.js';
 
 const vehicles = makeFlatClient('vehicles');
 
-export const { getIndex, getItems, getCategories, byCategory, byId, byHash, imageUrl } = vehicles;
+export const { getIndex, getItems, getCategories, byCategory, byId, byHash, imageUrl, search } = vehicles;
 export default vehicles;
