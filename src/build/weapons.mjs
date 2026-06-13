@@ -23,6 +23,9 @@ export const LABEL = 'Weapons';
 const ROOT = join(import.meta.dirname, '..', '..');
 const REF = JSON.parse(await readFile(join(ROOT, 'src', 'data', 'weapons.json'), 'utf-8'));
 const STATS = JSON.parse(await readFile(join(ROOT, 'src', 'data', 'weapons.stats.json'), 'utf-8'));
+// Supplementary stats (gtabase) for newer guns missing from the vespura snapshot.
+const EXTRA = JSON.parse(await readFile(join(ROOT, 'src', 'data', 'weapons.stats.extra.json'), 'utf-8')).stats;
+const EXTRA_BY_CODE = new Map(Object.entries(EXTRA).map(([cn, s]) => [cn.toLowerCase(), { ...s, maxAmmo: null }]));
 
 // stem -> reference entry
 const BY_FILE = new Map(REF.weapons.map((w) => [w.file.toLowerCase(), w]));
@@ -66,8 +69,10 @@ export async function build({ assetsDir, apiDir, log = console.log }) {
 
     if (ref && ref.codename) {
       matched++;
-      const extra = BY_SPAWN.get(ref.codename.toLowerCase());
-      if (extra) withStats++;
+      const ves = BY_SPAWN.get(ref.codename.toLowerCase());
+      // vespura stats first; fall back to the gtabase supplement for newer guns.
+      const stats = ves?.stats ?? EXTRA_BY_CODE.get(ref.codename.toLowerCase()) ?? null;
+      if (stats) withStats++;
       items.push({
         id: idFromCodename(ref.codename),
         name: ref.name,
@@ -75,8 +80,8 @@ export async function build({ assetsDir, apiDir, log = console.log }) {
         hash: joaat(ref.codename),
         category: ref.category,
         url,
-        stats: extra?.stats ?? null,
-        components: extra?.components ?? [],
+        stats,
+        components: ves?.components ?? [],
       });
     } else {
       // Known-but-codenameless (e.g. Acid Package), or no reference entry at all.
@@ -95,7 +100,7 @@ export async function build({ assetsDir, apiDir, log = console.log }) {
   }
 
   log(`  matched ${matched}/${files.length} icons to canonical codenames.`);
-  log(`  stats: ${withStats}/${files.length} weapons have stats + components (vespura snapshot).`);
+  log(`  stats: ${withStats}/${files.length} weapons have stats (vespura + gtabase); remaining are melee/gadget with no weapon-wheel stats.`);
   if (unmatched.length) log(`  ! no reference entry for: ${unmatched.join(', ')}`);
 
   items.sort((a, b) => a.name.localeCompare(b.name));

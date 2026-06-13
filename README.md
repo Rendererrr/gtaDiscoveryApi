@@ -194,9 +194,13 @@ the whole domain in one file:
   (0 → RWD, 1 → FWD, between → AWD).
 - **Weapon `stats` + `components`** — each weapon carries `stats` (0–100 weapon-wheel values
   `{ damage, fireRate, accuracy, range }` plus `maxAmmo`) and `components[]`
-  (`{ id, label, hash }` attachments/clips/tints). 88/104 weapons have these; the newest DLC
-  weapons and a few non-guns have `stats: null` / `components: []`. Sourced from
-  [vespura.com/fivem/weapons](https://vespura.com/fivem/weapons/), joined by `codename`.
+  (`{ id, label, hash }` attachments/clips/tints). **99/104** weapons have stats; the remaining
+  5 (Fist, Parachute, Acid Package, Candy Cane, The Shocker) are melee/gadget items with no
+  weapon-wheel stats in-game (`stats: null`). Stats sourced from
+  [vespura.com/fivem/weapons](https://vespura.com/fivem/weapons/) with newer DLC guns filled from
+  [gtabase.com](https://www.gtabase.com/grand-theft-auto-v/weapons/) (same 0–100 scale, verified
+  identical on overlapping weapons); joined by `codename`. (gtabase-sourced entries have
+  `maxAmmo: null`.)
   ```jsonc
   // GET api/weapons/index.json -> items[]
   { "id": "advancedrifle", "name": "Advanced Rifle", "codename": "weapon_advancedrifle",
@@ -389,5 +393,5 @@ Existing domains and their URLs are unaffected.
 - Per-texture `.webp` sets (masks, legs, shoes, accessories, undershirts, tops) originally collected by [ShortByte / Enneken Solutions](https://github.com/ShortByte/GTA5-Cloth-Assets).
 - Per-drawable previews (hair, torsos, bags, armor, decals, and all props) sourced from the [RAGE Multiplayer Wiki](https://wiki.rage.mp/wiki/Clothes).
 - Ped & vehicle images sourced from the [FiveM docs image archive](https://docs.fivem.net/).
-- Weapon stats & components from [vespura.com/fivem/weapons](https://vespura.com/fivem/weapons/) (snapshot in `src/data/weapons.stats.json`).
+- Weapon stats & components from [vespura.com/fivem/weapons](https://vespura.com/fivem/weapons/) (snapshot in `src/data/weapons.stats.json`), with newer DLC guns supplemented from [gtabase.com](https://www.gtabase.com/grand-theft-auto-v/weapons/) (`src/data/weapons.stats.extra.json`).
 - Vehicle performance stats from [DurtyFree/gta-v-data-dumps](https://github.com/DurtyFree/gta-v-data-dumps) (snapshot in `src/data/vehicles.handling.json`).
