@@ -5,7 +5,9 @@
 //   import { getTexture, getDrawable }
 //     from 'https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/client/clothing.js';
 
-const BASE = 'https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main';
+// Self-locating: resolve the API root relative to this module's own URL, so it
+// works wherever it's served from (jsDelivr, GitHub Pages, or a custom host).
+const BASE = new URL('..', import.meta.url).href.replace(/\/$/, '');
 const DOMAIN = 'clothing';
 
 const _cache = new Map();

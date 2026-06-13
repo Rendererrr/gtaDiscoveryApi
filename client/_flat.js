@@ -1,7 +1,10 @@
 // Shared client factory for flat domains (peds, vehicles, weapons).
 // Fetches api/<domain>/index.json once (cached) and exposes lookups over it.
 
-const BASE = 'https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main';
+// Self-locating: resolve the API root relative to this module's own URL, so the
+// client works wherever it's served from — jsDelivr, GitHub Pages, or a custom host.
+// (client/_flat.js -> repo root is one level up.)
+const BASE = new URL('..', import.meta.url).href.replace(/\/$/, '');
 
 export function makeFlatClient(domain) {
   let _indexPromise = null;

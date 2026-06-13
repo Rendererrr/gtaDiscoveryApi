@@ -4,7 +4,9 @@
   "description": "Static JSON API for GTA 5 / FiveM game assets, split by domain (clothing, and more to come). Images served via jsdelivr CDN.",
   "type": "module",
   "scripts": {
-    "build": "node src/build/index.mjs"
+    "build": "node src/build/index.mjs",
+    "build:jsdelivr": "node src/build/index.mjs --jsdelivr",
+    "build:pages": "node src/build/index.mjs --pages"
   },
   "repository": {
     "type": "git",

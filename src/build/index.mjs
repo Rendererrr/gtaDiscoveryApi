@@ -11,7 +11,7 @@
 
 import { writeFile, mkdir } from 'fs/promises';
 import { join } from 'path';
-import { baseMeta } from '../config.mjs';
+import { baseMeta, CDN_BASE } from '../config.mjs';
 
 import * as clothing from './clothing.mjs';
 import * as peds from './peds.mjs';
@@ -31,6 +31,8 @@ const API_DIR = join(ROOT, 'api');
 
 async function main() {
   await mkdir(API_DIR, { recursive: true });
+
+  console.log(`Base URL: ${CDN_BASE}`);
 
   const domains = [];
   for (const mod of DOMAINS) {

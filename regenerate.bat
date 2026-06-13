@@ -1,13 +1,15 @@
 @echo off
 REM Regenerate the GTA Discovery API JSON from assets/ + src/data/.
 REM Double-click this file, or run `regenerate` from a terminal.
+REM Any args are forwarded to the build, e.g.  regenerate --pages
+REM Default target is jsDelivr; use regenerate-pages.bat for GitHub Pages URLs.
 
 cd /d "%~dp0"
 
 echo Regenerating GTA Discovery API...
 echo.
 
-node src/build/index.mjs
+node src/build/index.mjs %*
 set "EXITCODE=%ERRORLEVEL%"
 
 echo.

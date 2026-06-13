@@ -11,7 +11,9 @@ import peds from './peds.js';
 import vehicles from './vehicles.js';
 import weapons from './weapons.js';
 
-const BASE = 'https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main';
+// Self-locating: resolve the API root relative to this module's own URL, so it
+// works wherever it's served from (jsDelivr, GitHub Pages, or a custom host).
+const BASE = new URL('..', import.meta.url).href.replace(/\/$/, '');
 
 /** The top-level discovery index (api/index.json) listing every domain. */
 export async function getDomains() {

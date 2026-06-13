@@ -210,11 +210,13 @@ const ar = await weapons.byId('assaultrifle_mk2');       // { hash: 961495388, c
 ## Repository layout
 
 ```
+.nojekyll                      # lets GitHub Pages serve _-prefixed files (don't delete)
+regenerate.bat                 # double-click rebuild (jsDelivr); regenerate-pages.bat for Pages
 assets/<domain>/...            # raw images (jsDelivr serves these directly)
 api/index.json                 # discovery root
 api/<domain>/...               # generated JSON per domain
 src/
-  config.mjs                   # GH owner/repo/branch -> CDN base (single source of truth)
+  config.mjs                   # base URL target (jsDelivr/Pages/custom) — single source of truth
   data/                        # build inputs for flat domains (peds.json, vehicles.json, weapons.json)
   lib/fs.mjs                   # shared fs helpers (folder-derived domains)
   lib/joaat.mjs                # GTA joaat hash
@@ -240,6 +242,43 @@ npm run build   # node src/build/index.mjs
 ```
 
 Folder → component-ID mapping for clothing lives in the `CATEGORY_MAP` at the top of `src/build/clothing.mjs`.
+
+## Hosting & base URL
+
+The API can be served two ways, and the base URL baked into the generated JSON (image `url`s,
+`meta.cdnBase`) is configurable:
+
+| Target | Base URL | Build command |
+|--------|----------|---------------|
+| **jsDelivr** (default) | `https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main` | `npm run build` |
+| **GitHub Pages** | `https://rendererrr.github.io/gtaDiscoveryApi` | `npm run build:pages` |
+| **Custom / domain** | whatever you pass | `API_BASE_URL=https://my.cdn node src/build/index.mjs` |
+
+On Windows you can double-click `regenerate.bat` (jsDelivr) or `regenerate-pages.bat` (Pages).
+
+### GitHub Pages
+
+It works on Pages out of the box — the repo is all static files. Two notes:
+
+- **`.nojekyll`** (included) disables Jekyll so files like `client/_flat.js` (leading `_`) are
+  actually published. Don't delete it.
+- The **client is self-locating**: `client/*.js` resolve the API root from their own URL
+  (`import.meta.url`), so importing them from your Pages domain makes them fetch the catalogs
+  from Pages automatically — no config needed.
+
+  ```js
+  import vehicles from 'https://rendererrr.github.io/gtaDiscoveryApi/client/vehicles.js';
+  const adder = await vehicles.byId('adder');   // fetches from the Pages origin
+  ```
+
+- For a **fully self-contained Pages deployment** (no jsDelivr dependency, image `url`s point at
+  Pages too), build with `npm run build:pages` before pushing. Otherwise the catalogs are served
+  from Pages but the embedded image URLs still resolve via jsDelivr (also fine — both are backed
+  by this repo).
+
+> Heads-up: Pages has soft limits (~1 GB repo, 100 GB/month bandwidth) and this repo is ~460 MB
+> of images. jsDelivr has no such limits and a faster CDN, so it's the better backend for the
+> actual image files even if you host the site on Pages.
 
 ## Adding a new domain (vehicles, peds, …)
 
