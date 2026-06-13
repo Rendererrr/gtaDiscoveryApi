@@ -6,5 +6,5 @@ import { makeFlatClient } from './_flat.js';
 
 const peds = makeFlatClient('peds');
 
-export const { getIndex, getItems, getCategories, byCategory, byId, byHash, imageUrl, search } = peds;
+export const { getIndex, getItems, getCategories, byCategory, byId, byHash, imageUrl, search, getHashes, nameForHash } = peds;
 export default peds;

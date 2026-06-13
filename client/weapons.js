@@ -6,5 +6,5 @@ import { makeFlatClient } from './_flat.js';
 
 const weapons = makeFlatClient('weapons');
 
-export const { getIndex, getItems, getCategories, byCategory, byId, byHash, imageUrl, search } = weapons;
+export const { getIndex, getItems, getCategories, byCategory, byId, byHash, imageUrl, search, getHashes, nameForHash } = weapons;
 export default weapons;

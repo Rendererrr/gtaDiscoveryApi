@@ -6,7 +6,7 @@
     "domain": "weapons",
     "label": "Weapons",
     "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
-    "note": "Flat catalog. hash = joaat(codename); null when the internal codename is unknown."
+    "note": "Flat catalog. hash = joaat(codename). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash }."
   },
   "categories": [
     {
@@ -58,7 +58,9 @@
       "codename": null,
       "hash": null,
       "category": "Misc",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Acid-package-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Acid-package-icon.png",
+      "stats": null,
+      "components": []
     },
     {
       "id": "advancedrifle",
@@ -66,7 +68,46 @@
       "codename": "weapon_advancedrifle",
       "hash": 2937143193,
       "category": "Rifle",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Advanced-rifle-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Advanced-rifle-icon.png",
+      "stats": {
+        "damage": 34,
+        "fireRate": 70,
+        "accuracy": 50,
+        "range": 45,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_ADVANCEDRIFLE_CLIP_01",
+          "label": "Default Clip",
+          "hash": 4203716879
+        },
+        {
+          "id": "COMPONENT_ADVANCEDRIFLE_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 2395064697
+        },
+        {
+          "id": "COMPONENT_ADVANCEDRIFLE_VARMOD_LUXE",
+          "label": "Gilded Gun Metal Finish",
+          "hash": 930927479
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP",
+          "label": "Suppressor",
+          "hash": 2205435306
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_SMALL",
+          "label": "Scope",
+          "hash": 2855028148
+        }
+      ]
     },
     {
       "id": "dagger",
@@ -74,7 +115,15 @@
       "codename": "weapon_dagger",
       "hash": 2460120199,
       "category": "Melee",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Antique-cavalry-dagger-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Antique-cavalry-dagger-icon.png",
+      "stats": {
+        "damage": 20,
+        "fireRate": 20,
+        "accuracy": 0,
+        "range": 0,
+        "maxAmmo": 0
+      },
+      "components": []
     },
     {
       "id": "appistol",
@@ -82,7 +131,41 @@
       "codename": "weapon_appistol",
       "hash": 584646201,
       "category": "Handgun",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Appistol-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Appistol-icon.png",
+      "stats": {
+        "damage": 26,
+        "fireRate": 80,
+        "accuracy": 35,
+        "range": 30,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_APPISTOL_CLIP_01",
+          "label": "Default Clip",
+          "hash": 834974250
+        },
+        {
+          "id": "COMPONENT_APPISTOL_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 614078421
+        },
+        {
+          "id": "COMPONENT_APPISTOL_VARMOD_LUXE",
+          "label": "Gilded Gun Metal Finish",
+          "hash": 2608252716
+        },
+        {
+          "id": "COMPONENT_AT_PI_FLSH",
+          "label": "Flashlight",
+          "hash": 899381934
+        },
+        {
+          "id": "COMPONENT_AT_PI_SUPP",
+          "label": "Suppressor",
+          "hash": 3271853210
+        }
+      ]
     },
     {
       "id": "assaultrifle",
@@ -90,7 +173,56 @@
       "codename": "weapon_assaultrifle",
       "hash": 3220176749,
       "category": "Rifle",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Assault-rifle-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Assault-rifle-icon.png",
+      "stats": {
+        "damage": 30,
+        "fireRate": 60,
+        "accuracy": 45,
+        "range": 45,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_ASSAULTRIFLE_CLIP_01",
+          "label": "Default Clip",
+          "hash": 3193891350
+        },
+        {
+          "id": "COMPONENT_ASSAULTRIFLE_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 2971750299
+        },
+        {
+          "id": "COMPONENT_ASSAULTRIFLE_CLIP_03",
+          "label": "Drum Magazine",
+          "hash": 3689981245
+        },
+        {
+          "id": "COMPONENT_ASSAULTRIFLE_VARMOD_LUXE",
+          "label": "Yusuf Amir Luxury Finish",
+          "hash": 1319990579
+        },
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP",
+          "label": "Grip",
+          "hash": 202788691
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP_02",
+          "label": "Suppressor",
+          "hash": 2805810788
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MACRO",
+          "label": "Scope",
+          "hash": 2637152041
+        }
+      ]
     },
     {
       "id": "assaultrifle_mk2",
@@ -98,7 +230,176 @@
       "codename": "weapon_assaultrifle_mk2",
       "hash": 961495388,
       "category": "Rifle",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Assault-rifle-mk2-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Assault-rifle-mk2-icon.png",
+      "stats": {
+        "damage": 33,
+        "fireRate": 60,
+        "accuracy": 45,
+        "range": 45,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_ASSAULTRIFLE_MK2_CAMO_02",
+          "label": "Brushstroke Camo",
+          "hash": 937772107
+        },
+        {
+          "id": "COMPONENT_ASSAULTRIFLE_MK2_CAMO_03",
+          "label": "Woodland Camo",
+          "hash": 1401650071
+        },
+        {
+          "id": "COMPONENT_ASSAULTRIFLE_MK2_CAMO_04",
+          "label": "Skull",
+          "hash": 628662130
+        },
+        {
+          "id": "COMPONENT_ASSAULTRIFLE_MK2_CAMO_05",
+          "label": "Sessanta Nove",
+          "hash": 3309920045
+        },
+        {
+          "id": "COMPONENT_ASSAULTRIFLE_MK2_CAMO_06",
+          "label": "Perseus",
+          "hash": 3482022833
+        },
+        {
+          "id": "COMPONENT_ASSAULTRIFLE_MK2_CAMO_07",
+          "label": "Leopard",
+          "hash": 2847614993
+        },
+        {
+          "id": "COMPONENT_ASSAULTRIFLE_MK2_CAMO_08",
+          "label": "Zebra",
+          "hash": 4234628436
+        },
+        {
+          "id": "COMPONENT_ASSAULTRIFLE_MK2_CAMO_09",
+          "label": "Geometric",
+          "hash": 2088750491
+        },
+        {
+          "id": "COMPONENT_ASSAULTRIFLE_MK2_CAMO_10",
+          "label": "Boom!",
+          "hash": 2781053842
+        },
+        {
+          "id": "COMPONENT_ASSAULTRIFLE_MK2_CAMO_IND_01",
+          "label": "Patriotic",
+          "hash": 3115408816
+        },
+        {
+          "id": "COMPONENT_ASSAULTRIFLE_MK2_CAMO",
+          "label": "Digital Camo",
+          "hash": 2434475183
+        },
+        {
+          "id": "COMPONENT_ASSAULTRIFLE_MK2_CLIP_01",
+          "label": "Default Clip",
+          "hash": 2249208895
+        },
+        {
+          "id": "COMPONENT_ASSAULTRIFLE_MK2_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 3509242479
+        },
+        {
+          "id": "COMPONENT_ASSAULTRIFLE_MK2_CLIP_ARMORPIERCING",
+          "label": "Armor Piercing Rounds",
+          "hash": 2816286296
+        },
+        {
+          "id": "COMPONENT_ASSAULTRIFLE_MK2_CLIP_FMJ",
+          "label": "Full Metal Jacket Rounds",
+          "hash": 1675665560
+        },
+        {
+          "id": "COMPONENT_ASSAULTRIFLE_MK2_CLIP_INCENDIARY",
+          "label": "Incendiary Rounds",
+          "hash": 4218476627
+        },
+        {
+          "id": "COMPONENT_ASSAULTRIFLE_MK2_CLIP_TRACER",
+          "label": "Tracer Rounds",
+          "hash": 4012669121
+        },
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP_02",
+          "label": "Grip",
+          "hash": 2640679034
+        },
+        {
+          "id": "COMPONENT_AT_AR_BARREL_01",
+          "label": "Default Barrel",
+          "hash": 1134861606
+        },
+        {
+          "id": "COMPONENT_AT_AR_BARREL_02",
+          "label": "Heavy Barrel",
+          "hash": 1447477866
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP_02",
+          "label": "Suppressor",
+          "hash": 2805810788
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_01",
+          "label": "Flat Muzzle Brake",
+          "hash": 3113485012
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_02",
+          "label": "Tactical Muzzle Brake",
+          "hash": 3362234491
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_03",
+          "label": "Fat-End Muzzle Brake",
+          "hash": 3725708239
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_04",
+          "label": "Precision Muzzle Brake",
+          "hash": 3968886988
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_05",
+          "label": "Heavy Duty Muzzle Brake",
+          "hash": 48731514
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_06",
+          "label": "Slanted Muzzle Brake",
+          "hash": 880736428
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_07",
+          "label": "Split-End Muzzle Brake",
+          "hash": 1303784126
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MACRO_MK2",
+          "label": "Small Scope",
+          "hash": 77277509
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MEDIUM_MK2",
+          "label": "Large Scope",
+          "hash": 3328927042
+        },
+        {
+          "id": "COMPONENT_AT_SIGHTS",
+          "label": "Holographic Sight",
+          "hash": 1108334355
+        }
+      ]
     },
     {
       "id": "assaultshotgun",
@@ -106,7 +407,41 @@
       "codename": "weapon_assaultshotgun",
       "hash": 3800352039,
       "category": "Shotgun",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Assault-shotgun-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Assault-shotgun-icon.png",
+      "stats": {
+        "damage": 77,
+        "fireRate": 50,
+        "accuracy": 25,
+        "range": 15,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_ASSAULTSHOTGUN_CLIP_01",
+          "label": "Default Clip",
+          "hash": 2498239431
+        },
+        {
+          "id": "COMPONENT_ASSAULTSHOTGUN_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 2260565874
+        },
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP",
+          "label": "Grip",
+          "hash": 202788691
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP",
+          "label": "Suppressor",
+          "hash": 2205435306
+        }
+      ]
     },
     {
       "id": "assaultsmg",
@@ -114,7 +449,46 @@
       "codename": "weapon_assaultsmg",
       "hash": 4024951519,
       "category": "SMG",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Assault-smg-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Assault-smg-icon.png",
+      "stats": {
+        "damage": 23,
+        "fireRate": 55,
+        "accuracy": 45,
+        "range": 40,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_ASSAULTSMG_CLIP_01",
+          "label": "Default Clip",
+          "hash": 2366834608
+        },
+        {
+          "id": "COMPONENT_ASSAULTSMG_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 3141985303
+        },
+        {
+          "id": "COMPONENT_ASSAULTSMG_VARMOD_LOWRIDER",
+          "label": "Yusuf Amir Luxury Finish",
+          "hash": 663517359
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP_02",
+          "label": "Suppressor",
+          "hash": 2805810788
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MACRO",
+          "label": "Scope",
+          "hash": 2637152041
+        }
+      ]
     },
     {
       "id": "ball",
@@ -122,7 +496,15 @@
       "codename": "weapon_ball",
       "hash": 600439132,
       "category": "Thrown",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Ball-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Ball-icon.png",
+      "stats": {
+        "damage": 0,
+        "fireRate": 1,
+        "accuracy": 10,
+        "range": 0,
+        "maxAmmo": 1
+      },
+      "components": []
     },
     {
       "id": "bat",
@@ -130,7 +512,15 @@
       "codename": "weapon_bat",
       "hash": 2508868239,
       "category": "Melee",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Baseball-bat-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Baseball-bat-icon.png",
+      "stats": {
+        "damage": 20,
+        "fireRate": 10,
+        "accuracy": 0,
+        "range": 0,
+        "maxAmmo": 0
+      },
+      "components": []
     },
     {
       "id": "battleaxe",
@@ -138,7 +528,15 @@
       "codename": "weapon_battleaxe",
       "hash": 3441901897,
       "category": "Melee",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Battle-axe-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Battle-axe-icon.png",
+      "stats": {
+        "damage": 15,
+        "fireRate": 15,
+        "accuracy": 0,
+        "range": 0,
+        "maxAmmo": 0
+      },
+      "components": []
     },
     {
       "id": "knuckle",
@@ -146,7 +544,66 @@
       "codename": "weapon_knuckle",
       "hash": 3638508604,
       "category": "Melee",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Knuckles-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Knuckles-icon.png",
+      "stats": {
+        "damage": 5,
+        "fireRate": 20,
+        "accuracy": 0,
+        "range": 0,
+        "maxAmmo": 0
+      },
+      "components": [
+        {
+          "id": "COMPONENT_KNUCKLE_VARMOD_BALLAS",
+          "label": "The Ballas",
+          "hash": 4007263587
+        },
+        {
+          "id": "COMPONENT_KNUCKLE_VARMOD_BASE",
+          "label": "Base Model",
+          "hash": 4081463091
+        },
+        {
+          "id": "COMPONENT_KNUCKLE_VARMOD_DIAMOND",
+          "label": "The Rock",
+          "hash": 2539772380
+        },
+        {
+          "id": "COMPONENT_KNUCKLE_VARMOD_DOLLAR",
+          "label": "The Hustler",
+          "hash": 1351683121
+        },
+        {
+          "id": "COMPONENT_KNUCKLE_VARMOD_HATE",
+          "label": "The Hater",
+          "hash": 2112683568
+        },
+        {
+          "id": "COMPONENT_KNUCKLE_VARMOD_KING",
+          "label": "The King",
+          "hash": 3800804335
+        },
+        {
+          "id": "COMPONENT_KNUCKLE_VARMOD_LOVE",
+          "label": "The Lover",
+          "hash": 1062111910
+        },
+        {
+          "id": "COMPONENT_KNUCKLE_VARMOD_PIMP",
+          "label": "The Pimp",
+          "hash": 3323197061
+        },
+        {
+          "id": "COMPONENT_KNUCKLE_VARMOD_PLAYER",
+          "label": "The Player",
+          "hash": 146278587
+        },
+        {
+          "id": "COMPONENT_KNUCKLE_VARMOD_VAGOS",
+          "label": "The Vagos",
+          "hash": 2062808965
+        }
+      ]
     },
     {
       "id": "bottle",
@@ -154,7 +611,15 @@
       "codename": "weapon_bottle",
       "hash": 4192643659,
       "category": "Melee",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Broken-bottle-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Broken-bottle-icon.png",
+      "stats": {
+        "damage": 20,
+        "fireRate": 15,
+        "accuracy": 0,
+        "range": 0,
+        "maxAmmo": 0
+      },
+      "components": []
     },
     {
       "id": "bullpuprifle",
@@ -162,7 +627,51 @@
       "codename": "weapon_bullpuprifle",
       "hash": 2132975508,
       "category": "Rifle",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Bullpup-rifle-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Bullpup-rifle-icon.png",
+      "stats": {
+        "damage": 32,
+        "fireRate": 72,
+        "accuracy": 45,
+        "range": 45,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP",
+          "label": "Grip",
+          "hash": 202788691
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP",
+          "label": "Suppressor",
+          "hash": 2205435306
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_SMALL",
+          "label": "Scope",
+          "hash": 2855028148
+        },
+        {
+          "id": "COMPONENT_BULLPUPRIFLE_CLIP_01",
+          "label": "Default Clip",
+          "hash": 3315675008
+        },
+        {
+          "id": "COMPONENT_BULLPUPRIFLE_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 3009973007
+        },
+        {
+          "id": "COMPONENT_BULLPUPRIFLE_VARMOD_LOW",
+          "label": "Gilded Gun Metal Finish",
+          "hash": 2824322168
+        }
+      ]
     },
     {
       "id": "bullpuprifle_mk2",
@@ -170,7 +679,176 @@
       "codename": "weapon_bullpuprifle_mk2",
       "hash": 2228681469,
       "category": "Rifle",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Bullpup-rifle-mk2-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Bullpup-rifle-mk2-icon.png",
+      "stats": {
+        "damage": 34,
+        "fireRate": 72,
+        "accuracy": 45,
+        "range": 45,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP_02",
+          "label": "Grip",
+          "hash": 2640679034
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP",
+          "label": "Suppressor",
+          "hash": 2205435306
+        },
+        {
+          "id": "COMPONENT_AT_BP_BARREL_01",
+          "label": "Default Barrel",
+          "hash": 1704640795
+        },
+        {
+          "id": "COMPONENT_AT_BP_BARREL_02",
+          "label": "Heavy Barrel",
+          "hash": 1005743559
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_01",
+          "label": "Flat Muzzle Brake",
+          "hash": 3113485012
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_02",
+          "label": "Tactical Muzzle Brake",
+          "hash": 3362234491
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_03",
+          "label": "Fat-End Muzzle Brake",
+          "hash": 3725708239
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_04",
+          "label": "Precision Muzzle Brake",
+          "hash": 3968886988
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_05",
+          "label": "Heavy Duty Muzzle Brake",
+          "hash": 48731514
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_06",
+          "label": "Slanted Muzzle Brake",
+          "hash": 880736428
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_07",
+          "label": "Split-End Muzzle Brake",
+          "hash": 1303784126
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MACRO_02_MK2",
+          "label": "Small Scope",
+          "hash": 3350057221
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_SMALL_MK2",
+          "label": "Medium Scope",
+          "hash": 1060929921
+        },
+        {
+          "id": "COMPONENT_AT_SIGHTS",
+          "label": "Holographic Sight",
+          "hash": 1108334355
+        },
+        {
+          "id": "COMPONENT_BULLPUPRIFLE_MK2_CAMO_02",
+          "label": "Brushstroke Camo",
+          "hash": 3104173419
+        },
+        {
+          "id": "COMPONENT_BULLPUPRIFLE_MK2_CAMO_03",
+          "label": "Woodland Camo",
+          "hash": 2797881576
+        },
+        {
+          "id": "COMPONENT_BULLPUPRIFLE_MK2_CAMO_04",
+          "label": "Skull",
+          "hash": 2491819116
+        },
+        {
+          "id": "COMPONENT_BULLPUPRIFLE_MK2_CAMO_05",
+          "label": "Sessanta Nove",
+          "hash": 2318995410
+        },
+        {
+          "id": "COMPONENT_BULLPUPRIFLE_MK2_CAMO_06",
+          "label": "Perseus",
+          "hash": 36929477
+        },
+        {
+          "id": "COMPONENT_BULLPUPRIFLE_MK2_CAMO_07",
+          "label": "Leopard",
+          "hash": 4026522462
+        },
+        {
+          "id": "COMPONENT_BULLPUPRIFLE_MK2_CAMO_08",
+          "label": "Zebra",
+          "hash": 3720197850
+        },
+        {
+          "id": "COMPONENT_BULLPUPRIFLE_MK2_CAMO_09",
+          "label": "Geometric",
+          "hash": 3412267557
+        },
+        {
+          "id": "COMPONENT_BULLPUPRIFLE_MK2_CAMO_10",
+          "label": "Boom!",
+          "hash": 2826785822
+        },
+        {
+          "id": "COMPONENT_BULLPUPRIFLE_MK2_CAMO_IND_01",
+          "label": "Patriotic",
+          "hash": 3320426066
+        },
+        {
+          "id": "COMPONENT_BULLPUPRIFLE_MK2_CAMO",
+          "label": "Digital Camo",
+          "hash": 2923451831
+        },
+        {
+          "id": "COMPONENT_BULLPUPRIFLE_MK2_CLIP_01",
+          "label": "Default Clip",
+          "hash": 25766362
+        },
+        {
+          "id": "COMPONENT_BULLPUPRIFLE_MK2_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 4021290536
+        },
+        {
+          "id": "COMPONENT_BULLPUPRIFLE_MK2_CLIP_ARMORPIERCING",
+          "label": "Armor Piercing Rounds",
+          "hash": 4205311469
+        },
+        {
+          "id": "COMPONENT_BULLPUPRIFLE_MK2_CLIP_FMJ",
+          "label": "Full Metal Jacket Rounds",
+          "hash": 1130501904
+        },
+        {
+          "id": "COMPONENT_BULLPUPRIFLE_MK2_CLIP_INCENDIARY",
+          "label": "Incendiary Rounds",
+          "hash": 2845636954
+        },
+        {
+          "id": "COMPONENT_BULLPUPRIFLE_MK2_CLIP_TRACER",
+          "label": "Tracer Rounds",
+          "hash": 2183159977
+        }
+      ]
     },
     {
       "id": "bullpupshotgun",
@@ -178,7 +856,31 @@
       "codename": "weapon_bullpupshotgun",
       "hash": 2640438543,
       "category": "Shotgun",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Bullpup-shotgun-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Bullpup-shotgun-icon.png",
+      "stats": {
+        "damage": 67,
+        "fireRate": 20,
+        "accuracy": 30,
+        "range": 20,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP",
+          "label": "Grip",
+          "hash": 202788691
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP_02",
+          "label": "Suppressor",
+          "hash": 2805810788
+        }
+      ]
     },
     {
       "id": "bzgas",
@@ -186,7 +888,15 @@
       "codename": "weapon_bzgas",
       "hash": 2694266206,
       "category": "Thrown",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Bz-gas-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Bz-gas-icon.png",
+      "stats": {
+        "damage": 0,
+        "fireRate": 1,
+        "accuracy": 10,
+        "range": 15,
+        "maxAmmo": 25
+      },
+      "components": []
     },
     {
       "id": "candycane",
@@ -194,7 +904,9 @@
       "codename": "weapon_candycane",
       "hash": 1703483498,
       "category": "Melee",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Candy-cane-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Candy-cane-icon.png",
+      "stats": null,
+      "components": []
     },
     {
       "id": "carbinerifle",
@@ -202,7 +914,56 @@
       "codename": "weapon_carbinerifle",
       "hash": 2210333304,
       "category": "Rifle",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Carbine-rifle-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Carbine-rifle-icon.png",
+      "stats": {
+        "damage": 32,
+        "fireRate": 65,
+        "accuracy": 55,
+        "range": 45,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP",
+          "label": "Grip",
+          "hash": 202788691
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP",
+          "label": "Suppressor",
+          "hash": 2205435306
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MEDIUM",
+          "label": "Scope",
+          "hash": 2698550338
+        },
+        {
+          "id": "COMPONENT_CARBINERIFLE_CLIP_01",
+          "label": "Default Clip",
+          "hash": 2680042476
+        },
+        {
+          "id": "COMPONENT_CARBINERIFLE_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 2433783441
+        },
+        {
+          "id": "COMPONENT_CARBINERIFLE_CLIP_03",
+          "label": "Drum Magazine",
+          "hash": 3127044405
+        },
+        {
+          "id": "COMPONENT_CARBINERIFLE_VARMOD_LUXE",
+          "label": "Yusuf Amir Luxury Finish",
+          "hash": 3634075224
+        }
+      ]
     },
     {
       "id": "carbinerifle_mk2",
@@ -210,7 +971,176 @@
       "codename": "weapon_carbinerifle_mk2",
       "hash": 4208062921,
       "category": "Rifle",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Carbine-rifle-mk2-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Carbine-rifle-mk2-icon.png",
+      "stats": {
+        "damage": 36,
+        "fireRate": 65,
+        "accuracy": 55,
+        "range": 45,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP_02",
+          "label": "Grip",
+          "hash": 2640679034
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP",
+          "label": "Suppressor",
+          "hash": 2205435306
+        },
+        {
+          "id": "COMPONENT_AT_CR_BARREL_01",
+          "label": "Default Barrel",
+          "hash": 2201368575
+        },
+        {
+          "id": "COMPONENT_AT_CR_BARREL_02",
+          "label": "Heavy Barrel",
+          "hash": 2335983627
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_01",
+          "label": "Flat Muzzle Brake",
+          "hash": 3113485012
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_02",
+          "label": "Tactical Muzzle Brake",
+          "hash": 3362234491
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_03",
+          "label": "Fat-End Muzzle Brake",
+          "hash": 3725708239
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_04",
+          "label": "Precision Muzzle Brake",
+          "hash": 3968886988
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_05",
+          "label": "Heavy Duty Muzzle Brake",
+          "hash": 48731514
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_06",
+          "label": "Slanted Muzzle Brake",
+          "hash": 880736428
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_07",
+          "label": "Split-End Muzzle Brake",
+          "hash": 1303784126
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MACRO_MK2",
+          "label": "Small Scope",
+          "hash": 77277509
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MEDIUM_MK2",
+          "label": "Large Scope",
+          "hash": 3328927042
+        },
+        {
+          "id": "COMPONENT_AT_SIGHTS",
+          "label": "Holographic Sight",
+          "hash": 1108334355
+        },
+        {
+          "id": "COMPONENT_CARBINERIFLE_MK2_CAMO_02",
+          "label": "Brushstroke Camo",
+          "hash": 1080719624
+        },
+        {
+          "id": "COMPONENT_CARBINERIFLE_MK2_CAMO_03",
+          "label": "Woodland Camo",
+          "hash": 792221348
+        },
+        {
+          "id": "COMPONENT_CARBINERIFLE_MK2_CAMO_04",
+          "label": "Skull",
+          "hash": 3842785869
+        },
+        {
+          "id": "COMPONENT_CARBINERIFLE_MK2_CAMO_05",
+          "label": "Sessanta Nove",
+          "hash": 3548192559
+        },
+        {
+          "id": "COMPONENT_CARBINERIFLE_MK2_CAMO_06",
+          "label": "Perseus",
+          "hash": 2250671235
+        },
+        {
+          "id": "COMPONENT_CARBINERIFLE_MK2_CAMO_07",
+          "label": "Leopard",
+          "hash": 4095795318
+        },
+        {
+          "id": "COMPONENT_CARBINERIFLE_MK2_CAMO_08",
+          "label": "Zebra",
+          "hash": 2866892280
+        },
+        {
+          "id": "COMPONENT_CARBINERIFLE_MK2_CAMO_09",
+          "label": "Geometric",
+          "hash": 2559813981
+        },
+        {
+          "id": "COMPONENT_CARBINERIFLE_MK2_CAMO_10",
+          "label": "Boom!",
+          "hash": 1796459838
+        },
+        {
+          "id": "COMPONENT_CARBINERIFLE_MK2_CAMO_IND_01",
+          "label": "Patriotic",
+          "hash": 3663056191
+        },
+        {
+          "id": "COMPONENT_CARBINERIFLE_MK2_CAMO",
+          "label": "Digital Camo",
+          "hash": 1272803094
+        },
+        {
+          "id": "COMPONENT_CARBINERIFLE_MK2_CLIP_01",
+          "label": "Default Clip",
+          "hash": 1283078430
+        },
+        {
+          "id": "COMPONENT_CARBINERIFLE_MK2_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 1574296533
+        },
+        {
+          "id": "COMPONENT_CARBINERIFLE_MK2_CLIP_ARMORPIERCING",
+          "label": "Armor Piercing Rounds",
+          "hash": 626875735
+        },
+        {
+          "id": "COMPONENT_CARBINERIFLE_MK2_CLIP_FMJ",
+          "label": "Full Metal Jacket Rounds",
+          "hash": 1141059345
+        },
+        {
+          "id": "COMPONENT_CARBINERIFLE_MK2_CLIP_INCENDIARY",
+          "label": "Incendiary Rounds",
+          "hash": 1025884839
+        },
+        {
+          "id": "COMPONENT_CARBINERIFLE_MK2_CLIP_TRACER",
+          "label": "Tracer Rounds",
+          "hash": 391640422
+        }
+      ]
     },
     {
       "id": "ceramicpistol",
@@ -218,7 +1148,9 @@
       "codename": "weapon_ceramicpistol",
       "hash": 727643628,
       "category": "Handgun",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Ceramic-pistol-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Ceramic-pistol-icon.png",
+      "stats": null,
+      "components": []
     },
     {
       "id": "combatmg",
@@ -226,7 +1158,36 @@
       "codename": "weapon_combatmg",
       "hash": 2144741730,
       "category": "MG",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Combat-mg-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Combat-mg-icon.png",
+      "stats": {
+        "damage": 55,
+        "fireRate": 65,
+        "accuracy": 45,
+        "range": 60,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP",
+          "label": "Grip",
+          "hash": 202788691
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MEDIUM",
+          "label": "Scope",
+          "hash": 2698550338
+        },
+        {
+          "id": "COMPONENT_COMBATMG_CLIP_01",
+          "label": "Default Clip",
+          "hash": 3791631178
+        },
+        {
+          "id": "COMPONENT_COMBATMG_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 3603274966
+        }
+      ]
     },
     {
       "id": "combatmg_mk2",
@@ -234,7 +1195,166 @@
       "codename": "weapon_combatmg_mk2",
       "hash": 3686625920,
       "category": "MG",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Combat-mg-mk2-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Combat-mg-mk2-icon.png",
+      "stats": {
+        "damage": 57,
+        "fireRate": 65,
+        "accuracy": 45,
+        "range": 60,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP_02",
+          "label": "Grip",
+          "hash": 2640679034
+        },
+        {
+          "id": "COMPONENT_AT_MG_BARREL_01",
+          "label": "Default Barrel",
+          "hash": 3276730932
+        },
+        {
+          "id": "COMPONENT_AT_MG_BARREL_02",
+          "label": "Heavy Barrel",
+          "hash": 3051509595
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_01",
+          "label": "Flat Muzzle Brake",
+          "hash": 3113485012
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_02",
+          "label": "Tactical Muzzle Brake",
+          "hash": 3362234491
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_03",
+          "label": "Fat-End Muzzle Brake",
+          "hash": 3725708239
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_04",
+          "label": "Precision Muzzle Brake",
+          "hash": 3968886988
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_05",
+          "label": "Heavy Duty Muzzle Brake",
+          "hash": 48731514
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_06",
+          "label": "Slanted Muzzle Brake",
+          "hash": 880736428
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_07",
+          "label": "Split-End Muzzle Brake",
+          "hash": 1303784126
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MEDIUM_MK2",
+          "label": "Large Scope",
+          "hash": 3328927042
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_SMALL_MK2",
+          "label": "Medium Scope",
+          "hash": 1060929921
+        },
+        {
+          "id": "COMPONENT_AT_SIGHTS",
+          "label": "Holographic Sight",
+          "hash": 1108334355
+        },
+        {
+          "id": "COMPONENT_COMBATMG_MK2_CAMO_02",
+          "label": "Brushstroke Camo",
+          "hash": 3437259709
+        },
+        {
+          "id": "COMPONENT_COMBATMG_MK2_CAMO_03",
+          "label": "Woodland Camo",
+          "hash": 3197423398
+        },
+        {
+          "id": "COMPONENT_COMBATMG_MK2_CAMO_04",
+          "label": "Skull",
+          "hash": 1980349969
+        },
+        {
+          "id": "COMPONENT_COMBATMG_MK2_CAMO_05",
+          "label": "Sessanta Nove",
+          "hash": 1219453777
+        },
+        {
+          "id": "COMPONENT_COMBATMG_MK2_CAMO_06",
+          "label": "Perseus",
+          "hash": 2441508106
+        },
+        {
+          "id": "COMPONENT_COMBATMG_MK2_CAMO_07",
+          "label": "Leopard",
+          "hash": 2220186280
+        },
+        {
+          "id": "COMPONENT_COMBATMG_MK2_CAMO_08",
+          "label": "Zebra",
+          "hash": 457967755
+        },
+        {
+          "id": "COMPONENT_COMBATMG_MK2_CAMO_09",
+          "label": "Geometric",
+          "hash": 235171324
+        },
+        {
+          "id": "COMPONENT_COMBATMG_MK2_CAMO_10",
+          "label": "Boom!",
+          "hash": 42685294
+        },
+        {
+          "id": "COMPONENT_COMBATMG_MK2_CAMO_IND_01",
+          "label": "Patriotic",
+          "hash": 3607349581
+        },
+        {
+          "id": "COMPONENT_COMBATMG_MK2_CAMO",
+          "label": "Digital Camo",
+          "hash": 1249283253
+        },
+        {
+          "id": "COMPONENT_COMBATMG_MK2_CLIP_01",
+          "label": "Default Clip",
+          "hash": 1227564412
+        },
+        {
+          "id": "COMPONENT_COMBATMG_MK2_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 400507625
+        },
+        {
+          "id": "COMPONENT_COMBATMG_MK2_CLIP_ARMORPIERCING",
+          "label": "Armor Piercing Rounds",
+          "hash": 696788003
+        },
+        {
+          "id": "COMPONENT_COMBATMG_MK2_CLIP_FMJ",
+          "label": "Full Metal Jacket Rounds",
+          "hash": 1475288264
+        },
+        {
+          "id": "COMPONENT_COMBATMG_MK2_CLIP_INCENDIARY",
+          "label": "Incendiary Rounds",
+          "hash": 3274096058
+        },
+        {
+          "id": "COMPONENT_COMBATMG_MK2_CLIP_TRACER",
+          "label": "Tracer Rounds",
+          "hash": 4133787461
+        }
+      ]
     },
     {
       "id": "combatpdw",
@@ -242,7 +1362,46 @@
       "codename": "weapon_combatpdw",
       "hash": 171789620,
       "category": "SMG",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Combat-pdw-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Combat-pdw-icon.png",
+      "stats": {
+        "damage": 25,
+        "fireRate": 50,
+        "accuracy": 45,
+        "range": 38,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP",
+          "label": "Grip",
+          "hash": 202788691
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_SMALL",
+          "label": "Scope",
+          "hash": 2855028148
+        },
+        {
+          "id": "COMPONENT_COMBATPDW_CLIP_01",
+          "label": "Default Clip",
+          "hash": 1125642654
+        },
+        {
+          "id": "COMPONENT_COMBATPDW_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 860508675
+        },
+        {
+          "id": "COMPONENT_COMBATPDW_CLIP_03",
+          "label": "Drum Magazine",
+          "hash": 1857603803
+        }
+      ]
     },
     {
       "id": "combatpistol",
@@ -250,7 +1409,41 @@
       "codename": "weapon_combatpistol",
       "hash": 1593441988,
       "category": "Handgun",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Combat-pistol-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Combat-pistol-icon.png",
+      "stats": {
+        "damage": 27,
+        "fireRate": 40,
+        "accuracy": 50,
+        "range": 30,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_AT_PI_FLSH",
+          "label": "Flashlight",
+          "hash": 899381934
+        },
+        {
+          "id": "COMPONENT_AT_PI_SUPP",
+          "label": "Suppressor",
+          "hash": 3271853210
+        },
+        {
+          "id": "COMPONENT_COMBATPISTOL_CLIP_01",
+          "label": "Default Clip",
+          "hash": 119648377
+        },
+        {
+          "id": "COMPONENT_COMBATPISTOL_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 3598405421
+        },
+        {
+          "id": "COMPONENT_COMBATPISTOL_VARMOD_LOWRIDER",
+          "label": "Yusuf Amir Luxury Finish",
+          "hash": 3328527730
+        }
+      ]
     },
     {
       "id": "combatshotgun",
@@ -258,7 +1451,9 @@
       "codename": "weapon_combatshotgun",
       "hash": 94989220,
       "category": "Shotgun",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Combat-shotgun-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Combat-shotgun-icon.png",
+      "stats": null,
+      "components": []
     },
     {
       "id": "emplauncher",
@@ -266,7 +1461,9 @@
       "codename": "weapon_emplauncher",
       "hash": 3676729658,
       "category": "Heavy",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/EMP-launcher-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/EMP-launcher-icon.png",
+      "stats": null,
+      "components": []
     },
     {
       "id": "compactlauncher",
@@ -274,7 +1471,15 @@
       "codename": "weapon_compactlauncher",
       "hash": 125959754,
       "category": "Heavy",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Grenade-compact-launcher-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Grenade-compact-launcher-icon.png",
+      "stats": {
+        "damage": 95,
+        "fireRate": 10,
+        "accuracy": 15,
+        "range": 55,
+        "maxAmmo": 20
+      },
+      "components": []
     },
     {
       "id": "compactrifle",
@@ -282,7 +1487,31 @@
       "codename": "weapon_compactrifle",
       "hash": 1649403952,
       "category": "Rifle",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Compact-rifle-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Compact-rifle-icon.png",
+      "stats": {
+        "damage": 36,
+        "fireRate": 60,
+        "accuracy": 35,
+        "range": 45,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_COMPACTRIFLE_CLIP_01",
+          "label": "Default Clip",
+          "hash": 1363085923
+        },
+        {
+          "id": "COMPONENT_COMPACTRIFLE_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 1509923832
+        },
+        {
+          "id": "COMPONENT_COMPACTRIFLE_CLIP_03",
+          "label": "Drum Magazine",
+          "hash": 3322377230
+        }
+      ]
     },
     {
       "id": "crowbar",
@@ -290,7 +1519,15 @@
       "codename": "weapon_crowbar",
       "hash": 2227010557,
       "category": "Melee",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Crowbar-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Crowbar-icon.png",
+      "stats": {
+        "damage": 10,
+        "fireRate": 15,
+        "accuracy": 0,
+        "range": 0,
+        "maxAmmo": 0
+      },
+      "components": []
     },
     {
       "id": "dbshotgun",
@@ -298,7 +1535,15 @@
       "codename": "weapon_dbshotgun",
       "hash": 4019527611,
       "category": "Shotgun",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Double-barrel-shotgun-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Double-barrel-shotgun-icon.png",
+      "stats": {
+        "damage": 98,
+        "fireRate": 25,
+        "accuracy": 15,
+        "range": 10,
+        "maxAmmo": 250
+      },
+      "components": []
     },
     {
       "id": "doubleaction",
@@ -306,7 +1551,15 @@
       "codename": "weapon_doubleaction",
       "hash": 2548703416,
       "category": "Handgun",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Double-action-revolver-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Double-action-revolver-icon.png",
+      "stats": {
+        "damage": 60,
+        "fireRate": 40,
+        "accuracy": 60,
+        "range": 35,
+        "maxAmmo": 250
+      },
+      "components": []
     },
     {
       "id": "firework",
@@ -314,7 +1567,15 @@
       "codename": "weapon_firework",
       "hash": 2138347493,
       "category": "Heavy",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Firework-launcher-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Firework-launcher-icon.png",
+      "stats": {
+        "damage": 45,
+        "fireRate": 5,
+        "accuracy": 12,
+        "range": 60,
+        "maxAmmo": 20
+      },
+      "components": []
     },
     {
       "id": "unarmed",
@@ -322,7 +1583,9 @@
       "codename": "weapon_unarmed",
       "hash": 2725352035,
       "category": "Melee",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Fist-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Fist-icon.png",
+      "stats": null,
+      "components": []
     },
     {
       "id": "flare",
@@ -330,7 +1593,15 @@
       "codename": "weapon_flare",
       "hash": 1233104067,
       "category": "Thrown",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Flare-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Flare-icon.png",
+      "stats": {
+        "damage": 0,
+        "fireRate": 1,
+        "accuracy": 10,
+        "range": 25,
+        "maxAmmo": 25
+      },
+      "components": []
     },
     {
       "id": "flaregun",
@@ -338,7 +1609,15 @@
       "codename": "weapon_flaregun",
       "hash": 1198879012,
       "category": "Handgun",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Flaregun-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Flaregun-icon.png",
+      "stats": {
+        "damage": 20,
+        "fireRate": 10,
+        "accuracy": 30,
+        "range": 10,
+        "maxAmmo": 20
+      },
+      "components": []
     },
     {
       "id": "flashlight",
@@ -346,7 +1625,15 @@
       "codename": "weapon_flashlight",
       "hash": 2343591895,
       "category": "Melee",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Flashlight-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Flashlight-icon.png",
+      "stats": {
+        "damage": 10,
+        "fireRate": 15,
+        "accuracy": 0,
+        "range": 0,
+        "maxAmmo": 0
+      },
+      "components": []
     },
     {
       "id": "golfclub",
@@ -354,7 +1641,15 @@
       "codename": "weapon_golfclub",
       "hash": 1141786504,
       "category": "Melee",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Golf-club-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Golf-club-icon.png",
+      "stats": {
+        "damage": 20,
+        "fireRate": 10,
+        "accuracy": 0,
+        "range": 0,
+        "maxAmmo": 0
+      },
+      "components": []
     },
     {
       "id": "grenade",
@@ -362,7 +1657,15 @@
       "codename": "weapon_grenade",
       "hash": 2481070269,
       "category": "Thrown",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Grenade-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Grenade-icon.png",
+      "stats": {
+        "damage": 95,
+        "fireRate": 1,
+        "accuracy": 10,
+        "range": 15,
+        "maxAmmo": 25
+      },
+      "components": []
     },
     {
       "id": "grenadelauncher",
@@ -370,7 +1673,31 @@
       "codename": "weapon_grenadelauncher",
       "hash": 2726580491,
       "category": "Heavy",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Grenade-launcher-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Grenade-launcher-icon.png",
+      "stats": {
+        "damage": 95,
+        "fireRate": 20,
+        "accuracy": 10,
+        "range": 50,
+        "maxAmmo": 20
+      },
+      "components": [
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP",
+          "label": "Grip",
+          "hash": 202788691
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_SMALL",
+          "label": "Scope",
+          "hash": 2855028148
+        }
+      ]
     },
     {
       "id": "gusenberg",
@@ -378,7 +1705,26 @@
       "codename": "weapon_gusenberg",
       "hash": 1627465347,
       "category": "SMG",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Gusenberg-sweeper-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Gusenberg-sweeper-icon.png",
+      "stats": {
+        "damage": 34,
+        "fireRate": 65,
+        "accuracy": 38,
+        "range": 56,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_GUSENBERG_CLIP_01",
+          "label": "Default Clip",
+          "hash": 484812453
+        },
+        {
+          "id": "COMPONENT_GUSENBERG_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 3939025520
+        }
+      ]
     },
     {
       "id": "hammer",
@@ -386,7 +1732,15 @@
       "codename": "weapon_hammer",
       "hash": 1317494643,
       "category": "Melee",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Hammer-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Hammer-icon.png",
+      "stats": {
+        "damage": 10,
+        "fireRate": 15,
+        "accuracy": 0,
+        "range": 0,
+        "maxAmmo": 0
+      },
+      "components": []
     },
     {
       "id": "hatchet",
@@ -394,7 +1748,15 @@
       "codename": "weapon_hatchet",
       "hash": 4191993645,
       "category": "Melee",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Hatchet-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Hatchet-icon.png",
+      "stats": {
+        "damage": 15,
+        "fireRate": 15,
+        "accuracy": 0,
+        "range": 0,
+        "maxAmmo": 0
+      },
+      "components": []
     },
     {
       "id": "heavypistol",
@@ -402,7 +1764,41 @@
       "codename": "weapon_heavypistol",
       "hash": 3523564046,
       "category": "Handgun",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-pistol-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-pistol-icon.png",
+      "stats": {
+        "damage": 40,
+        "fireRate": 40,
+        "accuracy": 50,
+        "range": 35,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_AT_PI_FLSH",
+          "label": "Flashlight",
+          "hash": 899381934
+        },
+        {
+          "id": "COMPONENT_AT_PI_SUPP",
+          "label": "Suppressor",
+          "hash": 3271853210
+        },
+        {
+          "id": "COMPONENT_HEAVYPISTOL_CLIP_01",
+          "label": "Default Clip",
+          "hash": 222992026
+        },
+        {
+          "id": "COMPONENT_HEAVYPISTOL_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 1694090795
+        },
+        {
+          "id": "COMPONENT_HEAVYPISTOL_VARMOD_LUXE",
+          "label": "Etched Wood Grip Finish",
+          "hash": 2053798779
+        }
+      ]
     },
     {
       "id": "revolver",
@@ -410,7 +1806,26 @@
       "codename": "weapon_revolver",
       "hash": 3249783761,
       "category": "Handgun",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-revolver-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-revolver-icon.png",
+      "stats": {
+        "damage": 70,
+        "fireRate": 20,
+        "accuracy": 65,
+        "range": 35,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_REVOLVER_VARMOD_BOSS",
+          "label": "VIP Variant",
+          "hash": 384708672
+        },
+        {
+          "id": "COMPONENT_REVOLVER_VARMOD_GOON",
+          "label": "Bodyguard Variant",
+          "hash": 2492708877
+        }
+      ]
     },
     {
       "id": "revolver_mk2",
@@ -418,7 +1833,116 @@
       "codename": "weapon_revolver_mk2",
       "hash": 3415619887,
       "category": "Handgun",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-revolver-mk2-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-revolver-mk2-icon.png",
+      "stats": {
+        "damage": 75,
+        "fireRate": 30,
+        "accuracy": 65,
+        "range": 35,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_AT_PI_COMP_03",
+          "label": "Compensator",
+          "hash": 654802123
+        },
+        {
+          "id": "COMPONENT_AT_PI_FLSH",
+          "label": "Flashlight",
+          "hash": 899381934
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MACRO_MK2",
+          "label": "Small Scope",
+          "hash": 77277509
+        },
+        {
+          "id": "COMPONENT_AT_SIGHTS",
+          "label": "Holographic Sight",
+          "hash": 1108334355
+        },
+        {
+          "id": "COMPONENT_REVOLVER_MK2_CAMO_02",
+          "label": "Brushstroke Camo",
+          "hash": 11918884
+        },
+        {
+          "id": "COMPONENT_REVOLVER_MK2_CAMO_03",
+          "label": "Woodland Camo",
+          "hash": 176157112
+        },
+        {
+          "id": "COMPONENT_REVOLVER_MK2_CAMO_04",
+          "label": "Skull",
+          "hash": 4074914441
+        },
+        {
+          "id": "COMPONENT_REVOLVER_MK2_CAMO_05",
+          "label": "Sessanta Nove",
+          "hash": 288456487
+        },
+        {
+          "id": "COMPONENT_REVOLVER_MK2_CAMO_06",
+          "label": "Perseus",
+          "hash": 398658626
+        },
+        {
+          "id": "COMPONENT_REVOLVER_MK2_CAMO_07",
+          "label": "Leopard",
+          "hash": 628697006
+        },
+        {
+          "id": "COMPONENT_REVOLVER_MK2_CAMO_08",
+          "label": "Zebra",
+          "hash": 925911836
+        },
+        {
+          "id": "COMPONENT_REVOLVER_MK2_CAMO_09",
+          "label": "Geometric",
+          "hash": 1222307441
+        },
+        {
+          "id": "COMPONENT_REVOLVER_MK2_CAMO_10",
+          "label": "Boom!",
+          "hash": 552442715
+        },
+        {
+          "id": "COMPONENT_REVOLVER_MK2_CAMO_IND_01",
+          "label": "Patriotic",
+          "hash": 3646023783
+        },
+        {
+          "id": "COMPONENT_REVOLVER_MK2_CAMO",
+          "label": "Digital Camo",
+          "hash": 3225415071
+        },
+        {
+          "id": "COMPONENT_REVOLVER_MK2_CLIP_01",
+          "label": "Default Rounds",
+          "hash": 3122911422
+        },
+        {
+          "id": "COMPONENT_REVOLVER_MK2_CLIP_FMJ",
+          "label": "Full Metal Jacket Rounds",
+          "hash": 231258687
+        },
+        {
+          "id": "COMPONENT_REVOLVER_MK2_CLIP_HOLLOWPOINT",
+          "label": "Hollow Point Rounds",
+          "hash": 284438159
+        },
+        {
+          "id": "COMPONENT_REVOLVER_MK2_CLIP_INCENDIARY",
+          "label": "Incendiary Rounds",
+          "hash": 15712037
+        },
+        {
+          "id": "COMPONENT_REVOLVER_MK2_CLIP_TRACER",
+          "label": "Tracer Rounds",
+          "hash": 3336103030
+        }
+      ]
     },
     {
       "id": "heavyrifle",
@@ -426,7 +1950,9 @@
       "codename": "weapon_heavyrifle",
       "hash": 3347935668,
       "category": "Rifle",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-rifle-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-rifle-icon.png",
+      "stats": null,
+      "components": []
     },
     {
       "id": "heavyshotgun",
@@ -434,7 +1960,46 @@
       "codename": "weapon_heavyshotgun",
       "hash": 984333226,
       "category": "Shotgun",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-shotgun-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-shotgun-icon.png",
+      "stats": {
+        "damage": 85,
+        "fireRate": 45,
+        "accuracy": 30,
+        "range": 25,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP",
+          "label": "Grip",
+          "hash": 202788691
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP_02",
+          "label": "Suppressor",
+          "hash": 2805810788
+        },
+        {
+          "id": "COMPONENT_HEAVYSHOTGUN_CLIP_01",
+          "label": "Default Clip",
+          "hash": 844049759
+        },
+        {
+          "id": "COMPONENT_HEAVYSHOTGUN_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 2535257853
+        },
+        {
+          "id": "COMPONENT_HEAVYSHOTGUN_CLIP_03",
+          "label": "Drum Magazine",
+          "hash": 2294798931
+        }
+      ]
     },
     {
       "id": "heavysniper",
@@ -442,7 +2007,26 @@
       "codename": "weapon_heavysniper",
       "hash": 205991906,
       "category": "Sniper",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-sniper-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-sniper-icon.png",
+      "stats": {
+        "damage": 98,
+        "fireRate": 20,
+        "accuracy": 90,
+        "range": 100,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_AT_SCOPE_LARGE",
+          "label": "Scope",
+          "hash": 3527687644
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MAX",
+          "label": "Advanced Scope",
+          "hash": 3159677559
+        }
+      ]
     },
     {
       "id": "heavysniper_mk2",
@@ -450,7 +2034,146 @@
       "codename": "weapon_heavysniper_mk2",
       "hash": 177293209,
       "category": "Sniper",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-sniper-mk2-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-sniper-mk2-icon.png",
+      "stats": {
+        "damage": 100,
+        "fireRate": 20,
+        "accuracy": 90,
+        "range": 100,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_AT_MUZZLE_08",
+          "label": "Muzzle Brake",
+          "hash": 1602080333
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_09",
+          "label": "Bell-End Muzzle Brake",
+          "hash": 1764221345
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_LARGE_MK2",
+          "label": "Zoom Scope",
+          "hash": 2193687427
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MAX",
+          "label": "Advanced Scope",
+          "hash": 3159677559
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_NV",
+          "label": "Night Vision Scope",
+          "hash": 3061846192
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_THERMAL",
+          "label": "Thermal Scope",
+          "hash": 776198721
+        },
+        {
+          "id": "COMPONENT_AT_SR_BARREL_01",
+          "label": "Default Barrel",
+          "hash": 2425761975
+        },
+        {
+          "id": "COMPONENT_AT_SR_BARREL_02",
+          "label": "Heavy Barrel",
+          "hash": 277524638
+        },
+        {
+          "id": "COMPONENT_AT_SR_SUPP_03",
+          "label": "Suppressor",
+          "hash": 2890063729
+        },
+        {
+          "id": "COMPONENT_HEAVYSNIPER_MK2_CAMO_02",
+          "label": "Brushstroke Camo",
+          "hash": 3317620069
+        },
+        {
+          "id": "COMPONENT_HEAVYSNIPER_MK2_CAMO_03",
+          "label": "Woodland Camo",
+          "hash": 3916506229
+        },
+        {
+          "id": "COMPONENT_HEAVYSNIPER_MK2_CAMO_04",
+          "label": "Skull",
+          "hash": 329939175
+        },
+        {
+          "id": "COMPONENT_HEAVYSNIPER_MK2_CAMO_05",
+          "label": "Sessanta Nove",
+          "hash": 643374672
+        },
+        {
+          "id": "COMPONENT_HEAVYSNIPER_MK2_CAMO_06",
+          "label": "Perseus",
+          "hash": 807875052
+        },
+        {
+          "id": "COMPONENT_HEAVYSNIPER_MK2_CAMO_07",
+          "label": "Leopard",
+          "hash": 2893163128
+        },
+        {
+          "id": "COMPONENT_HEAVYSNIPER_MK2_CAMO_08",
+          "label": "Zebra",
+          "hash": 3198471901
+        },
+        {
+          "id": "COMPONENT_HEAVYSNIPER_MK2_CAMO_09",
+          "label": "Geometric",
+          "hash": 3447155842
+        },
+        {
+          "id": "COMPONENT_HEAVYSNIPER_MK2_CAMO_10",
+          "label": "Boom!",
+          "hash": 2881858759
+        },
+        {
+          "id": "COMPONENT_HEAVYSNIPER_MK2_CAMO_IND_01",
+          "label": "Patriotic",
+          "hash": 1815270123
+        },
+        {
+          "id": "COMPONENT_HEAVYSNIPER_MK2_CAMO",
+          "label": "Digital Camo",
+          "hash": 4164123906
+        },
+        {
+          "id": "COMPONENT_HEAVYSNIPER_MK2_CLIP_01",
+          "label": "Default Clip",
+          "hash": 4196276776
+        },
+        {
+          "id": "COMPONENT_HEAVYSNIPER_MK2_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 752418717
+        },
+        {
+          "id": "COMPONENT_HEAVYSNIPER_MK2_CLIP_ARMORPIERCING",
+          "label": "Armor Piercing Rounds",
+          "hash": 4164277972
+        },
+        {
+          "id": "COMPONENT_HEAVYSNIPER_MK2_CLIP_EXPLOSIVE",
+          "label": "Explosive Rounds",
+          "hash": 2313935527
+        },
+        {
+          "id": "COMPONENT_HEAVYSNIPER_MK2_CLIP_FMJ",
+          "label": "Full Metal Jacket Rounds",
+          "hash": 1005144310
+        },
+        {
+          "id": "COMPONENT_HEAVYSNIPER_MK2_CLIP_INCENDIARY",
+          "label": "Incendiary Rounds",
+          "hash": 247526935
+        }
+      ]
     },
     {
       "id": "hominglauncher",
@@ -458,7 +2181,15 @@
       "codename": "weapon_hominglauncher",
       "hash": 1672152130,
       "category": "Heavy",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Homing-launcher-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Homing-launcher-icon.png",
+      "stats": {
+        "damage": 95,
+        "fireRate": 5,
+        "accuracy": 25,
+        "range": 75,
+        "maxAmmo": 10
+      },
+      "components": []
     },
     {
       "id": "petrolcan",
@@ -466,7 +2197,15 @@
       "codename": "weapon_petrolcan",
       "hash": 883325847,
       "category": "Misc",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Petrolcan-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Petrolcan-icon.png",
+      "stats": {
+        "damage": 0,
+        "fireRate": 10,
+        "accuracy": 30,
+        "range": 1,
+        "maxAmmo": 4500
+      },
+      "components": []
     },
     {
       "id": "knife",
@@ -474,7 +2213,15 @@
       "codename": "weapon_knife",
       "hash": 2578778090,
       "category": "Melee",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Knife-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Knife-icon.png",
+      "stats": {
+        "damage": 15,
+        "fireRate": 20,
+        "accuracy": 0,
+        "range": 0,
+        "maxAmmo": 0
+      },
+      "components": []
     },
     {
       "id": "machete",
@@ -482,7 +2229,15 @@
       "codename": "weapon_machete",
       "hash": 3713923289,
       "category": "Melee",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Machete-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Machete-icon.png",
+      "stats": {
+        "damage": 15,
+        "fireRate": 15,
+        "accuracy": 0,
+        "range": 0,
+        "maxAmmo": 0
+      },
+      "components": []
     },
     {
       "id": "machinepistol",
@@ -490,7 +2245,36 @@
       "codename": "weapon_machinepistol",
       "hash": 3675956304,
       "category": "SMG",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Machine-pistol-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Machine-pistol-icon.png",
+      "stats": {
+        "damage": 28,
+        "fireRate": 70,
+        "accuracy": 40,
+        "range": 30,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_AT_PI_SUPP",
+          "label": "Suppressor",
+          "hash": 3271853210
+        },
+        {
+          "id": "COMPONENT_MACHINEPISTOL_CLIP_01",
+          "label": "Default Clip",
+          "hash": 1198425599
+        },
+        {
+          "id": "COMPONENT_MACHINEPISTOL_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 3106695545
+        },
+        {
+          "id": "COMPONENT_MACHINEPISTOL_CLIP_03",
+          "label": "Drum Magazine",
+          "hash": 2850671348
+        }
+      ]
     },
     {
       "id": "marksmanpistol",
@@ -498,7 +2282,15 @@
       "codename": "weapon_marksmanpistol",
       "hash": 3696079510,
       "category": "Handgun",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Marksman-pistol-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Marksman-pistol-icon.png",
+      "stats": {
+        "damage": 80,
+        "fireRate": 15,
+        "accuracy": 30,
+        "range": 35,
+        "maxAmmo": 250
+      },
+      "components": []
     },
     {
       "id": "marksmanrifle",
@@ -506,7 +2298,51 @@
       "codename": "weapon_marksmanrifle",
       "hash": 3342088282,
       "category": "Sniper",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Marksman-rifle-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Marksman-rifle-icon.png",
+      "stats": {
+        "damage": 70,
+        "fireRate": 40,
+        "accuracy": 80,
+        "range": 90,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP",
+          "label": "Grip",
+          "hash": 202788691
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP",
+          "label": "Suppressor",
+          "hash": 2205435306
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_LARGE_FIXED_ZOOM",
+          "label": "Scope",
+          "hash": 471997210
+        },
+        {
+          "id": "COMPONENT_MARKSMANRIFLE_CLIP_01",
+          "label": "Default Clip",
+          "hash": 3627761985
+        },
+        {
+          "id": "COMPONENT_MARKSMANRIFLE_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 3439143621
+        },
+        {
+          "id": "COMPONENT_MARKSMANRIFLE_VARMOD_LUXE",
+          "label": "Yusuf Amir Luxury Finish",
+          "hash": 371102273
+        }
+      ]
     },
     {
       "id": "marksmanrifle_mk2",
@@ -514,7 +2350,176 @@
       "codename": "weapon_marksmanrifle_mk2",
       "hash": 1785463520,
       "category": "Sniper",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Marksman-rifle-mk2-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Marksman-rifle-mk2-icon.png",
+      "stats": {
+        "damage": 75,
+        "fireRate": 40,
+        "accuracy": 80,
+        "range": 90,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP_02",
+          "label": "Grip",
+          "hash": 2640679034
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP",
+          "label": "Suppressor",
+          "hash": 2205435306
+        },
+        {
+          "id": "COMPONENT_AT_MRFL_BARREL_01",
+          "label": "Default Barrel",
+          "hash": 941317513
+        },
+        {
+          "id": "COMPONENT_AT_MRFL_BARREL_02",
+          "label": "Heavy Barrel",
+          "hash": 1748450780
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_01",
+          "label": "Flat Muzzle Brake",
+          "hash": 3113485012
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_02",
+          "label": "Tactical Muzzle Brake",
+          "hash": 3362234491
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_03",
+          "label": "Fat-End Muzzle Brake",
+          "hash": 3725708239
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_04",
+          "label": "Precision Muzzle Brake",
+          "hash": 3968886988
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_05",
+          "label": "Heavy Duty Muzzle Brake",
+          "hash": 48731514
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_06",
+          "label": "Slanted Muzzle Brake",
+          "hash": 880736428
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_07",
+          "label": "Split-End Muzzle Brake",
+          "hash": 1303784126
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_LARGE_FIXED_ZOOM_MK2",
+          "label": "Zoom Scope",
+          "hash": 1528590652
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MEDIUM_MK2",
+          "label": "Large Scope",
+          "hash": 3328927042
+        },
+        {
+          "id": "COMPONENT_AT_SIGHTS",
+          "label": "Holographic Sight",
+          "hash": 1108334355
+        },
+        {
+          "id": "COMPONENT_MARKSMANRIFLE_MK2_CAMO_02",
+          "label": "Brushstroke Camo",
+          "hash": 1931539634
+        },
+        {
+          "id": "COMPONENT_MARKSMANRIFLE_MK2_CAMO_03",
+          "label": "Woodland Camo",
+          "hash": 1624199183
+        },
+        {
+          "id": "COMPONENT_MARKSMANRIFLE_MK2_CAMO_04",
+          "label": "Skull",
+          "hash": 4268133183
+        },
+        {
+          "id": "COMPONENT_MARKSMANRIFLE_MK2_CAMO_05",
+          "label": "Sessanta Nove",
+          "hash": 4084561241
+        },
+        {
+          "id": "COMPONENT_MARKSMANRIFLE_MK2_CAMO_06",
+          "label": "Perseus",
+          "hash": 423313640
+        },
+        {
+          "id": "COMPONENT_MARKSMANRIFLE_MK2_CAMO_07",
+          "label": "Leopard",
+          "hash": 276639596
+        },
+        {
+          "id": "COMPONENT_MARKSMANRIFLE_MK2_CAMO_08",
+          "label": "Zebra",
+          "hash": 3303610433
+        },
+        {
+          "id": "COMPONENT_MARKSMANRIFLE_MK2_CAMO_09",
+          "label": "Geometric",
+          "hash": 2612118995
+        },
+        {
+          "id": "COMPONENT_MARKSMANRIFLE_MK2_CAMO_10",
+          "label": "Boom!",
+          "hash": 996213771
+        },
+        {
+          "id": "COMPONENT_MARKSMANRIFLE_MK2_CAMO_IND_01",
+          "label": "Boom!",
+          "hash": 3080918746
+        },
+        {
+          "id": "COMPONENT_MARKSMANRIFLE_MK2_CAMO",
+          "label": "Digital Camo",
+          "hash": 2425682848
+        },
+        {
+          "id": "COMPONENT_MARKSMANRIFLE_MK2_CLIP_01",
+          "label": "Default Clip",
+          "hash": 2497785294
+        },
+        {
+          "id": "COMPONENT_MARKSMANRIFLE_MK2_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 3872379306
+        },
+        {
+          "id": "COMPONENT_MARKSMANRIFLE_MK2_CLIP_ARMORPIERCING",
+          "label": "Armor Piercing Rounds",
+          "hash": 4100968569
+        },
+        {
+          "id": "COMPONENT_MARKSMANRIFLE_MK2_CLIP_FMJ",
+          "label": "Full Metal Jacket Rounds",
+          "hash": 3779763923
+        },
+        {
+          "id": "COMPONENT_MARKSMANRIFLE_MK2_CLIP_INCENDIARY",
+          "label": "Incendiary Rounds",
+          "hash": 1842849902
+        },
+        {
+          "id": "COMPONENT_MARKSMANRIFLE_MK2_CLIP_TRACER",
+          "label": "Tracer Rounds",
+          "hash": 3615105746
+        }
+      ]
     },
     {
       "id": "mg",
@@ -522,7 +2527,36 @@
       "codename": "weapon_mg",
       "hash": 2634544996,
       "category": "MG",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Mg-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Mg-icon.png",
+      "stats": {
+        "damage": 50,
+        "fireRate": 60,
+        "accuracy": 40,
+        "range": 60,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_AT_SCOPE_SMALL_02",
+          "label": "Scope",
+          "hash": 1006677997
+        },
+        {
+          "id": "COMPONENT_MG_CLIP_01",
+          "label": "Default Clip",
+          "hash": 4097109892
+        },
+        {
+          "id": "COMPONENT_MG_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 2182449991
+        },
+        {
+          "id": "COMPONENT_MG_VARMOD_LOWRIDER",
+          "label": "Yusuf Amir Luxury Finish",
+          "hash": 3604658878
+        }
+      ]
     },
     {
       "id": "microsmg",
@@ -530,7 +2564,46 @@
       "codename": "weapon_microsmg",
       "hash": 324215364,
       "category": "SMG",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Micro-smg-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Micro-smg-icon.png",
+      "stats": {
+        "damage": 21,
+        "fireRate": 60,
+        "accuracy": 30,
+        "range": 25,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_AT_AR_SUPP_02",
+          "label": "Suppressor",
+          "hash": 2805810788
+        },
+        {
+          "id": "COMPONENT_AT_PI_FLSH",
+          "label": "Flashlight",
+          "hash": 899381934
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MACRO",
+          "label": "Scope",
+          "hash": 2637152041
+        },
+        {
+          "id": "COMPONENT_MICROSMG_CLIP_01",
+          "label": "Default Clip",
+          "hash": 3410538224
+        },
+        {
+          "id": "COMPONENT_MICROSMG_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 283556395
+        },
+        {
+          "id": "COMPONENT_MICROSMG_VARMOD_LUXE",
+          "label": "Yusuf Amir Luxury Finish",
+          "hash": 1215999497
+        }
+      ]
     },
     {
       "id": "militaryrifle",
@@ -538,7 +2611,9 @@
       "codename": "weapon_militaryrifle",
       "hash": 2636060646,
       "category": "Rifle",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Military-rifle-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Military-rifle-icon.png",
+      "stats": null,
+      "components": []
     },
     {
       "id": "minismg",
@@ -546,7 +2621,26 @@
       "codename": "weapon_minismg",
       "hash": 3173288789,
       "category": "SMG",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Mini-smg-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Mini-smg-icon.png",
+      "stats": {
+        "damage": 22,
+        "fireRate": 84,
+        "accuracy": 33,
+        "range": 30,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_MINISMG_CLIP_01",
+          "label": "Default Clip",
+          "hash": 2227745491
+        },
+        {
+          "id": "COMPONENT_MINISMG_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 2474561719
+        }
+      ]
     },
     {
       "id": "minigun",
@@ -554,7 +2648,15 @@
       "codename": "weapon_minigun",
       "hash": 1119849093,
       "category": "Heavy",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Minigun-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Minigun-icon.png",
+      "stats": {
+        "damage": 30,
+        "fireRate": 100,
+        "accuracy": 40,
+        "range": 55,
+        "maxAmmo": 250
+      },
+      "components": []
     },
     {
       "id": "molotov",
@@ -562,7 +2664,15 @@
       "codename": "weapon_molotov",
       "hash": 615608432,
       "category": "Thrown",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Molotov-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Molotov-icon.png",
+      "stats": {
+        "damage": 50,
+        "fireRate": 1,
+        "accuracy": 20,
+        "range": 8,
+        "maxAmmo": 25
+      },
+      "components": []
     },
     {
       "id": "musket",
@@ -570,7 +2680,15 @@
       "codename": "weapon_musket",
       "hash": 2828843422,
       "category": "Shotgun",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Musket-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Musket-icon.png",
+      "stats": {
+        "damage": 97,
+        "fireRate": 10,
+        "accuracy": 65,
+        "range": 85,
+        "maxAmmo": 250
+      },
+      "components": []
     },
     {
       "id": "navyrevolver",
@@ -578,7 +2696,9 @@
       "codename": "weapon_navyrevolver",
       "hash": 2441047180,
       "category": "Handgun",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Navy-revolver-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Navy-revolver-icon.png",
+      "stats": null,
+      "components": []
     },
     {
       "id": "nightstick",
@@ -586,7 +2706,15 @@
       "codename": "weapon_nightstick",
       "hash": 1737195953,
       "category": "Melee",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Nightstick-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Nightstick-icon.png",
+      "stats": {
+        "damage": 10,
+        "fireRate": 15,
+        "accuracy": 0,
+        "range": 0,
+        "maxAmmo": 0
+      },
+      "components": []
     },
     {
       "id": "parachute",
@@ -594,7 +2722,9 @@
       "codename": "gadget_parachute",
       "hash": 4222310262,
       "category": "Misc",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Parachute-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Parachute-icon.png",
+      "stats": null,
+      "components": []
     },
     {
       "id": "pericopistol",
@@ -602,7 +2732,9 @@
       "codename": "weapon_pericopistol",
       "hash": 1792218062,
       "category": "Handgun",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Perico-pistol-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Perico-pistol-icon.png",
+      "stats": null,
+      "components": []
     },
     {
       "id": "pipebomb",
@@ -610,7 +2742,15 @@
       "codename": "weapon_pipebomb",
       "hash": 3125143736,
       "category": "Thrown",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pipe-bomb-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pipe-bomb-icon.png",
+      "stats": {
+        "damage": 85,
+        "fireRate": 1,
+        "accuracy": 35,
+        "range": 15,
+        "maxAmmo": 10
+      },
+      "components": []
     },
     {
       "id": "wrench",
@@ -618,7 +2758,15 @@
       "codename": "weapon_wrench",
       "hash": 419712736,
       "category": "Melee",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pipe-wrench-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pipe-wrench-icon.png",
+      "stats": {
+        "damage": 10,
+        "fireRate": 15,
+        "accuracy": 0,
+        "range": 0,
+        "maxAmmo": 0
+      },
+      "components": []
     },
     {
       "id": "pistol",
@@ -626,7 +2774,41 @@
       "codename": "weapon_pistol",
       "hash": 453432689,
       "category": "Handgun",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pistol-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pistol-icon.png",
+      "stats": {
+        "damage": 26,
+        "fireRate": 40,
+        "accuracy": 40,
+        "range": 25,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_AT_PI_FLSH",
+          "label": "Flashlight",
+          "hash": 899381934
+        },
+        {
+          "id": "COMPONENT_AT_PI_SUPP_02",
+          "label": "Suppressor",
+          "hash": 1709866683
+        },
+        {
+          "id": "COMPONENT_PISTOL_CLIP_01",
+          "label": "Default Clip",
+          "hash": 4275109233
+        },
+        {
+          "id": "COMPONENT_PISTOL_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 3978713628
+        },
+        {
+          "id": "COMPONENT_PISTOL_VARMOD_LUXE",
+          "label": "Yusuf Amir Luxury Finish",
+          "hash": 3610841222
+        }
+      ]
     },
     {
       "id": "pistol50",
@@ -634,7 +2816,41 @@
       "codename": "weapon_pistol50",
       "hash": 2578377531,
       "category": "Handgun",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pistol.50-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pistol.50-icon.png",
+      "stats": {
+        "damage": 51,
+        "fireRate": 40,
+        "accuracy": 55,
+        "range": 35,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_AT_AR_SUPP_02",
+          "label": "Suppressor",
+          "hash": 2805810788
+        },
+        {
+          "id": "COMPONENT_AT_PI_FLSH",
+          "label": "Flashlight",
+          "hash": 899381934
+        },
+        {
+          "id": "COMPONENT_PISTOL50_CLIP_01",
+          "label": "Default Clip",
+          "hash": 580369945
+        },
+        {
+          "id": "COMPONENT_PISTOL50_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 3654528146
+        },
+        {
+          "id": "COMPONENT_PISTOL50_VARMOD_LUXE",
+          "label": "Platinum Pearl Deluxe Finish",
+          "hash": 2008591151
+        }
+      ]
     },
     {
       "id": "pistol_mk2",
@@ -642,7 +2858,121 @@
       "codename": "weapon_pistol_mk2",
       "hash": 3219281620,
       "category": "Handgun",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pistol-mk2-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pistol-mk2-icon.png",
+      "stats": {
+        "damage": 38,
+        "fireRate": 40,
+        "accuracy": 40,
+        "range": 25,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_AT_PI_COMP",
+          "label": "Compensator",
+          "hash": 568543123
+        },
+        {
+          "id": "COMPONENT_AT_PI_FLSH_02",
+          "label": "Flashlight",
+          "hash": 1140676955
+        },
+        {
+          "id": "COMPONENT_AT_PI_RAIL",
+          "label": "Mounted Scope",
+          "hash": 2396306288
+        },
+        {
+          "id": "COMPONENT_AT_PI_SUPP_02",
+          "label": "Suppressor",
+          "hash": 1709866683
+        },
+        {
+          "id": "COMPONENT_PISTOL_MK2_CAMO_02",
+          "label": "Brushstroke Camo",
+          "hash": 368550800
+        },
+        {
+          "id": "COMPONENT_PISTOL_MK2_CAMO_03",
+          "label": "Woodland Camo",
+          "hash": 2525897947
+        },
+        {
+          "id": "COMPONENT_PISTOL_MK2_CAMO_04",
+          "label": "Skull",
+          "hash": 24902297
+        },
+        {
+          "id": "COMPONENT_PISTOL_MK2_CAMO_05",
+          "label": "Sessanta Nove",
+          "hash": 4066925682
+        },
+        {
+          "id": "COMPONENT_PISTOL_MK2_CAMO_06",
+          "label": "Perseus",
+          "hash": 3710005734
+        },
+        {
+          "id": "COMPONENT_PISTOL_MK2_CAMO_07",
+          "label": "Leopard",
+          "hash": 3141791350
+        },
+        {
+          "id": "COMPONENT_PISTOL_MK2_CAMO_08",
+          "label": "Zebra",
+          "hash": 1301287696
+        },
+        {
+          "id": "COMPONENT_PISTOL_MK2_CAMO_09",
+          "label": "Geometric",
+          "hash": 1597093459
+        },
+        {
+          "id": "COMPONENT_PISTOL_MK2_CAMO_10",
+          "label": "Boom!",
+          "hash": 1769871776
+        },
+        {
+          "id": "COMPONENT_PISTOL_MK2_CAMO_IND_01",
+          "label": "Patriotic",
+          "hash": 2467084625
+        },
+        {
+          "id": "COMPONENT_PISTOL_MK2_CAMO",
+          "label": "Digital Camo",
+          "hash": 1550611612
+        },
+        {
+          "id": "COMPONENT_PISTOL_MK2_CLIP_01",
+          "label": "Default Clip",
+          "hash": 2499030370
+        },
+        {
+          "id": "COMPONENT_PISTOL_MK2_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 1591132456
+        },
+        {
+          "id": "COMPONENT_PISTOL_MK2_CLIP_FMJ",
+          "label": "Full Metal Jacket Rounds",
+          "hash": 1329061674
+        },
+        {
+          "id": "COMPONENT_PISTOL_MK2_CLIP_HOLLOWPOINT",
+          "label": "Hollow Point Rounds",
+          "hash": 2248057097
+        },
+        {
+          "id": "COMPONENT_PISTOL_MK2_CLIP_INCENDIARY",
+          "label": "Incendiary Rounds",
+          "hash": 733837882
+        },
+        {
+          "id": "COMPONENT_PISTOL_MK2_CLIP_TRACER",
+          "label": "Tracer Rounds",
+          "hash": 634039983
+        }
+      ]
     },
     {
       "id": "poolcue",
@@ -650,7 +2980,15 @@
       "codename": "weapon_poolcue",
       "hash": 2484171525,
       "category": "Melee",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pool-cue-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pool-cue-icon.png",
+      "stats": {
+        "damage": 20,
+        "fireRate": 10,
+        "accuracy": 0,
+        "range": 0,
+        "maxAmmo": 0
+      },
+      "components": []
     },
     {
       "id": "precisionrifle",
@@ -658,7 +2996,9 @@
       "codename": "weapon_precisionrifle",
       "hash": 1853742572,
       "category": "Sniper",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Precision-rifle-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Precision-rifle-icon.png",
+      "stats": null,
+      "components": []
     },
     {
       "id": "proxmine",
@@ -666,7 +3006,15 @@
       "codename": "weapon_proxmine",
       "hash": 2874559379,
       "category": "Thrown",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Proximity-mines-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Proximity-mines-icon.png",
+      "stats": {
+        "damage": 90,
+        "fireRate": 1,
+        "accuracy": 30,
+        "range": 20,
+        "maxAmmo": 5
+      },
+      "components": []
     },
     {
       "id": "pumpshotgun",
@@ -674,7 +3022,31 @@
       "codename": "weapon_pumpshotgun",
       "hash": 487013001,
       "category": "Shotgun",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pump-shotgun-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pump-shotgun-icon.png",
+      "stats": {
+        "damage": 67,
+        "fireRate": 20,
+        "accuracy": 30,
+        "range": 20,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324
+        },
+        {
+          "id": "COMPONENT_AT_SR_SUPP",
+          "label": "Suppressor",
+          "hash": 3859329886
+        },
+        {
+          "id": "COMPONENT_PUMPSHOTGUN_VARMOD_LOWRIDER",
+          "label": "Yusuf Amir Luxury Finish",
+          "hash": 2732039643
+        }
+      ]
     },
     {
       "id": "pumpshotgun_mk2",
@@ -682,7 +3054,126 @@
       "codename": "weapon_pumpshotgun_mk2",
       "hash": 1432025498,
       "category": "Shotgun",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pump-shotgun-mk2-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pump-shotgun-mk2-icon.png",
+      "stats": {
+        "damage": 70,
+        "fireRate": 20,
+        "accuracy": 30,
+        "range": 20,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_08",
+          "label": "Muzzle Brake",
+          "hash": 1602080333
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MACRO_MK2",
+          "label": "Small Scope",
+          "hash": 77277509
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_SMALL_MK2",
+          "label": "Medium Scope",
+          "hash": 1060929921
+        },
+        {
+          "id": "COMPONENT_AT_SIGHTS",
+          "label": "Holographic Sight",
+          "hash": 1108334355
+        },
+        {
+          "id": "COMPONENT_AT_SR_SUPP_03",
+          "label": "Suppressor",
+          "hash": 2890063729
+        },
+        {
+          "id": "COMPONENT_PUMPSHOTGUN_MK2_CAMO_02",
+          "label": "Brushstroke Camo",
+          "hash": 387223451
+        },
+        {
+          "id": "COMPONENT_PUMPSHOTGUN_MK2_CAMO_03",
+          "label": "Woodland Camo",
+          "hash": 617753366
+        },
+        {
+          "id": "COMPONENT_PUMPSHOTGUN_MK2_CAMO_04",
+          "label": "Skull",
+          "hash": 4072589040
+        },
+        {
+          "id": "COMPONENT_PUMPSHOTGUN_MK2_CAMO_05",
+          "label": "Sessanta Nove",
+          "hash": 8741501
+        },
+        {
+          "id": "COMPONENT_PUMPSHOTGUN_MK2_CAMO_06",
+          "label": "Perseus",
+          "hash": 3693681093
+        },
+        {
+          "id": "COMPONENT_PUMPSHOTGUN_MK2_CAMO_07",
+          "label": "Leopard",
+          "hash": 3783533691
+        },
+        {
+          "id": "COMPONENT_PUMPSHOTGUN_MK2_CAMO_08",
+          "label": "Zebra",
+          "hash": 3639579478
+        },
+        {
+          "id": "COMPONENT_PUMPSHOTGUN_MK2_CAMO_09",
+          "label": "Geometric",
+          "hash": 4012490698
+        },
+        {
+          "id": "COMPONENT_PUMPSHOTGUN_MK2_CAMO_10",
+          "label": "Boom!",
+          "hash": 1739501925
+        },
+        {
+          "id": "COMPONENT_PUMPSHOTGUN_MK2_CAMO_IND_01",
+          "label": "Patriotic",
+          "hash": 1178671645
+        },
+        {
+          "id": "COMPONENT_PUMPSHOTGUN_MK2_CAMO",
+          "label": "Digital Camo",
+          "hash": 3820854852
+        },
+        {
+          "id": "COMPONENT_PUMPSHOTGUN_MK2_CLIP_01",
+          "label": "Default Shells",
+          "hash": 3449028929
+        },
+        {
+          "id": "COMPONENT_PUMPSHOTGUN_MK2_CLIP_ARMORPIERCING",
+          "label": "Steel Buckshot Shells",
+          "hash": 1315288101
+        },
+        {
+          "id": "COMPONENT_PUMPSHOTGUN_MK2_CLIP_EXPLOSIVE",
+          "label": "Explosive Slugs",
+          "hash": 1004815965
+        },
+        {
+          "id": "COMPONENT_PUMPSHOTGUN_MK2_CLIP_HOLLOWPOINT",
+          "label": "Flechette Shells",
+          "hash": 3914869031
+        },
+        {
+          "id": "COMPONENT_PUMPSHOTGUN_MK2_CLIP_INCENDIARY",
+          "label": "Dragon's Breath Shells",
+          "hash": 2676628469
+        }
+      ]
     },
     {
       "id": "railgun",
@@ -690,7 +3181,15 @@
       "codename": "weapon_railgun",
       "hash": 1834241177,
       "category": "Heavy",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Railgun-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Railgun-icon.png",
+      "stats": {
+        "damage": 90,
+        "fireRate": 25,
+        "accuracy": 20,
+        "range": 70,
+        "maxAmmo": 20
+      },
+      "components": []
     },
     {
       "id": "rpg",
@@ -698,7 +3197,15 @@
       "codename": "weapon_rpg",
       "hash": 2982836145,
       "category": "Heavy",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Rocket-launcher-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Rocket-launcher-icon.png",
+      "stats": {
+        "damage": 100,
+        "fireRate": 5,
+        "accuracy": 10,
+        "range": 70,
+        "maxAmmo": 20
+      },
+      "components": []
     },
     {
       "id": "sawnoffshotgun",
@@ -706,7 +3213,21 @@
       "codename": "weapon_sawnoffshotgun",
       "hash": 2017895192,
       "category": "Shotgun",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Sawed-off-shotgun-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Sawed-off-shotgun-icon.png",
+      "stats": {
+        "damage": 96,
+        "fireRate": 20,
+        "accuracy": 20,
+        "range": 15,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_SAWNOFFSHOTGUN_VARMOD_LUXE",
+          "label": "Gilded Gun Metal Finish",
+          "hash": 2242268665
+        }
+      ]
     },
     {
       "id": "tacticalrifle",
@@ -714,7 +3235,9 @@
       "codename": "weapon_tacticalrifle",
       "hash": 3520460075,
       "category": "Rifle",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Tactical-rifle-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Tactical-rifle-icon.png",
+      "stats": null,
+      "components": []
     },
     {
       "id": "smg",
@@ -722,7 +3245,51 @@
       "codename": "weapon_smg",
       "hash": 736523883,
       "category": "SMG",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Smg-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Smg-icon.png",
+      "stats": {
+        "damage": 22,
+        "fireRate": 55,
+        "accuracy": 40,
+        "range": 35,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324
+        },
+        {
+          "id": "COMPONENT_AT_PI_SUPP",
+          "label": "Suppressor",
+          "hash": 3271853210
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MACRO_02",
+          "label": "Scope",
+          "hash": 1019656791
+        },
+        {
+          "id": "COMPONENT_SMG_CLIP_01",
+          "label": "Default Clip",
+          "hash": 643254679
+        },
+        {
+          "id": "COMPONENT_SMG_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 889808635
+        },
+        {
+          "id": "COMPONENT_SMG_CLIP_03",
+          "label": "Drum Magazine",
+          "hash": 2043113590
+        },
+        {
+          "id": "COMPONENT_SMG_VARMOD_LUXE",
+          "label": "Yusuf Amir Luxury Finish",
+          "hash": 663170192
+        }
+      ]
     },
     {
       "id": "smg_mk2",
@@ -730,7 +3297,171 @@
       "codename": "weapon_smg_mk2",
       "hash": 2024373456,
       "category": "SMG",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Smg-mk2-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Smg-mk2-icon.png",
+      "stats": {
+        "damage": 26,
+        "fireRate": 55,
+        "accuracy": 40,
+        "range": 35,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_01",
+          "label": "Flat Muzzle Brake",
+          "hash": 3113485012
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_02",
+          "label": "Tactical Muzzle Brake",
+          "hash": 3362234491
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_03",
+          "label": "Fat-End Muzzle Brake",
+          "hash": 3725708239
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_04",
+          "label": "Precision Muzzle Brake",
+          "hash": 3968886988
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_05",
+          "label": "Heavy Duty Muzzle Brake",
+          "hash": 48731514
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_06",
+          "label": "Slanted Muzzle Brake",
+          "hash": 880736428
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_07",
+          "label": "Split-End Muzzle Brake",
+          "hash": 1303784126
+        },
+        {
+          "id": "COMPONENT_AT_PI_SUPP",
+          "label": "Suppressor",
+          "hash": 3271853210
+        },
+        {
+          "id": "COMPONENT_AT_SB_BARREL_01",
+          "label": "Default Barrel",
+          "hash": 3641720545
+        },
+        {
+          "id": "COMPONENT_AT_SB_BARREL_02",
+          "label": "Heavy Barrel",
+          "hash": 2774849419
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MACRO_02_SMG_MK2",
+          "label": "Small Scope",
+          "hash": 3842157419
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_SMALL_SMG_MK2",
+          "label": "Medium Scope",
+          "hash": 1038927834
+        },
+        {
+          "id": "COMPONENT_AT_SIGHTS_SMG",
+          "label": "Holographic Sight",
+          "hash": 2681951826
+        },
+        {
+          "id": "COMPONENT_SMG_MK2_CAMO_02",
+          "label": "Brushstroke Camo",
+          "hash": 940943685
+        },
+        {
+          "id": "COMPONENT_SMG_MK2_CAMO_03",
+          "label": "Woodland Camo",
+          "hash": 1263226800
+        },
+        {
+          "id": "COMPONENT_SMG_MK2_CAMO_04",
+          "label": "Skull",
+          "hash": 3966931456
+        },
+        {
+          "id": "COMPONENT_SMG_MK2_CAMO_05",
+          "label": "Sessanta Nove",
+          "hash": 1224100642
+        },
+        {
+          "id": "COMPONENT_SMG_MK2_CAMO_06",
+          "label": "Perseus",
+          "hash": 899228776
+        },
+        {
+          "id": "COMPONENT_SMG_MK2_CAMO_07",
+          "label": "Leopard",
+          "hash": 616006309
+        },
+        {
+          "id": "COMPONENT_SMG_MK2_CAMO_08",
+          "label": "Zebra",
+          "hash": 2733014785
+        },
+        {
+          "id": "COMPONENT_SMG_MK2_CAMO_09",
+          "label": "Geometric",
+          "hash": 572063080
+        },
+        {
+          "id": "COMPONENT_SMG_MK2_CAMO_10",
+          "label": "Boom!",
+          "hash": 1170588613
+        },
+        {
+          "id": "COMPONENT_SMG_MK2_CAMO_IND_01",
+          "label": "Patriotic",
+          "hash": 966612367
+        },
+        {
+          "id": "COMPONENT_SMG_MK2_CAMO",
+          "label": "Digital Camo",
+          "hash": 3298267239
+        },
+        {
+          "id": "COMPONENT_SMG_MK2_CLIP_01",
+          "label": "Default Clip",
+          "hash": 1277460590
+        },
+        {
+          "id": "COMPONENT_SMG_MK2_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 3112393518
+        },
+        {
+          "id": "COMPONENT_SMG_MK2_CLIP_FMJ",
+          "label": "Full Metal Jacket Rounds",
+          "hash": 190476639
+        },
+        {
+          "id": "COMPONENT_SMG_MK2_CLIP_HOLLOWPOINT",
+          "label": "Hollow Point Rounds",
+          "hash": 974903034
+        },
+        {
+          "id": "COMPONENT_SMG_MK2_CLIP_INCENDIARY",
+          "label": "Incendiary Rounds",
+          "hash": 3650233061
+        },
+        {
+          "id": "COMPONENT_SMG_MK2_CLIP_TRACER",
+          "label": "Tracer Rounds",
+          "hash": 2146055916
+        }
+      ]
     },
     {
       "id": "sniperrifle",
@@ -738,7 +3469,36 @@
       "codename": "weapon_sniperrifle",
       "hash": 100416529,
       "category": "Sniper",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Sniper-rifle-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Sniper-rifle-icon.png",
+      "stats": {
+        "damage": 96,
+        "fireRate": 25,
+        "accuracy": 70,
+        "range": 95,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_AT_AR_SUPP_02",
+          "label": "Suppressor",
+          "hash": 2805810788
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_LARGE",
+          "label": "Scope",
+          "hash": 3527687644
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MAX",
+          "label": "Advanced Scope",
+          "hash": 3159677559
+        },
+        {
+          "id": "COMPONENT_SNIPERRIFLE_VARMOD_LUXE",
+          "label": "Etched Wood Grip Finish",
+          "hash": 1077065191
+        }
+      ]
     },
     {
       "id": "snowball",
@@ -746,7 +3506,15 @@
       "codename": "weapon_snowball",
       "hash": 126349499,
       "category": "Thrown",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Snowball-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Snowball-icon.png",
+      "stats": {
+        "damage": 0,
+        "fireRate": 1,
+        "accuracy": 10,
+        "range": 0,
+        "maxAmmo": 10
+      },
+      "components": []
     },
     {
       "id": "snspistol",
@@ -754,7 +3522,31 @@
       "codename": "weapon_snspistol",
       "hash": 3218215474,
       "category": "Handgun",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Sns-pistol-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Sns-pistol-icon.png",
+      "stats": {
+        "damage": 30,
+        "fireRate": 40,
+        "accuracy": 40,
+        "range": 20,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_SNSPISTOL_CLIP_01",
+          "label": "Default Clip",
+          "hash": 4169150169
+        },
+        {
+          "id": "COMPONENT_SNSPISTOL_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 2063610803
+        },
+        {
+          "id": "COMPONENT_SNSPISTOL_VARMOD_LOWRIDER",
+          "label": "Etched Wood Grip Finish",
+          "hash": 2150886575
+        }
+      ]
     },
     {
       "id": "snspistol_mk2",
@@ -762,7 +3554,121 @@
       "codename": "weapon_snspistol_mk2",
       "hash": 2285322324,
       "category": "Handgun",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Sns-pistol-mk2-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Sns-pistol-mk2-icon.png",
+      "stats": {
+        "damage": 32,
+        "fireRate": 40,
+        "accuracy": 40,
+        "range": 20,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_AT_PI_COMP_02",
+          "label": "Compensator",
+          "hash": 2860680127
+        },
+        {
+          "id": "COMPONENT_AT_PI_FLSH_03",
+          "label": "Flashlight",
+          "hash": 1246324211
+        },
+        {
+          "id": "COMPONENT_AT_PI_RAIL_02",
+          "label": "Mounted Scope",
+          "hash": 1205768792
+        },
+        {
+          "id": "COMPONENT_AT_PI_SUPP_02",
+          "label": "Suppressor",
+          "hash": 1709866683
+        },
+        {
+          "id": "COMPONENT_SNSPISTOL_MK2_CAMO_02",
+          "label": "Brushstroke Camo",
+          "hash": 2321624822
+        },
+        {
+          "id": "COMPONENT_SNSPISTOL_MK2_CAMO_03",
+          "label": "Woodland Camo",
+          "hash": 1996130345
+        },
+        {
+          "id": "COMPONENT_SNSPISTOL_MK2_CAMO_04",
+          "label": "Skull",
+          "hash": 2839309484
+        },
+        {
+          "id": "COMPONENT_SNSPISTOL_MK2_CAMO_05",
+          "label": "Sessanta Nove",
+          "hash": 2626704212
+        },
+        {
+          "id": "COMPONENT_SNSPISTOL_MK2_CAMO_06",
+          "label": "Perseus",
+          "hash": 1308243489
+        },
+        {
+          "id": "COMPONENT_SNSPISTOL_MK2_CAMO_07",
+          "label": "Leopard",
+          "hash": 1122574335
+        },
+        {
+          "id": "COMPONENT_SNSPISTOL_MK2_CAMO_08",
+          "label": "Zebra",
+          "hash": 1420313469
+        },
+        {
+          "id": "COMPONENT_SNSPISTOL_MK2_CAMO_09",
+          "label": "Geometric",
+          "hash": 109848390
+        },
+        {
+          "id": "COMPONENT_SNSPISTOL_MK2_CAMO_10",
+          "label": "Boom!",
+          "hash": 593945703
+        },
+        {
+          "id": "COMPONENT_SNSPISTOL_MK2_CAMO_IND_01",
+          "label": "Boom!",
+          "hash": 1142457062
+        },
+        {
+          "id": "COMPONENT_SNSPISTOL_MK2_CAMO",
+          "label": "Digital Camo",
+          "hash": 259780317
+        },
+        {
+          "id": "COMPONENT_SNSPISTOL_MK2_CLIP_01",
+          "label": "Default Clip",
+          "hash": 21392614
+        },
+        {
+          "id": "COMPONENT_SNSPISTOL_MK2_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 3465283442
+        },
+        {
+          "id": "COMPONENT_SNSPISTOL_MK2_CLIP_FMJ",
+          "label": "Full Metal Jacket Rounds",
+          "hash": 3239176998
+        },
+        {
+          "id": "COMPONENT_SNSPISTOL_MK2_CLIP_HOLLOWPOINT",
+          "label": "Hollow Point Rounds",
+          "hash": 2366665730
+        },
+        {
+          "id": "COMPONENT_SNSPISTOL_MK2_CLIP_INCENDIARY",
+          "label": "Incendiary Rounds",
+          "hash": 3870121849
+        },
+        {
+          "id": "COMPONENT_SNSPISTOL_MK2_CLIP_TRACER",
+          "label": "Tracer Rounds",
+          "hash": 2418909806
+        }
+      ]
     },
     {
       "id": "specialcarbine",
@@ -770,7 +3676,56 @@
       "codename": "weapon_specialcarbine",
       "hash": 3231910285,
       "category": "Rifle",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Special-carbine-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Special-carbine-icon.png",
+      "stats": {
+        "damage": 34,
+        "fireRate": 65,
+        "accuracy": 55,
+        "range": 40,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP",
+          "label": "Grip",
+          "hash": 202788691
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP_02",
+          "label": "Suppressor",
+          "hash": 2805810788
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MEDIUM",
+          "label": "Scope",
+          "hash": 2698550338
+        },
+        {
+          "id": "COMPONENT_SPECIALCARBINE_CLIP_01",
+          "label": "Default Clip",
+          "hash": 3334989185
+        },
+        {
+          "id": "COMPONENT_SPECIALCARBINE_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 2089537806
+        },
+        {
+          "id": "COMPONENT_SPECIALCARBINE_CLIP_03",
+          "label": "Drum Magazine",
+          "hash": 1801039530
+        },
+        {
+          "id": "COMPONENT_SPECIALCARBINE_VARMOD_LOWRIDER",
+          "label": "Etched Gun Metal Finish",
+          "hash": 1929467122
+        }
+      ]
     },
     {
       "id": "specialcarbine_mk2",
@@ -778,7 +3733,176 @@
       "codename": "weapon_specialcarbine_mk2",
       "hash": 2526821735,
       "category": "Rifle",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Special-carbine-mk2-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Special-carbine-mk2-icon.png",
+      "stats": {
+        "damage": 36,
+        "fireRate": 65,
+        "accuracy": 55,
+        "range": 40,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP_02",
+          "label": "Grip",
+          "hash": 2640679034
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP_02",
+          "label": "Suppressor",
+          "hash": 2805810788
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_01",
+          "label": "Flat Muzzle Brake",
+          "hash": 3113485012
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_02",
+          "label": "Tactical Muzzle Brake",
+          "hash": 3362234491
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_03",
+          "label": "Fat-End Muzzle Brake",
+          "hash": 3725708239
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_04",
+          "label": "Precision Muzzle Brake",
+          "hash": 3968886988
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_05",
+          "label": "Heavy Duty Muzzle Brake",
+          "hash": 48731514
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_06",
+          "label": "Slanted Muzzle Brake",
+          "hash": 880736428
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_07",
+          "label": "Split-End Muzzle Brake",
+          "hash": 1303784126
+        },
+        {
+          "id": "COMPONENT_AT_SC_BARREL_01",
+          "label": "Default Barrel",
+          "hash": 3879097257
+        },
+        {
+          "id": "COMPONENT_AT_SC_BARREL_02",
+          "label": "Heavy Barrel",
+          "hash": 4185880635
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MACRO_MK2",
+          "label": "Small Scope",
+          "hash": 77277509
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MEDIUM_MK2",
+          "label": "Large Scope",
+          "hash": 3328927042
+        },
+        {
+          "id": "COMPONENT_AT_SIGHTS",
+          "label": "Holographic Sight",
+          "hash": 1108334355
+        },
+        {
+          "id": "COMPONENT_SPECIALCARBINE_MK2_CAMO_02",
+          "label": "Brushstroke Camo",
+          "hash": 1125852043
+        },
+        {
+          "id": "COMPONENT_SPECIALCARBINE_MK2_CAMO_03",
+          "label": "Woodland Camo",
+          "hash": 886015732
+        },
+        {
+          "id": "COMPONENT_SPECIALCARBINE_MK2_CAMO_04",
+          "label": "Skull",
+          "hash": 3032680157
+        },
+        {
+          "id": "COMPONENT_SPECIALCARBINE_MK2_CAMO_05",
+          "label": "Sessanta Nove",
+          "hash": 3999758885
+        },
+        {
+          "id": "COMPONENT_SPECIALCARBINE_MK2_CAMO_06",
+          "label": "Perseus",
+          "hash": 3750812792
+        },
+        {
+          "id": "COMPONENT_SPECIALCARBINE_MK2_CAMO_07",
+          "label": "Leopard",
+          "hash": 172765678
+        },
+        {
+          "id": "COMPONENT_SPECIALCARBINE_MK2_CAMO_08",
+          "label": "Zebra",
+          "hash": 2312089847
+        },
+        {
+          "id": "COMPONENT_SPECIALCARBINE_MK2_CAMO_09",
+          "label": "Geometric",
+          "hash": 2072122460
+        },
+        {
+          "id": "COMPONENT_SPECIALCARBINE_MK2_CAMO_10",
+          "label": "Boom!",
+          "hash": 2308747125
+        },
+        {
+          "id": "COMPONENT_SPECIALCARBINE_MK2_CAMO_IND_01",
+          "label": "Patriotic",
+          "hash": 1377355801
+        },
+        {
+          "id": "COMPONENT_SPECIALCARBINE_MK2_CAMO",
+          "label": "Digital Camo",
+          "hash": 3557537083
+        },
+        {
+          "id": "COMPONENT_SPECIALCARBINE_MK2_CLIP_01",
+          "label": "Default Clip",
+          "hash": 382112385
+        },
+        {
+          "id": "COMPONENT_SPECIALCARBINE_MK2_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 3726614828
+        },
+        {
+          "id": "COMPONENT_SPECIALCARBINE_MK2_CLIP_ARMORPIERCING",
+          "label": "Armor Piercing Rounds",
+          "hash": 1362433589
+        },
+        {
+          "id": "COMPONENT_SPECIALCARBINE_MK2_CLIP_FMJ",
+          "label": "Full Metal Jacket Rounds",
+          "hash": 1346235024
+        },
+        {
+          "id": "COMPONENT_SPECIALCARBINE_MK2_CLIP_INCENDIARY",
+          "label": "Incendiary Rounds",
+          "hash": 3724612230
+        },
+        {
+          "id": "COMPONENT_SPECIALCARBINE_MK2_CLIP_TRACER",
+          "label": "Tracer Rounds",
+          "hash": 2271594122
+        }
+      ]
     },
     {
       "id": "stickybomb",
@@ -786,7 +3910,15 @@
       "codename": "weapon_stickybomb",
       "hash": 741814745,
       "category": "Thrown",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Sticky-bomb-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Sticky-bomb-icon.png",
+      "stats": {
+        "damage": 95,
+        "fireRate": 1,
+        "accuracy": 30,
+        "range": 10,
+        "maxAmmo": 25
+      },
+      "components": []
     },
     {
       "id": "stone_hatchet",
@@ -794,7 +3926,15 @@
       "codename": "weapon_stone_hatchet",
       "hash": 940833800,
       "category": "Melee",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Stone-hatchet-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Stone-hatchet-icon.png",
+      "stats": {
+        "damage": 30,
+        "fireRate": 15,
+        "accuracy": 0,
+        "range": 0,
+        "maxAmmo": 0
+      },
+      "components": []
     },
     {
       "id": "stungun",
@@ -802,7 +3942,15 @@
       "codename": "weapon_stungun",
       "hash": 911657153,
       "category": "Misc",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Stungun-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Stungun-icon.png",
+      "stats": {
+        "damage": 1,
+        "fireRate": 10,
+        "accuracy": 40,
+        "range": 5,
+        "maxAmmo": 250
+      },
+      "components": []
     },
     {
       "id": "autoshotgun",
@@ -810,7 +3958,15 @@
       "codename": "weapon_autoshotgun",
       "hash": 317205821,
       "category": "Shotgun",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Sweeper-shotgun-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Sweeper-shotgun-icon.png",
+      "stats": {
+        "damage": 70,
+        "fireRate": 45,
+        "accuracy": 22,
+        "range": 20,
+        "maxAmmo": 250
+      },
+      "components": []
     },
     {
       "id": "switchblade",
@@ -818,7 +3974,31 @@
       "codename": "weapon_switchblade",
       "hash": 3756226112,
       "category": "Melee",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Switch-blade-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Switch-blade-icon.png",
+      "stats": {
+        "damage": 15,
+        "fireRate": 20,
+        "accuracy": 0,
+        "range": 0,
+        "maxAmmo": 0
+      },
+      "components": [
+        {
+          "id": "COMPONENT_SWITCHBLADE_VARMOD_BASE",
+          "label": "Default Handle",
+          "hash": 2436343040
+        },
+        {
+          "id": "COMPONENT_SWITCHBLADE_VARMOD_VAR1",
+          "label": "VIP Variant",
+          "hash": 1530822070
+        },
+        {
+          "id": "COMPONENT_SWITCHBLADE_VARMOD_VAR2",
+          "label": "Bodyguard Variant",
+          "hash": 3885209186
+        }
+      ]
     },
     {
       "id": "tacticalsmg",
@@ -826,7 +4006,9 @@
       "codename": "weapon_tacticalsmg",
       "hash": 951184880,
       "category": "SMG",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Tactical-smg-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Tactical-smg-icon.png",
+      "stats": null,
+      "components": []
     },
     {
       "id": "smokegrenade",
@@ -834,7 +4016,15 @@
       "codename": "weapon_smokegrenade",
       "hash": 4256991824,
       "category": "Thrown",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Tear-gas-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Tear-gas-icon.png",
+      "stats": {
+        "damage": 10,
+        "fireRate": 1,
+        "accuracy": 10,
+        "range": 15,
+        "maxAmmo": 25
+      },
+      "components": []
     },
     {
       "id": "stungun_mp",
@@ -842,7 +4032,9 @@
       "codename": "weapon_stungun_mp",
       "hash": 1171102963,
       "category": "Misc",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/The-shocker-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/The-shocker-icon.png",
+      "stats": null,
+      "components": []
     },
     {
       "id": "raycarbine",
@@ -850,7 +4042,15 @@
       "codename": "weapon_raycarbine",
       "hash": 1198256469,
       "category": "SMG",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Unholy-hellbringer-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Unholy-hellbringer-icon.png",
+      "stats": {
+        "damage": 55,
+        "fireRate": 65,
+        "accuracy": 45,
+        "range": 60,
+        "maxAmmo": 250
+      },
+      "components": []
     },
     {
       "id": "raypistol",
@@ -858,7 +4058,21 @@
       "codename": "weapon_raypistol",
       "hash": 2939590305,
       "category": "Misc",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Up-n-atomizer-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Up-n-atomizer-icon.png",
+      "stats": {
+        "damage": 30,
+        "fireRate": 10,
+        "accuracy": 30,
+        "range": 20,
+        "maxAmmo": 20
+      },
+      "components": [
+        {
+          "id": "COMPONENT_RAYPISTOL_VARMOD_XMAS18",
+          "label": "Festive tint",
+          "hash": 3621517063
+        }
+      ]
     },
     {
       "id": "vintagepistol",
@@ -866,7 +4080,31 @@
       "codename": "weapon_vintagepistol",
       "hash": 137902532,
       "category": "Handgun",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Vintage-pistol-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Vintage-pistol-icon.png",
+      "stats": {
+        "damage": 35,
+        "fireRate": 40,
+        "accuracy": 40,
+        "range": 25,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_AT_PI_SUPP",
+          "label": "Suppressor",
+          "hash": 3271853210
+        },
+        {
+          "id": "COMPONENT_VINTAGEPISTOL_CLIP_01",
+          "label": "Default Clip",
+          "hash": 1168357051
+        },
+        {
+          "id": "COMPONENT_VINTAGEPISTOL_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 867832552
+        }
+      ]
     },
     {
       "id": "rayminigun",
@@ -874,7 +4112,15 @@
       "codename": "weapon_rayminigun",
       "hash": 3056410471,
       "category": "Heavy",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Widowmaker-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Widowmaker-icon.png",
+      "stats": {
+        "damage": 30,
+        "fireRate": 100,
+        "accuracy": 40,
+        "range": 55,
+        "maxAmmo": 250
+      },
+      "components": []
     },
     {
       "id": "gadgetpistol",
@@ -882,7 +4128,9 @@
       "codename": "weapon_gadgetpistol",
       "hash": 1470379660,
       "category": "Handgun",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/WM-29-pistol-icon.png"
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/WM-29-pistol-icon.png",
+      "stats": null,
+      "components": []
     }
   ]
 }

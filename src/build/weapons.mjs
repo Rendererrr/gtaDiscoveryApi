@@ -4,6 +4,9 @@
 // names), no metadata — so we match each icon to src/data/weapons.json (a curated
 // codename + category reference) and compute hash = joaat(codename).
 //
+// Stats + components are left-joined from src/data/weapons.stats.json (a snapshot
+// of vespura.com/fivem/weapons/weapons.json) by SpawnName === codename.
+//
 // Images: assets/weapons/images/<File>-icon.png
 // Match:  icon stem (without `-icon.png`, lowercased) === entry.file (lowercased)
 // Unmatched icon -> name from filename, codename/hash null, category "Misc".
@@ -19,9 +22,27 @@ export const LABEL = 'Weapons';
 
 const ROOT = join(import.meta.dirname, '..', '..');
 const REF = JSON.parse(await readFile(join(ROOT, 'src', 'data', 'weapons.json'), 'utf-8'));
+const STATS = JSON.parse(await readFile(join(ROOT, 'src', 'data', 'weapons.stats.json'), 'utf-8'));
 
 // stem -> reference entry
 const BY_FILE = new Map(REF.weapons.map((w) => [w.file.toLowerCase(), w]));
+
+// codename (lowercased) -> { stats, components } from the vespura snapshot.
+const BY_SPAWN = new Map(STATS.map((w) => {
+  const stats = {
+    damage: w.Damage,
+    fireRate: w.Speed,        // vespura's "Speed" is the weapon-wheel Rate of fire bar
+    accuracy: w.Accuracy,
+    range: w.Range,
+    maxAmmo: w.GetMaxAmmo,
+  };
+  const components = Object.entries(w.Components || {}).map(([id, c]) => ({
+    id,
+    label: c.Key,
+    hash: c.Value,
+  }));
+  return [String(w.SpawnName).toLowerCase(), { stats, components }];
+}));
 
 const stemOf = (filename) => filename.replace(/-icon\.png$/i, '');
 const slug = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
@@ -34,6 +55,7 @@ export async function build({ assetsDir, apiDir, log = console.log }) {
   const files = await listImages(imagesDir, 'png');
 
   let matched = 0;
+  let withStats = 0;
   const unmatched = [];
   const items = [];
 
@@ -44,6 +66,8 @@ export async function build({ assetsDir, apiDir, log = console.log }) {
 
     if (ref && ref.codename) {
       matched++;
+      const extra = BY_SPAWN.get(ref.codename.toLowerCase());
+      if (extra) withStats++;
       items.push({
         id: idFromCodename(ref.codename),
         name: ref.name,
@@ -51,6 +75,8 @@ export async function build({ assetsDir, apiDir, log = console.log }) {
         hash: joaat(ref.codename),
         category: ref.category,
         url,
+        stats: extra?.stats ?? null,
+        components: extra?.components ?? [],
       });
     } else {
       // Known-but-codenameless (e.g. Acid Package), or no reference entry at all.
@@ -62,11 +88,14 @@ export async function build({ assetsDir, apiDir, log = console.log }) {
         hash: null,
         category: ref?.category ?? 'Misc',
         url,
+        stats: null,
+        components: [],
       });
     }
   }
 
   log(`  matched ${matched}/${files.length} icons to canonical codenames.`);
+  log(`  stats: ${withStats}/${files.length} weapons have stats + components (vespura snapshot).`);
   if (unmatched.length) log(`  ! no reference entry for: ${unmatched.join(', ')}`);
 
   items.sort((a, b) => a.name.localeCompare(b.name));
@@ -74,7 +103,7 @@ export async function build({ assetsDir, apiDir, log = console.log }) {
   return writeFlatDomain({
     apiDir, domain: DOMAIN, label: LABEL,
     urlPattern: `{cdnBase}/assets/${DOMAIN}/images/{File}-icon.png`,
-    note: 'Flat catalog. hash = joaat(codename); null when the internal codename is unknown.',
+    note: 'Flat catalog. hash = joaat(codename). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash }.',
     items, log,
   });
 }

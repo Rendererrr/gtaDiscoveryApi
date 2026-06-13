@@ -172,12 +172,24 @@ the whole domain in one file:
 |----------|---------------------|-------------------------------------|--------------|-------------------------|
 | peds     | model name          | `joaat(model_name)`                 | `.webp`      | `props`, `components`   |
 | vehicles | spawn name          | `joaat(model_name)`                 | `.webp`      | —                       |
-| weapons  | weapon id           | `joaat(codename)` (or `null`)       | `.png`       | `codename`              |
+| weapons  | weapon id           | `joaat(codename)` (or `null`)       | `.png`       | `codename`, `stats`, `components` |
 
 - **`hash`** is GTA's joaat (Jenkins-one-at-a-time) hash — the same value the game/FiveM uses.
   For vehicles it is computed from the model name and matches the official hashes; for weapons it
   is computed from the internal `codename` (e.g. `weapon_assaultrifle`). A weapon whose codename
   is unknown gets `hash: null` (currently only "Acid Package").
+- **Weapon `stats` + `components`** — each weapon carries `stats` (0–100 weapon-wheel values
+  `{ damage, fireRate, accuracy, range }` plus `maxAmmo`) and `components[]`
+  (`{ id, label, hash }` attachments/clips/tints). 88/104 weapons have these; the newest DLC
+  weapons and a few non-guns have `stats: null` / `components: []`. Sourced from
+  [vespura.com/fivem/weapons](https://vespura.com/fivem/weapons/), joined by `codename`.
+  ```jsonc
+  // GET api/weapons/index.json -> items[]
+  { "id": "advancedrifle", "name": "Advanced Rifle", "codename": "weapon_advancedrifle",
+    "hash": 2937143193, "category": "Rifle", "url": "…",
+    "stats": { "damage": 34, "fireRate": 70, "accuracy": 50, "range": 45, "maxAmmo": 250 },
+    "components": [ { "id": "COMPONENT_AT_AR_SUPP", "label": "Suppressor", "hash": 2205435306 } ] }
+  ```
 - **Image URL** — build it directly or read `item.url`:
   ```
   https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/{model_name}.webp
@@ -224,6 +236,36 @@ No JavaScript? Fetch the catalog and filter it yourself:
 `GET https://rendererrr.github.io/gtaDiscoveryApi/api/vehicles/index.json` → filter `items[]`
 where `id`/`name`/`category` contains your query.
 
+### Hash → name reverse lookup
+
+Have a joaat hash (e.g. from a FiveM/Lua script) and want the name? Each flat domain ships a
+**compact reverse-lookup map**, plus a **combined** one across all domains:
+
+```
+api/<domain>/hashes.json    # { hashes: { "<hash>": { id, name, category } } }
+api/hashes.json             # { hashes: { "<hash>": { domain, id, name } } }   (all domains)
+```
+
+```jsonc
+// GET api/vehicles/hashes.json
+{ "hashes": { "3078201489": { "id": "adder", "name": "Adder", "category": "Super" } } }
+
+// GET api/hashes.json   (resolve any hash, any domain)
+{ "hashes": { "3078201489": { "domain": "vehicles", "id": "adder", "name": "Adder" } } }
+```
+
+```js
+import vehicles from 'https://rendererrr.github.io/gtaDiscoveryApi/client/vehicles.js';
+await vehicles.nameForHash(3078201489);   // 'Adder'  (loads the compact map, not the full catalog)
+
+import discovery from 'https://rendererrr.github.io/gtaDiscoveryApi/client/index.js';
+await discovery.byHash(3078201489);        // { domain: 'vehicles', id: 'adder', name: 'Adder' }
+```
+
+The reverse map covers everything with a `hash` (peds 848, vehicles 861, weapons 103 — only the
+one weapon with an unknown codename is omitted). Going the other way (name → hash) is already in
+the catalog: every item carries its own `hash`.
+
 > **Future stats.** Each flat item reserves an optional `stats` object (vehicle stats, weapon
 > stats). It's absent today; when stat data is added it merges in under `item.stats` keyed by the
 > existing `id` — no URL or shape changes.
@@ -240,7 +282,7 @@ api/index.json                 # discovery root
 api/<domain>/...               # generated JSON per domain
 src/
   config.mjs                   # base URL target (jsDelivr/Pages/custom) — single source of truth
-  data/                        # build inputs for flat domains (peds.json, vehicles.json, weapons.json)
+  data/                        # build inputs: peds.json, vehicles.json, weapons.json, weapons.stats.json
   lib/fs.mjs                   # shared fs helpers (folder-derived domains)
   lib/joaat.mjs                # GTA joaat hash
   lib/catalog.mjs              # shared writer for flat domains
@@ -332,3 +374,5 @@ Existing domains and their URLs are unaffected.
 
 - Per-texture `.webp` sets (masks, legs, shoes, accessories, undershirts, tops) originally collected by [ShortByte / Enneken Solutions](https://github.com/ShortByte/GTA5-Cloth-Assets).
 - Per-drawable previews (hair, torsos, bags, armor, decals, and all props) sourced from the [RAGE Multiplayer Wiki](https://wiki.rage.mp/wiki/Clothes).
+- Ped & vehicle images sourced from the [FiveM docs image archive](https://docs.fivem.net/).
+- Weapon stats & components from [vespura.com/fivem/weapons](https://vespura.com/fivem/weapons/) (snapshot in `src/data/weapons.stats.json`).

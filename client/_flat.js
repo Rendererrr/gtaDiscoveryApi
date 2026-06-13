@@ -8,15 +8,29 @@ const BASE = new URL('..', import.meta.url).href.replace(/\/$/, '');
 
 export function makeFlatClient(domain) {
   let _indexPromise = null;
+  let _hashesPromise = null;
+
+  function _fetchJson(path) {
+    return fetch(`${BASE}/${path}`).then((res) => {
+      if (!res.ok) throw new Error(`GTA Discovery API: ${path} -> HTTP ${res.status}`);
+      return res.json();
+    });
+  }
 
   function getIndex() {
-    if (!_indexPromise) {
-      _indexPromise = fetch(`${BASE}/api/${domain}/index.json`).then((res) => {
-        if (!res.ok) throw new Error(`GTA Discovery API: api/${domain}/index.json -> HTTP ${res.status}`);
-        return res.json();
-      });
-    }
+    if (!_indexPromise) _indexPromise = _fetchJson(`api/${domain}/index.json`);
     return _indexPromise;
+  }
+
+  /** The compact hash -> { id, name, category } map (api/<domain>/hashes.json). */
+  function getHashes() {
+    if (!_hashesPromise) _hashesPromise = _fetchJson(`api/${domain}/hashes.json`).then((j) => j.hashes);
+    return _hashesPromise;
+  }
+
+  /** Resolve a joaat hash to its name (or null). Uses the compact hashes file. */
+  async function nameForHash(hash) {
+    return (await getHashes())[String(hash)]?.name ?? null;
   }
 
   /** All items (the `items` array). */
@@ -77,5 +91,5 @@ export function makeFlatClient(domain) {
     return scored.slice(0, limit).map((s) => s.it);
   }
 
-  return { domain, getIndex, getItems, getCategories, byCategory, byId, byHash, imageUrl, search };
+  return { domain, getIndex, getItems, getCategories, byCategory, byId, byHash, imageUrl, search, getHashes, nameForHash };
 }

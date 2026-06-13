@@ -1,0 +1,529 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "weapons",
+    "label": "Weapons",
+    "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
+    "note": "Flat catalog. hash = joaat(codename). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash }."
+  },
+  "count": 103,
+  "hashes": {
+    "94989220": {
+      "id": "combatshotgun",
+      "name": "Combat Shotgun",
+      "category": "Shotgun"
+    },
+    "100416529": {
+      "id": "sniperrifle",
+      "name": "Sniper Rifle",
+      "category": "Sniper"
+    },
+    "125959754": {
+      "id": "compactlauncher",
+      "name": "Compact Grenade Launcher",
+      "category": "Heavy"
+    },
+    "126349499": {
+      "id": "snowball",
+      "name": "Snowball",
+      "category": "Thrown"
+    },
+    "137902532": {
+      "id": "vintagepistol",
+      "name": "Vintage Pistol",
+      "category": "Handgun"
+    },
+    "171789620": {
+      "id": "combatpdw",
+      "name": "Combat PDW",
+      "category": "SMG"
+    },
+    "177293209": {
+      "id": "heavysniper_mk2",
+      "name": "Heavy Sniper Mk II",
+      "category": "Sniper"
+    },
+    "205991906": {
+      "id": "heavysniper",
+      "name": "Heavy Sniper",
+      "category": "Sniper"
+    },
+    "317205821": {
+      "id": "autoshotgun",
+      "name": "Sweeper Shotgun",
+      "category": "Shotgun"
+    },
+    "324215364": {
+      "id": "microsmg",
+      "name": "Micro SMG",
+      "category": "SMG"
+    },
+    "419712736": {
+      "id": "wrench",
+      "name": "Pipe Wrench",
+      "category": "Melee"
+    },
+    "453432689": {
+      "id": "pistol",
+      "name": "Pistol",
+      "category": "Handgun"
+    },
+    "487013001": {
+      "id": "pumpshotgun",
+      "name": "Pump Shotgun",
+      "category": "Shotgun"
+    },
+    "584646201": {
+      "id": "appistol",
+      "name": "AP Pistol",
+      "category": "Handgun"
+    },
+    "600439132": {
+      "id": "ball",
+      "name": "Baseball",
+      "category": "Thrown"
+    },
+    "615608432": {
+      "id": "molotov",
+      "name": "Molotov",
+      "category": "Thrown"
+    },
+    "727643628": {
+      "id": "ceramicpistol",
+      "name": "Ceramic Pistol",
+      "category": "Handgun"
+    },
+    "736523883": {
+      "id": "smg",
+      "name": "SMG",
+      "category": "SMG"
+    },
+    "741814745": {
+      "id": "stickybomb",
+      "name": "Sticky Bomb",
+      "category": "Thrown"
+    },
+    "883325847": {
+      "id": "petrolcan",
+      "name": "Jerry Can",
+      "category": "Misc"
+    },
+    "911657153": {
+      "id": "stungun",
+      "name": "Stun Gun",
+      "category": "Misc"
+    },
+    "940833800": {
+      "id": "stone_hatchet",
+      "name": "Stone Hatchet",
+      "category": "Melee"
+    },
+    "951184880": {
+      "id": "tacticalsmg",
+      "name": "Tactical SMG",
+      "category": "SMG"
+    },
+    "961495388": {
+      "id": "assaultrifle_mk2",
+      "name": "Assault Rifle Mk II",
+      "category": "Rifle"
+    },
+    "984333226": {
+      "id": "heavyshotgun",
+      "name": "Heavy Shotgun",
+      "category": "Shotgun"
+    },
+    "1119849093": {
+      "id": "minigun",
+      "name": "Minigun",
+      "category": "Heavy"
+    },
+    "1141786504": {
+      "id": "golfclub",
+      "name": "Golf Club",
+      "category": "Melee"
+    },
+    "1171102963": {
+      "id": "stungun_mp",
+      "name": "The Shocker",
+      "category": "Misc"
+    },
+    "1198256469": {
+      "id": "raycarbine",
+      "name": "Unholy Hellbringer",
+      "category": "SMG"
+    },
+    "1198879012": {
+      "id": "flaregun",
+      "name": "Flare Gun",
+      "category": "Handgun"
+    },
+    "1233104067": {
+      "id": "flare",
+      "name": "Flare",
+      "category": "Thrown"
+    },
+    "1317494643": {
+      "id": "hammer",
+      "name": "Hammer",
+      "category": "Melee"
+    },
+    "1432025498": {
+      "id": "pumpshotgun_mk2",
+      "name": "Pump Shotgun Mk II",
+      "category": "Shotgun"
+    },
+    "1470379660": {
+      "id": "gadgetpistol",
+      "name": "WM 29 Pistol",
+      "category": "Handgun"
+    },
+    "1593441988": {
+      "id": "combatpistol",
+      "name": "Combat Pistol",
+      "category": "Handgun"
+    },
+    "1627465347": {
+      "id": "gusenberg",
+      "name": "Gusenberg Sweeper",
+      "category": "SMG"
+    },
+    "1649403952": {
+      "id": "compactrifle",
+      "name": "Compact Rifle",
+      "category": "Rifle"
+    },
+    "1672152130": {
+      "id": "hominglauncher",
+      "name": "Homing Launcher",
+      "category": "Heavy"
+    },
+    "1703483498": {
+      "id": "candycane",
+      "name": "Candy Cane",
+      "category": "Melee"
+    },
+    "1737195953": {
+      "id": "nightstick",
+      "name": "Nightstick",
+      "category": "Melee"
+    },
+    "1785463520": {
+      "id": "marksmanrifle_mk2",
+      "name": "Marksman Rifle Mk II",
+      "category": "Sniper"
+    },
+    "1792218062": {
+      "id": "pericopistol",
+      "name": "Perico Pistol",
+      "category": "Handgun"
+    },
+    "1834241177": {
+      "id": "railgun",
+      "name": "Railgun",
+      "category": "Heavy"
+    },
+    "1853742572": {
+      "id": "precisionrifle",
+      "name": "Precision Rifle",
+      "category": "Sniper"
+    },
+    "2017895192": {
+      "id": "sawnoffshotgun",
+      "name": "Sawed-Off Shotgun",
+      "category": "Shotgun"
+    },
+    "2024373456": {
+      "id": "smg_mk2",
+      "name": "SMG Mk II",
+      "category": "SMG"
+    },
+    "2132975508": {
+      "id": "bullpuprifle",
+      "name": "Bullpup Rifle",
+      "category": "Rifle"
+    },
+    "2138347493": {
+      "id": "firework",
+      "name": "Firework Launcher",
+      "category": "Heavy"
+    },
+    "2144741730": {
+      "id": "combatmg",
+      "name": "Combat MG",
+      "category": "MG"
+    },
+    "2210333304": {
+      "id": "carbinerifle",
+      "name": "Carbine Rifle",
+      "category": "Rifle"
+    },
+    "2227010557": {
+      "id": "crowbar",
+      "name": "Crowbar",
+      "category": "Melee"
+    },
+    "2228681469": {
+      "id": "bullpuprifle_mk2",
+      "name": "Bullpup Rifle Mk II",
+      "category": "Rifle"
+    },
+    "2285322324": {
+      "id": "snspistol_mk2",
+      "name": "SNS Pistol Mk II",
+      "category": "Handgun"
+    },
+    "2343591895": {
+      "id": "flashlight",
+      "name": "Flashlight",
+      "category": "Melee"
+    },
+    "2441047180": {
+      "id": "navyrevolver",
+      "name": "Navy Revolver",
+      "category": "Handgun"
+    },
+    "2460120199": {
+      "id": "dagger",
+      "name": "Antique Cavalry Dagger",
+      "category": "Melee"
+    },
+    "2481070269": {
+      "id": "grenade",
+      "name": "Grenade",
+      "category": "Thrown"
+    },
+    "2484171525": {
+      "id": "poolcue",
+      "name": "Pool Cue",
+      "category": "Melee"
+    },
+    "2508868239": {
+      "id": "bat",
+      "name": "Baseball Bat",
+      "category": "Melee"
+    },
+    "2526821735": {
+      "id": "specialcarbine_mk2",
+      "name": "Special Carbine Mk II",
+      "category": "Rifle"
+    },
+    "2548703416": {
+      "id": "doubleaction",
+      "name": "Double-Action Revolver",
+      "category": "Handgun"
+    },
+    "2578377531": {
+      "id": "pistol50",
+      "name": "Pistol .50",
+      "category": "Handgun"
+    },
+    "2578778090": {
+      "id": "knife",
+      "name": "Knife",
+      "category": "Melee"
+    },
+    "2634544996": {
+      "id": "mg",
+      "name": "MG",
+      "category": "MG"
+    },
+    "2636060646": {
+      "id": "militaryrifle",
+      "name": "Military Rifle",
+      "category": "Rifle"
+    },
+    "2640438543": {
+      "id": "bullpupshotgun",
+      "name": "Bullpup Shotgun",
+      "category": "Shotgun"
+    },
+    "2694266206": {
+      "id": "bzgas",
+      "name": "BZ Gas",
+      "category": "Thrown"
+    },
+    "2725352035": {
+      "id": "unarmed",
+      "name": "Fist",
+      "category": "Melee"
+    },
+    "2726580491": {
+      "id": "grenadelauncher",
+      "name": "Grenade Launcher",
+      "category": "Heavy"
+    },
+    "2828843422": {
+      "id": "musket",
+      "name": "Musket",
+      "category": "Shotgun"
+    },
+    "2874559379": {
+      "id": "proxmine",
+      "name": "Proximity Mine",
+      "category": "Thrown"
+    },
+    "2937143193": {
+      "id": "advancedrifle",
+      "name": "Advanced Rifle",
+      "category": "Rifle"
+    },
+    "2939590305": {
+      "id": "raypistol",
+      "name": "Up-n-Atomizer",
+      "category": "Misc"
+    },
+    "2982836145": {
+      "id": "rpg",
+      "name": "RPG",
+      "category": "Heavy"
+    },
+    "3056410471": {
+      "id": "rayminigun",
+      "name": "Widowmaker",
+      "category": "Heavy"
+    },
+    "3125143736": {
+      "id": "pipebomb",
+      "name": "Pipe Bomb",
+      "category": "Thrown"
+    },
+    "3173288789": {
+      "id": "minismg",
+      "name": "Mini SMG",
+      "category": "SMG"
+    },
+    "3218215474": {
+      "id": "snspistol",
+      "name": "SNS Pistol",
+      "category": "Handgun"
+    },
+    "3219281620": {
+      "id": "pistol_mk2",
+      "name": "Pistol Mk II",
+      "category": "Handgun"
+    },
+    "3220176749": {
+      "id": "assaultrifle",
+      "name": "Assault Rifle",
+      "category": "Rifle"
+    },
+    "3231910285": {
+      "id": "specialcarbine",
+      "name": "Special Carbine",
+      "category": "Rifle"
+    },
+    "3249783761": {
+      "id": "revolver",
+      "name": "Heavy Revolver",
+      "category": "Handgun"
+    },
+    "3342088282": {
+      "id": "marksmanrifle",
+      "name": "Marksman Rifle",
+      "category": "Sniper"
+    },
+    "3347935668": {
+      "id": "heavyrifle",
+      "name": "Heavy Rifle",
+      "category": "Rifle"
+    },
+    "3415619887": {
+      "id": "revolver_mk2",
+      "name": "Heavy Revolver Mk II",
+      "category": "Handgun"
+    },
+    "3441901897": {
+      "id": "battleaxe",
+      "name": "Battle Axe",
+      "category": "Melee"
+    },
+    "3520460075": {
+      "id": "tacticalrifle",
+      "name": "Service Carbine",
+      "category": "Rifle"
+    },
+    "3523564046": {
+      "id": "heavypistol",
+      "name": "Heavy Pistol",
+      "category": "Handgun"
+    },
+    "3638508604": {
+      "id": "knuckle",
+      "name": "Brass Knuckles",
+      "category": "Melee"
+    },
+    "3675956304": {
+      "id": "machinepistol",
+      "name": "Machine Pistol",
+      "category": "SMG"
+    },
+    "3676729658": {
+      "id": "emplauncher",
+      "name": "Compact EMP Launcher",
+      "category": "Heavy"
+    },
+    "3686625920": {
+      "id": "combatmg_mk2",
+      "name": "Combat MG Mk II",
+      "category": "MG"
+    },
+    "3696079510": {
+      "id": "marksmanpistol",
+      "name": "Marksman Pistol",
+      "category": "Handgun"
+    },
+    "3713923289": {
+      "id": "machete",
+      "name": "Machete",
+      "category": "Melee"
+    },
+    "3756226112": {
+      "id": "switchblade",
+      "name": "Switchblade",
+      "category": "Melee"
+    },
+    "3800352039": {
+      "id": "assaultshotgun",
+      "name": "Assault Shotgun",
+      "category": "Shotgun"
+    },
+    "4019527611": {
+      "id": "dbshotgun",
+      "name": "Double Barrel Shotgun",
+      "category": "Shotgun"
+    },
+    "4024951519": {
+      "id": "assaultsmg",
+      "name": "Assault SMG",
+      "category": "SMG"
+    },
+    "4191993645": {
+      "id": "hatchet",
+      "name": "Hatchet",
+      "category": "Melee"
+    },
+    "4192643659": {
+      "id": "bottle",
+      "name": "Broken Bottle",
+      "category": "Melee"
+    },
+    "4208062921": {
+      "id": "carbinerifle_mk2",
+      "name": "Carbine Rifle Mk II",
+      "category": "Rifle"
+    },
+    "4222310262": {
+      "id": "parachute",
+      "name": "Parachute",
+      "category": "Misc"
+    },
+    "4256991824": {
+      "id": "smokegrenade",
+      "name": "Tear Gas",
+      "category": "Thrown"
+    }
+  }
+}

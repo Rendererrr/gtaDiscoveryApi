@@ -48,7 +48,22 @@ export async function writeFlatDomain({ apiDir, domain, label, urlPattern, note,
     'utf-8',
   );
 
-  log(`Done ${domain}: ${items.length} items across ${categories.length} categories.`);
+  // Compact hash -> { id, name, category } reverse-lookup map, for consumers who
+  // have a joaat hash and just want the name. Items without a hash are skipped.
+  const hashes = {};
+  let withHash = 0;
+  for (const it of items) {
+    if (it.hash == null) continue;
+    hashes[it.hash] = { id: it.id, name: it.name, category: it.category };
+    withHash++;
+  }
+  await writeFile(
+    join(domainApi, 'hashes.json'),
+    JSON.stringify({ meta, count: withHash, hashes }, null, 2),
+    'utf-8',
+  );
+
+  log(`Done ${domain}: ${items.length} items across ${categories.length} categories (${withHash} hashed).`);
 
   return {
     domain,
@@ -56,5 +71,6 @@ export async function writeFlatDomain({ apiDir, domain, label, urlPattern, note,
     itemCount: items.length,
     categoryCount: categories.length,
     index: `api/${domain}/index.json`,
+    hashes: `api/${domain}/hashes.json`,
   };
 }

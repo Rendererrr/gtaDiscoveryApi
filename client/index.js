@@ -37,6 +37,23 @@ export async function search(query, { limit = 25, domains = ['peds', 'vehicles',
   return out;
 }
 
+let _hashesPromise = null;
+/** The combined cross-domain hash -> { domain, id, name } map (api/hashes.json). */
+export function getHashes() {
+  if (!_hashesPromise) {
+    _hashesPromise = fetch(`${BASE}/api/hashes.json`).then((res) => {
+      if (!res.ok) throw new Error(`GTA Discovery API: api/hashes.json -> HTTP ${res.status}`);
+      return res.json();
+    }).then((j) => j.hashes);
+  }
+  return _hashesPromise;
+}
+
+/** Resolve any joaat hash across all domains -> { domain, id, name } (or null). */
+export async function byHash(hash) {
+  return (await getHashes())[String(hash)] ?? null;
+}
+
 export { clothing, peds, vehicles, weapons };
 
-export default { getDomains, search, clothing, peds, vehicles, weapons };
+export default { getDomains, search, getHashes, byHash, clothing, peds, vehicles, weapons };

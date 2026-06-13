@@ -9,7 +9,7 @@
 //      that returns a descriptor { domain, label, index, ... }
 //   3. Import it and add it to DOMAINS below.
 
-import { writeFile, mkdir } from 'fs/promises';
+import { writeFile, readFile, mkdir } from 'fs/promises';
 import { join } from 'path';
 import { baseMeta, CDN_BASE } from '../config.mjs';
 
@@ -54,7 +54,30 @@ async function main() {
 
   await writeFile(join(API_DIR, 'index.json'), JSON.stringify(root, null, 2), 'utf-8');
 
+  // Combined cross-domain hash -> { domain, id, name } reverse-lookup, merged from
+  // each flat domain's hashes.json. Lets a consumer resolve any joaat hash in one file.
+  const combined = {};
+  let collisions = 0;
+  for (const d of domains) {
+    if (!d.hashes) continue;
+    const { hashes } = JSON.parse(await readFile(join(ROOT, d.hashes), 'utf-8'));
+    for (const [hash, info] of Object.entries(hashes)) {
+      if (combined[hash]) collisions++;
+      combined[hash] = { domain: d.domain, id: info.id, name: info.name };
+    }
+  }
+  await writeFile(
+    join(API_DIR, 'hashes.json'),
+    JSON.stringify({
+      meta: { ...baseMeta(), note: 'Combined joaat hash -> { domain, id, name } across all hashed domains.' },
+      count: Object.keys(combined).length,
+      hashes: combined,
+    }, null, 2),
+    'utf-8',
+  );
+
   console.log(`\n✓ Wrote api/index.json — ${domains.length} domain(s): ${domains.map((d) => d.domain).join(', ')}`);
+  console.log(`✓ Wrote api/hashes.json — ${Object.keys(combined).length} hashes${collisions ? ` (${collisions} cross-domain collision(s))` : ''}.`);
 }
 
 main().catch((err) => {
