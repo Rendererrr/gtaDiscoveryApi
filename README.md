@@ -23,6 +23,7 @@ There are two domain shapes:
 | vehicles | Vehicle models (861)              | [`api/vehicles/index.json`](./api/vehicles/index.json) |
 | weapons  | Weapon icons (104)                | [`api/weapons/index.json`](./api/weapons/index.json) |
 | objects  | Object/prop models (21,634; 3,050 categorized) | [`api/objects/index.json`](./api/objects/index.json) |
+| explosions | Explosion types (88, 9 categories) | [`api/explosions/index.json`](./api/explosions/index.json) |
 
 Read the discovery root to enumerate what's available:
 
@@ -505,6 +506,49 @@ left out of the default `discovery.search()` domains because its index is large 
 
 ---
 
+## Explosions domain
+
+The 88 GTA explosion types from
+[DurtyFree `explosionTypesCompact.json`](https://github.com/DurtyFree/gta-v-data-dumps/blob/master/explosionTypesCompact.json),
+given friendly names and sorted into **9 categories** (Vehicle Weapons, Environment, Aircraft
+Bombs, Thrown, Vehicles, Firearms & Ammo, Mines, Launchers, Naval). No images.
+
+```jsonc
+// GET api/explosions/index.json -> items[]
+{ "index": 47, "id": "grenade", "name": "Grenade", "category": "Thrown",
+  "tag": "EXP_TAG_GRENADE", "hash": 2323771015 }
+```
+
+| Field | Meaning |
+|---|---|
+| `hash` | `joaat(tag)` — **the stable identifier to use in scripts** (survives game updates) |
+| `tag` | the raw `EXP_TAG_…` string |
+| `id` | clean slug (`grenade`, `vehiclemine_kinetic`) |
+| `name` | friendly name (`Grenade`, `Vehicle Mine Kinetic`) |
+| `category` | one of the 9 groups |
+| `index` | catalog position (0-based) |
+
+> **Heads-up on `index`:** DurtyFree ships this list **alphabetical with no game integer**, because
+> the real `ADD_EXPLOSION` enum value shifts between game versions — so `index` here is a *catalog*
+> position, **not** the in-game explosionType integer. The reliable cross-version reference is
+> `hash` (and `tag`). If you specifically need the live enum integers, say so and I'll source them
+> from an authoritative native reference.
+
+Same endpoints + client as every flat domain — list categories, list by category, reverse hash:
+```
+api/explosions/by-category/index.json     # list all 9 categories
+api/explosions/by-category/<slug>.json    # e.g. .../by-category/mines.json
+api/explosions/hashes.json                # reverse joaat -> { id, name, category }
+```
+```js
+import explosions from 'https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/client/explosions.js';
+await explosions.byCategory('Mines');     // all mine-type explosions
+await explosions.byHash(2323771015);      // → Grenade
+await explosions.getCategories();         // the 9 categories
+```
+
+---
+
 ## Repository layout
 
 ```
@@ -525,6 +569,7 @@ src/
                                #   dlc.labels.json (DLC code -> { name, releaseDate }; shared)
                                #   objects.all.json (DurtyFree ObjectList.ini: all object names)
                                #   objects.known.json (curated objects: name + category, 71 cats)
+                               #   explosions.json (DurtyFree explosion tags: name + category, 9 cats)
   lib/fs.mjs                   # shared fs helpers (folder-derived domains)
   lib/joaat.mjs                # GTA joaat hash
   lib/catalog.mjs              # shared writer for flat domains (+ slugify, groupings)
@@ -534,10 +579,12 @@ src/
   build/vehicles.mjs           # vehicles builder
   build/weapons.mjs            # weapons builder (matches icons to src/data/weapons.json)
   build/objects.mjs            # objects builder (joins ObjectList.ini + curated categories)
+  build/explosions.mjs         # explosions builder (categorized explosion types)
 client/
   index.js                     # discovery + namespaced domain helpers
   clothing.js                  # clothing helpers
   objects.js                   # objects helpers (byHash/nameForHash/byCategory)
+  explosions.js                # explosions helpers (byHash/byCategory)
   _flat.js                     # shared flat-domain client factory
   peds.js  vehicles.js  weapons.js
 ```
@@ -622,3 +669,4 @@ Existing domains and their URLs are unaffected.
 - Weapon stats from [vespura.com/fivem/weapons](https://vespura.com/fivem/weapons/) (snapshot in `src/data/weapons.stats.json`), with newer DLC guns supplemented from [gtabase.com](https://www.gtabase.com/grand-theft-auto-v/weapons/) (`src/data/weapons.stats.extra.json`). Weapon DLC, components & tints from [DurtyFree/gta-v-data-dumps](https://github.com/DurtyFree/gta-v-data-dumps) (snapshot in `src/data/weapons.components.json`; DLC code→name map in `src/data/dlc.labels.json`).
 - Vehicle performance stats from [DurtyFree/gta-v-data-dumps](https://github.com/DurtyFree/gta-v-data-dumps) (snapshot in `src/data/vehicles.handling.json`). Vehicle DLC tags from the same dump (`src/data/vehicles.dlc.json`); DLC names & launch dates in `src/data/dlc.labels.json` (cross-checked against [gtacars.net](https://gtacars.net/gta5)).
 - Object/prop model list from [DurtyFree `ObjectList.ini`](https://github.com/DurtyFree/gta-v-data-dumps/blob/master/ObjectList.ini) (`src/data/objects.all.json`); curated object display names + categories in `src/data/objects.known.json`.
+- Explosion types from [DurtyFree `explosionTypesCompact.json`](https://github.com/DurtyFree/gta-v-data-dumps/blob/master/explosionTypesCompact.json), categorized with friendly names in `src/data/explosions.json`.

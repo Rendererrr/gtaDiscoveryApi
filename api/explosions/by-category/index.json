@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "explosions",
+    "label": "Explosions",
+    "urlPattern": null,
+    "note": "Explosion types (no images). hash = joaat(tag) — the stable identifier to use in scripts. index = catalog position, NOT the in-game ADD_EXPLOSION enum integer. category groups are under by-category/."
+  },
+  "count": 9,
+  "groups": [
+    {
+      "name": "Vehicle Weapons",
+      "key": "Vehicle Weapons",
+      "slug": "vehicle-weapons",
+      "count": 19,
+      "path": "api/explosions/by-category/vehicle-weapons.json"
+    },
+    {
+      "name": "Environment",
+      "key": "Environment",
+      "slug": "environment",
+      "count": 12,
+      "path": "api/explosions/by-category/environment.json"
+    },
+    {
+      "name": "Aircraft Bombs",
+      "key": "Aircraft Bombs",
+      "slug": "aircraft-bombs",
+      "count": 10,
+      "path": "api/explosions/by-category/aircraft-bombs.json"
+    },
+    {
+      "name": "Thrown",
+      "key": "Thrown",
+      "slug": "thrown",
+      "count": 10,
+      "path": "api/explosions/by-category/thrown.json"
+    },
+    {
+      "name": "Vehicles",
+      "key": "Vehicles",
+      "slug": "vehicles",
+      "count": 10,
+      "path": "api/explosions/by-category/vehicles.json"
+    },
+    {
+      "name": "Firearms & Ammo",
+      "key": "Firearms & Ammo",
+      "slug": "firearms-ammo",
+      "count": 8,
+      "path": "api/explosions/by-category/firearms-ammo.json"
+    },
+    {
+      "name": "Mines",
+      "key": "Mines",
+      "slug": "mines",
+      "count": 8,
+      "path": "api/explosions/by-category/mines.json"
+    },
+    {
+      "name": "Launchers",
+      "key": "Launchers",
+      "slug": "launchers",
+      "count": 7,
+      "path": "api/explosions/by-category/launchers.json"
+    },
+    {
+      "name": "Naval",
+      "key": "Naval",
+      "slug": "naval",
+      "count": 4,
+      "path": "api/explosions/by-category/naval.json"
+    }
+  ]
+}

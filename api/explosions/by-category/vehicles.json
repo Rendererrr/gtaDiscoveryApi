@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "explosions",
+    "label": "Explosions",
+    "urlPattern": null,
+    "note": "Explosion types (no images). hash = joaat(tag) — the stable identifier to use in scripts. index = catalog position, NOT the in-game ADD_EXPLOSION enum integer. category groups are under by-category/."
+  },
+  "group": {
+    "name": "Vehicles",
+    "key": "Vehicles",
+    "slug": "vehicles",
+    "count": 10
+  },
+  "count": 10,
+  "items": [
+    {
+      "index": 78,
+      "id": "bike",
+      "name": "Bike",
+      "category": "Vehicles",
+      "tag": "EXP_TAG_BIKE",
+      "hash": 2962763715
+    },
+    {
+      "index": 79,
+      "id": "blimp",
+      "name": "Blimp",
+      "category": "Vehicles",
+      "tag": "EXP_TAG_BLIMP",
+      "hash": 2682527126
+    },
+    {
+      "index": 80,
+      "id": "blimp2",
+      "name": "Blimp 2",
+      "category": "Vehicles",
+      "tag": "EXP_TAG_BLIMP2",
+      "hash": 428486510
+    },
+    {
+      "index": 81,
+      "id": "boat",
+      "name": "Boat",
+      "category": "Vehicles",
+      "tag": "EXP_TAG_BOAT",
+      "hash": 2026476578
+    },
+    {
+      "index": 82,
+      "id": "car",
+      "name": "Car",
+      "category": "Vehicles",
+      "tag": "EXP_TAG_CAR",
+      "hash": 2269051536
+    },
+    {
+      "index": 83,
+      "id": "hi_octane",
+      "name": "Hi-Octane",
+      "category": "Vehicles",
+      "tag": "EXP_TAG_HI_OCTANE",
+      "hash": 111157249
+    },
+    {
+      "index": 84,
+      "id": "plane",
+      "name": "Plane",
+      "category": "Vehicles",
+      "tag": "EXP_TAG_PLANE",
+      "hash": 519761071
+    },
+    {
+      "index": 85,
+      "id": "tanker",
+      "name": "Tanker",
+      "category": "Vehicles",
+      "tag": "EXP_TAG_TANKER",
+      "hash": 799054450
+    },
+    {
+      "index": 86,
+      "id": "train",
+      "name": "Train",
+      "category": "Vehicles",
+      "tag": "EXP_TAG_TRAIN",
+      "hash": 1841648908
+    },
+    {
+      "index": 87,
+      "id": "truck",
+      "name": "Truck",
+      "category": "Vehicles",
+      "tag": "EXP_TAG_TRUCK",
+      "hash": 952441136
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "explosions",
+    "label": "Explosions",
+    "urlPattern": null,
+    "note": "Explosion types (no images). hash = joaat(tag) — the stable identifier to use in scripts. index = catalog position, NOT the in-game ADD_EXPLOSION enum integer. category groups are under by-category/."
+  },
+  "group": {
+    "name": "Thrown",
+    "key": "Thrown",
+    "slug": "thrown",
+    "count": 10
+  },
+  "count": 10,
+  "items": [
+    {
+      "index": 49,
+      "id": "bird_crap",
+      "name": "Bird Crap",
+      "category": "Thrown",
+      "tag": "EXP_TAG_BIRD_CRAP",
+      "hash": 2522456900
+    },
+    {
+      "index": 50,
+      "id": "bzgas",
+      "name": "BZ Gas",
+      "category": "Thrown",
+      "tag": "EXP_TAG_BZGAS",
+      "hash": 1773912634
+    },
+    {
+      "index": 51,
+      "id": "flare",
+      "name": "Flare",
+      "category": "Thrown",
+      "tag": "EXP_TAG_FLARE",
+      "hash": 1579615220
+    },
+    {
+      "index": 52,
+      "id": "grenade",
+      "name": "Grenade",
+      "category": "Thrown",
+      "tag": "EXP_TAG_GRENADE",
+      "hash": 2323771015
+    },
+    {
+      "index": 53,
+      "id": "molotov",
+      "name": "Molotov",
+      "category": "Thrown",
+      "tag": "EXP_TAG_MOLOTOV",
+      "hash": 4033868522
+    },
+    {
+      "index": 54,
+      "id": "pipebomb",
+      "name": "Pipe Bomb",
+      "category": "Thrown",
+      "tag": "EXP_TAG_PIPEBOMB",
+      "hash": 2166604032
+    },
+    {
+      "index": 55,
+      "id": "proxmine",
+      "name": "Proximity Mine",
+      "category": "Thrown",
+      "tag": "EXP_TAG_PROXMINE",
+      "hash": 1526080082
+    },
+    {
+      "index": 56,
+      "id": "smokegrenade",
+      "name": "Smoke Grenade",
+      "category": "Thrown",
+      "tag": "EXP_TAG_SMOKEGRENADE",
+      "hash": 4178601326
+    },
+    {
+      "index": 57,
+      "id": "snowball",
+      "name": "Snowball",
+      "category": "Thrown",
+      "tag": "EXP_TAG_SNOWBALL",
+      "hash": 79956383
+    },
+    {
+      "index": 58,
+      "id": "stickybomb",
+      "name": "Sticky Bomb",
+      "category": "Thrown",
+      "tag": "EXP_TAG_STICKYBOMB",
+      "hash": 7827170
+    }
+  ]
+}

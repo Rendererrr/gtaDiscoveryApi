@@ -1,0 +1,454 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "explosions",
+    "label": "Explosions",
+    "urlPattern": null,
+    "note": "Explosion types (no images). hash = joaat(tag) — the stable identifier to use in scripts. index = catalog position, NOT the in-game ADD_EXPLOSION enum integer. category groups are under by-category/."
+  },
+  "count": 88,
+  "hashes": {
+    "7827170": {
+      "id": "stickybomb",
+      "name": "Sticky Bomb",
+      "category": "Thrown"
+    },
+    "15403557": {
+      "id": "bomb_standard",
+      "name": "Bomb Standard",
+      "category": "Aircraft Bombs"
+    },
+    "79956383": {
+      "id": "snowball",
+      "name": "Snowball",
+      "category": "Thrown"
+    },
+    "108414151": {
+      "id": "emplauncher_emp",
+      "name": "EMP Launcher",
+      "category": "Launchers"
+    },
+    "111157249": {
+      "id": "hi_octane",
+      "name": "Hi-Octane",
+      "category": "Vehicles"
+    },
+    "189585728": {
+      "id": "mfh_gas_canister",
+      "name": "MFH Gas Canister",
+      "category": "Environment"
+    },
+    "214341113": {
+      "id": "submarine_big",
+      "name": "Big Submarine",
+      "category": "Naval"
+    },
+    "428486510": {
+      "id": "blimp2",
+      "name": "Blimp 2",
+      "category": "Vehicles"
+    },
+    "443492528": {
+      "id": "bomb_standard_wide",
+      "name": "Bomb Standard Wide",
+      "category": "Aircraft Bombs"
+    },
+    "519761071": {
+      "id": "plane",
+      "name": "Plane",
+      "category": "Vehicles"
+    },
+    "534024042": {
+      "id": "dir_water_hydrant",
+      "name": "Directed Water Hydrant",
+      "category": "Environment"
+    },
+    "648564360": {
+      "id": "raygun",
+      "name": "Raygun",
+      "category": "Firearms & Ammo"
+    },
+    "773270600": {
+      "id": "vehiclemine",
+      "name": "Vehicle Mine",
+      "category": "Mines"
+    },
+    "799054450": {
+      "id": "tanker",
+      "name": "Tanker",
+      "category": "Vehicles"
+    },
+    "861660847": {
+      "id": "underwater_bomb",
+      "name": "Underwater Bomb",
+      "category": "Aircraft Bombs"
+    },
+    "952441136": {
+      "id": "truck",
+      "name": "Truck",
+      "category": "Vehicles"
+    },
+    "1000999416": {
+      "id": "titan2_105mm_cannon",
+      "name": "Titan 2 105mm Cannon",
+      "category": "Vehicle Weapons"
+    },
+    "1081849694": {
+      "id": "programmablear",
+      "name": "Programmable AR",
+      "category": "Firearms & Ammo"
+    },
+    "1082442432": {
+      "id": "hunter_cannon",
+      "name": "Hunter Cannon",
+      "category": "Vehicle Weapons"
+    },
+    "1092718256": {
+      "id": "barrel",
+      "name": "Barrel",
+      "category": "Environment"
+    },
+    "1095209106": {
+      "id": "firework",
+      "name": "Firework",
+      "category": "Launchers"
+    },
+    "1311434948": {
+      "id": "torpedo_underwater",
+      "name": "Underwater Torpedo",
+      "category": "Naval"
+    },
+    "1398806336": {
+      "id": "orbital_cannon",
+      "name": "Orbital Cannon",
+      "category": "Vehicle Weapons"
+    },
+    "1484422149": {
+      "id": "vehiclemine_slick",
+      "name": "Vehicle Mine Slick",
+      "category": "Mines"
+    },
+    "1526080082": {
+      "id": "proxmine",
+      "name": "Proximity Mine",
+      "category": "Thrown"
+    },
+    "1579615220": {
+      "id": "flare",
+      "name": "Flare",
+      "category": "Thrown"
+    },
+    "1648438185": {
+      "id": "apcshell",
+      "name": "APC Shell",
+      "category": "Vehicle Weapons"
+    },
+    "1692079049": {
+      "id": "vehicle_bullet",
+      "name": "Vehicle Bullet",
+      "category": "Vehicle Weapons"
+    },
+    "1703553843": {
+      "id": "bomb_incendiary",
+      "name": "Bomb Incendiary",
+      "category": "Aircraft Bombs"
+    },
+    "1718822469": {
+      "id": "mine_underwater",
+      "name": "Underwater Mine",
+      "category": "Mines"
+    },
+    "1756061235": {
+      "id": "dir_flame",
+      "name": "Directed Flame",
+      "category": "Environment"
+    },
+    "1773912634": {
+      "id": "bzgas",
+      "name": "BZ Gas",
+      "category": "Thrown"
+    },
+    "1794110630": {
+      "id": "rctank_rocket",
+      "name": "RC Tank Rocket",
+      "category": "Vehicle Weapons"
+    },
+    "1813113829": {
+      "id": "bomb_water",
+      "name": "Bomb Water",
+      "category": "Aircraft Bombs"
+    },
+    "1841648908": {
+      "id": "train",
+      "name": "Train",
+      "category": "Vehicles"
+    },
+    "1844544532": {
+      "id": "propane",
+      "name": "Propane",
+      "category": "Environment"
+    },
+    "1848043031": {
+      "id": "rocket",
+      "name": "Rocket",
+      "category": "Launchers"
+    },
+    "1886816994": {
+      "id": "grenadelauncher",
+      "name": "Grenade Launcher",
+      "category": "Launchers"
+    },
+    "2007196241": {
+      "id": "mfh_military_explosive",
+      "name": "MFH Military Explosive",
+      "category": "Aircraft Bombs"
+    },
+    "2019434853": {
+      "id": "vehiclemine_tar",
+      "name": "Vehicle Mine Tar",
+      "category": "Mines"
+    },
+    "2026476578": {
+      "id": "boat",
+      "name": "Boat",
+      "category": "Vehicles"
+    },
+    "2078503620": {
+      "id": "titan2_25mm_cannon",
+      "name": "Titan 2 25mm Cannon",
+      "category": "Vehicle Weapons"
+    },
+    "2166604032": {
+      "id": "pipebomb",
+      "name": "Pipe Bomb",
+      "category": "Thrown"
+    },
+    "2236184030": {
+      "id": "rogue_cannon",
+      "name": "Rogue Cannon",
+      "category": "Vehicle Weapons"
+    },
+    "2260733551": {
+      "id": "vehiclemine_emp",
+      "name": "Vehicle Mine EMP",
+      "category": "Mines"
+    },
+    "2269051536": {
+      "id": "car",
+      "name": "Car",
+      "category": "Vehicles"
+    },
+    "2291950670": {
+      "id": "railgun",
+      "name": "Railgun",
+      "category": "Launchers"
+    },
+    "2323771015": {
+      "id": "grenade",
+      "name": "Grenade",
+      "category": "Thrown"
+    },
+    "2382381768": {
+      "id": "oppressor2_cannon",
+      "name": "Oppressor 2 Cannon",
+      "category": "Vehicle Weapons"
+    },
+    "2389658605": {
+      "id": "smokegrenadelauncher",
+      "name": "Smoke Grenade Launcher",
+      "category": "Launchers"
+    },
+    "2397901253": {
+      "id": "bomb_water_secondary",
+      "name": "Bomb Water Secondary",
+      "category": "Aircraft Bombs"
+    },
+    "2399379780": {
+      "id": "railgunxm3",
+      "name": "Railgun XM3",
+      "category": "Launchers"
+    },
+    "2411646660": {
+      "id": "bomb_cluster_secondary",
+      "name": "Bomb Cluster Secondary",
+      "category": "Aircraft Bombs"
+    },
+    "2469346959": {
+      "id": "plane_rocket",
+      "name": "Plane Rocket",
+      "category": "Vehicle Weapons"
+    },
+    "2509170632": {
+      "id": "explosiveammo",
+      "name": "Explosive Ammo",
+      "category": "Firearms & Ammo"
+    },
+    "2522456900": {
+      "id": "bird_crap",
+      "name": "Bird Crap",
+      "category": "Thrown"
+    },
+    "2609962983": {
+      "id": "torpedo",
+      "name": "Torpedo",
+      "category": "Naval"
+    },
+    "2611474006": {
+      "id": "mortar_kinetic",
+      "name": "Mortar Kinetic",
+      "category": "Vehicle Weapons"
+    },
+    "2636366753": {
+      "id": "extinguisher",
+      "name": "Extinguisher",
+      "category": "Environment"
+    },
+    "2646835273": {
+      "id": "hunter_barrage",
+      "name": "Hunter Barrage",
+      "category": "Vehicle Weapons"
+    },
+    "2682527126": {
+      "id": "blimp",
+      "name": "Blimp",
+      "category": "Vehicles"
+    },
+    "2715601830": {
+      "id": "dir_steam",
+      "name": "Directed Steam",
+      "category": "Environment"
+    },
+    "2735531125": {
+      "id": "ship_destroy",
+      "name": "Ship Destruction",
+      "category": "Naval"
+    },
+    "2810574641": {
+      "id": "buriedmine",
+      "name": "Buried Mine",
+      "category": "Mines"
+    },
+    "2850692033": {
+      "id": "script_missile",
+      "name": "Script Missile",
+      "category": "Firearms & Ammo"
+    },
+    "2962763715": {
+      "id": "bike",
+      "name": "Bike",
+      "category": "Vehicles"
+    },
+    "2996540666": {
+      "id": "bomb_cluster",
+      "name": "Bomb Cluster",
+      "category": "Aircraft Bombs"
+    },
+    "3078660825": {
+      "id": "valkyrie_cannon",
+      "name": "Valkyrie Cannon",
+      "category": "Vehicle Weapons"
+    },
+    "3084158436": {
+      "id": "bombushka_cannon",
+      "name": "Bombushka Cannon",
+      "category": "Vehicle Weapons"
+    },
+    "3221559614": {
+      "id": "vehiclemine_kinetic",
+      "name": "Vehicle Mine Kinetic",
+      "category": "Mines"
+    },
+    "3238732005": {
+      "id": "bullet",
+      "name": "Bullet",
+      "category": "Firearms & Ammo"
+    },
+    "3292851040": {
+      "id": "explosiveammo_shotgun",
+      "name": "Explosive Ammo Shotgun",
+      "category": "Firearms & Ammo"
+    },
+    "3340218381": {
+      "id": "gas_tank",
+      "name": "Gas Tank",
+      "category": "Environment"
+    },
+    "3376861374": {
+      "id": "gas_canister",
+      "name": "Gas Canister",
+      "category": "Environment"
+    },
+    "3513070405": {
+      "id": "air_defence",
+      "name": "Air Defence",
+      "category": "Vehicle Weapons"
+    },
+    "3525741410": {
+      "id": "script_drone",
+      "name": "Script Drone",
+      "category": "Firearms & Ammo"
+    },
+    "3530196472": {
+      "id": "dir_gas_canister",
+      "name": "Directed Gas Canister",
+      "category": "Environment"
+    },
+    "3553220665": {
+      "id": "bomb_gas",
+      "name": "Bomb Gas",
+      "category": "Aircraft Bombs"
+    },
+    "3613330511": {
+      "id": "titan2_40mm_cannon",
+      "name": "Titan 2 40mm Cannon",
+      "category": "Vehicle Weapons"
+    },
+    "3867661680": {
+      "id": "vehiclemine_spike",
+      "name": "Vehicle Mine Spike",
+      "category": "Mines"
+    },
+    "4033868522": {
+      "id": "molotov",
+      "name": "Molotov",
+      "category": "Thrown"
+    },
+    "4100324941": {
+      "id": "balanced_cannons",
+      "name": "Balanced Cannons",
+      "category": "Vehicle Weapons"
+    },
+    "4160300742": {
+      "id": "tankshell",
+      "name": "Tank Shell",
+      "category": "Vehicle Weapons"
+    },
+    "4178601326": {
+      "id": "smokegrenade",
+      "name": "Smoke Grenade",
+      "category": "Thrown"
+    },
+    "4190685720": {
+      "id": "petrol_pump",
+      "name": "Petrol Pump",
+      "category": "Environment"
+    },
+    "4230735204": {
+      "id": "script_missile_large",
+      "name": "Script Missile Large",
+      "category": "Firearms & Ammo"
+    },
+    "4260437209": {
+      "id": "scarab_kinetic",
+      "name": "Scarab Kinetic",
+      "category": "Vehicle Weapons"
+    },
+    "4293226484": {
+      "id": "dir_flame_explode",
+      "name": "Directed Flame Explode",
+      "category": "Environment"
+    }
+  }
+}

@@ -1,0 +1,756 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "explosions",
+    "label": "Explosions",
+    "urlPattern": null,
+    "note": "Explosion types (no images). hash = joaat(tag) — the stable identifier to use in scripts. index = catalog position, NOT the in-game ADD_EXPLOSION enum integer. category groups are under by-category/."
+  },
+  "categories": [
+    {
+      "name": "Vehicle Weapons",
+      "count": 19
+    },
+    {
+      "name": "Environment",
+      "count": 12
+    },
+    {
+      "name": "Aircraft Bombs",
+      "count": 10
+    },
+    {
+      "name": "Thrown",
+      "count": 10
+    },
+    {
+      "name": "Vehicles",
+      "count": 10
+    },
+    {
+      "name": "Firearms & Ammo",
+      "count": 8
+    },
+    {
+      "name": "Mines",
+      "count": 8
+    },
+    {
+      "name": "Launchers",
+      "count": 7
+    },
+    {
+      "name": "Naval",
+      "count": 4
+    }
+  ],
+  "count": 88,
+  "items": [
+    {
+      "index": 0,
+      "id": "bomb_cluster",
+      "name": "Bomb Cluster",
+      "category": "Aircraft Bombs",
+      "tag": "EXP_TAG_BOMB_CLUSTER",
+      "hash": 2996540666
+    },
+    {
+      "index": 1,
+      "id": "bomb_cluster_secondary",
+      "name": "Bomb Cluster Secondary",
+      "category": "Aircraft Bombs",
+      "tag": "EXP_TAG_BOMB_CLUSTER_SECONDARY",
+      "hash": 2411646660
+    },
+    {
+      "index": 2,
+      "id": "bomb_gas",
+      "name": "Bomb Gas",
+      "category": "Aircraft Bombs",
+      "tag": "EXP_TAG_BOMB_GAS",
+      "hash": 3553220665
+    },
+    {
+      "index": 3,
+      "id": "bomb_incendiary",
+      "name": "Bomb Incendiary",
+      "category": "Aircraft Bombs",
+      "tag": "EXP_TAG_BOMB_INCENDIARY",
+      "hash": 1703553843
+    },
+    {
+      "index": 4,
+      "id": "bomb_standard",
+      "name": "Bomb Standard",
+      "category": "Aircraft Bombs",
+      "tag": "EXP_TAG_BOMB_STANDARD",
+      "hash": 15403557
+    },
+    {
+      "index": 5,
+      "id": "bomb_standard_wide",
+      "name": "Bomb Standard Wide",
+      "category": "Aircraft Bombs",
+      "tag": "EXP_TAG_BOMB_STANDARD_WIDE",
+      "hash": 443492528
+    },
+    {
+      "index": 6,
+      "id": "bomb_water",
+      "name": "Bomb Water",
+      "category": "Aircraft Bombs",
+      "tag": "EXP_TAG_BOMB_WATER",
+      "hash": 1813113829
+    },
+    {
+      "index": 7,
+      "id": "bomb_water_secondary",
+      "name": "Bomb Water Secondary",
+      "category": "Aircraft Bombs",
+      "tag": "EXP_TAG_BOMB_WATER_SECONDARY",
+      "hash": 2397901253
+    },
+    {
+      "index": 8,
+      "id": "mfh_military_explosive",
+      "name": "MFH Military Explosive",
+      "category": "Aircraft Bombs",
+      "tag": "EXP_TAG_MFH_MILITARY_EXPLOSIVE",
+      "hash": 2007196241
+    },
+    {
+      "index": 9,
+      "id": "underwater_bomb",
+      "name": "Underwater Bomb",
+      "category": "Aircraft Bombs",
+      "tag": "EXP_TAG_UNDERWATER_BOMB",
+      "hash": 861660847
+    },
+    {
+      "index": 10,
+      "id": "barrel",
+      "name": "Barrel",
+      "category": "Environment",
+      "tag": "EXP_TAG_BARREL",
+      "hash": 1092718256
+    },
+    {
+      "index": 11,
+      "id": "dir_flame",
+      "name": "Directed Flame",
+      "category": "Environment",
+      "tag": "EXP_TAG_DIR_FLAME",
+      "hash": 1756061235
+    },
+    {
+      "index": 12,
+      "id": "dir_flame_explode",
+      "name": "Directed Flame Explode",
+      "category": "Environment",
+      "tag": "EXP_TAG_DIR_FLAME_EXPLODE",
+      "hash": 4293226484
+    },
+    {
+      "index": 13,
+      "id": "dir_gas_canister",
+      "name": "Directed Gas Canister",
+      "category": "Environment",
+      "tag": "EXP_TAG_DIR_GAS_CANISTER",
+      "hash": 3530196472
+    },
+    {
+      "index": 14,
+      "id": "dir_steam",
+      "name": "Directed Steam",
+      "category": "Environment",
+      "tag": "EXP_TAG_DIR_STEAM",
+      "hash": 2715601830
+    },
+    {
+      "index": 15,
+      "id": "dir_water_hydrant",
+      "name": "Directed Water Hydrant",
+      "category": "Environment",
+      "tag": "EXP_TAG_DIR_WATER_HYDRANT",
+      "hash": 534024042
+    },
+    {
+      "index": 16,
+      "id": "extinguisher",
+      "name": "Extinguisher",
+      "category": "Environment",
+      "tag": "EXP_TAG_EXTINGUISHER",
+      "hash": 2636366753
+    },
+    {
+      "index": 17,
+      "id": "gas_canister",
+      "name": "Gas Canister",
+      "category": "Environment",
+      "tag": "EXP_TAG_GAS_CANISTER",
+      "hash": 3376861374
+    },
+    {
+      "index": 18,
+      "id": "gas_tank",
+      "name": "Gas Tank",
+      "category": "Environment",
+      "tag": "EXP_TAG_GAS_TANK",
+      "hash": 3340218381
+    },
+    {
+      "index": 19,
+      "id": "mfh_gas_canister",
+      "name": "MFH Gas Canister",
+      "category": "Environment",
+      "tag": "EXP_TAG_MFH_GAS_CANISTER",
+      "hash": 189585728
+    },
+    {
+      "index": 20,
+      "id": "petrol_pump",
+      "name": "Petrol Pump",
+      "category": "Environment",
+      "tag": "EXP_TAG_PETROL_PUMP",
+      "hash": 4190685720
+    },
+    {
+      "index": 21,
+      "id": "propane",
+      "name": "Propane",
+      "category": "Environment",
+      "tag": "EXP_TAG_PROPANE",
+      "hash": 1844544532
+    },
+    {
+      "index": 22,
+      "id": "bullet",
+      "name": "Bullet",
+      "category": "Firearms & Ammo",
+      "tag": "EXP_TAG_BULLET",
+      "hash": 3238732005
+    },
+    {
+      "index": 23,
+      "id": "explosiveammo",
+      "name": "Explosive Ammo",
+      "category": "Firearms & Ammo",
+      "tag": "EXP_TAG_EXPLOSIVEAMMO",
+      "hash": 2509170632
+    },
+    {
+      "index": 24,
+      "id": "explosiveammo_shotgun",
+      "name": "Explosive Ammo Shotgun",
+      "category": "Firearms & Ammo",
+      "tag": "EXP_TAG_EXPLOSIVEAMMO_SHOTGUN",
+      "hash": 3292851040
+    },
+    {
+      "index": 25,
+      "id": "programmablear",
+      "name": "Programmable AR",
+      "category": "Firearms & Ammo",
+      "tag": "EXP_TAG_PROGRAMMABLEAR",
+      "hash": 1081849694
+    },
+    {
+      "index": 26,
+      "id": "raygun",
+      "name": "Raygun",
+      "category": "Firearms & Ammo",
+      "tag": "EXP_TAG_RAYGUN",
+      "hash": 648564360
+    },
+    {
+      "index": 27,
+      "id": "script_drone",
+      "name": "Script Drone",
+      "category": "Firearms & Ammo",
+      "tag": "EXP_TAG_SCRIPT_DRONE",
+      "hash": 3525741410
+    },
+    {
+      "index": 28,
+      "id": "script_missile",
+      "name": "Script Missile",
+      "category": "Firearms & Ammo",
+      "tag": "EXP_TAG_SCRIPT_MISSILE",
+      "hash": 2850692033
+    },
+    {
+      "index": 29,
+      "id": "script_missile_large",
+      "name": "Script Missile Large",
+      "category": "Firearms & Ammo",
+      "tag": "EXP_TAG_SCRIPT_MISSILE_LARGE",
+      "hash": 4230735204
+    },
+    {
+      "index": 30,
+      "id": "emplauncher_emp",
+      "name": "EMP Launcher",
+      "category": "Launchers",
+      "tag": "EXP_TAG_EMPLAUNCHER_EMP",
+      "hash": 108414151
+    },
+    {
+      "index": 31,
+      "id": "firework",
+      "name": "Firework",
+      "category": "Launchers",
+      "tag": "EXP_TAG_FIREWORK",
+      "hash": 1095209106
+    },
+    {
+      "index": 32,
+      "id": "grenadelauncher",
+      "name": "Grenade Launcher",
+      "category": "Launchers",
+      "tag": "EXP_TAG_GRENADELAUNCHER",
+      "hash": 1886816994
+    },
+    {
+      "index": 33,
+      "id": "railgun",
+      "name": "Railgun",
+      "category": "Launchers",
+      "tag": "EXP_TAG_RAILGUN",
+      "hash": 2291950670
+    },
+    {
+      "index": 34,
+      "id": "railgunxm3",
+      "name": "Railgun XM3",
+      "category": "Launchers",
+      "tag": "EXP_TAG_RAILGUNXM3",
+      "hash": 2399379780
+    },
+    {
+      "index": 35,
+      "id": "rocket",
+      "name": "Rocket",
+      "category": "Launchers",
+      "tag": "EXP_TAG_ROCKET",
+      "hash": 1848043031
+    },
+    {
+      "index": 36,
+      "id": "smokegrenadelauncher",
+      "name": "Smoke Grenade Launcher",
+      "category": "Launchers",
+      "tag": "EXP_TAG_SMOKEGRENADELAUNCHER",
+      "hash": 2389658605
+    },
+    {
+      "index": 37,
+      "id": "buriedmine",
+      "name": "Buried Mine",
+      "category": "Mines",
+      "tag": "EXP_TAG_BURIEDMINE",
+      "hash": 2810574641
+    },
+    {
+      "index": 38,
+      "id": "mine_underwater",
+      "name": "Underwater Mine",
+      "category": "Mines",
+      "tag": "EXP_TAG_MINE_UNDERWATER",
+      "hash": 1718822469
+    },
+    {
+      "index": 39,
+      "id": "vehiclemine",
+      "name": "Vehicle Mine",
+      "category": "Mines",
+      "tag": "EXP_TAG_VEHICLEMINE",
+      "hash": 773270600
+    },
+    {
+      "index": 40,
+      "id": "vehiclemine_emp",
+      "name": "Vehicle Mine EMP",
+      "category": "Mines",
+      "tag": "EXP_TAG_VEHICLEMINE_EMP",
+      "hash": 2260733551
+    },
+    {
+      "index": 41,
+      "id": "vehiclemine_kinetic",
+      "name": "Vehicle Mine Kinetic",
+      "category": "Mines",
+      "tag": "EXP_TAG_VEHICLEMINE_KINETIC",
+      "hash": 3221559614
+    },
+    {
+      "index": 42,
+      "id": "vehiclemine_slick",
+      "name": "Vehicle Mine Slick",
+      "category": "Mines",
+      "tag": "EXP_TAG_VEHICLEMINE_SLICK",
+      "hash": 1484422149
+    },
+    {
+      "index": 43,
+      "id": "vehiclemine_spike",
+      "name": "Vehicle Mine Spike",
+      "category": "Mines",
+      "tag": "EXP_TAG_VEHICLEMINE_SPIKE",
+      "hash": 3867661680
+    },
+    {
+      "index": 44,
+      "id": "vehiclemine_tar",
+      "name": "Vehicle Mine Tar",
+      "category": "Mines",
+      "tag": "EXP_TAG_VEHICLEMINE_TAR",
+      "hash": 2019434853
+    },
+    {
+      "index": 45,
+      "id": "submarine_big",
+      "name": "Big Submarine",
+      "category": "Naval",
+      "tag": "EXP_TAG_SUBMARINE_BIG",
+      "hash": 214341113
+    },
+    {
+      "index": 46,
+      "id": "ship_destroy",
+      "name": "Ship Destruction",
+      "category": "Naval",
+      "tag": "EXP_TAG_SHIP_DESTROY",
+      "hash": 2735531125
+    },
+    {
+      "index": 47,
+      "id": "torpedo",
+      "name": "Torpedo",
+      "category": "Naval",
+      "tag": "EXP_TAG_TORPEDO",
+      "hash": 2609962983
+    },
+    {
+      "index": 48,
+      "id": "torpedo_underwater",
+      "name": "Underwater Torpedo",
+      "category": "Naval",
+      "tag": "EXP_TAG_TORPEDO_UNDERWATER",
+      "hash": 1311434948
+    },
+    {
+      "index": 49,
+      "id": "bird_crap",
+      "name": "Bird Crap",
+      "category": "Thrown",
+      "tag": "EXP_TAG_BIRD_CRAP",
+      "hash": 2522456900
+    },
+    {
+      "index": 50,
+      "id": "bzgas",
+      "name": "BZ Gas",
+      "category": "Thrown",
+      "tag": "EXP_TAG_BZGAS",
+      "hash": 1773912634
+    },
+    {
+      "index": 51,
+      "id": "flare",
+      "name": "Flare",
+      "category": "Thrown",
+      "tag": "EXP_TAG_FLARE",
+      "hash": 1579615220
+    },
+    {
+      "index": 52,
+      "id": "grenade",
+      "name": "Grenade",
+      "category": "Thrown",
+      "tag": "EXP_TAG_GRENADE",
+      "hash": 2323771015
+    },
+    {
+      "index": 53,
+      "id": "molotov",
+      "name": "Molotov",
+      "category": "Thrown",
+      "tag": "EXP_TAG_MOLOTOV",
+      "hash": 4033868522
+    },
+    {
+      "index": 54,
+      "id": "pipebomb",
+      "name": "Pipe Bomb",
+      "category": "Thrown",
+      "tag": "EXP_TAG_PIPEBOMB",
+      "hash": 2166604032
+    },
+    {
+      "index": 55,
+      "id": "proxmine",
+      "name": "Proximity Mine",
+      "category": "Thrown",
+      "tag": "EXP_TAG_PROXMINE",
+      "hash": 1526080082
+    },
+    {
+      "index": 56,
+      "id": "smokegrenade",
+      "name": "Smoke Grenade",
+      "category": "Thrown",
+      "tag": "EXP_TAG_SMOKEGRENADE",
+      "hash": 4178601326
+    },
+    {
+      "index": 57,
+      "id": "snowball",
+      "name": "Snowball",
+      "category": "Thrown",
+      "tag": "EXP_TAG_SNOWBALL",
+      "hash": 79956383
+    },
+    {
+      "index": 58,
+      "id": "stickybomb",
+      "name": "Sticky Bomb",
+      "category": "Thrown",
+      "tag": "EXP_TAG_STICKYBOMB",
+      "hash": 7827170
+    },
+    {
+      "index": 59,
+      "id": "air_defence",
+      "name": "Air Defence",
+      "category": "Vehicle Weapons",
+      "tag": "EXP_TAG_AIR_DEFENCE",
+      "hash": 3513070405
+    },
+    {
+      "index": 60,
+      "id": "apcshell",
+      "name": "APC Shell",
+      "category": "Vehicle Weapons",
+      "tag": "EXP_TAG_APCSHELL",
+      "hash": 1648438185
+    },
+    {
+      "index": 61,
+      "id": "balanced_cannons",
+      "name": "Balanced Cannons",
+      "category": "Vehicle Weapons",
+      "tag": "EXP_TAG_BALANCED_CANNONS",
+      "hash": 4100324941
+    },
+    {
+      "index": 62,
+      "id": "bombushka_cannon",
+      "name": "Bombushka Cannon",
+      "category": "Vehicle Weapons",
+      "tag": "EXP_TAG_BOMBUSHKA_CANNON",
+      "hash": 3084158436
+    },
+    {
+      "index": 63,
+      "id": "hunter_barrage",
+      "name": "Hunter Barrage",
+      "category": "Vehicle Weapons",
+      "tag": "EXP_TAG_HUNTER_BARRAGE",
+      "hash": 2646835273
+    },
+    {
+      "index": 64,
+      "id": "hunter_cannon",
+      "name": "Hunter Cannon",
+      "category": "Vehicle Weapons",
+      "tag": "EXP_TAG_HUNTER_CANNON",
+      "hash": 1082442432
+    },
+    {
+      "index": 65,
+      "id": "mortar_kinetic",
+      "name": "Mortar Kinetic",
+      "category": "Vehicle Weapons",
+      "tag": "EXP_TAG_MORTAR_KINETIC",
+      "hash": 2611474006
+    },
+    {
+      "index": 66,
+      "id": "oppressor2_cannon",
+      "name": "Oppressor 2 Cannon",
+      "category": "Vehicle Weapons",
+      "tag": "EXP_TAG_OPPRESSOR2_CANNON",
+      "hash": 2382381768
+    },
+    {
+      "index": 67,
+      "id": "orbital_cannon",
+      "name": "Orbital Cannon",
+      "category": "Vehicle Weapons",
+      "tag": "EXP_TAG_ORBITAL_CANNON",
+      "hash": 1398806336
+    },
+    {
+      "index": 68,
+      "id": "plane_rocket",
+      "name": "Plane Rocket",
+      "category": "Vehicle Weapons",
+      "tag": "EXP_TAG_PLANE_ROCKET",
+      "hash": 2469346959
+    },
+    {
+      "index": 69,
+      "id": "rctank_rocket",
+      "name": "RC Tank Rocket",
+      "category": "Vehicle Weapons",
+      "tag": "EXP_TAG_RCTANK_ROCKET",
+      "hash": 1794110630
+    },
+    {
+      "index": 70,
+      "id": "rogue_cannon",
+      "name": "Rogue Cannon",
+      "category": "Vehicle Weapons",
+      "tag": "EXP_TAG_ROGUE_CANNON",
+      "hash": 2236184030
+    },
+    {
+      "index": 71,
+      "id": "scarab_kinetic",
+      "name": "Scarab Kinetic",
+      "category": "Vehicle Weapons",
+      "tag": "EXP_TAG_SCARAB_KINETIC",
+      "hash": 4260437209
+    },
+    {
+      "index": 72,
+      "id": "tankshell",
+      "name": "Tank Shell",
+      "category": "Vehicle Weapons",
+      "tag": "EXP_TAG_TANKSHELL",
+      "hash": 4160300742
+    },
+    {
+      "index": 73,
+      "id": "titan2_105mm_cannon",
+      "name": "Titan 2 105mm Cannon",
+      "category": "Vehicle Weapons",
+      "tag": "EXP_TAG_TITAN2_105MM_CANNON",
+      "hash": 1000999416
+    },
+    {
+      "index": 74,
+      "id": "titan2_25mm_cannon",
+      "name": "Titan 2 25mm Cannon",
+      "category": "Vehicle Weapons",
+      "tag": "EXP_TAG_TITAN2_25MM_CANNON",
+      "hash": 2078503620
+    },
+    {
+      "index": 75,
+      "id": "titan2_40mm_cannon",
+      "name": "Titan 2 40mm Cannon",
+      "category": "Vehicle Weapons",
+      "tag": "EXP_TAG_TITAN2_40MM_CANNON",
+      "hash": 3613330511
+    },
+    {
+      "index": 76,
+      "id": "valkyrie_cannon",
+      "name": "Valkyrie Cannon",
+      "category": "Vehicle Weapons",
+      "tag": "EXP_TAG_VALKYRIE_CANNON",
+      "hash": 3078660825
+    },
+    {
+      "index": 77,
+      "id": "vehicle_bullet",
+      "name": "Vehicle Bullet",
+      "category": "Vehicle Weapons",
+      "tag": "EXP_TAG_VEHICLE_BULLET",
+      "hash": 1692079049
+    },
+    {
+      "index": 78,
+      "id": "bike",
+      "name": "Bike",
+      "category": "Vehicles",
+      "tag": "EXP_TAG_BIKE",
+      "hash": 2962763715
+    },
+    {
+      "index": 79,
+      "id": "blimp",
+      "name": "Blimp",
+      "category": "Vehicles",
+      "tag": "EXP_TAG_BLIMP",
+      "hash": 2682527126
+    },
+    {
+      "index": 80,
+      "id": "blimp2",
+      "name": "Blimp 2",
+      "category": "Vehicles",
+      "tag": "EXP_TAG_BLIMP2",
+      "hash": 428486510
+    },
+    {
+      "index": 81,
+      "id": "boat",
+      "name": "Boat",
+      "category": "Vehicles",
+      "tag": "EXP_TAG_BOAT",
+      "hash": 2026476578
+    },
+    {
+      "index": 82,
+      "id": "car",
+      "name": "Car",
+      "category": "Vehicles",
+      "tag": "EXP_TAG_CAR",
+      "hash": 2269051536
+    },
+    {
+      "index": 83,
+      "id": "hi_octane",
+      "name": "Hi-Octane",
+      "category": "Vehicles",
+      "tag": "EXP_TAG_HI_OCTANE",
+      "hash": 111157249
+    },
+    {
+      "index": 84,
+      "id": "plane",
+      "name": "Plane",
+      "category": "Vehicles",
+      "tag": "EXP_TAG_PLANE",
+      "hash": 519761071
+    },
+    {
+      "index": 85,
+      "id": "tanker",
+      "name": "Tanker",
+      "category": "Vehicles",
+      "tag": "EXP_TAG_TANKER",
+      "hash": 799054450
+    },
+    {
+      "index": 86,
+      "id": "train",
+      "name": "Train",
+      "category": "Vehicles",
+      "tag": "EXP_TAG_TRAIN",
+      "hash": 1841648908
+    },
+    {
+      "index": 87,
+      "id": "truck",
+      "name": "Truck",
+      "category": "Vehicles",
+      "tag": "EXP_TAG_TRUCK",
+      "hash": 952441136
+    }
+  ]
+}

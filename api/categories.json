@@ -6,6 +6,62 @@
     "note": "Every category in each flat domain. Each entry -> a by-category slice at `path`."
   },
   "domains": {
+    "explosions": [
+      {
+        "name": "Vehicle Weapons",
+        "slug": "vehicle-weapons",
+        "count": 19,
+        "path": "api/explosions/by-category/vehicle-weapons.json"
+      },
+      {
+        "name": "Environment",
+        "slug": "environment",
+        "count": 12,
+        "path": "api/explosions/by-category/environment.json"
+      },
+      {
+        "name": "Aircraft Bombs",
+        "slug": "aircraft-bombs",
+        "count": 10,
+        "path": "api/explosions/by-category/aircraft-bombs.json"
+      },
+      {
+        "name": "Thrown",
+        "slug": "thrown",
+        "count": 10,
+        "path": "api/explosions/by-category/thrown.json"
+      },
+      {
+        "name": "Vehicles",
+        "slug": "vehicles",
+        "count": 10,
+        "path": "api/explosions/by-category/vehicles.json"
+      },
+      {
+        "name": "Firearms & Ammo",
+        "slug": "firearms-ammo",
+        "count": 8,
+        "path": "api/explosions/by-category/firearms-ammo.json"
+      },
+      {
+        "name": "Mines",
+        "slug": "mines",
+        "count": 8,
+        "path": "api/explosions/by-category/mines.json"
+      },
+      {
+        "name": "Launchers",
+        "slug": "launchers",
+        "count": 7,
+        "path": "api/explosions/by-category/launchers.json"
+      },
+      {
+        "name": "Naval",
+        "slug": "naval",
+        "count": 4,
+        "path": "api/explosions/by-category/naval.json"
+      }
+    ],
     "objects": [
       {
         "name": "Roads",

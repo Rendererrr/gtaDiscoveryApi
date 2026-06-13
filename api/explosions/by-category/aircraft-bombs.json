@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "explosions",
+    "label": "Explosions",
+    "urlPattern": null,
+    "note": "Explosion types (no images). hash = joaat(tag) — the stable identifier to use in scripts. index = catalog position, NOT the in-game ADD_EXPLOSION enum integer. category groups are under by-category/."
+  },
+  "group": {
+    "name": "Aircraft Bombs",
+    "key": "Aircraft Bombs",
+    "slug": "aircraft-bombs",
+    "count": 10
+  },
+  "count": 10,
+  "items": [
+    {
+      "index": 0,
+      "id": "bomb_cluster",
+      "name": "Bomb Cluster",
+      "category": "Aircraft Bombs",
+      "tag": "EXP_TAG_BOMB_CLUSTER",
+      "hash": 2996540666
+    },
+    {
+      "index": 1,
+      "id": "bomb_cluster_secondary",
+      "name": "Bomb Cluster Secondary",
+      "category": "Aircraft Bombs",
+      "tag": "EXP_TAG_BOMB_CLUSTER_SECONDARY",
+      "hash": 2411646660
+    },
+    {
+      "index": 2,
+      "id": "bomb_gas",
+      "name": "Bomb Gas",
+      "category": "Aircraft Bombs",
+      "tag": "EXP_TAG_BOMB_GAS",
+      "hash": 3553220665
+    },
+    {
+      "index": 3,
+      "id": "bomb_incendiary",
+      "name": "Bomb Incendiary",
+      "category": "Aircraft Bombs",
+      "tag": "EXP_TAG_BOMB_INCENDIARY",
+      "hash": 1703553843
+    },
+    {
+      "index": 4,
+      "id": "bomb_standard",
+      "name": "Bomb Standard",
+      "category": "Aircraft Bombs",
+      "tag": "EXP_TAG_BOMB_STANDARD",
+      "hash": 15403557
+    },
+    {
+      "index": 5,
+      "id": "bomb_standard_wide",
+      "name": "Bomb Standard Wide",
+      "category": "Aircraft Bombs",
+      "tag": "EXP_TAG_BOMB_STANDARD_WIDE",
+      "hash": 443492528
+    },
+    {
+      "index": 6,
+      "id": "bomb_water",
+      "name": "Bomb Water",
+      "category": "Aircraft Bombs",
+      "tag": "EXP_TAG_BOMB_WATER",
+      "hash": 1813113829
+    },
+    {
+      "index": 7,
+      "id": "bomb_water_secondary",
+      "name": "Bomb Water Secondary",
+      "category": "Aircraft Bombs",
+      "tag": "EXP_TAG_BOMB_WATER_SECONDARY",
+      "hash": 2397901253
+    },
+    {
+      "index": 8,
+      "id": "mfh_military_explosive",
+      "name": "MFH Military Explosive",
+      "category": "Aircraft Bombs",
+      "tag": "EXP_TAG_MFH_MILITARY_EXPLOSIVE",
+      "hash": 2007196241
+    },
+    {
+      "index": 9,
+      "id": "underwater_bomb",
+      "name": "Underwater Bomb",
+      "category": "Aircraft Bombs",
+      "tag": "EXP_TAG_UNDERWATER_BOMB",
+      "hash": 861660847
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "explosions",
+    "label": "Explosions",
+    "urlPattern": null,
+    "note": "Explosion types (no images). hash = joaat(tag) — the stable identifier to use in scripts. index = catalog position, NOT the in-game ADD_EXPLOSION enum integer. category groups are under by-category/."
+  },
+  "group": {
+    "name": "Environment",
+    "key": "Environment",
+    "slug": "environment",
+    "count": 12
+  },
+  "count": 12,
+  "items": [
+    {
+      "index": 10,
+      "id": "barrel",
+      "name": "Barrel",
+      "category": "Environment",
+      "tag": "EXP_TAG_BARREL",
+      "hash": 1092718256
+    },
+    {
+      "index": 11,
+      "id": "dir_flame",
+      "name": "Directed Flame",
+      "category": "Environment",
+      "tag": "EXP_TAG_DIR_FLAME",
+      "hash": 1756061235
+    },
+    {
+      "index": 12,
+      "id": "dir_flame_explode",
+      "name": "Directed Flame Explode",
+      "category": "Environment",
+      "tag": "EXP_TAG_DIR_FLAME_EXPLODE",
+      "hash": 4293226484
+    },
+    {
+      "index": 13,
+      "id": "dir_gas_canister",
+      "name": "Directed Gas Canister",
+      "category": "Environment",
+      "tag": "EXP_TAG_DIR_GAS_CANISTER",
+      "hash": 3530196472
+    },
+    {
+      "index": 14,
+      "id": "dir_steam",
+      "name": "Directed Steam",
+      "category": "Environment",
+      "tag": "EXP_TAG_DIR_STEAM",
+      "hash": 2715601830
+    },
+    {
+      "index": 15,
+      "id": "dir_water_hydrant",
+      "name": "Directed Water Hydrant",
+      "category": "Environment",
+      "tag": "EXP_TAG_DIR_WATER_HYDRANT",
+      "hash": 534024042
+    },
+    {
+      "index": 16,
+      "id": "extinguisher",
+      "name": "Extinguisher",
+      "category": "Environment",
+      "tag": "EXP_TAG_EXTINGUISHER",
+      "hash": 2636366753
+    },
+    {
+      "index": 17,
+      "id": "gas_canister",
+      "name": "Gas Canister",
+      "category": "Environment",
+      "tag": "EXP_TAG_GAS_CANISTER",
+      "hash": 3376861374
+    },
+    {
+      "index": 18,
+      "id": "gas_tank",
+      "name": "Gas Tank",
+      "category": "Environment",
+      "tag": "EXP_TAG_GAS_TANK",
+      "hash": 3340218381
+    },
+    {
+      "index": 19,
+      "id": "mfh_gas_canister",
+      "name": "MFH Gas Canister",
+      "category": "Environment",
+      "tag": "EXP_TAG_MFH_GAS_CANISTER",
+      "hash": 189585728
+    },
+    {
+      "index": 20,
+      "id": "petrol_pump",
+      "name": "Petrol Pump",
+      "category": "Environment",
+      "tag": "EXP_TAG_PETROL_PUMP",
+      "hash": 4190685720
+    },
+    {
+      "index": 21,
+      "id": "propane",
+      "name": "Propane",
+      "category": "Environment",
+      "tag": "EXP_TAG_PROPANE",
+      "hash": 1844544532
+    }
+  ]
+}

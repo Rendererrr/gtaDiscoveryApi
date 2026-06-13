@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "explosions",
+    "label": "Explosions",
+    "urlPattern": null,
+    "note": "Explosion types (no images). hash = joaat(tag) — the stable identifier to use in scripts. index = catalog position, NOT the in-game ADD_EXPLOSION enum integer. category groups are under by-category/."
+  },
+  "group": {
+    "name": "Mines",
+    "key": "Mines",
+    "slug": "mines",
+    "count": 8
+  },
+  "count": 8,
+  "items": [
+    {
+      "index": 37,
+      "id": "buriedmine",
+      "name": "Buried Mine",
+      "category": "Mines",
+      "tag": "EXP_TAG_BURIEDMINE",
+      "hash": 2810574641
+    },
+    {
+      "index": 38,
+      "id": "mine_underwater",
+      "name": "Underwater Mine",
+      "category": "Mines",
+      "tag": "EXP_TAG_MINE_UNDERWATER",
+      "hash": 1718822469
+    },
+    {
+      "index": 39,
+      "id": "vehiclemine",
+      "name": "Vehicle Mine",
+      "category": "Mines",
+      "tag": "EXP_TAG_VEHICLEMINE",
+      "hash": 773270600
+    },
+    {
+      "index": 40,
+      "id": "vehiclemine_emp",
+      "name": "Vehicle Mine EMP",
+      "category": "Mines",
+      "tag": "EXP_TAG_VEHICLEMINE_EMP",
+      "hash": 2260733551
+    },
+    {
+      "index": 41,
+      "id": "vehiclemine_kinetic",
+      "name": "Vehicle Mine Kinetic",
+      "category": "Mines",
+      "tag": "EXP_TAG_VEHICLEMINE_KINETIC",
+      "hash": 3221559614
+    },
+    {
+      "index": 42,
+      "id": "vehiclemine_slick",
+      "name": "Vehicle Mine Slick",
+      "category": "Mines",
+      "tag": "EXP_TAG_VEHICLEMINE_SLICK",
+      "hash": 1484422149
+    },
+    {
+      "index": 43,
+      "id": "vehiclemine_spike",
+      "name": "Vehicle Mine Spike",
+      "category": "Mines",
+      "tag": "EXP_TAG_VEHICLEMINE_SPIKE",
+      "hash": 3867661680
+    },
+    {
+      "index": 44,
+      "id": "vehiclemine_tar",
+      "name": "Vehicle Mine Tar",
+      "category": "Mines",
+      "tag": "EXP_TAG_VEHICLEMINE_TAR",
+      "hash": 2019434853
+    }
+  ]
+}

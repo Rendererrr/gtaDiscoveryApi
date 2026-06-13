@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "explosions",
+    "label": "Explosions",
+    "urlPattern": null,
+    "note": "Explosion types (no images). hash = joaat(tag) — the stable identifier to use in scripts. index = catalog position, NOT the in-game ADD_EXPLOSION enum integer. category groups are under by-category/."
+  },
+  "group": {
+    "name": "Naval",
+    "key": "Naval",
+    "slug": "naval",
+    "count": 4
+  },
+  "count": 4,
+  "items": [
+    {
+      "index": 45,
+      "id": "submarine_big",
+      "name": "Big Submarine",
+      "category": "Naval",
+      "tag": "EXP_TAG_SUBMARINE_BIG",
+      "hash": 214341113
+    },
+    {
+      "index": 46,
+      "id": "ship_destroy",
+      "name": "Ship Destruction",
+      "category": "Naval",
+      "tag": "EXP_TAG_SHIP_DESTROY",
+      "hash": 2735531125
+    },
+    {
+      "index": 47,
+      "id": "torpedo",
+      "name": "Torpedo",
+      "category": "Naval",
+      "tag": "EXP_TAG_TORPEDO",
+      "hash": 2609962983
+    },
+    {
+      "index": 48,
+      "id": "torpedo_underwater",
+      "name": "Underwater Torpedo",
+      "category": "Naval",
+      "tag": "EXP_TAG_TORPEDO_UNDERWATER",
+      "hash": 1311434948
+    }
+  ]
+}
