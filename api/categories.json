@@ -6,6 +6,434 @@
     "note": "Every category in each flat domain. Each entry -> a by-category slice at `path`."
   },
   "domains": {
+    "objects": [
+      {
+        "name": "Roads",
+        "slug": "roads",
+        "count": 207,
+        "path": "api/objects/by-category/roads.json"
+      },
+      {
+        "name": "Food & Drink",
+        "slug": "food-drink",
+        "count": 126,
+        "path": "api/objects/by-category/food-drink.json"
+      },
+      {
+        "name": "Doors",
+        "slug": "doors",
+        "count": 120,
+        "path": "api/objects/by-category/doors.json"
+      },
+      {
+        "name": "Building Infrastructure",
+        "slug": "building-infrastructure",
+        "count": 99,
+        "path": "api/objects/by-category/building-infrastructure.json"
+      },
+      {
+        "name": "Boxes & Crates",
+        "slug": "boxes-crates",
+        "count": 95,
+        "path": "api/objects/by-category/boxes-crates.json"
+      },
+      {
+        "name": "Cunning Stunts (Stunt Course)",
+        "slug": "cunning-stunts-stunt-course",
+        "count": 91,
+        "path": "api/objects/by-category/cunning-stunts-stunt-course.json"
+      },
+      {
+        "name": "Signs",
+        "slug": "signs",
+        "count": 85,
+        "path": "api/objects/by-category/signs.json"
+      },
+      {
+        "name": "Street Furniture",
+        "slug": "street-furniture",
+        "count": 85,
+        "path": "api/objects/by-category/street-furniture.json"
+      },
+      {
+        "name": "Construction",
+        "slug": "construction",
+        "count": 84,
+        "path": "api/objects/by-category/construction.json"
+      },
+      {
+        "name": "Tools",
+        "slug": "tools",
+        "count": 84,
+        "path": "api/objects/by-category/tools.json"
+      },
+      {
+        "name": "Kitchen",
+        "slug": "kitchen",
+        "count": 78,
+        "path": "api/objects/by-category/kitchen.json"
+      },
+      {
+        "name": "Fences",
+        "slug": "fences",
+        "count": 76,
+        "path": "api/objects/by-category/fences.json"
+      },
+      {
+        "name": "Cunning Stunts (Stunt Props)",
+        "slug": "cunning-stunts-stunt-props",
+        "count": 73,
+        "path": "api/objects/by-category/cunning-stunts-stunt-props.json"
+      },
+      {
+        "name": "Misc",
+        "slug": "misc",
+        "count": 70,
+        "path": "api/objects/by-category/misc.json"
+      },
+      {
+        "name": "Gates",
+        "slug": "gates",
+        "count": 69,
+        "path": "api/objects/by-category/gates.json"
+      },
+      {
+        "name": "Junk",
+        "slug": "junk",
+        "count": 64,
+        "path": "api/objects/by-category/junk.json"
+      },
+      {
+        "name": "Nature",
+        "slug": "nature",
+        "count": 62,
+        "path": "api/objects/by-category/nature.json"
+      },
+      {
+        "name": "Chairs",
+        "slug": "chairs",
+        "count": 61,
+        "path": "api/objects/by-category/chairs.json"
+      },
+      {
+        "name": "Sports Equipment",
+        "slug": "sports-equipment",
+        "count": 61,
+        "path": "api/objects/by-category/sports-equipment.json"
+      },
+      {
+        "name": "Shopping",
+        "slug": "shopping",
+        "count": 57,
+        "path": "api/objects/by-category/shopping.json"
+      },
+      {
+        "name": "Garden",
+        "slug": "garden",
+        "count": 54,
+        "path": "api/objects/by-category/garden.json"
+      },
+      {
+        "name": "Office",
+        "slug": "office",
+        "count": 54,
+        "path": "api/objects/by-category/office.json"
+      },
+      {
+        "name": "Marine",
+        "slug": "marine",
+        "count": 53,
+        "path": "api/objects/by-category/marine.json"
+      },
+      {
+        "name": "Aviation",
+        "slug": "aviation",
+        "count": 51,
+        "path": "api/objects/by-category/aviation.json"
+      },
+      {
+        "name": "TV & Audio",
+        "slug": "tv-audio",
+        "count": 51,
+        "path": "api/objects/by-category/tv-audio.json"
+      },
+      {
+        "name": "Industrial",
+        "slug": "industrial",
+        "count": 50,
+        "path": "api/objects/by-category/industrial.json"
+      },
+      {
+        "name": "Bins",
+        "slug": "bins",
+        "count": 42,
+        "path": "api/objects/by-category/bins.json"
+      },
+      {
+        "name": "Bars & Clubs",
+        "slug": "bars-clubs",
+        "count": 41,
+        "path": "api/objects/by-category/bars-clubs.json"
+      },
+      {
+        "name": "Cunning Stunts (Race Track)",
+        "slug": "cunning-stunts-race-track",
+        "count": 41,
+        "path": "api/objects/by-category/cunning-stunts-race-track.json"
+      },
+      {
+        "name": "Weaponry",
+        "slug": "weaponry",
+        "count": 41,
+        "path": "api/objects/by-category/weaponry.json"
+      },
+      {
+        "name": "Bags",
+        "slug": "bags",
+        "count": 40,
+        "path": "api/objects/by-category/bags.json"
+      },
+      {
+        "name": "Cars",
+        "slug": "cars",
+        "count": 38,
+        "path": "api/objects/by-category/cars.json"
+      },
+      {
+        "name": "Clothing",
+        "slug": "clothing",
+        "count": 38,
+        "path": "api/objects/by-category/clothing.json"
+      },
+      {
+        "name": "Cunning Stunts (Stunt Track)",
+        "slug": "cunning-stunts-stunt-track",
+        "count": 38,
+        "path": "api/objects/by-category/cunning-stunts-stunt-track.json"
+      },
+      {
+        "name": "Beach",
+        "slug": "beach",
+        "count": 34,
+        "path": "api/objects/by-category/beach.json"
+      },
+      {
+        "name": "Tables",
+        "slug": "tables",
+        "count": 33,
+        "path": "api/objects/by-category/tables.json"
+      },
+      {
+        "name": "Cunning Stunts (Stunt Tubes)",
+        "slug": "cunning-stunts-stunt-tubes",
+        "count": 31,
+        "path": "api/objects/by-category/cunning-stunts-stunt-tubes.json"
+      },
+      {
+        "name": "Icons",
+        "slug": "icons",
+        "count": 31,
+        "path": "api/objects/by-category/icons.json"
+      },
+      {
+        "name": "Agricultural",
+        "slug": "agricultural",
+        "count": 30,
+        "path": "api/objects/by-category/agricultural.json"
+      },
+      {
+        "name": "Papers",
+        "slug": "papers",
+        "count": 27,
+        "path": "api/objects/by-category/papers.json"
+      },
+      {
+        "name": "Personal Effects",
+        "slug": "personal-effects",
+        "count": 27,
+        "path": "api/objects/by-category/personal-effects.json"
+      },
+      {
+        "name": "Freight",
+        "slug": "freight",
+        "count": 25,
+        "path": "api/objects/by-category/freight.json"
+      },
+      {
+        "name": "Money",
+        "slug": "money",
+        "count": 24,
+        "path": "api/objects/by-category/money.json"
+      },
+      {
+        "name": "Computers",
+        "slug": "computers",
+        "count": 23,
+        "path": "api/objects/by-category/computers.json"
+      },
+      {
+        "name": "Buildings",
+        "slug": "buildings",
+        "count": 22,
+        "path": "api/objects/by-category/buildings.json"
+      },
+      {
+        "name": "Leisure",
+        "slug": "leisure",
+        "count": 21,
+        "path": "api/objects/by-category/leisure.json"
+      },
+      {
+        "name": "Railway",
+        "slug": "railway",
+        "count": 21,
+        "path": "api/objects/by-category/railway.json"
+      },
+      {
+        "name": "Bathroom",
+        "slug": "bathroom",
+        "count": 20,
+        "path": "api/objects/by-category/bathroom.json"
+      },
+      {
+        "name": "Firing Range",
+        "slug": "firing-range",
+        "count": 19,
+        "path": "api/objects/by-category/firing-range.json"
+      },
+      {
+        "name": "Glass",
+        "slug": "glass",
+        "count": 19,
+        "path": "api/objects/by-category/glass.json"
+      },
+      {
+        "name": "Military",
+        "slug": "military",
+        "count": 19,
+        "path": "api/objects/by-category/military.json"
+      },
+      {
+        "name": "Jewellery Store",
+        "slug": "jewellery-store",
+        "count": 18,
+        "path": "api/objects/by-category/jewellery-store.json"
+      },
+      {
+        "name": "Film Studio",
+        "slug": "film-studio",
+        "count": 17,
+        "path": "api/objects/by-category/film-studio.json"
+      },
+      {
+        "name": "Ramps",
+        "slug": "ramps",
+        "count": 17,
+        "path": "api/objects/by-category/ramps.json"
+      },
+      {
+        "name": "Drugs",
+        "slug": "drugs",
+        "count": 16,
+        "path": "api/objects/by-category/drugs.json"
+      },
+      {
+        "name": "Garage",
+        "slug": "garage",
+        "count": 16,
+        "path": "api/objects/by-category/garage.json"
+      },
+      {
+        "name": "Paint",
+        "slug": "paint",
+        "count": 16,
+        "path": "api/objects/by-category/paint.json"
+      },
+      {
+        "name": "Ropes & Hooks",
+        "slug": "ropes-hooks",
+        "count": 16,
+        "path": "api/objects/by-category/ropes-hooks.json"
+      },
+      {
+        "name": "Heist Photos",
+        "slug": "heist-photos",
+        "count": 15,
+        "path": "api/objects/by-category/heist-photos.json"
+      },
+      {
+        "name": "Household",
+        "slug": "household",
+        "count": 15,
+        "path": "api/objects/by-category/household.json"
+      },
+      {
+        "name": "Pool Table",
+        "slug": "pool-table",
+        "count": 15,
+        "path": "api/objects/by-category/pool-table.json"
+      },
+      {
+        "name": "Police",
+        "slug": "police",
+        "count": 14,
+        "path": "api/objects/by-category/police.json"
+      },
+      {
+        "name": "Cunning Stunts (Course Decor)",
+        "slug": "cunning-stunts-course-decor",
+        "count": 12,
+        "path": "api/objects/by-category/cunning-stunts-course-decor.json"
+      },
+      {
+        "name": "Golf Course",
+        "slug": "golf-course",
+        "count": 12,
+        "path": "api/objects/by-category/golf-course.json"
+      },
+      {
+        "name": "Trolleys",
+        "slug": "trolleys",
+        "count": 11,
+        "path": "api/objects/by-category/trolleys.json"
+      },
+      {
+        "name": "Graveyard",
+        "slug": "graveyard",
+        "count": 10,
+        "path": "api/objects/by-category/graveyard.json"
+      },
+      {
+        "name": "Clocks",
+        "slug": "clocks",
+        "count": 8,
+        "path": "api/objects/by-category/clocks.json"
+      },
+      {
+        "name": "Fairground",
+        "slug": "fairground",
+        "count": 8,
+        "path": "api/objects/by-category/fairground.json"
+      },
+      {
+        "name": "Mobile Phones",
+        "slug": "mobile-phones",
+        "count": 7,
+        "path": "api/objects/by-category/mobile-phones.json"
+      },
+      {
+        "name": "Cunning Stunts (C4)",
+        "slug": "cunning-stunts-c4",
+        "count": 1,
+        "path": "api/objects/by-category/cunning-stunts-c4.json"
+      },
+      {
+        "name": "Drink",
+        "slug": "drink",
+        "count": 1,
+        "path": "api/objects/by-category/drink.json"
+      }
+    ],
     "peds": [
       {
         "name": "Story",

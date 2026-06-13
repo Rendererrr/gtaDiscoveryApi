@@ -22,6 +22,7 @@ There are two domain shapes:
 | peds     | Ped models (848)                  | [`api/peds/index.json`](./api/peds/index.json) |
 | vehicles | Vehicle models (861)              | [`api/vehicles/index.json`](./api/vehicles/index.json) |
 | weapons  | Weapon icons (104)                | [`api/weapons/index.json`](./api/weapons/index.json) |
+| objects  | Object/prop models (21,634; 3,050 categorized) | [`api/objects/index.json`](./api/objects/index.json) |
 
 Read the discovery root to enumerate what's available:
 
@@ -348,9 +349,10 @@ import discovery from 'https://rendererrr.github.io/gtaDiscoveryApi/client/index
 await discovery.byHash(3078201489);        // { domain: 'vehicles', id: 'adder', name: 'Adder' }
 ```
 
-The reverse map covers everything with a `hash` (peds 848, vehicles 861, weapons 103 — only the
-one weapon with an unknown codename is omitted). Going the other way (name → hash) is already in
-the catalog: every item carries its own `hash`.
+The reverse map covers everything with a `hash` (peds 848, vehicles 861, weapons 103, objects
+21,634 — only the one weapon with an unknown codename is omitted; the combined `api/hashes.json`
+is ~23.4k entries). Going the other way (name → hash) is already in the catalog: every item
+carries its own `hash`.
 
 ### List by category or DLC (static endpoints)
 
@@ -423,6 +425,58 @@ reads as a single GTA content timeline across cars, weapons and peds (patch-day 
 
 ---
 
+## Objects domain
+
+A flat catalog of every GTA **object/prop model** (`prop_…`, `p_…`, map props, etc.). Two sources
+joined by model name:
+
+- **All objects** — 21,634 model names from
+  [DurtyFree `ObjectList.ini`](https://github.com/DurtyFree/gta-v-data-dumps/blob/master/ObjectList.ini).
+- **Curated objects** — 3,050 of them carry a friendly `name` and a `category` (71 categories like
+  *Bags*, *Beach*, *Doors*, *Weaponry*), parsed from a hand-maintained list. These have
+  `known: true`; the rest have `name === id`, `category: null`, `known: false`.
+
+Objects have **no images** (so no `url`). `hash = joaat(id)`, like every other domain.
+
+```jsonc
+// GET api/objects/index.json   (compact — ~21.6k items; meta + categories[] + items[])
+{ "count": 21634, "knownCount": 3050,
+  "items": [ { "id": "prop_beachball_01", "name": "Beach Ball", "hash": 1574107526,
+               "category": "Beach", "known": true },
+             { "id": "apa_ch2_04_armco02", "name": "apa_ch2_04_armco02", "hash": 2291838436,
+               "category": null, "known": false } ] }
+```
+
+**List categories / list by category.** Same static layout as the other domains — covering the
+71 curated categories (unknown objects aren't grouped; reach them via `index.json` or search):
+
+```
+api/objects/by-category/index.json     # { groups: [{ name, slug, count, path }] }  — list all categories
+api/objects/by-category/<slug>.json    # { group, count, items[] }   e.g. .../by-category/weaponry.json
+```
+
+**Reverse hash lookup.** `api/objects/hashes.json` maps `joaat -> { id, name, category }` for all
+21,634 objects, and they're also folded into the combined `api/hashes.json` (domain-tagged). So a
+prop hash resolves either per-domain or globally:
+
+```js
+import objects from 'https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/client/objects.js';
+await objects.nameForHash(1574107526);   // 'Beach Ball'   (loads the compact hashes.json, not the 2.3 MB index)
+await objects.byHash(1574107526);        // { id:'prop_beachball_01', name:'Beach Ball', category:'Beach', ... }
+await objects.byId('prop_beachball_01'); // same item, by model name
+await objects.byCategory('Weaponry');    // curated objects in that category
+await objects.getCategories();           // the 71 categories
+
+import discovery from 'https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/client/index.js';
+await discovery.byHash(1574107526);      // { domain:'objects', id:'prop_beachball_01', name:'Beach Ball' }
+```
+
+`objects` is the same flat client as the others, so `search()`, `getItems()` etc. all work; it's
+left out of the default `discovery.search()` domains because its index is large — opt in with
+`discovery.search('door', { domains: ['objects'] })`.
+
+---
+
 ## Repository layout
 
 ```
@@ -440,17 +494,21 @@ src/
                                #   vehicles.handling.json (DurtyFree performance)
                                #   vehicles.dlc.json / peds.dlc.json (DurtyFree: model -> DLC code)
                                #   dlc.labels.json (DLC code -> { name, releaseDate }; shared)
+                               #   objects.all.json (DurtyFree ObjectList.ini: all object names)
+                               #   objects.known.json (curated objects: name + category, 71 cats)
   lib/fs.mjs                   # shared fs helpers (folder-derived domains)
   lib/joaat.mjs                # GTA joaat hash
-  lib/catalog.mjs              # shared writer for flat domains
-  build/index.mjs              # orchestrator: runs each domain, writes api/index.json
+  lib/catalog.mjs              # shared writer for flat domains (+ slugify, groupings)
+  build/index.mjs              # orchestrator: runs each domain, writes api/index.json + global lists
   build/clothing.mjs           # clothing builder (CATEGORY_MAP lives here)
   build/peds.mjs               # peds builder
   build/vehicles.mjs           # vehicles builder
   build/weapons.mjs            # weapons builder (matches icons to src/data/weapons.json)
+  build/objects.mjs            # objects builder (joins ObjectList.ini + curated categories)
 client/
   index.js                     # discovery + namespaced domain helpers
   clothing.js                  # clothing helpers
+  objects.js                   # objects helpers (byHash/nameForHash/byCategory)
   _flat.js                     # shared flat-domain client factory
   peds.js  vehicles.js  weapons.js
 ```
@@ -534,3 +592,4 @@ Existing domains and their URLs are unaffected.
 - Ped & vehicle images sourced from the [FiveM docs image archive](https://docs.fivem.net/).
 - Weapon stats from [vespura.com/fivem/weapons](https://vespura.com/fivem/weapons/) (snapshot in `src/data/weapons.stats.json`), with newer DLC guns supplemented from [gtabase.com](https://www.gtabase.com/grand-theft-auto-v/weapons/) (`src/data/weapons.stats.extra.json`). Weapon DLC, components & tints from [DurtyFree/gta-v-data-dumps](https://github.com/DurtyFree/gta-v-data-dumps) (snapshot in `src/data/weapons.components.json`; DLC code→name map in `src/data/dlc.labels.json`).
 - Vehicle performance stats from [DurtyFree/gta-v-data-dumps](https://github.com/DurtyFree/gta-v-data-dumps) (snapshot in `src/data/vehicles.handling.json`). Vehicle DLC tags from the same dump (`src/data/vehicles.dlc.json`); DLC names & launch dates in `src/data/dlc.labels.json` (cross-checked against [gtacars.net](https://gtacars.net/gta5)).
+- Object/prop model list from [DurtyFree `ObjectList.ini`](https://github.com/DurtyFree/gta-v-data-dumps/blob/master/ObjectList.ini) (`src/data/objects.all.json`); curated object display names + categories in `src/data/objects.known.json`.

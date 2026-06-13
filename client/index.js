@@ -10,6 +10,7 @@ import * as clothing from './clothing.js';
 import peds from './peds.js';
 import vehicles from './vehicles.js';
 import weapons from './weapons.js';
+import objects from './objects.js';
 
 // Self-locating: resolve the API root relative to this module's own URL, so it
 // works wherever it's served from (jsDelivr, GitHub Pages, or a custom host).
@@ -23,15 +24,15 @@ export async function getDomains() {
 }
 
 /**
- * Search the flat domains (peds, vehicles, weapons) at once.
- * Returns { peds, vehicles, weapons } each an array of matching items.
- * Pass { domains: ['vehicles'] } to limit which are searched.
+ * Search the flat domains at once. Returns { <domain>: item[] } per searched domain.
+ * Defaults to peds/vehicles/weapons; `objects` is opt-in (it loads a ~2.3 MB index)
+ * via e.g. search('door', { domains: ['objects'] }).
  *
  *   const { vehicles } = await search('adder');
  *   const img = vehicles[0]?.url;
  */
 export async function search(query, { limit = 25, domains = ['peds', 'vehicles', 'weapons'] } = {}) {
-  const clients = { peds, vehicles, weapons };
+  const clients = { peds, vehicles, weapons, objects };
   const out = {};
   await Promise.all(domains.map(async (d) => { out[d] = await clients[d].search(query, { limit }); }));
   return out;
@@ -54,6 +55,6 @@ export async function byHash(hash) {
   return (await getHashes())[String(hash)] ?? null;
 }
 
-export { clothing, peds, vehicles, weapons };
+export { clothing, peds, vehicles, weapons, objects };
 
-export default { getDomains, search, getHashes, byHash, clothing, peds, vehicles, weapons };
+export default { getDomains, search, getHashes, byHash, clothing, peds, vehicles, weapons, objects };

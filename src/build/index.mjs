@@ -17,12 +17,14 @@ import * as clothing from './clothing.mjs';
 import * as peds from './peds.mjs';
 import * as vehicles from './vehicles.mjs';
 import * as weapons from './weapons.mjs';
+import * as objects from './objects.mjs';
 
 const DOMAINS = [
   clothing,
   peds,
   vehicles,
   weapons,
+  objects,
 ];
 
 const ROOT = join(import.meta.dirname, '..', '..');
