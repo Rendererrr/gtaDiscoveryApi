@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "weapons",
+    "label": "Weapons",
+    "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
+    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
+  },
+  "group": {
+    "id": "mplowrider2",
+    "name": "Lowriders: Custom Classics",
+    "releaseDate": "2016-03-15",
+    "key": "mplowrider2",
+    "slug": "mplowrider2",
+    "count": 2
+  },
+  "count": 2,
+  "items": [
+    {
+      "id": "compactrifle",
+      "name": "Compact Rifle",
+      "codename": "weapon_compactrifle",
+      "hash": 1649403952,
+      "category": "Rifle",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Compact-rifle-icon.png",
+      "dlc": {
+        "id": "mplowrider2",
+        "name": "Lowriders: Custom Classics",
+        "releaseDate": "2016-03-15"
+      },
+      "stats": {
+        "damage": 36,
+        "fireRate": 60,
+        "accuracy": 35,
+        "range": 45,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_COMPACTRIFLE_CLIP_01",
+          "label": "Default Clip",
+          "hash": 1363085923,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_COMPACTRIFLE_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 1509923832,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_COMPACTRIFLE_CLIP_03",
+          "label": "Drum Magazine",
+          "hash": 3322377230,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "dbshotgun",
+      "name": "Double Barrel Shotgun",
+      "codename": "weapon_dbshotgun",
+      "hash": 4019527611,
+      "category": "Shotgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Double-barrel-shotgun-icon.png",
+      "dlc": {
+        "id": "mplowrider2",
+        "name": "Lowriders: Custom Classics",
+        "releaseDate": "2016-03-15"
+      },
+      "stats": {
+        "damage": 98,
+        "fireRate": 25,
+        "accuracy": 15,
+        "range": 10,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_DBSHOTGUN_CLIP_01",
+          "label": "Default Clip",
+          "hash": 703231006,
+          "default": true
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,611 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "id": "mpsmuggler",
+    "name": "Smuggler's Run",
+    "releaseDate": "2017-08-29",
+    "key": "mpsmuggler",
+    "slug": "mpsmuggler",
+    "count": 19
+  },
+  "count": 19,
+  "items": [
+    {
+      "id": "rapidgt3",
+      "name": "Rapid GT Classic",
+      "hash": 2049897956,
+      "category": "Sports Classic",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/rapidgt3.webp",
+      "dlc": {
+        "id": "mpsmuggler",
+        "name": "Smuggler's Run",
+        "releaseDate": "2017-08-29"
+      },
+      "stats": {
+        "handlingId": "RAPIDGT3",
+        "mass": 1570,
+        "topSpeed": 149.5,
+        "driveForce": 0.3,
+        "brakeForce": 0.5,
+        "handBrakeForce": 0.72,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.6,
+          "min": 2.35,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2,
+        "steeringLock": 35,
+        "monetaryValue": 100000
+      }
+    },
+    {
+      "id": "retinue",
+      "name": "Retinue",
+      "hash": 1841130506,
+      "category": "Sports Classic",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/retinue.webp",
+      "dlc": {
+        "id": "mpsmuggler",
+        "name": "Smuggler's Run",
+        "releaseDate": "2017-08-29"
+      },
+      "stats": {
+        "handlingId": "RETINUE",
+        "mass": 900,
+        "topSpeed": 140,
+        "driveForce": 0.228,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.35,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.05,
+          "min": 1.85,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "cyclone",
+      "name": "Cyclone",
+      "hash": 1392481335,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/cyclone.webp",
+      "dlc": {
+        "id": "mpsmuggler",
+        "name": "Smuggler's Run",
+        "releaseDate": "2017-08-29"
+      },
+      "stats": {
+        "handlingId": "CYCLONE",
+        "mass": 1800,
+        "topSpeed": 158,
+        "driveForce": 0.273,
+        "brakeForce": 1.2,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.25,
+          "min": 2.17,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.25,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "vigilante",
+      "name": "Vigilante",
+      "hash": 3052358707,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/vigilante.webp",
+      "dlc": {
+        "id": "mpsmuggler",
+        "name": "Smuggler's Run",
+        "releaseDate": "2017-08-29"
+      },
+      "stats": {
+        "handlingId": "VIGILANTE",
+        "mass": 7500,
+        "topSpeed": 160.02,
+        "driveForce": 0.375,
+        "brakeForce": 1.02,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.77,
+          "min": 2.69,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.25,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "visione",
+      "name": "Visione",
+      "hash": 3296789504,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/visione.webp",
+      "dlc": {
+        "id": "mpsmuggler",
+        "name": "Smuggler's Run",
+        "releaseDate": "2017-08-29"
+      },
+      "stats": {
+        "handlingId": "VISIONE",
+        "mass": 1400,
+        "topSpeed": 160,
+        "driveForce": 0.355,
+        "brakeForce": 1.02,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.75,
+          "min": 2.65,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "havok",
+      "name": "Havok",
+      "hash": 2310691317,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/havok.webp",
+      "dlc": {
+        "id": "mpsmuggler",
+        "name": "Smuggler's Run",
+        "releaseDate": "2017-08-29"
+      },
+      "stats": {
+        "handlingId": "HAVOK",
+        "mass": 1000,
+        "topSpeed": 160,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.2,
+          "lateral": 12
+        },
+        "suspensionForce": 3,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "hunter",
+      "name": "FH-1 Hunter",
+      "hash": 4252008158,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/hunter.webp",
+      "dlc": {
+        "id": "mpsmuggler",
+        "name": "Smuggler's Run",
+        "releaseDate": "2017-08-29"
+      },
+      "stats": {
+        "handlingId": "HUNTER",
+        "mass": 6000,
+        "topSpeed": 160,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.2,
+          "lateral": 12
+        },
+        "suspensionForce": 1,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "alphaz1",
+      "name": "Alpha-Z1",
+      "hash": 2771347558,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/alphaz1.webp",
+      "dlc": {
+        "id": "mpsmuggler",
+        "name": "Smuggler's Run",
+        "releaseDate": "2017-08-29"
+      },
+      "stats": {
+        "handlingId": "ALPHAZ1",
+        "mass": 450,
+        "topSpeed": 184.4,
+        "driveForce": 0.001,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 1.15,
+          "min": 0.8,
+          "lateral": 22
+        },
+        "suspensionForce": 4.5,
+        "steeringLock": 55,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "bombushka",
+      "name": "RM-10 Bombushka",
+      "hash": 4262088844,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/bombushka.webp",
+      "dlc": {
+        "id": "mpsmuggler",
+        "name": "Smuggler's Run",
+        "releaseDate": "2017-08-29"
+      },
+      "stats": {
+        "handlingId": "BOMBUSHKA",
+        "mass": 30100,
+        "topSpeed": 281.5,
+        "driveForce": 0.1,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.01,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0.85,
+          "min": 0.8,
+          "lateral": 12
+        },
+        "suspensionForce": 2.5,
+        "steeringLock": 40,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "howard",
+      "name": "Howard NX-25",
+      "hash": 3287439187,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/howard.webp",
+      "dlc": {
+        "id": "mpsmuggler",
+        "name": "Smuggler's Run",
+        "releaseDate": "2017-08-29"
+      },
+      "stats": {
+        "handlingId": "HOWARD",
+        "mass": 450,
+        "topSpeed": 184.4,
+        "driveForce": 0.001,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 1.15,
+          "min": 0.8,
+          "lateral": 22
+        },
+        "suspensionForce": 4.5,
+        "steeringLock": 55,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "microlight",
+      "name": "Ultralight",
+      "hash": 2531412055,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/microlight.webp",
+      "dlc": {
+        "id": "mpsmuggler",
+        "name": "Smuggler's Run",
+        "releaseDate": "2017-08-29"
+      },
+      "stats": {
+        "handlingId": "MICROLIGHT",
+        "mass": 250,
+        "topSpeed": 78.6,
+        "driveForce": 0.003,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.8,
+          "lateral": 12
+        },
+        "suspensionForce": 1.5,
+        "steeringLock": 20,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "mogul",
+      "name": "Mogul",
+      "hash": 3545667823,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/mogul.webp",
+      "dlc": {
+        "id": "mpsmuggler",
+        "name": "Smuggler's Run",
+        "releaseDate": "2017-08-29"
+      },
+      "stats": {
+        "handlingId": "MOGUL",
+        "mass": 5000,
+        "topSpeed": 276.5,
+        "driveForce": 0.01,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.01,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.8,
+          "lateral": 12
+        },
+        "suspensionForce": 8.5,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "molotok",
+      "name": "V-65 Molotok",
+      "hash": 1565978651,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/molotok.webp",
+      "dlc": {
+        "id": "mpsmuggler",
+        "name": "Smuggler's Run",
+        "releaseDate": "2017-08-29"
+      },
+      "stats": {
+        "handlingId": "MOLOTOK",
+        "mass": 3200,
+        "topSpeed": 328.6,
+        "driveForce": 0.001,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.8,
+          "lateral": 12
+        },
+        "suspensionForce": 6.5,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "nokota",
+      "name": "P-45 Nokota",
+      "hash": 1036591958,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/nokota.webp",
+      "dlc": {
+        "id": "mpsmuggler",
+        "name": "Smuggler's Run",
+        "releaseDate": "2017-08-29"
+      },
+      "stats": {
+        "handlingId": "NOKOTA",
+        "mass": 3200,
+        "topSpeed": 328.6,
+        "driveForce": 0.001,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.8,
+          "lateral": 12
+        },
+        "suspensionForce": 6.5,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "pyro",
+      "name": "Pyro",
+      "hash": 2908775872,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/pyro.webp",
+      "dlc": {
+        "id": "mpsmuggler",
+        "name": "Smuggler's Run",
+        "releaseDate": "2017-08-29"
+      },
+      "stats": {
+        "handlingId": "PYRO",
+        "mass": 4000,
+        "topSpeed": 328.6,
+        "driveForce": 0.001,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.8,
+          "lateral": 12
+        },
+        "suspensionForce": 6.5,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "rogue",
+      "name": "Rogue",
+      "hash": 3319621991,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/rogue.webp",
+      "dlc": {
+        "id": "mpsmuggler",
+        "name": "Smuggler's Run",
+        "releaseDate": "2017-08-29"
+      },
+      "stats": {
+        "handlingId": "ROGUE",
+        "mass": 4200,
+        "topSpeed": 328.6,
+        "driveForce": 0.001,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.8,
+          "lateral": 12
+        },
+        "suspensionForce": 6.5,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "seabreeze",
+      "name": "Seabreeze",
+      "hash": 3902291871,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/seabreeze.webp",
+      "dlc": {
+        "id": "mpsmuggler",
+        "name": "Smuggler's Run",
+        "releaseDate": "2017-08-29"
+      },
+      "stats": {
+        "handlingId": "SEABREEZE",
+        "mass": 3000,
+        "topSpeed": 328.6,
+        "driveForce": 0.001,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.8,
+          "lateral": 12
+        },
+        "suspensionForce": 6.5,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "starling",
+      "name": "LF-22 Starling",
+      "hash": 2594093022,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/starling.webp",
+      "dlc": {
+        "id": "mpsmuggler",
+        "name": "Smuggler's Run",
+        "releaseDate": "2017-08-29"
+      },
+      "stats": {
+        "handlingId": "STARLING",
+        "mass": 2000,
+        "topSpeed": 284.4,
+        "driveForce": 0.001,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 1.15,
+          "min": 0.8,
+          "lateral": 22
+        },
+        "suspensionForce": 4.5,
+        "steeringLock": 55,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "tula",
+      "name": "Tula",
+      "hash": 1043222410,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tula.webp",
+      "dlc": {
+        "id": "mpsmuggler",
+        "name": "Smuggler's Run",
+        "releaseDate": "2017-08-29"
+      },
+      "stats": {
+        "handlingId": "TULA",
+        "mass": 2000,
+        "topSpeed": 250,
+        "driveForce": 0.001,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.8,
+          "lateral": 12
+        },
+        "suspensionForce": 6.5,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    }
+  ]
+}

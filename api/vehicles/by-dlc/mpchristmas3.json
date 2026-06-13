@@ -1,0 +1,549 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "id": "mpchristmas3",
+    "name": "Los Santos Drug Wars",
+    "releaseDate": "2022-12-13",
+    "key": "mpchristmas3",
+    "slug": "mpchristmas3",
+    "count": 17
+  },
+  "count": 17,
+  "items": [
+    {
+      "id": "issi8",
+      "name": "Issi Rally",
+      "hash": 1550581940,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/issi8.webp",
+      "dlc": {
+        "id": "mpchristmas3",
+        "name": "Los Santos Drug Wars",
+        "releaseDate": "2022-12-13"
+      },
+      "stats": {
+        "handlingId": "ISSI8",
+        "mass": 1580,
+        "topSpeed": 149.45,
+        "driveForce": 0.322,
+        "brakeForce": 0.548,
+        "handBrakeForce": 0.5,
+        "gears": 7,
+        "driveBiasFront": 0.48,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.93,
+          "lateral": 21.75
+        },
+        "suspensionForce": 2.135,
+        "steeringLock": 38.75,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "broadway",
+      "name": "Broadway",
+      "hash": 2361724968,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/broadway.webp",
+      "dlc": {
+        "id": "mpchristmas3",
+        "name": "Los Santos Drug Wars",
+        "releaseDate": "2022-12-13"
+      },
+      "stats": {
+        "handlingId": "BROADWAY",
+        "mass": 1570,
+        "topSpeed": 126,
+        "driveForce": 0.195,
+        "brakeForce": 0.32,
+        "handBrakeForce": 0.4,
+        "gears": 3,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2,
+          "min": 1.78,
+          "lateral": 23
+        },
+        "suspensionForce": 1.2,
+        "steeringLock": 37.65,
+        "monetaryValue": 70000
+      }
+    },
+    {
+      "id": "eudora",
+      "name": "Eudora",
+      "hash": 3045179290,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/eudora.webp",
+      "dlc": {
+        "id": "mpchristmas3",
+        "name": "Los Santos Drug Wars",
+        "releaseDate": "2022-12-13"
+      },
+      "stats": {
+        "handlingId": "EUDORA",
+        "mass": 2115,
+        "topSpeed": 138,
+        "driveForce": 0.195,
+        "brakeForce": 0.265,
+        "handBrakeForce": 0.3,
+        "gears": 3,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.89,
+          "min": 1.48,
+          "lateral": 17.93
+        },
+        "suspensionForce": 1.38,
+        "steeringLock": 36.5,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "tahoma",
+      "name": "Tahoma Coupe",
+      "hash": 3833117047,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tahoma.webp",
+      "dlc": {
+        "id": "mpchristmas3",
+        "name": "Los Santos Drug Wars",
+        "releaseDate": "2022-12-13"
+      },
+      "stats": {
+        "handlingId": "TAHOMA",
+        "mass": 1380,
+        "topSpeed": 152,
+        "driveForce": 0.298,
+        "brakeForce": 0.625,
+        "handBrakeForce": 0.45,
+        "gears": 3,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.31,
+          "min": 2.08,
+          "lateral": 22
+        },
+        "suspensionForce": 1.9,
+        "steeringLock": 39.5,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "tulip2",
+      "name": "Tulip M-100",
+      "hash": 268758436,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tulip2.webp",
+      "dlc": {
+        "id": "mpchristmas3",
+        "name": "Los Santos Drug Wars",
+        "releaseDate": "2022-12-13"
+      },
+      "stats": {
+        "handlingId": "TULIP2",
+        "mass": 1400,
+        "topSpeed": 152,
+        "driveForce": 0.315,
+        "brakeForce": 0.68,
+        "handBrakeForce": 0.45,
+        "gears": 3,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.33,
+          "min": 2.1,
+          "lateral": 21.8
+        },
+        "suspensionForce": 2.05,
+        "steeringLock": 39.75,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "everon2",
+      "name": "Hotring Everon",
+      "hash": 4163619118,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/everon2.webp",
+      "dlc": {
+        "id": "mpchristmas3",
+        "name": "Los Santos Drug Wars",
+        "releaseDate": "2022-12-13"
+      },
+      "stats": {
+        "handlingId": "Everon2",
+        "mass": 1565,
+        "topSpeed": 161.45,
+        "driveForce": 0.34,
+        "brakeForce": 0.685,
+        "handBrakeForce": 0.62,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.54,
+          "min": 2.37,
+          "lateral": 22.75
+        },
+        "suspensionForce": 2.15,
+        "steeringLock": 34.8,
+        "monetaryValue": 100000
+      }
+    },
+    {
+      "id": "panthere",
+      "name": "Panthere",
+      "hash": 2100457220,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/panthere.webp",
+      "dlc": {
+        "id": "mpchristmas3",
+        "name": "Los Santos Drug Wars",
+        "releaseDate": "2022-12-13"
+      },
+      "stats": {
+        "handlingId": "PANTHERE",
+        "mass": 1100,
+        "topSpeed": 157.85,
+        "driveForce": 0.346,
+        "brakeForce": 0.84,
+        "handBrakeForce": 0.573,
+        "gears": 7,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.58,
+          "min": 2.41,
+          "lateral": 21.7
+        },
+        "suspensionForce": 2.395,
+        "steeringLock": 40,
+        "monetaryValue": 80000
+      }
+    },
+    {
+      "id": "r300",
+      "name": "300R",
+      "hash": 1076201208,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/r300.webp",
+      "dlc": {
+        "id": "mpchristmas3",
+        "name": "Los Santos Drug Wars",
+        "releaseDate": "2022-12-13"
+      },
+      "stats": {
+        "handlingId": "R300",
+        "mass": 1590,
+        "topSpeed": 151.65,
+        "driveForce": 0.329,
+        "brakeForce": 0.78,
+        "handBrakeForce": 0.48,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.5,
+          "min": 2.29,
+          "lateral": 22.35
+        },
+        "suspensionForce": 2.285,
+        "steeringLock": 42.75,
+        "monetaryValue": 80000
+      }
+    },
+    {
+      "id": "entity3",
+      "name": "Entity MT",
+      "hash": 1748565021,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/entity3.webp",
+      "dlc": {
+        "id": "mpchristmas3",
+        "name": "Los Santos Drug Wars",
+        "releaseDate": "2022-12-13"
+      },
+      "stats": {
+        "handlingId": "ENTITY3",
+        "mass": 1420,
+        "topSpeed": 172,
+        "driveForce": 0.354,
+        "brakeForce": 1,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.78,
+          "min": 2.59,
+          "lateral": 22.6
+        },
+        "suspensionForce": 1.45,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "virtue",
+      "name": "Virtue",
+      "hash": 669204833,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/virtue.webp",
+      "dlc": {
+        "id": "mpchristmas3",
+        "name": "Los Santos Drug Wars",
+        "releaseDate": "2022-12-13"
+      },
+      "stats": {
+        "handlingId": "VIRTUE",
+        "mass": 1680,
+        "topSpeed": 160.65,
+        "driveForce": 0.342,
+        "brakeForce": 1.28,
+        "handBrakeForce": 0.6,
+        "gears": 1,
+        "driveBiasFront": 0.25,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.59,
+          "min": 2.41,
+          "lateral": 23.25
+        },
+        "suspensionForce": 2.25,
+        "steeringLock": 41.2,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "manchez3",
+      "name": "Manchez Scout C",
+      "hash": 1384502824,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/manchez3.webp",
+      "dlc": {
+        "id": "mpchristmas3",
+        "name": "Los Santos Drug Wars",
+        "releaseDate": "2022-12-13"
+      },
+      "stats": {
+        "handlingId": "MANCHEZ3",
+        "mass": 175,
+        "topSpeed": 130,
+        "driveForce": 0.272,
+        "brakeForce": 0.8,
+        "handBrakeForce": 1,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.11,
+          "min": 1.98,
+          "lateral": 22
+        },
+        "suspensionForce": 4,
+        "steeringLock": 41,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "powersurge",
+      "name": "Powersurge",
+      "hash": 2908631255,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/powersurge.webp",
+      "dlc": {
+        "id": "mpchristmas3",
+        "name": "Los Santos Drug Wars",
+        "releaseDate": "2022-12-13"
+      },
+      "stats": {
+        "handlingId": "POWERSURGE",
+        "mass": 255,
+        "topSpeed": 128.2,
+        "driveForce": 0.82,
+        "brakeForce": 1.3,
+        "handBrakeForce": 1.45,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.37,
+          "min": 2.21,
+          "lateral": 21.5
+        },
+        "suspensionForce": 7,
+        "steeringLock": 43,
+        "monetaryValue": 20000
+      }
+    },
+    {
+      "id": "boor",
+      "name": "Boor",
+      "hash": 996383885,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/boor.webp",
+      "dlc": {
+        "id": "mpchristmas3",
+        "name": "Los Santos Drug Wars",
+        "releaseDate": "2022-12-13"
+      },
+      "stats": {
+        "handlingId": "BOOR",
+        "mass": 930,
+        "topSpeed": 149,
+        "driveForce": 0.267,
+        "brakeForce": 0.68,
+        "handBrakeForce": 0.8,
+        "gears": 4,
+        "driveBiasFront": 0.42,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.06,
+          "min": 1.82,
+          "lateral": 22
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 38.8,
+        "monetaryValue": 100000
+      }
+    },
+    {
+      "id": "journey2",
+      "name": "Journey II",
+      "hash": 2667889793,
+      "category": "Vans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/journey2.webp",
+      "dlc": {
+        "id": "mpchristmas3",
+        "name": "Los Santos Drug Wars",
+        "releaseDate": "2022-12-13"
+      },
+      "stats": {
+        "handlingId": "JOURNEY",
+        "mass": 4000,
+        "topSpeed": 100,
+        "driveForce": 0.13,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.3,
+        "gears": 4,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 1.4,
+          "min": 1.3,
+          "lateral": 15
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "surfer3",
+      "name": "Surfer Custom",
+      "hash": 3259477733,
+      "category": "Vans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/surfer3.webp",
+      "dlc": {
+        "id": "mpchristmas3",
+        "name": "Los Santos Drug Wars",
+        "releaseDate": "2022-12-13"
+      },
+      "stats": {
+        "handlingId": "SURFER",
+        "mass": 2500,
+        "topSpeed": 100,
+        "driveForce": 0.1,
+        "brakeForce": 0.3,
+        "handBrakeForce": 0.3,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.55,
+          "min": 1.35,
+          "lateral": 32
+        },
+        "suspensionForce": 1.5,
+        "steeringLock": 30,
+        "monetaryValue": 22000
+      }
+    },
+    {
+      "id": "cargoplane2",
+      "name": "Cargo Plane",
+      "hash": 2336777441,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/cargoplane2.webp",
+      "dlc": {
+        "id": "mpchristmas3",
+        "name": "Los Santos Drug Wars",
+        "releaseDate": "2022-12-13"
+      },
+      "stats": {
+        "handlingId": "cargoplane",
+        "mass": 38000,
+        "topSpeed": 284,
+        "driveForce": 0.001,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.01,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0.85,
+          "min": 0.8,
+          "lateral": 12
+        },
+        "suspensionForce": 1.5,
+        "steeringLock": 40,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "brickade2",
+      "name": "Brickade 6x6",
+      "hash": 2718380883,
+      "category": "Service",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/brickade2.webp",
+      "dlc": {
+        "id": "mpchristmas3",
+        "name": "Los Santos Drug Wars",
+        "releaseDate": "2022-12-13"
+      },
+      "stats": {
+        "handlingId": "BRICKADE",
+        "mass": 14000,
+        "topSpeed": 105,
+        "driveForce": 0.2,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.22,
+        "gears": 5,
+        "driveBiasFront": 0.25,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2,
+          "min": 1.8,
+          "lateral": 20
+        },
+        "suspensionForce": 2.5,
+        "steeringLock": 37,
+        "monetaryValue": 40000
+      }
+    }
+  ]
+}

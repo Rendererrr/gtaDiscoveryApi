@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "peds",
+    "label": "Peds",
+    "urlPattern": "{cdnBase}/assets/peds/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate null for patch-day additions)."
+  },
+  "group": {
+    "id": "mpchristmas2018",
+    "name": "Arena War",
+    "releaseDate": "2018-12-11",
+    "key": "mpchristmas2018",
+    "slug": "mpchristmas2018",
+    "count": 4
+  },
+  "count": 4,
+  "items": [
+    {
+      "id": "csb_alan",
+      "name": "csb_alan",
+      "hash": 1925887591,
+      "category": "Cutscene",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "props": "1 prop",
+      "components": "7 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/csb_alan.webp"
+    },
+    {
+      "id": "csb_bryony",
+      "name": "csb_bryony",
+      "hash": 2006035933,
+      "category": "Cutscene",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "props": "2 props",
+      "components": "8 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/csb_bryony.webp"
+    },
+    {
+      "id": "mp_f_bennymech_01",
+      "name": "mp_f_bennymech_01",
+      "hash": 2139205821,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "props": "2 props",
+      "components": "8 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_f_bennymech_01.webp"
+    },
+    {
+      "id": "ig_sacha",
+      "name": "ig_sacha",
+      "hash": 1476581877,
+      "category": "Story",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "props": "1 prop",
+      "components": "7 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/ig_sacha.webp"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "peds",
+    "label": "Peds",
+    "urlPattern": "{cdnBase}/assets/peds/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate null for patch-day additions)."
+  },
+  "group": {
+    "id": "mplowrider",
+    "name": "Lowriders",
+    "releaseDate": "2015-10-20",
+    "key": "mplowrider",
+    "slug": "mplowrider",
+    "count": 5
+  },
+  "count": 5,
+  "items": [
+    {
+      "id": "csb_vagspeak",
+      "name": "csb_vagspeak",
+      "hash": 1224690857,
+      "category": "Cutscene",
+      "dlc": {
+        "id": "mplowrider",
+        "name": "Lowriders",
+        "releaseDate": "2015-10-20"
+      },
+      "props": "1 prop",
+      "components": "8 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/csb_vagspeak.webp"
+    },
+    {
+      "id": "mp_m_g_vagfun_01",
+      "name": "mp_m_g_vagfun_01",
+      "hash": 3299219389,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "mplowrider",
+        "name": "Lowriders",
+        "releaseDate": "2015-10-20"
+      },
+      "props": "2 props",
+      "components": "5 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_m_g_vagfun_01.webp"
+    },
+    {
+      "id": "ig_benny",
+      "name": "ig_benny",
+      "hash": 3300333010,
+      "category": "Story",
+      "dlc": {
+        "id": "mplowrider",
+        "name": "Lowriders",
+        "releaseDate": "2015-10-20"
+      },
+      "props": "2 props",
+      "components": "7 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/ig_benny.webp"
+    },
+    {
+      "id": "ig_g",
+      "name": "ig_g",
+      "hash": 2216405299,
+      "category": "Story",
+      "dlc": {
+        "id": "mplowrider",
+        "name": "Lowriders",
+        "releaseDate": "2015-10-20"
+      },
+      "props": "2 props",
+      "components": "6 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/ig_g.webp"
+    },
+    {
+      "id": "ig_vagspeak",
+      "name": "ig_vagspeak",
+      "hash": 4194109068,
+      "category": "Story",
+      "dlc": {
+        "id": "mplowrider",
+        "name": "Lowriders",
+        "releaseDate": "2015-10-20"
+      },
+      "props": "1 prop",
+      "components": "8 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/ig_vagspeak.webp"
+    }
+  ]
+}

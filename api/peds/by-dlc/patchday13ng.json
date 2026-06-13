@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "peds",
+    "label": "Peds",
+    "urlPattern": "{cdnBase}/assets/peds/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate null for patch-day additions)."
+  },
+  "group": {
+    "id": "patchday13ng",
+    "name": "Patch Day 13",
+    "releaseDate": null,
+    "key": "patchday13ng",
+    "slug": "patchday13ng",
+    "count": 1
+  },
+  "count": 1,
+  "items": [
+    {
+      "id": "mp_f_forgery_01",
+      "name": "mp_f_forgery_01",
+      "hash": 2014985464,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "patchday13ng",
+        "name": "Patch Day 13",
+        "releaseDate": null
+      },
+      "props": "1 prop",
+      "components": "5 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_f_forgery_01.webp"
+    }
+  ]
+}

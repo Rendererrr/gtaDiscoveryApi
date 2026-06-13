@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "name": "Open Wheels",
+    "key": "Open Wheels",
+    "slug": "open-wheels",
+    "count": 4
+  },
+  "count": 4,
+  "items": [
+    {
+      "id": "formula",
+      "name": "PR4",
+      "hash": 340154634,
+      "category": "Open Wheels",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/formula.webp",
+      "dlc": {
+        "id": "mpheist3",
+        "name": "The Diamond Casino Heist",
+        "releaseDate": "2019-12-12"
+      },
+      "stats": {
+        "handlingId": "FORMULA",
+        "mass": 505,
+        "topSpeed": 162.5,
+        "driveForce": 0.75,
+        "brakeForce": 1.25,
+        "handBrakeForce": 0.75,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.9,
+          "min": 2.75,
+          "lateral": 18.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 30,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "formula2",
+      "name": "R88",
+      "hash": 2334210311,
+      "category": "Open Wheels",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/formula2.webp",
+      "dlc": {
+        "id": "mpheist3",
+        "name": "The Diamond Casino Heist",
+        "releaseDate": "2019-12-12"
+      },
+      "stats": {
+        "handlingId": "FORMULA2",
+        "mass": 585,
+        "topSpeed": 162.5,
+        "driveForce": 0.745,
+        "brakeForce": 1.25,
+        "handBrakeForce": 0.75,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.8,
+          "min": 2.75,
+          "lateral": 18.5
+        },
+        "suspensionForce": 2.6,
+        "steeringLock": 30,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "openwheel1",
+      "name": "BR8",
+      "hash": 1492612435,
+      "category": "Open Wheels",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/openwheel1.webp",
+      "dlc": {
+        "id": "mpsum",
+        "name": "Los Santos Summer Special",
+        "releaseDate": "2020-08-11"
+      },
+      "stats": {
+        "handlingId": "OPENWHEEL1",
+        "mass": 550,
+        "topSpeed": 162.5,
+        "driveForce": 0.76,
+        "brakeForce": 1.3,
+        "handBrakeForce": 0.75,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.92,
+          "min": 2.77,
+          "lateral": 18.5
+        },
+        "suspensionForce": 2.6,
+        "steeringLock": 30,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "openwheel2",
+      "name": "DR1",
+      "hash": 1181339704,
+      "category": "Open Wheels",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/openwheel2.webp",
+      "dlc": {
+        "id": "mpsum",
+        "name": "Los Santos Summer Special",
+        "releaseDate": "2020-08-11"
+      },
+      "stats": {
+        "handlingId": "OPENWHEEL2",
+        "mass": 750,
+        "topSpeed": 162.75,
+        "driveForce": 0.655,
+        "brakeForce": 1.15,
+        "handBrakeForce": 0.75,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.8,
+          "min": 2.75,
+          "lateral": 18.5
+        },
+        "suspensionForce": 2.6,
+        "steeringLock": 30,
+        "monetaryValue": 35000
+      }
+    }
+  ]
+}

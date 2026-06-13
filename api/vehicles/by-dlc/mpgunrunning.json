@@ -1,0 +1,611 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "id": "mpgunrunning",
+    "name": "Gunrunning",
+    "releaseDate": "2017-06-13",
+    "key": "mpgunrunning",
+    "slug": "mpgunrunning",
+    "count": 19
+  },
+  "count": 19,
+  "items": [
+    {
+      "id": "tampa3",
+      "name": "Weaponized Tampa",
+      "hash": 3084515313,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tampa3.webp",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "handlingId": "TAMPA3",
+        "mass": 1400,
+        "topSpeed": 145,
+        "driveForce": 0.33,
+        "brakeForce": 0.5,
+        "handBrakeForce": 0.8,
+        "gears": 4,
+        "driveBiasFront": 0.25,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.25,
+          "min": 2.1,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.4,
+        "steeringLock": 42,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "ardent",
+      "name": "Ardent",
+      "hash": 159274291,
+      "category": "Sports Classic",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/ardent.webp",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "handlingId": "ARDENT",
+        "mass": 1200,
+        "topSpeed": 148,
+        "driveForce": 0.285,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.53,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.65,
+          "min": 2.6,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.6,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "cheetah2",
+      "name": "Cheetah Classic",
+      "hash": 223240013,
+      "category": "Sports Classic",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/cheetah2.webp",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "handlingId": "CHEETAH2",
+        "mass": 1500,
+        "topSpeed": 152,
+        "driveForce": 0.3,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.53,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.65,
+          "min": 2.55,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.6,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "torero",
+      "name": "Torero",
+      "hash": 1504306544,
+      "category": "Sports Classic",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/torero.webp",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "handlingId": "TORERO",
+        "mass": 1470,
+        "topSpeed": 149.5,
+        "driveForce": 0.3,
+        "brakeForce": 0.5,
+        "handBrakeForce": 0.72,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.6,
+          "min": 2.4,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 35,
+        "monetaryValue": 100000
+      }
+    },
+    {
+      "id": "vagner",
+      "name": "Vagner",
+      "hash": 1939284556,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/vagner.webp",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "handlingId": "VAGNER",
+        "mass": 1000,
+        "topSpeed": 160.9,
+        "driveForce": 0.37,
+        "brakeForce": 1.12,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.76,
+          "min": 2.67,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "xa21",
+      "name": "XA-21",
+      "hash": 917809321,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/xa21.webp",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "handlingId": "XA21",
+        "mass": 1450,
+        "topSpeed": 159.2,
+        "driveForce": 0.364,
+        "brakeForce": 1.1,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.68,
+          "min": 2.55,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "oppressor",
+      "name": "Oppressor",
+      "hash": 884483972,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/oppressor.webp",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "handlingId": "OPPRESSOR",
+        "mass": 190,
+        "topSpeed": 148,
+        "driveForce": 0.4,
+        "brakeForce": 1.2,
+        "handBrakeForce": 1.3,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.13,
+          "min": 2.1,
+          "lateral": 22.5
+        },
+        "suspensionForce": 5.25,
+        "steeringLock": 42,
+        "monetaryValue": 20000
+      }
+    },
+    {
+      "id": "dune3",
+      "name": "Dune FAV",
+      "hash": 1897744184,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dune3.webp",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "handlingId": "DUNE3",
+        "mass": 1800,
+        "topSpeed": 135,
+        "driveForce": 0.25,
+        "brakeForce": 0.63,
+        "handBrakeForce": 0.5,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.2,
+          "min": 2.12,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 40,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "insurgent3",
+      "name": "Insurgent Pick-Up Custom",
+      "hash": 2370534026,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/insurgent3.webp",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "handlingId": "INSURGENT3",
+        "mass": 8600,
+        "topSpeed": 130,
+        "driveForce": 0.24,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.45,
+        "gears": 6,
+        "driveBiasFront": 0.4,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2,
+          "min": 1.7,
+          "lateral": 18
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 34,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "nightshark",
+      "name": "Nightshark",
+      "hash": 433954513,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/nightshark.webp",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "handlingId": "NIGHTSHARK",
+        "mass": 4400,
+        "topSpeed": 140,
+        "driveForce": 0.27,
+        "brakeForce": 0.75,
+        "handBrakeForce": 0.45,
+        "gears": 6,
+        "driveBiasFront": 0.4,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.1,
+          "min": 1.9,
+          "lateral": 18
+        },
+        "suspensionForce": 2.8,
+        "steeringLock": 34,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "technical3",
+      "name": "Technical Custom",
+      "hash": 1356124575,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/technical3.webp",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "handlingId": "TECHNICAL3",
+        "mass": 3200,
+        "topSpeed": 130,
+        "driveForce": 0.2,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.45,
+        "gears": 5,
+        "driveBiasFront": 0.3,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.13,
+          "min": 1.95,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.5,
+        "steeringLock": 40,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "caddy3",
+      "name": "Caddy",
+      "hash": 3525819835,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/caddy3.webp",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "handlingId": "CADDY3",
+        "mass": 600,
+        "topSpeed": 65,
+        "driveForce": 0.3,
+        "brakeForce": 0.2,
+        "handBrakeForce": 0.1,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.45,
+          "min": 1.3,
+          "lateral": 11
+        },
+        "suspensionForce": 4,
+        "steeringLock": 40,
+        "monetaryValue": 10000
+      }
+    },
+    {
+      "id": "trailerlarge",
+      "name": "Mobile Operations Center",
+      "hash": 1502869817,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/trailerlarge.webp",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "handlingId": "TRAILERLARGE",
+        "mass": 13500,
+        "topSpeed": 105,
+        "driveForce": 0,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 3.3,
+          "min": 3.3,
+          "lateral": 20
+        },
+        "suspensionForce": 1.2,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "trailers4",
+      "name": "Trailer",
+      "hash": 3194418602,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/trailers4.webp",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "handlingId": "TRAILER",
+        "mass": 3500,
+        "topSpeed": 105,
+        "driveForce": 0,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 3.3,
+          "min": 3.3,
+          "lateral": 20
+        },
+        "suspensionForce": 1.2,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "apc",
+      "name": "APC",
+      "hash": 562680400,
+      "category": "Military",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/apc.webp",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "handlingId": "APC",
+        "mass": 10600,
+        "topSpeed": 97,
+        "driveForce": 0.21,
+        "brakeForce": 0.2,
+        "handBrakeForce": 0.2,
+        "gears": 4,
+        "driveBiasFront": 0.45,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.4,
+          "min": 2.2,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2,
+        "steeringLock": 40,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "halftrack",
+      "name": "Half-track",
+      "hash": 4262731174,
+      "category": "Military",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/halftrack.webp",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "handlingId": "HALFTRACK",
+        "mass": 10000,
+        "topSpeed": 75,
+        "driveForce": 0.16,
+        "brakeForce": 0.2,
+        "handBrakeForce": 0.2,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.3,
+          "min": 2.1,
+          "lateral": 35.5
+        },
+        "suspensionForce": 2,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "trailersmall2",
+      "name": "Anti-Aircraft Trailer",
+      "hash": 2413121211,
+      "category": "Military",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/trailersmall2.webp",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "handlingId": "TRAILERSMALL2",
+        "mass": 1000,
+        "topSpeed": 105,
+        "driveForce": 0,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 3.7,
+          "min": 3.5,
+          "lateral": 20
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "hauler2",
+      "name": "Hauler Custom",
+      "hash": 387748548,
+      "category": "Commercial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/hauler2.webp",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "handlingId": "HAULER2",
+        "mass": 11000,
+        "topSpeed": 130,
+        "driveForce": 0.32,
+        "brakeForce": 0.85,
+        "handBrakeForce": 0.5,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.95,
+          "min": 1.75,
+          "lateral": 18.5
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "phantom3",
+      "name": "Phantom Custom",
+      "hash": 177270108,
+      "category": "Commercial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/phantom3.webp",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "handlingId": "PHANTOM3",
+        "mass": 12000,
+        "topSpeed": 130,
+        "driveForce": 0.3,
+        "brakeForce": 0.85,
+        "handBrakeForce": 0.15,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.05,
+          "min": 1.95,
+          "lateral": 20
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    }
+  ]
+}

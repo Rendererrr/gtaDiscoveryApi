@@ -1,0 +1,886 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "weapons",
+    "label": "Weapons",
+    "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
+    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
+  },
+  "group": {
+    "name": "Sniper",
+    "key": "Sniper",
+    "slug": "sniper",
+    "count": 6
+  },
+  "count": 6,
+  "items": [
+    {
+      "id": "heavysniper",
+      "name": "Heavy Sniper",
+      "codename": "weapon_heavysniper",
+      "hash": 205991906,
+      "category": "Sniper",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-sniper-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 98,
+        "fireRate": 20,
+        "accuracy": 90,
+        "range": 100,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_HEAVYSNIPER_CLIP_01",
+          "label": "Default Clip",
+          "hash": 1198478068,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_LARGE",
+          "label": "Scope",
+          "hash": 3527687644,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MAX",
+          "label": "Advanced Scope",
+          "hash": 3159677559,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_GUNRUN_MK2_UPGRADE",
+          "label": "Mk II",
+          "hash": 1623028892,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_HEAVYSNIPER_VARMOD_XMAS23",
+          "label": "COMPONENT_HEAVYSNIPER_VARMOD_XMAS23",
+          "hash": 221907180,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "heavysniper_mk2",
+      "name": "Heavy Sniper Mk II",
+      "codename": "weapon_heavysniper_mk2",
+      "hash": 177293209,
+      "category": "Sniper",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-sniper-mk2-icon.png",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "damage": 100,
+        "fireRate": 20,
+        "accuracy": 90,
+        "range": 100,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_HEAVYSNIPER_MK2_CLIP_01",
+          "label": "Default Clip",
+          "hash": 4196276776,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_HEAVYSNIPER_MK2_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 752418717,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_HEAVYSNIPER_MK2_CLIP_ARMORPIERCING",
+          "label": "Armor Piercing Rounds",
+          "hash": 4164277972,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_HEAVYSNIPER_MK2_CLIP_EXPLOSIVE",
+          "label": "Explosive Rounds",
+          "hash": 2313935527,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_HEAVYSNIPER_MK2_CLIP_FMJ",
+          "label": "Full Metal Jacket Rounds",
+          "hash": 1005144310,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_HEAVYSNIPER_MK2_CLIP_INCENDIARY",
+          "label": "Incendiary Rounds",
+          "hash": 247526935,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_LARGE_MK2",
+          "label": "Zoom Scope",
+          "hash": 2193687427,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MAX",
+          "label": "Advanced Scope",
+          "hash": 3159677559,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_NV",
+          "label": "Night Vision Scope",
+          "hash": 3061846192,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_THERMAL",
+          "label": "Thermal Scope",
+          "hash": 776198721,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SR_SUPP_03",
+          "label": "Suppressor",
+          "hash": 2890063729,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_08",
+          "label": "Muzzle Brake",
+          "hash": 1602080333,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_09",
+          "label": "Muzzle Brake",
+          "hash": 1764221345,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SR_BARREL_01",
+          "label": "Default Barrel",
+          "hash": 2425761975,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_AT_SR_BARREL_02",
+          "label": "Heavy Barrel",
+          "hash": 277524638,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Classic Black"
+        },
+        {
+          "index": 1,
+          "label": "Classic Gray"
+        },
+        {
+          "index": 2,
+          "label": "Classic Two-Tone"
+        },
+        {
+          "index": 3,
+          "label": "Classic White"
+        },
+        {
+          "index": 4,
+          "label": "Classic Beige"
+        },
+        {
+          "index": 5,
+          "label": "Classic Green"
+        },
+        {
+          "index": 6,
+          "label": "Classic Blue"
+        },
+        {
+          "index": 7,
+          "label": "Classic Earth"
+        },
+        {
+          "index": 8,
+          "label": "Classic Brown & Black"
+        },
+        {
+          "index": 9,
+          "label": "Red Contrast"
+        },
+        {
+          "index": 10,
+          "label": "Blue Contrast"
+        },
+        {
+          "index": 11,
+          "label": "Yellow Contrast"
+        },
+        {
+          "index": 12,
+          "label": "Orange Contrast"
+        },
+        {
+          "index": 13,
+          "label": "Bold Pink"
+        },
+        {
+          "index": 14,
+          "label": "Bold Purple & Yellow"
+        },
+        {
+          "index": 15,
+          "label": "Bold Orange"
+        },
+        {
+          "index": 16,
+          "label": "Bold Green & Purple"
+        },
+        {
+          "index": 17,
+          "label": "Bold Red Features"
+        },
+        {
+          "index": 18,
+          "label": "Bold Green Features"
+        },
+        {
+          "index": 19,
+          "label": "Bold Cyan Features"
+        },
+        {
+          "index": 20,
+          "label": "Bold Yellow Features"
+        },
+        {
+          "index": 21,
+          "label": "Bold Red & White"
+        },
+        {
+          "index": 22,
+          "label": "Bold Blue & White"
+        },
+        {
+          "index": 23,
+          "label": "Metallic Gold"
+        },
+        {
+          "index": 24,
+          "label": "Metallic Platinum"
+        },
+        {
+          "index": 25,
+          "label": "Metallic Gray & Lilac"
+        },
+        {
+          "index": 26,
+          "label": "Metallic Purple & Lime"
+        },
+        {
+          "index": 27,
+          "label": "Metallic Red"
+        },
+        {
+          "index": 28,
+          "label": "Metallic Green"
+        },
+        {
+          "index": 29,
+          "label": "Metallic Blue"
+        },
+        {
+          "index": 30,
+          "label": "Metallic White & Aqua"
+        },
+        {
+          "index": 31,
+          "label": "Metallic Red & Yellow"
+        },
+        {
+          "index": 32,
+          "label": "32"
+        }
+      ]
+    },
+    {
+      "id": "marksmanrifle",
+      "name": "Marksman Rifle",
+      "codename": "weapon_marksmanrifle",
+      "hash": 3342088282,
+      "category": "Sniper",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Marksman-rifle-icon.png",
+      "dlc": {
+        "id": "mplts",
+        "name": "Last Team Standing Update",
+        "releaseDate": "2014-10-08"
+      },
+      "stats": {
+        "damage": 70,
+        "fireRate": 40,
+        "accuracy": 80,
+        "range": 90,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_MARKSMANRIFLE_CLIP_01",
+          "label": "Default Clip",
+          "hash": 3627761985,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_MARKSMANRIFLE_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 3439143621,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_LARGE_FIXED_ZOOM",
+          "label": "Scope",
+          "hash": 471997210,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP",
+          "label": "Suppressor",
+          "hash": 2205435306,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP",
+          "label": "Grip",
+          "hash": 202788691,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_MARKSMANRIFLE_VARMOD_LUXE",
+          "label": "Yusuf Amir Luxury Finish",
+          "hash": 371102273,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_GUNRUN_MK2_UPGRADE",
+          "label": "Mk II",
+          "hash": 1623028892,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "marksmanrifle_mk2",
+      "name": "Marksman Rifle Mk II",
+      "codename": "weapon_marksmanrifle_mk2",
+      "hash": 1785463520,
+      "category": "Sniper",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Marksman-rifle-mk2-icon.png",
+      "dlc": {
+        "id": "mpchristmas2017",
+        "name": "The Doomsday Heist",
+        "releaseDate": "2017-12-12"
+      },
+      "stats": {
+        "damage": 75,
+        "fireRate": 40,
+        "accuracy": 80,
+        "range": 90,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_MARKSMANRIFLE_MK2_CLIP_01",
+          "label": "Default Clip",
+          "hash": 2497785294,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_MARKSMANRIFLE_MK2_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 3872379306,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_MARKSMANRIFLE_MK2_CLIP_ARMORPIERCING",
+          "label": "Armor Piercing Rounds",
+          "hash": 4100968569,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_MARKSMANRIFLE_MK2_CLIP_FMJ",
+          "label": "Full Metal Jacket Rounds",
+          "hash": 3779763923,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_MARKSMANRIFLE_MK2_CLIP_INCENDIARY",
+          "label": "Incendiary Rounds",
+          "hash": 1842849902,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_MARKSMANRIFLE_MK2_CLIP_TRACER",
+          "label": "Tracer Rounds",
+          "hash": 3615105746,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SIGHTS",
+          "label": "Holographic Sight",
+          "hash": 1108334355,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MEDIUM_MK2",
+          "label": "Large Scope",
+          "hash": 3328927042,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_LARGE_FIXED_ZOOM_MK2",
+          "label": "Zoom Scope",
+          "hash": 1528590652,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP",
+          "label": "Suppressor",
+          "hash": 2205435306,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_01",
+          "label": "Muzzle Brake",
+          "hash": 3113485012,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_02",
+          "label": "Muzzle Brake",
+          "hash": 3362234491,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_03",
+          "label": "Muzzle Brake",
+          "hash": 3725708239,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_04",
+          "label": "Muzzle Brake",
+          "hash": 3968886988,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_05",
+          "label": "Muzzle Brake",
+          "hash": 48731514,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_06",
+          "label": "Muzzle Brake",
+          "hash": 880736428,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_07",
+          "label": "Muzzle Brake",
+          "hash": 1303784126,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP_02",
+          "label": "Grip",
+          "hash": 2640679034,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MRFL_BARREL_01",
+          "label": "Default Barrel",
+          "hash": 941317513,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_AT_MRFL_BARREL_02",
+          "label": "Heavy Barrel",
+          "hash": 1748450780,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Classic Black"
+        },
+        {
+          "index": 1,
+          "label": "Classic Gray"
+        },
+        {
+          "index": 2,
+          "label": "Classic Two-Tone"
+        },
+        {
+          "index": 3,
+          "label": "Classic White"
+        },
+        {
+          "index": 4,
+          "label": "Classic Beige"
+        },
+        {
+          "index": 5,
+          "label": "Classic Green"
+        },
+        {
+          "index": 6,
+          "label": "Classic Blue"
+        },
+        {
+          "index": 7,
+          "label": "Classic Earth"
+        },
+        {
+          "index": 8,
+          "label": "Classic Brown & Black"
+        },
+        {
+          "index": 9,
+          "label": "Red Contrast"
+        },
+        {
+          "index": 10,
+          "label": "Blue Contrast"
+        },
+        {
+          "index": 11,
+          "label": "Yellow Contrast"
+        },
+        {
+          "index": 12,
+          "label": "Orange Contrast"
+        },
+        {
+          "index": 13,
+          "label": "Bold Pink"
+        },
+        {
+          "index": 14,
+          "label": "Bold Purple & Yellow"
+        },
+        {
+          "index": 15,
+          "label": "Bold Orange"
+        },
+        {
+          "index": 16,
+          "label": "Bold Green & Purple"
+        },
+        {
+          "index": 17,
+          "label": "Bold Red Features"
+        },
+        {
+          "index": 18,
+          "label": "Bold Green Features"
+        },
+        {
+          "index": 19,
+          "label": "Bold Cyan Features"
+        },
+        {
+          "index": 20,
+          "label": "Bold Yellow Features"
+        },
+        {
+          "index": 21,
+          "label": "Bold Red & White"
+        },
+        {
+          "index": 22,
+          "label": "Bold Blue & White"
+        },
+        {
+          "index": 23,
+          "label": "Metallic Gold"
+        },
+        {
+          "index": 24,
+          "label": "Metallic Platinum"
+        },
+        {
+          "index": 25,
+          "label": "Metallic Gray & Lilac"
+        },
+        {
+          "index": 26,
+          "label": "Metallic Purple & Lime"
+        },
+        {
+          "index": 27,
+          "label": "Metallic Red"
+        },
+        {
+          "index": 28,
+          "label": "Metallic Green"
+        },
+        {
+          "index": 29,
+          "label": "Metallic Blue"
+        },
+        {
+          "index": 30,
+          "label": "Metallic White & Aqua"
+        },
+        {
+          "index": 31,
+          "label": "Metallic Red & Yellow"
+        },
+        {
+          "index": 32,
+          "label": "32"
+        }
+      ]
+    },
+    {
+      "id": "precisionrifle",
+      "name": "Precision Rifle",
+      "codename": "weapon_precisionrifle",
+      "hash": 1853742572,
+      "category": "Sniper",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Precision-rifle-icon.png",
+      "dlc": {
+        "id": "mpsum2",
+        "name": "The Criminal Enterprises",
+        "releaseDate": "2022-07-26"
+      },
+      "stats": {
+        "damage": 88,
+        "fireRate": 27,
+        "accuracy": 70,
+        "range": 95,
+        "maxAmmo": null
+      },
+      "components": [
+        {
+          "id": "COMPONENT_PRECISIONRIFLE_CLIP_01",
+          "label": "Default Clip",
+          "hash": 4075474698,
+          "default": true
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "sniperrifle",
+      "name": "Sniper Rifle",
+      "codename": "weapon_sniperrifle",
+      "hash": 100416529,
+      "category": "Sniper",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Sniper-rifle-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 96,
+        "fireRate": 25,
+        "accuracy": 70,
+        "range": 95,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_SNIPERRIFLE_CLIP_01",
+          "label": "Default Clip",
+          "hash": 2613461129,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP_02",
+          "label": "Suppressor",
+          "hash": 2805810788,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_LARGE",
+          "label": "Scope",
+          "hash": 3527687644,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MAX",
+          "label": "Advanced Scope",
+          "hash": 3159677559,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_SNIPERRIFLE_VARMOD_LUXE",
+          "label": "Etched Wood Grip Finish",
+          "hash": 1077065191,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,518 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "id": "mpassault",
+    "name": "Southern San Andreas Super Sport Series",
+    "releaseDate": "2018-03-20",
+    "key": "mpassault",
+    "slug": "mpassault",
+    "count": 16
+  },
+  "count": 16,
+  "items": [
+    {
+      "id": "issi3",
+      "name": "Issi Classic",
+      "hash": 931280609,
+      "category": "Compacts",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/issi3.webp",
+      "dlc": {
+        "id": "mpassault",
+        "name": "Southern San Andreas Super Sport Series",
+        "releaseDate": "2018-03-20"
+      },
+      "stats": {
+        "handlingId": "ISSI3",
+        "mass": 650,
+        "topSpeed": 125,
+        "driveForce": 0.26,
+        "brakeForce": 0.3,
+        "handBrakeForce": 0.4,
+        "gears": 4,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 2,
+          "min": 1.8,
+          "lateral": 20
+        },
+        "suspensionForce": 1.5,
+        "steeringLock": 40,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "dominator3",
+      "name": "Dominator GTX",
+      "hash": 3308022675,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dominator3.webp",
+      "dlc": {
+        "id": "mpassault",
+        "name": "Southern San Andreas Super Sport Series",
+        "releaseDate": "2018-03-20"
+      },
+      "stats": {
+        "handlingId": "DOMINATOR3",
+        "mass": 1670,
+        "topSpeed": 145.5,
+        "driveForce": 0.335,
+        "brakeForce": 0.5,
+        "handBrakeForce": 0.72,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.57,
+          "min": 2.35,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 38,
+        "monetaryValue": 100000
+      }
+    },
+    {
+      "id": "ellie",
+      "name": "Ellie",
+      "hash": 3027423925,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/ellie.webp",
+      "dlc": {
+        "id": "mpassault",
+        "name": "Southern San Andreas Super Sport Series",
+        "releaseDate": "2018-03-20"
+      },
+      "stats": {
+        "handlingId": "ELLIE",
+        "mass": 1370,
+        "topSpeed": 140.5,
+        "driveForce": 0.325,
+        "brakeForce": 0.5,
+        "handBrakeForce": 0.72,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.55,
+          "min": 2.15,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.25,
+        "steeringLock": 35,
+        "monetaryValue": 100000
+      }
+    },
+    {
+      "id": "cheburek",
+      "name": "Cheburek",
+      "hash": 3306466016,
+      "category": "Sports Classic",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/cheburek.webp",
+      "dlc": {
+        "id": "mpassault",
+        "name": "Southern San Andreas Super Sport Series",
+        "releaseDate": "2018-03-20"
+      },
+      "stats": {
+        "handlingId": "CHEBUREK",
+        "mass": 1100,
+        "topSpeed": 140,
+        "driveForce": 0.265,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.35,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.25,
+          "min": 1.95,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.2,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "fagaloa",
+      "name": "Fagaloa",
+      "hash": 1617472902,
+      "category": "Sports Classic",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/fagaloa.webp",
+      "dlc": {
+        "id": "mpassault",
+        "name": "Southern San Andreas Super Sport Series",
+        "releaseDate": "2018-03-20"
+      },
+      "stats": {
+        "handlingId": "FAGALOA",
+        "mass": 1100,
+        "topSpeed": 120,
+        "driveForce": 0.21,
+        "brakeForce": 0.775,
+        "handBrakeForce": 0.3,
+        "gears": 3,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.38,
+          "min": 1.9,
+          "lateral": 20.5
+        },
+        "suspensionForce": 1,
+        "steeringLock": 35,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "michelli",
+      "name": "Michelli GT",
+      "hash": 1046206681,
+      "category": "Sports Classic",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/michelli.webp",
+      "dlc": {
+        "id": "mpassault",
+        "name": "Southern San Andreas Super Sport Series",
+        "releaseDate": "2018-03-20"
+      },
+      "stats": {
+        "handlingId": "MICHELLI",
+        "mass": 840,
+        "topSpeed": 140,
+        "driveForce": 0.282,
+        "brakeForce": 0.75,
+        "handBrakeForce": 0.45,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.3,
+          "min": 2.05,
+          "lateral": 22
+        },
+        "suspensionForce": 1.5,
+        "steeringLock": 40,
+        "monetaryValue": 130000
+      }
+    },
+    {
+      "id": "flashgt",
+      "name": "Flash GT",
+      "hash": 3035832600,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/flashgt.webp",
+      "dlc": {
+        "id": "mpassault",
+        "name": "Southern San Andreas Super Sport Series",
+        "releaseDate": "2018-03-20"
+      },
+      "stats": {
+        "handlingId": "FLASHGT",
+        "mass": 1200,
+        "topSpeed": 152,
+        "driveForce": 0.32,
+        "brakeForce": 1,
+        "handBrakeForce": 0.7,
+        "gears": 6,
+        "driveBiasFront": 0.2,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.45,
+          "min": 2.15,
+          "lateral": 20
+        },
+        "suspensionForce": 1.6,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "gb200",
+      "name": "GB200",
+      "hash": 1909189272,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/gb200.webp",
+      "dlc": {
+        "id": "mpassault",
+        "name": "Southern San Andreas Super Sport Series",
+        "releaseDate": "2018-03-20"
+      },
+      "stats": {
+        "handlingId": "GB200",
+        "mass": 1180,
+        "topSpeed": 152,
+        "driveForce": 0.315,
+        "brakeForce": 1,
+        "handBrakeForce": 0.7,
+        "gears": 6,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.3,
+          "min": 1.96,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.7,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "hotring",
+      "name": "Hotring Sabre",
+      "hash": 1115909093,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/hotring.webp",
+      "dlc": {
+        "id": "mpassault",
+        "name": "Southern San Andreas Super Sport Series",
+        "releaseDate": "2018-03-20"
+      },
+      "stats": {
+        "handlingId": "HOTRING",
+        "mass": 1508,
+        "topSpeed": 159,
+        "driveForce": 0.335,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.72,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.55,
+          "min": 2.35,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2,
+        "steeringLock": 32,
+        "monetaryValue": 100000
+      }
+    },
+    {
+      "id": "jester3",
+      "name": "Jester Classic",
+      "hash": 4080061290,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/jester3.webp",
+      "dlc": {
+        "id": "mpassault",
+        "name": "Southern San Andreas Super Sport Series",
+        "releaseDate": "2018-03-20"
+      },
+      "stats": {
+        "handlingId": "JESTER3",
+        "mass": 1600,
+        "topSpeed": 156,
+        "driveForce": 0.32,
+        "brakeForce": 0.95,
+        "handBrakeForce": 0.45,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.58,
+          "min": 2.35,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.6,
+        "steeringLock": 40,
+        "monetaryValue": 80000
+      }
+    },
+    {
+      "id": "entity2",
+      "name": "Entity XXR",
+      "hash": 2174267100,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/entity2.webp",
+      "dlc": {
+        "id": "mpassault",
+        "name": "Southern San Andreas Super Sport Series",
+        "releaseDate": "2018-03-20"
+      },
+      "stats": {
+        "handlingId": "ENTITY2",
+        "mass": 1400,
+        "topSpeed": 170,
+        "driveForce": 0.355,
+        "brakeForce": 1,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.77,
+          "min": 2.6,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.3,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "taipan",
+      "name": "Taipan",
+      "hash": 3160260734,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/taipan.webp",
+      "dlc": {
+        "id": "mpassault",
+        "name": "Southern San Andreas Super Sport Series",
+        "releaseDate": "2018-03-20"
+      },
+      "stats": {
+        "handlingId": "TAIPAN",
+        "mass": 1400,
+        "topSpeed": 170.25,
+        "driveForce": 0.357,
+        "brakeForce": 1,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.65,
+          "min": 2.45,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1,
+        "steeringLock": 37,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "tezeract",
+      "name": "Tezeract",
+      "hash": 1031562256,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tezeract.webp",
+      "dlc": {
+        "id": "mpassault",
+        "name": "Southern San Andreas Super Sport Series",
+        "releaseDate": "2018-03-20"
+      },
+      "stats": {
+        "handlingId": "TEZERACT",
+        "mass": 1800,
+        "topSpeed": 169,
+        "driveForce": 0.138,
+        "brakeForce": 1.2,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0.3,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.6,
+          "min": 2.45,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "tyrant",
+      "name": "Tyrant",
+      "hash": 3918533058,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tyrant.webp",
+      "dlc": {
+        "id": "mpassault",
+        "name": "Southern San Andreas Super Sport Series",
+        "releaseDate": "2018-03-20"
+      },
+      "stats": {
+        "handlingId": "TYRANT",
+        "mass": 1175,
+        "topSpeed": 165,
+        "driveForce": 0.34,
+        "brakeForce": 1,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.75,
+          "min": 2.65,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.2,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "caracara",
+      "name": "Caracara",
+      "hash": 1254014755,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/caracara.webp",
+      "dlc": {
+        "id": "mpassault",
+        "name": "Southern San Andreas Super Sport Series",
+        "releaseDate": "2018-03-20"
+      },
+      "stats": {
+        "handlingId": "CARACARA",
+        "mass": 3500,
+        "topSpeed": 135,
+        "driveForce": 0.27,
+        "brakeForce": 0.27,
+        "handBrakeForce": 0.4,
+        "gears": 5,
+        "driveBiasFront": 0.3,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.25,
+          "min": 1.9,
+          "lateral": 20
+        },
+        "suspensionForce": 1,
+        "steeringLock": 40,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "seasparrow",
+      "name": "Sea Sparrow",
+      "hash": 3568198617,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/seasparrow.webp",
+      "dlc": {
+        "id": "mpassault",
+        "name": "Southern San Andreas Super Sport Series",
+        "releaseDate": "2018-03-20"
+      },
+      "stats": {
+        "handlingId": "SEASPARROW",
+        "mass": 3500,
+        "topSpeed": 160,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.2,
+          "lateral": 12
+        },
+        "suspensionForce": 3,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    }
+  ]
+}

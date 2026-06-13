@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "id": "mphalloween",
+    "name": "Halloween Surprise",
+    "releaseDate": "2015-10-29",
+    "key": "mphalloween",
+    "slug": "mphalloween",
+    "count": 2
+  },
+  "count": 2,
+  "items": [
+    {
+      "id": "lurcher",
+      "name": "Lurcher",
+      "hash": 2068293287,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/lurcher.webp",
+      "dlc": {
+        "id": "mphalloween",
+        "name": "Halloween Surprise",
+        "releaseDate": "2015-10-29"
+      },
+      "stats": {
+        "handlingId": "LURCHER",
+        "mass": 1800,
+        "topSpeed": 146,
+        "driveForce": 0.29,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.71,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2,
+        "steeringLock": 35,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "btype2",
+      "name": "Fränken Stange",
+      "hash": 3463132580,
+      "category": "Sports Classic",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/btype2.webp",
+      "dlc": {
+        "id": "mphalloween",
+        "name": "Halloween Surprise",
+        "releaseDate": "2015-10-29"
+      },
+      "stats": {
+        "handlingId": "BTYPE2",
+        "mass": 1800,
+        "topSpeed": 135,
+        "driveForce": 0.355,
+        "brakeForce": 0.55,
+        "handBrakeForce": 0.4,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.94,
+          "min": 1.7,
+          "lateral": 23.5
+        },
+        "suspensionForce": 1,
+        "steeringLock": 35,
+        "monetaryValue": 70000
+      }
+    }
+  ]
+}

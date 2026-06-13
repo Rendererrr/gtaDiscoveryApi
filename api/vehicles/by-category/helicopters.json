@@ -1,0 +1,950 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "name": "Helicopters",
+    "key": "Helicopters",
+    "slug": "helicopters",
+    "count": 30
+  },
+  "count": 30,
+  "items": [
+    {
+      "id": "akula",
+      "name": "Akula",
+      "hash": 1181327175,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/akula.webp",
+      "dlc": {
+        "id": "mpchristmas2017",
+        "name": "The Doomsday Heist",
+        "releaseDate": "2017-12-12"
+      },
+      "stats": {
+        "handlingId": "AKULA",
+        "mass": 8000,
+        "topSpeed": 160,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.2,
+          "lateral": 12
+        },
+        "suspensionForce": 1,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "annihilator",
+      "name": "Annihilator",
+      "hash": 837858166,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/annihilator.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "ANNIHL",
+        "mass": 13000,
+        "topSpeed": 160,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.2,
+          "lateral": 12
+        },
+        "suspensionForce": 2,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "annihilator2",
+      "name": "Annihilator Stealth",
+      "hash": 295054921,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/annihilator2.webp",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "handlingId": "ANNIHLATOR2",
+        "mass": 13000,
+        "topSpeed": 160,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.2,
+          "lateral": 12
+        },
+        "suspensionForce": 1,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "buzzard",
+      "name": "Buzzard Attack Chopper",
+      "hash": 788747387,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/buzzard.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "BUZZARD",
+        "mass": 3800,
+        "topSpeed": 160,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.2,
+          "lateral": 12
+        },
+        "suspensionForce": 3,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "buzzard2",
+      "name": "Buzzard",
+      "hash": 745926877,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/buzzard2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "BUZZARD2",
+        "mass": 3800,
+        "topSpeed": 160,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.2,
+          "lateral": 12
+        },
+        "suspensionForce": 3,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "cargobob",
+      "name": "Cargobob",
+      "hash": 4244420235,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/cargobob.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "cargobob",
+        "mass": 15000,
+        "topSpeed": 160,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.2,
+          "lateral": 12
+        },
+        "suspensionForce": 2,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "cargobob2",
+      "name": "Cargobob",
+      "hash": 1621617168,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/cargobob2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "cargobob",
+        "mass": 15000,
+        "topSpeed": 160,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.2,
+          "lateral": 12
+        },
+        "suspensionForce": 2,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "cargobob3",
+      "name": "Cargobob",
+      "hash": 1394036463,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/cargobob3.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "cargobob",
+        "mass": 15000,
+        "topSpeed": 160,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.2,
+          "lateral": 12
+        },
+        "suspensionForce": 2,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "cargobob4",
+      "name": "Cargobob",
+      "hash": 2025593404,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/cargobob4.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "cargobob",
+        "mass": 15000,
+        "topSpeed": 160,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.2,
+          "lateral": 12
+        },
+        "suspensionForce": 2,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "conada",
+      "name": "Conada",
+      "hash": 3817135397,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/conada.webp",
+      "dlc": {
+        "id": "mpsum2",
+        "name": "The Criminal Enterprises",
+        "releaseDate": "2022-07-26"
+      },
+      "stats": {
+        "handlingId": "CONADA",
+        "mass": 1550,
+        "topSpeed": 160,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.2,
+          "lateral": 12
+        },
+        "suspensionForce": 3.5,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "conada2",
+      "name": "Weaponized Conada",
+      "hash": 2635962482,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/conada2.webp",
+      "dlc": {
+        "id": "mp2023_01",
+        "name": "San Andreas Mercenaries",
+        "releaseDate": "2023-06-13"
+      },
+      "stats": {
+        "handlingId": "CONADA2",
+        "mass": 1700,
+        "topSpeed": 159.2,
+        "driveForce": 0.315,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.2,
+          "lateral": 12
+        },
+        "suspensionForce": 3.5,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "frogger",
+      "name": "Frogger",
+      "hash": 744705981,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/frogger.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "FROGGER",
+        "mass": 7000,
+        "topSpeed": 160,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.2,
+          "lateral": 12
+        },
+        "suspensionForce": 5,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "frogger2",
+      "name": "Frogger",
+      "hash": 1949211328,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/frogger2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "FROGGER",
+        "mass": 7000,
+        "topSpeed": 160,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.2,
+          "lateral": 12
+        },
+        "suspensionForce": 5,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "havok",
+      "name": "Havok",
+      "hash": 2310691317,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/havok.webp",
+      "dlc": {
+        "id": "mpsmuggler",
+        "name": "Smuggler's Run",
+        "releaseDate": "2017-08-29"
+      },
+      "stats": {
+        "handlingId": "HAVOK",
+        "mass": 1000,
+        "topSpeed": 160,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.2,
+          "lateral": 12
+        },
+        "suspensionForce": 3,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "hunter",
+      "name": "FH-1 Hunter",
+      "hash": 4252008158,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/hunter.webp",
+      "dlc": {
+        "id": "mpsmuggler",
+        "name": "Smuggler's Run",
+        "releaseDate": "2017-08-29"
+      },
+      "stats": {
+        "handlingId": "HUNTER",
+        "mass": 6000,
+        "topSpeed": 160,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.2,
+          "lateral": 12
+        },
+        "suspensionForce": 1,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "maverick",
+      "name": "Maverick",
+      "hash": 2634305738,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/maverick.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "MAVERICK",
+        "mass": 6500,
+        "topSpeed": 160,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.2,
+          "lateral": 12
+        },
+        "suspensionForce": 3,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "maverick2",
+      "name": "Higgins Helitours Maverick",
+      "hash": 347619240,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/maverick2.webp",
+      "dlc": {
+        "id": "mp2025_01",
+        "name": "Money Fronts",
+        "releaseDate": "2025-06-17"
+      },
+      "stats": {
+        "handlingId": "MAVERICK",
+        "mass": 6500,
+        "topSpeed": 160,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.2,
+          "lateral": 12
+        },
+        "suspensionForce": 3,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "polmav",
+      "name": "Police Maverick",
+      "hash": 353883353,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/polmav.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "polmav",
+        "mass": 6500,
+        "topSpeed": 160,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.2,
+          "lateral": 12
+        },
+        "suspensionForce": 3.5,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "savage",
+      "name": "Savage",
+      "hash": 4212341271,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/savage.webp",
+      "dlc": {
+        "id": "mpheist",
+        "name": "The Heists Update",
+        "releaseDate": "2015-03-10"
+      },
+      "stats": {
+        "handlingId": "SAVAGE",
+        "mass": 14000,
+        "topSpeed": 155,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.2,
+          "lateral": 12
+        },
+        "suspensionForce": 3,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "seasparrow",
+      "name": "Sea Sparrow",
+      "hash": 3568198617,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/seasparrow.webp",
+      "dlc": {
+        "id": "mpassault",
+        "name": "Southern San Andreas Super Sport Series",
+        "releaseDate": "2018-03-20"
+      },
+      "stats": {
+        "handlingId": "SEASPARROW",
+        "mass": 3500,
+        "topSpeed": 160,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.2,
+          "lateral": 12
+        },
+        "suspensionForce": 3,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "seasparrow2",
+      "name": "Sparrow",
+      "hash": 1229411063,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/seasparrow2.webp",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "handlingId": "SEASPARROW2",
+        "mass": 800,
+        "topSpeed": 160,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.2,
+          "lateral": 12
+        },
+        "suspensionForce": 3,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "seasparrow3",
+      "name": "Sparrow",
+      "hash": 1593933419,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/seasparrow3.webp",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "handlingId": "SEASPARROW2",
+        "mass": 800,
+        "topSpeed": 160,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.2,
+          "lateral": 12
+        },
+        "suspensionForce": 3,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "skylift",
+      "name": "Skylift",
+      "hash": 1044954915,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/skylift.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "SKYLIFT",
+        "mass": 10000,
+        "topSpeed": 160,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.2,
+          "lateral": 12
+        },
+        "suspensionForce": 1,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "supervolito",
+      "name": "SuperVolito",
+      "hash": 710198397,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/supervolito.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "SVOLITO",
+        "mass": 6500,
+        "topSpeed": 160,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.2,
+          "lateral": 12
+        },
+        "suspensionForce": 3.5,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "supervolito2",
+      "name": "SuperVolito Carbon",
+      "hash": 2623428164,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/supervolito2.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "SVOLITO",
+        "mass": 6500,
+        "topSpeed": 160,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.2,
+          "lateral": 12
+        },
+        "suspensionForce": 3.5,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "swift",
+      "name": "Swift",
+      "hash": 3955379698,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/swift.webp",
+      "dlc": {
+        "id": "mppilot",
+        "name": "San Andreas Flight School Update",
+        "releaseDate": "2014-08-19"
+      },
+      "stats": {
+        "handlingId": "SWIFT",
+        "mass": 6500,
+        "topSpeed": 160,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.2,
+          "lateral": 12
+        },
+        "suspensionForce": 3.5,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "swift2",
+      "name": "Swift Deluxe",
+      "hash": 1075432268,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/swift2.webp",
+      "dlc": {
+        "id": "mpluxe",
+        "name": "Ill-Gotten Gains Part 1",
+        "releaseDate": "2015-06-10"
+      },
+      "stats": {
+        "handlingId": "SWIFT2",
+        "mass": 6500,
+        "topSpeed": 160,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.2,
+          "lateral": 12
+        },
+        "suspensionForce": 3.5,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "valkyrie",
+      "name": "Valkyrie",
+      "hash": 2694714877,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/valkyrie.webp",
+      "dlc": {
+        "id": "mpheist",
+        "name": "The Heists Update",
+        "releaseDate": "2015-03-10"
+      },
+      "stats": {
+        "handlingId": "VALKYR",
+        "mass": 6500,
+        "topSpeed": 165,
+        "driveForce": 0.33,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.6,
+          "min": 1.2,
+          "lateral": 20
+        },
+        "suspensionForce": 3,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "valkyrie2",
+      "name": "Valkyrie MOD.0",
+      "hash": 1543134283,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/valkyrie2.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "VALKYR2",
+        "mass": 6500,
+        "topSpeed": 165,
+        "driveForce": 0.33,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.6,
+          "min": 1.2,
+          "lateral": 20
+        },
+        "suspensionForce": 3,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "volatus",
+      "name": "Volatus",
+      "hash": 2449479409,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/volatus.webp",
+      "dlc": {
+        "id": "mpexecutive",
+        "name": "Further Adventures in Finance and Felony",
+        "releaseDate": "2016-06-07"
+      },
+      "stats": {
+        "handlingId": "VOLATUS",
+        "mass": 8000,
+        "topSpeed": 160,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.2,
+          "lateral": 12
+        },
+        "suspensionForce": 3.5,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    }
+  ]
+}

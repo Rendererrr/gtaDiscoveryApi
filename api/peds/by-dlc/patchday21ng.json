@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "peds",
+    "label": "Peds",
+    "urlPattern": "{cdnBase}/assets/peds/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate null for patch-day additions)."
+  },
+  "group": {
+    "id": "patchday21ng",
+    "name": "Patch Day 21",
+    "releaseDate": null,
+    "key": "patchday21ng",
+    "slug": "patchday21ng",
+    "count": 1
+  },
+  "count": 1,
+  "items": [
+    {
+      "id": "a_f_o_genstreet_01",
+      "name": "a_f_o_genstreet_01",
+      "hash": 1640504453,
+      "category": "Ambient female",
+      "dlc": {
+        "id": "patchday21ng",
+        "name": "Patch Day 21",
+        "releaseDate": null
+      },
+      "props": "1 prop",
+      "components": "5 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/a_f_o_genstreet_01.webp"
+    }
+  ]
+}

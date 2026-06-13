@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "peds",
+    "label": "Peds",
+    "urlPattern": "{cdnBase}/assets/peds/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate null for patch-day additions)."
+  },
+  "group": {
+    "id": "patchday27ng",
+    "name": "Patch Day 27",
+    "releaseDate": null,
+    "key": "patchday27ng",
+    "slug": "patchday27ng",
+    "count": 1
+  },
+  "count": 1,
+  "items": [
+    {
+      "id": "cs_chrisformage",
+      "name": "cs_chrisformage",
+      "hash": 3253960934,
+      "category": "Cutscene",
+      "dlc": {
+        "id": "patchday27ng",
+        "name": "Patch Day 27",
+        "releaseDate": null
+      },
+      "props": "0 prop",
+      "components": "8 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/cs_chrisformage.webp"
+    }
+  ]
+}

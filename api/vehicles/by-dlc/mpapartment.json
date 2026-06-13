@@ -1,0 +1,797 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "id": "mpapartment",
+    "name": "Executives and Other Criminals",
+    "releaseDate": "2015-12-15",
+    "key": "mpapartment",
+    "slug": "mpapartment",
+    "count": 25
+  },
+  "count": 25,
+  "items": [
+    {
+      "id": "cog55",
+      "name": "Cognoscenti 55",
+      "hash": 906642318,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/cog55.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "COG55",
+        "mass": 2500,
+        "topSpeed": 145,
+        "driveForce": 0.265,
+        "brakeForce": 0.57,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.2,
+          "min": 1.75,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "cog552",
+      "name": "Cognoscenti 55 (Armored)",
+      "hash": 704435172,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/cog552.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "COG552",
+        "mass": 2600,
+        "topSpeed": 145,
+        "driveForce": 0.26,
+        "brakeForce": 0.55,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.2,
+          "min": 1.75,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.85,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "cognoscenti",
+      "name": "Cognoscenti",
+      "hash": 2264796000,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/cognoscenti.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "COGNOSC",
+        "mass": 2700,
+        "topSpeed": 140,
+        "driveForce": 0.26,
+        "brakeForce": 0.55,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.1,
+          "min": 1.65,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "cognoscenti2",
+      "name": "Cognoscenti (Armored)",
+      "hash": 3690124666,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/cognoscenti2.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "COGNOSC2",
+        "mass": 2800,
+        "topSpeed": 140,
+        "driveForce": 0.255,
+        "brakeForce": 0.52,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.1,
+          "min": 1.65,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.85,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "limo2",
+      "name": "Turreted Limo",
+      "hash": 4180339789,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/limo2.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "LIMO2",
+        "mass": 3750,
+        "topSpeed": 125,
+        "driveForce": 0.27,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.6,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.17,
+          "min": 1.85,
+          "lateral": 16.5
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "schafter5",
+      "name": "Schafter V12 (Armored)",
+      "hash": 3406724313,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/schafter5.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "SCHAFTER5",
+        "mass": 1650,
+        "topSpeed": 150,
+        "driveForce": 0.29,
+        "brakeForce": 0.92,
+        "handBrakeForce": 0.6,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.55,
+          "min": 2.25,
+          "lateral": 20.5
+        },
+        "suspensionForce": 2.75,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "schafter6",
+      "name": "Schafter LWB (Armored)",
+      "hash": 1922255844,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/schafter6.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "SCHAFTER6",
+        "mass": 2000,
+        "topSpeed": 142,
+        "driveForce": 0.185,
+        "brakeForce": 0.82,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.55,
+          "min": 2.25,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.4,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "baller3",
+      "name": "Baller LE",
+      "hash": 1878062887,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/baller3.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "BALLER3",
+        "mass": 2175,
+        "topSpeed": 135,
+        "driveForce": 0.275,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.32,
+        "gears": 5,
+        "driveBiasFront": 0.6,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2,
+          "min": 1.65,
+          "lateral": 19
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "baller4",
+      "name": "Baller LE LWB",
+      "hash": 634118882,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/baller4.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "BALLER4",
+        "mass": 2450,
+        "topSpeed": 135,
+        "driveForce": 0.27,
+        "brakeForce": 0.57,
+        "handBrakeForce": 0.32,
+        "gears": 5,
+        "driveBiasFront": 0.6,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2,
+          "min": 1.65,
+          "lateral": 19
+        },
+        "suspensionForce": 1.2,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "baller5",
+      "name": "Baller LE (Armored)",
+      "hash": 470404958,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/baller5.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "BALLER5",
+        "mass": 2275,
+        "topSpeed": 135,
+        "driveForce": 0.27,
+        "brakeForce": 0.58,
+        "handBrakeForce": 0.32,
+        "gears": 5,
+        "driveBiasFront": 0.6,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2,
+          "min": 1.63,
+          "lateral": 19
+        },
+        "suspensionForce": 1.5,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "baller6",
+      "name": "Baller LE LWB (Armored)",
+      "hash": 666166960,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/baller6.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "BALLER6",
+        "mass": 2550,
+        "topSpeed": 135,
+        "driveForce": 0.265,
+        "brakeForce": 0.55,
+        "handBrakeForce": 0.32,
+        "gears": 5,
+        "driveBiasFront": 0.6,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2,
+          "min": 1.63,
+          "lateral": 19
+        },
+        "suspensionForce": 1.3,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "nightshade",
+      "name": "Nightshade",
+      "hash": 2351681756,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/nightshade.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "NITESHAD",
+        "mass": 1400,
+        "topSpeed": 145,
+        "driveForce": 0.25,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.45,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.25,
+          "min": 1.85,
+          "lateral": 20.5
+        },
+        "suspensionForce": 1.9,
+        "steeringLock": 41,
+        "monetaryValue": 130000
+      }
+    },
+    {
+      "id": "mamba",
+      "name": "Mamba",
+      "hash": 2634021974,
+      "category": "Sports Classic",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/mamba.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "MAMBA",
+        "mass": 1160,
+        "topSpeed": 148,
+        "driveForce": 0.34,
+        "brakeForce": 0.5,
+        "handBrakeForce": 0.55,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.5,
+          "min": 2.05,
+          "lateral": 20.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 41,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "schafter3",
+      "name": "Schafter V12",
+      "hash": 2809443750,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/schafter3.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "SCHAFTER3",
+        "mass": 1500,
+        "topSpeed": 150,
+        "driveForce": 0.3,
+        "brakeForce": 0.95,
+        "handBrakeForce": 0.6,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.55,
+          "min": 2.25,
+          "lateral": 20.5
+        },
+        "suspensionForce": 2.8,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "schafter4",
+      "name": "Schafter LWB",
+      "hash": 1489967196,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/schafter4.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "SCHAFTER4",
+        "mass": 1850,
+        "topSpeed": 142,
+        "driveForce": 0.2,
+        "brakeForce": 0.85,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.55,
+          "min": 2.25,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "verlierer2",
+      "name": "Verlierer",
+      "hash": 1102544804,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/verlierer2.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "VERLIER",
+        "mass": 1100,
+        "topSpeed": 150,
+        "driveForce": 0.335,
+        "brakeForce": 1,
+        "handBrakeForce": 0.7,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.43,
+          "min": 2.35,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.5,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "dinghy4",
+      "name": "Dinghy",
+      "hash": 867467158,
+      "category": "Boats",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dinghy4.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "DINGHY",
+        "mass": 2000,
+        "topSpeed": 125,
+        "driveForce": 16,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0,
+          "min": 0,
+          "lateral": 6
+        },
+        "suspensionForce": 1,
+        "steeringLock": 35,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "seashark3",
+      "name": "Seashark",
+      "hash": 3983945033,
+      "category": "Boats",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/seashark3.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "SEASHARK",
+        "mass": 400,
+        "topSpeed": 130,
+        "driveForce": 12.5,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0,
+          "min": 0,
+          "lateral": 120
+        },
+        "suspensionForce": 0,
+        "steeringLock": 35,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "speeder2",
+      "name": "Speeder",
+      "hash": 437538602,
+      "category": "Boats",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/speeder2.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "speeder",
+        "mass": 2400,
+        "topSpeed": 133,
+        "driveForce": 16,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0,
+          "min": 0,
+          "lateral": 6
+        },
+        "suspensionForce": 1,
+        "steeringLock": 35,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "toro2",
+      "name": "Toro",
+      "hash": 908897389,
+      "category": "Boats",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/toro2.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "TORO",
+        "mass": 1100,
+        "topSpeed": 133,
+        "driveForce": 18,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0,
+          "min": 0,
+          "lateral": 6
+        },
+        "suspensionForce": 1,
+        "steeringLock": 33,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "tropic2",
+      "name": "Tropic",
+      "hash": 1448677353,
+      "category": "Boats",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tropic2.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "TROPIC",
+        "mass": 2000,
+        "topSpeed": 115,
+        "driveForce": 13,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0,
+          "min": 0,
+          "lateral": 6
+        },
+        "suspensionForce": 1,
+        "steeringLock": 35,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "cargobob4",
+      "name": "Cargobob",
+      "hash": 2025593404,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/cargobob4.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "cargobob",
+        "mass": 15000,
+        "topSpeed": 160,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.2,
+          "lateral": 12
+        },
+        "suspensionForce": 2,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "supervolito",
+      "name": "SuperVolito",
+      "hash": 710198397,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/supervolito.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "SVOLITO",
+        "mass": 6500,
+        "topSpeed": 160,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.2,
+          "lateral": 12
+        },
+        "suspensionForce": 3.5,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "supervolito2",
+      "name": "SuperVolito Carbon",
+      "hash": 2623428164,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/supervolito2.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "SVOLITO",
+        "mass": 6500,
+        "topSpeed": 160,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.2,
+          "lateral": 12
+        },
+        "suspensionForce": 3.5,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "valkyrie2",
+      "name": "Valkyrie MOD.0",
+      "hash": 1543134283,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/valkyrie2.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "VALKYR2",
+        "mass": 6500,
+        "topSpeed": 165,
+        "driveForce": 0.33,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.6,
+          "min": 1.2,
+          "lateral": 20
+        },
+        "suspensionForce": 3,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    }
+  ]
+}

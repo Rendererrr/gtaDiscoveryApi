@@ -1,0 +1,1787 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "name": "Super",
+    "key": "Super",
+    "slug": "super",
+    "count": 57
+  },
+  "count": 57,
+  "items": [
+    {
+      "id": "adder",
+      "name": "Adder",
+      "hash": 3078201489,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/adder.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "ADDER",
+        "mass": 1800,
+        "topSpeed": 160,
+        "driveForce": 0.32,
+        "brakeForce": 1,
+        "handBrakeForce": 0.7,
+        "gears": 6,
+        "driveBiasFront": 0.2,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.5,
+          "min": 2.38,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.4,
+        "steeringLock": 42,
+        "monetaryValue": 80000
+      }
+    },
+    {
+      "id": "autarch",
+      "name": "Autarch",
+      "hash": 3981782132,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/autarch.webp",
+      "dlc": {
+        "id": "mpchristmas2017",
+        "name": "The Doomsday Heist",
+        "releaseDate": "2017-12-12"
+      },
+      "stats": {
+        "handlingId": "AUTARCH",
+        "mass": 1300,
+        "topSpeed": 161,
+        "driveForce": 0.377,
+        "brakeForce": 1.2,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.71,
+          "min": 2.62,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "banshee2",
+      "name": "Banshee 900R",
+      "hash": 633712403,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/banshee2.webp",
+      "dlc": {
+        "id": "mpjanuary2016",
+        "name": "January 2016 Update",
+        "releaseDate": "2016-01-29"
+      },
+      "stats": {
+        "handlingId": "BANSHEE2",
+        "mass": 1150,
+        "topSpeed": 150,
+        "driveForce": 0.347,
+        "brakeForce": 1,
+        "handBrakeForce": 0.7,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.5,
+          "min": 2.38,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.1,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "bullet",
+      "name": "Bullet",
+      "hash": 2598821281,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/bullet.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "BULLET",
+        "mass": 1100,
+        "topSpeed": 152,
+        "driveForce": 0.33,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.55,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.55,
+          "min": 2.3,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.5,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "champion",
+      "name": "Champion",
+      "hash": 3379732821,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/champion.webp",
+      "dlc": {
+        "id": "mpsecurity",
+        "name": "The Contract",
+        "releaseDate": "2021-12-15"
+      },
+      "stats": {
+        "handlingId": "CHAMPION",
+        "mass": 1500,
+        "topSpeed": 160.8,
+        "driveForce": 0.359,
+        "brakeForce": 1.15,
+        "handBrakeForce": 0.65,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.57,
+          "min": 2.38,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.1,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "cheetah",
+      "name": "Cheetah",
+      "hash": 2983812512,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/cheetah.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "CHEETAH",
+        "mass": 1400,
+        "topSpeed": 153,
+        "driveForce": 0.32,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.53,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.65,
+          "min": 2.6,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.6,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "cyclone",
+      "name": "Cyclone",
+      "hash": 1392481335,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/cyclone.webp",
+      "dlc": {
+        "id": "mpsmuggler",
+        "name": "Smuggler's Run",
+        "releaseDate": "2017-08-29"
+      },
+      "stats": {
+        "handlingId": "CYCLONE",
+        "mass": 1800,
+        "topSpeed": 158,
+        "driveForce": 0.273,
+        "brakeForce": 1.2,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.25,
+          "min": 2.17,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.25,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "deveste",
+      "name": "Deveste Eight",
+      "hash": 1591739866,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/deveste.webp",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "handlingId": "DEVESTE",
+        "mass": 3000,
+        "topSpeed": 170,
+        "driveForce": 0.42,
+        "brakeForce": 1,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.73,
+          "min": 2.52,
+          "lateral": 14.5
+        },
+        "suspensionForce": 1.5,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "emerus",
+      "name": "Emerus",
+      "hash": 1323778901,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/emerus.webp",
+      "dlc": {
+        "id": "mpvinewood",
+        "name": "The Diamond Casino & Resort",
+        "releaseDate": "2019-07-23"
+      },
+      "stats": {
+        "handlingId": "EMERUS",
+        "mass": 1198,
+        "topSpeed": 161.3,
+        "driveForce": 0.378,
+        "brakeForce": 1.2,
+        "handBrakeForce": 0.65,
+        "gears": 7,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.78,
+          "min": 2.58,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "entity2",
+      "name": "Entity XXR",
+      "hash": 2174267100,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/entity2.webp",
+      "dlc": {
+        "id": "mpassault",
+        "name": "Southern San Andreas Super Sport Series",
+        "releaseDate": "2018-03-20"
+      },
+      "stats": {
+        "handlingId": "ENTITY2",
+        "mass": 1400,
+        "topSpeed": 170,
+        "driveForce": 0.355,
+        "brakeForce": 1,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.77,
+          "min": 2.6,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.3,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "entity3",
+      "name": "Entity MT",
+      "hash": 1748565021,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/entity3.webp",
+      "dlc": {
+        "id": "mpchristmas3",
+        "name": "Los Santos Drug Wars",
+        "releaseDate": "2022-12-13"
+      },
+      "stats": {
+        "handlingId": "ENTITY3",
+        "mass": 1420,
+        "topSpeed": 172,
+        "driveForce": 0.354,
+        "brakeForce": 1,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.78,
+          "min": 2.59,
+          "lateral": 22.6
+        },
+        "suspensionForce": 1.45,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "entityxf",
+      "name": "Entity XF",
+      "hash": 3003014393,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/entityxf.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "ENTITYXF",
+        "mass": 1500,
+        "topSpeed": 155,
+        "driveForce": 0.33,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.8,
+        "gears": 6,
+        "driveBiasFront": 0.2,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.75,
+          "min": 2.6,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 37,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "fmj",
+      "name": "FMJ",
+      "hash": 1426219628,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/fmj.webp",
+      "dlc": {
+        "id": "mpexecutive",
+        "name": "Further Adventures in Finance and Felony",
+        "releaseDate": "2016-06-07"
+      },
+      "stats": {
+        "handlingId": "FMJ",
+        "mass": 1315,
+        "topSpeed": 158.4,
+        "driveForce": 0.365,
+        "brakeForce": 1.1,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.7,
+          "min": 2.55,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "furia",
+      "name": "Furia",
+      "hash": 960812448,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/furia.webp",
+      "dlc": {
+        "id": "mpheist3",
+        "name": "The Diamond Casino Heist",
+        "releaseDate": "2019-12-12"
+      },
+      "stats": {
+        "handlingId": "FURIA",
+        "mass": 1898,
+        "topSpeed": 161.2,
+        "driveForce": 0.365,
+        "brakeForce": 1,
+        "handBrakeForce": 0.65,
+        "gears": 6,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.7,
+          "min": 2.58,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "gp1",
+      "name": "GP1",
+      "hash": 1234311532,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/gp1.webp",
+      "dlc": {
+        "id": "mpspecialraces",
+        "name": "Cunning Stunts: Special Vehicle Circuit",
+        "releaseDate": "2016-11-08"
+      },
+      "stats": {
+        "handlingId": "GP1",
+        "mass": 1100,
+        "topSpeed": 160.5,
+        "driveForce": 0.37,
+        "brakeForce": 1.2,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.68,
+          "min": 2.56,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "ignus",
+      "name": "Ignus",
+      "hash": 2850852987,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/ignus.webp",
+      "dlc": {
+        "id": "mpsecurity",
+        "name": "The Contract",
+        "releaseDate": "2021-12-15"
+      },
+      "stats": {
+        "handlingId": "IGNUS",
+        "mass": 1600,
+        "topSpeed": 160.25,
+        "driveForce": 0.384,
+        "brakeForce": 1,
+        "handBrakeForce": 0.65,
+        "gears": 7,
+        "driveBiasFront": 0.48,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.77,
+          "min": 2.6,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40.5,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "infernus",
+      "name": "Infernus",
+      "hash": 418536135,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/infernus.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "INFERNUS",
+        "mass": 1200,
+        "topSpeed": 150,
+        "driveForce": 0.34,
+        "brakeForce": 0.5,
+        "handBrakeForce": 0.7,
+        "gears": 6,
+        "driveBiasFront": 0.2,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.65,
+          "min": 2.45,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 30,
+        "monetaryValue": 100000
+      }
+    },
+    {
+      "id": "italigtb",
+      "name": "Itali GTB",
+      "hash": 2246633323,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/italigtb.webp",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "stats": {
+        "handlingId": "ITALIGTB",
+        "mass": 1800,
+        "topSpeed": 159,
+        "driveForce": 0.337,
+        "brakeForce": 1.1,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0.3,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.5,
+          "min": 2.37,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "italigtb2",
+      "name": "Itali GTB Custom",
+      "hash": 3812247419,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/italigtb2.webp",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "stats": {
+        "handlingId": "ITALIGTB2",
+        "mass": 1600,
+        "topSpeed": 159.2,
+        "driveForce": 0.34,
+        "brakeForce": 1.2,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0.3,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.55,
+          "min": 2.47,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.75,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "krieger",
+      "name": "Krieger",
+      "hash": 3630826055,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/krieger.webp",
+      "dlc": {
+        "id": "mpvinewood",
+        "name": "The Diamond Casino & Resort",
+        "releaseDate": "2019-07-23"
+      },
+      "stats": {
+        "handlingId": "KRIEGER",
+        "mass": 1250,
+        "topSpeed": 161.8,
+        "driveForce": 0.374,
+        "brakeForce": 1.12,
+        "handBrakeForce": 0.55,
+        "gears": 7,
+        "driveBiasFront": 0.2,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.78,
+          "min": 2.68,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "le7b",
+      "name": "RE-7B",
+      "hash": 3062131285,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/le7b.webp",
+      "dlc": {
+        "id": "mpstunt",
+        "name": "Cunning Stunts",
+        "releaseDate": "2016-07-12"
+      },
+      "stats": {
+        "handlingId": "LE7B",
+        "mass": 880,
+        "topSpeed": 161,
+        "driveForce": 0.371,
+        "brakeForce": 1.1,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.68,
+          "min": 2.55,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "lm87",
+      "name": "LM87",
+      "hash": 4284049613,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/lm87.webp",
+      "dlc": {
+        "id": "mpsum2",
+        "name": "The Criminal Enterprises",
+        "releaseDate": "2022-07-26"
+      },
+      "stats": {
+        "handlingId": "LM87",
+        "mass": 900,
+        "topSpeed": 162.85,
+        "driveForce": 0.377,
+        "brakeForce": 1.35,
+        "handBrakeForce": 0.75,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.77,
+          "min": 2.63,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "nero",
+      "name": "Nero",
+      "hash": 1034187331,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/nero.webp",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "stats": {
+        "handlingId": "NERO",
+        "mass": 1995,
+        "topSpeed": 160,
+        "driveForce": 0.338,
+        "brakeForce": 1,
+        "handBrakeForce": 0.7,
+        "gears": 6,
+        "driveBiasFront": 0.2,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.65,
+          "min": 2.48,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.4,
+        "steeringLock": 42,
+        "monetaryValue": 80000
+      }
+    },
+    {
+      "id": "nero2",
+      "name": "Nero Custom",
+      "hash": 1093792632,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/nero2.webp",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "stats": {
+        "handlingId": "NERO2",
+        "mass": 1800,
+        "topSpeed": 160.2,
+        "driveForce": 0.34,
+        "brakeForce": 1.1,
+        "handBrakeForce": 0.7,
+        "gears": 6,
+        "driveBiasFront": 0.2,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.67,
+          "min": 2.58,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.6,
+        "steeringLock": 42,
+        "monetaryValue": 80000
+      }
+    },
+    {
+      "id": "osiris",
+      "name": "Osiris",
+      "hash": 1987142870,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/osiris.webp",
+      "dlc": {
+        "id": "mpluxe",
+        "name": "Ill-Gotten Gains Part 1",
+        "releaseDate": "2015-06-10"
+      },
+      "stats": {
+        "handlingId": "OSIRIS",
+        "mass": 1350,
+        "topSpeed": 159.1,
+        "driveForce": 0.36,
+        "brakeForce": 1.05,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0.3,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.66,
+          "min": 2.54,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "penetrator",
+      "name": "Penetrator",
+      "hash": 2536829930,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/penetrator.webp",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "stats": {
+        "handlingId": "PENETRATOR",
+        "mass": 1470,
+        "topSpeed": 159.5,
+        "driveForce": 0.3,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.5,
+        "gears": 5,
+        "driveBiasFront": 0.3,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.58,
+          "min": 2.25,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.25,
+        "steeringLock": 38,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "pfister811",
+      "name": "811",
+      "hash": 2465164804,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/pfister811.webp",
+      "dlc": {
+        "id": "mpexecutive",
+        "name": "Further Adventures in Finance and Felony",
+        "releaseDate": "2016-06-07"
+      },
+      "stats": {
+        "handlingId": "pfister811",
+        "mass": 1600,
+        "topSpeed": 159.3,
+        "driveForce": 0.356,
+        "brakeForce": 1.12,
+        "handBrakeForce": 0.53,
+        "gears": 6,
+        "driveBiasFront": 0.2,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.69,
+          "min": 2.57,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.7,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "prototipo",
+      "name": "X80 Proto",
+      "hash": 2123327359,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/prototipo.webp",
+      "dlc": {
+        "id": "mpexecutive",
+        "name": "Further Adventures in Finance and Felony",
+        "releaseDate": "2016-06-07"
+      },
+      "stats": {
+        "handlingId": "PROTOTIPO",
+        "mass": 900,
+        "topSpeed": 161,
+        "driveForce": 0.375,
+        "brakeForce": 1.1,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0.3,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.7,
+          "min": 2.57,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "reaper",
+      "name": "Reaper",
+      "hash": 234062309,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/reaper.webp",
+      "dlc": {
+        "id": "mpexecutive",
+        "name": "Further Adventures in Finance and Felony",
+        "releaseDate": "2016-06-07"
+      },
+      "stats": {
+        "handlingId": "REAPER",
+        "mass": 1300,
+        "topSpeed": 159,
+        "driveForce": 0.365,
+        "brakeForce": 1.1,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.67,
+          "min": 2.54,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "s80",
+      "name": "S80RR",
+      "hash": 3970348707,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/s80.webp",
+      "dlc": {
+        "id": "mpvinewood",
+        "name": "The Diamond Casino & Resort",
+        "releaseDate": "2019-07-23"
+      },
+      "stats": {
+        "handlingId": "S80",
+        "mass": 900,
+        "topSpeed": 162.25,
+        "driveForce": 0.372,
+        "brakeForce": 1.25,
+        "handBrakeForce": 0.75,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.77,
+          "min": 2.63,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "sc1",
+      "name": "SC1",
+      "hash": 1352136073,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/sc1.webp",
+      "dlc": {
+        "id": "mpchristmas2017",
+        "name": "The Doomsday Heist",
+        "releaseDate": "2017-12-12"
+      },
+      "stats": {
+        "handlingId": "SC1",
+        "mass": 1400,
+        "topSpeed": 159,
+        "driveForce": 0.31,
+        "brakeForce": 1.12,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.65,
+          "min": 2.5,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "scramjet",
+      "name": "Scramjet",
+      "hash": 3656405053,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/scramjet.webp",
+      "dlc": {
+        "id": "mpbattle",
+        "name": "After Hours",
+        "releaseDate": "2018-07-24"
+      },
+      "stats": {
+        "handlingId": "SCRAMJET",
+        "mass": 1600,
+        "topSpeed": 160,
+        "driveForce": 0.4,
+        "brakeForce": 0.95,
+        "handBrakeForce": 0.45,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.7,
+          "min": 2.25,
+          "lateral": 20.5
+        },
+        "suspensionForce": 2.4,
+        "steeringLock": 40,
+        "monetaryValue": 130000
+      }
+    },
+    {
+      "id": "sheava",
+      "name": "ETR1",
+      "hash": 819197656,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/sheava.webp",
+      "dlc": {
+        "id": "mpstunt",
+        "name": "Cunning Stunts",
+        "releaseDate": "2016-07-12"
+      },
+      "stats": {
+        "handlingId": "SHEAVA",
+        "mass": 1400,
+        "topSpeed": 158.5,
+        "driveForce": 0.33,
+        "brakeForce": 1,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.65,
+          "min": 2.55,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "sultanrs",
+      "name": "Sultan RS",
+      "hash": 3999278268,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/sultanrs.webp",
+      "dlc": {
+        "id": "mpjanuary2016",
+        "name": "January 2016 Update",
+        "releaseDate": "2016-01-29"
+      },
+      "stats": {
+        "handlingId": "SULTANRS",
+        "mass": 1250,
+        "topSpeed": 148,
+        "driveForce": 0.33,
+        "brakeForce": 1,
+        "handBrakeForce": 0.7,
+        "gears": 5,
+        "driveBiasFront": 0.25,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.5,
+          "min": 2.15,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.8,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "suzume",
+      "name": "Suzume",
+      "hash": 687627128,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/suzume.webp",
+      "dlc": {
+        "id": "mp2025_01",
+        "name": "Money Fronts",
+        "releaseDate": "2025-06-17"
+      },
+      "stats": {
+        "handlingId": "SUZUME",
+        "mass": 1900,
+        "topSpeed": 170,
+        "driveForce": 0.23,
+        "brakeForce": 0.945,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0.25,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.52,
+          "min": 2.41,
+          "lateral": 22
+        },
+        "suspensionForce": 2.45,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "t20",
+      "name": "T20",
+      "hash": 1663218586,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/t20.webp",
+      "dlc": {
+        "id": "mpluxe2",
+        "name": "Ill-Gotten Gains Part 2",
+        "releaseDate": "2015-07-08"
+      },
+      "stats": {
+        "handlingId": "T20",
+        "mass": 1395,
+        "topSpeed": 159.3,
+        "driveForce": 0.365,
+        "brakeForce": 1.1,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0.3,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.68,
+          "min": 2.55,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "taipan",
+      "name": "Taipan",
+      "hash": 3160260734,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/taipan.webp",
+      "dlc": {
+        "id": "mpassault",
+        "name": "Southern San Andreas Super Sport Series",
+        "releaseDate": "2018-03-20"
+      },
+      "stats": {
+        "handlingId": "TAIPAN",
+        "mass": 1400,
+        "topSpeed": 170.25,
+        "driveForce": 0.357,
+        "brakeForce": 1,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.65,
+          "min": 2.45,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1,
+        "steeringLock": 37,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "tempesta",
+      "name": "Tempesta",
+      "hash": 272929391,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tempesta.webp",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "stats": {
+        "handlingId": "TEMPESTA",
+        "mass": 1422,
+        "topSpeed": 157,
+        "driveForce": 0.36,
+        "brakeForce": 1,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0.3,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.65,
+          "min": 2.55,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "tezeract",
+      "name": "Tezeract",
+      "hash": 1031562256,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tezeract.webp",
+      "dlc": {
+        "id": "mpassault",
+        "name": "Southern San Andreas Super Sport Series",
+        "releaseDate": "2018-03-20"
+      },
+      "stats": {
+        "handlingId": "TEZERACT",
+        "mass": 1800,
+        "topSpeed": 169,
+        "driveForce": 0.138,
+        "brakeForce": 1.2,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0.3,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.6,
+          "min": 2.45,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "thrax",
+      "name": "Thrax",
+      "hash": 1044193113,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/thrax.webp",
+      "dlc": {
+        "id": "mpvinewood",
+        "name": "The Diamond Casino & Resort",
+        "releaseDate": "2019-07-23"
+      },
+      "stats": {
+        "handlingId": "THRAX",
+        "mass": 1960,
+        "topSpeed": 158.5,
+        "driveForce": 0.34,
+        "brakeForce": 1.2,
+        "handBrakeForce": 0.92,
+        "gears": 7,
+        "driveBiasFront": 0.45,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.72,
+          "min": 2.65,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.6,
+        "steeringLock": 42,
+        "monetaryValue": 80000
+      }
+    },
+    {
+      "id": "tigon",
+      "name": "Tigon",
+      "hash": 2936769864,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tigon.webp",
+      "dlc": {
+        "id": "mpsum",
+        "name": "Los Santos Summer Special",
+        "releaseDate": "2020-08-11"
+      },
+      "stats": {
+        "handlingId": "Tigon",
+        "mass": 1250,
+        "topSpeed": 161.1,
+        "driveForce": 0.38,
+        "brakeForce": 1.12,
+        "handBrakeForce": 0.82,
+        "gears": 7,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.78,
+          "min": 2.67,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "torero2",
+      "name": "Torero XO",
+      "hash": 4129572538,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/torero2.webp",
+      "dlc": {
+        "id": "mpsum2",
+        "name": "The Criminal Enterprises",
+        "releaseDate": "2022-07-26"
+      },
+      "stats": {
+        "handlingId": "TORERO2",
+        "mass": 1595,
+        "topSpeed": 161.25,
+        "driveForce": 0.385,
+        "brakeForce": 1.15,
+        "handBrakeForce": 0.65,
+        "gears": 7,
+        "driveBiasFront": 0.48,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.77,
+          "min": 2.58,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40.5,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "turismo3",
+      "name": "Turismo Omaggio",
+      "hash": 4171974011,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/turismo3.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "TURISMO3",
+        "mass": 1435,
+        "topSpeed": 153,
+        "driveForce": 0.374,
+        "brakeForce": 1.185,
+        "handBrakeForce": 0.77,
+        "gears": 7,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.76,
+          "min": 2.62,
+          "lateral": 23.25
+        },
+        "suspensionForce": 2.29,
+        "steeringLock": 42.75,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "turismor",
+      "name": "Turismo R",
+      "hash": 408192225,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/turismor.webp",
+      "dlc": {
+        "id": "mpbusiness",
+        "name": "The Business Update",
+        "releaseDate": "2014-03-04"
+      },
+      "stats": {
+        "handlingId": "turismor",
+        "mass": 1350,
+        "topSpeed": 155,
+        "driveForce": 0.353,
+        "brakeForce": 1.2,
+        "handBrakeForce": 0.65,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.64,
+          "min": 2.45,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.6,
+        "steeringLock": 42,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "tyrant",
+      "name": "Tyrant",
+      "hash": 3918533058,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tyrant.webp",
+      "dlc": {
+        "id": "mpassault",
+        "name": "Southern San Andreas Super Sport Series",
+        "releaseDate": "2018-03-20"
+      },
+      "stats": {
+        "handlingId": "TYRANT",
+        "mass": 1175,
+        "topSpeed": 165,
+        "driveForce": 0.34,
+        "brakeForce": 1,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.75,
+          "min": 2.65,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.2,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "tyrus",
+      "name": "Tyrus",
+      "hash": 2067820283,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tyrus.webp",
+      "dlc": {
+        "id": "mpstunt",
+        "name": "Cunning Stunts",
+        "releaseDate": "2016-07-12"
+      },
+      "stats": {
+        "handlingId": "TYRUS",
+        "mass": 915,
+        "topSpeed": 161,
+        "driveForce": 0.371,
+        "brakeForce": 1.2,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.69,
+          "min": 2.56,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "vacca",
+      "name": "Vacca",
+      "hash": 338562499,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/vacca.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "VACCA",
+        "mass": 1200,
+        "topSpeed": 152,
+        "driveForce": 0.3,
+        "brakeForce": 1,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.6,
+          "min": 2.5,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "vagner",
+      "name": "Vagner",
+      "hash": 1939284556,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/vagner.webp",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "handlingId": "VAGNER",
+        "mass": 1000,
+        "topSpeed": 160.9,
+        "driveForce": 0.37,
+        "brakeForce": 1.12,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.76,
+          "min": 2.67,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "vigilante",
+      "name": "Vigilante",
+      "hash": 3052358707,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/vigilante.webp",
+      "dlc": {
+        "id": "mpsmuggler",
+        "name": "Smuggler's Run",
+        "releaseDate": "2017-08-29"
+      },
+      "stats": {
+        "handlingId": "VIGILANTE",
+        "mass": 7500,
+        "topSpeed": 160.02,
+        "driveForce": 0.375,
+        "brakeForce": 1.02,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.77,
+          "min": 2.69,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.25,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "virtue",
+      "name": "Virtue",
+      "hash": 669204833,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/virtue.webp",
+      "dlc": {
+        "id": "mpchristmas3",
+        "name": "Los Santos Drug Wars",
+        "releaseDate": "2022-12-13"
+      },
+      "stats": {
+        "handlingId": "VIRTUE",
+        "mass": 1680,
+        "topSpeed": 160.65,
+        "driveForce": 0.342,
+        "brakeForce": 1.28,
+        "handBrakeForce": 0.6,
+        "gears": 1,
+        "driveBiasFront": 0.25,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.59,
+          "min": 2.41,
+          "lateral": 23.25
+        },
+        "suspensionForce": 2.25,
+        "steeringLock": 41.2,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "visione",
+      "name": "Visione",
+      "hash": 3296789504,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/visione.webp",
+      "dlc": {
+        "id": "mpsmuggler",
+        "name": "Smuggler's Run",
+        "releaseDate": "2017-08-29"
+      },
+      "stats": {
+        "handlingId": "VISIONE",
+        "mass": 1400,
+        "topSpeed": 160,
+        "driveForce": 0.355,
+        "brakeForce": 1.02,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.75,
+          "min": 2.65,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "voltic",
+      "name": "Voltic",
+      "hash": 2672523198,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/voltic.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "VOLTIC",
+        "mass": 1030,
+        "topSpeed": 145,
+        "driveForce": 0.18,
+        "brakeForce": 1,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.53,
+          "min": 2.38,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 42,
+        "monetaryValue": 80000
+      }
+    },
+    {
+      "id": "voltic2",
+      "name": "Rocket Voltic",
+      "hash": 989294410,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/voltic2.webp",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "stats": {
+        "handlingId": "VOLTIC2",
+        "mass": 1200,
+        "topSpeed": 145,
+        "driveForce": 0.18,
+        "brakeForce": 1,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.53,
+          "min": 2.38,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 42,
+        "monetaryValue": 80000
+      }
+    },
+    {
+      "id": "xa21",
+      "name": "XA-21",
+      "hash": 917809321,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/xa21.webp",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "handlingId": "XA21",
+        "mass": 1450,
+        "topSpeed": 159.2,
+        "driveForce": 0.364,
+        "brakeForce": 1.1,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.68,
+          "min": 2.55,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "zeno",
+      "name": "Zeno",
+      "hash": 655665811,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/zeno.webp",
+      "dlc": {
+        "id": "mpsecurity",
+        "name": "The Contract",
+        "releaseDate": "2021-12-15"
+      },
+      "stats": {
+        "handlingId": "ZENO",
+        "mass": 1250,
+        "topSpeed": 162.8,
+        "driveForce": 0.388,
+        "brakeForce": 1.2,
+        "handBrakeForce": 0.5,
+        "gears": 7,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.75,
+          "min": 2.48,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 39.75,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "zentorno",
+      "name": "Zentorno",
+      "hash": 2891838741,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/zentorno.webp",
+      "dlc": {
+        "id": "mpbusiness2",
+        "name": "The High Life Update",
+        "releaseDate": "2014-05-13"
+      },
+      "stats": {
+        "handlingId": "zentorno",
+        "mass": 1500,
+        "topSpeed": 159,
+        "driveForce": 0.354,
+        "brakeForce": 1,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0.3,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.65,
+          "min": 2.55,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "zorrusso",
+      "name": "Zorrusso",
+      "hash": 3612858749,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/zorrusso.webp",
+      "dlc": {
+        "id": "mpvinewood",
+        "name": "The Diamond Casino & Resort",
+        "releaseDate": "2019-07-23"
+      },
+      "stats": {
+        "handlingId": "ZORRUSSO",
+        "mass": 1300,
+        "topSpeed": 161,
+        "driveForce": 0.374,
+        "brakeForce": 1.2,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.73,
+          "min": 2.64,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    }
+  ]
+}

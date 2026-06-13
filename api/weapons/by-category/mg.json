@@ -1,0 +1,462 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "weapons",
+    "label": "Weapons",
+    "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
+    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
+  },
+  "group": {
+    "name": "MG",
+    "key": "MG",
+    "slug": "mg",
+    "count": 3
+  },
+  "count": 3,
+  "items": [
+    {
+      "id": "combatmg",
+      "name": "Combat MG",
+      "codename": "weapon_combatmg",
+      "hash": 2144741730,
+      "category": "MG",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Combat-mg-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 55,
+        "fireRate": 65,
+        "accuracy": 45,
+        "range": 60,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_COMBATMG_CLIP_01",
+          "label": "Default Clip",
+          "hash": 3791631178,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_COMBATMG_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 3603274966,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MEDIUM",
+          "label": "Scope",
+          "hash": 2698550338,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP",
+          "label": "Grip",
+          "hash": 202788691,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_COMBATMG_VARMOD_LOWRIDER",
+          "label": "Etched Gun Metal Finish",
+          "hash": 2466172125,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_GUNRUN_MK2_UPGRADE",
+          "label": "Mk II",
+          "hash": 1623028892,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "combatmg_mk2",
+      "name": "Combat MG Mk II",
+      "codename": "weapon_combatmg_mk2",
+      "hash": 3686625920,
+      "category": "MG",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Combat-mg-mk2-icon.png",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "damage": 57,
+        "fireRate": 65,
+        "accuracy": 45,
+        "range": 60,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_COMBATMG_MK2_CLIP_01",
+          "label": "Default Clip",
+          "hash": 1227564412,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_COMBATMG_MK2_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 400507625,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_COMBATMG_MK2_CLIP_ARMORPIERCING",
+          "label": "Armor Piercing Rounds",
+          "hash": 696788003,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_COMBATMG_MK2_CLIP_FMJ",
+          "label": "Full Metal Jacket Rounds",
+          "hash": 1475288264,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_COMBATMG_MK2_CLIP_INCENDIARY",
+          "label": "Incendiary Rounds",
+          "hash": 3274096058,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_COMBATMG_MK2_CLIP_TRACER",
+          "label": "Tracer Rounds",
+          "hash": 4133787461,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SIGHTS",
+          "label": "Holographic Sight",
+          "hash": 1108334355,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_SMALL_MK2",
+          "label": "Medium Scope",
+          "hash": 1060929921,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MEDIUM_MK2",
+          "label": "Large Scope",
+          "hash": 3328927042,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_01",
+          "label": "Muzzle Brake",
+          "hash": 3113485012,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_02",
+          "label": "Muzzle Brake",
+          "hash": 3362234491,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_03",
+          "label": "Muzzle Brake",
+          "hash": 3725708239,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_04",
+          "label": "Muzzle Brake",
+          "hash": 3968886988,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_05",
+          "label": "Muzzle Brake",
+          "hash": 48731514,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_06",
+          "label": "Muzzle Brake",
+          "hash": 880736428,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_07",
+          "label": "Muzzle Brake",
+          "hash": 1303784126,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP_02",
+          "label": "Grip",
+          "hash": 2640679034,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MG_BARREL_01",
+          "label": "Default Barrel",
+          "hash": 3276730932,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_AT_MG_BARREL_02",
+          "label": "Heavy Barrel",
+          "hash": 3051509595,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Classic Black"
+        },
+        {
+          "index": 1,
+          "label": "Classic Gray"
+        },
+        {
+          "index": 2,
+          "label": "Classic Two-Tone"
+        },
+        {
+          "index": 3,
+          "label": "Classic White"
+        },
+        {
+          "index": 4,
+          "label": "Classic Beige"
+        },
+        {
+          "index": 5,
+          "label": "Classic Green"
+        },
+        {
+          "index": 6,
+          "label": "Classic Blue"
+        },
+        {
+          "index": 7,
+          "label": "Classic Earth"
+        },
+        {
+          "index": 8,
+          "label": "Classic Brown & Black"
+        },
+        {
+          "index": 9,
+          "label": "Red Contrast"
+        },
+        {
+          "index": 10,
+          "label": "Blue Contrast"
+        },
+        {
+          "index": 11,
+          "label": "Yellow Contrast"
+        },
+        {
+          "index": 12,
+          "label": "Orange Contrast"
+        },
+        {
+          "index": 13,
+          "label": "Bold Pink"
+        },
+        {
+          "index": 14,
+          "label": "Bold Purple & Yellow"
+        },
+        {
+          "index": 15,
+          "label": "Bold Orange"
+        },
+        {
+          "index": 16,
+          "label": "Bold Green & Purple"
+        },
+        {
+          "index": 17,
+          "label": "Bold Red Features"
+        },
+        {
+          "index": 18,
+          "label": "Bold Green Features"
+        },
+        {
+          "index": 19,
+          "label": "Bold Cyan Features"
+        },
+        {
+          "index": 20,
+          "label": "Bold Yellow Features"
+        },
+        {
+          "index": 21,
+          "label": "Bold Red & White"
+        },
+        {
+          "index": 22,
+          "label": "Bold Blue & White"
+        },
+        {
+          "index": 23,
+          "label": "Metallic Gold"
+        },
+        {
+          "index": 24,
+          "label": "Metallic Platinum"
+        },
+        {
+          "index": 25,
+          "label": "Metallic Gray & Lilac"
+        },
+        {
+          "index": 26,
+          "label": "Metallic Purple & Lime"
+        },
+        {
+          "index": 27,
+          "label": "Metallic Red"
+        },
+        {
+          "index": 28,
+          "label": "Metallic Green"
+        },
+        {
+          "index": 29,
+          "label": "Metallic Blue"
+        },
+        {
+          "index": 30,
+          "label": "Metallic White & Aqua"
+        },
+        {
+          "index": 31,
+          "label": "Metallic Red & Yellow"
+        },
+        {
+          "index": 32,
+          "label": "32"
+        }
+      ]
+    },
+    {
+      "id": "mg",
+      "name": "MG",
+      "codename": "weapon_mg",
+      "hash": 2634544996,
+      "category": "MG",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Mg-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 50,
+        "fireRate": 60,
+        "accuracy": 40,
+        "range": 60,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_MG_CLIP_01",
+          "label": "Default Clip",
+          "hash": 4097109892,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_MG_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 2182449991,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_SMALL_02",
+          "label": "Scope",
+          "hash": 1006677997,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_MG_VARMOD_LOWRIDER",
+          "label": "Yusuf Amir Luxury Finish",
+          "hash": 3604658878,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "peds",
+    "label": "Peds",
+    "urlPattern": "{cdnBase}/assets/peds/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate null for patch-day additions)."
+  },
+  "count": 29,
+  "groups": [
+    {
+      "id": "patchday3ng",
+      "name": "Patch Day 3",
+      "releaseDate": null,
+      "key": "patchday3ng",
+      "slug": "patchday3ng",
+      "count": 79,
+      "path": "api/peds/by-dlc/patchday3ng.json"
+    },
+    {
+      "id": "patchday4ng",
+      "name": "Patch Day 4",
+      "releaseDate": null,
+      "key": "patchday4ng",
+      "slug": "patchday4ng",
+      "count": 22,
+      "path": "api/peds/by-dlc/patchday4ng.json"
+    },
+    {
+      "id": "patchday21ng",
+      "name": "Patch Day 21",
+      "releaseDate": null,
+      "key": "patchday21ng",
+      "slug": "patchday21ng",
+      "count": 1,
+      "path": "api/peds/by-dlc/patchday21ng.json"
+    },
+    {
+      "id": "mppatchesng",
+      "name": "Multiplayer Patches",
+      "releaseDate": null,
+      "key": "mppatchesng",
+      "slug": "mppatchesng",
+      "count": 50,
+      "path": "api/peds/by-dlc/mppatchesng.json"
+    },
+    {
+      "id": "patchday6ng",
+      "name": "Patch Day 6",
+      "releaseDate": null,
+      "key": "patchday6ng",
+      "slug": "patchday6ng",
+      "count": 10,
+      "path": "api/peds/by-dlc/patchday6ng.json"
+    },
+    {
+      "id": "patchday19ng",
+      "name": "Patch Day 19",
+      "releaseDate": null,
+      "key": "patchday19ng",
+      "slug": "patchday19ng",
+      "count": 1,
+      "path": "api/peds/by-dlc/patchday19ng.json"
+    },
+    {
+      "id": "patchday27ng",
+      "name": "Patch Day 27",
+      "releaseDate": null,
+      "key": "patchday27ng",
+      "slug": "patchday27ng",
+      "count": 1,
+      "path": "api/peds/by-dlc/patchday27ng.json"
+    },
+    {
+      "id": "patchday7ng",
+      "name": "Patch Day 7",
+      "releaseDate": null,
+      "key": "patchday7ng",
+      "slug": "patchday7ng",
+      "count": 2,
+      "path": "api/peds/by-dlc/patchday7ng.json"
+    },
+    {
+      "id": "patchday22ng",
+      "name": "Patch Day 22",
+      "releaseDate": null,
+      "key": "patchday22ng",
+      "slug": "patchday22ng",
+      "count": 5,
+      "path": "api/peds/by-dlc/patchday22ng.json"
+    },
+    {
+      "id": "patchday13ng",
+      "name": "Patch Day 13",
+      "releaseDate": null,
+      "key": "patchday13ng",
+      "slug": "patchday13ng",
+      "count": 1,
+      "path": "api/peds/by-dlc/patchday13ng.json"
+    },
+    {
+      "id": "patchday20ng",
+      "name": "Patch Day 20",
+      "releaseDate": null,
+      "key": "patchday20ng",
+      "slug": "patchday20ng",
+      "count": 1,
+      "path": "api/peds/by-dlc/patchday20ng.json"
+    },
+    {
+      "id": "patchday23ng",
+      "name": "Patch Day 23",
+      "releaseDate": null,
+      "key": "patchday23ng",
+      "slug": "patchday23ng",
+      "count": 2,
+      "path": "api/peds/by-dlc/patchday23ng.json"
+    },
+    {
+      "id": "patchday10ng",
+      "name": "Patch Day 10",
+      "releaseDate": null,
+      "key": "patchday10ng",
+      "slug": "patchday10ng",
+      "count": 1,
+      "path": "api/peds/by-dlc/patchday10ng.json"
+    },
+    {
+      "id": "patchday9ng",
+      "name": "Patch Day 9",
+      "releaseDate": null,
+      "key": "patchday9ng",
+      "slug": "patchday9ng",
+      "count": 1,
+      "path": "api/peds/by-dlc/patchday9ng.json"
+    },
+    {
+      "id": "patchday25ng",
+      "name": "Patch Day 25",
+      "releaseDate": null,
+      "key": "patchday25ng",
+      "slug": "patchday25ng",
+      "count": 1,
+      "path": "api/peds/by-dlc/patchday25ng.json"
+    },
+    {
+      "id": "basegame",
+      "name": "Base Game",
+      "releaseDate": "2013-09-17",
+      "key": "basegame",
+      "slug": "basegame",
+      "count": 506,
+      "path": "api/peds/by-dlc/basegame.json"
+    },
+    {
+      "id": "mpheist",
+      "name": "The Heists Update",
+      "releaseDate": "2015-03-10",
+      "key": "mpheist",
+      "slug": "mpheist",
+      "count": 23,
+      "path": "api/peds/by-dlc/mpheist.json"
+    },
+    {
+      "id": "mplowrider",
+      "name": "Lowriders",
+      "releaseDate": "2015-10-20",
+      "key": "mplowrider",
+      "slug": "mplowrider",
+      "count": 5,
+      "path": "api/peds/by-dlc/mplowrider.json"
+    },
+    {
+      "id": "mpapartment",
+      "name": "Executives and Other Criminals",
+      "releaseDate": "2015-12-15",
+      "key": "mpapartment",
+      "slug": "mpapartment",
+      "count": 2,
+      "path": "api/peds/by-dlc/mpapartment.json"
+    },
+    {
+      "id": "mpexecutive",
+      "name": "Further Adventures in Finance and Felony",
+      "releaseDate": "2016-06-07",
+      "key": "mpexecutive",
+      "slug": "mpexecutive",
+      "count": 3,
+      "path": "api/peds/by-dlc/mpexecutive.json"
+    },
+    {
+      "id": "mpbiker",
+      "name": "Bikers",
+      "releaseDate": "2016-10-04",
+      "key": "mpbiker",
+      "slug": "mpbiker",
+      "count": 11,
+      "path": "api/peds/by-dlc/mpbiker.json"
+    },
+    {
+      "id": "mpimportexport",
+      "name": "Import/Export",
+      "releaseDate": "2016-12-13",
+      "key": "mpimportexport",
+      "slug": "mpimportexport",
+      "count": 6,
+      "path": "api/peds/by-dlc/mpimportexport.json"
+    },
+    {
+      "id": "mpgunrunning",
+      "name": "Gunrunning",
+      "releaseDate": "2017-06-13",
+      "key": "mpgunrunning",
+      "slug": "mpgunrunning",
+      "count": 1,
+      "path": "api/peds/by-dlc/mpgunrunning.json"
+    },
+    {
+      "id": "mpsmuggler",
+      "name": "Smuggler's Run",
+      "releaseDate": "2017-08-29",
+      "key": "mpsmuggler",
+      "slug": "mpsmuggler",
+      "count": 1,
+      "path": "api/peds/by-dlc/mpsmuggler.json"
+    },
+    {
+      "id": "mpchristmas2017",
+      "name": "The Doomsday Heist",
+      "releaseDate": "2017-12-12",
+      "key": "mpchristmas2017",
+      "slug": "mpchristmas2017",
+      "count": 9,
+      "path": "api/peds/by-dlc/mpchristmas2017.json"
+    },
+    {
+      "id": "mpbattle",
+      "name": "After Hours",
+      "releaseDate": "2018-07-24",
+      "key": "mpbattle",
+      "slug": "mpbattle",
+      "count": 48,
+      "path": "api/peds/by-dlc/mpbattle.json"
+    },
+    {
+      "id": "mpchristmas2018",
+      "name": "Arena War",
+      "releaseDate": "2018-12-11",
+      "key": "mpchristmas2018",
+      "slug": "mpchristmas2018",
+      "count": 4,
+      "path": "api/peds/by-dlc/mpchristmas2018.json"
+    },
+    {
+      "id": "mpvinewood",
+      "name": "The Diamond Casino & Resort",
+      "releaseDate": "2019-07-23",
+      "key": "mpvinewood",
+      "slug": "mpvinewood",
+      "count": 33,
+      "path": "api/peds/by-dlc/mpvinewood.json"
+    },
+    {
+      "id": "mp2025_01",
+      "name": "Money Fronts",
+      "releaseDate": "2025-06-17",
+      "key": "mp2025_01",
+      "slug": "mp2025-01",
+      "count": 18,
+      "path": "api/peds/by-dlc/mp2025-01.json"
+    }
+  ]
+}

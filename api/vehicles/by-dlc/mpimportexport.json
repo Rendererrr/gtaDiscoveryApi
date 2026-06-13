@@ -1,0 +1,766 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "id": "mpimportexport",
+    "name": "Import/Export",
+    "releaseDate": "2016-12-13",
+    "key": "mpimportexport",
+    "slug": "mpimportexport",
+    "count": 24
+  },
+  "count": 24,
+  "items": [
+    {
+      "id": "ruiner2",
+      "name": "Ruiner 2000",
+      "hash": 941494461,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/ruiner2.webp",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "stats": {
+        "handlingId": "RUINER2",
+        "mass": 1300,
+        "topSpeed": 152,
+        "driveForce": 0.33,
+        "brakeForce": 1,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.1,
+          "min": 1.8,
+          "lateral": 20.5
+        },
+        "suspensionForce": 1.9,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "ruiner3",
+      "name": "Ruiner",
+      "hash": 777714999,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/ruiner3.webp",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "stats": {
+        "handlingId": "RUINER",
+        "mass": 1300,
+        "topSpeed": 145,
+        "driveForce": 0.28,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.2,
+          "min": 1.8,
+          "lateral": 20.5
+        },
+        "suspensionForce": 1.9,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "comet3",
+      "name": "Comet Retro Custom",
+      "hash": 2272483501,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/comet3.webp",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "stats": {
+        "handlingId": "COMET3",
+        "mass": 1200,
+        "topSpeed": 152,
+        "driveForce": 0.34,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.8,
+          "min": 2.35,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.9,
+        "steeringLock": 43,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "elegy",
+      "name": "Elegy Retro Custom",
+      "hash": 196747873,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/elegy.webp",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "stats": {
+        "handlingId": "ELEGY",
+        "mass": 1450,
+        "topSpeed": 148,
+        "driveForce": 0.33,
+        "brakeForce": 1,
+        "handBrakeForce": 0.7,
+        "gears": 5,
+        "driveBiasFront": 0.25,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.7,
+          "min": 2.55,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.8,
+        "steeringLock": 40,
+        "monetaryValue": 100000
+      }
+    },
+    {
+      "id": "specter",
+      "name": "Specter",
+      "hash": 1886268224,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/specter.webp",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "stats": {
+        "handlingId": "SPECTER",
+        "mass": 1550,
+        "topSpeed": 155,
+        "driveForce": 0.32,
+        "brakeForce": 1,
+        "handBrakeForce": 0.65,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.62,
+          "min": 2.4,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.5,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "specter2",
+      "name": "Specter Custom",
+      "hash": 1074745671,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/specter2.webp",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "stats": {
+        "handlingId": "SPECTER2",
+        "mass": 1450,
+        "topSpeed": 155.2,
+        "driveForce": 0.33,
+        "brakeForce": 1.1,
+        "handBrakeForce": 0.65,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.67,
+          "min": 2.55,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.5,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "italigtb",
+      "name": "Itali GTB",
+      "hash": 2246633323,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/italigtb.webp",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "stats": {
+        "handlingId": "ITALIGTB",
+        "mass": 1800,
+        "topSpeed": 159,
+        "driveForce": 0.337,
+        "brakeForce": 1.1,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0.3,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.5,
+          "min": 2.37,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "italigtb2",
+      "name": "Itali GTB Custom",
+      "hash": 3812247419,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/italigtb2.webp",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "stats": {
+        "handlingId": "ITALIGTB2",
+        "mass": 1600,
+        "topSpeed": 159.2,
+        "driveForce": 0.34,
+        "brakeForce": 1.2,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0.3,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.55,
+          "min": 2.47,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.75,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "nero",
+      "name": "Nero",
+      "hash": 1034187331,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/nero.webp",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "stats": {
+        "handlingId": "NERO",
+        "mass": 1995,
+        "topSpeed": 160,
+        "driveForce": 0.338,
+        "brakeForce": 1,
+        "handBrakeForce": 0.7,
+        "gears": 6,
+        "driveBiasFront": 0.2,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.65,
+          "min": 2.48,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.4,
+        "steeringLock": 42,
+        "monetaryValue": 80000
+      }
+    },
+    {
+      "id": "nero2",
+      "name": "Nero Custom",
+      "hash": 1093792632,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/nero2.webp",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "stats": {
+        "handlingId": "NERO2",
+        "mass": 1800,
+        "topSpeed": 160.2,
+        "driveForce": 0.34,
+        "brakeForce": 1.1,
+        "handBrakeForce": 0.7,
+        "gears": 6,
+        "driveBiasFront": 0.2,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.67,
+          "min": 2.58,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.6,
+        "steeringLock": 42,
+        "monetaryValue": 80000
+      }
+    },
+    {
+      "id": "penetrator",
+      "name": "Penetrator",
+      "hash": 2536829930,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/penetrator.webp",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "stats": {
+        "handlingId": "PENETRATOR",
+        "mass": 1470,
+        "topSpeed": 159.5,
+        "driveForce": 0.3,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.5,
+        "gears": 5,
+        "driveBiasFront": 0.3,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.58,
+          "min": 2.25,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.25,
+        "steeringLock": 38,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "tempesta",
+      "name": "Tempesta",
+      "hash": 272929391,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tempesta.webp",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "stats": {
+        "handlingId": "TEMPESTA",
+        "mass": 1422,
+        "topSpeed": 157,
+        "driveForce": 0.36,
+        "brakeForce": 1,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0.3,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.65,
+          "min": 2.55,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "voltic2",
+      "name": "Rocket Voltic",
+      "hash": 989294410,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/voltic2.webp",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "stats": {
+        "handlingId": "VOLTIC2",
+        "mass": 1200,
+        "topSpeed": 145,
+        "driveForce": 0.18,
+        "brakeForce": 1,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.53,
+          "min": 2.38,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 42,
+        "monetaryValue": 80000
+      }
+    },
+    {
+      "id": "diablous",
+      "name": "Diabolus",
+      "hash": 4055125828,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/diablous.webp",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "stats": {
+        "handlingId": "DIABLOUS",
+        "mass": 220,
+        "topSpeed": 142.5,
+        "driveForce": 0.312,
+        "brakeForce": 1.2,
+        "handBrakeForce": 1.5,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.95,
+          "min": 1.9,
+          "lateral": 21.5
+        },
+        "suspensionForce": 5.5,
+        "steeringLock": 37.5,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "diablous2",
+      "name": "Diabolus Custom",
+      "hash": 1790834270,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/diablous2.webp",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "stats": {
+        "handlingId": "DIABLOUS2",
+        "mass": 210,
+        "topSpeed": 142.6,
+        "driveForce": 0.32,
+        "brakeForce": 1.25,
+        "handBrakeForce": 1.5,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2,
+          "min": 1.93,
+          "lateral": 21.5
+        },
+        "suspensionForce": 5.5,
+        "steeringLock": 37.5,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "fcr",
+      "name": "FCR 1000",
+      "hash": 627535535,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/fcr.webp",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "stats": {
+        "handlingId": "FCR",
+        "mass": 210,
+        "topSpeed": 140,
+        "driveForce": 0.305,
+        "brakeForce": 1.2,
+        "handBrakeForce": 1.3,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.1,
+          "min": 2,
+          "lateral": 22.5
+        },
+        "suspensionForce": 7.5,
+        "steeringLock": 42.5,
+        "monetaryValue": 20000
+      }
+    },
+    {
+      "id": "fcr2",
+      "name": "FCR 1000 Custom",
+      "hash": 3537231886,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/fcr2.webp",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "stats": {
+        "handlingId": "FCR2",
+        "mass": 200,
+        "topSpeed": 140.2,
+        "driveForce": 0.31,
+        "brakeForce": 1.25,
+        "handBrakeForce": 1.3,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 2.1,
+          "lateral": 22.5
+        },
+        "suspensionForce": 7.5,
+        "steeringLock": 42.5,
+        "monetaryValue": 20000
+      }
+    },
+    {
+      "id": "blazer5",
+      "name": "Blazer Aqua",
+      "hash": 2704629607,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/blazer5.webp",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "stats": {
+        "handlingId": "BLAZER5",
+        "mass": 550,
+        "topSpeed": 125,
+        "driveForce": 0.272,
+        "brakeForce": 1,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.7,
+          "min": 2.5,
+          "lateral": 20.5
+        },
+        "suspensionForce": 3.8,
+        "steeringLock": 41,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "dune4",
+      "name": "Ramp Buggy",
+      "hash": 3467805257,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dune4.webp",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "stats": {
+        "handlingId": "DUNE4",
+        "mass": 1000,
+        "topSpeed": 150,
+        "driveForce": 0.324,
+        "brakeForce": 1,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.65,
+          "min": 2.55,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 37.5,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "dune5",
+      "name": "Ramp Buggy",
+      "hash": 3982671785,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dune5.webp",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "stats": {
+        "handlingId": "DUNE5",
+        "mass": 1000,
+        "topSpeed": 150,
+        "driveForce": 0.32,
+        "brakeForce": 1,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.65,
+          "min": 2.55,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 37.5,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "technical2",
+      "name": "Technical Aqua",
+      "hash": 1180875963,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/technical2.webp",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "stats": {
+        "handlingId": "TECHNICAL2",
+        "mass": 3200,
+        "topSpeed": 130,
+        "driveForce": 0.25,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.45,
+        "gears": 5,
+        "driveBiasFront": 0.3,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.13,
+          "min": 1.95,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.5,
+        "steeringLock": 40.5,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "boxville5",
+      "name": "Armored Boxville",
+      "hash": 682434785,
+      "category": "Vans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/boxville5.webp",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "stats": {
+        "handlingId": "BOXVILLE5",
+        "mass": 7500,
+        "topSpeed": 120,
+        "driveForce": 0.32,
+        "brakeForce": 0.35,
+        "handBrakeForce": 0.3,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.17,
+          "min": 1.88,
+          "lateral": 20
+        },
+        "suspensionForce": 2.4,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "wastelander",
+      "name": "Wastelander",
+      "hash": 2382949506,
+      "category": "Service",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/wastelander.webp",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "stats": {
+        "handlingId": "WASTELANDER",
+        "mass": 7000,
+        "topSpeed": 125,
+        "driveForce": 0.33,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.32,
+        "gears": 5,
+        "driveBiasFront": 0.35,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.3,
+          "min": 1.9,
+          "lateral": 22
+        },
+        "suspensionForce": 1,
+        "steeringLock": 37,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "phantom2",
+      "name": "Phantom Wedge",
+      "hash": 2645431192,
+      "category": "Commercial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/phantom2.webp",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "stats": {
+        "handlingId": "PHANTOM2",
+        "mass": 14000,
+        "topSpeed": 130,
+        "driveForce": 0.3,
+        "brakeForce": 0.85,
+        "handBrakeForce": 0.15,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.95,
+          "min": 1.75,
+          "lateral": 20
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 42,
+        "monetaryValue": 40000
+      }
+    }
+  ]
+}

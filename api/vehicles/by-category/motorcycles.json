@@ -1,0 +1,1818 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "name": "Motorcycles",
+    "key": "Motorcycles",
+    "slug": "motorcycles",
+    "count": 58
+  },
+  "count": 58,
+  "items": [
+    {
+      "id": "akuma",
+      "name": "Akuma",
+      "hash": 1672195559,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/akuma.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "AKUMA",
+        "mass": 250,
+        "topSpeed": 145,
+        "driveForce": 0.4,
+        "brakeForce": 1.2,
+        "handBrakeForce": 1.3,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 2.13,
+          "lateral": 22.5
+        },
+        "suspensionForce": 7,
+        "steeringLock": 42,
+        "monetaryValue": 20000
+      }
+    },
+    {
+      "id": "avarus",
+      "name": "Avarus",
+      "hash": 2179174271,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/avarus.webp",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "stats": {
+        "handlingId": "AVARUS",
+        "mass": 230,
+        "topSpeed": 135,
+        "driveForce": 0.27,
+        "brakeForce": 1,
+        "handBrakeForce": 1.2,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.85,
+          "min": 1.75,
+          "lateral": 22.5
+        },
+        "suspensionForce": 7,
+        "steeringLock": 22,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "bagger",
+      "name": "Bagger",
+      "hash": 2154536131,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/bagger.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "BAGGER",
+        "mass": 230,
+        "topSpeed": 130,
+        "driveForce": 0.21,
+        "brakeForce": 1.2,
+        "handBrakeForce": 1.2,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.65,
+          "min": 1.64,
+          "lateral": 20
+        },
+        "suspensionForce": 7,
+        "steeringLock": 35,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "bati",
+      "name": "Bati 801",
+      "hash": 4180675781,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/bati.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "BATI",
+        "mass": 230,
+        "topSpeed": 150,
+        "driveForce": 0.3,
+        "brakeForce": 1.4,
+        "handBrakeForce": 1.65,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.32,
+          "min": 2.31,
+          "lateral": 22.5
+        },
+        "suspensionForce": 7.5,
+        "steeringLock": 45,
+        "monetaryValue": 20000
+      }
+    },
+    {
+      "id": "bati2",
+      "name": "Bati 801RR",
+      "hash": 3403504941,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/bati2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "BATI",
+        "mass": 230,
+        "topSpeed": 150,
+        "driveForce": 0.3,
+        "brakeForce": 1.4,
+        "handBrakeForce": 1.65,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.32,
+          "min": 2.31,
+          "lateral": 22.5
+        },
+        "suspensionForce": 7.5,
+        "steeringLock": 45,
+        "monetaryValue": 20000
+      }
+    },
+    {
+      "id": "bf400",
+      "name": "BF400",
+      "hash": 86520421,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/bf400.webp",
+      "dlc": {
+        "id": "mpstunt",
+        "name": "Cunning Stunts",
+        "releaseDate": "2016-07-12"
+      },
+      "stats": {
+        "handlingId": "BF400",
+        "mass": 150,
+        "topSpeed": 145,
+        "driveForce": 0.29,
+        "brakeForce": 1.1,
+        "handBrakeForce": 1.15,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 2.07,
+          "lateral": 22.5
+        },
+        "suspensionForce": 6,
+        "steeringLock": 36,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "carbonrs",
+      "name": "Carbon RS",
+      "hash": 11251904,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/carbonrs.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "CARBON",
+        "mass": 250,
+        "topSpeed": 145,
+        "driveForce": 0.3,
+        "brakeForce": 1.3,
+        "handBrakeForce": 1.3,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 2,
+          "lateral": 22.5
+        },
+        "suspensionForce": 7,
+        "steeringLock": 40,
+        "monetaryValue": 20000
+      }
+    },
+    {
+      "id": "chimera",
+      "name": "Chimera",
+      "hash": 6774487,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/chimera.webp",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "stats": {
+        "handlingId": "CHIMERA",
+        "mass": 401,
+        "topSpeed": 135,
+        "driveForce": 0.275,
+        "brakeForce": 1,
+        "handBrakeForce": 0.5,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.1,
+          "min": 1.9,
+          "lateral": 20.5
+        },
+        "suspensionForce": 3.8,
+        "steeringLock": 30,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "cliffhanger",
+      "name": "Cliffhanger",
+      "hash": 390201602,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/cliffhanger.webp",
+      "dlc": {
+        "id": "mpstunt",
+        "name": "Cunning Stunts",
+        "releaseDate": "2016-07-12"
+      },
+      "stats": {
+        "handlingId": "CLIFFHANG",
+        "mass": 140,
+        "topSpeed": 147.5,
+        "driveForce": 0.318,
+        "brakeForce": 1.1,
+        "handBrakeForce": 1.15,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.25,
+          "min": 2.07,
+          "lateral": 22.5
+        },
+        "suspensionForce": 6,
+        "steeringLock": 36,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "daemon",
+      "name": "Daemon",
+      "hash": 2006142190,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/daemon.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "DAEMON",
+        "mass": 250,
+        "topSpeed": 135,
+        "driveForce": 0.26,
+        "brakeForce": 0.6,
+        "handBrakeForce": 1.5,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.85,
+          "min": 1.75,
+          "lateral": 21.5
+        },
+        "suspensionForce": 7,
+        "steeringLock": 40,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "daemon2",
+      "name": "Daemon Custom",
+      "hash": 2890830793,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/daemon2.webp",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "stats": {
+        "handlingId": "DAEMON2",
+        "mass": 250,
+        "topSpeed": 135,
+        "driveForce": 0.262,
+        "brakeForce": 0.6,
+        "handBrakeForce": 1.5,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.85,
+          "min": 1.75,
+          "lateral": 21.5
+        },
+        "suspensionForce": 7,
+        "steeringLock": 40,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "deathbike",
+      "name": "Apocalypse Deathbike",
+      "hash": 4267640610,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/deathbike.webp",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "handlingId": "DEATHBIKE",
+        "mass": 135,
+        "topSpeed": 147,
+        "driveForce": 0.313,
+        "brakeForce": 1.1,
+        "handBrakeForce": 1.2,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.05,
+          "min": 1.7,
+          "lateral": 20
+        },
+        "suspensionForce": 6,
+        "steeringLock": 36,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "deathbike2",
+      "name": "Future Shock Deathbike",
+      "hash": 2482017624,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/deathbike2.webp",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "handlingId": "DEATHBIKE2",
+        "mass": 135,
+        "topSpeed": 147,
+        "driveForce": 0.313,
+        "brakeForce": 1.1,
+        "handBrakeForce": 1.2,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.05,
+          "min": 1.7,
+          "lateral": 20
+        },
+        "suspensionForce": 6,
+        "steeringLock": 36,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "deathbike3",
+      "name": "Nightmare Deathbike",
+      "hash": 2920466844,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/deathbike3.webp",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "handlingId": "DEATHBIKE",
+        "mass": 135,
+        "topSpeed": 147,
+        "driveForce": 0.313,
+        "brakeForce": 1.1,
+        "handBrakeForce": 1.2,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.05,
+          "min": 1.7,
+          "lateral": 20
+        },
+        "suspensionForce": 6,
+        "steeringLock": 36,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "defiler",
+      "name": "Defiler",
+      "hash": 822018448,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/defiler.webp",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "stats": {
+        "handlingId": "DEFILER",
+        "mass": 200,
+        "topSpeed": 148,
+        "driveForce": 0.405,
+        "brakeForce": 1.2,
+        "handBrakeForce": 1.3,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 2.13,
+          "lateral": 22.5
+        },
+        "suspensionForce": 7.5,
+        "steeringLock": 42,
+        "monetaryValue": 20000
+      }
+    },
+    {
+      "id": "diablous",
+      "name": "Diabolus",
+      "hash": 4055125828,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/diablous.webp",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "stats": {
+        "handlingId": "DIABLOUS",
+        "mass": 220,
+        "topSpeed": 142.5,
+        "driveForce": 0.312,
+        "brakeForce": 1.2,
+        "handBrakeForce": 1.5,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.95,
+          "min": 1.9,
+          "lateral": 21.5
+        },
+        "suspensionForce": 5.5,
+        "steeringLock": 37.5,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "diablous2",
+      "name": "Diabolus Custom",
+      "hash": 1790834270,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/diablous2.webp",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "stats": {
+        "handlingId": "DIABLOUS2",
+        "mass": 210,
+        "topSpeed": 142.6,
+        "driveForce": 0.32,
+        "brakeForce": 1.25,
+        "handBrakeForce": 1.5,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2,
+          "min": 1.93,
+          "lateral": 21.5
+        },
+        "suspensionForce": 5.5,
+        "steeringLock": 37.5,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "double",
+      "name": "Double-T",
+      "hash": 2623969160,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/double.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "DOUBLE",
+        "mass": 200,
+        "topSpeed": 147,
+        "driveForce": 0.31,
+        "brakeForce": 1.4,
+        "handBrakeForce": 1.6,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.18,
+          "min": 2.16,
+          "lateral": 22.5
+        },
+        "suspensionForce": 7,
+        "steeringLock": 40,
+        "monetaryValue": 20000
+      }
+    },
+    {
+      "id": "enduro",
+      "name": "Enduro",
+      "hash": 1753414259,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/enduro.webp",
+      "dlc": {
+        "id": "mpheist",
+        "name": "The Heists Update",
+        "releaseDate": "2015-03-10"
+      },
+      "stats": {
+        "handlingId": "ENDURO",
+        "mass": 220,
+        "topSpeed": 119,
+        "driveForce": 0.3,
+        "brakeForce": 1.05,
+        "handBrakeForce": 1.15,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.16,
+          "min": 2.08,
+          "lateral": 22.5
+        },
+        "suspensionForce": 6,
+        "steeringLock": 36,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "esskey",
+      "name": "Esskey",
+      "hash": 2035069708,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/esskey.webp",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "stats": {
+        "handlingId": "ESSKEY",
+        "mass": 190,
+        "topSpeed": 145,
+        "driveForce": 0.295,
+        "brakeForce": 1.2,
+        "handBrakeForce": 1.15,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 2.07,
+          "lateral": 22.5
+        },
+        "suspensionForce": 7,
+        "steeringLock": 36,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "faggio",
+      "name": "Faggio Sport",
+      "hash": 2452219115,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/faggio.webp",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "stats": {
+        "handlingId": "FAGGION",
+        "mass": 110,
+        "topSpeed": 95,
+        "driveForce": 0.198,
+        "brakeForce": 0.4,
+        "handBrakeForce": 1,
+        "gears": 3,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.7,
+          "min": 1.5,
+          "lateral": 20
+        },
+        "suspensionForce": 4.1,
+        "steeringLock": 36,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "faggio2",
+      "name": "Faggio",
+      "hash": 55628203,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/faggio2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "FAGGIO",
+        "mass": 100,
+        "topSpeed": 90,
+        "driveForce": 0.1,
+        "brakeForce": 0.4,
+        "handBrakeForce": 1,
+        "gears": 3,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.6,
+          "min": 1.4,
+          "lateral": 20
+        },
+        "suspensionForce": 4.1,
+        "steeringLock": 28,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "faggio3",
+      "name": "Faggio Mod",
+      "hash": 3005788552,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/faggio3.webp",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "stats": {
+        "handlingId": "FAGGIO3",
+        "mass": 100,
+        "topSpeed": 90,
+        "driveForce": 0.195,
+        "brakeForce": 0.4,
+        "handBrakeForce": 1,
+        "gears": 3,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.7,
+          "min": 1.5,
+          "lateral": 20
+        },
+        "suspensionForce": 4.1,
+        "steeringLock": 28,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "fcr",
+      "name": "FCR 1000",
+      "hash": 627535535,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/fcr.webp",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "stats": {
+        "handlingId": "FCR",
+        "mass": 210,
+        "topSpeed": 140,
+        "driveForce": 0.305,
+        "brakeForce": 1.2,
+        "handBrakeForce": 1.3,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.1,
+          "min": 2,
+          "lateral": 22.5
+        },
+        "suspensionForce": 7.5,
+        "steeringLock": 42.5,
+        "monetaryValue": 20000
+      }
+    },
+    {
+      "id": "fcr2",
+      "name": "FCR 1000 Custom",
+      "hash": 3537231886,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/fcr2.webp",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "stats": {
+        "handlingId": "FCR2",
+        "mass": 200,
+        "topSpeed": 140.2,
+        "driveForce": 0.31,
+        "brakeForce": 1.25,
+        "handBrakeForce": 1.3,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 2.1,
+          "lateral": 22.5
+        },
+        "suspensionForce": 7.5,
+        "steeringLock": 42.5,
+        "monetaryValue": 20000
+      }
+    },
+    {
+      "id": "gargoyle",
+      "name": "Gargoyle",
+      "hash": 741090084,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/gargoyle.webp",
+      "dlc": {
+        "id": "mpstunt",
+        "name": "Cunning Stunts",
+        "releaseDate": "2016-07-12"
+      },
+      "stats": {
+        "handlingId": "GARGOYLE",
+        "mass": 135,
+        "topSpeed": 147,
+        "driveForce": 0.313,
+        "brakeForce": 1.1,
+        "handBrakeForce": 1.2,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.25,
+          "min": 2.07,
+          "lateral": 20
+        },
+        "suspensionForce": 6,
+        "steeringLock": 36,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "hakuchou",
+      "name": "Hakuchou",
+      "hash": 1265391242,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/hakuchou.webp",
+      "dlc": {
+        "id": "mplts",
+        "name": "Last Team Standing Update",
+        "releaseDate": "2014-10-08"
+      },
+      "stats": {
+        "handlingId": "HAKUCHOU",
+        "mass": 250,
+        "topSpeed": 152,
+        "driveForce": 0.315,
+        "brakeForce": 1.4,
+        "handBrakeForce": 1.65,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.3,
+          "min": 2.29,
+          "lateral": 22.5
+        },
+        "suspensionForce": 7.5,
+        "steeringLock": 24,
+        "monetaryValue": 20000
+      }
+    },
+    {
+      "id": "hakuchou2",
+      "name": "Hakuchou Drag",
+      "hash": 4039289119,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/hakuchou2.webp",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "stats": {
+        "handlingId": "HAKUCHOU2",
+        "mass": 270,
+        "topSpeed": 159,
+        "driveForce": 0.425,
+        "brakeForce": 1.4,
+        "handBrakeForce": 3.65,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.9,
+          "min": 2.8,
+          "lateral": 22.5
+        },
+        "suspensionForce": 6.5,
+        "steeringLock": 22,
+        "monetaryValue": 20000
+      }
+    },
+    {
+      "id": "hexer",
+      "name": "Hexer",
+      "hash": 301427732,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/hexer.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "HEXER",
+        "mass": 250,
+        "topSpeed": 135,
+        "driveForce": 0.26,
+        "brakeForce": 1,
+        "handBrakeForce": 1.2,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.85,
+          "min": 1.75,
+          "lateral": 22.5
+        },
+        "suspensionForce": 7,
+        "steeringLock": 35,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "innovation",
+      "name": "Innovation",
+      "hash": 4135840458,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/innovation.webp",
+      "dlc": {
+        "id": "mplts",
+        "name": "Last Team Standing Update",
+        "releaseDate": "2014-10-08"
+      },
+      "stats": {
+        "handlingId": "INNOVAT",
+        "mass": 250,
+        "topSpeed": 135,
+        "driveForce": 0.32,
+        "brakeForce": 1,
+        "handBrakeForce": 1.2,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.9,
+          "min": 1.8,
+          "lateral": 22.5
+        },
+        "suspensionForce": 7,
+        "steeringLock": 37,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "lectro",
+      "name": "Lectro",
+      "hash": 640818791,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/lectro.webp",
+      "dlc": {
+        "id": "mpheist",
+        "name": "The Heists Update",
+        "releaseDate": "2015-03-10"
+      },
+      "stats": {
+        "handlingId": "LECTRO",
+        "mass": 250,
+        "topSpeed": 140,
+        "driveForce": 0.28,
+        "brakeForce": 1.2,
+        "handBrakeForce": 1.3,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.95,
+          "min": 1.9,
+          "lateral": 22.5
+        },
+        "suspensionForce": 7,
+        "steeringLock": 38,
+        "monetaryValue": 20000
+      }
+    },
+    {
+      "id": "manchez",
+      "name": "Manchez",
+      "hash": 2771538552,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/manchez.webp",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "stats": {
+        "handlingId": "MANCHEZ",
+        "mass": 190,
+        "topSpeed": 145,
+        "driveForce": 0.295,
+        "brakeForce": 1.2,
+        "handBrakeForce": 1.15,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 2.07,
+          "lateral": 22.5
+        },
+        "suspensionForce": 5,
+        "steeringLock": 40,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "manchez2",
+      "name": "Manchez Scout",
+      "hash": 1086534307,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/manchez2.webp",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "handlingId": "MANCHEZ2",
+        "mass": 160,
+        "topSpeed": 130,
+        "driveForce": 0.265,
+        "brakeForce": 0.8,
+        "handBrakeForce": 1,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.12,
+          "min": 2.02,
+          "lateral": 22.5
+        },
+        "suspensionForce": 4,
+        "steeringLock": 40,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "manchez3",
+      "name": "Manchez Scout C",
+      "hash": 1384502824,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/manchez3.webp",
+      "dlc": {
+        "id": "mpchristmas3",
+        "name": "Los Santos Drug Wars",
+        "releaseDate": "2022-12-13"
+      },
+      "stats": {
+        "handlingId": "MANCHEZ3",
+        "mass": 175,
+        "topSpeed": 130,
+        "driveForce": 0.272,
+        "brakeForce": 0.8,
+        "handBrakeForce": 1,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.11,
+          "min": 1.98,
+          "lateral": 22
+        },
+        "suspensionForce": 4,
+        "steeringLock": 41,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "nemesis",
+      "name": "Nemesis",
+      "hash": 3660088182,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/nemesis.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "NEMESIS",
+        "mass": 250,
+        "topSpeed": 140,
+        "driveForce": 0.3,
+        "brakeForce": 1.2,
+        "handBrakeForce": 1.3,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.95,
+          "min": 1.9,
+          "lateral": 22.5
+        },
+        "suspensionForce": 7,
+        "steeringLock": 38,
+        "monetaryValue": 20000
+      }
+    },
+    {
+      "id": "nightblade",
+      "name": "Nightblade",
+      "hash": 2688780135,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/nightblade.webp",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "stats": {
+        "handlingId": "NIGHTBLADE",
+        "mass": 205,
+        "topSpeed": 142,
+        "driveForce": 0.31,
+        "brakeForce": 1.2,
+        "handBrakeForce": 1.5,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.95,
+          "min": 1.9,
+          "lateral": 21.5
+        },
+        "suspensionForce": 5.5,
+        "steeringLock": 40,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "oppressor",
+      "name": "Oppressor",
+      "hash": 884483972,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/oppressor.webp",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "handlingId": "OPPRESSOR",
+        "mass": 190,
+        "topSpeed": 148,
+        "driveForce": 0.4,
+        "brakeForce": 1.2,
+        "handBrakeForce": 1.3,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.13,
+          "min": 2.1,
+          "lateral": 22.5
+        },
+        "suspensionForce": 5.25,
+        "steeringLock": 42,
+        "monetaryValue": 20000
+      }
+    },
+    {
+      "id": "oppressor2",
+      "name": "Oppressor Mk II",
+      "hash": 2069146067,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/oppressor2.webp",
+      "dlc": {
+        "id": "mpbattle",
+        "name": "After Hours",
+        "releaseDate": "2018-07-24"
+      },
+      "stats": {
+        "handlingId": "OPPRESSOR2",
+        "mass": 220,
+        "topSpeed": 148,
+        "driveForce": 0.38,
+        "brakeForce": 1.2,
+        "handBrakeForce": 1.3,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.1,
+          "min": 2,
+          "lateral": 22.5
+        },
+        "suspensionForce": 5.25,
+        "steeringLock": 42,
+        "monetaryValue": 20000
+      }
+    },
+    {
+      "id": "pcj",
+      "name": "PCJ 600",
+      "hash": 3385765638,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/pcj.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "PCJ",
+        "mass": 250,
+        "topSpeed": 130,
+        "driveForce": 0.26,
+        "brakeForce": 1.3,
+        "handBrakeForce": 1.3,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.05,
+          "min": 2.02,
+          "lateral": 22.5
+        },
+        "suspensionForce": 6,
+        "steeringLock": 42,
+        "monetaryValue": 20000
+      }
+    },
+    {
+      "id": "powersurge",
+      "name": "Powersurge",
+      "hash": 2908631255,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/powersurge.webp",
+      "dlc": {
+        "id": "mpchristmas3",
+        "name": "Los Santos Drug Wars",
+        "releaseDate": "2022-12-13"
+      },
+      "stats": {
+        "handlingId": "POWERSURGE",
+        "mass": 255,
+        "topSpeed": 128.2,
+        "driveForce": 0.82,
+        "brakeForce": 1.3,
+        "handBrakeForce": 1.45,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.37,
+          "min": 2.21,
+          "lateral": 21.5
+        },
+        "suspensionForce": 7,
+        "steeringLock": 43,
+        "monetaryValue": 20000
+      }
+    },
+    {
+      "id": "ratbike",
+      "name": "Rat Bike",
+      "hash": 1873600305,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/ratbike.webp",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "stats": {
+        "handlingId": "RATBIKE",
+        "mass": 180,
+        "topSpeed": 130,
+        "driveForce": 0.215,
+        "brakeForce": 1.2,
+        "handBrakeForce": 1.2,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.65,
+          "min": 1.64,
+          "lateral": 20
+        },
+        "suspensionForce": 7,
+        "steeringLock": 35,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "reever",
+      "name": "Reever",
+      "hash": 1993851908,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/reever.webp",
+      "dlc": {
+        "id": "mpsecurity",
+        "name": "The Contract",
+        "releaseDate": "2021-12-15"
+      },
+      "stats": {
+        "handlingId": "REEVER",
+        "mass": 205,
+        "topSpeed": 151.2,
+        "driveForce": 0.408,
+        "brakeForce": 1.3,
+        "handBrakeForce": 1.45,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.2,
+          "min": 2.16,
+          "lateral": 22.5
+        },
+        "suspensionForce": 7.5,
+        "steeringLock": 43,
+        "monetaryValue": 20000
+      }
+    },
+    {
+      "id": "rrocket",
+      "name": "Rampant Rocket",
+      "hash": 916547552,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/rrocket.webp",
+      "dlc": {
+        "id": "mpvinewood",
+        "name": "The Diamond Casino & Resort",
+        "releaseDate": "2019-07-23"
+      },
+      "stats": {
+        "handlingId": "RROCKET",
+        "mass": 1140,
+        "topSpeed": 142,
+        "driveForce": 0.382,
+        "brakeForce": 1,
+        "handBrakeForce": 0.5,
+        "gears": 3,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.1,
+          "min": 1.9,
+          "lateral": 20.5
+        },
+        "suspensionForce": 1.75,
+        "steeringLock": 25,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "ruffian",
+      "name": "Ruffian",
+      "hash": 3401388520,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/ruffian.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "RUFFIAN",
+        "mass": 250,
+        "topSpeed": 140,
+        "driveForce": 0.34,
+        "brakeForce": 1.1,
+        "handBrakeForce": 1.35,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.95,
+          "min": 1.85,
+          "lateral": 22.5
+        },
+        "suspensionForce": 7,
+        "steeringLock": 40,
+        "monetaryValue": 20000
+      }
+    },
+    {
+      "id": "sanchez",
+      "name": "Sanchez (livery)",
+      "hash": 788045382,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/sanchez.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "sanchez",
+        "mass": 220,
+        "topSpeed": 118,
+        "driveForce": 0.28,
+        "brakeForce": 1.1,
+        "handBrakeForce": 1.15,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 2.07,
+          "lateral": 22.5
+        },
+        "suspensionForce": 6,
+        "steeringLock": 36,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "sanchez2",
+      "name": "Sanchez",
+      "hash": 2841686334,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/sanchez2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "sanchez",
+        "mass": 220,
+        "topSpeed": 118,
+        "driveForce": 0.28,
+        "brakeForce": 1.1,
+        "handBrakeForce": 1.15,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 2.07,
+          "lateral": 22.5
+        },
+        "suspensionForce": 6,
+        "steeringLock": 36,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "sanctus",
+      "name": "Sanctus",
+      "hash": 1491277511,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/sanctus.webp",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "stats": {
+        "handlingId": "SANCTUS",
+        "mass": 250,
+        "topSpeed": 144,
+        "driveForce": 0.405,
+        "brakeForce": 1,
+        "handBrakeForce": 1.2,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.95,
+          "min": 1.85,
+          "lateral": 22.5
+        },
+        "suspensionForce": 7,
+        "steeringLock": 22,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "shinobi",
+      "name": "Shinobi",
+      "hash": 1353120668,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/shinobi.webp",
+      "dlc": {
+        "id": "mpsecurity",
+        "name": "The Contract",
+        "releaseDate": "2021-12-15"
+      },
+      "stats": {
+        "handlingId": "SHINOBI",
+        "mass": 165,
+        "topSpeed": 156.4,
+        "driveForce": 0.362,
+        "brakeForce": 1.25,
+        "handBrakeForce": 1.45,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.3,
+          "min": 2.29,
+          "lateral": 22.5
+        },
+        "suspensionForce": 7.5,
+        "steeringLock": 44,
+        "monetaryValue": 20000
+      }
+    },
+    {
+      "id": "shotaro",
+      "name": "Shotaro",
+      "hash": 3889340782,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/shotaro.webp",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "stats": {
+        "handlingId": "SHOTARO",
+        "mass": 230,
+        "topSpeed": 159.5,
+        "driveForce": 0.4,
+        "brakeForce": 1.4,
+        "handBrakeForce": 1.65,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.7,
+          "min": 2.6,
+          "lateral": 22.5
+        },
+        "suspensionForce": 7.5,
+        "steeringLock": 45,
+        "monetaryValue": 20000
+      }
+    },
+    {
+      "id": "sovereign",
+      "name": "Sovereign",
+      "hash": 743478836,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/sovereign.webp",
+      "dlc": {
+        "id": "mpindependence",
+        "name": "Independence Day Special",
+        "releaseDate": "2014-07-01"
+      },
+      "stats": {
+        "handlingId": "POLICEB",
+        "mass": 250,
+        "topSpeed": 135,
+        "driveForce": 0.27,
+        "brakeForce": 1.1,
+        "handBrakeForce": 1.3,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.9,
+          "min": 1.8,
+          "lateral": 20
+        },
+        "suspensionForce": 7,
+        "steeringLock": 40,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "stryder",
+      "name": "Stryder",
+      "hash": 301304410,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/stryder.webp",
+      "dlc": {
+        "id": "mpheist3",
+        "name": "The Diamond Casino Heist",
+        "releaseDate": "2019-12-12"
+      },
+      "stats": {
+        "handlingId": "STRYDER",
+        "mass": 401,
+        "topSpeed": 130,
+        "driveForce": 0.36,
+        "brakeForce": 1.2,
+        "handBrakeForce": 0.7,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.45,
+          "min": 2.3,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2,
+        "steeringLock": 35,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "thrust",
+      "name": "Thrust",
+      "hash": 1836027715,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/thrust.webp",
+      "dlc": {
+        "id": "mpbusiness2",
+        "name": "The High Life Update",
+        "releaseDate": "2014-05-13"
+      },
+      "stats": {
+        "handlingId": "THRUST",
+        "mass": 270,
+        "topSpeed": 152,
+        "driveForce": 0.265,
+        "brakeForce": 1.5,
+        "handBrakeForce": 1.2,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.98,
+          "min": 1.94,
+          "lateral": 20
+        },
+        "suspensionForce": 7,
+        "steeringLock": 35,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "vader",
+      "name": "Vader",
+      "hash": 4154065143,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/vader.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "VADER",
+        "mass": 230,
+        "topSpeed": 140,
+        "driveForce": 0.27,
+        "brakeForce": 1.1,
+        "handBrakeForce": 1.2,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.9,
+          "min": 1.85,
+          "lateral": 22.5
+        },
+        "suspensionForce": 7,
+        "steeringLock": 40,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "vindicator",
+      "name": "Vindicator",
+      "hash": 2941886209,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/vindicator.webp",
+      "dlc": {
+        "id": "mpluxe2",
+        "name": "Ill-Gotten Gains Part 2",
+        "releaseDate": "2015-07-08"
+      },
+      "stats": {
+        "handlingId": "VINDICATOR",
+        "mass": 280,
+        "topSpeed": 148,
+        "driveForce": 0.263,
+        "brakeForce": 1.52,
+        "handBrakeForce": 1.2,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.98,
+          "min": 1.94,
+          "lateral": 20
+        },
+        "suspensionForce": 7,
+        "steeringLock": 35,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "vortex",
+      "name": "Vortex",
+      "hash": 3685342204,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/vortex.webp",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "stats": {
+        "handlingId": "VORTEX",
+        "mass": 190,
+        "topSpeed": 148,
+        "driveForce": 0.403,
+        "brakeForce": 1.2,
+        "handBrakeForce": 1.3,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 2.13,
+          "lateral": 22.5
+        },
+        "suspensionForce": 7.5,
+        "steeringLock": 42,
+        "monetaryValue": 20000
+      }
+    },
+    {
+      "id": "wolfsbane",
+      "name": "Wolfsbane",
+      "hash": 3676349299,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/wolfsbane.webp",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "stats": {
+        "handlingId": "WOLFSBANE",
+        "mass": 180,
+        "topSpeed": 130,
+        "driveForce": 0.215,
+        "brakeForce": 1.2,
+        "handBrakeForce": 1.2,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.65,
+          "min": 1.64,
+          "lateral": 20
+        },
+        "suspensionForce": 7,
+        "steeringLock": 35,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "zombiea",
+      "name": "Zombie Bobber",
+      "hash": 3285698347,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/zombiea.webp",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "stats": {
+        "handlingId": "ZOMBIEA",
+        "mass": 225,
+        "topSpeed": 137,
+        "driveForce": 0.29,
+        "brakeForce": 0.8,
+        "handBrakeForce": 1.5,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.88,
+          "min": 1.8,
+          "lateral": 21.5
+        },
+        "suspensionForce": 7,
+        "steeringLock": 40,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "zombieb",
+      "name": "Zombie Chopper",
+      "hash": 3724934023,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/zombieb.webp",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "stats": {
+        "handlingId": "ZOMBIEB",
+        "mass": 225,
+        "topSpeed": 137,
+        "driveForce": 0.29,
+        "brakeForce": 0.8,
+        "handBrakeForce": 1.5,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.88,
+          "min": 1.8,
+          "lateral": 21.5
+        },
+        "suspensionForce": 9,
+        "steeringLock": 40,
+        "monetaryValue": 12000
+      }
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "weapons",
+    "label": "Weapons",
+    "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
+    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
+  },
+  "group": {
+    "id": "mpheist4",
+    "name": "The Cayo Perico Heist",
+    "releaseDate": "2020-12-15",
+    "key": "mpheist4",
+    "slug": "mpheist4",
+    "count": 3
+  },
+  "count": 3,
+  "items": [
+    {
+      "id": "combatshotgun",
+      "name": "Combat Shotgun",
+      "codename": "weapon_combatshotgun",
+      "hash": 94989220,
+      "category": "Shotgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Combat-shotgun-icon.png",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "damage": 77,
+        "fireRate": 50,
+        "accuracy": 25,
+        "range": 15,
+        "maxAmmo": null
+      },
+      "components": [
+        {
+          "id": "COMPONENT_COMBATSHOTGUN_CLIP_01",
+          "label": "Default Shells",
+          "hash": 3323278933,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP",
+          "label": "Suppressor",
+          "hash": 2205435306,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "militaryrifle",
+      "name": "Military Rifle",
+      "codename": "weapon_militaryrifle",
+      "hash": 2636060646,
+      "category": "Rifle",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Military-rifle-icon.png",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "damage": 38,
+        "fireRate": 55,
+        "accuracy": 45,
+        "range": 45,
+        "maxAmmo": null
+      },
+      "components": [
+        {
+          "id": "COMPONENT_MILITARYRIFLE_CLIP_01",
+          "label": "Default Clip",
+          "hash": 759617595,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_MILITARYRIFLE_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 1749732930,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_MILITARYRIFLE_SIGHT_01",
+          "label": "Iron Sights",
+          "hash": 1803744149,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_SMALL",
+          "label": "Scope",
+          "hash": 2855028148,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP",
+          "label": "Suppressor",
+          "hash": 2205435306,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "gadgetpistol",
+      "name": "Perico Pistol",
+      "codename": "weapon_gadgetpistol",
+      "hash": 1470379660,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Perico-pistol-icon.png",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "damage": 80,
+        "fireRate": 15,
+        "accuracy": 30,
+        "range": 35,
+        "maxAmmo": null
+      },
+      "components": [
+        {
+          "id": "COMPONENT_GADGETPISTOL_CLIP_01",
+          "label": "Default Clip",
+          "hash": 2871488073,
+          "default": true
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    }
+  ]
+}

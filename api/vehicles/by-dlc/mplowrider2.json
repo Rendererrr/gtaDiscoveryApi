@@ -1,0 +1,239 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "id": "mplowrider2",
+    "name": "Lowriders: Custom Classics",
+    "releaseDate": "2016-03-15",
+    "key": "mplowrider2",
+    "slug": "mplowrider2",
+    "count": 7
+  },
+  "count": 7,
+  "items": [
+    {
+      "id": "faction3",
+      "name": "Faction Custom Donk",
+      "hash": 2255212070,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/faction3.webp",
+      "dlc": {
+        "id": "mplowrider2",
+        "name": "Lowriders: Custom Classics",
+        "releaseDate": "2016-03-15"
+      },
+      "stats": {
+        "handlingId": "FACTION3",
+        "mass": 1400,
+        "topSpeed": 140,
+        "driveForce": 0.2,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.35,
+          "min": 1.8,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 35,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "sabregt2",
+      "name": "Sabre Turbo Custom",
+      "hash": 223258115,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/sabregt2.webp",
+      "dlc": {
+        "id": "mplowrider2",
+        "name": "Lowriders: Custom Classics",
+        "releaseDate": "2016-03-15"
+      },
+      "stats": {
+        "handlingId": "SABREGT2",
+        "mass": 1300,
+        "topSpeed": 140,
+        "driveForce": 0.282,
+        "brakeForce": 0.82,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.26,
+          "min": 1.8,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.4,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "slamvan3",
+      "name": "Slamvan Custom",
+      "hash": 1119641113,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/slamvan3.webp",
+      "dlc": {
+        "id": "mplowrider2",
+        "name": "Lowriders: Custom Classics",
+        "releaseDate": "2016-03-15"
+      },
+      "stats": {
+        "handlingId": "SLAMVAN3",
+        "mass": 1400,
+        "topSpeed": 135,
+        "driveForce": 0.25,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.3,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.35,
+          "min": 1.75,
+          "lateral": 20.5
+        },
+        "suspensionForce": 2,
+        "steeringLock": 35,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "virgo2",
+      "name": "Virgo Classic Custom",
+      "hash": 3395457658,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/virgo2.webp",
+      "dlc": {
+        "id": "mplowrider2",
+        "name": "Lowriders: Custom Classics",
+        "releaseDate": "2016-03-15"
+      },
+      "stats": {
+        "handlingId": "VIRGO2",
+        "mass": 2300,
+        "topSpeed": 134,
+        "driveForce": 0.211,
+        "brakeForce": 0.72,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.1,
+          "min": 1.8,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.5,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "virgo3",
+      "name": "Virgo Classic",
+      "hash": 16646064,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/virgo3.webp",
+      "dlc": {
+        "id": "mplowrider2",
+        "name": "Lowriders: Custom Classics",
+        "releaseDate": "2016-03-15"
+      },
+      "stats": {
+        "handlingId": "VIRGO3",
+        "mass": 2200,
+        "topSpeed": 134,
+        "driveForce": 0.21,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.05,
+          "min": 1.8,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.5,
+        "steeringLock": 35,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "tornado5",
+      "name": "Tornado Custom",
+      "hash": 2497353967,
+      "category": "Sports Classic",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tornado5.webp",
+      "dlc": {
+        "id": "mplowrider2",
+        "name": "Lowriders: Custom Classics",
+        "releaseDate": "2016-03-15"
+      },
+      "stats": {
+        "handlingId": "TORNADO5",
+        "mass": 2200,
+        "topSpeed": 130,
+        "driveForce": 0.161,
+        "brakeForce": 0.255,
+        "handBrakeForce": 0.3,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.85,
+          "min": 1.42,
+          "lateral": 17
+        },
+        "suspensionForce": 1.6,
+        "steeringLock": 35,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "minivan2",
+      "name": "Minivan Custom",
+      "hash": 3168702960,
+      "category": "Vans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/minivan2.webp",
+      "dlc": {
+        "id": "mplowrider2",
+        "name": "Lowriders: Custom Classics",
+        "releaseDate": "2016-03-15"
+      },
+      "stats": {
+        "handlingId": "MINIVAN2",
+        "mass": 2200,
+        "topSpeed": 125,
+        "driveForce": 0.15,
+        "brakeForce": 0.45,
+        "handBrakeForce": 0.4,
+        "gears": 4,
+        "driveBiasFront": 0.6,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.93,
+          "min": 1.55,
+          "lateral": 18
+        },
+        "suspensionForce": 1.6,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    }
+  ]
+}

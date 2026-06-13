@@ -1,0 +1,2872 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "name": "Muscles",
+    "key": "Muscles",
+    "slug": "muscles",
+    "count": 92
+  },
+  "count": 92,
+  "items": [
+    {
+      "id": "blade",
+      "name": "Blade",
+      "hash": 3089165662,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/blade.webp",
+      "dlc": {
+        "id": "mphipster",
+        "name": "I'm Not a Hipster Update",
+        "releaseDate": "2014-06-17"
+      },
+      "stats": {
+        "handlingId": "blade",
+        "mass": 1200,
+        "topSpeed": 145,
+        "driveForce": 0.324,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.23,
+          "min": 1.7,
+          "lateral": 21.5
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 32,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "brigham",
+      "name": "Brigham",
+      "hash": 3640468689,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/brigham.webp",
+      "dlc": {
+        "id": "mp2023_01",
+        "name": "San Andreas Mercenaries",
+        "releaseDate": "2023-06-13"
+      },
+      "stats": {
+        "handlingId": "BRIGHAM",
+        "mass": 3170,
+        "topSpeed": 136,
+        "driveForce": 0.21,
+        "brakeForce": 0.38,
+        "handBrakeForce": 0.45,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.91,
+          "min": 1.72,
+          "lateral": 27.5
+        },
+        "suspensionForce": 1.495,
+        "steeringLock": 32.5,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "broadway",
+      "name": "Broadway",
+      "hash": 2361724968,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/broadway.webp",
+      "dlc": {
+        "id": "mpchristmas3",
+        "name": "Los Santos Drug Wars",
+        "releaseDate": "2022-12-13"
+      },
+      "stats": {
+        "handlingId": "BROADWAY",
+        "mass": 1570,
+        "topSpeed": 126,
+        "driveForce": 0.195,
+        "brakeForce": 0.32,
+        "handBrakeForce": 0.4,
+        "gears": 3,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2,
+          "min": 1.78,
+          "lateral": 23
+        },
+        "suspensionForce": 1.2,
+        "steeringLock": 37.65,
+        "monetaryValue": 70000
+      }
+    },
+    {
+      "id": "buccaneer",
+      "name": "Buccaneer",
+      "hash": 3612755468,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/buccaneer.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "BUCCANEE",
+        "mass": 1600,
+        "topSpeed": 146,
+        "driveForce": 0.28,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.75,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2,
+        "steeringLock": 35,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "buccaneer2",
+      "name": "Buccaneer Custom",
+      "hash": 3281516360,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/buccaneer2.webp",
+      "dlc": {
+        "id": "mplowrider",
+        "name": "Lowriders",
+        "releaseDate": "2015-10-20"
+      },
+      "stats": {
+        "handlingId": "BUCCANEE2",
+        "mass": 1600,
+        "topSpeed": 146,
+        "driveForce": 0.28,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.75,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2,
+        "steeringLock": 35,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "buffalo4",
+      "name": "Buffalo STX",
+      "hash": 3675036420,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/buffalo4.webp",
+      "dlc": {
+        "id": "mpsecurity",
+        "name": "The Contract",
+        "releaseDate": "2021-12-15"
+      },
+      "stats": {
+        "handlingId": "BUFFALO4",
+        "mass": 1800,
+        "topSpeed": 159.5,
+        "driveForce": 0.343,
+        "brakeForce": 0.95,
+        "handBrakeForce": 0.6,
+        "gears": 8,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.58,
+          "min": 2.4,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.4,
+        "steeringLock": 38,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "buffalo5",
+      "name": "Buffalo EVX",
+      "hash": 165968051,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/buffalo5.webp",
+      "dlc": {
+        "id": "mp2023_01",
+        "name": "San Andreas Mercenaries",
+        "releaseDate": "2023-06-13"
+      },
+      "stats": {
+        "handlingId": "BUFFALO5",
+        "mass": 1820,
+        "topSpeed": 156.65,
+        "driveForce": 0.382,
+        "brakeForce": 0.985,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0.3,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.42,
+          "min": 2.19,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.37,
+        "steeringLock": 39.3,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "chino",
+      "name": "Chino",
+      "hash": 349605904,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/chino.webp",
+      "dlc": {
+        "id": "mpluxe2",
+        "name": "Ill-Gotten Gains Part 2",
+        "releaseDate": "2015-07-08"
+      },
+      "stats": {
+        "handlingId": "CHINO",
+        "mass": 2300,
+        "topSpeed": 130,
+        "driveForce": 0.2,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.8,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.05,
+          "min": 1.85,
+          "lateral": 20.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "chino2",
+      "name": "Chino Custom",
+      "hash": 2933279331,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/chino2.webp",
+      "dlc": {
+        "id": "mplowrider",
+        "name": "Lowriders",
+        "releaseDate": "2015-10-20"
+      },
+      "stats": {
+        "handlingId": "CHINO2",
+        "mass": 2400,
+        "topSpeed": 130,
+        "driveForce": 0.21,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.8,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.07,
+          "min": 1.85,
+          "lateral": 20.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "clique",
+      "name": "Clique",
+      "hash": 2728360112,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/clique.webp",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "handlingId": "CLIQUE",
+        "mass": 1250,
+        "topSpeed": 150,
+        "driveForce": 0.3,
+        "brakeForce": 0.85,
+        "handBrakeForce": 0.52,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.35,
+          "min": 2.2,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.75,
+        "steeringLock": 38,
+        "monetaryValue": 30000
+      }
+    },
+    {
+      "id": "clique2",
+      "name": "Clique Wagon",
+      "hash": 3315674721,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/clique2.webp",
+      "dlc": {
+        "id": "mp2023_01",
+        "name": "San Andreas Mercenaries",
+        "releaseDate": "2023-06-13"
+      },
+      "stats": {
+        "handlingId": "CLIQUE2",
+        "mass": 1100,
+        "topSpeed": 118,
+        "driveForce": 0.198,
+        "brakeForce": 0.35,
+        "handBrakeForce": 0.38,
+        "gears": 3,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.08,
+          "min": 1.91,
+          "lateral": 25.5
+        },
+        "suspensionForce": 0.965,
+        "steeringLock": 35,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "coquette3",
+      "name": "Coquette BlackFin",
+      "hash": 784565758,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/coquette3.webp",
+      "dlc": {
+        "id": "mpluxe2",
+        "name": "Ill-Gotten Gains Part 2",
+        "releaseDate": "2015-07-08"
+      },
+      "stats": {
+        "handlingId": "COQUETTE3",
+        "mass": 1400,
+        "topSpeed": 151,
+        "driveForce": 0.29,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.55,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.25,
+          "min": 1.95,
+          "lateral": 20.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "deviant",
+      "name": "Deviant",
+      "hash": 1279262537,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/deviant.webp",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "handlingId": "DEVIANT",
+        "mass": 1500,
+        "topSpeed": 145,
+        "driveForce": 0.29,
+        "brakeForce": 0.5,
+        "handBrakeForce": 0.8,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.25,
+          "min": 2.1,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 35,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "dominator",
+      "name": "Dominator",
+      "hash": 80636076,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dominator.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "DOMINATOR",
+        "mass": 1600,
+        "topSpeed": 145,
+        "driveForce": 0.29,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.25,
+          "min": 1.8,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "dominator2",
+      "name": "Pisswasser Dominator",
+      "hash": 3379262425,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dominator2.webp",
+      "dlc": {
+        "id": "spupgrade",
+        "name": "Story Mode (Next-Gen)",
+        "releaseDate": "2014-11-18"
+      },
+      "stats": {
+        "handlingId": "DOMINATOR2",
+        "mass": 1500,
+        "topSpeed": 147,
+        "driveForce": 0.31,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.3,
+          "min": 1.85,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.1,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "dominator3",
+      "name": "Dominator GTX",
+      "hash": 3308022675,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dominator3.webp",
+      "dlc": {
+        "id": "mpassault",
+        "name": "Southern San Andreas Super Sport Series",
+        "releaseDate": "2018-03-20"
+      },
+      "stats": {
+        "handlingId": "DOMINATOR3",
+        "mass": 1670,
+        "topSpeed": 145.5,
+        "driveForce": 0.335,
+        "brakeForce": 0.5,
+        "handBrakeForce": 0.72,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.57,
+          "min": 2.35,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 38,
+        "monetaryValue": 100000
+      }
+    },
+    {
+      "id": "dominator4",
+      "name": "Apocalypse Dominator",
+      "hash": 3606777648,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dominator4.webp",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "handlingId": "DOMINATOR4",
+        "mass": 1550,
+        "topSpeed": 150,
+        "driveForce": 0.375,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.35,
+          "min": 2,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.5,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "dominator5",
+      "name": "Future Shock Dominator",
+      "hash": 2919906639,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dominator5.webp",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "handlingId": "DOMINATOR5",
+        "mass": 1550,
+        "topSpeed": 150,
+        "driveForce": 0.375,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.35,
+          "min": 2,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.5,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "dominator6",
+      "name": "Nightmare Dominator",
+      "hash": 3001042683,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dominator6.webp",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "handlingId": "DOMINATOR4",
+        "mass": 1550,
+        "topSpeed": 150,
+        "driveForce": 0.375,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.35,
+          "min": 2,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.5,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "dominator7",
+      "name": "Dominator ASP",
+      "hash": 426742808,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dominator7.webp",
+      "dlc": {
+        "id": "mptuner",
+        "name": "Los Santos Tuners",
+        "releaseDate": "2021-07-20"
+      },
+      "stats": {
+        "handlingId": "DOMINATOR7",
+        "mass": 1665,
+        "topSpeed": 150.75,
+        "driveForce": 0.342,
+        "brakeForce": 0.92,
+        "handBrakeForce": 0.7,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.54,
+          "min": 2.42,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.8,
+        "steeringLock": 41.65,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "dominator8",
+      "name": "Dominator GTT",
+      "hash": 736672010,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dominator8.webp",
+      "dlc": {
+        "id": "mptuner",
+        "name": "Los Santos Tuners",
+        "releaseDate": "2021-07-20"
+      },
+      "stats": {
+        "handlingId": "DOMINATOR8",
+        "mass": 1465,
+        "topSpeed": 145.3,
+        "driveForce": 0.303,
+        "brakeForce": 0.75,
+        "handBrakeForce": 0.64,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.5,
+          "min": 2.37,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.95,
+        "steeringLock": 43.38,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "dominator9",
+      "name": "Dominator GT",
+      "hash": 3853757601,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dominator9.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "DOMINATOR9",
+        "mass": 1820,
+        "topSpeed": 162,
+        "driveForce": 0.345,
+        "brakeForce": 0.93,
+        "handBrakeForce": 0.7,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.54,
+          "min": 2.41,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.213,
+        "steeringLock": 43,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "driftdominator10",
+      "name": "Dominator FX",
+      "hash": 3355365473,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/driftdominator10.webp",
+      "dlc": {
+        "id": "mp2025_01",
+        "name": "Money Fronts",
+        "releaseDate": "2025-06-17"
+      },
+      "stats": {
+        "handlingId": "DRIFTDOM10",
+        "mass": 1200,
+        "topSpeed": 133,
+        "driveForce": 0.72,
+        "brakeForce": 0.69,
+        "handBrakeForce": 0.65,
+        "gears": 4,
+        "driveBiasFront": 0.16,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.53,
+          "min": 1.52,
+          "lateral": 27.5
+        },
+        "suspensionForce": 1.85,
+        "steeringLock": 75,
+        "monetaryValue": 80000
+      }
+    },
+    {
+      "id": "driftyosemite",
+      "name": "Drift Yosemite",
+      "hash": 2613313775,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/driftyosemite.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "DRIFTYOSEMITE",
+        "mass": 1198,
+        "topSpeed": 125,
+        "driveForce": 0.718,
+        "brakeForce": 0.82,
+        "handBrakeForce": 0.88,
+        "gears": 3,
+        "driveBiasFront": 0.25,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.53,
+          "min": 1.52,
+          "lateral": 26.75
+        },
+        "suspensionForce": 1.9,
+        "steeringLock": 80.5,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "dukes",
+      "name": "Dukes",
+      "hash": 723973206,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dukes.webp",
+      "dlc": {
+        "id": "spupgrade",
+        "name": "Story Mode (Next-Gen)",
+        "releaseDate": "2014-11-18"
+      },
+      "stats": {
+        "handlingId": "DUKES",
+        "mass": 1600,
+        "topSpeed": 144,
+        "driveForce": 0.32,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.25,
+          "min": 1.8,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "dukes2",
+      "name": "Duke O'Death",
+      "hash": 3968823444,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dukes2.webp",
+      "dlc": {
+        "id": "spupgrade",
+        "name": "Story Mode (Next-Gen)",
+        "releaseDate": "2014-11-18"
+      },
+      "stats": {
+        "handlingId": "DUKES2",
+        "mass": 5000,
+        "topSpeed": 152,
+        "driveForce": 0.35,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.8,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.26,
+          "min": 1.95,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.1,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "dukes3",
+      "name": "Beater Dukes",
+      "hash": 2134119907,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dukes3.webp",
+      "dlc": {
+        "id": "mpsum",
+        "name": "Los Santos Summer Special",
+        "releaseDate": "2020-08-11"
+      },
+      "stats": {
+        "handlingId": "DUKES3",
+        "mass": 1550,
+        "topSpeed": 144,
+        "driveForce": 0.315,
+        "brakeForce": 0.75,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.2,
+          "min": 1.77,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "ellie",
+      "name": "Ellie",
+      "hash": 3027423925,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/ellie.webp",
+      "dlc": {
+        "id": "mpassault",
+        "name": "Southern San Andreas Super Sport Series",
+        "releaseDate": "2018-03-20"
+      },
+      "stats": {
+        "handlingId": "ELLIE",
+        "mass": 1370,
+        "topSpeed": 140.5,
+        "driveForce": 0.325,
+        "brakeForce": 0.5,
+        "handBrakeForce": 0.72,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.55,
+          "min": 2.15,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.25,
+        "steeringLock": 35,
+        "monetaryValue": 100000
+      }
+    },
+    {
+      "id": "eudora",
+      "name": "Eudora",
+      "hash": 3045179290,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/eudora.webp",
+      "dlc": {
+        "id": "mpchristmas3",
+        "name": "Los Santos Drug Wars",
+        "releaseDate": "2022-12-13"
+      },
+      "stats": {
+        "handlingId": "EUDORA",
+        "mass": 2115,
+        "topSpeed": 138,
+        "driveForce": 0.195,
+        "brakeForce": 0.265,
+        "handBrakeForce": 0.3,
+        "gears": 3,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.89,
+          "min": 1.48,
+          "lateral": 17.93
+        },
+        "suspensionForce": 1.38,
+        "steeringLock": 36.5,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "faction",
+      "name": "Faction",
+      "hash": 2175389151,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/faction.webp",
+      "dlc": {
+        "id": "mplowrider",
+        "name": "Lowriders",
+        "releaseDate": "2015-10-20"
+      },
+      "stats": {
+        "handlingId": "FACTION",
+        "mass": 1200,
+        "topSpeed": 140,
+        "driveForce": 0.28,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.25,
+          "min": 1.8,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "faction2",
+      "name": "Faction Custom 1",
+      "hash": 2504420315,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/faction2.webp",
+      "dlc": {
+        "id": "mplowrider",
+        "name": "Lowriders",
+        "releaseDate": "2015-10-20"
+      },
+      "stats": {
+        "handlingId": "FACTION",
+        "mass": 1200,
+        "topSpeed": 140,
+        "driveForce": 0.28,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.25,
+          "min": 1.8,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "faction3",
+      "name": "Faction Custom Donk",
+      "hash": 2255212070,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/faction3.webp",
+      "dlc": {
+        "id": "mplowrider2",
+        "name": "Lowriders: Custom Classics",
+        "releaseDate": "2016-03-15"
+      },
+      "stats": {
+        "handlingId": "FACTION3",
+        "mass": 1400,
+        "topSpeed": 140,
+        "driveForce": 0.2,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.35,
+          "min": 1.8,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 35,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "gauntlet",
+      "name": "Gauntlet",
+      "hash": 2494797253,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/gauntlet.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "GAUNTLET",
+        "mass": 1600,
+        "topSpeed": 145,
+        "driveForce": 0.3,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.5,
+          "min": 2.35,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.3,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "gauntlet2",
+      "name": "Redwood Gauntlet",
+      "hash": 349315417,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/gauntlet2.webp",
+      "dlc": {
+        "id": "spupgrade",
+        "name": "Story Mode (Next-Gen)",
+        "releaseDate": "2014-11-18"
+      },
+      "stats": {
+        "handlingId": "GAUNTLET2",
+        "mass": 1500,
+        "topSpeed": 147,
+        "driveForce": 0.315,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.51,
+          "min": 2.37,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.4,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "gauntlet3",
+      "name": "Gauntlet Classic",
+      "hash": 722226637,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/gauntlet3.webp",
+      "dlc": {
+        "id": "mpvinewood",
+        "name": "The Diamond Casino & Resort",
+        "releaseDate": "2019-07-23"
+      },
+      "stats": {
+        "handlingId": "GAUNTLET3",
+        "mass": 1350,
+        "topSpeed": 142,
+        "driveForce": 0.28,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.5,
+          "min": 2.35,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.1,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "gauntlet4",
+      "name": "Gauntlet Hellfire",
+      "hash": 1934384720,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/gauntlet4.webp",
+      "dlc": {
+        "id": "mpvinewood",
+        "name": "The Diamond Casino & Resort",
+        "releaseDate": "2019-07-23"
+      },
+      "stats": {
+        "handlingId": "GAUNTLET4",
+        "mass": 1940,
+        "topSpeed": 155,
+        "driveForce": 0.36,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.35,
+          "min": 2.1,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.3,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "gauntlet5",
+      "name": "Gauntlet Classic Custom",
+      "hash": 2172320429,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/gauntlet5.webp",
+      "dlc": {
+        "id": "mpsum",
+        "name": "Los Santos Summer Special",
+        "releaseDate": "2020-08-11"
+      },
+      "stats": {
+        "handlingId": "GAUNTLET5",
+        "mass": 1700,
+        "topSpeed": 158,
+        "driveForce": 0.29,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.6,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.25,
+          "min": 2.15,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.1,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "driftgauntlet4",
+      "name": "Gauntlet Hellfire",
+      "hash": 3933619103,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/driftgauntlet4.webp",
+      "dlc": {
+        "id": "mp2025_01",
+        "name": "Money Fronts",
+        "releaseDate": "2025-06-17"
+      },
+      "stats": {
+        "handlingId": "DRIFTGAUNTLET4",
+        "mass": 2150,
+        "topSpeed": 137,
+        "driveForce": 0.71,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0.21,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.53,
+          "min": 1.52,
+          "lateral": 28
+        },
+        "suspensionForce": 1.85,
+        "steeringLock": 77,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "greenwood",
+      "name": "Greenwood",
+      "hash": 40817712,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/greenwood.webp",
+      "dlc": {
+        "id": "mpsum2",
+        "name": "The Criminal Enterprises",
+        "releaseDate": "2022-07-26"
+      },
+      "stats": {
+        "handlingId": "GREENWOOD",
+        "mass": 1650,
+        "topSpeed": 143,
+        "driveForce": 0.282,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.6,
+        "gears": 3,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.3,
+          "min": 2.06,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.28,
+        "steeringLock": 39.25,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "hermes",
+      "name": "Hermes",
+      "hash": 15219735,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/hermes.webp",
+      "dlc": {
+        "id": "mpchristmas2017",
+        "name": "The Doomsday Heist",
+        "releaseDate": "2017-12-12"
+      },
+      "stats": {
+        "handlingId": "HERMES",
+        "mass": 1300,
+        "topSpeed": 137,
+        "driveForce": 0.285,
+        "brakeForce": 0.775,
+        "handBrakeForce": 0.3,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.38,
+          "min": 1.9,
+          "lateral": 20.5
+        },
+        "suspensionForce": 2.5,
+        "steeringLock": 35,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "hotknife",
+      "name": "Hotknife",
+      "hash": 37348240,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/hotknife.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "HOTKNIFE",
+        "mass": 700,
+        "topSpeed": 140,
+        "driveForce": 0.3,
+        "brakeForce": 0.43,
+        "handBrakeForce": 0.45,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.85,
+          "min": 1.65,
+          "lateral": 20.5
+        },
+        "suspensionForce": 2.1,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "hustler",
+      "name": "Hustler",
+      "hash": 600450546,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/hustler.webp",
+      "dlc": {
+        "id": "mpchristmas2017",
+        "name": "The Doomsday Heist",
+        "releaseDate": "2017-12-12"
+      },
+      "stats": {
+        "handlingId": "HUSTLER",
+        "mass": 1000,
+        "topSpeed": 140,
+        "driveForce": 0.3,
+        "brakeForce": 0.43,
+        "handBrakeForce": 0.45,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.95,
+          "min": 1.75,
+          "lateral": 20.5
+        },
+        "suspensionForce": 2.1,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "impaler",
+      "name": "Impaler",
+      "hash": 2198276962,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/impaler.webp",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "handlingId": "IMPALER",
+        "mass": 1550,
+        "topSpeed": 151,
+        "driveForce": 0.31,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.52,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.35,
+          "min": 1.8,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.2,
+        "steeringLock": 38,
+        "monetaryValue": 30000
+      }
+    },
+    {
+      "id": "impaler2",
+      "name": "Apocalypse Impaler",
+      "hash": 1009171724,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/impaler2.webp",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "handlingId": "IMPALER2",
+        "mass": 1400,
+        "topSpeed": 155,
+        "driveForce": 0.38,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.52,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.4,
+          "min": 1.9,
+          "lateral": 17.5
+        },
+        "suspensionForce": 1.6,
+        "steeringLock": 38,
+        "monetaryValue": 30000
+      }
+    },
+    {
+      "id": "impaler3",
+      "name": "Future Shock Impaler",
+      "hash": 2370166601,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/impaler3.webp",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "handlingId": "IMPALER3",
+        "mass": 1400,
+        "topSpeed": 155,
+        "driveForce": 0.38,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.52,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.4,
+          "min": 1.9,
+          "lateral": 17.5
+        },
+        "suspensionForce": 1.6,
+        "steeringLock": 38,
+        "monetaryValue": 30000
+      }
+    },
+    {
+      "id": "impaler4",
+      "name": "Nightmare Impaler",
+      "hash": 2550461639,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/impaler4.webp",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "handlingId": "IMPALER2",
+        "mass": 1400,
+        "topSpeed": 155,
+        "driveForce": 0.38,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.52,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.4,
+          "min": 1.9,
+          "lateral": 17.5
+        },
+        "suspensionForce": 1.6,
+        "steeringLock": 38,
+        "monetaryValue": 30000
+      }
+    },
+    {
+      "id": "impaler6",
+      "name": "Impaler LX",
+      "hash": 4116524922,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/impaler6.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "IMPALER6",
+        "mass": 1630,
+        "topSpeed": 145,
+        "driveForce": 0.3,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.6,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.13,
+          "min": 2,
+          "lateral": 22.75
+        },
+        "suspensionForce": 1.3,
+        "steeringLock": 42,
+        "monetaryValue": 30000
+      }
+    },
+    {
+      "id": "imperator",
+      "name": "Apocalypse Imperator",
+      "hash": 444994115,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/imperator.webp",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "handlingId": "IMPERATOR",
+        "mass": 2000,
+        "topSpeed": 150,
+        "driveForce": 0.365,
+        "brakeForce": 0.5,
+        "handBrakeForce": 0.8,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.25,
+          "min": 2.1,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "imperator2",
+      "name": "Future Shock Imperator",
+      "hash": 1637620610,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/imperator2.webp",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "handlingId": "IMPERATOR2",
+        "mass": 2000,
+        "topSpeed": 150,
+        "driveForce": 0.365,
+        "brakeForce": 0.5,
+        "handBrakeForce": 0.8,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.25,
+          "min": 2.1,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "imperator3",
+      "name": "Nightmare Imperator",
+      "hash": 3539435063,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/imperator3.webp",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "handlingId": "IMPERATOR",
+        "mass": 2000,
+        "topSpeed": 150,
+        "driveForce": 0.365,
+        "brakeForce": 0.5,
+        "handBrakeForce": 0.8,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.25,
+          "min": 2.1,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "lurcher",
+      "name": "Lurcher",
+      "hash": 2068293287,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/lurcher.webp",
+      "dlc": {
+        "id": "mphalloween",
+        "name": "Halloween Surprise",
+        "releaseDate": "2015-10-29"
+      },
+      "stats": {
+        "handlingId": "LURCHER",
+        "mass": 1800,
+        "topSpeed": 146,
+        "driveForce": 0.29,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.71,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2,
+        "steeringLock": 35,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "manana2",
+      "name": "Manana Custom",
+      "hash": 1717532765,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/manana2.webp",
+      "dlc": {
+        "id": "mpsum",
+        "name": "Los Santos Summer Special",
+        "releaseDate": "2020-08-11"
+      },
+      "stats": {
+        "handlingId": "MANANA2",
+        "mass": 2000,
+        "topSpeed": 141.5,
+        "driveForce": 0.24,
+        "brakeForce": 0.275,
+        "handBrakeForce": 0.45,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.98,
+          "min": 1.72,
+          "lateral": 20.5
+        },
+        "suspensionForce": 1.7,
+        "steeringLock": 36,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "moonbeam",
+      "name": "Moonbeam",
+      "hash": 525509695,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/moonbeam.webp",
+      "dlc": {
+        "id": "mplowrider",
+        "name": "Lowriders",
+        "releaseDate": "2015-10-20"
+      },
+      "stats": {
+        "handlingId": "MOONBEAM",
+        "mass": 2400,
+        "topSpeed": 125,
+        "driveForce": 0.21,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.4,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2,
+          "min": 1.8,
+          "lateral": 20
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "moonbeam2",
+      "name": "Moonbeam Custom",
+      "hash": 1896491931,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/moonbeam2.webp",
+      "dlc": {
+        "id": "mplowrider",
+        "name": "Lowriders",
+        "releaseDate": "2015-10-20"
+      },
+      "stats": {
+        "handlingId": "MOONBEAM",
+        "mass": 2400,
+        "topSpeed": 125,
+        "driveForce": 0.21,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.4,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2,
+          "min": 1.8,
+          "lateral": 20
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "nightshade",
+      "name": "Nightshade",
+      "hash": 2351681756,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/nightshade.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "NITESHAD",
+        "mass": 1400,
+        "topSpeed": 145,
+        "driveForce": 0.25,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.45,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.25,
+          "min": 1.85,
+          "lateral": 20.5
+        },
+        "suspensionForce": 1.9,
+        "steeringLock": 41,
+        "monetaryValue": 130000
+      }
+    },
+    {
+      "id": "peyote2",
+      "name": "Peyote Gasser",
+      "hash": 2490551588,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/peyote2.webp",
+      "dlc": {
+        "id": "mpvinewood",
+        "name": "The Diamond Casino & Resort",
+        "releaseDate": "2019-07-23"
+      },
+      "stats": {
+        "handlingId": "PEYOTE2",
+        "mass": 2100,
+        "topSpeed": 148.5,
+        "driveForce": 0.344,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.26,
+          "min": 2.05,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.05,
+        "steeringLock": 36,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "phoenix",
+      "name": "Phoenix",
+      "hash": 2199527893,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/phoenix.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "PHOENIX",
+        "mass": 1700,
+        "topSpeed": 145,
+        "driveForce": 0.28,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.75,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.7,
+        "steeringLock": 40,
+        "monetaryValue": 20000
+      }
+    },
+    {
+      "id": "picador",
+      "name": "Picador",
+      "hash": 1507916787,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/picador.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "PICADOR",
+        "mass": 1600,
+        "topSpeed": 135,
+        "driveForce": 0.22,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0.4,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.05,
+          "min": 1.65,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.9,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "ratloader",
+      "name": "Rat-Loader",
+      "hash": 3627815886,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/ratloader.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "RLOADER",
+        "mass": 1200,
+        "topSpeed": 135,
+        "driveForce": 0.22,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.3,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.65,
+          "min": 1.25,
+          "lateral": 17.5
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "ratloader2",
+      "name": "Rat-Truck",
+      "hash": 3705788919,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/ratloader2.webp",
+      "dlc": {
+        "id": "mpchristmas2",
+        "name": "Festive Surprise (2014)",
+        "releaseDate": "2014-12-18"
+      },
+      "stats": {
+        "handlingId": "RLOADER2",
+        "mass": 1200,
+        "topSpeed": 135,
+        "driveForce": 0.24,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.3,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.75,
+          "min": 1.3,
+          "lateral": 21.5
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 42,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "ruiner",
+      "name": "Ruiner",
+      "hash": 4067225593,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/ruiner.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "RUINER",
+        "mass": 1300,
+        "topSpeed": 145,
+        "driveForce": 0.28,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.2,
+          "min": 1.8,
+          "lateral": 20.5
+        },
+        "suspensionForce": 1.9,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "ruiner2",
+      "name": "Ruiner 2000",
+      "hash": 941494461,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/ruiner2.webp",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "stats": {
+        "handlingId": "RUINER2",
+        "mass": 1300,
+        "topSpeed": 152,
+        "driveForce": 0.33,
+        "brakeForce": 1,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.1,
+          "min": 1.8,
+          "lateral": 20.5
+        },
+        "suspensionForce": 1.9,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "ruiner3",
+      "name": "Ruiner",
+      "hash": 777714999,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/ruiner3.webp",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "stats": {
+        "handlingId": "RUINER",
+        "mass": 1300,
+        "topSpeed": 145,
+        "driveForce": 0.28,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.2,
+          "min": 1.8,
+          "lateral": 20.5
+        },
+        "suspensionForce": 1.9,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "ruiner4",
+      "name": "Ruiner ZZ-8",
+      "hash": 1706945532,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/ruiner4.webp",
+      "dlc": {
+        "id": "mpsum2",
+        "name": "The Criminal Enterprises",
+        "releaseDate": "2022-07-26"
+      },
+      "stats": {
+        "handlingId": "RUINER4",
+        "mass": 1590,
+        "topSpeed": 151,
+        "driveForce": 0.308,
+        "brakeForce": 0.82,
+        "handBrakeForce": 0.8,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.36,
+          "min": 1.98,
+          "lateral": 20.5
+        },
+        "suspensionForce": 1.9,
+        "steeringLock": 40.25,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "sabregt",
+      "name": "Sabre Turbo",
+      "hash": 2609945748,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/sabregt.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "SABREGT",
+        "mass": 1200,
+        "topSpeed": 140,
+        "driveForce": 0.28,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.25,
+          "min": 1.8,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "sabregt2",
+      "name": "Sabre Turbo Custom",
+      "hash": 223258115,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/sabregt2.webp",
+      "dlc": {
+        "id": "mplowrider2",
+        "name": "Lowriders: Custom Classics",
+        "releaseDate": "2016-03-15"
+      },
+      "stats": {
+        "handlingId": "SABREGT2",
+        "mass": 1300,
+        "topSpeed": 140,
+        "driveForce": 0.282,
+        "brakeForce": 0.82,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.26,
+          "min": 1.8,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.4,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "slamvan",
+      "name": "Slamvan",
+      "hash": 729783779,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/slamvan.webp",
+      "dlc": {
+        "id": "mpchristmas2",
+        "name": "Festive Surprise (2014)",
+        "releaseDate": "2014-12-18"
+      },
+      "stats": {
+        "handlingId": "SLAMVAN",
+        "mass": 1200,
+        "topSpeed": 135,
+        "driveForce": 0.245,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.3,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.65,
+          "min": 1.25,
+          "lateral": 20.5
+        },
+        "suspensionForce": 1.9,
+        "steeringLock": 35,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "slamvan2",
+      "name": "Lost Slamvan",
+      "hash": 833469436,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/slamvan2.webp",
+      "dlc": {
+        "id": "mpheist",
+        "name": "The Heists Update",
+        "releaseDate": "2015-03-10"
+      },
+      "stats": {
+        "handlingId": "SLAMVAN2",
+        "mass": 1300,
+        "topSpeed": 135,
+        "driveForce": 0.25,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.3,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.85,
+          "min": 1.55,
+          "lateral": 20.5
+        },
+        "suspensionForce": 1.9,
+        "steeringLock": 35,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "slamvan3",
+      "name": "Slamvan Custom",
+      "hash": 1119641113,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/slamvan3.webp",
+      "dlc": {
+        "id": "mplowrider2",
+        "name": "Lowriders: Custom Classics",
+        "releaseDate": "2016-03-15"
+      },
+      "stats": {
+        "handlingId": "SLAMVAN3",
+        "mass": 1400,
+        "topSpeed": 135,
+        "driveForce": 0.25,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.3,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.35,
+          "min": 1.75,
+          "lateral": 20.5
+        },
+        "suspensionForce": 2,
+        "steeringLock": 35,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "slamvan4",
+      "name": "Apocalypse Slamvan",
+      "hash": 2233918197,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/slamvan4.webp",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "handlingId": "SLAMVAN4",
+        "mass": 1245,
+        "topSpeed": 135.5,
+        "driveForce": 0.27,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.52,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.85,
+          "min": 1.51,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.25,
+        "steeringLock": 35,
+        "monetaryValue": 30000
+      }
+    },
+    {
+      "id": "slamvan5",
+      "name": "Future Shock Slamvan",
+      "hash": 373261600,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/slamvan5.webp",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "handlingId": "SLAMVAN5",
+        "mass": 1245,
+        "topSpeed": 135.5,
+        "driveForce": 0.27,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.52,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.85,
+          "min": 1.51,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.25,
+        "steeringLock": 35,
+        "monetaryValue": 30000
+      }
+    },
+    {
+      "id": "slamvan6",
+      "name": "Nightmare Slamvan",
+      "hash": 1742022738,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/slamvan6.webp",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "handlingId": "SLAMVAN4",
+        "mass": 1245,
+        "topSpeed": 135.5,
+        "driveForce": 0.27,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.52,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.85,
+          "min": 1.51,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.25,
+        "steeringLock": 35,
+        "monetaryValue": 30000
+      }
+    },
+    {
+      "id": "stalion",
+      "name": "Stallion",
+      "hash": 1923400478,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/stalion.webp",
+      "dlc": {
+        "id": "spupgrade",
+        "name": "Story Mode (Next-Gen)",
+        "releaseDate": "2014-11-18"
+      },
+      "stats": {
+        "handlingId": "STALION",
+        "mass": 1650,
+        "topSpeed": 144,
+        "driveForce": 0.29,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.25,
+          "min": 1.8,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "stalion2",
+      "name": "Burger Shot Stallion",
+      "hash": 3893323758,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/stalion2.webp",
+      "dlc": {
+        "id": "spupgrade",
+        "name": "Story Mode (Next-Gen)",
+        "releaseDate": "2014-11-18"
+      },
+      "stats": {
+        "handlingId": "STALION2",
+        "mass": 1650,
+        "topSpeed": 144,
+        "driveForce": 0.31,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.25,
+          "min": 1.8,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "tahoma",
+      "name": "Tahoma Coupe",
+      "hash": 3833117047,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tahoma.webp",
+      "dlc": {
+        "id": "mpchristmas3",
+        "name": "Los Santos Drug Wars",
+        "releaseDate": "2022-12-13"
+      },
+      "stats": {
+        "handlingId": "TAHOMA",
+        "mass": 1380,
+        "topSpeed": 152,
+        "driveForce": 0.298,
+        "brakeForce": 0.625,
+        "handBrakeForce": 0.45,
+        "gears": 3,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.31,
+          "min": 2.08,
+          "lateral": 22
+        },
+        "suspensionForce": 1.9,
+        "steeringLock": 39.5,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "tampa",
+      "name": "Tampa",
+      "hash": 972671128,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tampa.webp",
+      "dlc": {
+        "id": "mpxmas_604490",
+        "name": "Festive Surprise 2015",
+        "releaseDate": "2015-12-22"
+      },
+      "stats": {
+        "handlingId": "TAMPA",
+        "mass": 1200,
+        "topSpeed": 140,
+        "driveForce": 0.27,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.8,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.25,
+          "min": 1.8,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "tampa3",
+      "name": "Weaponized Tampa",
+      "hash": 3084515313,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tampa3.webp",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "handlingId": "TAMPA3",
+        "mass": 1400,
+        "topSpeed": 145,
+        "driveForce": 0.33,
+        "brakeForce": 0.5,
+        "handBrakeForce": 0.8,
+        "gears": 4,
+        "driveBiasFront": 0.25,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.25,
+          "min": 2.1,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.4,
+        "steeringLock": 42,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "tampa4",
+      "name": "Tampa GT",
+      "hash": 2786546796,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tampa4.webp",
+      "dlc": {
+        "id": "mp2025_01",
+        "name": "Money Fronts",
+        "releaseDate": "2025-06-17"
+      },
+      "stats": {
+        "handlingId": "TAMPA4",
+        "mass": 1800,
+        "topSpeed": 160,
+        "driveForce": 0.37,
+        "brakeForce": 0.3,
+        "handBrakeForce": 0.6,
+        "gears": 3,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.82,
+          "min": 1.7,
+          "lateral": 23
+        },
+        "suspensionForce": 1.5,
+        "steeringLock": 40,
+        "monetaryValue": 30000
+      }
+    },
+    {
+      "id": "tulip",
+      "name": "Tulip",
+      "hash": 1456744817,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tulip.webp",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "handlingId": "TULIP",
+        "mass": 1545,
+        "topSpeed": 147.5,
+        "driveForce": 0.32,
+        "brakeForce": 0.5,
+        "handBrakeForce": 0.52,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.25,
+          "min": 2.01,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.25,
+        "steeringLock": 37,
+        "monetaryValue": 30000
+      }
+    },
+    {
+      "id": "tulip2",
+      "name": "Tulip M-100",
+      "hash": 268758436,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tulip2.webp",
+      "dlc": {
+        "id": "mpchristmas3",
+        "name": "Los Santos Drug Wars",
+        "releaseDate": "2022-12-13"
+      },
+      "stats": {
+        "handlingId": "TULIP2",
+        "mass": 1400,
+        "topSpeed": 152,
+        "driveForce": 0.315,
+        "brakeForce": 0.68,
+        "handBrakeForce": 0.45,
+        "gears": 3,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.33,
+          "min": 2.1,
+          "lateral": 21.8
+        },
+        "suspensionForce": 2.05,
+        "steeringLock": 39.75,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "vamos",
+      "name": "Vamos",
+      "hash": 4245851645,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/vamos.webp",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "handlingId": "VAMOS",
+        "mass": 1380,
+        "topSpeed": 145,
+        "driveForce": 0.33,
+        "brakeForce": 0.5,
+        "handBrakeForce": 0.8,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.25,
+          "min": 2.1,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.4,
+        "steeringLock": 42,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "vigero",
+      "name": "Vigero",
+      "hash": 3469130167,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/vigero.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "VIGERO",
+        "mass": 1800,
+        "topSpeed": 140,
+        "driveForce": 0.29,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.05,
+          "min": 1.85,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 40,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "vigero2",
+      "name": "Vigero ZX",
+      "hash": 2536587772,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/vigero2.webp",
+      "dlc": {
+        "id": "mpsum2",
+        "name": "The Criminal Enterprises",
+        "releaseDate": "2022-07-26"
+      },
+      "stats": {
+        "handlingId": "VIGERO2",
+        "mass": 1760,
+        "topSpeed": 157.95,
+        "driveForce": 0.364,
+        "brakeForce": 0.95,
+        "handBrakeForce": 0.625,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.58,
+          "min": 2.41,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.3,
+        "steeringLock": 40.5,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "vigero3",
+      "name": "Vigero ZX Convertible",
+      "hash": 372621319,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/vigero3.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "VIGERO3",
+        "mass": 1890,
+        "topSpeed": 157.95,
+        "driveForce": 0.364,
+        "brakeForce": 0.95,
+        "handBrakeForce": 0.625,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.58,
+          "min": 2.42,
+          "lateral": 22.75
+        },
+        "suspensionForce": 2.3,
+        "steeringLock": 40.5,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "virgo",
+      "name": "Virgo",
+      "hash": 3796912450,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/virgo.webp",
+      "dlc": {
+        "id": "mpluxe",
+        "name": "Ill-Gotten Gains Part 1",
+        "releaseDate": "2015-06-10"
+      },
+      "stats": {
+        "handlingId": "VIRGO",
+        "mass": 2200,
+        "topSpeed": 134,
+        "driveForce": 0.21,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.05,
+          "min": 1.8,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "virgo2",
+      "name": "Virgo Classic Custom",
+      "hash": 3395457658,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/virgo2.webp",
+      "dlc": {
+        "id": "mplowrider2",
+        "name": "Lowriders: Custom Classics",
+        "releaseDate": "2016-03-15"
+      },
+      "stats": {
+        "handlingId": "VIRGO2",
+        "mass": 2300,
+        "topSpeed": 134,
+        "driveForce": 0.211,
+        "brakeForce": 0.72,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.1,
+          "min": 1.8,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.5,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "virgo3",
+      "name": "Virgo Classic",
+      "hash": 16646064,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/virgo3.webp",
+      "dlc": {
+        "id": "mplowrider2",
+        "name": "Lowriders: Custom Classics",
+        "releaseDate": "2016-03-15"
+      },
+      "stats": {
+        "handlingId": "VIRGO3",
+        "mass": 2200,
+        "topSpeed": 134,
+        "driveForce": 0.21,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.05,
+          "min": 1.8,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.5,
+        "steeringLock": 35,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "voodoo",
+      "name": "Voodoo Custom",
+      "hash": 2006667053,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/voodoo.webp",
+      "dlc": {
+        "id": "mplowrider",
+        "name": "Lowriders",
+        "releaseDate": "2015-10-20"
+      },
+      "stats": {
+        "handlingId": "VOODOO",
+        "mass": 2100,
+        "topSpeed": 130,
+        "driveForce": 0.18,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.35,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.85,
+          "min": 1.44,
+          "lateral": 17
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 35,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "voodoo2",
+      "name": "Voodoo",
+      "hash": 523724515,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/voodoo2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "VOODOO2",
+        "mass": 2100,
+        "topSpeed": 130,
+        "driveForce": 0.17,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.35,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.85,
+          "min": 1.44,
+          "lateral": 17
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 35,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "weevil2",
+      "name": "Weevil Custom",
+      "hash": 3300595976,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/weevil2.webp",
+      "dlc": {
+        "id": "mpsum2",
+        "name": "The Criminal Enterprises",
+        "releaseDate": "2022-07-26"
+      },
+      "stats": {
+        "handlingId": "WEEVIL2",
+        "mass": 780,
+        "topSpeed": 159.85,
+        "driveForce": 0.338,
+        "brakeForce": 0.775,
+        "handBrakeForce": 0.45,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.11,
+          "min": 1.82,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.075,
+        "steeringLock": 38.35,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "yosemite",
+      "name": "Yosemite",
+      "hash": 1871995513,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/yosemite.webp",
+      "dlc": {
+        "id": "mpchristmas2017",
+        "name": "The Doomsday Heist",
+        "releaseDate": "2017-12-12"
+      },
+      "stats": {
+        "handlingId": "YOSEMITE",
+        "mass": 1300,
+        "topSpeed": 137,
+        "driveForce": 0.285,
+        "brakeForce": 0.75,
+        "handBrakeForce": 0.3,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.38,
+          "min": 1.9,
+          "lateral": 20.5
+        },
+        "suspensionForce": 2.5,
+        "steeringLock": 35,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "yosemite2",
+      "name": "Drift Yosemite",
+      "hash": 1693751655,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/yosemite2.webp",
+      "dlc": {
+        "id": "mpheist3",
+        "name": "The Diamond Casino Heist",
+        "releaseDate": "2019-12-12"
+      },
+      "stats": {
+        "handlingId": "YOSEMITE2",
+        "mass": 1200,
+        "topSpeed": 140,
+        "driveForce": 0.395,
+        "brakeForce": 0.85,
+        "handBrakeForce": 0.58,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.63,
+          "min": 2.4,
+          "lateral": 23.5
+        },
+        "suspensionForce": 2.25,
+        "steeringLock": 42,
+        "monetaryValue": 25000
+      }
+    }
+  ]
+}

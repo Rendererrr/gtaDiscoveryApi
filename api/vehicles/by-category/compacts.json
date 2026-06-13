@@ -1,0 +1,578 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "name": "Compacts",
+    "key": "Compacts",
+    "slug": "compacts",
+    "count": 18
+  },
+  "count": 18,
+  "items": [
+    {
+      "id": "asbo",
+      "name": "Asbo",
+      "hash": 1118611807,
+      "category": "Compacts",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/asbo.webp",
+      "dlc": {
+        "id": "mpheist3",
+        "name": "The Diamond Casino Heist",
+        "releaseDate": "2019-12-12"
+      },
+      "stats": {
+        "handlingId": "ASBO",
+        "mass": 1030,
+        "topSpeed": 126,
+        "driveForce": 0.234,
+        "brakeForce": 0.47,
+        "handBrakeForce": 0.37,
+        "gears": 5,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 1.92,
+          "min": 1.73,
+          "lateral": 21.5
+        },
+        "suspensionForce": 2.3,
+        "steeringLock": 38,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "blista",
+      "name": "Blista",
+      "hash": 3950024287,
+      "category": "Compacts",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/blista.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "BLISTA",
+        "mass": 1200,
+        "topSpeed": 135,
+        "driveForce": 0.23,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.4,
+        "gears": 5,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 2.05,
+          "min": 1.75,
+          "lateral": 21.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 36,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "brioso",
+      "name": "Brioso R/A",
+      "hash": 1549126457,
+      "category": "Compacts",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/brioso.webp",
+      "dlc": {
+        "id": "mpstunt",
+        "name": "Cunning Stunts",
+        "releaseDate": "2016-07-12"
+      },
+      "stats": {
+        "handlingId": "BRIOSO",
+        "mass": 850,
+        "topSpeed": 135,
+        "driveForce": 0.29,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.3,
+          "min": 2.05,
+          "lateral": 22
+        },
+        "suspensionForce": 2.5,
+        "steeringLock": 35,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "brioso2",
+      "name": "Brioso 300",
+      "hash": 1429622905,
+      "category": "Compacts",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/brioso2.webp",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "handlingId": "BRIOSO2",
+        "mass": 650,
+        "topSpeed": 115,
+        "driveForce": 0.179,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.22,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.89,
+          "min": 1.82,
+          "lateral": 21
+        },
+        "suspensionForce": 1.85,
+        "steeringLock": 29,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "brioso3",
+      "name": "Brioso 300 Widebody",
+      "hash": 15214558,
+      "category": "Compacts",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/brioso3.webp",
+      "dlc": {
+        "id": "mpsum2",
+        "name": "The Criminal Enterprises",
+        "releaseDate": "2022-07-26"
+      },
+      "stats": {
+        "handlingId": "BRIOSO3",
+        "mass": 650,
+        "topSpeed": 124,
+        "driveForce": 0.216,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.23,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2,
+          "min": 1.89,
+          "lateral": 21
+        },
+        "suspensionForce": 1.85,
+        "steeringLock": 29,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "club",
+      "name": "Club",
+      "hash": 2196012677,
+      "category": "Compacts",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/club.webp",
+      "dlc": {
+        "id": "mpsum",
+        "name": "Los Santos Summer Special",
+        "releaseDate": "2020-08-11"
+      },
+      "stats": {
+        "handlingId": "CLUB",
+        "mass": 950,
+        "topSpeed": 140,
+        "driveForce": 0.237,
+        "brakeForce": 0.72,
+        "handBrakeForce": 0.35,
+        "gears": 4,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 2.05,
+          "min": 1.85,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "dilettante",
+      "name": "Dilettante",
+      "hash": 3164157193,
+      "category": "Compacts",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dilettante.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "DILETTANTE",
+        "mass": 1400,
+        "topSpeed": 130,
+        "driveForce": 0.1,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 1.76,
+          "min": 1.63,
+          "lateral": 18.5
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 35,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "dilettante2",
+      "name": "Dilettante",
+      "hash": 1682114128,
+      "category": "Compacts",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dilettante2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "DILETTANTE",
+        "mass": 1400,
+        "topSpeed": 130,
+        "driveForce": 0.1,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 1.76,
+          "min": 1.63,
+          "lateral": 18.5
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 35,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "issi2",
+      "name": "Issi",
+      "hash": 3117103977,
+      "category": "Compacts",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/issi2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "ISSI",
+        "mass": 1200,
+        "topSpeed": 135,
+        "driveForce": 0.23,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.45,
+        "gears": 5,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 2.05,
+          "min": 1.75,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 36,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "issi3",
+      "name": "Issi Classic",
+      "hash": 931280609,
+      "category": "Compacts",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/issi3.webp",
+      "dlc": {
+        "id": "mpassault",
+        "name": "Southern San Andreas Super Sport Series",
+        "releaseDate": "2018-03-20"
+      },
+      "stats": {
+        "handlingId": "ISSI3",
+        "mass": 650,
+        "topSpeed": 125,
+        "driveForce": 0.26,
+        "brakeForce": 0.3,
+        "handBrakeForce": 0.4,
+        "gears": 4,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 2,
+          "min": 1.8,
+          "lateral": 20
+        },
+        "suspensionForce": 1.5,
+        "steeringLock": 40,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "issi4",
+      "name": "Apocalypse Issi",
+      "hash": 628003514,
+      "category": "Compacts",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/issi4.webp",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "handlingId": "ISSI4",
+        "mass": 1200,
+        "topSpeed": 140,
+        "driveForce": 0.34,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.4,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2,
+          "min": 1.85,
+          "lateral": 20
+        },
+        "suspensionForce": 1.05,
+        "steeringLock": 40,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "issi5",
+      "name": "Future Shock Issi",
+      "hash": 1537277726,
+      "category": "Compacts",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/issi5.webp",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "handlingId": "ISSI5",
+        "mass": 1200,
+        "topSpeed": 140,
+        "driveForce": 0.34,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.4,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2,
+          "min": 1.85,
+          "lateral": 20
+        },
+        "suspensionForce": 1.05,
+        "steeringLock": 40,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "issi6",
+      "name": "Nightmare Issi",
+      "hash": 1239571361,
+      "category": "Compacts",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/issi6.webp",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "handlingId": "ISSI4",
+        "mass": 1200,
+        "topSpeed": 140,
+        "driveForce": 0.34,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.4,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2,
+          "min": 1.85,
+          "lateral": 20
+        },
+        "suspensionForce": 1.05,
+        "steeringLock": 40,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "kanjo",
+      "name": "Blista Kanjo",
+      "hash": 409049982,
+      "category": "Compacts",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/kanjo.webp",
+      "dlc": {
+        "id": "mpheist3",
+        "name": "The Diamond Casino Heist",
+        "releaseDate": "2019-12-12"
+      },
+      "stats": {
+        "handlingId": "KANJO",
+        "mass": 1150,
+        "topSpeed": 140,
+        "driveForce": 0.32,
+        "brakeForce": 0.5,
+        "handBrakeForce": 0.45,
+        "gears": 5,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 1.97,
+          "min": 1.72,
+          "lateral": 21.5
+        },
+        "suspensionForce": 2.3,
+        "steeringLock": 48,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "panto",
+      "name": "Panto",
+      "hash": 3863274624,
+      "category": "Compacts",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/panto.webp",
+      "dlc": {
+        "id": "mphipster",
+        "name": "I'm Not a Hipster Update",
+        "releaseDate": "2014-06-17"
+      },
+      "stats": {
+        "handlingId": "PANTO",
+        "mass": 800,
+        "topSpeed": 132,
+        "driveForce": 0.27,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.97,
+          "min": 1.77,
+          "lateral": 22
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 33,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "prairie",
+      "name": "Prairie",
+      "hash": 2844316578,
+      "category": "Compacts",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/prairie.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "PRAIRIE",
+        "mass": 1400,
+        "topSpeed": 135,
+        "driveForce": 0.22,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.45,
+        "gears": 5,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 1.95,
+          "min": 1.55,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 36,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "rhapsody",
+      "name": "Rhapsody",
+      "hash": 841808271,
+      "category": "Compacts",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/rhapsody.webp",
+      "dlc": {
+        "id": "mphipster",
+        "name": "I'm Not a Hipster Update",
+        "releaseDate": "2014-06-17"
+      },
+      "stats": {
+        "handlingId": "RHAPSODY1",
+        "mass": 1350,
+        "topSpeed": 133,
+        "driveForce": 0.23,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.45,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.05,
+          "min": 1.72,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 36,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "weevil",
+      "name": "Weevil",
+      "hash": 1644055914,
+      "category": "Compacts",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/weevil.webp",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "handlingId": "WEEVIL",
+        "mass": 820,
+        "topSpeed": 135,
+        "driveForce": 0.188,
+        "brakeForce": 0.26,
+        "handBrakeForce": 0.22,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.78,
+          "min": 1.6,
+          "lateral": 21
+        },
+        "suspensionForce": 1.25,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "peds",
+    "label": "Peds",
+    "urlPattern": "{cdnBase}/assets/peds/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate null for patch-day additions)."
+  },
+  "group": {
+    "id": "patchday9ng",
+    "name": "Patch Day 9",
+    "releaseDate": null,
+    "key": "patchday9ng",
+    "slug": "patchday9ng",
+    "count": 1
+  },
+  "count": 1,
+  "items": [
+    {
+      "id": "s_m_y_cop_01",
+      "name": "s_m_y_cop_01",
+      "hash": 1581098148,
+      "category": "Scenario male",
+      "dlc": {
+        "id": "patchday9ng",
+        "name": "Patch Day 9",
+        "releaseDate": null
+      },
+      "props": "2 props",
+      "components": "6 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/s_m_y_cop_01.webp"
+    }
+  ]
+}

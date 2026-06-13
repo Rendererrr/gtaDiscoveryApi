@@ -1,0 +1,549 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "id": "mpsecurity",
+    "name": "The Contract",
+    "releaseDate": "2021-12-15",
+    "key": "mpsecurity",
+    "slug": "mpsecurity",
+    "count": 17
+  },
+  "count": 17,
+  "items": [
+    {
+      "id": "cinquemila",
+      "name": "Cinquemila",
+      "hash": 2767531027,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/cinquemila.webp",
+      "dlc": {
+        "id": "mpsecurity",
+        "name": "The Contract",
+        "releaseDate": "2021-12-15"
+      },
+      "stats": {
+        "handlingId": "CINQUEMILA",
+        "mass": 1860,
+        "topSpeed": 154,
+        "driveForce": 0.353,
+        "brakeForce": 0.975,
+        "handBrakeForce": 0.65,
+        "gears": 8,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.63,
+          "min": 2.37,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.75,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "deity",
+      "name": "Deity",
+      "hash": 1532171089,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/deity.webp",
+      "dlc": {
+        "id": "mpsecurity",
+        "name": "The Contract",
+        "releaseDate": "2021-12-15"
+      },
+      "stats": {
+        "handlingId": "DEITY",
+        "mass": 2685,
+        "topSpeed": 150,
+        "driveForce": 0.292,
+        "brakeForce": 0.65,
+        "handBrakeForce": 0.8,
+        "gears": 8,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.85,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.45,
+        "steeringLock": 39,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "astron",
+      "name": "Astron",
+      "hash": 629969764,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/astron.webp",
+      "dlc": {
+        "id": "mpsecurity",
+        "name": "The Contract",
+        "releaseDate": "2021-12-15"
+      },
+      "stats": {
+        "handlingId": "ASTRON",
+        "mass": 1970,
+        "topSpeed": 148.7,
+        "driveForce": 0.324,
+        "brakeForce": 0.48,
+        "handBrakeForce": 0.5,
+        "gears": 7,
+        "driveBiasFront": 0.44,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.19,
+          "min": 1.92,
+          "lateral": 21
+        },
+        "suspensionForce": 2.23,
+        "steeringLock": 36.27,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "baller7",
+      "name": "Baller ST",
+      "hash": 359875117,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/baller7.webp",
+      "dlc": {
+        "id": "mpsecurity",
+        "name": "The Contract",
+        "releaseDate": "2021-12-15"
+      },
+      "stats": {
+        "handlingId": "BALLER7",
+        "mass": 2370,
+        "topSpeed": 139.75,
+        "driveForce": 0.302,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.335,
+        "gears": 7,
+        "driveBiasFront": 0.6,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.2,
+          "min": 1.85,
+          "lateral": 20
+        },
+        "suspensionForce": 1.55,
+        "steeringLock": 35.25,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "granger2",
+      "name": "Granger 3600LX",
+      "hash": 4033620423,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/granger2.webp",
+      "dlc": {
+        "id": "mpsecurity",
+        "name": "The Contract",
+        "releaseDate": "2021-12-15"
+      },
+      "stats": {
+        "handlingId": "GRANGER2",
+        "mass": 2100,
+        "topSpeed": 142,
+        "driveForce": 0.207,
+        "brakeForce": 0.84,
+        "handBrakeForce": 0.6,
+        "gears": 4,
+        "driveBiasFront": 0.6,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.18,
+          "min": 1.92,
+          "lateral": 18.5
+        },
+        "suspensionForce": 2.4,
+        "steeringLock": 37,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "iwagen",
+      "name": "I-Wagen",
+      "hash": 662793086,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/iwagen.webp",
+      "dlc": {
+        "id": "mpsecurity",
+        "name": "The Contract",
+        "releaseDate": "2021-12-15"
+      },
+      "stats": {
+        "handlingId": "I-WAGEN",
+        "mass": 2445,
+        "topSpeed": 128,
+        "driveForce": 0.232,
+        "brakeForce": 0.775,
+        "handBrakeForce": 0.335,
+        "gears": 1,
+        "driveBiasFront": 0.52,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.37,
+          "min": 2.3,
+          "lateral": 22.8
+        },
+        "suspensionForce": 2.25,
+        "steeringLock": 39.95,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "jubilee",
+      "name": "Jubilee",
+      "hash": 461465043,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/jubilee.webp",
+      "dlc": {
+        "id": "mpsecurity",
+        "name": "The Contract",
+        "releaseDate": "2021-12-15"
+      },
+      "stats": {
+        "handlingId": "JUBILEE",
+        "mass": 2660,
+        "topSpeed": 151,
+        "driveForce": 0.297,
+        "brakeForce": 0.75,
+        "handBrakeForce": 0.8,
+        "gears": 8,
+        "driveBiasFront": 0.35,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.29,
+          "min": 2.06,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.15,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "buffalo4",
+      "name": "Buffalo STX",
+      "hash": 3675036420,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/buffalo4.webp",
+      "dlc": {
+        "id": "mpsecurity",
+        "name": "The Contract",
+        "releaseDate": "2021-12-15"
+      },
+      "stats": {
+        "handlingId": "BUFFALO4",
+        "mass": 1800,
+        "topSpeed": 159.5,
+        "driveForce": 0.343,
+        "brakeForce": 0.95,
+        "handBrakeForce": 0.6,
+        "gears": 8,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.58,
+          "min": 2.4,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.4,
+        "steeringLock": 38,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "comet7",
+      "name": "Comet S2 Cabrio",
+      "hash": 1141395928,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/comet7.webp",
+      "dlc": {
+        "id": "mpsecurity",
+        "name": "The Contract",
+        "releaseDate": "2021-12-15"
+      },
+      "stats": {
+        "handlingId": "COMET7",
+        "mass": 1650,
+        "topSpeed": 156.1,
+        "driveForce": 0.349,
+        "brakeForce": 0.89,
+        "handBrakeForce": 0.8,
+        "gears": 8,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.65,
+          "min": 2.52,
+          "lateral": 22
+        },
+        "suspensionForce": 2.6,
+        "steeringLock": 41.63,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "champion",
+      "name": "Champion",
+      "hash": 3379732821,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/champion.webp",
+      "dlc": {
+        "id": "mpsecurity",
+        "name": "The Contract",
+        "releaseDate": "2021-12-15"
+      },
+      "stats": {
+        "handlingId": "CHAMPION",
+        "mass": 1500,
+        "topSpeed": 160.8,
+        "driveForce": 0.359,
+        "brakeForce": 1.15,
+        "handBrakeForce": 0.65,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.57,
+          "min": 2.38,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.1,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "ignus",
+      "name": "Ignus",
+      "hash": 2850852987,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/ignus.webp",
+      "dlc": {
+        "id": "mpsecurity",
+        "name": "The Contract",
+        "releaseDate": "2021-12-15"
+      },
+      "stats": {
+        "handlingId": "IGNUS",
+        "mass": 1600,
+        "topSpeed": 160.25,
+        "driveForce": 0.384,
+        "brakeForce": 1,
+        "handBrakeForce": 0.65,
+        "gears": 7,
+        "driveBiasFront": 0.48,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.77,
+          "min": 2.6,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40.5,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "zeno",
+      "name": "Zeno",
+      "hash": 655665811,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/zeno.webp",
+      "dlc": {
+        "id": "mpsecurity",
+        "name": "The Contract",
+        "releaseDate": "2021-12-15"
+      },
+      "stats": {
+        "handlingId": "ZENO",
+        "mass": 1250,
+        "topSpeed": 162.8,
+        "driveForce": 0.388,
+        "brakeForce": 1.2,
+        "handBrakeForce": 0.5,
+        "gears": 7,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.75,
+          "min": 2.48,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 39.75,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "reever",
+      "name": "Reever",
+      "hash": 1993851908,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/reever.webp",
+      "dlc": {
+        "id": "mpsecurity",
+        "name": "The Contract",
+        "releaseDate": "2021-12-15"
+      },
+      "stats": {
+        "handlingId": "REEVER",
+        "mass": 205,
+        "topSpeed": 151.2,
+        "driveForce": 0.408,
+        "brakeForce": 1.3,
+        "handBrakeForce": 1.45,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.2,
+          "min": 2.16,
+          "lateral": 22.5
+        },
+        "suspensionForce": 7.5,
+        "steeringLock": 43,
+        "monetaryValue": 20000
+      }
+    },
+    {
+      "id": "shinobi",
+      "name": "Shinobi",
+      "hash": 1353120668,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/shinobi.webp",
+      "dlc": {
+        "id": "mpsecurity",
+        "name": "The Contract",
+        "releaseDate": "2021-12-15"
+      },
+      "stats": {
+        "handlingId": "SHINOBI",
+        "mass": 165,
+        "topSpeed": 156.4,
+        "driveForce": 0.362,
+        "brakeForce": 1.25,
+        "handBrakeForce": 1.45,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.3,
+          "min": 2.29,
+          "lateral": 22.5
+        },
+        "suspensionForce": 7.5,
+        "steeringLock": 44,
+        "monetaryValue": 20000
+      }
+    },
+    {
+      "id": "patriot3",
+      "name": "Patriot Mil-Spec",
+      "hash": 3624880708,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/patriot3.webp",
+      "dlc": {
+        "id": "mpsecurity",
+        "name": "The Contract",
+        "releaseDate": "2021-12-15"
+      },
+      "stats": {
+        "handlingId": "PATRIOT3",
+        "mass": 3430,
+        "topSpeed": 128,
+        "driveForce": 0.23,
+        "brakeForce": 0.485,
+        "handBrakeForce": 0.5,
+        "gears": 4,
+        "driveBiasFront": 0.4,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.99,
+          "min": 1.75,
+          "lateral": 20
+        },
+        "suspensionForce": 1.37,
+        "steeringLock": 34,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "youga4",
+      "name": "Youga Custom",
+      "hash": 1486521356,
+      "category": "Vans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/youga4.webp",
+      "dlc": {
+        "id": "mpsecurity",
+        "name": "The Contract",
+        "releaseDate": "2021-12-15"
+      },
+      "stats": {
+        "handlingId": "YOUGA4",
+        "mass": 2500,
+        "topSpeed": 128,
+        "driveForce": 0.158,
+        "brakeForce": 0.32,
+        "handBrakeForce": 0.35,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.8,
+          "min": 1.55,
+          "lateral": 20
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 33,
+        "monetaryValue": 22000
+      }
+    },
+    {
+      "id": "mule5",
+      "name": "Mule",
+      "hash": 1343932732,
+      "category": "Commercial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/mule5.webp",
+      "dlc": {
+        "id": "mpsecurity",
+        "name": "The Contract",
+        "releaseDate": "2021-12-15"
+      },
+      "stats": {
+        "handlingId": "MULE3",
+        "mass": 12500,
+        "topSpeed": 100,
+        "driveForce": 0.17,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.2,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.5,
+          "min": 1.3,
+          "lateral": 16
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 37,
+        "monetaryValue": 25000
+      }
+    }
+  ]
+}

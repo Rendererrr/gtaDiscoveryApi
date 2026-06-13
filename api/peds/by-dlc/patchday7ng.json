@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "peds",
+    "label": "Peds",
+    "urlPattern": "{cdnBase}/assets/peds/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate null for patch-day additions)."
+  },
+  "group": {
+    "id": "patchday7ng",
+    "name": "Patch Day 7",
+    "releaseDate": null,
+    "key": "patchday7ng",
+    "slug": "patchday7ng",
+    "count": 2
+  },
+  "count": 2,
+  "items": [
+    {
+      "id": "csb_stripper_01",
+      "name": "csb_stripper_01",
+      "hash": 2934601397,
+      "category": "Cutscene",
+      "dlc": {
+        "id": "patchday7ng",
+        "name": "Patch Day 7",
+        "releaseDate": null
+      },
+      "props": "0 prop",
+      "components": "7 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/csb_stripper_01.webp"
+    },
+    {
+      "id": "s_f_y_stripper_01",
+      "name": "s_f_y_stripper_01",
+      "hash": 1381498905,
+      "category": "Scenario female",
+      "dlc": {
+        "id": "patchday7ng",
+        "name": "Patch Day 7",
+        "releaseDate": null
+      },
+      "props": "0 prop",
+      "components": "7 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/s_f_y_stripper_01.webp"
+    }
+  ]
+}

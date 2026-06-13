@@ -1,0 +1,580 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "id": "mptuner",
+    "name": "Los Santos Tuners",
+    "releaseDate": "2021-07-20",
+    "key": "mptuner",
+    "slug": "mptuner",
+    "count": 18
+  },
+  "count": 18,
+  "items": [
+    {
+      "id": "tailgater2",
+      "name": "Tailgater S",
+      "hash": 3050505892,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tailgater2.webp",
+      "dlc": {
+        "id": "mptuner",
+        "name": "Los Santos Tuners",
+        "releaseDate": "2021-07-20"
+      },
+      "stats": {
+        "handlingId": "TAILGATER2",
+        "mass": 1340,
+        "topSpeed": 147.85,
+        "driveForce": 0.278,
+        "brakeForce": 0.88,
+        "handBrakeForce": 0.7,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.6,
+          "min": 2.32,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.85,
+        "steeringLock": 41,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "warrener2",
+      "name": "Warrener HKR",
+      "hash": 579912970,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/warrener2.webp",
+      "dlc": {
+        "id": "mptuner",
+        "name": "Los Santos Tuners",
+        "releaseDate": "2021-07-20"
+      },
+      "stats": {
+        "handlingId": "WARRENER2",
+        "mass": 965,
+        "topSpeed": 146,
+        "driveForce": 0.265,
+        "brakeForce": 0.95,
+        "handBrakeForce": 1.2,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.16,
+          "min": 1.83,
+          "lateral": 20.5
+        },
+        "suspensionForce": 1.9,
+        "steeringLock": 50,
+        "monetaryValue": 100000
+      }
+    },
+    {
+      "id": "previon",
+      "name": "Previon",
+      "hash": 1416471345,
+      "category": "Coupes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/previon.webp",
+      "dlc": {
+        "id": "mptuner",
+        "name": "Los Santos Tuners",
+        "releaseDate": "2021-07-20"
+      },
+      "stats": {
+        "handlingId": "PREVION",
+        "mass": 1300,
+        "topSpeed": 149.45,
+        "driveForce": 0.319,
+        "brakeForce": 0.85,
+        "handBrakeForce": 0.4,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.49,
+          "min": 2.37,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.85,
+        "steeringLock": 41.85,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "dominator7",
+      "name": "Dominator ASP",
+      "hash": 426742808,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dominator7.webp",
+      "dlc": {
+        "id": "mptuner",
+        "name": "Los Santos Tuners",
+        "releaseDate": "2021-07-20"
+      },
+      "stats": {
+        "handlingId": "DOMINATOR7",
+        "mass": 1665,
+        "topSpeed": 150.75,
+        "driveForce": 0.342,
+        "brakeForce": 0.92,
+        "handBrakeForce": 0.7,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.54,
+          "min": 2.42,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.8,
+        "steeringLock": 41.65,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "dominator8",
+      "name": "Dominator GTT",
+      "hash": 736672010,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dominator8.webp",
+      "dlc": {
+        "id": "mptuner",
+        "name": "Los Santos Tuners",
+        "releaseDate": "2021-07-20"
+      },
+      "stats": {
+        "handlingId": "DOMINATOR8",
+        "mass": 1465,
+        "topSpeed": 145.3,
+        "driveForce": 0.303,
+        "brakeForce": 0.75,
+        "handBrakeForce": 0.64,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.5,
+          "min": 2.37,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.95,
+        "steeringLock": 43.38,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "calico",
+      "name": "Calico GTF",
+      "hash": 3101054893,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/calico.webp",
+      "dlc": {
+        "id": "mptuner",
+        "name": "Los Santos Tuners",
+        "releaseDate": "2021-07-20"
+      },
+      "stats": {
+        "handlingId": "CALICO",
+        "mass": 1448,
+        "topSpeed": 149.75,
+        "driveForce": 0.339,
+        "brakeForce": 0.825,
+        "handBrakeForce": 0.65,
+        "gears": 5,
+        "driveBiasFront": 0.48,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.44,
+          "min": 2.17,
+          "lateral": 22.25
+        },
+        "suspensionForce": 2.25,
+        "steeringLock": 41.45,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "comet6",
+      "name": "Comet S2",
+      "hash": 2568944644,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/comet6.webp",
+      "dlc": {
+        "id": "mptuner",
+        "name": "Los Santos Tuners",
+        "releaseDate": "2021-07-20"
+      },
+      "stats": {
+        "handlingId": "COMET6",
+        "mass": 1550,
+        "topSpeed": 156.4,
+        "driveForce": 0.346,
+        "brakeForce": 0.88,
+        "handBrakeForce": 0.8,
+        "gears": 7,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.65,
+          "min": 2.52,
+          "lateral": 22
+        },
+        "suspensionForce": 2.6,
+        "steeringLock": 41.65,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "cypher",
+      "name": "Cypher",
+      "hash": 1755697647,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/cypher.webp",
+      "dlc": {
+        "id": "mptuner",
+        "name": "Los Santos Tuners",
+        "releaseDate": "2021-07-20"
+      },
+      "stats": {
+        "handlingId": "CYPHER",
+        "mass": 1625,
+        "topSpeed": 147.85,
+        "driveForce": 0.326,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.65,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.59,
+          "min": 2.46,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.35,
+        "steeringLock": 41.65,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "euros",
+      "name": "Euros",
+      "hash": 2038480341,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/euros.webp",
+      "dlc": {
+        "id": "mptuner",
+        "name": "Los Santos Tuners",
+        "releaseDate": "2021-07-20"
+      },
+      "stats": {
+        "handlingId": "EUROS",
+        "mass": 1466,
+        "topSpeed": 149.85,
+        "driveForce": 0.324,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.45,
+        "gears": 7,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.56,
+          "min": 2.42,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.3,
+        "steeringLock": 42.88,
+        "monetaryValue": 80000
+      }
+    },
+    {
+      "id": "futo2",
+      "name": "Futo GTX",
+      "hash": 2787736776,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/futo2.webp",
+      "dlc": {
+        "id": "mptuner",
+        "name": "Los Santos Tuners",
+        "releaseDate": "2021-07-20"
+      },
+      "stats": {
+        "handlingId": "FUTO2",
+        "mass": 950,
+        "topSpeed": 137,
+        "driveForce": 0.296,
+        "brakeForce": 0.525,
+        "handBrakeForce": 1.2,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.1,
+          "min": 1.78,
+          "lateral": 20.75
+        },
+        "suspensionForce": 3,
+        "steeringLock": 49.75,
+        "monetaryValue": 100000
+      }
+    },
+    {
+      "id": "growler",
+      "name": "Growler",
+      "hash": 1304459735,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/growler.webp",
+      "dlc": {
+        "id": "mptuner",
+        "name": "Los Santos Tuners",
+        "releaseDate": "2021-07-20"
+      },
+      "stats": {
+        "handlingId": "GROWLER",
+        "mass": 1420,
+        "topSpeed": 153.85,
+        "driveForce": 0.334,
+        "brakeForce": 0.84,
+        "handBrakeForce": 0.8,
+        "gears": 7,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.63,
+          "min": 2.5,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.6,
+        "steeringLock": 42.75,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "jester4",
+      "name": "Jester RR",
+      "hash": 2712905841,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/jester4.webp",
+      "dlc": {
+        "id": "mptuner",
+        "name": "Los Santos Tuners",
+        "releaseDate": "2021-07-20"
+      },
+      "stats": {
+        "handlingId": "JESTER4",
+        "mass": 1575,
+        "topSpeed": 152.5,
+        "driveForce": 0.329,
+        "brakeForce": 0.85,
+        "handBrakeForce": 0.45,
+        "gears": 8,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.59,
+          "min": 2.37,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 43.27,
+        "monetaryValue": 80000
+      }
+    },
+    {
+      "id": "remus",
+      "name": "Remus",
+      "hash": 1377217886,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/remus.webp",
+      "dlc": {
+        "id": "mptuner",
+        "name": "Los Santos Tuners",
+        "releaseDate": "2021-07-20"
+      },
+      "stats": {
+        "handlingId": "REMUS",
+        "mass": 1105,
+        "topSpeed": 146.8,
+        "driveForce": 0.327,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.7,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.69,
+          "min": 2.52,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.25,
+        "steeringLock": 41.75,
+        "monetaryValue": 100000
+      }
+    },
+    {
+      "id": "rt3000",
+      "name": "RT3000",
+      "hash": 3842363289,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/rt3000.webp",
+      "dlc": {
+        "id": "mptuner",
+        "name": "Los Santos Tuners",
+        "releaseDate": "2021-07-20"
+      },
+      "stats": {
+        "handlingId": "RT3000",
+        "mass": 1275,
+        "topSpeed": 149,
+        "driveForce": 0.312,
+        "brakeForce": 1,
+        "handBrakeForce": 0.575,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.58,
+          "min": 2.19,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.3,
+        "steeringLock": 43.25,
+        "monetaryValue": 80000
+      }
+    },
+    {
+      "id": "sultan3",
+      "name": "Sultan RS Classic",
+      "hash": 4003946083,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/sultan3.webp",
+      "dlc": {
+        "id": "mptuner",
+        "name": "Los Santos Tuners",
+        "releaseDate": "2021-07-20"
+      },
+      "stats": {
+        "handlingId": "SULTAN3",
+        "mass": 1150,
+        "topSpeed": 146.5,
+        "driveForce": 0.339,
+        "brakeForce": 0.52,
+        "handBrakeForce": 0.7,
+        "gears": 5,
+        "driveBiasFront": 0.4,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.48,
+          "min": 2.25,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.9,
+        "steeringLock": 39,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "vectre",
+      "name": "Vectre",
+      "hash": 2754593701,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/vectre.webp",
+      "dlc": {
+        "id": "mptuner",
+        "name": "Los Santos Tuners",
+        "releaseDate": "2021-07-20"
+      },
+      "stats": {
+        "handlingId": "VECTRE",
+        "mass": 1765,
+        "topSpeed": 148.5,
+        "driveForce": 0.324,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.65,
+        "gears": 8,
+        "driveBiasFront": 0.3,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.63,
+          "min": 2.42,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.25,
+        "steeringLock": 40.65,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "zr350",
+      "name": "ZR350",
+      "hash": 2436313176,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/zr350.webp",
+      "dlc": {
+        "id": "mptuner",
+        "name": "Los Santos Tuners",
+        "releaseDate": "2021-07-20"
+      },
+      "stats": {
+        "handlingId": "ZR350",
+        "mass": 1300,
+        "topSpeed": 149.8,
+        "driveForce": 0.33,
+        "brakeForce": 0.85,
+        "handBrakeForce": 0.58,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.48,
+          "min": 2.36,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.75,
+        "steeringLock": 41.15,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "freightcar2",
+      "name": "Freight Train",
+      "hash": 3186376089,
+      "category": "Trains",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/freightcar2.webp",
+      "dlc": {
+        "id": "mptuner",
+        "name": "Los Santos Tuners",
+        "releaseDate": "2021-07-20"
+      },
+      "stats": {
+        "handlingId": "FREIGHTCAR",
+        "mass": 25084,
+        "topSpeed": 80,
+        "driveForce": 0.2,
+        "brakeForce": 5,
+        "handBrakeForce": 0.7,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.5,
+          "min": 0.8,
+          "lateral": 8
+        },
+        "suspensionForce": 0.4,
+        "steeringLock": 35,
+        "monetaryValue": 110000
+      }
+    }
+  ]
+}

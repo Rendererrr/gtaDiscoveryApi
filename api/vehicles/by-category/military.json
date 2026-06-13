@@ -1,0 +1,547 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "name": "Military",
+    "key": "Military",
+    "slug": "military",
+    "count": 17
+  },
+  "count": 17,
+  "items": [
+    {
+      "id": "apc",
+      "name": "APC",
+      "hash": 562680400,
+      "category": "Military",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/apc.webp",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "handlingId": "APC",
+        "mass": 10600,
+        "topSpeed": 97,
+        "driveForce": 0.21,
+        "brakeForce": 0.2,
+        "handBrakeForce": 0.2,
+        "gears": 4,
+        "driveBiasFront": 0.45,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.4,
+          "min": 2.2,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2,
+        "steeringLock": 40,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "barracks",
+      "name": "Barracks",
+      "hash": 3471458123,
+      "category": "Military",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/barracks.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "BARRACKS",
+        "mass": 9000,
+        "topSpeed": 110,
+        "driveForce": 0.11,
+        "brakeForce": 0.3,
+        "handBrakeForce": 0.15,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.65,
+          "min": 1.45,
+          "lateral": 18
+        },
+        "suspensionForce": 1,
+        "steeringLock": 36,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "barracks2",
+      "name": "Barracks Semi",
+      "hash": 1074326203,
+      "category": "Military",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/barracks2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "BARRACKS2",
+        "mass": 10000,
+        "topSpeed": 110,
+        "driveForce": 0.23,
+        "brakeForce": 1,
+        "handBrakeForce": 0.3,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.55,
+          "min": 1.35,
+          "lateral": 18
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 38,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "barracks3",
+      "name": "Barracks",
+      "hash": 630371791,
+      "category": "Military",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/barracks3.webp",
+      "dlc": {
+        "id": "mpheist",
+        "name": "The Heists Update",
+        "releaseDate": "2015-03-10"
+      },
+      "stats": {
+        "handlingId": "BARRACKS",
+        "mass": 9000,
+        "topSpeed": 110,
+        "driveForce": 0.11,
+        "brakeForce": 0.3,
+        "handBrakeForce": 0.15,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.65,
+          "min": 1.45,
+          "lateral": 18
+        },
+        "suspensionForce": 1,
+        "steeringLock": 36,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "barrage",
+      "name": "Barrage",
+      "hash": 4081974053,
+      "category": "Military",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/barrage.webp",
+      "dlc": {
+        "id": "mpchristmas2017",
+        "name": "The Doomsday Heist",
+        "releaseDate": "2017-12-12"
+      },
+      "stats": {
+        "handlingId": "BARRAGE",
+        "mass": 2500,
+        "topSpeed": 135,
+        "driveForce": 0.223,
+        "brakeForce": 0.85,
+        "handBrakeForce": 0.5,
+        "gears": 5,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.75,
+          "min": 1.5,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "chernobog",
+      "name": "Chernobog",
+      "hash": 3602674979,
+      "category": "Military",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/chernobog.webp",
+      "dlc": {
+        "id": "mpchristmas2017",
+        "name": "The Doomsday Heist",
+        "releaseDate": "2017-12-12"
+      },
+      "stats": {
+        "handlingId": "CHERNOBOG",
+        "mass": 40000,
+        "topSpeed": 95,
+        "driveForce": 0.12,
+        "brakeForce": 0.1,
+        "handBrakeForce": 0.12,
+        "gears": 5,
+        "driveBiasFront": 0.4,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2,
+          "min": 1.8,
+          "lateral": 20
+        },
+        "suspensionForce": 2.5,
+        "steeringLock": 42,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "crusader",
+      "name": "Crusader",
+      "hash": 321739290,
+      "category": "Military",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/crusader.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "crusader",
+        "mass": 2400,
+        "topSpeed": 130,
+        "driveForce": 0.18,
+        "brakeForce": 0.3,
+        "handBrakeForce": 0.4,
+        "gears": 5,
+        "driveBiasFront": 0.6,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.9,
+          "min": 1.6,
+          "lateral": 18
+        },
+        "suspensionForce": 2.1,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "halftrack",
+      "name": "Half-track",
+      "hash": 4262731174,
+      "category": "Military",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/halftrack.webp",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "handlingId": "HALFTRACK",
+        "mass": 10000,
+        "topSpeed": 75,
+        "driveForce": 0.16,
+        "brakeForce": 0.2,
+        "handBrakeForce": 0.2,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.3,
+          "min": 2.1,
+          "lateral": 35.5
+        },
+        "suspensionForce": 2,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "khanjali",
+      "name": "TM-02 Khanjali",
+      "hash": 2859440138,
+      "category": "Military",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/khanjali.webp",
+      "dlc": {
+        "id": "mpchristmas2017",
+        "name": "The Doomsday Heist",
+        "releaseDate": "2017-12-12"
+      },
+      "stats": {
+        "handlingId": "KHANJALI",
+        "mass": 30000,
+        "topSpeed": 57,
+        "driveForce": 0.1,
+        "brakeForce": 0.2,
+        "handBrakeForce": 0.2,
+        "gears": 1,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.55,
+          "min": 2.45,
+          "lateral": 35.5
+        },
+        "suspensionForce": 3,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "minitank",
+      "name": "Invade and Persuade Tank",
+      "hash": 3040635986,
+      "category": "Military",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/minitank.webp",
+      "dlc": {
+        "id": "mpheist3",
+        "name": "The Diamond Casino Heist",
+        "releaseDate": "2019-12-12"
+      },
+      "stats": {
+        "handlingId": "MINITANK",
+        "mass": 500,
+        "topSpeed": 37,
+        "driveForce": 0.06,
+        "brakeForce": 0.15,
+        "handBrakeForce": 0.2,
+        "gears": 1,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2,
+          "min": 1.75,
+          "lateral": 35.5
+        },
+        "suspensionForce": 5,
+        "steeringLock": 20,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "rhino",
+      "name": "Rhino Tank",
+      "hash": 782665360,
+      "category": "Military",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/rhino.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "RHINO",
+        "mass": 60000,
+        "topSpeed": 55,
+        "driveForce": 0.11,
+        "brakeForce": 0.2,
+        "handBrakeForce": 0.2,
+        "gears": 1,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.5,
+          "min": 2.4,
+          "lateral": 35.5
+        },
+        "suspensionForce": 2,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "scarab",
+      "name": "Apocalypse Scarab",
+      "hash": 3147997943,
+      "category": "Military",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/scarab.webp",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "handlingId": "SCARAB",
+        "mass": 5000,
+        "topSpeed": 100,
+        "driveForce": 0.1,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.9,
+        "gears": 1,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.25,
+          "min": 2.2,
+          "lateral": 35.5
+        },
+        "suspensionForce": 2,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "scarab2",
+      "name": "Future Shock Scarab",
+      "hash": 1542143200,
+      "category": "Military",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/scarab2.webp",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "handlingId": "SCARAB2",
+        "mass": 5000,
+        "topSpeed": 100,
+        "driveForce": 0.1,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.9,
+        "gears": 1,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.25,
+          "min": 2.2,
+          "lateral": 35.5
+        },
+        "suspensionForce": 2,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "scarab3",
+      "name": "Nightmare Scarab",
+      "hash": 3715219435,
+      "category": "Military",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/scarab3.webp",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "handlingId": "SCARAB",
+        "mass": 5000,
+        "topSpeed": 100,
+        "driveForce": 0.1,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.9,
+        "gears": 1,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.25,
+          "min": 2.2,
+          "lateral": 35.5
+        },
+        "suspensionForce": 2,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "thruster",
+      "name": "Thruster",
+      "hash": 1489874736,
+      "category": "Military",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/thruster.webp",
+      "dlc": {
+        "id": "mpchristmas2017",
+        "name": "The Doomsday Heist",
+        "releaseDate": "2017-12-12"
+      },
+      "stats": {
+        "handlingId": "THRUSTER",
+        "mass": 301,
+        "topSpeed": 160,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.2,
+          "lateral": 12
+        },
+        "suspensionForce": 3,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "trailersmall2",
+      "name": "Anti-Aircraft Trailer",
+      "hash": 2413121211,
+      "category": "Military",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/trailersmall2.webp",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "handlingId": "TRAILERSMALL2",
+        "mass": 1000,
+        "topSpeed": 105,
+        "driveForce": 0,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 3.7,
+          "min": 3.5,
+          "lateral": 20
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "vetir",
+      "name": "Vetir",
+      "hash": 2014313426,
+      "category": "Military",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/vetir.webp",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "handlingId": "VETIR",
+        "mass": 5680,
+        "topSpeed": 100,
+        "driveForce": 0.11,
+        "brakeForce": 0.3,
+        "handBrakeForce": 0.15,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.52,
+          "min": 1.45,
+          "lateral": 18
+        },
+        "suspensionForce": 1.7,
+        "steeringLock": 29,
+        "monetaryValue": 40000
+      }
+    }
+  ]
+}

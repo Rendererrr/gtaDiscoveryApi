@@ -1,0 +1,2042 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "weapons",
+    "label": "Weapons",
+    "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
+    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
+  },
+  "group": {
+    "name": "Rifle",
+    "key": "Rifle",
+    "slug": "rifle",
+    "count": 13
+  },
+  "count": 13,
+  "items": [
+    {
+      "id": "advancedrifle",
+      "name": "Advanced Rifle",
+      "codename": "weapon_advancedrifle",
+      "hash": 2937143193,
+      "category": "Rifle",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Advanced-rifle-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 34,
+        "fireRate": 70,
+        "accuracy": 50,
+        "range": 45,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_ADVANCEDRIFLE_CLIP_01",
+          "label": "Default Clip",
+          "hash": 4203716879,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_ADVANCEDRIFLE_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 2395064697,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_SMALL",
+          "label": "Scope",
+          "hash": 2855028148,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP",
+          "label": "Suppressor",
+          "hash": 2205435306,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_ADVANCEDRIFLE_VARMOD_LUXE",
+          "label": "Gilded Gun Metal Finish",
+          "hash": 930927479,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "assaultrifle",
+      "name": "Assault Rifle",
+      "codename": "weapon_assaultrifle",
+      "hash": 3220176749,
+      "category": "Rifle",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Assault-rifle-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 30,
+        "fireRate": 60,
+        "accuracy": 45,
+        "range": 45,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_ASSAULTRIFLE_CLIP_01",
+          "label": "Default Clip",
+          "hash": 3193891350,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_ASSAULTRIFLE_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 2971750299,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_ASSAULTRIFLE_CLIP_03",
+          "label": "Drum Magazine",
+          "hash": 3689981245,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MACRO",
+          "label": "Scope",
+          "hash": 2637152041,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP_02",
+          "label": "Suppressor",
+          "hash": 2805810788,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP",
+          "label": "Grip",
+          "hash": 202788691,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_ASSAULTRIFLE_VARMOD_LUXE",
+          "label": "Yusuf Amir Luxury Finish",
+          "hash": 1319990579,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_GUNRUN_MK2_UPGRADE",
+          "label": "Mk II",
+          "hash": 1623028892,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "assaultrifle_mk2",
+      "name": "Assault Rifle Mk II",
+      "codename": "weapon_assaultrifle_mk2",
+      "hash": 961495388,
+      "category": "Rifle",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Assault-rifle-mk2-icon.png",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "damage": 33,
+        "fireRate": 60,
+        "accuracy": 45,
+        "range": 45,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_ASSAULTRIFLE_MK2_CLIP_01",
+          "label": "Default Clip",
+          "hash": 2249208895,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_ASSAULTRIFLE_MK2_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 3509242479,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_ASSAULTRIFLE_MK2_CLIP_ARMORPIERCING",
+          "label": "Armor Piercing Rounds",
+          "hash": 2816286296,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_ASSAULTRIFLE_MK2_CLIP_FMJ",
+          "label": "Full Metal Jacket Rounds",
+          "hash": 1675665560,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_ASSAULTRIFLE_MK2_CLIP_INCENDIARY",
+          "label": "Incendiary Rounds",
+          "hash": 4218476627,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_ASSAULTRIFLE_MK2_CLIP_TRACER",
+          "label": "Tracer Rounds",
+          "hash": 4012669121,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SIGHTS",
+          "label": "Holographic Sight",
+          "hash": 1108334355,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MACRO_MK2",
+          "label": "Small Scope",
+          "hash": 77277509,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MEDIUM_MK2",
+          "label": "Large Scope",
+          "hash": 3328927042,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP_02",
+          "label": "Suppressor",
+          "hash": 2805810788,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_01",
+          "label": "Muzzle Brake",
+          "hash": 3113485012,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_02",
+          "label": "Muzzle Brake",
+          "hash": 3362234491,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_03",
+          "label": "Muzzle Brake",
+          "hash": 3725708239,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_04",
+          "label": "Muzzle Brake",
+          "hash": 3968886988,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_05",
+          "label": "Muzzle Brake",
+          "hash": 48731514,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_06",
+          "label": "Muzzle Brake",
+          "hash": 880736428,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_07",
+          "label": "Muzzle Brake",
+          "hash": 1303784126,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP_02",
+          "label": "Grip",
+          "hash": 2640679034,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_BARREL_01",
+          "label": "Default Barrel",
+          "hash": 1134861606,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_AT_AR_BARREL_02",
+          "label": "Heavy Barrel",
+          "hash": 1447477866,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Classic Black"
+        },
+        {
+          "index": 1,
+          "label": "Classic Gray"
+        },
+        {
+          "index": 2,
+          "label": "Classic Two-Tone"
+        },
+        {
+          "index": 3,
+          "label": "Classic White"
+        },
+        {
+          "index": 4,
+          "label": "Classic Beige"
+        },
+        {
+          "index": 5,
+          "label": "Classic Green"
+        },
+        {
+          "index": 6,
+          "label": "Classic Blue"
+        },
+        {
+          "index": 7,
+          "label": "Classic Earth"
+        },
+        {
+          "index": 8,
+          "label": "Classic Brown & Black"
+        },
+        {
+          "index": 9,
+          "label": "Red Contrast"
+        },
+        {
+          "index": 10,
+          "label": "Blue Contrast"
+        },
+        {
+          "index": 11,
+          "label": "Yellow Contrast"
+        },
+        {
+          "index": 12,
+          "label": "Orange Contrast"
+        },
+        {
+          "index": 13,
+          "label": "Bold Pink"
+        },
+        {
+          "index": 14,
+          "label": "Bold Purple & Yellow"
+        },
+        {
+          "index": 15,
+          "label": "Bold Orange"
+        },
+        {
+          "index": 16,
+          "label": "Bold Green & Purple"
+        },
+        {
+          "index": 17,
+          "label": "Bold Red Features"
+        },
+        {
+          "index": 18,
+          "label": "Bold Green Features"
+        },
+        {
+          "index": 19,
+          "label": "Bold Cyan Features"
+        },
+        {
+          "index": 20,
+          "label": "Bold Yellow Features"
+        },
+        {
+          "index": 21,
+          "label": "Bold Red & White"
+        },
+        {
+          "index": 22,
+          "label": "Bold Blue & White"
+        },
+        {
+          "index": 23,
+          "label": "Metallic Gold"
+        },
+        {
+          "index": 24,
+          "label": "Metallic Platinum"
+        },
+        {
+          "index": 25,
+          "label": "Metallic Gray & Lilac"
+        },
+        {
+          "index": 26,
+          "label": "Metallic Purple & Lime"
+        },
+        {
+          "index": 27,
+          "label": "Metallic Red"
+        },
+        {
+          "index": 28,
+          "label": "Metallic Green"
+        },
+        {
+          "index": 29,
+          "label": "Metallic Blue"
+        },
+        {
+          "index": 30,
+          "label": "Metallic White & Aqua"
+        },
+        {
+          "index": 31,
+          "label": "Metallic Red & Yellow"
+        },
+        {
+          "index": 32,
+          "label": "32"
+        }
+      ]
+    },
+    {
+      "id": "bullpuprifle",
+      "name": "Bullpup Rifle",
+      "codename": "weapon_bullpuprifle",
+      "hash": 2132975508,
+      "category": "Rifle",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Bullpup-rifle-icon.png",
+      "dlc": {
+        "id": "mpbusiness2",
+        "name": "The High Life Update",
+        "releaseDate": "2014-05-13"
+      },
+      "stats": {
+        "damage": 32,
+        "fireRate": 72,
+        "accuracy": 45,
+        "range": 45,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_BULLPUPRIFLE_CLIP_01",
+          "label": "Default Clip",
+          "hash": 3315675008,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_BULLPUPRIFLE_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 3009973007,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_SMALL",
+          "label": "Scope",
+          "hash": 2855028148,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP",
+          "label": "Suppressor",
+          "hash": 2205435306,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP",
+          "label": "Grip",
+          "hash": 202788691,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_BULLPUPRIFLE_VARMOD_LOW",
+          "label": "Gilded Gun Metal Finish",
+          "hash": 2824322168,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_GUNRUN_MK2_UPGRADE",
+          "label": "Mk II",
+          "hash": 1623028892,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "bullpuprifle_mk2",
+      "name": "Bullpup Rifle Mk II",
+      "codename": "weapon_bullpuprifle_mk2",
+      "hash": 2228681469,
+      "category": "Rifle",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Bullpup-rifle-mk2-icon.png",
+      "dlc": {
+        "id": "mpchristmas2017",
+        "name": "The Doomsday Heist",
+        "releaseDate": "2017-12-12"
+      },
+      "stats": {
+        "damage": 34,
+        "fireRate": 72,
+        "accuracy": 45,
+        "range": 45,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_BULLPUPRIFLE_MK2_CLIP_01",
+          "label": "Default Clip",
+          "hash": 25766362,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_BULLPUPRIFLE_MK2_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 4021290536,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_BULLPUPRIFLE_MK2_CLIP_TRACER",
+          "label": "Tracer Rounds",
+          "hash": 2183159977,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_BULLPUPRIFLE_MK2_CLIP_INCENDIARY",
+          "label": "Incendiary Rounds",
+          "hash": 2845636954,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_BULLPUPRIFLE_MK2_CLIP_ARMORPIERCING",
+          "label": "Armor Piercing Rounds",
+          "hash": 4205311469,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_BULLPUPRIFLE_MK2_CLIP_FMJ",
+          "label": "Full Metal Jacket Rounds",
+          "hash": 1130501904,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SIGHTS",
+          "label": "Holographic Sight",
+          "hash": 1108334355,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MACRO_02_MK2",
+          "label": "Small Scope",
+          "hash": 3350057221,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_SMALL_MK2",
+          "label": "Medium Scope",
+          "hash": 1060929921,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_BP_BARREL_01",
+          "label": "Default Barrel",
+          "hash": 1704640795,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_AT_BP_BARREL_02",
+          "label": "Heavy Barrel",
+          "hash": 1005743559,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP",
+          "label": "Suppressor",
+          "hash": 2205435306,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_01",
+          "label": "Muzzle Brake",
+          "hash": 3113485012,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_02",
+          "label": "Muzzle Brake",
+          "hash": 3362234491,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_03",
+          "label": "Muzzle Brake",
+          "hash": 3725708239,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_04",
+          "label": "Muzzle Brake",
+          "hash": 3968886988,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_05",
+          "label": "Muzzle Brake",
+          "hash": 48731514,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_06",
+          "label": "Muzzle Brake",
+          "hash": 880736428,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_07",
+          "label": "Muzzle Brake",
+          "hash": 1303784126,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP_02",
+          "label": "Grip",
+          "hash": 2640679034,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Classic Black"
+        },
+        {
+          "index": 1,
+          "label": "Classic Gray"
+        },
+        {
+          "index": 2,
+          "label": "Classic Two-Tone"
+        },
+        {
+          "index": 3,
+          "label": "Classic White"
+        },
+        {
+          "index": 4,
+          "label": "Classic Beige"
+        },
+        {
+          "index": 5,
+          "label": "Classic Green"
+        },
+        {
+          "index": 6,
+          "label": "Classic Blue"
+        },
+        {
+          "index": 7,
+          "label": "Classic Earth"
+        },
+        {
+          "index": 8,
+          "label": "Classic Brown & Black"
+        },
+        {
+          "index": 9,
+          "label": "Red Contrast"
+        },
+        {
+          "index": 10,
+          "label": "Blue Contrast"
+        },
+        {
+          "index": 11,
+          "label": "Yellow Contrast"
+        },
+        {
+          "index": 12,
+          "label": "Orange Contrast"
+        },
+        {
+          "index": 13,
+          "label": "Bold Pink"
+        },
+        {
+          "index": 14,
+          "label": "Bold Purple & Yellow"
+        },
+        {
+          "index": 15,
+          "label": "Bold Orange"
+        },
+        {
+          "index": 16,
+          "label": "Bold Green & Purple"
+        },
+        {
+          "index": 17,
+          "label": "Bold Red Features"
+        },
+        {
+          "index": 18,
+          "label": "Bold Green Features"
+        },
+        {
+          "index": 19,
+          "label": "Bold Cyan Features"
+        },
+        {
+          "index": 20,
+          "label": "Bold Yellow Features"
+        },
+        {
+          "index": 21,
+          "label": "Bold Red & White"
+        },
+        {
+          "index": 22,
+          "label": "Bold Blue & White"
+        },
+        {
+          "index": 23,
+          "label": "Metallic Gold"
+        },
+        {
+          "index": 24,
+          "label": "Metallic Platinum"
+        },
+        {
+          "index": 25,
+          "label": "Metallic Gray & Lilac"
+        },
+        {
+          "index": 26,
+          "label": "Metallic Purple & Lime"
+        },
+        {
+          "index": 27,
+          "label": "Metallic Red"
+        },
+        {
+          "index": 28,
+          "label": "Metallic Green"
+        },
+        {
+          "index": 29,
+          "label": "Metallic Blue"
+        },
+        {
+          "index": 30,
+          "label": "Metallic White & Aqua"
+        },
+        {
+          "index": 31,
+          "label": "Metallic Red & Yellow"
+        },
+        {
+          "index": 32,
+          "label": "32"
+        }
+      ]
+    },
+    {
+      "id": "carbinerifle",
+      "name": "Carbine Rifle",
+      "codename": "weapon_carbinerifle",
+      "hash": 2210333304,
+      "category": "Rifle",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Carbine-rifle-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 32,
+        "fireRate": 65,
+        "accuracy": 55,
+        "range": 45,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_CARBINERIFLE_CLIP_01",
+          "label": "Default Clip",
+          "hash": 2680042476,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_CARBINERIFLE_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 2433783441,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_CARBINERIFLE_CLIP_03",
+          "label": "Box Magazine",
+          "hash": 3127044405,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_RAILCOVER_01",
+          "label": "COMPONENT_AT_RAILCOVER_01",
+          "hash": 1967214384,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MEDIUM",
+          "label": "Scope",
+          "hash": 2698550338,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP",
+          "label": "Suppressor",
+          "hash": 2205435306,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP",
+          "label": "Grip",
+          "hash": 202788691,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_CARBINERIFLE_VARMOD_LUXE",
+          "label": "Yusuf Amir Luxury Finish",
+          "hash": 3634075224,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_CARBINERIFLE_VARMOD_MICH",
+          "label": "COMPONENT_CARBINERIFLE_VARMOD_MICH",
+          "hash": 1605520746,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_GUNRUN_MK2_UPGRADE",
+          "label": "Mk II",
+          "hash": 1623028892,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "carbinerifle_mk2",
+      "name": "Carbine Rifle Mk II",
+      "codename": "weapon_carbinerifle_mk2",
+      "hash": 4208062921,
+      "category": "Rifle",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Carbine-rifle-mk2-icon.png",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "damage": 36,
+        "fireRate": 65,
+        "accuracy": 55,
+        "range": 45,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_CARBINERIFLE_MK2_CLIP_01",
+          "label": "Default Clip",
+          "hash": 1283078430,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_CARBINERIFLE_MK2_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 1574296533,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_CARBINERIFLE_MK2_CLIP_ARMORPIERCING",
+          "label": "Armor Piercing Rounds",
+          "hash": 626875735,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_CARBINERIFLE_MK2_CLIP_FMJ",
+          "label": "Full Metal Jacket Rounds",
+          "hash": 1141059345,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_CARBINERIFLE_MK2_CLIP_INCENDIARY",
+          "label": "Incendiary Rounds",
+          "hash": 1025884839,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_CARBINERIFLE_MK2_CLIP_TRACER",
+          "label": "Tracer Rounds",
+          "hash": 391640422,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SIGHTS",
+          "label": "Holographic Sight",
+          "hash": 1108334355,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MACRO_MK2",
+          "label": "Small Scope",
+          "hash": 77277509,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MEDIUM_MK2",
+          "label": "Large Scope",
+          "hash": 3328927042,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP",
+          "label": "Suppressor",
+          "hash": 2205435306,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_01",
+          "label": "Muzzle Brake",
+          "hash": 3113485012,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_02",
+          "label": "Muzzle Brake",
+          "hash": 3362234491,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_03",
+          "label": "Muzzle Brake",
+          "hash": 3725708239,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_04",
+          "label": "Muzzle Brake",
+          "hash": 3968886988,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_05",
+          "label": "Muzzle Brake",
+          "hash": 48731514,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_06",
+          "label": "Muzzle Brake",
+          "hash": 880736428,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_07",
+          "label": "Muzzle Brake",
+          "hash": 1303784126,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP_02",
+          "label": "Grip",
+          "hash": 2640679034,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_CR_BARREL_01",
+          "label": "Default Barrel",
+          "hash": 2201368575,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_AT_CR_BARREL_02",
+          "label": "Heavy Barrel",
+          "hash": 2335983627,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Classic Black"
+        },
+        {
+          "index": 1,
+          "label": "Classic Gray"
+        },
+        {
+          "index": 2,
+          "label": "Classic Two-Tone"
+        },
+        {
+          "index": 3,
+          "label": "Classic White"
+        },
+        {
+          "index": 4,
+          "label": "Classic Beige"
+        },
+        {
+          "index": 5,
+          "label": "Classic Green"
+        },
+        {
+          "index": 6,
+          "label": "Classic Blue"
+        },
+        {
+          "index": 7,
+          "label": "Classic Earth"
+        },
+        {
+          "index": 8,
+          "label": "Classic Brown & Black"
+        },
+        {
+          "index": 9,
+          "label": "Red Contrast"
+        },
+        {
+          "index": 10,
+          "label": "Blue Contrast"
+        },
+        {
+          "index": 11,
+          "label": "Yellow Contrast"
+        },
+        {
+          "index": 12,
+          "label": "Orange Contrast"
+        },
+        {
+          "index": 13,
+          "label": "Bold Pink"
+        },
+        {
+          "index": 14,
+          "label": "Bold Purple & Yellow"
+        },
+        {
+          "index": 15,
+          "label": "Bold Orange"
+        },
+        {
+          "index": 16,
+          "label": "Bold Green & Purple"
+        },
+        {
+          "index": 17,
+          "label": "Bold Red Features"
+        },
+        {
+          "index": 18,
+          "label": "Bold Green Features"
+        },
+        {
+          "index": 19,
+          "label": "Bold Cyan Features"
+        },
+        {
+          "index": 20,
+          "label": "Bold Yellow Features"
+        },
+        {
+          "index": 21,
+          "label": "Bold Red & White"
+        },
+        {
+          "index": 22,
+          "label": "Bold Blue & White"
+        },
+        {
+          "index": 23,
+          "label": "Metallic Gold"
+        },
+        {
+          "index": 24,
+          "label": "Metallic Platinum"
+        },
+        {
+          "index": 25,
+          "label": "Metallic Gray & Lilac"
+        },
+        {
+          "index": 26,
+          "label": "Metallic Purple & Lime"
+        },
+        {
+          "index": 27,
+          "label": "Metallic Red"
+        },
+        {
+          "index": 28,
+          "label": "Metallic Green"
+        },
+        {
+          "index": 29,
+          "label": "Metallic Blue"
+        },
+        {
+          "index": 30,
+          "label": "Metallic White & Aqua"
+        },
+        {
+          "index": 31,
+          "label": "Metallic Red & Yellow"
+        },
+        {
+          "index": 32,
+          "label": "32"
+        }
+      ]
+    },
+    {
+      "id": "compactrifle",
+      "name": "Compact Rifle",
+      "codename": "weapon_compactrifle",
+      "hash": 1649403952,
+      "category": "Rifle",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Compact-rifle-icon.png",
+      "dlc": {
+        "id": "mplowrider2",
+        "name": "Lowriders: Custom Classics",
+        "releaseDate": "2016-03-15"
+      },
+      "stats": {
+        "damage": 36,
+        "fireRate": 60,
+        "accuracy": 35,
+        "range": 45,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_COMPACTRIFLE_CLIP_01",
+          "label": "Default Clip",
+          "hash": 1363085923,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_COMPACTRIFLE_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 1509923832,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_COMPACTRIFLE_CLIP_03",
+          "label": "Drum Magazine",
+          "hash": 3322377230,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "heavyrifle",
+      "name": "Heavy Rifle",
+      "codename": "weapon_heavyrifle",
+      "hash": 3347935668,
+      "category": "Rifle",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-rifle-icon.png",
+      "dlc": {
+        "id": "mpsecurity",
+        "name": "The Contract",
+        "releaseDate": "2021-12-15"
+      },
+      "stats": {
+        "damage": 40,
+        "fireRate": 50,
+        "accuracy": 40,
+        "range": 45,
+        "maxAmmo": null
+      },
+      "components": [
+        {
+          "id": "COMPONENT_HEAVYRIFLE_CLIP_01",
+          "label": "Default Clip",
+          "hash": 1525977990,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_HEAVYRIFLE_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 1824470811,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_HEAVYRIFLE_SIGHT_01",
+          "label": "Iron Sights",
+          "hash": 3017917522,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MEDIUM",
+          "label": "Scope",
+          "hash": 2698550338,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP",
+          "label": "Suppressor",
+          "hash": 2205435306,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP",
+          "label": "Grip",
+          "hash": 202788691,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "militaryrifle",
+      "name": "Military Rifle",
+      "codename": "weapon_militaryrifle",
+      "hash": 2636060646,
+      "category": "Rifle",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Military-rifle-icon.png",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "damage": 38,
+        "fireRate": 55,
+        "accuracy": 45,
+        "range": 45,
+        "maxAmmo": null
+      },
+      "components": [
+        {
+          "id": "COMPONENT_MILITARYRIFLE_CLIP_01",
+          "label": "Default Clip",
+          "hash": 759617595,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_MILITARYRIFLE_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 1749732930,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_MILITARYRIFLE_SIGHT_01",
+          "label": "Iron Sights",
+          "hash": 1803744149,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_SMALL",
+          "label": "Scope",
+          "hash": 2855028148,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP",
+          "label": "Suppressor",
+          "hash": 2205435306,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "tacticalrifle",
+      "name": "Service Carbine",
+      "codename": "weapon_tacticalrifle",
+      "hash": 3520460075,
+      "category": "Rifle",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Tactical-rifle-icon.png",
+      "dlc": {
+        "id": "mpsum2",
+        "name": "The Criminal Enterprises",
+        "releaseDate": "2022-07-26"
+      },
+      "stats": {
+        "damage": 39,
+        "fireRate": 63,
+        "accuracy": 55,
+        "range": 45,
+        "maxAmmo": null
+      },
+      "components": [
+        {
+          "id": "COMPONENT_TACTICALRIFLE_CLIP_01",
+          "label": "Default Clip",
+          "hash": 927578299,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_TACTICALRIFLE_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 2241090895,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH_REH",
+          "label": "Flashlight",
+          "hash": 2645680163,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP_02",
+          "label": "Suppressor",
+          "hash": 2805810788,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP",
+          "label": "Grip",
+          "hash": 202788691,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "specialcarbine",
+      "name": "Special Carbine",
+      "codename": "weapon_specialcarbine",
+      "hash": 3231910285,
+      "category": "Rifle",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Special-carbine-icon.png",
+      "dlc": {
+        "id": "mpbusiness",
+        "name": "The Business Update",
+        "releaseDate": "2014-03-04"
+      },
+      "stats": {
+        "damage": 34,
+        "fireRate": 65,
+        "accuracy": 55,
+        "range": 40,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_SPECIALCARBINE_CLIP_01",
+          "label": "Default Clip",
+          "hash": 3334989185,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_SPECIALCARBINE_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 2089537806,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_SPECIALCARBINE_CLIP_03",
+          "label": "Drum Magazine",
+          "hash": 1801039530,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MEDIUM",
+          "label": "Scope",
+          "hash": 2698550338,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP_02",
+          "label": "Suppressor",
+          "hash": 2805810788,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP",
+          "label": "Grip",
+          "hash": 202788691,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_SPECIALCARBINE_VARMOD_LOWRIDER",
+          "label": "Etched Gun Metal Finish",
+          "hash": 1929467122,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_SPECIALCARBINE_VARMOD_XMAS23",
+          "label": "COMPONENT_SPECIALCARBINE_VARMOD_XMAS23",
+          "hash": 302671608,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_GUNRUN_MK2_UPGRADE",
+          "label": "Mk II",
+          "hash": 1623028892,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "specialcarbine_mk2",
+      "name": "Special Carbine Mk II",
+      "codename": "weapon_specialcarbine_mk2",
+      "hash": 2526821735,
+      "category": "Rifle",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Special-carbine-mk2-icon.png",
+      "dlc": {
+        "id": "mpchristmas2017",
+        "name": "The Doomsday Heist",
+        "releaseDate": "2017-12-12"
+      },
+      "stats": {
+        "damage": 36,
+        "fireRate": 65,
+        "accuracy": 55,
+        "range": 40,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_SPECIALCARBINE_MK2_CLIP_01",
+          "label": "Default Clip",
+          "hash": 382112385,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_SPECIALCARBINE_MK2_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 3726614828,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_SPECIALCARBINE_MK2_CLIP_TRACER",
+          "label": "Tracer Rounds",
+          "hash": 2271594122,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_SPECIALCARBINE_MK2_CLIP_INCENDIARY",
+          "label": "Incendiary Rounds",
+          "hash": 3724612230,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_SPECIALCARBINE_MK2_CLIP_ARMORPIERCING",
+          "label": "Armor Piercing Rounds",
+          "hash": 1362433589,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_SPECIALCARBINE_MK2_CLIP_FMJ",
+          "label": "Full Metal Jacket Rounds",
+          "hash": 1346235024,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SIGHTS",
+          "label": "Holographic Sight",
+          "hash": 1108334355,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MACRO_MK2",
+          "label": "Small Scope",
+          "hash": 77277509,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MEDIUM_MK2",
+          "label": "Large Scope",
+          "hash": 3328927042,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP_02",
+          "label": "Suppressor",
+          "hash": 2805810788,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_01",
+          "label": "Muzzle Brake",
+          "hash": 3113485012,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_02",
+          "label": "Muzzle Brake",
+          "hash": 3362234491,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_03",
+          "label": "Muzzle Brake",
+          "hash": 3725708239,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_04",
+          "label": "Muzzle Brake",
+          "hash": 3968886988,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_05",
+          "label": "Muzzle Brake",
+          "hash": 48731514,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_06",
+          "label": "Muzzle Brake",
+          "hash": 880736428,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_07",
+          "label": "Muzzle Brake",
+          "hash": 1303784126,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP_02",
+          "label": "Grip",
+          "hash": 2640679034,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SC_BARREL_01",
+          "label": "Default Barrel",
+          "hash": 3879097257,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_AT_SC_BARREL_02",
+          "label": "Heavy Barrel",
+          "hash": 4185880635,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Classic Black"
+        },
+        {
+          "index": 1,
+          "label": "Classic Gray"
+        },
+        {
+          "index": 2,
+          "label": "Classic Two-Tone"
+        },
+        {
+          "index": 3,
+          "label": "Classic White"
+        },
+        {
+          "index": 4,
+          "label": "Classic Beige"
+        },
+        {
+          "index": 5,
+          "label": "Classic Green"
+        },
+        {
+          "index": 6,
+          "label": "Classic Blue"
+        },
+        {
+          "index": 7,
+          "label": "Classic Earth"
+        },
+        {
+          "index": 8,
+          "label": "Classic Brown & Black"
+        },
+        {
+          "index": 9,
+          "label": "Red Contrast"
+        },
+        {
+          "index": 10,
+          "label": "Blue Contrast"
+        },
+        {
+          "index": 11,
+          "label": "Yellow Contrast"
+        },
+        {
+          "index": 12,
+          "label": "Orange Contrast"
+        },
+        {
+          "index": 13,
+          "label": "Bold Pink"
+        },
+        {
+          "index": 14,
+          "label": "Bold Purple & Yellow"
+        },
+        {
+          "index": 15,
+          "label": "Bold Orange"
+        },
+        {
+          "index": 16,
+          "label": "Bold Green & Purple"
+        },
+        {
+          "index": 17,
+          "label": "Bold Red Features"
+        },
+        {
+          "index": 18,
+          "label": "Bold Green Features"
+        },
+        {
+          "index": 19,
+          "label": "Bold Cyan Features"
+        },
+        {
+          "index": 20,
+          "label": "Bold Yellow Features"
+        },
+        {
+          "index": 21,
+          "label": "Bold Red & White"
+        },
+        {
+          "index": 22,
+          "label": "Bold Blue & White"
+        },
+        {
+          "index": 23,
+          "label": "Metallic Gold"
+        },
+        {
+          "index": 24,
+          "label": "Metallic Platinum"
+        },
+        {
+          "index": 25,
+          "label": "Metallic Gray & Lilac"
+        },
+        {
+          "index": 26,
+          "label": "Metallic Purple & Lime"
+        },
+        {
+          "index": 27,
+          "label": "Metallic Red"
+        },
+        {
+          "index": 28,
+          "label": "Metallic Green"
+        },
+        {
+          "index": 29,
+          "label": "Metallic Blue"
+        },
+        {
+          "index": 30,
+          "label": "Metallic White & Aqua"
+        },
+        {
+          "index": 31,
+          "label": "Metallic Red & Yellow"
+        },
+        {
+          "index": 32,
+          "label": "32"
+        }
+      ]
+    }
+  ]
+}

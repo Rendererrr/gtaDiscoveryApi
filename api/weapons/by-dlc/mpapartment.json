@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "weapons",
+    "label": "Weapons",
+    "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
+    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
+  },
+  "group": {
+    "id": "mpapartment",
+    "name": "Executives and Other Criminals",
+    "releaseDate": "2015-12-15",
+    "key": "mpapartment",
+    "slug": "mpapartment",
+    "count": 2
+  },
+  "count": 2,
+  "items": [
+    {
+      "id": "revolver",
+      "name": "Heavy Revolver",
+      "codename": "weapon_revolver",
+      "hash": 3249783761,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-revolver-icon.png",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "damage": 70,
+        "fireRate": 20,
+        "accuracy": 65,
+        "range": 35,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_REVOLVER_CLIP_01",
+          "label": "Default Clip",
+          "hash": 3917905123,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_REVOLVER_VARMOD_BOSS",
+          "label": "VIP Variant",
+          "hash": 384708672,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_REVOLVER_VARMOD_GOON",
+          "label": "Bodyguard Variant",
+          "hash": 2492708877,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_GUNRUN_MK2_UPGRADE",
+          "label": "Mk II",
+          "hash": 1623028892,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "switchblade",
+      "name": "Switchblade",
+      "codename": "weapon_switchblade",
+      "hash": 3756226112,
+      "category": "Melee",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Switch-blade-icon.png",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "damage": 15,
+        "fireRate": 20,
+        "accuracy": 0,
+        "range": 0,
+        "maxAmmo": 0
+      },
+      "components": [
+        {
+          "id": "COMPONENT_SWITCHBLADE_VARMOD_BASE",
+          "label": "Default Handle",
+          "hash": 2436343040,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_SWITCHBLADE_VARMOD_VAR1",
+          "label": "VIP Variant",
+          "hash": 1530822070,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_SWITCHBLADE_VARMOD_VAR2",
+          "label": "Bodyguard Variant",
+          "hash": 3885209186,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    }
+  ]
+}

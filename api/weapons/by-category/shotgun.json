@@ -1,0 +1,926 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "weapons",
+    "label": "Weapons",
+    "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
+    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
+  },
+  "group": {
+    "name": "Shotgun",
+    "key": "Shotgun",
+    "slug": "shotgun",
+    "count": 10
+  },
+  "count": 10,
+  "items": [
+    {
+      "id": "assaultshotgun",
+      "name": "Assault Shotgun",
+      "codename": "weapon_assaultshotgun",
+      "hash": 3800352039,
+      "category": "Shotgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Assault-shotgun-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 77,
+        "fireRate": 50,
+        "accuracy": 25,
+        "range": 15,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_ASSAULTSHOTGUN_CLIP_01",
+          "label": "Default Clip",
+          "hash": 2498239431,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_ASSAULTSHOTGUN_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 2260565874,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP",
+          "label": "Suppressor",
+          "hash": 2205435306,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP",
+          "label": "Grip",
+          "hash": 202788691,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "bullpupshotgun",
+      "name": "Bullpup Shotgun",
+      "codename": "weapon_bullpupshotgun",
+      "hash": 2640438543,
+      "category": "Shotgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Bullpup-shotgun-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 67,
+        "fireRate": 20,
+        "accuracy": 30,
+        "range": 20,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_BULLPUPSHOTGUN_CLIP_01",
+          "label": "Default Clip",
+          "hash": 3377353998,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP_02",
+          "label": "Suppressor",
+          "hash": 2805810788,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP",
+          "label": "Grip",
+          "hash": 202788691,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "combatshotgun",
+      "name": "Combat Shotgun",
+      "codename": "weapon_combatshotgun",
+      "hash": 94989220,
+      "category": "Shotgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Combat-shotgun-icon.png",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "damage": 77,
+        "fireRate": 50,
+        "accuracy": 25,
+        "range": 15,
+        "maxAmmo": null
+      },
+      "components": [
+        {
+          "id": "COMPONENT_COMBATSHOTGUN_CLIP_01",
+          "label": "Default Shells",
+          "hash": 3323278933,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP",
+          "label": "Suppressor",
+          "hash": 2205435306,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "dbshotgun",
+      "name": "Double Barrel Shotgun",
+      "codename": "weapon_dbshotgun",
+      "hash": 4019527611,
+      "category": "Shotgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Double-barrel-shotgun-icon.png",
+      "dlc": {
+        "id": "mplowrider2",
+        "name": "Lowriders: Custom Classics",
+        "releaseDate": "2016-03-15"
+      },
+      "stats": {
+        "damage": 98,
+        "fireRate": 25,
+        "accuracy": 15,
+        "range": 10,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_DBSHOTGUN_CLIP_01",
+          "label": "Default Clip",
+          "hash": 703231006,
+          "default": true
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "heavyshotgun",
+      "name": "Heavy Shotgun",
+      "codename": "weapon_heavyshotgun",
+      "hash": 984333226,
+      "category": "Shotgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-shotgun-icon.png",
+      "dlc": {
+        "id": "mplts",
+        "name": "Last Team Standing Update",
+        "releaseDate": "2014-10-08"
+      },
+      "stats": {
+        "damage": 85,
+        "fireRate": 45,
+        "accuracy": 30,
+        "range": 25,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_HEAVYSHOTGUN_CLIP_01",
+          "label": "Default Clip",
+          "hash": 844049759,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_HEAVYSHOTGUN_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 2535257853,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_HEAVYSHOTGUN_CLIP_03",
+          "label": "Drum Magazine",
+          "hash": 2294798931,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP_02",
+          "label": "Suppressor",
+          "hash": 2805810788,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP",
+          "label": "Grip",
+          "hash": 202788691,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "musket",
+      "name": "Musket",
+      "codename": "weapon_musket",
+      "hash": 2828843422,
+      "category": "Shotgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Musket-icon.png",
+      "dlc": {
+        "id": "mpindependence",
+        "name": "Independence Day Special",
+        "releaseDate": "2014-07-01"
+      },
+      "stats": {
+        "damage": 97,
+        "fireRate": 10,
+        "accuracy": 65,
+        "range": 85,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_MUSKET_CLIP_01",
+          "label": "Default Clip",
+          "hash": 1322387263,
+          "default": true
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "pumpshotgun",
+      "name": "Pump Shotgun",
+      "codename": "weapon_pumpshotgun",
+      "hash": 487013001,
+      "category": "Shotgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pump-shotgun-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 67,
+        "fireRate": 20,
+        "accuracy": 30,
+        "range": 20,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_PUMPSHOTGUN_CLIP_01",
+          "label": "Default Clip",
+          "hash": 3513717816,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SR_SUPP",
+          "label": "Suppressor",
+          "hash": 3859329886,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_PUMPSHOTGUN_VARMOD_LOWRIDER",
+          "label": "Yusuf Amir Luxury Finish",
+          "hash": 2732039643,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_GUNRUN_MK2_UPGRADE",
+          "label": "Mk II",
+          "hash": 1623028892,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_PUMPSHOTGUN_VARMOD_SECURITY",
+          "label": "Bone Finish",
+          "hash": 4052644405,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_PUMPSHOTGUN_VARMOD_XM3",
+          "label": "Dildodude Camo",
+          "hash": 330905451,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "pumpshotgun_mk2",
+      "name": "Pump Shotgun Mk II",
+      "codename": "weapon_pumpshotgun_mk2",
+      "hash": 1432025498,
+      "category": "Shotgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pump-shotgun-mk2-icon.png",
+      "dlc": {
+        "id": "mpchristmas2017",
+        "name": "The Doomsday Heist",
+        "releaseDate": "2017-12-12"
+      },
+      "stats": {
+        "damage": 70,
+        "fireRate": 20,
+        "accuracy": 30,
+        "range": 20,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_PUMPSHOTGUN_MK2_CLIP_01",
+          "label": "Default Shells",
+          "hash": 3449028929,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_PUMPSHOTGUN_MK2_CLIP_ARMORPIERCING",
+          "label": "Steel Buckshot Shells",
+          "hash": 1315288101,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_PUMPSHOTGUN_MK2_CLIP_EXPLOSIVE",
+          "label": "Explosive Slugs",
+          "hash": 1004815965,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_PUMPSHOTGUN_MK2_CLIP_HOLLOWPOINT",
+          "label": "Flechette Shells",
+          "hash": 3914869031,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_PUMPSHOTGUN_MK2_CLIP_INCENDIARY",
+          "label": "Dragon's Breath Shells",
+          "hash": 2676628469,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SIGHTS",
+          "label": "Holographic Sight",
+          "hash": 1108334355,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MACRO_MK2",
+          "label": "Small Scope",
+          "hash": 77277509,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_SMALL_MK2",
+          "label": "Medium Scope",
+          "hash": 1060929921,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SR_SUPP_03",
+          "label": "Suppressor",
+          "hash": 2890063729,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_08",
+          "label": "Muzzle Brake",
+          "hash": 1602080333,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Classic Black"
+        },
+        {
+          "index": 1,
+          "label": "Classic Gray"
+        },
+        {
+          "index": 2,
+          "label": "Classic Two-Tone"
+        },
+        {
+          "index": 3,
+          "label": "Classic White"
+        },
+        {
+          "index": 4,
+          "label": "Classic Beige"
+        },
+        {
+          "index": 5,
+          "label": "Classic Green"
+        },
+        {
+          "index": 6,
+          "label": "Classic Blue"
+        },
+        {
+          "index": 7,
+          "label": "Classic Earth"
+        },
+        {
+          "index": 8,
+          "label": "Classic Brown & Black"
+        },
+        {
+          "index": 9,
+          "label": "Red Contrast"
+        },
+        {
+          "index": 10,
+          "label": "Blue Contrast"
+        },
+        {
+          "index": 11,
+          "label": "Yellow Contrast"
+        },
+        {
+          "index": 12,
+          "label": "Orange Contrast"
+        },
+        {
+          "index": 13,
+          "label": "Bold Pink"
+        },
+        {
+          "index": 14,
+          "label": "Bold Purple & Yellow"
+        },
+        {
+          "index": 15,
+          "label": "Bold Orange"
+        },
+        {
+          "index": 16,
+          "label": "Bold Green & Purple"
+        },
+        {
+          "index": 17,
+          "label": "Bold Red Features"
+        },
+        {
+          "index": 18,
+          "label": "Bold Green Features"
+        },
+        {
+          "index": 19,
+          "label": "Bold Cyan Features"
+        },
+        {
+          "index": 20,
+          "label": "Bold Yellow Features"
+        },
+        {
+          "index": 21,
+          "label": "Bold Red & White"
+        },
+        {
+          "index": 22,
+          "label": "Bold Blue & White"
+        },
+        {
+          "index": 23,
+          "label": "Metallic Gold"
+        },
+        {
+          "index": 24,
+          "label": "Metallic Platinum"
+        },
+        {
+          "index": 25,
+          "label": "Metallic Gray & Lilac"
+        },
+        {
+          "index": 26,
+          "label": "Metallic Purple & Lime"
+        },
+        {
+          "index": 27,
+          "label": "Metallic Red"
+        },
+        {
+          "index": 28,
+          "label": "Metallic Green"
+        },
+        {
+          "index": 29,
+          "label": "Metallic Blue"
+        },
+        {
+          "index": 30,
+          "label": "Metallic White & Aqua"
+        },
+        {
+          "index": 31,
+          "label": "Metallic Red & Yellow"
+        },
+        {
+          "index": 32,
+          "label": "32"
+        }
+      ]
+    },
+    {
+      "id": "sawnoffshotgun",
+      "name": "Sawed-Off Shotgun",
+      "codename": "weapon_sawnoffshotgun",
+      "hash": 2017895192,
+      "category": "Shotgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Sawed-off-shotgun-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 96,
+        "fireRate": 20,
+        "accuracy": 20,
+        "range": 15,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_SAWNOFFSHOTGUN_CLIP_01",
+          "label": "Default Clip",
+          "hash": 3352699429,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_SAWNOFFSHOTGUN_VARMOD_LUXE",
+          "label": "Gilded Gun Metal Finish",
+          "hash": 2242268665,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "autoshotgun",
+      "name": "Sweeper Shotgun",
+      "codename": "weapon_autoshotgun",
+      "hash": 317205821,
+      "category": "Shotgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Sweeper-shotgun-icon.png",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "stats": {
+        "damage": 70,
+        "fireRate": 45,
+        "accuracy": 22,
+        "range": 20,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_AUTOSHOTGUN_CLIP_01",
+          "label": "Default Clip",
+          "hash": 169463950,
+          "default": true
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    }
+  ]
+}

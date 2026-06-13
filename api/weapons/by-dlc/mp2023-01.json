@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "weapons",
+    "label": "Weapons",
+    "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
+    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
+  },
+  "group": {
+    "id": "mp2023_01",
+    "name": "San Andreas Mercenaries",
+    "releaseDate": "2023-06-13",
+    "key": "mp2023_01",
+    "slug": "mp2023-01",
+    "count": 1
+  },
+  "count": 1,
+  "items": [
+    {
+      "id": "tecpistol",
+      "name": "Tactical SMG",
+      "codename": "weapon_tecpistol",
+      "hash": 350597077,
+      "category": "SMG",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Tactical-smg-icon.png",
+      "dlc": {
+        "id": "mp2023_01",
+        "name": "San Andreas Mercenaries",
+        "releaseDate": "2023-06-13"
+      },
+      "stats": {
+        "damage": 28,
+        "fireRate": 80,
+        "accuracy": 35,
+        "range": 30,
+        "maxAmmo": null
+      },
+      "components": [
+        {
+          "id": "COMPONENT_TECPISTOL_CLIP_01",
+          "label": "Default Clip",
+          "hash": 943088878,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_TECPISTOL_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 310778254,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP_02",
+          "label": "Suppressor",
+          "hash": 2805810788,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MACRO",
+          "label": "Scope",
+          "hash": 2637152041,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    }
+  ]
+}

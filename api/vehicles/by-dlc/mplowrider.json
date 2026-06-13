@@ -1,0 +1,270 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "id": "mplowrider",
+    "name": "Lowriders",
+    "releaseDate": "2015-10-20",
+    "key": "mplowrider",
+    "slug": "mplowrider",
+    "count": 8
+  },
+  "count": 8,
+  "items": [
+    {
+      "id": "primo2",
+      "name": "Primo Custom",
+      "hash": 2254540506,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/primo2.webp",
+      "dlc": {
+        "id": "mplowrider",
+        "name": "Lowriders",
+        "releaseDate": "2015-10-20"
+      },
+      "stats": {
+        "handlingId": "PRIMO2",
+        "mass": 1800,
+        "topSpeed": 140,
+        "driveForce": 0.2,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.35,
+          "min": 2.05,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.4,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "buccaneer2",
+      "name": "Buccaneer Custom",
+      "hash": 3281516360,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/buccaneer2.webp",
+      "dlc": {
+        "id": "mplowrider",
+        "name": "Lowriders",
+        "releaseDate": "2015-10-20"
+      },
+      "stats": {
+        "handlingId": "BUCCANEE2",
+        "mass": 1600,
+        "topSpeed": 146,
+        "driveForce": 0.28,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.75,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2,
+        "steeringLock": 35,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "chino2",
+      "name": "Chino Custom",
+      "hash": 2933279331,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/chino2.webp",
+      "dlc": {
+        "id": "mplowrider",
+        "name": "Lowriders",
+        "releaseDate": "2015-10-20"
+      },
+      "stats": {
+        "handlingId": "CHINO2",
+        "mass": 2400,
+        "topSpeed": 130,
+        "driveForce": 0.21,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.8,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.07,
+          "min": 1.85,
+          "lateral": 20.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "faction",
+      "name": "Faction",
+      "hash": 2175389151,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/faction.webp",
+      "dlc": {
+        "id": "mplowrider",
+        "name": "Lowriders",
+        "releaseDate": "2015-10-20"
+      },
+      "stats": {
+        "handlingId": "FACTION",
+        "mass": 1200,
+        "topSpeed": 140,
+        "driveForce": 0.28,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.25,
+          "min": 1.8,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "faction2",
+      "name": "Faction Custom 1",
+      "hash": 2504420315,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/faction2.webp",
+      "dlc": {
+        "id": "mplowrider",
+        "name": "Lowriders",
+        "releaseDate": "2015-10-20"
+      },
+      "stats": {
+        "handlingId": "FACTION",
+        "mass": 1200,
+        "topSpeed": 140,
+        "driveForce": 0.28,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.25,
+          "min": 1.8,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "moonbeam",
+      "name": "Moonbeam",
+      "hash": 525509695,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/moonbeam.webp",
+      "dlc": {
+        "id": "mplowrider",
+        "name": "Lowriders",
+        "releaseDate": "2015-10-20"
+      },
+      "stats": {
+        "handlingId": "MOONBEAM",
+        "mass": 2400,
+        "topSpeed": 125,
+        "driveForce": 0.21,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.4,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2,
+          "min": 1.8,
+          "lateral": 20
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "moonbeam2",
+      "name": "Moonbeam Custom",
+      "hash": 1896491931,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/moonbeam2.webp",
+      "dlc": {
+        "id": "mplowrider",
+        "name": "Lowriders",
+        "releaseDate": "2015-10-20"
+      },
+      "stats": {
+        "handlingId": "MOONBEAM",
+        "mass": 2400,
+        "topSpeed": 125,
+        "driveForce": 0.21,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.4,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2,
+          "min": 1.8,
+          "lateral": 20
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "voodoo",
+      "name": "Voodoo Custom",
+      "hash": 2006667053,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/voodoo.webp",
+      "dlc": {
+        "id": "mplowrider",
+        "name": "Lowriders",
+        "releaseDate": "2015-10-20"
+      },
+      "stats": {
+        "handlingId": "VOODOO",
+        "mass": 2100,
+        "topSpeed": 130,
+        "driveForce": 0.18,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.35,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.85,
+          "min": 1.44,
+          "lateral": 17
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 35,
+        "monetaryValue": 25000
+      }
+    }
+  ]
+}

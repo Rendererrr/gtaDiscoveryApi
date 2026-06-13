@@ -1,0 +1,1752 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "weapons",
+    "label": "Weapons",
+    "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
+    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
+  },
+  "group": {
+    "name": "Handgun",
+    "key": "Handgun",
+    "slug": "handgun",
+    "count": 18
+  },
+  "count": 18,
+  "items": [
+    {
+      "id": "appistol",
+      "name": "AP Pistol",
+      "codename": "weapon_appistol",
+      "hash": 584646201,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Appistol-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 26,
+        "fireRate": 80,
+        "accuracy": 35,
+        "range": 30,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_APPISTOL_CLIP_01",
+          "label": "Default Clip",
+          "hash": 834974250,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_APPISTOL_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 614078421,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_PI_FLSH",
+          "label": "Flashlight",
+          "hash": 899381934,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_PI_SUPP",
+          "label": "Suppressor",
+          "hash": 3271853210,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_APPISTOL_VARMOD_LUXE",
+          "label": "Gilded Gun Metal Finish",
+          "hash": 2608252716,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_APPISTOL_VARMOD_SECURITY",
+          "label": "Record A Finish",
+          "hash": 1657753414,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "ceramicpistol",
+      "name": "Ceramic Pistol",
+      "codename": "weapon_ceramicpistol",
+      "hash": 727643628,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Ceramic-pistol-icon.png",
+      "dlc": {
+        "id": "mpheist3",
+        "name": "The Diamond Casino Heist",
+        "releaseDate": "2019-12-12"
+      },
+      "stats": {
+        "damage": 32,
+        "fireRate": 44,
+        "accuracy": 36,
+        "range": 20,
+        "maxAmmo": null
+      },
+      "components": [
+        {
+          "id": "COMPONENT_CERAMICPISTOL_CLIP_01",
+          "label": "Default Clip",
+          "hash": 1423184737,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_CERAMICPISTOL_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 2172153001,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_CERAMICPISTOL_SUPP",
+          "label": "Suppressor",
+          "hash": 2466764538,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "combatpistol",
+      "name": "Combat Pistol",
+      "codename": "weapon_combatpistol",
+      "hash": 1593441988,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Combat-pistol-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 27,
+        "fireRate": 40,
+        "accuracy": 50,
+        "range": 30,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_COMBATPISTOL_CLIP_01",
+          "label": "Default Clip",
+          "hash": 119648377,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_COMBATPISTOL_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 3598405421,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_PI_FLSH",
+          "label": "Flashlight",
+          "hash": 899381934,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_PI_SUPP",
+          "label": "Suppressor",
+          "hash": 3271853210,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_COMBATPISTOL_VARMOD_LOWRIDER",
+          "label": "Yusuf Amir Luxury Finish",
+          "hash": 3328527730,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_COMBATPISTOL_VARMOD_XMAS23",
+          "label": "COMPONENT_COMBATPISTOL_VARMOD_XMAS23",
+          "hash": 1400690398,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "doubleaction",
+      "name": "Double-Action Revolver",
+      "codename": "weapon_doubleaction",
+      "hash": 2548703416,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Double-action-revolver-icon.png",
+      "dlc": {
+        "id": "mpchristmas2017",
+        "name": "The Doomsday Heist",
+        "releaseDate": "2017-12-12"
+      },
+      "stats": {
+        "damage": 60,
+        "fireRate": 40,
+        "accuracy": 60,
+        "range": 35,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_DOUBLEACTION_CLIP_01",
+          "label": "Default Clip",
+          "hash": 1328622785,
+          "default": true
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        }
+      ]
+    },
+    {
+      "id": "flaregun",
+      "name": "Flare Gun",
+      "codename": "weapon_flaregun",
+      "hash": 1198879012,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Flaregun-icon.png",
+      "dlc": {
+        "id": "mpheist",
+        "name": "The Heists Update",
+        "releaseDate": "2015-03-10"
+      },
+      "stats": {
+        "damage": 20,
+        "fireRate": 10,
+        "accuracy": 30,
+        "range": 10,
+        "maxAmmo": 20
+      },
+      "components": [
+        {
+          "id": "COMPONENT_FLAREGUN_CLIP_01",
+          "label": "Default Clip",
+          "hash": 2481569177,
+          "default": true
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "heavypistol",
+      "name": "Heavy Pistol",
+      "codename": "weapon_heavypistol",
+      "hash": 3523564046,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-pistol-icon.png",
+      "dlc": {
+        "id": "mpbusiness",
+        "name": "The Business Update",
+        "releaseDate": "2014-03-04"
+      },
+      "stats": {
+        "damage": 40,
+        "fireRate": 40,
+        "accuracy": 50,
+        "range": 35,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_HEAVYPISTOL_CLIP_01",
+          "label": "Default Clip",
+          "hash": 222992026,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_HEAVYPISTOL_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 1694090795,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_PI_FLSH",
+          "label": "Flashlight",
+          "hash": 899381934,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_PI_SUPP",
+          "label": "Suppressor",
+          "hash": 3271853210,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_HEAVYPISTOL_VARMOD_LUXE",
+          "label": "Etched Wood Grip Finish",
+          "hash": 2053798779,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "revolver",
+      "name": "Heavy Revolver",
+      "codename": "weapon_revolver",
+      "hash": 3249783761,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-revolver-icon.png",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "damage": 70,
+        "fireRate": 20,
+        "accuracy": 65,
+        "range": 35,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_REVOLVER_CLIP_01",
+          "label": "Default Clip",
+          "hash": 3917905123,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_REVOLVER_VARMOD_BOSS",
+          "label": "VIP Variant",
+          "hash": 384708672,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_REVOLVER_VARMOD_GOON",
+          "label": "Bodyguard Variant",
+          "hash": 2492708877,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_GUNRUN_MK2_UPGRADE",
+          "label": "Mk II",
+          "hash": 1623028892,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "revolver_mk2",
+      "name": "Heavy Revolver Mk II",
+      "codename": "weapon_revolver_mk2",
+      "hash": 3415619887,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-revolver-mk2-icon.png",
+      "dlc": {
+        "id": "mpchristmas2017",
+        "name": "The Doomsday Heist",
+        "releaseDate": "2017-12-12"
+      },
+      "stats": {
+        "damage": 75,
+        "fireRate": 30,
+        "accuracy": 65,
+        "range": 35,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_REVOLVER_MK2_CLIP_01",
+          "label": "Default Rounds",
+          "hash": 3122911422,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_REVOLVER_MK2_CLIP_FMJ",
+          "label": "Full Metal Jacket Rounds",
+          "hash": 231258687,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_REVOLVER_MK2_CLIP_HOLLOWPOINT",
+          "label": "Hollow Point Rounds",
+          "hash": 284438159,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_REVOLVER_MK2_CLIP_INCENDIARY",
+          "label": "Incendiary Rounds",
+          "hash": 15712037,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_REVOLVER_MK2_CLIP_TRACER",
+          "label": "Tracer Rounds",
+          "hash": 3336103030,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SIGHTS",
+          "label": "Holographic Sight",
+          "hash": 1108334355,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MACRO_MK2",
+          "label": "Small Scope",
+          "hash": 77277509,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_PI_FLSH",
+          "label": "Flashlight",
+          "hash": 899381934,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_PI_COMP_03",
+          "label": "Compensator",
+          "hash": 654802123,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Classic Black"
+        },
+        {
+          "index": 1,
+          "label": "Classic Gray"
+        },
+        {
+          "index": 2,
+          "label": "Classic Two-Tone"
+        },
+        {
+          "index": 3,
+          "label": "Classic White"
+        },
+        {
+          "index": 4,
+          "label": "Classic Beige"
+        },
+        {
+          "index": 5,
+          "label": "Classic Green"
+        },
+        {
+          "index": 6,
+          "label": "Classic Blue"
+        },
+        {
+          "index": 7,
+          "label": "Classic Earth"
+        },
+        {
+          "index": 8,
+          "label": "Classic Brown & Black"
+        },
+        {
+          "index": 9,
+          "label": "Red Contrast"
+        },
+        {
+          "index": 10,
+          "label": "Blue Contrast"
+        },
+        {
+          "index": 11,
+          "label": "Yellow Contrast"
+        },
+        {
+          "index": 12,
+          "label": "Orange Contrast"
+        },
+        {
+          "index": 13,
+          "label": "Bold Pink"
+        },
+        {
+          "index": 14,
+          "label": "Bold Purple & Yellow"
+        },
+        {
+          "index": 15,
+          "label": "Bold Orange"
+        },
+        {
+          "index": 16,
+          "label": "Bold Green & Purple"
+        },
+        {
+          "index": 17,
+          "label": "Bold Red Features"
+        },
+        {
+          "index": 18,
+          "label": "Bold Green Features"
+        },
+        {
+          "index": 19,
+          "label": "Bold Cyan Features"
+        },
+        {
+          "index": 20,
+          "label": "Bold Yellow Features"
+        },
+        {
+          "index": 21,
+          "label": "Bold Red & White"
+        },
+        {
+          "index": 22,
+          "label": "Bold Blue & White"
+        },
+        {
+          "index": 23,
+          "label": "Metallic Gold"
+        },
+        {
+          "index": 24,
+          "label": "Metallic Platinum"
+        },
+        {
+          "index": 25,
+          "label": "Metallic Gray & Lilac"
+        },
+        {
+          "index": 26,
+          "label": "Metallic Purple & Lime"
+        },
+        {
+          "index": 27,
+          "label": "Metallic Red"
+        },
+        {
+          "index": 28,
+          "label": "Metallic Green"
+        },
+        {
+          "index": 29,
+          "label": "Metallic Blue"
+        },
+        {
+          "index": 30,
+          "label": "Metallic White & Aqua"
+        },
+        {
+          "index": 31,
+          "label": "Metallic Red & Yellow"
+        },
+        {
+          "index": 32,
+          "label": "32"
+        }
+      ]
+    },
+    {
+      "id": "marksmanpistol",
+      "name": "Marksman Pistol",
+      "codename": "weapon_marksmanpistol",
+      "hash": 3696079510,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Marksman-pistol-icon.png",
+      "dlc": {
+        "id": "mpluxe2",
+        "name": "Ill-Gotten Gains Part 2",
+        "releaseDate": "2015-07-08"
+      },
+      "stats": {
+        "damage": 80,
+        "fireRate": 15,
+        "accuracy": 30,
+        "range": 35,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_MARKSMANPISTOL_CLIP_01",
+          "label": "Default Clip",
+          "hash": 3416146413,
+          "default": true
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "navyrevolver",
+      "name": "Navy Revolver",
+      "codename": "weapon_navyrevolver",
+      "hash": 2441047180,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Navy-revolver-icon.png",
+      "dlc": {
+        "id": "mpheist3",
+        "name": "The Diamond Casino Heist",
+        "releaseDate": "2019-12-12"
+      },
+      "stats": {
+        "damage": 70,
+        "fireRate": 25,
+        "accuracy": 60,
+        "range": 35,
+        "maxAmmo": null
+      },
+      "components": [
+        {
+          "id": "COMPONENT_NAVYREVOLVER_CLIP_01",
+          "label": "Default Clip",
+          "hash": 2556346983,
+          "default": true
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        }
+      ]
+    },
+    {
+      "id": "gadgetpistol",
+      "name": "Perico Pistol",
+      "codename": "weapon_gadgetpistol",
+      "hash": 1470379660,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Perico-pistol-icon.png",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "damage": 80,
+        "fireRate": 15,
+        "accuracy": 30,
+        "range": 35,
+        "maxAmmo": null
+      },
+      "components": [
+        {
+          "id": "COMPONENT_GADGETPISTOL_CLIP_01",
+          "label": "Default Clip",
+          "hash": 2871488073,
+          "default": true
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "pistol",
+      "name": "Pistol",
+      "codename": "weapon_pistol",
+      "hash": 453432689,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pistol-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 26,
+        "fireRate": 40,
+        "accuracy": 40,
+        "range": 25,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_PISTOL_CLIP_01",
+          "label": "Default Clip",
+          "hash": 4275109233,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_PISTOL_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 3978713628,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_PI_FLSH",
+          "label": "Flashlight",
+          "hash": 899381934,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_PI_SUPP_02",
+          "label": "Suppressor",
+          "hash": 1709866683,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_PISTOL_VARMOD_LUXE",
+          "label": "Yusuf Amir Luxury Finish",
+          "hash": 3610841222,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_GUNRUN_MK2_UPGRADE",
+          "label": "Mk II",
+          "hash": 1623028892,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "pistol50",
+      "name": "Pistol .50",
+      "codename": "weapon_pistol50",
+      "hash": 2578377531,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pistol.50-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 51,
+        "fireRate": 40,
+        "accuracy": 55,
+        "range": 35,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_PISTOL50_CLIP_01",
+          "label": "Default Clip",
+          "hash": 580369945,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_PISTOL50_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 3654528146,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_PI_FLSH",
+          "label": "Flashlight",
+          "hash": 899381934,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP_02",
+          "label": "Suppressor",
+          "hash": 2805810788,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_PISTOL50_VARMOD_LUXE",
+          "label": "Platinum Pearl Deluxe Finish",
+          "hash": 2008591151,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "pistol_mk2",
+      "name": "Pistol Mk II",
+      "codename": "weapon_pistol_mk2",
+      "hash": 3219281620,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pistol-mk2-icon.png",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "damage": 38,
+        "fireRate": 40,
+        "accuracy": 40,
+        "range": 25,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_PISTOL_MK2_CLIP_01",
+          "label": "Default Clip",
+          "hash": 2499030370,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_PISTOL_MK2_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 1591132456,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_PISTOL_MK2_CLIP_FMJ",
+          "label": "Full Metal Jacket Rounds",
+          "hash": 1329061674,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_PISTOL_MK2_CLIP_HOLLOWPOINT",
+          "label": "Hollow Point Rounds",
+          "hash": 2248057097,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_PISTOL_MK2_CLIP_INCENDIARY",
+          "label": "Incendiary Rounds",
+          "hash": 733837882,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_PISTOL_MK2_CLIP_TRACER",
+          "label": "Tracer Rounds",
+          "hash": 634039983,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_PI_RAIL",
+          "label": "Mounted Scope",
+          "hash": 2396306288,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_PI_FLSH_02",
+          "label": "Flashlight",
+          "hash": 1140676955,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_PI_SUPP_02",
+          "label": "Suppressor",
+          "hash": 1709866683,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_PI_COMP",
+          "label": "Compensator",
+          "hash": 568543123,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_PISTOL_MK2_VARMOD_XM3_SLIDE",
+          "label": "COMPONENT_PISTOL_MK2_VARMOD_XM3_SLIDE",
+          "hash": 1011473080,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_PISTOL_MK2_VARMOD_XM3",
+          "label": "Season's Greetings",
+          "hash": 1141184690,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Classic Black"
+        },
+        {
+          "index": 1,
+          "label": "Classic Gray"
+        },
+        {
+          "index": 2,
+          "label": "Classic Two-Tone"
+        },
+        {
+          "index": 3,
+          "label": "Classic White"
+        },
+        {
+          "index": 4,
+          "label": "Classic Beige"
+        },
+        {
+          "index": 5,
+          "label": "Classic Green"
+        },
+        {
+          "index": 6,
+          "label": "Classic Blue"
+        },
+        {
+          "index": 7,
+          "label": "Classic Earth"
+        },
+        {
+          "index": 8,
+          "label": "Classic Brown & Black"
+        },
+        {
+          "index": 9,
+          "label": "Red Contrast"
+        },
+        {
+          "index": 10,
+          "label": "Blue Contrast"
+        },
+        {
+          "index": 11,
+          "label": "Yellow Contrast"
+        },
+        {
+          "index": 12,
+          "label": "Orange Contrast"
+        },
+        {
+          "index": 13,
+          "label": "Bold Pink"
+        },
+        {
+          "index": 14,
+          "label": "Bold Purple & Yellow"
+        },
+        {
+          "index": 15,
+          "label": "Bold Orange"
+        },
+        {
+          "index": 16,
+          "label": "Bold Green & Purple"
+        },
+        {
+          "index": 17,
+          "label": "Bold Red Features"
+        },
+        {
+          "index": 18,
+          "label": "Bold Green Features"
+        },
+        {
+          "index": 19,
+          "label": "Bold Cyan Features"
+        },
+        {
+          "index": 20,
+          "label": "Bold Yellow Features"
+        },
+        {
+          "index": 21,
+          "label": "Bold Red & White"
+        },
+        {
+          "index": 22,
+          "label": "Bold Blue & White"
+        },
+        {
+          "index": 23,
+          "label": "Metallic Gold"
+        },
+        {
+          "index": 24,
+          "label": "Metallic Platinum"
+        },
+        {
+          "index": 25,
+          "label": "Metallic Gray & Lilac"
+        },
+        {
+          "index": 26,
+          "label": "Metallic Purple & Lime"
+        },
+        {
+          "index": 27,
+          "label": "Metallic Red"
+        },
+        {
+          "index": 28,
+          "label": "Metallic Green"
+        },
+        {
+          "index": 29,
+          "label": "Metallic Blue"
+        },
+        {
+          "index": 30,
+          "label": "Metallic White & Aqua"
+        },
+        {
+          "index": 31,
+          "label": "Metallic Red & Yellow"
+        },
+        {
+          "index": 32,
+          "label": "32"
+        }
+      ]
+    },
+    {
+      "id": "snspistol",
+      "name": "SNS Pistol",
+      "codename": "weapon_snspistol",
+      "hash": 3218215474,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Sns-pistol-icon.png",
+      "dlc": {
+        "id": "mpbeach",
+        "name": "Beach Bum",
+        "releaseDate": "2013-11-19"
+      },
+      "stats": {
+        "damage": 30,
+        "fireRate": 40,
+        "accuracy": 40,
+        "range": 20,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_SNSPISTOL_CLIP_01",
+          "label": "Default Clip",
+          "hash": 4169150169,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_SNSPISTOL_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 2063610803,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_SNSPISTOL_VARMOD_LOWRIDER",
+          "label": "Etched Wood Grip Finish",
+          "hash": 2150886575,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_GUNRUN_MK2_UPGRADE",
+          "label": "Mk II",
+          "hash": 1623028892,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "snspistol_mk2",
+      "name": "SNS Pistol Mk II",
+      "codename": "weapon_snspistol_mk2",
+      "hash": 2285322324,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Sns-pistol-mk2-icon.png",
+      "dlc": {
+        "id": "mpchristmas2017",
+        "name": "The Doomsday Heist",
+        "releaseDate": "2017-12-12"
+      },
+      "stats": {
+        "damage": 32,
+        "fireRate": 40,
+        "accuracy": 40,
+        "range": 20,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_SNSPISTOL_MK2_CLIP_01",
+          "label": "Default Clip",
+          "hash": 21392614,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_SNSPISTOL_MK2_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 3465283442,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_SNSPISTOL_MK2_CLIP_TRACER",
+          "label": "Tracer Rounds",
+          "hash": 2418909806,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_SNSPISTOL_MK2_CLIP_INCENDIARY",
+          "label": "Incendiary Rounds",
+          "hash": 3870121849,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_SNSPISTOL_MK2_CLIP_HOLLOWPOINT",
+          "label": "Hollow Point Rounds",
+          "hash": 2366665730,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_SNSPISTOL_MK2_CLIP_FMJ",
+          "label": "Full Metal Jacket Rounds",
+          "hash": 3239176998,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_PI_FLSH_03",
+          "label": "Flashlight",
+          "hash": 1246324211,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_PI_RAIL_02",
+          "label": "Mounted Scope",
+          "hash": 1205768792,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_PI_SUPP_02",
+          "label": "Suppressor",
+          "hash": 1709866683,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_PI_COMP_02",
+          "label": "Compensator",
+          "hash": 2860680127,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Classic Black"
+        },
+        {
+          "index": 1,
+          "label": "Classic Gray"
+        },
+        {
+          "index": 2,
+          "label": "Classic Two-Tone"
+        },
+        {
+          "index": 3,
+          "label": "Classic White"
+        },
+        {
+          "index": 4,
+          "label": "Classic Beige"
+        },
+        {
+          "index": 5,
+          "label": "Classic Green"
+        },
+        {
+          "index": 6,
+          "label": "Classic Blue"
+        },
+        {
+          "index": 7,
+          "label": "Classic Earth"
+        },
+        {
+          "index": 8,
+          "label": "Classic Brown & Black"
+        },
+        {
+          "index": 9,
+          "label": "Red Contrast"
+        },
+        {
+          "index": 10,
+          "label": "Blue Contrast"
+        },
+        {
+          "index": 11,
+          "label": "Yellow Contrast"
+        },
+        {
+          "index": 12,
+          "label": "Orange Contrast"
+        },
+        {
+          "index": 13,
+          "label": "Bold Pink"
+        },
+        {
+          "index": 14,
+          "label": "Bold Purple & Yellow"
+        },
+        {
+          "index": 15,
+          "label": "Bold Orange"
+        },
+        {
+          "index": 16,
+          "label": "Bold Green & Purple"
+        },
+        {
+          "index": 17,
+          "label": "Bold Red Features"
+        },
+        {
+          "index": 18,
+          "label": "Bold Green Features"
+        },
+        {
+          "index": 19,
+          "label": "Bold Cyan Features"
+        },
+        {
+          "index": 20,
+          "label": "Bold Yellow Features"
+        },
+        {
+          "index": 21,
+          "label": "Bold Red & White"
+        },
+        {
+          "index": 22,
+          "label": "Bold Blue & White"
+        },
+        {
+          "index": 23,
+          "label": "Metallic Gold"
+        },
+        {
+          "index": 24,
+          "label": "Metallic Platinum"
+        },
+        {
+          "index": 25,
+          "label": "Metallic Gray & Lilac"
+        },
+        {
+          "index": 26,
+          "label": "Metallic Purple & Lime"
+        },
+        {
+          "index": 27,
+          "label": "Metallic Red"
+        },
+        {
+          "index": 28,
+          "label": "Metallic Green"
+        },
+        {
+          "index": 29,
+          "label": "Metallic Blue"
+        },
+        {
+          "index": 30,
+          "label": "Metallic White & Aqua"
+        },
+        {
+          "index": 31,
+          "label": "Metallic Red & Yellow"
+        },
+        {
+          "index": 32,
+          "label": "32"
+        }
+      ]
+    },
+    {
+      "id": "vintagepistol",
+      "name": "Vintage Pistol",
+      "codename": "weapon_vintagepistol",
+      "hash": 137902532,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Vintage-pistol-icon.png",
+      "dlc": {
+        "id": "mphipster",
+        "name": "I'm Not a Hipster Update",
+        "releaseDate": "2014-06-17"
+      },
+      "stats": {
+        "damage": 35,
+        "fireRate": 40,
+        "accuracy": 40,
+        "range": 25,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_VINTAGEPISTOL_CLIP_01",
+          "label": "Default Clip",
+          "hash": 1168357051,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_VINTAGEPISTOL_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 867832552,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_PI_SUPP",
+          "label": "Suppressor",
+          "hash": 3271853210,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "pistolxm3",
+      "name": "WM 29 Pistol",
+      "codename": "weapon_pistolxm3",
+      "hash": 465894841,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/WM-29-pistol-icon.png",
+      "dlc": {
+        "id": "mpchristmas3",
+        "name": "Los Santos Drug Wars",
+        "releaseDate": "2022-12-13"
+      },
+      "stats": {
+        "damage": 36,
+        "fireRate": 40,
+        "accuracy": 50,
+        "range": 35,
+        "maxAmmo": null
+      },
+      "components": [
+        {
+          "id": "COMPONENT_PISTOLXM3_CLIP_01",
+          "label": "Default Clip",
+          "hash": 375646046,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_PISTOLXM3_SUPP",
+          "label": "Suppressor",
+          "hash": 503494624,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    }
+  ]
+}

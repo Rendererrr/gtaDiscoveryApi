@@ -1,0 +1,239 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "id": "mphipster",
+    "name": "I'm Not a Hipster Update",
+    "releaseDate": "2014-06-17",
+    "key": "mphipster",
+    "slug": "mphipster",
+    "count": 7
+  },
+  "count": 7,
+  "items": [
+    {
+      "id": "panto",
+      "name": "Panto",
+      "hash": 3863274624,
+      "category": "Compacts",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/panto.webp",
+      "dlc": {
+        "id": "mphipster",
+        "name": "I'm Not a Hipster Update",
+        "releaseDate": "2014-06-17"
+      },
+      "stats": {
+        "handlingId": "PANTO",
+        "mass": 800,
+        "topSpeed": 132,
+        "driveForce": 0.27,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.97,
+          "min": 1.77,
+          "lateral": 22
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 33,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "rhapsody",
+      "name": "Rhapsody",
+      "hash": 841808271,
+      "category": "Compacts",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/rhapsody.webp",
+      "dlc": {
+        "id": "mphipster",
+        "name": "I'm Not a Hipster Update",
+        "releaseDate": "2014-06-17"
+      },
+      "stats": {
+        "handlingId": "RHAPSODY1",
+        "mass": 1350,
+        "topSpeed": 133,
+        "driveForce": 0.23,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.45,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.05,
+          "min": 1.72,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 36,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "glendale",
+      "name": "Glendale",
+      "hash": 75131841,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/glendale.webp",
+      "dlc": {
+        "id": "mphipster",
+        "name": "I'm Not a Hipster Update",
+        "releaseDate": "2014-06-17"
+      },
+      "stats": {
+        "handlingId": "GLENDALE",
+        "mass": 1600,
+        "topSpeed": 147,
+        "driveForce": 0.235,
+        "brakeForce": 0.65,
+        "handBrakeForce": 1.2,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.05,
+          "min": 1.7,
+          "lateral": 20
+        },
+        "suspensionForce": 2.85,
+        "steeringLock": 50,
+        "monetaryValue": 100000
+      }
+    },
+    {
+      "id": "warrener",
+      "name": "Warrener",
+      "hash": 1373123368,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/warrener.webp",
+      "dlc": {
+        "id": "mphipster",
+        "name": "I'm Not a Hipster Update",
+        "releaseDate": "2014-06-17"
+      },
+      "stats": {
+        "handlingId": "warrener",
+        "mass": 1300,
+        "topSpeed": 140,
+        "driveForce": 0.245,
+        "brakeForce": 0.95,
+        "handBrakeForce": 1.2,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.16,
+          "min": 1.83,
+          "lateral": 20.5
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 50,
+        "monetaryValue": 100000
+      }
+    },
+    {
+      "id": "blade",
+      "name": "Blade",
+      "hash": 3089165662,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/blade.webp",
+      "dlc": {
+        "id": "mphipster",
+        "name": "I'm Not a Hipster Update",
+        "releaseDate": "2014-06-17"
+      },
+      "stats": {
+        "handlingId": "blade",
+        "mass": 1200,
+        "topSpeed": 145,
+        "driveForce": 0.324,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.23,
+          "min": 1.7,
+          "lateral": 21.5
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 32,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "pigalle",
+      "name": "Pigalle",
+      "hash": 1078682497,
+      "category": "Sports Classic",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/pigalle.webp",
+      "dlc": {
+        "id": "mphipster",
+        "name": "I'm Not a Hipster Update",
+        "releaseDate": "2014-06-17"
+      },
+      "stats": {
+        "handlingId": "PIGALLE",
+        "mass": 1500,
+        "topSpeed": 149,
+        "driveForce": 0.265,
+        "brakeForce": 0.85,
+        "handBrakeForce": 1,
+        "gears": 5,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 2.36,
+          "min": 2.11,
+          "lateral": 20.5
+        },
+        "suspensionForce": 2.15,
+        "steeringLock": 37,
+        "monetaryValue": 100000
+      }
+    },
+    {
+      "id": "dubsta3",
+      "name": "Dubsta 6x6",
+      "hash": 3057713523,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dubsta3.webp",
+      "dlc": {
+        "id": "mphipster",
+        "name": "I'm Not a Hipster Update",
+        "releaseDate": "2014-06-17"
+      },
+      "stats": {
+        "handlingId": "DUBSTA3",
+        "mass": 3500,
+        "topSpeed": 137,
+        "driveForce": 0.28,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.45,
+        "gears": 6,
+        "driveBiasFront": 0.35,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2,
+          "min": 1.7,
+          "lateral": 19
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    }
+  ]
+}

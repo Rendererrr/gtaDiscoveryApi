@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "peds",
+    "label": "Peds",
+    "urlPattern": "{cdnBase}/assets/peds/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate null for patch-day additions)."
+  },
+  "group": {
+    "id": "patchday19ng",
+    "name": "Patch Day 19",
+    "releaseDate": null,
+    "key": "patchday19ng",
+    "slug": "patchday19ng",
+    "count": 1
+  },
+  "count": 1,
+  "items": [
+    {
+      "id": "a_m_y_business_02",
+      "name": "a_m_y_business_02",
+      "hash": 3014915558,
+      "category": "Ambient male",
+      "dlc": {
+        "id": "patchday19ng",
+        "name": "Patch Day 19",
+        "releaseDate": null
+      },
+      "props": "1 prop",
+      "components": "5 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/a_m_y_business_02.webp"
+    }
+  ]
+}

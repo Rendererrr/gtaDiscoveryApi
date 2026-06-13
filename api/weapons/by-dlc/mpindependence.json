@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "weapons",
+    "label": "Weapons",
+    "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
+    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
+  },
+  "group": {
+    "id": "mpindependence",
+    "name": "Independence Day Special",
+    "releaseDate": "2014-07-01",
+    "key": "mpindependence",
+    "slug": "mpindependence",
+    "count": 2
+  },
+  "count": 2,
+  "items": [
+    {
+      "id": "firework",
+      "name": "Firework Launcher",
+      "codename": "weapon_firework",
+      "hash": 2138347493,
+      "category": "Heavy",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Firework-launcher-icon.png",
+      "dlc": {
+        "id": "mpindependence",
+        "name": "Independence Day Special",
+        "releaseDate": "2014-07-01"
+      },
+      "stats": {
+        "damage": 45,
+        "fireRate": 5,
+        "accuracy": 12,
+        "range": 60,
+        "maxAmmo": 20
+      },
+      "components": [
+        {
+          "id": "COMPONENT_FIREWORK_CLIP_01",
+          "label": "Default Clip",
+          "hash": 3840197261,
+          "default": true
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "musket",
+      "name": "Musket",
+      "codename": "weapon_musket",
+      "hash": 2828843422,
+      "category": "Shotgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Musket-icon.png",
+      "dlc": {
+        "id": "mpindependence",
+        "name": "Independence Day Special",
+        "releaseDate": "2014-07-01"
+      },
+      "stats": {
+        "damage": 97,
+        "fireRate": 10,
+        "accuracy": 65,
+        "range": 85,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_MUSKET_CLIP_01",
+          "label": "Default Clip",
+          "hash": 1322387263,
+          "default": true
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    }
+  ]
+}

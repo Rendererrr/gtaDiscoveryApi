@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "peds",
+    "label": "Peds",
+    "urlPattern": "{cdnBase}/assets/peds/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate null for patch-day additions)."
+  },
+  "group": {
+    "id": "mpsmuggler",
+    "name": "Smuggler's Run",
+    "releaseDate": "2017-08-29",
+    "key": "mpsmuggler",
+    "slug": "mpsmuggler",
+    "count": 1
+  },
+  "count": 1,
+  "items": [
+    {
+      "id": "u_m_y_smugmech_01",
+      "name": "u_m_y_smugmech_01",
+      "hash": 3446096293,
+      "category": "Story scenario male",
+      "dlc": {
+        "id": "mpsmuggler",
+        "name": "Smuggler's Run",
+        "releaseDate": "2017-08-29"
+      },
+      "props": "1 prop",
+      "components": "5 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/u_m_y_smugmech_01.webp"
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "weapons",
+    "label": "Weapons",
+    "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
+    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
+  },
+  "group": {
+    "id": "mpchristmas2",
+    "name": "Festive Surprise (2014)",
+    "releaseDate": "2014-12-18",
+    "key": "mpchristmas2",
+    "slug": "mpchristmas2",
+    "count": 3
+  },
+  "count": 3,
+  "items": [
+    {
+      "id": "hominglauncher",
+      "name": "Homing Launcher",
+      "codename": "weapon_hominglauncher",
+      "hash": 1672152130,
+      "category": "Heavy",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Homing-launcher-icon.png",
+      "dlc": {
+        "id": "mpchristmas2",
+        "name": "Festive Surprise (2014)",
+        "releaseDate": "2014-12-18"
+      },
+      "stats": {
+        "damage": 95,
+        "fireRate": 5,
+        "accuracy": 25,
+        "range": 75,
+        "maxAmmo": 10
+      },
+      "components": [
+        {
+          "id": "COMPONENT_HOMINGLAUNCHER_CLIP_01",
+          "label": "Default Clip",
+          "hash": 4162006335,
+          "default": true
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "proxmine",
+      "name": "Proximity Mine",
+      "codename": "weapon_proxmine",
+      "hash": 2874559379,
+      "category": "Thrown",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Proximity-mines-icon.png",
+      "dlc": {
+        "id": "mpchristmas2",
+        "name": "Festive Surprise (2014)",
+        "releaseDate": "2014-12-18"
+      },
+      "stats": {
+        "damage": 90,
+        "fireRate": 1,
+        "accuracy": 30,
+        "range": 20,
+        "maxAmmo": 5
+      },
+      "components": [],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "snowball",
+      "name": "Snowball",
+      "codename": "weapon_snowball",
+      "hash": 126349499,
+      "category": "Thrown",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Snowball-icon.png",
+      "dlc": {
+        "id": "mpchristmas2",
+        "name": "Festive Surprise (2014)",
+        "releaseDate": "2014-12-18"
+      },
+      "stats": {
+        "damage": 0,
+        "fireRate": 1,
+        "accuracy": 10,
+        "range": 0,
+        "maxAmmo": 10
+      },
+      "components": [],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    }
+  ]
+}

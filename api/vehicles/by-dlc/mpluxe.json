@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "id": "mpluxe",
+    "name": "Ill-Gotten Gains Part 1",
+    "releaseDate": "2015-06-10",
+    "key": "mpluxe",
+    "slug": "mpluxe",
+    "count": 6
+  },
+  "count": 6,
+  "items": [
+    {
+      "id": "windsor",
+      "name": "Windsor",
+      "hash": 1581459400,
+      "category": "Coupes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/windsor.webp",
+      "dlc": {
+        "id": "mpluxe",
+        "name": "Ill-Gotten Gains Part 1",
+        "releaseDate": "2015-06-10"
+      },
+      "stats": {
+        "handlingId": "WINDSOR",
+        "mass": 2800,
+        "topSpeed": 150,
+        "driveForce": 0.28,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.2,
+          "min": 1.85,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.4,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "virgo",
+      "name": "Virgo",
+      "hash": 3796912450,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/virgo.webp",
+      "dlc": {
+        "id": "mpluxe",
+        "name": "Ill-Gotten Gains Part 1",
+        "releaseDate": "2015-06-10"
+      },
+      "stats": {
+        "handlingId": "VIRGO",
+        "mass": 2200,
+        "topSpeed": 134,
+        "driveForce": 0.21,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.05,
+          "min": 1.8,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "feltzer3",
+      "name": "Feltzer Classic",
+      "hash": 2728226064,
+      "category": "Sports Classic",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/feltzer3.webp",
+      "dlc": {
+        "id": "mpluxe",
+        "name": "Ill-Gotten Gains Part 1",
+        "releaseDate": "2015-06-10"
+      },
+      "stats": {
+        "handlingId": "FELTZER3",
+        "mass": 1330,
+        "topSpeed": 138,
+        "driveForce": 0.3,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.52,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.35,
+          "min": 2.1,
+          "lateral": 21.5
+        },
+        "suspensionForce": 2.5,
+        "steeringLock": 38,
+        "monetaryValue": 30000
+      }
+    },
+    {
+      "id": "osiris",
+      "name": "Osiris",
+      "hash": 1987142870,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/osiris.webp",
+      "dlc": {
+        "id": "mpluxe",
+        "name": "Ill-Gotten Gains Part 1",
+        "releaseDate": "2015-06-10"
+      },
+      "stats": {
+        "handlingId": "OSIRIS",
+        "mass": 1350,
+        "topSpeed": 159.1,
+        "driveForce": 0.36,
+        "brakeForce": 1.05,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0.3,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.66,
+          "min": 2.54,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "swift2",
+      "name": "Swift Deluxe",
+      "hash": 1075432268,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/swift2.webp",
+      "dlc": {
+        "id": "mpluxe",
+        "name": "Ill-Gotten Gains Part 1",
+        "releaseDate": "2015-06-10"
+      },
+      "stats": {
+        "handlingId": "SWIFT2",
+        "mass": 6500,
+        "topSpeed": 160,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.2,
+          "lateral": 12
+        },
+        "suspensionForce": 3.5,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "luxor2",
+      "name": "Luxor Deluxe",
+      "hash": 3080673438,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/luxor2.webp",
+      "dlc": {
+        "id": "mpluxe",
+        "name": "Ill-Gotten Gains Part 1",
+        "releaseDate": "2015-06-10"
+      },
+      "stats": {
+        "handlingId": "luxor2",
+        "mass": 6500,
+        "topSpeed": 326.2,
+        "driveForce": 0.001,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.01,
+        "gears": 1,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 1.15,
+          "min": 0.8,
+          "lateral": 12
+        },
+        "suspensionForce": 2.5,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    }
+  ]
+}

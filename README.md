@@ -290,13 +290,16 @@ const dlcs     = await vehicles.getDlcs();                         // [{ id, nam
 const recent   = (await vehicles.getItems())                       // released since 2023 (ISO dates sort lexically)
   .filter((v) => v.dlc?.releaseDate >= '2023-01-01');
 
-// peds and weapons expose the same helpers
+// peds and weapons expose the same helpers — all three domains carry dlc
 import weapons from 'https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/client/weapons.js';
 const ar    = await weapons.byId('assaultrifle_mk2');    // { hash: 961495388, codename, category, dlc, stats, ... }
 const cayo  = await weapons.byDlc('The Cayo Perico Heist'); // weapons added in that DLC
+
+import peds from 'https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/client/peds.js';
+const tunerPeds = await peds.byDlc('Los Santos Tuners');  // peds added in that DLC
 ```
-(`peds` has no `dlc`, so `byDlc`/`getDlcs` return empty there — the helpers exist on every flat
-domain but only `vehicles` and `weapons` carry DLC data.)
+(Peds added via technical title-update patches use a `dlc` like
+`{ id: "patchday7ng", name: "Patch Day 7", releaseDate: null }` — name present, date unknown.)
 
 ### Search
 
@@ -348,6 +351,46 @@ await discovery.byHash(3078201489);        // { domain: 'vehicles', id: 'adder',
 The reverse map covers everything with a `hash` (peds 848, vehicles 861, weapons 103 — only the
 one weapon with an unknown codename is omitted). Going the other way (name → hash) is already in
 the catalog: every item carries its own `hash`.
+
+### List by category or DLC (static endpoints)
+
+Because the API is static (no query params), the build pre-generates one JSON file per category
+and per DLC, so you can fetch exactly the slice you want instead of downloading the full catalog
+and filtering. Available for **all three flat domains** — peds, vehicles and weapons — by
+category **and** by DLC.
+
+```
+api/<domain>/by-category/index.json        # { groups: [{ name, slug, count, path }] }
+api/<domain>/by-category/<slug>.json       # { group, count, items[] }   e.g. .../by-category/super.json
+api/<domain>/by-dlc/index.json             # { groups: [{ id, name, releaseDate, slug, count, path }] }
+api/<domain>/by-dlc/<slug>.json            # { group, count, items[] }    e.g. .../by-dlc/mptuner.json
+```
+
+The `slug` is a lowercased, hyphenated form of the category name or DLC code
+(`Sports Classics` → `sports-classics`, `mp2023_02` → `mp2023-02`). The `by-dlc/index.json`
+groups are sorted oldest → newest by `releaseDate`, so it doubles as a DLC timeline. Discover the
+paths from the root: each domain descriptor in `api/index.json` carries `byCategory` and (where
+applicable) `byDlc`.
+
+```jsonc
+// GET api/vehicles/by-dlc/mptuner.json
+{ "group": { "id": "mptuner", "name": "Los Santos Tuners", "releaseDate": "2021-07-20", "count": 18 },
+  "count": 18, "items": [ { "id": "comet5", "name": "Comet S2", ... }, ... ] }
+
+// GET api/weapons/by-category/rifle.json
+{ "group": { "name": "Rifle", "slug": "rifle", "count": 9 }, "count": 9, "items": [ ... ] }
+```
+
+```js
+// fetch just one DLC's vehicles (no full-catalog download)
+const tuners = await fetch(`${BASE}/api/vehicles/by-dlc/mptuner.json`).then((r) => r.json());
+// list the available DLC slices (a release-ordered timeline)
+const dlcs = await fetch(`${BASE}/api/vehicles/by-dlc/index.json`).then((r) => r.json());
+```
+
+The client helpers `byCategory()` / `byDlc()` / `getDlcs()` give the same results from the cached
+full catalog; the static files above are for fetching a single slice directly (smaller payload,
+cacheable per slice).
 
 > **Future stats.** Each flat item reserves an optional `stats` object (vehicle stats, weapon
 > stats). It's absent today; when stat data is added it merges in under `item.stats` keyed by the

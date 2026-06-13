@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "id": "mpvalentines",
+    "name": "Valentine's Day Massacre",
+    "releaseDate": "2014-02-13",
+    "key": "mpvalentines",
+    "slug": "mpvalentines",
+    "count": 1
+  },
+  "count": 1,
+  "items": [
+    {
+      "id": "btype",
+      "name": "Roosevelt",
+      "hash": 117401876,
+      "category": "Sports Classic",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/btype.webp",
+      "dlc": {
+        "id": "mpvalentines",
+        "name": "Valentine's Day Massacre",
+        "releaseDate": "2014-02-13"
+      },
+      "stats": {
+        "handlingId": "ROOSEVELT",
+        "mass": 2400,
+        "topSpeed": 125,
+        "driveForce": 0.27,
+        "brakeForce": 0.55,
+        "handBrakeForce": 0.4,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.1,
+          "min": 1.9,
+          "lateral": 23.5
+        },
+        "suspensionForce": 1.5,
+        "steeringLock": 35,
+        "monetaryValue": 70000
+      }
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "id": "mpindependence",
+    "name": "Independence Day Special",
+    "releaseDate": "2014-07-01",
+    "key": "mpindependence",
+    "slug": "mpindependence",
+    "count": 2
+  },
+  "count": 2,
+  "items": [
+    {
+      "id": "sovereign",
+      "name": "Sovereign",
+      "hash": 743478836,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/sovereign.webp",
+      "dlc": {
+        "id": "mpindependence",
+        "name": "Independence Day Special",
+        "releaseDate": "2014-07-01"
+      },
+      "stats": {
+        "handlingId": "POLICEB",
+        "mass": 250,
+        "topSpeed": 135,
+        "driveForce": 0.27,
+        "brakeForce": 1.1,
+        "handBrakeForce": 1.3,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.9,
+          "min": 1.8,
+          "lateral": 20
+        },
+        "suspensionForce": 7,
+        "steeringLock": 40,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "monster",
+      "name": "Monster",
+      "hash": 3449006043,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/monster.webp",
+      "dlc": {
+        "id": "mpindependence",
+        "name": "Independence Day Special",
+        "releaseDate": "2014-07-01"
+      },
+      "stats": {
+        "handlingId": "MONSTER",
+        "mass": 4000,
+        "topSpeed": 110,
+        "driveForce": 0.4,
+        "brakeForce": 0.65,
+        "handBrakeForce": 0.3,
+        "gears": 3,
+        "driveBiasFront": 0.2,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.25,
+          "min": 2.12,
+          "lateral": 17
+        },
+        "suspensionForce": 2.3,
+        "steeringLock": 26,
+        "monetaryValue": 500000
+      }
+    }
+  ]
+}

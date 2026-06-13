@@ -1,0 +1,704 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "id": "mpvinewood",
+    "name": "The Diamond Casino & Resort",
+    "releaseDate": "2019-07-23",
+    "key": "mpvinewood",
+    "slug": "mpvinewood",
+    "count": 22
+  },
+  "count": 22,
+  "items": [
+    {
+      "id": "novak",
+      "name": "Novak",
+      "hash": 2465530446,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/novak.webp",
+      "dlc": {
+        "id": "mpvinewood",
+        "name": "The Diamond Casino & Resort",
+        "releaseDate": "2019-07-23"
+      },
+      "stats": {
+        "handlingId": "NOVAK",
+        "mass": 2100,
+        "topSpeed": 153,
+        "driveForce": 0.3,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.6,
+        "gears": 8,
+        "driveBiasFront": 0.4,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.3,
+          "min": 2,
+          "lateral": 14
+        },
+        "suspensionForce": 1,
+        "steeringLock": 37.5,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "gauntlet3",
+      "name": "Gauntlet Classic",
+      "hash": 722226637,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/gauntlet3.webp",
+      "dlc": {
+        "id": "mpvinewood",
+        "name": "The Diamond Casino & Resort",
+        "releaseDate": "2019-07-23"
+      },
+      "stats": {
+        "handlingId": "GAUNTLET3",
+        "mass": 1350,
+        "topSpeed": 142,
+        "driveForce": 0.28,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.5,
+          "min": 2.35,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.1,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "gauntlet4",
+      "name": "Gauntlet Hellfire",
+      "hash": 1934384720,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/gauntlet4.webp",
+      "dlc": {
+        "id": "mpvinewood",
+        "name": "The Diamond Casino & Resort",
+        "releaseDate": "2019-07-23"
+      },
+      "stats": {
+        "handlingId": "GAUNTLET4",
+        "mass": 1940,
+        "topSpeed": 155,
+        "driveForce": 0.36,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.35,
+          "min": 2.1,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.3,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "peyote2",
+      "name": "Peyote Gasser",
+      "hash": 2490551588,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/peyote2.webp",
+      "dlc": {
+        "id": "mpvinewood",
+        "name": "The Diamond Casino & Resort",
+        "releaseDate": "2019-07-23"
+      },
+      "stats": {
+        "handlingId": "PEYOTE2",
+        "mass": 2100,
+        "topSpeed": 148.5,
+        "driveForce": 0.344,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.26,
+          "min": 2.05,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.05,
+        "steeringLock": 36,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "dynasty",
+      "name": "Dynasty",
+      "hash": 310284501,
+      "category": "Sports Classic",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dynasty.webp",
+      "dlc": {
+        "id": "mpvinewood",
+        "name": "The Diamond Casino & Resort",
+        "releaseDate": "2019-07-23"
+      },
+      "stats": {
+        "handlingId": "DYNASTY",
+        "mass": 1100,
+        "topSpeed": 118,
+        "driveForce": 0.18,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.4,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.7,
+          "min": 1.4,
+          "lateral": 23.5
+        },
+        "suspensionForce": 1.35,
+        "steeringLock": 28,
+        "monetaryValue": 70000
+      }
+    },
+    {
+      "id": "nebula",
+      "name": "Nebula Turbo",
+      "hash": 3412338231,
+      "category": "Sports Classic",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/nebula.webp",
+      "dlc": {
+        "id": "mpvinewood",
+        "name": "The Diamond Casino & Resort",
+        "releaseDate": "2019-07-23"
+      },
+      "stats": {
+        "handlingId": "NEBULA",
+        "mass": 1320,
+        "topSpeed": 138,
+        "driveForce": 0.24,
+        "brakeForce": 0.5,
+        "handBrakeForce": 0.8,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.95,
+          "min": 1.65,
+          "lateral": 21.5
+        },
+        "suspensionForce": 2.4,
+        "steeringLock": 42,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "zion3",
+      "name": "Zion Classic",
+      "hash": 1862507111,
+      "category": "Sports Classic",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/zion3.webp",
+      "dlc": {
+        "id": "mpvinewood",
+        "name": "The Diamond Casino & Resort",
+        "releaseDate": "2019-07-23"
+      },
+      "stats": {
+        "handlingId": "ZION3",
+        "mass": 1450,
+        "topSpeed": 149,
+        "driveForce": 0.305,
+        "brakeForce": 0.85,
+        "handBrakeForce": 0.52,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.35,
+          "min": 2.2,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.75,
+        "steeringLock": 38,
+        "monetaryValue": 30000
+      }
+    },
+    {
+      "id": "drafter",
+      "name": "8F Drafter",
+      "hash": 686471183,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/drafter.webp",
+      "dlc": {
+        "id": "mpvinewood",
+        "name": "The Diamond Casino & Resort",
+        "releaseDate": "2019-07-23"
+      },
+      "stats": {
+        "handlingId": "DRAFTER",
+        "mass": 1650,
+        "topSpeed": 150,
+        "driveForce": 0.342,
+        "brakeForce": 1,
+        "handBrakeForce": 0.65,
+        "gears": 6,
+        "driveBiasFront": 0.4,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.69,
+          "min": 2.46,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.5,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "issi7",
+      "name": "Issi Sport",
+      "hash": 1854776567,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/issi7.webp",
+      "dlc": {
+        "id": "mpvinewood",
+        "name": "The Diamond Casino & Resort",
+        "releaseDate": "2019-07-23"
+      },
+      "stats": {
+        "handlingId": "ISSI7",
+        "mass": 1000,
+        "topSpeed": 148,
+        "driveForce": 0.305,
+        "brakeForce": 1,
+        "handBrakeForce": 0.7,
+        "gears": 6,
+        "driveBiasFront": 0.65,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.55,
+          "min": 2.25,
+          "lateral": 21
+        },
+        "suspensionForce": 1.6,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "jugular",
+      "name": "Jugular",
+      "hash": 4086055493,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/jugular.webp",
+      "dlc": {
+        "id": "mpvinewood",
+        "name": "The Diamond Casino & Resort",
+        "releaseDate": "2019-07-23"
+      },
+      "stats": {
+        "handlingId": "JUGULAR",
+        "mass": 1745,
+        "topSpeed": 157.5,
+        "driveForce": 0.378,
+        "brakeForce": 1.1,
+        "handBrakeForce": 0.65,
+        "gears": 8,
+        "driveBiasFront": 0.3,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.62,
+          "min": 2.38,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.5,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "locust",
+      "name": "Locust",
+      "hash": 3353694737,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/locust.webp",
+      "dlc": {
+        "id": "mpvinewood",
+        "name": "The Diamond Casino & Resort",
+        "releaseDate": "2019-07-23"
+      },
+      "stats": {
+        "handlingId": "LOCUST",
+        "mass": 920,
+        "topSpeed": 154.7,
+        "driveForce": 0.334,
+        "brakeForce": 1,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.69,
+          "min": 2.56,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "neo",
+      "name": "Neo",
+      "hash": 2674840994,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/neo.webp",
+      "dlc": {
+        "id": "mpvinewood",
+        "name": "The Diamond Casino & Resort",
+        "releaseDate": "2019-07-23"
+      },
+      "stats": {
+        "handlingId": "NEO",
+        "mass": 1390,
+        "topSpeed": 160.85,
+        "driveForce": 0.387,
+        "brakeForce": 1.2,
+        "handBrakeForce": 0.55,
+        "gears": 6,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.62,
+          "min": 2.48,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.6,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "paragon",
+      "name": "Paragon R",
+      "hash": 3847255899,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/paragon.webp",
+      "dlc": {
+        "id": "mpvinewood",
+        "name": "The Diamond Casino & Resort",
+        "releaseDate": "2019-07-23"
+      },
+      "stats": {
+        "handlingId": "PARAGON",
+        "mass": 2415,
+        "topSpeed": 159.9,
+        "driveForce": 0.329,
+        "brakeForce": 1,
+        "handBrakeForce": 0.65,
+        "gears": 8,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.67,
+          "min": 2.52,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.5,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "paragon2",
+      "name": "Paragon R (Armored)",
+      "hash": 1416466158,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/paragon2.webp",
+      "dlc": {
+        "id": "mpvinewood",
+        "name": "The Diamond Casino & Resort",
+        "releaseDate": "2019-07-23"
+      },
+      "stats": {
+        "handlingId": "PARAGON2",
+        "mass": 2555,
+        "topSpeed": 160,
+        "driveForce": 0.328,
+        "brakeForce": 0.95,
+        "handBrakeForce": 0.65,
+        "gears": 8,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.67,
+          "min": 2.52,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.5,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "emerus",
+      "name": "Emerus",
+      "hash": 1323778901,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/emerus.webp",
+      "dlc": {
+        "id": "mpvinewood",
+        "name": "The Diamond Casino & Resort",
+        "releaseDate": "2019-07-23"
+      },
+      "stats": {
+        "handlingId": "EMERUS",
+        "mass": 1198,
+        "topSpeed": 161.3,
+        "driveForce": 0.378,
+        "brakeForce": 1.2,
+        "handBrakeForce": 0.65,
+        "gears": 7,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.78,
+          "min": 2.58,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "krieger",
+      "name": "Krieger",
+      "hash": 3630826055,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/krieger.webp",
+      "dlc": {
+        "id": "mpvinewood",
+        "name": "The Diamond Casino & Resort",
+        "releaseDate": "2019-07-23"
+      },
+      "stats": {
+        "handlingId": "KRIEGER",
+        "mass": 1250,
+        "topSpeed": 161.8,
+        "driveForce": 0.374,
+        "brakeForce": 1.12,
+        "handBrakeForce": 0.55,
+        "gears": 7,
+        "driveBiasFront": 0.2,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.78,
+          "min": 2.68,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "s80",
+      "name": "S80RR",
+      "hash": 3970348707,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/s80.webp",
+      "dlc": {
+        "id": "mpvinewood",
+        "name": "The Diamond Casino & Resort",
+        "releaseDate": "2019-07-23"
+      },
+      "stats": {
+        "handlingId": "S80",
+        "mass": 900,
+        "topSpeed": 162.25,
+        "driveForce": 0.372,
+        "brakeForce": 1.25,
+        "handBrakeForce": 0.75,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.77,
+          "min": 2.63,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "thrax",
+      "name": "Thrax",
+      "hash": 1044193113,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/thrax.webp",
+      "dlc": {
+        "id": "mpvinewood",
+        "name": "The Diamond Casino & Resort",
+        "releaseDate": "2019-07-23"
+      },
+      "stats": {
+        "handlingId": "THRAX",
+        "mass": 1960,
+        "topSpeed": 158.5,
+        "driveForce": 0.34,
+        "brakeForce": 1.2,
+        "handBrakeForce": 0.92,
+        "gears": 7,
+        "driveBiasFront": 0.45,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.72,
+          "min": 2.65,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.6,
+        "steeringLock": 42,
+        "monetaryValue": 80000
+      }
+    },
+    {
+      "id": "zorrusso",
+      "name": "Zorrusso",
+      "hash": 3612858749,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/zorrusso.webp",
+      "dlc": {
+        "id": "mpvinewood",
+        "name": "The Diamond Casino & Resort",
+        "releaseDate": "2019-07-23"
+      },
+      "stats": {
+        "handlingId": "ZORRUSSO",
+        "mass": 1300,
+        "topSpeed": 161,
+        "driveForce": 0.374,
+        "brakeForce": 1.2,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.73,
+          "min": 2.64,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "rrocket",
+      "name": "Rampant Rocket",
+      "hash": 916547552,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/rrocket.webp",
+      "dlc": {
+        "id": "mpvinewood",
+        "name": "The Diamond Casino & Resort",
+        "releaseDate": "2019-07-23"
+      },
+      "stats": {
+        "handlingId": "RROCKET",
+        "mass": 1140,
+        "topSpeed": 142,
+        "driveForce": 0.382,
+        "brakeForce": 1,
+        "handBrakeForce": 0.5,
+        "gears": 3,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.1,
+          "min": 1.9,
+          "lateral": 20.5
+        },
+        "suspensionForce": 1.75,
+        "steeringLock": 25,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "caracara2",
+      "name": "Caracara 4x4",
+      "hash": 2945871676,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/caracara2.webp",
+      "dlc": {
+        "id": "mpvinewood",
+        "name": "The Diamond Casino & Resort",
+        "releaseDate": "2019-07-23"
+      },
+      "stats": {
+        "handlingId": "CARACARA2",
+        "mass": 2480,
+        "topSpeed": 138,
+        "driveForce": 0.27,
+        "brakeForce": 0.3,
+        "handBrakeForce": 0.4,
+        "gears": 6,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.05,
+          "min": 1.8,
+          "lateral": 20
+        },
+        "suspensionForce": 1.2,
+        "steeringLock": 36,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "hellion",
+      "name": "Hellion",
+      "hash": 3932816511,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/hellion.webp",
+      "dlc": {
+        "id": "mpvinewood",
+        "name": "The Diamond Casino & Resort",
+        "releaseDate": "2019-07-23"
+      },
+      "stats": {
+        "handlingId": "HELLION",
+        "mass": 1900,
+        "topSpeed": 133.5,
+        "driveForce": 0.25,
+        "brakeForce": 0.3,
+        "handBrakeForce": 0.4,
+        "gears": 5,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2,
+          "min": 1.82,
+          "lateral": 20
+        },
+        "suspensionForce": 1.1,
+        "steeringLock": 36,
+        "monetaryValue": 50000
+      }
+    }
+  ]
+}

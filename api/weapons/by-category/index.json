@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "weapons",
+    "label": "Weapons",
+    "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
+    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
+  },
+  "count": 10,
+  "groups": [
+    {
+      "name": "Melee",
+      "key": "Melee",
+      "slug": "melee",
+      "count": 19,
+      "path": "api/weapons/by-category/melee.json"
+    },
+    {
+      "name": "Handgun",
+      "key": "Handgun",
+      "slug": "handgun",
+      "count": 18,
+      "path": "api/weapons/by-category/handgun.json"
+    },
+    {
+      "name": "Rifle",
+      "key": "Rifle",
+      "slug": "rifle",
+      "count": 13,
+      "path": "api/weapons/by-category/rifle.json"
+    },
+    {
+      "name": "Shotgun",
+      "key": "Shotgun",
+      "slug": "shotgun",
+      "count": 10,
+      "path": "api/weapons/by-category/shotgun.json"
+    },
+    {
+      "name": "SMG",
+      "key": "SMG",
+      "slug": "smg",
+      "count": 10,
+      "path": "api/weapons/by-category/smg.json"
+    },
+    {
+      "name": "Thrown",
+      "key": "Thrown",
+      "slug": "thrown",
+      "count": 10,
+      "path": "api/weapons/by-category/thrown.json"
+    },
+    {
+      "name": "Heavy",
+      "key": "Heavy",
+      "slug": "heavy",
+      "count": 9,
+      "path": "api/weapons/by-category/heavy.json"
+    },
+    {
+      "name": "Misc",
+      "key": "Misc",
+      "slug": "misc",
+      "count": 6,
+      "path": "api/weapons/by-category/misc.json"
+    },
+    {
+      "name": "Sniper",
+      "key": "Sniper",
+      "slug": "sniper",
+      "count": 6,
+      "path": "api/weapons/by-category/sniper.json"
+    },
+    {
+      "name": "MG",
+      "key": "MG",
+      "slug": "mg",
+      "count": 3,
+      "path": "api/weapons/by-category/mg.json"
+    }
+  ]
+}

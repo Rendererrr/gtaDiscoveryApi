@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "id": "mpbusiness2",
+    "name": "The High Life Update",
+    "releaseDate": "2014-05-13",
+    "key": "mpbusiness2",
+    "slug": "mpbusiness2",
+    "count": 4
+  },
+  "count": 4,
+  "items": [
+    {
+      "id": "huntley",
+      "name": "Huntley S",
+      "hash": 486987393,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/huntley.webp",
+      "dlc": {
+        "id": "mpbusiness2",
+        "name": "The High Life Update",
+        "releaseDate": "2014-05-13"
+      },
+      "stats": {
+        "handlingId": "huntley",
+        "mass": 2500,
+        "topSpeed": 136,
+        "driveForce": 0.265,
+        "brakeForce": 0.55,
+        "handBrakeForce": 0.4,
+        "gears": 6,
+        "driveBiasFront": 0.3,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.1,
+          "min": 1.7,
+          "lateral": 18.7
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "massacro",
+      "name": "Massacro",
+      "hash": 4152024626,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/massacro.webp",
+      "dlc": {
+        "id": "mpbusiness2",
+        "name": "The High Life Update",
+        "releaseDate": "2014-05-13"
+      },
+      "stats": {
+        "handlingId": "massacro",
+        "mass": 1700,
+        "topSpeed": 156.2,
+        "driveForce": 0.364,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.6,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.42,
+          "min": 2.23,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.45,
+        "steeringLock": 43,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "zentorno",
+      "name": "Zentorno",
+      "hash": 2891838741,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/zentorno.webp",
+      "dlc": {
+        "id": "mpbusiness2",
+        "name": "The High Life Update",
+        "releaseDate": "2014-05-13"
+      },
+      "stats": {
+        "handlingId": "zentorno",
+        "mass": 1500,
+        "topSpeed": 159,
+        "driveForce": 0.354,
+        "brakeForce": 1,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0.3,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.65,
+          "min": 2.55,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "thrust",
+      "name": "Thrust",
+      "hash": 1836027715,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/thrust.webp",
+      "dlc": {
+        "id": "mpbusiness2",
+        "name": "The High Life Update",
+        "releaseDate": "2014-05-13"
+      },
+      "stats": {
+        "handlingId": "THRUST",
+        "mass": 270,
+        "topSpeed": 152,
+        "driveForce": 0.265,
+        "brakeForce": 1.5,
+        "handBrakeForce": 1.2,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.98,
+          "min": 1.94,
+          "lateral": 20
+        },
+        "suspensionForce": 7,
+        "steeringLock": 35,
+        "monetaryValue": 12000
+      }
+    }
+  ]
+}

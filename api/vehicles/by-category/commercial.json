@@ -1,0 +1,764 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "name": "Commercial",
+    "key": "Commercial",
+    "slug": "commercial",
+    "count": 24
+  },
+  "count": 24,
+  "items": [
+    {
+      "id": "benson",
+      "name": "Benson",
+      "hash": 2053223216,
+      "category": "Commercial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/benson.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "benson",
+        "mass": 7000,
+        "topSpeed": 130,
+        "driveForce": 0.16,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.4,
+        "gears": 5,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.75,
+          "min": 1.55,
+          "lateral": 19
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "benson2",
+      "name": "Benson (Cluckin' Bell)",
+      "hash": 728350375,
+      "category": "Commercial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/benson2.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "benson",
+        "mass": 7000,
+        "topSpeed": 130,
+        "driveForce": 0.16,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.4,
+        "gears": 5,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.75,
+          "min": 1.55,
+          "lateral": 19
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "biff",
+      "name": "Biff",
+      "hash": 850991848,
+      "category": "Commercial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/biff.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "BIFF",
+        "mass": 9000,
+        "topSpeed": 110,
+        "driveForce": 0.12,
+        "brakeForce": 0.3,
+        "handBrakeForce": 0.2,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.65,
+          "min": 1.45,
+          "lateral": 16
+        },
+        "suspensionForce": 2,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "cerberus",
+      "name": "Apocalypse Cerberus",
+      "hash": 3493417227,
+      "category": "Commercial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/cerberus.webp",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "handlingId": "CERBERUS",
+        "mass": 6500,
+        "topSpeed": 122,
+        "driveForce": 0.19,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.15,
+        "gears": 3,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.7,
+          "min": 1.5,
+          "lateral": 17
+        },
+        "suspensionForce": 1.2,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "cerberus2",
+      "name": "Future Shock Cerberus",
+      "hash": 679453769,
+      "category": "Commercial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/cerberus2.webp",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "handlingId": "CERBERUS2",
+        "mass": 6500,
+        "topSpeed": 122,
+        "driveForce": 0.19,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.15,
+        "gears": 3,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.7,
+          "min": 1.5,
+          "lateral": 17
+        },
+        "suspensionForce": 1.2,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "cerberus3",
+      "name": "Nightmare Cerberus",
+      "hash": 1909700336,
+      "category": "Commercial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/cerberus3.webp",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "handlingId": "CERBERUS",
+        "mass": 6500,
+        "topSpeed": 122,
+        "driveForce": 0.19,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.15,
+        "gears": 3,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.7,
+          "min": 1.5,
+          "lateral": 17
+        },
+        "suspensionForce": 1.2,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "hauler",
+      "name": "Hauler",
+      "hash": 1518533038,
+      "category": "Commercial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/hauler.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "hauler",
+        "mass": 9000,
+        "topSpeed": 115,
+        "driveForce": 0.16,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.5,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.55,
+          "min": 1.35,
+          "lateral": 18.5
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 35,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "hauler2",
+      "name": "Hauler Custom",
+      "hash": 387748548,
+      "category": "Commercial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/hauler2.webp",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "handlingId": "HAULER2",
+        "mass": 11000,
+        "topSpeed": 130,
+        "driveForce": 0.32,
+        "brakeForce": 0.85,
+        "handBrakeForce": 0.5,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.95,
+          "min": 1.75,
+          "lateral": 18.5
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "mule",
+      "name": "Mule",
+      "hash": 904750859,
+      "category": "Commercial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/mule.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "MULE",
+        "mass": 5500,
+        "topSpeed": 100,
+        "driveForce": 0.11,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.2,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.5,
+          "min": 1.3,
+          "lateral": 16
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 37,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "mule2",
+      "name": "Mule",
+      "hash": 3244501995,
+      "category": "Commercial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/mule2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "MULE",
+        "mass": 5500,
+        "topSpeed": 100,
+        "driveForce": 0.11,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.2,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.5,
+          "min": 1.3,
+          "lateral": 16
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 37,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "mule3",
+      "name": "Mule",
+      "hash": 2242229361,
+      "category": "Commercial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/mule3.webp",
+      "dlc": {
+        "id": "mpheist",
+        "name": "The Heists Update",
+        "releaseDate": "2015-03-10"
+      },
+      "stats": {
+        "handlingId": "MULE3",
+        "mass": 12500,
+        "topSpeed": 100,
+        "driveForce": 0.17,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.2,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.5,
+          "min": 1.3,
+          "lateral": 16
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 37,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "mule4",
+      "name": "Mule Custom",
+      "hash": 1945374990,
+      "category": "Commercial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/mule4.webp",
+      "dlc": {
+        "id": "mpbattle",
+        "name": "After Hours",
+        "releaseDate": "2018-07-24"
+      },
+      "stats": {
+        "handlingId": "MULE4",
+        "mass": 6000,
+        "topSpeed": 100,
+        "driveForce": 0.11,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.2,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.5,
+          "min": 1.3,
+          "lateral": 16
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 37,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "mule5",
+      "name": "Mule",
+      "hash": 1343932732,
+      "category": "Commercial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/mule5.webp",
+      "dlc": {
+        "id": "mpsecurity",
+        "name": "The Contract",
+        "releaseDate": "2021-12-15"
+      },
+      "stats": {
+        "handlingId": "MULE3",
+        "mass": 12500,
+        "topSpeed": 100,
+        "driveForce": 0.17,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.2,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.5,
+          "min": 1.3,
+          "lateral": 16
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 37,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "packer",
+      "name": "Packer",
+      "hash": 569305213,
+      "category": "Commercial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/packer.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "PACKER",
+        "mass": 12000,
+        "topSpeed": 120,
+        "driveForce": 0.21,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.4,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.55,
+          "min": 1.35,
+          "lateral": 18.5
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "phantom",
+      "name": "Phantom",
+      "hash": 2157618379,
+      "category": "Commercial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/phantom.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "PHANTOM",
+        "mass": 12000,
+        "topSpeed": 123,
+        "driveForce": 0.21,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.15,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.65,
+          "min": 1.55,
+          "lateral": 20
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "phantom2",
+      "name": "Phantom Wedge",
+      "hash": 2645431192,
+      "category": "Commercial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/phantom2.webp",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "stats": {
+        "handlingId": "PHANTOM2",
+        "mass": 14000,
+        "topSpeed": 130,
+        "driveForce": 0.3,
+        "brakeForce": 0.85,
+        "handBrakeForce": 0.15,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.95,
+          "min": 1.75,
+          "lateral": 20
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 42,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "phantom3",
+      "name": "Phantom Custom",
+      "hash": 177270108,
+      "category": "Commercial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/phantom3.webp",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "handlingId": "PHANTOM3",
+        "mass": 12000,
+        "topSpeed": 130,
+        "driveForce": 0.3,
+        "brakeForce": 0.85,
+        "handBrakeForce": 0.15,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.05,
+          "min": 1.95,
+          "lateral": 20
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "phantom4",
+      "name": "Phantom",
+      "hash": 4165683409,
+      "category": "Commercial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/phantom4.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "PHANTOM",
+        "mass": 12000,
+        "topSpeed": 123,
+        "driveForce": 0.21,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.15,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.65,
+          "min": 1.55,
+          "lateral": 20
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "pounder",
+      "name": "Pounder",
+      "hash": 2112052861,
+      "category": "Commercial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/pounder.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "POUNDER",
+        "mass": 5500,
+        "topSpeed": 120,
+        "driveForce": 0.14,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.15,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.65,
+          "min": 1.45,
+          "lateral": 17
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "pounder2",
+      "name": "Pounder Custom",
+      "hash": 1653666139,
+      "category": "Commercial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/pounder2.webp",
+      "dlc": {
+        "id": "mpbattle",
+        "name": "After Hours",
+        "releaseDate": "2018-07-24"
+      },
+      "stats": {
+        "handlingId": "POUNDER2",
+        "mass": 5500,
+        "topSpeed": 120,
+        "driveForce": 0.16,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.15,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.5,
+          "min": 1.35,
+          "lateral": 17
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "stockade",
+      "name": "Stockade",
+      "hash": 1747439474,
+      "category": "Commercial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/stockade.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "stockade",
+        "mass": 6500,
+        "topSpeed": 120,
+        "driveForce": 0.12,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.3,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.65,
+          "min": 1.4,
+          "lateral": 19
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 38,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "stockade3",
+      "name": "Stockade",
+      "hash": 4080511798,
+      "category": "Commercial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/stockade3.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "stockade",
+        "mass": 6500,
+        "topSpeed": 120,
+        "driveForce": 0.12,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.3,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.65,
+          "min": 1.4,
+          "lateral": 19
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 38,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "stockade4",
+      "name": "Bobcat Security Stockade",
+      "hash": 1089816240,
+      "category": "Commercial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/stockade4.webp",
+      "dlc": {
+        "id": "mp2025_01",
+        "name": "Money Fronts",
+        "releaseDate": "2025-06-17"
+      },
+      "stats": {
+        "handlingId": "stockade",
+        "mass": 6500,
+        "topSpeed": 120,
+        "driveForce": 0.12,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.3,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.65,
+          "min": 1.4,
+          "lateral": 19
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 38,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "terbyte",
+      "name": "Terrorbyte",
+      "hash": 2306538597,
+      "category": "Commercial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/terbyte.webp",
+      "dlc": {
+        "id": "mpbattle",
+        "name": "After Hours",
+        "releaseDate": "2018-07-24"
+      },
+      "stats": {
+        "handlingId": "TERRORBYTE",
+        "mass": 10000,
+        "topSpeed": 120,
+        "driveForce": 0.16,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.15,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.95,
+          "min": 1.65,
+          "lateral": 17
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    }
+  ]
+}

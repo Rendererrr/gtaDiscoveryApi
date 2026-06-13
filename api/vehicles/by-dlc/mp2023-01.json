@@ -1,0 +1,549 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "id": "mp2023_01",
+    "name": "San Andreas Mercenaries",
+    "releaseDate": "2023-06-13",
+    "key": "mp2023_01",
+    "slug": "mp2023-01",
+    "count": 17
+  },
+  "count": 17,
+  "items": [
+    {
+      "id": "brigham",
+      "name": "Brigham",
+      "hash": 3640468689,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/brigham.webp",
+      "dlc": {
+        "id": "mp2023_01",
+        "name": "San Andreas Mercenaries",
+        "releaseDate": "2023-06-13"
+      },
+      "stats": {
+        "handlingId": "BRIGHAM",
+        "mass": 3170,
+        "topSpeed": 136,
+        "driveForce": 0.21,
+        "brakeForce": 0.38,
+        "handBrakeForce": 0.45,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.91,
+          "min": 1.72,
+          "lateral": 27.5
+        },
+        "suspensionForce": 1.495,
+        "steeringLock": 32.5,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "buffalo5",
+      "name": "Buffalo EVX",
+      "hash": 165968051,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/buffalo5.webp",
+      "dlc": {
+        "id": "mp2023_01",
+        "name": "San Andreas Mercenaries",
+        "releaseDate": "2023-06-13"
+      },
+      "stats": {
+        "handlingId": "BUFFALO5",
+        "mass": 1820,
+        "topSpeed": 156.65,
+        "driveForce": 0.382,
+        "brakeForce": 0.985,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0.3,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.42,
+          "min": 2.19,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.37,
+        "steeringLock": 39.3,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "clique2",
+      "name": "Clique Wagon",
+      "hash": 3315674721,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/clique2.webp",
+      "dlc": {
+        "id": "mp2023_01",
+        "name": "San Andreas Mercenaries",
+        "releaseDate": "2023-06-13"
+      },
+      "stats": {
+        "handlingId": "CLIQUE2",
+        "mass": 1100,
+        "topSpeed": 118,
+        "driveForce": 0.198,
+        "brakeForce": 0.35,
+        "handBrakeForce": 0.38,
+        "gears": 3,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.08,
+          "min": 1.91,
+          "lateral": 25.5
+        },
+        "suspensionForce": 0.965,
+        "steeringLock": 35,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "coureur",
+      "name": "La Coureuse",
+      "hash": 610429990,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/coureur.webp",
+      "dlc": {
+        "id": "mp2023_01",
+        "name": "San Andreas Mercenaries",
+        "releaseDate": "2023-06-13"
+      },
+      "stats": {
+        "handlingId": "COUREUR",
+        "mass": 1500,
+        "topSpeed": 139.85,
+        "driveForce": 0.37,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.58,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.44,
+          "min": 2.29,
+          "lateral": 27
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 50,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "gauntlet6",
+      "name": "Hotring Hellfire",
+      "hash": 1336514315,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/gauntlet6.webp",
+      "dlc": {
+        "id": "mp2023_01",
+        "name": "San Andreas Mercenaries",
+        "releaseDate": "2023-06-13"
+      },
+      "stats": {
+        "handlingId": "GAUNTLET6",
+        "mass": 1940,
+        "topSpeed": 160.85,
+        "driveForce": 0.367,
+        "brakeForce": 0.935,
+        "handBrakeForce": 0.6,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.48,
+          "min": 2.34,
+          "lateral": 29.5
+        },
+        "suspensionForce": 2.45,
+        "steeringLock": 38.5,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "stingertt",
+      "name": "Itali GTO Stinger TT",
+      "hash": 1447690049,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/stingertt.webp",
+      "dlc": {
+        "id": "mp2023_01",
+        "name": "San Andreas Mercenaries",
+        "releaseDate": "2023-06-13"
+      },
+      "stats": {
+        "handlingId": "STINGERTT",
+        "mass": 1570,
+        "topSpeed": 162,
+        "driveForce": 0.398,
+        "brakeForce": 0.98,
+        "handBrakeForce": 0.5,
+        "gears": 8,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.62,
+          "min": 2.51,
+          "lateral": 35.5
+        },
+        "suspensionForce": 2.6,
+        "steeringLock": 40.25,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "l35",
+      "name": "Walton L35",
+      "hash": 2531292011,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/l35.webp",
+      "dlc": {
+        "id": "mp2023_01",
+        "name": "San Andreas Mercenaries",
+        "releaseDate": "2023-06-13"
+      },
+      "stats": {
+        "handlingId": "L35",
+        "mass": 1600,
+        "topSpeed": 132,
+        "driveForce": 0.236,
+        "brakeForce": 0.32,
+        "handBrakeForce": 0.4,
+        "gears": 5,
+        "driveBiasFront": 0.35,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.04,
+          "min": 1.92,
+          "lateral": 21.75
+        },
+        "suspensionForce": 1.145,
+        "steeringLock": 37.5,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "monstrociti",
+      "name": "MonstroCiti",
+      "hash": 802856453,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/monstrociti.webp",
+      "dlc": {
+        "id": "mp2023_01",
+        "name": "San Andreas Mercenaries",
+        "releaseDate": "2023-06-13"
+      },
+      "stats": {
+        "handlingId": "MONSTROCITI",
+        "mass": 1990,
+        "topSpeed": 141.7,
+        "driveForce": 0.274,
+        "brakeForce": 0.369,
+        "handBrakeForce": 0.5,
+        "gears": 5,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.16,
+          "min": 2.03,
+          "lateral": 20.5
+        },
+        "suspensionForce": 1.018,
+        "steeringLock": 40,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "ratel",
+      "name": "Ratel",
+      "hash": 3758861739,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/ratel.webp",
+      "dlc": {
+        "id": "mp2023_01",
+        "name": "San Andreas Mercenaries",
+        "releaseDate": "2023-06-13"
+      },
+      "stats": {
+        "handlingId": "RATEL",
+        "mass": 1860,
+        "topSpeed": 143,
+        "driveForce": 0.342,
+        "brakeForce": 0.32,
+        "handBrakeForce": 0.4,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.1,
+          "min": 1.9,
+          "lateral": 23.8
+        },
+        "suspensionForce": 0.885,
+        "steeringLock": 41,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "speedo5",
+      "name": "Speedo Custom",
+      "hash": 4250167832,
+      "category": "Vans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/speedo5.webp",
+      "dlc": {
+        "id": "mp2023_01",
+        "name": "San Andreas Mercenaries",
+        "releaseDate": "2023-06-13"
+      },
+      "stats": {
+        "handlingId": "SPEEDO4",
+        "mass": 2500,
+        "topSpeed": 130,
+        "driveForce": 0.2,
+        "brakeForce": 0.65,
+        "handBrakeForce": 0.4,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.9,
+          "min": 1.6,
+          "lateral": 22
+        },
+        "suspensionForce": 1.25,
+        "steeringLock": 37.5,
+        "monetaryValue": 22000
+      }
+    },
+    {
+      "id": "inductor",
+      "name": "Inductor",
+      "hash": 3397143273,
+      "category": "Cycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/inductor.webp",
+      "dlc": {
+        "id": "mp2023_01",
+        "name": "San Andreas Mercenaries",
+        "releaseDate": "2023-06-13"
+      },
+      "stats": {
+        "handlingId": "INDUCTOR",
+        "mass": 125,
+        "topSpeed": 75,
+        "driveForce": 0.112,
+        "brakeForce": 3.1,
+        "handBrakeForce": 0.9,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.05,
+          "min": 2.01,
+          "lateral": 22.5
+        },
+        "suspensionForce": 5,
+        "steeringLock": 50,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "inductor2",
+      "name": "Junk Energy Inductor",
+      "hash": 2311345272,
+      "category": "Cycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/inductor2.webp",
+      "dlc": {
+        "id": "mp2023_01",
+        "name": "San Andreas Mercenaries",
+        "releaseDate": "2023-06-13"
+      },
+      "stats": {
+        "handlingId": "INDUCTOR",
+        "mass": 125,
+        "topSpeed": 75,
+        "driveForce": 0.112,
+        "brakeForce": 3.1,
+        "handBrakeForce": 0.9,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.05,
+          "min": 2.01,
+          "lateral": 22.5
+        },
+        "suspensionForce": 5,
+        "steeringLock": 50,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "conada2",
+      "name": "Weaponized Conada",
+      "hash": 2635962482,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/conada2.webp",
+      "dlc": {
+        "id": "mp2023_01",
+        "name": "San Andreas Mercenaries",
+        "releaseDate": "2023-06-13"
+      },
+      "stats": {
+        "handlingId": "CONADA2",
+        "mass": 1700,
+        "topSpeed": 159.2,
+        "driveForce": 0.315,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.2,
+          "lateral": 12
+        },
+        "suspensionForce": 3.5,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "avenger3",
+      "name": "Avenger",
+      "hash": 3868033424,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/avenger3.webp",
+      "dlc": {
+        "id": "mp2023_01",
+        "name": "San Andreas Mercenaries",
+        "releaseDate": "2023-06-13"
+      },
+      "stats": {
+        "handlingId": "AVENGER3",
+        "mass": 18250,
+        "topSpeed": 250,
+        "driveForce": 0.001,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.8,
+          "lateral": 12
+        },
+        "suspensionForce": 6.5,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "avenger4",
+      "name": "Avenger",
+      "hash": 4225674290,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/avenger4.webp",
+      "dlc": {
+        "id": "mp2023_01",
+        "name": "San Andreas Mercenaries",
+        "releaseDate": "2023-06-13"
+      },
+      "stats": {
+        "handlingId": "AVENGER3",
+        "mass": 18250,
+        "topSpeed": 250,
+        "driveForce": 0.001,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.8,
+          "lateral": 12
+        },
+        "suspensionForce": 6.5,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "raiju",
+      "name": "F-160 Raiju",
+      "hash": 239897677,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/raiju.webp",
+      "dlc": {
+        "id": "mp2023_01",
+        "name": "San Andreas Mercenaries",
+        "releaseDate": "2023-06-13"
+      },
+      "stats": {
+        "handlingId": "RAIJU",
+        "mass": 11000,
+        "topSpeed": 10,
+        "driveForce": 0.001,
+        "brakeForce": 0.18,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.15,
+          "min": 0.8,
+          "lateral": 12
+        },
+        "suspensionForce": 3.5,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "streamer216",
+      "name": "Streamer216",
+      "hash": 191916658,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/streamer216.webp",
+      "dlc": {
+        "id": "mp2023_01",
+        "name": "San Andreas Mercenaries",
+        "releaseDate": "2023-06-13"
+      },
+      "stats": {
+        "handlingId": "STREAMER216",
+        "mass": 3400,
+        "topSpeed": 276.5,
+        "driveForce": 0.01,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.01,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.8,
+          "lateral": 12
+        },
+        "suspensionForce": 5.5,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    }
+  ]
+}

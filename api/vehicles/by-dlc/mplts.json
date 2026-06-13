@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "id": "mplts",
+    "name": "Last Team Standing Update",
+    "releaseDate": "2014-10-08",
+    "key": "mplts",
+    "slug": "mplts",
+    "count": 3
+  },
+  "count": 3,
+  "items": [
+    {
+      "id": "furoregt",
+      "name": "Furore GT",
+      "hash": 3205927392,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/furoregt.webp",
+      "dlc": {
+        "id": "mplts",
+        "name": "Last Team Standing Update",
+        "releaseDate": "2014-10-08"
+      },
+      "stats": {
+        "handlingId": "FUROREGT",
+        "mass": 1350,
+        "topSpeed": 152,
+        "driveForce": 0.335,
+        "brakeForce": 1,
+        "handBrakeForce": 0.65,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.56,
+          "min": 2.47,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.1,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "hakuchou",
+      "name": "Hakuchou",
+      "hash": 1265391242,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/hakuchou.webp",
+      "dlc": {
+        "id": "mplts",
+        "name": "Last Team Standing Update",
+        "releaseDate": "2014-10-08"
+      },
+      "stats": {
+        "handlingId": "HAKUCHOU",
+        "mass": 250,
+        "topSpeed": 152,
+        "driveForce": 0.315,
+        "brakeForce": 1.4,
+        "handBrakeForce": 1.65,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.3,
+          "min": 2.29,
+          "lateral": 22.5
+        },
+        "suspensionForce": 7.5,
+        "steeringLock": 24,
+        "monetaryValue": 20000
+      }
+    },
+    {
+      "id": "innovation",
+      "name": "Innovation",
+      "hash": 4135840458,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/innovation.webp",
+      "dlc": {
+        "id": "mplts",
+        "name": "Last Team Standing Update",
+        "releaseDate": "2014-10-08"
+      },
+      "stats": {
+        "handlingId": "INNOVAT",
+        "mass": 250,
+        "topSpeed": 135,
+        "driveForce": 0.32,
+        "brakeForce": 1,
+        "handBrakeForce": 1.2,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.9,
+          "min": 1.8,
+          "lateral": 22.5
+        },
+        "suspensionForce": 7,
+        "steeringLock": 37,
+        "monetaryValue": 12000
+      }
+    }
+  ]
+}

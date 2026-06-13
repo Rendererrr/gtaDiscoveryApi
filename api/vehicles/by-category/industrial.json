@@ -1,0 +1,392 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "name": "Industrial",
+    "key": "Industrial",
+    "slug": "industrial",
+    "count": 12
+  },
+  "count": 12,
+  "items": [
+    {
+      "id": "bulldozer",
+      "name": "Dozer",
+      "hash": 1886712733,
+      "category": "Industrial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/bulldozer.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "BULLDOZE",
+        "mass": 20000,
+        "topSpeed": 15,
+        "driveForce": 0.14,
+        "brakeForce": 0.2,
+        "handBrakeForce": 0.2,
+        "gears": 1,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.1,
+          "min": 1.2,
+          "lateral": 10.5
+        },
+        "suspensionForce": 2,
+        "steeringLock": 22,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "cutter",
+      "name": "Cutter",
+      "hash": 3288047904,
+      "category": "Industrial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/cutter.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "CUTTER",
+        "mass": 25000,
+        "topSpeed": 40,
+        "driveForce": 0.16,
+        "brakeForce": 0.3,
+        "handBrakeForce": 0.2,
+        "gears": 1,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.62,
+          "min": 1.6,
+          "lateral": 15
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 30,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "dump",
+      "name": "Dump",
+      "hash": 2164484578,
+      "category": "Industrial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dump.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "DUMP",
+        "mass": 35000,
+        "topSpeed": 43,
+        "driveForce": 0.19,
+        "brakeForce": 0.3,
+        "handBrakeForce": 0.2,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.45,
+          "min": 1.15,
+          "lateral": 13
+        },
+        "suspensionForce": 2,
+        "steeringLock": 35,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "flatbed",
+      "name": "Flatbed",
+      "hash": 1353720154,
+      "category": "Industrial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/flatbed.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "FLATBED",
+        "mass": 6500,
+        "topSpeed": 130,
+        "driveForce": 0.14,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.2,
+        "gears": 5,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.65,
+          "min": 1.5,
+          "lateral": 18
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 45,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "flatbed2",
+      "name": "Custom Flatbed",
+      "hash": 2412056353,
+      "category": "Industrial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/flatbed2.webp",
+      "dlc": {
+        "id": "mp2025_01",
+        "name": "Money Fronts",
+        "releaseDate": "2025-06-17"
+      },
+      "stats": {
+        "handlingId": "FLATBED",
+        "mass": 6500,
+        "topSpeed": 130,
+        "driveForce": 0.14,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.2,
+        "gears": 5,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.65,
+          "min": 1.5,
+          "lateral": 18
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 45,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "guardian",
+      "name": "Guardian",
+      "hash": 2186977100,
+      "category": "Industrial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/guardian.webp",
+      "dlc": {
+        "id": "mpheist",
+        "name": "The Heists Update",
+        "releaseDate": "2015-03-10"
+      },
+      "stats": {
+        "handlingId": "GUARDIAN",
+        "mass": 3800,
+        "topSpeed": 130,
+        "driveForce": 0.21,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.45,
+        "gears": 6,
+        "driveBiasFront": 0.35,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2,
+          "min": 1.75,
+          "lateral": 19
+        },
+        "suspensionForce": 1.6,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "handler",
+      "name": "Dock Handler",
+      "hash": 444583674,
+      "category": "Industrial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/handler.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "handler",
+        "mass": 6000,
+        "topSpeed": 25,
+        "driveForce": 0.14,
+        "brakeForce": 0.1,
+        "handBrakeForce": 0.1,
+        "gears": 1,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 1.85,
+          "min": 1.8,
+          "lateral": 10.5
+        },
+        "suspensionForce": 2.1,
+        "steeringLock": 45,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "mixer",
+      "name": "Mixer",
+      "hash": 3510150843,
+      "category": "Industrial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/mixer.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "MIXER",
+        "mass": 6000,
+        "topSpeed": 110,
+        "driveForce": 0.11,
+        "brakeForce": 0.3,
+        "handBrakeForce": 0.12,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.6,
+          "min": 1.4,
+          "lateral": 16
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 33,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "mixer2",
+      "name": "Mixer",
+      "hash": 475220373,
+      "category": "Industrial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/mixer2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "MIXER2",
+        "mass": 6000,
+        "topSpeed": 110,
+        "driveForce": 0.11,
+        "brakeForce": 0.3,
+        "handBrakeForce": 0.12,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.6,
+          "min": 1.4,
+          "lateral": 16
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 33,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "rubble",
+      "name": "Rubble",
+      "hash": 2589662668,
+      "category": "Industrial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/rubble.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "RUBBLE",
+        "mass": 6500,
+        "topSpeed": 100,
+        "driveForce": 0.14,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.35,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.6,
+          "min": 1.45,
+          "lateral": 16
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 37,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "tiptruck",
+      "name": "Tipper",
+      "hash": 48339065,
+      "category": "Industrial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tiptruck.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "TIPTRUCK",
+        "mass": 5500,
+        "topSpeed": 100,
+        "driveForce": 0.11,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.4,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.6,
+          "min": 1.4,
+          "lateral": 17
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 37,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "tiptruck2",
+      "name": "Tipper",
+      "hash": 3347205726,
+      "category": "Industrial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tiptruck2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "TIPTRUCK2",
+        "mass": 5500,
+        "topSpeed": 100,
+        "driveForce": 0.11,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.4,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.6,
+          "min": 1.4,
+          "lateral": 17
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 37,
+        "monetaryValue": 25000
+      }
+    }
+  ]
+}

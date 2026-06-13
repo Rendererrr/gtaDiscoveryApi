@@ -1,0 +1,611 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "id": "mpheist3",
+    "name": "The Diamond Casino Heist",
+    "releaseDate": "2019-12-12",
+    "key": "mpheist3",
+    "slug": "mpheist3",
+    "count": 19
+  },
+  "count": 19,
+  "items": [
+    {
+      "id": "asbo",
+      "name": "Asbo",
+      "hash": 1118611807,
+      "category": "Compacts",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/asbo.webp",
+      "dlc": {
+        "id": "mpheist3",
+        "name": "The Diamond Casino Heist",
+        "releaseDate": "2019-12-12"
+      },
+      "stats": {
+        "handlingId": "ASBO",
+        "mass": 1030,
+        "topSpeed": 126,
+        "driveForce": 0.234,
+        "brakeForce": 0.47,
+        "handBrakeForce": 0.37,
+        "gears": 5,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 1.92,
+          "min": 1.73,
+          "lateral": 21.5
+        },
+        "suspensionForce": 2.3,
+        "steeringLock": 38,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "kanjo",
+      "name": "Blista Kanjo",
+      "hash": 409049982,
+      "category": "Compacts",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/kanjo.webp",
+      "dlc": {
+        "id": "mpheist3",
+        "name": "The Diamond Casino Heist",
+        "releaseDate": "2019-12-12"
+      },
+      "stats": {
+        "handlingId": "KANJO",
+        "mass": 1150,
+        "topSpeed": 140,
+        "driveForce": 0.32,
+        "brakeForce": 0.5,
+        "handBrakeForce": 0.45,
+        "gears": 5,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 1.97,
+          "min": 1.72,
+          "lateral": 21.5
+        },
+        "suspensionForce": 2.3,
+        "steeringLock": 48,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "rebla",
+      "name": "Rebla GTS",
+      "hash": 83136452,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/rebla.webp",
+      "dlc": {
+        "id": "mpheist3",
+        "name": "The Diamond Casino Heist",
+        "releaseDate": "2019-12-12"
+      },
+      "stats": {
+        "handlingId": "REBLA",
+        "mass": 2185,
+        "topSpeed": 157.5,
+        "driveForce": 0.335,
+        "brakeForce": 0.85,
+        "handBrakeForce": 0.6,
+        "gears": 8,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.19,
+          "min": 2.02,
+          "lateral": 17
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 38,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "yosemite2",
+      "name": "Drift Yosemite",
+      "hash": 1693751655,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/yosemite2.webp",
+      "dlc": {
+        "id": "mpheist3",
+        "name": "The Diamond Casino Heist",
+        "releaseDate": "2019-12-12"
+      },
+      "stats": {
+        "handlingId": "YOSEMITE2",
+        "mass": 1200,
+        "topSpeed": 140,
+        "driveForce": 0.395,
+        "brakeForce": 0.85,
+        "handBrakeForce": 0.58,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.63,
+          "min": 2.4,
+          "lateral": 23.5
+        },
+        "suspensionForce": 2.25,
+        "steeringLock": 42,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "jb7002",
+      "name": "JB 700W",
+      "hash": 394110044,
+      "category": "Sports Classic",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/jb7002.webp",
+      "dlc": {
+        "id": "mpheist3",
+        "name": "The Diamond Casino Heist",
+        "releaseDate": "2019-12-12"
+      },
+      "stats": {
+        "handlingId": "JB7002",
+        "mass": 1600,
+        "topSpeed": 150,
+        "driveForce": 0.26,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.75,
+          "lateral": 21.5
+        },
+        "suspensionForce": 1.6,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "retinue2",
+      "name": "Retinue Mk II",
+      "hash": 2031587082,
+      "category": "Sports Classic",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/retinue2.webp",
+      "dlc": {
+        "id": "mpheist3",
+        "name": "The Diamond Casino Heist",
+        "releaseDate": "2019-12-12"
+      },
+      "stats": {
+        "handlingId": "RETINUE2",
+        "mass": 950,
+        "topSpeed": 145,
+        "driveForce": 0.278,
+        "brakeForce": 0.72,
+        "handBrakeForce": 0.35,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.05,
+          "min": 1.85,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 41,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "imorgon",
+      "name": "Imorgon",
+      "hash": 3162245632,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/imorgon.webp",
+      "dlc": {
+        "id": "mpheist3",
+        "name": "The Diamond Casino Heist",
+        "releaseDate": "2019-12-12"
+      },
+      "stats": {
+        "handlingId": "IMORGON",
+        "mass": 1600,
+        "topSpeed": 148.5,
+        "driveForce": 0.66,
+        "brakeForce": 0.835,
+        "handBrakeForce": 0.7,
+        "gears": 2,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.6,
+          "min": 2.38,
+          "lateral": 20
+        },
+        "suspensionForce": 2.25,
+        "steeringLock": 39.5,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "komoda",
+      "name": "Komoda",
+      "hash": 3460613305,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/komoda.webp",
+      "dlc": {
+        "id": "mpheist3",
+        "name": "The Diamond Casino Heist",
+        "releaseDate": "2019-12-12"
+      },
+      "stats": {
+        "handlingId": "KOMODA",
+        "mass": 1575,
+        "topSpeed": 156,
+        "driveForce": 0.367,
+        "brakeForce": 0.95,
+        "handBrakeForce": 0.65,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.69,
+          "min": 2.45,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.5,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "sugoi",
+      "name": "Sugoi",
+      "hash": 987469656,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/sugoi.webp",
+      "dlc": {
+        "id": "mpheist3",
+        "name": "The Diamond Casino Heist",
+        "releaseDate": "2019-12-12"
+      },
+      "stats": {
+        "handlingId": "SUGOI",
+        "mass": 1380,
+        "topSpeed": 156,
+        "driveForce": 0.31,
+        "brakeForce": 0.85,
+        "handBrakeForce": 0.65,
+        "gears": 6,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 2.49,
+          "min": 2.25,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.6,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "sultan2",
+      "name": "Sultan Classic",
+      "hash": 872704284,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/sultan2.webp",
+      "dlc": {
+        "id": "mpheist3",
+        "name": "The Diamond Casino Heist",
+        "releaseDate": "2019-12-12"
+      },
+      "stats": {
+        "handlingId": "SULTAN2",
+        "mass": 1100,
+        "topSpeed": 145,
+        "driveForce": 0.33,
+        "brakeForce": 0.5,
+        "handBrakeForce": 0.7,
+        "gears": 5,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.5,
+          "min": 2.25,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.9,
+        "steeringLock": 35,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "vstr",
+      "name": "V-STR",
+      "hash": 1456336509,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/vstr.webp",
+      "dlc": {
+        "id": "mpheist3",
+        "name": "The Diamond Casino Heist",
+        "releaseDate": "2019-12-12"
+      },
+      "stats": {
+        "handlingId": "VSTR",
+        "mass": 1878,
+        "topSpeed": 159.25,
+        "driveForce": 0.379,
+        "brakeForce": 0.625,
+        "handBrakeForce": 0.65,
+        "gears": 8,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.58,
+          "min": 2.38,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.55,
+        "steeringLock": 38,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "furia",
+      "name": "Furia",
+      "hash": 960812448,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/furia.webp",
+      "dlc": {
+        "id": "mpheist3",
+        "name": "The Diamond Casino Heist",
+        "releaseDate": "2019-12-12"
+      },
+      "stats": {
+        "handlingId": "FURIA",
+        "mass": 1898,
+        "topSpeed": 161.2,
+        "driveForce": 0.365,
+        "brakeForce": 1,
+        "handBrakeForce": 0.65,
+        "gears": 6,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.7,
+          "min": 2.58,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "stryder",
+      "name": "Stryder",
+      "hash": 301304410,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/stryder.webp",
+      "dlc": {
+        "id": "mpheist3",
+        "name": "The Diamond Casino Heist",
+        "releaseDate": "2019-12-12"
+      },
+      "stats": {
+        "handlingId": "STRYDER",
+        "mass": 401,
+        "topSpeed": 130,
+        "driveForce": 0.36,
+        "brakeForce": 1.2,
+        "handBrakeForce": 0.7,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.45,
+          "min": 2.3,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2,
+        "steeringLock": 35,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "outlaw",
+      "name": "Outlaw",
+      "hash": 408825843,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/outlaw.webp",
+      "dlc": {
+        "id": "mpheist3",
+        "name": "The Diamond Casino Heist",
+        "releaseDate": "2019-12-12"
+      },
+      "stats": {
+        "handlingId": "OUTLAW",
+        "mass": 850,
+        "topSpeed": 117,
+        "driveForce": 0.475,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.375,
+        "gears": 3,
+        "driveBiasFront": 0.38,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.02,
+          "min": 1.89,
+          "lateral": 25.5
+        },
+        "suspensionForce": 1.98,
+        "steeringLock": 39,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "vagrant",
+      "name": "Vagrant",
+      "hash": 740289177,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/vagrant.webp",
+      "dlc": {
+        "id": "mpheist3",
+        "name": "The Diamond Casino Heist",
+        "releaseDate": "2019-12-12"
+      },
+      "stats": {
+        "handlingId": "VAGRANT",
+        "mass": 670,
+        "topSpeed": 149.65,
+        "driveForce": 0.333,
+        "brakeForce": 0.625,
+        "handBrakeForce": 0.3,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.35,
+          "min": 2.18,
+          "lateral": 22
+        },
+        "suspensionForce": 1.815,
+        "steeringLock": 37.45,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "zhaba",
+      "name": "Zhaba",
+      "hash": 1284356689,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/zhaba.webp",
+      "dlc": {
+        "id": "mpheist3",
+        "name": "The Diamond Casino Heist",
+        "releaseDate": "2019-12-12"
+      },
+      "stats": {
+        "handlingId": "ZHABA",
+        "mass": 1600,
+        "topSpeed": 92.5,
+        "driveForce": 0.18,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0.4,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.9,
+          "min": 1.7,
+          "lateral": 22.5
+        },
+        "suspensionForce": 3.2,
+        "steeringLock": 40,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "minitank",
+      "name": "Invade and Persuade Tank",
+      "hash": 3040635986,
+      "category": "Military",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/minitank.webp",
+      "dlc": {
+        "id": "mpheist3",
+        "name": "The Diamond Casino Heist",
+        "releaseDate": "2019-12-12"
+      },
+      "stats": {
+        "handlingId": "MINITANK",
+        "mass": 500,
+        "topSpeed": 37,
+        "driveForce": 0.06,
+        "brakeForce": 0.15,
+        "handBrakeForce": 0.2,
+        "gears": 1,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2,
+          "min": 1.75,
+          "lateral": 35.5
+        },
+        "suspensionForce": 5,
+        "steeringLock": 20,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "formula",
+      "name": "PR4",
+      "hash": 340154634,
+      "category": "Open Wheels",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/formula.webp",
+      "dlc": {
+        "id": "mpheist3",
+        "name": "The Diamond Casino Heist",
+        "releaseDate": "2019-12-12"
+      },
+      "stats": {
+        "handlingId": "FORMULA",
+        "mass": 505,
+        "topSpeed": 162.5,
+        "driveForce": 0.75,
+        "brakeForce": 1.25,
+        "handBrakeForce": 0.75,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.9,
+          "min": 2.75,
+          "lateral": 18.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 30,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "formula2",
+      "name": "R88",
+      "hash": 2334210311,
+      "category": "Open Wheels",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/formula2.webp",
+      "dlc": {
+        "id": "mpheist3",
+        "name": "The Diamond Casino Heist",
+        "releaseDate": "2019-12-12"
+      },
+      "stats": {
+        "handlingId": "FORMULA2",
+        "mass": 585,
+        "topSpeed": 162.5,
+        "driveForce": 0.745,
+        "brakeForce": 1.25,
+        "handBrakeForce": 0.75,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.8,
+          "min": 2.75,
+          "lateral": 18.5
+        },
+        "suspensionForce": 2.6,
+        "steeringLock": 30,
+        "monetaryValue": 35000
+      }
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "count": 23,
+  "groups": [
+    {
+      "name": "Sports",
+      "key": "Sports",
+      "slug": "sports",
+      "count": 112,
+      "path": "api/vehicles/by-category/sports.json"
+    },
+    {
+      "name": "Muscles",
+      "key": "Muscles",
+      "slug": "muscles",
+      "count": 92,
+      "path": "api/vehicles/by-category/muscles.json"
+    },
+    {
+      "name": "Off-Road",
+      "key": "Off-Road",
+      "slug": "off-road",
+      "count": 67,
+      "path": "api/vehicles/by-category/off-road.json"
+    },
+    {
+      "name": "Motorcycles",
+      "key": "Motorcycles",
+      "slug": "motorcycles",
+      "count": 58,
+      "path": "api/vehicles/by-category/motorcycles.json"
+    },
+    {
+      "name": "Super",
+      "key": "Super",
+      "slug": "super",
+      "count": 57,
+      "path": "api/vehicles/by-category/super.json"
+    },
+    {
+      "name": "Utility",
+      "key": "Utility",
+      "slug": "utility",
+      "count": 50,
+      "path": "api/vehicles/by-category/utility.json"
+    },
+    {
+      "name": "SUVs",
+      "key": "SUVs",
+      "slug": "suvs",
+      "count": 47,
+      "path": "api/vehicles/by-category/suvs.json"
+    },
+    {
+      "name": "Sports Classic",
+      "key": "Sports Classic",
+      "slug": "sports-classic",
+      "count": 46,
+      "path": "api/vehicles/by-category/sports-classic.json"
+    },
+    {
+      "name": "Planes",
+      "key": "Planes",
+      "slug": "planes",
+      "count": 44,
+      "path": "api/vehicles/by-category/planes.json"
+    },
+    {
+      "name": "Sedans",
+      "key": "Sedans",
+      "slug": "sedans",
+      "count": 44,
+      "path": "api/vehicles/by-category/sedans.json"
+    },
+    {
+      "name": "Vans",
+      "key": "Vans",
+      "slug": "vans",
+      "count": 40,
+      "path": "api/vehicles/by-category/vans.json"
+    },
+    {
+      "name": "Helicopters",
+      "key": "Helicopters",
+      "slug": "helicopters",
+      "count": 30,
+      "path": "api/vehicles/by-category/helicopters.json"
+    },
+    {
+      "name": "Boats",
+      "key": "Boats",
+      "slug": "boats",
+      "count": 26,
+      "path": "api/vehicles/by-category/boats.json"
+    },
+    {
+      "name": "Commercial",
+      "key": "Commercial",
+      "slug": "commercial",
+      "count": 24,
+      "path": "api/vehicles/by-category/commercial.json"
+    },
+    {
+      "name": "Emergency",
+      "key": "Emergency",
+      "slug": "emergency",
+      "count": 22,
+      "path": "api/vehicles/by-category/emergency.json"
+    },
+    {
+      "name": "Coupes",
+      "key": "Coupes",
+      "slug": "coupes",
+      "count": 19,
+      "path": "api/vehicles/by-category/coupes.json"
+    },
+    {
+      "name": "Compacts",
+      "key": "Compacts",
+      "slug": "compacts",
+      "count": 18,
+      "path": "api/vehicles/by-category/compacts.json"
+    },
+    {
+      "name": "Military",
+      "key": "Military",
+      "slug": "military",
+      "count": 17,
+      "path": "api/vehicles/by-category/military.json"
+    },
+    {
+      "name": "Service",
+      "key": "Service",
+      "slug": "service",
+      "count": 13,
+      "path": "api/vehicles/by-category/service.json"
+    },
+    {
+      "name": "Industrial",
+      "key": "Industrial",
+      "slug": "industrial",
+      "count": 12,
+      "path": "api/vehicles/by-category/industrial.json"
+    },
+    {
+      "name": "Trains",
+      "key": "Trains",
+      "slug": "trains",
+      "count": 10,
+      "path": "api/vehicles/by-category/trains.json"
+    },
+    {
+      "name": "Cycles",
+      "key": "Cycles",
+      "slug": "cycles",
+      "count": 9,
+      "path": "api/vehicles/by-category/cycles.json"
+    },
+    {
+      "name": "Open Wheels",
+      "key": "Open Wheels",
+      "slug": "open-wheels",
+      "count": 4,
+      "path": "api/vehicles/by-category/open-wheels.json"
+    }
+  ]
+}

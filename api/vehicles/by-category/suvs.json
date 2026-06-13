@@ -1,0 +1,1477 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "name": "SUVs",
+    "key": "SUVs",
+    "slug": "suvs",
+    "count": 47
+  },
+  "count": 47,
+  "items": [
+    {
+      "id": "aleutian",
+      "name": "Aleutian",
+      "hash": 4256087847,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/aleutian.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "ALEUTIAN",
+        "mass": 2550,
+        "topSpeed": 119,
+        "driveForce": 0.28,
+        "brakeForce": 0.75,
+        "handBrakeForce": 0.6,
+        "gears": 8,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.1,
+          "min": 1.97,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2,
+        "steeringLock": 41,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "astron",
+      "name": "Astron",
+      "hash": 629969764,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/astron.webp",
+      "dlc": {
+        "id": "mpsecurity",
+        "name": "The Contract",
+        "releaseDate": "2021-12-15"
+      },
+      "stats": {
+        "handlingId": "ASTRON",
+        "mass": 1970,
+        "topSpeed": 148.7,
+        "driveForce": 0.324,
+        "brakeForce": 0.48,
+        "handBrakeForce": 0.5,
+        "gears": 7,
+        "driveBiasFront": 0.44,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.19,
+          "min": 1.92,
+          "lateral": 21
+        },
+        "suspensionForce": 2.23,
+        "steeringLock": 36.27,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "baller",
+      "name": "Baller",
+      "hash": 3486135912,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/baller.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "BALLER",
+        "mass": 2400,
+        "topSpeed": 130,
+        "driveForce": 0.21,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.32,
+        "gears": 5,
+        "driveBiasFront": 0.6,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.9,
+          "min": 1.55,
+          "lateral": 19
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "baller2",
+      "name": "Baller",
+      "hash": 142944341,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/baller2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "BALLER2",
+        "mass": 2200,
+        "topSpeed": 135,
+        "driveForce": 0.27,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.32,
+        "gears": 5,
+        "driveBiasFront": 0.6,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2,
+          "min": 1.65,
+          "lateral": 19
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "baller3",
+      "name": "Baller LE",
+      "hash": 1878062887,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/baller3.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "BALLER3",
+        "mass": 2175,
+        "topSpeed": 135,
+        "driveForce": 0.275,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.32,
+        "gears": 5,
+        "driveBiasFront": 0.6,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2,
+          "min": 1.65,
+          "lateral": 19
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "baller4",
+      "name": "Baller LE LWB",
+      "hash": 634118882,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/baller4.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "BALLER4",
+        "mass": 2450,
+        "topSpeed": 135,
+        "driveForce": 0.27,
+        "brakeForce": 0.57,
+        "handBrakeForce": 0.32,
+        "gears": 5,
+        "driveBiasFront": 0.6,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2,
+          "min": 1.65,
+          "lateral": 19
+        },
+        "suspensionForce": 1.2,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "baller5",
+      "name": "Baller LE (Armored)",
+      "hash": 470404958,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/baller5.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "BALLER5",
+        "mass": 2275,
+        "topSpeed": 135,
+        "driveForce": 0.27,
+        "brakeForce": 0.58,
+        "handBrakeForce": 0.32,
+        "gears": 5,
+        "driveBiasFront": 0.6,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2,
+          "min": 1.63,
+          "lateral": 19
+        },
+        "suspensionForce": 1.5,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "baller6",
+      "name": "Baller LE LWB (Armored)",
+      "hash": 666166960,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/baller6.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "BALLER6",
+        "mass": 2550,
+        "topSpeed": 135,
+        "driveForce": 0.265,
+        "brakeForce": 0.55,
+        "handBrakeForce": 0.32,
+        "gears": 5,
+        "driveBiasFront": 0.6,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2,
+          "min": 1.63,
+          "lateral": 19
+        },
+        "suspensionForce": 1.3,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "baller7",
+      "name": "Baller ST",
+      "hash": 359875117,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/baller7.webp",
+      "dlc": {
+        "id": "mpsecurity",
+        "name": "The Contract",
+        "releaseDate": "2021-12-15"
+      },
+      "stats": {
+        "handlingId": "BALLER7",
+        "mass": 2370,
+        "topSpeed": 139.75,
+        "driveForce": 0.302,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.335,
+        "gears": 7,
+        "driveBiasFront": 0.6,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.2,
+          "min": 1.85,
+          "lateral": 20
+        },
+        "suspensionForce": 1.55,
+        "steeringLock": 35.25,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "baller8",
+      "name": "Baller ST-D",
+      "hash": 3431608412,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/baller8.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "BALLER8",
+        "mass": 2600,
+        "topSpeed": 140,
+        "driveForce": 0.295,
+        "brakeForce": 0.922,
+        "handBrakeForce": 0.6,
+        "gears": 7,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.28,
+          "min": 2.13,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.25,
+        "steeringLock": 42.5,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "bjxl",
+      "name": "BeeJay XL",
+      "hash": 850565707,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/bjxl.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "BJXL",
+        "mass": 2400,
+        "topSpeed": 130,
+        "driveForce": 0.19,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0.6,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.05,
+          "min": 1.85,
+          "lateral": 18.5
+        },
+        "suspensionForce": 2.3,
+        "steeringLock": 38,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "cavalcade",
+      "name": "Cavalcade",
+      "hash": 2006918058,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/cavalcade.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "CAVCADE",
+        "mass": 2400,
+        "topSpeed": 127,
+        "driveForce": 0.2,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.4,
+        "gears": 4,
+        "driveBiasFront": 0.6,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.9,
+          "min": 1.6,
+          "lateral": 20
+        },
+        "suspensionForce": 2,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "cavalcade2",
+      "name": "Cavalcade",
+      "hash": 3505073125,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/cavalcade2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "CAVCADE",
+        "mass": 2400,
+        "topSpeed": 127,
+        "driveForce": 0.2,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.4,
+        "gears": 4,
+        "driveBiasFront": 0.6,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.9,
+          "min": 1.6,
+          "lateral": 20
+        },
+        "suspensionForce": 2,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "cavalcade3",
+      "name": "Cavalcade XL",
+      "hash": 3265236814,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/cavalcade3.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "CAVALCADE3",
+        "mass": 3170,
+        "topSpeed": 122,
+        "driveForce": 0.277,
+        "brakeForce": 0.875,
+        "handBrakeForce": 0.6,
+        "gears": 8,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.23,
+          "min": 2.1,
+          "lateral": 20.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 41,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "contender",
+      "name": "Contender",
+      "hash": 683047626,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/contender.webp",
+      "dlc": {
+        "id": "mpstunt",
+        "name": "Cunning Stunts",
+        "releaseDate": "2016-07-12"
+      },
+      "stats": {
+        "handlingId": "CONTENDER",
+        "mass": 2750,
+        "topSpeed": 135,
+        "driveForce": 0.26,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.4,
+        "gears": 5,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.1,
+          "min": 1.75,
+          "lateral": 19
+        },
+        "suspensionForce": 1.5,
+        "steeringLock": 35,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "dorado",
+      "name": "Dorado",
+      "hash": 3526923154,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dorado.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "DORADO",
+        "mass": 2150,
+        "topSpeed": 141.7,
+        "driveForce": 0.217,
+        "brakeForce": 0.5,
+        "handBrakeForce": 0.535,
+        "gears": 4,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.84,
+          "min": 1.72,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.45,
+        "steeringLock": 43.5,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "dubsta",
+      "name": "Dubsta",
+      "hash": 1177543287,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dubsta.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "DUBSTA",
+        "mass": 2400,
+        "topSpeed": 140,
+        "driveForce": 0.2,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0.6,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.85,
+          "lateral": 19.5
+        },
+        "suspensionForce": 1.6,
+        "steeringLock": 40,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "dubsta2",
+      "name": "Dubsta",
+      "hash": 3900892662,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dubsta2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "DUBSTA",
+        "mass": 2400,
+        "topSpeed": 140,
+        "driveForce": 0.2,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0.6,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.85,
+          "lateral": 19.5
+        },
+        "suspensionForce": 1.6,
+        "steeringLock": 40,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "everon3",
+      "name": "Everon RS",
+      "hash": 554408685,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/everon3.webp",
+      "dlc": {
+        "id": "mp2025_01",
+        "name": "Money Fronts",
+        "releaseDate": "2025-06-17"
+      },
+      "stats": {
+        "handlingId": "EVERON3",
+        "mass": 2100,
+        "topSpeed": 154.5,
+        "driveForce": 0.338,
+        "brakeForce": 0.45,
+        "handBrakeForce": 0.5,
+        "gears": 7,
+        "driveBiasFront": 0.25,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.2,
+          "min": 2,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 40,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "fq2",
+      "name": "FQ 2",
+      "hash": 3157435195,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/fq2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "FQ2",
+        "mass": 2400,
+        "topSpeed": 135,
+        "driveForce": 0.18,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.45,
+        "gears": 5,
+        "driveBiasFront": 0.4,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2,
+          "min": 1.75,
+          "lateral": 22
+        },
+        "suspensionForce": 2.1,
+        "steeringLock": 35,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "granger",
+      "name": "Granger",
+      "hash": 2519238556,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/granger.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "GRANGER",
+        "mass": 2400,
+        "topSpeed": 140,
+        "driveForce": 0.19,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0.6,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.85,
+          "lateral": 18.5
+        },
+        "suspensionForce": 2.8,
+        "steeringLock": 40,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "granger2",
+      "name": "Granger 3600LX",
+      "hash": 4033620423,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/granger2.webp",
+      "dlc": {
+        "id": "mpsecurity",
+        "name": "The Contract",
+        "releaseDate": "2021-12-15"
+      },
+      "stats": {
+        "handlingId": "GRANGER2",
+        "mass": 2100,
+        "topSpeed": 142,
+        "driveForce": 0.207,
+        "brakeForce": 0.84,
+        "handBrakeForce": 0.6,
+        "gears": 4,
+        "driveBiasFront": 0.6,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.18,
+          "min": 1.92,
+          "lateral": 18.5
+        },
+        "suspensionForce": 2.4,
+        "steeringLock": 37,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "gresley",
+      "name": "Gresley",
+      "hash": 2751205197,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/gresley.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "GRESLEY",
+        "mass": 2200,
+        "topSpeed": 135,
+        "driveForce": 0.2,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.35,
+        "gears": 6,
+        "driveBiasFront": 0.6,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.9,
+          "min": 1.5,
+          "lateral": 19
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "habanero",
+      "name": "Habanero",
+      "hash": 884422927,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/habanero.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "HABANERO",
+        "mass": 2400,
+        "topSpeed": 137,
+        "driveForce": 0.18,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.4,
+        "gears": 5,
+        "driveBiasFront": 0.4,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.1,
+          "min": 1.8,
+          "lateral": 21
+        },
+        "suspensionForce": 2.1,
+        "steeringLock": 35,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "huntley",
+      "name": "Huntley S",
+      "hash": 486987393,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/huntley.webp",
+      "dlc": {
+        "id": "mpbusiness2",
+        "name": "The High Life Update",
+        "releaseDate": "2014-05-13"
+      },
+      "stats": {
+        "handlingId": "huntley",
+        "mass": 2500,
+        "topSpeed": 136,
+        "driveForce": 0.265,
+        "brakeForce": 0.55,
+        "handBrakeForce": 0.4,
+        "gears": 6,
+        "driveBiasFront": 0.3,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.1,
+          "min": 1.7,
+          "lateral": 18.7
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "issi8",
+      "name": "Issi Rally",
+      "hash": 1550581940,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/issi8.webp",
+      "dlc": {
+        "id": "mpchristmas3",
+        "name": "Los Santos Drug Wars",
+        "releaseDate": "2022-12-13"
+      },
+      "stats": {
+        "handlingId": "ISSI8",
+        "mass": 1580,
+        "topSpeed": 149.45,
+        "driveForce": 0.322,
+        "brakeForce": 0.548,
+        "handBrakeForce": 0.5,
+        "gears": 7,
+        "driveBiasFront": 0.48,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.93,
+          "lateral": 21.75
+        },
+        "suspensionForce": 2.135,
+        "steeringLock": 38.75,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "iwagen",
+      "name": "I-Wagen",
+      "hash": 662793086,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/iwagen.webp",
+      "dlc": {
+        "id": "mpsecurity",
+        "name": "The Contract",
+        "releaseDate": "2021-12-15"
+      },
+      "stats": {
+        "handlingId": "I-WAGEN",
+        "mass": 2445,
+        "topSpeed": 128,
+        "driveForce": 0.232,
+        "brakeForce": 0.775,
+        "handBrakeForce": 0.335,
+        "gears": 1,
+        "driveBiasFront": 0.52,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.37,
+          "min": 2.3,
+          "lateral": 22.8
+        },
+        "suspensionForce": 2.25,
+        "steeringLock": 39.95,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "jubilee",
+      "name": "Jubilee",
+      "hash": 461465043,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/jubilee.webp",
+      "dlc": {
+        "id": "mpsecurity",
+        "name": "The Contract",
+        "releaseDate": "2021-12-15"
+      },
+      "stats": {
+        "handlingId": "JUBILEE",
+        "mass": 2660,
+        "topSpeed": 151,
+        "driveForce": 0.297,
+        "brakeForce": 0.75,
+        "handBrakeForce": 0.8,
+        "gears": 8,
+        "driveBiasFront": 0.35,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.29,
+          "min": 2.06,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.15,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "landstalker",
+      "name": "Landstalker",
+      "hash": 1269098716,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/landstalker.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "LANDSTALKER",
+        "mass": 2400,
+        "topSpeed": 135,
+        "driveForce": 0.18,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0.4,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.1,
+          "min": 1.9,
+          "lateral": 19.5
+        },
+        "suspensionForce": 1.6,
+        "steeringLock": 40,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "landstalker2",
+      "name": "Landstalker XL",
+      "hash": 3456868130,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/landstalker2.webp",
+      "dlc": {
+        "id": "mpsum",
+        "name": "Los Santos Summer Special",
+        "releaseDate": "2020-08-11"
+      },
+      "stats": {
+        "handlingId": "LANDSTLKR2",
+        "mass": 2500,
+        "topSpeed": 135,
+        "driveForce": 0.19,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0.4,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.9,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.6,
+        "steeringLock": 40,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "mesa",
+      "name": "Mesa",
+      "hash": 914654722,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/mesa.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "MESA",
+        "mass": 2400,
+        "topSpeed": 130,
+        "driveForce": 0.17,
+        "brakeForce": 0.3,
+        "handBrakeForce": 0.4,
+        "gears": 5,
+        "driveBiasFront": 0.1,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2,
+          "min": 1.7,
+          "lateral": 19
+        },
+        "suspensionForce": 2.1,
+        "steeringLock": 36,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "mesa2",
+      "name": "Mesa",
+      "hash": 3546958660,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/mesa2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "MESA",
+        "mass": 2400,
+        "topSpeed": 130,
+        "driveForce": 0.17,
+        "brakeForce": 0.3,
+        "handBrakeForce": 0.4,
+        "gears": 5,
+        "driveBiasFront": 0.1,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2,
+          "min": 1.7,
+          "lateral": 19
+        },
+        "suspensionForce": 2.1,
+        "steeringLock": 36,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "novak",
+      "name": "Novak",
+      "hash": 2465530446,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/novak.webp",
+      "dlc": {
+        "id": "mpvinewood",
+        "name": "The Diamond Casino & Resort",
+        "releaseDate": "2019-07-23"
+      },
+      "stats": {
+        "handlingId": "NOVAK",
+        "mass": 2100,
+        "topSpeed": 153,
+        "driveForce": 0.3,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.6,
+        "gears": 8,
+        "driveBiasFront": 0.4,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.3,
+          "min": 2,
+          "lateral": 14
+        },
+        "suspensionForce": 1,
+        "steeringLock": 37.5,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "patriot",
+      "name": "Patriot",
+      "hash": 3486509883,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/patriot.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "PATRIOT",
+        "mass": 3500,
+        "topSpeed": 130,
+        "driveForce": 0.2,
+        "brakeForce": 0.32,
+        "handBrakeForce": 0.5,
+        "gears": 5,
+        "driveBiasFront": 0.4,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.7,
+          "min": 1.3,
+          "lateral": 19
+        },
+        "suspensionForce": 1.5,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "patriot2",
+      "name": "Patriot Stretch",
+      "hash": 3874056184,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/patriot2.webp",
+      "dlc": {
+        "id": "mpbattle",
+        "name": "After Hours",
+        "releaseDate": "2018-07-24"
+      },
+      "stats": {
+        "handlingId": "PATRIOT2",
+        "mass": 5500,
+        "topSpeed": 130,
+        "driveForce": 0.18,
+        "brakeForce": 0.32,
+        "handBrakeForce": 0.5,
+        "gears": 5,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.6,
+          "min": 1.3,
+          "lateral": 19
+        },
+        "suspensionForce": 1.5,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "radi",
+      "name": "Radius",
+      "hash": 2643899483,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/radi.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "RADI",
+        "mass": 2400,
+        "topSpeed": 140,
+        "driveForce": 0.2,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0.6,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.25,
+          "min": 2.05,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.6,
+        "steeringLock": 40,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "rebla",
+      "name": "Rebla GTS",
+      "hash": 83136452,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/rebla.webp",
+      "dlc": {
+        "id": "mpheist3",
+        "name": "The Diamond Casino Heist",
+        "releaseDate": "2019-12-12"
+      },
+      "stats": {
+        "handlingId": "REBLA",
+        "mass": 2185,
+        "topSpeed": 157.5,
+        "driveForce": 0.335,
+        "brakeForce": 0.85,
+        "handBrakeForce": 0.6,
+        "gears": 8,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.19,
+          "min": 2.02,
+          "lateral": 17
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 38,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "rocoto",
+      "name": "Rocoto",
+      "hash": 2136773105,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/rocoto.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "ROCOTO",
+        "mass": 2400,
+        "topSpeed": 139,
+        "driveForce": 0.19,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.45,
+        "gears": 5,
+        "driveBiasFront": 0.4,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.1,
+          "min": 1.9,
+          "lateral": 21
+        },
+        "suspensionForce": 2.1,
+        "steeringLock": 35,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "seminole",
+      "name": "Seminole",
+      "hash": 1221512915,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/seminole.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "SEMINOLE",
+        "mass": 2400,
+        "topSpeed": 130,
+        "driveForce": 0.18,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0.2,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.05,
+          "min": 1.75,
+          "lateral": 20.5
+        },
+        "suspensionForce": 1.6,
+        "steeringLock": 40,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "seminole2",
+      "name": "Seminole Frontier",
+      "hash": 2484160806,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/seminole2.webp",
+      "dlc": {
+        "id": "mpsum",
+        "name": "Los Santos Summer Special",
+        "releaseDate": "2020-08-11"
+      },
+      "stats": {
+        "handlingId": "SEMINOLE2",
+        "mass": 2200,
+        "topSpeed": 130,
+        "driveForce": 0.2,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.6,
+        "gears": 4,
+        "driveBiasFront": 0.2,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2,
+          "min": 1.69,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1,
+        "steeringLock": 40,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "serrano",
+      "name": "Serrano",
+      "hash": 1337041428,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/serrano.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "SERRANO",
+        "mass": 2400,
+        "topSpeed": 130,
+        "driveForce": 0.2,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.4,
+        "gears": 6,
+        "driveBiasFront": 0.6,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.1,
+          "min": 1.8,
+          "lateral": 18
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "squaddie",
+      "name": "Squaddie",
+      "hash": 4192631813,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/squaddie.webp",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "handlingId": "SQUADDIE",
+        "mass": 2750,
+        "topSpeed": 135,
+        "driveForce": 0.2,
+        "brakeForce": 0.315,
+        "handBrakeForce": 0.47,
+        "gears": 5,
+        "driveBiasFront": 0.4,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.9,
+          "min": 1.65,
+          "lateral": 18.5
+        },
+        "suspensionForce": 2.3,
+        "steeringLock": 36,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "toros",
+      "name": "Toros",
+      "hash": 3126015148,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/toros.webp",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "handlingId": "TOROS",
+        "mass": 2200,
+        "topSpeed": 155,
+        "driveForce": 0.32,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.32,
+        "gears": 8,
+        "driveBiasFront": 0.4,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.3,
+          "min": 2,
+          "lateral": 14
+        },
+        "suspensionForce": 1.6,
+        "steeringLock": 37.5,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "vivanite",
+      "name": "Vivanite",
+      "hash": 2922168362,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/vivanite.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "VIVANITE",
+        "mass": 2180,
+        "topSpeed": 156,
+        "driveForce": 0.11,
+        "brakeForce": 0.78,
+        "handBrakeForce": 0.6,
+        "gears": 1,
+        "driveBiasFront": 0.7,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.18,
+          "min": 2.06,
+          "lateral": 20.5
+        },
+        "suspensionForce": 2,
+        "steeringLock": 42,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "woodlander",
+      "name": "Woodlander",
+      "hash": 1966698497,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/woodlander.webp",
+      "dlc": {
+        "id": "mp2025_01",
+        "name": "Money Fronts",
+        "releaseDate": "2025-06-17"
+      },
+      "stats": {
+        "handlingId": "WOODLANDER",
+        "mass": 1500,
+        "topSpeed": 160.5,
+        "driveForce": 0.26,
+        "brakeForce": 0.485,
+        "handBrakeForce": 0.5,
+        "gears": 5,
+        "driveBiasFront": 0.3,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.2,
+          "min": 2.01,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.75,
+        "steeringLock": 42,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "xls",
+      "name": "XLS",
+      "hash": 1203490606,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/xls.webp",
+      "dlc": {
+        "id": "mpexecutive",
+        "name": "Further Adventures in Finance and Felony",
+        "releaseDate": "2016-06-07"
+      },
+      "stats": {
+        "handlingId": "XLS",
+        "mass": 2600,
+        "topSpeed": 132,
+        "driveForce": 0.26,
+        "brakeForce": 0.58,
+        "handBrakeForce": 0.32,
+        "gears": 6,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2,
+          "min": 1.65,
+          "lateral": 19
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "xls2",
+      "name": "XLS (Armored)",
+      "hash": 3862958888,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/xls2.webp",
+      "dlc": {
+        "id": "mpexecutive",
+        "name": "Further Adventures in Finance and Felony",
+        "releaseDate": "2016-06-07"
+      },
+      "stats": {
+        "handlingId": "XLS2",
+        "mass": 3000,
+        "topSpeed": 132,
+        "driveForce": 0.265,
+        "brakeForce": 0.59,
+        "handBrakeForce": 0.32,
+        "gears": 6,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.05,
+          "min": 1.65,
+          "lateral": 19.5
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    }
+  ]
+}

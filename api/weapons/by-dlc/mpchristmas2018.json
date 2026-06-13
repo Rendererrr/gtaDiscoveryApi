@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "weapons",
+    "label": "Weapons",
+    "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
+    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
+  },
+  "group": {
+    "id": "mpchristmas2018",
+    "name": "Arena War",
+    "releaseDate": "2018-12-11",
+    "key": "mpchristmas2018",
+    "slug": "mpchristmas2018",
+    "count": 3
+  },
+  "count": 3,
+  "items": [
+    {
+      "id": "raycarbine",
+      "name": "Unholy Hellbringer",
+      "codename": "weapon_raycarbine",
+      "hash": 1198256469,
+      "category": "SMG",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Unholy-hellbringer-icon.png",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "damage": 55,
+        "fireRate": 65,
+        "accuracy": 45,
+        "range": 60,
+        "maxAmmo": 250
+      },
+      "components": [],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Blue tint"
+        },
+        {
+          "index": 1,
+          "label": "Purple tint"
+        },
+        {
+          "index": 2,
+          "label": "Green tint"
+        },
+        {
+          "index": 3,
+          "label": "Orange tint"
+        },
+        {
+          "index": 4,
+          "label": "Pink tint"
+        },
+        {
+          "index": 5,
+          "label": "Gold tint"
+        },
+        {
+          "index": 6,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "raypistol",
+      "name": "Up-n-Atomizer",
+      "codename": "weapon_raypistol",
+      "hash": 2939590305,
+      "category": "Misc",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Up-n-atomizer-icon.png",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "damage": 30,
+        "fireRate": 10,
+        "accuracy": 30,
+        "range": 20,
+        "maxAmmo": 20
+      },
+      "components": [
+        {
+          "id": "COMPONENT_RAYPISTOL_VARMOD_XMAS18",
+          "label": "Festive tint",
+          "hash": 3621517063,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Blue tint"
+        },
+        {
+          "index": 1,
+          "label": "Purple tint"
+        },
+        {
+          "index": 2,
+          "label": "Green tint"
+        },
+        {
+          "index": 3,
+          "label": "Orange tint"
+        },
+        {
+          "index": 4,
+          "label": "Pink tint"
+        },
+        {
+          "index": 5,
+          "label": "Gold tint"
+        },
+        {
+          "index": 6,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "rayminigun",
+      "name": "Widowmaker",
+      "codename": "weapon_rayminigun",
+      "hash": 3056410471,
+      "category": "Heavy",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Widowmaker-icon.png",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "damage": 30,
+        "fireRate": 100,
+        "accuracy": 40,
+        "range": 55,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_MINIGUN_CLIP_01",
+          "label": "Extended Clip",
+          "hash": 3370020614,
+          "default": true
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Blue tint"
+        },
+        {
+          "index": 1,
+          "label": "Purple tint"
+        },
+        {
+          "index": 2,
+          "label": "Green tint"
+        },
+        {
+          "index": 3,
+          "label": "Orange tint"
+        },
+        {
+          "index": 4,
+          "label": "Pink tint"
+        },
+        {
+          "index": 5,
+          "label": "Gold tint"
+        },
+        {
+          "index": 6,
+          "label": "Platinum tint"
+        }
+      ]
+    }
+  ]
+}

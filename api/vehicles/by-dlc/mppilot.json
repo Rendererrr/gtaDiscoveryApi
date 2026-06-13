@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "id": "mppilot",
+    "name": "San Andreas Flight School Update",
+    "releaseDate": "2014-08-19",
+    "key": "mppilot",
+    "slug": "mppilot",
+    "count": 4
+  },
+  "count": 4,
+  "items": [
+    {
+      "id": "coquette2",
+      "name": "Coquette Classic",
+      "hash": 1011753235,
+      "category": "Sports Classic",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/coquette2.webp",
+      "dlc": {
+        "id": "mppilot",
+        "name": "San Andreas Flight School Update",
+        "releaseDate": "2014-08-19"
+      },
+      "stats": {
+        "handlingId": "COQUETTE2",
+        "mass": 1400,
+        "topSpeed": 151,
+        "driveForce": 0.34,
+        "brakeForce": 0.5,
+        "handBrakeForce": 0.55,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.3,
+          "min": 2.05,
+          "lateral": 20.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 37,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "swift",
+      "name": "Swift",
+      "hash": 3955379698,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/swift.webp",
+      "dlc": {
+        "id": "mppilot",
+        "name": "San Andreas Flight School Update",
+        "releaseDate": "2014-08-19"
+      },
+      "stats": {
+        "handlingId": "SWIFT",
+        "mass": 6500,
+        "topSpeed": 160,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.2,
+          "lateral": 12
+        },
+        "suspensionForce": 3.5,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "besra",
+      "name": "Besra",
+      "hash": 1824333165,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/besra.webp",
+      "dlc": {
+        "id": "mppilot",
+        "name": "San Andreas Flight School Update",
+        "releaseDate": "2014-08-19"
+      },
+      "stats": {
+        "handlingId": "BESRA",
+        "mass": 8000,
+        "topSpeed": 328.6,
+        "driveForce": 0.001,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.8,
+          "lateral": 12
+        },
+        "suspensionForce": 6.5,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "miljet",
+      "name": "Miljet",
+      "hash": 165154707,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/miljet.webp",
+      "dlc": {
+        "id": "mppilot",
+        "name": "San Andreas Flight School Update",
+        "releaseDate": "2014-08-19"
+      },
+      "stats": {
+        "handlingId": "MILJET",
+        "mass": 6400,
+        "topSpeed": 140,
+        "driveForce": 0.001,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.01,
+        "gears": 1,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 1.5,
+          "min": 1.1,
+          "lateral": 16
+        },
+        "suspensionForce": 3.2,
+        "steeringLock": 45,
+        "monetaryValue": 45000
+      }
+    }
+  ]
+}

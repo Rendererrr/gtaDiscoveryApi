@@ -1,0 +1,423 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "name": "Service",
+    "key": "Service",
+    "slug": "service",
+    "count": 13
+  },
+  "count": 13,
+  "items": [
+    {
+      "id": "airbus",
+      "name": "Airport Bus",
+      "hash": 1283517198,
+      "category": "Service",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/airbus.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "AIRBUS",
+        "mass": 9000,
+        "topSpeed": 100,
+        "driveForce": 0.12,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.45,
+        "gears": 4,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.45,
+          "min": 1.35,
+          "lateral": 15
+        },
+        "suspensionForce": 2,
+        "steeringLock": 35,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "brickade",
+      "name": "Brickade",
+      "hash": 3989239879,
+      "category": "Service",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/brickade.webp",
+      "dlc": {
+        "id": "mpexecutive",
+        "name": "Further Adventures in Finance and Felony",
+        "releaseDate": "2016-06-07"
+      },
+      "stats": {
+        "handlingId": "BRICKADE",
+        "mass": 14000,
+        "topSpeed": 105,
+        "driveForce": 0.2,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.22,
+        "gears": 5,
+        "driveBiasFront": 0.25,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2,
+          "min": 1.8,
+          "lateral": 20
+        },
+        "suspensionForce": 2.5,
+        "steeringLock": 37,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "brickade2",
+      "name": "Brickade 6x6",
+      "hash": 2718380883,
+      "category": "Service",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/brickade2.webp",
+      "dlc": {
+        "id": "mpchristmas3",
+        "name": "Los Santos Drug Wars",
+        "releaseDate": "2022-12-13"
+      },
+      "stats": {
+        "handlingId": "BRICKADE",
+        "mass": 14000,
+        "topSpeed": 105,
+        "driveForce": 0.2,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.22,
+        "gears": 5,
+        "driveBiasFront": 0.25,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2,
+          "min": 1.8,
+          "lateral": 20
+        },
+        "suspensionForce": 2.5,
+        "steeringLock": 37,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "bus",
+      "name": "Bus",
+      "hash": 3581397346,
+      "category": "Service",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/bus.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "BUS",
+        "mass": 9000,
+        "topSpeed": 100,
+        "driveForce": 0.12,
+        "brakeForce": 0.35,
+        "handBrakeForce": 0.4,
+        "gears": 4,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.45,
+          "min": 1.35,
+          "lateral": 15
+        },
+        "suspensionForce": 2,
+        "steeringLock": 35,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "coach",
+      "name": "Dashound",
+      "hash": 2222034228,
+      "category": "Service",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/coach.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "COACH",
+        "mass": 8500,
+        "topSpeed": 100,
+        "driveForce": 0.12,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.3,
+        "gears": 4,
+        "driveBiasFront": 0.2,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.45,
+          "min": 1.35,
+          "lateral": 15
+        },
+        "suspensionForce": 1.7,
+        "steeringLock": 35,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "pbus2",
+      "name": "Festival Bus",
+      "hash": 345756458,
+      "category": "Service",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/pbus2.webp",
+      "dlc": {
+        "id": "mpbattle",
+        "name": "After Hours",
+        "releaseDate": "2018-07-24"
+      },
+      "stats": {
+        "handlingId": "PBUS2",
+        "mass": 8000,
+        "topSpeed": 90,
+        "driveForce": 0.13,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.3,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.15,
+          "min": 1,
+          "lateral": 35
+        },
+        "suspensionForce": 2,
+        "steeringLock": 35,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "rallytruck",
+      "name": "Dune",
+      "hash": 2191146052,
+      "category": "Service",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/rallytruck.webp",
+      "dlc": {
+        "id": "mpstunt",
+        "name": "Cunning Stunts",
+        "releaseDate": "2016-07-12"
+      },
+      "stats": {
+        "handlingId": "RALLYTRUCK",
+        "mass": 7000,
+        "topSpeed": 125,
+        "driveForce": 0.33,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.32,
+        "gears": 5,
+        "driveBiasFront": 0.35,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.3,
+          "min": 1.9,
+          "lateral": 22
+        },
+        "suspensionForce": 2.25,
+        "steeringLock": 37,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "rentalbus",
+      "name": "Rental Shuttle Bus",
+      "hash": 3196165219,
+      "category": "Service",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/rentalbus.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "TOURBUS",
+        "mass": 5500,
+        "topSpeed": 110,
+        "driveForce": 0.12,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.3,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.55,
+          "min": 1.45,
+          "lateral": 17
+        },
+        "suspensionForce": 1.7,
+        "steeringLock": 35,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "taxi",
+      "name": "Taxi",
+      "hash": 3338918751,
+      "category": "Service",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/taxi.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "TAXI2",
+        "mass": 1400,
+        "topSpeed": 143,
+        "driveForce": 0.2,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.55,
+          "min": 2.45,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "tourbus",
+      "name": "Tour Bus",
+      "hash": 1941029835,
+      "category": "Service",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tourbus.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "TOURBUS",
+        "mass": 5500,
+        "topSpeed": 110,
+        "driveForce": 0.12,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.3,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.55,
+          "min": 1.45,
+          "lateral": 17
+        },
+        "suspensionForce": 1.7,
+        "steeringLock": 35,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "trash",
+      "name": "Trashmaster",
+      "hash": 1917016601,
+      "category": "Service",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/trash.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "trash",
+        "mass": 9000,
+        "topSpeed": 110,
+        "driveForce": 0.13,
+        "brakeForce": 0.3,
+        "handBrakeForce": 0.22,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.55,
+          "min": 1.4,
+          "lateral": 17
+        },
+        "suspensionForce": 1,
+        "steeringLock": 37,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "trash2",
+      "name": "Trashmaster",
+      "hash": 3039269212,
+      "category": "Service",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/trash2.webp",
+      "dlc": {
+        "id": "mpheist",
+        "name": "The Heists Update",
+        "releaseDate": "2015-03-10"
+      },
+      "stats": {
+        "handlingId": "trash",
+        "mass": 9000,
+        "topSpeed": 110,
+        "driveForce": 0.13,
+        "brakeForce": 0.3,
+        "handBrakeForce": 0.22,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.55,
+          "min": 1.4,
+          "lateral": 17
+        },
+        "suspensionForce": 1,
+        "steeringLock": 37,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "wastelander",
+      "name": "Wastelander",
+      "hash": 2382949506,
+      "category": "Service",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/wastelander.webp",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "stats": {
+        "handlingId": "WASTELANDER",
+        "mass": 7000,
+        "topSpeed": 125,
+        "driveForce": 0.33,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.32,
+        "gears": 5,
+        "driveBiasFront": 0.35,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.3,
+          "min": 1.9,
+          "lateral": 22
+        },
+        "suspensionForce": 1,
+        "steeringLock": 37,
+        "monetaryValue": 40000
+      }
+    }
+  ]
+}

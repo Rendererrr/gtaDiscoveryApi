@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "weapons",
+    "label": "Weapons",
+    "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
+    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
+  },
+  "group": {
+    "id": "mpsecurity",
+    "name": "The Contract",
+    "releaseDate": "2021-12-15",
+    "key": "mpsecurity",
+    "slug": "mpsecurity",
+    "count": 2
+  },
+  "count": 2,
+  "items": [
+    {
+      "id": "emplauncher",
+      "name": "Compact EMP Launcher",
+      "codename": "weapon_emplauncher",
+      "hash": 3676729658,
+      "category": "Heavy",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/EMP-launcher-icon.png",
+      "dlc": {
+        "id": "mpsecurity",
+        "name": "The Contract",
+        "releaseDate": "2021-12-15"
+      },
+      "stats": {
+        "damage": 95,
+        "fireRate": 10,
+        "accuracy": 15,
+        "range": 55,
+        "maxAmmo": null
+      },
+      "components": [
+        {
+          "id": "COMPONENT_EMPLAUNCHER_CLIP_01",
+          "label": "Default Clip",
+          "hash": 3532609777,
+          "default": true
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "heavyrifle",
+      "name": "Heavy Rifle",
+      "codename": "weapon_heavyrifle",
+      "hash": 3347935668,
+      "category": "Rifle",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-rifle-icon.png",
+      "dlc": {
+        "id": "mpsecurity",
+        "name": "The Contract",
+        "releaseDate": "2021-12-15"
+      },
+      "stats": {
+        "damage": 40,
+        "fireRate": 50,
+        "accuracy": 40,
+        "range": 45,
+        "maxAmmo": null
+      },
+      "components": [
+        {
+          "id": "COMPONENT_HEAVYRIFLE_CLIP_01",
+          "label": "Default Clip",
+          "hash": 1525977990,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_HEAVYRIFLE_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 1824470811,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_HEAVYRIFLE_SIGHT_01",
+          "label": "Iron Sights",
+          "hash": 3017917522,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MEDIUM",
+          "label": "Scope",
+          "hash": 2698550338,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP",
+          "label": "Suppressor",
+          "hash": 2205435306,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP",
+          "label": "Grip",
+          "hash": 202788691,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2945 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "weapons",
+    "label": "Weapons",
+    "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
+    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
+  },
+  "group": {
+    "id": "TitleUpdate",
+    "name": "Base Game",
+    "releaseDate": "2013-09-17",
+    "key": "TitleUpdate",
+    "slug": "titleupdate",
+    "count": 38
+  },
+  "count": 38,
+  "items": [
+    {
+      "id": "advancedrifle",
+      "name": "Advanced Rifle",
+      "codename": "weapon_advancedrifle",
+      "hash": 2937143193,
+      "category": "Rifle",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Advanced-rifle-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 34,
+        "fireRate": 70,
+        "accuracy": 50,
+        "range": 45,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_ADVANCEDRIFLE_CLIP_01",
+          "label": "Default Clip",
+          "hash": 4203716879,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_ADVANCEDRIFLE_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 2395064697,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_SMALL",
+          "label": "Scope",
+          "hash": 2855028148,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP",
+          "label": "Suppressor",
+          "hash": 2205435306,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_ADVANCEDRIFLE_VARMOD_LUXE",
+          "label": "Gilded Gun Metal Finish",
+          "hash": 930927479,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "appistol",
+      "name": "AP Pistol",
+      "codename": "weapon_appistol",
+      "hash": 584646201,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Appistol-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 26,
+        "fireRate": 80,
+        "accuracy": 35,
+        "range": 30,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_APPISTOL_CLIP_01",
+          "label": "Default Clip",
+          "hash": 834974250,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_APPISTOL_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 614078421,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_PI_FLSH",
+          "label": "Flashlight",
+          "hash": 899381934,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_PI_SUPP",
+          "label": "Suppressor",
+          "hash": 3271853210,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_APPISTOL_VARMOD_LUXE",
+          "label": "Gilded Gun Metal Finish",
+          "hash": 2608252716,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_APPISTOL_VARMOD_SECURITY",
+          "label": "Record A Finish",
+          "hash": 1657753414,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "assaultrifle",
+      "name": "Assault Rifle",
+      "codename": "weapon_assaultrifle",
+      "hash": 3220176749,
+      "category": "Rifle",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Assault-rifle-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 30,
+        "fireRate": 60,
+        "accuracy": 45,
+        "range": 45,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_ASSAULTRIFLE_CLIP_01",
+          "label": "Default Clip",
+          "hash": 3193891350,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_ASSAULTRIFLE_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 2971750299,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_ASSAULTRIFLE_CLIP_03",
+          "label": "Drum Magazine",
+          "hash": 3689981245,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MACRO",
+          "label": "Scope",
+          "hash": 2637152041,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP_02",
+          "label": "Suppressor",
+          "hash": 2805810788,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP",
+          "label": "Grip",
+          "hash": 202788691,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_ASSAULTRIFLE_VARMOD_LUXE",
+          "label": "Yusuf Amir Luxury Finish",
+          "hash": 1319990579,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_GUNRUN_MK2_UPGRADE",
+          "label": "Mk II",
+          "hash": 1623028892,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "assaultshotgun",
+      "name": "Assault Shotgun",
+      "codename": "weapon_assaultshotgun",
+      "hash": 3800352039,
+      "category": "Shotgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Assault-shotgun-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 77,
+        "fireRate": 50,
+        "accuracy": 25,
+        "range": 15,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_ASSAULTSHOTGUN_CLIP_01",
+          "label": "Default Clip",
+          "hash": 2498239431,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_ASSAULTSHOTGUN_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 2260565874,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP",
+          "label": "Suppressor",
+          "hash": 2205435306,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP",
+          "label": "Grip",
+          "hash": 202788691,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "assaultsmg",
+      "name": "Assault SMG",
+      "codename": "weapon_assaultsmg",
+      "hash": 4024951519,
+      "category": "SMG",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Assault-smg-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 23,
+        "fireRate": 55,
+        "accuracy": 45,
+        "range": 40,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_ASSAULTSMG_CLIP_01",
+          "label": "Default Clip",
+          "hash": 2366834608,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_ASSAULTSMG_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 3141985303,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MACRO",
+          "label": "Scope",
+          "hash": 2637152041,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP_02",
+          "label": "Suppressor",
+          "hash": 2805810788,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_ASSAULTSMG_VARMOD_LOWRIDER",
+          "label": "Yusuf Amir Luxury Finish",
+          "hash": 663517359,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "ball",
+      "name": "Baseball",
+      "codename": "weapon_ball",
+      "hash": 600439132,
+      "category": "Thrown",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Ball-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 0,
+        "fireRate": 1,
+        "accuracy": 10,
+        "range": 0,
+        "maxAmmo": 1
+      },
+      "components": [],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "bat",
+      "name": "Baseball Bat",
+      "codename": "weapon_bat",
+      "hash": 2508868239,
+      "category": "Melee",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Baseball-bat-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 20,
+        "fireRate": 10,
+        "accuracy": 0,
+        "range": 0,
+        "maxAmmo": 0
+      },
+      "components": [
+        {
+          "id": "COMPONENT_BAT_VARMOD_XM3",
+          "label": "Blagueurs",
+          "hash": 716207715,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_BAT_VARMOD_XM3_01",
+          "label": "Spatter",
+          "hash": 446271089,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_BAT_VARMOD_XM3_02",
+          "label": "Bullet Holes",
+          "hash": 1045616099,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_BAT_VARMOD_XM3_03",
+          "label": "Burger Shot",
+          "hash": 1336277129,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_BAT_VARMOD_XM3_04",
+          "label": "Cluckin' Bell",
+          "hash": 3781598220,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_BAT_VARMOD_XM3_05",
+          "label": "Fatal Incursion",
+          "hash": 3847267296,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_BAT_VARMOD_XM3_06",
+          "label": "Lucha Libre",
+          "hash": 4145760117,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_BAT_VARMOD_XM3_07",
+          "label": "Trippy",
+          "hash": 166784288,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_BAT_VARMOD_XM3_08",
+          "label": "Tie-Dye",
+          "hash": 2068729789,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_BAT_VARMOD_XM3_09",
+          "label": "Wall",
+          "hash": 1761389338,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "bullpupshotgun",
+      "name": "Bullpup Shotgun",
+      "codename": "weapon_bullpupshotgun",
+      "hash": 2640438543,
+      "category": "Shotgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Bullpup-shotgun-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 67,
+        "fireRate": 20,
+        "accuracy": 30,
+        "range": 20,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_BULLPUPSHOTGUN_CLIP_01",
+          "label": "Default Clip",
+          "hash": 3377353998,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP_02",
+          "label": "Suppressor",
+          "hash": 2805810788,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP",
+          "label": "Grip",
+          "hash": 202788691,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "bzgas",
+      "name": "BZ Gas",
+      "codename": "weapon_bzgas",
+      "hash": 2694266206,
+      "category": "Thrown",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Bz-gas-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 0,
+        "fireRate": 1,
+        "accuracy": 10,
+        "range": 15,
+        "maxAmmo": 25
+      },
+      "components": [],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "carbinerifle",
+      "name": "Carbine Rifle",
+      "codename": "weapon_carbinerifle",
+      "hash": 2210333304,
+      "category": "Rifle",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Carbine-rifle-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 32,
+        "fireRate": 65,
+        "accuracy": 55,
+        "range": 45,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_CARBINERIFLE_CLIP_01",
+          "label": "Default Clip",
+          "hash": 2680042476,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_CARBINERIFLE_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 2433783441,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_CARBINERIFLE_CLIP_03",
+          "label": "Box Magazine",
+          "hash": 3127044405,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_RAILCOVER_01",
+          "label": "COMPONENT_AT_RAILCOVER_01",
+          "hash": 1967214384,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MEDIUM",
+          "label": "Scope",
+          "hash": 2698550338,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP",
+          "label": "Suppressor",
+          "hash": 2205435306,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP",
+          "label": "Grip",
+          "hash": 202788691,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_CARBINERIFLE_VARMOD_LUXE",
+          "label": "Yusuf Amir Luxury Finish",
+          "hash": 3634075224,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_CARBINERIFLE_VARMOD_MICH",
+          "label": "COMPONENT_CARBINERIFLE_VARMOD_MICH",
+          "hash": 1605520746,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_GUNRUN_MK2_UPGRADE",
+          "label": "Mk II",
+          "hash": 1623028892,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "combatmg",
+      "name": "Combat MG",
+      "codename": "weapon_combatmg",
+      "hash": 2144741730,
+      "category": "MG",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Combat-mg-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 55,
+        "fireRate": 65,
+        "accuracy": 45,
+        "range": 60,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_COMBATMG_CLIP_01",
+          "label": "Default Clip",
+          "hash": 3791631178,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_COMBATMG_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 3603274966,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MEDIUM",
+          "label": "Scope",
+          "hash": 2698550338,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP",
+          "label": "Grip",
+          "hash": 202788691,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_COMBATMG_VARMOD_LOWRIDER",
+          "label": "Etched Gun Metal Finish",
+          "hash": 2466172125,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_GUNRUN_MK2_UPGRADE",
+          "label": "Mk II",
+          "hash": 1623028892,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "combatpistol",
+      "name": "Combat Pistol",
+      "codename": "weapon_combatpistol",
+      "hash": 1593441988,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Combat-pistol-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 27,
+        "fireRate": 40,
+        "accuracy": 50,
+        "range": 30,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_COMBATPISTOL_CLIP_01",
+          "label": "Default Clip",
+          "hash": 119648377,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_COMBATPISTOL_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 3598405421,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_PI_FLSH",
+          "label": "Flashlight",
+          "hash": 899381934,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_PI_SUPP",
+          "label": "Suppressor",
+          "hash": 3271853210,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_COMBATPISTOL_VARMOD_LOWRIDER",
+          "label": "Yusuf Amir Luxury Finish",
+          "hash": 3328527730,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_COMBATPISTOL_VARMOD_XMAS23",
+          "label": "COMPONENT_COMBATPISTOL_VARMOD_XMAS23",
+          "hash": 1400690398,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "crowbar",
+      "name": "Crowbar",
+      "codename": "weapon_crowbar",
+      "hash": 2227010557,
+      "category": "Melee",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Crowbar-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 10,
+        "fireRate": 15,
+        "accuracy": 0,
+        "range": 0,
+        "maxAmmo": 0
+      },
+      "components": [],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "unarmed",
+      "name": "Fist",
+      "codename": "weapon_unarmed",
+      "hash": 2725352035,
+      "category": "Melee",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Fist-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": null,
+      "components": [],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "flare",
+      "name": "Flare",
+      "codename": "weapon_flare",
+      "hash": 1233104067,
+      "category": "Thrown",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Flare-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 0,
+        "fireRate": 1,
+        "accuracy": 10,
+        "range": 25,
+        "maxAmmo": 25
+      },
+      "components": [],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "golfclub",
+      "name": "Golf Club",
+      "codename": "weapon_golfclub",
+      "hash": 1141786504,
+      "category": "Melee",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Golf-club-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 20,
+        "fireRate": 10,
+        "accuracy": 0,
+        "range": 0,
+        "maxAmmo": 0
+      },
+      "components": [],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "grenade",
+      "name": "Grenade",
+      "codename": "weapon_grenade",
+      "hash": 2481070269,
+      "category": "Thrown",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Grenade-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 95,
+        "fireRate": 1,
+        "accuracy": 10,
+        "range": 15,
+        "maxAmmo": 25
+      },
+      "components": [],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "grenadelauncher",
+      "name": "Grenade Launcher",
+      "codename": "weapon_grenadelauncher",
+      "hash": 2726580491,
+      "category": "Heavy",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Grenade-launcher-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 95,
+        "fireRate": 20,
+        "accuracy": 10,
+        "range": 50,
+        "maxAmmo": 20
+      },
+      "components": [
+        {
+          "id": "COMPONENT_GRENADELAUNCHER_CLIP_01",
+          "label": "Default Clip",
+          "hash": 296639639,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP",
+          "label": "Grip",
+          "hash": 202788691,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_SMALL",
+          "label": "Scope",
+          "hash": 2855028148,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "hammer",
+      "name": "Hammer",
+      "codename": "weapon_hammer",
+      "hash": 1317494643,
+      "category": "Melee",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Hammer-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 10,
+        "fireRate": 15,
+        "accuracy": 0,
+        "range": 0,
+        "maxAmmo": 0
+      },
+      "components": [],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "heavysniper",
+      "name": "Heavy Sniper",
+      "codename": "weapon_heavysniper",
+      "hash": 205991906,
+      "category": "Sniper",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-sniper-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 98,
+        "fireRate": 20,
+        "accuracy": 90,
+        "range": 100,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_HEAVYSNIPER_CLIP_01",
+          "label": "Default Clip",
+          "hash": 1198478068,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_LARGE",
+          "label": "Scope",
+          "hash": 3527687644,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MAX",
+          "label": "Advanced Scope",
+          "hash": 3159677559,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_GUNRUN_MK2_UPGRADE",
+          "label": "Mk II",
+          "hash": 1623028892,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_HEAVYSNIPER_VARMOD_XMAS23",
+          "label": "COMPONENT_HEAVYSNIPER_VARMOD_XMAS23",
+          "hash": 221907180,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "petrolcan",
+      "name": "Jerry Can",
+      "codename": "weapon_petrolcan",
+      "hash": 883325847,
+      "category": "Misc",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Petrolcan-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 0,
+        "fireRate": 10,
+        "accuracy": 30,
+        "range": 1,
+        "maxAmmo": 4500
+      },
+      "components": [],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "knife",
+      "name": "Knife",
+      "codename": "weapon_knife",
+      "hash": 2578778090,
+      "category": "Melee",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Knife-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 15,
+        "fireRate": 20,
+        "accuracy": 0,
+        "range": 0,
+        "maxAmmo": 0
+      },
+      "components": [
+        {
+          "id": "COMPONENT_KNIFE_VARMOD_XM3",
+          "label": "Eyes",
+          "hash": 370527443,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_KNIFE_VARMOD_XM3_01",
+          "label": "Spatter",
+          "hash": 1109907117,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_KNIFE_VARMOD_XM3_02",
+          "label": "Flames",
+          "hash": 2055456612,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_KNIFE_VARMOD_XM3_03",
+          "label": "Lightning",
+          "hash": 1690606566,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_KNIFE_VARMOD_XM3_04",
+          "label": "Pills",
+          "hash": 2661650347,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_KNIFE_VARMOD_XM3_05",
+          "label": "Snakeskin",
+          "hash": 2833490983,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_KNIFE_VARMOD_XM3_06",
+          "label": "Lucha Libre",
+          "hash": 2524544839,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_KNIFE_VARMOD_XM3_07",
+          "label": "Trippy",
+          "hash": 2235227338,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_KNIFE_VARMOD_XM3_08",
+          "label": "Tequilya",
+          "hash": 3014965697,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_KNIFE_VARMOD_XM3_09",
+          "label": "Orang-O-Tang",
+          "hash": 3372082259,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "mg",
+      "name": "MG",
+      "codename": "weapon_mg",
+      "hash": 2634544996,
+      "category": "MG",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Mg-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 50,
+        "fireRate": 60,
+        "accuracy": 40,
+        "range": 60,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_MG_CLIP_01",
+          "label": "Default Clip",
+          "hash": 4097109892,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_MG_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 2182449991,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_SMALL_02",
+          "label": "Scope",
+          "hash": 1006677997,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_MG_VARMOD_LOWRIDER",
+          "label": "Yusuf Amir Luxury Finish",
+          "hash": 3604658878,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "microsmg",
+      "name": "Micro SMG",
+      "codename": "weapon_microsmg",
+      "hash": 324215364,
+      "category": "SMG",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Micro-smg-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 21,
+        "fireRate": 60,
+        "accuracy": 30,
+        "range": 25,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_MICROSMG_CLIP_01",
+          "label": "Default Clip",
+          "hash": 3410538224,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_MICROSMG_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 283556395,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_PI_FLSH",
+          "label": "Flashlight",
+          "hash": 899381934,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MACRO",
+          "label": "Scope",
+          "hash": 2637152041,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP_02",
+          "label": "Suppressor",
+          "hash": 2805810788,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_MICROSMG_VARMOD_LUXE",
+          "label": "Yusuf Amir Luxury Finish",
+          "hash": 1215999497,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_MICROSMG_VARMOD_SECURITY",
+          "label": "Organics Finish",
+          "hash": 2012362801,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_MICROSMG_VARMOD_XM3",
+          "label": "Dildodude Camo",
+          "hash": 2728189138,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_MICROSMG_VARMOD_FRN",
+          "label": "COMPONENT_MICROSMG_VARMOD_FRN",
+          "hash": 1694268374,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "minigun",
+      "name": "Minigun",
+      "codename": "weapon_minigun",
+      "hash": 1119849093,
+      "category": "Heavy",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Minigun-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 30,
+        "fireRate": 100,
+        "accuracy": 40,
+        "range": 55,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_MINIGUN_CLIP_01",
+          "label": "Extended Clip",
+          "hash": 3370020614,
+          "default": true
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "molotov",
+      "name": "Molotov",
+      "codename": "weapon_molotov",
+      "hash": 615608432,
+      "category": "Thrown",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Molotov-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 50,
+        "fireRate": 1,
+        "accuracy": 20,
+        "range": 8,
+        "maxAmmo": 25
+      },
+      "components": [],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "nightstick",
+      "name": "Nightstick",
+      "codename": "weapon_nightstick",
+      "hash": 1737195953,
+      "category": "Melee",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Nightstick-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 10,
+        "fireRate": 15,
+        "accuracy": 0,
+        "range": 0,
+        "maxAmmo": 0
+      },
+      "components": [],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "parachute",
+      "name": "Parachute",
+      "codename": "gadget_parachute",
+      "hash": 4222310262,
+      "category": "Misc",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Parachute-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": null,
+      "components": [],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "pistol",
+      "name": "Pistol",
+      "codename": "weapon_pistol",
+      "hash": 453432689,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pistol-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 26,
+        "fireRate": 40,
+        "accuracy": 40,
+        "range": 25,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_PISTOL_CLIP_01",
+          "label": "Default Clip",
+          "hash": 4275109233,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_PISTOL_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 3978713628,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_PI_FLSH",
+          "label": "Flashlight",
+          "hash": 899381934,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_PI_SUPP_02",
+          "label": "Suppressor",
+          "hash": 1709866683,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_PISTOL_VARMOD_LUXE",
+          "label": "Yusuf Amir Luxury Finish",
+          "hash": 3610841222,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_GUNRUN_MK2_UPGRADE",
+          "label": "Mk II",
+          "hash": 1623028892,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "pistol50",
+      "name": "Pistol .50",
+      "codename": "weapon_pistol50",
+      "hash": 2578377531,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pistol.50-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 51,
+        "fireRate": 40,
+        "accuracy": 55,
+        "range": 35,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_PISTOL50_CLIP_01",
+          "label": "Default Clip",
+          "hash": 580369945,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_PISTOL50_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 3654528146,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_PI_FLSH",
+          "label": "Flashlight",
+          "hash": 899381934,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP_02",
+          "label": "Suppressor",
+          "hash": 2805810788,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_PISTOL50_VARMOD_LUXE",
+          "label": "Platinum Pearl Deluxe Finish",
+          "hash": 2008591151,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "pumpshotgun",
+      "name": "Pump Shotgun",
+      "codename": "weapon_pumpshotgun",
+      "hash": 487013001,
+      "category": "Shotgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pump-shotgun-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 67,
+        "fireRate": 20,
+        "accuracy": 30,
+        "range": 20,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_PUMPSHOTGUN_CLIP_01",
+          "label": "Default Clip",
+          "hash": 3513717816,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SR_SUPP",
+          "label": "Suppressor",
+          "hash": 3859329886,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_PUMPSHOTGUN_VARMOD_LOWRIDER",
+          "label": "Yusuf Amir Luxury Finish",
+          "hash": 2732039643,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_GUNRUN_MK2_UPGRADE",
+          "label": "Mk II",
+          "hash": 1623028892,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_PUMPSHOTGUN_VARMOD_SECURITY",
+          "label": "Bone Finish",
+          "hash": 4052644405,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_PUMPSHOTGUN_VARMOD_XM3",
+          "label": "Dildodude Camo",
+          "hash": 330905451,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "rpg",
+      "name": "RPG",
+      "codename": "weapon_rpg",
+      "hash": 2982836145,
+      "category": "Heavy",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Rocket-launcher-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 100,
+        "fireRate": 5,
+        "accuracy": 10,
+        "range": 70,
+        "maxAmmo": 20
+      },
+      "components": [
+        {
+          "id": "COMPONENT_RPG_CLIP_01",
+          "label": "Default Clip",
+          "hash": 1319465907,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_RPG_VARMOD_TVR",
+          "label": "COMPONENT_RPG_VARMOD_TVR",
+          "hash": 3054824576,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "sawnoffshotgun",
+      "name": "Sawed-Off Shotgun",
+      "codename": "weapon_sawnoffshotgun",
+      "hash": 2017895192,
+      "category": "Shotgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Sawed-off-shotgun-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 96,
+        "fireRate": 20,
+        "accuracy": 20,
+        "range": 15,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_SAWNOFFSHOTGUN_CLIP_01",
+          "label": "Default Clip",
+          "hash": 3352699429,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_SAWNOFFSHOTGUN_VARMOD_LUXE",
+          "label": "Gilded Gun Metal Finish",
+          "hash": 2242268665,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "smg",
+      "name": "SMG",
+      "codename": "weapon_smg",
+      "hash": 736523883,
+      "category": "SMG",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Smg-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 22,
+        "fireRate": 55,
+        "accuracy": 40,
+        "range": 35,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_SMG_CLIP_01",
+          "label": "Default Clip",
+          "hash": 643254679,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_SMG_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 889808635,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_SMG_CLIP_03",
+          "label": "Drum Magazine",
+          "hash": 2043113590,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MACRO_02",
+          "label": "Scope",
+          "hash": 1019656791,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_PI_SUPP",
+          "label": "Suppressor",
+          "hash": 3271853210,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_SMG_VARMOD_LUXE",
+          "label": "Yusuf Amir Luxury Finish",
+          "hash": 663170192,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_GUNRUN_MK2_UPGRADE",
+          "label": "Mk II",
+          "hash": 1623028892,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "sniperrifle",
+      "name": "Sniper Rifle",
+      "codename": "weapon_sniperrifle",
+      "hash": 100416529,
+      "category": "Sniper",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Sniper-rifle-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 96,
+        "fireRate": 25,
+        "accuracy": 70,
+        "range": 95,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_SNIPERRIFLE_CLIP_01",
+          "label": "Default Clip",
+          "hash": 2613461129,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP_02",
+          "label": "Suppressor",
+          "hash": 2805810788,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_LARGE",
+          "label": "Scope",
+          "hash": 3527687644,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MAX",
+          "label": "Advanced Scope",
+          "hash": 3159677559,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_SNIPERRIFLE_VARMOD_LUXE",
+          "label": "Etched Wood Grip Finish",
+          "hash": 1077065191,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "stickybomb",
+      "name": "Sticky Bomb",
+      "codename": "weapon_stickybomb",
+      "hash": 741814745,
+      "category": "Thrown",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Sticky-bomb-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 95,
+        "fireRate": 1,
+        "accuracy": 30,
+        "range": 10,
+        "maxAmmo": 25
+      },
+      "components": [],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "stungun",
+      "name": "Stun Gun",
+      "codename": "weapon_stungun",
+      "hash": 911657153,
+      "category": "Misc",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Stungun-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 1,
+        "fireRate": 10,
+        "accuracy": 40,
+        "range": 5,
+        "maxAmmo": 250
+      },
+      "components": [],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "smokegrenade",
+      "name": "Tear Gas",
+      "codename": "weapon_smokegrenade",
+      "hash": 4256991824,
+      "category": "Thrown",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Tear-gas-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 10,
+        "fireRate": 1,
+        "accuracy": 10,
+        "range": 15,
+        "maxAmmo": 25
+      },
+      "components": [],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    }
+  ]
+}

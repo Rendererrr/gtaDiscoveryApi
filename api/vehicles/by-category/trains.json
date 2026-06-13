@@ -1,0 +1,330 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "name": "Trains",
+    "key": "Trains",
+    "slug": "trains",
+    "count": 10
+  },
+  "count": 10,
+  "items": [
+    {
+      "id": "cablecar",
+      "name": "Cable Car",
+      "hash": 3334677549,
+      "category": "Trains",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/cablecar.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "FREIGHT",
+        "mass": 25084,
+        "topSpeed": 80,
+        "driveForce": 0.2,
+        "brakeForce": 5,
+        "handBrakeForce": 0.7,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.5,
+          "min": 0.8,
+          "lateral": 8
+        },
+        "suspensionForce": 0.4,
+        "steeringLock": 35,
+        "monetaryValue": 110000
+      }
+    },
+    {
+      "id": "freight",
+      "name": "Freight Train",
+      "hash": 1030400667,
+      "category": "Trains",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/freight.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "FREIGHT",
+        "mass": 25084,
+        "topSpeed": 80,
+        "driveForce": 0.2,
+        "brakeForce": 5,
+        "handBrakeForce": 0.7,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.5,
+          "min": 0.8,
+          "lateral": 8
+        },
+        "suspensionForce": 0.4,
+        "steeringLock": 35,
+        "monetaryValue": 110000
+      }
+    },
+    {
+      "id": "freight2",
+      "name": "Freight Train",
+      "hash": 3852738056,
+      "category": "Trains",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/freight2.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "FREIGHT",
+        "mass": 25084,
+        "topSpeed": 80,
+        "driveForce": 0.2,
+        "brakeForce": 5,
+        "handBrakeForce": 0.7,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.5,
+          "min": 0.8,
+          "lateral": 8
+        },
+        "suspensionForce": 0.4,
+        "steeringLock": 35,
+        "monetaryValue": 110000
+      }
+    },
+    {
+      "id": "freightcar",
+      "name": "Freight Train",
+      "hash": 184361638,
+      "category": "Trains",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/freightcar.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "FREIGHTCAR",
+        "mass": 25084,
+        "topSpeed": 80,
+        "driveForce": 0.2,
+        "brakeForce": 5,
+        "handBrakeForce": 0.7,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.5,
+          "min": 0.8,
+          "lateral": 8
+        },
+        "suspensionForce": 0.4,
+        "steeringLock": 35,
+        "monetaryValue": 110000
+      }
+    },
+    {
+      "id": "freightcar2",
+      "name": "Freight Train",
+      "hash": 3186376089,
+      "category": "Trains",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/freightcar2.webp",
+      "dlc": {
+        "id": "mptuner",
+        "name": "Los Santos Tuners",
+        "releaseDate": "2021-07-20"
+      },
+      "stats": {
+        "handlingId": "FREIGHTCAR",
+        "mass": 25084,
+        "topSpeed": 80,
+        "driveForce": 0.2,
+        "brakeForce": 5,
+        "handBrakeForce": 0.7,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.5,
+          "min": 0.8,
+          "lateral": 8
+        },
+        "suspensionForce": 0.4,
+        "steeringLock": 35,
+        "monetaryValue": 110000
+      }
+    },
+    {
+      "id": "freightcont1",
+      "name": "Freight Train",
+      "hash": 920453016,
+      "category": "Trains",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/freightcont1.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "FREIGHT",
+        "mass": 25084,
+        "topSpeed": 80,
+        "driveForce": 0.2,
+        "brakeForce": 5,
+        "handBrakeForce": 0.7,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.5,
+          "min": 0.8,
+          "lateral": 8
+        },
+        "suspensionForce": 0.4,
+        "steeringLock": 35,
+        "monetaryValue": 110000
+      }
+    },
+    {
+      "id": "freightcont2",
+      "name": "Freight Train",
+      "hash": 240201337,
+      "category": "Trains",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/freightcont2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "FREIGHT",
+        "mass": 25084,
+        "topSpeed": 80,
+        "driveForce": 0.2,
+        "brakeForce": 5,
+        "handBrakeForce": 0.7,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.5,
+          "min": 0.8,
+          "lateral": 8
+        },
+        "suspensionForce": 0.4,
+        "steeringLock": 35,
+        "monetaryValue": 110000
+      }
+    },
+    {
+      "id": "freightgrain",
+      "name": "Freight Train",
+      "hash": 642617954,
+      "category": "Trains",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/freightgrain.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "FREIGHT",
+        "mass": 25084,
+        "topSpeed": 80,
+        "driveForce": 0.2,
+        "brakeForce": 5,
+        "handBrakeForce": 0.7,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.5,
+          "min": 0.8,
+          "lateral": 8
+        },
+        "suspensionForce": 0.4,
+        "steeringLock": 35,
+        "monetaryValue": 110000
+      }
+    },
+    {
+      "id": "metrotrain",
+      "name": "Freight Train",
+      "hash": 868868440,
+      "category": "Trains",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/metrotrain.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "metrotrain",
+        "mass": 25000,
+        "topSpeed": 80,
+        "driveForce": 0.2,
+        "brakeForce": 5,
+        "handBrakeForce": 0.7,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.5,
+          "min": 0.8,
+          "lateral": 8
+        },
+        "suspensionForce": 0.4,
+        "steeringLock": 35,
+        "monetaryValue": 110000
+      }
+    },
+    {
+      "id": "tankercar",
+      "name": "Freight Train",
+      "hash": 586013744,
+      "category": "Trains",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tankercar.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "FREIGHT",
+        "mass": 25084,
+        "topSpeed": 80,
+        "driveForce": 0.2,
+        "brakeForce": 5,
+        "handBrakeForce": 0.7,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.5,
+          "min": 0.8,
+          "lateral": 8
+        },
+        "suspensionForce": 0.4,
+        "steeringLock": 35,
+        "monetaryValue": 110000
+      }
+    }
+  ]
+}

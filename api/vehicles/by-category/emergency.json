@@ -1,0 +1,702 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "name": "Emergency",
+    "key": "Emergency",
+    "slug": "emergency",
+    "count": 22
+  },
+  "count": 22,
+  "items": [
+    {
+      "id": "ambulance",
+      "name": "Ambulance",
+      "hash": 1171614426,
+      "category": "Emergency",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/ambulance.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "AMBULAN",
+        "mass": 2500,
+        "topSpeed": 140,
+        "driveForce": 0.18,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.4,
+        "gears": 5,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.95,
+          "min": 1.7,
+          "lateral": 20
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 35,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "fbi",
+      "name": "FIB",
+      "hash": 1127131465,
+      "category": "Emergency",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/fbi.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "fbi",
+        "mass": 1650,
+        "topSpeed": 145,
+        "driveForce": 0.28,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.45,
+          "min": 2.2,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.1,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "fbi2",
+      "name": "FIB",
+      "hash": 2647026068,
+      "category": "Emergency",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/fbi2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "fbi2",
+        "mass": 2400,
+        "topSpeed": 140,
+        "driveForce": 0.2,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0.6,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.85,
+          "lateral": 18.5
+        },
+        "suspensionForce": 2.8,
+        "steeringLock": 40,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "firetruk",
+      "name": "Fire Truck",
+      "hash": 1938952078,
+      "category": "Emergency",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/firetruk.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "firetruk",
+        "mass": 7500,
+        "topSpeed": 130,
+        "driveForce": 0.16,
+        "brakeForce": 0.5,
+        "handBrakeForce": 0.2,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.7,
+          "min": 1.45,
+          "lateral": 15
+        },
+        "suspensionForce": 3,
+        "steeringLock": 37,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "lguard",
+      "name": "Lifeguard",
+      "hash": 469291905,
+      "category": "Emergency",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/lguard.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "LGUARD",
+        "mass": 2400,
+        "topSpeed": 140,
+        "driveForce": 0.2,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.05,
+          "min": 1.85,
+          "lateral": 18.5
+        },
+        "suspensionForce": 2.3,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "pbus",
+      "name": "Police Prison Bus",
+      "hash": 2287941233,
+      "category": "Emergency",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/pbus.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "PBUS",
+        "mass": 9000,
+        "topSpeed": 90,
+        "driveForce": 0.14,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.3,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.35,
+          "min": 1.2,
+          "lateral": 35
+        },
+        "suspensionForce": 2,
+        "steeringLock": 35,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "polgauntlet",
+      "name": "Gauntlet Interceptor",
+      "hash": 3061199846,
+      "category": "Emergency",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/polgauntlet.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "POLGAUNTLET",
+        "mass": 2150,
+        "topSpeed": 155,
+        "driveForce": 0.362,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.35,
+          "min": 2.2,
+          "lateral": 22
+        },
+        "suspensionForce": 1.9,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "police",
+      "name": "Police Cruiser",
+      "hash": 2046537925,
+      "category": "Emergency",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/police.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "police",
+        "mass": 1400,
+        "topSpeed": 145,
+        "driveForce": 0.2,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.55,
+          "min": 2.45,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "police2",
+      "name": "Police Cruiser",
+      "hash": 2667966721,
+      "category": "Emergency",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/police2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "police2",
+        "mass": 1650,
+        "topSpeed": 145,
+        "driveForce": 0.28,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.4,
+          "min": 2.15,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.1,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "police3",
+      "name": "Police Cruiser",
+      "hash": 1912215274,
+      "category": "Emergency",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/police3.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "police3",
+        "mass": 1450,
+        "topSpeed": 150,
+        "driveForce": 0.3,
+        "brakeForce": 1.2,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.57,
+          "min": 2.49,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 42,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "police4",
+      "name": "Unmarked Cruiser",
+      "hash": 2321795001,
+      "category": "Emergency",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/police4.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "police",
+        "mass": 1400,
+        "topSpeed": 145,
+        "driveForce": 0.2,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.55,
+          "min": 2.45,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "police5",
+      "name": "Stanier LE Cruiser",
+      "hash": 2620582743,
+      "category": "Emergency",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/police5.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "police",
+        "mass": 1400,
+        "topSpeed": 145,
+        "driveForce": 0.2,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.55,
+          "min": 2.45,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "policeb",
+      "name": "Police Bike",
+      "hash": 4260343491,
+      "category": "Emergency",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/policeb.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "POLICEB",
+        "mass": 250,
+        "topSpeed": 135,
+        "driveForce": 0.27,
+        "brakeForce": 1.1,
+        "handBrakeForce": 1.3,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.9,
+          "min": 1.8,
+          "lateral": 20
+        },
+        "suspensionForce": 7,
+        "steeringLock": 40,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "policeb2",
+      "name": "Police Bike",
+      "hash": 2373455159,
+      "category": "Emergency",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/policeb2.webp",
+      "dlc": {
+        "id": "mp2025_01",
+        "name": "Money Fronts",
+        "releaseDate": "2025-06-17"
+      },
+      "stats": {
+        "handlingId": "POLICEB2",
+        "mass": 250,
+        "topSpeed": 135,
+        "driveForce": 0.27,
+        "brakeForce": 1.1,
+        "handBrakeForce": 1.3,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.9,
+          "min": 1.8,
+          "lateral": 20
+        },
+        "suspensionForce": 4.5,
+        "steeringLock": 40,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "policeold1",
+      "name": "Police Rancher",
+      "hash": 2758042359,
+      "category": "Emergency",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/policeold1.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "POLICEOLD",
+        "mass": 2400,
+        "topSpeed": 130,
+        "driveForce": 0.18,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0.3,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.95,
+          "min": 1.75,
+          "lateral": 18.5
+        },
+        "suspensionForce": 2.8,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "policeold2",
+      "name": "Police Roadcruiser",
+      "hash": 2515846680,
+      "category": "Emergency",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/policeold2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "POLICEOL2",
+        "mass": 1800,
+        "topSpeed": 140,
+        "driveForce": 0.2,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.85,
+          "lateral": 19.5
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "policet",
+      "name": "Police Transporter",
+      "hash": 456714581,
+      "category": "Emergency",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/policet.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "POLICET",
+        "mass": 2500,
+        "topSpeed": 130,
+        "driveForce": 0.16,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.5,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.95,
+          "min": 1.7,
+          "lateral": 22
+        },
+        "suspensionForce": 1.2,
+        "steeringLock": 35,
+        "monetaryValue": 22000
+      }
+    },
+    {
+      "id": "pranger",
+      "name": "Park Ranger",
+      "hash": 741586030,
+      "category": "Emergency",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/pranger.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "PRANGER",
+        "mass": 2400,
+        "topSpeed": 135,
+        "driveForce": 0.2,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0.6,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.85,
+          "lateral": 18.5
+        },
+        "suspensionForce": 2.8,
+        "steeringLock": 40,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "riot",
+      "name": "Police Riot",
+      "hash": 3089277354,
+      "category": "Emergency",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/riot.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "riot",
+        "mass": 6500,
+        "topSpeed": 120,
+        "driveForce": 0.12,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.4,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.65,
+          "min": 1.4,
+          "lateral": 19
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 38,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "riot2",
+      "name": "RCV",
+      "hash": 2601952180,
+      "category": "Emergency",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/riot2.webp",
+      "dlc": {
+        "id": "mpchristmas2017",
+        "name": "The Doomsday Heist",
+        "releaseDate": "2017-12-12"
+      },
+      "stats": {
+        "handlingId": "RIOT2",
+        "mass": 12500,
+        "topSpeed": 125,
+        "driveForce": 0.16,
+        "brakeForce": 0.3,
+        "handBrakeForce": 0.4,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.75,
+          "min": 1.5,
+          "lateral": 19
+        },
+        "suspensionForce": 1.6,
+        "steeringLock": 38,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "sheriff",
+      "name": "Sheriff Cruiser",
+      "hash": 2611638396,
+      "category": "Emergency",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/sheriff.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "sheriff",
+        "mass": 1400,
+        "topSpeed": 145,
+        "driveForce": 0.24,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.25,
+          "min": 1.8,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.9,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "sheriff2",
+      "name": "Sheriff SUV",
+      "hash": 1922257928,
+      "category": "Emergency",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/sheriff2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "fbi2",
+        "mass": 2400,
+        "topSpeed": 140,
+        "driveForce": 0.2,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0.6,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.85,
+          "lateral": 18.5
+        },
+        "suspensionForce": 2.8,
+        "steeringLock": 40,
+        "monetaryValue": 50000
+      }
+    }
+  ]
+}

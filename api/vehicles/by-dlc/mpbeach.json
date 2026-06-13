@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "id": "mpbeach",
+    "name": "Beach Bum",
+    "releaseDate": "2013-11-19",
+    "key": "mpbeach",
+    "slug": "mpbeach",
+    "count": 4
+  },
+  "count": 4,
+  "items": [
+    {
+      "id": "bifta",
+      "name": "Bifta",
+      "hash": 3945366167,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/bifta.webp",
+      "dlc": {
+        "id": "mpbeach",
+        "name": "Beach Bum",
+        "releaseDate": "2013-11-19"
+      },
+      "stats": {
+        "handlingId": "bifta",
+        "mass": 1400,
+        "topSpeed": 136,
+        "driveForce": 0.26,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.3,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.05,
+          "min": 1.95,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 38,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "kalahari",
+      "name": "Kalahari",
+      "hash": 92612664,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/kalahari.webp",
+      "dlc": {
+        "id": "mpbeach",
+        "name": "Beach Bum",
+        "releaseDate": "2013-11-19"
+      },
+      "stats": {
+        "handlingId": "kalahari",
+        "mass": 800,
+        "topSpeed": 120,
+        "driveForce": 0.26,
+        "brakeForce": 1,
+        "handBrakeForce": 0.45,
+        "gears": 4,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.78,
+          "min": 1.7,
+          "lateral": 20.5
+        },
+        "suspensionForce": 0.9,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "paradise",
+      "name": "Paradise",
+      "hash": 1488164764,
+      "category": "Vans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/paradise.webp",
+      "dlc": {
+        "id": "mpbeach",
+        "name": "Beach Bum",
+        "releaseDate": "2013-11-19"
+      },
+      "stats": {
+        "handlingId": "paradise",
+        "mass": 2500,
+        "topSpeed": 130,
+        "driveForce": 0.17,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.5,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.95,
+          "min": 1.7,
+          "lateral": 22
+        },
+        "suspensionForce": 1.2,
+        "steeringLock": 35,
+        "monetaryValue": 22000
+      }
+    },
+    {
+      "id": "speeder",
+      "name": "Speeder",
+      "hash": 231083307,
+      "category": "Boats",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/speeder.webp",
+      "dlc": {
+        "id": "mpbeach",
+        "name": "Beach Bum",
+        "releaseDate": "2013-11-19"
+      },
+      "stats": {
+        "handlingId": "speeder",
+        "mass": 2400,
+        "topSpeed": 133,
+        "driveForce": 16,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0,
+          "min": 0,
+          "lateral": 6
+        },
+        "suspensionForce": 1,
+        "steeringLock": 35,
+        "monetaryValue": 40000
+      }
+    }
+  ]
+}

@@ -1,0 +1,1384 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "name": "Planes",
+    "key": "Planes",
+    "slug": "planes",
+    "count": 44
+  },
+  "count": 44,
+  "items": [
+    {
+      "id": "alkonost",
+      "name": "RO-86 Alkonost",
+      "hash": 3929093893,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/alkonost.webp",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "handlingId": "ALKONOST",
+        "mass": 55500,
+        "topSpeed": 281.5,
+        "driveForce": 0.1,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.01,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.85,
+          "min": 1.8,
+          "lateral": 12
+        },
+        "suspensionForce": 8.5,
+        "steeringLock": 40,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "alphaz1",
+      "name": "Alpha-Z1",
+      "hash": 2771347558,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/alphaz1.webp",
+      "dlc": {
+        "id": "mpsmuggler",
+        "name": "Smuggler's Run",
+        "releaseDate": "2017-08-29"
+      },
+      "stats": {
+        "handlingId": "ALPHAZ1",
+        "mass": 450,
+        "topSpeed": 184.4,
+        "driveForce": 0.001,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 1.15,
+          "min": 0.8,
+          "lateral": 22
+        },
+        "suspensionForce": 4.5,
+        "steeringLock": 55,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "avenger",
+      "name": "Avenger",
+      "hash": 2176659152,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/avenger.webp",
+      "dlc": {
+        "id": "mpchristmas2017",
+        "name": "The Doomsday Heist",
+        "releaseDate": "2017-12-12"
+      },
+      "stats": {
+        "handlingId": "AVENGER",
+        "mass": 18000,
+        "topSpeed": 250,
+        "driveForce": 0.001,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.8,
+          "lateral": 12
+        },
+        "suspensionForce": 6.5,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "avenger2",
+      "name": "Avenger",
+      "hash": 408970549,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/avenger2.webp",
+      "dlc": {
+        "id": "mpchristmas2017",
+        "name": "The Doomsday Heist",
+        "releaseDate": "2017-12-12"
+      },
+      "stats": {
+        "handlingId": "AVENGER",
+        "mass": 18000,
+        "topSpeed": 250,
+        "driveForce": 0.001,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.8,
+          "lateral": 12
+        },
+        "suspensionForce": 6.5,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "avenger3",
+      "name": "Avenger",
+      "hash": 3868033424,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/avenger3.webp",
+      "dlc": {
+        "id": "mp2023_01",
+        "name": "San Andreas Mercenaries",
+        "releaseDate": "2023-06-13"
+      },
+      "stats": {
+        "handlingId": "AVENGER3",
+        "mass": 18250,
+        "topSpeed": 250,
+        "driveForce": 0.001,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.8,
+          "lateral": 12
+        },
+        "suspensionForce": 6.5,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "avenger4",
+      "name": "Avenger",
+      "hash": 4225674290,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/avenger4.webp",
+      "dlc": {
+        "id": "mp2023_01",
+        "name": "San Andreas Mercenaries",
+        "releaseDate": "2023-06-13"
+      },
+      "stats": {
+        "handlingId": "AVENGER3",
+        "mass": 18250,
+        "topSpeed": 250,
+        "driveForce": 0.001,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.8,
+          "lateral": 12
+        },
+        "suspensionForce": 6.5,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "besra",
+      "name": "Besra",
+      "hash": 1824333165,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/besra.webp",
+      "dlc": {
+        "id": "mppilot",
+        "name": "San Andreas Flight School Update",
+        "releaseDate": "2014-08-19"
+      },
+      "stats": {
+        "handlingId": "BESRA",
+        "mass": 8000,
+        "topSpeed": 328.6,
+        "driveForce": 0.001,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.8,
+          "lateral": 12
+        },
+        "suspensionForce": 6.5,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "blimp",
+      "name": "Atomic Blimp",
+      "hash": 4143991942,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/blimp.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "BLIMP",
+        "mass": 12000,
+        "topSpeed": 160,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0.65,
+          "min": 0.6,
+          "lateral": 8
+        },
+        "suspensionForce": 3,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "blimp2",
+      "name": "Xero Blimp",
+      "hash": 3681241380,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/blimp2.webp",
+      "dlc": {
+        "id": "spupgrade",
+        "name": "Story Mode (Next-Gen)",
+        "releaseDate": "2014-11-18"
+      },
+      "stats": {
+        "handlingId": "BLIMP2",
+        "mass": 12000,
+        "topSpeed": 160,
+        "driveForce": 0.33,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0.65,
+          "min": 0.6,
+          "lateral": 8
+        },
+        "suspensionForce": 3,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "blimp3",
+      "name": "Blimp",
+      "hash": 3987008919,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/blimp3.webp",
+      "dlc": {
+        "id": "mpbattle",
+        "name": "After Hours",
+        "releaseDate": "2018-07-24"
+      },
+      "stats": {
+        "handlingId": "BLIMP",
+        "mass": 12000,
+        "topSpeed": 160,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0.65,
+          "min": 0.6,
+          "lateral": 8
+        },
+        "suspensionForce": 3,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "bombushka",
+      "name": "RM-10 Bombushka",
+      "hash": 4262088844,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/bombushka.webp",
+      "dlc": {
+        "id": "mpsmuggler",
+        "name": "Smuggler's Run",
+        "releaseDate": "2017-08-29"
+      },
+      "stats": {
+        "handlingId": "BOMBUSHKA",
+        "mass": 30100,
+        "topSpeed": 281.5,
+        "driveForce": 0.1,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.01,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0.85,
+          "min": 0.8,
+          "lateral": 12
+        },
+        "suspensionForce": 2.5,
+        "steeringLock": 40,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "cargoplane",
+      "name": "Cargo Plane",
+      "hash": 368211810,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/cargoplane.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "cargoplane",
+        "mass": 38000,
+        "topSpeed": 284,
+        "driveForce": 0.001,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.01,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0.85,
+          "min": 0.8,
+          "lateral": 12
+        },
+        "suspensionForce": 1.5,
+        "steeringLock": 40,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "cargoplane2",
+      "name": "Cargo Plane",
+      "hash": 2336777441,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/cargoplane2.webp",
+      "dlc": {
+        "id": "mpchristmas3",
+        "name": "Los Santos Drug Wars",
+        "releaseDate": "2022-12-13"
+      },
+      "stats": {
+        "handlingId": "cargoplane",
+        "mass": 38000,
+        "topSpeed": 284,
+        "driveForce": 0.001,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.01,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0.85,
+          "min": 0.8,
+          "lateral": 12
+        },
+        "suspensionForce": 1.5,
+        "steeringLock": 40,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "cuban800",
+      "name": "Cuban 800",
+      "hash": 3650256867,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/cuban800.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "CUBAN800",
+        "mass": 5000,
+        "topSpeed": 276.5,
+        "driveForce": 0.01,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.01,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.8,
+          "lateral": 12
+        },
+        "suspensionForce": 8.5,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "dodo",
+      "name": "Dodo",
+      "hash": 3393804037,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dodo.webp",
+      "dlc": {
+        "id": "spupgrade",
+        "name": "Story Mode (Next-Gen)",
+        "releaseDate": "2014-11-18"
+      },
+      "stats": {
+        "handlingId": "SEAPLANE",
+        "mass": 2000,
+        "topSpeed": 250,
+        "driveForce": 0.001,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.8,
+          "lateral": 12
+        },
+        "suspensionForce": 6.5,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "duster",
+      "name": "Duster",
+      "hash": 970356638,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/duster.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "duster",
+        "mass": 2000,
+        "topSpeed": 249.8,
+        "driveForce": 0.001,
+        "brakeForce": 0.1,
+        "handBrakeForce": 0.05,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.8,
+          "lateral": 12
+        },
+        "suspensionForce": 4.5,
+        "steeringLock": 35,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "howard",
+      "name": "Howard NX-25",
+      "hash": 3287439187,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/howard.webp",
+      "dlc": {
+        "id": "mpsmuggler",
+        "name": "Smuggler's Run",
+        "releaseDate": "2017-08-29"
+      },
+      "stats": {
+        "handlingId": "HOWARD",
+        "mass": 450,
+        "topSpeed": 184.4,
+        "driveForce": 0.001,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 1.15,
+          "min": 0.8,
+          "lateral": 22
+        },
+        "suspensionForce": 4.5,
+        "steeringLock": 55,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "hydra",
+      "name": "Hydra",
+      "hash": 970385471,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/hydra.webp",
+      "dlc": {
+        "id": "mpheist",
+        "name": "The Heists Update",
+        "releaseDate": "2015-03-10"
+      },
+      "stats": {
+        "handlingId": "HYDRA",
+        "mass": 8000,
+        "topSpeed": 10,
+        "driveForce": 0.001,
+        "brakeForce": 0.18,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.15,
+          "min": 0.8,
+          "lateral": 12
+        },
+        "suspensionForce": 3.75,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "jet",
+      "name": "Jet",
+      "hash": 1058115860,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/jet.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "jet",
+        "mass": 38000,
+        "topSpeed": 284,
+        "driveForce": 0.001,
+        "brakeForce": 0.001,
+        "handBrakeForce": 0.01,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.6,
+          "min": 1.55,
+          "lateral": 18
+        },
+        "suspensionForce": 1.5,
+        "steeringLock": 40,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "lazer",
+      "name": "P-996 LAZER",
+      "hash": 3013282534,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/lazer.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "LAZER",
+        "mass": 8000,
+        "topSpeed": 328.6,
+        "driveForce": 0.001,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.8,
+          "lateral": 12
+        },
+        "suspensionForce": 6.5,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "luxor",
+      "name": "Luxor",
+      "hash": 621481054,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/luxor.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "luxor",
+        "mass": 6400,
+        "topSpeed": 326.2,
+        "driveForce": 0.001,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.01,
+        "gears": 1,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 1.15,
+          "min": 0.8,
+          "lateral": 12
+        },
+        "suspensionForce": 2.5,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "luxor2",
+      "name": "Luxor Deluxe",
+      "hash": 3080673438,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/luxor2.webp",
+      "dlc": {
+        "id": "mpluxe",
+        "name": "Ill-Gotten Gains Part 1",
+        "releaseDate": "2015-06-10"
+      },
+      "stats": {
+        "handlingId": "luxor2",
+        "mass": 6500,
+        "topSpeed": 326.2,
+        "driveForce": 0.001,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.01,
+        "gears": 1,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 1.15,
+          "min": 0.8,
+          "lateral": 12
+        },
+        "suspensionForce": 2.5,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "mammatus",
+      "name": "Mammatus",
+      "hash": 2548391185,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/mammatus.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "mammatus",
+        "mass": 2000,
+        "topSpeed": 250,
+        "driveForce": 0.001,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.8,
+          "lateral": 12
+        },
+        "suspensionForce": 6.5,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "microlight",
+      "name": "Ultralight",
+      "hash": 2531412055,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/microlight.webp",
+      "dlc": {
+        "id": "mpsmuggler",
+        "name": "Smuggler's Run",
+        "releaseDate": "2017-08-29"
+      },
+      "stats": {
+        "handlingId": "MICROLIGHT",
+        "mass": 250,
+        "topSpeed": 78.6,
+        "driveForce": 0.003,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.8,
+          "lateral": 12
+        },
+        "suspensionForce": 1.5,
+        "steeringLock": 20,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "miljet",
+      "name": "Miljet",
+      "hash": 165154707,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/miljet.webp",
+      "dlc": {
+        "id": "mppilot",
+        "name": "San Andreas Flight School Update",
+        "releaseDate": "2014-08-19"
+      },
+      "stats": {
+        "handlingId": "MILJET",
+        "mass": 6400,
+        "topSpeed": 140,
+        "driveForce": 0.001,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.01,
+        "gears": 1,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 1.5,
+          "min": 1.1,
+          "lateral": 16
+        },
+        "suspensionForce": 3.2,
+        "steeringLock": 45,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "mogul",
+      "name": "Mogul",
+      "hash": 3545667823,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/mogul.webp",
+      "dlc": {
+        "id": "mpsmuggler",
+        "name": "Smuggler's Run",
+        "releaseDate": "2017-08-29"
+      },
+      "stats": {
+        "handlingId": "MOGUL",
+        "mass": 5000,
+        "topSpeed": 276.5,
+        "driveForce": 0.01,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.01,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.8,
+          "lateral": 12
+        },
+        "suspensionForce": 8.5,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "molotok",
+      "name": "V-65 Molotok",
+      "hash": 1565978651,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/molotok.webp",
+      "dlc": {
+        "id": "mpsmuggler",
+        "name": "Smuggler's Run",
+        "releaseDate": "2017-08-29"
+      },
+      "stats": {
+        "handlingId": "MOLOTOK",
+        "mass": 3200,
+        "topSpeed": 328.6,
+        "driveForce": 0.001,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.8,
+          "lateral": 12
+        },
+        "suspensionForce": 6.5,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "nimbus",
+      "name": "Nimbus",
+      "hash": 2999939664,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/nimbus.webp",
+      "dlc": {
+        "id": "mpexecutive",
+        "name": "Further Adventures in Finance and Felony",
+        "releaseDate": "2016-06-07"
+      },
+      "stats": {
+        "handlingId": "NIMBUS",
+        "mass": 6500,
+        "topSpeed": 328.2,
+        "driveForce": 0.001,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.01,
+        "gears": 1,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 1.15,
+          "min": 0.8,
+          "lateral": 12
+        },
+        "suspensionForce": 2.5,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "nokota",
+      "name": "P-45 Nokota",
+      "hash": 1036591958,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/nokota.webp",
+      "dlc": {
+        "id": "mpsmuggler",
+        "name": "Smuggler's Run",
+        "releaseDate": "2017-08-29"
+      },
+      "stats": {
+        "handlingId": "NOKOTA",
+        "mass": 3200,
+        "topSpeed": 328.6,
+        "driveForce": 0.001,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.8,
+          "lateral": 12
+        },
+        "suspensionForce": 6.5,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "pyro",
+      "name": "Pyro",
+      "hash": 2908775872,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/pyro.webp",
+      "dlc": {
+        "id": "mpsmuggler",
+        "name": "Smuggler's Run",
+        "releaseDate": "2017-08-29"
+      },
+      "stats": {
+        "handlingId": "PYRO",
+        "mass": 4000,
+        "topSpeed": 328.6,
+        "driveForce": 0.001,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.8,
+          "lateral": 12
+        },
+        "suspensionForce": 6.5,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "raiju",
+      "name": "F-160 Raiju",
+      "hash": 239897677,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/raiju.webp",
+      "dlc": {
+        "id": "mp2023_01",
+        "name": "San Andreas Mercenaries",
+        "releaseDate": "2023-06-13"
+      },
+      "stats": {
+        "handlingId": "RAIJU",
+        "mass": 11000,
+        "topSpeed": 10,
+        "driveForce": 0.001,
+        "brakeForce": 0.18,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.15,
+          "min": 0.8,
+          "lateral": 12
+        },
+        "suspensionForce": 3.5,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "rogue",
+      "name": "Rogue",
+      "hash": 3319621991,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/rogue.webp",
+      "dlc": {
+        "id": "mpsmuggler",
+        "name": "Smuggler's Run",
+        "releaseDate": "2017-08-29"
+      },
+      "stats": {
+        "handlingId": "ROGUE",
+        "mass": 4200,
+        "topSpeed": 328.6,
+        "driveForce": 0.001,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.8,
+          "lateral": 12
+        },
+        "suspensionForce": 6.5,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "seabreeze",
+      "name": "Seabreeze",
+      "hash": 3902291871,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/seabreeze.webp",
+      "dlc": {
+        "id": "mpsmuggler",
+        "name": "Smuggler's Run",
+        "releaseDate": "2017-08-29"
+      },
+      "stats": {
+        "handlingId": "SEABREEZE",
+        "mass": 3000,
+        "topSpeed": 328.6,
+        "driveForce": 0.001,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.8,
+          "lateral": 12
+        },
+        "suspensionForce": 6.5,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "shamal",
+      "name": "Shamal",
+      "hash": 3080461301,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/shamal.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "shamal",
+        "mass": 6400,
+        "topSpeed": 326.2,
+        "driveForce": 0.001,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.01,
+        "gears": 1,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 1.15,
+          "min": 0.8,
+          "lateral": 12
+        },
+        "suspensionForce": 2.5,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "starling",
+      "name": "LF-22 Starling",
+      "hash": 2594093022,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/starling.webp",
+      "dlc": {
+        "id": "mpsmuggler",
+        "name": "Smuggler's Run",
+        "releaseDate": "2017-08-29"
+      },
+      "stats": {
+        "handlingId": "STARLING",
+        "mass": 2000,
+        "topSpeed": 284.4,
+        "driveForce": 0.001,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 1.15,
+          "min": 0.8,
+          "lateral": 22
+        },
+        "suspensionForce": 4.5,
+        "steeringLock": 55,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "streamer216",
+      "name": "Streamer216",
+      "hash": 191916658,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/streamer216.webp",
+      "dlc": {
+        "id": "mp2023_01",
+        "name": "San Andreas Mercenaries",
+        "releaseDate": "2023-06-13"
+      },
+      "stats": {
+        "handlingId": "STREAMER216",
+        "mass": 3400,
+        "topSpeed": 276.5,
+        "driveForce": 0.01,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.01,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.8,
+          "lateral": 12
+        },
+        "suspensionForce": 5.5,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "strikeforce",
+      "name": "B-11 Strikeforce",
+      "hash": 1692272545,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/strikeforce.webp",
+      "dlc": {
+        "id": "mpbattle",
+        "name": "After Hours",
+        "releaseDate": "2018-07-24"
+      },
+      "stats": {
+        "handlingId": "STRIKEFORCE",
+        "mass": 14000,
+        "topSpeed": 328.6,
+        "driveForce": 0.001,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.8,
+          "lateral": 12
+        },
+        "suspensionForce": 6.5,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "stunt",
+      "name": "Mallard",
+      "hash": 2172210288,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/stunt.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "stunt",
+        "mass": 2000,
+        "topSpeed": 284.4,
+        "driveForce": 0.001,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 1.15,
+          "min": 0.8,
+          "lateral": 22
+        },
+        "suspensionForce": 4.5,
+        "steeringLock": 55,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "titan",
+      "name": "Titan",
+      "hash": 1981688531,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/titan.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "titan",
+        "mass": 38000,
+        "topSpeed": 281.5,
+        "driveForce": 0.1,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.01,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0.85,
+          "min": 0.8,
+          "lateral": 12
+        },
+        "suspensionForce": 1.5,
+        "steeringLock": 40,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "tula",
+      "name": "Tula",
+      "hash": 1043222410,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tula.webp",
+      "dlc": {
+        "id": "mpsmuggler",
+        "name": "Smuggler's Run",
+        "releaseDate": "2017-08-29"
+      },
+      "stats": {
+        "handlingId": "TULA",
+        "mass": 2000,
+        "topSpeed": 250,
+        "driveForce": 0.001,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.8,
+          "lateral": 12
+        },
+        "suspensionForce": 6.5,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "velum",
+      "name": "Velum",
+      "hash": 2621610858,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/velum.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "velum",
+        "mass": 5000,
+        "topSpeed": 268.7,
+        "driveForce": 0.01,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.01,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.8,
+          "lateral": 12
+        },
+        "suspensionForce": 6.5,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "velum2",
+      "name": "Velum 5-Seater",
+      "hash": 1077420264,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/velum2.webp",
+      "dlc": {
+        "id": "mpheist",
+        "name": "The Heists Update",
+        "releaseDate": "2015-03-10"
+      },
+      "stats": {
+        "handlingId": "velum",
+        "mass": 5000,
+        "topSpeed": 268.7,
+        "driveForce": 0.01,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.01,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.8,
+          "lateral": 12
+        },
+        "suspensionForce": 6.5,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "vestra",
+      "name": "Vestra",
+      "hash": 1341619767,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/vestra.webp",
+      "dlc": {
+        "id": "mpbusiness",
+        "name": "The Business Update",
+        "releaseDate": "2014-03-04"
+      },
+      "stats": {
+        "handlingId": "vestra",
+        "mass": 5000,
+        "topSpeed": 141,
+        "driveForce": 0.01,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.01,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.15,
+          "min": 0.8,
+          "lateral": 12
+        },
+        "suspensionForce": 2.5,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "volatol",
+      "name": "Volatol",
+      "hash": 447548909,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/volatol.webp",
+      "dlc": {
+        "id": "mpchristmas2017",
+        "name": "The Doomsday Heist",
+        "releaseDate": "2017-12-12"
+      },
+      "stats": {
+        "handlingId": "VOLATOL",
+        "mass": 40000,
+        "topSpeed": 250,
+        "driveForce": 0.01,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.01,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.8,
+          "lateral": 12
+        },
+        "suspensionForce": 8.5,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    }
+  ]
+}

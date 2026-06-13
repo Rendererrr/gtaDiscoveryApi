@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "peds",
+    "label": "Peds",
+    "urlPattern": "{cdnBase}/assets/peds/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate null for patch-day additions)."
+  },
+  "group": {
+    "id": "mpgunrunning",
+    "name": "Gunrunning",
+    "releaseDate": "2017-06-13",
+    "key": "mpgunrunning",
+    "slug": "mpgunrunning",
+    "count": 1
+  },
+  "count": 1,
+  "items": [
+    {
+      "id": "mp_m_weapwork_01",
+      "name": "mp_m_weapwork_01",
+      "hash": 1099321454,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "props": "2 props",
+      "components": "6 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_m_weapwork_01.webp"
+    }
+  ]
+}

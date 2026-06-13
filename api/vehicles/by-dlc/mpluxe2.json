@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "id": "mpluxe2",
+    "name": "Ill-Gotten Gains Part 2",
+    "releaseDate": "2015-07-08",
+    "key": "mpluxe2",
+    "slug": "mpluxe2",
+    "count": 6
+  },
+  "count": 6,
+  "items": [
+    {
+      "id": "chino",
+      "name": "Chino",
+      "hash": 349605904,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/chino.webp",
+      "dlc": {
+        "id": "mpluxe2",
+        "name": "Ill-Gotten Gains Part 2",
+        "releaseDate": "2015-07-08"
+      },
+      "stats": {
+        "handlingId": "CHINO",
+        "mass": 2300,
+        "topSpeed": 130,
+        "driveForce": 0.2,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.8,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.05,
+          "min": 1.85,
+          "lateral": 20.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "coquette3",
+      "name": "Coquette BlackFin",
+      "hash": 784565758,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/coquette3.webp",
+      "dlc": {
+        "id": "mpluxe2",
+        "name": "Ill-Gotten Gains Part 2",
+        "releaseDate": "2015-07-08"
+      },
+      "stats": {
+        "handlingId": "COQUETTE3",
+        "mass": 1400,
+        "topSpeed": 151,
+        "driveForce": 0.29,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.55,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.25,
+          "min": 1.95,
+          "lateral": 20.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "t20",
+      "name": "T20",
+      "hash": 1663218586,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/t20.webp",
+      "dlc": {
+        "id": "mpluxe2",
+        "name": "Ill-Gotten Gains Part 2",
+        "releaseDate": "2015-07-08"
+      },
+      "stats": {
+        "handlingId": "T20",
+        "mass": 1395,
+        "topSpeed": 159.3,
+        "driveForce": 0.365,
+        "brakeForce": 1.1,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0.3,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.68,
+          "min": 2.55,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "vindicator",
+      "name": "Vindicator",
+      "hash": 2941886209,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/vindicator.webp",
+      "dlc": {
+        "id": "mpluxe2",
+        "name": "Ill-Gotten Gains Part 2",
+        "releaseDate": "2015-07-08"
+      },
+      "stats": {
+        "handlingId": "VINDICATOR",
+        "mass": 280,
+        "topSpeed": 148,
+        "driveForce": 0.263,
+        "brakeForce": 1.52,
+        "handBrakeForce": 1.2,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.98,
+          "min": 1.94,
+          "lateral": 20
+        },
+        "suspensionForce": 7,
+        "steeringLock": 35,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "brawler",
+      "name": "Brawler",
+      "hash": 2815302597,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/brawler.webp",
+      "dlc": {
+        "id": "mpluxe2",
+        "name": "Ill-Gotten Gains Part 2",
+        "releaseDate": "2015-07-08"
+      },
+      "stats": {
+        "handlingId": "BRAWLER",
+        "mass": 2100,
+        "topSpeed": 140,
+        "driveForce": 0.28,
+        "brakeForce": 0.88,
+        "handBrakeForce": 0.45,
+        "gears": 5,
+        "driveBiasFront": 0.09,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.92,
+          "min": 1.8,
+          "lateral": 21.5
+        },
+        "suspensionForce": 1.9,
+        "steeringLock": 40,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "toro",
+      "name": "Toro",
+      "hash": 1070967343,
+      "category": "Boats",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/toro.webp",
+      "dlc": {
+        "id": "mpluxe2",
+        "name": "Ill-Gotten Gains Part 2",
+        "releaseDate": "2015-07-08"
+      },
+      "stats": {
+        "handlingId": "TORO",
+        "mass": 1100,
+        "topSpeed": 133,
+        "driveForce": 18,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0,
+          "min": 0,
+          "lateral": 6
+        },
+        "suspensionForce": 1,
+        "steeringLock": 33,
+        "monetaryValue": 40000
+      }
+    }
+  ]
+}

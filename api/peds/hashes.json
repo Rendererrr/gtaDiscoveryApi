@@ -6,7 +6,7 @@
     "domain": "peds",
     "label": "Peds",
     "urlPattern": "{cdnBase}/assets/peds/images/{model_name}.webp",
-    "note": "Flat catalog keyed by model_name. hash = joaat(model_name)."
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate null for patch-day additions)."
   },
   "count": 848,
   "hashes": {

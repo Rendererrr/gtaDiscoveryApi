@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "id": "mpspecialraces",
+    "name": "Cunning Stunts: Special Vehicle Circuit",
+    "releaseDate": "2016-11-08",
+    "key": "mpspecialraces",
+    "slug": "mpspecialraces",
+    "count": 4
+  },
+  "count": 4,
+  "items": [
+    {
+      "id": "infernus2",
+      "name": "Infernus Classic",
+      "hash": 2889029532,
+      "category": "Sports Classic",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/infernus2.webp",
+      "dlc": {
+        "id": "mpspecialraces",
+        "name": "Cunning Stunts: Special Vehicle Circuit",
+        "releaseDate": "2016-11-08"
+      },
+      "stats": {
+        "handlingId": "INFERNUS2",
+        "mass": 1400,
+        "topSpeed": 149.5,
+        "driveForce": 0.33,
+        "brakeForce": 0.5,
+        "handBrakeForce": 0.72,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.63,
+          "min": 2.44,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 30,
+        "monetaryValue": 100000
+      }
+    },
+    {
+      "id": "turismo2",
+      "name": "Turismo Classic",
+      "hash": 3312836369,
+      "category": "Sports Classic",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/turismo2.webp",
+      "dlc": {
+        "id": "mpspecialraces",
+        "name": "Cunning Stunts: Special Vehicle Circuit",
+        "releaseDate": "2016-11-08"
+      },
+      "stats": {
+        "handlingId": "TURISMO2",
+        "mass": 1100,
+        "topSpeed": 152.5,
+        "driveForce": 0.34,
+        "brakeForce": 0.5,
+        "handBrakeForce": 0.72,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.65,
+          "min": 2.48,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.3,
+        "steeringLock": 37,
+        "monetaryValue": 100000
+      }
+    },
+    {
+      "id": "ruston",
+      "name": "Ruston",
+      "hash": 719660200,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/ruston.webp",
+      "dlc": {
+        "id": "mpspecialraces",
+        "name": "Cunning Stunts: Special Vehicle Circuit",
+        "releaseDate": "2016-11-08"
+      },
+      "stats": {
+        "handlingId": "RUSTON",
+        "mass": 800,
+        "topSpeed": 148,
+        "driveForce": 0.325,
+        "brakeForce": 1.2,
+        "handBrakeForce": 0.7,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.6,
+          "min": 2.45,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.75,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "gp1",
+      "name": "GP1",
+      "hash": 1234311532,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/gp1.webp",
+      "dlc": {
+        "id": "mpspecialraces",
+        "name": "Cunning Stunts: Special Vehicle Circuit",
+        "releaseDate": "2016-11-08"
+      },
+      "stats": {
+        "handlingId": "GP1",
+        "mass": 1100,
+        "topSpeed": 160.5,
+        "driveForce": 0.37,
+        "brakeForce": 1.2,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.68,
+          "min": 2.56,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    }
+  ]
+}

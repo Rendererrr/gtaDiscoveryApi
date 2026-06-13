@@ -1,0 +1,1570 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "name": "Utility",
+    "key": "Utility",
+    "slug": "utility",
+    "count": 50
+  },
+  "count": 50,
+  "items": [
+    {
+      "id": "airtug",
+      "name": "Airtug",
+      "hash": 1560980623,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/airtug.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "AIRTUG",
+        "mass": 1400,
+        "topSpeed": 40,
+        "driveForce": 0.06,
+        "brakeForce": 0.3,
+        "handBrakeForce": 0.35,
+        "gears": 1,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 1.15,
+          "min": 0.95,
+          "lateral": 11
+        },
+        "suspensionForce": 4,
+        "steeringLock": 30,
+        "monetaryValue": 15000
+      }
+    },
+    {
+      "id": "armytanker",
+      "name": "Army Trailer",
+      "hash": 3087536137,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/armytanker.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "TANKER",
+        "mass": 5000,
+        "topSpeed": 105,
+        "driveForce": 0,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.8,
+          "min": 1.75,
+          "lateral": 20
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "armytrailer",
+      "name": "Army Trailer",
+      "hash": 2818520053,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/armytrailer.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "ARMYTRAILER",
+        "mass": 10000,
+        "topSpeed": 105,
+        "driveForce": 0,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 3,
+          "min": 3,
+          "lateral": 20
+        },
+        "suspensionForce": 1.2,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "armytrailer2",
+      "name": "Army Trailer",
+      "hash": 2657817814,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/armytrailer2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "ARMYTRAILER",
+        "mass": 10000,
+        "topSpeed": 105,
+        "driveForce": 0,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 3,
+          "min": 3,
+          "lateral": 20
+        },
+        "suspensionForce": 1.2,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "baletrailer",
+      "name": "Baletrailer",
+      "hash": 3895125590,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/baletrailer.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "BALETRAILER",
+        "mass": 2500,
+        "topSpeed": 105,
+        "driveForce": 0,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 3.3,
+          "min": 3.3,
+          "lateral": 20
+        },
+        "suspensionForce": 1.2,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "boattrailer",
+      "name": "Boat Trailer",
+      "hash": 524108981,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/boattrailer.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "BOATTRAILER",
+        "mass": 1200,
+        "topSpeed": 105,
+        "driveForce": 0,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 3.3,
+          "min": 3.3,
+          "lateral": 20
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "boattrailer2",
+      "name": "Boat Trailer",
+      "hash": 1835260592,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/boattrailer2.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "BOATTRAILER",
+        "mass": 1200,
+        "topSpeed": 105,
+        "driveForce": 0,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 3.3,
+          "min": 3.3,
+          "lateral": 20
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "boattrailer3",
+      "name": "Boat Trailer",
+      "hash": 1539159908,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/boattrailer3.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "BOATTRAILER",
+        "mass": 1200,
+        "topSpeed": 105,
+        "driveForce": 0,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 3.3,
+          "min": 3.3,
+          "lateral": 20
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "caddy",
+      "name": "Caddy",
+      "hash": 1147287684,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/caddy.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "caddy",
+        "mass": 600,
+        "topSpeed": 65,
+        "driveForce": 0.3,
+        "brakeForce": 0.2,
+        "handBrakeForce": 0.35,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.5,
+          "min": 1.35,
+          "lateral": 11
+        },
+        "suspensionForce": 4,
+        "steeringLock": 35,
+        "monetaryValue": 10000
+      }
+    },
+    {
+      "id": "caddy2",
+      "name": "Caddy",
+      "hash": 3757070668,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/caddy2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "CADDY2",
+        "mass": 600,
+        "topSpeed": 65,
+        "driveForce": 0.3,
+        "brakeForce": 0.2,
+        "handBrakeForce": 0.1,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.45,
+          "min": 1.25,
+          "lateral": 11
+        },
+        "suspensionForce": 4,
+        "steeringLock": 35,
+        "monetaryValue": 10000
+      }
+    },
+    {
+      "id": "caddy3",
+      "name": "Caddy",
+      "hash": 3525819835,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/caddy3.webp",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "handlingId": "CADDY3",
+        "mass": 600,
+        "topSpeed": 65,
+        "driveForce": 0.3,
+        "brakeForce": 0.2,
+        "handBrakeForce": 0.1,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.45,
+          "min": 1.3,
+          "lateral": 11
+        },
+        "suspensionForce": 4,
+        "steeringLock": 40,
+        "monetaryValue": 10000
+      }
+    },
+    {
+      "id": "docktrailer",
+      "name": "null",
+      "hash": 2154757102,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/docktrailer.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "DOCKTRAILER",
+        "mass": 2000,
+        "topSpeed": 105,
+        "driveForce": 0,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 3.3,
+          "min": 3.3,
+          "lateral": 20
+        },
+        "suspensionForce": 1.2,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "docktug",
+      "name": "Docktug",
+      "hash": 3410276810,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/docktug.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "DOCKTUG",
+        "mass": 10400,
+        "topSpeed": 80,
+        "driveForce": 0.2,
+        "brakeForce": 0.5,
+        "handBrakeForce": 0.2,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.4,
+          "min": 1.25,
+          "lateral": 15
+        },
+        "suspensionForce": 4,
+        "steeringLock": 35,
+        "monetaryValue": 15000
+      }
+    },
+    {
+      "id": "forklift",
+      "name": "Forklift",
+      "hash": 1491375716,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/forklift.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "forklift",
+        "mass": 6000,
+        "topSpeed": 30,
+        "driveForce": 0.18,
+        "brakeForce": 0.3,
+        "handBrakeForce": 0.1,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.15,
+          "min": 1.1,
+          "lateral": 10
+        },
+        "suspensionForce": 4.5,
+        "steeringLock": 37,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "freighttrailer",
+      "name": "null",
+      "hash": 3517691494,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/freighttrailer.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "ARMYTRAILER",
+        "mass": 10000,
+        "topSpeed": 105,
+        "driveForce": 0,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 3,
+          "min": 3,
+          "lateral": 20
+        },
+        "suspensionForce": 1.2,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "graintrailer",
+      "name": "Graintrailer",
+      "hash": 1019737494,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/graintrailer.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "GRAINTRAIL",
+        "mass": 3000,
+        "topSpeed": 105,
+        "driveForce": 0,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 3.3,
+          "min": 3.3,
+          "lateral": 20
+        },
+        "suspensionForce": 1.2,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "mower",
+      "name": "Lawn Mower",
+      "hash": 1783355638,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/mower.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "MOWER",
+        "mass": 400,
+        "topSpeed": 20,
+        "driveForce": 0.05,
+        "brakeForce": 0.5,
+        "handBrakeForce": 0.1,
+        "gears": 1,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 1.35,
+          "min": 1.15,
+          "lateral": 11
+        },
+        "suspensionForce": 4,
+        "steeringLock": 33,
+        "monetaryValue": 15000
+      }
+    },
+    {
+      "id": "proptrailer",
+      "name": "null",
+      "hash": 356391690,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/proptrailer.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "proptrailer",
+        "mass": 1800,
+        "topSpeed": 105,
+        "driveForce": 0,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 3.3,
+          "min": 3.3,
+          "lateral": 20
+        },
+        "suspensionForce": 1.2,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "raketrailer",
+      "name": "Trailer",
+      "hash": 390902130,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/raketrailer.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "RAKETRAILER",
+        "mass": 1100,
+        "topSpeed": 105,
+        "driveForce": 0,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.3,
+          "lateral": 20
+        },
+        "suspensionForce": 0.5,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "ripley",
+      "name": "Ripley",
+      "hash": 3448987385,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/ripley.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "RIPLEY",
+        "mass": 9500,
+        "topSpeed": 70,
+        "driveForce": 0.16,
+        "brakeForce": 0.2,
+        "handBrakeForce": 0.3,
+        "gears": 3,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.35,
+          "min": 1.15,
+          "lateral": 14
+        },
+        "suspensionForce": 2.5,
+        "steeringLock": 35,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "sadler",
+      "name": "Sadler",
+      "hash": 3695398481,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/sadler.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "SADLER",
+        "mass": 2100,
+        "topSpeed": 130,
+        "driveForce": 0.2,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.4,
+        "gears": 5,
+        "driveBiasFront": 0.2,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.05,
+          "min": 1.7,
+          "lateral": 19
+        },
+        "suspensionForce": 2.9,
+        "steeringLock": 35,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "sadler2",
+      "name": "Sadler",
+      "hash": 734217681,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/sadler2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "SADLER",
+        "mass": 2100,
+        "topSpeed": 130,
+        "driveForce": 0.2,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.4,
+        "gears": 5,
+        "driveBiasFront": 0.2,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.05,
+          "min": 1.7,
+          "lateral": 19
+        },
+        "suspensionForce": 2.9,
+        "steeringLock": 35,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "scrap",
+      "name": "Scrap Truck",
+      "hash": 2594165727,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/scrap.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "SCRAP",
+        "mass": 5000,
+        "topSpeed": 105,
+        "driveForce": 0.13,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.3,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.6,
+          "min": 1.45,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.9,
+        "steeringLock": 37,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "slamtruck",
+      "name": "Slamtruck",
+      "hash": 3249056020,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/slamtruck.webp",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "handlingId": "SLAMTRUCK",
+        "mass": 6000,
+        "topSpeed": 125,
+        "driveForce": 0.225,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.3,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.71,
+          "min": 1.42,
+          "lateral": 18.5
+        },
+        "suspensionForce": 2.3,
+        "steeringLock": 24.5,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "tanker",
+      "name": "Trailer",
+      "hash": 3564062519,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tanker.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "TANKER",
+        "mass": 5000,
+        "topSpeed": 105,
+        "driveForce": 0,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.8,
+          "min": 1.75,
+          "lateral": 20
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "tanker2",
+      "name": "null",
+      "hash": 1956216962,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tanker2.webp",
+      "dlc": {
+        "id": "mpheist",
+        "name": "The Heists Update",
+        "releaseDate": "2015-03-10"
+      },
+      "stats": {
+        "handlingId": "TANKER",
+        "mass": 5000,
+        "topSpeed": 105,
+        "driveForce": 0,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.8,
+          "min": 1.75,
+          "lateral": 20
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "towtruck",
+      "name": "Tow Truck",
+      "hash": 2971866336,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/towtruck.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "towtruck",
+        "mass": 5000,
+        "topSpeed": 105,
+        "driveForce": 0.15,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.15,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.6,
+          "min": 1.45,
+          "lateral": 18.5
+        },
+        "suspensionForce": 1.9,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "towtruck2",
+      "name": "Tow Truck",
+      "hash": 3852654278,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/towtruck2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "towtruck2",
+        "mass": 5000,
+        "topSpeed": 100,
+        "driveForce": 0.15,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.15,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.45,
+          "min": 1.35,
+          "lateral": 17.5
+        },
+        "suspensionForce": 1.9,
+        "steeringLock": 35,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "towtruck3",
+      "name": "Tow Truck",
+      "hash": 3623402354,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/towtruck3.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "TOWTRUCK3",
+        "mass": 4950,
+        "topSpeed": 115,
+        "driveForce": 0.175,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.15,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.6,
+          "min": 1.48,
+          "lateral": 18.5
+        },
+        "suspensionForce": 1.9,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "towtruck4",
+      "name": "Tow Truck",
+      "hash": 3392937977,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/towtruck4.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "TOWTRUCK3",
+        "mass": 4950,
+        "topSpeed": 115,
+        "driveForce": 0.175,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.15,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.6,
+          "min": 1.48,
+          "lateral": 18.5
+        },
+        "suspensionForce": 1.9,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "tr2",
+      "name": "Trailer",
+      "hash": 2078290630,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tr2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "tr2",
+        "mass": 9000,
+        "topSpeed": 105,
+        "driveForce": 0,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.8,
+          "min": 1.75,
+          "lateral": 20
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "tr3",
+      "name": "Trailer",
+      "hash": 1784254509,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tr3.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "TR3",
+        "mass": 10000,
+        "topSpeed": 105,
+        "driveForce": 0,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.8,
+          "min": 1.75,
+          "lateral": 20
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "tr4",
+      "name": "Trailer",
+      "hash": 2091594960,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tr4.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "tr2",
+        "mass": 9000,
+        "topSpeed": 105,
+        "driveForce": 0,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.8,
+          "min": 1.75,
+          "lateral": 20
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "tractor",
+      "name": "Tractor",
+      "hash": 1641462412,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tractor.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "TRACTOR",
+        "mass": 2400,
+        "topSpeed": 40,
+        "driveForce": 0.08,
+        "brakeForce": 0.3,
+        "handBrakeForce": 0.2,
+        "gears": 3,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.2,
+          "min": 1,
+          "lateral": 15
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 30,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "tractor2",
+      "name": "Fieldmaster",
+      "hash": 2218488798,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tractor2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "TRACTOR2",
+        "mass": 6500,
+        "topSpeed": 45,
+        "driveForce": 0.15,
+        "brakeForce": 0.3,
+        "handBrakeForce": 0.2,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.7,
+          "min": 1.5,
+          "lateral": 17
+        },
+        "suspensionForce": 2.1,
+        "steeringLock": 30,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "tractor3",
+      "name": "Fieldmaster",
+      "hash": 1445631933,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tractor3.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "TRACTOR2",
+        "mass": 6500,
+        "topSpeed": 45,
+        "driveForce": 0.15,
+        "brakeForce": 0.3,
+        "handBrakeForce": 0.2,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.7,
+          "min": 1.5,
+          "lateral": 17
+        },
+        "suspensionForce": 2.1,
+        "steeringLock": 30,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "trailerlarge",
+      "name": "Mobile Operations Center",
+      "hash": 1502869817,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/trailerlarge.webp",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "handlingId": "TRAILERLARGE",
+        "mass": 13500,
+        "topSpeed": 105,
+        "driveForce": 0,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 3.3,
+          "min": 3.3,
+          "lateral": 20
+        },
+        "suspensionForce": 1.2,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "trailerlogs",
+      "name": "Trailer",
+      "hash": 2016027501,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/trailerlogs.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "TRAILERL",
+        "mass": 5000,
+        "topSpeed": 105,
+        "driveForce": 0,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.8,
+          "min": 1.75,
+          "lateral": 20
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "trailers",
+      "name": "Trailer",
+      "hash": 3417488910,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/trailers.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "TRAILER",
+        "mass": 3500,
+        "topSpeed": 105,
+        "driveForce": 0,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 3.3,
+          "min": 3.3,
+          "lateral": 20
+        },
+        "suspensionForce": 1.2,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "trailers2",
+      "name": "Trailer",
+      "hash": 2715434129,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/trailers2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "TRAILER",
+        "mass": 3500,
+        "topSpeed": 105,
+        "driveForce": 0,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 3.3,
+          "min": 3.3,
+          "lateral": 20
+        },
+        "suspensionForce": 1.2,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "trailers3",
+      "name": "Trailer",
+      "hash": 2236089197,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/trailers3.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "TRAILER",
+        "mass": 3500,
+        "topSpeed": 105,
+        "driveForce": 0,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 3.3,
+          "min": 3.3,
+          "lateral": 20
+        },
+        "suspensionForce": 1.2,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "trailers4",
+      "name": "Trailer",
+      "hash": 3194418602,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/trailers4.webp",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "handlingId": "TRAILER",
+        "mass": 3500,
+        "topSpeed": 105,
+        "driveForce": 0,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 3.3,
+          "min": 3.3,
+          "lateral": 20
+        },
+        "suspensionForce": 1.2,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "trailers5",
+      "name": "Trailer",
+      "hash": 2960513480,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/trailers5.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "TRAILER",
+        "mass": 3500,
+        "topSpeed": 105,
+        "driveForce": 0,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 3.3,
+          "min": 3.3,
+          "lateral": 20
+        },
+        "suspensionForce": 1.2,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "trailersmall",
+      "name": "Trailer",
+      "hash": 712162987,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/trailersmall.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "TRAILERSMALL",
+        "mass": 1000,
+        "topSpeed": 105,
+        "driveForce": 0,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.8,
+          "min": 1.75,
+          "lateral": 20
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "trflat",
+      "name": "Trailer",
+      "hash": 2942498482,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/trflat.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "TRAILER",
+        "mass": 3500,
+        "topSpeed": 105,
+        "driveForce": 0,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 3.3,
+          "min": 3.3,
+          "lateral": 20
+        },
+        "suspensionForce": 1.2,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "tvtrailer",
+      "name": "Trailer",
+      "hash": 2524324030,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tvtrailer.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "TRAILER",
+        "mass": 3500,
+        "topSpeed": 105,
+        "driveForce": 0,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 3.3,
+          "min": 3.3,
+          "lateral": 20
+        },
+        "suspensionForce": 1.2,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "tvtrailer2",
+      "name": "Trailer",
+      "hash": 471034616,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tvtrailer2.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "TRAILER",
+        "mass": 3500,
+        "topSpeed": 105,
+        "driveForce": 0,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 3.3,
+          "min": 3.3,
+          "lateral": 20
+        },
+        "suspensionForce": 1.2,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "utillitruck",
+      "name": "Utility Truck",
+      "hash": 516990260,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/utillitruck.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "UTILTRUC",
+        "mass": 7500,
+        "topSpeed": 115,
+        "driveForce": 0.12,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.2,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.6,
+          "min": 1.2,
+          "lateral": 17
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 30,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "utillitruck2",
+      "name": "Utility Truck",
+      "hash": 887537515,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/utillitruck2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "UTILTRUC2",
+        "mass": 6500,
+        "topSpeed": 115,
+        "driveForce": 0.12,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.2,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.6,
+          "min": 1.2,
+          "lateral": 17
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 30,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "utillitruck3",
+      "name": "Utility Truck",
+      "hash": 2132890591,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/utillitruck3.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "UTILTRUC3",
+        "mass": 3500,
+        "topSpeed": 115,
+        "driveForce": 0.12,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.2,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.6,
+          "min": 1.2,
+          "lateral": 17
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 30,
+        "monetaryValue": 25000
+      }
+    }
+  ]
+}

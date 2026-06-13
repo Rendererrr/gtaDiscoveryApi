@@ -1,0 +1,826 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "name": "Boats",
+    "key": "Boats",
+    "slug": "boats",
+    "count": 26
+  },
+  "count": 26,
+  "items": [
+    {
+      "id": "avisa",
+      "name": "Avisa",
+      "hash": 2588363614,
+      "category": "Boats",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/avisa.webp",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "handlingId": "AVISA",
+        "mass": 2000,
+        "topSpeed": 75,
+        "driveForce": 10.5,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0,
+          "min": 0,
+          "lateral": 6
+        },
+        "suspensionForce": 1,
+        "steeringLock": 35,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "dinghy",
+      "name": "Dinghy",
+      "hash": 1033245328,
+      "category": "Boats",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dinghy.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "DINGHY",
+        "mass": 2000,
+        "topSpeed": 125,
+        "driveForce": 16,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0,
+          "min": 0,
+          "lateral": 6
+        },
+        "suspensionForce": 1,
+        "steeringLock": 35,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "dinghy2",
+      "name": "Dinghy",
+      "hash": 276773164,
+      "category": "Boats",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dinghy2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "DINGHY2",
+        "mass": 2000,
+        "topSpeed": 125,
+        "driveForce": 16,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0,
+          "min": 0,
+          "lateral": 6
+        },
+        "suspensionForce": 1,
+        "steeringLock": 35,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "dinghy3",
+      "name": "Dinghy",
+      "hash": 509498602,
+      "category": "Boats",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dinghy3.webp",
+      "dlc": {
+        "id": "mpheist",
+        "name": "The Heists Update",
+        "releaseDate": "2015-03-10"
+      },
+      "stats": {
+        "handlingId": "DINGHY",
+        "mass": 2000,
+        "topSpeed": 125,
+        "driveForce": 16,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0,
+          "min": 0,
+          "lateral": 6
+        },
+        "suspensionForce": 1,
+        "steeringLock": 35,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "dinghy4",
+      "name": "Dinghy",
+      "hash": 867467158,
+      "category": "Boats",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dinghy4.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "DINGHY",
+        "mass": 2000,
+        "topSpeed": 125,
+        "driveForce": 16,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0,
+          "min": 0,
+          "lateral": 6
+        },
+        "suspensionForce": 1,
+        "steeringLock": 35,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "dinghy5",
+      "name": "Weaponized Dinghy",
+      "hash": 3314393930,
+      "category": "Boats",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dinghy5.webp",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "handlingId": "DINGHY5",
+        "mass": 2100,
+        "topSpeed": 125,
+        "driveForce": 16,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0,
+          "min": 0,
+          "lateral": 6
+        },
+        "suspensionForce": 1,
+        "steeringLock": 35,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "jetmax",
+      "name": "Jetmax",
+      "hash": 861409633,
+      "category": "Boats",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/jetmax.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "JETMAX",
+        "mass": 2000,
+        "topSpeed": 135,
+        "driveForce": 17,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0,
+          "min": 0,
+          "lateral": 6
+        },
+        "suspensionForce": 1,
+        "steeringLock": 35,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "kosatka",
+      "name": "Kosatka",
+      "hash": 1336872304,
+      "category": "Boats",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/kosatka.webp",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "handlingId": "KOSATKA",
+        "mass": 20000,
+        "topSpeed": 75,
+        "driveForce": 5.25,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0,
+          "min": 0,
+          "lateral": 1
+        },
+        "suspensionForce": 1,
+        "steeringLock": 20,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "longfin",
+      "name": "Longfin",
+      "hash": 1861786828,
+      "category": "Boats",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/longfin.webp",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "handlingId": "LONGFIN",
+        "mass": 7000,
+        "topSpeed": 140,
+        "driveForce": 18,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0,
+          "min": 0,
+          "lateral": 6
+        },
+        "suspensionForce": 1,
+        "steeringLock": 35,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "marquis",
+      "name": "Marquis",
+      "hash": 3251507587,
+      "category": "Boats",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/marquis.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "MARQUIS",
+        "mass": 12200,
+        "topSpeed": 30,
+        "driveForce": 2.5,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0,
+          "min": 0,
+          "lateral": 8
+        },
+        "suspensionForce": 3,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "patrolboat",
+      "name": "Kurtz 31 Patrol Boat",
+      "hash": 4018222598,
+      "category": "Boats",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/patrolboat.webp",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "handlingId": "PATROLBOAT",
+        "mass": 2500,
+        "topSpeed": 120,
+        "driveForce": 15.5,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0,
+          "min": 0,
+          "lateral": 2
+        },
+        "suspensionForce": 1,
+        "steeringLock": 35,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "predator",
+      "name": "Police Predator",
+      "hash": 3806844075,
+      "category": "Boats",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/predator.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "predator",
+        "mass": 2500,
+        "topSpeed": 120,
+        "driveForce": 14,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0,
+          "min": 0,
+          "lateral": 2
+        },
+        "suspensionForce": 1,
+        "steeringLock": 35,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "seashark",
+      "name": "Seashark",
+      "hash": 3264692260,
+      "category": "Boats",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/seashark.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "SEASHARK",
+        "mass": 400,
+        "topSpeed": 130,
+        "driveForce": 12.5,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0,
+          "min": 0,
+          "lateral": 120
+        },
+        "suspensionForce": 0,
+        "steeringLock": 35,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "seashark2",
+      "name": "Seashark",
+      "hash": 3678636260,
+      "category": "Boats",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/seashark2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "SEASHARK",
+        "mass": 400,
+        "topSpeed": 130,
+        "driveForce": 12.5,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0,
+          "min": 0,
+          "lateral": 120
+        },
+        "suspensionForce": 0,
+        "steeringLock": 35,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "seashark3",
+      "name": "Seashark",
+      "hash": 3983945033,
+      "category": "Boats",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/seashark3.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "SEASHARK",
+        "mass": 400,
+        "topSpeed": 130,
+        "driveForce": 12.5,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0,
+          "min": 0,
+          "lateral": 120
+        },
+        "suspensionForce": 0,
+        "steeringLock": 35,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "speeder",
+      "name": "Speeder",
+      "hash": 231083307,
+      "category": "Boats",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/speeder.webp",
+      "dlc": {
+        "id": "mpbeach",
+        "name": "Beach Bum",
+        "releaseDate": "2013-11-19"
+      },
+      "stats": {
+        "handlingId": "speeder",
+        "mass": 2400,
+        "topSpeed": 133,
+        "driveForce": 16,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0,
+          "min": 0,
+          "lateral": 6
+        },
+        "suspensionForce": 1,
+        "steeringLock": 35,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "speeder2",
+      "name": "Speeder",
+      "hash": 437538602,
+      "category": "Boats",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/speeder2.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "speeder",
+        "mass": 2400,
+        "topSpeed": 133,
+        "driveForce": 16,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0,
+          "min": 0,
+          "lateral": 6
+        },
+        "suspensionForce": 1,
+        "steeringLock": 35,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "squalo",
+      "name": "Squalo",
+      "hash": 400514754,
+      "category": "Boats",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/squalo.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "SQUALO",
+        "mass": 3000,
+        "topSpeed": 110,
+        "driveForce": 11.5,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0,
+          "min": 0,
+          "lateral": 1
+        },
+        "suspensionForce": 1,
+        "steeringLock": 35,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "submersible",
+      "name": "Submersible",
+      "hash": 771711535,
+      "category": "Boats",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/submersible.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "SUBMERSIBLE",
+        "mass": 3000,
+        "topSpeed": 75,
+        "driveForce": 8,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0,
+          "min": 0,
+          "lateral": 6
+        },
+        "suspensionForce": 1,
+        "steeringLock": 35,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "submersible2",
+      "name": "Kraken",
+      "hash": 3228633070,
+      "category": "Boats",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/submersible2.webp",
+      "dlc": {
+        "id": "spupgrade",
+        "name": "Story Mode (Next-Gen)",
+        "releaseDate": "2014-11-18"
+      },
+      "stats": {
+        "handlingId": "SUBMERSIBLE2",
+        "mass": 2800,
+        "topSpeed": 75,
+        "driveForce": 10,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0,
+          "min": 0,
+          "lateral": 6
+        },
+        "suspensionForce": 1,
+        "steeringLock": 35,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "suntrap",
+      "name": "Suntrap",
+      "hash": 4012021193,
+      "category": "Boats",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/suntrap.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "SUNTRAP",
+        "mass": 2500,
+        "topSpeed": 110,
+        "driveForce": 11.5,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0,
+          "min": 0,
+          "lateral": 1
+        },
+        "suspensionForce": 1,
+        "steeringLock": 35,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "toro",
+      "name": "Toro",
+      "hash": 1070967343,
+      "category": "Boats",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/toro.webp",
+      "dlc": {
+        "id": "mpluxe2",
+        "name": "Ill-Gotten Gains Part 2",
+        "releaseDate": "2015-07-08"
+      },
+      "stats": {
+        "handlingId": "TORO",
+        "mass": 1100,
+        "topSpeed": 133,
+        "driveForce": 18,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0,
+          "min": 0,
+          "lateral": 6
+        },
+        "suspensionForce": 1,
+        "steeringLock": 33,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "toro2",
+      "name": "Toro",
+      "hash": 908897389,
+      "category": "Boats",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/toro2.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "TORO",
+        "mass": 1100,
+        "topSpeed": 133,
+        "driveForce": 18,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0,
+          "min": 0,
+          "lateral": 6
+        },
+        "suspensionForce": 1,
+        "steeringLock": 33,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "tropic",
+      "name": "Tropic",
+      "hash": 290013743,
+      "category": "Boats",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tropic.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "TROPIC",
+        "mass": 2000,
+        "topSpeed": 115,
+        "driveForce": 13,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0,
+          "min": 0,
+          "lateral": 6
+        },
+        "suspensionForce": 1,
+        "steeringLock": 35,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "tropic2",
+      "name": "Tropic",
+      "hash": 1448677353,
+      "category": "Boats",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tropic2.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "TROPIC",
+        "mass": 2000,
+        "topSpeed": 115,
+        "driveForce": 13,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0,
+          "min": 0,
+          "lateral": 6
+        },
+        "suspensionForce": 1,
+        "steeringLock": 35,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "tug",
+      "name": "Tug",
+      "hash": 2194326579,
+      "category": "Boats",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tug.webp",
+      "dlc": {
+        "id": "mpexecutive",
+        "name": "Further Adventures in Finance and Felony",
+        "releaseDate": "2016-06-07"
+      },
+      "stats": {
+        "handlingId": "TUG",
+        "mass": 12200,
+        "topSpeed": 18,
+        "driveForce": 2.2,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0,
+          "min": 0,
+          "lateral": 8
+        },
+        "suspensionForce": 3,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "id": "mpxmas_604490",
+    "name": "Festive Surprise 2015",
+    "releaseDate": "2015-12-22",
+    "key": "mpxmas_604490",
+    "slug": "mpxmas-604490",
+    "count": 1
+  },
+  "count": 1,
+  "items": [
+    {
+      "id": "tampa",
+      "name": "Tampa",
+      "hash": 972671128,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tampa.webp",
+      "dlc": {
+        "id": "mpxmas_604490",
+        "name": "Festive Surprise 2015",
+        "releaseDate": "2015-12-22"
+      },
+      "stats": {
+        "handlingId": "TAMPA",
+        "mass": 1200,
+        "topSpeed": 140,
+        "driveForce": 0.27,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.8,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.25,
+          "min": 1.8,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    }
+  ]
+}

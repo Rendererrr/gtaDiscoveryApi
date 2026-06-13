@@ -1,0 +1,673 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "id": "mpheist4",
+    "name": "The Cayo Perico Heist",
+    "releaseDate": "2020-12-15",
+    "key": "mpheist4",
+    "slug": "mpheist4",
+    "count": 21
+  },
+  "count": 21,
+  "items": [
+    {
+      "id": "brioso2",
+      "name": "Brioso 300",
+      "hash": 1429622905,
+      "category": "Compacts",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/brioso2.webp",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "handlingId": "BRIOSO2",
+        "mass": 650,
+        "topSpeed": 115,
+        "driveForce": 0.179,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.22,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.89,
+          "min": 1.82,
+          "lateral": 21
+        },
+        "suspensionForce": 1.85,
+        "steeringLock": 29,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "weevil",
+      "name": "Weevil",
+      "hash": 1644055914,
+      "category": "Compacts",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/weevil.webp",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "handlingId": "WEEVIL",
+        "mass": 820,
+        "topSpeed": 135,
+        "driveForce": 0.188,
+        "brakeForce": 0.26,
+        "handBrakeForce": 0.22,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.78,
+          "min": 1.6,
+          "lateral": 21
+        },
+        "suspensionForce": 1.25,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "squaddie",
+      "name": "Squaddie",
+      "hash": 4192631813,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/squaddie.webp",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "handlingId": "SQUADDIE",
+        "mass": 2750,
+        "topSpeed": 135,
+        "driveForce": 0.2,
+        "brakeForce": 0.315,
+        "handBrakeForce": 0.47,
+        "gears": 5,
+        "driveBiasFront": 0.4,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.9,
+          "min": 1.65,
+          "lateral": 18.5
+        },
+        "suspensionForce": 2.3,
+        "steeringLock": 36,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "toreador",
+      "name": "Toreador",
+      "hash": 1455990255,
+      "category": "Sports Classic",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/toreador.webp",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "handlingId": "TOREADOR",
+        "mass": 1600,
+        "topSpeed": 150,
+        "driveForce": 0.3,
+        "brakeForce": 1,
+        "handBrakeForce": 0.5,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.45,
+          "min": 2.4,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.05,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "italirsx",
+      "name": "Itali RSX",
+      "hash": 3145241962,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/italirsx.webp",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "handlingId": "ITALIRSX",
+        "mass": 1600,
+        "topSpeed": 163.15,
+        "driveForce": 0.401,
+        "brakeForce": 1.35,
+        "handBrakeForce": 0.48,
+        "gears": 8,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.74,
+          "min": 2.56,
+          "lateral": 24
+        },
+        "suspensionForce": 2.6,
+        "steeringLock": 41.85,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "veto",
+      "name": "Veto Classic",
+      "hash": 3437611258,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/veto.webp",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "handlingId": "VETO",
+        "mass": 450,
+        "topSpeed": 75,
+        "driveForce": 0.45,
+        "brakeForce": 0.35,
+        "handBrakeForce": 0.68,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.85,
+          "min": 2.75,
+          "lateral": 18.5
+        },
+        "suspensionForce": 2.5,
+        "steeringLock": 26.25,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "veto2",
+      "name": "Veto Modern",
+      "hash": 2802050217,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/veto2.webp",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "handlingId": "VETO2",
+        "mass": 600,
+        "topSpeed": 80,
+        "driveForce": 0.427,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.825,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.92,
+          "min": 2.9,
+          "lateral": 17.75
+        },
+        "suspensionForce": 2.5,
+        "steeringLock": 25.75,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "manchez2",
+      "name": "Manchez Scout",
+      "hash": 1086534307,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/manchez2.webp",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "handlingId": "MANCHEZ2",
+        "mass": 160,
+        "topSpeed": 130,
+        "driveForce": 0.265,
+        "brakeForce": 0.8,
+        "handBrakeForce": 1,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.12,
+          "min": 2.02,
+          "lateral": 22.5
+        },
+        "suspensionForce": 4,
+        "steeringLock": 40,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "verus",
+      "name": "Verus",
+      "hash": 298565713,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/verus.webp",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "handlingId": "VERUS",
+        "mass": 750,
+        "topSpeed": 115,
+        "driveForce": 0.135,
+        "brakeForce": 0.26,
+        "handBrakeForce": 0.5,
+        "gears": 5,
+        "driveBiasFront": 0.45,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.1,
+          "min": 1.85,
+          "lateral": 20.5
+        },
+        "suspensionForce": 2.8,
+        "steeringLock": 35,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "winky",
+      "name": "Winky",
+      "hash": 4084658662,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/winky.webp",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "handlingId": "WINKY",
+        "mass": 1113,
+        "topSpeed": 90,
+        "driveForce": 0.15,
+        "brakeForce": 0.26,
+        "handBrakeForce": 0.38,
+        "gears": 5,
+        "driveBiasFront": 0.48,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.85,
+          "min": 1.7,
+          "lateral": 19
+        },
+        "suspensionForce": 2.25,
+        "steeringLock": 33,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "slamtruck",
+      "name": "Slamtruck",
+      "hash": 3249056020,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/slamtruck.webp",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "handlingId": "SLAMTRUCK",
+        "mass": 6000,
+        "topSpeed": 125,
+        "driveForce": 0.225,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.3,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.71,
+          "min": 1.42,
+          "lateral": 18.5
+        },
+        "suspensionForce": 2.3,
+        "steeringLock": 24.5,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "avisa",
+      "name": "Avisa",
+      "hash": 2588363614,
+      "category": "Boats",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/avisa.webp",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "handlingId": "AVISA",
+        "mass": 2000,
+        "topSpeed": 75,
+        "driveForce": 10.5,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0,
+          "min": 0,
+          "lateral": 6
+        },
+        "suspensionForce": 1,
+        "steeringLock": 35,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "dinghy5",
+      "name": "Weaponized Dinghy",
+      "hash": 3314393930,
+      "category": "Boats",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dinghy5.webp",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "handlingId": "DINGHY5",
+        "mass": 2100,
+        "topSpeed": 125,
+        "driveForce": 16,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0,
+          "min": 0,
+          "lateral": 6
+        },
+        "suspensionForce": 1,
+        "steeringLock": 35,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "kosatka",
+      "name": "Kosatka",
+      "hash": 1336872304,
+      "category": "Boats",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/kosatka.webp",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "handlingId": "KOSATKA",
+        "mass": 20000,
+        "topSpeed": 75,
+        "driveForce": 5.25,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0,
+          "min": 0,
+          "lateral": 1
+        },
+        "suspensionForce": 1,
+        "steeringLock": 20,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "longfin",
+      "name": "Longfin",
+      "hash": 1861786828,
+      "category": "Boats",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/longfin.webp",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "handlingId": "LONGFIN",
+        "mass": 7000,
+        "topSpeed": 140,
+        "driveForce": 18,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0,
+          "min": 0,
+          "lateral": 6
+        },
+        "suspensionForce": 1,
+        "steeringLock": 35,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "patrolboat",
+      "name": "Kurtz 31 Patrol Boat",
+      "hash": 4018222598,
+      "category": "Boats",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/patrolboat.webp",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "handlingId": "PATROLBOAT",
+        "mass": 2500,
+        "topSpeed": 120,
+        "driveForce": 15.5,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0,
+          "min": 0,
+          "lateral": 2
+        },
+        "suspensionForce": 1,
+        "steeringLock": 35,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "annihilator2",
+      "name": "Annihilator Stealth",
+      "hash": 295054921,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/annihilator2.webp",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "handlingId": "ANNIHLATOR2",
+        "mass": 13000,
+        "topSpeed": 160,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.2,
+          "lateral": 12
+        },
+        "suspensionForce": 1,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "seasparrow2",
+      "name": "Sparrow",
+      "hash": 1229411063,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/seasparrow2.webp",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "handlingId": "SEASPARROW2",
+        "mass": 800,
+        "topSpeed": 160,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.2,
+          "lateral": 12
+        },
+        "suspensionForce": 3,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "seasparrow3",
+      "name": "Sparrow",
+      "hash": 1593933419,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/seasparrow3.webp",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "handlingId": "SEASPARROW2",
+        "mass": 800,
+        "topSpeed": 160,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.2,
+          "lateral": 12
+        },
+        "suspensionForce": 3,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "alkonost",
+      "name": "RO-86 Alkonost",
+      "hash": 3929093893,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/alkonost.webp",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "handlingId": "ALKONOST",
+        "mass": 55500,
+        "topSpeed": 281.5,
+        "driveForce": 0.1,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.01,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.85,
+          "min": 1.8,
+          "lateral": 12
+        },
+        "suspensionForce": 8.5,
+        "steeringLock": 40,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "vetir",
+      "name": "Vetir",
+      "hash": 2014313426,
+      "category": "Military",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/vetir.webp",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "handlingId": "VETIR",
+        "mass": 5680,
+        "topSpeed": 100,
+        "driveForce": 0.11,
+        "brakeForce": 0.3,
+        "handBrakeForce": 0.15,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.52,
+          "min": 1.45,
+          "lateral": 18
+        },
+        "suspensionForce": 1.7,
+        "steeringLock": 29,
+        "monetaryValue": 40000
+      }
+    }
+  ]
+}

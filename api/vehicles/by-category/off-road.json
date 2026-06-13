@@ -1,0 +1,2097 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "name": "Off-Road",
+    "key": "Off-Road",
+    "slug": "off-road",
+    "count": 67
+  },
+  "count": 67,
+  "items": [
+    {
+      "id": "bfinjection",
+      "name": "Injection",
+      "hash": 1126868326,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/bfinjection.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "BFINJECT",
+        "mass": 1800,
+        "topSpeed": 130,
+        "driveForce": 0.22,
+        "brakeForce": 0.62,
+        "handBrakeForce": 0.45,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.85,
+          "min": 1.75,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 40,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "bifta",
+      "name": "Bifta",
+      "hash": 3945366167,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/bifta.webp",
+      "dlc": {
+        "id": "mpbeach",
+        "name": "Beach Bum",
+        "releaseDate": "2013-11-19"
+      },
+      "stats": {
+        "handlingId": "bifta",
+        "mass": 1400,
+        "topSpeed": 136,
+        "driveForce": 0.26,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.3,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.05,
+          "min": 1.95,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 38,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "blazer",
+      "name": "Blazer",
+      "hash": 2166734073,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/blazer.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "BLAZER",
+        "mass": 600,
+        "topSpeed": 120,
+        "driveForce": 0.2,
+        "brakeForce": 1,
+        "handBrakeForce": 0.5,
+        "gears": 5,
+        "driveBiasFront": 0.2,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.6,
+          "min": 2.4,
+          "lateral": 20.5
+        },
+        "suspensionForce": 2.8,
+        "steeringLock": 35,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "blazer2",
+      "name": "Blazer Lifeguard",
+      "hash": 4246935337,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/blazer2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "BLAZER2",
+        "mass": 650,
+        "topSpeed": 110,
+        "driveForce": 0.12,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.5,
+        "gears": 5,
+        "driveBiasFront": 0.2,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2,
+          "min": 1.8,
+          "lateral": 20.5
+        },
+        "suspensionForce": 2.8,
+        "steeringLock": 35,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "blazer3",
+      "name": "Hot Rod Blazer",
+      "hash": 3025077634,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/blazer3.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "BLAZER",
+        "mass": 600,
+        "topSpeed": 120,
+        "driveForce": 0.2,
+        "brakeForce": 1,
+        "handBrakeForce": 0.5,
+        "gears": 5,
+        "driveBiasFront": 0.2,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.6,
+          "min": 2.4,
+          "lateral": 20.5
+        },
+        "suspensionForce": 2.8,
+        "steeringLock": 35,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "blazer4",
+      "name": "Street Blazer",
+      "hash": 3854198872,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/blazer4.webp",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "stats": {
+        "handlingId": "BLAZER4",
+        "mass": 550,
+        "topSpeed": 125,
+        "driveForce": 0.25,
+        "brakeForce": 1,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.7,
+          "min": 2.5,
+          "lateral": 20.5
+        },
+        "suspensionForce": 3.8,
+        "steeringLock": 35,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "blazer5",
+      "name": "Blazer Aqua",
+      "hash": 2704629607,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/blazer5.webp",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "stats": {
+        "handlingId": "BLAZER5",
+        "mass": 550,
+        "topSpeed": 125,
+        "driveForce": 0.272,
+        "brakeForce": 1,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.7,
+          "min": 2.5,
+          "lateral": 20.5
+        },
+        "suspensionForce": 3.8,
+        "steeringLock": 41,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "bodhi2",
+      "name": "Bodhi",
+      "hash": 2859047862,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/bodhi2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "BODHI2",
+        "mass": 2600,
+        "topSpeed": 134,
+        "driveForce": 0.215,
+        "brakeForce": 1.1,
+        "handBrakeForce": 0.45,
+        "gears": 5,
+        "driveBiasFront": 0.3,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.25,
+          "min": 2.12,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.4,
+        "steeringLock": 38,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "boor",
+      "name": "Boor",
+      "hash": 996383885,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/boor.webp",
+      "dlc": {
+        "id": "mpchristmas3",
+        "name": "Los Santos Drug Wars",
+        "releaseDate": "2022-12-13"
+      },
+      "stats": {
+        "handlingId": "BOOR",
+        "mass": 930,
+        "topSpeed": 149,
+        "driveForce": 0.267,
+        "brakeForce": 0.68,
+        "handBrakeForce": 0.8,
+        "gears": 4,
+        "driveBiasFront": 0.42,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.06,
+          "min": 1.82,
+          "lateral": 22
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 38.8,
+        "monetaryValue": 100000
+      }
+    },
+    {
+      "id": "brawler",
+      "name": "Brawler",
+      "hash": 2815302597,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/brawler.webp",
+      "dlc": {
+        "id": "mpluxe2",
+        "name": "Ill-Gotten Gains Part 2",
+        "releaseDate": "2015-07-08"
+      },
+      "stats": {
+        "handlingId": "BRAWLER",
+        "mass": 2100,
+        "topSpeed": 140,
+        "driveForce": 0.28,
+        "brakeForce": 0.88,
+        "handBrakeForce": 0.45,
+        "gears": 5,
+        "driveBiasFront": 0.09,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.92,
+          "min": 1.8,
+          "lateral": 21.5
+        },
+        "suspensionForce": 1.9,
+        "steeringLock": 40,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "bruiser",
+      "name": "Apocalypse Bruiser",
+      "hash": 668439077,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/bruiser.webp",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "handlingId": "BRUISER",
+        "mass": 6000,
+        "topSpeed": 130,
+        "driveForce": 0.26,
+        "brakeForce": 0.5,
+        "handBrakeForce": 0.15,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.75,
+          "min": 1.45,
+          "lateral": 18
+        },
+        "suspensionForce": 1,
+        "steeringLock": 36,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "bruiser2",
+      "name": "Future Shock Bruiser",
+      "hash": 2600885406,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/bruiser2.webp",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "handlingId": "BRUISER2",
+        "mass": 6000,
+        "topSpeed": 130,
+        "driveForce": 0.26,
+        "brakeForce": 0.5,
+        "handBrakeForce": 0.15,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.75,
+          "min": 1.45,
+          "lateral": 18
+        },
+        "suspensionForce": 1,
+        "steeringLock": 36,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "bruiser3",
+      "name": "Nightmare Bruiser",
+      "hash": 2252616474,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/bruiser3.webp",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "handlingId": "BRUISER",
+        "mass": 6000,
+        "topSpeed": 130,
+        "driveForce": 0.26,
+        "brakeForce": 0.5,
+        "handBrakeForce": 0.15,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.75,
+          "min": 1.45,
+          "lateral": 18
+        },
+        "suspensionForce": 1,
+        "steeringLock": 36,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "brutus",
+      "name": "Apocalypse Brutus",
+      "hash": 2139203625,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/brutus.webp",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "handlingId": "BRUTUS",
+        "mass": 3500,
+        "topSpeed": 140,
+        "driveForce": 0.27,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.32,
+        "gears": 8,
+        "driveBiasFront": 0.4,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2,
+          "min": 1.75,
+          "lateral": 14
+        },
+        "suspensionForce": 1,
+        "steeringLock": 37.5,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "brutus2",
+      "name": "Future Shock Brutus",
+      "hash": 2403970600,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/brutus2.webp",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "handlingId": "BRUTUS2",
+        "mass": 3500,
+        "topSpeed": 140,
+        "driveForce": 0.27,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.32,
+        "gears": 8,
+        "driveBiasFront": 0.4,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2,
+          "min": 1.75,
+          "lateral": 14
+        },
+        "suspensionForce": 1,
+        "steeringLock": 37.5,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "brutus3",
+      "name": "Nightmare Brutus",
+      "hash": 2038858402,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/brutus3.webp",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "handlingId": "BRUTUS",
+        "mass": 3500,
+        "topSpeed": 140,
+        "driveForce": 0.27,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.32,
+        "gears": 8,
+        "driveBiasFront": 0.4,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2,
+          "min": 1.75,
+          "lateral": 14
+        },
+        "suspensionForce": 1,
+        "steeringLock": 37.5,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "caracara",
+      "name": "Caracara",
+      "hash": 1254014755,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/caracara.webp",
+      "dlc": {
+        "id": "mpassault",
+        "name": "Southern San Andreas Super Sport Series",
+        "releaseDate": "2018-03-20"
+      },
+      "stats": {
+        "handlingId": "CARACARA",
+        "mass": 3500,
+        "topSpeed": 135,
+        "driveForce": 0.27,
+        "brakeForce": 0.27,
+        "handBrakeForce": 0.4,
+        "gears": 5,
+        "driveBiasFront": 0.3,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.25,
+          "min": 1.9,
+          "lateral": 20
+        },
+        "suspensionForce": 1,
+        "steeringLock": 40,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "caracara2",
+      "name": "Caracara 4x4",
+      "hash": 2945871676,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/caracara2.webp",
+      "dlc": {
+        "id": "mpvinewood",
+        "name": "The Diamond Casino & Resort",
+        "releaseDate": "2019-07-23"
+      },
+      "stats": {
+        "handlingId": "CARACARA2",
+        "mass": 2480,
+        "topSpeed": 138,
+        "driveForce": 0.27,
+        "brakeForce": 0.3,
+        "handBrakeForce": 0.4,
+        "gears": 6,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.05,
+          "min": 1.8,
+          "lateral": 20
+        },
+        "suspensionForce": 1.2,
+        "steeringLock": 36,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "dloader",
+      "name": "Duneloader",
+      "hash": 1770332643,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dloader.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "DLOADER",
+        "mass": 2100,
+        "topSpeed": 100,
+        "driveForce": 0.17,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.4,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.7,
+          "min": 1.5,
+          "lateral": 18
+        },
+        "suspensionForce": 1.5,
+        "steeringLock": 35,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "draugur",
+      "name": "Draugur",
+      "hash": 3526730918,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/draugur.webp",
+      "dlc": {
+        "id": "mpsum2",
+        "name": "The Criminal Enterprises",
+        "releaseDate": "2022-07-26"
+      },
+      "stats": {
+        "handlingId": "DRAUGUR",
+        "mass": 2450,
+        "topSpeed": 147.2,
+        "driveForce": 0.343,
+        "brakeForce": 0.484,
+        "handBrakeForce": 0.4,
+        "gears": 6,
+        "driveBiasFront": 0.48,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.48,
+          "min": 2.19,
+          "lateral": 20
+        },
+        "suspensionForce": 1.7,
+        "steeringLock": 36.4,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "driftl352",
+      "name": "Drift Walkton L35",
+      "hash": 2312533665,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/driftl352.webp",
+      "dlc": {
+        "id": "mp2025_01",
+        "name": "Money Fronts",
+        "releaseDate": "2025-06-17"
+      },
+      "stats": {
+        "handlingId": "DRIFTL352",
+        "mass": 1455,
+        "topSpeed": 133,
+        "driveForce": 0.716,
+        "brakeForce": 0.32,
+        "handBrakeForce": 0.4,
+        "gears": 4,
+        "driveBiasFront": 0.25,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.53,
+          "min": 1.52,
+          "lateral": 27.5
+        },
+        "suspensionForce": 1.3,
+        "steeringLock": 77,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "dubsta3",
+      "name": "Dubsta 6x6",
+      "hash": 3057713523,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dubsta3.webp",
+      "dlc": {
+        "id": "mphipster",
+        "name": "I'm Not a Hipster Update",
+        "releaseDate": "2014-06-17"
+      },
+      "stats": {
+        "handlingId": "DUBSTA3",
+        "mass": 3500,
+        "topSpeed": 137,
+        "driveForce": 0.28,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.45,
+        "gears": 6,
+        "driveBiasFront": 0.35,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2,
+          "min": 1.7,
+          "lateral": 19
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "dune",
+      "name": "Dune Buggy",
+      "hash": 2633113103,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dune.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "DUNE",
+        "mass": 1800,
+        "topSpeed": 135,
+        "driveForce": 0.25,
+        "brakeForce": 0.63,
+        "handBrakeForce": 0.5,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.2,
+          "min": 2.12,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 40,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "dune2",
+      "name": "Space Docker",
+      "hash": 534258863,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dune2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "DUNE2",
+        "mass": 2000,
+        "topSpeed": 135,
+        "driveForce": 0.24,
+        "brakeForce": 0.63,
+        "handBrakeForce": 0.45,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2,
+          "min": 1.8,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "dune3",
+      "name": "Dune FAV",
+      "hash": 1897744184,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dune3.webp",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "handlingId": "DUNE3",
+        "mass": 1800,
+        "topSpeed": 135,
+        "driveForce": 0.25,
+        "brakeForce": 0.63,
+        "handBrakeForce": 0.5,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.2,
+          "min": 2.12,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 40,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "dune4",
+      "name": "Ramp Buggy",
+      "hash": 3467805257,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dune4.webp",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "stats": {
+        "handlingId": "DUNE4",
+        "mass": 1000,
+        "topSpeed": 150,
+        "driveForce": 0.324,
+        "brakeForce": 1,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.65,
+          "min": 2.55,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 37.5,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "dune5",
+      "name": "Ramp Buggy",
+      "hash": 3982671785,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dune5.webp",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "stats": {
+        "handlingId": "DUNE5",
+        "mass": 1000,
+        "topSpeed": 150,
+        "driveForce": 0.32,
+        "brakeForce": 1,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.65,
+          "min": 2.55,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 37.5,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "freecrawler",
+      "name": "Freecrawler",
+      "hash": 4240635011,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/freecrawler.webp",
+      "dlc": {
+        "id": "mpbattle",
+        "name": "After Hours",
+        "releaseDate": "2018-07-24"
+      },
+      "stats": {
+        "handlingId": "FREECRAWLER",
+        "mass": 2000,
+        "topSpeed": 135,
+        "driveForce": 0.24,
+        "brakeForce": 0.3,
+        "handBrakeForce": 0.4,
+        "gears": 4,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.05,
+          "min": 1.8,
+          "lateral": 20
+        },
+        "suspensionForce": 1.1,
+        "steeringLock": 36,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "hellion",
+      "name": "Hellion",
+      "hash": 3932816511,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/hellion.webp",
+      "dlc": {
+        "id": "mpvinewood",
+        "name": "The Diamond Casino & Resort",
+        "releaseDate": "2019-07-23"
+      },
+      "stats": {
+        "handlingId": "HELLION",
+        "mass": 1900,
+        "topSpeed": 133.5,
+        "driveForce": 0.25,
+        "brakeForce": 0.3,
+        "handBrakeForce": 0.4,
+        "gears": 5,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2,
+          "min": 1.82,
+          "lateral": 20
+        },
+        "suspensionForce": 1.1,
+        "steeringLock": 36,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "insurgent",
+      "name": "Insurgent Pick-Up",
+      "hash": 2434067162,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/insurgent.webp",
+      "dlc": {
+        "id": "mpheist",
+        "name": "The Heists Update",
+        "releaseDate": "2015-03-10"
+      },
+      "stats": {
+        "handlingId": "INSURGENT",
+        "mass": 8600,
+        "topSpeed": 130,
+        "driveForce": 0.24,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.45,
+        "gears": 6,
+        "driveBiasFront": 0.4,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2,
+          "min": 1.7,
+          "lateral": 18
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 34,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "insurgent2",
+      "name": "Insurgent",
+      "hash": 2071877360,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/insurgent2.webp",
+      "dlc": {
+        "id": "mpheist",
+        "name": "The Heists Update",
+        "releaseDate": "2015-03-10"
+      },
+      "stats": {
+        "handlingId": "INSURGENT2",
+        "mass": 8600,
+        "topSpeed": 130,
+        "driveForce": 0.24,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.45,
+        "gears": 6,
+        "driveBiasFront": 0.4,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2,
+          "min": 1.7,
+          "lateral": 18
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 34,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "insurgent3",
+      "name": "Insurgent Pick-Up Custom",
+      "hash": 2370534026,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/insurgent3.webp",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "handlingId": "INSURGENT3",
+        "mass": 8600,
+        "topSpeed": 130,
+        "driveForce": 0.24,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.45,
+        "gears": 6,
+        "driveBiasFront": 0.4,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2,
+          "min": 1.7,
+          "lateral": 18
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 34,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "kalahari",
+      "name": "Kalahari",
+      "hash": 92612664,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/kalahari.webp",
+      "dlc": {
+        "id": "mpbeach",
+        "name": "Beach Bum",
+        "releaseDate": "2013-11-19"
+      },
+      "stats": {
+        "handlingId": "kalahari",
+        "mass": 800,
+        "topSpeed": 120,
+        "driveForce": 0.26,
+        "brakeForce": 1,
+        "handBrakeForce": 0.45,
+        "gears": 4,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.78,
+          "min": 1.7,
+          "lateral": 20.5
+        },
+        "suspensionForce": 0.9,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "kamacho",
+      "name": "Kamacho",
+      "hash": 4173521127,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/kamacho.webp",
+      "dlc": {
+        "id": "mpchristmas2017",
+        "name": "The Doomsday Heist",
+        "releaseDate": "2017-12-12"
+      },
+      "stats": {
+        "handlingId": "KAMACHO",
+        "mass": 2350,
+        "topSpeed": 134,
+        "driveForce": 0.255,
+        "brakeForce": 0.3,
+        "handBrakeForce": 0.4,
+        "gears": 5,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2,
+          "min": 1.82,
+          "lateral": 20
+        },
+        "suspensionForce": 1.1,
+        "steeringLock": 36,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "l35",
+      "name": "Walton L35",
+      "hash": 2531292011,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/l35.webp",
+      "dlc": {
+        "id": "mp2023_01",
+        "name": "San Andreas Mercenaries",
+        "releaseDate": "2023-06-13"
+      },
+      "stats": {
+        "handlingId": "L35",
+        "mass": 1600,
+        "topSpeed": 132,
+        "driveForce": 0.236,
+        "brakeForce": 0.32,
+        "handBrakeForce": 0.4,
+        "gears": 5,
+        "driveBiasFront": 0.35,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.04,
+          "min": 1.92,
+          "lateral": 21.75
+        },
+        "suspensionForce": 1.145,
+        "steeringLock": 37.5,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "l352",
+      "name": "Walton L35 Stock",
+      "hash": 691148275,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/l352.webp",
+      "dlc": {
+        "id": "mp2025_01",
+        "name": "Money Fronts",
+        "releaseDate": "2025-06-17"
+      },
+      "stats": {
+        "handlingId": "L352",
+        "mass": 1455,
+        "topSpeed": 139,
+        "driveForce": 0.236,
+        "brakeForce": 0.32,
+        "handBrakeForce": 0.4,
+        "gears": 5,
+        "driveBiasFront": 0.35,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.1,
+          "min": 1.95,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1,
+        "steeringLock": 37.5,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "marshall",
+      "name": "Marshall",
+      "hash": 1233534620,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/marshall.webp",
+      "dlc": {
+        "id": "spupgrade",
+        "name": "Story Mode (Next-Gen)",
+        "releaseDate": "2014-11-18"
+      },
+      "stats": {
+        "handlingId": "MARSHALL",
+        "mass": 4000,
+        "topSpeed": 110,
+        "driveForce": 0.4,
+        "brakeForce": 0.65,
+        "handBrakeForce": 0.3,
+        "gears": 3,
+        "driveBiasFront": 0.2,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.25,
+          "min": 2.12,
+          "lateral": 17
+        },
+        "suspensionForce": 2.3,
+        "steeringLock": 26,
+        "monetaryValue": 500000
+      }
+    },
+    {
+      "id": "menacer",
+      "name": "Menacer",
+      "hash": 2044532910,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/menacer.webp",
+      "dlc": {
+        "id": "mpbattle",
+        "name": "After Hours",
+        "releaseDate": "2018-07-24"
+      },
+      "stats": {
+        "handlingId": "MENACER",
+        "mass": 5600,
+        "topSpeed": 130,
+        "driveForce": 0.2,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.45,
+        "gears": 6,
+        "driveBiasFront": 0.4,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2,
+          "min": 1.65,
+          "lateral": 18
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 34,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "mesa3",
+      "name": "Mesa",
+      "hash": 2230595153,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/mesa3.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "MESA",
+        "mass": 2400,
+        "topSpeed": 130,
+        "driveForce": 0.17,
+        "brakeForce": 0.3,
+        "handBrakeForce": 0.4,
+        "gears": 5,
+        "driveBiasFront": 0.1,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2,
+          "min": 1.7,
+          "lateral": 19
+        },
+        "suspensionForce": 2.1,
+        "steeringLock": 36,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "monster",
+      "name": "Monster",
+      "hash": 3449006043,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/monster.webp",
+      "dlc": {
+        "id": "mpindependence",
+        "name": "Independence Day Special",
+        "releaseDate": "2014-07-01"
+      },
+      "stats": {
+        "handlingId": "MONSTER",
+        "mass": 4000,
+        "topSpeed": 110,
+        "driveForce": 0.4,
+        "brakeForce": 0.65,
+        "handBrakeForce": 0.3,
+        "gears": 3,
+        "driveBiasFront": 0.2,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.25,
+          "min": 2.12,
+          "lateral": 17
+        },
+        "suspensionForce": 2.3,
+        "steeringLock": 26,
+        "monetaryValue": 500000
+      }
+    },
+    {
+      "id": "monster3",
+      "name": "Apocalypse Sasquatch",
+      "hash": 1721676810,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/monster3.webp",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "handlingId": "MONSTER3",
+        "mass": 4400,
+        "topSpeed": 130,
+        "driveForce": 0.41,
+        "brakeForce": 0.65,
+        "handBrakeForce": 0.5,
+        "gears": 3,
+        "driveBiasFront": 0.4,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.27,
+          "min": 2.15,
+          "lateral": 17
+        },
+        "suspensionForce": 2.3,
+        "steeringLock": 30,
+        "monetaryValue": 500000
+      }
+    },
+    {
+      "id": "monster4",
+      "name": "Future Shock Sasquatch",
+      "hash": 840387324,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/monster4.webp",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "handlingId": "MONSTER3",
+        "mass": 4400,
+        "topSpeed": 130,
+        "driveForce": 0.41,
+        "brakeForce": 0.65,
+        "handBrakeForce": 0.5,
+        "gears": 3,
+        "driveBiasFront": 0.4,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.27,
+          "min": 2.15,
+          "lateral": 17
+        },
+        "suspensionForce": 2.3,
+        "steeringLock": 30,
+        "monetaryValue": 500000
+      }
+    },
+    {
+      "id": "monster5",
+      "name": "Nightmare Sasquatch",
+      "hash": 3579220348,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/monster5.webp",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "handlingId": "MONSTER3",
+        "mass": 4400,
+        "topSpeed": 130,
+        "driveForce": 0.41,
+        "brakeForce": 0.65,
+        "handBrakeForce": 0.5,
+        "gears": 3,
+        "driveBiasFront": 0.4,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.27,
+          "min": 2.15,
+          "lateral": 17
+        },
+        "suspensionForce": 2.3,
+        "steeringLock": 30,
+        "monetaryValue": 500000
+      }
+    },
+    {
+      "id": "monstrociti",
+      "name": "MonstroCiti",
+      "hash": 802856453,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/monstrociti.webp",
+      "dlc": {
+        "id": "mp2023_01",
+        "name": "San Andreas Mercenaries",
+        "releaseDate": "2023-06-13"
+      },
+      "stats": {
+        "handlingId": "MONSTROCITI",
+        "mass": 1990,
+        "topSpeed": 141.7,
+        "driveForce": 0.274,
+        "brakeForce": 0.369,
+        "handBrakeForce": 0.5,
+        "gears": 5,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.16,
+          "min": 2.03,
+          "lateral": 20.5
+        },
+        "suspensionForce": 1.018,
+        "steeringLock": 40,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "nightshark",
+      "name": "Nightshark",
+      "hash": 433954513,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/nightshark.webp",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "handlingId": "NIGHTSHARK",
+        "mass": 4400,
+        "topSpeed": 140,
+        "driveForce": 0.27,
+        "brakeForce": 0.75,
+        "handBrakeForce": 0.45,
+        "gears": 6,
+        "driveBiasFront": 0.4,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.1,
+          "min": 1.9,
+          "lateral": 18
+        },
+        "suspensionForce": 2.8,
+        "steeringLock": 34,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "outlaw",
+      "name": "Outlaw",
+      "hash": 408825843,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/outlaw.webp",
+      "dlc": {
+        "id": "mpheist3",
+        "name": "The Diamond Casino Heist",
+        "releaseDate": "2019-12-12"
+      },
+      "stats": {
+        "handlingId": "OUTLAW",
+        "mass": 850,
+        "topSpeed": 117,
+        "driveForce": 0.475,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.375,
+        "gears": 3,
+        "driveBiasFront": 0.38,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.02,
+          "min": 1.89,
+          "lateral": 25.5
+        },
+        "suspensionForce": 1.98,
+        "steeringLock": 39,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "patriot3",
+      "name": "Patriot Mil-Spec",
+      "hash": 3624880708,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/patriot3.webp",
+      "dlc": {
+        "id": "mpsecurity",
+        "name": "The Contract",
+        "releaseDate": "2021-12-15"
+      },
+      "stats": {
+        "handlingId": "PATRIOT3",
+        "mass": 3430,
+        "topSpeed": 128,
+        "driveForce": 0.23,
+        "brakeForce": 0.485,
+        "handBrakeForce": 0.5,
+        "gears": 4,
+        "driveBiasFront": 0.4,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.99,
+          "min": 1.75,
+          "lateral": 20
+        },
+        "suspensionForce": 1.37,
+        "steeringLock": 34,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "rancherxl",
+      "name": "Rancher XL",
+      "hash": 1645267888,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/rancherxl.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "RANCHERXL",
+        "mass": 2400,
+        "topSpeed": 130,
+        "driveForce": 0.18,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0.3,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.95,
+          "min": 1.75,
+          "lateral": 18.5
+        },
+        "suspensionForce": 2.8,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "rancherxl2",
+      "name": "Rancher XL",
+      "hash": 1933662059,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/rancherxl2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "RANCHERXL",
+        "mass": 2400,
+        "topSpeed": 130,
+        "driveForce": 0.18,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0.3,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.95,
+          "min": 1.75,
+          "lateral": 18.5
+        },
+        "suspensionForce": 2.8,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "ratel",
+      "name": "Ratel",
+      "hash": 3758861739,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/ratel.webp",
+      "dlc": {
+        "id": "mp2023_01",
+        "name": "San Andreas Mercenaries",
+        "releaseDate": "2023-06-13"
+      },
+      "stats": {
+        "handlingId": "RATEL",
+        "mass": 1860,
+        "topSpeed": 143,
+        "driveForce": 0.342,
+        "brakeForce": 0.32,
+        "handBrakeForce": 0.4,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.1,
+          "min": 1.9,
+          "lateral": 23.8
+        },
+        "suspensionForce": 0.885,
+        "steeringLock": 41,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "rcbandito",
+      "name": "RC Bandito",
+      "hash": 4008920556,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/rcbandito.webp",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "handlingId": "RCBANDITO",
+        "mass": 85,
+        "topSpeed": 80,
+        "driveForce": 0.14,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.3,
+        "gears": 1,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.95,
+          "min": 2.8,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.45,
+        "steeringLock": 27,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "rebel",
+      "name": "Rusty Rebel",
+      "hash": 3087195462,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/rebel.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "REBEL",
+        "mass": 2400,
+        "topSpeed": 130,
+        "driveForce": 0.2,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.45,
+        "gears": 5,
+        "driveBiasFront": 0.3,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.05,
+          "min": 1.85,
+          "lateral": 18.5
+        },
+        "suspensionForce": 3.2,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "rebel2",
+      "name": "Rebel",
+      "hash": 2249373259,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/rebel2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "REBEL",
+        "mass": 2400,
+        "topSpeed": 130,
+        "driveForce": 0.2,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.45,
+        "gears": 5,
+        "driveBiasFront": 0.3,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.05,
+          "min": 1.85,
+          "lateral": 18.5
+        },
+        "suspensionForce": 3.2,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "riata",
+      "name": "Riata",
+      "hash": 2762269779,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/riata.webp",
+      "dlc": {
+        "id": "mpchristmas2017",
+        "name": "The Doomsday Heist",
+        "releaseDate": "2017-12-12"
+      },
+      "stats": {
+        "handlingId": "RIATA",
+        "mass": 2300,
+        "topSpeed": 135,
+        "driveForce": 0.25,
+        "brakeForce": 0.3,
+        "handBrakeForce": 0.4,
+        "gears": 4,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.05,
+          "min": 1.8,
+          "lateral": 20
+        },
+        "suspensionForce": 1.1,
+        "steeringLock": 36,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "sandking",
+      "name": "Sandking XL",
+      "hash": 3105951696,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/sandking.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "SANDKING",
+        "mass": 2400,
+        "topSpeed": 130,
+        "driveForce": 0.2,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.45,
+        "gears": 6,
+        "driveBiasFront": 0.35,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2,
+          "min": 1.7,
+          "lateral": 19
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "sandking2",
+      "name": "Sandking SWB",
+      "hash": 989381445,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/sandking2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "SANDKING",
+        "mass": 2400,
+        "topSpeed": 130,
+        "driveForce": 0.2,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.45,
+        "gears": 6,
+        "driveBiasFront": 0.35,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2,
+          "min": 1.7,
+          "lateral": 19
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "technical",
+      "name": "Technical",
+      "hash": 2198148358,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/technical.webp",
+      "dlc": {
+        "id": "mpheist",
+        "name": "The Heists Update",
+        "releaseDate": "2015-03-10"
+      },
+      "stats": {
+        "handlingId": "TECHNICAL",
+        "mass": 3200,
+        "topSpeed": 130,
+        "driveForce": 0.2,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.45,
+        "gears": 5,
+        "driveBiasFront": 0.3,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.13,
+          "min": 1.95,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.5,
+        "steeringLock": 40,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "technical2",
+      "name": "Technical Aqua",
+      "hash": 1180875963,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/technical2.webp",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "stats": {
+        "handlingId": "TECHNICAL2",
+        "mass": 3200,
+        "topSpeed": 130,
+        "driveForce": 0.25,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.45,
+        "gears": 5,
+        "driveBiasFront": 0.3,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.13,
+          "min": 1.95,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.5,
+        "steeringLock": 40.5,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "technical3",
+      "name": "Technical Custom",
+      "hash": 1356124575,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/technical3.webp",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "handlingId": "TECHNICAL3",
+        "mass": 3200,
+        "topSpeed": 130,
+        "driveForce": 0.2,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.45,
+        "gears": 5,
+        "driveBiasFront": 0.3,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.13,
+          "min": 1.95,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.5,
+        "steeringLock": 40,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "terminus",
+      "name": "Terminus",
+      "hash": 167522317,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/terminus.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "TERMINUS",
+        "mass": 2000,
+        "topSpeed": 148,
+        "driveForce": 0.269,
+        "brakeForce": 0.55,
+        "handBrakeForce": 0.58,
+        "gears": 6,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.19,
+          "min": 2.01,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.6,
+        "steeringLock": 42.5,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "trophytruck",
+      "name": "Trophy Truck",
+      "hash": 101905590,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/trophytruck.webp",
+      "dlc": {
+        "id": "mpstunt",
+        "name": "Cunning Stunts",
+        "releaseDate": "2016-07-12"
+      },
+      "stats": {
+        "handlingId": "TROPHY",
+        "mass": 2200,
+        "topSpeed": 140,
+        "driveForce": 0.339,
+        "brakeForce": 0.3,
+        "handBrakeForce": 0.4,
+        "gears": 5,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.5,
+          "min": 2.1,
+          "lateral": 20
+        },
+        "suspensionForce": 1.2,
+        "steeringLock": 36,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "trophytruck2",
+      "name": "Desert Raid",
+      "hash": 3631668194,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/trophytruck2.webp",
+      "dlc": {
+        "id": "mpstunt",
+        "name": "Cunning Stunts",
+        "releaseDate": "2016-07-12"
+      },
+      "stats": {
+        "handlingId": "TROPHY2",
+        "mass": 2200,
+        "topSpeed": 140,
+        "driveForce": 0.339,
+        "brakeForce": 0.3,
+        "handBrakeForce": 0.4,
+        "gears": 5,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.5,
+          "min": 2.1,
+          "lateral": 20
+        },
+        "suspensionForce": 1.2,
+        "steeringLock": 36,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "vagrant",
+      "name": "Vagrant",
+      "hash": 740289177,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/vagrant.webp",
+      "dlc": {
+        "id": "mpheist3",
+        "name": "The Diamond Casino Heist",
+        "releaseDate": "2019-12-12"
+      },
+      "stats": {
+        "handlingId": "VAGRANT",
+        "mass": 670,
+        "topSpeed": 149.65,
+        "driveForce": 0.333,
+        "brakeForce": 0.625,
+        "handBrakeForce": 0.3,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.35,
+          "min": 2.18,
+          "lateral": 22
+        },
+        "suspensionForce": 1.815,
+        "steeringLock": 37.45,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "verus",
+      "name": "Verus",
+      "hash": 298565713,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/verus.webp",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "handlingId": "VERUS",
+        "mass": 750,
+        "topSpeed": 115,
+        "driveForce": 0.135,
+        "brakeForce": 0.26,
+        "handBrakeForce": 0.5,
+        "gears": 5,
+        "driveBiasFront": 0.45,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.1,
+          "min": 1.85,
+          "lateral": 20.5
+        },
+        "suspensionForce": 2.8,
+        "steeringLock": 35,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "winky",
+      "name": "Winky",
+      "hash": 4084658662,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/winky.webp",
+      "dlc": {
+        "id": "mpheist4",
+        "name": "The Cayo Perico Heist",
+        "releaseDate": "2020-12-15"
+      },
+      "stats": {
+        "handlingId": "WINKY",
+        "mass": 1113,
+        "topSpeed": 90,
+        "driveForce": 0.15,
+        "brakeForce": 0.26,
+        "handBrakeForce": 0.38,
+        "gears": 5,
+        "driveBiasFront": 0.48,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.85,
+          "min": 1.7,
+          "lateral": 19
+        },
+        "suspensionForce": 2.25,
+        "steeringLock": 33,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "yosemite3",
+      "name": "Yosemite Rancher",
+      "hash": 67753863,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/yosemite3.webp",
+      "dlc": {
+        "id": "mpsum",
+        "name": "Los Santos Summer Special",
+        "releaseDate": "2020-08-11"
+      },
+      "stats": {
+        "handlingId": "YOSEMITE3",
+        "mass": 1400,
+        "topSpeed": 139,
+        "driveForce": 0.275,
+        "brakeForce": 0.48,
+        "handBrakeForce": 0.35,
+        "gears": 4,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.1,
+          "min": 1.85,
+          "lateral": 20
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 37,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "zhaba",
+      "name": "Zhaba",
+      "hash": 1284356689,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/zhaba.webp",
+      "dlc": {
+        "id": "mpheist3",
+        "name": "The Diamond Casino Heist",
+        "releaseDate": "2019-12-12"
+      },
+      "stats": {
+        "handlingId": "ZHABA",
+        "mass": 1600,
+        "topSpeed": 92.5,
+        "driveForce": 0.18,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0.4,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.9,
+          "min": 1.7,
+          "lateral": 22.5
+        },
+        "suspensionForce": 3.2,
+        "steeringLock": 40,
+        "monetaryValue": 50000
+      }
+    }
+  ]
+}

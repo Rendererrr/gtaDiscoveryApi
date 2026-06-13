@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "peds",
+    "label": "Peds",
+    "urlPattern": "{cdnBase}/assets/peds/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate null for patch-day additions)."
+  },
+  "group": {
+    "id": "patchday23ng",
+    "name": "Patch Day 23",
+    "releaseDate": null,
+    "key": "patchday23ng",
+    "slug": "patchday23ng",
+    "count": 2
+  },
+  "count": 2,
+  "items": [
+    {
+      "id": "s_f_y_ranger_01",
+      "name": "s_f_y_ranger_01",
+      "hash": 2680682039,
+      "category": "Scenario female",
+      "dlc": {
+        "id": "patchday23ng",
+        "name": "Patch Day 23",
+        "releaseDate": null
+      },
+      "props": "1 prop",
+      "components": "8 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/s_f_y_ranger_01.webp"
+    },
+    {
+      "id": "s_m_y_ranger_01",
+      "name": "s_m_y_ranger_01",
+      "hash": 4017173934,
+      "category": "Scenario male",
+      "dlc": {
+        "id": "patchday23ng",
+        "name": "Patch Day 23",
+        "releaseDate": null
+      },
+      "props": "2 props",
+      "components": "6 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/s_m_y_ranger_01.webp"
+    }
+  ]
+}

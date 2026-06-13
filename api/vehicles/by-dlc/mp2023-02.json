@@ -1,0 +1,1045 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "id": "mp2023_02",
+    "name": "The Chop Shop",
+    "releaseDate": "2023-12-12",
+    "key": "mp2023_02",
+    "slug": "mp2023-02",
+    "count": 33
+  },
+  "count": 33,
+  "items": [
+    {
+      "id": "asterope2",
+      "name": "Asterope GZ",
+      "hash": 3553846961,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/asterope2.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "ASTEROPE2",
+        "mass": 1500,
+        "topSpeed": 145,
+        "driveForce": 0.238,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.33,
+          "min": 2.22,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.15,
+        "steeringLock": 42.5,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "impaler5",
+      "name": "Impaler SZ",
+      "hash": 3816328113,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/impaler5.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "IMPALER5",
+        "mass": 1830,
+        "topSpeed": 144,
+        "driveForce": 0.254,
+        "brakeForce": 0.865,
+        "handBrakeForce": 0.6,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.3,
+          "min": 2.19,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.6,
+        "steeringLock": 42,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "aleutian",
+      "name": "Aleutian",
+      "hash": 4256087847,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/aleutian.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "ALEUTIAN",
+        "mass": 2550,
+        "topSpeed": 119,
+        "driveForce": 0.28,
+        "brakeForce": 0.75,
+        "handBrakeForce": 0.6,
+        "gears": 8,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.1,
+          "min": 1.97,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2,
+        "steeringLock": 41,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "baller8",
+      "name": "Baller ST-D",
+      "hash": 3431608412,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/baller8.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "BALLER8",
+        "mass": 2600,
+        "topSpeed": 140,
+        "driveForce": 0.295,
+        "brakeForce": 0.922,
+        "handBrakeForce": 0.6,
+        "gears": 7,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.28,
+          "min": 2.13,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.25,
+        "steeringLock": 42.5,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "cavalcade3",
+      "name": "Cavalcade XL",
+      "hash": 3265236814,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/cavalcade3.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "CAVALCADE3",
+        "mass": 3170,
+        "topSpeed": 122,
+        "driveForce": 0.277,
+        "brakeForce": 0.875,
+        "handBrakeForce": 0.6,
+        "gears": 8,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.23,
+          "min": 2.1,
+          "lateral": 20.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 41,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "dorado",
+      "name": "Dorado",
+      "hash": 3526923154,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dorado.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "DORADO",
+        "mass": 2150,
+        "topSpeed": 141.7,
+        "driveForce": 0.217,
+        "brakeForce": 0.5,
+        "handBrakeForce": 0.535,
+        "gears": 4,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.84,
+          "min": 1.72,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.45,
+        "steeringLock": 43.5,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "vivanite",
+      "name": "Vivanite",
+      "hash": 2922168362,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/vivanite.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "VIVANITE",
+        "mass": 2180,
+        "topSpeed": 156,
+        "driveForce": 0.11,
+        "brakeForce": 0.78,
+        "handBrakeForce": 0.6,
+        "gears": 1,
+        "driveBiasFront": 0.7,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.18,
+          "min": 2.06,
+          "lateral": 20.5
+        },
+        "suspensionForce": 2,
+        "steeringLock": 42,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "driftfr36",
+      "name": "FR36",
+      "hash": 2815031719,
+      "category": "Coupes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/driftfr36.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "DRIFTFR36",
+        "mass": 1510,
+        "topSpeed": 133,
+        "driveForce": 0.713,
+        "brakeForce": 0.765,
+        "handBrakeForce": 0.95,
+        "gears": 4,
+        "driveBiasFront": 0.17,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.53,
+          "min": 1.52,
+          "lateral": 27.8
+        },
+        "suspensionForce": 1.98,
+        "steeringLock": 75,
+        "monetaryValue": 80000
+      }
+    },
+    {
+      "id": "fr36",
+      "name": "FR36",
+      "hash": 3829141989,
+      "category": "Coupes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/fr36.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "FR36",
+        "mass": 1515,
+        "topSpeed": 153,
+        "driveForce": 0.301,
+        "brakeForce": 0.86,
+        "handBrakeForce": 0.65,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.38,
+          "min": 2.23,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.98,
+        "steeringLock": 44,
+        "monetaryValue": 80000
+      }
+    },
+    {
+      "id": "dominator9",
+      "name": "Dominator GT",
+      "hash": 3853757601,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dominator9.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "DOMINATOR9",
+        "mass": 1820,
+        "topSpeed": 162,
+        "driveForce": 0.345,
+        "brakeForce": 0.93,
+        "handBrakeForce": 0.7,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.54,
+          "min": 2.41,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.213,
+        "steeringLock": 43,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "driftyosemite",
+      "name": "Drift Yosemite",
+      "hash": 2613313775,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/driftyosemite.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "DRIFTYOSEMITE",
+        "mass": 1198,
+        "topSpeed": 125,
+        "driveForce": 0.718,
+        "brakeForce": 0.82,
+        "handBrakeForce": 0.88,
+        "gears": 3,
+        "driveBiasFront": 0.25,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.53,
+          "min": 1.52,
+          "lateral": 26.75
+        },
+        "suspensionForce": 1.9,
+        "steeringLock": 80.5,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "impaler6",
+      "name": "Impaler LX",
+      "hash": 4116524922,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/impaler6.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "IMPALER6",
+        "mass": 1630,
+        "topSpeed": 145,
+        "driveForce": 0.3,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.6,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.13,
+          "min": 2,
+          "lateral": 22.75
+        },
+        "suspensionForce": 1.3,
+        "steeringLock": 42,
+        "monetaryValue": 30000
+      }
+    },
+    {
+      "id": "vigero3",
+      "name": "Vigero ZX Convertible",
+      "hash": 372621319,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/vigero3.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "VIGERO3",
+        "mass": 1890,
+        "topSpeed": 157.95,
+        "driveForce": 0.364,
+        "brakeForce": 0.95,
+        "handBrakeForce": 0.625,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.58,
+          "min": 2.42,
+          "lateral": 22.75
+        },
+        "suspensionForce": 2.3,
+        "steeringLock": 40.5,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "drifteuros",
+      "name": "Euros",
+      "hash": 821121576,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/drifteuros.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "DRIFTEUROS",
+        "mass": 1415,
+        "topSpeed": 134.85,
+        "driveForce": 0.711,
+        "brakeForce": 0.85,
+        "handBrakeForce": 0.85,
+        "gears": 4,
+        "driveBiasFront": 0.2,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.53,
+          "min": 1.52,
+          "lateral": 29.25
+        },
+        "suspensionForce": 1.9,
+        "steeringLock": 76,
+        "monetaryValue": 80000
+      }
+    },
+    {
+      "id": "driftfuto",
+      "name": "Futo GTX",
+      "hash": 4113404654,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/driftfuto.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "DRIFTFUTO",
+        "mass": 1000,
+        "topSpeed": 133,
+        "driveForce": 0.71,
+        "brakeForce": 0.765,
+        "handBrakeForce": 1.45,
+        "gears": 4,
+        "driveBiasFront": 0.17,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.53,
+          "min": 1.52,
+          "lateral": 27
+        },
+        "suspensionForce": 1.875,
+        "steeringLock": 75.75,
+        "monetaryValue": 100000
+      }
+    },
+    {
+      "id": "driftjester",
+      "name": "Jester RR",
+      "hash": 2531693357,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/driftjester.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "DRIFTJESTER",
+        "mass": 1525,
+        "topSpeed": 132.5,
+        "driveForce": 0.706,
+        "brakeForce": 0.875,
+        "handBrakeForce": 0.9,
+        "gears": 5,
+        "driveBiasFront": 0.17,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.53,
+          "min": 1.52,
+          "lateral": 29.45
+        },
+        "suspensionForce": 2,
+        "steeringLock": 77.25,
+        "monetaryValue": 80000
+      }
+    },
+    {
+      "id": "driftremus",
+      "name": "Remus",
+      "hash": 2670883828,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/driftremus.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "DRIFTREMUS",
+        "mass": 1100,
+        "topSpeed": 138.8,
+        "driveForce": 0.712,
+        "brakeForce": 0.87,
+        "handBrakeForce": 0.7,
+        "gears": 4,
+        "driveBiasFront": 0.25,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.53,
+          "min": 1.52,
+          "lateral": 29.5
+        },
+        "suspensionForce": 2.05,
+        "steeringLock": 77.75,
+        "monetaryValue": 100000
+      }
+    },
+    {
+      "id": "drifttampa",
+      "name": "Drift Tampa",
+      "hash": 2598648200,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/drifttampa.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "DRIFTTAMPA",
+        "mass": 1097,
+        "topSpeed": 139,
+        "driveForce": 0.712,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.9,
+        "gears": 5,
+        "driveBiasFront": 0.22,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.53,
+          "min": 1.52,
+          "lateral": 26.75
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 80,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "driftzr350",
+      "name": "ZR350",
+      "hash": 1923534526,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/driftzr350.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "DRIFTZR350",
+        "mass": 1295,
+        "topSpeed": 132.8,
+        "driveForce": 0.708,
+        "brakeForce": 0.85,
+        "handBrakeForce": 0.79,
+        "gears": 5,
+        "driveBiasFront": 0.25,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.53,
+          "min": 1.52,
+          "lateral": 30
+        },
+        "suspensionForce": 2.05,
+        "steeringLock": 78.15,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "turismo3",
+      "name": "Turismo Omaggio",
+      "hash": 4171974011,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/turismo3.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "TURISMO3",
+        "mass": 1435,
+        "topSpeed": 153,
+        "driveForce": 0.374,
+        "brakeForce": 1.185,
+        "handBrakeForce": 0.77,
+        "gears": 7,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.76,
+          "min": 2.62,
+          "lateral": 23.25
+        },
+        "suspensionForce": 2.29,
+        "steeringLock": 42.75,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "terminus",
+      "name": "Terminus",
+      "hash": 167522317,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/terminus.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "TERMINUS",
+        "mass": 2000,
+        "topSpeed": 148,
+        "driveForce": 0.269,
+        "brakeForce": 0.55,
+        "handBrakeForce": 0.58,
+        "gears": 6,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.19,
+          "min": 2.01,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.6,
+        "steeringLock": 42.5,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "boattrailer2",
+      "name": "Boat Trailer",
+      "hash": 1835260592,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/boattrailer2.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "BOATTRAILER",
+        "mass": 1200,
+        "topSpeed": 105,
+        "driveForce": 0,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 3.3,
+          "min": 3.3,
+          "lateral": 20
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "boattrailer3",
+      "name": "Boat Trailer",
+      "hash": 1539159908,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/boattrailer3.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "BOATTRAILER",
+        "mass": 1200,
+        "topSpeed": 105,
+        "driveForce": 0,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 3.3,
+          "min": 3.3,
+          "lateral": 20
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "towtruck3",
+      "name": "Tow Truck",
+      "hash": 3623402354,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/towtruck3.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "TOWTRUCK3",
+        "mass": 4950,
+        "topSpeed": 115,
+        "driveForce": 0.175,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.15,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.6,
+          "min": 1.48,
+          "lateral": 18.5
+        },
+        "suspensionForce": 1.9,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "towtruck4",
+      "name": "Tow Truck",
+      "hash": 3392937977,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/towtruck4.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "TOWTRUCK3",
+        "mass": 4950,
+        "topSpeed": 115,
+        "driveForce": 0.175,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.15,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.6,
+          "min": 1.48,
+          "lateral": 18.5
+        },
+        "suspensionForce": 1.9,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "trailers5",
+      "name": "Trailer",
+      "hash": 2960513480,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/trailers5.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "TRAILER",
+        "mass": 3500,
+        "topSpeed": 105,
+        "driveForce": 0,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 3.3,
+          "min": 3.3,
+          "lateral": 20
+        },
+        "suspensionForce": 1.2,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "tvtrailer2",
+      "name": "Trailer",
+      "hash": 471034616,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tvtrailer2.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "TRAILER",
+        "mass": 3500,
+        "topSpeed": 105,
+        "driveForce": 0,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 3.3,
+          "min": 3.3,
+          "lateral": 20
+        },
+        "suspensionForce": 1.2,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "boxville6",
+      "name": "Boxville (LSDS)",
+      "hash": 3452201761,
+      "category": "Vans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/boxville6.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "BOXVILLE",
+        "mass": 5500,
+        "topSpeed": 100,
+        "driveForce": 0.11,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.3,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.55,
+          "min": 1.35,
+          "lateral": 17
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "polgauntlet",
+      "name": "Gauntlet Interceptor",
+      "hash": 3061199846,
+      "category": "Emergency",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/polgauntlet.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "POLGAUNTLET",
+        "mass": 2150,
+        "topSpeed": 155,
+        "driveForce": 0.362,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.35,
+          "min": 2.2,
+          "lateral": 22
+        },
+        "suspensionForce": 1.9,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "police5",
+      "name": "Stanier LE Cruiser",
+      "hash": 2620582743,
+      "category": "Emergency",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/police5.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "police",
+        "mass": 1400,
+        "topSpeed": 145,
+        "driveForce": 0.2,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.55,
+          "min": 2.45,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "benson2",
+      "name": "Benson (Cluckin' Bell)",
+      "hash": 728350375,
+      "category": "Commercial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/benson2.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "benson",
+        "mass": 7000,
+        "topSpeed": 130,
+        "driveForce": 0.16,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.4,
+        "gears": 5,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.75,
+          "min": 1.55,
+          "lateral": 19
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "phantom4",
+      "name": "Phantom",
+      "hash": 4165683409,
+      "category": "Commercial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/phantom4.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "PHANTOM",
+        "mass": 12000,
+        "topSpeed": 123,
+        "driveForce": 0.21,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.15,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.65,
+          "min": 1.55,
+          "lateral": 20
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "freight2",
+      "name": "Freight Train",
+      "hash": 3852738056,
+      "category": "Trains",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/freight2.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "FREIGHT",
+        "mass": 25084,
+        "topSpeed": 80,
+        "driveForce": 0.2,
+        "brakeForce": 5,
+        "handBrakeForce": 0.7,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.5,
+          "min": 0.8,
+          "lateral": 8
+        },
+        "suspensionForce": 0.4,
+        "steeringLock": 35,
+        "monetaryValue": 110000
+      }
+    }
+  ]
+}

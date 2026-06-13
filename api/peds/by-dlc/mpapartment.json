@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "peds",
+    "label": "Peds",
+    "urlPattern": "{cdnBase}/assets/peds/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate null for patch-day additions)."
+  },
+  "group": {
+    "id": "mpapartment",
+    "name": "Executives and Other Criminals",
+    "releaseDate": "2015-12-15",
+    "key": "mpapartment",
+    "slug": "mpapartment",
+    "count": 2
+  },
+  "count": 2,
+  "items": [
+    {
+      "id": "mp_f_boatstaff_01",
+      "name": "mp_f_boatstaff_01",
+      "hash": 848542158,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "props": "0 prop",
+      "components": "4 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_f_boatstaff_01.webp"
+    },
+    {
+      "id": "mp_m_boatstaff_01",
+      "name": "mp_m_boatstaff_01",
+      "hash": 3361671816,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "props": "1 prop",
+      "components": "3 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_m_boatstaff_01.webp"
+    }
+  ]
+}

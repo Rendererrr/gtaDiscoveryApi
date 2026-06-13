@@ -1,0 +1,673 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "id": "mpbiker",
+    "name": "Bikers",
+    "releaseDate": "2016-10-04",
+    "key": "mpbiker",
+    "slug": "mpbiker",
+    "count": 21
+  },
+  "count": 21,
+  "items": [
+    {
+      "id": "tornado6",
+      "name": "Tornado Rat Rod",
+      "hash": 2736567667,
+      "category": "Sports Classic",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tornado6.webp",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "stats": {
+        "handlingId": "TORNADO6",
+        "mass": 2100,
+        "topSpeed": 130,
+        "driveForce": 0.28,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.7,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2,
+          "min": 1.82,
+          "lateral": 17
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 30,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "raptor",
+      "name": "Raptor",
+      "hash": 3620039993,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/raptor.webp",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "stats": {
+        "handlingId": "RAPTOR",
+        "mass": 500,
+        "topSpeed": 140,
+        "driveForce": 0.295,
+        "brakeForce": 1.2,
+        "handBrakeForce": 0.3,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.6,
+          "min": 2.4,
+          "lateral": 20.5
+        },
+        "suspensionForce": 4,
+        "steeringLock": 35,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "avarus",
+      "name": "Avarus",
+      "hash": 2179174271,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/avarus.webp",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "stats": {
+        "handlingId": "AVARUS",
+        "mass": 230,
+        "topSpeed": 135,
+        "driveForce": 0.27,
+        "brakeForce": 1,
+        "handBrakeForce": 1.2,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.85,
+          "min": 1.75,
+          "lateral": 22.5
+        },
+        "suspensionForce": 7,
+        "steeringLock": 22,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "chimera",
+      "name": "Chimera",
+      "hash": 6774487,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/chimera.webp",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "stats": {
+        "handlingId": "CHIMERA",
+        "mass": 401,
+        "topSpeed": 135,
+        "driveForce": 0.275,
+        "brakeForce": 1,
+        "handBrakeForce": 0.5,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.1,
+          "min": 1.9,
+          "lateral": 20.5
+        },
+        "suspensionForce": 3.8,
+        "steeringLock": 30,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "daemon2",
+      "name": "Daemon Custom",
+      "hash": 2890830793,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/daemon2.webp",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "stats": {
+        "handlingId": "DAEMON2",
+        "mass": 250,
+        "topSpeed": 135,
+        "driveForce": 0.262,
+        "brakeForce": 0.6,
+        "handBrakeForce": 1.5,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.85,
+          "min": 1.75,
+          "lateral": 21.5
+        },
+        "suspensionForce": 7,
+        "steeringLock": 40,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "defiler",
+      "name": "Defiler",
+      "hash": 822018448,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/defiler.webp",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "stats": {
+        "handlingId": "DEFILER",
+        "mass": 200,
+        "topSpeed": 148,
+        "driveForce": 0.405,
+        "brakeForce": 1.2,
+        "handBrakeForce": 1.3,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 2.13,
+          "lateral": 22.5
+        },
+        "suspensionForce": 7.5,
+        "steeringLock": 42,
+        "monetaryValue": 20000
+      }
+    },
+    {
+      "id": "esskey",
+      "name": "Esskey",
+      "hash": 2035069708,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/esskey.webp",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "stats": {
+        "handlingId": "ESSKEY",
+        "mass": 190,
+        "topSpeed": 145,
+        "driveForce": 0.295,
+        "brakeForce": 1.2,
+        "handBrakeForce": 1.15,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 2.07,
+          "lateral": 22.5
+        },
+        "suspensionForce": 7,
+        "steeringLock": 36,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "faggio",
+      "name": "Faggio Sport",
+      "hash": 2452219115,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/faggio.webp",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "stats": {
+        "handlingId": "FAGGION",
+        "mass": 110,
+        "topSpeed": 95,
+        "driveForce": 0.198,
+        "brakeForce": 0.4,
+        "handBrakeForce": 1,
+        "gears": 3,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.7,
+          "min": 1.5,
+          "lateral": 20
+        },
+        "suspensionForce": 4.1,
+        "steeringLock": 36,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "faggio3",
+      "name": "Faggio Mod",
+      "hash": 3005788552,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/faggio3.webp",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "stats": {
+        "handlingId": "FAGGIO3",
+        "mass": 100,
+        "topSpeed": 90,
+        "driveForce": 0.195,
+        "brakeForce": 0.4,
+        "handBrakeForce": 1,
+        "gears": 3,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.7,
+          "min": 1.5,
+          "lateral": 20
+        },
+        "suspensionForce": 4.1,
+        "steeringLock": 28,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "hakuchou2",
+      "name": "Hakuchou Drag",
+      "hash": 4039289119,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/hakuchou2.webp",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "stats": {
+        "handlingId": "HAKUCHOU2",
+        "mass": 270,
+        "topSpeed": 159,
+        "driveForce": 0.425,
+        "brakeForce": 1.4,
+        "handBrakeForce": 3.65,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.9,
+          "min": 2.8,
+          "lateral": 22.5
+        },
+        "suspensionForce": 6.5,
+        "steeringLock": 22,
+        "monetaryValue": 20000
+      }
+    },
+    {
+      "id": "manchez",
+      "name": "Manchez",
+      "hash": 2771538552,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/manchez.webp",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "stats": {
+        "handlingId": "MANCHEZ",
+        "mass": 190,
+        "topSpeed": 145,
+        "driveForce": 0.295,
+        "brakeForce": 1.2,
+        "handBrakeForce": 1.15,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 2.07,
+          "lateral": 22.5
+        },
+        "suspensionForce": 5,
+        "steeringLock": 40,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "nightblade",
+      "name": "Nightblade",
+      "hash": 2688780135,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/nightblade.webp",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "stats": {
+        "handlingId": "NIGHTBLADE",
+        "mass": 205,
+        "topSpeed": 142,
+        "driveForce": 0.31,
+        "brakeForce": 1.2,
+        "handBrakeForce": 1.5,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.95,
+          "min": 1.9,
+          "lateral": 21.5
+        },
+        "suspensionForce": 5.5,
+        "steeringLock": 40,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "ratbike",
+      "name": "Rat Bike",
+      "hash": 1873600305,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/ratbike.webp",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "stats": {
+        "handlingId": "RATBIKE",
+        "mass": 180,
+        "topSpeed": 130,
+        "driveForce": 0.215,
+        "brakeForce": 1.2,
+        "handBrakeForce": 1.2,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.65,
+          "min": 1.64,
+          "lateral": 20
+        },
+        "suspensionForce": 7,
+        "steeringLock": 35,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "sanctus",
+      "name": "Sanctus",
+      "hash": 1491277511,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/sanctus.webp",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "stats": {
+        "handlingId": "SANCTUS",
+        "mass": 250,
+        "topSpeed": 144,
+        "driveForce": 0.405,
+        "brakeForce": 1,
+        "handBrakeForce": 1.2,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.95,
+          "min": 1.85,
+          "lateral": 22.5
+        },
+        "suspensionForce": 7,
+        "steeringLock": 22,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "shotaro",
+      "name": "Shotaro",
+      "hash": 3889340782,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/shotaro.webp",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "stats": {
+        "handlingId": "SHOTARO",
+        "mass": 230,
+        "topSpeed": 159.5,
+        "driveForce": 0.4,
+        "brakeForce": 1.4,
+        "handBrakeForce": 1.65,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.7,
+          "min": 2.6,
+          "lateral": 22.5
+        },
+        "suspensionForce": 7.5,
+        "steeringLock": 45,
+        "monetaryValue": 20000
+      }
+    },
+    {
+      "id": "vortex",
+      "name": "Vortex",
+      "hash": 3685342204,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/vortex.webp",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "stats": {
+        "handlingId": "VORTEX",
+        "mass": 190,
+        "topSpeed": 148,
+        "driveForce": 0.403,
+        "brakeForce": 1.2,
+        "handBrakeForce": 1.3,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 2.13,
+          "lateral": 22.5
+        },
+        "suspensionForce": 7.5,
+        "steeringLock": 42,
+        "monetaryValue": 20000
+      }
+    },
+    {
+      "id": "wolfsbane",
+      "name": "Wolfsbane",
+      "hash": 3676349299,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/wolfsbane.webp",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "stats": {
+        "handlingId": "WOLFSBANE",
+        "mass": 180,
+        "topSpeed": 130,
+        "driveForce": 0.215,
+        "brakeForce": 1.2,
+        "handBrakeForce": 1.2,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.65,
+          "min": 1.64,
+          "lateral": 20
+        },
+        "suspensionForce": 7,
+        "steeringLock": 35,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "zombiea",
+      "name": "Zombie Bobber",
+      "hash": 3285698347,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/zombiea.webp",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "stats": {
+        "handlingId": "ZOMBIEA",
+        "mass": 225,
+        "topSpeed": 137,
+        "driveForce": 0.29,
+        "brakeForce": 0.8,
+        "handBrakeForce": 1.5,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.88,
+          "min": 1.8,
+          "lateral": 21.5
+        },
+        "suspensionForce": 7,
+        "steeringLock": 40,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "zombieb",
+      "name": "Zombie Chopper",
+      "hash": 3724934023,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/zombieb.webp",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "stats": {
+        "handlingId": "ZOMBIEB",
+        "mass": 225,
+        "topSpeed": 137,
+        "driveForce": 0.29,
+        "brakeForce": 0.8,
+        "handBrakeForce": 1.5,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.88,
+          "min": 1.8,
+          "lateral": 21.5
+        },
+        "suspensionForce": 9,
+        "steeringLock": 40,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "blazer4",
+      "name": "Street Blazer",
+      "hash": 3854198872,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/blazer4.webp",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "stats": {
+        "handlingId": "BLAZER4",
+        "mass": 550,
+        "topSpeed": 125,
+        "driveForce": 0.25,
+        "brakeForce": 1,
+        "handBrakeForce": 0.5,
+        "gears": 6,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.7,
+          "min": 2.5,
+          "lateral": 20.5
+        },
+        "suspensionForce": 3.8,
+        "steeringLock": 35,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "youga2",
+      "name": "Youga Classic",
+      "hash": 1026149675,
+      "category": "Vans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/youga2.webp",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "stats": {
+        "handlingId": "YOUGA2",
+        "mass": 2500,
+        "topSpeed": 120,
+        "driveForce": 0.14,
+        "brakeForce": 0.3,
+        "handBrakeForce": 0.35,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.8,
+          "min": 1.55,
+          "lateral": 20
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 33,
+        "monetaryValue": 22000
+      }
+    }
+  ]
+}

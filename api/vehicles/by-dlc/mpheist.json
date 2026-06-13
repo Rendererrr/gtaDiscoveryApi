@@ -1,0 +1,673 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "id": "mpheist",
+    "name": "The Heists Update",
+    "releaseDate": "2015-03-10",
+    "key": "mpheist",
+    "slug": "mpheist",
+    "count": 21
+  },
+  "count": 21,
+  "items": [
+    {
+      "id": "slamvan2",
+      "name": "Lost Slamvan",
+      "hash": 833469436,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/slamvan2.webp",
+      "dlc": {
+        "id": "mpheist",
+        "name": "The Heists Update",
+        "releaseDate": "2015-03-10"
+      },
+      "stats": {
+        "handlingId": "SLAMVAN2",
+        "mass": 1300,
+        "topSpeed": 135,
+        "driveForce": 0.25,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.3,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.85,
+          "min": 1.55,
+          "lateral": 20.5
+        },
+        "suspensionForce": 1.9,
+        "steeringLock": 35,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "casco",
+      "name": "Casco",
+      "hash": 941800958,
+      "category": "Sports Classic",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/casco.webp",
+      "dlc": {
+        "id": "mpheist",
+        "name": "The Heists Update",
+        "releaseDate": "2015-03-10"
+      },
+      "stats": {
+        "handlingId": "CASCO",
+        "mass": 1100,
+        "topSpeed": 151,
+        "driveForce": 0.32,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.45,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.3,
+          "min": 2.05,
+          "lateral": 20.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 38,
+        "monetaryValue": 130000
+      }
+    },
+    {
+      "id": "kuruma",
+      "name": "Kuruma",
+      "hash": 2922118804,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/kuruma.webp",
+      "dlc": {
+        "id": "mpheist",
+        "name": "The Heists Update",
+        "releaseDate": "2015-03-10"
+      },
+      "stats": {
+        "handlingId": "KURUMA",
+        "mass": 1500,
+        "topSpeed": 143,
+        "driveForce": 0.31,
+        "brakeForce": 0.5,
+        "handBrakeForce": 0.7,
+        "gears": 6,
+        "driveBiasFront": 0.33,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.45,
+          "min": 1.98,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.9,
+        "steeringLock": 35,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "kuruma2",
+      "name": "Kuruma (Armored)",
+      "hash": 410882957,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/kuruma2.webp",
+      "dlc": {
+        "id": "mpheist",
+        "name": "The Heists Update",
+        "releaseDate": "2015-03-10"
+      },
+      "stats": {
+        "handlingId": "KURUMA2",
+        "mass": 3200,
+        "topSpeed": 140,
+        "driveForce": 0.31,
+        "brakeForce": 0.5,
+        "handBrakeForce": 0.7,
+        "gears": 6,
+        "driveBiasFront": 0.33,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.25,
+          "min": 1.88,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.9,
+        "steeringLock": 35,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "enduro",
+      "name": "Enduro",
+      "hash": 1753414259,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/enduro.webp",
+      "dlc": {
+        "id": "mpheist",
+        "name": "The Heists Update",
+        "releaseDate": "2015-03-10"
+      },
+      "stats": {
+        "handlingId": "ENDURO",
+        "mass": 220,
+        "topSpeed": 119,
+        "driveForce": 0.3,
+        "brakeForce": 1.05,
+        "handBrakeForce": 1.15,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.16,
+          "min": 2.08,
+          "lateral": 22.5
+        },
+        "suspensionForce": 6,
+        "steeringLock": 36,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "lectro",
+      "name": "Lectro",
+      "hash": 640818791,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/lectro.webp",
+      "dlc": {
+        "id": "mpheist",
+        "name": "The Heists Update",
+        "releaseDate": "2015-03-10"
+      },
+      "stats": {
+        "handlingId": "LECTRO",
+        "mass": 250,
+        "topSpeed": 140,
+        "driveForce": 0.28,
+        "brakeForce": 1.2,
+        "handBrakeForce": 1.3,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.95,
+          "min": 1.9,
+          "lateral": 22.5
+        },
+        "suspensionForce": 7,
+        "steeringLock": 38,
+        "monetaryValue": 20000
+      }
+    },
+    {
+      "id": "insurgent",
+      "name": "Insurgent Pick-Up",
+      "hash": 2434067162,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/insurgent.webp",
+      "dlc": {
+        "id": "mpheist",
+        "name": "The Heists Update",
+        "releaseDate": "2015-03-10"
+      },
+      "stats": {
+        "handlingId": "INSURGENT",
+        "mass": 8600,
+        "topSpeed": 130,
+        "driveForce": 0.24,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.45,
+        "gears": 6,
+        "driveBiasFront": 0.4,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2,
+          "min": 1.7,
+          "lateral": 18
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 34,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "insurgent2",
+      "name": "Insurgent",
+      "hash": 2071877360,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/insurgent2.webp",
+      "dlc": {
+        "id": "mpheist",
+        "name": "The Heists Update",
+        "releaseDate": "2015-03-10"
+      },
+      "stats": {
+        "handlingId": "INSURGENT2",
+        "mass": 8600,
+        "topSpeed": 130,
+        "driveForce": 0.24,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.45,
+        "gears": 6,
+        "driveBiasFront": 0.4,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2,
+          "min": 1.7,
+          "lateral": 18
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 34,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "technical",
+      "name": "Technical",
+      "hash": 2198148358,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/technical.webp",
+      "dlc": {
+        "id": "mpheist",
+        "name": "The Heists Update",
+        "releaseDate": "2015-03-10"
+      },
+      "stats": {
+        "handlingId": "TECHNICAL",
+        "mass": 3200,
+        "topSpeed": 130,
+        "driveForce": 0.2,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.45,
+        "gears": 5,
+        "driveBiasFront": 0.3,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.13,
+          "min": 1.95,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.5,
+        "steeringLock": 40,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "guardian",
+      "name": "Guardian",
+      "hash": 2186977100,
+      "category": "Industrial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/guardian.webp",
+      "dlc": {
+        "id": "mpheist",
+        "name": "The Heists Update",
+        "releaseDate": "2015-03-10"
+      },
+      "stats": {
+        "handlingId": "GUARDIAN",
+        "mass": 3800,
+        "topSpeed": 130,
+        "driveForce": 0.21,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.45,
+        "gears": 6,
+        "driveBiasFront": 0.35,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2,
+          "min": 1.75,
+          "lateral": 19
+        },
+        "suspensionForce": 1.6,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "tanker2",
+      "name": "null",
+      "hash": 1956216962,
+      "category": "Utility",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tanker2.webp",
+      "dlc": {
+        "id": "mpheist",
+        "name": "The Heists Update",
+        "releaseDate": "2015-03-10"
+      },
+      "stats": {
+        "handlingId": "TANKER",
+        "mass": 5000,
+        "topSpeed": 105,
+        "driveForce": 0,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.5,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.8,
+          "min": 1.75,
+          "lateral": 20
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 40,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "boxville4",
+      "name": "Boxville",
+      "hash": 444171386,
+      "category": "Vans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/boxville4.webp",
+      "dlc": {
+        "id": "mpheist",
+        "name": "The Heists Update",
+        "releaseDate": "2015-03-10"
+      },
+      "stats": {
+        "handlingId": "BOXVILLE",
+        "mass": 5500,
+        "topSpeed": 100,
+        "driveForce": 0.11,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.3,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.55,
+          "min": 1.35,
+          "lateral": 17
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "gburrito2",
+      "name": "Gang Burrito",
+      "hash": 296357396,
+      "category": "Vans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/gburrito2.webp",
+      "dlc": {
+        "id": "mpheist",
+        "name": "The Heists Update",
+        "releaseDate": "2015-03-10"
+      },
+      "stats": {
+        "handlingId": "GBURRITO2",
+        "mass": 2500,
+        "topSpeed": 140,
+        "driveForce": 0.18,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.7,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.05,
+          "min": 1.8,
+          "lateral": 22
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 38,
+        "monetaryValue": 22000
+      }
+    },
+    {
+      "id": "dinghy3",
+      "name": "Dinghy",
+      "hash": 509498602,
+      "category": "Boats",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/dinghy3.webp",
+      "dlc": {
+        "id": "mpheist",
+        "name": "The Heists Update",
+        "releaseDate": "2015-03-10"
+      },
+      "stats": {
+        "handlingId": "DINGHY",
+        "mass": 2000,
+        "topSpeed": 125,
+        "driveForce": 16,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0,
+          "min": 0,
+          "lateral": 6
+        },
+        "suspensionForce": 1,
+        "steeringLock": 35,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "savage",
+      "name": "Savage",
+      "hash": 4212341271,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/savage.webp",
+      "dlc": {
+        "id": "mpheist",
+        "name": "The Heists Update",
+        "releaseDate": "2015-03-10"
+      },
+      "stats": {
+        "handlingId": "SAVAGE",
+        "mass": 14000,
+        "topSpeed": 155,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.2,
+          "lateral": 12
+        },
+        "suspensionForce": 3,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "valkyrie",
+      "name": "Valkyrie",
+      "hash": 2694714877,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/valkyrie.webp",
+      "dlc": {
+        "id": "mpheist",
+        "name": "The Heists Update",
+        "releaseDate": "2015-03-10"
+      },
+      "stats": {
+        "handlingId": "VALKYR",
+        "mass": 6500,
+        "topSpeed": 165,
+        "driveForce": 0.33,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.6,
+          "min": 1.2,
+          "lateral": 20
+        },
+        "suspensionForce": 3,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "hydra",
+      "name": "Hydra",
+      "hash": 970385471,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/hydra.webp",
+      "dlc": {
+        "id": "mpheist",
+        "name": "The Heists Update",
+        "releaseDate": "2015-03-10"
+      },
+      "stats": {
+        "handlingId": "HYDRA",
+        "mass": 8000,
+        "topSpeed": 10,
+        "driveForce": 0.001,
+        "brakeForce": 0.18,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.15,
+          "min": 0.8,
+          "lateral": 12
+        },
+        "suspensionForce": 3.75,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "velum2",
+      "name": "Velum 5-Seater",
+      "hash": 1077420264,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/velum2.webp",
+      "dlc": {
+        "id": "mpheist",
+        "name": "The Heists Update",
+        "releaseDate": "2015-03-10"
+      },
+      "stats": {
+        "handlingId": "velum",
+        "mass": 5000,
+        "topSpeed": 268.7,
+        "driveForce": 0.01,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.01,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.8,
+          "lateral": 12
+        },
+        "suspensionForce": 6.5,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "trash2",
+      "name": "Trashmaster",
+      "hash": 3039269212,
+      "category": "Service",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/trash2.webp",
+      "dlc": {
+        "id": "mpheist",
+        "name": "The Heists Update",
+        "releaseDate": "2015-03-10"
+      },
+      "stats": {
+        "handlingId": "trash",
+        "mass": 9000,
+        "topSpeed": 110,
+        "driveForce": 0.13,
+        "brakeForce": 0.3,
+        "handBrakeForce": 0.22,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.55,
+          "min": 1.4,
+          "lateral": 17
+        },
+        "suspensionForce": 1,
+        "steeringLock": 37,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "barracks3",
+      "name": "Barracks",
+      "hash": 630371791,
+      "category": "Military",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/barracks3.webp",
+      "dlc": {
+        "id": "mpheist",
+        "name": "The Heists Update",
+        "releaseDate": "2015-03-10"
+      },
+      "stats": {
+        "handlingId": "BARRACKS",
+        "mass": 9000,
+        "topSpeed": 110,
+        "driveForce": 0.11,
+        "brakeForce": 0.3,
+        "handBrakeForce": 0.15,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.65,
+          "min": 1.45,
+          "lateral": 18
+        },
+        "suspensionForce": 1,
+        "steeringLock": 36,
+        "monetaryValue": 40000
+      }
+    },
+    {
+      "id": "mule3",
+      "name": "Mule",
+      "hash": 2242229361,
+      "category": "Commercial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/mule3.webp",
+      "dlc": {
+        "id": "mpheist",
+        "name": "The Heists Update",
+        "releaseDate": "2015-03-10"
+      },
+      "stats": {
+        "handlingId": "MULE3",
+        "mass": 12500,
+        "topSpeed": 100,
+        "driveForce": 0.17,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.2,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.5,
+          "min": 1.3,
+          "lateral": 16
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 37,
+        "monetaryValue": 25000
+      }
+    }
+  ]
+}

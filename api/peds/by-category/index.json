@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "peds",
+    "label": "Peds",
+    "urlPattern": "{cdnBase}/assets/peds/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate null for patch-day additions)."
+  },
+  "count": 12,
+  "groups": [
+    {
+      "name": "Story",
+      "key": "Story",
+      "slug": "story",
+      "count": 155,
+      "path": "api/peds/by-category/story.json"
+    },
+    {
+      "name": "Cutscene",
+      "key": "Cutscene",
+      "slug": "cutscene",
+      "count": 154,
+      "path": "api/peds/by-category/cutscene.json"
+    },
+    {
+      "name": "Ambient male",
+      "key": "Ambient male",
+      "slug": "ambient-male",
+      "count": 129,
+      "path": "api/peds/by-category/ambient-male.json"
+    },
+    {
+      "name": "Scenario male",
+      "key": "Scenario male",
+      "slug": "scenario-male",
+      "count": 99,
+      "path": "api/peds/by-category/scenario-male.json"
+    },
+    {
+      "name": "Ambient female",
+      "key": "Ambient female",
+      "slug": "ambient-female",
+      "count": 75,
+      "path": "api/peds/by-category/ambient-female.json"
+    },
+    {
+      "name": "Story scenario male",
+      "key": "Story scenario male",
+      "slug": "story-scenario-male",
+      "count": 63,
+      "path": "api/peds/by-category/story-scenario-male.json"
+    },
+    {
+      "name": "Gang male",
+      "key": "Gang male",
+      "slug": "gang-male",
+      "count": 41,
+      "path": "api/peds/by-category/gang-male.json"
+    },
+    {
+      "name": "Multiplayer",
+      "key": "Multiplayer",
+      "slug": "multiplayer",
+      "count": 40,
+      "path": "api/peds/by-category/multiplayer.json"
+    },
+    {
+      "name": "Animals",
+      "key": "Animals",
+      "slug": "animals",
+      "count": 33,
+      "path": "api/peds/by-category/animals.json"
+    },
+    {
+      "name": "Story scenario female",
+      "key": "Story scenario female",
+      "slug": "story-scenario-female",
+      "count": 28,
+      "path": "api/peds/by-category/story-scenario-female.json"
+    },
+    {
+      "name": "Scenario female",
+      "key": "Scenario female",
+      "slug": "scenario-female",
+      "count": 25,
+      "path": "api/peds/by-category/scenario-female.json"
+    },
+    {
+      "name": "Gang female",
+      "key": "Gang female",
+      "slug": "gang-female",
+      "count": 6,
+      "path": "api/peds/by-category/gang-female.json"
+    }
+  ]
+}

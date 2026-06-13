@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "peds",
+    "label": "Peds",
+    "urlPattern": "{cdnBase}/assets/peds/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate null for patch-day additions)."
+  },
+  "group": {
+    "id": "mpexecutive",
+    "name": "Further Adventures in Finance and Felony",
+    "releaseDate": "2016-06-07",
+    "key": "mpexecutive",
+    "slug": "mpexecutive",
+    "count": 3
+  },
+  "count": 3,
+  "items": [
+    {
+      "id": "mp_f_execpa_01",
+      "name": "mp_f_execpa_01",
+      "hash": 1126998116,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "mpexecutive",
+        "name": "Further Adventures in Finance and Felony",
+        "releaseDate": "2016-06-07"
+      },
+      "props": "1 prop",
+      "components": "8 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_f_execpa_01.webp"
+    },
+    {
+      "id": "mp_f_helistaff_01",
+      "name": "mp_f_helistaff_01",
+      "hash": 431423238,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "mpexecutive",
+        "name": "Further Adventures in Finance and Felony",
+        "releaseDate": "2016-06-07"
+      },
+      "props": "1 prop",
+      "components": "5 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_f_helistaff_01.webp"
+    },
+    {
+      "id": "mp_m_execpa_01",
+      "name": "mp_m_execpa_01",
+      "hash": 1048844220,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "mpexecutive",
+        "name": "Further Adventures in Finance and Felony",
+        "releaseDate": "2016-06-07"
+      },
+      "props": "2 props",
+      "components": "8 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_m_execpa_01.webp"
+    }
+  ]
+}

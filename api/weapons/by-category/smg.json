@@ -1,0 +1,1041 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "weapons",
+    "label": "Weapons",
+    "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
+    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
+  },
+  "group": {
+    "name": "SMG",
+    "key": "SMG",
+    "slug": "smg",
+    "count": 10
+  },
+  "count": 10,
+  "items": [
+    {
+      "id": "assaultsmg",
+      "name": "Assault SMG",
+      "codename": "weapon_assaultsmg",
+      "hash": 4024951519,
+      "category": "SMG",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Assault-smg-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 23,
+        "fireRate": 55,
+        "accuracy": 45,
+        "range": 40,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_ASSAULTSMG_CLIP_01",
+          "label": "Default Clip",
+          "hash": 2366834608,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_ASSAULTSMG_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 3141985303,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MACRO",
+          "label": "Scope",
+          "hash": 2637152041,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP_02",
+          "label": "Suppressor",
+          "hash": 2805810788,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_ASSAULTSMG_VARMOD_LOWRIDER",
+          "label": "Yusuf Amir Luxury Finish",
+          "hash": 663517359,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "combatpdw",
+      "name": "Combat PDW",
+      "codename": "weapon_combatpdw",
+      "hash": 171789620,
+      "category": "SMG",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Combat-pdw-icon.png",
+      "dlc": {
+        "id": "mpluxe",
+        "name": "Ill-Gotten Gains Part 1",
+        "releaseDate": "2015-06-10"
+      },
+      "stats": {
+        "damage": 25,
+        "fireRate": 50,
+        "accuracy": 45,
+        "range": 38,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_COMBATPDW_CLIP_01",
+          "label": "Default Clip",
+          "hash": 1125642654,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_COMBATPDW_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 860508675,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_COMBATPDW_CLIP_03",
+          "label": "Drum Magazine",
+          "hash": 1857603803,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP",
+          "label": "Grip",
+          "hash": 202788691,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_SMALL",
+          "label": "Scope",
+          "hash": 2855028148,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "gusenberg",
+      "name": "Gusenberg Sweeper",
+      "codename": "weapon_gusenberg",
+      "hash": 1627465347,
+      "category": "SMG",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Gusenberg-sweeper-icon.png",
+      "dlc": {
+        "id": "mpvalentines",
+        "name": "Valentine's Day Massacre",
+        "releaseDate": "2014-02-13"
+      },
+      "stats": {
+        "damage": 34,
+        "fireRate": 65,
+        "accuracy": 38,
+        "range": 56,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_GUSENBERG_CLIP_01",
+          "label": "Default Clip",
+          "hash": 484812453,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_GUSENBERG_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 3939025520,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "machinepistol",
+      "name": "Machine Pistol",
+      "codename": "weapon_machinepistol",
+      "hash": 3675956304,
+      "category": "SMG",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Machine-pistol-icon.png",
+      "dlc": {
+        "id": "mplowrider",
+        "name": "Lowriders",
+        "releaseDate": "2015-10-20"
+      },
+      "stats": {
+        "damage": 28,
+        "fireRate": 70,
+        "accuracy": 40,
+        "range": 30,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_MACHINEPISTOL_CLIP_01",
+          "label": "Default Clip",
+          "hash": 1198425599,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_MACHINEPISTOL_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 3106695545,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_MACHINEPISTOL_CLIP_03",
+          "label": "Drum Magazine",
+          "hash": 2850671348,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_PI_SUPP",
+          "label": "Suppressor",
+          "hash": 3271853210,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "microsmg",
+      "name": "Micro SMG",
+      "codename": "weapon_microsmg",
+      "hash": 324215364,
+      "category": "SMG",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Micro-smg-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 21,
+        "fireRate": 60,
+        "accuracy": 30,
+        "range": 25,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_MICROSMG_CLIP_01",
+          "label": "Default Clip",
+          "hash": 3410538224,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_MICROSMG_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 283556395,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_PI_FLSH",
+          "label": "Flashlight",
+          "hash": 899381934,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MACRO",
+          "label": "Scope",
+          "hash": 2637152041,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP_02",
+          "label": "Suppressor",
+          "hash": 2805810788,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_MICROSMG_VARMOD_LUXE",
+          "label": "Yusuf Amir Luxury Finish",
+          "hash": 1215999497,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_MICROSMG_VARMOD_SECURITY",
+          "label": "Organics Finish",
+          "hash": 2012362801,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_MICROSMG_VARMOD_XM3",
+          "label": "Dildodude Camo",
+          "hash": 2728189138,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_MICROSMG_VARMOD_FRN",
+          "label": "COMPONENT_MICROSMG_VARMOD_FRN",
+          "hash": 1694268374,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "minismg",
+      "name": "Mini SMG",
+      "codename": "weapon_minismg",
+      "hash": 3173288789,
+      "category": "SMG",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Mini-smg-icon.png",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "stats": {
+        "damage": 22,
+        "fireRate": 84,
+        "accuracy": 33,
+        "range": 30,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_MINISMG_CLIP_01",
+          "label": "Default Clip",
+          "hash": 2227745491,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_MINISMG_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 2474561719,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "smg",
+      "name": "SMG",
+      "codename": "weapon_smg",
+      "hash": 736523883,
+      "category": "SMG",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Smg-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 22,
+        "fireRate": 55,
+        "accuracy": 40,
+        "range": 35,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_SMG_CLIP_01",
+          "label": "Default Clip",
+          "hash": 643254679,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_SMG_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 889808635,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_SMG_CLIP_03",
+          "label": "Drum Magazine",
+          "hash": 2043113590,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MACRO_02",
+          "label": "Scope",
+          "hash": 1019656791,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_PI_SUPP",
+          "label": "Suppressor",
+          "hash": 3271853210,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_SMG_VARMOD_LUXE",
+          "label": "Yusuf Amir Luxury Finish",
+          "hash": 663170192,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_GUNRUN_MK2_UPGRADE",
+          "label": "Mk II",
+          "hash": 1623028892,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "smg_mk2",
+      "name": "SMG Mk II",
+      "codename": "weapon_smg_mk2",
+      "hash": 2024373456,
+      "category": "SMG",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Smg-mk2-icon.png",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "damage": 26,
+        "fireRate": 55,
+        "accuracy": 40,
+        "range": 35,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_SMG_MK2_CLIP_01",
+          "label": "Default Clip",
+          "hash": 1277460590,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_SMG_MK2_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 3112393518,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_SMG_MK2_CLIP_FMJ",
+          "label": "Full Metal Jacket Rounds",
+          "hash": 190476639,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_SMG_MK2_CLIP_HOLLOWPOINT",
+          "label": "Hollow Point Rounds",
+          "hash": 974903034,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_SMG_MK2_CLIP_INCENDIARY",
+          "label": "Incendiary Rounds",
+          "hash": 3650233061,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_SMG_MK2_CLIP_TRACER",
+          "label": "Tracer Rounds",
+          "hash": 2146055916,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SIGHTS_SMG",
+          "label": "Holographic Sight",
+          "hash": 2681951826,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MACRO_02_SMG_MK2",
+          "label": "Small Scope",
+          "hash": 3842157419,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_SMALL_SMG_MK2",
+          "label": "Medium Scope",
+          "hash": 1038927834,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_PI_SUPP",
+          "label": "Suppressor",
+          "hash": 3271853210,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_01",
+          "label": "Muzzle Brake",
+          "hash": 3113485012,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_02",
+          "label": "Muzzle Brake",
+          "hash": 3362234491,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_03",
+          "label": "Muzzle Brake",
+          "hash": 3725708239,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_04",
+          "label": "Muzzle Brake",
+          "hash": 3968886988,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_05",
+          "label": "Muzzle Brake",
+          "hash": 48731514,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_06",
+          "label": "Muzzle Brake",
+          "hash": 880736428,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_07",
+          "label": "Muzzle Brake",
+          "hash": 1303784126,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SB_BARREL_01",
+          "label": "Default Barrel",
+          "hash": 3641720545,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_AT_SB_BARREL_02",
+          "label": "Heavy Barrel",
+          "hash": 2774849419,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Classic Black"
+        },
+        {
+          "index": 1,
+          "label": "Classic Gray"
+        },
+        {
+          "index": 2,
+          "label": "Classic Two-Tone"
+        },
+        {
+          "index": 3,
+          "label": "Classic White"
+        },
+        {
+          "index": 4,
+          "label": "Classic Beige"
+        },
+        {
+          "index": 5,
+          "label": "Classic Green"
+        },
+        {
+          "index": 6,
+          "label": "Classic Blue"
+        },
+        {
+          "index": 7,
+          "label": "Classic Earth"
+        },
+        {
+          "index": 8,
+          "label": "Classic Brown & Black"
+        },
+        {
+          "index": 9,
+          "label": "Red Contrast"
+        },
+        {
+          "index": 10,
+          "label": "Blue Contrast"
+        },
+        {
+          "index": 11,
+          "label": "Yellow Contrast"
+        },
+        {
+          "index": 12,
+          "label": "Orange Contrast"
+        },
+        {
+          "index": 13,
+          "label": "Bold Pink"
+        },
+        {
+          "index": 14,
+          "label": "Bold Purple & Yellow"
+        },
+        {
+          "index": 15,
+          "label": "Bold Orange"
+        },
+        {
+          "index": 16,
+          "label": "Bold Green & Purple"
+        },
+        {
+          "index": 17,
+          "label": "Bold Red Features"
+        },
+        {
+          "index": 18,
+          "label": "Bold Green Features"
+        },
+        {
+          "index": 19,
+          "label": "Bold Cyan Features"
+        },
+        {
+          "index": 20,
+          "label": "Bold Yellow Features"
+        },
+        {
+          "index": 21,
+          "label": "Bold Red & White"
+        },
+        {
+          "index": 22,
+          "label": "Bold Blue & White"
+        },
+        {
+          "index": 23,
+          "label": "Metallic Gold"
+        },
+        {
+          "index": 24,
+          "label": "Metallic Platinum"
+        },
+        {
+          "index": 25,
+          "label": "Metallic Gray & Lilac"
+        },
+        {
+          "index": 26,
+          "label": "Metallic Purple & Lime"
+        },
+        {
+          "index": 27,
+          "label": "Metallic Red"
+        },
+        {
+          "index": 28,
+          "label": "Metallic Green"
+        },
+        {
+          "index": 29,
+          "label": "Metallic Blue"
+        },
+        {
+          "index": 30,
+          "label": "Metallic White & Aqua"
+        },
+        {
+          "index": 31,
+          "label": "Metallic Red & Yellow"
+        },
+        {
+          "index": 32,
+          "label": "32"
+        }
+      ]
+    },
+    {
+      "id": "tecpistol",
+      "name": "Tactical SMG",
+      "codename": "weapon_tecpistol",
+      "hash": 350597077,
+      "category": "SMG",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Tactical-smg-icon.png",
+      "dlc": {
+        "id": "mp2023_01",
+        "name": "San Andreas Mercenaries",
+        "releaseDate": "2023-06-13"
+      },
+      "stats": {
+        "damage": 28,
+        "fireRate": 80,
+        "accuracy": 35,
+        "range": 30,
+        "maxAmmo": null
+      },
+      "components": [
+        {
+          "id": "COMPONENT_TECPISTOL_CLIP_01",
+          "label": "Default Clip",
+          "hash": 943088878,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_TECPISTOL_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 310778254,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP_02",
+          "label": "Suppressor",
+          "hash": 2805810788,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MACRO",
+          "label": "Scope",
+          "hash": 2637152041,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "raycarbine",
+      "name": "Unholy Hellbringer",
+      "codename": "weapon_raycarbine",
+      "hash": 1198256469,
+      "category": "SMG",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Unholy-hellbringer-icon.png",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "damage": 55,
+        "fireRate": 65,
+        "accuracy": 45,
+        "range": 60,
+        "maxAmmo": 250
+      },
+      "components": [],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Blue tint"
+        },
+        {
+          "index": 1,
+          "label": "Purple tint"
+        },
+        {
+          "index": 2,
+          "label": "Green tint"
+        },
+        {
+          "index": 3,
+          "label": "Orange tint"
+        },
+        {
+          "index": 4,
+          "label": "Pink tint"
+        },
+        {
+          "index": 5,
+          "label": "Gold tint"
+        },
+        {
+          "index": 6,
+          "label": "Platinum tint"
+        }
+      ]
+    }
+  ]
+}

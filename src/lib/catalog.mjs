@@ -22,6 +22,36 @@ export function summariseCategories(items) {
     .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
 }
 
+// URL/file-safe slug (e.g. "Sports Classics" -> "sports-classics").
+export function slugify(s) {
+  return String(s).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'unknown';
+}
+
+// Write one sub-listing folder: api/<domain>/<sub>/<slug>.json per group, plus
+// an index.json listing the groups. `groups` is [{ key, slug, label, extra, items }].
+async function writeGrouping({ domainApi, domain, sub, meta, groups, log }) {
+  if (!groups.length) return null;
+  const dir = join(domainApi, sub);
+  await mkdir(dir, { recursive: true });
+
+  const listed = [];
+  for (const g of groups) {
+    await writeFile(
+      join(dir, `${g.slug}.json`),
+      JSON.stringify({ meta, group: { ...g.extra, key: g.key, slug: g.slug, count: g.items.length }, count: g.items.length, items: g.items }, null, 2),
+      'utf-8',
+    );
+    listed.push({ ...g.extra, key: g.key, slug: g.slug, count: g.items.length, path: `api/${domain}/${sub}/${g.slug}.json` });
+  }
+  await writeFile(
+    join(dir, 'index.json'),
+    JSON.stringify({ meta, count: listed.length, groups: listed }, null, 2),
+    'utf-8',
+  );
+  log(`  ${sub}: ${listed.length} groups written.`);
+  return `api/${domain}/${sub}/index.json`;
+}
+
 // True if a file exists at `path`.
 export async function fileExists(path) {
   try { await stat(path); return true; } catch { return false; }
@@ -63,6 +93,35 @@ export async function writeFlatDomain({ apiDir, domain, label, urlPattern, note,
     'utf-8',
   );
 
+  // Pre-generated "list by …" groupings (static API has no query params).
+  // by-category: every flat domain. by-dlc: only domains whose items carry dlc.
+  const catGroups = categories.map(({ name }) => ({
+    key: name,
+    slug: slugify(name),
+    label: name,
+    extra: { name },
+    items: items.filter((it) => (it.category ?? 'Uncategorized') === name),
+  }));
+
+  const dlcMap = new Map(); // id -> { dlc, items }
+  for (const it of items) {
+    if (!it.dlc) continue;
+    if (!dlcMap.has(it.dlc.id)) dlcMap.set(it.dlc.id, { dlc: it.dlc, items: [] });
+    dlcMap.get(it.dlc.id).items.push(it);
+  }
+  const dlcGroups = [...dlcMap.values()]
+    .sort((a, b) => (a.dlc.releaseDate ?? '').localeCompare(b.dlc.releaseDate ?? ''))
+    .map(({ dlc, items: gi }) => ({
+      key: dlc.id,
+      slug: slugify(dlc.id),
+      label: dlc.name,
+      extra: { id: dlc.id, name: dlc.name, releaseDate: dlc.releaseDate ?? null },
+      items: gi,
+    }));
+
+  const byCategory = await writeGrouping({ domainApi, domain, sub: 'by-category', meta, groups: catGroups, log });
+  const byDlc = await writeGrouping({ domainApi, domain, sub: 'by-dlc', meta, groups: dlcGroups, log });
+
   log(`Done ${domain}: ${items.length} items across ${categories.length} categories (${withHash} hashed).`);
 
   return {
@@ -72,5 +131,7 @@ export async function writeFlatDomain({ apiDir, domain, label, urlPattern, note,
     categoryCount: categories.length,
     index: `api/${domain}/index.json`,
     hashes: `api/${domain}/hashes.json`,
+    ...(byCategory ? { byCategory } : {}),
+    ...(byDlc ? { byDlc } : {}),
   };
 }

@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "peds",
+    "label": "Peds",
+    "urlPattern": "{cdnBase}/assets/peds/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate null for patch-day additions)."
+  },
+  "group": {
+    "id": "patchday20ng",
+    "name": "Patch Day 20",
+    "releaseDate": null,
+    "key": "patchday20ng",
+    "slug": "patchday20ng",
+    "count": 1
+  },
+  "count": 1,
+  "items": [
+    {
+      "id": "mp_m_weapexp_01",
+      "name": "mp_m_weapexp_01",
+      "hash": 921328393,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "patchday20ng",
+        "name": "Patch Day 20",
+        "releaseDate": null
+      },
+      "props": "2 props",
+      "components": "10 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_m_weapexp_01.webp"
+    }
+  ]
+}

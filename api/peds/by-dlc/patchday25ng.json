@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "peds",
+    "label": "Peds",
+    "urlPattern": "{cdnBase}/assets/peds/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate null for patch-day additions)."
+  },
+  "group": {
+    "id": "patchday25ng",
+    "name": "Patch Day 25",
+    "releaseDate": null,
+    "key": "patchday25ng",
+    "slug": "patchday25ng",
+    "count": 1
+  },
+  "count": 1,
+  "items": [
+    {
+      "id": "ig_bankman",
+      "name": "ig_bankman",
+      "hash": 2426248831,
+      "category": "Story",
+      "dlc": {
+        "id": "patchday25ng",
+        "name": "Patch Day 25",
+        "releaseDate": null
+      },
+      "props": "0 prop",
+      "components": "8 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/ig_bankman.webp"
+    }
+  ]
+}

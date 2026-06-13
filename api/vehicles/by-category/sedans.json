@@ -1,0 +1,1384 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "name": "Sedans",
+    "key": "Sedans",
+    "slug": "sedans",
+    "count": 44
+  },
+  "count": 44,
+  "items": [
+    {
+      "id": "asea",
+      "name": "Asea",
+      "hash": 2485144969,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/asea.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "ASEA",
+        "mass": 1400,
+        "topSpeed": 145,
+        "driveForce": 0.2,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 5,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 2.05,
+          "min": 1.6,
+          "lateral": 20.5
+        },
+        "suspensionForce": 2.1,
+        "steeringLock": 34,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "asea2",
+      "name": "Asea",
+      "hash": 2487343317,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/asea2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "ASEA",
+        "mass": 1400,
+        "topSpeed": 145,
+        "driveForce": 0.2,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 5,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 2.05,
+          "min": 1.6,
+          "lateral": 20.5
+        },
+        "suspensionForce": 2.1,
+        "steeringLock": 34,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "asterope",
+      "name": "Asterope",
+      "hash": 2391954683,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/asterope.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "ASTEROPE",
+        "mass": 1500,
+        "topSpeed": 145,
+        "driveForce": 0.2,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.5,
+          "min": 2.2,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.8,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "asterope2",
+      "name": "Asterope GZ",
+      "hash": 3553846961,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/asterope2.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "ASTEROPE2",
+        "mass": 1500,
+        "topSpeed": 145,
+        "driveForce": 0.238,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.33,
+          "min": 2.22,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.15,
+        "steeringLock": 42.5,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "cinquemila",
+      "name": "Cinquemila",
+      "hash": 2767531027,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/cinquemila.webp",
+      "dlc": {
+        "id": "mpsecurity",
+        "name": "The Contract",
+        "releaseDate": "2021-12-15"
+      },
+      "stats": {
+        "handlingId": "CINQUEMILA",
+        "mass": 1860,
+        "topSpeed": 154,
+        "driveForce": 0.353,
+        "brakeForce": 0.975,
+        "handBrakeForce": 0.65,
+        "gears": 8,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.63,
+          "min": 2.37,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.75,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "driftchavosv6",
+      "name": "Chavos V6",
+      "hash": 457814204,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/driftchavosv6.webp",
+      "dlc": {
+        "id": "mp2025_01",
+        "name": "Money Fronts",
+        "releaseDate": "2025-06-17"
+      },
+      "stats": {
+        "handlingId": "DRIFTCHAVOSV6",
+        "mass": 1450,
+        "topSpeed": 132,
+        "driveForce": 0.718,
+        "brakeForce": 0.69,
+        "handBrakeForce": 0.715,
+        "gears": 5,
+        "driveBiasFront": 0.18,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.53,
+          "min": 1.52,
+          "lateral": 28
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 72,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "cog55",
+      "name": "Cognoscenti 55",
+      "hash": 906642318,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/cog55.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "COG55",
+        "mass": 2500,
+        "topSpeed": 145,
+        "driveForce": 0.265,
+        "brakeForce": 0.57,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.2,
+          "min": 1.75,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "cog552",
+      "name": "Cognoscenti 55 (Armored)",
+      "hash": 704435172,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/cog552.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "COG552",
+        "mass": 2600,
+        "topSpeed": 145,
+        "driveForce": 0.26,
+        "brakeForce": 0.55,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.2,
+          "min": 1.75,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.85,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "cognoscenti",
+      "name": "Cognoscenti",
+      "hash": 2264796000,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/cognoscenti.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "COGNOSC",
+        "mass": 2700,
+        "topSpeed": 140,
+        "driveForce": 0.26,
+        "brakeForce": 0.55,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.1,
+          "min": 1.65,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "cognoscenti2",
+      "name": "Cognoscenti (Armored)",
+      "hash": 3690124666,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/cognoscenti2.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "COGNOSC2",
+        "mass": 2800,
+        "topSpeed": 140,
+        "driveForce": 0.255,
+        "brakeForce": 0.52,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.1,
+          "min": 1.65,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.85,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "deity",
+      "name": "Deity",
+      "hash": 1532171089,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/deity.webp",
+      "dlc": {
+        "id": "mpsecurity",
+        "name": "The Contract",
+        "releaseDate": "2021-12-15"
+      },
+      "stats": {
+        "handlingId": "DEITY",
+        "mass": 2685,
+        "topSpeed": 150,
+        "driveForce": 0.292,
+        "brakeForce": 0.65,
+        "handBrakeForce": 0.8,
+        "gears": 8,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.85,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.45,
+        "steeringLock": 39,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "hardy",
+      "name": "Hardy",
+      "hash": 1580292663,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/hardy.webp",
+      "dlc": {
+        "id": "mp2025_01",
+        "name": "Money Fronts",
+        "releaseDate": "2025-06-17"
+      },
+      "stats": {
+        "handlingId": "HARDY",
+        "mass": 1350,
+        "topSpeed": 157.6,
+        "driveForce": 0.271,
+        "brakeForce": 0.566,
+        "handBrakeForce": 0.55,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.02,
+          "min": 1.9,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.765,
+        "steeringLock": 42.5,
+        "monetaryValue": 100000
+      }
+    },
+    {
+      "id": "drifthardy",
+      "name": "Hardy",
+      "hash": 3893408850,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/drifthardy.webp",
+      "dlc": {
+        "id": "mp2025_01",
+        "name": "Money Fronts",
+        "releaseDate": "2025-06-17"
+      },
+      "stats": {
+        "handlingId": "DRIFTHARDY",
+        "mass": 1350,
+        "topSpeed": 136,
+        "driveForce": 0.711,
+        "brakeForce": 0.566,
+        "handBrakeForce": 0.55,
+        "gears": 5,
+        "driveBiasFront": 0.23,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.53,
+          "min": 1.52,
+          "lateral": 29.5
+        },
+        "suspensionForce": 1.65,
+        "steeringLock": 74.5,
+        "monetaryValue": 100000
+      }
+    },
+    {
+      "id": "emperor",
+      "name": "Emperor",
+      "hash": 3609690755,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/emperor.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "EMPEROR",
+        "mass": 1900,
+        "topSpeed": 120,
+        "driveForce": 0.14,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.9,
+          "min": 1.55,
+          "lateral": 20.5
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "emperor2",
+      "name": "Emperor",
+      "hash": 2411965148,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/emperor2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "EMPEROR",
+        "mass": 1900,
+        "topSpeed": 120,
+        "driveForce": 0.14,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.9,
+          "min": 1.55,
+          "lateral": 20.5
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "emperor3",
+      "name": "Emperor",
+      "hash": 3053254478,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/emperor3.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "EMPEROR",
+        "mass": 1900,
+        "topSpeed": 120,
+        "driveForce": 0.14,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.9,
+          "min": 1.55,
+          "lateral": 20.5
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "fugitive",
+      "name": "Fugitive",
+      "hash": 1909141499,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/fugitive.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "FUGITIVE",
+        "mass": 1600,
+        "topSpeed": 145,
+        "driveForce": 0.2,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.5,
+          "min": 2.2,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.8,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "glendale",
+      "name": "Glendale",
+      "hash": 75131841,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/glendale.webp",
+      "dlc": {
+        "id": "mphipster",
+        "name": "I'm Not a Hipster Update",
+        "releaseDate": "2014-06-17"
+      },
+      "stats": {
+        "handlingId": "GLENDALE",
+        "mass": 1600,
+        "topSpeed": 147,
+        "driveForce": 0.235,
+        "brakeForce": 0.65,
+        "handBrakeForce": 1.2,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.05,
+          "min": 1.7,
+          "lateral": 20
+        },
+        "suspensionForce": 2.85,
+        "steeringLock": 50,
+        "monetaryValue": 100000
+      }
+    },
+    {
+      "id": "glendale2",
+      "name": "Glendale Custom",
+      "hash": 3381377750,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/glendale2.webp",
+      "dlc": {
+        "id": "mpsum",
+        "name": "Los Santos Summer Special",
+        "releaseDate": "2020-08-11"
+      },
+      "stats": {
+        "handlingId": "GLENDALE2",
+        "mass": 1550,
+        "topSpeed": 148,
+        "driveForce": 0.233,
+        "brakeForce": 0.625,
+        "handBrakeForce": 1.2,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.25,
+          "min": 1.95,
+          "lateral": 20
+        },
+        "suspensionForce": 2.85,
+        "steeringLock": 45,
+        "monetaryValue": 100000
+      }
+    },
+    {
+      "id": "impaler5",
+      "name": "Impaler SZ",
+      "hash": 3816328113,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/impaler5.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "IMPALER5",
+        "mass": 1830,
+        "topSpeed": 144,
+        "driveForce": 0.254,
+        "brakeForce": 0.865,
+        "handBrakeForce": 0.6,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.3,
+          "min": 2.19,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.6,
+        "steeringLock": 42,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "ingot",
+      "name": "Ingot",
+      "hash": 3005245074,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/ingot.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "INGOT",
+        "mass": 1400,
+        "topSpeed": 125,
+        "driveForce": 0.14,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 1.95,
+          "min": 1.65,
+          "lateral": 20.5
+        },
+        "suspensionForce": 1.9,
+        "steeringLock": 35,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "intruder",
+      "name": "Intruder",
+      "hash": 886934177,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/intruder.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "INTRUDER",
+        "mass": 1600,
+        "topSpeed": 145,
+        "driveForce": 0.2,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.35,
+          "min": 2.05,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.8,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "minimus",
+      "name": "Minimus",
+      "hash": 3193860278,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/minimus.webp",
+      "dlc": {
+        "id": "mp2025_01",
+        "name": "Money Fronts",
+        "releaseDate": "2025-06-17"
+      },
+      "stats": {
+        "handlingId": "MINIMUS",
+        "mass": 1600,
+        "topSpeed": 148.5,
+        "driveForce": 0.281,
+        "brakeForce": 0.55,
+        "handBrakeForce": 0.63,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.55,
+          "min": 2.35,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.1,
+        "steeringLock": 41,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "limo2",
+      "name": "Turreted Limo",
+      "hash": 4180339789,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/limo2.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "LIMO2",
+        "mass": 3750,
+        "topSpeed": 125,
+        "driveForce": 0.27,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.6,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.17,
+          "min": 1.85,
+          "lateral": 16.5
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "premier",
+      "name": "Premier",
+      "hash": 2411098011,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/premier.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "PREMIER",
+        "mass": 1600,
+        "topSpeed": 145,
+        "driveForce": 0.2,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 2.1,
+          "min": 1.8,
+          "lateral": 21.5
+        },
+        "suspensionForce": 2,
+        "steeringLock": 38,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "primo",
+      "name": "Primo",
+      "hash": 3144368207,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/primo.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "PRIMO",
+        "mass": 1800,
+        "topSpeed": 140,
+        "driveForce": 0.2,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.35,
+          "min": 2.05,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.4,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "primo2",
+      "name": "Primo Custom",
+      "hash": 2254540506,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/primo2.webp",
+      "dlc": {
+        "id": "mplowrider",
+        "name": "Lowriders",
+        "releaseDate": "2015-10-20"
+      },
+      "stats": {
+        "handlingId": "PRIMO2",
+        "mass": 1800,
+        "topSpeed": 140,
+        "driveForce": 0.2,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.35,
+          "min": 2.05,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.4,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "regina",
+      "name": "Regina",
+      "hash": 4280472072,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/regina.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "REGINA",
+        "mass": 1900,
+        "topSpeed": 120,
+        "driveForce": 0.14,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.6,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.9,
+          "min": 1.55,
+          "lateral": 29.5
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "rhinehart",
+      "name": "Rhinehart",
+      "hash": 2439462158,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/rhinehart.webp",
+      "dlc": {
+        "id": "mpsum2",
+        "name": "The Criminal Enterprises",
+        "releaseDate": "2022-07-26"
+      },
+      "stats": {
+        "handlingId": "RHINEHART",
+        "mass": 1660,
+        "topSpeed": 157.2,
+        "driveForce": 0.339,
+        "brakeForce": 0.885,
+        "handBrakeForce": 0.62,
+        "gears": 8,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.29,
+          "min": 2.15,
+          "lateral": 20
+        },
+        "suspensionForce": 2,
+        "steeringLock": 38.5,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "romero",
+      "name": "Romero Hearse",
+      "hash": 627094268,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/romero.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "ROMERO",
+        "mass": 2000,
+        "topSpeed": 125,
+        "driveForce": 0.15,
+        "brakeForce": 0.5,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.95,
+          "min": 1.55,
+          "lateral": 20.5
+        },
+        "suspensionForce": 1.9,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "schafter2",
+      "name": "Schafter",
+      "hash": 3039514899,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/schafter2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "SCHAFTER2",
+        "mass": 1600,
+        "topSpeed": 145,
+        "driveForce": 0.2,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.55,
+          "min": 2.25,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.8,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "schafter5",
+      "name": "Schafter V12 (Armored)",
+      "hash": 3406724313,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/schafter5.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "SCHAFTER5",
+        "mass": 1650,
+        "topSpeed": 150,
+        "driveForce": 0.29,
+        "brakeForce": 0.92,
+        "handBrakeForce": 0.6,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.55,
+          "min": 2.25,
+          "lateral": 20.5
+        },
+        "suspensionForce": 2.75,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "schafter6",
+      "name": "Schafter LWB (Armored)",
+      "hash": 1922255844,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/schafter6.webp",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "stats": {
+        "handlingId": "SCHAFTER6",
+        "mass": 2000,
+        "topSpeed": 142,
+        "driveForce": 0.185,
+        "brakeForce": 0.82,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.55,
+          "min": 2.25,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.4,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "stafford",
+      "name": "Stafford",
+      "hash": 321186144,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/stafford.webp",
+      "dlc": {
+        "id": "mpbattle",
+        "name": "After Hours",
+        "releaseDate": "2018-07-24"
+      },
+      "stats": {
+        "handlingId": "STAFFORD",
+        "mass": 2110,
+        "topSpeed": 120,
+        "driveForce": 0.2,
+        "brakeForce": 0.45,
+        "handBrakeForce": 0.4,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2,
+          "min": 1.8,
+          "lateral": 23.5
+        },
+        "suspensionForce": 1.35,
+        "steeringLock": 40,
+        "monetaryValue": 70000
+      }
+    },
+    {
+      "id": "stanier",
+      "name": "Stanier",
+      "hash": 2817386317,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/stanier.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "STANIER",
+        "mass": 1800,
+        "topSpeed": 140,
+        "driveForce": 0.2,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.45,
+          "min": 2.25,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "stratum",
+      "name": "Stratum",
+      "hash": 1723137093,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/stratum.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "STRATUM",
+        "mass": 1800,
+        "topSpeed": 135,
+        "driveForce": 0.21,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0.4,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.2,
+          "min": 1.8,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "stretch",
+      "name": "Stretch",
+      "hash": 2333339779,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/stretch.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "STRETCH",
+        "mass": 2400,
+        "topSpeed": 135,
+        "driveForce": 0.17,
+        "brakeForce": 0.8,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.85,
+          "min": 1.4,
+          "lateral": 16.5
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "superd",
+      "name": "Super Diamond",
+      "hash": 1123216662,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/superd.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "SUPERD",
+        "mass": 2800,
+        "topSpeed": 145,
+        "driveForce": 0.26,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.1,
+          "min": 1.65,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.4,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "surge",
+      "name": "Surge",
+      "hash": 2400073108,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/surge.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "SURGE",
+        "mass": 1800,
+        "topSpeed": 140,
+        "driveForce": 0.1,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.8,
+        "gears": 1,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.85,
+          "lateral": 21.5
+        },
+        "suspensionForce": 2.1,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "tailgater",
+      "name": "Tailgater",
+      "hash": 3286105550,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tailgater.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "TAILGATE",
+        "mass": 1400,
+        "topSpeed": 145,
+        "driveForce": 0.2,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.55,
+          "min": 2.25,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.8,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "tailgater2",
+      "name": "Tailgater S",
+      "hash": 3050505892,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tailgater2.webp",
+      "dlc": {
+        "id": "mptuner",
+        "name": "Los Santos Tuners",
+        "releaseDate": "2021-07-20"
+      },
+      "stats": {
+        "handlingId": "TAILGATER2",
+        "mass": 1340,
+        "topSpeed": 147.85,
+        "driveForce": 0.278,
+        "brakeForce": 0.88,
+        "handBrakeForce": 0.7,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.6,
+          "min": 2.32,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.85,
+        "steeringLock": 41,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "warrener",
+      "name": "Warrener",
+      "hash": 1373123368,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/warrener.webp",
+      "dlc": {
+        "id": "mphipster",
+        "name": "I'm Not a Hipster Update",
+        "releaseDate": "2014-06-17"
+      },
+      "stats": {
+        "handlingId": "warrener",
+        "mass": 1300,
+        "topSpeed": 140,
+        "driveForce": 0.245,
+        "brakeForce": 0.95,
+        "handBrakeForce": 1.2,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.16,
+          "min": 1.83,
+          "lateral": 20.5
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 50,
+        "monetaryValue": 100000
+      }
+    },
+    {
+      "id": "warrener2",
+      "name": "Warrener HKR",
+      "hash": 579912970,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/warrener2.webp",
+      "dlc": {
+        "id": "mptuner",
+        "name": "Los Santos Tuners",
+        "releaseDate": "2021-07-20"
+      },
+      "stats": {
+        "handlingId": "WARRENER2",
+        "mass": 965,
+        "topSpeed": 146,
+        "driveForce": 0.265,
+        "brakeForce": 0.95,
+        "handBrakeForce": 1.2,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.16,
+          "min": 1.83,
+          "lateral": 20.5
+        },
+        "suspensionForce": 1.9,
+        "steeringLock": 50,
+        "monetaryValue": 100000
+      }
+    },
+    {
+      "id": "washington",
+      "name": "Washington",
+      "hash": 1777363799,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/washington.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "WASHINGTON",
+        "mass": 1800,
+        "topSpeed": 140,
+        "driveForce": 0.2,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.45,
+          "min": 2.25,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.8,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    }
+  ]
+}

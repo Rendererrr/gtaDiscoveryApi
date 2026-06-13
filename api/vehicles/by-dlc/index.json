@@ -1,0 +1,401 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "count": 43,
+  "groups": [
+    {
+      "id": "TitleUpdate",
+      "name": "Base Game",
+      "releaseDate": "2013-09-17",
+      "key": "TitleUpdate",
+      "slug": "titleupdate",
+      "count": 298,
+      "path": "api/vehicles/by-dlc/titleupdate.json"
+    },
+    {
+      "id": "mpbeach",
+      "name": "Beach Bum",
+      "releaseDate": "2013-11-19",
+      "key": "mpbeach",
+      "slug": "mpbeach",
+      "count": 4,
+      "path": "api/vehicles/by-dlc/mpbeach.json"
+    },
+    {
+      "id": "mpvalentines",
+      "name": "Valentine's Day Massacre",
+      "releaseDate": "2014-02-13",
+      "key": "mpvalentines",
+      "slug": "mpvalentines",
+      "count": 1,
+      "path": "api/vehicles/by-dlc/mpvalentines.json"
+    },
+    {
+      "id": "mpbusiness",
+      "name": "The Business Update",
+      "releaseDate": "2014-03-04",
+      "key": "mpbusiness",
+      "slug": "mpbusiness",
+      "count": 4,
+      "path": "api/vehicles/by-dlc/mpbusiness.json"
+    },
+    {
+      "id": "mpbusiness2",
+      "name": "The High Life Update",
+      "releaseDate": "2014-05-13",
+      "key": "mpbusiness2",
+      "slug": "mpbusiness2",
+      "count": 4,
+      "path": "api/vehicles/by-dlc/mpbusiness2.json"
+    },
+    {
+      "id": "mphipster",
+      "name": "I'm Not a Hipster Update",
+      "releaseDate": "2014-06-17",
+      "key": "mphipster",
+      "slug": "mphipster",
+      "count": 7,
+      "path": "api/vehicles/by-dlc/mphipster.json"
+    },
+    {
+      "id": "mpindependence",
+      "name": "Independence Day Special",
+      "releaseDate": "2014-07-01",
+      "key": "mpindependence",
+      "slug": "mpindependence",
+      "count": 2,
+      "path": "api/vehicles/by-dlc/mpindependence.json"
+    },
+    {
+      "id": "mppilot",
+      "name": "San Andreas Flight School Update",
+      "releaseDate": "2014-08-19",
+      "key": "mppilot",
+      "slug": "mppilot",
+      "count": 4,
+      "path": "api/vehicles/by-dlc/mppilot.json"
+    },
+    {
+      "id": "mplts",
+      "name": "Last Team Standing Update",
+      "releaseDate": "2014-10-08",
+      "key": "mplts",
+      "slug": "mplts",
+      "count": 3,
+      "path": "api/vehicles/by-dlc/mplts.json"
+    },
+    {
+      "id": "spupgrade",
+      "name": "Story Mode (Next-Gen)",
+      "releaseDate": "2014-11-18",
+      "key": "spupgrade",
+      "slug": "spupgrade",
+      "count": 13,
+      "path": "api/vehicles/by-dlc/spupgrade.json"
+    },
+    {
+      "id": "mpchristmas2",
+      "name": "Festive Surprise (2014)",
+      "releaseDate": "2014-12-18",
+      "key": "mpchristmas2",
+      "slug": "mpchristmas2",
+      "count": 4,
+      "path": "api/vehicles/by-dlc/mpchristmas2.json"
+    },
+    {
+      "id": "mpheist",
+      "name": "The Heists Update",
+      "releaseDate": "2015-03-10",
+      "key": "mpheist",
+      "slug": "mpheist",
+      "count": 21,
+      "path": "api/vehicles/by-dlc/mpheist.json"
+    },
+    {
+      "id": "mpluxe",
+      "name": "Ill-Gotten Gains Part 1",
+      "releaseDate": "2015-06-10",
+      "key": "mpluxe",
+      "slug": "mpluxe",
+      "count": 6,
+      "path": "api/vehicles/by-dlc/mpluxe.json"
+    },
+    {
+      "id": "mpluxe2",
+      "name": "Ill-Gotten Gains Part 2",
+      "releaseDate": "2015-07-08",
+      "key": "mpluxe2",
+      "slug": "mpluxe2",
+      "count": 6,
+      "path": "api/vehicles/by-dlc/mpluxe2.json"
+    },
+    {
+      "id": "mplowrider",
+      "name": "Lowriders",
+      "releaseDate": "2015-10-20",
+      "key": "mplowrider",
+      "slug": "mplowrider",
+      "count": 8,
+      "path": "api/vehicles/by-dlc/mplowrider.json"
+    },
+    {
+      "id": "mphalloween",
+      "name": "Halloween Surprise",
+      "releaseDate": "2015-10-29",
+      "key": "mphalloween",
+      "slug": "mphalloween",
+      "count": 2,
+      "path": "api/vehicles/by-dlc/mphalloween.json"
+    },
+    {
+      "id": "mpapartment",
+      "name": "Executives and Other Criminals",
+      "releaseDate": "2015-12-15",
+      "key": "mpapartment",
+      "slug": "mpapartment",
+      "count": 25,
+      "path": "api/vehicles/by-dlc/mpapartment.json"
+    },
+    {
+      "id": "mpxmas_604490",
+      "name": "Festive Surprise 2015",
+      "releaseDate": "2015-12-22",
+      "key": "mpxmas_604490",
+      "slug": "mpxmas-604490",
+      "count": 1,
+      "path": "api/vehicles/by-dlc/mpxmas-604490.json"
+    },
+    {
+      "id": "mpjanuary2016",
+      "name": "January 2016 Update",
+      "releaseDate": "2016-01-29",
+      "key": "mpjanuary2016",
+      "slug": "mpjanuary2016",
+      "count": 2,
+      "path": "api/vehicles/by-dlc/mpjanuary2016.json"
+    },
+    {
+      "id": "mpvalentines2",
+      "name": "Be My Valentine",
+      "releaseDate": "2016-02-14",
+      "key": "mpvalentines2",
+      "slug": "mpvalentines2",
+      "count": 1,
+      "path": "api/vehicles/by-dlc/mpvalentines2.json"
+    },
+    {
+      "id": "mplowrider2",
+      "name": "Lowriders: Custom Classics",
+      "releaseDate": "2016-03-15",
+      "key": "mplowrider2",
+      "slug": "mplowrider2",
+      "count": 7,
+      "path": "api/vehicles/by-dlc/mplowrider2.json"
+    },
+    {
+      "id": "mpexecutive",
+      "name": "Further Adventures in Finance and Felony",
+      "releaseDate": "2016-06-07",
+      "key": "mpexecutive",
+      "slug": "mpexecutive",
+      "count": 14,
+      "path": "api/vehicles/by-dlc/mpexecutive.json"
+    },
+    {
+      "id": "mpstunt",
+      "name": "Cunning Stunts",
+      "releaseDate": "2016-07-12",
+      "key": "mpstunt",
+      "slug": "mpstunt",
+      "count": 15,
+      "path": "api/vehicles/by-dlc/mpstunt.json"
+    },
+    {
+      "id": "mpbiker",
+      "name": "Bikers",
+      "releaseDate": "2016-10-04",
+      "key": "mpbiker",
+      "slug": "mpbiker",
+      "count": 21,
+      "path": "api/vehicles/by-dlc/mpbiker.json"
+    },
+    {
+      "id": "mpspecialraces",
+      "name": "Cunning Stunts: Special Vehicle Circuit",
+      "releaseDate": "2016-11-08",
+      "key": "mpspecialraces",
+      "slug": "mpspecialraces",
+      "count": 4,
+      "path": "api/vehicles/by-dlc/mpspecialraces.json"
+    },
+    {
+      "id": "mpimportexport",
+      "name": "Import/Export",
+      "releaseDate": "2016-12-13",
+      "key": "mpimportexport",
+      "slug": "mpimportexport",
+      "count": 24,
+      "path": "api/vehicles/by-dlc/mpimportexport.json"
+    },
+    {
+      "id": "mpgunrunning",
+      "name": "Gunrunning",
+      "releaseDate": "2017-06-13",
+      "key": "mpgunrunning",
+      "slug": "mpgunrunning",
+      "count": 19,
+      "path": "api/vehicles/by-dlc/mpgunrunning.json"
+    },
+    {
+      "id": "mpsmuggler",
+      "name": "Smuggler's Run",
+      "releaseDate": "2017-08-29",
+      "key": "mpsmuggler",
+      "slug": "mpsmuggler",
+      "count": 19,
+      "path": "api/vehicles/by-dlc/mpsmuggler.json"
+    },
+    {
+      "id": "mpchristmas2017",
+      "name": "The Doomsday Heist",
+      "releaseDate": "2017-12-12",
+      "key": "mpchristmas2017",
+      "slug": "mpchristmas2017",
+      "count": 30,
+      "path": "api/vehicles/by-dlc/mpchristmas2017.json"
+    },
+    {
+      "id": "mpassault",
+      "name": "Southern San Andreas Super Sport Series",
+      "releaseDate": "2018-03-20",
+      "key": "mpassault",
+      "slug": "mpassault",
+      "count": 16,
+      "path": "api/vehicles/by-dlc/mpassault.json"
+    },
+    {
+      "id": "mpbattle",
+      "name": "After Hours",
+      "releaseDate": "2018-07-24",
+      "key": "mpbattle",
+      "slug": "mpbattle",
+      "count": 14,
+      "path": "api/vehicles/by-dlc/mpbattle.json"
+    },
+    {
+      "id": "mpchristmas2018",
+      "name": "Arena War",
+      "releaseDate": "2018-12-11",
+      "key": "mpchristmas2018",
+      "slug": "mpchristmas2018",
+      "count": 46,
+      "path": "api/vehicles/by-dlc/mpchristmas2018.json"
+    },
+    {
+      "id": "mpvinewood",
+      "name": "The Diamond Casino & Resort",
+      "releaseDate": "2019-07-23",
+      "key": "mpvinewood",
+      "slug": "mpvinewood",
+      "count": 22,
+      "path": "api/vehicles/by-dlc/mpvinewood.json"
+    },
+    {
+      "id": "mpheist3",
+      "name": "The Diamond Casino Heist",
+      "releaseDate": "2019-12-12",
+      "key": "mpheist3",
+      "slug": "mpheist3",
+      "count": 19,
+      "path": "api/vehicles/by-dlc/mpheist3.json"
+    },
+    {
+      "id": "mpsum",
+      "name": "Los Santos Summer Special",
+      "releaseDate": "2020-08-11",
+      "key": "mpsum",
+      "slug": "mpsum",
+      "count": 15,
+      "path": "api/vehicles/by-dlc/mpsum.json"
+    },
+    {
+      "id": "mpheist4",
+      "name": "The Cayo Perico Heist",
+      "releaseDate": "2020-12-15",
+      "key": "mpheist4",
+      "slug": "mpheist4",
+      "count": 21,
+      "path": "api/vehicles/by-dlc/mpheist4.json"
+    },
+    {
+      "id": "mptuner",
+      "name": "Los Santos Tuners",
+      "releaseDate": "2021-07-20",
+      "key": "mptuner",
+      "slug": "mptuner",
+      "count": 18,
+      "path": "api/vehicles/by-dlc/mptuner.json"
+    },
+    {
+      "id": "mpsecurity",
+      "name": "The Contract",
+      "releaseDate": "2021-12-15",
+      "key": "mpsecurity",
+      "slug": "mpsecurity",
+      "count": 17,
+      "path": "api/vehicles/by-dlc/mpsecurity.json"
+    },
+    {
+      "id": "mpsum2",
+      "name": "The Criminal Enterprises",
+      "releaseDate": "2022-07-26",
+      "key": "mpsum2",
+      "slug": "mpsum2",
+      "count": 18,
+      "path": "api/vehicles/by-dlc/mpsum2.json"
+    },
+    {
+      "id": "mpchristmas3",
+      "name": "Los Santos Drug Wars",
+      "releaseDate": "2022-12-13",
+      "key": "mpchristmas3",
+      "slug": "mpchristmas3",
+      "count": 17,
+      "path": "api/vehicles/by-dlc/mpchristmas3.json"
+    },
+    {
+      "id": "mp2023_01",
+      "name": "San Andreas Mercenaries",
+      "releaseDate": "2023-06-13",
+      "key": "mp2023_01",
+      "slug": "mp2023-01",
+      "count": 17,
+      "path": "api/vehicles/by-dlc/mp2023-01.json"
+    },
+    {
+      "id": "mp2023_02",
+      "name": "The Chop Shop",
+      "releaseDate": "2023-12-12",
+      "key": "mp2023_02",
+      "slug": "mp2023-02",
+      "count": 33,
+      "path": "api/vehicles/by-dlc/mp2023-02.json"
+    },
+    {
+      "id": "mp2025_01",
+      "name": "Money Fronts",
+      "releaseDate": "2025-06-17",
+      "key": "mp2025_01",
+      "slug": "mp2025-01",
+      "count": 19,
+      "path": "api/vehicles/by-dlc/mp2025-01.json"
+    }
+  ]
+}

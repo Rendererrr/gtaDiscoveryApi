@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "weapons",
+    "label": "Weapons",
+    "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
+    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
+  },
+  "group": {
+    "id": "mpbusiness",
+    "name": "The Business Update",
+    "releaseDate": "2014-03-04",
+    "key": "mpbusiness",
+    "slug": "mpbusiness",
+    "count": 2
+  },
+  "count": 2,
+  "items": [
+    {
+      "id": "heavypistol",
+      "name": "Heavy Pistol",
+      "codename": "weapon_heavypistol",
+      "hash": 3523564046,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-pistol-icon.png",
+      "dlc": {
+        "id": "mpbusiness",
+        "name": "The Business Update",
+        "releaseDate": "2014-03-04"
+      },
+      "stats": {
+        "damage": 40,
+        "fireRate": 40,
+        "accuracy": 50,
+        "range": 35,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_HEAVYPISTOL_CLIP_01",
+          "label": "Default Clip",
+          "hash": 222992026,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_HEAVYPISTOL_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 1694090795,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_PI_FLSH",
+          "label": "Flashlight",
+          "hash": 899381934,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_PI_SUPP",
+          "label": "Suppressor",
+          "hash": 3271853210,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_HEAVYPISTOL_VARMOD_LUXE",
+          "label": "Etched Wood Grip Finish",
+          "hash": 2053798779,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "specialcarbine",
+      "name": "Special Carbine",
+      "codename": "weapon_specialcarbine",
+      "hash": 3231910285,
+      "category": "Rifle",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Special-carbine-icon.png",
+      "dlc": {
+        "id": "mpbusiness",
+        "name": "The Business Update",
+        "releaseDate": "2014-03-04"
+      },
+      "stats": {
+        "damage": 34,
+        "fireRate": 65,
+        "accuracy": 55,
+        "range": 40,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_SPECIALCARBINE_CLIP_01",
+          "label": "Default Clip",
+          "hash": 3334989185,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_SPECIALCARBINE_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 2089537806,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_SPECIALCARBINE_CLIP_03",
+          "label": "Drum Magazine",
+          "hash": 1801039530,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MEDIUM",
+          "label": "Scope",
+          "hash": 2698550338,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP_02",
+          "label": "Suppressor",
+          "hash": 2805810788,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP",
+          "label": "Grip",
+          "hash": 202788691,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_SPECIALCARBINE_VARMOD_LOWRIDER",
+          "label": "Etched Gun Metal Finish",
+          "hash": 1929467122,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_SPECIALCARBINE_VARMOD_XMAS23",
+          "label": "COMPONENT_SPECIALCARBINE_VARMOD_XMAS23",
+          "hash": 302671608,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_GUNRUN_MK2_UPGRADE",
+          "label": "Mk II",
+          "hash": 1623028892,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "peds",
+    "label": "Peds",
+    "urlPattern": "{cdnBase}/assets/peds/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate null for patch-day additions)."
+  },
+  "group": {
+    "id": "patchday22ng",
+    "name": "Patch Day 22",
+    "releaseDate": null,
+    "key": "patchday22ng",
+    "slug": "patchday22ng",
+    "count": 5
+  },
+  "count": 5,
+  "items": [
+    {
+      "id": "csb_brucie2",
+      "name": "csb_brucie2",
+      "hash": 3361779221,
+      "category": "Cutscene",
+      "dlc": {
+        "id": "patchday22ng",
+        "name": "Patch Day 22",
+        "releaseDate": null
+      },
+      "props": "0 prop",
+      "components": "7 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/csb_brucie2.webp"
+    },
+    {
+      "id": "s_f_y_casino_01",
+      "name": "s_f_y_casino_01",
+      "hash": 3163733717,
+      "category": "Scenario female",
+      "dlc": {
+        "id": "patchday22ng",
+        "name": "Patch Day 22",
+        "releaseDate": null
+      },
+      "props": "1 prop",
+      "components": "9 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/s_f_y_casino_01.webp"
+    },
+    {
+      "id": "s_m_m_prisguard_01",
+      "name": "s_m_m_prisguard_01",
+      "hash": 1456041926,
+      "category": "Scenario male",
+      "dlc": {
+        "id": "patchday22ng",
+        "name": "Patch Day 22",
+        "releaseDate": null
+      },
+      "props": "2 props",
+      "components": "4 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/s_m_m_prisguard_01.webp"
+    },
+    {
+      "id": "ig_brucie2",
+      "name": "ig_brucie2",
+      "hash": 3893268832,
+      "category": "Story",
+      "dlc": {
+        "id": "patchday22ng",
+        "name": "Patch Day 22",
+        "releaseDate": null
+      },
+      "props": "0 prop",
+      "components": "7 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/ig_brucie2.webp"
+    },
+    {
+      "id": "u_f_o_carol",
+      "name": "u_f_o_carol",
+      "hash": 1415150394,
+      "category": "Story scenario female",
+      "dlc": {
+        "id": "patchday22ng",
+        "name": "Patch Day 22",
+        "releaseDate": null
+      },
+      "props": "2 props",
+      "components": "6 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/u_f_o_carol.webp"
+    }
+  ]
+}

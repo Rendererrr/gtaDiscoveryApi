@@ -1,0 +1,598 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "weapons",
+    "label": "Weapons",
+    "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
+    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
+  },
+  "group": {
+    "name": "Heavy",
+    "key": "Heavy",
+    "slug": "heavy",
+    "count": 9
+  },
+  "count": 9,
+  "items": [
+    {
+      "id": "emplauncher",
+      "name": "Compact EMP Launcher",
+      "codename": "weapon_emplauncher",
+      "hash": 3676729658,
+      "category": "Heavy",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/EMP-launcher-icon.png",
+      "dlc": {
+        "id": "mpsecurity",
+        "name": "The Contract",
+        "releaseDate": "2021-12-15"
+      },
+      "stats": {
+        "damage": 95,
+        "fireRate": 10,
+        "accuracy": 15,
+        "range": 55,
+        "maxAmmo": null
+      },
+      "components": [
+        {
+          "id": "COMPONENT_EMPLAUNCHER_CLIP_01",
+          "label": "Default Clip",
+          "hash": 3532609777,
+          "default": true
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "compactlauncher",
+      "name": "Compact Grenade Launcher",
+      "codename": "weapon_compactlauncher",
+      "hash": 125959754,
+      "category": "Heavy",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Grenade-compact-launcher-icon.png",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "stats": {
+        "damage": 95,
+        "fireRate": 10,
+        "accuracy": 15,
+        "range": 55,
+        "maxAmmo": 20
+      },
+      "components": [
+        {
+          "id": "COMPONENT_COMPACTLAUNCHER_CLIP_01",
+          "label": "Default Clip",
+          "hash": 1235472140,
+          "default": true
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "firework",
+      "name": "Firework Launcher",
+      "codename": "weapon_firework",
+      "hash": 2138347493,
+      "category": "Heavy",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Firework-launcher-icon.png",
+      "dlc": {
+        "id": "mpindependence",
+        "name": "Independence Day Special",
+        "releaseDate": "2014-07-01"
+      },
+      "stats": {
+        "damage": 45,
+        "fireRate": 5,
+        "accuracy": 12,
+        "range": 60,
+        "maxAmmo": 20
+      },
+      "components": [
+        {
+          "id": "COMPONENT_FIREWORK_CLIP_01",
+          "label": "Default Clip",
+          "hash": 3840197261,
+          "default": true
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "grenadelauncher",
+      "name": "Grenade Launcher",
+      "codename": "weapon_grenadelauncher",
+      "hash": 2726580491,
+      "category": "Heavy",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Grenade-launcher-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 95,
+        "fireRate": 20,
+        "accuracy": 10,
+        "range": 50,
+        "maxAmmo": 20
+      },
+      "components": [
+        {
+          "id": "COMPONENT_GRENADELAUNCHER_CLIP_01",
+          "label": "Default Clip",
+          "hash": 296639639,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP",
+          "label": "Grip",
+          "hash": 202788691,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_SMALL",
+          "label": "Scope",
+          "hash": 2855028148,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "hominglauncher",
+      "name": "Homing Launcher",
+      "codename": "weapon_hominglauncher",
+      "hash": 1672152130,
+      "category": "Heavy",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Homing-launcher-icon.png",
+      "dlc": {
+        "id": "mpchristmas2",
+        "name": "Festive Surprise (2014)",
+        "releaseDate": "2014-12-18"
+      },
+      "stats": {
+        "damage": 95,
+        "fireRate": 5,
+        "accuracy": 25,
+        "range": 75,
+        "maxAmmo": 10
+      },
+      "components": [
+        {
+          "id": "COMPONENT_HOMINGLAUNCHER_CLIP_01",
+          "label": "Default Clip",
+          "hash": 4162006335,
+          "default": true
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "minigun",
+      "name": "Minigun",
+      "codename": "weapon_minigun",
+      "hash": 1119849093,
+      "category": "Heavy",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Minigun-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 30,
+        "fireRate": 100,
+        "accuracy": 40,
+        "range": 55,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_MINIGUN_CLIP_01",
+          "label": "Extended Clip",
+          "hash": 3370020614,
+          "default": true
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "railgun",
+      "name": "Railgun",
+      "codename": "weapon_railgun",
+      "hash": 1834241177,
+      "category": "Heavy",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Railgun-icon.png",
+      "dlc": {
+        "id": "spupgrade",
+        "name": "Story Mode (Next-Gen)",
+        "releaseDate": "2014-11-18"
+      },
+      "stats": {
+        "damage": 90,
+        "fireRate": 25,
+        "accuracy": 20,
+        "range": 70,
+        "maxAmmo": 20
+      },
+      "components": [
+        {
+          "id": "COMPONENT_RAILGUN_CLIP_01",
+          "label": "Default Clip",
+          "hash": 59044840,
+          "default": true
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "rpg",
+      "name": "RPG",
+      "codename": "weapon_rpg",
+      "hash": 2982836145,
+      "category": "Heavy",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Rocket-launcher-icon.png",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 100,
+        "fireRate": 5,
+        "accuracy": 10,
+        "range": 70,
+        "maxAmmo": 20
+      },
+      "components": [
+        {
+          "id": "COMPONENT_RPG_CLIP_01",
+          "label": "Default Clip",
+          "hash": 1319465907,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_RPG_VARMOD_TVR",
+          "label": "COMPONENT_RPG_VARMOD_TVR",
+          "hash": 3054824576,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "rayminigun",
+      "name": "Widowmaker",
+      "codename": "weapon_rayminigun",
+      "hash": 3056410471,
+      "category": "Heavy",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Widowmaker-icon.png",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "stats": {
+        "damage": 30,
+        "fireRate": 100,
+        "accuracy": 40,
+        "range": 55,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_MINIGUN_CLIP_01",
+          "label": "Extended Clip",
+          "hash": 3370020614,
+          "default": true
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Blue tint"
+        },
+        {
+          "index": 1,
+          "label": "Purple tint"
+        },
+        {
+          "index": 2,
+          "label": "Green tint"
+        },
+        {
+          "index": 3,
+          "label": "Orange tint"
+        },
+        {
+          "index": 4,
+          "label": "Pink tint"
+        },
+        {
+          "index": 5,
+          "label": "Gold tint"
+        },
+        {
+          "index": 6,
+          "label": "Platinum tint"
+        }
+      ]
+    }
+  ]
+}

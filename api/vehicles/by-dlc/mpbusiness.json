@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "id": "mpbusiness",
+    "name": "The Business Update",
+    "releaseDate": "2014-03-04",
+    "key": "mpbusiness",
+    "slug": "mpbusiness",
+    "count": 4
+  },
+  "count": 4,
+  "items": [
+    {
+      "id": "alpha",
+      "name": "Alpha",
+      "hash": 767087018,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/alpha.webp",
+      "dlc": {
+        "id": "mpbusiness",
+        "name": "The Business Update",
+        "releaseDate": "2014-03-04"
+      },
+      "stats": {
+        "handlingId": "alpha",
+        "mass": 1800,
+        "topSpeed": 150,
+        "driveForce": 0.33,
+        "brakeForce": 1,
+        "handBrakeForce": 0.6,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.5,
+          "min": 2.17,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.1,
+        "steeringLock": 43,
+        "monetaryValue": 80000
+      }
+    },
+    {
+      "id": "jester",
+      "name": "Jester",
+      "hash": 2997294755,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/jester.webp",
+      "dlc": {
+        "id": "mpbusiness",
+        "name": "The Business Update",
+        "releaseDate": "2014-03-04"
+      },
+      "stats": {
+        "handlingId": "jester",
+        "mass": 1300,
+        "topSpeed": 158,
+        "driveForce": 0.3,
+        "brakeForce": 0.95,
+        "handBrakeForce": 0.45,
+        "gears": 6,
+        "driveBiasFront": 0.2,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.55,
+          "min": 2.25,
+          "lateral": 22.7
+        },
+        "suspensionForce": 2.6,
+        "steeringLock": 44.3,
+        "monetaryValue": 80000
+      }
+    },
+    {
+      "id": "turismor",
+      "name": "Turismo R",
+      "hash": 408192225,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/turismor.webp",
+      "dlc": {
+        "id": "mpbusiness",
+        "name": "The Business Update",
+        "releaseDate": "2014-03-04"
+      },
+      "stats": {
+        "handlingId": "turismor",
+        "mass": 1350,
+        "topSpeed": 155,
+        "driveForce": 0.353,
+        "brakeForce": 1.2,
+        "handBrakeForce": 0.65,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.64,
+          "min": 2.45,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.6,
+        "steeringLock": 42,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "vestra",
+      "name": "Vestra",
+      "hash": 1341619767,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/vestra.webp",
+      "dlc": {
+        "id": "mpbusiness",
+        "name": "The Business Update",
+        "releaseDate": "2014-03-04"
+      },
+      "stats": {
+        "handlingId": "vestra",
+        "mass": 5000,
+        "topSpeed": 141,
+        "driveForce": 0.01,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.01,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.15,
+          "min": 0.8,
+          "lateral": 12
+        },
+        "suspensionForce": 2.5,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    }
+  ]
+}

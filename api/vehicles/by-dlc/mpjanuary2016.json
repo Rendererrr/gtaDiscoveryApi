@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "id": "mpjanuary2016",
+    "name": "January 2016 Update",
+    "releaseDate": "2016-01-29",
+    "key": "mpjanuary2016",
+    "slug": "mpjanuary2016",
+    "count": 2
+  },
+  "count": 2,
+  "items": [
+    {
+      "id": "banshee2",
+      "name": "Banshee 900R",
+      "hash": 633712403,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/banshee2.webp",
+      "dlc": {
+        "id": "mpjanuary2016",
+        "name": "January 2016 Update",
+        "releaseDate": "2016-01-29"
+      },
+      "stats": {
+        "handlingId": "BANSHEE2",
+        "mass": 1150,
+        "topSpeed": 150,
+        "driveForce": 0.347,
+        "brakeForce": 1,
+        "handBrakeForce": 0.7,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.5,
+          "min": 2.38,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.1,
+        "steeringLock": 40,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "sultanrs",
+      "name": "Sultan RS",
+      "hash": 3999278268,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/sultanrs.webp",
+      "dlc": {
+        "id": "mpjanuary2016",
+        "name": "January 2016 Update",
+        "releaseDate": "2016-01-29"
+      },
+      "stats": {
+        "handlingId": "SULTANRS",
+        "mass": 1250,
+        "topSpeed": 148,
+        "driveForce": 0.33,
+        "brakeForce": 1,
+        "handBrakeForce": 0.7,
+        "gears": 5,
+        "driveBiasFront": 0.25,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.5,
+          "min": 2.15,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.8,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    }
+  ]
+}

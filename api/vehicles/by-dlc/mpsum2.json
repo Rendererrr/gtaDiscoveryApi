@@ -1,0 +1,580 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "id": "mpsum2",
+    "name": "The Criminal Enterprises",
+    "releaseDate": "2022-07-26",
+    "key": "mpsum2",
+    "slug": "mpsum2",
+    "count": 18
+  },
+  "count": 18,
+  "items": [
+    {
+      "id": "brioso3",
+      "name": "Brioso 300 Widebody",
+      "hash": 15214558,
+      "category": "Compacts",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/brioso3.webp",
+      "dlc": {
+        "id": "mpsum2",
+        "name": "The Criminal Enterprises",
+        "releaseDate": "2022-07-26"
+      },
+      "stats": {
+        "handlingId": "BRIOSO3",
+        "mass": 650,
+        "topSpeed": 124,
+        "driveForce": 0.216,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.23,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2,
+          "min": 1.89,
+          "lateral": 21
+        },
+        "suspensionForce": 1.85,
+        "steeringLock": 29,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "rhinehart",
+      "name": "Rhinehart",
+      "hash": 2439462158,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/rhinehart.webp",
+      "dlc": {
+        "id": "mpsum2",
+        "name": "The Criminal Enterprises",
+        "releaseDate": "2022-07-26"
+      },
+      "stats": {
+        "handlingId": "RHINEHART",
+        "mass": 1660,
+        "topSpeed": 157.2,
+        "driveForce": 0.339,
+        "brakeForce": 0.885,
+        "handBrakeForce": 0.62,
+        "gears": 8,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.29,
+          "min": 2.15,
+          "lateral": 20
+        },
+        "suspensionForce": 2,
+        "steeringLock": 38.5,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "kanjosj",
+      "name": "Kanjo SJ",
+      "hash": 4230891418,
+      "category": "Coupes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/kanjosj.webp",
+      "dlc": {
+        "id": "mpsum2",
+        "name": "The Criminal Enterprises",
+        "releaseDate": "2022-07-26"
+      },
+      "stats": {
+        "handlingId": "KANJOSJ",
+        "mass": 950,
+        "topSpeed": 141,
+        "driveForce": 0.315,
+        "brakeForce": 0.45,
+        "handBrakeForce": 0.45,
+        "gears": 5,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 2,
+          "min": 1.81,
+          "lateral": 21.5
+        },
+        "suspensionForce": 2,
+        "steeringLock": 46,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "postlude",
+      "name": "Postlude",
+      "hash": 4000288633,
+      "category": "Coupes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/postlude.webp",
+      "dlc": {
+        "id": "mpsum2",
+        "name": "The Criminal Enterprises",
+        "releaseDate": "2022-07-26"
+      },
+      "stats": {
+        "handlingId": "POSTLUDE",
+        "mass": 1150,
+        "topSpeed": 131,
+        "driveForce": 0.295,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.4,
+        "gears": 5,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 1.99,
+          "min": 1.73,
+          "lateral": 21.75
+        },
+        "suspensionForce": 2.35,
+        "steeringLock": 42.5,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "greenwood",
+      "name": "Greenwood",
+      "hash": 40817712,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/greenwood.webp",
+      "dlc": {
+        "id": "mpsum2",
+        "name": "The Criminal Enterprises",
+        "releaseDate": "2022-07-26"
+      },
+      "stats": {
+        "handlingId": "GREENWOOD",
+        "mass": 1650,
+        "topSpeed": 143,
+        "driveForce": 0.282,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.6,
+        "gears": 3,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.3,
+          "min": 2.06,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.28,
+        "steeringLock": 39.25,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "ruiner4",
+      "name": "Ruiner ZZ-8",
+      "hash": 1706945532,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/ruiner4.webp",
+      "dlc": {
+        "id": "mpsum2",
+        "name": "The Criminal Enterprises",
+        "releaseDate": "2022-07-26"
+      },
+      "stats": {
+        "handlingId": "RUINER4",
+        "mass": 1590,
+        "topSpeed": 151,
+        "driveForce": 0.308,
+        "brakeForce": 0.82,
+        "handBrakeForce": 0.8,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.36,
+          "min": 1.98,
+          "lateral": 20.5
+        },
+        "suspensionForce": 1.9,
+        "steeringLock": 40.25,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "vigero2",
+      "name": "Vigero ZX",
+      "hash": 2536587772,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/vigero2.webp",
+      "dlc": {
+        "id": "mpsum2",
+        "name": "The Criminal Enterprises",
+        "releaseDate": "2022-07-26"
+      },
+      "stats": {
+        "handlingId": "VIGERO2",
+        "mass": 1760,
+        "topSpeed": 157.95,
+        "driveForce": 0.364,
+        "brakeForce": 0.95,
+        "handBrakeForce": 0.625,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.58,
+          "min": 2.41,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.3,
+        "steeringLock": 40.5,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "weevil2",
+      "name": "Weevil Custom",
+      "hash": 3300595976,
+      "category": "Muscles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/weevil2.webp",
+      "dlc": {
+        "id": "mpsum2",
+        "name": "The Criminal Enterprises",
+        "releaseDate": "2022-07-26"
+      },
+      "stats": {
+        "handlingId": "WEEVIL2",
+        "mass": 780,
+        "topSpeed": 159.85,
+        "driveForce": 0.338,
+        "brakeForce": 0.775,
+        "handBrakeForce": 0.45,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.11,
+          "min": 1.82,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.075,
+        "steeringLock": 38.35,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "corsita",
+      "name": "Corsita",
+      "hash": 3540279623,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/corsita.webp",
+      "dlc": {
+        "id": "mpsum2",
+        "name": "The Criminal Enterprises",
+        "releaseDate": "2022-07-26"
+      },
+      "stats": {
+        "handlingId": "CORSITA",
+        "mass": 1500,
+        "topSpeed": 162.85,
+        "driveForce": 0.4,
+        "brakeForce": 1.3,
+        "handBrakeForce": 0.48,
+        "gears": 8,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.73,
+          "min": 2.6,
+          "lateral": 24
+        },
+        "suspensionForce": 2.6,
+        "steeringLock": 41.5,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "omnisegt",
+      "name": "Omnis e-GT",
+      "hash": 3789743831,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/omnisegt.webp",
+      "dlc": {
+        "id": "mpsum2",
+        "name": "The Criminal Enterprises",
+        "releaseDate": "2022-07-26"
+      },
+      "stats": {
+        "handlingId": "OMNISEGT",
+        "mass": 2350,
+        "topSpeed": 149.75,
+        "driveForce": 0.58,
+        "brakeForce": 1,
+        "handBrakeForce": 0.62,
+        "gears": 2,
+        "driveBiasFront": 0.4,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.6,
+          "min": 2.33,
+          "lateral": 22
+        },
+        "suspensionForce": 2.6,
+        "steeringLock": 40.8,
+        "monetaryValue": 80000
+      }
+    },
+    {
+      "id": "sentinel4",
+      "name": "Sentinel Classic Widebody",
+      "hash": 2938086457,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/sentinel4.webp",
+      "dlc": {
+        "id": "mpsum2",
+        "name": "The Criminal Enterprises",
+        "releaseDate": "2022-07-26"
+      },
+      "stats": {
+        "handlingId": "SENTINEL4",
+        "mass": 1040,
+        "topSpeed": 146.8,
+        "driveForce": 0.295,
+        "brakeForce": 0.88,
+        "handBrakeForce": 0.35,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.29,
+          "min": 2.02,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.24,
+        "steeringLock": 39.75,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "sm722",
+      "name": "SM722",
+      "hash": 775514032,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/sm722.webp",
+      "dlc": {
+        "id": "mpsum2",
+        "name": "The Criminal Enterprises",
+        "releaseDate": "2022-07-26"
+      },
+      "stats": {
+        "handlingId": "SM722",
+        "mass": 1551,
+        "topSpeed": 160.88,
+        "driveForce": 0.358,
+        "brakeForce": 0.85,
+        "handBrakeForce": 0.87,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.51,
+          "min": 2.31,
+          "lateral": 22
+        },
+        "suspensionForce": 2.25,
+        "steeringLock": 39,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "tenf",
+      "name": "10F",
+      "hash": 3400983137,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tenf.webp",
+      "dlc": {
+        "id": "mpsum2",
+        "name": "The Criminal Enterprises",
+        "releaseDate": "2022-07-26"
+      },
+      "stats": {
+        "handlingId": "TENF",
+        "mass": 1650,
+        "topSpeed": 159.35,
+        "driveForce": 0.354,
+        "brakeForce": 1.1,
+        "handBrakeForce": 0.55,
+        "gears": 7,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.68,
+          "min": 2.35,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.6,
+        "steeringLock": 41,
+        "monetaryValue": 80000
+      }
+    },
+    {
+      "id": "tenf2",
+      "name": "10F Widebody",
+      "hash": 274946574,
+      "category": "Sports",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tenf2.webp",
+      "dlc": {
+        "id": "mpsum2",
+        "name": "The Criminal Enterprises",
+        "releaseDate": "2022-07-26"
+      },
+      "stats": {
+        "handlingId": "TENF2",
+        "mass": 1650,
+        "topSpeed": 160.25,
+        "driveForce": 0.356,
+        "brakeForce": 1.15,
+        "handBrakeForce": 0.55,
+        "gears": 7,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.69,
+          "min": 2.35,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.6,
+        "steeringLock": 41,
+        "monetaryValue": 80000
+      }
+    },
+    {
+      "id": "lm87",
+      "name": "LM87",
+      "hash": 4284049613,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/lm87.webp",
+      "dlc": {
+        "id": "mpsum2",
+        "name": "The Criminal Enterprises",
+        "releaseDate": "2022-07-26"
+      },
+      "stats": {
+        "handlingId": "LM87",
+        "mass": 900,
+        "topSpeed": 162.85,
+        "driveForce": 0.377,
+        "brakeForce": 1.35,
+        "handBrakeForce": 0.75,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.77,
+          "min": 2.63,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "torero2",
+      "name": "Torero XO",
+      "hash": 4129572538,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/torero2.webp",
+      "dlc": {
+        "id": "mpsum2",
+        "name": "The Criminal Enterprises",
+        "releaseDate": "2022-07-26"
+      },
+      "stats": {
+        "handlingId": "TORERO2",
+        "mass": 1595,
+        "topSpeed": 161.25,
+        "driveForce": 0.385,
+        "brakeForce": 1.15,
+        "handBrakeForce": 0.65,
+        "gears": 7,
+        "driveBiasFront": 0.48,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.77,
+          "min": 2.58,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.65,
+        "steeringLock": 40.5,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "draugur",
+      "name": "Draugur",
+      "hash": 3526730918,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/draugur.webp",
+      "dlc": {
+        "id": "mpsum2",
+        "name": "The Criminal Enterprises",
+        "releaseDate": "2022-07-26"
+      },
+      "stats": {
+        "handlingId": "DRAUGUR",
+        "mass": 2450,
+        "topSpeed": 147.2,
+        "driveForce": 0.343,
+        "brakeForce": 0.484,
+        "handBrakeForce": 0.4,
+        "gears": 6,
+        "driveBiasFront": 0.48,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.48,
+          "min": 2.19,
+          "lateral": 20
+        },
+        "suspensionForce": 1.7,
+        "steeringLock": 36.4,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "conada",
+      "name": "Conada",
+      "hash": 3817135397,
+      "category": "Helicopters",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/conada.webp",
+      "dlc": {
+        "id": "mpsum2",
+        "name": "The Criminal Enterprises",
+        "releaseDate": "2022-07-26"
+      },
+      "stats": {
+        "handlingId": "CONADA",
+        "mass": 1550,
+        "topSpeed": 160,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.3,
+          "min": 1.2,
+          "lateral": 12
+        },
+        "suspensionForce": 3.5,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    }
+  ]
+}

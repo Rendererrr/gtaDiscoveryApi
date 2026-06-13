@@ -1,0 +1,580 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "peds",
+    "label": "Peds",
+    "urlPattern": "{cdnBase}/assets/peds/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate null for patch-day additions)."
+  },
+  "group": {
+    "name": "Multiplayer",
+    "key": "Multiplayer",
+    "slug": "multiplayer",
+    "count": 40
+  },
+  "count": 40,
+  "items": [
+    {
+      "id": "mp_f_bennymech_01",
+      "name": "mp_f_bennymech_01",
+      "hash": 2139205821,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "mpchristmas2018",
+        "name": "Arena War",
+        "releaseDate": "2018-12-11"
+      },
+      "props": "2 props",
+      "components": "8 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_f_bennymech_01.webp"
+    },
+    {
+      "id": "mp_f_boatstaff_01",
+      "name": "mp_f_boatstaff_01",
+      "hash": 848542158,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "props": "0 prop",
+      "components": "4 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_f_boatstaff_01.webp"
+    },
+    {
+      "id": "mp_f_cardesign_01",
+      "name": "mp_f_cardesign_01",
+      "hash": 606876839,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "props": "0 prop",
+      "components": "5 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_f_cardesign_01.webp"
+    },
+    {
+      "id": "mp_f_chbar_01",
+      "name": "mp_f_chbar_01",
+      "hash": 3287737221,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "props": "0 prop",
+      "components": "9 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_f_chbar_01.webp"
+    },
+    {
+      "id": "mp_f_cocaine_01",
+      "name": "mp_f_cocaine_01",
+      "hash": 1264941816,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "props": "0 prop",
+      "components": "6 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_f_cocaine_01.webp"
+    },
+    {
+      "id": "mp_f_counterfeit_01",
+      "name": "mp_f_counterfeit_01",
+      "hash": 3079205365,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "props": "1 prop",
+      "components": "5 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_f_counterfeit_01.webp"
+    },
+    {
+      "id": "mp_f_deadhooker",
+      "name": "mp_f_deadhooker",
+      "hash": 1943971979,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "mppatchesng",
+        "name": "Multiplayer Patches",
+        "releaseDate": null
+      },
+      "props": "0 prop",
+      "components": "5 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_f_deadhooker.webp"
+    },
+    {
+      "id": "mp_f_execpa_01",
+      "name": "mp_f_execpa_01",
+      "hash": 1126998116,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "mpexecutive",
+        "name": "Further Adventures in Finance and Felony",
+        "releaseDate": "2016-06-07"
+      },
+      "props": "1 prop",
+      "components": "8 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_f_execpa_01.webp"
+    },
+    {
+      "id": "mp_f_execpa_02",
+      "name": "mp_f_execpa_02",
+      "hash": 1500695792,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "props": "1 prop",
+      "components": "8 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_f_execpa_02.webp"
+    },
+    {
+      "id": "mp_f_forgery_01",
+      "name": "mp_f_forgery_01",
+      "hash": 2014985464,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "patchday13ng",
+        "name": "Patch Day 13",
+        "releaseDate": null
+      },
+      "props": "1 prop",
+      "components": "5 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_f_forgery_01.webp"
+    },
+    {
+      "id": "mp_f_freemode_01",
+      "name": "mp_f_freemode_01",
+      "hash": 2627665880,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "basegame",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "props": "5 props",
+      "components": "12 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_f_freemode_01.webp"
+    },
+    {
+      "id": "mp_f_helistaff_01",
+      "name": "mp_f_helistaff_01",
+      "hash": 431423238,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "mpexecutive",
+        "name": "Further Adventures in Finance and Felony",
+        "releaseDate": "2016-06-07"
+      },
+      "props": "1 prop",
+      "components": "5 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_f_helistaff_01.webp"
+    },
+    {
+      "id": "mp_f_meth_01",
+      "name": "mp_f_meth_01",
+      "hash": 3534913217,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "props": "0 prop",
+      "components": "0 component",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_f_meth_01.webp"
+    },
+    {
+      "id": "mp_f_misty_01",
+      "name": "mp_f_misty_01",
+      "hash": 3509125021,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "basegame",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "props": "0 prop",
+      "components": "4 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_f_misty_01.webp"
+    },
+    {
+      "id": "mp_f_stripperlite",
+      "name": "mp_f_stripperlite",
+      "hash": 695248020,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "mppatchesng",
+        "name": "Multiplayer Patches",
+        "releaseDate": null
+      },
+      "props": "0 prop",
+      "components": "6 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_f_stripperlite.webp"
+    },
+    {
+      "id": "mp_f_weed_01",
+      "name": "mp_f_weed_01",
+      "hash": 2992993187,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "props": "0 prop",
+      "components": "5 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_f_weed_01.webp"
+    },
+    {
+      "id": "mp_g_m_pros_01",
+      "name": "mp_g_m_pros_01",
+      "hash": 1822283721,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "basegame",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "props": "1 prop",
+      "components": "7 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_g_m_pros_01.webp"
+    },
+    {
+      "id": "mp_m_avongoon",
+      "name": "mp_m_avongoon",
+      "hash": 2618542997,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "mpchristmas2017",
+        "name": "The Doomsday Heist",
+        "releaseDate": "2017-12-12"
+      },
+      "props": "1 prop",
+      "components": "6 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_m_avongoon.webp"
+    },
+    {
+      "id": "mp_m_boatstaff_01",
+      "name": "mp_m_boatstaff_01",
+      "hash": 3361671816,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "mpapartment",
+        "name": "Executives and Other Criminals",
+        "releaseDate": "2015-12-15"
+      },
+      "props": "1 prop",
+      "components": "3 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_m_boatstaff_01.webp"
+    },
+    {
+      "id": "mp_m_bogdangoon",
+      "name": "mp_m_bogdangoon",
+      "hash": 1297520375,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "mpchristmas2017",
+        "name": "The Doomsday Heist",
+        "releaseDate": "2017-12-12"
+      },
+      "props": "1 prop",
+      "components": "6 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_m_bogdangoon.webp"
+    },
+    {
+      "id": "mp_m_claude_01",
+      "name": "mp_m_claude_01",
+      "hash": 3237179831,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "basegame",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "props": "0 prop",
+      "components": "4 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_m_claude_01.webp"
+    },
+    {
+      "id": "mp_m_cocaine_01",
+      "name": "mp_m_cocaine_01",
+      "hash": 1456705429,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "props": "1 prop",
+      "components": "6 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_m_cocaine_01.webp"
+    },
+    {
+      "id": "mp_m_counterfeit_01",
+      "name": "mp_m_counterfeit_01",
+      "hash": 2555758964,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "props": "2 props",
+      "components": "5 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_m_counterfeit_01.webp"
+    },
+    {
+      "id": "mp_m_exarmy_01",
+      "name": "mp_m_exarmy_01",
+      "hash": 1161072059,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "basegame",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "props": "2 props",
+      "components": "5 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_m_exarmy_01.webp"
+    },
+    {
+      "id": "mp_m_execpa_01",
+      "name": "mp_m_execpa_01",
+      "hash": 1048844220,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "mpexecutive",
+        "name": "Further Adventures in Finance and Felony",
+        "releaseDate": "2016-06-07"
+      },
+      "props": "2 props",
+      "components": "8 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_m_execpa_01.webp"
+    },
+    {
+      "id": "mp_m_famdd_01",
+      "name": "mp_m_famdd_01",
+      "hash": 866411749,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "basegame",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "props": "2 props",
+      "components": "4 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_m_famdd_01.webp"
+    },
+    {
+      "id": "mp_m_fibsec_01",
+      "name": "mp_m_fibsec_01",
+      "hash": 1558115333,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "basegame",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "props": "0 prop",
+      "components": "5 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_m_fibsec_01.webp"
+    },
+    {
+      "id": "mp_m_forgery_01",
+      "name": "mp_m_forgery_01",
+      "hash": 1631482011,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "props": "1 prop",
+      "components": "5 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_m_forgery_01.webp"
+    },
+    {
+      "id": "mp_m_freemode_01",
+      "name": "mp_m_freemode_01",
+      "hash": 1885233650,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "basegame",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "props": "5 props",
+      "components": "12 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_m_freemode_01.webp"
+    },
+    {
+      "id": "mp_m_g_vagfun_01",
+      "name": "mp_m_g_vagfun_01",
+      "hash": 3299219389,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "mplowrider",
+        "name": "Lowriders",
+        "releaseDate": "2015-10-20"
+      },
+      "props": "2 props",
+      "components": "5 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_m_g_vagfun_01.webp"
+    },
+    {
+      "id": "mp_m_marston_01",
+      "name": "mp_m_marston_01",
+      "hash": 943915367,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "basegame",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "props": "0 prop",
+      "components": "4 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_m_marston_01.webp"
+    },
+    {
+      "id": "mp_m_meth_01",
+      "name": "mp_m_meth_01",
+      "hash": 3988008767,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "props": "1 prop",
+      "components": "5 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_m_meth_01.webp"
+    },
+    {
+      "id": "mp_m_niko_01",
+      "name": "mp_m_niko_01",
+      "hash": 4007317449,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "basegame",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "props": "0 prop",
+      "components": "4 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_m_niko_01.webp"
+    },
+    {
+      "id": "mp_m_securoguard_01",
+      "name": "mp_m_securoguard_01",
+      "hash": 3660355662,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "props": "1 prop",
+      "components": "5 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_m_securoguard_01.webp"
+    },
+    {
+      "id": "mp_m_shopkeep_01",
+      "name": "mp_m_shopkeep_01",
+      "hash": 416176080,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "basegame",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "props": "1 prop",
+      "components": "5 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_m_shopkeep_01.webp"
+    },
+    {
+      "id": "mp_m_waremech_01",
+      "name": "mp_m_waremech_01",
+      "hash": 4154933561,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "props": "0 prop",
+      "components": "3 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_m_waremech_01.webp"
+    },
+    {
+      "id": "mp_m_weapexp_01",
+      "name": "mp_m_weapexp_01",
+      "hash": 921328393,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "patchday20ng",
+        "name": "Patch Day 20",
+        "releaseDate": null
+      },
+      "props": "2 props",
+      "components": "10 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_m_weapexp_01.webp"
+    },
+    {
+      "id": "mp_m_weapwork_01",
+      "name": "mp_m_weapwork_01",
+      "hash": 1099321454,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "props": "2 props",
+      "components": "6 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_m_weapwork_01.webp"
+    },
+    {
+      "id": "mp_m_weed_01",
+      "name": "mp_m_weed_01",
+      "hash": 2441008217,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "mpbiker",
+        "name": "Bikers",
+        "releaseDate": "2016-10-04"
+      },
+      "props": "2 props",
+      "components": "6 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_m_weed_01.webp"
+    },
+    {
+      "id": "mp_s_m_armoured_01",
+      "name": "mp_s_m_armoured_01",
+      "hash": 3455013896,
+      "category": "Multiplayer",
+      "dlc": {
+        "id": "basegame",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "props": "1 prop",
+      "components": "5 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/mp_s_m_armoured_01.webp"
+    }
+  ]
+}

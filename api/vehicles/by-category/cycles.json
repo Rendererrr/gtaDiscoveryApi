@@ -1,0 +1,299 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "name": "Cycles",
+    "key": "Cycles",
+    "slug": "cycles",
+    "count": 9
+  },
+  "count": 9,
+  "items": [
+    {
+      "id": "bmx",
+      "name": "BMX",
+      "hash": 1131912276,
+      "category": "Cycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/bmx.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "BMX",
+        "mass": 105,
+        "topSpeed": 50,
+        "driveForce": 0.16,
+        "brakeForce": 3,
+        "handBrakeForce": 0.9,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.85,
+          "min": 1.8,
+          "lateral": 20
+        },
+        "suspensionForce": 8.5,
+        "steeringLock": 40,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "cruiser",
+      "name": "Cruiser",
+      "hash": 448402357,
+      "category": "Cycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/cruiser.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "CRUISER",
+        "mass": 120,
+        "topSpeed": 45,
+        "driveForce": 0.08,
+        "brakeForce": 2.8,
+        "handBrakeForce": 0.9,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.8,
+          "min": 1.75,
+          "lateral": 20
+        },
+        "suspensionForce": 8.5,
+        "steeringLock": 50,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "fixter",
+      "name": "Fixter",
+      "hash": 3458454463,
+      "category": "Cycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/fixter.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "FIXTER",
+        "mass": 110,
+        "topSpeed": 63,
+        "driveForce": 0.135,
+        "brakeForce": 0.4,
+        "handBrakeForce": 6,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.85,
+          "min": 1.8,
+          "lateral": 20.5
+        },
+        "suspensionForce": 8.5,
+        "steeringLock": 45,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "inductor",
+      "name": "Inductor",
+      "hash": 3397143273,
+      "category": "Cycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/inductor.webp",
+      "dlc": {
+        "id": "mp2023_01",
+        "name": "San Andreas Mercenaries",
+        "releaseDate": "2023-06-13"
+      },
+      "stats": {
+        "handlingId": "INDUCTOR",
+        "mass": 125,
+        "topSpeed": 75,
+        "driveForce": 0.112,
+        "brakeForce": 3.1,
+        "handBrakeForce": 0.9,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.05,
+          "min": 2.01,
+          "lateral": 22.5
+        },
+        "suspensionForce": 5,
+        "steeringLock": 50,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "inductor2",
+      "name": "Junk Energy Inductor",
+      "hash": 2311345272,
+      "category": "Cycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/inductor2.webp",
+      "dlc": {
+        "id": "mp2023_01",
+        "name": "San Andreas Mercenaries",
+        "releaseDate": "2023-06-13"
+      },
+      "stats": {
+        "handlingId": "INDUCTOR",
+        "mass": 125,
+        "topSpeed": 75,
+        "driveForce": 0.112,
+        "brakeForce": 3.1,
+        "handBrakeForce": 0.9,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.05,
+          "min": 2.01,
+          "lateral": 22.5
+        },
+        "suspensionForce": 5,
+        "steeringLock": 50,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "scorcher",
+      "name": "Scorcher",
+      "hash": 4108429845,
+      "category": "Cycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/scorcher.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "scorcher",
+        "mass": 115,
+        "topSpeed": 55,
+        "driveForce": 0.17,
+        "brakeForce": 2.8,
+        "handBrakeForce": 0.9,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.05,
+          "min": 2.01,
+          "lateral": 22.5
+        },
+        "suspensionForce": 5,
+        "steeringLock": 50,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "tribike",
+      "name": "Whippet Race Bike",
+      "hash": 1127861609,
+      "category": "Cycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tribike.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "TRIBIKE",
+        "mass": 110,
+        "topSpeed": 63,
+        "driveForce": 0.135,
+        "brakeForce": 2.5,
+        "handBrakeForce": 0.9,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.85,
+          "min": 1.8,
+          "lateral": 19.5
+        },
+        "suspensionForce": 8.5,
+        "steeringLock": 45,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "tribike2",
+      "name": "Endurex Race Bike",
+      "hash": 3061159916,
+      "category": "Cycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tribike2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "TRIBIKE",
+        "mass": 110,
+        "topSpeed": 63,
+        "driveForce": 0.135,
+        "brakeForce": 2.5,
+        "handBrakeForce": 0.9,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.85,
+          "min": 1.8,
+          "lateral": 19.5
+        },
+        "suspensionForce": 8.5,
+        "steeringLock": 45,
+        "monetaryValue": 12000
+      }
+    },
+    {
+      "id": "tribike3",
+      "name": "Tri-Cycles Race Bike",
+      "hash": 3894672200,
+      "category": "Cycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/tribike3.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "TRIBIKE",
+        "mass": 110,
+        "topSpeed": 63,
+        "driveForce": 0.135,
+        "brakeForce": 2.5,
+        "handBrakeForce": 0.9,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.85,
+          "min": 1.8,
+          "lateral": 19.5
+        },
+        "suspensionForce": 8.5,
+        "steeringLock": 45,
+        "monetaryValue": 12000
+      }
+    }
+  ]
+}

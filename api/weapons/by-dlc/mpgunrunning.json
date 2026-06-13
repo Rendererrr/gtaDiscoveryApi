@@ -1,0 +1,1606 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "weapons",
+    "label": "Weapons",
+    "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
+    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
+  },
+  "group": {
+    "id": "mpgunrunning",
+    "name": "Gunrunning",
+    "releaseDate": "2017-06-13",
+    "key": "mpgunrunning",
+    "slug": "mpgunrunning",
+    "count": 6
+  },
+  "count": 6,
+  "items": [
+    {
+      "id": "assaultrifle_mk2",
+      "name": "Assault Rifle Mk II",
+      "codename": "weapon_assaultrifle_mk2",
+      "hash": 961495388,
+      "category": "Rifle",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Assault-rifle-mk2-icon.png",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "damage": 33,
+        "fireRate": 60,
+        "accuracy": 45,
+        "range": 45,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_ASSAULTRIFLE_MK2_CLIP_01",
+          "label": "Default Clip",
+          "hash": 2249208895,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_ASSAULTRIFLE_MK2_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 3509242479,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_ASSAULTRIFLE_MK2_CLIP_ARMORPIERCING",
+          "label": "Armor Piercing Rounds",
+          "hash": 2816286296,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_ASSAULTRIFLE_MK2_CLIP_FMJ",
+          "label": "Full Metal Jacket Rounds",
+          "hash": 1675665560,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_ASSAULTRIFLE_MK2_CLIP_INCENDIARY",
+          "label": "Incendiary Rounds",
+          "hash": 4218476627,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_ASSAULTRIFLE_MK2_CLIP_TRACER",
+          "label": "Tracer Rounds",
+          "hash": 4012669121,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SIGHTS",
+          "label": "Holographic Sight",
+          "hash": 1108334355,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MACRO_MK2",
+          "label": "Small Scope",
+          "hash": 77277509,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MEDIUM_MK2",
+          "label": "Large Scope",
+          "hash": 3328927042,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP_02",
+          "label": "Suppressor",
+          "hash": 2805810788,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_01",
+          "label": "Muzzle Brake",
+          "hash": 3113485012,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_02",
+          "label": "Muzzle Brake",
+          "hash": 3362234491,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_03",
+          "label": "Muzzle Brake",
+          "hash": 3725708239,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_04",
+          "label": "Muzzle Brake",
+          "hash": 3968886988,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_05",
+          "label": "Muzzle Brake",
+          "hash": 48731514,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_06",
+          "label": "Muzzle Brake",
+          "hash": 880736428,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_07",
+          "label": "Muzzle Brake",
+          "hash": 1303784126,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP_02",
+          "label": "Grip",
+          "hash": 2640679034,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_BARREL_01",
+          "label": "Default Barrel",
+          "hash": 1134861606,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_AT_AR_BARREL_02",
+          "label": "Heavy Barrel",
+          "hash": 1447477866,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Classic Black"
+        },
+        {
+          "index": 1,
+          "label": "Classic Gray"
+        },
+        {
+          "index": 2,
+          "label": "Classic Two-Tone"
+        },
+        {
+          "index": 3,
+          "label": "Classic White"
+        },
+        {
+          "index": 4,
+          "label": "Classic Beige"
+        },
+        {
+          "index": 5,
+          "label": "Classic Green"
+        },
+        {
+          "index": 6,
+          "label": "Classic Blue"
+        },
+        {
+          "index": 7,
+          "label": "Classic Earth"
+        },
+        {
+          "index": 8,
+          "label": "Classic Brown & Black"
+        },
+        {
+          "index": 9,
+          "label": "Red Contrast"
+        },
+        {
+          "index": 10,
+          "label": "Blue Contrast"
+        },
+        {
+          "index": 11,
+          "label": "Yellow Contrast"
+        },
+        {
+          "index": 12,
+          "label": "Orange Contrast"
+        },
+        {
+          "index": 13,
+          "label": "Bold Pink"
+        },
+        {
+          "index": 14,
+          "label": "Bold Purple & Yellow"
+        },
+        {
+          "index": 15,
+          "label": "Bold Orange"
+        },
+        {
+          "index": 16,
+          "label": "Bold Green & Purple"
+        },
+        {
+          "index": 17,
+          "label": "Bold Red Features"
+        },
+        {
+          "index": 18,
+          "label": "Bold Green Features"
+        },
+        {
+          "index": 19,
+          "label": "Bold Cyan Features"
+        },
+        {
+          "index": 20,
+          "label": "Bold Yellow Features"
+        },
+        {
+          "index": 21,
+          "label": "Bold Red & White"
+        },
+        {
+          "index": 22,
+          "label": "Bold Blue & White"
+        },
+        {
+          "index": 23,
+          "label": "Metallic Gold"
+        },
+        {
+          "index": 24,
+          "label": "Metallic Platinum"
+        },
+        {
+          "index": 25,
+          "label": "Metallic Gray & Lilac"
+        },
+        {
+          "index": 26,
+          "label": "Metallic Purple & Lime"
+        },
+        {
+          "index": 27,
+          "label": "Metallic Red"
+        },
+        {
+          "index": 28,
+          "label": "Metallic Green"
+        },
+        {
+          "index": 29,
+          "label": "Metallic Blue"
+        },
+        {
+          "index": 30,
+          "label": "Metallic White & Aqua"
+        },
+        {
+          "index": 31,
+          "label": "Metallic Red & Yellow"
+        },
+        {
+          "index": 32,
+          "label": "32"
+        }
+      ]
+    },
+    {
+      "id": "carbinerifle_mk2",
+      "name": "Carbine Rifle Mk II",
+      "codename": "weapon_carbinerifle_mk2",
+      "hash": 4208062921,
+      "category": "Rifle",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Carbine-rifle-mk2-icon.png",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "damage": 36,
+        "fireRate": 65,
+        "accuracy": 55,
+        "range": 45,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_CARBINERIFLE_MK2_CLIP_01",
+          "label": "Default Clip",
+          "hash": 1283078430,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_CARBINERIFLE_MK2_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 1574296533,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_CARBINERIFLE_MK2_CLIP_ARMORPIERCING",
+          "label": "Armor Piercing Rounds",
+          "hash": 626875735,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_CARBINERIFLE_MK2_CLIP_FMJ",
+          "label": "Full Metal Jacket Rounds",
+          "hash": 1141059345,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_CARBINERIFLE_MK2_CLIP_INCENDIARY",
+          "label": "Incendiary Rounds",
+          "hash": 1025884839,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_CARBINERIFLE_MK2_CLIP_TRACER",
+          "label": "Tracer Rounds",
+          "hash": 391640422,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SIGHTS",
+          "label": "Holographic Sight",
+          "hash": 1108334355,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MACRO_MK2",
+          "label": "Small Scope",
+          "hash": 77277509,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MEDIUM_MK2",
+          "label": "Large Scope",
+          "hash": 3328927042,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_SUPP",
+          "label": "Suppressor",
+          "hash": 2205435306,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_01",
+          "label": "Muzzle Brake",
+          "hash": 3113485012,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_02",
+          "label": "Muzzle Brake",
+          "hash": 3362234491,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_03",
+          "label": "Muzzle Brake",
+          "hash": 3725708239,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_04",
+          "label": "Muzzle Brake",
+          "hash": 3968886988,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_05",
+          "label": "Muzzle Brake",
+          "hash": 48731514,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_06",
+          "label": "Muzzle Brake",
+          "hash": 880736428,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_07",
+          "label": "Muzzle Brake",
+          "hash": 1303784126,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP_02",
+          "label": "Grip",
+          "hash": 2640679034,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_CR_BARREL_01",
+          "label": "Default Barrel",
+          "hash": 2201368575,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_AT_CR_BARREL_02",
+          "label": "Heavy Barrel",
+          "hash": 2335983627,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Classic Black"
+        },
+        {
+          "index": 1,
+          "label": "Classic Gray"
+        },
+        {
+          "index": 2,
+          "label": "Classic Two-Tone"
+        },
+        {
+          "index": 3,
+          "label": "Classic White"
+        },
+        {
+          "index": 4,
+          "label": "Classic Beige"
+        },
+        {
+          "index": 5,
+          "label": "Classic Green"
+        },
+        {
+          "index": 6,
+          "label": "Classic Blue"
+        },
+        {
+          "index": 7,
+          "label": "Classic Earth"
+        },
+        {
+          "index": 8,
+          "label": "Classic Brown & Black"
+        },
+        {
+          "index": 9,
+          "label": "Red Contrast"
+        },
+        {
+          "index": 10,
+          "label": "Blue Contrast"
+        },
+        {
+          "index": 11,
+          "label": "Yellow Contrast"
+        },
+        {
+          "index": 12,
+          "label": "Orange Contrast"
+        },
+        {
+          "index": 13,
+          "label": "Bold Pink"
+        },
+        {
+          "index": 14,
+          "label": "Bold Purple & Yellow"
+        },
+        {
+          "index": 15,
+          "label": "Bold Orange"
+        },
+        {
+          "index": 16,
+          "label": "Bold Green & Purple"
+        },
+        {
+          "index": 17,
+          "label": "Bold Red Features"
+        },
+        {
+          "index": 18,
+          "label": "Bold Green Features"
+        },
+        {
+          "index": 19,
+          "label": "Bold Cyan Features"
+        },
+        {
+          "index": 20,
+          "label": "Bold Yellow Features"
+        },
+        {
+          "index": 21,
+          "label": "Bold Red & White"
+        },
+        {
+          "index": 22,
+          "label": "Bold Blue & White"
+        },
+        {
+          "index": 23,
+          "label": "Metallic Gold"
+        },
+        {
+          "index": 24,
+          "label": "Metallic Platinum"
+        },
+        {
+          "index": 25,
+          "label": "Metallic Gray & Lilac"
+        },
+        {
+          "index": 26,
+          "label": "Metallic Purple & Lime"
+        },
+        {
+          "index": 27,
+          "label": "Metallic Red"
+        },
+        {
+          "index": 28,
+          "label": "Metallic Green"
+        },
+        {
+          "index": 29,
+          "label": "Metallic Blue"
+        },
+        {
+          "index": 30,
+          "label": "Metallic White & Aqua"
+        },
+        {
+          "index": 31,
+          "label": "Metallic Red & Yellow"
+        },
+        {
+          "index": 32,
+          "label": "32"
+        }
+      ]
+    },
+    {
+      "id": "combatmg_mk2",
+      "name": "Combat MG Mk II",
+      "codename": "weapon_combatmg_mk2",
+      "hash": 3686625920,
+      "category": "MG",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Combat-mg-mk2-icon.png",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "damage": 57,
+        "fireRate": 65,
+        "accuracy": 45,
+        "range": 60,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_COMBATMG_MK2_CLIP_01",
+          "label": "Default Clip",
+          "hash": 1227564412,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_COMBATMG_MK2_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 400507625,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_COMBATMG_MK2_CLIP_ARMORPIERCING",
+          "label": "Armor Piercing Rounds",
+          "hash": 696788003,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_COMBATMG_MK2_CLIP_FMJ",
+          "label": "Full Metal Jacket Rounds",
+          "hash": 1475288264,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_COMBATMG_MK2_CLIP_INCENDIARY",
+          "label": "Incendiary Rounds",
+          "hash": 3274096058,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_COMBATMG_MK2_CLIP_TRACER",
+          "label": "Tracer Rounds",
+          "hash": 4133787461,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SIGHTS",
+          "label": "Holographic Sight",
+          "hash": 1108334355,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_SMALL_MK2",
+          "label": "Medium Scope",
+          "hash": 1060929921,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MEDIUM_MK2",
+          "label": "Large Scope",
+          "hash": 3328927042,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_01",
+          "label": "Muzzle Brake",
+          "hash": 3113485012,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_02",
+          "label": "Muzzle Brake",
+          "hash": 3362234491,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_03",
+          "label": "Muzzle Brake",
+          "hash": 3725708239,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_04",
+          "label": "Muzzle Brake",
+          "hash": 3968886988,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_05",
+          "label": "Muzzle Brake",
+          "hash": 48731514,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_06",
+          "label": "Muzzle Brake",
+          "hash": 880736428,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_07",
+          "label": "Muzzle Brake",
+          "hash": 1303784126,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP_02",
+          "label": "Grip",
+          "hash": 2640679034,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MG_BARREL_01",
+          "label": "Default Barrel",
+          "hash": 3276730932,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_AT_MG_BARREL_02",
+          "label": "Heavy Barrel",
+          "hash": 3051509595,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Classic Black"
+        },
+        {
+          "index": 1,
+          "label": "Classic Gray"
+        },
+        {
+          "index": 2,
+          "label": "Classic Two-Tone"
+        },
+        {
+          "index": 3,
+          "label": "Classic White"
+        },
+        {
+          "index": 4,
+          "label": "Classic Beige"
+        },
+        {
+          "index": 5,
+          "label": "Classic Green"
+        },
+        {
+          "index": 6,
+          "label": "Classic Blue"
+        },
+        {
+          "index": 7,
+          "label": "Classic Earth"
+        },
+        {
+          "index": 8,
+          "label": "Classic Brown & Black"
+        },
+        {
+          "index": 9,
+          "label": "Red Contrast"
+        },
+        {
+          "index": 10,
+          "label": "Blue Contrast"
+        },
+        {
+          "index": 11,
+          "label": "Yellow Contrast"
+        },
+        {
+          "index": 12,
+          "label": "Orange Contrast"
+        },
+        {
+          "index": 13,
+          "label": "Bold Pink"
+        },
+        {
+          "index": 14,
+          "label": "Bold Purple & Yellow"
+        },
+        {
+          "index": 15,
+          "label": "Bold Orange"
+        },
+        {
+          "index": 16,
+          "label": "Bold Green & Purple"
+        },
+        {
+          "index": 17,
+          "label": "Bold Red Features"
+        },
+        {
+          "index": 18,
+          "label": "Bold Green Features"
+        },
+        {
+          "index": 19,
+          "label": "Bold Cyan Features"
+        },
+        {
+          "index": 20,
+          "label": "Bold Yellow Features"
+        },
+        {
+          "index": 21,
+          "label": "Bold Red & White"
+        },
+        {
+          "index": 22,
+          "label": "Bold Blue & White"
+        },
+        {
+          "index": 23,
+          "label": "Metallic Gold"
+        },
+        {
+          "index": 24,
+          "label": "Metallic Platinum"
+        },
+        {
+          "index": 25,
+          "label": "Metallic Gray & Lilac"
+        },
+        {
+          "index": 26,
+          "label": "Metallic Purple & Lime"
+        },
+        {
+          "index": 27,
+          "label": "Metallic Red"
+        },
+        {
+          "index": 28,
+          "label": "Metallic Green"
+        },
+        {
+          "index": 29,
+          "label": "Metallic Blue"
+        },
+        {
+          "index": 30,
+          "label": "Metallic White & Aqua"
+        },
+        {
+          "index": 31,
+          "label": "Metallic Red & Yellow"
+        },
+        {
+          "index": 32,
+          "label": "32"
+        }
+      ]
+    },
+    {
+      "id": "heavysniper_mk2",
+      "name": "Heavy Sniper Mk II",
+      "codename": "weapon_heavysniper_mk2",
+      "hash": 177293209,
+      "category": "Sniper",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Heavy-sniper-mk2-icon.png",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "damage": 100,
+        "fireRate": 20,
+        "accuracy": 90,
+        "range": 100,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_HEAVYSNIPER_MK2_CLIP_01",
+          "label": "Default Clip",
+          "hash": 4196276776,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_HEAVYSNIPER_MK2_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 752418717,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_HEAVYSNIPER_MK2_CLIP_ARMORPIERCING",
+          "label": "Armor Piercing Rounds",
+          "hash": 4164277972,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_HEAVYSNIPER_MK2_CLIP_EXPLOSIVE",
+          "label": "Explosive Rounds",
+          "hash": 2313935527,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_HEAVYSNIPER_MK2_CLIP_FMJ",
+          "label": "Full Metal Jacket Rounds",
+          "hash": 1005144310,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_HEAVYSNIPER_MK2_CLIP_INCENDIARY",
+          "label": "Incendiary Rounds",
+          "hash": 247526935,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_LARGE_MK2",
+          "label": "Zoom Scope",
+          "hash": 2193687427,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MAX",
+          "label": "Advanced Scope",
+          "hash": 3159677559,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_NV",
+          "label": "Night Vision Scope",
+          "hash": 3061846192,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_THERMAL",
+          "label": "Thermal Scope",
+          "hash": 776198721,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SR_SUPP_03",
+          "label": "Suppressor",
+          "hash": 2890063729,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_08",
+          "label": "Muzzle Brake",
+          "hash": 1602080333,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_09",
+          "label": "Muzzle Brake",
+          "hash": 1764221345,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SR_BARREL_01",
+          "label": "Default Barrel",
+          "hash": 2425761975,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_AT_SR_BARREL_02",
+          "label": "Heavy Barrel",
+          "hash": 277524638,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Classic Black"
+        },
+        {
+          "index": 1,
+          "label": "Classic Gray"
+        },
+        {
+          "index": 2,
+          "label": "Classic Two-Tone"
+        },
+        {
+          "index": 3,
+          "label": "Classic White"
+        },
+        {
+          "index": 4,
+          "label": "Classic Beige"
+        },
+        {
+          "index": 5,
+          "label": "Classic Green"
+        },
+        {
+          "index": 6,
+          "label": "Classic Blue"
+        },
+        {
+          "index": 7,
+          "label": "Classic Earth"
+        },
+        {
+          "index": 8,
+          "label": "Classic Brown & Black"
+        },
+        {
+          "index": 9,
+          "label": "Red Contrast"
+        },
+        {
+          "index": 10,
+          "label": "Blue Contrast"
+        },
+        {
+          "index": 11,
+          "label": "Yellow Contrast"
+        },
+        {
+          "index": 12,
+          "label": "Orange Contrast"
+        },
+        {
+          "index": 13,
+          "label": "Bold Pink"
+        },
+        {
+          "index": 14,
+          "label": "Bold Purple & Yellow"
+        },
+        {
+          "index": 15,
+          "label": "Bold Orange"
+        },
+        {
+          "index": 16,
+          "label": "Bold Green & Purple"
+        },
+        {
+          "index": 17,
+          "label": "Bold Red Features"
+        },
+        {
+          "index": 18,
+          "label": "Bold Green Features"
+        },
+        {
+          "index": 19,
+          "label": "Bold Cyan Features"
+        },
+        {
+          "index": 20,
+          "label": "Bold Yellow Features"
+        },
+        {
+          "index": 21,
+          "label": "Bold Red & White"
+        },
+        {
+          "index": 22,
+          "label": "Bold Blue & White"
+        },
+        {
+          "index": 23,
+          "label": "Metallic Gold"
+        },
+        {
+          "index": 24,
+          "label": "Metallic Platinum"
+        },
+        {
+          "index": 25,
+          "label": "Metallic Gray & Lilac"
+        },
+        {
+          "index": 26,
+          "label": "Metallic Purple & Lime"
+        },
+        {
+          "index": 27,
+          "label": "Metallic Red"
+        },
+        {
+          "index": 28,
+          "label": "Metallic Green"
+        },
+        {
+          "index": 29,
+          "label": "Metallic Blue"
+        },
+        {
+          "index": 30,
+          "label": "Metallic White & Aqua"
+        },
+        {
+          "index": 31,
+          "label": "Metallic Red & Yellow"
+        },
+        {
+          "index": 32,
+          "label": "32"
+        }
+      ]
+    },
+    {
+      "id": "pistol_mk2",
+      "name": "Pistol Mk II",
+      "codename": "weapon_pistol_mk2",
+      "hash": 3219281620,
+      "category": "Handgun",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Pistol-mk2-icon.png",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "damage": 38,
+        "fireRate": 40,
+        "accuracy": 40,
+        "range": 25,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_PISTOL_MK2_CLIP_01",
+          "label": "Default Clip",
+          "hash": 2499030370,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_PISTOL_MK2_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 1591132456,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_PISTOL_MK2_CLIP_FMJ",
+          "label": "Full Metal Jacket Rounds",
+          "hash": 1329061674,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_PISTOL_MK2_CLIP_HOLLOWPOINT",
+          "label": "Hollow Point Rounds",
+          "hash": 2248057097,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_PISTOL_MK2_CLIP_INCENDIARY",
+          "label": "Incendiary Rounds",
+          "hash": 733837882,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_PISTOL_MK2_CLIP_TRACER",
+          "label": "Tracer Rounds",
+          "hash": 634039983,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_PI_RAIL",
+          "label": "Mounted Scope",
+          "hash": 2396306288,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_PI_FLSH_02",
+          "label": "Flashlight",
+          "hash": 1140676955,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_PI_SUPP_02",
+          "label": "Suppressor",
+          "hash": 1709866683,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_PI_COMP",
+          "label": "Compensator",
+          "hash": 568543123,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_PISTOL_MK2_VARMOD_XM3_SLIDE",
+          "label": "COMPONENT_PISTOL_MK2_VARMOD_XM3_SLIDE",
+          "hash": 1011473080,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_PISTOL_MK2_VARMOD_XM3",
+          "label": "Season's Greetings",
+          "hash": 1141184690,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Classic Black"
+        },
+        {
+          "index": 1,
+          "label": "Classic Gray"
+        },
+        {
+          "index": 2,
+          "label": "Classic Two-Tone"
+        },
+        {
+          "index": 3,
+          "label": "Classic White"
+        },
+        {
+          "index": 4,
+          "label": "Classic Beige"
+        },
+        {
+          "index": 5,
+          "label": "Classic Green"
+        },
+        {
+          "index": 6,
+          "label": "Classic Blue"
+        },
+        {
+          "index": 7,
+          "label": "Classic Earth"
+        },
+        {
+          "index": 8,
+          "label": "Classic Brown & Black"
+        },
+        {
+          "index": 9,
+          "label": "Red Contrast"
+        },
+        {
+          "index": 10,
+          "label": "Blue Contrast"
+        },
+        {
+          "index": 11,
+          "label": "Yellow Contrast"
+        },
+        {
+          "index": 12,
+          "label": "Orange Contrast"
+        },
+        {
+          "index": 13,
+          "label": "Bold Pink"
+        },
+        {
+          "index": 14,
+          "label": "Bold Purple & Yellow"
+        },
+        {
+          "index": 15,
+          "label": "Bold Orange"
+        },
+        {
+          "index": 16,
+          "label": "Bold Green & Purple"
+        },
+        {
+          "index": 17,
+          "label": "Bold Red Features"
+        },
+        {
+          "index": 18,
+          "label": "Bold Green Features"
+        },
+        {
+          "index": 19,
+          "label": "Bold Cyan Features"
+        },
+        {
+          "index": 20,
+          "label": "Bold Yellow Features"
+        },
+        {
+          "index": 21,
+          "label": "Bold Red & White"
+        },
+        {
+          "index": 22,
+          "label": "Bold Blue & White"
+        },
+        {
+          "index": 23,
+          "label": "Metallic Gold"
+        },
+        {
+          "index": 24,
+          "label": "Metallic Platinum"
+        },
+        {
+          "index": 25,
+          "label": "Metallic Gray & Lilac"
+        },
+        {
+          "index": 26,
+          "label": "Metallic Purple & Lime"
+        },
+        {
+          "index": 27,
+          "label": "Metallic Red"
+        },
+        {
+          "index": 28,
+          "label": "Metallic Green"
+        },
+        {
+          "index": 29,
+          "label": "Metallic Blue"
+        },
+        {
+          "index": 30,
+          "label": "Metallic White & Aqua"
+        },
+        {
+          "index": 31,
+          "label": "Metallic Red & Yellow"
+        },
+        {
+          "index": 32,
+          "label": "32"
+        }
+      ]
+    },
+    {
+      "id": "smg_mk2",
+      "name": "SMG Mk II",
+      "codename": "weapon_smg_mk2",
+      "hash": 2024373456,
+      "category": "SMG",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/Smg-mk2-icon.png",
+      "dlc": {
+        "id": "mpgunrunning",
+        "name": "Gunrunning",
+        "releaseDate": "2017-06-13"
+      },
+      "stats": {
+        "damage": 26,
+        "fireRate": 55,
+        "accuracy": 40,
+        "range": 35,
+        "maxAmmo": 250
+      },
+      "components": [
+        {
+          "id": "COMPONENT_SMG_MK2_CLIP_01",
+          "label": "Default Clip",
+          "hash": 1277460590,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_SMG_MK2_CLIP_02",
+          "label": "Extended Clip",
+          "hash": 3112393518,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_SMG_MK2_CLIP_FMJ",
+          "label": "Full Metal Jacket Rounds",
+          "hash": 190476639,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_SMG_MK2_CLIP_HOLLOWPOINT",
+          "label": "Hollow Point Rounds",
+          "hash": 974903034,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_SMG_MK2_CLIP_INCENDIARY",
+          "label": "Incendiary Rounds",
+          "hash": 3650233061,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_SMG_MK2_CLIP_TRACER",
+          "label": "Tracer Rounds",
+          "hash": 2146055916,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SIGHTS_SMG",
+          "label": "Holographic Sight",
+          "hash": 2681951826,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_MACRO_02_SMG_MK2",
+          "label": "Small Scope",
+          "hash": 3842157419,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_SMALL_SMG_MK2",
+          "label": "Medium Scope",
+          "hash": 1038927834,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_PI_SUPP",
+          "label": "Suppressor",
+          "hash": 3271853210,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_01",
+          "label": "Muzzle Brake",
+          "hash": 3113485012,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_02",
+          "label": "Muzzle Brake",
+          "hash": 3362234491,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_03",
+          "label": "Muzzle Brake",
+          "hash": 3725708239,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_04",
+          "label": "Muzzle Brake",
+          "hash": 3968886988,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_05",
+          "label": "Muzzle Brake",
+          "hash": 48731514,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_06",
+          "label": "Muzzle Brake",
+          "hash": 880736428,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_MUZZLE_07",
+          "label": "Muzzle Brake",
+          "hash": 1303784126,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SB_BARREL_01",
+          "label": "Default Barrel",
+          "hash": 3641720545,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_AT_SB_BARREL_02",
+          "label": "Heavy Barrel",
+          "hash": 2774849419,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Classic Black"
+        },
+        {
+          "index": 1,
+          "label": "Classic Gray"
+        },
+        {
+          "index": 2,
+          "label": "Classic Two-Tone"
+        },
+        {
+          "index": 3,
+          "label": "Classic White"
+        },
+        {
+          "index": 4,
+          "label": "Classic Beige"
+        },
+        {
+          "index": 5,
+          "label": "Classic Green"
+        },
+        {
+          "index": 6,
+          "label": "Classic Blue"
+        },
+        {
+          "index": 7,
+          "label": "Classic Earth"
+        },
+        {
+          "index": 8,
+          "label": "Classic Brown & Black"
+        },
+        {
+          "index": 9,
+          "label": "Red Contrast"
+        },
+        {
+          "index": 10,
+          "label": "Blue Contrast"
+        },
+        {
+          "index": 11,
+          "label": "Yellow Contrast"
+        },
+        {
+          "index": 12,
+          "label": "Orange Contrast"
+        },
+        {
+          "index": 13,
+          "label": "Bold Pink"
+        },
+        {
+          "index": 14,
+          "label": "Bold Purple & Yellow"
+        },
+        {
+          "index": 15,
+          "label": "Bold Orange"
+        },
+        {
+          "index": 16,
+          "label": "Bold Green & Purple"
+        },
+        {
+          "index": 17,
+          "label": "Bold Red Features"
+        },
+        {
+          "index": 18,
+          "label": "Bold Green Features"
+        },
+        {
+          "index": 19,
+          "label": "Bold Cyan Features"
+        },
+        {
+          "index": 20,
+          "label": "Bold Yellow Features"
+        },
+        {
+          "index": 21,
+          "label": "Bold Red & White"
+        },
+        {
+          "index": 22,
+          "label": "Bold Blue & White"
+        },
+        {
+          "index": 23,
+          "label": "Metallic Gold"
+        },
+        {
+          "index": 24,
+          "label": "Metallic Platinum"
+        },
+        {
+          "index": 25,
+          "label": "Metallic Gray & Lilac"
+        },
+        {
+          "index": 26,
+          "label": "Metallic Purple & Lime"
+        },
+        {
+          "index": 27,
+          "label": "Metallic Red"
+        },
+        {
+          "index": 28,
+          "label": "Metallic Green"
+        },
+        {
+          "index": 29,
+          "label": "Metallic Blue"
+        },
+        {
+          "index": 30,
+          "label": "Metallic White & Aqua"
+        },
+        {
+          "index": 31,
+          "label": "Metallic Red & Yellow"
+        },
+        {
+          "index": 32,
+          "label": "32"
+        }
+      ]
+    }
+  ]
+}

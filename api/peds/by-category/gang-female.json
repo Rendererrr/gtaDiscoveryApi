@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "peds",
+    "label": "Peds",
+    "urlPattern": "{cdnBase}/assets/peds/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate null for patch-day additions)."
+  },
+  "group": {
+    "name": "Gang female",
+    "key": "Gang female",
+    "slug": "gang-female",
+    "count": 6
+  },
+  "count": 6,
+  "items": [
+    {
+      "id": "g_f_importexport_01",
+      "name": "g_f_importexport_01",
+      "hash": 2225189146,
+      "category": "Gang female",
+      "dlc": {
+        "id": "mpimportexport",
+        "name": "Import/Export",
+        "releaseDate": "2016-12-13"
+      },
+      "props": "0 prop",
+      "components": "5 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/g_f_importexport_01.webp"
+    },
+    {
+      "id": "g_f_y_ballas_01",
+      "name": "g_f_y_ballas_01",
+      "hash": 361513884,
+      "category": "Gang female",
+      "dlc": {
+        "id": "basegame",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "props": "1 prop",
+      "components": "7 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/g_f_y_ballas_01.webp"
+    },
+    {
+      "id": "g_f_y_families_01",
+      "name": "g_f_y_families_01",
+      "hash": 1309468115,
+      "category": "Gang female",
+      "dlc": {
+        "id": "basegame",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "props": "2 props",
+      "components": "6 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/g_f_y_families_01.webp"
+    },
+    {
+      "id": "g_f_y_lost_01",
+      "name": "g_f_y_lost_01",
+      "hash": 4250220510,
+      "category": "Gang female",
+      "dlc": {
+        "id": "patchday3ng",
+        "name": "Patch Day 3",
+        "releaseDate": null
+      },
+      "props": "1 prop",
+      "components": "5 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/g_f_y_lost_01.webp"
+    },
+    {
+      "id": "g_f_y_vagos_01",
+      "name": "g_f_y_vagos_01",
+      "hash": 1520708641,
+      "category": "Gang female",
+      "dlc": {
+        "id": "patchday3ng",
+        "name": "Patch Day 3",
+        "releaseDate": null
+      },
+      "props": "2 props",
+      "components": "6 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/g_f_y_vagos_01.webp"
+    },
+    {
+      "id": "g_f_m_undeadmage",
+      "name": "g_f_m_undeadmage",
+      "hash": 1895106711,
+      "category": "Gang female",
+      "dlc": {
+        "id": "mp2025_01",
+        "name": "Money Fronts",
+        "releaseDate": "2025-06-17"
+      },
+      "props": "2 props",
+      "components": "7 components",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/peds/images/g_f_m_undeadmage.webp"
+    }
+  ]
+}

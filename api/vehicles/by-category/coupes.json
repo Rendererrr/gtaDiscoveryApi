@@ -1,0 +1,609 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "name": "Coupes",
+    "key": "Coupes",
+    "slug": "coupes",
+    "count": 19
+  },
+  "count": 19,
+  "items": [
+    {
+      "id": "cogcabrio",
+      "name": "Cognoscenti Cabrio",
+      "hash": 330661258,
+      "category": "Coupes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/cogcabrio.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "COGCABRIO",
+        "mass": 2100,
+        "topSpeed": 145,
+        "driveForce": 0.26,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.6,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.3,
+          "min": 2,
+          "lateral": 20.5
+        },
+        "suspensionForce": 2.3,
+        "steeringLock": 35,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "driftfr36",
+      "name": "FR36",
+      "hash": 2815031719,
+      "category": "Coupes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/driftfr36.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "DRIFTFR36",
+        "mass": 1510,
+        "topSpeed": 133,
+        "driveForce": 0.713,
+        "brakeForce": 0.765,
+        "handBrakeForce": 0.95,
+        "gears": 4,
+        "driveBiasFront": 0.17,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.53,
+          "min": 1.52,
+          "lateral": 27.8
+        },
+        "suspensionForce": 1.98,
+        "steeringLock": 75,
+        "monetaryValue": 80000
+      }
+    },
+    {
+      "id": "exemplar",
+      "name": "Exemplar",
+      "hash": 4289813342,
+      "category": "Coupes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/exemplar.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "EXEMPLAR",
+        "mass": 1800,
+        "topSpeed": 145,
+        "driveForce": 0.26,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.6,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.6,
+          "min": 2.45,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.6,
+        "steeringLock": 38,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "f620",
+      "name": "F620",
+      "hash": 3703357000,
+      "category": "Coupes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/f620.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "F620",
+        "mass": 1800,
+        "topSpeed": 145,
+        "driveForce": 0.24,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.6,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.5,
+          "min": 2.4,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.3,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "felon",
+      "name": "Felon",
+      "hash": 3903372712,
+      "category": "Coupes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/felon.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "FELON",
+        "mass": 1800,
+        "topSpeed": 145,
+        "driveForce": 0.24,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.6,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.55,
+          "min": 2.35,
+          "lateral": 22
+        },
+        "suspensionForce": 2.6,
+        "steeringLock": 38,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "felon2",
+      "name": "Felon GT",
+      "hash": 4205676014,
+      "category": "Coupes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/felon2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "FELON2",
+        "mass": 1850,
+        "topSpeed": 145,
+        "driveForce": 0.24,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.6,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.5,
+          "min": 2.3,
+          "lateral": 22
+        },
+        "suspensionForce": 2.3,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "fr36",
+      "name": "FR36",
+      "hash": 3829141989,
+      "category": "Coupes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/fr36.webp",
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": {
+        "handlingId": "FR36",
+        "mass": 1515,
+        "topSpeed": 153,
+        "driveForce": 0.301,
+        "brakeForce": 0.86,
+        "handBrakeForce": 0.65,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.38,
+          "min": 2.23,
+          "lateral": 22.5
+        },
+        "suspensionForce": 1.98,
+        "steeringLock": 44,
+        "monetaryValue": 80000
+      }
+    },
+    {
+      "id": "jackal",
+      "name": "Jackal",
+      "hash": 3670438162,
+      "category": "Coupes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/jackal.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "JACKAL",
+        "mass": 1800,
+        "topSpeed": 142.5,
+        "driveForce": 0.22,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.6,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.6,
+          "min": 2.45,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.6,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "kanjosj",
+      "name": "Kanjo SJ",
+      "hash": 4230891418,
+      "category": "Coupes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/kanjosj.webp",
+      "dlc": {
+        "id": "mpsum2",
+        "name": "The Criminal Enterprises",
+        "releaseDate": "2022-07-26"
+      },
+      "stats": {
+        "handlingId": "KANJOSJ",
+        "mass": 950,
+        "topSpeed": 141,
+        "driveForce": 0.315,
+        "brakeForce": 0.45,
+        "handBrakeForce": 0.45,
+        "gears": 5,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 2,
+          "min": 1.81,
+          "lateral": 21.5
+        },
+        "suspensionForce": 2,
+        "steeringLock": 46,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "oracle",
+      "name": "Oracle XS",
+      "hash": 1348744438,
+      "category": "Coupes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/oracle.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "ORACLE",
+        "mass": 1850,
+        "topSpeed": 150,
+        "driveForce": 0.26,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.45,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.25,
+          "min": 1.85,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.1,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "oracle2",
+      "name": "Oracle",
+      "hash": 3783366066,
+      "category": "Coupes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/oracle2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "ORACLE2",
+        "mass": 1900,
+        "topSpeed": 150,
+        "driveForce": 0.27,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.45,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.25,
+          "min": 1.95,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.1,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "postlude",
+      "name": "Postlude",
+      "hash": 4000288633,
+      "category": "Coupes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/postlude.webp",
+      "dlc": {
+        "id": "mpsum2",
+        "name": "The Criminal Enterprises",
+        "releaseDate": "2022-07-26"
+      },
+      "stats": {
+        "handlingId": "POSTLUDE",
+        "mass": 1150,
+        "topSpeed": 131,
+        "driveForce": 0.295,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.4,
+        "gears": 5,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 1.99,
+          "min": 1.73,
+          "lateral": 21.75
+        },
+        "suspensionForce": 2.35,
+        "steeringLock": 42.5,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "previon",
+      "name": "Previon",
+      "hash": 1416471345,
+      "category": "Coupes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/previon.webp",
+      "dlc": {
+        "id": "mptuner",
+        "name": "Los Santos Tuners",
+        "releaseDate": "2021-07-20"
+      },
+      "stats": {
+        "handlingId": "PREVION",
+        "mass": 1300,
+        "topSpeed": 149.45,
+        "driveForce": 0.319,
+        "brakeForce": 0.85,
+        "handBrakeForce": 0.4,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.49,
+          "min": 2.37,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.85,
+        "steeringLock": 41.85,
+        "monetaryValue": 150000
+      }
+    },
+    {
+      "id": "sentinel",
+      "name": "Sentinel XS",
+      "hash": 1349725314,
+      "category": "Coupes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/sentinel.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "SENTINEL",
+        "mass": 1400,
+        "topSpeed": 142,
+        "driveForce": 0.21,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.6,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.45,
+          "min": 2.15,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "sentinel2",
+      "name": "Sentinel",
+      "hash": 873639469,
+      "category": "Coupes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/sentinel2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "SENTINEL",
+        "mass": 1400,
+        "topSpeed": 142,
+        "driveForce": 0.21,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.6,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.45,
+          "min": 2.15,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "windsor",
+      "name": "Windsor",
+      "hash": 1581459400,
+      "category": "Coupes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/windsor.webp",
+      "dlc": {
+        "id": "mpluxe",
+        "name": "Ill-Gotten Gains Part 1",
+        "releaseDate": "2015-06-10"
+      },
+      "stats": {
+        "handlingId": "WINDSOR",
+        "mass": 2800,
+        "topSpeed": 150,
+        "driveForce": 0.28,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.2,
+          "min": 1.85,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.4,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "windsor2",
+      "name": "Windsor Drop",
+      "hash": 2364918497,
+      "category": "Coupes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/windsor2.webp",
+      "dlc": {
+        "id": "mpexecutive",
+        "name": "Further Adventures in Finance and Felony",
+        "releaseDate": "2016-06-07"
+      },
+      "stats": {
+        "handlingId": "WINDSOR2",
+        "mass": 3000,
+        "topSpeed": 150,
+        "driveForce": 0.279,
+        "brakeForce": 0.7,
+        "handBrakeForce": 0.8,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.2,
+          "min": 1.84,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.3,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "zion",
+      "name": "Zion",
+      "hash": 3172678083,
+      "category": "Coupes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/zion.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "ZION",
+        "mass": 1400,
+        "topSpeed": 145,
+        "driveForce": 0.22,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.6,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.6,
+          "min": 2.45,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.6,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    },
+    {
+      "id": "zion2",
+      "name": "Zion Cabrio",
+      "hash": 3101863448,
+      "category": "Coupes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/zion2.webp",
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "handlingId": "ZION",
+        "mass": 1400,
+        "topSpeed": 145,
+        "driveForce": 0.22,
+        "brakeForce": 0.9,
+        "handBrakeForce": 0.6,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.6,
+          "min": 2.45,
+          "lateral": 22.5
+        },
+        "suspensionForce": 2.6,
+        "steeringLock": 40,
+        "monetaryValue": 35000
+      }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "id": "mpvalentines2",
+    "name": "Be My Valentine",
+    "releaseDate": "2016-02-14",
+    "key": "mpvalentines2",
+    "slug": "mpvalentines2",
+    "count": 1
+  },
+  "count": 1,
+  "items": [
+    {
+      "id": "btype3",
+      "name": "Roosevelt Valor",
+      "hash": 3692679425,
+      "category": "Sports Classic",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/btype3.webp",
+      "dlc": {
+        "id": "mpvalentines2",
+        "name": "Be My Valentine",
+        "releaseDate": "2016-02-14"
+      },
+      "stats": {
+        "handlingId": "ROOSEVELT2",
+        "mass": 2420,
+        "topSpeed": 125,
+        "driveForce": 0.27,
+        "brakeForce": 0.55,
+        "handBrakeForce": 0.4,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.1,
+          "min": 1.9,
+          "lateral": 23.5
+        },
+        "suspensionForce": 1.5,
+        "steeringLock": 35,
+        "monetaryValue": 70000
+      }
+    }
+  ]
+}

@@ -1,0 +1,456 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicles",
+    "label": "Vehicles",
+    "urlPattern": "{cdnBase}/assets/vehicles/images/{model_name}.webp",
+    "note": "Flat catalog keyed by model_name. hash = joaat(model_name). dlc = { id, name, releaseDate } (source update; releaseDate is the DLC launch date). stats = curated handling values (topSpeed, driveForce, brakeForce, traction, mass, drivetrain, monetaryValue, …)."
+  },
+  "group": {
+    "id": "mpbattle",
+    "name": "After Hours",
+    "releaseDate": "2018-07-24",
+    "key": "mpbattle",
+    "slug": "mpbattle",
+    "count": 14
+  },
+  "count": 14,
+  "items": [
+    {
+      "id": "stafford",
+      "name": "Stafford",
+      "hash": 321186144,
+      "category": "Sedans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/stafford.webp",
+      "dlc": {
+        "id": "mpbattle",
+        "name": "After Hours",
+        "releaseDate": "2018-07-24"
+      },
+      "stats": {
+        "handlingId": "STAFFORD",
+        "mass": 2110,
+        "topSpeed": 120,
+        "driveForce": 0.2,
+        "brakeForce": 0.45,
+        "handBrakeForce": 0.4,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2,
+          "min": 1.8,
+          "lateral": 23.5
+        },
+        "suspensionForce": 1.35,
+        "steeringLock": 40,
+        "monetaryValue": 70000
+      }
+    },
+    {
+      "id": "patriot2",
+      "name": "Patriot Stretch",
+      "hash": 3874056184,
+      "category": "SUVs",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/patriot2.webp",
+      "dlc": {
+        "id": "mpbattle",
+        "name": "After Hours",
+        "releaseDate": "2018-07-24"
+      },
+      "stats": {
+        "handlingId": "PATRIOT2",
+        "mass": 5500,
+        "topSpeed": 130,
+        "driveForce": 0.18,
+        "brakeForce": 0.32,
+        "handBrakeForce": 0.5,
+        "gears": 5,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 1.6,
+          "min": 1.3,
+          "lateral": 19
+        },
+        "suspensionForce": 1.5,
+        "steeringLock": 35,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "swinger",
+      "name": "Swinger",
+      "hash": 500482303,
+      "category": "Sports Classic",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/swinger.webp",
+      "dlc": {
+        "id": "mpbattle",
+        "name": "After Hours",
+        "releaseDate": "2018-07-24"
+      },
+      "stats": {
+        "handlingId": "SWINGER",
+        "mass": 900,
+        "topSpeed": 160,
+        "driveForce": 0.39,
+        "brakeForce": 0.995,
+        "handBrakeForce": 0.45,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.4,
+          "min": 2.25,
+          "lateral": 20.5
+        },
+        "suspensionForce": 2.4,
+        "steeringLock": 38,
+        "monetaryValue": 130000
+      }
+    },
+    {
+      "id": "scramjet",
+      "name": "Scramjet",
+      "hash": 3656405053,
+      "category": "Super",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/scramjet.webp",
+      "dlc": {
+        "id": "mpbattle",
+        "name": "After Hours",
+        "releaseDate": "2018-07-24"
+      },
+      "stats": {
+        "handlingId": "SCRAMJET",
+        "mass": 1600,
+        "topSpeed": 160,
+        "driveForce": 0.4,
+        "brakeForce": 0.95,
+        "handBrakeForce": 0.45,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.7,
+          "min": 2.25,
+          "lateral": 20.5
+        },
+        "suspensionForce": 2.4,
+        "steeringLock": 40,
+        "monetaryValue": 130000
+      }
+    },
+    {
+      "id": "oppressor2",
+      "name": "Oppressor Mk II",
+      "hash": 2069146067,
+      "category": "Motorcycles",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/oppressor2.webp",
+      "dlc": {
+        "id": "mpbattle",
+        "name": "After Hours",
+        "releaseDate": "2018-07-24"
+      },
+      "stats": {
+        "handlingId": "OPPRESSOR2",
+        "mass": 220,
+        "topSpeed": 148,
+        "driveForce": 0.38,
+        "brakeForce": 1.2,
+        "handBrakeForce": 1.3,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 2.1,
+          "min": 2,
+          "lateral": 22.5
+        },
+        "suspensionForce": 5.25,
+        "steeringLock": 42,
+        "monetaryValue": 20000
+      }
+    },
+    {
+      "id": "freecrawler",
+      "name": "Freecrawler",
+      "hash": 4240635011,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/freecrawler.webp",
+      "dlc": {
+        "id": "mpbattle",
+        "name": "After Hours",
+        "releaseDate": "2018-07-24"
+      },
+      "stats": {
+        "handlingId": "FREECRAWLER",
+        "mass": 2000,
+        "topSpeed": 135,
+        "driveForce": 0.24,
+        "brakeForce": 0.3,
+        "handBrakeForce": 0.4,
+        "gears": 4,
+        "driveBiasFront": 0.5,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2.05,
+          "min": 1.8,
+          "lateral": 20
+        },
+        "suspensionForce": 1.1,
+        "steeringLock": 36,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "menacer",
+      "name": "Menacer",
+      "hash": 2044532910,
+      "category": "Off-Road",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/menacer.webp",
+      "dlc": {
+        "id": "mpbattle",
+        "name": "After Hours",
+        "releaseDate": "2018-07-24"
+      },
+      "stats": {
+        "handlingId": "MENACER",
+        "mass": 5600,
+        "topSpeed": 130,
+        "driveForce": 0.2,
+        "brakeForce": 0.6,
+        "handBrakeForce": 0.45,
+        "gears": 6,
+        "driveBiasFront": 0.4,
+        "drivetrain": "AWD",
+        "traction": {
+          "max": 2,
+          "min": 1.65,
+          "lateral": 18
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 34,
+        "monetaryValue": 50000
+      }
+    },
+    {
+      "id": "speedo4",
+      "name": "Speedo Custom",
+      "hash": 219613597,
+      "category": "Vans",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/speedo4.webp",
+      "dlc": {
+        "id": "mpbattle",
+        "name": "After Hours",
+        "releaseDate": "2018-07-24"
+      },
+      "stats": {
+        "handlingId": "SPEEDO4",
+        "mass": 2500,
+        "topSpeed": 130,
+        "driveForce": 0.2,
+        "brakeForce": 0.65,
+        "handBrakeForce": 0.4,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.9,
+          "min": 1.6,
+          "lateral": 22
+        },
+        "suspensionForce": 1.25,
+        "steeringLock": 37.5,
+        "monetaryValue": 22000
+      }
+    },
+    {
+      "id": "blimp3",
+      "name": "Blimp",
+      "hash": 3987008919,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/blimp3.webp",
+      "dlc": {
+        "id": "mpbattle",
+        "name": "After Hours",
+        "releaseDate": "2018-07-24"
+      },
+      "stats": {
+        "handlingId": "BLIMP",
+        "mass": 12000,
+        "topSpeed": 160,
+        "driveForce": 0.3,
+        "brakeForce": 0.4,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 0.65,
+          "min": 0.6,
+          "lateral": 8
+        },
+        "suspensionForce": 3,
+        "steeringLock": 35,
+        "monetaryValue": 52000
+      }
+    },
+    {
+      "id": "strikeforce",
+      "name": "B-11 Strikeforce",
+      "hash": 1692272545,
+      "category": "Planes",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/strikeforce.webp",
+      "dlc": {
+        "id": "mpbattle",
+        "name": "After Hours",
+        "releaseDate": "2018-07-24"
+      },
+      "stats": {
+        "handlingId": "STRIKEFORCE",
+        "mass": 14000,
+        "topSpeed": 328.6,
+        "driveForce": 0.001,
+        "brakeForce": 0.05,
+        "handBrakeForce": 0.7,
+        "gears": 1,
+        "driveBiasFront": 1,
+        "drivetrain": "FWD",
+        "traction": {
+          "max": 2.15,
+          "min": 1.8,
+          "lateral": 12
+        },
+        "suspensionForce": 6.5,
+        "steeringLock": 30,
+        "monetaryValue": 45000
+      }
+    },
+    {
+      "id": "pbus2",
+      "name": "Festival Bus",
+      "hash": 345756458,
+      "category": "Service",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/pbus2.webp",
+      "dlc": {
+        "id": "mpbattle",
+        "name": "After Hours",
+        "releaseDate": "2018-07-24"
+      },
+      "stats": {
+        "handlingId": "PBUS2",
+        "mass": 8000,
+        "topSpeed": 90,
+        "driveForce": 0.13,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.3,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.15,
+          "min": 1,
+          "lateral": 35
+        },
+        "suspensionForce": 2,
+        "steeringLock": 35,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "mule4",
+      "name": "Mule Custom",
+      "hash": 1945374990,
+      "category": "Commercial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/mule4.webp",
+      "dlc": {
+        "id": "mpbattle",
+        "name": "After Hours",
+        "releaseDate": "2018-07-24"
+      },
+      "stats": {
+        "handlingId": "MULE4",
+        "mass": 6000,
+        "topSpeed": 100,
+        "driveForce": 0.11,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.2,
+        "gears": 5,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.5,
+          "min": 1.3,
+          "lateral": 16
+        },
+        "suspensionForce": 1.4,
+        "steeringLock": 37,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "pounder2",
+      "name": "Pounder Custom",
+      "hash": 1653666139,
+      "category": "Commercial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/pounder2.webp",
+      "dlc": {
+        "id": "mpbattle",
+        "name": "After Hours",
+        "releaseDate": "2018-07-24"
+      },
+      "stats": {
+        "handlingId": "POUNDER2",
+        "mass": 5500,
+        "topSpeed": 120,
+        "driveForce": 0.16,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.15,
+        "gears": 4,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.5,
+          "min": 1.35,
+          "lateral": 17
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    },
+    {
+      "id": "terbyte",
+      "name": "Terrorbyte",
+      "hash": 2306538597,
+      "category": "Commercial",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/vehicles/images/terbyte.webp",
+      "dlc": {
+        "id": "mpbattle",
+        "name": "After Hours",
+        "releaseDate": "2018-07-24"
+      },
+      "stats": {
+        "handlingId": "TERRORBYTE",
+        "mass": 10000,
+        "topSpeed": 120,
+        "driveForce": 0.16,
+        "brakeForce": 0.25,
+        "handBrakeForce": 0.15,
+        "gears": 6,
+        "driveBiasFront": 0,
+        "drivetrain": "RWD",
+        "traction": {
+          "max": 1.95,
+          "min": 1.65,
+          "lateral": 17
+        },
+        "suspensionForce": 2.2,
+        "steeringLock": 40,
+        "monetaryValue": 25000
+      }
+    }
+  ]
+}
