@@ -19,6 +19,7 @@ import * as vehicles from './vehicles.mjs';
 import * as weapons from './weapons.mjs';
 import * as objects from './objects.mjs';
 import * as explosions from './explosions.mjs';
+import * as particles from './particles.mjs';
 
 const DOMAINS = [
   clothing,
@@ -27,6 +28,7 @@ const DOMAINS = [
   weapons,
   objects,
   explosions,
+  particles,
 ];
 
 const ROOT = join(import.meta.dirname, '..', '..');

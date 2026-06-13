@@ -24,6 +24,7 @@ There are two domain shapes:
 | weapons  | Weapon icons (104)                | [`api/weapons/index.json`](./api/weapons/index.json) |
 | objects  | Object/prop models (21,634; 3,050 categorized) | [`api/objects/index.json`](./api/objects/index.json) |
 | explosions | Explosion types (88, 9 categories) | [`api/explosions/index.json`](./api/explosions/index.json) |
+| particles | Particle (PTFX) effects (2,907; 81 named) in 360 dictionaries | [`api/particles/index.json`](./api/particles/index.json) |
 
 Read the discovery root to enumerate what's available:
 
@@ -549,6 +550,43 @@ await explosions.getCategories();         // the 9 categories
 
 ---
 
+## Particles domain
+
+Every GTA **particle (PTFX) effect** from
+[DurtyFree `particleEffectsCompact.json`](https://github.com/DurtyFree/gta-v-data-dumps/blob/master/particleEffectsCompact.json):
+**2,907 effects across 360 dictionaries**. A particle is used as a **(dict, effect) pair** —
+`REQUEST_NAMED_PTFX_ASSET(dict)` then `START_PARTICLE_FX_LOOPED_AT_COORD(effect, …)` — so there's
+**no joaat hash**; identity is the pair. The **dictionary is the category** (it's the asset you
+load). A curated **81** effects carry a friendly `name` (`known: true`); the rest have
+`name === effect`.
+
+```jsonc
+// GET api/particles/index.json   (compact; meta + categories[] + items[])
+{ "count": 2907, "knownCount": 81, "dictionaryCount": 360,
+  "items": [ { "id": "scr_rcbarry2/scr_clown_appears", "name": "Purple Cloud 1",
+               "dict": "scr_rcbarry2", "effect": "scr_clown_appears",
+               "category": "scr_rcbarry2", "known": true },
+             { "id": "core/bang_snow", "name": "bang_snow", "dict": "core",
+               "effect": "bang_snow", "category": "core", "known": false } ] }
+```
+
+**List categories / list by category** — the category is the dictionary:
+```
+api/particles/by-category/index.json      # list ALL 360 dictionaries { name, slug, count, path }
+api/particles/by-category/<slug>.json     # every effect in a dictionary  e.g. .../by-category/scr_rcbarry2.json
+```
+```js
+import particles from 'https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/client/particles.js';
+await particles.getCategories();              // all 360 dictionaries
+await particles.byCategory('scr_rcbarry2');   // every effect in that dictionary
+await particles.byId('core/ent_sht_flame');   // one effect
+await particles.search('firework');           // fuzzy over names + effect strings
+```
+(No hash, so `byHash`/`nameForHash` don't apply here — reference effects by their dict + effect
+strings.)
+
+---
+
 ## Repository layout
 
 ```
@@ -570,6 +608,8 @@ src/
                                #   objects.all.json (DurtyFree ObjectList.ini: all object names)
                                #   objects.known.json (curated objects: name + category, 71 cats)
                                #   explosions.json (DurtyFree explosion tags: name + category, 9 cats)
+                               #   particles.all.json (DurtyFree PTFX: all effects by dict)
+                               #   particles.known.json (curated effects: friendly names)
   lib/fs.mjs                   # shared fs helpers (folder-derived domains)
   lib/joaat.mjs                # GTA joaat hash
   lib/catalog.mjs              # shared writer for flat domains (+ slugify, groupings)
@@ -580,11 +620,13 @@ src/
   build/weapons.mjs            # weapons builder (matches icons to src/data/weapons.json)
   build/objects.mjs            # objects builder (joins ObjectList.ini + curated categories)
   build/explosions.mjs         # explosions builder (categorized explosion types)
+  build/particles.mjs          # particles builder (effects grouped by dictionary)
 client/
   index.js                     # discovery + namespaced domain helpers
   clothing.js                  # clothing helpers
   objects.js                   # objects helpers (byHash/nameForHash/byCategory)
   explosions.js                # explosions helpers (byHash/byCategory)
+  particles.js                 # particles helpers (byCategory/byId, by dictionary)
   _flat.js                     # shared flat-domain client factory
   peds.js  vehicles.js  weapons.js
 ```
@@ -670,3 +712,4 @@ Existing domains and their URLs are unaffected.
 - Vehicle performance stats from [DurtyFree/gta-v-data-dumps](https://github.com/DurtyFree/gta-v-data-dumps) (snapshot in `src/data/vehicles.handling.json`). Vehicle DLC tags from the same dump (`src/data/vehicles.dlc.json`); DLC names & launch dates in `src/data/dlc.labels.json` (cross-checked against [gtacars.net](https://gtacars.net/gta5)).
 - Object/prop model list from [DurtyFree `ObjectList.ini`](https://github.com/DurtyFree/gta-v-data-dumps/blob/master/ObjectList.ini) (`src/data/objects.all.json`); curated object display names + categories in `src/data/objects.known.json`.
 - Explosion types from [DurtyFree `explosionTypesCompact.json`](https://github.com/DurtyFree/gta-v-data-dumps/blob/master/explosionTypesCompact.json), categorized with friendly names in `src/data/explosions.json`.
+- Particle (PTFX) effects from [DurtyFree `particleEffectsCompact.json`](https://github.com/DurtyFree/gta-v-data-dumps/blob/master/particleEffectsCompact.json) (`src/data/particles.all.json`); curated friendly names in `src/data/particles.known.json`.
