@@ -1,0 +1,390 @@
+{
+  "note": "GTA ped movement clipsets (\"walk styles\") for SET_PED_MOVEMENT_CLIPSET. id = the clipset string (load with REQUEST_CLIP_SET first); name = friendly display name; hash = joaat(id) (computed at build) for reverse lookup. No categories, no images.",
+  "source": "Community g_walkStyles list (display name + clipset id).",
+  "walkstyles": [
+    {
+      "id": "default",
+      "name": "Default"
+    },
+    {
+      "id": "move_m@generic",
+      "name": "Generic Male"
+    },
+    {
+      "id": "move_f@generic",
+      "name": "Generic Female"
+    },
+    {
+      "id": "move_cop@action",
+      "name": "Police Officer"
+    },
+    {
+      "id": "move_m@drunk@a",
+      "name": "Drunk Pedestrian"
+    },
+    {
+      "id": "move_m@drunk@moderatedrunk",
+      "name": "Moderately Drunk"
+    },
+    {
+      "id": "move_m@drunk@moderatedrunk_head_up",
+      "name": "Moderately Drunk 2"
+    },
+    {
+      "id": "move_m@drunk@slightlydrunk",
+      "name": "Slightly Drunk"
+    },
+    {
+      "id": "move_m@drunk@verydrunk",
+      "name": "Very Drunk"
+    },
+    {
+      "id": "move_m@drunk@verydrunk_idles@",
+      "name": "Very Drunk Idle"
+    },
+    {
+      "id": "move_m@gangster@generic",
+      "name": "Gangster"
+    },
+    {
+      "id": "move_m@hipster@a",
+      "name": "Hipster"
+    },
+    {
+      "id": "move_m@hobo@a",
+      "name": "Hobo"
+    },
+    {
+      "id": "move_m@hobo@b",
+      "name": "Hobo 2"
+    },
+    {
+      "id": "move_m@fat@a",
+      "name": "Obese Male"
+    },
+    {
+      "id": "move_f@fat@a",
+      "name": "Obese Female"
+    },
+    {
+      "id": "move_lester_CaneUp",
+      "name": "Lester"
+    },
+    {
+      "id": "move_f@film_reel",
+      "name": "Film Female"
+    },
+    {
+      "id": "move_m@jog@",
+      "name": "Cool Jog"
+    },
+    {
+      "id": "move_m@leaf_blower",
+      "name": "Leaf Blower"
+    },
+    {
+      "id": "move_m@tool_belt@a",
+      "name": "Tool Belt Walk"
+    },
+    {
+      "id": "move_f@tool_belt@a",
+      "name": "Tool Belt Walk 2"
+    },
+    {
+      "id": "move_f@sexy@a",
+      "name": "Appealing Female"
+    },
+    {
+      "id": "move_characters@amanda@bag",
+      "name": "Amanda with Bag"
+    },
+    {
+      "id": "move_characters@michael@fire",
+      "name": "Michael on Fire"
+    },
+    {
+      "id": "move_characters@franklin@fire",
+      "name": "Franklin on Fire"
+    },
+    {
+      "id": "move_characters@jimmy@nervous@",
+      "name": "Nervous Jimmy"
+    },
+    {
+      "id": "move_characters@jimmy@slow@",
+      "name": "Slow Jimmy"
+    },
+    {
+      "id": "move_m@alien",
+      "name": "Alien Walk"
+    },
+    {
+      "id": "move_m@brave",
+      "name": "Brave Pedestrian"
+    },
+    {
+      "id": "move_m@brave@a",
+      "name": "Brave 2"
+    },
+    {
+      "id": "move_m@brave@b",
+      "name": "Brave 3"
+    },
+    {
+      "id": "move_m@brave@fallback",
+      "name": "Brave 4"
+    },
+    {
+      "id": "move_m@brave@idle_a",
+      "name": "Brave Still"
+    },
+    {
+      "id": "move_m@brave@idle_b",
+      "name": "Brave Still 2"
+    },
+    {
+      "id": "move_m@business@a",
+      "name": "Business Casual"
+    },
+    {
+      "id": "move_m@business@b",
+      "name": "Business Casual 2"
+    },
+    {
+      "id": "move_m@business@c",
+      "name": "Business Casual 3"
+    },
+    {
+      "id": "move_m@casual@a",
+      "name": "Casual Walk"
+    },
+    {
+      "id": "move_m@casual@b",
+      "name": "Casual Walk 2"
+    },
+    {
+      "id": "move_m@casual@c",
+      "name": "Casual Walk 3"
+    },
+    {
+      "id": "move_m@casual@d",
+      "name": "Casual Walk 4"
+    },
+    {
+      "id": "move_m@casual@e",
+      "name": "Casual Walk 5"
+    },
+    {
+      "id": "move_m@casual@f",
+      "name": "Casual Walk 6"
+    },
+    {
+      "id": "move_m@clipboard",
+      "name": "Clipboard in Hand"
+    },
+    {
+      "id": "move_m@coward",
+      "name": "Cowardly Walk"
+    },
+    {
+      "id": "move_m@fire",
+      "name": "Burning Pedestrian"
+    },
+    {
+      "id": "move_m@flee@a",
+      "name": "Fleeing Pedestrian"
+    },
+    {
+      "id": "move_m@flee@b",
+      "name": "Fleeing Pedestrian 2"
+    },
+    {
+      "id": "move_m@flee@c",
+      "name": "Fleeing Pedestrian 3"
+    },
+    {
+      "id": "move_f@flee@a",
+      "name": "Fleeing Female"
+    },
+    {
+      "id": "move_f@flee@b",
+      "name": "Fleeing Female 2"
+    },
+    {
+      "id": "move_f@flee@c",
+      "name": "Fleeing Female 3"
+    },
+    {
+      "id": "move_m@hiking",
+      "name": "Hiking"
+    },
+    {
+      "id": "move_f@hiking",
+      "name": "Hiking 2"
+    },
+    {
+      "id": "move_m@hurry@a",
+      "name": "Hurry Walk"
+    },
+    {
+      "id": "move_m@hurry@b",
+      "name": "Hurry Walk 2"
+    },
+    {
+      "id": "move_m@hurry@c",
+      "name": "Hurry Walk 3"
+    },
+    {
+      "id": "move_f@hurry@a",
+      "name": "Hurry Female"
+    },
+    {
+      "id": "move_f@hurry@b",
+      "name": "Hurry Female 2"
+    },
+    {
+      "id": "move_m@injured",
+      "name": "Injured Pedestrian"
+    },
+    {
+      "id": "move_injured_generic",
+      "name": "Injured Pedestrian 2"
+    },
+    {
+      "id": "move_f@injured",
+      "name": "Injured Female"
+    },
+    {
+      "id": "move_m@intimidation@1h",
+      "name": "Intimidation Walk"
+    },
+    {
+      "id": "move_m@intimidation@cop@unarmed",
+      "name": "Intimidation 2"
+    },
+    {
+      "id": "move_m@intimidation@unarmed",
+      "name": "Intimidation 3"
+    },
+    {
+      "id": "move_m@muscle@a",
+      "name": "Muscular Walk"
+    },
+    {
+      "id": "move_m@quick",
+      "name": "Quick Walk"
+    },
+    {
+      "id": "move_m@sad@a",
+      "name": "Sad Walk"
+    },
+    {
+      "id": "move_m@sad@b",
+      "name": "Sad Walk 2"
+    },
+    {
+      "id": "move_m@sad@c",
+      "name": "Sad Walk 3"
+    },
+    {
+      "id": "move_f@sad@a",
+      "name": "Sad Female"
+    },
+    {
+      "id": "move_f@sad@b",
+      "name": "Sad Female 2"
+    },
+    {
+      "id": "move_m@shadyped@a",
+      "name": "Shady Walk"
+    },
+    {
+      "id": "move_m@shocked@a",
+      "name": "Shocked Pedestrian"
+    },
+    {
+      "id": "move_f@arrogant@a",
+      "name": "Arrogant Female"
+    },
+    {
+      "id": "move_f@chubby@a",
+      "name": "Chubby Female"
+    },
+    {
+      "id": "move_f@handbag",
+      "name": "Handbag Walk"
+    },
+    {
+      "id": "move_f@heels@c",
+      "name": "Heels Walk"
+    },
+    {
+      "id": "move_p_m_one",
+      "name": "Pedestrian Type 1"
+    },
+    {
+      "id": "move_p_m_one_briefcase",
+      "name": "Pedestrian Type 1 with Briefcase"
+    },
+    {
+      "id": "move_p_m_two",
+      "name": "Pedestrian Type 2"
+    },
+    {
+      "id": "move_p_m_zero",
+      "name": "Pedestrian Type 3"
+    },
+    {
+      "id": "move_p_m_zero_slow",
+      "name": "Pedestrian Type 3 Slow"
+    },
+    {
+      "id": "anim_group_move_ballistic",
+      "name": "Ballistic Walk"
+    },
+    {
+      "id": "MOVE_M@BAIL_BOND_TAZERED",
+      "name": "Tazered"
+    },
+    {
+      "id": "MOVE_M@BAIL_BOND_NOT_TAZERED",
+      "name": "Tipsy 2"
+    },
+    {
+      "id": "FEMALE_FAST_RUNNER",
+      "name": "Female Runner"
+    },
+    {
+      "id": "move_f@scared",
+      "name": "Female Scared"
+    },
+    {
+      "id": "MOVE_F@GANGSTER@NG",
+      "name": "Female Gangster"
+    },
+    {
+      "id": "MOVE_F@TOUGH_GUY@",
+      "name": "Female Tough"
+    },
+    {
+      "id": "MOVE_F@POSH@",
+      "name": "Female Posh"
+    },
+    {
+      "id": "MOVE_M@POSH@",
+      "name": "Male Posh"
+    },
+    {
+      "id": "MOVE_M@TOUGH_GUY@",
+      "name": "Male Tough"
+    },
+    {
+      "id": "move_m@gangster@var_f",
+      "name": "Male Gangster"
+    },
+    {
+      "id": "move_m@gangster@var_e",
+      "name": "Male Gangster 2"
+    }
+  ]
+}

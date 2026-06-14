@@ -25,6 +25,7 @@ import * as pedbones from './pedbones.mjs';
 import * as vehiclebones from './vehiclebones.mjs';
 import * as scenarios from './scenarios.mjs';
 import * as vehicleweapons from './vehicleweapons.mjs';
+import * as walkstyles from './walkstyles.mjs';
 
 const DOMAINS = [
   clothing,
@@ -39,6 +40,7 @@ const DOMAINS = [
   vehiclebones,
   scenarios,
   vehicleweapons,
+  walkstyles,
 ];
 
 const ROOT = join(import.meta.dirname, '..', '..');

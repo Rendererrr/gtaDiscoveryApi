@@ -2,7 +2,7 @@
 
 A **static JSON API** for GTA 5 / FiveM game assets, served straight from the [jsDelivr](https://www.jsdelivr.com/) CDN — no server, no rate limits, free hosting on GitHub.
 
-The API is split into **domains** — **clothing**, **peds**, **vehicles**, **weapons**, **objects**, **explosions**, **particles**, **animations**, **pedbones**, **vehiclebones**, **scenarios**, and **vehicleweapons** (see the table below). More slot in alongside without disturbing the existing endpoints.
+The API is split into **domains** — **clothing**, **peds**, **vehicles**, **weapons**, **objects**, **explosions**, **particles**, **animations**, **pedbones**, **vehiclebones**, **scenarios**, **vehicleweapons**, and **walkstyles** (see the table below). More slot in alongside without disturbing the existing endpoints.
 
 ```
 api/index.json                 # discovery root — lists every domain
@@ -30,6 +30,7 @@ There are two domain shapes:
 | vehiclebones | Vehicle bones (449, 13 categories) with joaat hashes | [`api/vehiclebones/index.json`](./api/vehiclebones/index.json) |
 | scenarios | Ped/world scenarios (247, 9 categories) with joaat hashes | [`api/scenarios/index.json`](./api/scenarios/index.json) |
 | vehicleweapons | Vehicle weapons (150, 8 categories) with archetype hashes | [`api/vehicleweapons/index.json`](./api/vehicleweapons/index.json) |
+| walkstyles | Ped walk styles / movement clipsets (96) with joaat hashes | [`api/walkstyles/index.json`](./api/walkstyles/index.json) |
 
 Read the discovery root to enumerate what's available:
 
@@ -385,9 +386,9 @@ await discovery.byHash(3078201489);        // { domain: 'vehicles', id: 'adder',
 ```
 
 The reverse map covers every domain that carries a `hash` — peds 848, vehicles 861, weapons 104,
-objects 21,634, explosions 88, vehiclebones 449, scenarios 247, vehicleweapons 150 — for a
-combined `api/hashes.json` of ~24.4k entries (particles/animations have no joaat hash, and
-pedbones use a separate `boneId` map). Going the other way (name → hash) is already in the
+objects 21,634, explosions 88, vehiclebones 449, scenarios 247, vehicleweapons 150,
+walkstyles 96 — for a combined `api/hashes.json` of ~24.5k entries (particles/animations have no
+joaat hash, and pedbones use a separate `boneId` map). Going the other way (name → hash) is already in the
 catalog: every item carries its own `hash`.
 
 ### List by category or DLC (static endpoints)
@@ -745,6 +746,37 @@ await vehicleweapons.getCategories();               // the 8 categories
 
 ---
 
+## Walk styles domain
+
+The 96 GTA **ped walk styles** — movement clipsets used with `SET_PED_MOVEMENT_CLIPSET`
+(load the clipset first with `REQUEST_CLIP_SET`). These are the gaits trainers expose
+("Gangster", "Drunk Pedestrian", "Tough Guy", etc.). Friendly display names, **no categories**,
+no images.
+
+`id` is the clipset string; `hash = joaat(id)` — so reverse hash lookup works (per-domain
+`hashes.json` + the combined `api/hashes.json`).
+
+```jsonc
+// GET api/walkstyles/index.json -> items[]
+{ "id": "move_m@gangster@generic", "name": "Gangster", "hash": 2484400580 }
+```
+
+This domain is **flat** — there are no `by-category` slices (it carries no categories), just the
+catalog and the reverse-hash map:
+```
+api/walkstyles/index.json     # { meta, count, items[] }
+api/walkstyles/hashes.json    # reverse joaat -> { id, name }
+```
+```js
+import walkstyles from 'https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/client/walkstyles.js';
+await walkstyles.byId('move_m@gangster@generic');   // { name:'Gangster', hash }
+await walkstyles.byHash(2484400580);                // reverse → the walk style
+await walkstyles.getItems();                        // all 96 walk styles
+await walkstyles.search('drunk');                   // fuzzy over names + clipset ids
+```
+
+---
+
 ## Repository layout
 
 ```
@@ -774,6 +806,7 @@ src/
                                #   vehiclebones.json (vehicle bones: name + hash + category)
                                #   scenarios.json (ped/world scenarios: name + category, 9 cats)
                                #   vehicleweapons.json (vehicle weapons: id + name + hash + category)
+                               #   walkstyles.json (ped walk styles: id (clipset) + name, no categories)
   lib/fs.mjs                   # shared fs helpers (folder-derived domains)
   lib/joaat.mjs                # GTA joaat hash
   lib/catalog.mjs              # shared writer for flat domains (+ slugify, groupings)
@@ -790,6 +823,7 @@ src/
   build/vehiclebones.mjs       # vehicle bones builder (joaat hashes)
   build/scenarios.mjs          # scenarios builder (joaat hashes)
   build/vehicleweapons.mjs     # vehicle weapons builder (authoritative archetype hashes)
+  build/walkstyles.mjs         # walk styles builder (joaat hashes, no categories)
 client/
   index.js                     # discovery + namespaced domain helpers
   clothing.js                  # clothing helpers
@@ -801,6 +835,7 @@ client/
   vehiclebones.js              # vehicle bones helpers (byCategory/byHash)
   scenarios.js                 # scenarios helpers (byCategory/byHash)
   vehicleweapons.js            # vehicle weapons helpers (byCategory/byHash)
+  walkstyles.js                # walk styles helpers (byId/byHash/search)
   _flat.js                     # shared flat-domain client factory
   peds.js  vehicles.js  weapons.js
 ```
@@ -891,3 +926,4 @@ Existing domains and their URLs are unaffected.
 - Ped & vehicle bone lists curated with categories + friendly names in `src/data/pedbones.json` and `src/data/vehiclebones.json`.
 - Ped/world scenario list from [MyHwu9508/PlayVFreeroam `scenariosCompact.json`](https://github.com/MyHwu9508/PlayVFreeroam/blob/main/resources/assets/dump/scenariosCompact.json), categorized with friendly names in `src/data/scenarios.json` (`hash = joaat(id)`).
 - Vehicle-weapon archetype hashes from a community `g_weaponVehicleList` (authoritative joaat hashes), with raw `VEHICLE_WEAPON_*` ids recovered via joaat; categorized with friendly names in `src/data/vehicleweapons.json`.
+- Ped walk-style (movement clipset) list from a community `g_walkStyles` (display name + clipset id), with friendly names in `src/data/walkstyles.json` (`hash = joaat(id)`).

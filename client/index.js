@@ -18,6 +18,7 @@ import pedbones from './pedbones.js';
 import vehiclebones from './vehiclebones.js';
 import scenarios from './scenarios.js';
 import vehicleweapons from './vehicleweapons.js';
+import walkstyles from './walkstyles.js';
 
 // Self-locating: resolve the API root relative to this module's own URL, so it
 // works wherever it's served from (jsDelivr, GitHub Pages, or a custom host).
@@ -39,7 +40,7 @@ export async function getDomains() {
  *   const img = vehicles[0]?.url;
  */
 export async function search(query, { limit = 25, domains = ['peds', 'vehicles', 'weapons'] } = {}) {
-  const clients = { peds, vehicles, weapons, objects, explosions, particles, animations, pedbones, vehiclebones, scenarios, vehicleweapons };
+  const clients = { peds, vehicles, weapons, objects, explosions, particles, animations, pedbones, vehiclebones, scenarios, vehicleweapons, walkstyles };
   const out = {};
   await Promise.all(domains.map(async (d) => { out[d] = await clients[d].search(query, { limit }); }));
   return out;
@@ -62,6 +63,6 @@ export async function byHash(hash) {
   return (await getHashes())[String(hash)] ?? null;
 }
 
-export { clothing, peds, vehicles, weapons, objects, explosions, particles, animations, pedbones, vehiclebones, scenarios, vehicleweapons };
+export { clothing, peds, vehicles, weapons, objects, explosions, particles, animations, pedbones, vehiclebones, scenarios, vehicleweapons, walkstyles };
 
-export default { getDomains, search, getHashes, byHash, clothing, peds, vehicles, weapons, objects, explosions, particles, animations, pedbones, vehiclebones, scenarios, vehicleweapons };
+export default { getDomains, search, getHashes, byHash, clothing, peds, vehicles, weapons, objects, explosions, particles, animations, pedbones, vehiclebones, scenarios, vehicleweapons, walkstyles };
