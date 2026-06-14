@@ -6,7 +6,7 @@
     "domain": "explosions",
     "label": "Explosions",
     "urlPattern": null,
-    "note": "Explosion types (no images). hash = joaat(tag) — the stable identifier to use in scripts. index = catalog position, NOT the in-game ADD_EXPLOSION enum integer. category groups are under by-category/."
+    "note": "Explosion types (no images). hash = joaat(tag) — the stable identifier to use in scripts. type = the in-game ADD_EXPLOSION explosionType enum integer (GRENADE=0, ...), -1 when unknown. index = catalog position, NOT the enum. category groups are under by-category/."
   },
   "group": {
     "name": "Launchers",
@@ -22,7 +22,8 @@
       "name": "EMP Launcher",
       "category": "Launchers",
       "tag": "EXP_TAG_EMPLAUNCHER_EMP",
-      "hash": 108414151
+      "hash": 108414151,
+      "type": 83
     },
     {
       "index": 31,
@@ -30,7 +31,8 @@
       "name": "Firework",
       "category": "Launchers",
       "tag": "EXP_TAG_FIREWORK",
-      "hash": 1095209106
+      "hash": 1095209106,
+      "type": 38
     },
     {
       "index": 32,
@@ -38,7 +40,8 @@
       "name": "Grenade Launcher",
       "category": "Launchers",
       "tag": "EXP_TAG_GRENADELAUNCHER",
-      "hash": 1886816994
+      "hash": 1886816994,
+      "type": 1
     },
     {
       "index": 33,
@@ -46,7 +49,8 @@
       "name": "Railgun",
       "category": "Launchers",
       "tag": "EXP_TAG_RAILGUN",
-      "hash": 2291950670
+      "hash": 2291950670,
+      "type": 36
     },
     {
       "index": 34,
@@ -54,7 +58,8 @@
       "name": "Railgun XM3",
       "category": "Launchers",
       "tag": "EXP_TAG_RAILGUNXM3",
-      "hash": 2399379780
+      "hash": 2399379780,
+      "type": -1
     },
     {
       "index": 35,
@@ -62,7 +67,8 @@
       "name": "Rocket",
       "category": "Launchers",
       "tag": "EXP_TAG_ROCKET",
-      "hash": 1848043031
+      "hash": 1848043031,
+      "type": 4
     },
     {
       "index": 36,
@@ -70,7 +76,8 @@
       "name": "Smoke Grenade Launcher",
       "category": "Launchers",
       "tag": "EXP_TAG_SMOKEGRENADELAUNCHER",
-      "hash": 2389658605
+      "hash": 2389658605,
+      "type": 19
     }
   ]
 }

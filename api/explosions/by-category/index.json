@@ -6,7 +6,7 @@
     "domain": "explosions",
     "label": "Explosions",
     "urlPattern": null,
-    "note": "Explosion types (no images). hash = joaat(tag) — the stable identifier to use in scripts. index = catalog position, NOT the in-game ADD_EXPLOSION enum integer. category groups are under by-category/."
+    "note": "Explosion types (no images). hash = joaat(tag) — the stable identifier to use in scripts. type = the in-game ADD_EXPLOSION explosionType enum integer (GRENADE=0, ...), -1 when unknown. index = catalog position, NOT the enum. category groups are under by-category/."
   },
   "count": 9,
   "groups": [

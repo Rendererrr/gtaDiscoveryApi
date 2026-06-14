@@ -6,7 +6,7 @@
     "domain": "explosions",
     "label": "Explosions",
     "urlPattern": null,
-    "note": "Explosion types (no images). hash = joaat(tag) — the stable identifier to use in scripts. index = catalog position, NOT the in-game ADD_EXPLOSION enum integer. category groups are under by-category/."
+    "note": "Explosion types (no images). hash = joaat(tag) — the stable identifier to use in scripts. type = the in-game ADD_EXPLOSION explosionType enum integer (GRENADE=0, ...), -1 when unknown. index = catalog position, NOT the enum. category groups are under by-category/."
   },
   "group": {
     "name": "Vehicle Weapons",
@@ -22,7 +22,8 @@
       "name": "Air Defence",
       "category": "Vehicle Weapons",
       "tag": "EXP_TAG_AIR_DEFENCE",
-      "hash": 3513070405
+      "hash": 3513070405,
+      "type": 42
     },
     {
       "index": 60,
@@ -30,7 +31,8 @@
       "name": "APC Shell",
       "category": "Vehicle Weapons",
       "tag": "EXP_TAG_APCSHELL",
-      "hash": 1648438185
+      "hash": 1648438185,
+      "type": 46
     },
     {
       "index": 61,
@@ -38,7 +40,8 @@
       "name": "Balanced Cannons",
       "category": "Vehicle Weapons",
       "tag": "EXP_TAG_BALANCED_CANNONS",
-      "hash": 4100324941
+      "hash": 4100324941,
+      "type": -1
     },
     {
       "index": 62,
@@ -46,7 +49,8 @@
       "name": "Bombushka Cannon",
       "category": "Vehicle Weapons",
       "tag": "EXP_TAG_BOMBUSHKA_CANNON",
-      "hash": 3084158436
+      "hash": 3084158436,
+      "type": 53
     },
     {
       "index": 63,
@@ -54,7 +58,8 @@
       "name": "Hunter Barrage",
       "category": "Vehicle Weapons",
       "tag": "EXP_TAG_HUNTER_BARRAGE",
-      "hash": 2646835273
+      "hash": 2646835273,
+      "type": 55
     },
     {
       "index": 64,
@@ -62,7 +67,8 @@
       "name": "Hunter Cannon",
       "category": "Vehicle Weapons",
       "tag": "EXP_TAG_HUNTER_CANNON",
-      "hash": 1082442432
+      "hash": 1082442432,
+      "type": 56
     },
     {
       "index": 65,
@@ -70,7 +76,8 @@
       "name": "Mortar Kinetic",
       "category": "Vehicle Weapons",
       "tag": "EXP_TAG_MORTAR_KINETIC",
-      "hash": 2611474006
+      "hash": 2611474006,
+      "type": 63
     },
     {
       "index": 66,
@@ -78,7 +85,8 @@
       "name": "Oppressor 2 Cannon",
       "category": "Vehicle Weapons",
       "tag": "EXP_TAG_OPPRESSOR2_CANNON",
-      "hash": 2382381768
+      "hash": 2382381768,
+      "type": 62
     },
     {
       "index": 67,
@@ -86,7 +94,8 @@
       "name": "Orbital Cannon",
       "category": "Vehicle Weapons",
       "tag": "EXP_TAG_ORBITAL_CANNON",
-      "hash": 1398806336
+      "hash": 1398806336,
+      "type": 59
     },
     {
       "index": 68,
@@ -94,7 +103,8 @@
       "name": "Plane Rocket",
       "category": "Vehicle Weapons",
       "tag": "EXP_TAG_PLANE_ROCKET",
-      "hash": 2469346959
+      "hash": 2469346959,
+      "type": 32
     },
     {
       "index": 69,
@@ -102,7 +112,8 @@
       "name": "RC Tank Rocket",
       "category": "Vehicle Weapons",
       "tag": "EXP_TAG_RCTANK_ROCKET",
-      "hash": 1794110630
+      "hash": 1794110630,
+      "type": 73
     },
     {
       "index": 70,
@@ -110,7 +121,8 @@
       "name": "Rogue Cannon",
       "category": "Vehicle Weapons",
       "tag": "EXP_TAG_ROGUE_CANNON",
-      "hash": 2236184030
+      "hash": 2236184030,
+      "type": 57
     },
     {
       "index": 71,
@@ -118,7 +130,8 @@
       "name": "Scarab Kinetic",
       "category": "Vehicle Weapons",
       "tag": "EXP_TAG_SCARAB_KINETIC",
-      "hash": 4260437209
+      "hash": 4260437209,
+      "type": -1
     },
     {
       "index": 72,
@@ -126,7 +139,8 @@
       "name": "Tank Shell",
       "category": "Vehicle Weapons",
       "tag": "EXP_TAG_TANKSHELL",
-      "hash": 4160300742
+      "hash": 4160300742,
+      "type": 5
     },
     {
       "index": 73,
@@ -134,7 +148,8 @@
       "name": "Titan 2 105mm Cannon",
       "category": "Vehicle Weapons",
       "tag": "EXP_TAG_TITAN2_105MM_CANNON",
-      "hash": 1000999416
+      "hash": 1000999416,
+      "type": -1
     },
     {
       "index": 74,
@@ -142,7 +157,8 @@
       "name": "Titan 2 25mm Cannon",
       "category": "Vehicle Weapons",
       "tag": "EXP_TAG_TITAN2_25MM_CANNON",
-      "hash": 2078503620
+      "hash": 2078503620,
+      "type": -1
     },
     {
       "index": 75,
@@ -150,7 +166,8 @@
       "name": "Titan 2 40mm Cannon",
       "category": "Vehicle Weapons",
       "tag": "EXP_TAG_TITAN2_40MM_CANNON",
-      "hash": 3613330511
+      "hash": 3613330511,
+      "type": -1
     },
     {
       "index": 76,
@@ -158,7 +175,8 @@
       "name": "Valkyrie Cannon",
       "category": "Vehicle Weapons",
       "tag": "EXP_TAG_VALKYRIE_CANNON",
-      "hash": 3078660825
+      "hash": 3078660825,
+      "type": 41
     },
     {
       "index": 77,
@@ -166,7 +184,8 @@
       "name": "Vehicle Bullet",
       "category": "Vehicle Weapons",
       "tag": "EXP_TAG_VEHICLE_BULLET",
-      "hash": 1692079049
+      "hash": 1692079049,
+      "type": 33
     }
   ]
 }

@@ -6,7 +6,7 @@
     "domain": "explosions",
     "label": "Explosions",
     "urlPattern": null,
-    "note": "Explosion types (no images). hash = joaat(tag) — the stable identifier to use in scripts. index = catalog position, NOT the in-game ADD_EXPLOSION enum integer. category groups are under by-category/."
+    "note": "Explosion types (no images). hash = joaat(tag) — the stable identifier to use in scripts. type = the in-game ADD_EXPLOSION explosionType enum integer (GRENADE=0, ...), -1 when unknown. index = catalog position, NOT the enum. category groups are under by-category/."
   },
   "categories": [
     {
@@ -54,7 +54,8 @@
       "name": "Bomb Cluster",
       "category": "Aircraft Bombs",
       "tag": "EXP_TAG_BOMB_CLUSTER",
-      "hash": 2996540666
+      "hash": 2996540666,
+      "type": 47
     },
     {
       "index": 1,
@@ -62,7 +63,8 @@
       "name": "Bomb Cluster Secondary",
       "category": "Aircraft Bombs",
       "tag": "EXP_TAG_BOMB_CLUSTER_SECONDARY",
-      "hash": 2411646660
+      "hash": 2411646660,
+      "type": 54
     },
     {
       "index": 2,
@@ -70,7 +72,8 @@
       "name": "Bomb Gas",
       "category": "Aircraft Bombs",
       "tag": "EXP_TAG_BOMB_GAS",
-      "hash": 3553220665
+      "hash": 3553220665,
+      "type": 48
     },
     {
       "index": 3,
@@ -78,7 +81,8 @@
       "name": "Bomb Incendiary",
       "category": "Aircraft Bombs",
       "tag": "EXP_TAG_BOMB_INCENDIARY",
-      "hash": 1703553843
+      "hash": 1703553843,
+      "type": 49
     },
     {
       "index": 4,
@@ -86,7 +90,8 @@
       "name": "Bomb Standard",
       "category": "Aircraft Bombs",
       "tag": "EXP_TAG_BOMB_STANDARD",
-      "hash": 15403557
+      "hash": 15403557,
+      "type": 50
     },
     {
       "index": 5,
@@ -94,7 +99,8 @@
       "name": "Bomb Standard Wide",
       "category": "Aircraft Bombs",
       "tag": "EXP_TAG_BOMB_STANDARD_WIDE",
-      "hash": 443492528
+      "hash": 443492528,
+      "type": 60
     },
     {
       "index": 6,
@@ -102,7 +108,8 @@
       "name": "Bomb Water",
       "category": "Aircraft Bombs",
       "tag": "EXP_TAG_BOMB_WATER",
-      "hash": 1813113829
+      "hash": 1813113829,
+      "type": 74
     },
     {
       "index": 7,
@@ -110,7 +117,8 @@
       "name": "Bomb Water Secondary",
       "category": "Aircraft Bombs",
       "tag": "EXP_TAG_BOMB_WATER_SECONDARY",
-      "hash": 2397901253
+      "hash": 2397901253,
+      "type": 75
     },
     {
       "index": 8,
@@ -118,7 +126,8 @@
       "name": "MFH Military Explosive",
       "category": "Aircraft Bombs",
       "tag": "EXP_TAG_MFH_MILITARY_EXPLOSIVE",
-      "hash": 2007196241
+      "hash": 2007196241,
+      "type": -1
     },
     {
       "index": 9,
@@ -126,7 +135,8 @@
       "name": "Underwater Bomb",
       "category": "Aircraft Bombs",
       "tag": "EXP_TAG_UNDERWATER_BOMB",
-      "hash": 861660847
+      "hash": 861660847,
+      "type": -1
     },
     {
       "index": 10,
@@ -134,7 +144,8 @@
       "name": "Barrel",
       "category": "Environment",
       "tag": "EXP_TAG_BARREL",
-      "hash": 1092718256
+      "hash": 1092718256,
+      "type": 27
     },
     {
       "index": 11,
@@ -142,7 +153,8 @@
       "name": "Directed Flame",
       "category": "Environment",
       "tag": "EXP_TAG_DIR_FLAME",
-      "hash": 1756061235
+      "hash": 1756061235,
+      "type": 12
     },
     {
       "index": 12,
@@ -150,7 +162,8 @@
       "name": "Directed Flame Explode",
       "category": "Environment",
       "tag": "EXP_TAG_DIR_FLAME_EXPLODE",
-      "hash": 4293226484
+      "hash": 4293226484,
+      "type": 30
     },
     {
       "index": 13,
@@ -158,7 +171,8 @@
       "name": "Directed Gas Canister",
       "category": "Environment",
       "tag": "EXP_TAG_DIR_GAS_CANISTER",
-      "hash": 3530196472
+      "hash": 3530196472,
+      "type": 14
     },
     {
       "index": 14,
@@ -166,7 +180,8 @@
       "name": "Directed Steam",
       "category": "Environment",
       "tag": "EXP_TAG_DIR_STEAM",
-      "hash": 2715601830
+      "hash": 2715601830,
+      "type": 11
     },
     {
       "index": 15,
@@ -174,7 +189,8 @@
       "name": "Directed Water Hydrant",
       "category": "Environment",
       "tag": "EXP_TAG_DIR_WATER_HYDRANT",
-      "hash": 534024042
+      "hash": 534024042,
+      "type": 13
     },
     {
       "index": 16,
@@ -182,7 +198,8 @@
       "name": "Extinguisher",
       "category": "Environment",
       "tag": "EXP_TAG_EXTINGUISHER",
-      "hash": 2636366753
+      "hash": 2636366753,
+      "type": 24
     },
     {
       "index": 17,
@@ -190,7 +207,8 @@
       "name": "Gas Canister",
       "category": "Environment",
       "tag": "EXP_TAG_GAS_CANISTER",
-      "hash": 3376861374
+      "hash": 3376861374,
+      "type": 23
     },
     {
       "index": 18,
@@ -198,7 +216,8 @@
       "name": "Gas Tank",
       "category": "Environment",
       "tag": "EXP_TAG_GAS_TANK",
-      "hash": 3340218381
+      "hash": 3340218381,
+      "type": 34
     },
     {
       "index": 19,
@@ -206,7 +225,8 @@
       "name": "MFH Gas Canister",
       "category": "Environment",
       "tag": "EXP_TAG_MFH_GAS_CANISTER",
-      "hash": 189585728
+      "hash": 189585728,
+      "type": -1
     },
     {
       "index": 20,
@@ -214,7 +234,8 @@
       "name": "Petrol Pump",
       "category": "Environment",
       "tag": "EXP_TAG_PETROL_PUMP",
-      "hash": 4190685720
+      "hash": 4190685720,
+      "type": 9
     },
     {
       "index": 21,
@@ -222,7 +243,8 @@
       "name": "Propane",
       "category": "Environment",
       "tag": "EXP_TAG_PROPANE",
-      "hash": 1844544532
+      "hash": 1844544532,
+      "type": 28
     },
     {
       "index": 22,
@@ -230,7 +252,8 @@
       "name": "Bullet",
       "category": "Firearms & Ammo",
       "tag": "EXP_TAG_BULLET",
-      "hash": 3238732005
+      "hash": 3238732005,
+      "type": 18
     },
     {
       "index": 23,
@@ -238,7 +261,8 @@
       "name": "Explosive Ammo",
       "category": "Firearms & Ammo",
       "tag": "EXP_TAG_EXPLOSIVEAMMO",
-      "hash": 2509170632
+      "hash": 2509170632,
+      "type": 45
     },
     {
       "index": 24,
@@ -246,7 +270,8 @@
       "name": "Explosive Ammo Shotgun",
       "category": "Firearms & Ammo",
       "tag": "EXP_TAG_EXPLOSIVEAMMO_SHOTGUN",
-      "hash": 3292851040
+      "hash": 3292851040,
+      "type": 61
     },
     {
       "index": 25,
@@ -254,7 +279,8 @@
       "name": "Programmable AR",
       "category": "Firearms & Ammo",
       "tag": "EXP_TAG_PROGRAMMABLEAR",
-      "hash": 1081849694
+      "hash": 1081849694,
+      "type": 25
     },
     {
       "index": 26,
@@ -262,7 +288,8 @@
       "name": "Raygun",
       "category": "Firearms & Ammo",
       "tag": "EXP_TAG_RAYGUN",
-      "hash": 648564360
+      "hash": 648564360,
+      "type": 70
     },
     {
       "index": 27,
@@ -270,7 +297,8 @@
       "name": "Script Drone",
       "category": "Firearms & Ammo",
       "tag": "EXP_TAG_SCRIPT_DRONE",
-      "hash": 3525741410
+      "hash": 3525741410,
+      "type": 69
     },
     {
       "index": 28,
@@ -278,7 +306,8 @@
       "name": "Script Missile",
       "category": "Firearms & Ammo",
       "tag": "EXP_TAG_SCRIPT_MISSILE",
-      "hash": 2850692033
+      "hash": 2850692033,
+      "type": 72
     },
     {
       "index": 29,
@@ -286,7 +315,8 @@
       "name": "Script Missile Large",
       "category": "Firearms & Ammo",
       "tag": "EXP_TAG_SCRIPT_MISSILE_LARGE",
-      "hash": 4230735204
+      "hash": 4230735204,
+      "type": 81
     },
     {
       "index": 30,
@@ -294,7 +324,8 @@
       "name": "EMP Launcher",
       "category": "Launchers",
       "tag": "EXP_TAG_EMPLAUNCHER_EMP",
-      "hash": 108414151
+      "hash": 108414151,
+      "type": 83
     },
     {
       "index": 31,
@@ -302,7 +333,8 @@
       "name": "Firework",
       "category": "Launchers",
       "tag": "EXP_TAG_FIREWORK",
-      "hash": 1095209106
+      "hash": 1095209106,
+      "type": 38
     },
     {
       "index": 32,
@@ -310,7 +342,8 @@
       "name": "Grenade Launcher",
       "category": "Launchers",
       "tag": "EXP_TAG_GRENADELAUNCHER",
-      "hash": 1886816994
+      "hash": 1886816994,
+      "type": 1
     },
     {
       "index": 33,
@@ -318,7 +351,8 @@
       "name": "Railgun",
       "category": "Launchers",
       "tag": "EXP_TAG_RAILGUN",
-      "hash": 2291950670
+      "hash": 2291950670,
+      "type": 36
     },
     {
       "index": 34,
@@ -326,7 +360,8 @@
       "name": "Railgun XM3",
       "category": "Launchers",
       "tag": "EXP_TAG_RAILGUNXM3",
-      "hash": 2399379780
+      "hash": 2399379780,
+      "type": -1
     },
     {
       "index": 35,
@@ -334,7 +369,8 @@
       "name": "Rocket",
       "category": "Launchers",
       "tag": "EXP_TAG_ROCKET",
-      "hash": 1848043031
+      "hash": 1848043031,
+      "type": 4
     },
     {
       "index": 36,
@@ -342,7 +378,8 @@
       "name": "Smoke Grenade Launcher",
       "category": "Launchers",
       "tag": "EXP_TAG_SMOKEGRENADELAUNCHER",
-      "hash": 2389658605
+      "hash": 2389658605,
+      "type": 19
     },
     {
       "index": 37,
@@ -350,7 +387,8 @@
       "name": "Buried Mine",
       "category": "Mines",
       "tag": "EXP_TAG_BURIEDMINE",
-      "hash": 2810574641
+      "hash": 2810574641,
+      "type": 71
     },
     {
       "index": 38,
@@ -358,7 +396,8 @@
       "name": "Underwater Mine",
       "category": "Mines",
       "tag": "EXP_TAG_MINE_UNDERWATER",
-      "hash": 1718822469
+      "hash": 1718822469,
+      "type": 58
     },
     {
       "index": 39,
@@ -366,7 +405,8 @@
       "name": "Vehicle Mine",
       "category": "Mines",
       "tag": "EXP_TAG_VEHICLEMINE",
-      "hash": 773270600
+      "hash": 773270600,
+      "type": 44
     },
     {
       "index": 40,
@@ -374,7 +414,8 @@
       "name": "Vehicle Mine EMP",
       "category": "Mines",
       "tag": "EXP_TAG_VEHICLEMINE_EMP",
-      "hash": 2260733551
+      "hash": 2260733551,
+      "type": 65
     },
     {
       "index": 41,
@@ -382,7 +423,8 @@
       "name": "Vehicle Mine Kinetic",
       "category": "Mines",
       "tag": "EXP_TAG_VEHICLEMINE_KINETIC",
-      "hash": 3221559614
+      "hash": 3221559614,
+      "type": 64
     },
     {
       "index": 42,
@@ -390,7 +432,8 @@
       "name": "Vehicle Mine Slick",
       "category": "Mines",
       "tag": "EXP_TAG_VEHICLEMINE_SLICK",
-      "hash": 1484422149
+      "hash": 1484422149,
+      "type": 67
     },
     {
       "index": 43,
@@ -398,7 +441,8 @@
       "name": "Vehicle Mine Spike",
       "category": "Mines",
       "tag": "EXP_TAG_VEHICLEMINE_SPIKE",
-      "hash": 3867661680
+      "hash": 3867661680,
+      "type": 66
     },
     {
       "index": 44,
@@ -406,7 +450,8 @@
       "name": "Vehicle Mine Tar",
       "category": "Mines",
       "tag": "EXP_TAG_VEHICLEMINE_TAR",
-      "hash": 2019434853
+      "hash": 2019434853,
+      "type": 68
     },
     {
       "index": 45,
@@ -414,7 +459,8 @@
       "name": "Big Submarine",
       "category": "Naval",
       "tag": "EXP_TAG_SUBMARINE_BIG",
-      "hash": 214341113
+      "hash": 214341113,
+      "type": 82
     },
     {
       "index": 46,
@@ -422,7 +468,8 @@
       "name": "Ship Destruction",
       "category": "Naval",
       "tag": "EXP_TAG_SHIP_DESTROY",
-      "hash": 2735531125
+      "hash": 2735531125,
+      "type": 16
     },
     {
       "index": 47,
@@ -430,7 +477,8 @@
       "name": "Torpedo",
       "category": "Naval",
       "tag": "EXP_TAG_TORPEDO",
-      "hash": 2609962983
+      "hash": 2609962983,
+      "type": 51
     },
     {
       "index": 48,
@@ -438,7 +486,8 @@
       "name": "Underwater Torpedo",
       "category": "Naval",
       "tag": "EXP_TAG_TORPEDO_UNDERWATER",
-      "hash": 1311434948
+      "hash": 1311434948,
+      "type": 52
     },
     {
       "index": 49,
@@ -446,7 +495,8 @@
       "name": "Bird Crap",
       "category": "Thrown",
       "tag": "EXP_TAG_BIRD_CRAP",
-      "hash": 2522456900
+      "hash": 2522456900,
+      "type": 35
     },
     {
       "index": 50,
@@ -454,7 +504,8 @@
       "name": "BZ Gas",
       "category": "Thrown",
       "tag": "EXP_TAG_BZGAS",
-      "hash": 1773912634
+      "hash": 1773912634,
+      "type": 21
     },
     {
       "index": 51,
@@ -462,7 +513,8 @@
       "name": "Flare",
       "category": "Thrown",
       "tag": "EXP_TAG_FLARE",
-      "hash": 1579615220
+      "hash": 1579615220,
+      "type": 22
     },
     {
       "index": 52,
@@ -470,7 +522,8 @@
       "name": "Grenade",
       "category": "Thrown",
       "tag": "EXP_TAG_GRENADE",
-      "hash": 2323771015
+      "hash": 2323771015,
+      "type": 0
     },
     {
       "index": 53,
@@ -478,7 +531,8 @@
       "name": "Molotov",
       "category": "Thrown",
       "tag": "EXP_TAG_MOLOTOV",
-      "hash": 4033868522
+      "hash": 4033868522,
+      "type": 3
     },
     {
       "index": 54,
@@ -486,7 +540,8 @@
       "name": "Pipe Bomb",
       "category": "Thrown",
       "tag": "EXP_TAG_PIPEBOMB",
-      "hash": 2166604032
+      "hash": 2166604032,
+      "type": 43
     },
     {
       "index": 55,
@@ -494,7 +549,8 @@
       "name": "Proximity Mine",
       "category": "Thrown",
       "tag": "EXP_TAG_PROXMINE",
-      "hash": 1526080082
+      "hash": 1526080082,
+      "type": 40
     },
     {
       "index": 56,
@@ -502,7 +558,8 @@
       "name": "Smoke Grenade",
       "category": "Thrown",
       "tag": "EXP_TAG_SMOKEGRENADE",
-      "hash": 4178601326
+      "hash": 4178601326,
+      "type": 20
     },
     {
       "index": 57,
@@ -510,7 +567,8 @@
       "name": "Snowball",
       "category": "Thrown",
       "tag": "EXP_TAG_SNOWBALL",
-      "hash": 79956383
+      "hash": 79956383,
+      "type": 39
     },
     {
       "index": 58,
@@ -518,7 +576,8 @@
       "name": "Sticky Bomb",
       "category": "Thrown",
       "tag": "EXP_TAG_STICKYBOMB",
-      "hash": 7827170
+      "hash": 7827170,
+      "type": 2
     },
     {
       "index": 59,
@@ -526,7 +585,8 @@
       "name": "Air Defence",
       "category": "Vehicle Weapons",
       "tag": "EXP_TAG_AIR_DEFENCE",
-      "hash": 3513070405
+      "hash": 3513070405,
+      "type": 42
     },
     {
       "index": 60,
@@ -534,7 +594,8 @@
       "name": "APC Shell",
       "category": "Vehicle Weapons",
       "tag": "EXP_TAG_APCSHELL",
-      "hash": 1648438185
+      "hash": 1648438185,
+      "type": 46
     },
     {
       "index": 61,
@@ -542,7 +603,8 @@
       "name": "Balanced Cannons",
       "category": "Vehicle Weapons",
       "tag": "EXP_TAG_BALANCED_CANNONS",
-      "hash": 4100324941
+      "hash": 4100324941,
+      "type": -1
     },
     {
       "index": 62,
@@ -550,7 +612,8 @@
       "name": "Bombushka Cannon",
       "category": "Vehicle Weapons",
       "tag": "EXP_TAG_BOMBUSHKA_CANNON",
-      "hash": 3084158436
+      "hash": 3084158436,
+      "type": 53
     },
     {
       "index": 63,
@@ -558,7 +621,8 @@
       "name": "Hunter Barrage",
       "category": "Vehicle Weapons",
       "tag": "EXP_TAG_HUNTER_BARRAGE",
-      "hash": 2646835273
+      "hash": 2646835273,
+      "type": 55
     },
     {
       "index": 64,
@@ -566,7 +630,8 @@
       "name": "Hunter Cannon",
       "category": "Vehicle Weapons",
       "tag": "EXP_TAG_HUNTER_CANNON",
-      "hash": 1082442432
+      "hash": 1082442432,
+      "type": 56
     },
     {
       "index": 65,
@@ -574,7 +639,8 @@
       "name": "Mortar Kinetic",
       "category": "Vehicle Weapons",
       "tag": "EXP_TAG_MORTAR_KINETIC",
-      "hash": 2611474006
+      "hash": 2611474006,
+      "type": 63
     },
     {
       "index": 66,
@@ -582,7 +648,8 @@
       "name": "Oppressor 2 Cannon",
       "category": "Vehicle Weapons",
       "tag": "EXP_TAG_OPPRESSOR2_CANNON",
-      "hash": 2382381768
+      "hash": 2382381768,
+      "type": 62
     },
     {
       "index": 67,
@@ -590,7 +657,8 @@
       "name": "Orbital Cannon",
       "category": "Vehicle Weapons",
       "tag": "EXP_TAG_ORBITAL_CANNON",
-      "hash": 1398806336
+      "hash": 1398806336,
+      "type": 59
     },
     {
       "index": 68,
@@ -598,7 +666,8 @@
       "name": "Plane Rocket",
       "category": "Vehicle Weapons",
       "tag": "EXP_TAG_PLANE_ROCKET",
-      "hash": 2469346959
+      "hash": 2469346959,
+      "type": 32
     },
     {
       "index": 69,
@@ -606,7 +675,8 @@
       "name": "RC Tank Rocket",
       "category": "Vehicle Weapons",
       "tag": "EXP_TAG_RCTANK_ROCKET",
-      "hash": 1794110630
+      "hash": 1794110630,
+      "type": 73
     },
     {
       "index": 70,
@@ -614,7 +684,8 @@
       "name": "Rogue Cannon",
       "category": "Vehicle Weapons",
       "tag": "EXP_TAG_ROGUE_CANNON",
-      "hash": 2236184030
+      "hash": 2236184030,
+      "type": 57
     },
     {
       "index": 71,
@@ -622,7 +693,8 @@
       "name": "Scarab Kinetic",
       "category": "Vehicle Weapons",
       "tag": "EXP_TAG_SCARAB_KINETIC",
-      "hash": 4260437209
+      "hash": 4260437209,
+      "type": -1
     },
     {
       "index": 72,
@@ -630,7 +702,8 @@
       "name": "Tank Shell",
       "category": "Vehicle Weapons",
       "tag": "EXP_TAG_TANKSHELL",
-      "hash": 4160300742
+      "hash": 4160300742,
+      "type": 5
     },
     {
       "index": 73,
@@ -638,7 +711,8 @@
       "name": "Titan 2 105mm Cannon",
       "category": "Vehicle Weapons",
       "tag": "EXP_TAG_TITAN2_105MM_CANNON",
-      "hash": 1000999416
+      "hash": 1000999416,
+      "type": -1
     },
     {
       "index": 74,
@@ -646,7 +720,8 @@
       "name": "Titan 2 25mm Cannon",
       "category": "Vehicle Weapons",
       "tag": "EXP_TAG_TITAN2_25MM_CANNON",
-      "hash": 2078503620
+      "hash": 2078503620,
+      "type": -1
     },
     {
       "index": 75,
@@ -654,7 +729,8 @@
       "name": "Titan 2 40mm Cannon",
       "category": "Vehicle Weapons",
       "tag": "EXP_TAG_TITAN2_40MM_CANNON",
-      "hash": 3613330511
+      "hash": 3613330511,
+      "type": -1
     },
     {
       "index": 76,
@@ -662,7 +738,8 @@
       "name": "Valkyrie Cannon",
       "category": "Vehicle Weapons",
       "tag": "EXP_TAG_VALKYRIE_CANNON",
-      "hash": 3078660825
+      "hash": 3078660825,
+      "type": 41
     },
     {
       "index": 77,
@@ -670,7 +747,8 @@
       "name": "Vehicle Bullet",
       "category": "Vehicle Weapons",
       "tag": "EXP_TAG_VEHICLE_BULLET",
-      "hash": 1692079049
+      "hash": 1692079049,
+      "type": 33
     },
     {
       "index": 78,
@@ -678,7 +756,8 @@
       "name": "Bike",
       "category": "Vehicles",
       "tag": "EXP_TAG_BIKE",
-      "hash": 2962763715
+      "hash": 2962763715,
+      "type": 10
     },
     {
       "index": 79,
@@ -686,7 +765,8 @@
       "name": "Blimp",
       "category": "Vehicles",
       "tag": "EXP_TAG_BLIMP",
-      "hash": 2682527126
+      "hash": 2682527126,
+      "type": 29
     },
     {
       "index": 80,
@@ -694,7 +774,8 @@
       "name": "Blimp 2",
       "category": "Vehicles",
       "tag": "EXP_TAG_BLIMP2",
-      "hash": 428486510
+      "hash": 428486510,
+      "type": 37
     },
     {
       "index": 81,
@@ -702,7 +783,8 @@
       "name": "Boat",
       "category": "Vehicles",
       "tag": "EXP_TAG_BOAT",
-      "hash": 2026476578
+      "hash": 2026476578,
+      "type": 15
     },
     {
       "index": 82,
@@ -710,7 +792,8 @@
       "name": "Car",
       "category": "Vehicles",
       "tag": "EXP_TAG_CAR",
-      "hash": 2269051536
+      "hash": 2269051536,
+      "type": 7
     },
     {
       "index": 83,
@@ -718,7 +801,8 @@
       "name": "Hi-Octane",
       "category": "Vehicles",
       "tag": "EXP_TAG_HI_OCTANE",
-      "hash": 111157249
+      "hash": 111157249,
+      "type": 6
     },
     {
       "index": 84,
@@ -726,7 +810,8 @@
       "name": "Plane",
       "category": "Vehicles",
       "tag": "EXP_TAG_PLANE",
-      "hash": 519761071
+      "hash": 519761071,
+      "type": 8
     },
     {
       "index": 85,
@@ -734,7 +819,8 @@
       "name": "Tanker",
       "category": "Vehicles",
       "tag": "EXP_TAG_TANKER",
-      "hash": 799054450
+      "hash": 799054450,
+      "type": 31
     },
     {
       "index": 86,
@@ -742,7 +828,8 @@
       "name": "Train",
       "category": "Vehicles",
       "tag": "EXP_TAG_TRAIN",
-      "hash": 1841648908
+      "hash": 1841648908,
+      "type": 26
     },
     {
       "index": 87,
@@ -750,7 +837,8 @@
       "name": "Truck",
       "category": "Vehicles",
       "tag": "EXP_TAG_TRUCK",
-      "hash": 952441136
+      "hash": 952441136,
+      "type": 17
     }
   ]
 }

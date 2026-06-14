@@ -6,7 +6,7 @@
     "domain": "explosions",
     "label": "Explosions",
     "urlPattern": null,
-    "note": "Explosion types (no images). hash = joaat(tag) — the stable identifier to use in scripts. index = catalog position, NOT the in-game ADD_EXPLOSION enum integer. category groups are under by-category/."
+    "note": "Explosion types (no images). hash = joaat(tag) — the stable identifier to use in scripts. type = the in-game ADD_EXPLOSION explosionType enum integer (GRENADE=0, ...), -1 when unknown. index = catalog position, NOT the enum. category groups are under by-category/."
   },
   "group": {
     "name": "Thrown",
@@ -22,7 +22,8 @@
       "name": "Bird Crap",
       "category": "Thrown",
       "tag": "EXP_TAG_BIRD_CRAP",
-      "hash": 2522456900
+      "hash": 2522456900,
+      "type": 35
     },
     {
       "index": 50,
@@ -30,7 +31,8 @@
       "name": "BZ Gas",
       "category": "Thrown",
       "tag": "EXP_TAG_BZGAS",
-      "hash": 1773912634
+      "hash": 1773912634,
+      "type": 21
     },
     {
       "index": 51,
@@ -38,7 +40,8 @@
       "name": "Flare",
       "category": "Thrown",
       "tag": "EXP_TAG_FLARE",
-      "hash": 1579615220
+      "hash": 1579615220,
+      "type": 22
     },
     {
       "index": 52,
@@ -46,7 +49,8 @@
       "name": "Grenade",
       "category": "Thrown",
       "tag": "EXP_TAG_GRENADE",
-      "hash": 2323771015
+      "hash": 2323771015,
+      "type": 0
     },
     {
       "index": 53,
@@ -54,7 +58,8 @@
       "name": "Molotov",
       "category": "Thrown",
       "tag": "EXP_TAG_MOLOTOV",
-      "hash": 4033868522
+      "hash": 4033868522,
+      "type": 3
     },
     {
       "index": 54,
@@ -62,7 +67,8 @@
       "name": "Pipe Bomb",
       "category": "Thrown",
       "tag": "EXP_TAG_PIPEBOMB",
-      "hash": 2166604032
+      "hash": 2166604032,
+      "type": 43
     },
     {
       "index": 55,
@@ -70,7 +76,8 @@
       "name": "Proximity Mine",
       "category": "Thrown",
       "tag": "EXP_TAG_PROXMINE",
-      "hash": 1526080082
+      "hash": 1526080082,
+      "type": 40
     },
     {
       "index": 56,
@@ -78,7 +85,8 @@
       "name": "Smoke Grenade",
       "category": "Thrown",
       "tag": "EXP_TAG_SMOKEGRENADE",
-      "hash": 4178601326
+      "hash": 4178601326,
+      "type": 20
     },
     {
       "index": 57,
@@ -86,7 +94,8 @@
       "name": "Snowball",
       "category": "Thrown",
       "tag": "EXP_TAG_SNOWBALL",
-      "hash": 79956383
+      "hash": 79956383,
+      "type": 39
     },
     {
       "index": 58,
@@ -94,7 +103,8 @@
       "name": "Sticky Bomb",
       "category": "Thrown",
       "tag": "EXP_TAG_STICKYBOMB",
-      "hash": 7827170
+      "hash": 7827170,
+      "type": 2
     }
   ]
 }

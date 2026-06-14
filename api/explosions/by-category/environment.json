@@ -6,7 +6,7 @@
     "domain": "explosions",
     "label": "Explosions",
     "urlPattern": null,
-    "note": "Explosion types (no images). hash = joaat(tag) — the stable identifier to use in scripts. index = catalog position, NOT the in-game ADD_EXPLOSION enum integer. category groups are under by-category/."
+    "note": "Explosion types (no images). hash = joaat(tag) — the stable identifier to use in scripts. type = the in-game ADD_EXPLOSION explosionType enum integer (GRENADE=0, ...), -1 when unknown. index = catalog position, NOT the enum. category groups are under by-category/."
   },
   "group": {
     "name": "Environment",
@@ -22,7 +22,8 @@
       "name": "Barrel",
       "category": "Environment",
       "tag": "EXP_TAG_BARREL",
-      "hash": 1092718256
+      "hash": 1092718256,
+      "type": 27
     },
     {
       "index": 11,
@@ -30,7 +31,8 @@
       "name": "Directed Flame",
       "category": "Environment",
       "tag": "EXP_TAG_DIR_FLAME",
-      "hash": 1756061235
+      "hash": 1756061235,
+      "type": 12
     },
     {
       "index": 12,
@@ -38,7 +40,8 @@
       "name": "Directed Flame Explode",
       "category": "Environment",
       "tag": "EXP_TAG_DIR_FLAME_EXPLODE",
-      "hash": 4293226484
+      "hash": 4293226484,
+      "type": 30
     },
     {
       "index": 13,
@@ -46,7 +49,8 @@
       "name": "Directed Gas Canister",
       "category": "Environment",
       "tag": "EXP_TAG_DIR_GAS_CANISTER",
-      "hash": 3530196472
+      "hash": 3530196472,
+      "type": 14
     },
     {
       "index": 14,
@@ -54,7 +58,8 @@
       "name": "Directed Steam",
       "category": "Environment",
       "tag": "EXP_TAG_DIR_STEAM",
-      "hash": 2715601830
+      "hash": 2715601830,
+      "type": 11
     },
     {
       "index": 15,
@@ -62,7 +67,8 @@
       "name": "Directed Water Hydrant",
       "category": "Environment",
       "tag": "EXP_TAG_DIR_WATER_HYDRANT",
-      "hash": 534024042
+      "hash": 534024042,
+      "type": 13
     },
     {
       "index": 16,
@@ -70,7 +76,8 @@
       "name": "Extinguisher",
       "category": "Environment",
       "tag": "EXP_TAG_EXTINGUISHER",
-      "hash": 2636366753
+      "hash": 2636366753,
+      "type": 24
     },
     {
       "index": 17,
@@ -78,7 +85,8 @@
       "name": "Gas Canister",
       "category": "Environment",
       "tag": "EXP_TAG_GAS_CANISTER",
-      "hash": 3376861374
+      "hash": 3376861374,
+      "type": 23
     },
     {
       "index": 18,
@@ -86,7 +94,8 @@
       "name": "Gas Tank",
       "category": "Environment",
       "tag": "EXP_TAG_GAS_TANK",
-      "hash": 3340218381
+      "hash": 3340218381,
+      "type": 34
     },
     {
       "index": 19,
@@ -94,7 +103,8 @@
       "name": "MFH Gas Canister",
       "category": "Environment",
       "tag": "EXP_TAG_MFH_GAS_CANISTER",
-      "hash": 189585728
+      "hash": 189585728,
+      "type": -1
     },
     {
       "index": 20,
@@ -102,7 +112,8 @@
       "name": "Petrol Pump",
       "category": "Environment",
       "tag": "EXP_TAG_PETROL_PUMP",
-      "hash": 4190685720
+      "hash": 4190685720,
+      "type": 9
     },
     {
       "index": 21,
@@ -110,7 +121,8 @@
       "name": "Propane",
       "category": "Environment",
       "tag": "EXP_TAG_PROPANE",
-      "hash": 1844544532
+      "hash": 1844544532,
+      "type": 28
     }
   ]
 }

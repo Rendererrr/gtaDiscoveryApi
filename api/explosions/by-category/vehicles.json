@@ -6,7 +6,7 @@
     "domain": "explosions",
     "label": "Explosions",
     "urlPattern": null,
-    "note": "Explosion types (no images). hash = joaat(tag) — the stable identifier to use in scripts. index = catalog position, NOT the in-game ADD_EXPLOSION enum integer. category groups are under by-category/."
+    "note": "Explosion types (no images). hash = joaat(tag) — the stable identifier to use in scripts. type = the in-game ADD_EXPLOSION explosionType enum integer (GRENADE=0, ...), -1 when unknown. index = catalog position, NOT the enum. category groups are under by-category/."
   },
   "group": {
     "name": "Vehicles",
@@ -22,7 +22,8 @@
       "name": "Bike",
       "category": "Vehicles",
       "tag": "EXP_TAG_BIKE",
-      "hash": 2962763715
+      "hash": 2962763715,
+      "type": 10
     },
     {
       "index": 79,
@@ -30,7 +31,8 @@
       "name": "Blimp",
       "category": "Vehicles",
       "tag": "EXP_TAG_BLIMP",
-      "hash": 2682527126
+      "hash": 2682527126,
+      "type": 29
     },
     {
       "index": 80,
@@ -38,7 +40,8 @@
       "name": "Blimp 2",
       "category": "Vehicles",
       "tag": "EXP_TAG_BLIMP2",
-      "hash": 428486510
+      "hash": 428486510,
+      "type": 37
     },
     {
       "index": 81,
@@ -46,7 +49,8 @@
       "name": "Boat",
       "category": "Vehicles",
       "tag": "EXP_TAG_BOAT",
-      "hash": 2026476578
+      "hash": 2026476578,
+      "type": 15
     },
     {
       "index": 82,
@@ -54,7 +58,8 @@
       "name": "Car",
       "category": "Vehicles",
       "tag": "EXP_TAG_CAR",
-      "hash": 2269051536
+      "hash": 2269051536,
+      "type": 7
     },
     {
       "index": 83,
@@ -62,7 +67,8 @@
       "name": "Hi-Octane",
       "category": "Vehicles",
       "tag": "EXP_TAG_HI_OCTANE",
-      "hash": 111157249
+      "hash": 111157249,
+      "type": 6
     },
     {
       "index": 84,
@@ -70,7 +76,8 @@
       "name": "Plane",
       "category": "Vehicles",
       "tag": "EXP_TAG_PLANE",
-      "hash": 519761071
+      "hash": 519761071,
+      "type": 8
     },
     {
       "index": 85,
@@ -78,7 +85,8 @@
       "name": "Tanker",
       "category": "Vehicles",
       "tag": "EXP_TAG_TANKER",
-      "hash": 799054450
+      "hash": 799054450,
+      "type": 31
     },
     {
       "index": 86,
@@ -86,7 +94,8 @@
       "name": "Train",
       "category": "Vehicles",
       "tag": "EXP_TAG_TRAIN",
-      "hash": 1841648908
+      "hash": 1841648908,
+      "type": 26
     },
     {
       "index": 87,
@@ -94,7 +103,8 @@
       "name": "Truck",
       "category": "Vehicles",
       "tag": "EXP_TAG_TRUCK",
-      "hash": 952441136
+      "hash": 952441136,
+      "type": 17
     }
   ]
 }

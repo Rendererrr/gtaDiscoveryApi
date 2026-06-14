@@ -6,7 +6,7 @@
     "domain": "explosions",
     "label": "Explosions",
     "urlPattern": null,
-    "note": "Explosion types (no images). hash = joaat(tag) — the stable identifier to use in scripts. index = catalog position, NOT the in-game ADD_EXPLOSION enum integer. category groups are under by-category/."
+    "note": "Explosion types (no images). hash = joaat(tag) — the stable identifier to use in scripts. type = the in-game ADD_EXPLOSION explosionType enum integer (GRENADE=0, ...), -1 when unknown. index = catalog position, NOT the enum. category groups are under by-category/."
   },
   "group": {
     "name": "Firearms & Ammo",
@@ -22,7 +22,8 @@
       "name": "Bullet",
       "category": "Firearms & Ammo",
       "tag": "EXP_TAG_BULLET",
-      "hash": 3238732005
+      "hash": 3238732005,
+      "type": 18
     },
     {
       "index": 23,
@@ -30,7 +31,8 @@
       "name": "Explosive Ammo",
       "category": "Firearms & Ammo",
       "tag": "EXP_TAG_EXPLOSIVEAMMO",
-      "hash": 2509170632
+      "hash": 2509170632,
+      "type": 45
     },
     {
       "index": 24,
@@ -38,7 +40,8 @@
       "name": "Explosive Ammo Shotgun",
       "category": "Firearms & Ammo",
       "tag": "EXP_TAG_EXPLOSIVEAMMO_SHOTGUN",
-      "hash": 3292851040
+      "hash": 3292851040,
+      "type": 61
     },
     {
       "index": 25,
@@ -46,7 +49,8 @@
       "name": "Programmable AR",
       "category": "Firearms & Ammo",
       "tag": "EXP_TAG_PROGRAMMABLEAR",
-      "hash": 1081849694
+      "hash": 1081849694,
+      "type": 25
     },
     {
       "index": 26,
@@ -54,7 +58,8 @@
       "name": "Raygun",
       "category": "Firearms & Ammo",
       "tag": "EXP_TAG_RAYGUN",
-      "hash": 648564360
+      "hash": 648564360,
+      "type": 70
     },
     {
       "index": 27,
@@ -62,7 +67,8 @@
       "name": "Script Drone",
       "category": "Firearms & Ammo",
       "tag": "EXP_TAG_SCRIPT_DRONE",
-      "hash": 3525741410
+      "hash": 3525741410,
+      "type": 69
     },
     {
       "index": 28,
@@ -70,7 +76,8 @@
       "name": "Script Missile",
       "category": "Firearms & Ammo",
       "tag": "EXP_TAG_SCRIPT_MISSILE",
-      "hash": 2850692033
+      "hash": 2850692033,
+      "type": 72
     },
     {
       "index": 29,
@@ -78,7 +85,8 @@
       "name": "Script Missile Large",
       "category": "Firearms & Ammo",
       "tag": "EXP_TAG_SCRIPT_MISSILE_LARGE",
-      "hash": 4230735204
+      "hash": 4230735204,
+      "type": 81
     }
   ]
 }

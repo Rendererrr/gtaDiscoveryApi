@@ -6,7 +6,7 @@
     "domain": "explosions",
     "label": "Explosions",
     "urlPattern": null,
-    "note": "Explosion types (no images). hash = joaat(tag) — the stable identifier to use in scripts. index = catalog position, NOT the in-game ADD_EXPLOSION enum integer. category groups are under by-category/."
+    "note": "Explosion types (no images). hash = joaat(tag) — the stable identifier to use in scripts. type = the in-game ADD_EXPLOSION explosionType enum integer (GRENADE=0, ...), -1 when unknown. index = catalog position, NOT the enum. category groups are under by-category/."
   },
   "group": {
     "name": "Aircraft Bombs",
@@ -22,7 +22,8 @@
       "name": "Bomb Cluster",
       "category": "Aircraft Bombs",
       "tag": "EXP_TAG_BOMB_CLUSTER",
-      "hash": 2996540666
+      "hash": 2996540666,
+      "type": 47
     },
     {
       "index": 1,
@@ -30,7 +31,8 @@
       "name": "Bomb Cluster Secondary",
       "category": "Aircraft Bombs",
       "tag": "EXP_TAG_BOMB_CLUSTER_SECONDARY",
-      "hash": 2411646660
+      "hash": 2411646660,
+      "type": 54
     },
     {
       "index": 2,
@@ -38,7 +40,8 @@
       "name": "Bomb Gas",
       "category": "Aircraft Bombs",
       "tag": "EXP_TAG_BOMB_GAS",
-      "hash": 3553220665
+      "hash": 3553220665,
+      "type": 48
     },
     {
       "index": 3,
@@ -46,7 +49,8 @@
       "name": "Bomb Incendiary",
       "category": "Aircraft Bombs",
       "tag": "EXP_TAG_BOMB_INCENDIARY",
-      "hash": 1703553843
+      "hash": 1703553843,
+      "type": 49
     },
     {
       "index": 4,
@@ -54,7 +58,8 @@
       "name": "Bomb Standard",
       "category": "Aircraft Bombs",
       "tag": "EXP_TAG_BOMB_STANDARD",
-      "hash": 15403557
+      "hash": 15403557,
+      "type": 50
     },
     {
       "index": 5,
@@ -62,7 +67,8 @@
       "name": "Bomb Standard Wide",
       "category": "Aircraft Bombs",
       "tag": "EXP_TAG_BOMB_STANDARD_WIDE",
-      "hash": 443492528
+      "hash": 443492528,
+      "type": 60
     },
     {
       "index": 6,
@@ -70,7 +76,8 @@
       "name": "Bomb Water",
       "category": "Aircraft Bombs",
       "tag": "EXP_TAG_BOMB_WATER",
-      "hash": 1813113829
+      "hash": 1813113829,
+      "type": 74
     },
     {
       "index": 7,
@@ -78,7 +85,8 @@
       "name": "Bomb Water Secondary",
       "category": "Aircraft Bombs",
       "tag": "EXP_TAG_BOMB_WATER_SECONDARY",
-      "hash": 2397901253
+      "hash": 2397901253,
+      "type": 75
     },
     {
       "index": 8,
@@ -86,7 +94,8 @@
       "name": "MFH Military Explosive",
       "category": "Aircraft Bombs",
       "tag": "EXP_TAG_MFH_MILITARY_EXPLOSIVE",
-      "hash": 2007196241
+      "hash": 2007196241,
+      "type": -1
     },
     {
       "index": 9,
@@ -94,7 +103,8 @@
       "name": "Underwater Bomb",
       "category": "Aircraft Bombs",
       "tag": "EXP_TAG_UNDERWATER_BOMB",
-      "hash": 861660847
+      "hash": 861660847,
+      "type": -1
     }
   ]
 }

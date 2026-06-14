@@ -6,7 +6,7 @@
     "domain": "explosions",
     "label": "Explosions",
     "urlPattern": null,
-    "note": "Explosion types (no images). hash = joaat(tag) — the stable identifier to use in scripts. index = catalog position, NOT the in-game ADD_EXPLOSION enum integer. category groups are under by-category/."
+    "note": "Explosion types (no images). hash = joaat(tag) — the stable identifier to use in scripts. type = the in-game ADD_EXPLOSION explosionType enum integer (GRENADE=0, ...), -1 when unknown. index = catalog position, NOT the enum. category groups are under by-category/."
   },
   "group": {
     "name": "Naval",
@@ -22,7 +22,8 @@
       "name": "Big Submarine",
       "category": "Naval",
       "tag": "EXP_TAG_SUBMARINE_BIG",
-      "hash": 214341113
+      "hash": 214341113,
+      "type": 82
     },
     {
       "index": 46,
@@ -30,7 +31,8 @@
       "name": "Ship Destruction",
       "category": "Naval",
       "tag": "EXP_TAG_SHIP_DESTROY",
-      "hash": 2735531125
+      "hash": 2735531125,
+      "type": 16
     },
     {
       "index": 47,
@@ -38,7 +40,8 @@
       "name": "Torpedo",
       "category": "Naval",
       "tag": "EXP_TAG_TORPEDO",
-      "hash": 2609962983
+      "hash": 2609962983,
+      "type": 51
     },
     {
       "index": 48,
@@ -46,7 +49,8 @@
       "name": "Underwater Torpedo",
       "category": "Naval",
       "tag": "EXP_TAG_TORPEDO_UNDERWATER",
-      "hash": 1311434948
+      "hash": 1311434948,
+      "type": 52
     }
   ]
 }

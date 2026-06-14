@@ -6,7 +6,7 @@
     "domain": "explosions",
     "label": "Explosions",
     "urlPattern": null,
-    "note": "Explosion types (no images). hash = joaat(tag) — the stable identifier to use in scripts. index = catalog position, NOT the in-game ADD_EXPLOSION enum integer. category groups are under by-category/."
+    "note": "Explosion types (no images). hash = joaat(tag) — the stable identifier to use in scripts. type = the in-game ADD_EXPLOSION explosionType enum integer (GRENADE=0, ...), -1 when unknown. index = catalog position, NOT the enum. category groups are under by-category/."
   },
   "group": {
     "name": "Mines",
@@ -22,7 +22,8 @@
       "name": "Buried Mine",
       "category": "Mines",
       "tag": "EXP_TAG_BURIEDMINE",
-      "hash": 2810574641
+      "hash": 2810574641,
+      "type": 71
     },
     {
       "index": 38,
@@ -30,7 +31,8 @@
       "name": "Underwater Mine",
       "category": "Mines",
       "tag": "EXP_TAG_MINE_UNDERWATER",
-      "hash": 1718822469
+      "hash": 1718822469,
+      "type": 58
     },
     {
       "index": 39,
@@ -38,7 +40,8 @@
       "name": "Vehicle Mine",
       "category": "Mines",
       "tag": "EXP_TAG_VEHICLEMINE",
-      "hash": 773270600
+      "hash": 773270600,
+      "type": 44
     },
     {
       "index": 40,
@@ -46,7 +49,8 @@
       "name": "Vehicle Mine EMP",
       "category": "Mines",
       "tag": "EXP_TAG_VEHICLEMINE_EMP",
-      "hash": 2260733551
+      "hash": 2260733551,
+      "type": 65
     },
     {
       "index": 41,
@@ -54,7 +58,8 @@
       "name": "Vehicle Mine Kinetic",
       "category": "Mines",
       "tag": "EXP_TAG_VEHICLEMINE_KINETIC",
-      "hash": 3221559614
+      "hash": 3221559614,
+      "type": 64
     },
     {
       "index": 42,
@@ -62,7 +67,8 @@
       "name": "Vehicle Mine Slick",
       "category": "Mines",
       "tag": "EXP_TAG_VEHICLEMINE_SLICK",
-      "hash": 1484422149
+      "hash": 1484422149,
+      "type": 67
     },
     {
       "index": 43,
@@ -70,7 +76,8 @@
       "name": "Vehicle Mine Spike",
       "category": "Mines",
       "tag": "EXP_TAG_VEHICLEMINE_SPIKE",
-      "hash": 3867661680
+      "hash": 3867661680,
+      "type": 66
     },
     {
       "index": 44,
@@ -78,7 +85,8 @@
       "name": "Vehicle Mine Tar",
       "category": "Mines",
       "tag": "EXP_TAG_VEHICLEMINE_TAR",
-      "hash": 2019434853
+      "hash": 2019434853,
+      "type": 68
     }
   ]
 }
