@@ -1,0 +1,301 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "animflags",
+    "label": "Animation Flags",
+    "note": "Scripted animation flags (eScriptedAnimFlags) for TASK_PLAY_ANIM etc. `flags` = the 31 individual bit flags (id = AF_* enum name, value = bit, bit = bit index). `presets` = curated friendly combinations; value = bitwise OR of member flags (computed). No joaat hash, no images, no categories. Build a value by OR-ing flag values, or pick a preset."
+  },
+  "flagCount": 31,
+  "presetCount": 13,
+  "flags": [
+    {
+      "id": "AF_LOOPING",
+      "name": "Looping",
+      "value": 1,
+      "bit": 0
+    },
+    {
+      "id": "AF_HOLD_LAST_FRAME",
+      "name": "Hold Last Frame",
+      "value": 2,
+      "bit": 1
+    },
+    {
+      "id": "AF_REPOSITION_WHEN_FINISHED",
+      "name": "Reposition When Finished",
+      "value": 4,
+      "bit": 2
+    },
+    {
+      "id": "AF_NOT_INTERRUPTABLE",
+      "name": "Not Interruptable",
+      "value": 8,
+      "bit": 3
+    },
+    {
+      "id": "AF_UPPERBODY",
+      "name": "Upper Body",
+      "value": 16,
+      "bit": 4
+    },
+    {
+      "id": "AF_SECONDARY",
+      "name": "Secondary",
+      "value": 32,
+      "bit": 5
+    },
+    {
+      "id": "AF_REORIENT_WHEN_FINISHED",
+      "name": "Reorient When Finished",
+      "value": 64,
+      "bit": 6
+    },
+    {
+      "id": "AF_ABORT_ON_PED_MOVEMENT",
+      "name": "Abort On Ped Movement",
+      "value": 128,
+      "bit": 7
+    },
+    {
+      "id": "AF_ADDITIVE",
+      "name": "Additive",
+      "value": 256,
+      "bit": 8
+    },
+    {
+      "id": "AF_TURN_OFF_COLLISION",
+      "name": "Turn Off Collision",
+      "value": 512,
+      "bit": 9
+    },
+    {
+      "id": "AF_OVERRIDE_PHYSICS",
+      "name": "Override Physics",
+      "value": 1024,
+      "bit": 10
+    },
+    {
+      "id": "AF_IGNORE_GRAVITY",
+      "name": "Ignore Gravity",
+      "value": 2048,
+      "bit": 11
+    },
+    {
+      "id": "AF_EXTRACT_INITIAL_OFFSET",
+      "name": "Extract Initial Offset",
+      "value": 4096,
+      "bit": 12
+    },
+    {
+      "id": "AF_EXIT_AFTER_INTERRUPTED",
+      "name": "Exit After Interrupted",
+      "value": 8192,
+      "bit": 13
+    },
+    {
+      "id": "AF_TAG_SYNC_IN",
+      "name": "Tag Sync In",
+      "value": 16384,
+      "bit": 14
+    },
+    {
+      "id": "AF_TAG_SYNC_OUT",
+      "name": "Tag Sync Out",
+      "value": 32768,
+      "bit": 15
+    },
+    {
+      "id": "AF_TAG_SYNC_CONTINUOUS",
+      "name": "Tag Sync Continuous",
+      "value": 65536,
+      "bit": 16
+    },
+    {
+      "id": "AF_FORCE_START",
+      "name": "Force Start",
+      "value": 131072,
+      "bit": 17
+    },
+    {
+      "id": "AF_USE_KINEMATIC_PHYSICS",
+      "name": "Use Kinematic Physics",
+      "value": 262144,
+      "bit": 18
+    },
+    {
+      "id": "AF_USE_MOVER_EXTRACTION",
+      "name": "Use Mover Extraction",
+      "value": 524288,
+      "bit": 19
+    },
+    {
+      "id": "AF_HIDE_WEAPON",
+      "name": "Hide Weapon",
+      "value": 1048576,
+      "bit": 20
+    },
+    {
+      "id": "AF_ENDS_IN_DEAD_POSE",
+      "name": "Ends In Dead Pose",
+      "value": 2097152,
+      "bit": 21
+    },
+    {
+      "id": "AF_ACTIVATE_RAGDOLL_ON_COLLISION",
+      "name": "Activate Ragdoll On Collision",
+      "value": 4194304,
+      "bit": 22
+    },
+    {
+      "id": "AF_DONT_EXIT_ON_DEATH",
+      "name": "Don't Exit On Death",
+      "value": 8388608,
+      "bit": 23
+    },
+    {
+      "id": "AF_ABORT_ON_WEAPON_DAMAGE",
+      "name": "Abort On Weapon Damage",
+      "value": 16777216,
+      "bit": 24
+    },
+    {
+      "id": "AF_DISABLE_FORCED_PHYSICS_UPDATE",
+      "name": "Disable Forced Physics Update",
+      "value": 33554432,
+      "bit": 25
+    },
+    {
+      "id": "AF_PROCESS_ATTACHMENTS_ON_START",
+      "name": "Process Attachments On Start",
+      "value": 67108864,
+      "bit": 26
+    },
+    {
+      "id": "AF_EXPAND_PED_CAPSULE_FROM_SKELETON",
+      "name": "Expand Ped Capsule From Skeleton",
+      "value": 134217728,
+      "bit": 27
+    },
+    {
+      "id": "AF_USE_ALTERNATIVE_FP_ANIM",
+      "name": "Use Alternative First-Person Anim",
+      "value": 268435456,
+      "bit": 28
+    },
+    {
+      "id": "AF_BLENDOUT_WRT_LAST_FRAME",
+      "name": "Blend Out w.r.t. Last Frame",
+      "value": 536870912,
+      "bit": 29
+    },
+    {
+      "id": "AF_USE_FULL_BLENDING",
+      "name": "Use Full Blending",
+      "value": 1073741824,
+      "bit": 30
+    }
+  ],
+  "presets": [
+    {
+      "name": "Normal Playback",
+      "value": 0,
+      "flags": []
+    },
+    {
+      "name": "Infinite Loop Playback",
+      "value": 1,
+      "flags": [
+        "AF_LOOPING"
+      ]
+    },
+    {
+      "name": "Freeze At Last Frame Playback",
+      "value": 2,
+      "flags": [
+        "AF_HOLD_LAST_FRAME"
+      ]
+    },
+    {
+      "name": "Upper Body Standard Playback",
+      "value": 16,
+      "flags": [
+        "AF_UPPERBODY"
+      ]
+    },
+    {
+      "name": "Upper Body Looping Playback",
+      "value": 17,
+      "flags": [
+        "AF_UPPERBODY",
+        "AF_LOOPING"
+      ]
+    },
+    {
+      "name": "Upper Body Last Frame Playback",
+      "value": 18,
+      "flags": [
+        "AF_UPPERBODY",
+        "AF_HOLD_LAST_FRAME"
+      ]
+    },
+    {
+      "name": "Secondary Task Standard Playback",
+      "value": 32,
+      "flags": [
+        "AF_SECONDARY"
+      ]
+    },
+    {
+      "name": "Secondary Task Looping Playback",
+      "value": 33,
+      "flags": [
+        "AF_SECONDARY",
+        "AF_LOOPING"
+      ]
+    },
+    {
+      "name": "Secondary Task Last Frame Playback",
+      "value": 34,
+      "flags": [
+        "AF_SECONDARY",
+        "AF_HOLD_LAST_FRAME"
+      ]
+    },
+    {
+      "name": "Full Body Controllable",
+      "value": 48,
+      "flags": [
+        "AF_SECONDARY",
+        "AF_UPPERBODY"
+      ]
+    },
+    {
+      "name": "Upper Body Controllable",
+      "value": 49,
+      "flags": [
+        "AF_SECONDARY",
+        "AF_UPPERBODY",
+        "AF_LOOPING"
+      ]
+    },
+    {
+      "name": "Upper Body Last Frame Controllable",
+      "value": 50,
+      "flags": [
+        "AF_SECONDARY",
+        "AF_UPPERBODY",
+        "AF_HOLD_LAST_FRAME"
+      ]
+    },
+    {
+      "name": "Cancelable Animation",
+      "value": 130,
+      "flags": [
+        "AF_ABORT_ON_PED_MOVEMENT",
+        "AF_HOLD_LAST_FRAME"
+      ]
+    }
+  ]
+}

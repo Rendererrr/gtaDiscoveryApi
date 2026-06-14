@@ -3,7 +3,7 @@
 A **static JSON API** for GTA 5 / FiveM game assets, served straight from the [jsDelivr](https://www.jsdelivr.com/) CDN — no server, no rate limits, free hosting on GitHub.
 
 The API is split into **domains** — **clothing**, **peds**, **vehicles**, **weapons**, **objects**, **explosions**, **particles**, **animations**, **pedbones**, **vehiclebones**, **scenarios**, **vehicleweapons**, **walkstyles**,
-**weaponcarrystyles**, and **aimstyles** (see the table below). More slot in alongside without disturbing the existing endpoints.
+**weaponcarrystyles**, **aimstyles**, and **animflags** (see the table below). More slot in alongside without disturbing the existing endpoints.
 
 ```
 api/index.json                 # discovery root — lists every domain
@@ -34,6 +34,7 @@ There are two domain shapes:
 | walkstyles | Ped walk styles / movement clipsets (96) with joaat hashes | [`api/walkstyles/index.json`](./api/walkstyles/index.json) |
 | weaponcarrystyles | Weapon carry/holding clipsets (15) with joaat hashes | [`api/weaponcarrystyles/index.json`](./api/weaponcarrystyles/index.json) |
 | aimstyles | Weapon aim/strafe styles (9) with joaat hashes | [`api/aimstyles/index.json`](./api/aimstyles/index.json) |
+| animflags | Scripted anim flags (31 bit flags + 13 presets) | [`api/animflags/index.json`](./api/animflags/index.json) |
 
 Read the discovery root to enumerate what's available:
 
@@ -811,6 +812,38 @@ await aimstyles.getItems();                           // all 9 aim styles
 
 ---
 
+## Animation flags domain
+
+The GTA **scripted animation flags** (`eScriptedAnimFlags`) used as the `flags` bitmask for
+`TASK_PLAY_ANIM` and friends. Unlike the other domains this is **not** a name catalog — it's two
+lists in one `index.json`, with **no joaat hash, no images, no categories**:
+
+- **`flags`** — the **31** individual bit flags: `{ id: "AF_LOOPING", name: "Looping", value: 1, bit: 0 }`.
+- **`presets`** — **13** curated friendly combinations; each `value` is the **bitwise OR of its
+  member flags, computed at build** (not trusted from source): `{ name: "Cancelable Animation",
+  value: 130, flags: ["AF_ABORT_ON_PED_MOVEMENT", "AF_HOLD_LAST_FRAME"] }`.
+
+```jsonc
+// GET api/animflags/index.json
+{ "flagCount": 31, "presetCount": 13,
+  "flags":   [ { "id": "AF_UPPERBODY", "name": "Upper Body", "value": 16, "bit": 4 }, … ],
+  "presets": [ { "name": "Full Body Controllable", "value": 48,
+                 "flags": ["AF_SECONDARY", "AF_UPPERBODY"] }, … ] }
+```
+
+The client adds helpers to build and decode bitmask values:
+
+```js
+import animflags from 'https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/client/animflags.js';
+await animflags.getFlags();                              // the 31 AF_* flags
+await animflags.getPresets();                            // the 13 named presets
+await animflags.combine('AF_UPPERBODY', 'AF_LOOPING');   // -> 17  (OR by id)
+await animflags.decode(48);                              // -> [Upper Body, Secondary]
+await animflags.valueForPreset('Cancelable Animation');  // -> 130
+```
+
+---
+
 ## Repository layout
 
 ```
@@ -843,6 +876,7 @@ src/
                                #   walkstyles.json (ped walk styles: id (clipset) + name, no categories)
                                #   weaponcarrystyles.json (weapon carry clipsets: id + name, no categories)
                                #   aimstyles.json (weapon aim styles: id + name, no categories)
+                               #   animflags.json (eScriptedAnimFlags: 31 bit flags + 13 presets)
   lib/fs.mjs                   # shared fs helpers (folder-derived domains)
   lib/joaat.mjs                # GTA joaat hash
   lib/catalog.mjs              # shared writer for flat domains (+ slugify, groupings)
@@ -862,6 +896,7 @@ src/
   build/walkstyles.mjs         # walk styles builder (joaat hashes, no categories)
   build/weaponcarrystyles.mjs  # weapon carry styles builder (joaat hashes, no categories)
   build/aimstyles.mjs          # aim styles builder (joaat hashes, no categories)
+  build/animflags.mjs          # anim flags builder (bit flags + computed presets)
 client/
   index.js                     # discovery + namespaced domain helpers
   clothing.js                  # clothing helpers
@@ -876,6 +911,7 @@ client/
   walkstyles.js                # walk styles helpers (byId/byHash/search)
   weaponcarrystyles.js         # weapon carry styles helpers (byId/byHash/search)
   aimstyles.js                 # aim styles helpers (byId/byHash/search)
+  animflags.js                 # anim flags helpers (getFlags/getPresets/combine/decode)
   _flat.js                     # shared flat-domain client factory
   peds.js  vehicles.js  weapons.js
 ```
@@ -968,3 +1004,4 @@ Existing domains and their URLs are unaffected.
 - Vehicle-weapon archetype hashes from a community `g_weaponVehicleList` (authoritative joaat hashes), with raw `VEHICLE_WEAPON_*` ids recovered via joaat; categorized with friendly names in `src/data/vehicleweapons.json`.
 - Ped walk-style (movement clipset) list from a community `g_walkStyles` (display name + clipset id), with friendly names in `src/data/walkstyles.json` (`hash = joaat(id)`).
 - Weapon carry-style and aim-style lists from community `g_weaponCarryStyleList` / `g_aimStyleList` (display name + clipset/style id), in `src/data/weaponcarrystyles.json` and `src/data/aimstyles.json` (`hash = joaat(id)`).
+- Animation flags from the `eScriptedAnimFlags` enum + community `g_animationFlagList` (curated presets), in `src/data/animflags.json` (preset values computed as the bitwise OR of member flags).

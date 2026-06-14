@@ -21,6 +21,7 @@ import vehicleweapons from './vehicleweapons.js';
 import walkstyles from './walkstyles.js';
 import weaponcarrystyles from './weaponcarrystyles.js';
 import aimstyles from './aimstyles.js';
+import animflags from './animflags.js';
 
 // Self-locating: resolve the API root relative to this module's own URL, so it
 // works wherever it's served from (jsDelivr, GitHub Pages, or a custom host).
@@ -65,6 +66,6 @@ export async function byHash(hash) {
   return (await getHashes())[String(hash)] ?? null;
 }
 
-export { clothing, peds, vehicles, weapons, objects, explosions, particles, animations, pedbones, vehiclebones, scenarios, vehicleweapons, walkstyles, weaponcarrystyles, aimstyles };
+export { clothing, peds, vehicles, weapons, objects, explosions, particles, animations, pedbones, vehiclebones, scenarios, vehicleweapons, walkstyles, weaponcarrystyles, aimstyles, animflags };
 
-export default { getDomains, search, getHashes, byHash, clothing, peds, vehicles, weapons, objects, explosions, particles, animations, pedbones, vehiclebones, scenarios, vehicleweapons, walkstyles, weaponcarrystyles, aimstyles };
+export default { getDomains, search, getHashes, byHash, clothing, peds, vehicles, weapons, objects, explosions, particles, animations, pedbones, vehiclebones, scenarios, vehicleweapons, walkstyles, weaponcarrystyles, aimstyles, animflags };
