@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "aimstyles",
+    "label": "Aim Styles",
+    "note": "Weapon aim/strafe animation styles for SET_WEAPON_ANIMATION_OVERRIDE (the game resolves the style by hash). id = the style string; hash = joaat(id). Friendly display names, no categories, no images. Reverse hash -> { id, name } in hashes.json."
+  },
+  "count": 9,
+  "hashes": {
+    "672234530": {
+      "id": "FirstPersonScope",
+      "name": "First Person Scope"
+    },
+    "1737154434": {
+      "id": "GangFemale",
+      "name": "Gangster Female"
+    },
+    "1830115867": {
+      "id": "Female",
+      "name": "Female"
+    },
+    "1917483703": {
+      "id": "Gang1H",
+      "name": "Gangster"
+    },
+    "2231620617": {
+      "id": "Hillbilly",
+      "name": "Cowboy"
+    },
+    "2768098824": {
+      "id": "FirstPersonRNG",
+      "name": "First Person RNG"
+    },
+    "3345127331": {
+      "id": "FirstPersonAiming",
+      "name": "First Person Aiming"
+    },
+    "3839837909": {
+      "id": "Default",
+      "name": "Default"
+    },
+    "3996707040": {
+      "id": "FirstPerson",
+      "name": "First Person"
+    }
+  }
+}

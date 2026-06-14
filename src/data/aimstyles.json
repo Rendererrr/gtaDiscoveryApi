@@ -1,0 +1,15 @@
+{
+  "note": "GTA weapon aim/strafe animation styles for SET_WEAPON_ANIMATION_OVERRIDE (the game resolves the style by hash). id = the style string; name = friendly display name; hash = joaat(id) (computed at build). No categories, no images.",
+  "source": "Community g_aimStyleList (display name + style id).",
+  "aimstyles": [
+    { "id": "Default", "name": "Default" },
+    { "id": "Gang1H", "name": "Gangster" },
+    { "id": "GangFemale", "name": "Gangster Female" },
+    { "id": "Hillbilly", "name": "Cowboy" },
+    { "id": "FirstPerson", "name": "First Person" },
+    { "id": "FirstPersonAiming", "name": "First Person Aiming" },
+    { "id": "FirstPersonScope", "name": "First Person Scope" },
+    { "id": "FirstPersonRNG", "name": "First Person RNG" },
+    { "id": "Female", "name": "Female" }
+  ]
+}

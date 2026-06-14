@@ -1,0 +1,21 @@
+{
+  "note": "GTA ped weapon carry/holding clipsets for SET_PED_WEAPON_MOVEMENT_CLIPSET (load with REQUEST_CLIP_SET first). id = the clipset string; name = friendly display name; hash = joaat(id) (computed at build) for reverse lookup. No categories, no images.",
+  "source": "Community g_weaponCarryStyleList (display name + clipset id).",
+  "weaponcarrystyles": [
+    { "id": "Default", "name": "Default" },
+    { "id": "move_lester_CaneUp", "name": "Lester's Cane" },
+    { "id": "move_ped_crouched", "name": "Crouched" },
+    { "id": "move_ped_wpn_bucket", "name": "Bucket" },
+    { "id": "move_ped_wpn_mop", "name": "Mop" },
+    { "id": "Wpn_AssaultRifle_WeaponHoldingCrouched", "name": "Assault Rifle (Crouched)" },
+    { "id": "missfbi4prepp1_garbageman", "name": "Garbageman" },
+    { "id": "move_ped_wpn_jerrycan_generic", "name": "Jerrycan (Generic)" },
+    { "id": "move_m@golfer@", "name": "Golfer" },
+    { "id": "MOVE_P_M_ZERO_RUCKSACK", "name": "Rucksack" },
+    { "id": "MOVE_M@CLIPBOARD", "name": "Clipboard" },
+    { "id": "weapons@tennis@male", "name": "Tennis (Male)" },
+    { "id": "TENNIS_LOCOMOTION_FEMALE", "name": "Tennis Locomotion (Female)" },
+    { "id": "RCM_Paparazzo", "name": "Paparazzo" },
+    { "id": "MOVE_M@LEAF_BLOWER", "name": "Leaf Blower" }
+  ]
+}

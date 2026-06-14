@@ -2,7 +2,8 @@
 
 A **static JSON API** for GTA 5 / FiveM game assets, served straight from the [jsDelivr](https://www.jsdelivr.com/) CDN — no server, no rate limits, free hosting on GitHub.
 
-The API is split into **domains** — **clothing**, **peds**, **vehicles**, **weapons**, **objects**, **explosions**, **particles**, **animations**, **pedbones**, **vehiclebones**, **scenarios**, **vehicleweapons**, and **walkstyles** (see the table below). More slot in alongside without disturbing the existing endpoints.
+The API is split into **domains** — **clothing**, **peds**, **vehicles**, **weapons**, **objects**, **explosions**, **particles**, **animations**, **pedbones**, **vehiclebones**, **scenarios**, **vehicleweapons**, **walkstyles**,
+**weaponcarrystyles**, and **aimstyles** (see the table below). More slot in alongside without disturbing the existing endpoints.
 
 ```
 api/index.json                 # discovery root — lists every domain
@@ -31,6 +32,8 @@ There are two domain shapes:
 | scenarios | Ped/world scenarios (247, 9 categories) with joaat hashes | [`api/scenarios/index.json`](./api/scenarios/index.json) |
 | vehicleweapons | Vehicle weapons (150, 8 categories) with archetype hashes | [`api/vehicleweapons/index.json`](./api/vehicleweapons/index.json) |
 | walkstyles | Ped walk styles / movement clipsets (96) with joaat hashes | [`api/walkstyles/index.json`](./api/walkstyles/index.json) |
+| weaponcarrystyles | Weapon carry/holding clipsets (15) with joaat hashes | [`api/weaponcarrystyles/index.json`](./api/weaponcarrystyles/index.json) |
+| aimstyles | Weapon aim/strafe styles (9) with joaat hashes | [`api/aimstyles/index.json`](./api/aimstyles/index.json) |
 
 Read the discovery root to enumerate what's available:
 
@@ -387,8 +390,9 @@ await discovery.byHash(3078201489);        // { domain: 'vehicles', id: 'adder',
 
 The reverse map covers every domain that carries a `hash` — peds 848, vehicles 861, weapons 104,
 objects 21,634, explosions 88, vehiclebones 449, scenarios 247, vehicleweapons 150,
-walkstyles 96 — for a combined `api/hashes.json` of ~24.5k entries (particles/animations have no
-joaat hash, and pedbones use a separate `boneId` map). Going the other way (name → hash) is already in the
+walkstyles 96, weaponcarrystyles 15, aimstyles 9 — for a combined `api/hashes.json` of ~24.5k
+entries (a few clipsets are shared across the style domains and collapse in the combined map;
+particles/animations have no joaat hash, and pedbones use a separate `boneId` map). Going the other way (name → hash) is already in the
 catalog: every item carries its own `hash`.
 
 ### List by category or DLC (static endpoints)
@@ -777,6 +781,36 @@ await walkstyles.search('drunk');                   // fuzzy over names + clipse
 
 ---
 
+## Weapon carry styles & aim styles
+
+Two more flat, category-less style domains shaped exactly like `walkstyles` (friendly name +
+`id` + `hash = joaat(id)`, `index.json` + `hashes.json`, no `by-category`, no images):
+
+- **`weaponcarrystyles`** — 15 weapon carry/holding clipsets for `SET_PED_WEAPON_MOVEMENT_CLIPSET`
+  (load with `REQUEST_CLIP_SET`). e.g. Bucket, Mop, Golfer, Rucksack, Tennis.
+- **`aimstyles`** — 9 weapon aim/strafe styles for `SET_WEAPON_ANIMATION_OVERRIDE` (resolved by
+  hash). e.g. Gangster (`Gang1H`), Cowboy (`Hillbilly`), First Person Aiming.
+
+```jsonc
+// GET api/weaponcarrystyles/index.json -> items[]
+{ "id": "move_ped_wpn_bucket", "name": "Bucket", "hash": 3984887123 }
+// GET api/aimstyles/index.json -> items[]
+{ "id": "Gang1H", "name": "Gangster", "hash": 1917483703 }
+```
+```js
+import weaponcarrystyles from 'https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/client/weaponcarrystyles.js';
+import aimstyles from 'https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/client/aimstyles.js';
+await weaponcarrystyles.byId('move_ped_wpn_bucket');  // { name:'Bucket', hash }
+await aimstyles.byHash(1917483703);                   // reverse → { id:'Gang1H', name:'Gangster' }
+await aimstyles.getItems();                           // all 9 aim styles
+```
+
+> Some clipsets overlap with `walkstyles` (e.g. Clipboard, Leaf Blower, Lester's Cane, and the
+> `Default` placeholder), so the combined `api/hashes.json` collapses those shared hashes — the
+> per-domain catalogs keep every entry.
+
+---
+
 ## Repository layout
 
 ```
@@ -807,6 +841,8 @@ src/
                                #   scenarios.json (ped/world scenarios: name + category, 9 cats)
                                #   vehicleweapons.json (vehicle weapons: id + name + hash + category)
                                #   walkstyles.json (ped walk styles: id (clipset) + name, no categories)
+                               #   weaponcarrystyles.json (weapon carry clipsets: id + name, no categories)
+                               #   aimstyles.json (weapon aim styles: id + name, no categories)
   lib/fs.mjs                   # shared fs helpers (folder-derived domains)
   lib/joaat.mjs                # GTA joaat hash
   lib/catalog.mjs              # shared writer for flat domains (+ slugify, groupings)
@@ -824,6 +860,8 @@ src/
   build/scenarios.mjs          # scenarios builder (joaat hashes)
   build/vehicleweapons.mjs     # vehicle weapons builder (authoritative archetype hashes)
   build/walkstyles.mjs         # walk styles builder (joaat hashes, no categories)
+  build/weaponcarrystyles.mjs  # weapon carry styles builder (joaat hashes, no categories)
+  build/aimstyles.mjs          # aim styles builder (joaat hashes, no categories)
 client/
   index.js                     # discovery + namespaced domain helpers
   clothing.js                  # clothing helpers
@@ -836,6 +874,8 @@ client/
   scenarios.js                 # scenarios helpers (byCategory/byHash)
   vehicleweapons.js            # vehicle weapons helpers (byCategory/byHash)
   walkstyles.js                # walk styles helpers (byId/byHash/search)
+  weaponcarrystyles.js         # weapon carry styles helpers (byId/byHash/search)
+  aimstyles.js                 # aim styles helpers (byId/byHash/search)
   _flat.js                     # shared flat-domain client factory
   peds.js  vehicles.js  weapons.js
 ```
@@ -927,3 +967,4 @@ Existing domains and their URLs are unaffected.
 - Ped/world scenario list from [MyHwu9508/PlayVFreeroam `scenariosCompact.json`](https://github.com/MyHwu9508/PlayVFreeroam/blob/main/resources/assets/dump/scenariosCompact.json), categorized with friendly names in `src/data/scenarios.json` (`hash = joaat(id)`).
 - Vehicle-weapon archetype hashes from a community `g_weaponVehicleList` (authoritative joaat hashes), with raw `VEHICLE_WEAPON_*` ids recovered via joaat; categorized with friendly names in `src/data/vehicleweapons.json`.
 - Ped walk-style (movement clipset) list from a community `g_walkStyles` (display name + clipset id), with friendly names in `src/data/walkstyles.json` (`hash = joaat(id)`).
+- Weapon carry-style and aim-style lists from community `g_weaponCarryStyleList` / `g_aimStyleList` (display name + clipset/style id), in `src/data/weaponcarrystyles.json` and `src/data/aimstyles.json` (`hash = joaat(id)`).
