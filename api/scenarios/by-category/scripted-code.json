@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "scenarios",
+    "label": "Scenarios",
+    "urlPattern": null,
+    "note": "GTA ped/world scenarios (TASK_START_SCENARIO_IN_PLACE / _AT_POSITION). id = the scenario string; hash = joaat(id). No images. category groups under by-category/; reverse hash -> { id, name, category } in hashes.json."
+  },
+  "group": {
+    "name": "Scripted (Code)",
+    "key": "Scripted (Code)",
+    "slug": "scripted-code",
+    "count": 9
+  },
+  "count": 9,
+  "items": [
+    {
+      "id": "CODE_HUMAN_COWER",
+      "name": "Cower",
+      "hash": 3582768400,
+      "category": "Scripted (Code)"
+    },
+    {
+      "id": "CODE_HUMAN_CROSS_ROAD_WAIT",
+      "name": "Wait to Cross Road",
+      "hash": 4284629495,
+      "category": "Scripted (Code)"
+    },
+    {
+      "id": "CODE_HUMAN_PARK_CAR",
+      "name": "Park Car",
+      "hash": 2496952501,
+      "category": "Scripted (Code)"
+    },
+    {
+      "id": "CODE_HUMAN_MEDIC_KNEEL",
+      "name": "Medic Kneeling",
+      "hash": 2785385002,
+      "category": "Scripted (Code)"
+    },
+    {
+      "id": "CODE_HUMAN_MEDIC_TEND_TO_DEAD",
+      "name": "Medic Tending to Dead",
+      "hash": 1059993967,
+      "category": "Scripted (Code)"
+    },
+    {
+      "id": "CODE_HUMAN_MEDIC_TIME_OF_DEATH",
+      "name": "Medic Calling Time of Death",
+      "hash": 946430330,
+      "category": "Scripted (Code)"
+    },
+    {
+      "id": "CODE_HUMAN_POLICE_CROWD_CONTROL",
+      "name": "Police Crowd Control",
+      "hash": 3024060858,
+      "category": "Scripted (Code)"
+    },
+    {
+      "id": "CODE_HUMAN_POLICE_INVESTIGATE",
+      "name": "Police Investigating",
+      "hash": 3257230624,
+      "category": "Scripted (Code)"
+    },
+    {
+      "id": "CODE_HUMAN_STAND_COWER",
+      "name": "Cower (Standing)",
+      "hash": 370487498,
+      "category": "Scripted (Code)"
+    }
+  ]
+}

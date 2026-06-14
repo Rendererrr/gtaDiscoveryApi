@@ -1,0 +1,1534 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "scenarios",
+    "label": "Scenarios",
+    "urlPattern": null,
+    "note": "GTA ped/world scenarios (TASK_START_SCENARIO_IN_PLACE / _AT_POSITION). id = the scenario string; hash = joaat(id). No images. category groups under by-category/; reverse hash -> { id, name, category } in hashes.json."
+  },
+  "categories": [
+    {
+      "name": "Vehicles",
+      "count": 51
+    },
+    {
+      "name": "Animals & Wildlife",
+      "count": 46
+    },
+    {
+      "name": "Human – Idle & Leisure",
+      "count": 46
+    },
+    {
+      "name": "Seating & Props",
+      "count": 37
+    },
+    {
+      "name": "Human – Work & Services",
+      "count": 24
+    },
+    {
+      "name": "Human – Sport & Fitness",
+      "count": 14
+    },
+    {
+      "name": "Human – Criminal & Lowlife",
+      "count": 12
+    },
+    {
+      "name": "Scripted (Code)",
+      "count": 9
+    },
+    {
+      "name": "Movement & Misc",
+      "count": 8
+    }
+  ],
+  "count": 247,
+  "items": [
+    {
+      "id": "Standing",
+      "name": "Standing",
+      "hash": 465284456,
+      "category": "Movement & Misc"
+    },
+    {
+      "id": "WORLD_HUMAN_AA_COFFEE",
+      "name": "Drink Coffee",
+      "hash": 131988379,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_AA_SMOKE",
+      "name": "Smoke",
+      "hash": 2210792888,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_BINOCULARS",
+      "name": "Use Binoculars",
+      "hash": 2523133767,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_BUM_FREEWAY",
+      "name": "Bum on Freeway",
+      "hash": 3453903424,
+      "category": "Human – Criminal & Lowlife"
+    },
+    {
+      "id": "WORLD_HUMAN_BUM_SLUMPED",
+      "name": "Bum Slumped",
+      "hash": 1570717323,
+      "category": "Human – Criminal & Lowlife"
+    },
+    {
+      "id": "WORLD_HUMAN_BUM_STANDING",
+      "name": "Bum Standing",
+      "hash": 217797966,
+      "category": "Human – Criminal & Lowlife"
+    },
+    {
+      "id": "WORLD_HUMAN_BUM_WASH",
+      "name": "Bum Washing",
+      "hash": 3466905982,
+      "category": "Human – Criminal & Lowlife"
+    },
+    {
+      "id": "WORLD_HUMAN_CAR_PARK_ATTENDANT",
+      "name": "Car Park Attendant",
+      "hash": 623820322,
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_CHEERING",
+      "name": "Cheering",
+      "hash": 1754180134,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_CLIPBOARD",
+      "name": "Clipboard",
+      "hash": 1750783925,
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_CLIPBOARD_FACILITY",
+      "name": "Clipboard (Facility)",
+      "hash": 2149146401,
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_CONST_DRILL",
+      "name": "Jackhammer Drilling",
+      "hash": 3944039370,
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_COP_IDLES",
+      "name": "Cop Idle",
+      "hash": 1921381489,
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_DRINKING",
+      "name": "Drinking",
+      "hash": 3172588197,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_DRINKING_FACILITY",
+      "name": "Drinking (Facility)",
+      "hash": 2275685351,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_DRINKING_CASINO_TERRACE",
+      "name": "Drinking (Casino Terrace)",
+      "hash": 1465428713,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_DRUG_DEALER",
+      "name": "Drug Dealer",
+      "hash": 2394436759,
+      "category": "Human – Criminal & Lowlife"
+    },
+    {
+      "id": "WORLD_HUMAN_DRUG_DEALER_HARD",
+      "name": "Drug Dealer (Hardened)",
+      "hash": 2189054818,
+      "category": "Human – Criminal & Lowlife"
+    },
+    {
+      "id": "WORLD_HUMAN_DRUG_FIELD_WORKERS_RAKE",
+      "name": "Drug Field Worker (Raking)",
+      "hash": 1692705117,
+      "category": "Human – Criminal & Lowlife"
+    },
+    {
+      "id": "WORLD_HUMAN_DRUG_FIELD_WORKERS_WEEDING",
+      "name": "Drug Field Worker (Weeding)",
+      "hash": 789388216,
+      "category": "Human – Criminal & Lowlife"
+    },
+    {
+      "id": "WORLD_HUMAN_DRUG_PROCESSORS_COKE",
+      "name": "Drug Processor (Cocaine)",
+      "hash": 2401007769,
+      "category": "Human – Criminal & Lowlife"
+    },
+    {
+      "id": "WORLD_HUMAN_DRUG_PROCESSORS_WEED",
+      "name": "Drug Processor (Weed)",
+      "hash": 1213954147,
+      "category": "Human – Criminal & Lowlife"
+    },
+    {
+      "id": "WORLD_HUMAN_MOBILE_FILM_SHOCKING",
+      "name": "Film Shocking Event on Phone",
+      "hash": 2691996598,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_GARDENER_LEAF_BLOWER",
+      "name": "Gardener with Leaf Blower",
+      "hash": 812884877,
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_GARDENER_PLANT",
+      "name": "Gardener Planting",
+      "hash": 2305292851,
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_GOLF_PLAYER",
+      "name": "Golf Player",
+      "hash": 3227490705,
+      "category": "Human – Sport & Fitness"
+    },
+    {
+      "id": "WORLD_HUMAN_GUARD_PATROL",
+      "name": "Guard Patrol",
+      "hash": 572982893,
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_GUARD_STAND",
+      "name": "Guard Standing",
+      "hash": 2436127569,
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_GUARD_STAND_CASINO",
+      "name": "Guard Standing (Casino)",
+      "hash": 1774049800,
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_GUARD_STAND_CLUBHOUSE",
+      "name": "Guard Standing (Clubhouse)",
+      "hash": 381058111,
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_GUARD_STAND_FACILITY",
+      "name": "Guard Standing (Facility)",
+      "hash": 2086109956,
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_GUARD_STAND_ARMY",
+      "name": "Guard Standing (Army)",
+      "hash": 1851466521,
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_HAMMERING",
+      "name": "Hammering",
+      "hash": 2748095552,
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_HANG_OUT_STREET",
+      "name": "Hang Out on Street",
+      "hash": 3052365559,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_HANG_OUT_STREET_CLUBHOUSE",
+      "name": "Hang Out on Street (Clubhouse)",
+      "hash": 1050030161,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_HIKER",
+      "name": "Hiker",
+      "hash": 2882434298,
+      "category": "Human – Sport & Fitness"
+    },
+    {
+      "id": "WORLD_HUMAN_HIKER_STANDING",
+      "name": "Hiker (Standing)",
+      "hash": 567243156,
+      "category": "Human – Sport & Fitness"
+    },
+    {
+      "id": "WORLD_HUMAN_HUMAN_STATUE",
+      "name": "Human Statue",
+      "hash": 1765467669,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_INSPECT_CROUCH",
+      "name": "Inspect (Crouching)",
+      "hash": 1080489585,
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_INSPECT_STAND",
+      "name": "Inspect (Standing)",
+      "hash": 2732830880,
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_JANITOR",
+      "name": "Janitor",
+      "hash": 434544781,
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_JOG",
+      "name": "Jogging",
+      "hash": 2081610326,
+      "category": "Human – Sport & Fitness"
+    },
+    {
+      "id": "WORLD_HUMAN_JOG_STANDING",
+      "name": "Jogging (Standing)",
+      "hash": 1672201218,
+      "category": "Human – Sport & Fitness"
+    },
+    {
+      "id": "WORLD_HUMAN_LEANING",
+      "name": "Leaning",
+      "hash": 487808164,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_LEANING_CASINO_TERRACE",
+      "name": "Leaning (Casino Terrace)",
+      "hash": 2293179228,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_MAID_CLEAN",
+      "name": "Maid Cleaning",
+      "hash": 4096255280,
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_MUSCLE_FLEX",
+      "name": "Muscle Flex",
+      "hash": 3429765035,
+      "category": "Human – Sport & Fitness"
+    },
+    {
+      "id": "WORLD_HUMAN_MUSCLE_FREE_WEIGHTS",
+      "name": "Free Weights",
+      "hash": 1701404608,
+      "category": "Human – Sport & Fitness"
+    },
+    {
+      "id": "WORLD_HUMAN_MUSICIAN",
+      "name": "Musician",
+      "hash": 4066721291,
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_PAPARAZZI",
+      "name": "Paparazzi",
+      "hash": 794468154,
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_PARTYING",
+      "name": "Partying",
+      "hash": 2864702372,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_PICNIC",
+      "name": "Picnic",
+      "hash": 1656634622,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_POWER_WALKER",
+      "name": "Power Walking",
+      "hash": 53340871,
+      "category": "Human – Sport & Fitness"
+    },
+    {
+      "id": "WORLD_HUMAN_PROSTITUTE_HIGH_CLASS",
+      "name": "Prostitute (High Class)",
+      "hash": 389670299,
+      "category": "Human – Criminal & Lowlife"
+    },
+    {
+      "id": "WORLD_HUMAN_PROSTITUTE_LOW_CLASS",
+      "name": "Prostitute (Low Class)",
+      "hash": 56689690,
+      "category": "Human – Criminal & Lowlife"
+    },
+    {
+      "id": "WORLD_HUMAN_PUSH_UPS",
+      "name": "Push-Ups",
+      "hash": 2912765636,
+      "category": "Human – Sport & Fitness"
+    },
+    {
+      "id": "WORLD_HUMAN_SEAT_LEDGE",
+      "name": "Sit on Ledge",
+      "hash": 2410618148,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_SEAT_LEDGE_EATING",
+      "name": "Sit on Ledge (Eating)",
+      "hash": 3224559459,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_SEAT_STEPS",
+      "name": "Sit on Steps",
+      "hash": 3893394093,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_SEAT_WALL",
+      "name": "Sit on Wall",
+      "hash": 1064675022,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_SEAT_WALL_EATING",
+      "name": "Sit on Wall (Eating)",
+      "hash": 3384821071,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_SEAT_WALL_TABLET",
+      "name": "Sit on Wall (Tablet)",
+      "hash": 2053946020,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_SECURITY_SHINE_TORCH",
+      "name": "Security Shining Torch",
+      "hash": 3564861960,
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_SIT_UPS",
+      "name": "Sit-Ups",
+      "hash": 1558180893,
+      "category": "Human – Sport & Fitness"
+    },
+    {
+      "id": "WORLD_HUMAN_SMOKING",
+      "name": "Smoking",
+      "hash": 3439524292,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_SMOKING_CLUBHOUSE",
+      "name": "Smoking (Clubhouse)",
+      "hash": 912067729,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_SMOKING_POT",
+      "name": "Smoking Pot",
+      "hash": 4024822215,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_SMOKING_POT_CLUBHOUSE",
+      "name": "Smoking Pot (Clubhouse)",
+      "hash": 567073506,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_STAND_FIRE",
+      "name": "Stand by Fire",
+      "hash": 3693403784,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_STAND_FISHING",
+      "name": "Fishing",
+      "hash": 3968066111,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_STAND_IMPATIENT",
+      "name": "Stand Impatiently",
+      "hash": 3621334630,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_STAND_IMPATIENT_CLUBHOUSE",
+      "name": "Stand Impatiently (Clubhouse)",
+      "hash": 2666804016,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_STAND_IMPATIENT_FACILITY",
+      "name": "Stand Impatiently (Facility)",
+      "hash": 2894830094,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_STAND_IMPATIENT_UPRIGHT",
+      "name": "Stand Impatiently (Upright)",
+      "hash": 2704838122,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_STAND_IMPATIENT_UPRIGHT_FACILITY",
+      "name": "Stand Impatiently (Upright, Facility)",
+      "hash": 1954193809,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_STAND_MOBILE",
+      "name": "Stand Using Phone",
+      "hash": 3849622170,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_STAND_MOBILE_CLUBHOUSE",
+      "name": "Stand Using Phone (Clubhouse)",
+      "hash": 4117778603,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_STAND_MOBILE_FACILITY",
+      "name": "Stand Using Phone (Facility)",
+      "hash": 3391123811,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_STAND_MOBILE_UPRIGHT",
+      "name": "Stand Using Phone (Upright)",
+      "hash": 1905813107,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_STAND_MOBILE_UPRIGHT_CLUBHOUSE",
+      "name": "Stand Using Phone (Upright, Clubhouse)",
+      "hash": 672935772,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_STRIP_WATCH_STAND",
+      "name": "Watch Stripper (Standing)",
+      "hash": 581610171,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_STUPOR",
+      "name": "Drunken Stupor",
+      "hash": 594958240,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_STUPOR_CLUBHOUSE",
+      "name": "Drunken Stupor (Clubhouse)",
+      "hash": 1474516587,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_WINDOW_SHOP_BROWSE_SHOWROOM",
+      "name": "Window Shopping (Showroom)",
+      "hash": 3067261578,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_SUNBATHE",
+      "name": "Sunbathe",
+      "hash": 335183034,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_SUNBATHE_BACK",
+      "name": "Sunbathe on Back",
+      "hash": 3628049003,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_SUPERHERO",
+      "name": "Superhero Pose",
+      "hash": 2589609866,
+      "category": "Human – Sport & Fitness"
+    },
+    {
+      "id": "WORLD_HUMAN_SWIMMING",
+      "name": "Swimming",
+      "hash": 954192101,
+      "category": "Human – Sport & Fitness"
+    },
+    {
+      "id": "WORLD_HUMAN_TENNIS_PLAYER",
+      "name": "Tennis Player",
+      "hash": 1918705899,
+      "category": "Human – Sport & Fitness"
+    },
+    {
+      "id": "WORLD_HUMAN_TOURIST_MAP",
+      "name": "Tourist with Map",
+      "hash": 3872800786,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_TOURIST_MOBILE",
+      "name": "Tourist with Phone",
+      "hash": 458838386,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_VALET",
+      "name": "Valet",
+      "hash": 1090651625,
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_VEHICLE_MECHANIC",
+      "name": "Vehicle Mechanic",
+      "hash": 3033241456,
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_WELDING",
+      "name": "Welding",
+      "hash": 3788748007,
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_WINDOW_SHOP_BROWSE",
+      "name": "Window Shopping",
+      "hash": 3226045763,
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_YOGA",
+      "name": "Yoga",
+      "hash": 4163616077,
+      "category": "Human – Sport & Fitness"
+    },
+    {
+      "id": "Walk",
+      "name": "Walk",
+      "hash": 2203077788,
+      "category": "Movement & Misc"
+    },
+    {
+      "id": "Walk_Facility",
+      "name": "Walk (Facility)",
+      "hash": 156699782,
+      "category": "Movement & Misc"
+    },
+    {
+      "id": "WORLD_BOAR_GRAZING",
+      "name": "Boar Grazing",
+      "hash": 2755059911,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_CAT_SLEEPING_GROUND",
+      "name": "Cat Sleeping (Ground)",
+      "hash": 228686519,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_CAT_SLEEPING_LEDGE",
+      "name": "Cat Sleeping (Ledge)",
+      "hash": 2586513873,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_COW_GRAZING",
+      "name": "Cow Grazing",
+      "hash": 3532389778,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_COYOTE_HOWL",
+      "name": "Coyote Howling",
+      "hash": 1907604031,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_COYOTE_REST",
+      "name": "Coyote Resting",
+      "hash": 3584041064,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_COYOTE_WANDER",
+      "name": "Coyote Wandering",
+      "hash": 2611849148,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_COYOTE_WALK",
+      "name": "Coyote Walking",
+      "hash": 3602902460,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_CHICKENHAWK_FEEDING",
+      "name": "Chickenhawk Feeding",
+      "hash": 3184776920,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_CHICKENHAWK_STANDING",
+      "name": "Chickenhawk Standing",
+      "hash": 2077543376,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_CORMORANT_STANDING",
+      "name": "Cormorant Standing",
+      "hash": 544863931,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_CROW_FEEDING",
+      "name": "Crow Feeding",
+      "hash": 239175749,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_CROW_STANDING",
+      "name": "Crow Standing",
+      "hash": 3174932173,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_DEER_GRAZING",
+      "name": "Deer Grazing",
+      "hash": 1661747184,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_DOG_BARKING_ROTTWEILER",
+      "name": "Dog Barking (Rottweiler)",
+      "hash": 2842772291,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_DOG_BARKING_RETRIEVER",
+      "name": "Dog Barking (Retriever)",
+      "hash": 1435399751,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_DOG_BARKING_SHEPHERD",
+      "name": "Dog Barking (Shepherd)",
+      "hash": 2768384517,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_DOG_SITTING_ROTTWEILER",
+      "name": "Dog Sitting (Rottweiler)",
+      "hash": 4262116435,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_DOG_SITTING_RETRIEVER",
+      "name": "Dog Sitting (Retriever)",
+      "hash": 1301053282,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_DOG_SITTING_SHEPHERD",
+      "name": "Dog Sitting (Shepherd)",
+      "hash": 229135381,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_DOG_BARKING_SMALL",
+      "name": "Dog Barking (Small)",
+      "hash": 506976557,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_DOG_SITTING_SMALL",
+      "name": "Dog Sitting (Small)",
+      "hash": 3571728648,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_DOLPHIN_SWIM",
+      "name": "Dolphin Swimming",
+      "hash": 2576162876,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_FISH_FLEE",
+      "name": "Fish Fleeing",
+      "hash": 2516033877,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_FISH_IDLE",
+      "name": "Fish Idle",
+      "hash": 4204864505,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_GULL_FEEDING",
+      "name": "Gull Feeding",
+      "hash": 3739079136,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_GULL_STANDING",
+      "name": "Gull Standing",
+      "hash": 2160792256,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_HEN_FLEE",
+      "name": "Hen Fleeing",
+      "hash": 2646734964,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_HEN_PECKING",
+      "name": "Hen Pecking",
+      "hash": 2422347646,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_HEN_STANDING",
+      "name": "Hen Standing",
+      "hash": 153480259,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_MOUNTAIN_LION_REST",
+      "name": "Mountain Lion Resting",
+      "hash": 961553366,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_MOUNTAIN_LION_WANDER",
+      "name": "Mountain Lion Wandering",
+      "hash": 2586297444,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_ORCA_SWIM",
+      "name": "Orca Swimming",
+      "hash": 1723381360,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_PIG_GRAZING",
+      "name": "Pig Grazing",
+      "hash": 2825840540,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_PIGEON_FEEDING",
+      "name": "Pigeon Feeding",
+      "hash": 587561787,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_PIGEON_STANDING",
+      "name": "Pigeon Standing",
+      "hash": 369126356,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_RABBIT_EATING",
+      "name": "Rabbit Eating",
+      "hash": 720816470,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_RABBIT_FLEE",
+      "name": "Rabbit Fleeing",
+      "hash": 2748417676,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_RATS_EATING",
+      "name": "Rats Eating",
+      "hash": 1114651906,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_RATS_FLEEING",
+      "name": "Rats Fleeing",
+      "hash": 4121995029,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_SHARK_SWIM",
+      "name": "Shark Swimming",
+      "hash": 4036929850,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_SHARK_HAMMERHEAD_SWIM",
+      "name": "Hammerhead Shark Swimming",
+      "hash": 1236056674,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_STINGRAY_SWIM",
+      "name": "Stingray Swimming",
+      "hash": 2372332385,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_WHALE_SWIM",
+      "name": "Whale Swimming",
+      "hash": 3020427114,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "DRIVE",
+      "name": "Drive",
+      "hash": 1194480618,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_ATTRACTOR",
+      "name": "Vehicle Attractor",
+      "hash": 2914829975,
+      "category": "Vehicles"
+    },
+    {
+      "id": "PARK_VEHICLE",
+      "name": "Park Vehicle",
+      "hash": 232807271,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_AMBULANCE",
+      "name": "Ambulance",
+      "hash": 1713238370,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_BICYCLE_BMX",
+      "name": "BMX Cyclist",
+      "hash": 292393074,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_BICYCLE_BMX_BALLAS",
+      "name": "BMX Cyclist (Ballas)",
+      "hash": 3814752770,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_BICYCLE_BMX_FAMILY",
+      "name": "BMX Cyclist (Families)",
+      "hash": 884857936,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_BICYCLE_BMX_HARMONY",
+      "name": "BMX Cyclist (Harmony)",
+      "hash": 3887031864,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_BICYCLE_BMX_VAGOS",
+      "name": "BMX Cyclist (Vagos)",
+      "hash": 4100454503,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_BICYCLE_MOUNTAIN",
+      "name": "Mountain Bike Cyclist",
+      "hash": 1462666811,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_BICYCLE_ROAD",
+      "name": "Road Cyclist",
+      "hash": 2073212006,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_BIKE_OFF_ROAD_RACE",
+      "name": "Off-Road Bike Race",
+      "hash": 2546963918,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_BIKER",
+      "name": "Biker",
+      "hash": 102531748,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_BOAT_IDLE",
+      "name": "Boat Idle",
+      "hash": 1475249246,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_BOAT_IDLE_ALAMO",
+      "name": "Boat Idle (Alamo Sea)",
+      "hash": 3878513149,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_BOAT_IDLE_MARQUIS",
+      "name": "Boat Idle (Marquis)",
+      "hash": 255379441,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_BROKEN_DOWN",
+      "name": "Broken Down Vehicle",
+      "hash": 59461559,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_BUSINESSMEN",
+      "name": "Businessmen in Vehicle",
+      "hash": 3895968907,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_HELI_LIFEGUARD",
+      "name": "Lifeguard Helicopter",
+      "hash": 941265413,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_CLUCKIN_BELL_TRAILER",
+      "name": "Cluckin' Bell Trailer",
+      "hash": 1199465938,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_CONSTRUCTION_SOLO",
+      "name": "Construction Vehicle (Solo)",
+      "hash": 1935795091,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_CONSTRUCTION_PASSENGERS",
+      "name": "Construction Vehicle (Passengers)",
+      "hash": 3991562789,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_DRIVE_PASSENGERS",
+      "name": "Driving with Passengers",
+      "hash": 3225537718,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_DRIVE_PASSENGERS_LIMITED",
+      "name": "Driving with Passengers (Limited)",
+      "hash": 3509044316,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_DRIVE_SOLO",
+      "name": "Driving Solo",
+      "hash": 2663933431,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_FARM_WORKER",
+      "name": "Farm Worker Vehicle",
+      "hash": 3542173079,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_FIRE_TRUCK",
+      "name": "Fire Truck",
+      "hash": 1684506009,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_EMPTY",
+      "name": "Empty Vehicle",
+      "hash": 3248579036,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_MARIACHI",
+      "name": "Mariachi Vehicle",
+      "hash": 1850611218,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_MECHANIC",
+      "name": "Mechanic Vehicle",
+      "hash": 2486802963,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_MILITARY_PLANES_BIG",
+      "name": "Military Plane (Large)",
+      "hash": 1296596187,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_MILITARY_PLANES_SMALL",
+      "name": "Military Plane (Small)",
+      "hash": 3296164363,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_PARK_PARALLEL",
+      "name": "Park Parallel",
+      "hash": 393870430,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_PARK_PERPENDICULAR_NOSE_IN",
+      "name": "Park Perpendicular (Nose In)",
+      "hash": 1568538975,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_PASSENGER_EXIT",
+      "name": "Passenger Exit",
+      "hash": 2815543294,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_POLICE_BIKE",
+      "name": "Police Bike",
+      "hash": 1307671488,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_POLICE_CAR",
+      "name": "Police Car",
+      "hash": 482541356,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_POLICE_NEXT_TO_CAR",
+      "name": "Police Next to Car",
+      "hash": 1432955843,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_QUARRY",
+      "name": "Quarry Vehicle",
+      "hash": 2385769384,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_SALTON",
+      "name": "Salton Vehicle",
+      "hash": 2658340889,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_SALTON_DIRT_BIKE",
+      "name": "Salton Dirt Bike",
+      "hash": 760139110,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_SECURITY_CAR",
+      "name": "Security Car",
+      "hash": 3223749457,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_STREETRACE",
+      "name": "Street Race",
+      "hash": 859981182,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_TOURBUS",
+      "name": "Tour Bus",
+      "hash": 573857255,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_TOURIST",
+      "name": "Tourist Vehicle",
+      "hash": 1226384945,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_TANDL",
+      "name": "Tow & Lift Vehicle",
+      "hash": 1304408836,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_TRACTOR",
+      "name": "Tractor",
+      "hash": 563152349,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_TRACTOR_BEACH",
+      "name": "Tractor (Beach)",
+      "hash": 2145518126,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_TRUCK_LOGS",
+      "name": "Logging Truck",
+      "hash": 1931804634,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_TRUCKS_TRAILERS",
+      "name": "Trucks with Trailers",
+      "hash": 2598977585,
+      "category": "Vehicles"
+    },
+    {
+      "id": "PROP_BIRD_IN_TREE",
+      "name": "Bird in Tree",
+      "hash": 3556510640,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_VEHICLE_DISTANT_EMPTY_GROUND",
+      "name": "Distant Empty Vehicle",
+      "hash": 408465362,
+      "category": "Vehicles"
+    },
+    {
+      "id": "PROP_BIRD_TELEGRAPH_POLE",
+      "name": "Bird on Telegraph Pole",
+      "hash": 1731314315,
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "PROP_HUMAN_ATM",
+      "name": "Use ATM",
+      "hash": 785711921,
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_BBQ",
+      "name": "Use BBQ",
+      "hash": 2629053564,
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_BUM_BIN",
+      "name": "Bum at Bin",
+      "hash": 3734150645,
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_BUM_SHOPPING_CART",
+      "name": "Bum with Shopping Cart",
+      "hash": 2542311606,
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_MUSCLE_CHIN_UPS",
+      "name": "Chin-Ups",
+      "hash": 172265495,
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_MUSCLE_CHIN_UPS_ARMY",
+      "name": "Chin-Ups (Army)",
+      "hash": 1178292878,
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_MUSCLE_CHIN_UPS_PRISON",
+      "name": "Chin-Ups (Prison)",
+      "hash": 2132581948,
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_PARKING_METER",
+      "name": "Use Parking Meter",
+      "hash": 1864663434,
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_ARMCHAIR",
+      "name": "Sit in Armchair",
+      "hash": 524955433,
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_BAR",
+      "name": "Sit at Bar",
+      "hash": 3567424648,
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_BENCH",
+      "name": "Sit on Bench",
+      "hash": 935336933,
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_BENCH_FACILITY",
+      "name": "Sit on Bench (Facility)",
+      "hash": 235481804,
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_BENCH_DRINK",
+      "name": "Sit on Bench (Drinking)",
+      "hash": 1025729429,
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_BENCH_DRINK_FACILITY",
+      "name": "Sit on Bench (Drinking, Facility)",
+      "hash": 2246489358,
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_BENCH_DRINK_BEER",
+      "name": "Sit on Bench (Drinking Beer)",
+      "hash": 2024652356,
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_BENCH_FOOD",
+      "name": "Sit on Bench (Eating)",
+      "hash": 1751045193,
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_BENCH_FOOD_FACILITY",
+      "name": "Sit on Bench (Eating, Facility)",
+      "hash": 1647987018,
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_BUS_STOP_WAIT",
+      "name": "Wait at Bus Stop",
+      "hash": 3895261569,
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_CHAIR",
+      "name": "Sit in Chair",
+      "hash": 2868304871,
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_CHAIR_DRINK",
+      "name": "Sit in Chair (Drinking)",
+      "hash": 2902563226,
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_CHAIR_DRINK_BEER",
+      "name": "Sit in Chair (Drinking Beer)",
+      "hash": 3342670051,
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_CHAIR_FOOD",
+      "name": "Sit in Chair (Eating)",
+      "hash": 3997989800,
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_CHAIR_UPRIGHT",
+      "name": "Sit in Chair (Upright)",
+      "hash": 2636171932,
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_CHAIR_UPRIGHT_SHOWROOM",
+      "name": "Sit in Chair (Upright, Showroom)",
+      "hash": 2307294629,
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_CHAIR_MP_PLAYER",
+      "name": "Sit in Chair (Player)",
+      "hash": 83139461,
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_COMPUTER",
+      "name": "Use Computer",
+      "hash": 3112572369,
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_COMPUTER_LOW",
+      "name": "Use Computer (Low)",
+      "hash": 1774086847,
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_DECKCHAIR",
+      "name": "Sit in Deckchair",
+      "hash": 3969587602,
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_DECKCHAIR_DRINK",
+      "name": "Sit in Deckchair (Drinking)",
+      "hash": 4205585876,
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_MUSCLE_BENCH_PRESS",
+      "name": "Bench Press",
+      "hash": 3627115106,
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_MUSCLE_BENCH_PRESS_PRISON",
+      "name": "Bench Press (Prison)",
+      "hash": 707739030,
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_SEWING",
+      "name": "Sewing",
+      "hash": 580811351,
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_STRIP_WATCH",
+      "name": "Watch Stripper (Seated)",
+      "hash": 867085516,
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_SUNLOUNGER",
+      "name": "Sit on Sun Lounger",
+      "hash": 206282236,
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_STAND_IMPATIENT",
+      "name": "Stand Impatiently (Prop)",
+      "hash": 3544016682,
+      "category": "Seating & Props"
+    },
+    {
+      "id": "CODE_HUMAN_COWER",
+      "name": "Cower",
+      "hash": 3582768400,
+      "category": "Scripted (Code)"
+    },
+    {
+      "id": "CODE_HUMAN_CROSS_ROAD_WAIT",
+      "name": "Wait to Cross Road",
+      "hash": 4284629495,
+      "category": "Scripted (Code)"
+    },
+    {
+      "id": "CODE_HUMAN_PARK_CAR",
+      "name": "Park Car",
+      "hash": 2496952501,
+      "category": "Scripted (Code)"
+    },
+    {
+      "id": "PROP_HUMAN_MOVIE_BULB",
+      "name": "Movie Light Bulb",
+      "hash": 1044068513,
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_MOVIE_STUDIO_LIGHT",
+      "name": "Movie Studio Light",
+      "hash": 2623056071,
+      "category": "Seating & Props"
+    },
+    {
+      "id": "CODE_HUMAN_MEDIC_KNEEL",
+      "name": "Medic Kneeling",
+      "hash": 2785385002,
+      "category": "Scripted (Code)"
+    },
+    {
+      "id": "CODE_HUMAN_MEDIC_TEND_TO_DEAD",
+      "name": "Medic Tending to Dead",
+      "hash": 1059993967,
+      "category": "Scripted (Code)"
+    },
+    {
+      "id": "CODE_HUMAN_MEDIC_TIME_OF_DEATH",
+      "name": "Medic Calling Time of Death",
+      "hash": 946430330,
+      "category": "Scripted (Code)"
+    },
+    {
+      "id": "CODE_HUMAN_POLICE_CROWD_CONTROL",
+      "name": "Police Crowd Control",
+      "hash": 3024060858,
+      "category": "Scripted (Code)"
+    },
+    {
+      "id": "CODE_HUMAN_POLICE_INVESTIGATE",
+      "name": "Police Investigating",
+      "hash": 3257230624,
+      "category": "Scripted (Code)"
+    },
+    {
+      "id": "CHAINING_ENTRY",
+      "name": "Chaining Entry",
+      "hash": 3759327651,
+      "category": "Movement & Misc"
+    },
+    {
+      "id": "CHAINING_EXIT",
+      "name": "Chaining Exit",
+      "hash": 2617505962,
+      "category": "Movement & Misc"
+    },
+    {
+      "id": "CODE_HUMAN_STAND_COWER",
+      "name": "Cower (Standing)",
+      "hash": 370487498,
+      "category": "Scripted (Code)"
+    },
+    {
+      "id": "EAR_TO_TEXT",
+      "name": "Listen to Text",
+      "hash": 2917223290,
+      "category": "Movement & Misc"
+    },
+    {
+      "id": "EAR_TO_TEXT_FAT",
+      "name": "Listen to Text (Heavy Build)",
+      "hash": 1496901772,
+      "category": "Movement & Misc"
+    },
+    {
+      "id": "WORLD_LOOKAT_POINT",
+      "name": "Look at Point",
+      "hash": 2174006493,
+      "category": "Movement & Misc"
+    }
+  ]
+}

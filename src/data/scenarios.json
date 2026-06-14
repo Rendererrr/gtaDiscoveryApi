@@ -1,0 +1,1252 @@
+{
+  "note": "GTA ped/world scenarios — the string names passed to natives like TASK_START_SCENARIO_IN_PLACE / TASK_START_SCENARIO_AT_POSITION. hash = joaat(id) (computed at build). Categorized with friendly display names. No images.",
+  "source": "https://github.com/MyHwu9508/PlayVFreeroam/blob/58774fe6a8ad0b0151cc32f055ca6ea7f538516d/resources/assets/dump/scenariosCompact.json",
+  "categories": [
+    "Human – Idle & Leisure",
+    "Human – Sport & Fitness",
+    "Human – Work & Services",
+    "Human – Criminal & Lowlife",
+    "Seating & Props",
+    "Animals & Wildlife",
+    "Vehicles",
+    "Scripted (Code)",
+    "Movement & Misc"
+  ],
+  "scenarios": [
+    {
+      "id": "Standing",
+      "name": "Standing",
+      "category": "Movement & Misc"
+    },
+    {
+      "id": "WORLD_HUMAN_AA_COFFEE",
+      "name": "Drink Coffee",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_AA_SMOKE",
+      "name": "Smoke",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_BINOCULARS",
+      "name": "Use Binoculars",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_BUM_FREEWAY",
+      "name": "Bum on Freeway",
+      "category": "Human – Criminal & Lowlife"
+    },
+    {
+      "id": "WORLD_HUMAN_BUM_SLUMPED",
+      "name": "Bum Slumped",
+      "category": "Human – Criminal & Lowlife"
+    },
+    {
+      "id": "WORLD_HUMAN_BUM_STANDING",
+      "name": "Bum Standing",
+      "category": "Human – Criminal & Lowlife"
+    },
+    {
+      "id": "WORLD_HUMAN_BUM_WASH",
+      "name": "Bum Washing",
+      "category": "Human – Criminal & Lowlife"
+    },
+    {
+      "id": "WORLD_HUMAN_CAR_PARK_ATTENDANT",
+      "name": "Car Park Attendant",
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_CHEERING",
+      "name": "Cheering",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_CLIPBOARD",
+      "name": "Clipboard",
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_CLIPBOARD_FACILITY",
+      "name": "Clipboard (Facility)",
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_CONST_DRILL",
+      "name": "Jackhammer Drilling",
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_COP_IDLES",
+      "name": "Cop Idle",
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_DRINKING",
+      "name": "Drinking",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_DRINKING_FACILITY",
+      "name": "Drinking (Facility)",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_DRINKING_CASINO_TERRACE",
+      "name": "Drinking (Casino Terrace)",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_DRUG_DEALER",
+      "name": "Drug Dealer",
+      "category": "Human – Criminal & Lowlife"
+    },
+    {
+      "id": "WORLD_HUMAN_DRUG_DEALER_HARD",
+      "name": "Drug Dealer (Hardened)",
+      "category": "Human – Criminal & Lowlife"
+    },
+    {
+      "id": "WORLD_HUMAN_DRUG_FIELD_WORKERS_RAKE",
+      "name": "Drug Field Worker (Raking)",
+      "category": "Human – Criminal & Lowlife"
+    },
+    {
+      "id": "WORLD_HUMAN_DRUG_FIELD_WORKERS_WEEDING",
+      "name": "Drug Field Worker (Weeding)",
+      "category": "Human – Criminal & Lowlife"
+    },
+    {
+      "id": "WORLD_HUMAN_DRUG_PROCESSORS_COKE",
+      "name": "Drug Processor (Cocaine)",
+      "category": "Human – Criminal & Lowlife"
+    },
+    {
+      "id": "WORLD_HUMAN_DRUG_PROCESSORS_WEED",
+      "name": "Drug Processor (Weed)",
+      "category": "Human – Criminal & Lowlife"
+    },
+    {
+      "id": "WORLD_HUMAN_MOBILE_FILM_SHOCKING",
+      "name": "Film Shocking Event on Phone",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_GARDENER_LEAF_BLOWER",
+      "name": "Gardener with Leaf Blower",
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_GARDENER_PLANT",
+      "name": "Gardener Planting",
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_GOLF_PLAYER",
+      "name": "Golf Player",
+      "category": "Human – Sport & Fitness"
+    },
+    {
+      "id": "WORLD_HUMAN_GUARD_PATROL",
+      "name": "Guard Patrol",
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_GUARD_STAND",
+      "name": "Guard Standing",
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_GUARD_STAND_CASINO",
+      "name": "Guard Standing (Casino)",
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_GUARD_STAND_CLUBHOUSE",
+      "name": "Guard Standing (Clubhouse)",
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_GUARD_STAND_FACILITY",
+      "name": "Guard Standing (Facility)",
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_GUARD_STAND_ARMY",
+      "name": "Guard Standing (Army)",
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_HAMMERING",
+      "name": "Hammering",
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_HANG_OUT_STREET",
+      "name": "Hang Out on Street",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_HANG_OUT_STREET_CLUBHOUSE",
+      "name": "Hang Out on Street (Clubhouse)",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_HIKER",
+      "name": "Hiker",
+      "category": "Human – Sport & Fitness"
+    },
+    {
+      "id": "WORLD_HUMAN_HIKER_STANDING",
+      "name": "Hiker (Standing)",
+      "category": "Human – Sport & Fitness"
+    },
+    {
+      "id": "WORLD_HUMAN_HUMAN_STATUE",
+      "name": "Human Statue",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_INSPECT_CROUCH",
+      "name": "Inspect (Crouching)",
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_INSPECT_STAND",
+      "name": "Inspect (Standing)",
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_JANITOR",
+      "name": "Janitor",
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_JOG",
+      "name": "Jogging",
+      "category": "Human – Sport & Fitness"
+    },
+    {
+      "id": "WORLD_HUMAN_JOG_STANDING",
+      "name": "Jogging (Standing)",
+      "category": "Human – Sport & Fitness"
+    },
+    {
+      "id": "WORLD_HUMAN_LEANING",
+      "name": "Leaning",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_LEANING_CASINO_TERRACE",
+      "name": "Leaning (Casino Terrace)",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_MAID_CLEAN",
+      "name": "Maid Cleaning",
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_MUSCLE_FLEX",
+      "name": "Muscle Flex",
+      "category": "Human – Sport & Fitness"
+    },
+    {
+      "id": "WORLD_HUMAN_MUSCLE_FREE_WEIGHTS",
+      "name": "Free Weights",
+      "category": "Human – Sport & Fitness"
+    },
+    {
+      "id": "WORLD_HUMAN_MUSICIAN",
+      "name": "Musician",
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_PAPARAZZI",
+      "name": "Paparazzi",
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_PARTYING",
+      "name": "Partying",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_PICNIC",
+      "name": "Picnic",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_POWER_WALKER",
+      "name": "Power Walking",
+      "category": "Human – Sport & Fitness"
+    },
+    {
+      "id": "WORLD_HUMAN_PROSTITUTE_HIGH_CLASS",
+      "name": "Prostitute (High Class)",
+      "category": "Human – Criminal & Lowlife"
+    },
+    {
+      "id": "WORLD_HUMAN_PROSTITUTE_LOW_CLASS",
+      "name": "Prostitute (Low Class)",
+      "category": "Human – Criminal & Lowlife"
+    },
+    {
+      "id": "WORLD_HUMAN_PUSH_UPS",
+      "name": "Push-Ups",
+      "category": "Human – Sport & Fitness"
+    },
+    {
+      "id": "WORLD_HUMAN_SEAT_LEDGE",
+      "name": "Sit on Ledge",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_SEAT_LEDGE_EATING",
+      "name": "Sit on Ledge (Eating)",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_SEAT_STEPS",
+      "name": "Sit on Steps",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_SEAT_WALL",
+      "name": "Sit on Wall",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_SEAT_WALL_EATING",
+      "name": "Sit on Wall (Eating)",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_SEAT_WALL_TABLET",
+      "name": "Sit on Wall (Tablet)",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_SECURITY_SHINE_TORCH",
+      "name": "Security Shining Torch",
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_SIT_UPS",
+      "name": "Sit-Ups",
+      "category": "Human – Sport & Fitness"
+    },
+    {
+      "id": "WORLD_HUMAN_SMOKING",
+      "name": "Smoking",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_SMOKING_CLUBHOUSE",
+      "name": "Smoking (Clubhouse)",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_SMOKING_POT",
+      "name": "Smoking Pot",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_SMOKING_POT_CLUBHOUSE",
+      "name": "Smoking Pot (Clubhouse)",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_STAND_FIRE",
+      "name": "Stand by Fire",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_STAND_FISHING",
+      "name": "Fishing",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_STAND_IMPATIENT",
+      "name": "Stand Impatiently",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_STAND_IMPATIENT_CLUBHOUSE",
+      "name": "Stand Impatiently (Clubhouse)",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_STAND_IMPATIENT_FACILITY",
+      "name": "Stand Impatiently (Facility)",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_STAND_IMPATIENT_UPRIGHT",
+      "name": "Stand Impatiently (Upright)",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_STAND_IMPATIENT_UPRIGHT_FACILITY",
+      "name": "Stand Impatiently (Upright, Facility)",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_STAND_MOBILE",
+      "name": "Stand Using Phone",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_STAND_MOBILE_CLUBHOUSE",
+      "name": "Stand Using Phone (Clubhouse)",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_STAND_MOBILE_FACILITY",
+      "name": "Stand Using Phone (Facility)",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_STAND_MOBILE_UPRIGHT",
+      "name": "Stand Using Phone (Upright)",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_STAND_MOBILE_UPRIGHT_CLUBHOUSE",
+      "name": "Stand Using Phone (Upright, Clubhouse)",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_STRIP_WATCH_STAND",
+      "name": "Watch Stripper (Standing)",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_STUPOR",
+      "name": "Drunken Stupor",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_STUPOR_CLUBHOUSE",
+      "name": "Drunken Stupor (Clubhouse)",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_WINDOW_SHOP_BROWSE_SHOWROOM",
+      "name": "Window Shopping (Showroom)",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_SUNBATHE",
+      "name": "Sunbathe",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_SUNBATHE_BACK",
+      "name": "Sunbathe on Back",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_SUPERHERO",
+      "name": "Superhero Pose",
+      "category": "Human – Sport & Fitness"
+    },
+    {
+      "id": "WORLD_HUMAN_SWIMMING",
+      "name": "Swimming",
+      "category": "Human – Sport & Fitness"
+    },
+    {
+      "id": "WORLD_HUMAN_TENNIS_PLAYER",
+      "name": "Tennis Player",
+      "category": "Human – Sport & Fitness"
+    },
+    {
+      "id": "WORLD_HUMAN_TOURIST_MAP",
+      "name": "Tourist with Map",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_TOURIST_MOBILE",
+      "name": "Tourist with Phone",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_VALET",
+      "name": "Valet",
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_VEHICLE_MECHANIC",
+      "name": "Vehicle Mechanic",
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_WELDING",
+      "name": "Welding",
+      "category": "Human – Work & Services"
+    },
+    {
+      "id": "WORLD_HUMAN_WINDOW_SHOP_BROWSE",
+      "name": "Window Shopping",
+      "category": "Human – Idle & Leisure"
+    },
+    {
+      "id": "WORLD_HUMAN_YOGA",
+      "name": "Yoga",
+      "category": "Human – Sport & Fitness"
+    },
+    {
+      "id": "Walk",
+      "name": "Walk",
+      "category": "Movement & Misc"
+    },
+    {
+      "id": "Walk_Facility",
+      "name": "Walk (Facility)",
+      "category": "Movement & Misc"
+    },
+    {
+      "id": "WORLD_BOAR_GRAZING",
+      "name": "Boar Grazing",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_CAT_SLEEPING_GROUND",
+      "name": "Cat Sleeping (Ground)",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_CAT_SLEEPING_LEDGE",
+      "name": "Cat Sleeping (Ledge)",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_COW_GRAZING",
+      "name": "Cow Grazing",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_COYOTE_HOWL",
+      "name": "Coyote Howling",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_COYOTE_REST",
+      "name": "Coyote Resting",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_COYOTE_WANDER",
+      "name": "Coyote Wandering",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_COYOTE_WALK",
+      "name": "Coyote Walking",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_CHICKENHAWK_FEEDING",
+      "name": "Chickenhawk Feeding",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_CHICKENHAWK_STANDING",
+      "name": "Chickenhawk Standing",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_CORMORANT_STANDING",
+      "name": "Cormorant Standing",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_CROW_FEEDING",
+      "name": "Crow Feeding",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_CROW_STANDING",
+      "name": "Crow Standing",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_DEER_GRAZING",
+      "name": "Deer Grazing",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_DOG_BARKING_ROTTWEILER",
+      "name": "Dog Barking (Rottweiler)",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_DOG_BARKING_RETRIEVER",
+      "name": "Dog Barking (Retriever)",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_DOG_BARKING_SHEPHERD",
+      "name": "Dog Barking (Shepherd)",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_DOG_SITTING_ROTTWEILER",
+      "name": "Dog Sitting (Rottweiler)",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_DOG_SITTING_RETRIEVER",
+      "name": "Dog Sitting (Retriever)",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_DOG_SITTING_SHEPHERD",
+      "name": "Dog Sitting (Shepherd)",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_DOG_BARKING_SMALL",
+      "name": "Dog Barking (Small)",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_DOG_SITTING_SMALL",
+      "name": "Dog Sitting (Small)",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_DOLPHIN_SWIM",
+      "name": "Dolphin Swimming",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_FISH_FLEE",
+      "name": "Fish Fleeing",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_FISH_IDLE",
+      "name": "Fish Idle",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_GULL_FEEDING",
+      "name": "Gull Feeding",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_GULL_STANDING",
+      "name": "Gull Standing",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_HEN_FLEE",
+      "name": "Hen Fleeing",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_HEN_PECKING",
+      "name": "Hen Pecking",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_HEN_STANDING",
+      "name": "Hen Standing",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_MOUNTAIN_LION_REST",
+      "name": "Mountain Lion Resting",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_MOUNTAIN_LION_WANDER",
+      "name": "Mountain Lion Wandering",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_ORCA_SWIM",
+      "name": "Orca Swimming",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_PIG_GRAZING",
+      "name": "Pig Grazing",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_PIGEON_FEEDING",
+      "name": "Pigeon Feeding",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_PIGEON_STANDING",
+      "name": "Pigeon Standing",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_RABBIT_EATING",
+      "name": "Rabbit Eating",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_RABBIT_FLEE",
+      "name": "Rabbit Fleeing",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_RATS_EATING",
+      "name": "Rats Eating",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_RATS_FLEEING",
+      "name": "Rats Fleeing",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_SHARK_SWIM",
+      "name": "Shark Swimming",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_SHARK_HAMMERHEAD_SWIM",
+      "name": "Hammerhead Shark Swimming",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_STINGRAY_SWIM",
+      "name": "Stingray Swimming",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_WHALE_SWIM",
+      "name": "Whale Swimming",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "DRIVE",
+      "name": "Drive",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_ATTRACTOR",
+      "name": "Vehicle Attractor",
+      "category": "Vehicles"
+    },
+    {
+      "id": "PARK_VEHICLE",
+      "name": "Park Vehicle",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_AMBULANCE",
+      "name": "Ambulance",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_BICYCLE_BMX",
+      "name": "BMX Cyclist",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_BICYCLE_BMX_BALLAS",
+      "name": "BMX Cyclist (Ballas)",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_BICYCLE_BMX_FAMILY",
+      "name": "BMX Cyclist (Families)",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_BICYCLE_BMX_HARMONY",
+      "name": "BMX Cyclist (Harmony)",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_BICYCLE_BMX_VAGOS",
+      "name": "BMX Cyclist (Vagos)",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_BICYCLE_MOUNTAIN",
+      "name": "Mountain Bike Cyclist",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_BICYCLE_ROAD",
+      "name": "Road Cyclist",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_BIKE_OFF_ROAD_RACE",
+      "name": "Off-Road Bike Race",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_BIKER",
+      "name": "Biker",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_BOAT_IDLE",
+      "name": "Boat Idle",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_BOAT_IDLE_ALAMO",
+      "name": "Boat Idle (Alamo Sea)",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_BOAT_IDLE_MARQUIS",
+      "name": "Boat Idle (Marquis)",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_BROKEN_DOWN",
+      "name": "Broken Down Vehicle",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_BUSINESSMEN",
+      "name": "Businessmen in Vehicle",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_HELI_LIFEGUARD",
+      "name": "Lifeguard Helicopter",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_CLUCKIN_BELL_TRAILER",
+      "name": "Cluckin' Bell Trailer",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_CONSTRUCTION_SOLO",
+      "name": "Construction Vehicle (Solo)",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_CONSTRUCTION_PASSENGERS",
+      "name": "Construction Vehicle (Passengers)",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_DRIVE_PASSENGERS",
+      "name": "Driving with Passengers",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_DRIVE_PASSENGERS_LIMITED",
+      "name": "Driving with Passengers (Limited)",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_DRIVE_SOLO",
+      "name": "Driving Solo",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_FARM_WORKER",
+      "name": "Farm Worker Vehicle",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_FIRE_TRUCK",
+      "name": "Fire Truck",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_EMPTY",
+      "name": "Empty Vehicle",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_MARIACHI",
+      "name": "Mariachi Vehicle",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_MECHANIC",
+      "name": "Mechanic Vehicle",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_MILITARY_PLANES_BIG",
+      "name": "Military Plane (Large)",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_MILITARY_PLANES_SMALL",
+      "name": "Military Plane (Small)",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_PARK_PARALLEL",
+      "name": "Park Parallel",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_PARK_PERPENDICULAR_NOSE_IN",
+      "name": "Park Perpendicular (Nose In)",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_PASSENGER_EXIT",
+      "name": "Passenger Exit",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_POLICE_BIKE",
+      "name": "Police Bike",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_POLICE_CAR",
+      "name": "Police Car",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_POLICE_NEXT_TO_CAR",
+      "name": "Police Next to Car",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_QUARRY",
+      "name": "Quarry Vehicle",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_SALTON",
+      "name": "Salton Vehicle",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_SALTON_DIRT_BIKE",
+      "name": "Salton Dirt Bike",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_SECURITY_CAR",
+      "name": "Security Car",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_STREETRACE",
+      "name": "Street Race",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_TOURBUS",
+      "name": "Tour Bus",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_TOURIST",
+      "name": "Tourist Vehicle",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_TANDL",
+      "name": "Tow & Lift Vehicle",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_TRACTOR",
+      "name": "Tractor",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_TRACTOR_BEACH",
+      "name": "Tractor (Beach)",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_TRUCK_LOGS",
+      "name": "Logging Truck",
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_TRUCKS_TRAILERS",
+      "name": "Trucks with Trailers",
+      "category": "Vehicles"
+    },
+    {
+      "id": "PROP_BIRD_IN_TREE",
+      "name": "Bird in Tree",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "WORLD_VEHICLE_DISTANT_EMPTY_GROUND",
+      "name": "Distant Empty Vehicle",
+      "category": "Vehicles"
+    },
+    {
+      "id": "PROP_BIRD_TELEGRAPH_POLE",
+      "name": "Bird on Telegraph Pole",
+      "category": "Animals & Wildlife"
+    },
+    {
+      "id": "PROP_HUMAN_ATM",
+      "name": "Use ATM",
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_BBQ",
+      "name": "Use BBQ",
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_BUM_BIN",
+      "name": "Bum at Bin",
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_BUM_SHOPPING_CART",
+      "name": "Bum with Shopping Cart",
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_MUSCLE_CHIN_UPS",
+      "name": "Chin-Ups",
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_MUSCLE_CHIN_UPS_ARMY",
+      "name": "Chin-Ups (Army)",
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_MUSCLE_CHIN_UPS_PRISON",
+      "name": "Chin-Ups (Prison)",
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_PARKING_METER",
+      "name": "Use Parking Meter",
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_ARMCHAIR",
+      "name": "Sit in Armchair",
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_BAR",
+      "name": "Sit at Bar",
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_BENCH",
+      "name": "Sit on Bench",
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_BENCH_FACILITY",
+      "name": "Sit on Bench (Facility)",
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_BENCH_DRINK",
+      "name": "Sit on Bench (Drinking)",
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_BENCH_DRINK_FACILITY",
+      "name": "Sit on Bench (Drinking, Facility)",
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_BENCH_DRINK_BEER",
+      "name": "Sit on Bench (Drinking Beer)",
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_BENCH_FOOD",
+      "name": "Sit on Bench (Eating)",
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_BENCH_FOOD_FACILITY",
+      "name": "Sit on Bench (Eating, Facility)",
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_BUS_STOP_WAIT",
+      "name": "Wait at Bus Stop",
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_CHAIR",
+      "name": "Sit in Chair",
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_CHAIR_DRINK",
+      "name": "Sit in Chair (Drinking)",
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_CHAIR_DRINK_BEER",
+      "name": "Sit in Chair (Drinking Beer)",
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_CHAIR_FOOD",
+      "name": "Sit in Chair (Eating)",
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_CHAIR_UPRIGHT",
+      "name": "Sit in Chair (Upright)",
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_CHAIR_UPRIGHT_SHOWROOM",
+      "name": "Sit in Chair (Upright, Showroom)",
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_CHAIR_MP_PLAYER",
+      "name": "Sit in Chair (Player)",
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_COMPUTER",
+      "name": "Use Computer",
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_COMPUTER_LOW",
+      "name": "Use Computer (Low)",
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_DECKCHAIR",
+      "name": "Sit in Deckchair",
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_DECKCHAIR_DRINK",
+      "name": "Sit in Deckchair (Drinking)",
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_MUSCLE_BENCH_PRESS",
+      "name": "Bench Press",
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_MUSCLE_BENCH_PRESS_PRISON",
+      "name": "Bench Press (Prison)",
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_SEWING",
+      "name": "Sewing",
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_STRIP_WATCH",
+      "name": "Watch Stripper (Seated)",
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_SEAT_SUNLOUNGER",
+      "name": "Sit on Sun Lounger",
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_STAND_IMPATIENT",
+      "name": "Stand Impatiently (Prop)",
+      "category": "Seating & Props"
+    },
+    {
+      "id": "CODE_HUMAN_COWER",
+      "name": "Cower",
+      "category": "Scripted (Code)"
+    },
+    {
+      "id": "CODE_HUMAN_CROSS_ROAD_WAIT",
+      "name": "Wait to Cross Road",
+      "category": "Scripted (Code)"
+    },
+    {
+      "id": "CODE_HUMAN_PARK_CAR",
+      "name": "Park Car",
+      "category": "Scripted (Code)"
+    },
+    {
+      "id": "PROP_HUMAN_MOVIE_BULB",
+      "name": "Movie Light Bulb",
+      "category": "Seating & Props"
+    },
+    {
+      "id": "PROP_HUMAN_MOVIE_STUDIO_LIGHT",
+      "name": "Movie Studio Light",
+      "category": "Seating & Props"
+    },
+    {
+      "id": "CODE_HUMAN_MEDIC_KNEEL",
+      "name": "Medic Kneeling",
+      "category": "Scripted (Code)"
+    },
+    {
+      "id": "CODE_HUMAN_MEDIC_TEND_TO_DEAD",
+      "name": "Medic Tending to Dead",
+      "category": "Scripted (Code)"
+    },
+    {
+      "id": "CODE_HUMAN_MEDIC_TIME_OF_DEATH",
+      "name": "Medic Calling Time of Death",
+      "category": "Scripted (Code)"
+    },
+    {
+      "id": "CODE_HUMAN_POLICE_CROWD_CONTROL",
+      "name": "Police Crowd Control",
+      "category": "Scripted (Code)"
+    },
+    {
+      "id": "CODE_HUMAN_POLICE_INVESTIGATE",
+      "name": "Police Investigating",
+      "category": "Scripted (Code)"
+    },
+    {
+      "id": "CHAINING_ENTRY",
+      "name": "Chaining Entry",
+      "category": "Movement & Misc"
+    },
+    {
+      "id": "CHAINING_EXIT",
+      "name": "Chaining Exit",
+      "category": "Movement & Misc"
+    },
+    {
+      "id": "CODE_HUMAN_STAND_COWER",
+      "name": "Cower (Standing)",
+      "category": "Scripted (Code)"
+    },
+    {
+      "id": "EAR_TO_TEXT",
+      "name": "Listen to Text",
+      "category": "Movement & Misc"
+    },
+    {
+      "id": "EAR_TO_TEXT_FAT",
+      "name": "Listen to Text (Heavy Build)",
+      "category": "Movement & Misc"
+    },
+    {
+      "id": "WORLD_LOOKAT_POINT",
+      "name": "Look at Point",
+      "category": "Movement & Misc"
+    }
+  ]
+}

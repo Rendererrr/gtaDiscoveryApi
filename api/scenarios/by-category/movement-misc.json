@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "scenarios",
+    "label": "Scenarios",
+    "urlPattern": null,
+    "note": "GTA ped/world scenarios (TASK_START_SCENARIO_IN_PLACE / _AT_POSITION). id = the scenario string; hash = joaat(id). No images. category groups under by-category/; reverse hash -> { id, name, category } in hashes.json."
+  },
+  "group": {
+    "name": "Movement & Misc",
+    "key": "Movement & Misc",
+    "slug": "movement-misc",
+    "count": 8
+  },
+  "count": 8,
+  "items": [
+    {
+      "id": "Standing",
+      "name": "Standing",
+      "hash": 465284456,
+      "category": "Movement & Misc"
+    },
+    {
+      "id": "Walk",
+      "name": "Walk",
+      "hash": 2203077788,
+      "category": "Movement & Misc"
+    },
+    {
+      "id": "Walk_Facility",
+      "name": "Walk (Facility)",
+      "hash": 156699782,
+      "category": "Movement & Misc"
+    },
+    {
+      "id": "CHAINING_ENTRY",
+      "name": "Chaining Entry",
+      "hash": 3759327651,
+      "category": "Movement & Misc"
+    },
+    {
+      "id": "CHAINING_EXIT",
+      "name": "Chaining Exit",
+      "hash": 2617505962,
+      "category": "Movement & Misc"
+    },
+    {
+      "id": "EAR_TO_TEXT",
+      "name": "Listen to Text",
+      "hash": 2917223290,
+      "category": "Movement & Misc"
+    },
+    {
+      "id": "EAR_TO_TEXT_FAT",
+      "name": "Listen to Text (Heavy Build)",
+      "hash": 1496901772,
+      "category": "Movement & Misc"
+    },
+    {
+      "id": "WORLD_LOOKAT_POINT",
+      "name": "Look at Point",
+      "hash": 2174006493,
+      "category": "Movement & Misc"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "scenarios",
+    "label": "Scenarios",
+    "urlPattern": null,
+    "note": "GTA ped/world scenarios (TASK_START_SCENARIO_IN_PLACE / _AT_POSITION). id = the scenario string; hash = joaat(id). No images. category groups under by-category/; reverse hash -> { id, name, category } in hashes.json."
+  },
+  "count": 9,
+  "groups": [
+    {
+      "name": "Vehicles",
+      "key": "Vehicles",
+      "slug": "vehicles",
+      "count": 51,
+      "path": "api/scenarios/by-category/vehicles.json"
+    },
+    {
+      "name": "Animals & Wildlife",
+      "key": "Animals & Wildlife",
+      "slug": "animals-wildlife",
+      "count": 46,
+      "path": "api/scenarios/by-category/animals-wildlife.json"
+    },
+    {
+      "name": "Human – Idle & Leisure",
+      "key": "Human – Idle & Leisure",
+      "slug": "human-idle-leisure",
+      "count": 46,
+      "path": "api/scenarios/by-category/human-idle-leisure.json"
+    },
+    {
+      "name": "Seating & Props",
+      "key": "Seating & Props",
+      "slug": "seating-props",
+      "count": 37,
+      "path": "api/scenarios/by-category/seating-props.json"
+    },
+    {
+      "name": "Human – Work & Services",
+      "key": "Human – Work & Services",
+      "slug": "human-work-services",
+      "count": 24,
+      "path": "api/scenarios/by-category/human-work-services.json"
+    },
+    {
+      "name": "Human – Sport & Fitness",
+      "key": "Human – Sport & Fitness",
+      "slug": "human-sport-fitness",
+      "count": 14,
+      "path": "api/scenarios/by-category/human-sport-fitness.json"
+    },
+    {
+      "name": "Human – Criminal & Lowlife",
+      "key": "Human – Criminal & Lowlife",
+      "slug": "human-criminal-lowlife",
+      "count": 12,
+      "path": "api/scenarios/by-category/human-criminal-lowlife.json"
+    },
+    {
+      "name": "Scripted (Code)",
+      "key": "Scripted (Code)",
+      "slug": "scripted-code",
+      "count": 9,
+      "path": "api/scenarios/by-category/scripted-code.json"
+    },
+    {
+      "name": "Movement & Misc",
+      "key": "Movement & Misc",
+      "slug": "movement-misc",
+      "count": 8,
+      "path": "api/scenarios/by-category/movement-misc.json"
+    }
+  ]
+}

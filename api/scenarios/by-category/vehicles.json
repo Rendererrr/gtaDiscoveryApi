@@ -1,0 +1,326 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "scenarios",
+    "label": "Scenarios",
+    "urlPattern": null,
+    "note": "GTA ped/world scenarios (TASK_START_SCENARIO_IN_PLACE / _AT_POSITION). id = the scenario string; hash = joaat(id). No images. category groups under by-category/; reverse hash -> { id, name, category } in hashes.json."
+  },
+  "group": {
+    "name": "Vehicles",
+    "key": "Vehicles",
+    "slug": "vehicles",
+    "count": 51
+  },
+  "count": 51,
+  "items": [
+    {
+      "id": "DRIVE",
+      "name": "Drive",
+      "hash": 1194480618,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_ATTRACTOR",
+      "name": "Vehicle Attractor",
+      "hash": 2914829975,
+      "category": "Vehicles"
+    },
+    {
+      "id": "PARK_VEHICLE",
+      "name": "Park Vehicle",
+      "hash": 232807271,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_AMBULANCE",
+      "name": "Ambulance",
+      "hash": 1713238370,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_BICYCLE_BMX",
+      "name": "BMX Cyclist",
+      "hash": 292393074,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_BICYCLE_BMX_BALLAS",
+      "name": "BMX Cyclist (Ballas)",
+      "hash": 3814752770,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_BICYCLE_BMX_FAMILY",
+      "name": "BMX Cyclist (Families)",
+      "hash": 884857936,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_BICYCLE_BMX_HARMONY",
+      "name": "BMX Cyclist (Harmony)",
+      "hash": 3887031864,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_BICYCLE_BMX_VAGOS",
+      "name": "BMX Cyclist (Vagos)",
+      "hash": 4100454503,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_BICYCLE_MOUNTAIN",
+      "name": "Mountain Bike Cyclist",
+      "hash": 1462666811,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_BICYCLE_ROAD",
+      "name": "Road Cyclist",
+      "hash": 2073212006,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_BIKE_OFF_ROAD_RACE",
+      "name": "Off-Road Bike Race",
+      "hash": 2546963918,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_BIKER",
+      "name": "Biker",
+      "hash": 102531748,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_BOAT_IDLE",
+      "name": "Boat Idle",
+      "hash": 1475249246,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_BOAT_IDLE_ALAMO",
+      "name": "Boat Idle (Alamo Sea)",
+      "hash": 3878513149,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_BOAT_IDLE_MARQUIS",
+      "name": "Boat Idle (Marquis)",
+      "hash": 255379441,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_BROKEN_DOWN",
+      "name": "Broken Down Vehicle",
+      "hash": 59461559,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_BUSINESSMEN",
+      "name": "Businessmen in Vehicle",
+      "hash": 3895968907,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_HELI_LIFEGUARD",
+      "name": "Lifeguard Helicopter",
+      "hash": 941265413,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_CLUCKIN_BELL_TRAILER",
+      "name": "Cluckin' Bell Trailer",
+      "hash": 1199465938,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_CONSTRUCTION_SOLO",
+      "name": "Construction Vehicle (Solo)",
+      "hash": 1935795091,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_CONSTRUCTION_PASSENGERS",
+      "name": "Construction Vehicle (Passengers)",
+      "hash": 3991562789,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_DRIVE_PASSENGERS",
+      "name": "Driving with Passengers",
+      "hash": 3225537718,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_DRIVE_PASSENGERS_LIMITED",
+      "name": "Driving with Passengers (Limited)",
+      "hash": 3509044316,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_DRIVE_SOLO",
+      "name": "Driving Solo",
+      "hash": 2663933431,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_FARM_WORKER",
+      "name": "Farm Worker Vehicle",
+      "hash": 3542173079,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_FIRE_TRUCK",
+      "name": "Fire Truck",
+      "hash": 1684506009,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_EMPTY",
+      "name": "Empty Vehicle",
+      "hash": 3248579036,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_MARIACHI",
+      "name": "Mariachi Vehicle",
+      "hash": 1850611218,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_MECHANIC",
+      "name": "Mechanic Vehicle",
+      "hash": 2486802963,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_MILITARY_PLANES_BIG",
+      "name": "Military Plane (Large)",
+      "hash": 1296596187,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_MILITARY_PLANES_SMALL",
+      "name": "Military Plane (Small)",
+      "hash": 3296164363,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_PARK_PARALLEL",
+      "name": "Park Parallel",
+      "hash": 393870430,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_PARK_PERPENDICULAR_NOSE_IN",
+      "name": "Park Perpendicular (Nose In)",
+      "hash": 1568538975,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_PASSENGER_EXIT",
+      "name": "Passenger Exit",
+      "hash": 2815543294,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_POLICE_BIKE",
+      "name": "Police Bike",
+      "hash": 1307671488,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_POLICE_CAR",
+      "name": "Police Car",
+      "hash": 482541356,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_POLICE_NEXT_TO_CAR",
+      "name": "Police Next to Car",
+      "hash": 1432955843,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_QUARRY",
+      "name": "Quarry Vehicle",
+      "hash": 2385769384,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_SALTON",
+      "name": "Salton Vehicle",
+      "hash": 2658340889,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_SALTON_DIRT_BIKE",
+      "name": "Salton Dirt Bike",
+      "hash": 760139110,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_SECURITY_CAR",
+      "name": "Security Car",
+      "hash": 3223749457,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_STREETRACE",
+      "name": "Street Race",
+      "hash": 859981182,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_TOURBUS",
+      "name": "Tour Bus",
+      "hash": 573857255,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_TOURIST",
+      "name": "Tourist Vehicle",
+      "hash": 1226384945,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_TANDL",
+      "name": "Tow & Lift Vehicle",
+      "hash": 1304408836,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_TRACTOR",
+      "name": "Tractor",
+      "hash": 563152349,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_TRACTOR_BEACH",
+      "name": "Tractor (Beach)",
+      "hash": 2145518126,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_TRUCK_LOGS",
+      "name": "Logging Truck",
+      "hash": 1931804634,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_TRUCKS_TRAILERS",
+      "name": "Trucks with Trailers",
+      "hash": 2598977585,
+      "category": "Vehicles"
+    },
+    {
+      "id": "WORLD_VEHICLE_DISTANT_EMPTY_GROUND",
+      "name": "Distant Empty Vehicle",
+      "hash": 408465362,
+      "category": "Vehicles"
+    }
+  ]
+}

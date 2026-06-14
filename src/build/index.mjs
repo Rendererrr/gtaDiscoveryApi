@@ -23,6 +23,7 @@ import * as particles from './particles.mjs';
 import * as animations from './animations.mjs';
 import * as pedbones from './pedbones.mjs';
 import * as vehiclebones from './vehiclebones.mjs';
+import * as scenarios from './scenarios.mjs';
 
 const DOMAINS = [
   clothing,
@@ -35,6 +36,7 @@ const DOMAINS = [
   animations,
   pedbones,
   vehiclebones,
+  scenarios,
 ];
 
 const ROOT = join(import.meta.dirname, '..', '..');
