@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "voices",
+    "label": "Voices",
+    "urlPattern": null,
+    "note": "Ped ambient voice names for SET_AMBIENT_VOICE_NAME(ped, name). id = the voice name; hash = joaat(id). No images. category groups under by-category/."
+  },
+  "group": {
+    "name": "Police & Security",
+    "key": "Police & Security",
+    "slug": "police-security",
+    "count": 2
+  },
+  "count": 2,
+  "items": [
+    {
+      "id": "S_M_Y_COP_01_WHITE_MINI_01",
+      "name": "Cop",
+      "hash": 3124335111,
+      "category": "Police & Security"
+    },
+    {
+      "id": "S_M_M_SECURITY_01_WHITE_MINI_01",
+      "name": "Security Guard",
+      "hash": 1027740691,
+      "category": "Police & Security"
+    }
+  ]
+}

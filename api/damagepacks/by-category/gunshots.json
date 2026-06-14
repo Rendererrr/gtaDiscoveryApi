@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "damagepacks",
+    "label": "Damage Packs",
+    "urlPattern": null,
+    "note": "Ped damage/blood packs for APPLY_PED_DAMAGE_PACK(ped, name, damage, mult). id = the pack name; hash = joaat(id). No images. category groups under by-category/."
+  },
+  "group": {
+    "name": "Gunshots",
+    "key": "Gunshots",
+    "slug": "gunshots",
+    "count": 3
+  },
+  "count": 3,
+  "items": [
+    {
+      "id": "TD_PISTOL_FRONT_KILL",
+      "name": "Pistol (Front, Kill)",
+      "hash": 1418177514,
+      "category": "Gunshots"
+    },
+    {
+      "id": "TD_RIFLE_FRONT_KILL",
+      "name": "Rifle (Front, Kill)",
+      "hash": 1899331999,
+      "category": "Gunshots"
+    },
+    {
+      "id": "TD_SHOTGUN_FRONT_KILL",
+      "name": "Shotgun (Front, Kill)",
+      "hash": 2209570701,
+      "category": "Gunshots"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "damagepacks",
+    "label": "Damage Packs",
+    "urlPattern": null,
+    "note": "Ped damage/blood packs for APPLY_PED_DAMAGE_PACK(ped, name, damage, mult). id = the pack name; hash = joaat(id). No images. category groups under by-category/."
+  },
+  "categories": [
+    {
+      "name": "Melee",
+      "count": 4
+    },
+    {
+      "name": "Misc",
+      "count": 4
+    },
+    {
+      "name": "Scripted",
+      "count": 4
+    },
+    {
+      "name": "Vehicle",
+      "count": 4
+    },
+    {
+      "name": "Gunshots",
+      "count": 3
+    },
+    {
+      "name": "Explosions",
+      "count": 2
+    }
+  ],
+  "count": 21,
+  "items": [
+    {
+      "id": "Explosion_Med",
+      "name": "Explosion (Medium)",
+      "hash": 2352113086,
+      "category": "Explosions"
+    },
+    {
+      "id": "Explosion_Large",
+      "name": "Explosion (Large)",
+      "hash": 2487578776,
+      "category": "Explosions"
+    },
+    {
+      "id": "Car_Crash_Light",
+      "name": "Car Crash (Light)",
+      "hash": 3869190204,
+      "category": "Vehicle"
+    },
+    {
+      "id": "Car_Crash_Heavy",
+      "name": "Car Crash (Heavy)",
+      "hash": 3099788976,
+      "category": "Vehicle"
+    },
+    {
+      "id": "BigHitByVehicle",
+      "name": "Big Hit By Vehicle",
+      "hash": 2406454601,
+      "category": "Vehicle"
+    },
+    {
+      "id": "BigRunOverByVehicle",
+      "name": "Big Run Over By Vehicle",
+      "hash": 1923868300,
+      "category": "Vehicle"
+    },
+    {
+      "id": "Skin_Melee_0",
+      "name": "Melee",
+      "hash": 3582790641,
+      "category": "Melee"
+    },
+    {
+      "id": "TD_KNIFE_FRONT",
+      "name": "Knife (Front)",
+      "hash": 3330771311,
+      "category": "Melee"
+    },
+    {
+      "id": "TD_MELEE_FRONT",
+      "name": "Melee (Front)",
+      "hash": 1670263759,
+      "category": "Melee"
+    },
+    {
+      "id": "SCR_TrevorTreeBang",
+      "name": "Trevor Tree Bang",
+      "hash": 3815985316,
+      "category": "Melee"
+    },
+    {
+      "id": "TD_PISTOL_FRONT_KILL",
+      "name": "Pistol (Front, Kill)",
+      "hash": 1418177514,
+      "category": "Gunshots"
+    },
+    {
+      "id": "TD_RIFLE_FRONT_KILL",
+      "name": "Rifle (Front, Kill)",
+      "hash": 1899331999,
+      "category": "Gunshots"
+    },
+    {
+      "id": "TD_SHOTGUN_FRONT_KILL",
+      "name": "Shotgun (Front, Kill)",
+      "hash": 2209570701,
+      "category": "Gunshots"
+    },
+    {
+      "id": "SCR_Dumpster",
+      "name": "Dumpster",
+      "hash": 2963539732,
+      "category": "Scripted"
+    },
+    {
+      "id": "SCR_DogAttack",
+      "name": "Dog Attack",
+      "hash": 3110586096,
+      "category": "Scripted"
+    },
+    {
+      "id": "SCR_Shark",
+      "name": "Shark",
+      "hash": 908608225,
+      "category": "Scripted"
+    },
+    {
+      "id": "SCR_Torture",
+      "name": "Torture",
+      "hash": 1320080061,
+      "category": "Scripted"
+    },
+    {
+      "id": "Dirt_Mud",
+      "name": "Dirt & Mud",
+      "hash": 1827562520,
+      "category": "Misc"
+    },
+    {
+      "id": "Burnt_Ped_0",
+      "name": "Burnt",
+      "hash": 3728531386,
+      "category": "Misc"
+    },
+    {
+      "id": "HOSPITAL_0",
+      "name": "Hospital",
+      "hash": 2538968374,
+      "category": "Misc"
+    },
+    {
+      "id": "Useful_Bits",
+      "name": "Useful Bits",
+      "hash": 718415604,
+      "category": "Misc"
+    }
+  ]
+}

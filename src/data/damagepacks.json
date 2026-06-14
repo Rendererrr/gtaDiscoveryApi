@@ -1,0 +1,35 @@
+{
+  "note": "GTA ped damage/blood packs — the string names passed to APPLY_PED_DAMAGE_PACK(ped, name, damage, mult). id = the pack name (exact, case-sensitive); name = friendly display name; hash = joaat(id) (computed at build). Categorized with friendly names. No images.",
+  "source": "MenyooSP vDamagePacks + common ped damage pack names.",
+  "categories": [
+    "Explosions",
+    "Vehicle",
+    "Melee",
+    "Gunshots",
+    "Scripted",
+    "Misc"
+  ],
+  "damagepacks": [
+    { "id": "Explosion_Med", "name": "Explosion (Medium)", "category": "Explosions" },
+    { "id": "Explosion_Large", "name": "Explosion (Large)", "category": "Explosions" },
+    { "id": "Car_Crash_Light", "name": "Car Crash (Light)", "category": "Vehicle" },
+    { "id": "Car_Crash_Heavy", "name": "Car Crash (Heavy)", "category": "Vehicle" },
+    { "id": "BigHitByVehicle", "name": "Big Hit By Vehicle", "category": "Vehicle" },
+    { "id": "BigRunOverByVehicle", "name": "Big Run Over By Vehicle", "category": "Vehicle" },
+    { "id": "Skin_Melee_0", "name": "Melee", "category": "Melee" },
+    { "id": "TD_KNIFE_FRONT", "name": "Knife (Front)", "category": "Melee" },
+    { "id": "TD_MELEE_FRONT", "name": "Melee (Front)", "category": "Melee" },
+    { "id": "SCR_TrevorTreeBang", "name": "Trevor Tree Bang", "category": "Melee" },
+    { "id": "TD_PISTOL_FRONT_KILL", "name": "Pistol (Front, Kill)", "category": "Gunshots" },
+    { "id": "TD_RIFLE_FRONT_KILL", "name": "Rifle (Front, Kill)", "category": "Gunshots" },
+    { "id": "TD_SHOTGUN_FRONT_KILL", "name": "Shotgun (Front, Kill)", "category": "Gunshots" },
+    { "id": "SCR_Dumpster", "name": "Dumpster", "category": "Scripted" },
+    { "id": "SCR_DogAttack", "name": "Dog Attack", "category": "Scripted" },
+    { "id": "SCR_Shark", "name": "Shark", "category": "Scripted" },
+    { "id": "SCR_Torture", "name": "Torture", "category": "Scripted" },
+    { "id": "Dirt_Mud", "name": "Dirt & Mud", "category": "Misc" },
+    { "id": "Burnt_Ped_0", "name": "Burnt", "category": "Misc" },
+    { "id": "HOSPITAL_0", "name": "Hospital", "category": "Misc" },
+    { "id": "Useful_Bits", "name": "Useful Bits", "category": "Misc" }
+  ]
+}

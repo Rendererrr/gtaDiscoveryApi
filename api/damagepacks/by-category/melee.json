@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "damagepacks",
+    "label": "Damage Packs",
+    "urlPattern": null,
+    "note": "Ped damage/blood packs for APPLY_PED_DAMAGE_PACK(ped, name, damage, mult). id = the pack name; hash = joaat(id). No images. category groups under by-category/."
+  },
+  "group": {
+    "name": "Melee",
+    "key": "Melee",
+    "slug": "melee",
+    "count": 4
+  },
+  "count": 4,
+  "items": [
+    {
+      "id": "Skin_Melee_0",
+      "name": "Melee",
+      "hash": 3582790641,
+      "category": "Melee"
+    },
+    {
+      "id": "TD_KNIFE_FRONT",
+      "name": "Knife (Front)",
+      "hash": 3330771311,
+      "category": "Melee"
+    },
+    {
+      "id": "TD_MELEE_FRONT",
+      "name": "Melee (Front)",
+      "hash": 1670263759,
+      "category": "Melee"
+    },
+    {
+      "id": "SCR_TrevorTreeBang",
+      "name": "Trevor Tree Bang",
+      "hash": 3815985316,
+      "category": "Melee"
+    }
+  ]
+}

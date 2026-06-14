@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "damagepacks",
+    "label": "Damage Packs",
+    "urlPattern": null,
+    "note": "Ped damage/blood packs for APPLY_PED_DAMAGE_PACK(ped, name, damage, mult). id = the pack name; hash = joaat(id). No images. category groups under by-category/."
+  },
+  "group": {
+    "name": "Vehicle",
+    "key": "Vehicle",
+    "slug": "vehicle",
+    "count": 4
+  },
+  "count": 4,
+  "items": [
+    {
+      "id": "Car_Crash_Light",
+      "name": "Car Crash (Light)",
+      "hash": 3869190204,
+      "category": "Vehicle"
+    },
+    {
+      "id": "Car_Crash_Heavy",
+      "name": "Car Crash (Heavy)",
+      "hash": 3099788976,
+      "category": "Vehicle"
+    },
+    {
+      "id": "BigHitByVehicle",
+      "name": "Big Hit By Vehicle",
+      "hash": 2406454601,
+      "category": "Vehicle"
+    },
+    {
+      "id": "BigRunOverByVehicle",
+      "name": "Big Run Over By Vehicle",
+      "hash": 1923868300,
+      "category": "Vehicle"
+    }
+  ]
+}

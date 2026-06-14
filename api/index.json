@@ -47,6 +47,15 @@
       "manifest": "api/clothing/manifest.json"
     },
     {
+      "domain": "damagepacks",
+      "label": "Damage Packs",
+      "itemCount": 21,
+      "categoryCount": 6,
+      "index": "api/damagepacks/index.json",
+      "hashes": "api/damagepacks/hashes.json",
+      "byCategory": "api/damagepacks/by-category/index.json"
+    },
+    {
       "domain": "explosions",
       "label": "Explosions",
       "itemCount": 88,
@@ -54,6 +63,25 @@
       "index": "api/explosions/index.json",
       "hashes": "api/explosions/hashes.json",
       "byCategory": "api/explosions/by-category/index.json"
+    },
+    {
+      "domain": "map",
+      "label": "World Map",
+      "styles": [
+        {
+          "id": "satellite",
+          "image": "assets/map/satellite-8k.jpg"
+        },
+        {
+          "id": "atlas",
+          "image": "assets/map/atlas-8k.png"
+        },
+        {
+          "id": "road",
+          "image": "assets/map/road-8k.jpg"
+        }
+      ],
+      "index": "api/map/index.json"
     },
     {
       "domain": "moods",
@@ -108,6 +136,15 @@
       "byCategory": "api/scenarios/by-category/index.json"
     },
     {
+      "domain": "tattoos",
+      "label": "Tattoos",
+      "itemCount": 1525,
+      "categoryCount": 8,
+      "index": "api/tattoos/index.json",
+      "hashes": "api/tattoos/hashes.json",
+      "byCategory": "api/tattoos/by-category/index.json"
+    },
+    {
       "domain": "vehiclebones",
       "label": "Vehicle Bones",
       "itemCount": 449,
@@ -134,6 +171,15 @@
       "index": "api/vehicleweapons/index.json",
       "hashes": "api/vehicleweapons/hashes.json",
       "byCategory": "api/vehicleweapons/by-category/index.json"
+    },
+    {
+      "domain": "voices",
+      "label": "Voices",
+      "itemCount": 36,
+      "categoryCount": 5,
+      "index": "api/voices/index.json",
+      "hashes": "api/voices/hashes.json",
+      "byCategory": "api/voices/by-category/index.json"
     },
     {
       "domain": "walkstyles",

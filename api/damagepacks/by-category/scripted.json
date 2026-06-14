@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "damagepacks",
+    "label": "Damage Packs",
+    "urlPattern": null,
+    "note": "Ped damage/blood packs for APPLY_PED_DAMAGE_PACK(ped, name, damage, mult). id = the pack name; hash = joaat(id). No images. category groups under by-category/."
+  },
+  "group": {
+    "name": "Scripted",
+    "key": "Scripted",
+    "slug": "scripted",
+    "count": 4
+  },
+  "count": 4,
+  "items": [
+    {
+      "id": "SCR_Dumpster",
+      "name": "Dumpster",
+      "hash": 2963539732,
+      "category": "Scripted"
+    },
+    {
+      "id": "SCR_DogAttack",
+      "name": "Dog Attack",
+      "hash": 3110586096,
+      "category": "Scripted"
+    },
+    {
+      "id": "SCR_Shark",
+      "name": "Shark",
+      "hash": 908608225,
+      "category": "Scripted"
+    },
+    {
+      "id": "SCR_Torture",
+      "name": "Torture",
+      "hash": 1320080061,
+      "category": "Scripted"
+    }
+  ]
+}

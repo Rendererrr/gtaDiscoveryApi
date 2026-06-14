@@ -1,0 +1,27 @@
+{
+  "note": "GTA V world map (multiple visual styles) + the world->image coordinate transform used to place markers (players, blips, positions) on the map. The styles all share one coordinate system (gtamap.xyz Leaflet CRS), so a marker's normalized position is identical on every style; only pixel sizes differ. Calibration is the linear transform proven in a working FiveM radar overlay. game (x,y) -> map pixel -> normalized UV / CSS percent. No joaat hash, no categories.",
+  "source": "Map images: GTA V community renders (satellite 8K, atlas, road). Calibration: gtamap.xyz Leaflet CRS (pixel_x = 0.66304*game_x + 3753.6 ; pixel_y = -0.656*game_y + 5529.6 on the 8192x8192 reference), as used in the Scooby radar overlay.",
+  "calibration": {
+    "reference": { "width": 8192, "height": 8192 },
+    "pixel": { "scaleX": 0.66304, "offsetX": 3753.6, "scaleY": -0.656, "offsetY": 5529.6 }
+  },
+  "defaultStyle": "satellite",
+  "styles": [
+    { "id": "satellite", "name": "Satellite (8K)", "file": "satellite-8k.jpg", "width": 8192, "height": 8192, "format": "jpg",
+      "description": "8K photographic satellite render of San Andreas. High detail, large file (~26 MB)." },
+    { "id": "atlas", "name": "Atlas (8K)", "file": "atlas-8k.png", "width": 8192, "height": 8192, "format": "png",
+      "description": "8K stylized in-game atlas map (green land / cream desert / blue water). Clean, readable, good for overlays (~19 MB)." },
+    { "id": "road", "name": "Road (8K)", "file": "road-8k.jpg", "width": 8192, "height": 8192, "format": "jpg",
+      "description": "8K pastel road map — muted land with prominent road/highway network. Lightest file (~7 MB)." }
+  ],
+  "landmarks": [
+    { "id": "maze_bank_tower",        "name": "Maze Bank Tower",         "x": -75.0,   "y": -825.0,  "z": 326.0 },
+    { "id": "lsia_runway",            "name": "LS International Airport", "x": -1336.0, "y": -3044.0, "z": 14.0 },
+    { "id": "sandy_shores_airfield",  "name": "Sandy Shores Airfield",   "x": 1700.0,  "y": 3290.0,  "z": 41.0 },
+    { "id": "paleto_bay",             "name": "Paleto Bay",              "x": -110.0,  "y": 6462.0,  "z": 31.0 },
+    { "id": "mount_chiliad",          "name": "Mount Chiliad",           "x": 450.0,   "y": 5600.0,  "z": 800.0 },
+    { "id": "vinewood_sign",          "name": "Vinewood Sign",           "x": 725.0,   "y": 1200.0,  "z": 350.0 },
+    { "id": "del_perro_pier",         "name": "Del Perro Pier",          "x": -1850.0, "y": -1230.0, "z": 13.0 },
+    { "id": "fort_zancudo",           "name": "Fort Zancudo",            "x": -2360.0, "y": 3245.0,  "z": 32.0 }
+  ]
+}

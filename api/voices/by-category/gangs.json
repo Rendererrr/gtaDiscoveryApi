@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "voices",
+    "label": "Voices",
+    "urlPattern": null,
+    "note": "Ped ambient voice names for SET_AMBIENT_VOICE_NAME(ped, name). id = the voice name; hash = joaat(id). No images. category groups under by-category/."
+  },
+  "group": {
+    "name": "Gangs",
+    "key": "Gangs",
+    "slug": "gangs",
+    "count": 4
+  },
+  "count": 4,
+  "items": [
+    {
+      "id": "G_M_Y_BALLAS_01_BLACK_FULL_01",
+      "name": "Ballas",
+      "hash": 1989045013,
+      "category": "Gangs"
+    },
+    {
+      "id": "G_M_Y_FAMILY_01_BLACK_FULL_01",
+      "name": "Families",
+      "hash": 109157007,
+      "category": "Gangs"
+    },
+    {
+      "id": "G_M_Y_MEXGANG_01_LATINO_FULL_01",
+      "name": "Mexican Gang",
+      "hash": 143900608,
+      "category": "Gangs"
+    },
+    {
+      "id": "G_M_Y_LOST_01_WHITE_FULL_01",
+      "name": "The Lost MC",
+      "hash": 2728112704,
+      "category": "Gangs"
+    }
+  ]
+}

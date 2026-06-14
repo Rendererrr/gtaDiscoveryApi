@@ -1,0 +1,236 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "map",
+    "label": "World Map",
+    "note": "GTA V world map in several styles + the linear world->image transform for placing markers. All styles share one coordinate system, so a marker's normalized position is identical on every style. world (x,y) -> UV: u = calibration.uv.scaleX*x + offsetX ; v = scaleY*y + offsetY (scaleY is negative: game Y is north-up, image Y is down). Multiply UV by 100 for a CSS left/top %, or by a style's width/height for pixels (or use that style's pixelCalibration directly). Inverse: x = (u - uv.offsetX)/uv.scaleX ; y = (v - uv.offsetY)/uv.scaleY. landmarks[] carry pre-computed uv/percent so the calibration is verifiable."
+  },
+  "defaultStyle": "satellite",
+  "styleCount": 3,
+  "styles": [
+    {
+      "id": "satellite",
+      "name": "Satellite (8K)",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/map/satellite-8k.jpg",
+      "file": "satellite-8k.jpg",
+      "width": 8192,
+      "height": 8192,
+      "format": "jpg",
+      "bytes": 27115510,
+      "default": true,
+      "description": "8K photographic satellite render of San Andreas. High detail, large file (~26 MB).",
+      "pixelCalibration": {
+        "scaleX": 0.66304,
+        "offsetX": 3753.6,
+        "scaleY": -0.656,
+        "offsetY": 5529.6
+      }
+    },
+    {
+      "id": "atlas",
+      "name": "Atlas (8K)",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/map/atlas-8k.png",
+      "file": "atlas-8k.png",
+      "width": 8192,
+      "height": 8192,
+      "format": "png",
+      "bytes": 20126929,
+      "default": false,
+      "description": "8K stylized in-game atlas map (green land / cream desert / blue water). Clean, readable, good for overlays (~19 MB).",
+      "pixelCalibration": {
+        "scaleX": 0.66304,
+        "offsetX": 3753.6,
+        "scaleY": -0.656,
+        "offsetY": 5529.6
+      }
+    },
+    {
+      "id": "road",
+      "name": "Road (8K)",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/map/road-8k.jpg",
+      "file": "road-8k.jpg",
+      "width": 8192,
+      "height": 8192,
+      "format": "jpg",
+      "bytes": 7619384,
+      "default": false,
+      "description": "8K pastel road map — muted land with prominent road/highway network. Lightest file (~7 MB).",
+      "pixelCalibration": {
+        "scaleX": 0.66304,
+        "offsetX": 3753.6,
+        "scaleY": -0.656,
+        "offsetY": 5529.6
+      }
+    }
+  ],
+  "calibration": {
+    "note": "Authoritative input is `pixel` on the reference image. `uv` is the same transform normalized to 0..1 (shared by every style). Per-style pixel constants live on each style as `pixelCalibration`. `inverse` recovers world coords from UV.",
+    "reference": {
+      "width": 8192,
+      "height": 8192
+    },
+    "pixel": {
+      "scaleX": 0.66304,
+      "offsetX": 3753.6,
+      "scaleY": -0.656,
+      "offsetY": 5529.6
+    },
+    "uv": {
+      "scaleX": 0.0000809375,
+      "offsetX": 0.458203125,
+      "scaleY": -0.0000800781,
+      "offsetY": 0.675
+    },
+    "inverse": {
+      "formulaX": "x = (u - uv.offsetX) / uv.scaleX",
+      "formulaY": "y = (v - uv.offsetY) / uv.scaleY"
+    }
+  },
+  "worldBounds": {
+    "minX": -5661.2,
+    "maxX": 6694.02,
+    "minY": -4058.54,
+    "maxY": 8429.27
+  },
+  "landmarkCount": 8,
+  "landmarks": [
+    {
+      "id": "maze_bank_tower",
+      "name": "Maze Bank Tower",
+      "world": {
+        "x": -75,
+        "y": -825,
+        "z": 326
+      },
+      "uv": {
+        "u": 0.452133,
+        "v": 0.741064
+      },
+      "percent": {
+        "left": 45.213,
+        "top": 74.106
+      }
+    },
+    {
+      "id": "lsia_runway",
+      "name": "LS International Airport",
+      "world": {
+        "x": -1336,
+        "y": -3044,
+        "z": 14
+      },
+      "uv": {
+        "u": 0.350071,
+        "v": 0.918758
+      },
+      "percent": {
+        "left": 35.007,
+        "top": 91.876
+      }
+    },
+    {
+      "id": "sandy_shores_airfield",
+      "name": "Sandy Shores Airfield",
+      "world": {
+        "x": 1700,
+        "y": 3290,
+        "z": 41
+      },
+      "uv": {
+        "u": 0.595797,
+        "v": 0.411543
+      },
+      "percent": {
+        "left": 59.58,
+        "top": 41.154
+      }
+    },
+    {
+      "id": "paleto_bay",
+      "name": "Paleto Bay",
+      "world": {
+        "x": -110,
+        "y": 6462,
+        "z": 31
+      },
+      "uv": {
+        "u": 0.4493,
+        "v": 0.157535
+      },
+      "percent": {
+        "left": 44.93,
+        "top": 15.754
+      }
+    },
+    {
+      "id": "mount_chiliad",
+      "name": "Mount Chiliad",
+      "world": {
+        "x": 450,
+        "y": 5600,
+        "z": 800
+      },
+      "uv": {
+        "u": 0.494625,
+        "v": 0.226563
+      },
+      "percent": {
+        "left": 49.463,
+        "top": 22.656
+      }
+    },
+    {
+      "id": "vinewood_sign",
+      "name": "Vinewood Sign",
+      "world": {
+        "x": 725,
+        "y": 1200,
+        "z": 350
+      },
+      "uv": {
+        "u": 0.516883,
+        "v": 0.578906
+      },
+      "percent": {
+        "left": 51.688,
+        "top": 57.891
+      }
+    },
+    {
+      "id": "del_perro_pier",
+      "name": "Del Perro Pier",
+      "world": {
+        "x": -1850,
+        "y": -1230,
+        "z": 13
+      },
+      "uv": {
+        "u": 0.308469,
+        "v": 0.773496
+      },
+      "percent": {
+        "left": 30.847,
+        "top": 77.35
+      }
+    },
+    {
+      "id": "fort_zancudo",
+      "name": "Fort Zancudo",
+      "world": {
+        "x": -2360,
+        "y": 3245,
+        "z": 32
+      },
+      "uv": {
+        "u": 0.267191,
+        "v": 0.415146
+      },
+      "percent": {
+        "left": 26.719,
+        "top": 41.515
+      }
+    }
+  ]
+}

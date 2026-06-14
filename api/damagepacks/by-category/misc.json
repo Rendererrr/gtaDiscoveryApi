@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "damagepacks",
+    "label": "Damage Packs",
+    "urlPattern": null,
+    "note": "Ped damage/blood packs for APPLY_PED_DAMAGE_PACK(ped, name, damage, mult). id = the pack name; hash = joaat(id). No images. category groups under by-category/."
+  },
+  "group": {
+    "name": "Misc",
+    "key": "Misc",
+    "slug": "misc",
+    "count": 4
+  },
+  "count": 4,
+  "items": [
+    {
+      "id": "Dirt_Mud",
+      "name": "Dirt & Mud",
+      "hash": 1827562520,
+      "category": "Misc"
+    },
+    {
+      "id": "Burnt_Ped_0",
+      "name": "Burnt",
+      "hash": 3728531386,
+      "category": "Misc"
+    },
+    {
+      "id": "HOSPITAL_0",
+      "name": "Hospital",
+      "hash": 2538968374,
+      "category": "Misc"
+    },
+    {
+      "id": "Useful_Bits",
+      "name": "Useful Bits",
+      "hash": 718415604,
+      "category": "Misc"
+    }
+  ]
+}

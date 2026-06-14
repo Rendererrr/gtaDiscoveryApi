@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "damagepacks",
+    "label": "Damage Packs",
+    "urlPattern": null,
+    "note": "Ped damage/blood packs for APPLY_PED_DAMAGE_PACK(ped, name, damage, mult). id = the pack name; hash = joaat(id). No images. category groups under by-category/."
+  },
+  "count": 6,
+  "groups": [
+    {
+      "name": "Melee",
+      "key": "Melee",
+      "slug": "melee",
+      "count": 4,
+      "path": "api/damagepacks/by-category/melee.json"
+    },
+    {
+      "name": "Misc",
+      "key": "Misc",
+      "slug": "misc",
+      "count": 4,
+      "path": "api/damagepacks/by-category/misc.json"
+    },
+    {
+      "name": "Scripted",
+      "key": "Scripted",
+      "slug": "scripted",
+      "count": 4,
+      "path": "api/damagepacks/by-category/scripted.json"
+    },
+    {
+      "name": "Vehicle",
+      "key": "Vehicle",
+      "slug": "vehicle",
+      "count": 4,
+      "path": "api/damagepacks/by-category/vehicle.json"
+    },
+    {
+      "name": "Gunshots",
+      "key": "Gunshots",
+      "slug": "gunshots",
+      "count": 3,
+      "path": "api/damagepacks/by-category/gunshots.json"
+    },
+    {
+      "name": "Explosions",
+      "key": "Explosions",
+      "slug": "explosions",
+      "count": 2,
+      "path": "api/damagepacks/by-category/explosions.json"
+    }
+  ]
+}

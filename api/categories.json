@@ -44,6 +44,44 @@
         "path": "api/animations/by-category/bike-tricks.json"
       }
     ],
+    "damagepacks": [
+      {
+        "name": "Melee",
+        "slug": "melee",
+        "count": 4,
+        "path": "api/damagepacks/by-category/melee.json"
+      },
+      {
+        "name": "Misc",
+        "slug": "misc",
+        "count": 4,
+        "path": "api/damagepacks/by-category/misc.json"
+      },
+      {
+        "name": "Scripted",
+        "slug": "scripted",
+        "count": 4,
+        "path": "api/damagepacks/by-category/scripted.json"
+      },
+      {
+        "name": "Vehicle",
+        "slug": "vehicle",
+        "count": 4,
+        "path": "api/damagepacks/by-category/vehicle.json"
+      },
+      {
+        "name": "Gunshots",
+        "slug": "gunshots",
+        "count": 3,
+        "path": "api/damagepacks/by-category/gunshots.json"
+      },
+      {
+        "name": "Explosions",
+        "slug": "explosions",
+        "count": 2,
+        "path": "api/damagepacks/by-category/explosions.json"
+      }
+    ],
     "explosions": [
       {
         "name": "Vehicle Weapons",
@@ -2876,6 +2914,56 @@
         "path": "api/scenarios/by-category/movement-misc.json"
       }
     ],
+    "tattoos": [
+      {
+        "name": "Torso",
+        "slug": "torso",
+        "count": 400,
+        "path": "api/tattoos/by-category/torso.json"
+      },
+      {
+        "name": "Back",
+        "slug": "back",
+        "count": 280,
+        "path": "api/tattoos/by-category/back.json"
+      },
+      {
+        "name": "Right Arm",
+        "slug": "right-arm",
+        "count": 248,
+        "path": "api/tattoos/by-category/right-arm.json"
+      },
+      {
+        "name": "Left Arm",
+        "slug": "left-arm",
+        "count": 220,
+        "path": "api/tattoos/by-category/left-arm.json"
+      },
+      {
+        "name": "Left Leg",
+        "slug": "left-leg",
+        "count": 128,
+        "path": "api/tattoos/by-category/left-leg.json"
+      },
+      {
+        "name": "Head",
+        "slug": "head",
+        "count": 121,
+        "path": "api/tattoos/by-category/head.json"
+      },
+      {
+        "name": "Right Leg",
+        "slug": "right-leg",
+        "count": 103,
+        "path": "api/tattoos/by-category/right-leg.json"
+      },
+      {
+        "name": "Neck",
+        "slug": "neck",
+        "count": 25,
+        "path": "api/tattoos/by-category/neck.json"
+      }
+    ],
     "vehiclebones": [
       {
         "name": "Aircraft",
@@ -3144,6 +3232,38 @@
         "slug": "flamethrowers-other",
         "count": 3,
         "path": "api/vehicleweapons/by-category/flamethrowers-other.json"
+      }
+    ],
+    "voices": [
+      {
+        "name": "Story Characters",
+        "slug": "story-characters",
+        "count": 13,
+        "path": "api/voices/by-category/story-characters.json"
+      },
+      {
+        "name": "Ambient Male",
+        "slug": "ambient-male",
+        "count": 12,
+        "path": "api/voices/by-category/ambient-male.json"
+      },
+      {
+        "name": "Ambient Female",
+        "slug": "ambient-female",
+        "count": 5,
+        "path": "api/voices/by-category/ambient-female.json"
+      },
+      {
+        "name": "Gangs",
+        "slug": "gangs",
+        "count": 4,
+        "path": "api/voices/by-category/gangs.json"
+      },
+      {
+        "name": "Police & Security",
+        "slug": "police-security",
+        "count": 2,
+        "path": "api/voices/by-category/police-security.json"
       }
     ],
     "weapons": [

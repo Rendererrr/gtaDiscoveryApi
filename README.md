@@ -35,6 +35,7 @@ There are two domain shapes:
 | weaponcarrystyles | Weapon carry/holding clipsets (15) with joaat hashes | [`api/weaponcarrystyles/index.json`](./api/weaponcarrystyles/index.json) |
 | aimstyles | Weapon aim/strafe styles (9) with joaat hashes | [`api/aimstyles/index.json`](./api/aimstyles/index.json) |
 | animflags | Scripted anim flags (31 bit flags + 13 presets) | [`api/animflags/index.json`](./api/animflags/index.json) |
+| map      | World map (satellite) + world→image marker transform | [`api/map/index.json`](./api/map/index.json) |
 
 Read the discovery root to enumerate what's available:
 
@@ -844,6 +845,113 @@ await animflags.valueForPreset('Cancelable Animation');  // -> 130
 
 ---
 
+## World Map domain
+
+The GTA V world map in several **visual styles**, plus the **linear world→image
+transform** needed to draw markers (players, blips, arbitrary positions) on it —
+the same calibration a working FiveM radar overlay uses. No joaat hash, no
+categories; one descriptive `index.json`.
+
+All styles share one coordinate system (the gtamap.xyz Leaflet CRS), so a
+marker's **normalized** position (`uv` / CSS `percent`) is **identical on every
+style** — only the pixel grid differs. Styles shipped today:
+
+| Style | Image | Size | Notes |
+|-------|-------|------|-------|
+| `satellite` | `satellite-8k.jpg` | 8192×8192 (~26 MB) | 8K photographic San Andreas render |
+| `atlas` | `atlas-8k.png` | 8192×8192 (~19 MB) | 8K stylized in-game atlas (green/cream/blue) |
+| `road` | `road-8k.jpg` | 8192×8192 (~7 MB) | 8K pastel road map (prominent road network) |
+
+All three share the same 8192×8192 grid, so every style's `pixelCalibration` is
+identical — only the artwork differs.
+
+```jsonc
+// GET api/map/index.json
+{
+  "defaultStyle": "satellite",
+  "styles": [
+    { "id": "satellite", "name": "Satellite (8K)", "url": "…/assets/map/satellite-8k.jpg",
+      "width": 8192, "height": 8192, "format": "jpg", "bytes": 27115510, "default": true,
+      "pixelCalibration": { "scaleX": 0.66304, "offsetX": 3753.6, "scaleY": -0.656, "offsetY": 5529.6 } },
+    { "id": "atlas", "name": "Atlas (8K)", "url": "…/assets/map/atlas-8k.png", "width": 8192, "height": 8192, "...": "…" },
+    { "id": "road",  "name": "Road (8K)",  "url": "…/assets/map/road-8k.jpg", "width": 8192, "height": 8192, "...": "…" }
+  ],
+  "calibration": {
+    "reference": { "width": 8192, "height": 8192 },
+    "pixel": { "scaleX": 0.66304, "offsetX": 3753.6, "scaleY": -0.656, "offsetY": 5529.6 },
+    "uv":    { "scaleX": 8.09375e-5, "offsetX": 0.458203125, "scaleY": -8.00781e-5, "offsetY": 0.675 },
+    "inverse": { "formulaX": "x = (u - uv.offsetX) / uv.scaleX", "formulaY": "y = (v - uv.offsetY) / uv.scaleY" }
+  },
+  "worldBounds": { "minX": -5661.2, "maxX": 6694.02, "minY": -4058.54, "maxY": 8429.27 },
+  "landmarks": [
+    { "id": "maze_bank_tower", "name": "Maze Bank Tower", "world": { "x": -75, "y": -825, "z": 326 },
+      "uv": { "u": 0.452133, "v": 0.741064 }, "percent": { "left": 45.213, "top": 74.106 } }
+  ]
+}
+```
+
+### Placing markers
+
+The transform is linear. **world → UV** (style-independent, 0..1):
+
+```
+u = 8.09375e-5  * game_x + 0.458203125
+v = -8.00781e-5 * game_y + 0.675          // scaleY is negative: game Y is north-up, image Y is down
+```
+
+Multiply `u,v` by **100** for a CSS `left/top` %, or by a style's `width/height`
+for **pixels** (or use that style's `pixelCalibration` directly). The inverse
+recovers world coords from UV. `landmarks[]` ship with pre-computed `uv`/`percent`
+so you can eyeball that the calibration lines up.
+
+A player blip is then just: take each player's `(x, y)`, convert to `percent`,
+and absolutely-position a dot at `left%, top%` over the map `<img>`.
+
+```html
+<div style="position:relative">
+  <img id="gtamap" src="…/assets/map/satellite-8k.jpg" style="width:100%">
+  <!-- a dot is placed per player -->
+</div>
+<script type="module">
+import map from 'https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/client/map.js';
+
+const wrap = document.querySelector('#gtamap').parentElement;
+for (const p of players) {                                  // p = { name, x, y }
+  const { percent } = await map.marker(p.x, p.y, { label: p.name });
+  const dot = document.createElement('div');
+  dot.title = p.name;
+  dot.style.cssText =
+    `position:absolute;left:${percent.left}%;top:${percent.top}%;` +
+    `width:10px;height:10px;margin:-5px;border-radius:50%;background:#3df;border:1px solid #000`;
+  wrap.appendChild(dot);
+}
+</script>
+```
+
+### Quick start (JavaScript)
+
+```js
+import map from 'https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/client/map.js';
+
+await map.getStyles();                          // [{ id:'satellite', name:'Satellite (8K)', url, width, ... }]
+await map.imageUrl('satellite');                // the image URL (omit id → default style)
+await map.worldToPercent(-75, -825);            // { left: 45.21, top: 74.11 }  — CSS % over the <img>
+await map.worldToUV(-75, -825);                 // { u: 0.4521, v: 0.7411 }
+await map.worldToPixel(-75, -825, 'satellite'); // { x: 3703.87, y: 6070.8 }   — pixels on that image
+await map.pixelToWorld(3703.87, 6070.8, 'satellite'); // { x: -75, y: -825 }   — back to game coords
+await map.marker(player.x, player.y, { label: player.name }); // ready blip: world + uv + percent + your props
+await map.markers(players);                     // many at once: [{ x, y, ...props }] → marker[]
+await map.inBounds(x, y);                        // is this position on the mapped area?
+await map.getLandmarks();                        // example landmarks for calibration checks
+```
+
+> **More styles drop in.** Adding a road style (or any other render that shares
+> the gtamap.xyz CRS) is a new `assets/map/*` file + one entry in
+> `src/data/map.json` `styles[]` — no calibration or URL changes; the build
+> derives that style's `pixelCalibration` from its dimensions.
+
+---
+
 ## Repository layout
 
 ```
@@ -877,6 +985,7 @@ src/
                                #   weaponcarrystyles.json (weapon carry clipsets: id + name, no categories)
                                #   aimstyles.json (weapon aim styles: id + name, no categories)
                                #   animflags.json (eScriptedAnimFlags: 31 bit flags + 13 presets)
+                               #   map.json (world map styles[] + world->image calibration + landmarks)
   lib/fs.mjs                   # shared fs helpers (folder-derived domains)
   lib/joaat.mjs                # GTA joaat hash
   lib/catalog.mjs              # shared writer for flat domains (+ slugify, groupings)
@@ -897,6 +1006,7 @@ src/
   build/weaponcarrystyles.mjs  # weapon carry styles builder (joaat hashes, no categories)
   build/aimstyles.mjs          # aim styles builder (joaat hashes, no categories)
   build/animflags.mjs          # anim flags builder (bit flags + computed presets)
+  build/map.mjs                # world map builder (styles[] + derived UV/pixel calibration)
 client/
   index.js                     # discovery + namespaced domain helpers
   clothing.js                  # clothing helpers
@@ -912,6 +1022,7 @@ client/
   weaponcarrystyles.js         # weapon carry styles helpers (byId/byHash/search)
   aimstyles.js                 # aim styles helpers (byId/byHash/search)
   animflags.js                 # anim flags helpers (getFlags/getPresets/combine/decode)
+  map.js                       # world map helpers (worldToPercent/UV/Pixel, marker, getStyles)
   _flat.js                     # shared flat-domain client factory
   peds.js  vehicles.js  weapons.js
 ```

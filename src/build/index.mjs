@@ -30,6 +30,10 @@ import * as weaponcarrystyles from './weaponcarrystyles.mjs';
 import * as aimstyles from './aimstyles.mjs';
 import * as animflags from './animflags.mjs';
 import * as moods from './moods.mjs';
+import * as damagepacks from './damagepacks.mjs';
+import * as voices from './voices.mjs';
+import * as tattoos from './tattoos.mjs';
+import * as map from './map.mjs';
 
 const DOMAINS = [
   clothing,
@@ -49,6 +53,10 @@ const DOMAINS = [
   aimstyles,
   animflags,
   moods,
+  damagepacks,
+  voices,
+  tattoos,
+  map,
 ];
 
 const ROOT = join(import.meta.dirname, '..', '..');

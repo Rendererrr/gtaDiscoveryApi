@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "tattoos",
+    "label": "Tattoos",
+    "urlPattern": null,
+    "note": "Ped tattoos (decorations) for ADD_PED_DECORATION_FROM_HASHES(ped, joaat(collection), joaat(id)). model = owning ped model hash (filter by selected ped). category = body zone. No images. category groups under by-category/."
+  },
+  "count": 8,
+  "groups": [
+    {
+      "name": "Torso",
+      "key": "Torso",
+      "slug": "torso",
+      "count": 400,
+      "path": "api/tattoos/by-category/torso.json"
+    },
+    {
+      "name": "Back",
+      "key": "Back",
+      "slug": "back",
+      "count": 280,
+      "path": "api/tattoos/by-category/back.json"
+    },
+    {
+      "name": "Right Arm",
+      "key": "Right Arm",
+      "slug": "right-arm",
+      "count": 248,
+      "path": "api/tattoos/by-category/right-arm.json"
+    },
+    {
+      "name": "Left Arm",
+      "key": "Left Arm",
+      "slug": "left-arm",
+      "count": 220,
+      "path": "api/tattoos/by-category/left-arm.json"
+    },
+    {
+      "name": "Left Leg",
+      "key": "Left Leg",
+      "slug": "left-leg",
+      "count": 128,
+      "path": "api/tattoos/by-category/left-leg.json"
+    },
+    {
+      "name": "Head",
+      "key": "Head",
+      "slug": "head",
+      "count": 121,
+      "path": "api/tattoos/by-category/head.json"
+    },
+    {
+      "name": "Right Leg",
+      "key": "Right Leg",
+      "slug": "right-leg",
+      "count": 103,
+      "path": "api/tattoos/by-category/right-leg.json"
+    },
+    {
+      "name": "Neck",
+      "key": "Neck",
+      "slug": "neck",
+      "count": 25,
+      "path": "api/tattoos/by-category/neck.json"
+    }
+  ]
+}

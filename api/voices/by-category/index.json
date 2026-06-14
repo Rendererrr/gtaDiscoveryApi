@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "voices",
+    "label": "Voices",
+    "urlPattern": null,
+    "note": "Ped ambient voice names for SET_AMBIENT_VOICE_NAME(ped, name). id = the voice name; hash = joaat(id). No images. category groups under by-category/."
+  },
+  "count": 5,
+  "groups": [
+    {
+      "name": "Story Characters",
+      "key": "Story Characters",
+      "slug": "story-characters",
+      "count": 13,
+      "path": "api/voices/by-category/story-characters.json"
+    },
+    {
+      "name": "Ambient Male",
+      "key": "Ambient Male",
+      "slug": "ambient-male",
+      "count": 12,
+      "path": "api/voices/by-category/ambient-male.json"
+    },
+    {
+      "name": "Ambient Female",
+      "key": "Ambient Female",
+      "slug": "ambient-female",
+      "count": 5,
+      "path": "api/voices/by-category/ambient-female.json"
+    },
+    {
+      "name": "Gangs",
+      "key": "Gangs",
+      "slug": "gangs",
+      "count": 4,
+      "path": "api/voices/by-category/gangs.json"
+    },
+    {
+      "name": "Police & Security",
+      "key": "Police & Security",
+      "slug": "police-security",
+      "count": 2,
+      "path": "api/voices/by-category/police-security.json"
+    }
+  ]
+}
