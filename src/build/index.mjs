@@ -29,6 +29,7 @@ import * as walkstyles from './walkstyles.mjs';
 import * as weaponcarrystyles from './weaponcarrystyles.mjs';
 import * as aimstyles from './aimstyles.mjs';
 import * as animflags from './animflags.mjs';
+import * as moods from './moods.mjs';
 
 const DOMAINS = [
   clothing,
@@ -47,6 +48,7 @@ const DOMAINS = [
   weaponcarrystyles,
   aimstyles,
   animflags,
+  moods,
 ];
 
 const ROOT = join(import.meta.dirname, '..', '..');

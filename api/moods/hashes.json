@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "moods",
+    "label": "Facial Moods",
+    "note": "Ped facial mood overrides for SET_FACIAL_IDLE_ANIM_OVERRIDE(ped, id, \"\"). id = the mood token string; hash = joaat(id). Friendly display names, no categories, no images. Reverse hash -> { id, name } in hashes.json."
+  },
+  "count": 9,
+  "hashes": {
+    "397888765": {
+      "id": "mood_angry_1",
+      "name": "Angry"
+    },
+    "1389417407": {
+      "id": "mood_sulk_1",
+      "name": "Sulk"
+    },
+    "2202839393": {
+      "id": "mood_aiming_1",
+      "name": "Aiming"
+    },
+    "2497296277": {
+      "id": "mood_happy_1",
+      "name": "Happy"
+    },
+    "2704854078": {
+      "id": "mood_injured_1",
+      "name": "Injured"
+    },
+    "3140738181": {
+      "id": "mood_drunk_1",
+      "name": "Drunk"
+    },
+    "3178796889": {
+      "id": "mood_normal_1",
+      "name": "Normal"
+    },
+    "3186879920": {
+      "id": "mood_dead_1",
+      "name": "Dead"
+    },
+    "4122245042": {
+      "id": "mood_stressed_1",
+      "name": "Stressed"
+    }
+  }
+}
