@@ -2,7 +2,7 @@
 
 A **static JSON API** for GTA 5 / FiveM game assets, served straight from the [jsDelivr](https://www.jsdelivr.com/) CDN — no server, no rate limits, free hosting on GitHub.
 
-The API is split into **domains**: **clothing**, **peds**, **vehicles**, and **weapons**. More slot in alongside without disturbing the existing endpoints.
+The API is split into **domains** — **clothing**, **peds**, **vehicles**, **weapons**, **objects**, **explosions**, **particles**, **animations**, **pedbones**, **vehiclebones**, **scenarios**, and **vehicleweapons** (see the table below). More slot in alongside without disturbing the existing endpoints.
 
 ```
 api/index.json                 # discovery root — lists every domain
@@ -28,6 +28,8 @@ There are two domain shapes:
 | animations | 204 curated (6 categories) + full list (269,414 anims in 20,179 dicts) | [`api/animations/index.json`](./api/animations/index.json) |
 | pedbones | Ped skeleton bones (98, 9 body regions) with bone IDs | [`api/pedbones/index.json`](./api/pedbones/index.json) |
 | vehiclebones | Vehicle bones (449, 13 categories) with joaat hashes | [`api/vehiclebones/index.json`](./api/vehiclebones/index.json) |
+| scenarios | Ped/world scenarios (247, 9 categories) with joaat hashes | [`api/scenarios/index.json`](./api/scenarios/index.json) |
+| vehicleweapons | Vehicle weapons (150, 8 categories) with archetype hashes | [`api/vehicleweapons/index.json`](./api/vehicleweapons/index.json) |
 
 Read the discovery root to enumerate what's available:
 
@@ -382,17 +384,18 @@ import discovery from 'https://rendererrr.github.io/gtaDiscoveryApi/client/index
 await discovery.byHash(3078201489);        // { domain: 'vehicles', id: 'adder', name: 'Adder' }
 ```
 
-The reverse map covers everything with a `hash` (peds 848, vehicles 861, weapons 103, objects
-21,634 — only the one weapon with an unknown codename is omitted; the combined `api/hashes.json`
-is ~23.4k entries). Going the other way (name → hash) is already in the catalog: every item
-carries its own `hash`.
+The reverse map covers every domain that carries a `hash` — peds 848, vehicles 861, weapons 104,
+objects 21,634, explosions 88, vehiclebones 449, scenarios 247, vehicleweapons 150 — for a
+combined `api/hashes.json` of ~24.4k entries (particles/animations have no joaat hash, and
+pedbones use a separate `boneId` map). Going the other way (name → hash) is already in the
+catalog: every item carries its own `hash`.
 
 ### List by category or DLC (static endpoints)
 
 Because the API is static (no query params), the build pre-generates one JSON file per category
 and per DLC, so you can fetch exactly the slice you want instead of downloading the full catalog
-and filtering. Available for **all three flat domains** — peds, vehicles and weapons — by
-category **and** by DLC.
+and filtering. **by-category** is available for every flat domain; **by-dlc** for the domains
+whose items carry a DLC tag (peds, vehicles, weapons).
 
 ```
 api/<domain>/by-category/index.json        # { groups: [{ name, slug, count, path }] }
@@ -672,6 +675,76 @@ await vehiclebones.byCategory('Wheels & Suspension');
 
 ---
 
+## Scenarios domain
+
+The 247 GTA **ped/world scenarios** — the string names passed to natives like
+`TASK_START_SCENARIO_IN_PLACE` / `TASK_START_SCENARIO_AT_POSITION` (the ambient activities NPCs
+play: leaning, smoking, guards, animals, parked vehicles, etc.). Given friendly names and sorted
+into **9 categories** (Human – Idle & Leisure, Human – Sport & Fitness, Human – Work & Services,
+Human – Criminal & Lowlife, Seating & Props, Animals & Wildlife, Vehicles, Scripted (Code),
+Movement & Misc). No images.
+
+`id` is the **exact scenario string** (what the native consumes); `hash = joaat(id)` — so reverse
+hash lookup works (per-domain `hashes.json` and the combined `api/hashes.json`).
+
+```jsonc
+// GET api/scenarios/index.json -> items[]
+{ "id": "WORLD_HUMAN_YOGA", "name": "Yoga", "hash": 4163616077, "category": "Human – Sport & Fitness" }
+```
+
+Same endpoints + client as every flat domain — list categories, list by category, reverse hash:
+```
+api/scenarios/by-category/index.json     # list all 9 categories
+api/scenarios/by-category/<slug>.json    # e.g. .../by-category/animals-wildlife.json
+api/scenarios/hashes.json                # reverse joaat -> { id, name, category }
+```
+```js
+import scenarios from 'https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/client/scenarios.js';
+await scenarios.byId('WORLD_HUMAN_YOGA');       // { name:'Yoga', hash, category }
+await scenarios.byHash(4163616077);             // reverse → the scenario
+await scenarios.byCategory('Animals & Wildlife');
+await scenarios.getCategories();                // the 9 categories
+```
+
+---
+
+## Vehicle weapons domain
+
+The 150 GTA **vehicle weapons** (`VEHICLE_WEAPON_*` archetypes) — tank cannons, jet/heli MGs and
+miniguns, missiles, turrets, the Arena War / Benny's 50-cals, Oppressor/Deluxo/Scramjet/Khanjali
+weapons, etc. Given friendly names and sorted into **8 categories** (Machine Guns, Miniguns,
+Cannons, Missiles & Rockets, Grenade & Mortar Launchers, Turrets, Flamethrowers & Other,
+Utility & Systems). No images.
+
+`id` is the `VEHICLE_WEAPON_*` archetype string; **`hash` is the authoritative joaat archetype
+hash** (the value `GET_HASH_KEY` resolves, used with the vehicle-weapon natives). Reverse hash
+lookup works (per-domain `hashes.json` + the combined `api/hashes.json`).
+
+```jsonc
+// GET api/vehicleweapons/index.json -> items[]
+{ "id": "VEHICLE_WEAPON_TANK", "name": "Tank Cannon", "hash": 1945616459, "category": "Cannons" }
+```
+
+> **`hash` is stored, not recomputed.** For all but two entries `hash == joaat(id)`; the raw
+> archetype string for `Revolver MG` and `Monster3 GL Kinetic` is a best guess, so the stored
+> `hash` (authoritative) is the source of truth — `byHash` is exact for every item.
+
+Same endpoints + client as every flat domain — list categories, list by category, reverse hash:
+```
+api/vehicleweapons/by-category/index.json     # list all 8 categories
+api/vehicleweapons/by-category/<slug>.json    # e.g. .../by-category/missiles-rockets.json
+api/vehicleweapons/hashes.json                # reverse joaat -> { id, name, category }
+```
+```js
+import vehicleweapons from 'https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/client/vehicleweapons.js';
+await vehicleweapons.byId('VEHICLE_WEAPON_TANK');   // { name:'Tank Cannon', hash, category }
+await vehicleweapons.byHash(1945616459);            // reverse → the weapon
+await vehicleweapons.byCategory('Missiles & Rockets');
+await vehicleweapons.getCategories();               // the 8 categories
+```
+
+---
+
 ## Repository layout
 
 ```
@@ -699,6 +772,8 @@ src/
                                #   animations.curated.json (curated anims: name + category)
                                #   pedbones.json (ped bones: name + boneId + category)
                                #   vehiclebones.json (vehicle bones: name + hash + category)
+                               #   scenarios.json (ped/world scenarios: name + category, 9 cats)
+                               #   vehicleweapons.json (vehicle weapons: id + name + hash + category)
   lib/fs.mjs                   # shared fs helpers (folder-derived domains)
   lib/joaat.mjs                # GTA joaat hash
   lib/catalog.mjs              # shared writer for flat domains (+ slugify, groupings)
@@ -713,6 +788,8 @@ src/
   build/animations.mjs         # animations builder (curated + full dictionary list)
   build/pedbones.mjs           # ped bones builder (boneId reverse map)
   build/vehiclebones.mjs       # vehicle bones builder (joaat hashes)
+  build/scenarios.mjs          # scenarios builder (joaat hashes)
+  build/vehicleweapons.mjs     # vehicle weapons builder (authoritative archetype hashes)
 client/
   index.js                     # discovery + namespaced domain helpers
   clothing.js                  # clothing helpers
@@ -722,6 +799,8 @@ client/
   animations.js                # animations helpers (curated byCategory + getDictionaries/byDictionary)
   pedbones.js                  # ped bones helpers (byCategory/byBoneId)
   vehiclebones.js              # vehicle bones helpers (byCategory/byHash)
+  scenarios.js                 # scenarios helpers (byCategory/byHash)
+  vehicleweapons.js            # vehicle weapons helpers (byCategory/byHash)
   _flat.js                     # shared flat-domain client factory
   peds.js  vehicles.js  weapons.js
 ```
@@ -810,3 +889,5 @@ Existing domains and their URLs are unaffected.
 - Particle (PTFX) effects from [DurtyFree `particleEffectsCompact.json`](https://github.com/DurtyFree/gta-v-data-dumps/blob/master/particleEffectsCompact.json) (`src/data/particles.all.json`); curated friendly names in `src/data/particles.curated.json`.
 - Animations from [DurtyFree `animDictsCompact.json`](https://github.com/DurtyFree/gta-v-data-dumps/blob/master/animDictsCompact.json) (`src/data/animations.all.json`); curated names + categories in `src/data/animations.curated.json`.
 - Ped & vehicle bone lists curated with categories + friendly names in `src/data/pedbones.json` and `src/data/vehiclebones.json`.
+- Ped/world scenario list from [MyHwu9508/PlayVFreeroam `scenariosCompact.json`](https://github.com/MyHwu9508/PlayVFreeroam/blob/main/resources/assets/dump/scenariosCompact.json), categorized with friendly names in `src/data/scenarios.json` (`hash = joaat(id)`).
+- Vehicle-weapon archetype hashes from a community `g_weaponVehicleList` (authoritative joaat hashes), with raw `VEHICLE_WEAPON_*` ids recovered via joaat; categorized with friendly names in `src/data/vehicleweapons.json`.

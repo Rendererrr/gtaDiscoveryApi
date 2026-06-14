@@ -6,50 +6,26 @@
     "domain": "vehicleweapons",
     "label": "Vehicle Weapons",
     "urlPattern": null,
-    "note": "GTA vehicle weapons (VEHICLE_WEAPON_*). id = the archetype string; hash = joaat(id) (resolves via GET_HASH_KEY). No images. category groups under by-category/; reverse hash -> { id, name, category } in hashes.json."
+    "note": "GTA vehicle weapons (VEHICLE_WEAPON_*). id = the archetype string; hash = the authoritative joaat archetype hash (resolves via GET_HASH_KEY). No images. category groups under by-category/; reverse hash -> { id, name, category } in hashes.json."
   },
   "group": {
     "name": "Turrets",
     "key": "Turrets",
     "slug": "turrets",
-    "count": 8
+    "count": 12
   },
-  "count": 8,
+  "count": 12,
   "items": [
     {
-      "id": "VEHICLE_WEAPON_TURRET_INSURGENT",
-      "name": "Insurgent Turret",
-      "hash": 1155224728,
+      "id": "VEHICLE_WEAPON_AKULA_TURRET_DUAL",
+      "name": "Akula Turret Dual",
+      "hash": 476907586,
       "category": "Turrets"
     },
     {
-      "id": "VEHICLE_WEAPON_TURRET_TECHNICAL",
-      "name": "Technical Turret",
-      "hash": 2144528907,
-      "category": "Turrets"
-    },
-    {
-      "id": "VEHICLE_WEAPON_NOSE_TURRET_VALKYRIE",
-      "name": "Valkyrie Nose Turret",
-      "hash": 1097917585,
-      "category": "Turrets"
-    },
-    {
-      "id": "VEHICLE_WEAPON_TURRET_VALKYRIE",
-      "name": "Valkyrie Side Turret",
-      "hash": 2756787765,
-      "category": "Turrets"
-    },
-    {
-      "id": "VEHICLE_WEAPON_TURRET_BOXVILLE",
-      "name": "Boxville Turret",
-      "hash": 3041872152,
-      "category": "Turrets"
-    },
-    {
-      "id": "VEHICLE_WEAPON_MOGUL_TURRET",
-      "name": "Mogul Turret",
-      "hash": 3808236382,
+      "id": "VEHICLE_WEAPON_AKULA_TURRET_SINGLE",
+      "name": "Akula Turret Single",
+      "hash": 3048454573,
       "category": "Turrets"
     },
     {
@@ -59,9 +35,57 @@
       "category": "Turrets"
     },
     {
+      "id": "VEHICLE_WEAPON_MOGUL_TURRET",
+      "name": "Mogul Turret",
+      "hash": 3808236382,
+      "category": "Turrets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_NOSE_TURRET_VALKYRIE",
+      "name": "Nose Turret Valkyrie",
+      "hash": 1097917585,
+      "category": "Turrets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_SPEEDO4_TURRET_MG",
+      "name": "Speedo4 Turret MG",
+      "hash": 3595964737,
+      "category": "Turrets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_SPEEDO4_TURRET_MINI",
+      "name": "Speedo4 Turret Mini",
+      "hash": 2667462330,
+      "category": "Turrets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TURRET_BOXVILLE",
+      "name": "Turret Boxville",
+      "hash": 3041872152,
+      "category": "Turrets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TURRET_INSURGENT",
+      "name": "Turret Insurgent",
+      "hash": 1155224728,
+      "category": "Turrets"
+    },
+    {
       "id": "VEHICLE_WEAPON_TURRET_LIMO",
-      "name": "Limo Turret",
+      "name": "Turret Limo",
       "hash": 729375873,
+      "category": "Turrets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TURRET_TECHNICAL",
+      "name": "Turret Technical",
+      "hash": 2144528907,
+      "category": "Turrets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TURRET_VALKYRIE",
+      "name": "Turret Valkyrie",
+      "hash": 2756787765,
       "category": "Turrets"
     }
   ]

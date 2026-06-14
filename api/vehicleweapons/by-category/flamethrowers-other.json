@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicleweapons",
+    "label": "Vehicle Weapons",
+    "urlPattern": null,
+    "note": "GTA vehicle weapons (VEHICLE_WEAPON_*). id = the archetype string; hash = the authoritative joaat archetype hash (resolves via GET_HASH_KEY). No images. category groups under by-category/; reverse hash -> { id, name, category } in hashes.json."
+  },
+  "group": {
+    "name": "Flamethrowers & Other",
+    "key": "Flamethrowers & Other",
+    "slug": "flamethrowers-other",
+    "count": 3
+  },
+  "count": 3,
+  "items": [
+    {
+      "id": "VEHICLE_WEAPON_FLAMETHROWER",
+      "name": "Flamethrower",
+      "hash": 3003147322,
+      "category": "Flamethrowers & Other"
+    },
+    {
+      "id": "VEHICLE_WEAPON_FLAMETHROWER_SCIFI",
+      "name": "Flamethrower Scifi",
+      "hash": 2182329506,
+      "category": "Flamethrowers & Other"
+    },
+    {
+      "id": "VEHICLE_WEAPON_RCTANK_FLAME",
+      "name": "RC Tank Flame",
+      "hash": 4109257098,
+      "category": "Flamethrowers & Other"
+    }
+  ]
+}

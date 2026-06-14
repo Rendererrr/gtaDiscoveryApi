@@ -6,26 +6,26 @@
     "domain": "vehicleweapons",
     "label": "Vehicle Weapons",
     "urlPattern": null,
-    "note": "GTA vehicle weapons (VEHICLE_WEAPON_*). id = the archetype string; hash = joaat(id) (resolves via GET_HASH_KEY). No images. category groups under by-category/; reverse hash -> { id, name, category } in hashes.json."
+    "note": "GTA vehicle weapons (VEHICLE_WEAPON_*). id = the archetype string; hash = the authoritative joaat archetype hash (resolves via GET_HASH_KEY). No images. category groups under by-category/; reverse hash -> { id, name, category } in hashes.json."
   },
   "group": {
     "name": "Missiles & Rockets",
     "key": "Missiles & Rockets",
     "slug": "missiles-rockets",
-    "count": 10
+    "count": 35
   },
-  "count": 10,
+  "count": 35,
   "items": [
     {
-      "id": "VEHICLE_WEAPON_PLANE_ROCKET",
-      "name": "Plane Rockets",
-      "hash": 3473446624,
+      "id": "VEHICLE_WEAPON_AKULA_BARRAGE",
+      "name": "Akula Barrage",
+      "hash": 2282558706,
       "category": "Missiles & Rockets"
     },
     {
-      "id": "VEHICLE_WEAPON_SPACE_ROCKET",
-      "name": "Jet Homing Missiles",
-      "hash": 4171469727,
+      "id": "VEHICLE_WEAPON_AKULA_MISSILE",
+      "name": "Akula Missile",
+      "hash": 2092838988,
       "category": "Missiles & Rockets"
     },
     {
@@ -35,45 +35,195 @@
       "category": "Missiles & Rockets"
     },
     {
+      "id": "VEHICLE_WEAPON_BARRAGE_REAR_MG",
+      "name": "Barrage Rear MG",
+      "hash": 1200179045,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_BARRAGE_REAR_MINIGUN",
+      "name": "Barrage Rear Minigun",
+      "hash": 525623141,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_BARRAGE_TOP_MG",
+      "name": "Barrage Top MG",
+      "hash": 4148791700,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_BARRAGE_TOP_MINIGUN",
+      "name": "Barrage Top Minigun",
+      "hash": 1000258817,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_CHERNO_MISSILE",
+      "name": "Chernobog Missile",
+      "hash": 2722615358,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_DELUXO_MISSILE",
+      "name": "Deluxo Missile",
+      "hash": 3036244276,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_DOGFIGHTER_MISSILE",
+      "name": "Dogfighter Missile",
+      "hash": 3393648765,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_HACKER_MISSILE",
+      "name": "Hacker Missile",
+      "hash": 1987049393,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_HACKER_MISSILE_HOMING",
+      "name": "Hacker Missile Homing",
+      "hash": 2011877270,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_HUNTER_BARRAGE",
+      "name": "Hunter Barrage",
+      "hash": 785467445,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_HUNTER_MISSILE",
+      "name": "Hunter Missile",
+      "hash": 153396725,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_MULE4_MISSILE",
+      "name": "Mule4 Missile",
+      "hash": 1198717003,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_OPPRESSOR_MISSILE",
+      "name": "Oppressor Missile",
+      "hash": 2344076862,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_OPPRESSOR2_MISSILE",
+      "name": "Oppressor2 Missile",
+      "hash": 1966766321,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_PLANE_ROCKET",
+      "name": "Plane Rocket",
+      "hash": 3473446624,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_PLAYER_SAVAGE",
+      "name": "Player Savage",
+      "hash": 1638077257,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_POUNDER2_BARRAGE",
+      "name": "Pounder2 Barrage",
+      "hash": 2456521956,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_POUNDER2_MISSILE",
+      "name": "Pounder2 Missile",
+      "hash": 162065050,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_RCTANK_ROCKET",
+      "name": "RC Tank Rocket",
+      "hash": 1995916491,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_ROGUE_MISSILE",
+      "name": "Rogue Missile",
+      "hash": 1820910717,
+      "category": "Missiles & Rockets"
+    },
+    {
       "id": "VEHICLE_WEAPON_RUINER_ROCKET",
       "name": "Ruiner 2000 Rockets",
       "hash": 84788907,
       "category": "Missiles & Rockets"
     },
     {
-      "id": "VEHICLE_WEAPON_HUNTER_MISSILE",
-      "name": "Hunter Missiles",
-      "hash": 153396725,
+      "id": "VEHICLE_WEAPON_SCRAMJET_MISSILE",
+      "name": "Scramjet Missile",
+      "hash": 3169388763,
       "category": "Missiles & Rockets"
     },
     {
-      "id": "VEHICLE_WEAPON_HUNTER_BARRAGE",
-      "name": "Hunter Barrage Missiles",
-      "hash": 785467445,
+      "id": "VEHICLE_WEAPON_SPACE_ROCKET",
+      "name": "Space Rocket",
+      "hash": 4171469727,
       "category": "Missiles & Rockets"
     },
     {
-      "id": "VEHICLE_WEAPON_DOGFIGHTER_MISSILE",
-      "name": "Dogfighter Missiles",
-      "hash": 3393648765,
+      "id": "VEHICLE_WEAPON_STRIKEFORCE_BARRAGE",
+      "name": "Strikeforce Barrage",
+      "hash": 968648323,
       "category": "Missiles & Rockets"
     },
     {
-      "id": "VEHICLE_WEAPON_ROGUE_MISSILE",
-      "name": "Rogue Missiles",
-      "hash": 1820910717,
+      "id": "VEHICLE_WEAPON_STRIKEFORCE_MISSILE",
+      "name": "Strikeforce Missile",
+      "hash": 519052682,
       "category": "Missiles & Rockets"
     },
     {
-      "id": "VEHICLE_WEAPON_VIGILANTE_MISSILE",
-      "name": "Vigilante Missiles",
-      "hash": 1347266149,
+      "id": "VEHICLE_WEAPON_SUBCAR_MISSILE",
+      "name": "Subcar Missile",
+      "hash": 3565779982,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_SUBCAR_TORPEDO",
+      "name": "Subcar Torpedo",
+      "hash": 3884172218,
       "category": "Missiles & Rockets"
     },
     {
       "id": "VEHICLE_WEAPON_TAMPA_MISSILE",
-      "name": "Tampa Missiles",
+      "name": "Tampa Missile",
       "hash": 2656583842,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_THRUSTER_MISSILE",
+      "name": "Thruster Missile",
+      "hash": 1177935125,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TRAILER_DUALAA",
+      "name": "Trailer Dual AA",
+      "hash": 2156678476,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TRAILER_MISSILE",
+      "name": "Trailer Missile",
+      "hash": 341154295,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_VIGILANTE_MISSILE",
+      "name": "Vigilante Missile",
+      "hash": 1347266149,
       "category": "Missiles & Rockets"
     }
   ]

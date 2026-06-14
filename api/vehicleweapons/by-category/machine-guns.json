@@ -6,92 +6,26 @@
     "domain": "vehicleweapons",
     "label": "Vehicle Weapons",
     "urlPattern": null,
-    "note": "GTA vehicle weapons (VEHICLE_WEAPON_*). id = the archetype string; hash = joaat(id) (resolves via GET_HASH_KEY). No images. category groups under by-category/; reverse hash -> { id, name, category } in hashes.json."
+    "note": "GTA vehicle weapons (VEHICLE_WEAPON_*). id = the archetype string; hash = the authoritative joaat archetype hash (resolves via GET_HASH_KEY). No images. category groups under by-category/; reverse hash -> { id, name, category } in hashes.json."
   },
   "group": {
     "name": "Machine Guns",
     "key": "Machine Guns",
     "slug": "machine-guns",
-    "count": 18
+    "count": 58
   },
-  "count": 18,
+  "count": 58,
   "items": [
     {
-      "id": "VEHICLE_WEAPON_PLAYER_BULLET",
-      "name": "Standard Vehicle Gun",
-      "hash": 1259576109,
-      "category": "Machine Guns"
-    },
-    {
       "id": "VEHICLE_WEAPON_APC_MG",
-      "name": "APC Machine Gun",
+      "name": "APC MG",
       "hash": 190244068,
       "category": "Machine Guns"
     },
     {
-      "id": "VEHICLE_WEAPON_RUINER_BULLET",
-      "name": "Ruiner 2000 MG",
-      "hash": 50118905,
-      "category": "Machine Guns"
-    },
-    {
-      "id": "VEHICLE_WEAPON_HUNTER_MG",
-      "name": "Hunter Machine Gun",
-      "hash": 1119518887,
-      "category": "Machine Guns"
-    },
-    {
-      "id": "VEHICLE_WEAPON_TULA_NOSEMG",
-      "name": "Tula Nose MG",
-      "hash": 1100844565,
-      "category": "Machine Guns"
-    },
-    {
-      "id": "VEHICLE_WEAPON_TULA_MG",
-      "name": "Tula Machine Gun",
-      "hash": 1217122433,
-      "category": "Machine Guns"
-    },
-    {
-      "id": "VEHICLE_WEAPON_TULA_DUALMG",
-      "name": "Tula Dual MG",
-      "hash": 2966510603,
-      "category": "Machine Guns"
-    },
-    {
-      "id": "VEHICLE_WEAPON_SEABREEZE_MG",
-      "name": "Seabreeze MG",
-      "hash": 1371067624,
-      "category": "Machine Guns"
-    },
-    {
-      "id": "VEHICLE_WEAPON_MICROLIGHT_MG",
-      "name": "Microlight MG",
-      "hash": 3303022956,
-      "category": "Machine Guns"
-    },
-    {
-      "id": "VEHICLE_WEAPON_DOGFIGHTER_MG",
-      "name": "Dogfighter MG",
-      "hash": 1595421922,
-      "category": "Machine Guns"
-    },
-    {
-      "id": "VEHICLE_WEAPON_MOGUL_NOSE",
-      "name": "Mogul Nose MG",
-      "hash": 4128808778,
-      "category": "Machine Guns"
-    },
-    {
-      "id": "VEHICLE_WEAPON_MOGUL_DUALNOSE",
-      "name": "Mogul Dual Nose MG",
-      "hash": 3857952303,
-      "category": "Machine Guns"
-    },
-    {
-      "id": "VEHICLE_WEAPON_ROGUE_MG",
-      "name": "Rogue MG",
-      "hash": 158495693,
+      "id": "VEHICLE_WEAPON_ARDENT_MG",
+      "name": "Ardent MG",
+      "hash": 3293463361,
       "category": "Machine Guns"
     },
     {
@@ -101,9 +35,63 @@
       "category": "Machine Guns"
     },
     {
-      "id": "VEHICLE_WEAPON_VIGILANTE_MG",
-      "name": "Vigilante MG",
-      "hash": 4094131943,
+      "id": "VEHICLE_WEAPON_BRUISER_50CAL",
+      "name": "Bruiser 50 Cal",
+      "hash": 3611149825,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_BRUISER2_50CAL_LASER",
+      "name": "Bruiser2 50 Cal Laser",
+      "hash": 1030357398,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_BRUTUS_50CAL",
+      "name": "Brutus 50 Cal",
+      "hash": 3948829706,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_BRUTUS2_50CAL_LASER",
+      "name": "Brutus2 50 Cal Laser",
+      "hash": 1757914307,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_CARACARA_MG",
+      "name": "Caracara MG",
+      "hash": 1817275304,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_COMET_MG",
+      "name": "Comet MG",
+      "hash": 3936892403,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_DELUXO_MG",
+      "name": "Deluxo MG",
+      "hash": 2600428406,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_DOGFIGHTER_MG",
+      "name": "Dogfighter MG",
+      "hash": 1595421922,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_DOMINATOR4_50CAL",
+      "name": "Dominator4 50 Cal",
+      "hash": 4161575695,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_DOMINATOR5_50CAL_LASER",
+      "name": "Dominator5 50 Cal Laser",
+      "hash": 3022285407,
       "category": "Machine Guns"
     },
     {
@@ -114,14 +102,266 @@
     },
     {
       "id": "VEHICLE_WEAPON_HALFTRACK_DUALMG",
-      "name": "Half-track Dual MG",
+      "name": "Halftrack Dual MG",
       "hash": 1331922171,
       "category": "Machine Guns"
     },
     {
       "id": "VEHICLE_WEAPON_HALFTRACK_QUADMG",
-      "name": "Half-track Quad MG",
+      "name": "Halftrack Quad MG",
       "hash": 1226518132,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_HUNTER_MG",
+      "name": "Hunter MG",
+      "hash": 1119518887,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_IMPALER2_50CAL",
+      "name": "Impaler2 50 Cal",
+      "hash": 1599495177,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_IMPALER3_50CAL_LASER",
+      "name": "Impaler3 50 Cal Laser",
+      "hash": 2361261192,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_IMPERATOR_50CAL",
+      "name": "Imperator 50 Cal",
+      "hash": 3059926651,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_IMPERATOR2_50CAL_LASER",
+      "name": "Imperator2 50 Cal Laser",
+      "hash": 2014823718,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_ISSI4_50CAL",
+      "name": "Issi4 50 Cal",
+      "hash": 1984488269,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_ISSI5_50CAL_LASER",
+      "name": "Issi5 50 Cal Laser",
+      "hash": 1988061477,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_JB700_MG",
+      "name": "JB 700 MG",
+      "hash": 926602556,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_KHANJALI_MG",
+      "name": "Khanjali MG",
+      "hash": 711953949,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_MENACER_MG",
+      "name": "Menacer MG",
+      "hash": 3754621092,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_MICROLIGHT_MG",
+      "name": "Microlight MG",
+      "hash": 3303022956,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_MOGUL_DUALNOSE",
+      "name": "Mogul Dual Nose",
+      "hash": 3857952303,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_MOGUL_NOSE",
+      "name": "Mogul Nose",
+      "hash": 4128808778,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_MULE4_MG",
+      "name": "Mule4 MG",
+      "hash": 2220197671,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_NIGHTSHARK_MG",
+      "name": "Nightshark MG",
+      "hash": 2786772340,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_OPPRESSOR_MG",
+      "name": "Oppressor MG",
+      "hash": 3643944669,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_OPPRESSOR2_MG",
+      "name": "Oppressor2 MG",
+      "hash": 3796180438,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_PARAGON2_MG",
+      "name": "Paragon2 MG",
+      "hash": 749486726,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_RCTANK_GUN",
+      "name": "RC Tank Gun",
+      "hash": 1392289305,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_REVOLVER_MG",
+      "name": "Revolver MG",
+      "hash": 3177079402,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_ROGUE_MG",
+      "name": "Rogue MG",
+      "hash": 158495693,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_RUINER_BULLET",
+      "name": "Ruiner 2000 MG",
+      "hash": 50118905,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_SAVESTRA_MG",
+      "name": "Savestra MG",
+      "hash": 3946965070,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_SCARAB_50CAL",
+      "name": "Scarab 50 Cal",
+      "hash": 562032424,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_SCARAB2_50CAL_LASER",
+      "name": "Scarab2 50 Cal Laser",
+      "hash": 3794660812,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_SCRAMJET_MG",
+      "name": "Scramjet MG",
+      "hash": 231629074,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_SEABREEZE_MG",
+      "name": "Sea Breeze MG",
+      "hash": 1371067624,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_SLAMVAN4_50CAL",
+      "name": "Slamvan4 50 Cal",
+      "hash": 984313451,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_SLAMVAN5_50CAL_LASER",
+      "name": "Slamvan5 50 Cal Laser",
+      "hash": 1368736686,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_SPEEDO4_MG",
+      "name": "Speedo4 MG",
+      "hash": 3355244860,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_PLAYER_BULLET",
+      "name": "Standard Vehicle Gun",
+      "hash": 1259576109,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_SUBCAR_MG",
+      "name": "Subcar MG",
+      "hash": 1176362416,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_THRUSTER_MG",
+      "name": "Thruster MG",
+      "hash": 1697521053,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TRAILER_QUADMG",
+      "name": "Trailer Quad MG",
+      "hash": 1192341548,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TULA_DUALMG",
+      "name": "Tula Dual MG",
+      "hash": 2966510603,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TULA_MG",
+      "name": "Tula MG",
+      "hash": 1217122433,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TULA_NOSEMG",
+      "name": "Tula Nose MG",
+      "hash": 1100844565,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_VIGILANTE_MG",
+      "name": "Vigilante MG",
+      "hash": 4094131943,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_VISERIS_MG",
+      "name": "Viseris MG",
+      "hash": 2275421702,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_VOLATOL_DUALMG",
+      "name": "Volatol Dual MG",
+      "hash": 1150790720,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_ZR380_50CAL",
+      "name": "ZR380 50 Cal",
+      "hash": 1790524546,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_ZR3802_50CAL_LASER",
+      "name": "ZR3802 50 Cal Laser",
+      "hash": 570463164,
       "category": "Machine Guns"
     }
   ]

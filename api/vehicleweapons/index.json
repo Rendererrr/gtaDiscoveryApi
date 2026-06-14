@@ -6,116 +6,54 @@
     "domain": "vehicleweapons",
     "label": "Vehicle Weapons",
     "urlPattern": null,
-    "note": "GTA vehicle weapons (VEHICLE_WEAPON_*). id = the archetype string; hash = joaat(id) (resolves via GET_HASH_KEY). No images. category groups under by-category/; reverse hash -> { id, name, category } in hashes.json."
+    "note": "GTA vehicle weapons (VEHICLE_WEAPON_*). id = the archetype string; hash = the authoritative joaat archetype hash (resolves via GET_HASH_KEY). No images. category groups under by-category/; reverse hash -> { id, name, category } in hashes.json."
   },
   "categories": [
     {
       "name": "Machine Guns",
-      "count": 18
-    },
-    {
-      "name": "Cannons",
-      "count": 10
+      "count": 58
     },
     {
       "name": "Missiles & Rockets",
-      "count": 10
+      "count": 35
     },
     {
-      "name": "Turrets",
-      "count": 8
+      "name": "Cannons",
+      "count": 17
     },
     {
       "name": "Miniguns",
-      "count": 7
+      "count": 13
+    },
+    {
+      "name": "Turrets",
+      "count": 12
+    },
+    {
+      "name": "Grenade & Mortar Launchers",
+      "count": 8
     },
     {
       "name": "Utility & Systems",
       "count": 4
     },
     {
-      "name": "Grenade & Mortar Launchers",
-      "count": 2
+      "name": "Flamethrowers & Other",
+      "count": 3
     }
   ],
-  "count": 59,
+  "count": 150,
   "items": [
     {
-      "id": "VEHICLE_WEAPON_PLAYER_BULLET",
-      "name": "Standard Vehicle Gun",
-      "hash": 1259576109,
-      "category": "Machine Guns"
-    },
-    {
       "id": "VEHICLE_WEAPON_APC_MG",
-      "name": "APC Machine Gun",
+      "name": "APC MG",
       "hash": 190244068,
       "category": "Machine Guns"
     },
     {
-      "id": "VEHICLE_WEAPON_RUINER_BULLET",
-      "name": "Ruiner 2000 MG",
-      "hash": 50118905,
-      "category": "Machine Guns"
-    },
-    {
-      "id": "VEHICLE_WEAPON_HUNTER_MG",
-      "name": "Hunter Machine Gun",
-      "hash": 1119518887,
-      "category": "Machine Guns"
-    },
-    {
-      "id": "VEHICLE_WEAPON_TULA_NOSEMG",
-      "name": "Tula Nose MG",
-      "hash": 1100844565,
-      "category": "Machine Guns"
-    },
-    {
-      "id": "VEHICLE_WEAPON_TULA_MG",
-      "name": "Tula Machine Gun",
-      "hash": 1217122433,
-      "category": "Machine Guns"
-    },
-    {
-      "id": "VEHICLE_WEAPON_TULA_DUALMG",
-      "name": "Tula Dual MG",
-      "hash": 2966510603,
-      "category": "Machine Guns"
-    },
-    {
-      "id": "VEHICLE_WEAPON_SEABREEZE_MG",
-      "name": "Seabreeze MG",
-      "hash": 1371067624,
-      "category": "Machine Guns"
-    },
-    {
-      "id": "VEHICLE_WEAPON_MICROLIGHT_MG",
-      "name": "Microlight MG",
-      "hash": 3303022956,
-      "category": "Machine Guns"
-    },
-    {
-      "id": "VEHICLE_WEAPON_DOGFIGHTER_MG",
-      "name": "Dogfighter MG",
-      "hash": 1595421922,
-      "category": "Machine Guns"
-    },
-    {
-      "id": "VEHICLE_WEAPON_MOGUL_NOSE",
-      "name": "Mogul Nose MG",
-      "hash": 4128808778,
-      "category": "Machine Guns"
-    },
-    {
-      "id": "VEHICLE_WEAPON_MOGUL_DUALNOSE",
-      "name": "Mogul Dual Nose MG",
-      "hash": 3857952303,
-      "category": "Machine Guns"
-    },
-    {
-      "id": "VEHICLE_WEAPON_ROGUE_MG",
-      "name": "Rogue MG",
-      "hash": 158495693,
+      "id": "VEHICLE_WEAPON_ARDENT_MG",
+      "name": "Ardent MG",
+      "hash": 3293463361,
       "category": "Machine Guns"
     },
     {
@@ -125,9 +63,63 @@
       "category": "Machine Guns"
     },
     {
-      "id": "VEHICLE_WEAPON_VIGILANTE_MG",
-      "name": "Vigilante MG",
-      "hash": 4094131943,
+      "id": "VEHICLE_WEAPON_BRUISER_50CAL",
+      "name": "Bruiser 50 Cal",
+      "hash": 3611149825,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_BRUISER2_50CAL_LASER",
+      "name": "Bruiser2 50 Cal Laser",
+      "hash": 1030357398,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_BRUTUS_50CAL",
+      "name": "Brutus 50 Cal",
+      "hash": 3948829706,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_BRUTUS2_50CAL_LASER",
+      "name": "Brutus2 50 Cal Laser",
+      "hash": 1757914307,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_CARACARA_MG",
+      "name": "Caracara MG",
+      "hash": 1817275304,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_COMET_MG",
+      "name": "Comet MG",
+      "hash": 3936892403,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_DELUXO_MG",
+      "name": "Deluxo MG",
+      "hash": 2600428406,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_DOGFIGHTER_MG",
+      "name": "Dogfighter MG",
+      "hash": 1595421922,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_DOMINATOR4_50CAL",
+      "name": "Dominator4 50 Cal",
+      "hash": 4161575695,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_DOMINATOR5_50CAL_LASER",
+      "name": "Dominator5 50 Cal Laser",
+      "hash": 3022285407,
       "category": "Machine Guns"
     },
     {
@@ -138,38 +130,284 @@
     },
     {
       "id": "VEHICLE_WEAPON_HALFTRACK_DUALMG",
-      "name": "Half-track Dual MG",
+      "name": "Halftrack Dual MG",
       "hash": 1331922171,
       "category": "Machine Guns"
     },
     {
       "id": "VEHICLE_WEAPON_HALFTRACK_QUADMG",
-      "name": "Half-track Quad MG",
+      "name": "Halftrack Quad MG",
       "hash": 1226518132,
       "category": "Machine Guns"
     },
     {
-      "id": "VEHICLE_WEAPON_PLAYER_BUZZARD",
-      "name": "Buzzard Miniguns",
-      "hash": 1186503822,
+      "id": "VEHICLE_WEAPON_HUNTER_MG",
+      "name": "Hunter MG",
+      "hash": 1119518887,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_IMPALER2_50CAL",
+      "name": "Impaler2 50 Cal",
+      "hash": 1599495177,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_IMPALER3_50CAL_LASER",
+      "name": "Impaler3 50 Cal Laser",
+      "hash": 2361261192,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_IMPERATOR_50CAL",
+      "name": "Imperator 50 Cal",
+      "hash": 3059926651,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_IMPERATOR2_50CAL_LASER",
+      "name": "Imperator2 50 Cal Laser",
+      "hash": 2014823718,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_ISSI4_50CAL",
+      "name": "Issi4 50 Cal",
+      "hash": 1984488269,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_ISSI5_50CAL_LASER",
+      "name": "Issi5 50 Cal Laser",
+      "hash": 1988061477,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_JB700_MG",
+      "name": "JB 700 MG",
+      "hash": 926602556,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_KHANJALI_MG",
+      "name": "Khanjali MG",
+      "hash": 711953949,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_MENACER_MG",
+      "name": "Menacer MG",
+      "hash": 3754621092,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_MICROLIGHT_MG",
+      "name": "Microlight MG",
+      "hash": 3303022956,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_MOGUL_DUALNOSE",
+      "name": "Mogul Dual Nose",
+      "hash": 3857952303,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_MOGUL_NOSE",
+      "name": "Mogul Nose",
+      "hash": 4128808778,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_MULE4_MG",
+      "name": "Mule4 MG",
+      "hash": 2220197671,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_NIGHTSHARK_MG",
+      "name": "Nightshark MG",
+      "hash": 2786772340,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_OPPRESSOR_MG",
+      "name": "Oppressor MG",
+      "hash": 3643944669,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_OPPRESSOR2_MG",
+      "name": "Oppressor2 MG",
+      "hash": 3796180438,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_PARAGON2_MG",
+      "name": "Paragon2 MG",
+      "hash": 749486726,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_RCTANK_GUN",
+      "name": "RC Tank Gun",
+      "hash": 1392289305,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_REVOLVER_MG",
+      "name": "Revolver MG",
+      "hash": 3177079402,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_ROGUE_MG",
+      "name": "Rogue MG",
+      "hash": 158495693,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_RUINER_BULLET",
+      "name": "Ruiner 2000 MG",
+      "hash": 50118905,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_SAVESTRA_MG",
+      "name": "Savestra MG",
+      "hash": 3946965070,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_SCARAB_50CAL",
+      "name": "Scarab 50 Cal",
+      "hash": 562032424,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_SCARAB2_50CAL_LASER",
+      "name": "Scarab2 50 Cal Laser",
+      "hash": 3794660812,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_SCRAMJET_MG",
+      "name": "Scramjet MG",
+      "hash": 231629074,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_SEABREEZE_MG",
+      "name": "Sea Breeze MG",
+      "hash": 1371067624,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_SLAMVAN4_50CAL",
+      "name": "Slamvan4 50 Cal",
+      "hash": 984313451,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_SLAMVAN5_50CAL_LASER",
+      "name": "Slamvan5 50 Cal Laser",
+      "hash": 1368736686,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_SPEEDO4_MG",
+      "name": "Speedo4 MG",
+      "hash": 3355244860,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_PLAYER_BULLET",
+      "name": "Standard Vehicle Gun",
+      "hash": 1259576109,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_SUBCAR_MG",
+      "name": "Subcar MG",
+      "hash": 1176362416,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_THRUSTER_MG",
+      "name": "Thruster MG",
+      "hash": 1697521053,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TRAILER_QUADMG",
+      "name": "Trailer Quad MG",
+      "hash": 1192341548,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TULA_DUALMG",
+      "name": "Tula Dual MG",
+      "hash": 2966510603,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TULA_MG",
+      "name": "Tula MG",
+      "hash": 1217122433,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TULA_NOSEMG",
+      "name": "Tula Nose MG",
+      "hash": 1100844565,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_VIGILANTE_MG",
+      "name": "Vigilante MG",
+      "hash": 4094131943,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_VISERIS_MG",
+      "name": "Viseris MG",
+      "hash": 2275421702,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_VOLATOL_DUALMG",
+      "name": "Volatol Dual MG",
+      "hash": 1150790720,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_ZR380_50CAL",
+      "name": "ZR380 50 Cal",
+      "hash": 1790524546,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_ZR3802_50CAL_LASER",
+      "name": "ZR3802 50 Cal Laser",
+      "hash": 570463164,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_AKULA_MINIGUN",
+      "name": "Akula Minigun",
+      "hash": 431576697,
       "category": "Miniguns"
     },
     {
-      "id": "VEHICLE_WEAPON_PLAYER_HUNTER",
-      "name": "Hunter Miniguns",
-      "hash": 2669318622,
+      "id": "VEHICLE_WEAPON_CARACARA_MINIGUN",
+      "name": "Caracara Minigun",
+      "hash": 1338760315,
       "category": "Miniguns"
     },
     {
-      "id": "VEHICLE_WEAPON_TULA_MINIGUN",
-      "name": "Tula Minigun",
-      "hash": 376489128,
-      "category": "Miniguns"
-    },
-    {
-      "id": "VEHICLE_WEAPON_HAVOK_MINIGUN",
-      "name": "Havok Minigun",
-      "hash": 855547631,
+      "id": "VEHICLE_WEAPON_DEATHBIKE_DUALMINIGUN",
+      "name": "Deathbike Dual Minigun",
+      "hash": 490982948,
       "category": "Miniguns"
     },
     {
@@ -179,9 +417,33 @@
       "category": "Miniguns"
     },
     {
-      "id": "VEHICLE_WEAPON_TAMPA_FIXEDMINIGUN",
-      "name": "Tampa Fixed Minigun",
-      "hash": 3670375085,
+      "id": "VEHICLE_WEAPON_HAVOK_MINIGUN",
+      "name": "Havok Minigun",
+      "hash": 855547631,
+      "category": "Miniguns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_PLAYER_HUNTER",
+      "name": "Hunter Miniguns",
+      "hash": 2669318622,
+      "category": "Miniguns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_INSURGENT_MINIGUN",
+      "name": "Insurgent Minigun",
+      "hash": 2861067768,
+      "category": "Miniguns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_PLAYER_BUZZARD",
+      "name": "Player Buzzard",
+      "hash": 1186503822,
+      "category": "Miniguns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_POUNDER2_MINI",
+      "name": "Pounder2 Mini",
+      "hash": 2263283790,
       "category": "Miniguns"
     },
     {
@@ -191,28 +453,22 @@
       "category": "Miniguns"
     },
     {
-      "id": "VEHICLE_WEAPON_TANK",
-      "name": "Tank Cannon",
-      "hash": 1945616459,
-      "category": "Cannons"
+      "id": "VEHICLE_WEAPON_TAMPA_FIXEDMINIGUN",
+      "name": "Tampa Fixed Minigun",
+      "hash": 3670375085,
+      "category": "Miniguns"
     },
     {
-      "id": "VEHICLE_WEAPON_PLAYER_LASER",
-      "name": "Jet Cannon",
-      "hash": 4026335563,
-      "category": "Cannons"
+      "id": "VEHICLE_WEAPON_TECHNICAL_MINIGUN",
+      "name": "Technical Minigun",
+      "hash": 3683206664,
+      "category": "Miniguns"
     },
     {
-      "id": "VEHICLE_WEAPON_PLAYER_LAZER",
-      "name": "Lazer Cannon",
-      "hash": 3800181289,
-      "category": "Cannons"
-    },
-    {
-      "id": "VEHICLE_WEAPON_ENEMY_LASER",
-      "name": "Enemy Jet Cannon",
-      "hash": 1566990507,
-      "category": "Cannons"
+      "id": "VEHICLE_WEAPON_TULA_MINIGUN",
+      "name": "Tula Minigun",
+      "hash": 376489128,
+      "category": "Miniguns"
     },
     {
       "id": "VEHICLE_WEAPON_APC_CANNON",
@@ -221,27 +477,9 @@
       "category": "Cannons"
     },
     {
-      "id": "VEHICLE_WEAPON_PLAYER_SAVAGE",
-      "name": "Savage Cannon",
-      "hash": 1638077257,
-      "category": "Cannons"
-    },
-    {
-      "id": "VEHICLE_WEAPON_CANNON_BLAZER",
-      "name": "Blazer Cannon",
-      "hash": 3959029566,
-      "category": "Cannons"
-    },
-    {
-      "id": "VEHICLE_WEAPON_HUNTER_CANNON",
-      "name": "Hunter Cannon",
-      "hash": 704686874,
-      "category": "Cannons"
-    },
-    {
-      "id": "VEHICLE_WEAPON_ROGUE_CANNON",
-      "name": "Rogue Cannon",
-      "hash": 3878337474,
+      "id": "VEHICLE_WEAPON_AVENGER_CANNON",
+      "name": "Avenger Cannon",
+      "hash": 2556895291,
       "category": "Cannons"
     },
     {
@@ -251,15 +489,99 @@
       "category": "Cannons"
     },
     {
-      "id": "VEHICLE_WEAPON_PLANE_ROCKET",
-      "name": "Plane Rockets",
-      "hash": 3473446624,
+      "id": "VEHICLE_WEAPON_CANNON_BLAZER",
+      "name": "Cannon Blazer",
+      "hash": 3959029566,
+      "category": "Cannons"
+    },
+    {
+      "id": "VEHICLE_WEAPON_DEATHBIKE2_MINIGUN_LASER",
+      "name": "Deathbike2 Minigun Laser",
+      "hash": 3909880809,
+      "category": "Cannons"
+    },
+    {
+      "id": "VEHICLE_WEAPON_ENEMY_LASER",
+      "name": "Enemy Laser",
+      "hash": 1566990507,
+      "category": "Cannons"
+    },
+    {
+      "id": "VEHICLE_WEAPON_HUNTER_CANNON",
+      "name": "Hunter Cannon",
+      "hash": 704686874,
+      "category": "Cannons"
+    },
+    {
+      "id": "VEHICLE_WEAPON_PLAYER_LASER",
+      "name": "Jet Cannon",
+      "hash": 4026335563,
+      "category": "Cannons"
+    },
+    {
+      "id": "VEHICLE_WEAPON_KHANJALI_CANNON",
+      "name": "Khanjali Cannon",
+      "hash": 507170720,
+      "category": "Cannons"
+    },
+    {
+      "id": "VEHICLE_WEAPON_KHANJALI_CANNON_HEAVY",
+      "name": "Khanjali Cannon Heavy",
+      "hash": 2206953837,
+      "category": "Cannons"
+    },
+    {
+      "id": "VEHICLE_WEAPON_MOBILEOPS_CANNON",
+      "name": "Mobile Operations Cannon",
+      "hash": 3846072740,
+      "category": "Cannons"
+    },
+    {
+      "id": "VEHICLE_WEAPON_OPPRESSOR2_CANNON",
+      "name": "Oppressor2 Cannon",
+      "hash": 3595383913,
+      "category": "Cannons"
+    },
+    {
+      "id": "VEHICLE_WEAPON_PLAYER_LAZER",
+      "name": "Player Lazer",
+      "hash": 3800181289,
+      "category": "Cannons"
+    },
+    {
+      "id": "VEHICLE_WEAPON_RCTANK_LAZER",
+      "name": "RC Tank Lazer",
+      "hash": 1475488848,
+      "category": "Cannons"
+    },
+    {
+      "id": "VEHICLE_WEAPON_ROGUE_CANNON",
+      "name": "Rogue Cannon",
+      "hash": 3878337474,
+      "category": "Cannons"
+    },
+    {
+      "id": "VEHICLE_WEAPON_STRIKEFORCE_CANNON",
+      "name": "Strikeforce Cannon",
+      "hash": 955522731,
+      "category": "Cannons"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TANK",
+      "name": "Tank Cannon",
+      "hash": 1945616459,
+      "category": "Cannons"
+    },
+    {
+      "id": "VEHICLE_WEAPON_AKULA_BARRAGE",
+      "name": "Akula Barrage",
+      "hash": 2282558706,
       "category": "Missiles & Rockets"
     },
     {
-      "id": "VEHICLE_WEAPON_SPACE_ROCKET",
-      "name": "Jet Homing Missiles",
-      "hash": 4171469727,
+      "id": "VEHICLE_WEAPON_AKULA_MISSILE",
+      "name": "Akula Missile",
+      "hash": 2092838988,
       "category": "Missiles & Rockets"
     },
     {
@@ -269,51 +591,237 @@
       "category": "Missiles & Rockets"
     },
     {
+      "id": "VEHICLE_WEAPON_BARRAGE_REAR_MG",
+      "name": "Barrage Rear MG",
+      "hash": 1200179045,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_BARRAGE_REAR_MINIGUN",
+      "name": "Barrage Rear Minigun",
+      "hash": 525623141,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_BARRAGE_TOP_MG",
+      "name": "Barrage Top MG",
+      "hash": 4148791700,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_BARRAGE_TOP_MINIGUN",
+      "name": "Barrage Top Minigun",
+      "hash": 1000258817,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_CHERNO_MISSILE",
+      "name": "Chernobog Missile",
+      "hash": 2722615358,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_DELUXO_MISSILE",
+      "name": "Deluxo Missile",
+      "hash": 3036244276,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_DOGFIGHTER_MISSILE",
+      "name": "Dogfighter Missile",
+      "hash": 3393648765,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_HACKER_MISSILE",
+      "name": "Hacker Missile",
+      "hash": 1987049393,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_HACKER_MISSILE_HOMING",
+      "name": "Hacker Missile Homing",
+      "hash": 2011877270,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_HUNTER_BARRAGE",
+      "name": "Hunter Barrage",
+      "hash": 785467445,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_HUNTER_MISSILE",
+      "name": "Hunter Missile",
+      "hash": 153396725,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_MULE4_MISSILE",
+      "name": "Mule4 Missile",
+      "hash": 1198717003,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_OPPRESSOR_MISSILE",
+      "name": "Oppressor Missile",
+      "hash": 2344076862,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_OPPRESSOR2_MISSILE",
+      "name": "Oppressor2 Missile",
+      "hash": 1966766321,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_PLANE_ROCKET",
+      "name": "Plane Rocket",
+      "hash": 3473446624,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_PLAYER_SAVAGE",
+      "name": "Player Savage",
+      "hash": 1638077257,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_POUNDER2_BARRAGE",
+      "name": "Pounder2 Barrage",
+      "hash": 2456521956,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_POUNDER2_MISSILE",
+      "name": "Pounder2 Missile",
+      "hash": 162065050,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_RCTANK_ROCKET",
+      "name": "RC Tank Rocket",
+      "hash": 1995916491,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_ROGUE_MISSILE",
+      "name": "Rogue Missile",
+      "hash": 1820910717,
+      "category": "Missiles & Rockets"
+    },
+    {
       "id": "VEHICLE_WEAPON_RUINER_ROCKET",
       "name": "Ruiner 2000 Rockets",
       "hash": 84788907,
       "category": "Missiles & Rockets"
     },
     {
-      "id": "VEHICLE_WEAPON_HUNTER_MISSILE",
-      "name": "Hunter Missiles",
-      "hash": 153396725,
+      "id": "VEHICLE_WEAPON_SCRAMJET_MISSILE",
+      "name": "Scramjet Missile",
+      "hash": 3169388763,
       "category": "Missiles & Rockets"
     },
     {
-      "id": "VEHICLE_WEAPON_HUNTER_BARRAGE",
-      "name": "Hunter Barrage Missiles",
-      "hash": 785467445,
+      "id": "VEHICLE_WEAPON_SPACE_ROCKET",
+      "name": "Space Rocket",
+      "hash": 4171469727,
       "category": "Missiles & Rockets"
     },
     {
-      "id": "VEHICLE_WEAPON_DOGFIGHTER_MISSILE",
-      "name": "Dogfighter Missiles",
-      "hash": 3393648765,
+      "id": "VEHICLE_WEAPON_STRIKEFORCE_BARRAGE",
+      "name": "Strikeforce Barrage",
+      "hash": 968648323,
       "category": "Missiles & Rockets"
     },
     {
-      "id": "VEHICLE_WEAPON_ROGUE_MISSILE",
-      "name": "Rogue Missiles",
-      "hash": 1820910717,
+      "id": "VEHICLE_WEAPON_STRIKEFORCE_MISSILE",
+      "name": "Strikeforce Missile",
+      "hash": 519052682,
       "category": "Missiles & Rockets"
     },
     {
-      "id": "VEHICLE_WEAPON_VIGILANTE_MISSILE",
-      "name": "Vigilante Missiles",
-      "hash": 1347266149,
+      "id": "VEHICLE_WEAPON_SUBCAR_MISSILE",
+      "name": "Subcar Missile",
+      "hash": 3565779982,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_SUBCAR_TORPEDO",
+      "name": "Subcar Torpedo",
+      "hash": 3884172218,
       "category": "Missiles & Rockets"
     },
     {
       "id": "VEHICLE_WEAPON_TAMPA_MISSILE",
-      "name": "Tampa Missiles",
+      "name": "Tampa Missile",
       "hash": 2656583842,
       "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_THRUSTER_MISSILE",
+      "name": "Thruster Missile",
+      "hash": 1177935125,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TRAILER_DUALAA",
+      "name": "Trailer Dual AA",
+      "hash": 2156678476,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TRAILER_MISSILE",
+      "name": "Trailer Missile",
+      "hash": 341154295,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_VIGILANTE_MISSILE",
+      "name": "Vigilante Missile",
+      "hash": 1347266149,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_BARRAGE_REAR_GL",
+      "name": "Barrage Rear GL",
+      "hash": 2756453005,
+      "category": "Grenade & Mortar Launchers"
     },
     {
       "id": "VEHICLE_WEAPON_DUNE_GRENADELAUNCHER",
       "name": "Dune Grenade Launcher",
       "hash": 2700898573,
+      "category": "Grenade & Mortar Launchers"
+    },
+    {
+      "id": "VEHICLE_WEAPON_KHANJALI_GL",
+      "name": "Khanjali GL",
+      "hash": 394659298,
+      "category": "Grenade & Mortar Launchers"
+    },
+    {
+      "id": "VEHICLE_WEAPON_MONSTER3_GL_KINETIC",
+      "name": "Monster3 GL Kinetic",
+      "hash": 3853407197,
+      "category": "Grenade & Mortar Launchers"
+    },
+    {
+      "id": "VEHICLE_WEAPON_MORTAR_KINETIC",
+      "name": "Mortar Kinetic",
+      "hash": 1663705853,
+      "category": "Grenade & Mortar Launchers"
+    },
+    {
+      "id": "VEHICLE_WEAPON_MULE4_TURRET_GL",
+      "name": "Mule4 Turret GL",
+      "hash": 3708963429,
+      "category": "Grenade & Mortar Launchers"
+    },
+    {
+      "id": "VEHICLE_WEAPON_POUNDER2_GL",
+      "name": "Pounder2 GL",
+      "hash": 2467888918,
       "category": "Grenade & Mortar Launchers"
     },
     {
@@ -323,39 +831,15 @@
       "category": "Grenade & Mortar Launchers"
     },
     {
-      "id": "VEHICLE_WEAPON_TURRET_INSURGENT",
-      "name": "Insurgent Turret",
-      "hash": 1155224728,
+      "id": "VEHICLE_WEAPON_AKULA_TURRET_DUAL",
+      "name": "Akula Turret Dual",
+      "hash": 476907586,
       "category": "Turrets"
     },
     {
-      "id": "VEHICLE_WEAPON_TURRET_TECHNICAL",
-      "name": "Technical Turret",
-      "hash": 2144528907,
-      "category": "Turrets"
-    },
-    {
-      "id": "VEHICLE_WEAPON_NOSE_TURRET_VALKYRIE",
-      "name": "Valkyrie Nose Turret",
-      "hash": 1097917585,
-      "category": "Turrets"
-    },
-    {
-      "id": "VEHICLE_WEAPON_TURRET_VALKYRIE",
-      "name": "Valkyrie Side Turret",
-      "hash": 2756787765,
-      "category": "Turrets"
-    },
-    {
-      "id": "VEHICLE_WEAPON_TURRET_BOXVILLE",
-      "name": "Boxville Turret",
-      "hash": 3041872152,
-      "category": "Turrets"
-    },
-    {
-      "id": "VEHICLE_WEAPON_MOGUL_TURRET",
-      "name": "Mogul Turret",
-      "hash": 3808236382,
+      "id": "VEHICLE_WEAPON_AKULA_TURRET_SINGLE",
+      "name": "Akula Turret Single",
+      "hash": 3048454573,
       "category": "Turrets"
     },
     {
@@ -365,10 +849,82 @@
       "category": "Turrets"
     },
     {
+      "id": "VEHICLE_WEAPON_MOGUL_TURRET",
+      "name": "Mogul Turret",
+      "hash": 3808236382,
+      "category": "Turrets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_NOSE_TURRET_VALKYRIE",
+      "name": "Nose Turret Valkyrie",
+      "hash": 1097917585,
+      "category": "Turrets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_SPEEDO4_TURRET_MG",
+      "name": "Speedo4 Turret MG",
+      "hash": 3595964737,
+      "category": "Turrets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_SPEEDO4_TURRET_MINI",
+      "name": "Speedo4 Turret Mini",
+      "hash": 2667462330,
+      "category": "Turrets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TURRET_BOXVILLE",
+      "name": "Turret Boxville",
+      "hash": 3041872152,
+      "category": "Turrets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TURRET_INSURGENT",
+      "name": "Turret Insurgent",
+      "hash": 1155224728,
+      "category": "Turrets"
+    },
+    {
       "id": "VEHICLE_WEAPON_TURRET_LIMO",
-      "name": "Limo Turret",
+      "name": "Turret Limo",
       "hash": 729375873,
       "category": "Turrets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TURRET_TECHNICAL",
+      "name": "Turret Technical",
+      "hash": 2144528907,
+      "category": "Turrets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TURRET_VALKYRIE",
+      "name": "Turret Valkyrie",
+      "hash": 2756787765,
+      "category": "Turrets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_FLAMETHROWER",
+      "name": "Flamethrower",
+      "hash": 3003147322,
+      "category": "Flamethrowers & Other"
+    },
+    {
+      "id": "VEHICLE_WEAPON_FLAMETHROWER_SCIFI",
+      "name": "Flamethrower Scifi",
+      "hash": 2182329506,
+      "category": "Flamethrowers & Other"
+    },
+    {
+      "id": "VEHICLE_WEAPON_RCTANK_FLAME",
+      "name": "RC Tank Flame",
+      "hash": 4109257098,
+      "category": "Flamethrowers & Other"
+    },
+    {
+      "id": "VEHICLE_WEAPON_RADAR",
+      "name": "Radar",
+      "hash": 3530961278,
+      "category": "Utility & Systems"
     },
     {
       "id": "VEHICLE_WEAPON_ROTORS",
@@ -380,12 +936,6 @@
       "id": "VEHICLE_WEAPON_SEARCHLIGHT",
       "name": "Searchlight",
       "hash": 3450622333,
-      "category": "Utility & Systems"
-    },
-    {
-      "id": "VEHICLE_WEAPON_RADAR",
-      "name": "Radar",
-      "hash": 3530961278,
       "category": "Utility & Systems"
     },
     {

@@ -6,40 +6,16 @@
     "domain": "vehicleweapons",
     "label": "Vehicle Weapons",
     "urlPattern": null,
-    "note": "GTA vehicle weapons (VEHICLE_WEAPON_*). id = the archetype string; hash = joaat(id) (resolves via GET_HASH_KEY). No images. category groups under by-category/; reverse hash -> { id, name, category } in hashes.json."
+    "note": "GTA vehicle weapons (VEHICLE_WEAPON_*). id = the archetype string; hash = the authoritative joaat archetype hash (resolves via GET_HASH_KEY). No images. category groups under by-category/; reverse hash -> { id, name, category } in hashes.json."
   },
   "group": {
     "name": "Cannons",
     "key": "Cannons",
     "slug": "cannons",
-    "count": 10
+    "count": 17
   },
-  "count": 10,
+  "count": 17,
   "items": [
-    {
-      "id": "VEHICLE_WEAPON_TANK",
-      "name": "Tank Cannon",
-      "hash": 1945616459,
-      "category": "Cannons"
-    },
-    {
-      "id": "VEHICLE_WEAPON_PLAYER_LASER",
-      "name": "Jet Cannon",
-      "hash": 4026335563,
-      "category": "Cannons"
-    },
-    {
-      "id": "VEHICLE_WEAPON_PLAYER_LAZER",
-      "name": "Lazer Cannon",
-      "hash": 3800181289,
-      "category": "Cannons"
-    },
-    {
-      "id": "VEHICLE_WEAPON_ENEMY_LASER",
-      "name": "Enemy Jet Cannon",
-      "hash": 1566990507,
-      "category": "Cannons"
-    },
     {
       "id": "VEHICLE_WEAPON_APC_CANNON",
       "name": "APC Cannon",
@@ -47,15 +23,33 @@
       "category": "Cannons"
     },
     {
-      "id": "VEHICLE_WEAPON_PLAYER_SAVAGE",
-      "name": "Savage Cannon",
-      "hash": 1638077257,
+      "id": "VEHICLE_WEAPON_AVENGER_CANNON",
+      "name": "Avenger Cannon",
+      "hash": 2556895291,
+      "category": "Cannons"
+    },
+    {
+      "id": "VEHICLE_WEAPON_BOMBUSHKA_CANNON",
+      "name": "Bombushka Cannon",
+      "hash": 3628350041,
       "category": "Cannons"
     },
     {
       "id": "VEHICLE_WEAPON_CANNON_BLAZER",
-      "name": "Blazer Cannon",
+      "name": "Cannon Blazer",
       "hash": 3959029566,
+      "category": "Cannons"
+    },
+    {
+      "id": "VEHICLE_WEAPON_DEATHBIKE2_MINIGUN_LASER",
+      "name": "Deathbike2 Minigun Laser",
+      "hash": 3909880809,
+      "category": "Cannons"
+    },
+    {
+      "id": "VEHICLE_WEAPON_ENEMY_LASER",
+      "name": "Enemy Laser",
+      "hash": 1566990507,
       "category": "Cannons"
     },
     {
@@ -65,15 +59,63 @@
       "category": "Cannons"
     },
     {
+      "id": "VEHICLE_WEAPON_PLAYER_LASER",
+      "name": "Jet Cannon",
+      "hash": 4026335563,
+      "category": "Cannons"
+    },
+    {
+      "id": "VEHICLE_WEAPON_KHANJALI_CANNON",
+      "name": "Khanjali Cannon",
+      "hash": 507170720,
+      "category": "Cannons"
+    },
+    {
+      "id": "VEHICLE_WEAPON_KHANJALI_CANNON_HEAVY",
+      "name": "Khanjali Cannon Heavy",
+      "hash": 2206953837,
+      "category": "Cannons"
+    },
+    {
+      "id": "VEHICLE_WEAPON_MOBILEOPS_CANNON",
+      "name": "Mobile Operations Cannon",
+      "hash": 3846072740,
+      "category": "Cannons"
+    },
+    {
+      "id": "VEHICLE_WEAPON_OPPRESSOR2_CANNON",
+      "name": "Oppressor2 Cannon",
+      "hash": 3595383913,
+      "category": "Cannons"
+    },
+    {
+      "id": "VEHICLE_WEAPON_PLAYER_LAZER",
+      "name": "Player Lazer",
+      "hash": 3800181289,
+      "category": "Cannons"
+    },
+    {
+      "id": "VEHICLE_WEAPON_RCTANK_LAZER",
+      "name": "RC Tank Lazer",
+      "hash": 1475488848,
+      "category": "Cannons"
+    },
+    {
       "id": "VEHICLE_WEAPON_ROGUE_CANNON",
       "name": "Rogue Cannon",
       "hash": 3878337474,
       "category": "Cannons"
     },
     {
-      "id": "VEHICLE_WEAPON_BOMBUSHKA_CANNON",
-      "name": "Bombushka Cannon",
-      "hash": 3628350041,
+      "id": "VEHICLE_WEAPON_STRIKEFORCE_CANNON",
+      "name": "Strikeforce Cannon",
+      "hash": 955522731,
+      "category": "Cannons"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TANK",
+      "name": "Tank Cannon",
+      "hash": 1945616459,
       "category": "Cannons"
     }
   ]

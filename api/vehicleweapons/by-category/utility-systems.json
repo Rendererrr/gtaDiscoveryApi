@@ -6,7 +6,7 @@
     "domain": "vehicleweapons",
     "label": "Vehicle Weapons",
     "urlPattern": null,
-    "note": "GTA vehicle weapons (VEHICLE_WEAPON_*). id = the archetype string; hash = joaat(id) (resolves via GET_HASH_KEY). No images. category groups under by-category/; reverse hash -> { id, name, category } in hashes.json."
+    "note": "GTA vehicle weapons (VEHICLE_WEAPON_*). id = the archetype string; hash = the authoritative joaat archetype hash (resolves via GET_HASH_KEY). No images. category groups under by-category/; reverse hash -> { id, name, category } in hashes.json."
   },
   "group": {
     "name": "Utility & Systems",
@@ -17,6 +17,12 @@
   "count": 4,
   "items": [
     {
+      "id": "VEHICLE_WEAPON_RADAR",
+      "name": "Radar",
+      "hash": 3530961278,
+      "category": "Utility & Systems"
+    },
+    {
       "id": "VEHICLE_WEAPON_ROTORS",
       "name": "Rotor Blades",
       "hash": 2971687502,
@@ -26,12 +32,6 @@
       "id": "VEHICLE_WEAPON_SEARCHLIGHT",
       "name": "Searchlight",
       "hash": 3450622333,
-      "category": "Utility & Systems"
-    },
-    {
-      "id": "VEHICLE_WEAPON_RADAR",
-      "name": "Radar",
-      "hash": 3530961278,
       "category": "Utility & Systems"
     },
     {
