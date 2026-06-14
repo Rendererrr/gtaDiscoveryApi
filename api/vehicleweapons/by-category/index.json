@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicleweapons",
+    "label": "Vehicle Weapons",
+    "urlPattern": null,
+    "note": "GTA vehicle weapons (VEHICLE_WEAPON_*). id = the archetype string; hash = joaat(id) (resolves via GET_HASH_KEY). No images. category groups under by-category/; reverse hash -> { id, name, category } in hashes.json."
+  },
+  "count": 7,
+  "groups": [
+    {
+      "name": "Machine Guns",
+      "key": "Machine Guns",
+      "slug": "machine-guns",
+      "count": 18,
+      "path": "api/vehicleweapons/by-category/machine-guns.json"
+    },
+    {
+      "name": "Cannons",
+      "key": "Cannons",
+      "slug": "cannons",
+      "count": 10,
+      "path": "api/vehicleweapons/by-category/cannons.json"
+    },
+    {
+      "name": "Missiles & Rockets",
+      "key": "Missiles & Rockets",
+      "slug": "missiles-rockets",
+      "count": 10,
+      "path": "api/vehicleweapons/by-category/missiles-rockets.json"
+    },
+    {
+      "name": "Turrets",
+      "key": "Turrets",
+      "slug": "turrets",
+      "count": 8,
+      "path": "api/vehicleweapons/by-category/turrets.json"
+    },
+    {
+      "name": "Miniguns",
+      "key": "Miniguns",
+      "slug": "miniguns",
+      "count": 7,
+      "path": "api/vehicleweapons/by-category/miniguns.json"
+    },
+    {
+      "name": "Utility & Systems",
+      "key": "Utility & Systems",
+      "slug": "utility-systems",
+      "count": 4,
+      "path": "api/vehicleweapons/by-category/utility-systems.json"
+    },
+    {
+      "name": "Grenade & Mortar Launchers",
+      "key": "Grenade & Mortar Launchers",
+      "slug": "grenade-mortar-launchers",
+      "count": 2,
+      "path": "api/vehicleweapons/by-category/grenade-mortar-launchers.json"
+    }
+  ]
+}

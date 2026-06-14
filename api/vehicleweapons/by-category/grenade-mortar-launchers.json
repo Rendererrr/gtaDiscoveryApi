@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicleweapons",
+    "label": "Vehicle Weapons",
+    "urlPattern": null,
+    "note": "GTA vehicle weapons (VEHICLE_WEAPON_*). id = the archetype string; hash = joaat(id) (resolves via GET_HASH_KEY). No images. category groups under by-category/; reverse hash -> { id, name, category } in hashes.json."
+  },
+  "group": {
+    "name": "Grenade & Mortar Launchers",
+    "key": "Grenade & Mortar Launchers",
+    "slug": "grenade-mortar-launchers",
+    "count": 2
+  },
+  "count": 2,
+  "items": [
+    {
+      "id": "VEHICLE_WEAPON_DUNE_GRENADELAUNCHER",
+      "name": "Dune Grenade Launcher",
+      "hash": 2700898573,
+      "category": "Grenade & Mortar Launchers"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TAMPA_MORTAR",
+      "name": "Tampa Mortar",
+      "hash": 1015268368,
+      "category": "Grenade & Mortar Launchers"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicleweapons",
+    "label": "Vehicle Weapons",
+    "urlPattern": null,
+    "note": "GTA vehicle weapons (VEHICLE_WEAPON_*). id = the archetype string; hash = joaat(id) (resolves via GET_HASH_KEY). No images. category groups under by-category/; reverse hash -> { id, name, category } in hashes.json."
+  },
+  "group": {
+    "name": "Missiles & Rockets",
+    "key": "Missiles & Rockets",
+    "slug": "missiles-rockets",
+    "count": 10
+  },
+  "count": 10,
+  "items": [
+    {
+      "id": "VEHICLE_WEAPON_PLANE_ROCKET",
+      "name": "Plane Rockets",
+      "hash": 3473446624,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_SPACE_ROCKET",
+      "name": "Jet Homing Missiles",
+      "hash": 4171469727,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_APC_MISSILE",
+      "name": "APC Missile",
+      "hash": 1151689097,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_RUINER_ROCKET",
+      "name": "Ruiner 2000 Rockets",
+      "hash": 84788907,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_HUNTER_MISSILE",
+      "name": "Hunter Missiles",
+      "hash": 153396725,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_HUNTER_BARRAGE",
+      "name": "Hunter Barrage Missiles",
+      "hash": 785467445,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_DOGFIGHTER_MISSILE",
+      "name": "Dogfighter Missiles",
+      "hash": 3393648765,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_ROGUE_MISSILE",
+      "name": "Rogue Missiles",
+      "hash": 1820910717,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_VIGILANTE_MISSILE",
+      "name": "Vigilante Missiles",
+      "hash": 1347266149,
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TAMPA_MISSILE",
+      "name": "Tampa Missiles",
+      "hash": 2656583842,
+      "category": "Missiles & Rockets"
+    }
+  ]
+}

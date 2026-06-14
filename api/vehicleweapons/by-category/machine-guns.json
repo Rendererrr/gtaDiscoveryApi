@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicleweapons",
+    "label": "Vehicle Weapons",
+    "urlPattern": null,
+    "note": "GTA vehicle weapons (VEHICLE_WEAPON_*). id = the archetype string; hash = joaat(id) (resolves via GET_HASH_KEY). No images. category groups under by-category/; reverse hash -> { id, name, category } in hashes.json."
+  },
+  "group": {
+    "name": "Machine Guns",
+    "key": "Machine Guns",
+    "slug": "machine-guns",
+    "count": 18
+  },
+  "count": 18,
+  "items": [
+    {
+      "id": "VEHICLE_WEAPON_PLAYER_BULLET",
+      "name": "Standard Vehicle Gun",
+      "hash": 1259576109,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_APC_MG",
+      "name": "APC Machine Gun",
+      "hash": 190244068,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_RUINER_BULLET",
+      "name": "Ruiner 2000 MG",
+      "hash": 50118905,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_HUNTER_MG",
+      "name": "Hunter Machine Gun",
+      "hash": 1119518887,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TULA_NOSEMG",
+      "name": "Tula Nose MG",
+      "hash": 1100844565,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TULA_MG",
+      "name": "Tula Machine Gun",
+      "hash": 1217122433,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TULA_DUALMG",
+      "name": "Tula Dual MG",
+      "hash": 2966510603,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_SEABREEZE_MG",
+      "name": "Seabreeze MG",
+      "hash": 1371067624,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_MICROLIGHT_MG",
+      "name": "Microlight MG",
+      "hash": 3303022956,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_DOGFIGHTER_MG",
+      "name": "Dogfighter MG",
+      "hash": 1595421922,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_MOGUL_NOSE",
+      "name": "Mogul Nose MG",
+      "hash": 4128808778,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_MOGUL_DUALNOSE",
+      "name": "Mogul Dual Nose MG",
+      "hash": 3857952303,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_ROGUE_MG",
+      "name": "Rogue MG",
+      "hash": 158495693,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_BOMBUSHKA_DUALMG",
+      "name": "Bombushka Dual MG",
+      "hash": 741027160,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_VIGILANTE_MG",
+      "name": "Vigilante MG",
+      "hash": 4094131943,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_DUNE_MG",
+      "name": "Dune MG",
+      "hash": 3507816399,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_HALFTRACK_DUALMG",
+      "name": "Half-track Dual MG",
+      "hash": 1331922171,
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_HALFTRACK_QUADMG",
+      "name": "Half-track Quad MG",
+      "hash": 1226518132,
+      "category": "Machine Guns"
+    }
+  ]
+}

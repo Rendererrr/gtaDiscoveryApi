@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicleweapons",
+    "label": "Vehicle Weapons",
+    "urlPattern": null,
+    "note": "GTA vehicle weapons (VEHICLE_WEAPON_*). id = the archetype string; hash = joaat(id) (resolves via GET_HASH_KEY). No images. category groups under by-category/; reverse hash -> { id, name, category } in hashes.json."
+  },
+  "group": {
+    "name": "Utility & Systems",
+    "key": "Utility & Systems",
+    "slug": "utility-systems",
+    "count": 4
+  },
+  "count": 4,
+  "items": [
+    {
+      "id": "VEHICLE_WEAPON_ROTORS",
+      "name": "Rotor Blades",
+      "hash": 2971687502,
+      "category": "Utility & Systems"
+    },
+    {
+      "id": "VEHICLE_WEAPON_SEARCHLIGHT",
+      "name": "Searchlight",
+      "hash": 3450622333,
+      "category": "Utility & Systems"
+    },
+    {
+      "id": "VEHICLE_WEAPON_RADAR",
+      "name": "Radar",
+      "hash": 3530961278,
+      "category": "Utility & Systems"
+    },
+    {
+      "id": "VEHICLE_WEAPON_WATER_CANNON",
+      "name": "Water Cannon",
+      "hash": 1741783703,
+      "category": "Utility & Systems"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicleweapons",
+    "label": "Vehicle Weapons",
+    "urlPattern": null,
+    "note": "GTA vehicle weapons (VEHICLE_WEAPON_*). id = the archetype string; hash = joaat(id) (resolves via GET_HASH_KEY). No images. category groups under by-category/; reverse hash -> { id, name, category } in hashes.json."
+  },
+  "group": {
+    "name": "Miniguns",
+    "key": "Miniguns",
+    "slug": "miniguns",
+    "count": 7
+  },
+  "count": 7,
+  "items": [
+    {
+      "id": "VEHICLE_WEAPON_PLAYER_BUZZARD",
+      "name": "Buzzard Miniguns",
+      "hash": 1186503822,
+      "category": "Miniguns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_PLAYER_HUNTER",
+      "name": "Hunter Miniguns",
+      "hash": 2669318622,
+      "category": "Miniguns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TULA_MINIGUN",
+      "name": "Tula Minigun",
+      "hash": 376489128,
+      "category": "Miniguns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_HAVOK_MINIGUN",
+      "name": "Havok Minigun",
+      "hash": 855547631,
+      "category": "Miniguns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_DUNE_MINIGUN",
+      "name": "Dune Minigun",
+      "hash": 1416047217,
+      "category": "Miniguns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TAMPA_FIXEDMINIGUN",
+      "name": "Tampa Fixed Minigun",
+      "hash": 3670375085,
+      "category": "Miniguns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TAMPA_DUALMINIGUN",
+      "name": "Tampa Dual Minigun",
+      "hash": 1744687076,
+      "category": "Miniguns"
+    }
+  ]
+}

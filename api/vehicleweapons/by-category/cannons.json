@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicleweapons",
+    "label": "Vehicle Weapons",
+    "urlPattern": null,
+    "note": "GTA vehicle weapons (VEHICLE_WEAPON_*). id = the archetype string; hash = joaat(id) (resolves via GET_HASH_KEY). No images. category groups under by-category/; reverse hash -> { id, name, category } in hashes.json."
+  },
+  "group": {
+    "name": "Cannons",
+    "key": "Cannons",
+    "slug": "cannons",
+    "count": 10
+  },
+  "count": 10,
+  "items": [
+    {
+      "id": "VEHICLE_WEAPON_TANK",
+      "name": "Tank Cannon",
+      "hash": 1945616459,
+      "category": "Cannons"
+    },
+    {
+      "id": "VEHICLE_WEAPON_PLAYER_LASER",
+      "name": "Jet Cannon",
+      "hash": 4026335563,
+      "category": "Cannons"
+    },
+    {
+      "id": "VEHICLE_WEAPON_PLAYER_LAZER",
+      "name": "Lazer Cannon",
+      "hash": 3800181289,
+      "category": "Cannons"
+    },
+    {
+      "id": "VEHICLE_WEAPON_ENEMY_LASER",
+      "name": "Enemy Jet Cannon",
+      "hash": 1566990507,
+      "category": "Cannons"
+    },
+    {
+      "id": "VEHICLE_WEAPON_APC_CANNON",
+      "name": "APC Cannon",
+      "hash": 328167896,
+      "category": "Cannons"
+    },
+    {
+      "id": "VEHICLE_WEAPON_PLAYER_SAVAGE",
+      "name": "Savage Cannon",
+      "hash": 1638077257,
+      "category": "Cannons"
+    },
+    {
+      "id": "VEHICLE_WEAPON_CANNON_BLAZER",
+      "name": "Blazer Cannon",
+      "hash": 3959029566,
+      "category": "Cannons"
+    },
+    {
+      "id": "VEHICLE_WEAPON_HUNTER_CANNON",
+      "name": "Hunter Cannon",
+      "hash": 704686874,
+      "category": "Cannons"
+    },
+    {
+      "id": "VEHICLE_WEAPON_ROGUE_CANNON",
+      "name": "Rogue Cannon",
+      "hash": 3878337474,
+      "category": "Cannons"
+    },
+    {
+      "id": "VEHICLE_WEAPON_BOMBUSHKA_CANNON",
+      "name": "Bombushka Cannon",
+      "hash": 3628350041,
+      "category": "Cannons"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "vehicleweapons",
+    "label": "Vehicle Weapons",
+    "urlPattern": null,
+    "note": "GTA vehicle weapons (VEHICLE_WEAPON_*). id = the archetype string; hash = joaat(id) (resolves via GET_HASH_KEY). No images. category groups under by-category/; reverse hash -> { id, name, category } in hashes.json."
+  },
+  "group": {
+    "name": "Turrets",
+    "key": "Turrets",
+    "slug": "turrets",
+    "count": 8
+  },
+  "count": 8,
+  "items": [
+    {
+      "id": "VEHICLE_WEAPON_TURRET_INSURGENT",
+      "name": "Insurgent Turret",
+      "hash": 1155224728,
+      "category": "Turrets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TURRET_TECHNICAL",
+      "name": "Technical Turret",
+      "hash": 2144528907,
+      "category": "Turrets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_NOSE_TURRET_VALKYRIE",
+      "name": "Valkyrie Nose Turret",
+      "hash": 1097917585,
+      "category": "Turrets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TURRET_VALKYRIE",
+      "name": "Valkyrie Side Turret",
+      "hash": 2756787765,
+      "category": "Turrets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TURRET_BOXVILLE",
+      "name": "Boxville Turret",
+      "hash": 3041872152,
+      "category": "Turrets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_MOGUL_TURRET",
+      "name": "Mogul Turret",
+      "hash": 3808236382,
+      "category": "Turrets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_MOGUL_DUALTURRET",
+      "name": "Mogul Dual Turret",
+      "hash": 3123149825,
+      "category": "Turrets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TURRET_LIMO",
+      "name": "Limo Turret",
+      "hash": 729375873,
+      "category": "Turrets"
+    }
+  ]
+}

@@ -1,0 +1,310 @@
+{
+  "note": "GTA vehicle weapons — the archetype string names used with GET_HASH_KEY / vehicle weapon natives (e.g. SET_CURRENT_PED_VEHICLE_WEAPON, GIVE_WEAPON_TO_PED on a vehicle). id = the VEHICLE_WEAPON_* string; hash = joaat(id) (computed at build). Categorized by weapon type with friendly display names. No images.",
+  "source": "User-supplied VEHICLE_WEAPON_* enum, verified against joaat(name); cross-checked with DurtyFree/gta-v-data-dumps WeaponList.ini.",
+  "categories": [
+    "Machine Guns",
+    "Miniguns",
+    "Cannons",
+    "Missiles & Rockets",
+    "Grenade & Mortar Launchers",
+    "Turrets",
+    "Utility & Systems"
+  ],
+  "vehicleweapons": [
+    {
+      "id": "VEHICLE_WEAPON_PLAYER_BULLET",
+      "name": "Standard Vehicle Gun",
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_APC_MG",
+      "name": "APC Machine Gun",
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_RUINER_BULLET",
+      "name": "Ruiner 2000 MG",
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_HUNTER_MG",
+      "name": "Hunter Machine Gun",
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TULA_NOSEMG",
+      "name": "Tula Nose MG",
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TULA_MG",
+      "name": "Tula Machine Gun",
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TULA_DUALMG",
+      "name": "Tula Dual MG",
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_SEABREEZE_MG",
+      "name": "Seabreeze MG",
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_MICROLIGHT_MG",
+      "name": "Microlight MG",
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_DOGFIGHTER_MG",
+      "name": "Dogfighter MG",
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_MOGUL_NOSE",
+      "name": "Mogul Nose MG",
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_MOGUL_DUALNOSE",
+      "name": "Mogul Dual Nose MG",
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_ROGUE_MG",
+      "name": "Rogue MG",
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_BOMBUSHKA_DUALMG",
+      "name": "Bombushka Dual MG",
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_VIGILANTE_MG",
+      "name": "Vigilante MG",
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_DUNE_MG",
+      "name": "Dune MG",
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_HALFTRACK_DUALMG",
+      "name": "Half-track Dual MG",
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_HALFTRACK_QUADMG",
+      "name": "Half-track Quad MG",
+      "category": "Machine Guns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_PLAYER_BUZZARD",
+      "name": "Buzzard Miniguns",
+      "category": "Miniguns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_PLAYER_HUNTER",
+      "name": "Hunter Miniguns",
+      "category": "Miniguns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TULA_MINIGUN",
+      "name": "Tula Minigun",
+      "category": "Miniguns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_HAVOK_MINIGUN",
+      "name": "Havok Minigun",
+      "category": "Miniguns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_DUNE_MINIGUN",
+      "name": "Dune Minigun",
+      "category": "Miniguns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TAMPA_FIXEDMINIGUN",
+      "name": "Tampa Fixed Minigun",
+      "category": "Miniguns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TAMPA_DUALMINIGUN",
+      "name": "Tampa Dual Minigun",
+      "category": "Miniguns"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TANK",
+      "name": "Tank Cannon",
+      "category": "Cannons"
+    },
+    {
+      "id": "VEHICLE_WEAPON_PLAYER_LASER",
+      "name": "Jet Cannon",
+      "category": "Cannons"
+    },
+    {
+      "id": "VEHICLE_WEAPON_PLAYER_LAZER",
+      "name": "Lazer Cannon",
+      "category": "Cannons"
+    },
+    {
+      "id": "VEHICLE_WEAPON_ENEMY_LASER",
+      "name": "Enemy Jet Cannon",
+      "category": "Cannons"
+    },
+    {
+      "id": "VEHICLE_WEAPON_APC_CANNON",
+      "name": "APC Cannon",
+      "category": "Cannons"
+    },
+    {
+      "id": "VEHICLE_WEAPON_PLAYER_SAVAGE",
+      "name": "Savage Cannon",
+      "category": "Cannons"
+    },
+    {
+      "id": "VEHICLE_WEAPON_CANNON_BLAZER",
+      "name": "Blazer Cannon",
+      "category": "Cannons"
+    },
+    {
+      "id": "VEHICLE_WEAPON_HUNTER_CANNON",
+      "name": "Hunter Cannon",
+      "category": "Cannons"
+    },
+    {
+      "id": "VEHICLE_WEAPON_ROGUE_CANNON",
+      "name": "Rogue Cannon",
+      "category": "Cannons"
+    },
+    {
+      "id": "VEHICLE_WEAPON_BOMBUSHKA_CANNON",
+      "name": "Bombushka Cannon",
+      "category": "Cannons"
+    },
+    {
+      "id": "VEHICLE_WEAPON_PLANE_ROCKET",
+      "name": "Plane Rockets",
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_SPACE_ROCKET",
+      "name": "Jet Homing Missiles",
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_APC_MISSILE",
+      "name": "APC Missile",
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_RUINER_ROCKET",
+      "name": "Ruiner 2000 Rockets",
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_HUNTER_MISSILE",
+      "name": "Hunter Missiles",
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_HUNTER_BARRAGE",
+      "name": "Hunter Barrage Missiles",
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_DOGFIGHTER_MISSILE",
+      "name": "Dogfighter Missiles",
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_ROGUE_MISSILE",
+      "name": "Rogue Missiles",
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_VIGILANTE_MISSILE",
+      "name": "Vigilante Missiles",
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TAMPA_MISSILE",
+      "name": "Tampa Missiles",
+      "category": "Missiles & Rockets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_DUNE_GRENADELAUNCHER",
+      "name": "Dune Grenade Launcher",
+      "category": "Grenade & Mortar Launchers"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TAMPA_MORTAR",
+      "name": "Tampa Mortar",
+      "category": "Grenade & Mortar Launchers"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TURRET_INSURGENT",
+      "name": "Insurgent Turret",
+      "category": "Turrets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TURRET_TECHNICAL",
+      "name": "Technical Turret",
+      "category": "Turrets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_NOSE_TURRET_VALKYRIE",
+      "name": "Valkyrie Nose Turret",
+      "category": "Turrets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TURRET_VALKYRIE",
+      "name": "Valkyrie Side Turret",
+      "category": "Turrets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TURRET_BOXVILLE",
+      "name": "Boxville Turret",
+      "category": "Turrets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_MOGUL_TURRET",
+      "name": "Mogul Turret",
+      "category": "Turrets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_MOGUL_DUALTURRET",
+      "name": "Mogul Dual Turret",
+      "category": "Turrets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_TURRET_LIMO",
+      "name": "Limo Turret",
+      "category": "Turrets"
+    },
+    {
+      "id": "VEHICLE_WEAPON_ROTORS",
+      "name": "Rotor Blades",
+      "category": "Utility & Systems"
+    },
+    {
+      "id": "VEHICLE_WEAPON_SEARCHLIGHT",
+      "name": "Searchlight",
+      "category": "Utility & Systems"
+    },
+    {
+      "id": "VEHICLE_WEAPON_RADAR",
+      "name": "Radar",
+      "category": "Utility & Systems"
+    },
+    {
+      "id": "VEHICLE_WEAPON_WATER_CANNON",
+      "name": "Water Cannon",
+      "category": "Utility & Systems"
+    }
+  ]
+}
