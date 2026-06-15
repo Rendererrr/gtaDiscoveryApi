@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "speeches",
+    "label": "Speeches",
+    "urlPattern": null,
+    "note": "Ambient speech names for PLAY_PED_AMBIENT_SPEECH_NATIVE(ped, id, \"SPEECH_PARAMS_FORCE\", 0), played in the ped's current voice. id = the speech name; hash = joaat(id). No images. category groups under by-category/."
+  },
+  "count": 8,
+  "groups": [
+    {
+      "name": "Insults & Threats",
+      "key": "Insults & Threats",
+      "slug": "insults-threats",
+      "count": 337,
+      "path": "api/speeches/by-category/insults-threats.json"
+    },
+    {
+      "name": "Greetings & Chat",
+      "key": "Greetings & Chat",
+      "slug": "greetings-chat",
+      "count": 140,
+      "path": "api/speeches/by-category/greetings-chat.json"
+    },
+    {
+      "name": "Driving & Traffic",
+      "key": "Driving & Traffic",
+      "slug": "driving-traffic",
+      "count": 100,
+      "path": "api/speeches/by-category/driving-traffic.json"
+    },
+    {
+      "name": "Combat & Death",
+      "key": "Combat & Death",
+      "slug": "combat-death",
+      "count": 95,
+      "path": "api/speeches/by-category/combat-death.json"
+    },
+    {
+      "name": "Generic",
+      "key": "Generic",
+      "slug": "generic",
+      "count": 63,
+      "path": "api/speeches/by-category/generic.json"
+    },
+    {
+      "name": "Police & Crime",
+      "key": "Police & Crime",
+      "slug": "police-crime",
+      "count": 59,
+      "path": "api/speeches/by-category/police-crime.json"
+    },
+    {
+      "name": "Reactions",
+      "key": "Reactions",
+      "slug": "reactions",
+      "count": 38,
+      "path": "api/speeches/by-category/reactions.json"
+    },
+    {
+      "name": "Fear & Panic",
+      "key": "Fear & Panic",
+      "slug": "fear-panic",
+      "count": 25,
+      "path": "api/speeches/by-category/fear-panic.json"
+    }
+  ]
+}

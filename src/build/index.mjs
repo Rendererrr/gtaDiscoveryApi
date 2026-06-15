@@ -33,6 +33,7 @@ import * as moods from './moods.mjs';
 import * as damagepacks from './damagepacks.mjs';
 import * as voices from './voices.mjs';
 import * as tattoos from './tattoos.mjs';
+import * as speeches from './speeches.mjs';
 import * as map from './map.mjs';
 
 const DOMAINS = [
@@ -56,6 +57,7 @@ const DOMAINS = [
   damagepacks,
   voices,
   tattoos,
+  speeches,
   map,
 ];
 

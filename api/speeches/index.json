@@ -1,0 +1,5190 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "speeches",
+    "label": "Speeches",
+    "urlPattern": null,
+    "note": "Ambient speech names for PLAY_PED_AMBIENT_SPEECH_NATIVE(ped, id, \"SPEECH_PARAMS_FORCE\", 0), played in the ped's current voice. id = the speech name; hash = joaat(id). No images. category groups under by-category/."
+  },
+  "categories": [
+    {
+      "name": "Insults & Threats",
+      "count": 337
+    },
+    {
+      "name": "Greetings & Chat",
+      "count": 140
+    },
+    {
+      "name": "Driving & Traffic",
+      "count": 100
+    },
+    {
+      "name": "Combat & Death",
+      "count": 95
+    },
+    {
+      "name": "Generic",
+      "count": 63
+    },
+    {
+      "name": "Police & Crime",
+      "count": 59
+    },
+    {
+      "name": "Reactions",
+      "count": 38
+    },
+    {
+      "name": "Fear & Panic",
+      "count": 25
+    }
+  ],
+  "count": 857,
+  "items": [
+    {
+      "id": "ABOUT_TO_DIE",
+      "name": "About To Die",
+      "hash": 569861224,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "ACQUIRING_TARGET",
+      "name": "Acquiring Target",
+      "hash": 3438326301,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "AGREE_ACROSS_STREET",
+      "name": "Agree Across Street",
+      "hash": 2102192709,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "ALIEN_DEATH",
+      "name": "Alien Death",
+      "hash": 1957637653,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "ANGRY_AT_PLAYER_TREVOR",
+      "name": "Angry At Player Trevor",
+      "hash": 1837804193,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "ANGRY_WITH_PLAYER_FRANKLIN",
+      "name": "Angry With Player Franklin",
+      "hash": 337784395,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "ANGRY_WITH_PLAYER_MICHAEL",
+      "name": "Angry With Player Michael",
+      "hash": 912625470,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "ANGRY_WITH_PLAYER_TREVOR",
+      "name": "Angry With Player Trevor",
+      "hash": 2360744440,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "APOLOGY_NO_TROUBLE",
+      "name": "Apology No Trouble",
+      "hash": 2348432862,
+      "category": "Reactions"
+    },
+    {
+      "id": "ARM_CHEER_NORMAL_GENERIC",
+      "name": "Arm Cheer Normal Generic",
+      "hash": 3945787014,
+      "category": "Generic"
+    },
+    {
+      "id": "ARM_REF_CHAT",
+      "name": "Arm Ref Chat",
+      "hash": 1204534212,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "ARM_TAUNT",
+      "name": "Arm Taunt",
+      "hash": 2562440806,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "ARM_TAUNT_PRELIM",
+      "name": "Arm Taunt Prelim",
+      "hash": 2991334311,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "ARM_TAUNT_PRELIM_REMATCH",
+      "name": "Arm Taunt Prelim Rematch",
+      "hash": 4214815057,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "ARM_TAUNT_PRELIM_RESP",
+      "name": "Arm Taunt Prelim Resp",
+      "hash": 4036698881,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "ARRESTED",
+      "name": "Arrested",
+      "hash": 2614426127,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "ARRESTED_DRUNK",
+      "name": "Arrested Drunk",
+      "hash": 1831394315,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "ARREST_PLAYER",
+      "name": "Arrest Player",
+      "hash": 1661377938,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "BARTENDER_CHAT",
+      "name": "Bartender Chat",
+      "hash": 292185227,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "BARTENDER_GREET",
+      "name": "Bartender Greet",
+      "hash": 3762182528,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "BLOCKED_GENERIC",
+      "name": "Blocked Generic",
+      "hash": 4284360154,
+      "category": "Reactions"
+    },
+    {
+      "id": "BLOCKED_GENERIC_EVENING",
+      "name": "Blocked Generic Evening",
+      "hash": 2340708012,
+      "category": "Reactions"
+    },
+    {
+      "id": "BLOCKED_GENERIC_MORNING",
+      "name": "Blocked Generic Morning",
+      "hash": 3558179745,
+      "category": "Reactions"
+    },
+    {
+      "id": "BLOCKED_GENERIC_NIGHT",
+      "name": "Blocked Generic Night",
+      "hash": 1718667295,
+      "category": "Reactions"
+    },
+    {
+      "id": "BLOCKED_IN_PURSUIT",
+      "name": "Blocked In Pursuit",
+      "hash": 1839284061,
+      "category": "Reactions"
+    },
+    {
+      "id": "BOUNCER_EJECT_GENERIC",
+      "name": "Bouncer Eject Generic",
+      "hash": 2768437691,
+      "category": "Generic"
+    },
+    {
+      "id": "BOUNCER_GREET_FRANKLIN_LIKE",
+      "name": "Bouncer Greet Franklin Like",
+      "hash": 2518568140,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "BOUNCER_GREET_MICHAEL_LIKE",
+      "name": "Bouncer Greet Michael Like",
+      "hash": 1643721151,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "BOUNCER_GREET_PLAYER_NEUTRAL",
+      "name": "Bouncer Greet Player Neutral",
+      "hash": 3394811063,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "BOUNCER_GREET_TREVOR_LIKE",
+      "name": "Bouncer Greet Trevor Like",
+      "hash": 3361603039,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "BOUNCER_GREET_TREVOR_OWNS",
+      "name": "Bouncer Greet Trevor Owns",
+      "hash": 1150809391,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "BUDDY_SEES_FRANKLIN_DEATH",
+      "name": "Buddy Sees Franklin Death",
+      "hash": 3758737429,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "BUDDY_SEES_MICHAEL_DEATH",
+      "name": "Buddy Sees Michael Death",
+      "hash": 1743677721,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "BUDDY_SEES_TREVOR_DEATH",
+      "name": "Buddy Sees Trevor Death",
+      "hash": 534899122,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "BUDD_SEES_TREVOR_DEATH",
+      "name": "Budd Sees Trevor Death",
+      "hash": 258194895,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "BUMP",
+      "name": "Bump",
+      "hash": 2568139253,
+      "category": "Reactions"
+    },
+    {
+      "id": "BUMP_DRUNK",
+      "name": "Bump Drunk",
+      "hash": 1415017258,
+      "category": "Reactions"
+    },
+    {
+      "id": "BUMP_EVENING",
+      "name": "Bump Evening",
+      "hash": 658035996,
+      "category": "Reactions"
+    },
+    {
+      "id": "BUMP_MORNING",
+      "name": "Bump Morning",
+      "hash": 733485844,
+      "category": "Reactions"
+    },
+    {
+      "id": "BUMP_NIGHT",
+      "name": "Bump Night",
+      "hash": 781957887,
+      "category": "Reactions"
+    },
+    {
+      "id": "BUMP_RAINING",
+      "name": "Bump Raining",
+      "hash": 4128405822,
+      "category": "Reactions"
+    },
+    {
+      "id": "BUM_THANKS_FEMALE",
+      "name": "Bum Thanks Female",
+      "hash": 2759528147,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "BUM_THANKS_MALE",
+      "name": "Bum Thanks Male",
+      "hash": 602121493,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "CALL_COPS_COMMIT",
+      "name": "Call Cops Commit",
+      "hash": 2453742956,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "CALL_COPS_THREAT",
+      "name": "Call Cops Threat",
+      "hash": 778932479,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "CAPTAIN_BYE",
+      "name": "Captain Bye",
+      "hash": 634169507,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "CAPTAIN_CHAT",
+      "name": "Captain Chat",
+      "hash": 2785246838,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "CAPTAIN_GENERIC_LOCATION",
+      "name": "Captain Generic Location",
+      "hash": 631006045,
+      "category": "Generic"
+    },
+    {
+      "id": "CAPTAIN_IDLE",
+      "name": "Captain Idle",
+      "hash": 20536989,
+      "category": "Generic"
+    },
+    {
+      "id": "CAPTAIN_NEGATIVE",
+      "name": "Captain Negative",
+      "hash": 1753449388,
+      "category": "Generic"
+    },
+    {
+      "id": "CAPTAIN_PROCOPIO",
+      "name": "Captain Procopio",
+      "hash": 4044655924,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "CARMO_NO_SER",
+      "name": "Carmo No Ser",
+      "hash": 3752745062,
+      "category": "Generic"
+    },
+    {
+      "id": "CAR_HIT_PED",
+      "name": "Car Hit Ped",
+      "hash": 2163112745,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "CAR_HIT_PED_DRIVEN",
+      "name": "Car Hit Ped Driven",
+      "hash": 2195094907,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "CAR_HIT_PED_DRIVEN_DRUNK",
+      "name": "Car Hit Ped Driven Drunk",
+      "hash": 2729979582,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "CAR_HIT_PED_DRUNK",
+      "name": "Car Hit Ped Drunk",
+      "hash": 1660815523,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "CHALLENGE_ACCEPTED_BUMPED_INTO",
+      "name": "Challenge Accepted Bumped Into",
+      "hash": 1448928544,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "CHALLENGE_ACCEPTED_GENERIC",
+      "name": "Challenge Accepted Generic",
+      "hash": 1414366195,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "CHALLENGE_ACCEPTED_GENERIC_NIGHT",
+      "name": "Challenge Accepted Generic Night",
+      "hash": 2361530122,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "CHALLENGE_ACCEPTED_HIT_CAR",
+      "name": "Challenge Accepted Hit Car",
+      "hash": 3270617481,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "CHALLENGE_THREATEN",
+      "name": "Challenge Threaten",
+      "hash": 2901252861,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "CHALLENGE_THREATEN_NIGHT",
+      "name": "Challenge Threaten Night",
+      "hash": 3823392046,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "CHASED_BY_POLICE",
+      "name": "Chased By Police",
+      "hash": 1354289085,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "CHASED_BY_POLICE_DRUNK",
+      "name": "Chased By Police Drunk",
+      "hash": 3838351195,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "CHASE_VEHICLE_MEGAPHONE",
+      "name": "Chase Vehicle Megaphone",
+      "hash": 2281722852,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "CHAT_ACROSS_STREET_RESP",
+      "name": "Chat Across Street Resp",
+      "hash": 2130441938,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "CHAT_ACROSS_STREET_STATE",
+      "name": "Chat Across Street State",
+      "hash": 1982450408,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "CHAT_RESP",
+      "name": "Chat Resp",
+      "hash": 1465384623,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "CHAT_STATE",
+      "name": "Chat State",
+      "hash": 1848200635,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "CHAT_STATE_ACROSS_STREET_RAINING",
+      "name": "Chat State Across Street Raining",
+      "hash": 494078371,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "CHAT_STATE_KNOWS_PLAYER",
+      "name": "Chat State Knows Player",
+      "hash": 1129278339,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "CHAT_STATE_MORNING",
+      "name": "Chat State Morning",
+      "hash": 1411506227,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "CHAT_STATE_RAINING",
+      "name": "Chat State Raining",
+      "hash": 393082715,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "CHAT_STATE_RESTAURANT",
+      "name": "Chat State Restaurant",
+      "hash": 1574459470,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "CLEAR_AREA_PANIC_MEGAPHONE",
+      "name": "Clear Area Panic Megaphone",
+      "hash": 3542034949,
+      "category": "Fear & Panic"
+    },
+    {
+      "id": "CLOWN_DEATH",
+      "name": "Clown Death",
+      "hash": 1937551554,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "CLOWN_LAUGH",
+      "name": "Clown Laugh",
+      "hash": 3340380050,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "COMBAT_TAUNT",
+      "name": "Combat Taunt",
+      "hash": 1684473006,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "COP_ARRIVAL_ANNOUNCE",
+      "name": "Cop Arrival Announce",
+      "hash": 1771073269,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "COP_ARRIVAL_ANNOUNCE_MEGAPHONE",
+      "name": "Cop Arrival Announce Megaphone",
+      "hash": 3660166679,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "COP_ARRIVAL_ANNOUNCE_MEGAPHONE_NO_REVERB",
+      "name": "Cop Arrival Announce Megaphone No Reverb",
+      "hash": 3253785099,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "COP_PEEK",
+      "name": "Cop Peek",
+      "hash": 2193743272,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "COP_SEES_GRENADE",
+      "name": "Cop Sees Grenade",
+      "hash": 1264746702,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "COP_SEES_GRENADE_LAUNCHER",
+      "name": "Cop Sees Grenade Launcher",
+      "hash": 3070718200,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "COP_SEES_GUN",
+      "name": "Cop Sees Gun",
+      "hash": 4140918496,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "COP_SEES_MINI_GUN",
+      "name": "Cop Sees Mini Gun",
+      "hash": 1637963852,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "COP_SEES_ROCKET_LAUNCHER",
+      "name": "Cop Sees Rocket Launcher",
+      "hash": 737876295,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "COP_SEES_WEAPON",
+      "name": "Cop Sees Weapon",
+      "hash": 1293859563,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "COVER_ME",
+      "name": "Cover Me",
+      "hash": 3608119088,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "COVER_YOU",
+      "name": "Cover You",
+      "hash": 2902488636,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "COWER",
+      "name": "Cower",
+      "hash": 863436125,
+      "category": "Fear & Panic"
+    },
+    {
+      "id": "CRASHED_INTO_BY_PLAYER",
+      "name": "Crashed Into By Player",
+      "hash": 2237693491,
+      "category": "Reactions"
+    },
+    {
+      "id": "CRASH_CAR",
+      "name": "Crash Car",
+      "hash": 277120218,
+      "category": "Reactions"
+    },
+    {
+      "id": "CRASH_CAR_BASS",
+      "name": "Crash Car Bass",
+      "hash": 2226915260,
+      "category": "Reactions"
+    },
+    {
+      "id": "CRASH_CAR_DRIVEN",
+      "name": "Crash Car Driven",
+      "hash": 2663017307,
+      "category": "Reactions"
+    },
+    {
+      "id": "CRASH_CAR_DRIVEN_DRUNK",
+      "name": "Crash Car Driven Drunk",
+      "hash": 1234438303,
+      "category": "Reactions"
+    },
+    {
+      "id": "CRASH_CAR_DRUNK",
+      "name": "Crash Car Drunk",
+      "hash": 162810709,
+      "category": "Reactions"
+    },
+    {
+      "id": "CRASH_CAR_RAINING",
+      "name": "Crash Car Raining",
+      "hash": 2692335494,
+      "category": "Reactions"
+    },
+    {
+      "id": "CRASH_GENERIC",
+      "name": "Crash Generic",
+      "hash": 2137884179,
+      "category": "Reactions"
+    },
+    {
+      "id": "CRASH_GENERIC_DRIVEN",
+      "name": "Crash Generic Driven",
+      "hash": 3885843141,
+      "category": "Reactions"
+    },
+    {
+      "id": "CRASH_GENERIC_DRIVEN_DRUNK",
+      "name": "Crash Generic Driven Drunk",
+      "hash": 3350513742,
+      "category": "Reactions"
+    },
+    {
+      "id": "CRASH_GENERIC_DRUNK",
+      "name": "Crash Generic Drunk",
+      "hash": 2909784610,
+      "category": "Reactions"
+    },
+    {
+      "id": "CRASH_GENERIC_INTERRUPT",
+      "name": "Crash Generic Interrupt",
+      "hash": 1248359349,
+      "category": "Reactions"
+    },
+    {
+      "id": "CRASH_GENERIC_INTERRUPT_DRUNK",
+      "name": "Crash Generic Interrupt Drunk",
+      "hash": 1943303045,
+      "category": "Reactions"
+    },
+    {
+      "id": "CRASH_GENERIC_MORNING",
+      "name": "Crash Generic Morning",
+      "hash": 4186845491,
+      "category": "Reactions"
+    },
+    {
+      "id": "CRASH_GENERIC_RAINING",
+      "name": "Crash Generic Raining",
+      "hash": 2099173398,
+      "category": "Reactions"
+    },
+    {
+      "id": "CRIMINAL_APPREHEND",
+      "name": "Criminal Apprehend",
+      "hash": 1185232758,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "CRIMINAL_APPREHENDED",
+      "name": "Criminal Apprehended",
+      "hash": 2577476267,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "CRIMINAL_GET_IN_CAR",
+      "name": "Criminal Get In Car",
+      "hash": 3678979717,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "CRIMINAL_WARNING",
+      "name": "Criminal Warning",
+      "hash": 795321579,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "CUSTOM_GOLF_GREET_FRANKLIN",
+      "name": "Custom Golf Greet Franklin",
+      "hash": 4017256016,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "CUSTOM_GOLF_GREET_MICHAEL",
+      "name": "Custom Golf Greet Michael",
+      "hash": 1896361243,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "CUSTOM_GOLF_GREET_TREVOR",
+      "name": "Custom Golf Greet Trevor",
+      "hash": 1747526391,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "DARTS_CHAT_WITH_FRANKLIN",
+      "name": "Darts Chat With Franklin",
+      "hash": 3750291677,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "DARTS_CHAT_WITH_MICHAEL",
+      "name": "Darts Chat With Michael",
+      "hash": 3810251204,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "DARTS_CHAT_WITH_TREVOR",
+      "name": "Darts Chat With Trevor",
+      "hash": 1710558745,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "DEATH_HIGH_LONG",
+      "name": "Death High Long",
+      "hash": 1479352704,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "DEATH_HIGH_MEDIUM",
+      "name": "Death High Medium",
+      "hash": 3489273735,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "DEATH_UNDERWATER",
+      "name": "Death Underwater",
+      "hash": 3281998492,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "DODGE",
+      "name": "Dodge",
+      "hash": 4231561908,
+      "category": "Reactions"
+    },
+    {
+      "id": "DRAW_GUN_DRUNK",
+      "name": "Draw Gun Drunk",
+      "hash": 400929822,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "DRIVEN_FAST",
+      "name": "Driven Fast",
+      "hash": 3142992538,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "DRIVEN_SLOW",
+      "name": "Driven Slow",
+      "hash": 1580267525,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "DROP_THE_WEAPON",
+      "name": "Drop The Weapon",
+      "hash": 3669020154,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "DUCK",
+      "name": "Duck",
+      "hash": 1464384469,
+      "category": "Fear & Panic"
+    },
+    {
+      "id": "DYING_HELP",
+      "name": "Dying Help",
+      "hash": 4086298069,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "DYING_MOAN",
+      "name": "Dying Moan",
+      "hash": 1241081976,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "DYING_PLEAD",
+      "name": "Dying Plead",
+      "hash": 1033247362,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "ENGINE_1_FIRE",
+      "name": "Engine 1 Fire",
+      "hash": 625522311,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "ENGINE_2_FIRE",
+      "name": "Engine 2 Fire",
+      "hash": 1942605693,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "ENGINE_3_FIRE",
+      "name": "Engine 3 Fire",
+      "hash": 3789970102,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "ENGINE_4_FIRE",
+      "name": "Engine 4 Fire",
+      "hash": 3692619671,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "EVENT_SHOCKING_BICYCLE_ON_PAVEMENT",
+      "name": "Event Shocking Bicycle On Pavement",
+      "hash": 3889570878,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "EVENT_SHOCKING_CAR_CRASH",
+      "name": "Event Shocking Car Crash",
+      "hash": 2035401594,
+      "category": "Reactions"
+    },
+    {
+      "id": "EVENT_SHOCKING_CAR_ON_CAR",
+      "name": "Event Shocking Car On Car",
+      "hash": 4112473936,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "EVENT_SHOCKING_CAR_PILE_UP",
+      "name": "Event Shocking Car Pile Up",
+      "hash": 2910203524,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "EVENT_SHOCKING_DRIVING_ON_PAVEMENT",
+      "name": "Event Shocking Driving On Pavement",
+      "hash": 1863491027,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "EVENT_SHOCKING_EXPLOSION",
+      "name": "Event Shocking Explosion",
+      "hash": 217247011,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "EVENT_SHOCKING_FIRE",
+      "name": "Event Shocking Fire",
+      "hash": 956330317,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "EVENT_SHOCKING_GUNSHOT_FIRED",
+      "name": "Event Shocking Gunshot Fired",
+      "hash": 3148889396,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "EVENT_SHOCKING_HORN_SOUNDED",
+      "name": "Event Shocking Horn Sounded",
+      "hash": 1442804547,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "EVENT_SHOCKING_INJURED_PED",
+      "name": "Event Shocking Injured Ped",
+      "hash": 1590389061,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "EVENT_SHOCKING_MAD_DRIVER",
+      "name": "Event Shocking Mad Driver",
+      "hash": 85441810,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "EVENT_SHOCKING_MAD_DRIVER_EXTREME",
+      "name": "Event Shocking Mad Driver Extreme",
+      "hash": 1503814123,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "EVENT_SHOCKING_SEEN_CAR_STOLEN",
+      "name": "Event Shocking Seen Car Stolen",
+      "hash": 73464052,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "EVENT_SHOCKING_SEEN_GANG_FIGHT",
+      "name": "Event Shocking Seen Gang Fight",
+      "hash": 3413021340,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "EVENT_SHOCKING_SEEN_INSULT",
+      "name": "Event Shocking Seen Insult",
+      "hash": 1931615605,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "EVENT_SHOCKING_SEEN_MELEE_ACTION",
+      "name": "Event Shocking Seen Melee Action",
+      "hash": 4123400204,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "EVENT_SHOCKING_SEEN_PED_KILLED",
+      "name": "Event Shocking Seen Ped Killed",
+      "hash": 1722245163,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "EVENT_SHOCKING_SEEN_VEHICLE_TOWED",
+      "name": "Event Shocking Seen Vehicle Towed",
+      "hash": 1621729820,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "EVENT_SHOCKING_VISIBLE_WEAPON",
+      "name": "Event Shocking Visible Weapon",
+      "hash": 1992843916,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "EXECPA_ADDGENERAL",
+      "name": "Execpa Addgeneral",
+      "hash": 2708200780,
+      "category": "Generic"
+    },
+    {
+      "id": "EXECPA_CHATOTHERS",
+      "name": "Execpa Chatothers",
+      "hash": 2620206783,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "EXECPA_CHATPHONE",
+      "name": "Execpa Chatphone",
+      "hash": 2596830117,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "EXECPA_CHATVIP",
+      "name": "Execpa Chatvip",
+      "hash": 2193294082,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "EXECPA_GREET",
+      "name": "Execpa Greet",
+      "hash": 1976757849,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "EXPLOSION_IS_IMMINENT",
+      "name": "Explosion Is Imminent",
+      "hash": 909504595,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "FAC_ARRIVE_YOUDRIVE",
+      "name": "Fac Arrive Youdrive",
+      "hash": 181689348,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "FAC_DROPOFF_BYE",
+      "name": "Fac Dropoff Bye",
+      "hash": 4132489842,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "FAC_GREET_IRATE",
+      "name": "Fac Greet Irate",
+      "hash": 2455037843,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "FAC_GREET_OK",
+      "name": "Fac Greet Ok",
+      "hash": 2460869118,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "FAC_GREET_VERYIRATE",
+      "name": "Fac Greet Veryirate",
+      "hash": 2669487126,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "FEMALE_DISTANT_LAUGH",
+      "name": "Female Distant Laugh",
+      "hash": 2596576446,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "FLYING_LOW_SKILL",
+      "name": "Flying Low Skill",
+      "hash": 9609604,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "FOOT_CHASE",
+      "name": "Foot Chase",
+      "hash": 2943070217,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "FOOT_CHASE_AGGRESSIVE",
+      "name": "Foot Chase Aggressive",
+      "hash": 88566311,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "FOOT_CHASE_HEADING_EAST",
+      "name": "Foot Chase Heading East",
+      "hash": 3829750396,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "FOOT_CHASE_HEADING_NORTH",
+      "name": "Foot Chase Heading North",
+      "hash": 193196113,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "FOOT_CHASE_HEADING_SOUTH",
+      "name": "Foot Chase Heading South",
+      "hash": 151430656,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "FOOT_CHASE_HEADING_WEST",
+      "name": "Foot Chase Heading West",
+      "hash": 2398233402,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "FOOT_CHASE_LOSING",
+      "name": "Foot Chase Losing",
+      "hash": 245820957,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "FOOT_CHASE_RESPONSE",
+      "name": "Foot Chase Response",
+      "hash": 2824254313,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "FPC_NO1_BLOCKED",
+      "name": "Fpc No1 Blocked",
+      "hash": 2322504839,
+      "category": "Reactions"
+    },
+    {
+      "id": "FPC_YES1_FIRSTTIME",
+      "name": "Fpc Yes1 Firsttime",
+      "hash": 1022404821,
+      "category": "Generic"
+    },
+    {
+      "id": "FPC_YES1_IRATE",
+      "name": "Fpc Yes1 Irate",
+      "hash": 3807638288,
+      "category": "Generic"
+    },
+    {
+      "id": "FPC_YES1_LIKELOW",
+      "name": "Fpc Yes1 Likelow",
+      "hash": 2371107820,
+      "category": "Generic"
+    },
+    {
+      "id": "FPC_YES1_OK",
+      "name": "Fpc Yes1 Ok",
+      "hash": 1224250140,
+      "category": "Generic"
+    },
+    {
+      "id": "FPC_YES1_VERYIRATE",
+      "name": "Fpc Yes1 Veryirate",
+      "hash": 2098578130,
+      "category": "Generic"
+    },
+    {
+      "id": "GENERIC_AGREE",
+      "name": "Generic Agree",
+      "hash": 3785491568,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "GENERIC_BUY",
+      "name": "Generic Buy",
+      "hash": 616607116,
+      "category": "Generic"
+    },
+    {
+      "id": "GENERIC_BUY_DRUNK",
+      "name": "Generic Buy Drunk",
+      "hash": 4184669162,
+      "category": "Generic"
+    },
+    {
+      "id": "GENERIC_BUY_REPEAT",
+      "name": "Generic Buy Repeat",
+      "hash": 3640732075,
+      "category": "Generic"
+    },
+    {
+      "id": "GENERIC_BUY_REPEAT_DRUNK",
+      "name": "Generic Buy Repeat Drunk",
+      "hash": 2607614636,
+      "category": "Generic"
+    },
+    {
+      "id": "GENERIC_BYE",
+      "name": "Generic Bye",
+      "hash": 2652911377,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "GENERIC_BYE_DRUNK",
+      "name": "Generic Bye Drunk",
+      "hash": 2898755464,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "GENERIC_CHEER",
+      "name": "Generic Cheer",
+      "hash": 929342377,
+      "category": "Generic"
+    },
+    {
+      "id": "GENERIC_COMBAT",
+      "name": "Generic Combat",
+      "hash": 2428342885,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "GENERIC_CURSE_HIGH",
+      "name": "Generic Curse High",
+      "hash": 1533832529,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "GENERIC_CURSE_HIGH_DRUNK",
+      "name": "Generic Curse High Drunk",
+      "hash": 2266793670,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "GENERIC_CURSE_MED",
+      "name": "Generic Curse Med",
+      "hash": 662780898,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "GENERIC_CURSE_MED_DRUNK",
+      "name": "Generic Curse Med Drunk",
+      "hash": 2091373163,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "GENERIC_DISAGREE",
+      "name": "Generic Disagree",
+      "hash": 755042210,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "GENERIC_DRINK",
+      "name": "Generic Drink",
+      "hash": 4097892534,
+      "category": "Generic"
+    },
+    {
+      "id": "GENERIC_EAT",
+      "name": "Generic Eat",
+      "hash": 3464538329,
+      "category": "Generic"
+    },
+    {
+      "id": "GENERIC_FREIGHTENED_HIGH",
+      "name": "Generic Freightened High",
+      "hash": 138660756,
+      "category": "Generic"
+    },
+    {
+      "id": "GENERIC_FREIGHTENED_MED",
+      "name": "Generic Freightened Med",
+      "hash": 3558707482,
+      "category": "Generic"
+    },
+    {
+      "id": "GENERIC_FRIGHTENED_HIGH",
+      "name": "Generic Frightened High",
+      "hash": 3272418428,
+      "category": "Fear & Panic"
+    },
+    {
+      "id": "GENERIC_FRIGHTENED_HIGH_DRUNK",
+      "name": "Generic Frightened High Drunk",
+      "hash": 3488064760,
+      "category": "Fear & Panic"
+    },
+    {
+      "id": "GENERIC_FRIGHTENED_MED",
+      "name": "Generic Frightened Med",
+      "hash": 926727101,
+      "category": "Fear & Panic"
+    },
+    {
+      "id": "GENERIC_FRIGHTENED_MED_DRUNK",
+      "name": "Generic Frightened Med Drunk",
+      "hash": 3906402659,
+      "category": "Fear & Panic"
+    },
+    {
+      "id": "GENERIC_FRUSTRATED_HIGH",
+      "name": "Generic Frustrated High",
+      "hash": 2997887006,
+      "category": "Generic"
+    },
+    {
+      "id": "GENERIC_FRUSTRATED_MED",
+      "name": "Generic Frustrated Med",
+      "hash": 4132863744,
+      "category": "Generic"
+    },
+    {
+      "id": "GENERIC_FRUSTRATION_HIGH",
+      "name": "Generic Frustration High",
+      "hash": 702026023,
+      "category": "Generic"
+    },
+    {
+      "id": "GENERIC_FRUSTRATION_MED",
+      "name": "Generic Frustration Med",
+      "hash": 3537790862,
+      "category": "Generic"
+    },
+    {
+      "id": "GENERIC_FUCK_YOU",
+      "name": "Generic Fuck You",
+      "hash": 1762555369,
+      "category": "Generic"
+    },
+    {
+      "id": "GENERIC_FUCK_YOU_DRUNK",
+      "name": "Generic Fuck You Drunk",
+      "hash": 1803765012,
+      "category": "Generic"
+    },
+    {
+      "id": "GENERIC_HI",
+      "name": "Generic Hi",
+      "hash": 307303637,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "GENERIC_HI_DRUNK",
+      "name": "Generic Hi Drunk",
+      "hash": 764385448,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "GENERIC_HI_FEMALE",
+      "name": "Generic Hi Female",
+      "hash": 3867926676,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "GENERIC_HI_FEMALE_DRUNK",
+      "name": "Generic Hi Female Drunk",
+      "hash": 529526364,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "GENERIC_HI_FLIRTY",
+      "name": "Generic Hi Flirty",
+      "hash": 3272727179,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "GENERIC_HI_MALE",
+      "name": "Generic Hi Male",
+      "hash": 791576610,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "GENERIC_HI_MALE_DRUNK",
+      "name": "Generic Hi Male Drunk",
+      "hash": 1833128714,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "GENERIC_HOWS_IT_GOING",
+      "name": "Generic Hows It Going",
+      "hash": 1007827966,
+      "category": "Generic"
+    },
+    {
+      "id": "GENERIC_HOWS_IT_GOING_DRUNK",
+      "name": "Generic Hows It Going Drunk",
+      "hash": 533781996,
+      "category": "Generic"
+    },
+    {
+      "id": "GENERIC_INSULT_FEMALE",
+      "name": "Generic Insult Female",
+      "hash": 217104801,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "GENERIC_INSULT_FEMALE_DRUNK",
+      "name": "Generic Insult Female Drunk",
+      "hash": 3989758373,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "GENERIC_INSULT_HIGH",
+      "name": "Generic Insult High",
+      "hash": 610951301,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "GENERIC_INSULT_HIGH_DRUNK",
+      "name": "Generic Insult High Drunk",
+      "hash": 3519074023,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "GENERIC_INSULT_MALE",
+      "name": "Generic Insult Male",
+      "hash": 2077389889,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "GENERIC_INSULT_MALE_DRUNK",
+      "name": "Generic Insult Male Drunk",
+      "hash": 3891694810,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "GENERIC_INSULT_MED",
+      "name": "Generic Insult Med",
+      "hash": 3269339477,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "GENERIC_INSULT_MED_DRUNK",
+      "name": "Generic Insult Med Drunk",
+      "hash": 198853589,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "GENERIC_INSULT_OLD",
+      "name": "Generic Insult Old",
+      "hash": 3166542438,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "GENERIC_INSULT_OLD_DRUNK",
+      "name": "Generic Insult Old Drunk",
+      "hash": 845639241,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "GENERIC_INTERRUPT_ANNOYED",
+      "name": "Generic Interrupt Annoyed",
+      "hash": 2313373287,
+      "category": "Generic"
+    },
+    {
+      "id": "GENERIC_INTERRUPT_ANNOYED_DRUNK",
+      "name": "Generic Interrupt Annoyed Drunk",
+      "hash": 2792688175,
+      "category": "Generic"
+    },
+    {
+      "id": "GENERIC_INTERRUPT_HIGH",
+      "name": "Generic Interrupt High",
+      "hash": 1267421198,
+      "category": "Generic"
+    },
+    {
+      "id": "GENERIC_INTERRUPT_HIGH_DRUNK",
+      "name": "Generic Interrupt High Drunk",
+      "hash": 3299167465,
+      "category": "Generic"
+    },
+    {
+      "id": "GENERIC_INTERRUPT_MED",
+      "name": "Generic Interrupt Med",
+      "hash": 2650234686,
+      "category": "Generic"
+    },
+    {
+      "id": "GENERIC_INTERRUPT_MED_DRUNK",
+      "name": "Generic Interrupt Med Drunk",
+      "hash": 2240993258,
+      "category": "Generic"
+    },
+    {
+      "id": "GENERIC_INTERUPT_HIGH",
+      "name": "Generic Interupt High",
+      "hash": 2252186622,
+      "category": "Generic"
+    },
+    {
+      "id": "GENERIC_INTERUPT_MED",
+      "name": "Generic Interupt Med",
+      "hash": 440066294,
+      "category": "Generic"
+    },
+    {
+      "id": "GENERIC_NO",
+      "name": "Generic No",
+      "hash": 2868103156,
+      "category": "Generic"
+    },
+    {
+      "id": "GENERIC_OUT_OF_MY_WAY",
+      "name": "Generic Out Of My Way",
+      "hash": 3242433062,
+      "category": "Generic"
+    },
+    {
+      "id": "GENERIC_SHOCKED_HIGH",
+      "name": "Generic Shocked High",
+      "hash": 3112045513,
+      "category": "Fear & Panic"
+    },
+    {
+      "id": "GENERIC_SHOCKED_HIGH_DRUNK",
+      "name": "Generic Shocked High Drunk",
+      "hash": 3553352263,
+      "category": "Fear & Panic"
+    },
+    {
+      "id": "GENERIC_SHOCKED_MED",
+      "name": "Generic Shocked Med",
+      "hash": 1873276808,
+      "category": "Fear & Panic"
+    },
+    {
+      "id": "GENERIC_SHOCKED_MEDIUM",
+      "name": "Generic Shocked Medium",
+      "hash": 3817751234,
+      "category": "Fear & Panic"
+    },
+    {
+      "id": "GENERIC_SHOCKED_MED_DRUNK",
+      "name": "Generic Shocked Med Drunk",
+      "hash": 191735144,
+      "category": "Fear & Panic"
+    },
+    {
+      "id": "GENERIC_THANKS",
+      "name": "Generic Thanks",
+      "hash": 93345811,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "GENERIC_THANKS_DRUNK",
+      "name": "Generic Thanks Drunk",
+      "hash": 3002791942,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "GENERIC_WAR_CRY",
+      "name": "Generic War Cry",
+      "hash": 2472195085,
+      "category": "Generic"
+    },
+    {
+      "id": "GENERIC_WHATEVER",
+      "name": "Generic Whatever",
+      "hash": 3923254012,
+      "category": "Generic"
+    },
+    {
+      "id": "GENERIC_WHATEVER_DRUNK",
+      "name": "Generic Whatever Drunk",
+      "hash": 956640788,
+      "category": "Generic"
+    },
+    {
+      "id": "GENERIC_YES",
+      "name": "Generic Yes",
+      "hash": 3968559361,
+      "category": "Generic"
+    },
+    {
+      "id": "GET_IN_CAR",
+      "name": "Get In Car",
+      "hash": 220305335,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "GET_IN_VEHICLE",
+      "name": "Get In Vehicle",
+      "hash": 1139427578,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "GET_OUT_OF_THE_CAR",
+      "name": "Get Out Of The Car",
+      "hash": 1989957294,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "GET_WANTED_LEVEL",
+      "name": "Get Wanted Level",
+      "hash": 3912893643,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "GET_WANTED_LEVEL_DRUNK",
+      "name": "Get Wanted Level Drunk",
+      "hash": 1812981067,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "GNERIC_SURPRISE_HORSE",
+      "name": "Gneric Surprise Horse",
+      "hash": 3787817674,
+      "category": "Reactions"
+    },
+    {
+      "id": "GOGENERIC_WHATEVER",
+      "name": "Gogeneric Whatever",
+      "hash": 742738082,
+      "category": "Generic"
+    },
+    {
+      "id": "GOLF_ABOUT_TO_TAKE_SHOT",
+      "name": "Golf About To Take Shot",
+      "hash": 2682316243,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "GOLF_CHAT",
+      "name": "Golf Chat",
+      "hash": 2429715661,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "GOLF_CHAT_WITH_FRANKLIN",
+      "name": "Golf Chat With Franklin",
+      "hash": 32318734,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "GOLF_CHAT_WITH_MICHAEL",
+      "name": "Golf Chat With Michael",
+      "hash": 449823312,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "GOLF_CHAT_WITH_TREVOR",
+      "name": "Golf Chat With Trevor",
+      "hash": 3261986384,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "GOLF_IDLE_OTHER",
+      "name": "Golf Idle Other",
+      "hash": 325360257,
+      "category": "Generic"
+    },
+    {
+      "id": "GOLF_SHOT_BAD_HIT_SELF",
+      "name": "Golf Shot Bad Hit Self",
+      "hash": 2472545910,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "GOLF_SHOT_GOOD_HIT_SELF",
+      "name": "Golf Shot Good Hit Self",
+      "hash": 3978229426,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "GOODBYE_ACROSS_STREET",
+      "name": "Goodbye Across Street",
+      "hash": 2606893683,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "GOODBYE_ACROSS_STREET_FEMALE",
+      "name": "Goodbye Across Street Female",
+      "hash": 1429984928,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "GREET_ACROSS_SREET",
+      "name": "Greet Across Sreet",
+      "hash": 4073622091,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "GREET_ACROSS_SREET_FEMALE",
+      "name": "Greet Across Sreet Female",
+      "hash": 3583931579,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "GREET_ACROSS_STREET",
+      "name": "Greet Across Street",
+      "hash": 2798519901,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "GREET_ACROSS_STREET_FEMALE",
+      "name": "Greet Across Street Female",
+      "hash": 4137217733,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "GREET_ATTRACTIVE_F",
+      "name": "Greet Attractive F",
+      "hash": 774631886,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "GREET_BUM",
+      "name": "Greet Bum",
+      "hash": 3758615743,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "GREET_COP",
+      "name": "Greet Cop",
+      "hash": 2035845346,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "GREET_COP_OUTFIT",
+      "name": "Greet Cop Outfit",
+      "hash": 3322387091,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "GREET_CREEPY_OUTFIT",
+      "name": "Greet Creepy Outfit",
+      "hash": 1028056613,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "GREET_GANG_BALLAS_F",
+      "name": "Greet Gang Ballas F",
+      "hash": 1447821889,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "GREET_GANG_BALLAS_M",
+      "name": "Greet Gang Ballas M",
+      "hash": 3614999712,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "GREET_GANG_FAMILIES_F",
+      "name": "Greet Gang Families F",
+      "hash": 3760595320,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "GREET_GANG_FAMILIES_M",
+      "name": "Greet Gang Families M",
+      "hash": 2860987963,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "GREET_GANG_VAGOS_F",
+      "name": "Greet Gang Vagos F",
+      "hash": 2304998695,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "GREET_GANG_VAGOS_M",
+      "name": "Greet Gang Vagos M",
+      "hash": 3360062196,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "GREET_HILLBILLY_M",
+      "name": "Greet Hillbilly M",
+      "hash": 1906666390,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "GREET_HIPPY_F",
+      "name": "Greet Hippy F",
+      "hash": 616271030,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "GREET_HIPPY_M",
+      "name": "Greet Hippy M",
+      "hash": 3624661832,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "GREET_HIPSTER_F",
+      "name": "Greet Hipster F",
+      "hash": 1126608181,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "GREET_HIPSTER_M",
+      "name": "Greet Hipster M",
+      "hash": 1334887961,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "GREET_JUNKIE",
+      "name": "Greet Junkie",
+      "hash": 4239830438,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "GREET_KOREAN",
+      "name": "Greet Korean",
+      "hash": 1131127312,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "GREET_STRONG_M",
+      "name": "Greet Strong M",
+      "hash": 3372290630,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "GREET_TRANSVESTITE",
+      "name": "Greet Transvestite",
+      "hash": 1381750923,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "GUNSH_COPS",
+      "name": "Gunsh Cops",
+      "hash": 3695358497,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "GUNSH_FIRE",
+      "name": "Gunsh Fire",
+      "hash": 3485659791,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "GUNSH_GREET0",
+      "name": "Gunsh Greet0",
+      "hash": 3190786743,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "GUNSH_GREET1",
+      "name": "Gunsh Greet1",
+      "hash": 3027203891,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "GUNSH_GREET2",
+      "name": "Gunsh Greet2",
+      "hash": 3651813804,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "GUNSH_GREET3",
+      "name": "Gunsh Greet3",
+      "hash": 3484364214,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "GUN_BEG",
+      "name": "Gun Beg",
+      "hash": 3447515990,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "GUN_COOL",
+      "name": "Gun Cool",
+      "hash": 1179243318,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "GUN_STAND_OFF",
+      "name": "Gun Stand Off",
+      "hash": 2554271715,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "HAIL_TAXI",
+      "name": "Hail Taxi",
+      "hash": 813694435,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "HAIRD_BYE1",
+      "name": "Haird Bye1",
+      "hash": 2999749555,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "HAIRD_BYE2",
+      "name": "Haird Bye2",
+      "hash": 3221399071,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "HEIST_PHONE_EXPLOSION",
+      "name": "Heist Phone Explosion",
+      "hash": 1081683086,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "HEIST_PHONE_YES",
+      "name": "Heist Phone Yes",
+      "hash": 637242509,
+      "category": "Generic"
+    },
+    {
+      "id": "HELI_APPROACHING_DISPATCH",
+      "name": "Heli Approaching Dispatch",
+      "hash": 1384649479,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "HELI_MAYDAY_DISPATCH",
+      "name": "Heli Mayday Dispatch",
+      "hash": 423952477,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "HELI_NO_VISUAL_DISPATCH",
+      "name": "Heli No Visual Dispatch",
+      "hash": 1163224633,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "HELI_VISUAL_HEADING_EAST_DISPATCH",
+      "name": "Heli Visual Heading East Dispatch",
+      "hash": 1375046333,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "HELI_VISUAL_HEADING_NORTH_DISPATCH",
+      "name": "Heli Visual Heading North Dispatch",
+      "hash": 3487076422,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "HELI_VISUAL_HEADING_SOUTH_DISPATCH",
+      "name": "Heli Visual Heading South Dispatch",
+      "hash": 3169541397,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "HELI_VISUAL_HEADING_WEST_DISPATCH",
+      "name": "Heli Visual Heading West Dispatch",
+      "hash": 2897462003,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "HELI_VISUAL_ON_FOOT_DISPATCH",
+      "name": "Heli Visual On Foot Dispatch",
+      "hash": 1819183650,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "HOOKER_CAR_INCORRECT",
+      "name": "Hooker Car Incorrect",
+      "hash": 3940632367,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "HOOKER_CHAT_SOLO",
+      "name": "Hooker Chat Solo",
+      "hash": 3389017051,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "HOOKER_LEAVES_ANGRY",
+      "name": "Hooker Leaves Angry",
+      "hash": 1145260100,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "HOWS_IT_GOING_GENERIC",
+      "name": "Hows It Going Generic",
+      "hash": 2069214516,
+      "category": "Generic"
+    },
+    {
+      "id": "HOWS_IT_GOING_GENERIC_DRUNK",
+      "name": "Hows It Going Generic Drunk",
+      "hash": 1770951219,
+      "category": "Generic"
+    },
+    {
+      "id": "HUNTING_KILL",
+      "name": "Hunting Kill",
+      "hash": 1512435566,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "INSULT_DEAD_PED",
+      "name": "Insult Dead Ped",
+      "hash": 4250338973,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV01_PART1",
+      "name": "Insult Ped Bum Conv01 Part1",
+      "hash": 935792839,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV01_PART2",
+      "name": "Insult Ped Bum Conv01 Part2",
+      "hash": 1235203192,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV01_PART3",
+      "name": "Insult Ped Bum Conv01 Part3",
+      "hash": 3463101968,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV02_PART1",
+      "name": "Insult Ped Bum Conv02 Part1",
+      "hash": 3090010819,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV02_PART2",
+      "name": "Insult Ped Bum Conv02 Part2",
+      "hash": 3397089118,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV02_PART3",
+      "name": "Insult Ped Bum Conv02 Part3",
+      "hash": 2496203770,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV03_PART1",
+      "name": "Insult Ped Bum Conv03 Part1",
+      "hash": 3977511094,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV03_PART2",
+      "name": "Insult Ped Bum Conv03 Part2",
+      "hash": 3641890996,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV03_PART3",
+      "name": "Insult Ped Bum Conv03 Part3",
+      "hash": 3763660600,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV04_PART1",
+      "name": "Insult Ped Bum Conv04 Part1",
+      "hash": 1354027411,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV04_PART2",
+      "name": "Insult Ped Bum Conv04 Part2",
+      "hash": 1056812581,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV04_PART3",
+      "name": "Insult Ped Bum Conv04 Part3",
+      "hash": 1969855228,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV05_PART1",
+      "name": "Insult Ped Bum Conv05 Part1",
+      "hash": 1775218839,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV05_PART2",
+      "name": "Insult Ped Bum Conv05 Part2",
+      "hash": 1210150195,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV05_PART3",
+      "name": "Insult Ped Bum Conv05 Part3",
+      "hash": 3890540,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV06_PART1",
+      "name": "Insult Ped Bum Conv06 Part1",
+      "hash": 3694796065,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV06_PART2",
+      "name": "Insult Ped Bum Conv06 Part2",
+      "hash": 177011142,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV06_PART3",
+      "name": "Insult Ped Bum Conv06 Part3",
+      "hash": 947606954,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV07_PART1",
+      "name": "Insult Ped Bum Conv07 Part1",
+      "hash": 336630218,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV07_PART2",
+      "name": "Insult Ped Bum Conv07 Part2",
+      "hash": 2230449039,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV07_PART3",
+      "name": "Insult Ped Bum Conv07 Part3",
+      "hash": 2006636769,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV08_PART1",
+      "name": "Insult Ped Bum Conv08 Part1",
+      "hash": 1876173566,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV08_PART2",
+      "name": "Insult Ped Bum Conv08 Part2",
+      "hash": 2554524655,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV08_PART3",
+      "name": "Insult Ped Bum Conv08 Part3",
+      "hash": 1778390890,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV09_PART1",
+      "name": "Insult Ped Bum Conv09 Part1",
+      "hash": 2107504567,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV09_PART2",
+      "name": "Insult Ped Bum Conv09 Part2",
+      "hash": 363046852,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV09_PART3",
+      "name": "Insult Ped Bum Conv09 Part3",
+      "hash": 3906784823,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV10_PART1",
+      "name": "Insult Ped Bum Conv10 Part1",
+      "hash": 4116343986,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV10_PART2",
+      "name": "Insult Ped Bum Conv10 Part2",
+      "hash": 52037681,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV10_PART3",
+      "name": "Insult Ped Bum Conv10 Part3",
+      "hash": 3666392847,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV11_PART1",
+      "name": "Insult Ped Bum Conv11 Part1",
+      "hash": 2755656592,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV11_PART2",
+      "name": "Insult Ped Bum Conv11 Part2",
+      "hash": 1854050326,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV11_PART3",
+      "name": "Insult Ped Bum Conv11 Part3",
+      "hash": 3307421018,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV12_PART1",
+      "name": "Insult Ped Bum Conv12 Part1",
+      "hash": 3027480712,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV12_PART2",
+      "name": "Insult Ped Bum Conv12 Part2",
+      "hash": 43470046,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV12_PART3",
+      "name": "Insult Ped Bum Conv12 Part3",
+      "hash": 282650977,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV13_PART1",
+      "name": "Insult Ped Bum Conv13 Part1",
+      "hash": 3685422872,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV13_PART2",
+      "name": "Insult Ped Bum Conv13 Part2",
+      "hash": 3967826114,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV13_PART3",
+      "name": "Insult Ped Bum Conv13 Part3",
+      "hash": 4280475143,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV14_PART1",
+      "name": "Insult Ped Bum Conv14 Part1",
+      "hash": 336189881,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV14_PART2",
+      "name": "Insult Ped Bum Conv14 Part2",
+      "hash": 3922363707,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV14_PART3",
+      "name": "Insult Ped Bum Conv14 Part3",
+      "hash": 809275934,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV15_PART1",
+      "name": "Insult Ped Bum Conv15 Part1",
+      "hash": 2906315429,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV15_PART2",
+      "name": "Insult Ped Bum Conv15 Part2",
+      "hash": 3203759642,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_BUM_CONV15_PART3",
+      "name": "Insult Ped Bum Conv15 Part3",
+      "hash": 3464502575,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_COP_CONV01_PART1",
+      "name": "Insult Ped Cop Conv01 Part1",
+      "hash": 1925817822,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_COP_CONV01_PART2",
+      "name": "Insult Ped Cop Conv01 Part2",
+      "hash": 2207074149,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_COP_CONV02_PART1",
+      "name": "Insult Ped Cop Conv02 Part1",
+      "hash": 519480423,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_COP_CONV02_PART2",
+      "name": "Insult Ped Cop Conv02 Part2",
+      "hash": 238027482,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_COP_CONV03_PART1",
+      "name": "Insult Ped Cop Conv03 Part1",
+      "hash": 1684940855,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_COP_CONV03_PART2",
+      "name": "Insult Ped Cop Conv03 Part2",
+      "hash": 3694139321,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_COP_CONV04_PART1",
+      "name": "Insult Ped Cop Conv04 Part1",
+      "hash": 2958445748,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_COP_CONV04_PART2",
+      "name": "Insult Ped Cop Conv04 Part2",
+      "hash": 3731105999,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_COP_CONV05_PART1",
+      "name": "Insult Ped Cop Conv05 Part1",
+      "hash": 523750117,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_COP_CONV05_PART2",
+      "name": "Insult Ped Cop Conv05 Part2",
+      "hash": 1357229632,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_COP_CONV06_PART1",
+      "name": "Insult Ped Cop Conv06 Part1",
+      "hash": 3752449629,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_COP_CONV06_PART2",
+      "name": "Insult Ped Cop Conv06 Part2",
+      "hash": 3991040718,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_COP_CONV07_PART1",
+      "name": "Insult Ped Cop Conv07 Part1",
+      "hash": 2473378411,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_COP_CONV07_PART2",
+      "name": "Insult Ped Cop Conv07 Part2",
+      "hash": 4255979246,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_COP_CONV08_PART1",
+      "name": "Insult Ped Cop Conv08 Part1",
+      "hash": 3545861144,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_COP_CONV08_PART2",
+      "name": "Insult Ped Cop Conv08 Part2",
+      "hash": 464821461,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_COP_CONV09_PART1",
+      "name": "Insult Ped Cop Conv09 Part1",
+      "hash": 3471943503,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_COP_CONV09_PART2",
+      "name": "Insult Ped Cop Conv09 Part2",
+      "hash": 697851035,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_COP_CONV10_PART1",
+      "name": "Insult Ped Cop Conv10 Part1",
+      "hash": 1439148870,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_COP_CONV10_PART2",
+      "name": "Insult Ped Cop Conv10 Part2",
+      "hash": 1207570347,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_COP_CONV11_PART1",
+      "name": "Insult Ped Cop Conv11 Part1",
+      "hash": 4152383573,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_COP_CONV11_PART2",
+      "name": "Insult Ped Cop Conv11 Part2",
+      "hash": 4265371085,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_COP_CONV12_PART1",
+      "name": "Insult Ped Cop Conv12 Part1",
+      "hash": 3463734288,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_COP_CONV12_PART2",
+      "name": "Insult Ped Cop Conv12 Part2",
+      "hash": 3224094591,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_COP_CONV13_PART1",
+      "name": "Insult Ped Cop Conv13 Part1",
+      "hash": 1712262438,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_COP_CONV13_PART2",
+      "name": "Insult Ped Cop Conv13 Part2",
+      "hash": 1388701348,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_COP_CONV14_PART1",
+      "name": "Insult Ped Cop Conv14 Part1",
+      "hash": 1813288199,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_COP_CONV14_PART2",
+      "name": "Insult Ped Cop Conv14 Part2",
+      "hash": 2053517738,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_COP_CONV15_PART1",
+      "name": "Insult Ped Cop Conv15 Part1",
+      "hash": 897186009,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_COP_CONV15_PART2",
+      "name": "Insult Ped Cop Conv15 Part2",
+      "hash": 63149421,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV01_PART1",
+      "name": "Insult Ped Fat Conv01 Part1",
+      "hash": 3444792101,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV01_PART2",
+      "name": "Insult Ped Fat Conv01 Part2",
+      "hash": 3794109641,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV01_PART3",
+      "name": "Insult Ped Fat Conv01 Part3",
+      "hash": 4025163860,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV02_PART1",
+      "name": "Insult Ped Fat Conv02 Part1",
+      "hash": 854721058,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV02_PART2",
+      "name": "Insult Ped Fat Conv02 Part2",
+      "hash": 699133846,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV02_PART3",
+      "name": "Insult Ped Fat Conv02 Part3",
+      "hash": 395004757,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV03_PART1",
+      "name": "Insult Ped Fat Conv03 Part1",
+      "hash": 2873675346,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV03_PART2",
+      "name": "Insult Ped Fat Conv03 Part2",
+      "hash": 3078153934,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV03_PART3",
+      "name": "Insult Ped Fat Conv03 Part3",
+      "hash": 2772583009,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV04_PART1",
+      "name": "Insult Ped Fat Conv04 Part1",
+      "hash": 755940442,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV04_PART2",
+      "name": "Insult Ped Fat Conv04 Part2",
+      "hash": 503979601,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV04_PART3",
+      "name": "Insult Ped Fat Conv04 Part3",
+      "hash": 818103235,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV05_PART1",
+      "name": "Insult Ped Fat Conv05 Part1",
+      "hash": 427056546,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV05_PART2",
+      "name": "Insult Ped Fat Conv05 Part2",
+      "hash": 1007657684,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV05_PART3",
+      "name": "Insult Ped Fat Conv05 Part3",
+      "hash": 767231531,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV06_PART1",
+      "name": "Insult Ped Fat Conv06 Part1",
+      "hash": 3289395578,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV06_PART2",
+      "name": "Insult Ped Fat Conv06 Part2",
+      "hash": 549972712,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV06_PART3",
+      "name": "Insult Ped Fat Conv06 Part3",
+      "hash": 2691459639,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV07_PART1",
+      "name": "Insult Ped Fat Conv07 Part1",
+      "hash": 2096258249,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV07_PART2",
+      "name": "Insult Ped Fat Conv07 Part2",
+      "hash": 2178442901,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV07_PART3",
+      "name": "Insult Ped Fat Conv07 Part3",
+      "hash": 1418071025,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV08_PART1",
+      "name": "Insult Ped Fat Conv08 Part1",
+      "hash": 2150894755,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV08_PART2",
+      "name": "Insult Ped Fat Conv08 Part2",
+      "hash": 2511091603,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV08_PART3",
+      "name": "Insult Ped Fat Conv08 Part3",
+      "hash": 1727912503,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV09_PART1",
+      "name": "Insult Ped Fat Conv09 Part1",
+      "hash": 1964772341,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV09_PART2",
+      "name": "Insult Ped Fat Conv09 Part2",
+      "hash": 2254286456,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV09_PART3",
+      "name": "Insult Ped Fat Conv09 Part3",
+      "hash": 1464684632,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV10_PART1",
+      "name": "Insult Ped Fat Conv10 Part1",
+      "hash": 3435909782,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV10_PART2",
+      "name": "Insult Ped Fat Conv10 Part2",
+      "hash": 1803161588,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV10_PART3",
+      "name": "Insult Ped Fat Conv10 Part3",
+      "hash": 2953091336,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV11_PART1",
+      "name": "Insult Ped Fat Conv11 Part1",
+      "hash": 2027756153,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV11_PART2",
+      "name": "Insult Ped Fat Conv11 Part2",
+      "hash": 4159936672,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV11_PART3",
+      "name": "Insult Ped Fat Conv11 Part3",
+      "hash": 87733038,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV12_PART1",
+      "name": "Insult Ped Fat Conv12 Part1",
+      "hash": 3243308373,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV12_PART2",
+      "name": "Insult Ped Fat Conv12 Part2",
+      "hash": 2418479874,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV12_PART3",
+      "name": "Insult Ped Fat Conv12 Part3",
+      "hash": 2768059566,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV13_PART1",
+      "name": "Insult Ped Fat Conv13 Part1",
+      "hash": 182133627,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV13_PART2",
+      "name": "Insult Ped Fat Conv13 Part2",
+      "hash": 4186407124,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV13_PART3",
+      "name": "Insult Ped Fat Conv13 Part3",
+      "hash": 776858208,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV14_PART1",
+      "name": "Insult Ped Fat Conv14 Part1",
+      "hash": 1488274003,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV14_PART2",
+      "name": "Insult Ped Fat Conv14 Part2",
+      "hash": 1998815023,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV14_PART3",
+      "name": "Insult Ped Fat Conv14 Part3",
+      "hash": 2246515898,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV15_PART1",
+      "name": "Insult Ped Fat Conv15 Part1",
+      "hash": 3155049700,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV15_PART2",
+      "name": "Insult Ped Fat Conv15 Part2",
+      "hash": 3864105322,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_FAT_CONV15_PART3",
+      "name": "Insult Ped Fat Conv15 Part3",
+      "hash": 412382703,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_GANG_CONV01_PART1",
+      "name": "Insult Ped Gang Conv01 Part1",
+      "hash": 3299554583,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_GANG_CONV01_PART2",
+      "name": "Insult Ped Gang Conv01 Part2",
+      "hash": 389339693,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_GANG_CONV02_PART1",
+      "name": "Insult Ped Gang Conv02 Part1",
+      "hash": 3258684138,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_GANG_CONV02_PART2",
+      "name": "Insult Ped Gang Conv02 Part2",
+      "hash": 2978279805,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_GANG_CONV03_PART1",
+      "name": "Insult Ped Gang Conv03 Part1",
+      "hash": 1348527196,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_GANG_CONV03_PART2",
+      "name": "Insult Ped Gang Conv03 Part2",
+      "hash": 507117583,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_GANG_CONV04_PART1",
+      "name": "Insult Ped Gang Conv04 Part1",
+      "hash": 3898092561,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_GANG_CONV04_PART2",
+      "name": "Insult Ped Gang Conv04 Part2",
+      "hash": 3494870016,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_GANG_CONV05_PART1",
+      "name": "Insult Ped Gang Conv05 Part1",
+      "hash": 177421860,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_GANG_CONV05_PART2",
+      "name": "Insult Ped Gang Conv05 Part2",
+      "hash": 1373850819,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_GANG_CONV06_PART1",
+      "name": "Insult Ped Gang Conv06 Part1",
+      "hash": 1545723652,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_GANG_CONV06_PART2",
+      "name": "Insult Ped Gang Conv06 Part2",
+      "hash": 1248934819,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_GANG_CONV07_PART1",
+      "name": "Insult Ped Gang Conv07 Part1",
+      "hash": 2169550675,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_GANG_CONV07_PART2",
+      "name": "Insult Ped Gang Conv07 Part2",
+      "hash": 1872106462,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_GANG_CONV08_PART1",
+      "name": "Insult Ped Gang Conv08 Part1",
+      "hash": 3711999294,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_GANG_CONV08_PART2",
+      "name": "Insult Ped Gang Conv08 Part2",
+      "hash": 3950131617,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_GANG_CONV09_PART1",
+      "name": "Insult Ped Gang Conv09 Part1",
+      "hash": 3509625836,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_GANG_CONV09_PART2",
+      "name": "Insult Ped Gang Conv09 Part2",
+      "hash": 3328937570,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_GANG_CONV10_PART1",
+      "name": "Insult Ped Gang Conv10 Part1",
+      "hash": 928320298,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_GANG_CONV10_PART2",
+      "name": "Insult Ped Gang Conv10 Part2",
+      "hash": 1176021169,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_GANG_CONV11_PART1",
+      "name": "Insult Ped Gang Conv11 Part1",
+      "hash": 3726105521,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_GANG_CONV11_PART2",
+      "name": "Insult Ped Gang Conv11 Part2",
+      "hash": 4081124867,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_GANG_CONV12_PART1",
+      "name": "Insult Ped Gang Conv12 Part1",
+      "hash": 442400641,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_GANG_CONV12_PART2",
+      "name": "Insult Ped Gang Conv12 Part2",
+      "hash": 1109282560,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_GANG_CONV13_PART1",
+      "name": "Insult Ped Gang Conv13 Part1",
+      "hash": 198964424,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_GANG_CONV13_PART2",
+      "name": "Insult Ped Gang Conv13 Part2",
+      "hash": 2979643461,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_GANG_CONV14_PART1",
+      "name": "Insult Ped Gang Conv14 Part1",
+      "hash": 2259633525,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_GANG_CONV14_PART2",
+      "name": "Insult Ped Gang Conv14 Part2",
+      "hash": 2555996361,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_GANG_CONV15_PART1",
+      "name": "Insult Ped Gang Conv15 Part1",
+      "hash": 1923770358,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_GANG_CONV15_PART2",
+      "name": "Insult Ped Gang Conv15 Part2",
+      "hash": 1744032393,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV01_PART1",
+      "name": "Insult Ped Hipster Conv01 Part1",
+      "hash": 3118076885,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV01_PART2",
+      "name": "Insult Ped Hipster Conv01 Part2",
+      "hash": 3416569706,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV01_PART3",
+      "name": "Insult Ped Hipster Conv01 Part3",
+      "hash": 3713456846,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV02_PART1",
+      "name": "Insult Ped Hipster Conv02 Part1",
+      "hash": 204177176,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV02_PART2",
+      "name": "Insult Ped Hipster Conv02 Part2",
+      "hash": 2974894441,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV02_PART3",
+      "name": "Insult Ped Hipster Conv02 Part3",
+      "hash": 3278302612,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV03_PART1",
+      "name": "Insult Ped Hipster Conv03 Part1",
+      "hash": 3345189770,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV03_PART2",
+      "name": "Insult Ped Hipster Conv03 Part2",
+      "hash": 3570345569,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV03_PART3",
+      "name": "Insult Ped Hipster Conv03 Part3",
+      "hash": 478950874,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV04_PART1",
+      "name": "Insult Ped Hipster Conv04 Part1",
+      "hash": 2747822422,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV04_PART2",
+      "name": "Insult Ped Hipster Conv04 Part2",
+      "hash": 2028870562,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV04_PART3",
+      "name": "Insult Ped Hipster Conv04 Part3",
+      "hash": 2269362253,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV05_PART1",
+      "name": "Insult Ped Hipster Conv05 Part1",
+      "hash": 3360792779,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV05_PART2",
+      "name": "Insult Ped Hipster Conv05 Part2",
+      "hash": 4207314356,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV05_PART3",
+      "name": "Insult Ped Hipster Conv05 Part3",
+      "hash": 3897876689,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV06_PART1",
+      "name": "Insult Ped Hipster Conv06 Part1",
+      "hash": 2469453087,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV06_PART2",
+      "name": "Insult Ped Hipster Conv06 Part2",
+      "hash": 2708634018,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV06_PART3",
+      "name": "Insult Ped Hipster Conv06 Part3",
+      "hash": 670926518,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV07_PART1",
+      "name": "Insult Ped Hipster Conv07 Part1",
+      "hash": 2446273292,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV07_PART2",
+      "name": "Insult Ped Hipster Conv07 Part2",
+      "hash": 2752368521,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV07_PART3",
+      "name": "Insult Ped Hipster Conv07 Part3",
+      "hash": 3844755905,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV08_PART1",
+      "name": "Insult Ped Hipster Conv08 Part1",
+      "hash": 3552079553,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV08_PART2",
+      "name": "Insult Ped Hipster Conv08 Part2",
+      "hash": 3251686130,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV08_PART3",
+      "name": "Insult Ped Hipster Conv08 Part3",
+      "hash": 1879713638,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV09_PART1",
+      "name": "Insult Ped Hipster Conv09 Part1",
+      "hash": 4124296832,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV09_PART2",
+      "name": "Insult Ped Hipster Conv09 Part2",
+      "hash": 509122449,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV09_PART3",
+      "name": "Insult Ped Hipster Conv09 Part3",
+      "hash": 806796045,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV10_PART1",
+      "name": "Insult Ped Hipster Conv10 Part1",
+      "hash": 2828736739,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV10_PART2",
+      "name": "Insult Ped Hipster Conv10 Part2",
+      "hash": 3198895363,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV10_PART3",
+      "name": "Insult Ped Hipster Conv10 Part3",
+      "hash": 2035137093,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV11_PART1",
+      "name": "Insult Ped Hipster Conv11 Part1",
+      "hash": 2107462092,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV11_PART2",
+      "name": "Insult Ped Hipster Conv11 Part2",
+      "hash": 1215719299,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV11_PART3",
+      "name": "Insult Ped Hipster Conv11 Part3",
+      "hash": 3594257168,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV12_PART1",
+      "name": "Insult Ped Hipster Conv12 Part1",
+      "hash": 2172223020,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV12_PART2",
+      "name": "Insult Ped Hipster Conv12 Part2",
+      "hash": 1736886851,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV12_PART3",
+      "name": "Insult Ped Hipster Conv12 Part3",
+      "hash": 1968301529,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV13_PART1",
+      "name": "Insult Ped Hipster Conv13 Part1",
+      "hash": 3909774212,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV13_PART2",
+      "name": "Insult Ped Hipster Conv13 Part2",
+      "hash": 2399385456,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV13_PART3",
+      "name": "Insult Ped Hipster Conv13 Part3",
+      "hash": 3384093914,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV14_PART1",
+      "name": "Insult Ped Hipster Conv14 Part1",
+      "hash": 461467579,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV14_PART2",
+      "name": "Insult Ped Hipster Conv14 Part2",
+      "hash": 2597711442,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV14_PART3",
+      "name": "Insult Ped Hipster Conv14 Part3",
+      "hash": 628622232,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV15_PART1",
+      "name": "Insult Ped Hipster Conv15 Part1",
+      "hash": 1217945613,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV15_PART2",
+      "name": "Insult Ped Hipster Conv15 Part2",
+      "hash": 1542915790,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV15_PART3",
+      "name": "Insult Ped Hipster Conv15 Part3",
+      "hash": 1830889762,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV16_PART1",
+      "name": "Insult Ped Hipster Conv16 Part1",
+      "hash": 2150525029,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV16_PART2",
+      "name": "Insult Ped Hipster Conv16 Part2",
+      "hash": 1860191689,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_HIPSTER_CONV16_PART3",
+      "name": "Insult Ped Hipster Conv16 Part3",
+      "hash": 660813520,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV01_PART1",
+      "name": "Insult Ped Old Conv01 Part1",
+      "hash": 2414434106,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV01_PART2",
+      "name": "Insult Ped Old Conv01 Part2",
+      "hash": 2107355807,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV01_PART3",
+      "name": "Insult Ped Old Conv01 Part3",
+      "hash": 1819021376,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV02_PART1",
+      "name": "Insult Ped Old Conv02 Part1",
+      "hash": 1030400783,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV02_PART2",
+      "name": "Insult Ped Old Conv02 Part2",
+      "hash": 1998954096,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV02_PART3",
+      "name": "Insult Ped Old Conv02 Part3",
+      "hash": 2313143268,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV03_PART1",
+      "name": "Insult Ped Old Conv03 Part1",
+      "hash": 3238336440,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV03_PART2",
+      "name": "Insult Ped Old Conv03 Part2",
+      "hash": 635986301,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV03_PART3",
+      "name": "Insult Ped Old Conv03 Part3",
+      "hash": 463621361,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV04_PART1",
+      "name": "Insult Ped Old Conv04 Part1",
+      "hash": 2890633008,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV04_PART2",
+      "name": "Insult Ped Old Conv04 Part2",
+      "hash": 655918296,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV04_PART3",
+      "name": "Insult Ped Old Conv04 Part3",
+      "hash": 2716826232,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV05_PART1",
+      "name": "Insult Ped Old Conv05 Part1",
+      "hash": 1803716974,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV05_PART2",
+      "name": "Insult Ped Old Conv05 Part2",
+      "hash": 2705847544,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV05_PART3",
+      "name": "Insult Ped Old Conv05 Part3",
+      "hash": 1208861317,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV06_PART1",
+      "name": "Insult Ped Old Conv06 Part1",
+      "hash": 1072103424,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV06_PART2",
+      "name": "Insult Ped Old Conv06 Part2",
+      "hash": 763157300,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV06_PART3",
+      "name": "Insult Ped Old Conv06 Part3",
+      "hash": 1068990377,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV07_PART1",
+      "name": "Insult Ped Old Conv07 Part1",
+      "hash": 1258162471,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV07_PART2",
+      "name": "Insult Ped Old Conv07 Part2",
+      "hash": 2486115212,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV07_PART3",
+      "name": "Insult Ped Old Conv07 Part3",
+      "hash": 2708092418,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV08_PART1",
+      "name": "Insult Ped Old Conv08 Part1",
+      "hash": 2277431022,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV08_PART2",
+      "name": "Insult Ped Old Conv08 Part2",
+      "hash": 2532341073,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV08_PART3",
+      "name": "Insult Ped Old Conv08 Part3",
+      "hash": 868790019,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV09_PART1",
+      "name": "Insult Ped Old Conv09 Part1",
+      "hash": 3217991878,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV09_PART2",
+      "name": "Insult Ped Old Conv09 Part2",
+      "hash": 3281301598,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV09_PART3",
+      "name": "Insult Ped Old Conv09 Part3",
+      "hash": 3594737083,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV10_PART1",
+      "name": "Insult Ped Old Conv10 Part1",
+      "hash": 444893827,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV10_PART2",
+      "name": "Insult Ped Old Conv10 Part2",
+      "hash": 1280732710,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV10_PART3",
+      "name": "Insult Ped Old Conv10 Part3",
+      "hash": 1825845029,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV11_PART1",
+      "name": "Insult Ped Old Conv11 Part1",
+      "hash": 2370795034,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV11_PART2",
+      "name": "Insult Ped Old Conv11 Part2",
+      "hash": 289701378,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV11_PART3",
+      "name": "Insult Ped Old Conv11 Part3",
+      "hash": 4290370285,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV12_PART1",
+      "name": "Insult Ped Old Conv12 Part1",
+      "hash": 2401908718,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV12_PART2",
+      "name": "Insult Ped Old Conv12 Part2",
+      "hash": 2095879027,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV12_PART3",
+      "name": "Insult Ped Old Conv12 Part3",
+      "hash": 4070866657,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV13_PART1",
+      "name": "Insult Ped Old Conv13 Part1",
+      "hash": 1299486616,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV13_PART2",
+      "name": "Insult Ped Old Conv13 Part2",
+      "hash": 2058252811,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV13_PART3",
+      "name": "Insult Ped Old Conv13 Part3",
+      "hash": 1267569614,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV14_PART1",
+      "name": "Insult Ped Old Conv14 Part1",
+      "hash": 1047969576,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV14_PART2",
+      "name": "Insult Ped Old Conv14 Part2",
+      "hash": 213441453,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV14_PART3",
+      "name": "Insult Ped Old Conv14 Part3",
+      "hash": 1137494484,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV15_PART1",
+      "name": "Insult Ped Old Conv15 Part1",
+      "hash": 4033818425,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV15_PART2",
+      "name": "Insult Ped Old Conv15 Part2",
+      "hash": 3724380758,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV15_PART3",
+      "name": "Insult Ped Old Conv15 Part3",
+      "hash": 1621954447,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV16_PART1",
+      "name": "Insult Ped Old Conv16 Part1",
+      "hash": 2746606553,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV16_PART2",
+      "name": "Insult Ped Old Conv16 Part2",
+      "hash": 2507425622,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_OLD_CONV16_PART3",
+      "name": "Insult Ped Old Conv16 Part3",
+      "hash": 3695596797,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_TOUGH_CONV01_PART1",
+      "name": "Insult Ped Tough Conv01 Part1",
+      "hash": 1928065499,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_TOUGH_CONV01_PART2",
+      "name": "Insult Ped Tough Conv01 Part2",
+      "hash": 1146754232,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_TOUGH_CONV02_PART1",
+      "name": "Insult Ped Tough Conv02 Part1",
+      "hash": 3137226316,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_TOUGH_CONV02_PART2",
+      "name": "Insult Ped Tough Conv02 Part2",
+      "hash": 3371688511,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_TOUGH_CONV03_PART1",
+      "name": "Insult Ped Tough Conv03 Part1",
+      "hash": 1896711368,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_TOUGH_CONV03_PART2",
+      "name": "Insult Ped Tough Conv03 Part2",
+      "hash": 2873096492,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_TOUGH_CONV04_PART1",
+      "name": "Insult Ped Tough Conv04 Part1",
+      "hash": 2889335777,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_TOUGH_CONV04_PART2",
+      "name": "Insult Ped Tough Conv04 Part2",
+      "hash": 3185338154,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_TOUGH_CONV05_PART1",
+      "name": "Insult Ped Tough Conv05 Part1",
+      "hash": 1114471377,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_TOUGH_CONV05_PART2",
+      "name": "Insult Ped Tough Conv05 Part2",
+      "hash": 3509524822,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_TOUGH_CONV06_PART1",
+      "name": "Insult Ped Tough Conv06 Part1",
+      "hash": 1360945559,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_TOUGH_CONV06_PART2",
+      "name": "Insult Ped Tough Conv06 Part2",
+      "hash": 1002878708,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_TOUGH_CONV07_PART1",
+      "name": "Insult Ped Tough Conv07 Part1",
+      "hash": 3443855281,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_TOUGH_CONV07_PART2",
+      "name": "Insult Ped Tough Conv07 Part2",
+      "hash": 2524291603,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_TOUGH_CONV08_PART1",
+      "name": "Insult Ped Tough Conv08 Part1",
+      "hash": 3251630056,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_TOUGH_CONV08_PART2",
+      "name": "Insult Ped Tough Conv08 Part2",
+      "hash": 2886648934,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_TOUGH_CONV09_PART1",
+      "name": "Insult Ped Tough Conv09 Part1",
+      "hash": 1836397932,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_TOUGH_CONV09_PART2",
+      "name": "Insult Ped Tough Conv09 Part2",
+      "hash": 3069757578,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_TOUGH_CONV10_PART1",
+      "name": "Insult Ped Tough Conv10 Part1",
+      "hash": 1656245876,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_TOUGH_CONV10_PART2",
+      "name": "Insult Ped Tough Conv10 Part2",
+      "hash": 1366207457,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_TOUGH_CONV10_PART_2",
+      "name": "Insult Ped Tough Conv10 Part 2",
+      "hash": 1510489440,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_TOUGH_CONV11_PART1",
+      "name": "Insult Ped Tough Conv11 Part1",
+      "hash": 1850614876,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_TOUGH_CONV11_PART2",
+      "name": "Insult Ped Tough Conv11 Part2",
+      "hash": 2088550585,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_TOUGH_CONV12_PART1",
+      "name": "Insult Ped Tough Conv12 Part1",
+      "hash": 490855932,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_TOUGH_CONV12_PART2",
+      "name": "Insult Ped Tough Conv12 Part2",
+      "hash": 1257552233,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_TOUGH_CONV13_PART1",
+      "name": "Insult Ped Tough Conv13 Part1",
+      "hash": 1270996674,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_TOUGH_CONV13_PART2",
+      "name": "Insult Ped Tough Conv13 Part2",
+      "hash": 2113585851,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_TOUGH_CONV14_PART1",
+      "name": "Insult Ped Tough Conv14 Part1",
+      "hash": 821179972,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_TOUGH_CONV14_PART2",
+      "name": "Insult Ped Tough Conv14 Part2",
+      "hash": 544183615,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_TOUGH_CONV15_PART1",
+      "name": "Insult Ped Tough Conv15 Part1",
+      "hash": 2594699503,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_TOUGH_CONV15_PART2",
+      "name": "Insult Ped Tough Conv15 Part2",
+      "hash": 1885774957,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_TOUGH_CONV16_PART1",
+      "name": "Insult Ped Tough Conv16 Part1",
+      "hash": 1133150266,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "INSULT_PED_TOUGH_CONV16_PART2",
+      "name": "Insult Ped Tough Conv16 Part2",
+      "hash": 2011425004,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "IN_COVER_DODGE_BULLETS",
+      "name": "In Cover Dodge Bullets",
+      "hash": 3109959767,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "IN_COVER_RESP",
+      "name": "In Cover Resp",
+      "hash": 1992803039,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "IN_COVER_STATE",
+      "name": "In Cover State",
+      "hash": 473983469,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "JACKED_CAR",
+      "name": "Jacked Car",
+      "hash": 1707719084,
+      "category": "Reactions"
+    },
+    {
+      "id": "JACKED_GENERIC",
+      "name": "Jacked Generic",
+      "hash": 3243758113,
+      "category": "Reactions"
+    },
+    {
+      "id": "JACKING_BIKE",
+      "name": "Jacking Bike",
+      "hash": 2454137634,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "JACKING_CAR_FEMALE",
+      "name": "Jacking Car Female",
+      "hash": 3183777151,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "JACKING_CAR_MALE",
+      "name": "Jacking Car Male",
+      "hash": 2061541414,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "JACKING_DEAD_PED",
+      "name": "Jacking Dead Ped",
+      "hash": 2469542561,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "JACKING_GENERIC",
+      "name": "Jacking Generic",
+      "hash": 147157354,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "JACKING_GENERIC_DRUNK",
+      "name": "Jacking Generic Drunk",
+      "hash": 1093651962,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "JACKING_ORDER",
+      "name": "Jacking Order",
+      "hash": 194343511,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "JACK_VEHICLE_BACK",
+      "name": "Jack Vehicle Back",
+      "hash": 1625206633,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "JACK_VEHICLE_BACK_MORNING",
+      "name": "Jack Vehicle Back Morning",
+      "hash": 3336053935,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "JACK_VEHICLE_BACK_NIGHT",
+      "name": "Jack Vehicle Back Night",
+      "hash": 192084163,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "KIFFLOM_GREET",
+      "name": "Kifflom Greet",
+      "hash": 2908223399,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "KILLED_ALL",
+      "name": "Killed All",
+      "hash": 2118354927,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "LAUGH",
+      "name": "Laugh",
+      "hash": 1635529197,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "LOCATION_PALOMINO_HIGHLANDS",
+      "name": "Location Palomino Highlands",
+      "hash": 876847851,
+      "category": "Generic"
+    },
+    {
+      "id": "LOCATION_PROCOPIO_BEACH",
+      "name": "Location Procopio Beach",
+      "hash": 1762036511,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "LOCATION_W_MIRROR_DRIVE",
+      "name": "Location W Mirror Drive",
+      "hash": 3035543993,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "LOST_SUSPECT_CHOPPER_MEGAPHONE",
+      "name": "Lost Suspect Chopper Megaphone",
+      "hash": 2431316702,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "LR_UPGRADE_GENERIC",
+      "name": "Lr Upgrade Generic",
+      "hash": 3524045909,
+      "category": "Generic"
+    },
+    {
+      "id": "MEDIC_REFLECT_ON_DEATH",
+      "name": "Medic Reflect On Death",
+      "hash": 215325836,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "MELEE_KNOCK_DOWN",
+      "name": "Melee Knock Down",
+      "hash": 217565179,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "MELEE_KNOCK_DOWN_DRUNK",
+      "name": "Melee Knock Down Drunk",
+      "hash": 3763049212,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "MISSLE_FIRED",
+      "name": "Missle Fired",
+      "hash": 2123794870,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "MOVE_AWAY_FROM_THE_CAR",
+      "name": "Move Away From The Car",
+      "hash": 2017005401,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "NEAR_MISS_VEHICLE",
+      "name": "Near Miss Vehicle",
+      "hash": 2963484225,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "NEED_A_BIGGER_VEHICLE",
+      "name": "Need A Bigger Vehicle",
+      "hash": 2471359104,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "NEED_A_BIGGER_VEHICLE_DRUNK",
+      "name": "Need A Bigger Vehicle Drunk",
+      "hash": 621663477,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "NEED_A_VEHICLE",
+      "name": "Need A Vehicle",
+      "hash": 3562629530,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "NEED_A_VEHICLE_DRUNK",
+      "name": "Need A Vehicle Drunk",
+      "hash": 1986897864,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "NICE_CAR",
+      "name": "Nice Car",
+      "hash": 1790129104,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "NICE_CAR_SHOUT",
+      "name": "Nice Car Shout",
+      "hash": 1687383139,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "NICE_CAR_THANKS",
+      "name": "Nice Car Thanks",
+      "hash": 3980092456,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "NICE_SHOOT",
+      "name": "Nice Shoot",
+      "hash": 3935200098,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "NICE_SHOT",
+      "name": "Nice Shot",
+      "hash": 73639740,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "NO_CHANGE",
+      "name": "No Change",
+      "hash": 1352613624,
+      "category": "Generic"
+    },
+    {
+      "id": "NO_LOITERING_MEGAPHONE",
+      "name": "No Loitering Megaphone",
+      "hash": 612373647,
+      "category": "Generic"
+    },
+    {
+      "id": "ON_FIRE",
+      "name": "On Fire",
+      "hash": 3111220976,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "ORDER_GENERIC",
+      "name": "Order Generic",
+      "hash": 3686570384,
+      "category": "Generic"
+    },
+    {
+      "id": "PAIN_RAPIDS",
+      "name": "Pain Rapids",
+      "hash": 831226029,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "PAIN_TAZER",
+      "name": "Pain Tazer",
+      "hash": 861358807,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "PANIC_WALLA_END",
+      "name": "Panic Walla End",
+      "hash": 841772102,
+      "category": "Fear & Panic"
+    },
+    {
+      "id": "PANIC_WALLA_START",
+      "name": "Panic Walla Start",
+      "hash": 1776127137,
+      "category": "Fear & Panic"
+    },
+    {
+      "id": "PBAM_BYE",
+      "name": "Pbam Bye",
+      "hash": 2993523623,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "PBBB_BYE",
+      "name": "Pbbb Bye",
+      "hash": 3296517867,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "PBBY_BYE",
+      "name": "Pbby Bye",
+      "hash": 4242671821,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "PBCL_BYE",
+      "name": "Pbcl Bye",
+      "hash": 875547530,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "PBJA_BYE",
+      "name": "Pbja Bye",
+      "hash": 4135664227,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "PBJS_BYE",
+      "name": "Pbjs Bye",
+      "hash": 3325285367,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "PBJS_GREET",
+      "name": "Pbjs Greet",
+      "hash": 982727378,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "PBPD_BYE",
+      "name": "Pbpd Bye",
+      "hash": 3266802018,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "PBSH_BYE",
+      "name": "Pbsh Bye",
+      "hash": 3100462788,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "PED_RANT",
+      "name": "Ped Rant",
+      "hash": 308877493,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "PED_RANT_01",
+      "name": "Ped Rant 01",
+      "hash": 858302280,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "PED_RANT_RESP",
+      "name": "Ped Rant Resp",
+      "hash": 4018891621,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "PHONE_CALL_COPS",
+      "name": "Phone Call Cops",
+      "hash": 3165531211,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "PHONE_CONV1_CHAT1",
+      "name": "Phone Conv1 Chat1",
+      "hash": 3317140427,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "PHONE_CONV1_CHAT2",
+      "name": "Phone Conv1 Chat2",
+      "hash": 2405015312,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "PHONE_CONV1_CHAT3",
+      "name": "Phone Conv1 Chat3",
+      "hash": 2645113775,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "PHONE_CONV2_CHAT1",
+      "name": "Phone Conv2 Chat1",
+      "hash": 1217216348,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "PHONE_CONV2_CHAT2",
+      "name": "Phone Conv2 Chat2",
+      "hash": 4288818567,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "PHONE_CONV2_CHAT3",
+      "name": "Phone Conv2 Chat3",
+      "hash": 3982133496,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "PHONE_CONV3_CHAT1",
+      "name": "Phone Conv3 Chat1",
+      "hash": 4255607432,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "PHONE_CONV3_CHAT2",
+      "name": "Phone Conv3 Chat2",
+      "hash": 314283164,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "PHONE_CONV3_CHAT3",
+      "name": "Phone Conv3 Chat3",
+      "hash": 141131768,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "PHONE_CONV4_CHAT1",
+      "name": "Phone Conv4 Chat1",
+      "hash": 1329795894,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "PHONE_CONV4_CHAT2",
+      "name": "Phone Conv4 Chat2",
+      "hash": 2229894786,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "PHONE_CONV4_CHAT3",
+      "name": "Phone Conv4 Chat3",
+      "hash": 2967918204,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "PHONE_CONV5_CHAT1",
+      "name": "Phone Conv5 Chat1",
+      "hash": 2638804123,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "PHONE_CONV5_CHAT2",
+      "name": "Phone Conv5 Chat2",
+      "hash": 1811550718,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "PHONE_CONV5_CHAT3",
+      "name": "Phone Conv5 Chat3",
+      "hash": 1101184336,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "PHONE_CONV6_CHAT1",
+      "name": "Phone Conv6 Chat1",
+      "hash": 1551669390,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "PHONE_CONV6_CHAT2",
+      "name": "Phone Conv6 Chat2",
+      "hash": 1237414680,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "PHONE_CONV6_CHAT3",
+      "name": "Phone Conv6 Chat3",
+      "hash": 145977585,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "PHONE_CONV7_CHAT1",
+      "name": "Phone Conv7 Chat1",
+      "hash": 3408766182,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "PHONE_CONV7_CHAT2",
+      "name": "Phone Conv7 Chat2",
+      "hash": 3665052531,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "PHONE_CONV7_CHAT3",
+      "name": "Phone Conv7 Chat3",
+      "hash": 4014435609,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "PHONE_CONV8_CHAT1",
+      "name": "Phone Conv8 Chat1",
+      "hash": 1269607420,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "PHONE_CONV8_CHAT2",
+      "name": "Phone Conv8 Chat2",
+      "hash": 3220345986,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "PHONE_CONV8_CHAT3",
+      "name": "Phone Conv8 Chat3",
+      "hash": 3998380353,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "PHONE_SURPRISE_EXPLOSION",
+      "name": "Phone Surprise Explosion",
+      "hash": 688892026,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "PHONE_SURPRISE_GUNFIRE",
+      "name": "Phone Surprise Gunfire",
+      "hash": 3077272405,
+      "category": "Reactions"
+    },
+    {
+      "id": "PHONE_SURPRISE_PLAYER_APPEARANCE",
+      "name": "Phone Surprise Player Appearance",
+      "hash": 2917287492,
+      "category": "Reactions"
+    },
+    {
+      "id": "PINNED_DOWN",
+      "name": "Pinned Down",
+      "hash": 2982199040,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "PLAYER_KILLED_FRIEND",
+      "name": "Player Killed Friend",
+      "hash": 3140289862,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "PLAYER_SHOOTS_GUN",
+      "name": "Player Shoots Gun",
+      "hash": 2350162743,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "POLICE_PURSUIT_DRIVEN",
+      "name": "Police Pursuit Driven",
+      "hash": 2006735516,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "POLICE_PURSUIT_DRIVEN_DRUNK",
+      "name": "Police Pursuit Driven Drunk",
+      "hash": 3110102145,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "POLICE_PURSUIT_FALSE_ALARM",
+      "name": "Police Pursuit False Alarm",
+      "hash": 3843777441,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "PRERACE_CHAT",
+      "name": "Prerace Chat",
+      "hash": 2859221198,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "PRERACE_TAUNT",
+      "name": "Prerace Taunt",
+      "hash": 2594934795,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "PRISON_TANNOY_GENERAL",
+      "name": "Prison Tannoy General",
+      "hash": 622667801,
+      "category": "Generic"
+    },
+    {
+      "id": "PROVOKE_BAR",
+      "name": "Provoke Bar",
+      "hash": 1672729741,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "PROVOKE_BUMPED_INTO",
+      "name": "Provoke Bumped Into",
+      "hash": 1271085367,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "PROVOKE_FOLLOWING",
+      "name": "Provoke Following",
+      "hash": 3768932197,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "PROVOKE_GENERIC",
+      "name": "Provoke Generic",
+      "hash": 1008877359,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "PROVOKE_GENERIC_MORNING",
+      "name": "Provoke Generic Morning",
+      "hash": 2577076195,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "PROVOKE_HIT_CAR",
+      "name": "Provoke Hit Car",
+      "hash": 918111908,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "PROVOKE_STARING",
+      "name": "Provoke Staring",
+      "hash": 3853594382,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "PROVOKE_TRESPASS",
+      "name": "Provoke Trespass",
+      "hash": 609877683,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "PULL_GUN_DRUNK",
+      "name": "Pull Gun Drunk",
+      "hash": 2923356941,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "PURCHASE_ONLINE",
+      "name": "Purchase Online",
+      "hash": 3414885151,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "PUSHUP_BREATH",
+      "name": "Pushup Breath",
+      "hash": 785120019,
+      "category": "Reactions"
+    },
+    {
+      "id": "PUTTING_OUT_FIRE",
+      "name": "Putting Out Fire",
+      "hash": 1267496797,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "RACE_CRASH",
+      "name": "Race Crash",
+      "hash": 285486948,
+      "category": "Reactions"
+    },
+    {
+      "id": "RELOADING",
+      "name": "Reloading",
+      "hash": 2463413251,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "RELOADING_PROFESSIONAL",
+      "name": "Reloading Professional",
+      "hash": 3705823459,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "REPORT_SUSPECT_CRASHED_VEHICLE",
+      "name": "Report Suspect Crashed Vehicle",
+      "hash": 2480166214,
+      "category": "Reactions"
+    },
+    {
+      "id": "REPORT_SUSPECT_ENTERED_FREEWAY",
+      "name": "Report Suspect Entered Freeway",
+      "hash": 472498343,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "REPORT_SUSPECT_ENTERED_METRO",
+      "name": "Report Suspect Entered Metro",
+      "hash": 1327619547,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "REPORT_SUSPECT_IS_IN_CAR",
+      "name": "Report Suspect Is In Car",
+      "hash": 707260331,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "REPORT_SUSPECT_IS_ON_FOOT",
+      "name": "Report Suspect Is On Foot",
+      "hash": 3450164163,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "REPORT_SUSPECT_IS_ON_MOTORCYCLE",
+      "name": "Report Suspect Is On Motorcycle",
+      "hash": 509125019,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "REPORT_SUSPECT_LEFT_FREEWAY",
+      "name": "Report Suspect Left Freeway",
+      "hash": 4163710332,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "REQUEST_GUIDANCE_DISPATCH",
+      "name": "Request Guidance Dispatch",
+      "hash": 2929434429,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "RESCUE_INJURED_BUDDY",
+      "name": "Rescue Injured Buddy",
+      "hash": 3013245303,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "RESCUE_INJURED_COP",
+      "name": "Rescue Injured Cop",
+      "hash": 2300767675,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "RKIFFLOM_GREET",
+      "name": "Rkifflom Greet",
+      "hash": 3229017581,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "ROLLERCOASTER_CHAT",
+      "name": "Rollercoaster Chat",
+      "hash": 2139938222,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "ROLLERCOASTER_CHAT_BORED",
+      "name": "Rollercoaster Chat Bored",
+      "hash": 1401774752,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "ROLLERCOASTER_CHAT_EXCITED",
+      "name": "Rollercoaster Chat Excited",
+      "hash": 349933776,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "ROLLERCOASTER_CHAT_NORMAL",
+      "name": "Rollercoaster Chat Normal",
+      "hash": 405526402,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "ROLLERCOASTER_CHAT_VERY_BORED",
+      "name": "Rollercoaster Chat Very Bored",
+      "hash": 2096888260,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "SCREAM_PANIC",
+      "name": "Scream Panic",
+      "hash": 910519448,
+      "category": "Fear & Panic"
+    },
+    {
+      "id": "SCREAM_PANIC_SHORT",
+      "name": "Scream Panic Short",
+      "hash": 1719748382,
+      "category": "Fear & Panic"
+    },
+    {
+      "id": "SCREAM_SCARED",
+      "name": "Scream Scared",
+      "hash": 1117958643,
+      "category": "Fear & Panic"
+    },
+    {
+      "id": "SCREAM_SHOCKED_WEAK",
+      "name": "Scream Shocked Weak",
+      "hash": 1655095581,
+      "category": "Fear & Panic"
+    },
+    {
+      "id": "SCREAM_TERROR",
+      "name": "Scream Terror",
+      "hash": 3262275983,
+      "category": "Fear & Panic"
+    },
+    {
+      "id": "SCREAM_TERROR_TOUGH",
+      "name": "Scream Terror Tough",
+      "hash": 2021584147,
+      "category": "Fear & Panic"
+    },
+    {
+      "id": "SEX_GENERIC",
+      "name": "Sex Generic",
+      "hash": 3188864690,
+      "category": "Generic"
+    },
+    {
+      "id": "SEX_GENERIC_FEM",
+      "name": "Sex Generic Fem",
+      "hash": 4002870572,
+      "category": "Generic"
+    },
+    {
+      "id": "SHOOT",
+      "name": "Shoot",
+      "hash": 3488138201,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "SHOOTOUT_OPEN_FIRE",
+      "name": "Shootout Open Fire",
+      "hash": 2857055879,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "SHOOTOUT_READY",
+      "name": "Shootout Ready",
+      "hash": 3221212343,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "SHOOTOUT_READY_RESP",
+      "name": "Shootout Ready Resp",
+      "hash": 972557590,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "SHOOTOUT_SPECIAL",
+      "name": "Shootout Special",
+      "hash": 3001215472,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "SHOOTOUT_SPECIAL_SHOUT",
+      "name": "Shootout Special Shout",
+      "hash": 269422569,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "SHOOTOUT_SPECIAL_TO_NOBODY",
+      "name": "Shootout Special To Nobody",
+      "hash": 362574104,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "SHOOT_DRUNK",
+      "name": "Shoot Drunk",
+      "hash": 3454180512,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "SHOP_BROWSE_MELEE",
+      "name": "Shop Browse Melee",
+      "hash": 3088601465,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "SHOP_COPS_ARRIVED",
+      "name": "Shop Cops Arrived",
+      "hash": 1615340104,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "SHOP_GOODBYE",
+      "name": "Shop Goodbye",
+      "hash": 4221266528,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "SHOP_GOODBYE_FRANKLIN",
+      "name": "Shop Goodbye Franklin",
+      "hash": 2139597968,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "SHOP_GOODBYE_TREVOR",
+      "name": "Shop Goodbye Trevor",
+      "hash": 2028815276,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "SHOP_GREET",
+      "name": "Shop Greet",
+      "hash": 102131250,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "SHOP_GREET_END",
+      "name": "Shop Greet End",
+      "hash": 2316485974,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "SHOP_GREET_FRANKLIN",
+      "name": "Shop Greet Franklin",
+      "hash": 1637882885,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "SHOP_GREET_FRANKLIN_BOSS",
+      "name": "Shop Greet Franklin Boss",
+      "hash": 2958066327,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "SHOP_GREET_MICHAEL",
+      "name": "Shop Greet Michael",
+      "hash": 193296265,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "SHOP_GREET_SPECIAL",
+      "name": "Shop Greet Special",
+      "hash": 1205580121,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "SHOP_GREET_START",
+      "name": "Shop Greet Start",
+      "hash": 1723599086,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "SHOP_GREET_TREVOR",
+      "name": "Shop Greet Trevor",
+      "hash": 1208469635,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "SHOP_GREET_UNUSUAL",
+      "name": "Shop Greet Unusual",
+      "hash": 3220289997,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "SHOP_GREET_UNUSUAL_TREVOR",
+      "name": "Shop Greet Unusual Trevor",
+      "hash": 4039443683,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "SHOP_NICE_VEHICLE",
+      "name": "Shop Nice Vehicle",
+      "hash": 808968619,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "SHOP_NICE_VEHICLE_FRANKLIN",
+      "name": "Shop Nice Vehicle Franklin",
+      "hash": 1793413098,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "SHOP_NO_COPS",
+      "name": "Shop No Cops",
+      "hash": 1046008153,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "SHOP_NO_COPS_END",
+      "name": "Shop No Cops End",
+      "hash": 1576221998,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "SHOP_NO_COPS_START",
+      "name": "Shop No Cops Start",
+      "hash": 766055169,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "SHOP_NO_ENTRY",
+      "name": "Shop No Entry",
+      "hash": 1003846446,
+      "category": "Generic"
+    },
+    {
+      "id": "SHOP_NO_FIGHTING",
+      "name": "Shop No Fighting",
+      "hash": 2600145899,
+      "category": "Generic"
+    },
+    {
+      "id": "SHOP_NO_MESSING",
+      "name": "Shop No Messing",
+      "hash": 2294418723,
+      "category": "Generic"
+    },
+    {
+      "id": "SHOP_NO_WEAPON",
+      "name": "Shop No Weapon",
+      "hash": 4215412025,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "SHOP_PLAYER_HAS_WANTED_LEVEL",
+      "name": "Shop Player Has Wanted Level",
+      "hash": 3207082049,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "SHOP_REMOVE_VEHICLE",
+      "name": "Shop Remove Vehicle",
+      "hash": 1752842042,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "SHOP_SCARED",
+      "name": "Shop Scared",
+      "hash": 987040609,
+      "category": "Fear & Panic"
+    },
+    {
+      "id": "SHOP_SCARED_END",
+      "name": "Shop Scared End",
+      "hash": 2147735330,
+      "category": "Fear & Panic"
+    },
+    {
+      "id": "SHOP_SCARED_START",
+      "name": "Shop Scared Start",
+      "hash": 3488529912,
+      "category": "Fear & Panic"
+    },
+    {
+      "id": "SHOP_SELL_HORN",
+      "name": "Shop Sell Horn",
+      "hash": 707864603,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "SHOP_SHOOTING",
+      "name": "Shop Shooting",
+      "hash": 2019897612,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "SHOP_THREATENED",
+      "name": "Shop Threatened",
+      "hash": 1104507947,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "SHOT_AT_HELI_MEGAPHONE",
+      "name": "Shot At Heli Megaphone",
+      "hash": 2754102929,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "SHOT_BY_PLAYER",
+      "name": "Shot By Player",
+      "hash": 213196531,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "SHOT_BY_PLAYER_DRUNK",
+      "name": "Shot By Player Drunk",
+      "hash": 27417235,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "SHOT_TYRE_CHOPPER_MEGAPHONE",
+      "name": "Shot Tyre Chopper Megaphone",
+      "hash": 2364599079,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "SHOUT_INSULT",
+      "name": "Shout Insult",
+      "hash": 100211484,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "SHOUT_INSULT_HIPSTER",
+      "name": "Shout Insult Hipster",
+      "hash": 3792177279,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "SHOUT_THREATEN_COP",
+      "name": "Shout Threaten Cop",
+      "hash": 417371458,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "SHOUT_THREATEN_GANG",
+      "name": "Shout Threaten Gang",
+      "hash": 640891841,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "SHOUT_THREATEN_PED",
+      "name": "Shout Threaten Ped",
+      "hash": 2590385839,
+      "category": "Insults & Threats"
+    },
+    {
+      "id": "SOLICIT_GENERIC",
+      "name": "Solicit Generic",
+      "hash": 279271188,
+      "category": "Generic"
+    },
+    {
+      "id": "SPOT_POLICE",
+      "name": "Spot Police",
+      "hash": 399527163,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "SPOT_POLICE_DRUNK",
+      "name": "Spot Police Drunk",
+      "hash": 3566755494,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "SPOT_SUSPECT_CHOPPER_MEGAPHONE",
+      "name": "Spot Suspect Chopper Megaphone",
+      "hash": 1424686454,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "START_CAR_PANIC",
+      "name": "Start Car Panic",
+      "hash": 3541255008,
+      "category": "Fear & Panic"
+    },
+    {
+      "id": "STEALTH_KILL",
+      "name": "Stealth Kill",
+      "hash": 2016071279,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "STOP_SHOOTING",
+      "name": "Stop Shooting",
+      "hash": 2892975140,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "STOP_THE_CAR",
+      "name": "Stop The Car",
+      "hash": 1924043932,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "STOP_VEHICLE_BOAT_MEGAPHONE",
+      "name": "Stop Vehicle Boat Megaphone",
+      "hash": 3389245419,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "STOP_VEHICLE_CAR_MEGAPHONE",
+      "name": "Stop Vehicle Car Megaphone",
+      "hash": 561738202,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "STOP_VEHICLE_CAR_WARNING_MEGAPHONE",
+      "name": "Stop Vehicle Car Warning Megaphone",
+      "hash": 2635017937,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "STOP_VEHICLE_GENERIC_MEGAPHONE",
+      "name": "Stop Vehicle Generic Megaphone",
+      "hash": 299711548,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "STOP_VEHICLE_GENERIC_WARNING_MEGAPHONE",
+      "name": "Stop Vehicle Generic Warning Megaphone",
+      "hash": 343404945,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "STRIP_ANNOUNCE_GENERIC",
+      "name": "Strip Announce Generic",
+      "hash": 1825231541,
+      "category": "Generic"
+    },
+    {
+      "id": "STRIP_GENERIC_HOME_FAIL",
+      "name": "Strip Generic Home Fail",
+      "hash": 1821449317,
+      "category": "Generic"
+    },
+    {
+      "id": "STRIP_LEAVE_AGREE",
+      "name": "Strip Leave Agree",
+      "hash": 1058963154,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "STRIP_LEAVE_DISAGREE",
+      "name": "Strip Leave Disagree",
+      "hash": 2031320901,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "STRIP_THANKS",
+      "name": "Strip Thanks",
+      "hash": 3589272465,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "SUSPECT_KILLED",
+      "name": "Suspect Killed",
+      "hash": 3501412586,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "SUSPECT_KILLED_REPORT",
+      "name": "Suspect Killed Report",
+      "hash": 42702465,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "SUSPECT_LOST",
+      "name": "Suspect Lost",
+      "hash": 4137643326,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "SUSPECT_SPOTTED",
+      "name": "Suspect Spotted",
+      "hash": 3726430819,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "TAKE_COVER",
+      "name": "Take Cover",
+      "hash": 105189314,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "TARGETED_LOCK",
+      "name": "Targeted Lock",
+      "hash": 3810899439,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "TARGET_ACQUIRED",
+      "name": "Target Acquired",
+      "hash": 2530004627,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "TAXID_AFFORD_PART_JOURNEY",
+      "name": "Taxid Afford Part Journey",
+      "hash": 1120490749,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "TAXID_ARRIVE_AT_DEST",
+      "name": "Taxid Arrive At Dest",
+      "hash": 494591318,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "TAXID_BANTER",
+      "name": "Taxid Banter",
+      "hash": 2973103631,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "TAXID_BEGIN_JOURNEY",
+      "name": "Taxid Begin Journey",
+      "hash": 3782524284,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "TAXID_CHANGE_DEST",
+      "name": "Taxid Change Dest",
+      "hash": 3389915348,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "TAXID_CLOSE_AS_POSS",
+      "name": "Taxid Close As Poss",
+      "hash": 569511060,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "TAXID_GET_OUT_EARLY",
+      "name": "Taxid Get Out Early",
+      "hash": 566919999,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "TAXID_NO_MONEY",
+      "name": "Taxid No Money",
+      "hash": 1847537286,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "TAXID_RUN_AWAY",
+      "name": "Taxid Run Away",
+      "hash": 1500726195,
+      "category": "Fear & Panic"
+    },
+    {
+      "id": "TAXID_SPEED_UP",
+      "name": "Taxid Speed Up",
+      "hash": 1639556654,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "TAXID_TRASHED",
+      "name": "Taxid Trashed",
+      "hash": 4281519731,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "TAXID_WHERE_TO",
+      "name": "Taxid Where To",
+      "hash": 2183753308,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "TAXI_CHANGE_DEST",
+      "name": "Taxi Change Dest",
+      "hash": 3402004472,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "TAXI_CHANGE_DEST_DRUNK",
+      "name": "Taxi Change Dest Drunk",
+      "hash": 1594506301,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "TAXI_FAIL",
+      "name": "Taxi Fail",
+      "hash": 2832099364,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "TAXI_GOOD",
+      "name": "Taxi Good",
+      "hash": 1353942607,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "TAXI_HAIL",
+      "name": "Taxi Hail",
+      "hash": 2002882755,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "TAXI_HAIL_DRUNK",
+      "name": "Taxi Hail Drunk",
+      "hash": 1033379590,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "TAXI_HAIL_PASSENGER",
+      "name": "Taxi Hail Passenger",
+      "hash": 3853381525,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "TAXI_NO_PAY",
+      "name": "Taxi No Pay",
+      "hash": 1194736428,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "TAXI_START",
+      "name": "Taxi Start",
+      "hash": 2927088168,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "TAXI_STEP_ON_IT",
+      "name": "Taxi Step On It",
+      "hash": 3484186330,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "TAXI_STEP_ON_IT_DRUNK",
+      "name": "Taxi Step On It Drunk",
+      "hash": 1714134555,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "TAXI_STOPPED",
+      "name": "Taxi Stopped",
+      "hash": 2739452629,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "TAXI_WHAT_THE_HELL",
+      "name": "Taxi What The Hell",
+      "hash": 2367968560,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "TENNIS_CHAT",
+      "name": "Tennis Chat",
+      "hash": 3726058892,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "TENNIS_CHAT_WITH_PLAYER",
+      "name": "Tennis Chat With Player",
+      "hash": 552001821,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "TOOTHPULL_PAIN",
+      "name": "Toothpull Pain",
+      "hash": 1696396302,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "TOUR_CHAT",
+      "name": "Tour Chat",
+      "hash": 68776867,
+      "category": "Greetings & Chat"
+    },
+    {
+      "id": "UNIT_RESPONDING_DISPATCH",
+      "name": "Unit Responding Dispatch",
+      "hash": 2070351008,
+      "category": "Police & Crime"
+    },
+    {
+      "id": "VEHICLE_COLLIDE_BIRD_GENERIC",
+      "name": "Vehicle Collide Bird Generic",
+      "hash": 3394267081,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "VEHICLE_COLLIDE_CHICKEN",
+      "name": "Vehicle Collide Chicken",
+      "hash": 570732935,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "VEHICLE_COLLIDE_COYOTE",
+      "name": "Vehicle Collide Coyote",
+      "hash": 817366199,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "VEHICLE_COLLIDE_DEER",
+      "name": "Vehicle Collide Deer",
+      "hash": 1073079877,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "VEHICLE_COLLIDE_DOG",
+      "name": "Vehicle Collide Dog",
+      "hash": 3128533643,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "VEHICLE_COLLIDE_HORSE",
+      "name": "Vehicle Collide Horse",
+      "hash": 1273449902,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "VEHICLE_COLLIDE_MOUNTAIN_LION",
+      "name": "Vehicle Collide Mountain Lion",
+      "hash": 3134733895,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "VEHICLE_COLLIDE_OFFROAD_ANIMAL_GENERIC",
+      "name": "Vehicle Collide Offroad Animal Generic",
+      "hash": 2160591230,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "VEHICLE_COLLIDE_OFFROAD_ANIMAL_GENERIC_DRUNK",
+      "name": "Vehicle Collide Offroad Animal Generic Drunk",
+      "hash": 3925858120,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "VEHICLE_COLLIDE_ONROAD_ANIMAL_GENERIC",
+      "name": "Vehicle Collide Onroad Animal Generic",
+      "hash": 1182074154,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "VEHICLE_COLLIDE_ONROAD_ANIMAL_GENERIC_DRUNK",
+      "name": "Vehicle Collide Onroad Animal Generic Drunk",
+      "hash": 3114395559,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "VEHICLE_FLIPPED",
+      "name": "Vehicle Flipped",
+      "hash": 2821500996,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "VEHICLE_FLIPPED_DRUNK",
+      "name": "Vehicle Flipped Drunk",
+      "hash": 3026859795,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "VEHICLE_JUMP",
+      "name": "Vehicle Jump",
+      "hash": 2887222213,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "VEHICLE_JUMP_DRUNK",
+      "name": "Vehicle Jump Drunk",
+      "hash": 855200763,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "VEHICLE_ON_FIRE",
+      "name": "Vehicle On Fire",
+      "hash": 367467206,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "VEHICLE_ON_FIRE_DRUNK",
+      "name": "Vehicle On Fire Drunk",
+      "hash": 3874120182,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "VEND_NO_ITEM",
+      "name": "Vend No Item",
+      "hash": 2107609802,
+      "category": "Generic"
+    },
+    {
+      "id": "WALK_ME_TO_THE_CAR",
+      "name": "Walk Me To The Car",
+      "hash": 3307317127,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "WALK_ME_TO_THE_CAR_DRUNK",
+      "name": "Walk Me To The Car Drunk",
+      "hash": 1777514607,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "WRENCH_PAIN",
+      "name": "Wrench Pain",
+      "hash": 703210666,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "WRENCH_PAIN_TOOTHLESS",
+      "name": "Wrench Pain Toothless",
+      "hash": 4188910886,
+      "category": "Combat & Death"
+    },
+    {
+      "id": "YOU_DRIVE",
+      "name": "You Drive",
+      "hash": 563730844,
+      "category": "Driving & Traffic"
+    },
+    {
+      "id": "YOU_DRIVE_DRUNK",
+      "name": "You Drive Drunk",
+      "hash": 3806981379,
+      "category": "Driving & Traffic"
+    }
+  ]
+}
