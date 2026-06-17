@@ -1,0 +1,4 @@
+-- Stand v3 is now the FOUNDATION v3 (api\v3.lua) — one vector type, one metatable, shared by every
+-- dialect. The foundation already provides Stand's full method set (get/set/add/sub/mul/div, addNew..,
+-- crossProduct, getHeading, toString, toDir, toRot, lookAt, abs/min/max, normalise, + static forms) and
+-- the v3(...) call form, so this file only documents the delegation. `v3` is already the foundation table.
