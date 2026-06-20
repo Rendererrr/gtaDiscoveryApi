@@ -6,7 +6,8 @@
   "scripts": {
     "build": "node src/build/index.mjs",
     "build:jsdelivr": "node src/build/index.mjs --jsdelivr",
-    "build:pages": "node src/build/index.mjs --pages"
+    "build:pages": "node src/build/index.mjs --pages",
+    "scrape:outfits": "node tools/scrape_outfits.mjs"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,6 @@
   ],
   "license": "ISC",
   "devDependencies": {
-    "playwright": "^1.60.0"
+    "playwright": "^1.61.0"
   }
 }
