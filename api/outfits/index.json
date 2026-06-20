@@ -6,7 +6,7 @@
     "domain": "outfits",
     "label": "Outfits",
     "urlPattern": "{cdnBase}/assets/outfits/images/{image}",
-    "note": "Premade outfits. gender = \"m\"|\"f\". comps/comp_tex = 12 component slots; props/prop_tex = 8 prop slots (-1 = none). Apply with SET_PED_COMPONENT_VARIATION / SET_PED_PROP_INDEX. category = Male/Female."
+    "note": "Premade outfits. gender = \"m\"|\"f\". category = style group (Police, Military, ...). comps/comp_tex = 12 component slots; props/prop_tex = 8 prop slots (-1 = none). Apply with SET_PED_COMPONENT_VARIATION / SET_PED_PROP_INDEX."
   },
   "categories": [
     {
@@ -15,11 +15,11 @@
     },
     {
       "name": "Casual & Streetwear",
-      "count": 47
+      "count": 46
     },
     {
       "name": "Costume & Themed",
-      "count": 21
+      "count": 23
     },
     {
       "name": "Medical & Emergency",
@@ -35,14 +35,14 @@
     },
     {
       "name": "Criminal & Heist",
-      "count": 8
-    },
-    {
-      "name": "Business & Formal",
-      "count": 5
+      "count": 6
     },
     {
       "name": "Other",
+      "count": 6
+    },
+    {
+      "name": "Business & Formal",
       "count": 5
     },
     {
@@ -812,9 +812,9 @@
     },
     {
       "id": "m14",
-      "name": "Red Bandana Streetwear",
+      "name": "Black Tactical Operator Alt",
       "hash": null,
-      "category": "Criminal & Heist",
+      "category": "Military & Tactical",
       "gender": "m",
       "author": "v5",
       "image": "m14.png",
@@ -928,9 +928,9 @@
     },
     {
       "id": "m16",
-      "name": "Purple Yellow Puffer",
+      "name": "Red Robot Suit",
       "hash": null,
-      "category": "Casual & Streetwear",
+      "category": "Costume & Themed",
       "gender": "m",
       "author": "Lank",
       "image": "m16.png",
@@ -1160,9 +1160,9 @@
     },
     {
       "id": "m20",
-      "name": "Black Tactical Police Vest",
+      "name": "Black Tactical Combat Gear",
       "hash": null,
-      "category": "Police & Law",
+      "category": "Military & Tactical",
       "gender": "m",
       "author": "党少",
       "image": "m20.png",
@@ -1450,7 +1450,7 @@
     },
     {
       "id": "m25",
-      "name": "Tan Desert Combat Fatigues",
+      "name": "Khaki Tactical Combat Vest",
       "hash": null,
       "category": "Military & Tactical",
       "gender": "m",
@@ -1856,9 +1856,9 @@
     },
     {
       "id": "m32",
-      "name": "Dark Blue Armored Tactical",
+      "name": "outfit 1",
       "hash": null,
-      "category": "Military & Tactical",
+      "category": "Other",
       "gender": "m",
       "author": "党少",
       "image": "m32.jpg",
@@ -2320,9 +2320,9 @@
     },
     {
       "id": "m39",
-      "name": "Green Pixelated Combat Fatigues",
+      "name": "Dark Police Officer",
       "hash": null,
-      "category": "Military & Tactical",
+      "category": "Police & Law",
       "gender": "m",
       "author": "洛城小哑巴",
       "image": "m39.png",
@@ -2378,7 +2378,7 @@
     },
     {
       "id": "m40",
-      "name": "Navy Police Uniform",
+      "name": "Dark Police Officer",
       "hash": null,
       "category": "Police & Law",
       "gender": "m",
@@ -2610,7 +2610,7 @@
     },
     {
       "id": "m44",
-      "name": "Tan Desert Camo",
+      "name": "Black Tactical Jacket",
       "hash": null,
       "category": "Military & Tactical",
       "gender": "m",
@@ -4640,7 +4640,7 @@
     },
     {
       "id": "f8",
-      "name": "Black Police SWAT",
+      "name": "Black Police Tactical Vest",
       "hash": null,
       "category": "Police & Law",
       "gender": "f",
@@ -8700,9 +8700,9 @@
     },
     {
       "id": "f78",
-      "name": "Purple Tactical Worker",
+      "name": "Purple Cyber Suit",
       "hash": null,
-      "category": "Military & Tactical",
+      "category": "Costume & Themed",
       "gender": "f",
       "author": "v5",
       "image": "f78.png",
@@ -9338,9 +9338,9 @@
     },
     {
       "id": "f97",
-      "name": "Black Tactical Vest",
+      "name": "Gray Casual Jacket",
       "hash": null,
-      "category": "Police & Law",
+      "category": "Casual & Streetwear",
       "gender": "f",
       "author": "ztl",
       "image": "f97.png",
@@ -11020,9 +11020,9 @@
     },
     {
       "id": "f128",
-      "name": "Black Skull Punk",
+      "name": "White Tactical Police",
       "hash": null,
-      "category": "Costume & Themed",
+      "category": "Police & Law",
       "gender": "f",
       "author": "qwed",
       "image": "f128.png",
@@ -11426,9 +11426,9 @@
     },
     {
       "id": "135",
-      "name": "Tan Cargo Military",
+      "name": "Pink Robot Suit",
       "hash": null,
-      "category": "Military & Tactical",
+      "category": "Costume & Themed",
       "gender": "f",
       "author": "v5",
       "image": "135.png",
@@ -12586,7 +12586,7 @@
     },
     {
       "id": "170",
-      "name": "Dark Heavy Armor",
+      "name": "Black Tactical Operator",
       "hash": null,
       "category": "Military & Tactical",
       "gender": "f",
@@ -12702,9 +12702,9 @@
     },
     {
       "id": "172",
-      "name": "Blue Black Casual",
+      "name": "Black Cyber Combat",
       "hash": null,
-      "category": "Casual & Streetwear",
+      "category": "Military & Tactical",
       "gender": "f",
       "author": "李小R",
       "image": "172.png",
@@ -12820,7 +12820,7 @@
       "id": "174",
       "name": "Black Tactical Suit",
       "hash": null,
-      "category": "Criminal & Heist",
+      "category": "Military & Tactical",
       "gender": "f",
       "author": "止幼",
       "image": "174.png",

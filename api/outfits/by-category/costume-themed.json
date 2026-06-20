@@ -6,16 +6,74 @@
     "domain": "outfits",
     "label": "Outfits",
     "urlPattern": "{cdnBase}/assets/outfits/images/{image}",
-    "note": "Premade outfits. gender = \"m\"|\"f\". comps/comp_tex = 12 component slots; props/prop_tex = 8 prop slots (-1 = none). Apply with SET_PED_COMPONENT_VARIATION / SET_PED_PROP_INDEX. category = Male/Female."
+    "note": "Premade outfits. gender = \"m\"|\"f\". category = style group (Police, Military, ...). comps/comp_tex = 12 component slots; props/prop_tex = 8 prop slots (-1 = none). Apply with SET_PED_COMPONENT_VARIATION / SET_PED_PROP_INDEX."
   },
   "group": {
     "name": "Costume & Themed",
     "key": "Costume & Themed",
     "slug": "costume-themed",
-    "count": 21
+    "count": 23
   },
-  "count": 21,
+  "count": 23,
   "items": [
+    {
+      "id": "m16",
+      "name": "Red Robot Suit",
+      "hash": null,
+      "category": "Costume & Themed",
+      "gender": "m",
+      "author": "Lank",
+      "image": "m16.png",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/outfits/images/m16.png",
+      "comps": [
+        0,
+        91,
+        46,
+        17,
+        84,
+        0,
+        47,
+        31,
+        97,
+        16,
+        12,
+        251
+      ],
+      "comp_tex": [
+        0,
+        5,
+        0,
+        2,
+        5,
+        0,
+        3,
+        4,
+        5,
+        2,
+        3,
+        17
+      ],
+      "props": [
+        -1,
+        -1,
+        1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "prop_tex": [
+        -1,
+        -1,
+        0,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
     {
       "id": "m42",
       "name": "Purple Suit Joker",
@@ -713,6 +771,64 @@
       ]
     },
     {
+      "id": "f78",
+      "name": "Purple Cyber Suit",
+      "hash": null,
+      "category": "Costume & Themed",
+      "gender": "f",
+      "author": "v5",
+      "image": "f78.png",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/outfits/images/f78.png",
+      "comps": [
+        0,
+        174,
+        53,
+        49,
+        61,
+        51,
+        10,
+        0,
+        189,
+        31,
+        0,
+        136
+      ],
+      "comp_tex": [
+        0,
+        17,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        3
+      ],
+      "props": [
+        117,
+        27,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "prop_tex": [
+        0,
+        0,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
       "id": "f101",
       "name": "Zebra Striped Body",
       "hash": null,
@@ -887,64 +1003,6 @@
       ]
     },
     {
-      "id": "f128",
-      "name": "Black Skull Punk",
-      "hash": null,
-      "category": "Costume & Themed",
-      "gender": "f",
-      "author": "qwed",
-      "image": "f128.png",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/outfits/images/f128.png",
-      "comps": [
-        0,
-        101,
-        53,
-        15,
-        20,
-        0,
-        18,
-        102,
-        159,
-        0,
-        85,
-        260
-      ],
-      "comp_tex": [
-        0,
-        9,
-        0,
-        0,
-        2,
-        0,
-        2,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "props": [
-        112,
-        -1,
-        1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
-      ],
-      "prop_tex": [
-        1,
-        -1,
-        0,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
       "id": "f130",
       "name": "Black Skull Assassin",
       "hash": null,
@@ -994,6 +1052,64 @@
       "prop_tex": [
         0,
         4,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "id": "135",
+      "name": "Pink Robot Suit",
+      "hash": null,
+      "category": "Costume & Themed",
+      "gender": "f",
+      "author": "v5",
+      "image": "135.png",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/outfits/images/135.png",
+      "comps": [
+        0,
+        125,
+        -1,
+        128,
+        61,
+        86,
+        79,
+        -1,
+        -1,
+        30,
+        -1,
+        251
+      ],
+      "comp_tex": [
+        0,
+        7,
+        255,
+        9,
+        3,
+        13,
+        10,
+        255,
+        255,
+        3,
+        255,
+        25
+      ],
+      "props": [
+        132,
+        32,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "prop_tex": [
+        11,
+        6,
         -1,
         -1,
         -1,

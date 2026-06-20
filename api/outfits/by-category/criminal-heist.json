@@ -6,74 +6,16 @@
     "domain": "outfits",
     "label": "Outfits",
     "urlPattern": "{cdnBase}/assets/outfits/images/{image}",
-    "note": "Premade outfits. gender = \"m\"|\"f\". comps/comp_tex = 12 component slots; props/prop_tex = 8 prop slots (-1 = none). Apply with SET_PED_COMPONENT_VARIATION / SET_PED_PROP_INDEX. category = Male/Female."
+    "note": "Premade outfits. gender = \"m\"|\"f\". category = style group (Police, Military, ...). comps/comp_tex = 12 component slots; props/prop_tex = 8 prop slots (-1 = none). Apply with SET_PED_COMPONENT_VARIATION / SET_PED_PROP_INDEX."
   },
   "group": {
     "name": "Criminal & Heist",
     "key": "Criminal & Heist",
     "slug": "criminal-heist",
-    "count": 8
+    "count": 6
   },
-  "count": 8,
+  "count": 6,
   "items": [
-    {
-      "id": "m14",
-      "name": "Red Bandana Streetwear",
-      "hash": null,
-      "category": "Criminal & Heist",
-      "gender": "m",
-      "author": "v5",
-      "image": "m14.png",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/outfits/images/m14.png",
-      "comps": [
-        6,
-        186,
-        43,
-        195,
-        28,
-        82,
-        77,
-        26,
-        22,
-        0,
-        0,
-        327
-      ],
-      "comp_tex": [
-        0,
-        2,
-        0,
-        0,
-        4,
-        8,
-        5,
-        4,
-        2,
-        0,
-        0,
-        0
-      ],
-      "props": [
-        169,
-        5,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
-      ],
-      "prop_tex": [
-        5,
-        2,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
     {
       "id": "m48",
       "name": "Black Gold Biker",
@@ -414,64 +356,6 @@
       "prop_tex": [
         -1,
         3,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "id": "174",
-      "name": "Black Tactical Suit",
-      "hash": null,
-      "category": "Criminal & Heist",
-      "gender": "f",
-      "author": "止幼",
-      "image": "174.png",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/outfits/images/174.png",
-      "comps": [
-        0,
-        113,
-        53,
-        62,
-        61,
-        38,
-        24,
-        115,
-        2,
-        6,
-        7,
-        367
-      ],
-      "comp_tex": [
-        0,
-        11,
-        0,
-        0,
-        9,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        3
-      ],
-      "props": [
-        118,
-        27,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
-      ],
-      "prop_tex": [
-        0,
-        4,
         -1,
         -1,
         -1,

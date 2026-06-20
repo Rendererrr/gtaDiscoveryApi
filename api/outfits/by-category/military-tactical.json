@@ -6,7 +6,7 @@
     "domain": "outfits",
     "label": "Outfits",
     "urlPattern": "{cdnBase}/assets/outfits/images/{image}",
-    "note": "Premade outfits. gender = \"m\"|\"f\". comps/comp_tex = 12 component slots; props/prop_tex = 8 prop slots (-1 = none). Apply with SET_PED_COMPONENT_VARIATION / SET_PED_PROP_INDEX. category = Male/Female."
+    "note": "Premade outfits. gender = \"m\"|\"f\". category = style group (Police, Military, ...). comps/comp_tex = 12 component slots; props/prop_tex = 8 prop slots (-1 = none). Apply with SET_PED_COMPONENT_VARIATION / SET_PED_PROP_INDEX."
   },
   "group": {
     "name": "Military & Tactical",
@@ -365,6 +365,64 @@
       ]
     },
     {
+      "id": "m14",
+      "name": "Black Tactical Operator Alt",
+      "hash": null,
+      "category": "Military & Tactical",
+      "gender": "m",
+      "author": "v5",
+      "image": "m14.png",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/outfits/images/m14.png",
+      "comps": [
+        6,
+        186,
+        43,
+        195,
+        28,
+        82,
+        77,
+        26,
+        22,
+        0,
+        0,
+        327
+      ],
+      "comp_tex": [
+        0,
+        2,
+        0,
+        0,
+        4,
+        8,
+        5,
+        4,
+        2,
+        0,
+        0,
+        0
+      ],
+      "props": [
+        169,
+        5,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "prop_tex": [
+        5,
+        2,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
       "id": "m15",
       "name": "Desert Digital Camo",
       "hash": null,
@@ -536,6 +594,64 @@
         -1,
         -1,
         -1
+      ]
+    },
+    {
+      "id": "m20",
+      "name": "Black Tactical Combat Gear",
+      "hash": null,
+      "category": "Military & Tactical",
+      "gender": "m",
+      "author": "党少",
+      "image": "m20.png",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/outfits/images/m20.png",
+      "comps": [
+        0,
+        52,
+        77,
+        17,
+        41,
+        51,
+        24,
+        147,
+        55,
+        0,
+        0,
+        324
+      ],
+      "comp_tex": [
+        0,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        12,
+        0,
+        0,
+        0,
+        1
+      ],
+      "props": [
+        119,
+        25,
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        0
+      ],
+      "prop_tex": [
+        0,
+        4,
+        -1,
+        -1,
+        -1,
+        -1,
+        0,
+        0
       ]
     },
     {
@@ -772,7 +888,7 @@
     },
     {
       "id": "m25",
-      "name": "Tan Desert Combat Fatigues",
+      "name": "Khaki Tactical Combat Vest",
       "hash": null,
       "category": "Military & Tactical",
       "gender": "m",
@@ -1168,64 +1284,6 @@
       "prop_tex": [
         3,
         -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "id": "m32",
-      "name": "Dark Blue Armored Tactical",
-      "hash": null,
-      "category": "Military & Tactical",
-      "gender": "m",
-      "author": "党少",
-      "image": "m32.jpg",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/outfits/images/m32.jpg",
-      "comps": [
-        0,
-        52,
-        77,
-        174,
-        97,
-        38,
-        112,
-        146,
-        130,
-        26,
-        0,
-        251
-      ],
-      "comp_tex": [
-        0,
-        5,
-        0,
-        0,
-        4,
-        3,
-        0,
-        14,
-        0,
-        7,
-        0,
-        4
-      ],
-      "props": [
-        117,
-        23,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
-      ],
-      "prop_tex": [
-        12,
-        7,
         -1,
         -1,
         -1,
@@ -1641,66 +1699,8 @@
       ]
     },
     {
-      "id": "m39",
-      "name": "Green Pixelated Combat Fatigues",
-      "hash": null,
-      "category": "Military & Tactical",
-      "gender": "m",
-      "author": "洛城小哑巴",
-      "image": "m39.png",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/outfits/images/m39.png",
-      "comps": [
-        27,
-        52,
-        45,
-        55,
-        87,
-        0,
-        62,
-        133,
-        131,
-        0,
-        8,
-        221
-      ],
-      "comp_tex": [
-        0,
-        10,
-        0,
-        0,
-        17,
-        0,
-        1,
-        11,
-        9,
-        0,
-        2,
-        17
-      ],
-      "props": [
-        59,
-        25,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
-      ],
-      "prop_tex": [
-        0,
-        4,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
       "id": "m44",
-      "name": "Tan Desert Camo",
+      "name": "Black Tactical Jacket",
       "hash": null,
       "category": "Military & Tactical",
       "gender": "m",
@@ -4019,64 +4019,6 @@
       ]
     },
     {
-      "id": "f78",
-      "name": "Purple Tactical Worker",
-      "hash": null,
-      "category": "Military & Tactical",
-      "gender": "f",
-      "author": "v5",
-      "image": "f78.png",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/outfits/images/f78.png",
-      "comps": [
-        0,
-        174,
-        53,
-        49,
-        61,
-        51,
-        10,
-        0,
-        189,
-        31,
-        0,
-        136
-      ],
-      "comp_tex": [
-        0,
-        17,
-        0,
-        0,
-        2,
-        0,
-        0,
-        0,
-        0,
-        2,
-        0,
-        3
-      ],
-      "props": [
-        117,
-        27,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
-      ],
-      "prop_tex": [
-        0,
-        0,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
       "id": "f80",
       "name": "Black Tactical Vest Gear",
       "hash": null,
@@ -5121,64 +5063,6 @@
       ]
     },
     {
-      "id": "135",
-      "name": "Tan Cargo Military",
-      "hash": null,
-      "category": "Military & Tactical",
-      "gender": "f",
-      "author": "v5",
-      "image": "135.png",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/outfits/images/135.png",
-      "comps": [
-        0,
-        125,
-        -1,
-        128,
-        61,
-        86,
-        79,
-        -1,
-        -1,
-        30,
-        -1,
-        251
-      ],
-      "comp_tex": [
-        0,
-        7,
-        255,
-        9,
-        3,
-        13,
-        10,
-        255,
-        255,
-        3,
-        255,
-        25
-      ],
-      "props": [
-        132,
-        32,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
-      ],
-      "prop_tex": [
-        11,
-        6,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
       "id": "140",
       "name": "Green Camo Tactical",
       "hash": null,
@@ -5644,7 +5528,7 @@
     },
     {
       "id": "170",
-      "name": "Dark Heavy Armor",
+      "name": "Black Tactical Operator",
       "hash": null,
       "category": "Military & Tactical",
       "gender": "f",
@@ -5692,6 +5576,122 @@
       "prop_tex": [
         0,
         0,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "id": "172",
+      "name": "Black Cyber Combat",
+      "hash": null,
+      "category": "Military & Tactical",
+      "gender": "f",
+      "author": "李小R",
+      "image": "172.png",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/outfits/images/172.png",
+      "comps": [
+        0,
+        36,
+        42,
+        21,
+        15,
+        0,
+        70,
+        117,
+        29,
+        3,
+        0,
+        262
+      ],
+      "comp_tex": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "props": [
+        -1,
+        43,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "prop_tex": [
+        -1,
+        0,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "id": "174",
+      "name": "Black Tactical Suit",
+      "hash": null,
+      "category": "Military & Tactical",
+      "gender": "f",
+      "author": "止幼",
+      "image": "174.png",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/outfits/images/174.png",
+      "comps": [
+        0,
+        113,
+        53,
+        62,
+        61,
+        38,
+        24,
+        115,
+        2,
+        6,
+        7,
+        367
+      ],
+      "comp_tex": [
+        0,
+        11,
+        0,
+        0,
+        9,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        3
+      ],
+      "props": [
+        118,
+        27,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "prop_tex": [
+        0,
+        4,
         -1,
         -1,
         -1,

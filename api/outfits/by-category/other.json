@@ -6,16 +6,74 @@
     "domain": "outfits",
     "label": "Outfits",
     "urlPattern": "{cdnBase}/assets/outfits/images/{image}",
-    "note": "Premade outfits. gender = \"m\"|\"f\". comps/comp_tex = 12 component slots; props/prop_tex = 8 prop slots (-1 = none). Apply with SET_PED_COMPONENT_VARIATION / SET_PED_PROP_INDEX. category = Male/Female."
+    "note": "Premade outfits. gender = \"m\"|\"f\". category = style group (Police, Military, ...). comps/comp_tex = 12 component slots; props/prop_tex = 8 prop slots (-1 = none). Apply with SET_PED_COMPONENT_VARIATION / SET_PED_PROP_INDEX."
   },
   "group": {
     "name": "Other",
     "key": "Other",
     "slug": "other",
-    "count": 5
+    "count": 6
   },
-  "count": 5,
+  "count": 6,
   "items": [
+    {
+      "id": "m32",
+      "name": "outfit 1",
+      "hash": null,
+      "category": "Other",
+      "gender": "m",
+      "author": "党少",
+      "image": "m32.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/outfits/images/m32.jpg",
+      "comps": [
+        0,
+        52,
+        77,
+        174,
+        97,
+        38,
+        112,
+        146,
+        130,
+        26,
+        0,
+        251
+      ],
+      "comp_tex": [
+        0,
+        5,
+        0,
+        0,
+        4,
+        3,
+        0,
+        14,
+        0,
+        7,
+        0,
+        4
+      ],
+      "props": [
+        117,
+        23,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "prop_tex": [
+        12,
+        7,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
     {
       "id": "m64",
       "name": "Yellow Hazmat Suit",

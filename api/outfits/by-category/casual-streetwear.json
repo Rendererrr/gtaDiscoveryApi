@@ -6,74 +6,16 @@
     "domain": "outfits",
     "label": "Outfits",
     "urlPattern": "{cdnBase}/assets/outfits/images/{image}",
-    "note": "Premade outfits. gender = \"m\"|\"f\". comps/comp_tex = 12 component slots; props/prop_tex = 8 prop slots (-1 = none). Apply with SET_PED_COMPONENT_VARIATION / SET_PED_PROP_INDEX. category = Male/Female."
+    "note": "Premade outfits. gender = \"m\"|\"f\". category = style group (Police, Military, ...). comps/comp_tex = 12 component slots; props/prop_tex = 8 prop slots (-1 = none). Apply with SET_PED_COMPONENT_VARIATION / SET_PED_PROP_INDEX."
   },
   "group": {
     "name": "Casual & Streetwear",
     "key": "Casual & Streetwear",
     "slug": "casual-streetwear",
-    "count": 47
+    "count": 46
   },
-  "count": 47,
+  "count": 46,
   "items": [
-    {
-      "id": "m16",
-      "name": "Purple Yellow Puffer",
-      "hash": null,
-      "category": "Casual & Streetwear",
-      "gender": "m",
-      "author": "Lank",
-      "image": "m16.png",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/outfits/images/m16.png",
-      "comps": [
-        0,
-        91,
-        46,
-        17,
-        84,
-        0,
-        47,
-        31,
-        97,
-        16,
-        12,
-        251
-      ],
-      "comp_tex": [
-        0,
-        5,
-        0,
-        2,
-        5,
-        0,
-        3,
-        4,
-        5,
-        2,
-        3,
-        17
-      ],
-      "props": [
-        -1,
-        -1,
-        1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
-      ],
-      "prop_tex": [
-        -1,
-        -1,
-        0,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
     {
       "id": "m19",
       "name": "Navy Patterned Casual",
@@ -1873,6 +1815,64 @@
       ]
     },
     {
+      "id": "f97",
+      "name": "Gray Casual Jacket",
+      "hash": null,
+      "category": "Casual & Streetwear",
+      "gender": "f",
+      "author": "ztl",
+      "image": "f97.png",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/outfits/images/f97.png",
+      "comps": [
+        39,
+        115,
+        75,
+        141,
+        124,
+        0,
+        71,
+        148,
+        170,
+        0,
+        0,
+        220
+      ],
+      "comp_tex": [
+        0,
+        9,
+        0,
+        4,
+        14,
+        0,
+        20,
+        8,
+        14,
+        0,
+        0,
+        14
+      ],
+      "props": [
+        104,
+        15,
+        3,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "prop_tex": [
+        14,
+        6,
+        1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
       "id": "f98",
       "name": "Gray Casual Jacket",
       "hash": null,
@@ -2508,64 +2508,6 @@
         -1,
         7,
         0
-      ]
-    },
-    {
-      "id": "172",
-      "name": "Blue Black Casual",
-      "hash": null,
-      "category": "Casual & Streetwear",
-      "gender": "f",
-      "author": "李小R",
-      "image": "172.png",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/outfits/images/172.png",
-      "comps": [
-        0,
-        36,
-        42,
-        21,
-        15,
-        0,
-        70,
-        117,
-        29,
-        3,
-        0,
-        262
-      ],
-      "comp_tex": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0
-      ],
-      "props": [
-        -1,
-        43,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
-      ],
-      "prop_tex": [
-        -1,
-        0,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
       ]
     },
     {

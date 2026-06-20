@@ -10,6 +10,7 @@ import { readFile } from 'fs/promises';
 import { join } from 'path';
 import { CDN_BASE } from '../config.mjs';
 import { writeFlatDomain } from '../lib/catalog.mjs';
+import { keyOf } from '../../tools/outfit_key.mjs';
 
 export const DOMAIN = 'outfits';
 export const LABEL = 'Outfits';
@@ -38,13 +39,17 @@ function displayName(o, n) {
 
 export async function build({ apiDir, log = console.log }) {
   let mi = 0, fi = 0;
-  const items = SRC.map((o) => ({
+  const items = SRC.map((o) => {
+    // Names/categories are keyed by the stable content key (re-scrape safe); fall back to id for any
+    // pre-key data, then to a derived name.
+    const nm = NAMES[o.key || keyOf(o)] || NAMES[o.id] || {};
+    return {
     id: o.id,
-    name: (NAMES[o.id] && NAMES[o.id].name) || displayName(o, o.gender === 'f' ? ++fi : ++mi),
+    name: nm.name || displayName(o, o.gender === 'f' ? ++fi : ++mi),
     hash: null,
     // category = the style/theme group (Police, Military, ...); gender is a separate field. The in-game
     // wardrobe filters by gender, then groups by this category into sub-pages.
-    category: (NAMES[o.id] && NAMES[o.id].category) || 'Other',
+    category: nm.category || 'Other',
     gender: o.gender,                       // 'm' | 'f'
     author: o.author || '',
     image: o.image || null,                 // filename under assets/outfits/images/
@@ -53,13 +58,14 @@ export async function build({ apiDir, log = console.log }) {
     comp_tex: o.comp_tex,                   // [12] component texture
     props: o.props,                         // [8] prop drawable (-1 = none)
     prop_tex: o.prop_tex,                   // [8] prop texture
-  }));
+    };
+  });
   const m = items.filter((i) => i.gender === 'm').length;
   log(`  ${items.length} outfits (${m} male, ${items.length - m} female).`);
   return writeFlatDomain({
     apiDir, domain: DOMAIN, label: LABEL,
     urlPattern: `{cdnBase}/assets/${DOMAIN}/images/{image}`,
-    note: 'Premade outfits. gender = "m"|"f". comps/comp_tex = 12 component slots; props/prop_tex = 8 prop slots (-1 = none). Apply with SET_PED_COMPONENT_VARIATION / SET_PED_PROP_INDEX. category = Male/Female.',
+    note: 'Premade outfits. gender = "m"|"f". category = style group (Police, Military, ...). comps/comp_tex = 12 component slots; props/prop_tex = 8 prop slots (-1 = none). Apply with SET_PED_COMPONENT_VARIATION / SET_PED_PROP_INDEX.',
     items, log,
   });
 }

@@ -6,7 +6,7 @@
     "domain": "outfits",
     "label": "Outfits",
     "urlPattern": "{cdnBase}/assets/outfits/images/{image}",
-    "note": "Premade outfits. gender = \"m\"|\"f\". comps/comp_tex = 12 component slots; props/prop_tex = 8 prop slots (-1 = none). Apply with SET_PED_COMPONENT_VARIATION / SET_PED_PROP_INDEX. category = Male/Female."
+    "note": "Premade outfits. gender = \"m\"|\"f\". category = style group (Police, Military, ...). comps/comp_tex = 12 component slots; props/prop_tex = 8 prop slots (-1 = none). Apply with SET_PED_COMPONENT_VARIATION / SET_PED_PROP_INDEX."
   },
   "group": {
     "name": "Police & Law",
@@ -133,51 +133,51 @@
       ]
     },
     {
-      "id": "m20",
-      "name": "Black Tactical Police Vest",
+      "id": "m39",
+      "name": "Dark Police Officer",
       "hash": null,
       "category": "Police & Law",
       "gender": "m",
-      "author": "党少",
-      "image": "m20.png",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/outfits/images/m20.png",
+      "author": "洛城小哑巴",
+      "image": "m39.png",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/outfits/images/m39.png",
       "comps": [
-        0,
+        27,
         52,
-        77,
-        17,
-        41,
-        51,
-        24,
-        147,
+        45,
         55,
+        87,
         0,
+        62,
+        133,
+        131,
         0,
-        324
+        8,
+        221
       ],
       "comp_tex": [
         0,
         10,
         0,
         0,
+        17,
         0,
+        1,
+        11,
+        9,
         0,
-        0,
-        12,
-        0,
-        0,
-        0,
-        1
+        2,
+        17
       ],
       "props": [
-        119,
+        59,
         25,
         -1,
         -1,
         -1,
         -1,
-        1,
-        0
+        -1,
+        -1
       ],
       "prop_tex": [
         0,
@@ -186,13 +186,13 @@
         -1,
         -1,
         -1,
-        0,
-        0
+        -1,
+        -1
       ]
     },
     {
       "id": "m40",
-      "name": "Navy Police Uniform",
+      "name": "Dark Police Officer",
       "hash": null,
       "category": "Police & Law",
       "gender": "m",
@@ -482,7 +482,7 @@
     },
     {
       "id": "f8",
-      "name": "Black Police SWAT",
+      "name": "Black Police Tactical Vest",
       "hash": null,
       "category": "Police & Law",
       "gender": "f",
@@ -531,64 +531,6 @@
         0,
         -1,
         -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "id": "f97",
-      "name": "Black Tactical Vest",
-      "hash": null,
-      "category": "Police & Law",
-      "gender": "f",
-      "author": "ztl",
-      "image": "f97.png",
-      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/outfits/images/f97.png",
-      "comps": [
-        39,
-        115,
-        75,
-        141,
-        124,
-        0,
-        71,
-        148,
-        170,
-        0,
-        0,
-        220
-      ],
-      "comp_tex": [
-        0,
-        9,
-        0,
-        4,
-        14,
-        0,
-        20,
-        8,
-        14,
-        0,
-        0,
-        14
-      ],
-      "props": [
-        104,
-        15,
-        3,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
-      ],
-      "prop_tex": [
-        14,
-        6,
-        1,
         -1,
         -1,
         -1,
@@ -652,6 +594,64 @@
         -1,
         0,
         2
+      ]
+    },
+    {
+      "id": "f128",
+      "name": "White Tactical Police",
+      "hash": null,
+      "category": "Police & Law",
+      "gender": "f",
+      "author": "qwed",
+      "image": "f128.png",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/outfits/images/f128.png",
+      "comps": [
+        0,
+        101,
+        53,
+        15,
+        20,
+        0,
+        18,
+        102,
+        159,
+        0,
+        85,
+        260
+      ],
+      "comp_tex": [
+        0,
+        9,
+        0,
+        0,
+        2,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "props": [
+        112,
+        -1,
+        1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "prop_tex": [
+        1,
+        -1,
+        0,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
       ]
     },
     {
