@@ -16,7 +16,13 @@ export const DOMAIN = 'outfits';
 export const LABEL = 'Outfits';
 
 const ROOT = join(import.meta.dirname, '..', '..');
-const SRC = JSON.parse(await readFile(join(ROOT, 'src', 'data', 'outfits.json'), 'utf-8'));
+// Two sources, each owned by its own pipeline (bbfas scraper writes outfits.json; the INF importer writes
+// outfits_inf.json) so neither clobbers the other. Union them, deduped by stable content key.
+const A = JSON.parse(await readFile(join(ROOT, 'src', 'data', 'outfits.json'), 'utf-8'));
+let B = [];
+try { B = JSON.parse(await readFile(join(ROOT, 'src', 'data', 'outfits_inf.json'), 'utf-8')); } catch {}
+const seenKeys = new Set();
+const SRC = [...A, ...B].filter((o) => { const k = o.key || o.id; if (seenKeys.has(k)) return false; seenKeys.add(k); return true; });
 // AI vision names + style categories (id -> { name, category }); produced by tools/scrape -> agents ->
 // tools/merge_outfit_names.mjs. Optional: falls back to a derived name + "Other" when absent.
 let NAMES = {};
