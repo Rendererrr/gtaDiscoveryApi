@@ -8,21 +8,84 @@
     "urlPattern": "{cdnBase}/assets/outfits/images/{image}",
     "note": "Premade outfits. gender = \"m\"|\"f\". comps/comp_tex = 12 component slots; props/prop_tex = 8 prop slots (-1 = none). Apply with SET_PED_COMPONENT_VARIATION / SET_PED_PROP_INDEX. category = Male/Female."
   },
-  "count": 2,
+  "count": 11,
   "groups": [
     {
-      "name": "Female",
-      "key": "Female",
-      "slug": "female",
-      "count": 160,
-      "path": "api/outfits/by-category/female.json"
+      "name": "Military & Tactical",
+      "key": "Military & Tactical",
+      "slug": "military-tactical",
+      "count": 101,
+      "path": "api/outfits/by-category/military-tactical.json"
     },
     {
-      "name": "Male",
-      "key": "Male",
-      "slug": "male",
-      "count": 72,
-      "path": "api/outfits/by-category/male.json"
+      "name": "Casual & Streetwear",
+      "key": "Casual & Streetwear",
+      "slug": "casual-streetwear",
+      "count": 47,
+      "path": "api/outfits/by-category/casual-streetwear.json"
+    },
+    {
+      "name": "Costume & Themed",
+      "key": "Costume & Themed",
+      "slug": "costume-themed",
+      "count": 21,
+      "path": "api/outfits/by-category/costume-themed.json"
+    },
+    {
+      "name": "Medical & Emergency",
+      "key": "Medical & Emergency",
+      "slug": "medical-emergency",
+      "count": 13,
+      "path": "api/outfits/by-category/medical-emergency.json"
+    },
+    {
+      "name": "Police & Law",
+      "key": "Police & Law",
+      "slug": "police-law",
+      "count": 13,
+      "path": "api/outfits/by-category/police-law.json"
+    },
+    {
+      "name": "Sports & Athletic",
+      "key": "Sports & Athletic",
+      "slug": "sports-athletic",
+      "count": 11,
+      "path": "api/outfits/by-category/sports-athletic.json"
+    },
+    {
+      "name": "Criminal & Heist",
+      "key": "Criminal & Heist",
+      "slug": "criminal-heist",
+      "count": 8,
+      "path": "api/outfits/by-category/criminal-heist.json"
+    },
+    {
+      "name": "Business & Formal",
+      "key": "Business & Formal",
+      "slug": "business-formal",
+      "count": 5,
+      "path": "api/outfits/by-category/business-formal.json"
+    },
+    {
+      "name": "Other",
+      "key": "Other",
+      "slug": "other",
+      "count": 5,
+      "path": "api/outfits/by-category/other.json"
+    },
+    {
+      "name": "Party & Dress",
+      "key": "Party & Dress",
+      "slug": "party-dress",
+      "count": 5,
+      "path": "api/outfits/by-category/party-dress.json"
+    },
+    {
+      "name": "Swimwear & Beach",
+      "key": "Swimwear & Beach",
+      "slug": "swimwear-beach",
+      "count": 3,
+      "path": "api/outfits/by-category/swimwear-beach.json"
     }
   ]
 }

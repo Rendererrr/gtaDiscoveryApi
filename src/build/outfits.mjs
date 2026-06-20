@@ -16,6 +16,10 @@ export const LABEL = 'Outfits';
 
 const ROOT = join(import.meta.dirname, '..', '..');
 const SRC = JSON.parse(await readFile(join(ROOT, 'src', 'data', 'outfits.json'), 'utf-8'));
+// AI vision names + style categories (id -> { name, category }); produced by tools/scrape -> agents ->
+// tools/merge_outfit_names.mjs. Optional: falls back to a derived name + "Other" when absent.
+let NAMES = {};
+try { NAMES = JSON.parse(await readFile(join(ROOT, 'src', 'data', 'outfit_names.json'), 'utf-8')); } catch {}
 
 // The in-menu font is ASCII-only, but most source names are Chinese (often "中文/English"). Derive a
 // clean Latin display name: prefer the Latin part (after a "/" or "|"), strip non-ASCII, and fall back
@@ -36,9 +40,11 @@ export async function build({ apiDir, log = console.log }) {
   let mi = 0, fi = 0;
   const items = SRC.map((o) => ({
     id: o.id,
-    name: displayName(o, o.gender === 'f' ? ++fi : ++mi),
+    name: (NAMES[o.id] && NAMES[o.id].name) || displayName(o, o.gender === 'f' ? ++fi : ++mi),
     hash: null,
-    category: o.gender === 'f' ? 'Female' : 'Male',
+    // category = the style/theme group (Police, Military, ...); gender is a separate field. The in-game
+    // wardrobe filters by gender, then groups by this category into sub-pages.
+    category: (NAMES[o.id] && NAMES[o.id].category) || 'Other',
     gender: o.gender,                       // 'm' | 'f'
     author: o.author || '',
     image: o.image || null,                 // filename under assets/outfits/images/
