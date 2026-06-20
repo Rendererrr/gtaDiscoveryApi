@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "teleports",
+    "label": "Teleports",
+    "urlPattern": null,
+    "note": "Named teleport locations; x/y/z are world coords (SET_ENTITY_COORDS). id = location name; hash = joaat(id). No heading. No images. category groups under by-category/."
+  },
+  "count": 7,
+  "groups": [
+    {
+      "name": "Outdoor",
+      "key": "Outdoor",
+      "slug": "outdoor",
+      "count": 59,
+      "path": "api/teleports/by-category/outdoor.json"
+    },
+    {
+      "name": "Landmark",
+      "key": "Landmark",
+      "slug": "landmark",
+      "count": 42,
+      "path": "api/teleports/by-category/landmark.json"
+    },
+    {
+      "name": "Interiors",
+      "key": "Interiors",
+      "slug": "interiors",
+      "count": 29,
+      "path": "api/teleports/by-category/interiors.json"
+    },
+    {
+      "name": "Indoor",
+      "key": "Indoor",
+      "slug": "indoor",
+      "count": 19,
+      "path": "api/teleports/by-category/indoor.json"
+    },
+    {
+      "name": "High Sky",
+      "key": "High Sky",
+      "slug": "high-sky",
+      "count": 16,
+      "path": "api/teleports/by-category/high-sky.json"
+    },
+    {
+      "name": "Safe House",
+      "key": "Safe House",
+      "slug": "safe-house",
+      "count": 12,
+      "path": "api/teleports/by-category/safe-house.json"
+    },
+    {
+      "name": "Underwater",
+      "key": "Underwater",
+      "slug": "underwater",
+      "count": 8,
+      "path": "api/teleports/by-category/underwater.json"
+    }
+  ]
+}
