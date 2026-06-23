@@ -1,0 +1,5642 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "textures",
+    "label": "Textures",
+    "urlPattern": null,
+    "note": "GTA V texture dictionaries (.ytd) and their textures. dict id = ytd name without .ytd; texture names without format extension. index.json is light (no texture arrays) — full texture lists live in by-category/<archive>.json. hashes.json reverse-maps joaat(dict) AND joaat(texture) -> { type, id, name }."
+  },
+  "group": {
+    "name": "x64w.rpf",
+    "slug": "x64w-rpf",
+    "count": 339
+  },
+  "count": 339,
+  "items": [
+    {
+      "id": "alpha",
+      "name": "alpha",
+      "hash": 767087018,
+      "category": "x64w.rpf",
+      "textureCount": 5,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusinessvehicles.rpf"
+      ],
+      "textures": [
+        "alpha_lights",
+        "cavalcade_badges",
+        "cavalcade_badges_n",
+        "normal_flat_small",
+        "vehicle_generic_mesh4"
+      ]
+    },
+    {
+      "id": "besra",
+      "name": "besra",
+      "hash": 1824333165,
+      "category": "x64w.rpf",
+      "textureCount": 7,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/pilotvehicles.rpf"
+      ],
+      "textures": [
+        "besra_b3",
+        "besra_camo",
+        "besra_panel",
+        "besra_panel_n",
+        "blank",
+        "jet_canopy",
+        "vehicle_generic_smallspecmap3"
+      ]
+    },
+    {
+      "id": "besra+hi",
+      "name": "besra+hi",
+      "hash": 2604103735,
+      "category": "x64w.rpf",
+      "textureCount": 4,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/pilotvehicles.rpf"
+      ],
+      "textures": [
+        "besra_camo",
+        "besra_panel",
+        "besra_panel_n",
+        "jet_canopy"
+      ]
+    },
+    {
+      "id": "bifta",
+      "name": "bifta",
+      "hash": 3945366167,
+      "category": "x64w.rpf",
+      "textureCount": 7,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "bf_engine",
+        "bf_engine_normal",
+        "bf_engine_spec",
+        "bifta_lights",
+        "bifta_swheel",
+        "vehicle_generic_carbon_normal",
+        "vehicle_generic_mesh4"
+      ]
+    },
+    {
+      "id": "bifta+hi",
+      "name": "bifta+hi",
+      "hash": 3833400019,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "bf_engine"
+      ]
+    },
+    {
+      "id": "blimp2",
+      "name": "blimp2",
+      "hash": 3681241380,
+      "category": "x64w.rpf",
+      "textureCount": 5,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/upgradevehicles.rpf"
+      ],
+      "textures": [
+        "blimp_interior_door",
+        "blimp_interior_hd",
+        "blimp2",
+        "cuban800_blades2_prop_blades_plane_a",
+        "velum_interior_seat_hd"
+      ]
+    },
+    {
+      "id": "blimp2+hi",
+      "name": "blimp2+hi",
+      "hash": 2026965899,
+      "category": "x64w.rpf",
+      "textureCount": 4,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/upgradevehicles.rpf"
+      ],
+      "textures": [
+        "blimp_interior_door",
+        "blimp_interior_hd",
+        "blimp2",
+        "velum_interior_seat_hd"
+      ]
+    },
+    {
+      "id": "dukes_roof_10+hifr",
+      "name": "dukes_roof_10+hifr",
+      "hash": 2685230193,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/dukes_mods.rpf"
+      ],
+      "textures": [
+        "dukes_flags"
+      ]
+    },
+    {
+      "id": "dukes_roof_11+hifr",
+      "name": "dukes_roof_11+hifr",
+      "hash": 1195111129,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/dukes_mods.rpf"
+      ],
+      "textures": [
+        "dukes_flags"
+      ]
+    },
+    {
+      "id": "dukes_roof_12+hifr",
+      "name": "dukes_roof_12+hifr",
+      "hash": 1527708365,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/dukes_mods.rpf"
+      ],
+      "textures": [
+        "dukes_flags"
+      ]
+    },
+    {
+      "id": "dukes_roof_13+hifr",
+      "name": "dukes_roof_13+hifr",
+      "hash": 3554244231,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/dukes_mods.rpf"
+      ],
+      "textures": [
+        "dukes_flags"
+      ]
+    },
+    {
+      "id": "dukes_roof_14+hifr",
+      "name": "dukes_roof_14+hifr",
+      "hash": 1033571258,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/dukes_mods.rpf"
+      ],
+      "textures": [
+        "dukes_flags"
+      ]
+    },
+    {
+      "id": "dukes_roof_15+hifr",
+      "name": "dukes_roof_15+hifr",
+      "hash": 3643020967,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/dukes_mods.rpf"
+      ],
+      "textures": [
+        "dukes_flags"
+      ]
+    },
+    {
+      "id": "dukes_roof_16+hifr",
+      "name": "dukes_roof_16+hifr",
+      "hash": 307437220,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/dukes_mods.rpf"
+      ],
+      "textures": [
+        "dukes_flags"
+      ]
+    },
+    {
+      "id": "dukes_roof_17+hifr",
+      "name": "dukes_roof_17+hifr",
+      "hash": 221873066,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/dukes_mods.rpf"
+      ],
+      "textures": [
+        "dukes_flags"
+      ]
+    },
+    {
+      "id": "dukes_roof_18+hifr",
+      "name": "dukes_roof_18+hifr",
+      "hash": 2785133188,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/dukes_mods.rpf"
+      ],
+      "textures": [
+        "dukes_flags"
+      ]
+    },
+    {
+      "id": "dukes_roof_19+hifr",
+      "name": "dukes_roof_19+hifr",
+      "hash": 1728246096,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/dukes_mods.rpf"
+      ],
+      "textures": [
+        "dukes_flags"
+      ]
+    },
+    {
+      "id": "dukes_roof_2+hifr",
+      "name": "dukes_roof_2+hifr",
+      "hash": 1458342655,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/dukes_mods.rpf"
+      ],
+      "textures": [
+        "dukes_flags"
+      ]
+    },
+    {
+      "id": "dukes_roof_20+hifr",
+      "name": "dukes_roof_20+hifr",
+      "hash": 3567585151,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/dukes_mods.rpf"
+      ],
+      "textures": [
+        "dukes_flags"
+      ]
+    },
+    {
+      "id": "dukes_roof_21+hifr",
+      "name": "dukes_roof_21+hifr",
+      "hash": 2766743700,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/dukes_mods.rpf"
+      ],
+      "textures": [
+        "dukes_flags"
+      ]
+    },
+    {
+      "id": "dukes_roof_22+hifr",
+      "name": "dukes_roof_22+hifr",
+      "hash": 4146319905,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/dukes_mods.rpf"
+      ],
+      "textures": [
+        "dukes_flags"
+      ]
+    },
+    {
+      "id": "dukes_roof_23+hifr",
+      "name": "dukes_roof_23+hifr",
+      "hash": 268550861,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/dukes_mods.rpf"
+      ],
+      "textures": [
+        "dukes_flags"
+      ]
+    },
+    {
+      "id": "dukes_roof_24+hifr",
+      "name": "dukes_roof_24+hifr",
+      "hash": 3595274296,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/dukes_mods.rpf"
+      ],
+      "textures": [
+        "dukes_flags"
+      ]
+    },
+    {
+      "id": "dukes_roof_25+hifr",
+      "name": "dukes_roof_25+hifr",
+      "hash": 4174954135,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/dukes_mods.rpf"
+      ],
+      "textures": [
+        "dukes_flags"
+      ]
+    },
+    {
+      "id": "dukes_roof_26+hifr",
+      "name": "dukes_roof_26+hifr",
+      "hash": 3029421604,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/dukes_mods.rpf"
+      ],
+      "textures": [
+        "dukes_flags"
+      ]
+    },
+    {
+      "id": "dukes_roof_3+hifr",
+      "name": "dukes_roof_3+hifr",
+      "hash": 2261705461,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/dukes_mods.rpf"
+      ],
+      "textures": [
+        "dukes_flags"
+      ]
+    },
+    {
+      "id": "dukes_roof_4+hifr",
+      "name": "dukes_roof_4+hifr",
+      "hash": 611022643,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/dukes_mods.rpf"
+      ],
+      "textures": [
+        "dukes_flags"
+      ]
+    },
+    {
+      "id": "dukes_roof_5+hifr",
+      "name": "dukes_roof_5+hifr",
+      "hash": 497629853,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/dukes_mods.rpf"
+      ],
+      "textures": [
+        "dukes_flags"
+      ]
+    },
+    {
+      "id": "dukes_roof_6+hifr",
+      "name": "dukes_roof_6+hifr",
+      "hash": 1636049502,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/dukes_mods.rpf"
+      ],
+      "textures": [
+        "dukes_flags"
+      ]
+    },
+    {
+      "id": "dukes_roof_7+hifr",
+      "name": "dukes_roof_7+hifr",
+      "hash": 3556419698,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/dukes_mods.rpf"
+      ],
+      "textures": [
+        "dukes_flags"
+      ]
+    },
+    {
+      "id": "dukes_roof_8+hifr",
+      "name": "dukes_roof_8+hifr",
+      "hash": 3865453137,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/dukes_mods.rpf"
+      ],
+      "textures": [
+        "dukes_flags"
+      ]
+    },
+    {
+      "id": "dukes_roof_9+hifr",
+      "name": "dukes_roof_9+hifr",
+      "hash": 851494760,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/dukes_mods.rpf"
+      ],
+      "textures": [
+        "dukes_flags"
+      ]
+    },
+    {
+      "id": "furoregt",
+      "name": "furoregt",
+      "hash": 3205927392,
+      "category": "x64w.rpf",
+      "textureCount": 7,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/ltsvehicles.rpf"
+      ],
+      "textures": [
+        "cheetah_badges",
+        "coment_new_interior",
+        "comet_dash",
+        "comet_dash_detail",
+        "comet_dash_spec",
+        "furore_badges",
+        "furore_lights"
+      ]
+    },
+    {
+      "id": "furoregt+hi",
+      "name": "furoregt+hi",
+      "hash": 3701708652,
+      "category": "x64w.rpf",
+      "textureCount": 4,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/ltsvehicles.rpf"
+      ],
+      "textures": [
+        "coment_new_interior",
+        "comet_dash",
+        "comet_dash_detail",
+        "comet_dash_spec"
+      ]
+    },
+    {
+      "id": "glen_roof_mod2+hifr",
+      "name": "glen_roof_mod2+hifr",
+      "hash": 2086195877,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/glendale_mods.rpf"
+      ],
+      "textures": [
+        "glendale_roof_hd"
+      ]
+    },
+    {
+      "id": "glen_roof_mod3+hifr",
+      "name": "glen_roof_mod3+hifr",
+      "hash": 2200015123,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/glendale_mods.rpf"
+      ],
+      "textures": [
+        "glendale_roof_hd"
+      ]
+    },
+    {
+      "id": "glendale",
+      "name": "glendale",
+      "hash": 75131841,
+      "category": "x64w.rpf",
+      "textureCount": 6,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mphipstervehicles.rpf"
+      ],
+      "textures": [
+        "glendale_lights",
+        "glendale_roof_hd",
+        "normal_flat_small",
+        "surano_badges",
+        "surano_badges_n",
+        "vehicle_generic_mesh4"
+      ]
+    },
+    {
+      "id": "glendale+hi",
+      "name": "glendale+hi",
+      "hash": 4003900357,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mphipstervehicles.rpf"
+      ],
+      "textures": [
+        "glendale_roof_hd"
+      ]
+    },
+    {
+      "id": "hand_diff_004_k_uni",
+      "name": "hand_diff_004_k_uni",
+      "hash": 935333738,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_004_k_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_004_l_uni",
+      "name": "hand_diff_004_l_uni",
+      "hash": 1307110010,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_004_l_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_004_m_uni",
+      "name": "hand_diff_004_m_uni",
+      "hash": 513577791,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_004_m_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_004_n_uni",
+      "name": "hand_diff_004_n_uni",
+      "hash": 1575267502,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_004_n_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_004_o_uni",
+      "name": "hand_diff_004_o_uni",
+      "hash": 749834686,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_004_o_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_004_p_uni",
+      "name": "hand_diff_004_p_uni",
+      "hash": 1632416760,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_004_p_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_004_q_uni",
+      "name": "hand_diff_004_q_uni",
+      "hash": 3944651179,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_004_q_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_004_r_uni",
+      "name": "hand_diff_004_r_uni",
+      "hash": 4026865326,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_004_r_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_004_s_uni",
+      "name": "hand_diff_004_s_uni",
+      "hash": 2080325085,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_004_s_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_004_t_uni",
+      "name": "hand_diff_004_t_uni",
+      "hash": 2529605614,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_004_t_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_006_k_uni",
+      "name": "hand_diff_006_k_uni",
+      "hash": 1329398007,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_006_k_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_006_l_uni",
+      "name": "hand_diff_006_l_uni",
+      "hash": 1600148005,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_006_l_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_006_m_uni",
+      "name": "hand_diff_006_m_uni",
+      "hash": 1331507325,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_006_m_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_006_n_uni",
+      "name": "hand_diff_006_n_uni",
+      "hash": 3161733366,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_006_n_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_006_o_uni",
+      "name": "hand_diff_006_o_uni",
+      "hash": 301470996,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_006_o_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_006_p_uni",
+      "name": "hand_diff_006_p_uni",
+      "hash": 2765633938,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_006_p_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_006_q_uni",
+      "name": "hand_diff_006_q_uni",
+      "hash": 2593742728,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_006_q_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_006_r_uni",
+      "name": "hand_diff_006_r_uni",
+      "hash": 2388293982,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_006_r_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_006_s_uni",
+      "name": "hand_diff_006_s_uni",
+      "hash": 1820418658,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_006_s_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_006_t_uni",
+      "name": "hand_diff_006_t_uni",
+      "hash": 1521097104,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_006_t_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_007_k_uni",
+      "name": "hand_diff_007_k_uni",
+      "hash": 1634583208,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_007_k_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_007_l_uni",
+      "name": "hand_diff_007_l_uni",
+      "hash": 3804378605,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_007_l_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_007_m_uni",
+      "name": "hand_diff_007_m_uni",
+      "hash": 2565880843,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_007_m_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_007_n_uni",
+      "name": "hand_diff_007_n_uni",
+      "hash": 3962740752,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_007_n_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_007_o_uni",
+      "name": "hand_diff_007_o_uni",
+      "hash": 1647488964,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_007_o_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_007_p_uni",
+      "name": "hand_diff_007_p_uni",
+      "hash": 997024223,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_007_p_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_007_q_uni",
+      "name": "hand_diff_007_q_uni",
+      "hash": 3514166523,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_007_q_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_007_r_uni",
+      "name": "hand_diff_007_r_uni",
+      "hash": 2913432168,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_007_r_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_007_s_uni",
+      "name": "hand_diff_007_s_uni",
+      "hash": 2036455005,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_007_s_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_007_t_uni",
+      "name": "hand_diff_007_t_uni",
+      "hash": 1348700098,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_007_t_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_008_k_uni",
+      "name": "hand_diff_008_k_uni",
+      "hash": 3229402503,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_008_k_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_008_l_uni",
+      "name": "hand_diff_008_l_uni",
+      "hash": 2194640630,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_008_l_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_008_m_uni",
+      "name": "hand_diff_008_m_uni",
+      "hash": 1590289058,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_008_m_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_008_n_uni",
+      "name": "hand_diff_008_n_uni",
+      "hash": 2110175741,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_008_n_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_008_o_uni",
+      "name": "hand_diff_008_o_uni",
+      "hash": 4213945554,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_008_o_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_008_p_uni",
+      "name": "hand_diff_008_p_uni",
+      "hash": 63562828,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_008_p_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_008_q_uni",
+      "name": "hand_diff_008_q_uni",
+      "hash": 1516228713,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_008_q_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_008_r_uni",
+      "name": "hand_diff_008_r_uni",
+      "hash": 202484682,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_008_r_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_008_s_uni",
+      "name": "hand_diff_008_s_uni",
+      "hash": 184380386,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_008_s_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_008_t_uni",
+      "name": "hand_diff_008_t_uni",
+      "hash": 1370422509,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_008_t_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_009_k_uni",
+      "name": "hand_diff_009_k_uni",
+      "hash": 2312947879,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_009_k_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_009_l_uni",
+      "name": "hand_diff_009_l_uni",
+      "hash": 1844250503,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_009_l_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_009_m_uni",
+      "name": "hand_diff_009_m_uni",
+      "hash": 3352892581,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_009_m_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_009_n_uni",
+      "name": "hand_diff_009_n_uni",
+      "hash": 3436175229,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_009_n_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_009_o_uni",
+      "name": "hand_diff_009_o_uni",
+      "hash": 2192528142,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_009_o_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_009_p_uni",
+      "name": "hand_diff_009_p_uni",
+      "hash": 2265630418,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_009_p_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_009_q_uni",
+      "name": "hand_diff_009_q_uni",
+      "hash": 1287105671,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_009_q_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_009_r_uni",
+      "name": "hand_diff_009_r_uni",
+      "hash": 3814170512,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_009_r_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_009_s_uni",
+      "name": "hand_diff_009_s_uni",
+      "hash": 1366426446,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_009_s_uni"
+      ]
+    },
+    {
+      "id": "hand_diff_009_t_uni",
+      "name": "hand_diff_009_t_uni",
+      "hash": 3761268032,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts.rpf",
+        "x64w.rpf/dlc.rpf/mppilot.rpf"
+      ],
+      "textures": [
+        "hand_diff_009_t_uni"
+      ]
+    },
+    {
+      "id": "ind_prop_dlc_fireworks",
+      "name": "ind_prop_dlc_fireworks",
+      "hash": 669771326,
+      "category": "x64w.rpf",
+      "textureCount": 3,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/dlc_lev_des.rpf"
+      ],
+      "textures": [
+        "prop_base_yellow",
+        "prop_firework_01",
+        "prop_wood_inner_2"
+      ]
+    },
+    {
+      "id": "ind_prop_dlc_roller_car",
+      "name": "ind_prop_dlc_roller_car",
+      "hash": 1543894721,
+      "category": "x64w.rpf",
+      "textureCount": 9,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/dlc_lev_des.rpf"
+      ],
+      "textures": [
+        "prop_base_white_fullb",
+        "prop_base_white_fullbprop_star_a",
+        "prop_blue_sparkle",
+        "prop_blue_sparkle_s",
+        "prop_chrome_64",
+        "prop_leather_strip",
+        "prop_leather_strip_n",
+        "prop_metal_grey2",
+        "prop_red_sparkle"
+      ]
+    },
+    {
+      "id": "jester",
+      "name": "jester",
+      "hash": 2997294755,
+      "category": "x64w.rpf",
+      "textureCount": 6,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusinessvehicles.rpf"
+      ],
+      "textures": [
+        "generic_leather2_n",
+        "jester_badges",
+        "jester_lights_glass",
+        "vehicle_generic_mesh3",
+        "vehicle_generic_mesh3_normal",
+        "vel_interior"
+      ]
+    },
+    {
+      "id": "jester+hi",
+      "name": "jester+hi",
+      "hash": 1560219667,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusinessvehicles.rpf"
+      ],
+      "textures": [
+        "vel_interior"
+      ]
+    },
+    {
+      "id": "lts_p_para_bag_lts_s+hidr",
+      "name": "lts_p_para_bag_lts_s+hidr",
+      "hash": 629987228,
+      "category": "x64w.rpf",
+      "textureCount": 19,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts_props.rpf"
+      ],
+      "textures": [
+        "p_para_bag_lts_s_diff_a",
+        "p_para_bag_lts_s_diff_b",
+        "p_para_bag_lts_s_diff_c",
+        "p_para_bag_lts_s_diff_d",
+        "p_para_bag_lts_s_diff_e",
+        "p_para_bag_lts_s_diff_f",
+        "p_para_bag_lts_s_diff_g",
+        "p_para_bag_lts_s_diff_h",
+        "p_para_bag_lts_s_diff_i",
+        "p_para_bag_lts_s_diff_j",
+        "p_para_bag_lts_s_diff_k",
+        "p_para_bag_lts_s_diff_l",
+        "p_para_bag_lts_s_diff_n",
+        "p_para_bag_lts_s_diff_o",
+        "p_para_bag_lts_s_diff_p",
+        "p_para_bag_lts_s_diff_q",
+        "p_para_bag_lts_s_diff_r",
+        "p_para_bag_lts_s_diff_s",
+        "p_para_bag_lts_s_diff_t"
+      ]
+    },
+    {
+      "id": "lts_p_para_bag_pilot2_s+hidr",
+      "name": "lts_p_para_bag_pilot2_s+hidr",
+      "hash": 4206989976,
+      "category": "x64w.rpf",
+      "textureCount": 27,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts_props.rpf"
+      ],
+      "textures": [
+        "p_para_bag_pilot_s_diff_a_s",
+        "p_para_bag_pilot2_s_diff_a",
+        "p_para_bag_pilot2_s_diff_b",
+        "p_para_bag_pilot2_s_diff_c",
+        "p_para_bag_pilot2_s_diff_d",
+        "p_para_bag_pilot2_s_diff_e",
+        "p_para_bag_pilot2_s_diff_f",
+        "p_para_bag_pilot2_s_diff_g",
+        "p_para_bag_pilot2_s_diff_h",
+        "p_para_bag_pilot2_s_diff_i",
+        "p_para_bag_pilot2_s_diff_j",
+        "p_para_bag_pilot2_s_diff_k",
+        "p_para_bag_pilot2_s_diff_l",
+        "p_para_bag_pilot2_s_diff_m",
+        "p_para_bag_pilot2_s_diff_n",
+        "p_para_bag_pilot2_s_diff_o",
+        "p_para_bag_pilot2_s_diff_p",
+        "p_para_bag_pilot2_s_diff_q",
+        "p_para_bag_pilot2_s_diff_r",
+        "p_para_bag_pilot2_s_diff_s",
+        "p_para_bag_pilot2_s_diff_t",
+        "p_para_bag_pilot2_s_diff_u",
+        "p_para_bag_pilot2_s_diff_v",
+        "p_para_bag_pilot2_s_diff_w",
+        "p_para_bag_pilot2_s_diff_x",
+        "p_para_bag_pilot2_s_diff_y",
+        "p_para_bag_pilot2_s_diff_z"
+      ]
+    },
+    {
+      "id": "lts_prop_lts_elecbox",
+      "name": "lts_prop_lts_elecbox",
+      "hash": 1404631268,
+      "category": "x64w.rpf",
+      "textureCount": 6,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts_props.rpf"
+      ],
+      "textures": [
+        "prop_elecbox_18b",
+        "prop_elecbox_18b_n",
+        "prop_elecbox_18b_s",
+        "prop_elecbox_24",
+        "prop_elecbox_24_n",
+        "prop_elecbox_24_s"
+      ]
+    },
+    {
+      "id": "lts_prop_lts_elecbox_24b",
+      "name": "lts_prop_lts_elecbox_24b",
+      "hash": 19408745,
+      "category": "x64w.rpf",
+      "textureCount": 6,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts_props.rpf"
+      ],
+      "textures": [
+        "prop_elecbox_18b",
+        "prop_elecbox_18b_n",
+        "prop_elecbox_18b_s",
+        "prop_elecbox_24",
+        "prop_elecbox_24_n",
+        "prop_elecbox_24_s"
+      ]
+    },
+    {
+      "id": "lts_prop_lts_offroad",
+      "name": "lts_prop_lts_offroad",
+      "hash": 2794326680,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts_props.rpf"
+      ],
+      "textures": [
+        "prop_rub_tyre_02b"
+      ]
+    },
+    {
+      "id": "lts_prop_mp_ramp_tu",
+      "name": "lts_prop_mp_ramp_tu",
+      "hash": 3025781981,
+      "category": "x64w.rpf",
+      "textureCount": 3,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts_props.rpf"
+      ],
+      "textures": [
+        "prop_mp_ramp_01_n",
+        "prop_mp_ramp_01_s",
+        "prop_mp_ramp_01_tu"
+      ]
+    },
+    {
+      "id": "marshall",
+      "name": "marshall",
+      "hash": 1233534620,
+      "category": "x64w.rpf",
+      "textureCount": 32,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/upgradevehicles.rpf"
+      ],
+      "textures": [
+        "flag_sign_1",
+        "flag_sign_10",
+        "flag_sign_11",
+        "flag_sign_12",
+        "flag_sign_13",
+        "flag_sign_14",
+        "flag_sign_15",
+        "flag_sign_16",
+        "flag_sign_17",
+        "flag_sign_18",
+        "flag_sign_19",
+        "flag_sign_2",
+        "flag_sign_20",
+        "flag_sign_21",
+        "flag_sign_22",
+        "flag_sign_23",
+        "flag_sign_24",
+        "flag_sign_25",
+        "flag_sign_3",
+        "flag_sign_4",
+        "flag_sign_5",
+        "flag_sign_6",
+        "flag_sign_7",
+        "flag_sign_8",
+        "flag_sign_9",
+        "marshall_interior",
+        "nodirt",
+        "picador_badges",
+        "picador_badges_n",
+        "picador_grill",
+        "picador_lights",
+        "vehicle_generic_smallspecmap2"
+      ]
+    },
+    {
+      "id": "marshall+hi",
+      "name": "marshall+hi",
+      "hash": 2012038601,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/upgradevehicles.rpf"
+      ],
+      "textures": [
+        "marshall_interior"
+      ]
+    },
+    {
+      "id": "monster",
+      "name": "monster",
+      "hash": 3449006043,
+      "category": "x64w.rpf",
+      "textureCount": 10,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpindependencevehicles.rpf"
+      ],
+      "textures": [
+        "liberator_interior",
+        "monster_base_hd",
+        "monster_flag",
+        "monster_lights",
+        "monster_logos_hd",
+        "nodirt",
+        "police3_badges",
+        "police3_badges_n",
+        "vehicle_generic_mesh4",
+        "vehicle_generic_smallspecmap2"
+      ]
+    },
+    {
+      "id": "monster+hi",
+      "name": "monster+hi",
+      "hash": 3489327988,
+      "category": "x64w.rpf",
+      "textureCount": 3,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpindependencevehicles.rpf"
+      ],
+      "textures": [
+        "liberator_interior",
+        "monster_base_hd",
+        "monster_logos_hd"
+      ]
+    },
+    {
+      "id": "mp_apt_h_01_bath_txd",
+      "name": "mp_apt_h_01_bath_txd",
+      "hash": 4247076325,
+      "category": "x64w.rpf",
+      "textureCount": 2,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/int_mp_apt_h_01.rpf"
+      ],
+      "textures": [
+        "mh_v_solidgrey_d",
+        "mh_v_solidwhite_d"
+      ]
+    },
+    {
+      "id": "mp_apt_h_01_txd",
+      "name": "mp_apt_h_01_txd",
+      "hash": 3493778529,
+      "category": "x64w.rpf",
+      "textureCount": 35,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/int_mp_apt_h_01.rpf"
+      ],
+      "textures": [
+        "ah_shinymet",
+        "km_v_ap_hi_art1",
+        "km_v_ap_hi_art2",
+        "km_v_ap_hi_art3",
+        "km_v_c_costume1",
+        "km_v_jblckframe",
+        "km_v_m_oldbooks1",
+        "km_v_michael_books1",
+        "km_v_michael_books2",
+        "km_v_michael_textbooks",
+        "km_v_mp_underwear",
+        "mh_v_aph_halolight_d",
+        "mh_v_aph_painta_d",
+        "mh_v_fh_artz2_d",
+        "mh_v_fh_switches_d",
+        "mh_v_fh_wallgroove_n",
+        "os_stainglassdoor2",
+        "p_h_acc_artwallframe01_d",
+        "p_h_acc_artwalll01_a_n",
+        "p_h_acc_artwalls01_a_d",
+        "p_h_acc_rugwooll04_n",
+        "tl_v_apartment_high_paintings",
+        "tl_v_bank2_chrome_n",
+        "tl_v_cashdepot_door_maintenance",
+        "tl_v_cashdepot_door_maintenance_n",
+        "tl_v_lab_default",
+        "tl_v_michael_books",
+        "tl_v_michael_doors",
+        "tl_v_michael_doors_n",
+        "tl_v_office_aluminium",
+        "tl_v_office_shadowtl_v_office_shadow_a",
+        "tl_v_recycle_concrete_normal",
+        "tl_v_rockclub_wall1_s",
+        "v_glass_d_darkgreen",
+        "xj_v_gobo02"
+      ]
+    },
+    {
+      "id": "mp_b_acc_rughidel_01+hidr",
+      "name": "mp_b_acc_rughidel_01+hidr",
+      "hash": 1549189233,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mp_residential.rpf"
+      ],
+      "textures": [
+        "p_h_acc_rughidem01_a_d"
+      ]
+    },
+    {
+      "id": "mp_b_acc_rugwooll_01+hidr",
+      "name": "mp_b_acc_rugwooll_01+hidr",
+      "hash": 395233218,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mp_residential.rpf"
+      ],
+      "textures": [
+        "p_h_acc_rugwooll01_n"
+      ]
+    },
+    {
+      "id": "mp_b_bed_double_08+hidr",
+      "name": "mp_b_bed_double_08+hidr",
+      "hash": 3616179939,
+      "category": "x64w.rpf",
+      "textureCount": 4,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mp_residential.rpf"
+      ],
+      "textures": [
+        "p_h_bed_double08duvet_a_d",
+        "p_h_bed_double08duvet_a_n",
+        "p_h_bed_double08frame_a_d",
+        "p_h_bed_double08frame_n"
+      ]
+    },
+    {
+      "id": "mp_b_bed_furniture",
+      "name": "mp_b_bed_furniture",
+      "hash": 3527728438,
+      "category": "x64w.rpf",
+      "textureCount": 4,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mp_residential.rpf"
+      ],
+      "textures": [
+        "mp_env_woodgrain_2",
+        "p_h_bed_sidetabdble04_a_d",
+        "p_h_bed_sidetabdble04_a_n",
+        "p_h_bed_sidetabdble04_a_s"
+      ]
+    },
+    {
+      "id": "mp_b_din_chair_03+hidr",
+      "name": "mp_b_din_chair_03+hidr",
+      "hash": 1097676073,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mp_residential.rpf"
+      ],
+      "textures": [
+        "p_h_din_chair03_a_d"
+      ]
+    },
+    {
+      "id": "mp_b_din_chair_05+hidr",
+      "name": "mp_b_din_chair_05+hidr",
+      "hash": 3076932985,
+      "category": "x64w.rpf",
+      "textureCount": 2,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mp_residential.rpf"
+      ],
+      "textures": [
+        "p_h_din_chair05_a_d",
+        "p_h_din_chair05_s"
+      ]
+    },
+    {
+      "id": "mp_b_kit_coffeemachine_01+hidr",
+      "name": "mp_b_kit_coffeemachine_01+hidr",
+      "hash": 146878236,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mp_residential.rpf"
+      ],
+      "textures": [
+        "p_b_kit_coffeemachine_01"
+      ]
+    },
+    {
+      "id": "mp_b_stn_chairarm_01+hidr",
+      "name": "mp_b_stn_chairarm_01+hidr",
+      "hash": 762569776,
+      "category": "x64w.rpf",
+      "textureCount": 3,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mp_residential.rpf"
+      ],
+      "textures": [
+        "p_b_stn_chairarm01_a_d",
+        "p_b_stn_chairarm01_a_n",
+        "p_b_stn_chairarm01_a_s"
+      ]
+    },
+    {
+      "id": "mp_b_stn_chairarm_04+hidr",
+      "name": "mp_b_stn_chairarm_04+hidr",
+      "hash": 3651577287,
+      "category": "x64w.rpf",
+      "textureCount": 3,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mp_residential.rpf"
+      ],
+      "textures": [
+        "p_h_stn_chairarm04_a_d",
+        "p_h_stn_chairarm04_n",
+        "p_h_stn_chairarm04_s"
+      ]
+    },
+    {
+      "id": "mp_b_stn_chairarm_06+hidr",
+      "name": "mp_b_stn_chairarm_06+hidr",
+      "hash": 3608814891,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mp_residential.rpf"
+      ],
+      "textures": [
+        "p_h_stn_chairarm06_a_d"
+      ]
+    },
+    {
+      "id": "mp_b_stn_chairstrip_01+hidr",
+      "name": "mp_b_stn_chairstrip_01+hidr",
+      "hash": 713722495,
+      "category": "x64w.rpf",
+      "textureCount": 3,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mp_residential.rpf"
+      ],
+      "textures": [
+        "p_b_stn_chairstrip01_a_d",
+        "p_b_stn_chairstrip01_n",
+        "p_b_stn_chairstrip01_s"
+      ]
+    },
+    {
+      "id": "mp_b_stn_sofa2seat_02+hidr",
+      "name": "mp_b_stn_sofa2seat_02+hidr",
+      "hash": 2669396986,
+      "category": "x64w.rpf",
+      "textureCount": 2,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mp_residential.rpf"
+      ],
+      "textures": [
+        "p_h_stn_sofa2seat02_a_d",
+        "p_h_stn_sofa2seat02_n"
+      ]
+    },
+    {
+      "id": "mp_b_stn_sofa2seat_03+hidr",
+      "name": "mp_b_stn_sofa2seat_03+hidr",
+      "hash": 3033020841,
+      "category": "x64w.rpf",
+      "textureCount": 2,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mp_residential.rpf"
+      ],
+      "textures": [
+        "p_h_stn_sofa2seat03_a_d",
+        "p_h_stn_sofa2seat03_n"
+      ]
+    },
+    {
+      "id": "mp_b_stn_sofa2seat_06+hidr",
+      "name": "mp_b_stn_sofa2seat_06+hidr",
+      "hash": 881737217,
+      "category": "x64w.rpf",
+      "textureCount": 3,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mp_residential.rpf"
+      ],
+      "textures": [
+        "p_h_stn_sofa2seat06_a_d",
+        "p_h_stn_sofa2seat06_n",
+        "p_h_stn_sofa2seat06_s"
+      ]
+    },
+    {
+      "id": "mp_b_stn_sofa3seat_01+hidr",
+      "name": "mp_b_stn_sofa3seat_01+hidr",
+      "hash": 1141600589,
+      "category": "x64w.rpf",
+      "textureCount": 3,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mp_residential.rpf"
+      ],
+      "textures": [
+        "p_h_stn_sofa3seat01_a_d",
+        "p_h_stn_sofa3seat01_n",
+        "p_h_stn_sofa3seat01_s"
+      ]
+    },
+    {
+      "id": "mp_b_stn_sofa3seat_02+hidr",
+      "name": "mp_b_stn_sofa3seat_02+hidr",
+      "hash": 3854279059,
+      "category": "x64w.rpf",
+      "textureCount": 3,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mp_residential.rpf"
+      ],
+      "textures": [
+        "p_h_stn_sofa3seat02_a_d",
+        "p_h_stn_sofa3seat02_n",
+        "p_h_stn_sofa3seat02_s"
+      ]
+    },
+    {
+      "id": "mp_b_stn_sofa3seat_06+hidr",
+      "name": "mp_b_stn_sofa3seat_06+hidr",
+      "hash": 4189585762,
+      "category": "x64w.rpf",
+      "textureCount": 3,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mp_residential.rpf"
+      ],
+      "textures": [
+        "p_h_stn_sofa3seat06_a_d",
+        "p_h_stn_sofa3seat06_n",
+        "p_h_stn_sofa3seat06_s"
+      ]
+    },
+    {
+      "id": "mp_b_stn_sofacorn_05+hidr",
+      "name": "mp_b_stn_sofacorn_05+hidr",
+      "hash": 2204446987,
+      "category": "x64w.rpf",
+      "textureCount": 2,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mp_residential.rpf"
+      ],
+      "textures": [
+        "p_h_stn_sofacorner05_a_d",
+        "p_h_stn_sofacorner05_a_n"
+      ]
+    },
+    {
+      "id": "mp_b_stn_sofacorn_06+hidr",
+      "name": "mp_b_stn_sofacorn_06+hidr",
+      "hash": 2782075453,
+      "category": "x64w.rpf",
+      "textureCount": 3,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mp_residential.rpf"
+      ],
+      "textures": [
+        "p_h_stn_sofacorner06_a_d",
+        "p_h_stn_sofacorner06_n",
+        "p_h_stn_sofacorner06_s"
+      ]
+    },
+    {
+      "id": "mp_b_str_avunitl_01+hidr",
+      "name": "mp_b_str_avunitl_01+hidr",
+      "hash": 1534544533,
+      "category": "x64w.rpf",
+      "textureCount": 2,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mp_residential.rpf"
+      ],
+      "textures": [
+        "p_h_str_avdisplay01_d",
+        "p_h_str_avunitlrg01_a_d"
+      ]
+    },
+    {
+      "id": "mp_b_str_avunitl_03+hidr",
+      "name": "mp_b_str_avunitl_03+hidr",
+      "hash": 1931322737,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mp_residential.rpf"
+      ],
+      "textures": [
+        "p_h_str_avdisplay01_d"
+      ]
+    },
+    {
+      "id": "mp_b_str_avunits_01+hidr",
+      "name": "mp_b_str_avunits_01+hidr",
+      "hash": 809564765,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mp_residential.rpf"
+      ],
+      "textures": [
+        "p_h_str_avdisplay01_d"
+      ]
+    },
+    {
+      "id": "mp_b_str_sideboardl_03+hidr",
+      "name": "mp_b_str_sideboardl_03+hidr",
+      "hash": 1502309813,
+      "category": "x64w.rpf",
+      "textureCount": 3,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mp_residential.rpf"
+      ],
+      "textures": [
+        "p_h_str_sideboardl03_a_d",
+        "p_h_str_sideboardl03_a_n",
+        "p_h_str_sideboardl03_a_s"
+      ]
+    },
+    {
+      "id": "mp_bea_tat_f_000",
+      "name": "mp_bea_tat_f_000",
+      "hash": 2767355524,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeach_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bea_tat_f_000"
+      ]
+    },
+    {
+      "id": "mp_bea_tat_f_001",
+      "name": "mp_bea_tat_f_001",
+      "hash": 2462439979,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeach_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bea_tat_f_001"
+      ]
+    },
+    {
+      "id": "mp_bea_tat_f_002",
+      "name": "mp_bea_tat_f_002",
+      "hash": 950543853,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeach_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bea_tat_f_002"
+      ]
+    },
+    {
+      "id": "mp_bea_tat_f_003",
+      "name": "mp_bea_tat_f_003",
+      "hash": 643334478,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeach_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bea_tat_f_003"
+      ]
+    },
+    {
+      "id": "mp_bea_tat_f_004",
+      "name": "mp_bea_tat_f_004",
+      "hash": 1539763242,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeach_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bea_tat_f_004"
+      ]
+    },
+    {
+      "id": "mp_bea_tat_f_005",
+      "name": "mp_bea_tat_f_005",
+      "hash": 25573290,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeach_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bea_tat_f_005"
+      ]
+    },
+    {
+      "id": "mp_bea_tat_f_006",
+      "name": "mp_bea_tat_f_006",
+      "hash": 4013200135,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeach_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bea_tat_f_006"
+      ]
+    },
+    {
+      "id": "mp_bea_tat_f_007",
+      "name": "mp_bea_tat_f_007",
+      "hash": 623640309,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeach_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bea_tat_f_007"
+      ]
+    },
+    {
+      "id": "mp_bea_tat_f_008",
+      "name": "mp_bea_tat_f_008",
+      "hash": 316496472,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeach_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bea_tat_f_008"
+      ]
+    },
+    {
+      "id": "mp_bea_tat_f_009",
+      "name": "mp_bea_tat_f_009",
+      "hash": 942122204,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeach_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bea_tat_f_009"
+      ]
+    },
+    {
+      "id": "mp_bea_tat_f_010",
+      "name": "mp_bea_tat_f_010",
+      "hash": 4129398125,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeach_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bea_tat_f_010"
+      ]
+    },
+    {
+      "id": "mp_bea_tat_f_011",
+      "name": "mp_bea_tat_f_011",
+      "hash": 3831560696,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeach_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bea_tat_f_011"
+      ]
+    },
+    {
+      "id": "mp_bea_tat_f_012",
+      "name": "mp_bea_tat_f_012",
+      "hash": 3524777318,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeach_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bea_tat_f_012"
+      ]
+    },
+    {
+      "id": "mp_bea_tat_f_013",
+      "name": "mp_bea_tat_f_013",
+      "hash": 3267770051,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeach_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bea_tat_f_013"
+      ]
+    },
+    {
+      "id": "mp_bea_tat_f_014",
+      "name": "mp_bea_tat_f_014",
+      "hash": 2960429600,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeach_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bea_tat_f_014"
+      ]
+    },
+    {
+      "id": "mp_bea_tat_f_015",
+      "name": "mp_bea_tat_f_015",
+      "hash": 2401587074,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeach_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bea_tat_f_015"
+      ]
+    },
+    {
+      "id": "mp_bea_tat_m_000",
+      "name": "mp_bea_tat_m_000",
+      "hash": 2478687430,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeach_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bea_tat_m_000"
+      ]
+    },
+    {
+      "id": "mp_bea_tat_m_001",
+      "name": "mp_bea_tat_m_001",
+      "hash": 2709479497,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeach_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bea_tat_m_001"
+      ]
+    },
+    {
+      "id": "mp_bea_tat_m_002",
+      "name": "mp_bea_tat_m_002",
+      "hash": 3141669838,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeach_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bea_tat_m_002"
+      ]
+    },
+    {
+      "id": "mp_bea_tat_m_003",
+      "name": "mp_bea_tat_m_003",
+      "hash": 3499966084,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeach_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bea_tat_m_003"
+      ]
+    },
+    {
+      "id": "mp_bea_tat_m_004",
+      "name": "mp_bea_tat_m_004",
+      "hash": 292732994,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeach_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bea_tat_m_004"
+      ]
+    },
+    {
+      "id": "mp_bea_tat_m_005",
+      "name": "mp_bea_tat_m_005",
+      "hash": 674753996,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeach_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bea_tat_m_005"
+      ]
+    },
+    {
+      "id": "mp_bea_tat_m_006",
+      "name": "mp_bea_tat_m_006",
+      "hash": 1036228811,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeach_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bea_tat_m_006"
+      ]
+    },
+    {
+      "id": "mp_bea_tat_m_007",
+      "name": "mp_bea_tat_m_007",
+      "hash": 1327643528,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeach_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bea_tat_m_007"
+      ]
+    },
+    {
+      "id": "mp_bea_tat_m_008",
+      "name": "mp_bea_tat_m_008",
+      "hash": 3979704264,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeach_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bea_tat_m_008"
+      ]
+    },
+    {
+      "id": "mp_bea_tat_m_009",
+      "name": "mp_bea_tat_m_009",
+      "hash": 3138425727,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeach_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bea_tat_m_009"
+      ]
+    },
+    {
+      "id": "mp_bea_tat_m_010",
+      "name": "mp_bea_tat_m_010",
+      "hash": 3725056625,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeach_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bea_tat_m_010"
+      ]
+    },
+    {
+      "id": "mp_bea_tat_m_011",
+      "name": "mp_bea_tat_m_011",
+      "hash": 3032516579,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeach_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bea_tat_m_011"
+      ]
+    },
+    {
+      "id": "mp_bea_tat_m_012",
+      "name": "mp_bea_tat_m_012",
+      "hash": 1785819974,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeach_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bea_tat_m_012"
+      ]
+    },
+    {
+      "id": "mp_bea_tat_m_013",
+      "name": "mp_bea_tat_m_013",
+      "hash": 1596677306,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeach_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bea_tat_m_013"
+      ]
+    },
+    {
+      "id": "mp_bea_tat_m_014",
+      "name": "mp_bea_tat_m_014",
+      "hash": 2229545003,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeach_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bea_tat_m_014"
+      ]
+    },
+    {
+      "id": "mp_bea_tat_m_015",
+      "name": "mp_bea_tat_m_015",
+      "hash": 2074678709,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeach_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bea_tat_m_015"
+      ]
+    },
+    {
+      "id": "mp_bus_f_hair_000_a",
+      "name": "mp_bus_f_hair_000_a",
+      "hash": 2829528331,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_f_hair_000_a"
+      ]
+    },
+    {
+      "id": "mp_bus_f_hair_000_b",
+      "name": "mp_bus_f_hair_000_b",
+      "hash": 4142156156,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_f_hair_000_b"
+      ]
+    },
+    {
+      "id": "mp_bus_f_hair_000_c",
+      "name": "mp_bus_f_hair_000_c",
+      "hash": 3298419952,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_f_hair_000_c"
+      ]
+    },
+    {
+      "id": "mp_bus_f_hair_000_d",
+      "name": "mp_bus_f_hair_000_d",
+      "hash": 2457796795,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_f_hair_000_d"
+      ]
+    },
+    {
+      "id": "mp_bus_f_hair_000_e",
+      "name": "mp_bus_f_hair_000_e",
+      "hash": 4057513829,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_f_hair_000_e"
+      ]
+    },
+    {
+      "id": "mp_bus_faov_weather_000",
+      "name": "mp_bus_faov_weather_000",
+      "hash": 1748415176,
+      "category": "x64w.rpf",
+      "textureCount": 2,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_faov_weather_000",
+        "mp_bus_faov_weather_000_n"
+      ]
+    },
+    {
+      "id": "mp_bus_faov_weather_001",
+      "name": "mp_bus_faov_weather_001",
+      "hash": 932696459,
+      "category": "x64w.rpf",
+      "textureCount": 2,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_faov_weather_001",
+        "mp_bus_faov_weather_001_n"
+      ]
+    },
+    {
+      "id": "mp_bus_faov_weather_002",
+      "name": "mp_bus_faov_weather_002",
+      "hash": 2361293783,
+      "category": "x64w.rpf",
+      "textureCount": 2,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_faov_weather_002",
+        "mp_bus_faov_weather_002_n"
+      ]
+    },
+    {
+      "id": "mp_bus_m_hair_000_a",
+      "name": "mp_bus_m_hair_000_a",
+      "hash": 3909128599,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_m_hair_000_a"
+      ]
+    },
+    {
+      "id": "mp_bus_m_hair_000_b",
+      "name": "mp_bus_m_hair_000_b",
+      "hash": 3662017570,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_m_hair_000_b"
+      ]
+    },
+    {
+      "id": "mp_bus_m_hair_000_c",
+      "name": "mp_bus_m_hair_000_c",
+      "hash": 3313617562,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_m_hair_000_c"
+      ]
+    },
+    {
+      "id": "mp_bus_m_hair_000_d",
+      "name": "mp_bus_m_hair_000_d",
+      "hash": 3066309919,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_m_hair_000_d"
+      ]
+    },
+    {
+      "id": "mp_bus_m_hair_000_e",
+      "name": "mp_bus_m_hair_000_e",
+      "hash": 2715091777,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_m_hair_000_e"
+      ]
+    },
+    {
+      "id": "mp_bus_m_hair_001_a",
+      "name": "mp_bus_m_hair_001_a",
+      "hash": 2293140135,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_m_hair_001_a"
+      ]
+    },
+    {
+      "id": "mp_bus_m_hair_001_b",
+      "name": "mp_bus_m_hair_001_b",
+      "hash": 4213305228,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_m_hair_001_b"
+      ]
+    },
+    {
+      "id": "mp_bus_m_hair_001_c",
+      "name": "mp_bus_m_hair_001_c",
+      "hash": 730157138,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_m_hair_001_c"
+      ]
+    },
+    {
+      "id": "mp_bus_m_hair_001_d",
+      "name": "mp_bus_m_hair_001_d",
+      "hash": 156044258,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_m_hair_001_d"
+      ]
+    },
+    {
+      "id": "mp_bus_m_hair_001_e",
+      "name": "mp_bus_m_hair_001_e",
+      "hash": 3493337529,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_m_hair_001_e"
+      ]
+    },
+    {
+      "id": "mp_bus_tat_f_000",
+      "name": "mp_bus_tat_f_000",
+      "hash": 604201074,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_tat_f_000"
+      ]
+    },
+    {
+      "id": "mp_bus_tat_f_001",
+      "name": "mp_bus_tat_f_001",
+      "hash": 3125841158,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_tat_f_001"
+      ]
+    },
+    {
+      "id": "mp_bus_tat_f_002",
+      "name": "mp_bus_tat_f_002",
+      "hash": 2043776013,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_tat_f_002"
+      ]
+    },
+    {
+      "id": "mp_bus_tat_f_003",
+      "name": "mp_bus_tat_f_003",
+      "hash": 2290821504,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_tat_f_003"
+      ]
+    },
+    {
+      "id": "mp_bus_tat_f_004",
+      "name": "mp_bus_tat_f_004",
+      "hash": 3508419237,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_tat_f_004"
+      ]
+    },
+    {
+      "id": "mp_bus_tat_f_005",
+      "name": "mp_bus_tat_f_005",
+      "hash": 3831980343,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_tat_f_005"
+      ]
+    },
+    {
+      "id": "mp_bus_tat_f_006",
+      "name": "mp_bus_tat_f_006",
+      "hash": 1123294803,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_tat_f_006"
+      ]
+    },
+    {
+      "id": "mp_bus_tat_f_007",
+      "name": "mp_bus_tat_f_007",
+      "hash": 1361164974,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_tat_f_007"
+      ]
+    },
+    {
+      "id": "mp_bus_tat_f_008",
+      "name": "mp_bus_tat_f_008",
+      "hash": 2673432348,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_tat_f_008"
+      ]
+    },
+    {
+      "id": "mp_bus_tat_f_009",
+      "name": "mp_bus_tat_f_009",
+      "hash": 2911630209,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_tat_f_009"
+      ]
+    },
+    {
+      "id": "mp_bus_tat_f_010",
+      "name": "mp_bus_tat_f_010",
+      "hash": 2164660618,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_tat_f_010"
+      ]
+    },
+    {
+      "id": "mp_bus_tat_f_011",
+      "name": "mp_bus_tat_f_011",
+      "hash": 3879265774,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_tat_f_011"
+      ]
+    },
+    {
+      "id": "mp_bus_tat_f_012",
+      "name": "mp_bus_tat_f_012",
+      "hash": 2210864792,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_tat_f_012"
+      ]
+    },
+    {
+      "id": "mp_bus_tat_f_013",
+      "name": "mp_bus_tat_f_013",
+      "hash": 3864257456,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_tat_f_013"
+      ]
+    },
+    {
+      "id": "mp_bus_tat_m_000",
+      "name": "mp_bus_tat_m_000",
+      "hash": 332380828,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_tat_m_000"
+      ]
+    },
+    {
+      "id": "mp_bus_tat_m_001",
+      "name": "mp_bus_tat_m_001",
+      "hash": 3850755593,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_tat_m_001"
+      ]
+    },
+    {
+      "id": "mp_bus_tat_m_002",
+      "name": "mp_bus_tat_m_002",
+      "hash": 3880509845,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_tat_m_002"
+      ]
+    },
+    {
+      "id": "mp_bus_tat_m_003",
+      "name": "mp_bus_tat_m_003",
+      "hash": 3104376080,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_tat_m_003"
+      ]
+    },
+    {
+      "id": "mp_bus_tat_m_004",
+      "name": "mp_bus_tat_m_004",
+      "hash": 1329901961,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_tat_m_004"
+      ]
+    },
+    {
+      "id": "mp_bus_tat_m_005",
+      "name": "mp_bus_tat_m_005",
+      "hash": 555734332,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_tat_m_005"
+      ]
+    },
+    {
+      "id": "mp_bus_tat_m_006",
+      "name": "mp_bus_tat_m_006",
+      "hash": 852687010,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_tat_m_006"
+      ]
+    },
+    {
+      "id": "mp_bus_tat_m_007",
+      "name": "mp_bus_tat_m_007",
+      "hash": 76880935,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_tat_m_007"
+      ]
+    },
+    {
+      "id": "mp_bus_tat_m_008",
+      "name": "mp_bus_tat_m_008",
+      "hash": 2256052208,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_tat_m_008"
+      ]
+    },
+    {
+      "id": "mp_bus_tat_m_009",
+      "name": "mp_bus_tat_m_009",
+      "hash": 2276958830,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_tat_m_009"
+      ]
+    },
+    {
+      "id": "mp_bus_tat_m_010",
+      "name": "mp_bus_tat_m_010",
+      "hash": 4068997433,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_tat_m_010"
+      ]
+    },
+    {
+      "id": "mp_bus_tat_m_011",
+      "name": "mp_bus_tat_m_011",
+      "hash": 3339690569,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_bus_tat_m_011"
+      ]
+    },
+    {
+      "id": "mp_eye_colour",
+      "name": "mp_eye_colour",
+      "hash": 190640770,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_eye_colour"
+      ]
+    },
+    {
+      "id": "mp_fli_tshirt_000",
+      "name": "mp_fli_tshirt_000",
+      "hash": 1310858616,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mppilot_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_fli_tshirt_000"
+      ]
+    },
+    {
+      "id": "mp_hair_fuzz",
+      "name": "mp_hair_fuzz",
+      "hash": 3628796063,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeach_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_hair_fuzz"
+      ]
+    },
+    {
+      "id": "mp_ind_award_tshirt_000",
+      "name": "mp_ind_award_tshirt_000",
+      "hash": 3780395224,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpindependence_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_ind_award_tshirt_000"
+      ]
+    },
+    {
+      "id": "mp_ind_faov_makeup_000",
+      "name": "mp_ind_faov_makeup_000",
+      "hash": 3711688324,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpindependence_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_ind_faov_makeup_000"
+      ]
+    },
+    {
+      "id": "mp_ind_tshirt_000",
+      "name": "mp_ind_tshirt_000",
+      "hash": 1789450737,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpindependence_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_ind_tshirt_000"
+      ]
+    },
+    {
+      "id": "mp_ind_tshirt_001",
+      "name": "mp_ind_tshirt_001",
+      "hash": 881716636,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpindependence_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_ind_tshirt_001"
+      ]
+    },
+    {
+      "id": "mp_ind_tshirt_002",
+      "name": "mp_ind_tshirt_002",
+      "hash": 4282090232,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpindependence_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_ind_tshirt_002"
+      ]
+    },
+    {
+      "id": "mp_ind_tshirt_003",
+      "name": "mp_ind_tshirt_003",
+      "hash": 1745769604,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpindependence_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_ind_tshirt_003"
+      ]
+    },
+    {
+      "id": "mp_ind_tshirt_004",
+      "name": "mp_ind_tshirt_004",
+      "hash": 305965282,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpindependence_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_ind_tshirt_004"
+      ]
+    },
+    {
+      "id": "mp_ind_tshirt_005",
+      "name": "mp_ind_tshirt_005",
+      "hash": 1285266847,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpindependence_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_ind_tshirt_005"
+      ]
+    },
+    {
+      "id": "mp_ind_tshirt_006",
+      "name": "mp_ind_tshirt_006",
+      "hash": 1986130219,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpindependence_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_ind_tshirt_006"
+      ]
+    },
+    {
+      "id": "mp_ind_tshirt_007",
+      "name": "mp_ind_tshirt_007",
+      "hash": 2938626742,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpindependence_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_ind_tshirt_007"
+      ]
+    },
+    {
+      "id": "mp_ind_tshirt_008",
+      "name": "mp_ind_tshirt_008",
+      "hash": 2699183659,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpindependence_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_ind_tshirt_008"
+      ]
+    },
+    {
+      "id": "mp_ind_tshirt_009",
+      "name": "mp_ind_tshirt_009",
+      "hash": 2476944301,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpindependence_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_ind_tshirt_009"
+      ]
+    },
+    {
+      "id": "mp_ind_tshirt_010",
+      "name": "mp_ind_tshirt_010",
+      "hash": 3766634130,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpindependence_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_ind_tshirt_010"
+      ]
+    },
+    {
+      "id": "mp_ind_tshirt_011",
+      "name": "mp_ind_tshirt_011",
+      "hash": 642667049,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpindependence_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_ind_tshirt_011"
+      ]
+    },
+    {
+      "id": "mp_ind_tshirt_012",
+      "name": "mp_ind_tshirt_012",
+      "hash": 3691036047,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpindependence_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_ind_tshirt_012"
+      ]
+    },
+    {
+      "id": "mp_ind_tshirt_013",
+      "name": "mp_ind_tshirt_013",
+      "hash": 1703006347,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpindependence_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_ind_tshirt_013"
+      ]
+    },
+    {
+      "id": "mp_ind_tshirt_014",
+      "name": "mp_ind_tshirt_014",
+      "hash": 453786529,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpindependence_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_ind_tshirt_014"
+      ]
+    },
+    {
+      "id": "mp_ind_tshirt_015",
+      "name": "mp_ind_tshirt_015",
+      "hash": 1227003853,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpindependence_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_ind_tshirt_015"
+      ]
+    },
+    {
+      "id": "mp_ind_tshirt_016",
+      "name": "mp_ind_tshirt_016",
+      "hash": 1986097738,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpindependence_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_ind_tshirt_016"
+      ]
+    },
+    {
+      "id": "mp_ind_tshirt_017",
+      "name": "mp_ind_tshirt_017",
+      "hash": 2760822436,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpindependence_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_ind_tshirt_017"
+      ]
+    },
+    {
+      "id": "mp_ind_tshirt_018",
+      "name": "mp_ind_tshirt_018",
+      "hash": 1379379703,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpindependence_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_ind_tshirt_018"
+      ]
+    },
+    {
+      "id": "mp_ind_tshirt_019",
+      "name": "mp_ind_tshirt_019",
+      "hash": 2138702971,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpindependence_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_ind_tshirt_019"
+      ]
+    },
+    {
+      "id": "mp_ind_tshirt_020",
+      "name": "mp_ind_tshirt_020",
+      "hash": 124130677,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpindependence_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_ind_tshirt_020"
+      ]
+    },
+    {
+      "id": "mp_ind_tshirt_021",
+      "name": "mp_ind_tshirt_021",
+      "hash": 1044644656,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpindependence_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_ind_tshirt_021"
+      ]
+    },
+    {
+      "id": "mp_ind_tshirt_022",
+      "name": "mp_ind_tshirt_022",
+      "hash": 1393700044,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpindependence_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_ind_tshirt_022"
+      ]
+    },
+    {
+      "id": "mp_ind_tshirt_023",
+      "name": "mp_ind_tshirt_023",
+      "hash": 2848545337,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpindependence_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_ind_tshirt_023"
+      ]
+    },
+    {
+      "id": "mp_ind_tshirt_024",
+      "name": "mp_ind_tshirt_024",
+      "hash": 2961205159,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpindependence_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_ind_tshirt_024"
+      ]
+    },
+    {
+      "id": "mp_ind_tshirt_025",
+      "name": "mp_ind_tshirt_025",
+      "hash": 2341477831,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpindependence_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_ind_tshirt_025"
+      ]
+    },
+    {
+      "id": "mp_ind_tshirt_026",
+      "name": "mp_ind_tshirt_026",
+      "hash": 2573842810,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpindependence_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_ind_tshirt_026"
+      ]
+    },
+    {
+      "id": "mp_lts_tshirt_000",
+      "name": "mp_lts_tshirt_000",
+      "hash": 3447313164,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mplts_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_lts_tshirt_000"
+      ]
+    },
+    {
+      "id": "mp_val_tshirt_000",
+      "name": "mp_val_tshirt_000",
+      "hash": 4094020838,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpvalentines_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_val_tshirt_000"
+      ]
+    },
+    {
+      "id": "mp_val_tshirt_001",
+      "name": "mp_val_tshirt_001",
+      "hash": 46164571,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpvalentines_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_val_tshirt_001"
+      ]
+    },
+    {
+      "id": "mp_val_tshirt_002",
+      "name": "mp_val_tshirt_002",
+      "hash": 3498116573,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpvalentines_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_val_tshirt_002"
+      ]
+    },
+    {
+      "id": "mp_val_tshirt_003",
+      "name": "mp_val_tshirt_003",
+      "hash": 1363642212,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpvalentines_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_val_tshirt_003"
+      ]
+    },
+    {
+      "id": "mp_val_tshirt_004",
+      "name": "mp_val_tshirt_004",
+      "hash": 1603085295,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpvalentines_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_val_tshirt_004"
+      ]
+    },
+    {
+      "id": "mp_val_tshirt_005",
+      "name": "mp_val_tshirt_005",
+      "hash": 2923905386,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpvalentines_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_val_tshirt_005"
+      ]
+    },
+    {
+      "id": "mp_val_tshirt_006",
+      "name": "mp_val_tshirt_006",
+      "hash": 3422911718,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpvalentines_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_val_tshirt_006"
+      ]
+    },
+    {
+      "id": "mp_val_tshirt_007",
+      "name": "mp_val_tshirt_007",
+      "hash": 1212446046,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpvalentines_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_val_tshirt_007"
+      ]
+    },
+    {
+      "id": "mp_val_tshirt_008",
+      "name": "mp_val_tshirt_008",
+      "hash": 392139669,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpvalentines_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_val_tshirt_008"
+      ]
+    },
+    {
+      "id": "mp_val_tshirt_009",
+      "name": "mp_val_tshirt_009",
+      "hash": 1954106823,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpvalentines_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_val_tshirt_009"
+      ]
+    },
+    {
+      "id": "mp_val_tshirt_010",
+      "name": "mp_val_tshirt_010",
+      "hash": 269452885,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpvalentines_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_val_tshirt_010"
+      ]
+    },
+    {
+      "id": "mp_val_tshirt_011",
+      "name": "mp_val_tshirt_011",
+      "hash": 2167236751,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpvalentines_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_val_tshirt_011"
+      ]
+    },
+    {
+      "id": "mp_val_tshirt_012",
+      "name": "mp_val_tshirt_012",
+      "hash": 1960234978,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpvalentines_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_val_tshirt_012"
+      ]
+    },
+    {
+      "id": "mp_val_tshirt_013",
+      "name": "mp_val_tshirt_013",
+      "hash": 4084288793,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpvalentines_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_val_tshirt_013"
+      ]
+    },
+    {
+      "id": "mp_val_tshirt_014",
+      "name": "mp_val_tshirt_014",
+      "hash": 3854840255,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpvalentines_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_val_tshirt_014"
+      ]
+    },
+    {
+      "id": "mp_val_tshirt_015",
+      "name": "mp_val_tshirt_015",
+      "hash": 3590754884,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpvalentines_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_val_tshirt_015"
+      ]
+    },
+    {
+      "id": "mp_val_tshirt_016",
+      "name": "mp_val_tshirt_016",
+      "hash": 1213069009,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpvalentines_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_val_tshirt_016"
+      ]
+    },
+    {
+      "id": "mp_val_tshirt_017",
+      "name": "mp_val_tshirt_017",
+      "hash": 3430547243,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpvalentines_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_val_tshirt_017"
+      ]
+    },
+    {
+      "id": "mp_val_tshirt_018",
+      "name": "mp_val_tshirt_018",
+      "hash": 2651365961,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpvalentines_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_val_tshirt_018"
+      ]
+    },
+    {
+      "id": "mp_val_tshirt_019",
+      "name": "mp_val_tshirt_019",
+      "hash": 2401830026,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpvalentines_ped_mp_overlay_txds.rpf"
+      ],
+      "textures": [
+        "mp_val_tshirt_019"
+      ]
+    },
+    {
+      "id": "mpb_acc_artdisc",
+      "name": "mpb_acc_artdisc",
+      "hash": 860382848,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mp_residential.rpf"
+      ],
+      "textures": [
+        "p_h_acc_artgolddisc_01"
+      ]
+    },
+    {
+      "id": "mpb_acc_artdisc+hi",
+      "name": "mpb_acc_artdisc+hi",
+      "hash": 32997128,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mp_residential.rpf"
+      ],
+      "textures": [
+        "p_h_acc_artgolddisc_01"
+      ]
+    },
+    {
+      "id": "mpb_acc_bowls_01",
+      "name": "mpb_acc_bowls_01",
+      "hash": 3451502989,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mp_residential.rpf"
+      ],
+      "textures": [
+        "p_h_acc_tray01_d"
+      ]
+    },
+    {
+      "id": "mpb_acc_flower_01",
+      "name": "mpb_acc_flower_01",
+      "hash": 3833029093,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mp_residential.rpf"
+      ],
+      "textures": [
+        "p_h_acc_vase05_d"
+      ]
+    },
+    {
+      "id": "mpb_stn_chair1",
+      "name": "mpb_stn_chair1",
+      "hash": 2640723175,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mp_residential.rpf"
+      ],
+      "textures": [
+        "mp_leathernubuck01_dn"
+      ]
+    },
+    {
+      "id": "paradise",
+      "name": "paradise",
+      "hash": 1488164764,
+      "category": "x64w.rpf",
+      "textureCount": 9,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "bison_badges",
+        "bison_badges_n",
+        "camper_interior_hd",
+        "normal_flat_small",
+        "paradise_sign_1",
+        "paradise_sign_2",
+        "paradise_sign_3",
+        "paradise_sign_4",
+        "rumpo_lights"
+      ]
+    },
+    {
+      "id": "paradise+hi",
+      "name": "paradise+hi",
+      "hash": 1181130987,
+      "category": "x64w.rpf",
+      "textureCount": 5,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "camper_interior_hd",
+        "paradise_sign_1",
+        "paradise_sign_2",
+        "paradise_sign_3",
+        "paradise_sign_4"
+      ]
+    },
+    {
+      "id": "pigalle",
+      "name": "pigalle",
+      "hash": 1078682497,
+      "category": "x64w.rpf",
+      "textureCount": 6,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mphipstervehicles.rpf"
+      ],
+      "textures": [
+        "blade_interior",
+        "generic_leather2_n",
+        "pigalle_badges",
+        "pigalle_junk_hd",
+        "pigalle_lights",
+        "vehicle_generic_detail_stitch_spec"
+      ]
+    },
+    {
+      "id": "pigalle+hi",
+      "name": "pigalle+hi",
+      "hash": 2912968552,
+      "category": "x64w.rpf",
+      "textureCount": 2,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mphipstervehicles.rpf"
+      ],
+      "textures": [
+        "blade_interior",
+        "pigalle_junk_hd"
+      ]
+    },
+    {
+      "id": "pil_p_para_pilot_sp_s+hidr",
+      "name": "pil_p_para_pilot_sp_s+hidr",
+      "hash": 2072828792,
+      "category": "x64w.rpf",
+      "textureCount": 2,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mppilot_props.rpf"
+      ],
+      "textures": [
+        "prop_new_para_01",
+        "prop_new_para_01_n"
+      ]
+    },
+    {
+      "id": "pil_prop_fs_target",
+      "name": "pil_prop_fs_target",
+      "hash": 1649631544,
+      "category": "x64w.rpf",
+      "textureCount": 4,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mppilot_props.rpf"
+      ],
+      "textures": [
+        "prop_base_dirty_01",
+        "prop_base_dirty_01_s",
+        "prop_ld_target_01",
+        "prop_wood_ply_05a"
+      ]
+    },
+    {
+      "id": "pil_prop_fs_target+hi",
+      "name": "pil_prop_fs_target+hi",
+      "hash": 1451502032,
+      "category": "x64w.rpf",
+      "textureCount": 2,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mppilot_props.rpf"
+      ],
+      "textures": [
+        "prop_base_dirty_01_s",
+        "prop_ld_target_01"
+      ]
+    },
+    {
+      "id": "pil_prop_pilot_para",
+      "name": "pil_prop_pilot_para",
+      "hash": 1354192160,
+      "category": "x64w.rpf",
+      "textureCount": 2,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mppilot_props.rpf"
+      ],
+      "textures": [
+        "p_v_parachute1_dm",
+        "p_v_parachute1_nm"
+      ]
+    },
+    {
+      "id": "pil_prop_pilot_para+hi",
+      "name": "pil_prop_pilot_para+hi",
+      "hash": 607752079,
+      "category": "x64w.rpf",
+      "textureCount": 2,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mppilot_props.rpf"
+      ],
+      "textures": [
+        "p_v_parachute1_dm",
+        "p_v_parachute1_nm"
+      ]
+    },
+    {
+      "id": "prop_mp_ramp_tu",
+      "name": "prop_mp_ramp_tu",
+      "hash": 2135457953,
+      "category": "x64w.rpf",
+      "textureCount": 3,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/v_business2.rpf"
+      ],
+      "textures": [
+        "prop_mp_ramp_01_n",
+        "prop_mp_ramp_01_s",
+        "prop_mp_ramp_01_tu"
+      ]
+    },
+    {
+      "id": "ps_menudlc",
+      "name": "ps_menudlc",
+      "hash": 1176993748,
+      "category": "x64w.rpf",
+      "textureCount": 11,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/script_txds.rpf"
+      ],
+      "textures": [
+        "buzzard_shooting_range",
+        "chase_parachute",
+        "city_landing",
+        "collect_flags",
+        "engine_failure",
+        "escort_cargo",
+        "flatbed_landing",
+        "follow_the_leader",
+        "lazer_fly_low",
+        "lazer_formation",
+        "outside_loop"
+      ]
+    },
+    {
+      "id": "teef_diff_001_k_uni",
+      "name": "teef_diff_001_k_uni",
+      "hash": 882197568,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness.rpf",
+        "x64w.rpf/dlc.rpf/mpbusiness2.rpf"
+      ],
+      "textures": [
+        "teef_diff_001_k_uni"
+      ]
+    },
+    {
+      "id": "teef_diff_001_l_uni",
+      "name": "teef_diff_001_l_uni",
+      "hash": 1011143001,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness.rpf",
+        "x64w.rpf/dlc.rpf/mpbusiness2.rpf"
+      ],
+      "textures": [
+        "teef_diff_001_l_uni"
+      ]
+    },
+    {
+      "id": "teef_diff_001_m_uni",
+      "name": "teef_diff_001_m_uni",
+      "hash": 765235254,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness.rpf",
+        "x64w.rpf/dlc.rpf/mpbusiness2.rpf"
+      ],
+      "textures": [
+        "teef_diff_001_m_uni"
+      ]
+    },
+    {
+      "id": "teef_diff_001_n_uni",
+      "name": "teef_diff_001_n_uni",
+      "hash": 2583472997,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness.rpf",
+        "x64w.rpf/dlc.rpf/mpbusiness2.rpf"
+      ],
+      "textures": [
+        "teef_diff_001_n_uni"
+      ]
+    },
+    {
+      "id": "teef_diff_001_o_uni",
+      "name": "teef_diff_001_o_uni",
+      "hash": 2197444257,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness.rpf",
+        "x64w.rpf/dlc.rpf/mpbusiness2.rpf"
+      ],
+      "textures": [
+        "teef_diff_001_o_uni"
+      ]
+    },
+    {
+      "id": "teef_diff_001_p_uni",
+      "name": "teef_diff_001_p_uni",
+      "hash": 3845615659,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness2.rpf"
+      ],
+      "textures": [
+        "teef_diff_001_p_uni"
+      ]
+    },
+    {
+      "id": "teef_diff_002_k_uni",
+      "name": "teef_diff_002_k_uni",
+      "hash": 3036010916,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness.rpf",
+        "x64w.rpf/dlc.rpf/mpbusiness2.rpf"
+      ],
+      "textures": [
+        "teef_diff_002_k_uni"
+      ]
+    },
+    {
+      "id": "teef_diff_002_l_uni",
+      "name": "teef_diff_002_l_uni",
+      "hash": 2841796103,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness.rpf",
+        "x64w.rpf/dlc.rpf/mpbusiness2.rpf"
+      ],
+      "textures": [
+        "teef_diff_002_l_uni"
+      ]
+    },
+    {
+      "id": "teef_diff_002_m_uni",
+      "name": "teef_diff_002_m_uni",
+      "hash": 178504831,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness.rpf",
+        "x64w.rpf/dlc.rpf/mpbusiness2.rpf"
+      ],
+      "textures": [
+        "teef_diff_002_m_uni"
+      ]
+    },
+    {
+      "id": "teef_diff_002_n_uni",
+      "name": "teef_diff_002_n_uni",
+      "hash": 1119163649,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness2.rpf"
+      ],
+      "textures": [
+        "teef_diff_002_n_uni"
+      ]
+    },
+    {
+      "id": "teef_diff_002_o_uni",
+      "name": "teef_diff_002_o_uni",
+      "hash": 2642611460,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness2.rpf"
+      ],
+      "textures": [
+        "teef_diff_002_o_uni"
+      ]
+    },
+    {
+      "id": "teef_diff_002_p_uni",
+      "name": "teef_diff_002_p_uni",
+      "hash": 261430542,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness2.rpf"
+      ],
+      "textures": [
+        "teef_diff_002_p_uni"
+      ]
+    },
+    {
+      "id": "teef_diff_003_k_uni",
+      "name": "teef_diff_003_k_uni",
+      "hash": 2870545609,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness.rpf",
+        "x64w.rpf/dlc.rpf/mpbusiness2.rpf"
+      ],
+      "textures": [
+        "teef_diff_003_k_uni"
+      ]
+    },
+    {
+      "id": "teef_diff_003_l_uni",
+      "name": "teef_diff_003_l_uni",
+      "hash": 1698343839,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness.rpf",
+        "x64w.rpf/dlc.rpf/mpbusiness2.rpf"
+      ],
+      "textures": [
+        "teef_diff_003_l_uni"
+      ]
+    },
+    {
+      "id": "teef_diff_003_m_uni",
+      "name": "teef_diff_003_m_uni",
+      "hash": 819962798,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness.rpf",
+        "x64w.rpf/dlc.rpf/mpbusiness2.rpf"
+      ],
+      "textures": [
+        "teef_diff_003_m_uni"
+      ]
+    },
+    {
+      "id": "teef_diff_003_n_uni",
+      "name": "teef_diff_003_n_uni",
+      "hash": 3591234284,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness.rpf",
+        "x64w.rpf/dlc.rpf/mpbusiness2.rpf"
+      ],
+      "textures": [
+        "teef_diff_003_n_uni"
+      ]
+    },
+    {
+      "id": "teef_diff_003_o_uni",
+      "name": "teef_diff_003_o_uni",
+      "hash": 2855352412,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness.rpf",
+        "x64w.rpf/dlc.rpf/mpbusiness2.rpf"
+      ],
+      "textures": [
+        "teef_diff_003_o_uni"
+      ]
+    },
+    {
+      "id": "teef_diff_003_p_uni",
+      "name": "teef_diff_003_p_uni",
+      "hash": 1601697192,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusiness.rpf",
+        "x64w.rpf/dlc.rpf/mpbusiness2.rpf"
+      ],
+      "textures": [
+        "teef_diff_003_p_uni"
+      ]
+    },
+    {
+      "id": "v_16_study_sideb+hidr",
+      "name": "v_16_study_sideb+hidr",
+      "hash": 2854393141,
+      "category": "x64w.rpf",
+      "textureCount": 3,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/int_mp_apt_h_01.rpf"
+      ],
+      "textures": [
+        "p_h_str_sideboardl03_a_d",
+        "p_h_str_sideboardl03_a_n",
+        "p_h_str_sideboardl03_a_s"
+      ]
+    },
+    {
+      "id": "v_72_gar_hi_20x_txd",
+      "name": "v_72_gar_hi_20x_txd",
+      "hash": 2511035870,
+      "category": "x64w.rpf",
+      "textureCount": 7,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/int_mp_gar_h_01.rpf"
+      ],
+      "textures": [
+        "v_mp_env_noise_concrete",
+        "xj_v_mp_aluminium",
+        "xj_v_mp_chrome_n",
+        "xj_v_mp_concbeams04",
+        "xj_v_mp_dirtedge2_a",
+        "xj_v_mp_elev_display",
+        "xj_v_mp_glass_grey"
+      ]
+    },
+    {
+      "id": "vehicles_banshee_interior",
+      "name": "vehicles_banshee_interior",
+      "hash": 1748561676,
+      "category": "x64w.rpf",
+      "textureCount": 5,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "banshee_detail",
+        "banshee_detail_dash",
+        "banshee_detail_dash_spec",
+        "banshee_interior",
+        "script_rt_dials_banshee"
+      ]
+    },
+    {
+      "id": "vehicles_blista2_interior",
+      "name": "vehicles_blista2_interior",
+      "hash": 1310310660,
+      "category": "x64w.rpf",
+      "textureCount": 4,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "blista2_dash_detail",
+        "futo_dash",
+        "futo_dash_spec",
+        "script_rt_dials_futo"
+      ]
+    },
+    {
+      "id": "vehicles_boat_interior",
+      "name": "vehicles_boat_interior",
+      "hash": 1538457778,
+      "category": "x64w.rpf",
+      "textureCount": 3,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "floater_interior",
+        "script_rt_dials_truck",
+        "vehicle_generic_truck_interior"
+      ]
+    },
+    {
+      "id": "vehicles_bob_brown_interior",
+      "name": "vehicles_bob_brown_interior",
+      "hash": 303793012,
+      "category": "x64w.rpf",
+      "textureCount": 5,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "bobcat_brown_ng_dash",
+        "bobcat_brown_ng_detail",
+        "bobcat_brown_standard",
+        "bobcat_ng_dash_spec",
+        "script_rt_dials_bobcat"
+      ]
+    },
+    {
+      "id": "vehicles_bob_interior",
+      "name": "vehicles_bob_interior",
+      "hash": 2308269424,
+      "category": "x64w.rpf",
+      "textureCount": 5,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "bobcat_interior",
+        "bobcat_ng_dash",
+        "bobcat_ng_dash_spec",
+        "bobcat_ng_detail",
+        "script_rt_dials_bobcat"
+      ]
+    },
+    {
+      "id": "vehicles_bob_worn_interior",
+      "name": "vehicles_bob_worn_interior",
+      "hash": 139283514,
+      "category": "x64w.rpf",
+      "textureCount": 5,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "bobcat_ng_dash_worn_spec",
+        "bobcat_worn_hd_interior",
+        "bobcat_worn_ng_dash",
+        "bobcat_worn_ng_detail",
+        "script_rt_dials_bobcat"
+      ]
+    },
+    {
+      "id": "vehicles_bodhi_interior",
+      "name": "vehicles_bodhi_interior",
+      "hash": 1031736065,
+      "category": "x64w.rpf",
+      "textureCount": 13,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "bodhi_hd_dash",
+        "bodhi_hd_detail",
+        "dominator_dash_hd_spec",
+        "script_rt_dials_dukes",
+        "vehicle_generic_worn_chrome_bmp",
+        "vehicle_generic_worn_chrome_diff",
+        "vehicle_generic_worn_chrome_sp",
+        "vehicle_generic_worn_diff",
+        "vehicle_generic_worn_env1",
+        "vehicle_generic_worn_env2",
+        "vehicle_generic_worn_rst",
+        "vehicle_generic_worn_rst_n",
+        "vehicle_generic_worn_spc"
+      ]
+    },
+    {
+      "id": "vehicles_btype_interior",
+      "name": "vehicles_btype_interior",
+      "hash": 2391979150,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "script_rt_dials_ztype"
+      ]
+    },
+    {
+      "id": "vehicles_cav_interior",
+      "name": "vehicles_cav_interior",
+      "hash": 3448003893,
+      "category": "x64w.rpf",
+      "textureCount": 5,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "cavalvade_interior",
+        "generic_cav_detail_dash",
+        "generic_cav_detail_dash_spec",
+        "generic_cav_detail_pack",
+        "script_rt_dials_cavalcade"
+      ]
+    },
+    {
+      "id": "vehicles_cavarmy_interior",
+      "name": "vehicles_cavarmy_interior",
+      "hash": 722791674,
+      "category": "x64w.rpf",
+      "textureCount": 5,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "cavalvade_interior",
+        "generic_cav_detail_dash",
+        "generic_cav_detail_dash_spec",
+        "generic_cav_detail_pack",
+        "script_rt_dials_cavalcade"
+      ]
+    },
+    {
+      "id": "vehicles_chopperbk_interior",
+      "name": "vehicles_chopperbk_interior",
+      "hash": 3513831960,
+      "category": "x64w.rpf",
+      "textureCount": 3,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "chopperbk_dials_hd",
+        "script_rt_dials_ztype",
+        "sportsbike_hd_detail"
+      ]
+    },
+    {
+      "id": "vehicles_comet_interior",
+      "name": "vehicles_comet_interior",
+      "hash": 1155402778,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "script_rt_dials_banshee"
+      ]
+    },
+    {
+      "id": "vehicles_coquette_interior",
+      "name": "vehicles_coquette_interior",
+      "hash": 249481872,
+      "category": "x64w.rpf",
+      "textureCount": 5,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "coquette_detail",
+        "coquette_detail_dash",
+        "coquette_interior",
+        "feroci_dash_spec",
+        "script_rt_dials_feroci"
+      ]
+    },
+    {
+      "id": "vehicles_dom_interior",
+      "name": "vehicles_dom_interior",
+      "hash": 3364357673,
+      "category": "x64w.rpf",
+      "textureCount": 5,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "dominator_dash_hd",
+        "dominator_dash_hd_spec",
+        "dominator_detail_hd",
+        "sabregt_interior",
+        "script_rt_dials_dukes"
+      ]
+    },
+    {
+      "id": "vehicles_elegy_interior",
+      "name": "vehicles_elegy_interior",
+      "hash": 976580001,
+      "category": "x64w.rpf",
+      "textureCount": 5,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "elegy_interior",
+        "elegy2_detail",
+        "elegy2_detail_dash",
+        "elegy2_detail_dash_spec",
+        "script_rt_dials_banshee"
+      ]
+    },
+    {
+      "id": "vehicles_feltzer_interior",
+      "name": "vehicles_feltzer_interior",
+      "hash": 3771405706,
+      "category": "x64w.rpf",
+      "textureCount": 5,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "feltzer_dash",
+        "feltzer_dash_detail",
+        "feltzer_dash_detail_spec",
+        "feltzer_interior",
+        "script_rt_dials_feltzer"
+      ]
+    },
+    {
+      "id": "vehicles_feroci_interior",
+      "name": "vehicles_feroci_interior",
+      "hash": 1126260402,
+      "category": "x64w.rpf",
+      "textureCount": 5,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "feroci_dash",
+        "feroci_dash_spec",
+        "feroci_detail",
+        "feroci_interior",
+        "script_rt_dials_feroci"
+      ]
+    },
+    {
+      "id": "vehicles_flyer_interior",
+      "name": "vehicles_flyer_interior",
+      "hash": 2667463205,
+      "category": "x64w.rpf",
+      "textureCount": 4,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "flyer_interior_hd",
+        "flyer_interior_seat_hd",
+        "flyer_seat_hd_spec",
+        "script_rt_dials_maverick"
+      ]
+    },
+    {
+      "id": "vehicles_futo_interior",
+      "name": "vehicles_futo_interior",
+      "hash": 1351317025,
+      "category": "x64w.rpf",
+      "textureCount": 4,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "futo_dash",
+        "futo_dash_detail",
+        "futo_dash_spec",
+        "script_rt_dials_futo"
+      ]
+    },
+    {
+      "id": "vehicles_jet_interior",
+      "name": "vehicles_jet_interior",
+      "hash": 3967110586,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "script_rt_dials_lazer"
+      ]
+    },
+    {
+      "id": "vehicles_journey_interior",
+      "name": "vehicles_journey_interior",
+      "hash": 814420226,
+      "category": "x64w.rpf",
+      "textureCount": 14,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "generic_van_detail_dash_spec",
+        "journey_interior_standard",
+        "journey_van_detail_dashhd",
+        "journey_van_dial_detail",
+        "script_rt_dials_truck",
+        "vehicle_generic_worn_chrome_bmp",
+        "vehicle_generic_worn_chrome_diff",
+        "vehicle_generic_worn_chrome_sp",
+        "vehicle_generic_worn_diff",
+        "vehicle_generic_worn_env1",
+        "vehicle_generic_worn_env2",
+        "vehicle_generic_worn_rst",
+        "vehicle_generic_worn_rst_n",
+        "vehicle_generic_worn_spc"
+      ]
+    },
+    {
+      "id": "vehicles_monroe_interior",
+      "name": "vehicles_monroe_interior",
+      "hash": 888561667,
+      "category": "x64w.rpf",
+      "textureCount": 5,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "dominator_dash_hd",
+        "dominator_dash_hd_spec",
+        "monroe_hd_detail",
+        "monroe_interior",
+        "script_rt_dials_dukes"
+      ]
+    },
+    {
+      "id": "vehicles_monster_interior",
+      "name": "vehicles_monster_interior",
+      "hash": 2973786107,
+      "category": "x64w.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "script_rt_dials_dukes"
+      ]
+    },
+    {
+      "id": "vehicles_peyote_interior",
+      "name": "vehicles_peyote_interior",
+      "hash": 2210199552,
+      "category": "x64w.rpf",
+      "textureCount": 5,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "peyote_dash",
+        "peyote_dash_detail",
+        "peyote_dash_spec",
+        "peyote_interior",
+        "script_rt_dials_peyote"
+      ]
+    },
+    {
+      "id": "vehicles_poltax_interior",
+      "name": "vehicles_poltax_interior",
+      "hash": 3350962381,
+      "category": "x64w.rpf",
+      "textureCount": 5,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "script_rt_dials_gen_taxi",
+        "taxi_interior2",
+        "taxi_ng_dash",
+        "taxi_ng_dash_spec",
+        "taxi_ng_detail"
+      ]
+    },
+    {
+      "id": "vehicles_schaf_brown_interior",
+      "name": "vehicles_schaf_brown_interior",
+      "hash": 3328722388,
+      "category": "x64w.rpf",
+      "textureCount": 5,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "carb_generic_detail_dash",
+        "carb_generic_dial_detail",
+        "carbonizzare_interior_1024",
+        "schaf_generic_detail_dash_spec",
+        "script_rt_schafter_dials"
+      ]
+    },
+    {
+      "id": "vehicles_schaf_interior",
+      "name": "vehicles_schaf_interior",
+      "hash": 1093317096,
+      "category": "x64w.rpf",
+      "textureCount": 5,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "schaf_generic_detail_dash",
+        "schaf_generic_detail_dash_spec",
+        "schaf_generic_dial_detail",
+        "schafter_interior",
+        "script_rt_schafter_dials"
+      ]
+    },
+    {
+      "id": "vehicles_speedo_interior",
+      "name": "vehicles_speedo_interior",
+      "hash": 1326770849,
+      "category": "x64w.rpf",
+      "textureCount": 5,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "script_rt_dials_speedo",
+        "speedo_hd_dash",
+        "speedo_hd_dash_spec",
+        "speedo_hd_detail",
+        "speedo_interior2"
+      ]
+    },
+    {
+      "id": "vehicles_speedo2_interior",
+      "name": "vehicles_speedo2_interior",
+      "hash": 2194095659,
+      "category": "x64w.rpf",
+      "textureCount": 5,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "script_rt_dials_speedo",
+        "speedo_hd_dash",
+        "speedo_hd_dash_spec",
+        "speedo_hd_detail",
+        "speedo_interior2"
+      ]
+    },
+    {
+      "id": "vehicles_sportbk_interior",
+      "name": "vehicles_sportbk_interior",
+      "hash": 1111196149,
+      "category": "x64w.rpf",
+      "textureCount": 2,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "script_rt_dials_sportbk",
+        "sportsbike_hd_detail"
+      ]
+    },
+    {
+      "id": "vehicles_stinger_interior",
+      "name": "vehicles_stinger_interior",
+      "hash": 1843777228,
+      "category": "x64w.rpf",
+      "textureCount": 6,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "banshee_detail_dash_spec",
+        "script_rt_dials_banshee",
+        "stinger_detail",
+        "stinger_detail_dash",
+        "stinger_interior",
+        "stinger_woodgrain"
+      ]
+    },
+    {
+      "id": "vehicles_sultan_interior",
+      "name": "vehicles_sultan_interior",
+      "hash": 2455730413,
+      "category": "x64w.rpf",
+      "textureCount": 5,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "script_rt_dials_sultan",
+        "sultan_dash_hd",
+        "sultan_dash_hd_spec",
+        "sultan_detail_hd",
+        "sultan_interior"
+      ]
+    },
+    {
+      "id": "vehicles_supergt_interior",
+      "name": "vehicles_supergt_interior",
+      "hash": 1213309403,
+      "category": "x64w.rpf",
+      "textureCount": 5,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "script_rt_dials_supergt",
+        "supergt_detail_dash",
+        "supergt_detail_pack",
+        "supergt_interior",
+        "vehicle_generic_sportint_spec"
+      ]
+    },
+    {
+      "id": "vehicles_tornado_interior",
+      "name": "vehicles_tornado_interior",
+      "hash": 3756922359,
+      "category": "x64w.rpf",
+      "textureCount": 5,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "dominator_dash_hd",
+        "dominator_dash_hd_spec",
+        "script_rt_dials_dukes",
+        "tornado_hd_interior",
+        "tornado_interior"
+      ]
+    },
+    {
+      "id": "vehicles_vacca_interior",
+      "name": "vehicles_vacca_interior",
+      "hash": 640577678,
+      "category": "x64w.rpf",
+      "textureCount": 4,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "banshee_detail_dash_spec",
+        "script_rt_dials_banshee",
+        "vacca_detail",
+        "vacca_detail_dash"
+      ]
+    },
+    {
+      "id": "vehicles_van_interior",
+      "name": "vehicles_van_interior",
+      "hash": 3217138440,
+      "category": "x64w.rpf",
+      "textureCount": 3,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "generic_van_detail_dash",
+        "generic_van_detail_dash_spec",
+        "generic_van_dial_detail"
+      ]
+    },
+    {
+      "id": "vehicles_voodoo_interior",
+      "name": "vehicles_voodoo_interior",
+      "hash": 3119108818,
+      "category": "x64w.rpf",
+      "textureCount": 14,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "peyote_dash_detail_worn",
+        "peyote_dash_spec",
+        "peyote_dash_worn",
+        "peyote_interior_worn",
+        "script_rt_dials_peyote",
+        "vehicle_generic_worn_chrome_bmp",
+        "vehicle_generic_worn_chrome_diff",
+        "vehicle_generic_worn_chrome_sp",
+        "vehicle_generic_worn_diff",
+        "vehicle_generic_worn_env1",
+        "vehicle_generic_worn_env2",
+        "vehicle_generic_worn_rst",
+        "vehicle_generic_worn_rst_n",
+        "vehicle_generic_worn_spc"
+      ]
+    },
+    {
+      "id": "vehicles_worn_army_flyer_interior",
+      "name": "vehicles_worn_army_flyer_interior",
+      "hash": 4271555013,
+      "category": "x64w.rpf",
+      "textureCount": 8,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "desert_camo_256",
+        "flyer_interior_hd",
+        "flyer_interior_seat_hd",
+        "flyer_seat_hd_spec",
+        "script_rt_dials_lazer",
+        "vehicle_generic_worn_diff",
+        "vehicle_generic_worn_env1",
+        "vehicle_generic_worn_env2"
+      ]
+    },
+    {
+      "id": "vehicles_worn_interior",
+      "name": "vehicles_worn_interior",
+      "hash": 1882899920,
+      "category": "x64w.rpf",
+      "textureCount": 5,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "dominator_dash_hd_spec",
+        "script_rt_dials_dukes",
+        "worn_dash",
+        "worn_detail",
+        "worn_interior_hd"
+      ]
+    },
+    {
+      "id": "vehicles_worn_van",
+      "name": "vehicles_worn_van",
+      "hash": 3531484629,
+      "category": "x64w.rpf",
+      "textureCount": 12,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "generic_van_detail_dash",
+        "generic_van_detail_dash_spec",
+        "generic_van_dial_detail",
+        "vehicle_generic_worn_chrome_bmp",
+        "vehicle_generic_worn_chrome_diff",
+        "vehicle_generic_worn_chrome_sp",
+        "vehicle_generic_worn_diff",
+        "vehicle_generic_worn_env1",
+        "vehicle_generic_worn_env2",
+        "vehicle_generic_worn_rst",
+        "vehicle_generic_worn_rst_n",
+        "vehicle_generic_worn_spc"
+      ]
+    },
+    {
+      "id": "vehicles_wornflyer_interior",
+      "name": "vehicles_wornflyer_interior",
+      "hash": 563684524,
+      "category": "x64w.rpf",
+      "textureCount": 7,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "flyer_interior_hd",
+        "flyer_interior_seat_hd",
+        "flyer_seat_hd_spec",
+        "script_rt_dials_maverick",
+        "vehicle_generic_worn_diff",
+        "vehicle_generic_worn_env1",
+        "vehicle_generic_worn_env2"
+      ]
+    },
+    {
+      "id": "vehshare_army",
+      "name": "vehshare_army",
+      "hash": 1667053900,
+      "category": "x64w.rpf",
+      "textureCount": 8,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "desert_camo_128_spec",
+        "desert_camo_256",
+        "tank_camo",
+        "us_star_livery_512",
+        "vehicle_generic_worn_diff",
+        "vehicle_generic_worn_env1",
+        "vehicle_generic_worn_env2",
+        "vehicle_generic_worn_spc"
+      ]
+    },
+    {
+      "id": "vehshare_truck",
+      "name": "vehshare_truck",
+      "hash": 1160467303,
+      "category": "x64w.rpf",
+      "textureCount": 6,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "generic_truck_dash_detail",
+        "generic_truck_dash_detail_spec",
+        "generic_truck_dial_detail",
+        "script_rt_dials_digital",
+        "script_rt_dials_truck",
+        "vehicle_generic_truck_interior"
+      ]
+    },
+    {
+      "id": "vehshare_worn",
+      "name": "vehshare_worn",
+      "hash": 2937787402,
+      "category": "x64w.rpf",
+      "textureCount": 9,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbeachvehicles.rpf"
+      ],
+      "textures": [
+        "vehicle_generic_worn_chrome_bmp",
+        "vehicle_generic_worn_chrome_diff",
+        "vehicle_generic_worn_chrome_sp",
+        "vehicle_generic_worn_diff",
+        "vehicle_generic_worn_env1",
+        "vehicle_generic_worn_env2",
+        "vehicle_generic_worn_rst",
+        "vehicle_generic_worn_rst_n",
+        "vehicle_generic_worn_spc"
+      ]
+    },
+    {
+      "id": "vestra",
+      "name": "vestra",
+      "hash": 1341619767,
+      "category": "x64w.rpf",
+      "textureCount": 8,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusinessvehicles.rpf"
+      ],
+      "textures": [
+        "flyer_interior_door",
+        "mammatus_interior_seat_hd",
+        "vestra_interior",
+        "vestra_rivets_n",
+        "vestra_sign_1",
+        "vestra_sign_2",
+        "vestra_sign_3",
+        "vestra_sign_4"
+      ]
+    },
+    {
+      "id": "vestra+hi",
+      "name": "vestra+hi",
+      "hash": 2805347614,
+      "category": "x64w.rpf",
+      "textureCount": 7,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/mpbusinessvehicles.rpf"
+      ],
+      "textures": [
+        "flyer_interior_door",
+        "mammatus_interior_seat_hd",
+        "vestra_interior",
+        "vestra_sign_1",
+        "vestra_sign_2",
+        "vestra_sign_3",
+        "vestra_sign_4"
+      ]
+    },
+    {
+      "id": "w_sg_heavyshotgun_l1",
+      "name": "w_sg_heavyshotgun_l1",
+      "hash": 3220212882,
+      "category": "x64w.rpf",
+      "textureCount": 3,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64w-rpf.json",
+      "sources": [
+        "x64w.rpf/dlc.rpf/weapons.rpf"
+      ],
+      "textures": [
+        "w_sg_heavyshotgun",
+        "w_sg_heavyshotgun_n",
+        "w_sg_heavyshotgun_s"
+      ]
+    }
+  ]
+}

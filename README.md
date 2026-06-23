@@ -36,6 +36,7 @@ There are two domain shapes:
 | aimstyles | Weapon aim/strafe styles (9) with joaat hashes | [`api/aimstyles/index.json`](./api/aimstyles/index.json) |
 | animflags | Scripted anim flags (31 bit flags + 13 presets) | [`api/animflags/index.json`](./api/animflags/index.json) |
 | map      | World map (satellite) + world→image marker transform | [`api/map/index.json`](./api/map/index.json) |
+| textures | Texture dictionaries (35,218 `.ytd`; 218,900 textures) grouped by source archive | [`api/textures/index.json`](./api/textures/index.json) |
 
 Read the discovery root to enumerate what's available:
 
@@ -949,6 +950,49 @@ await map.getLandmarks();                        // example landmarks for calibr
 > the gtamap.xyz CRS) is a new `assets/map/*` file + one entry in
 > `src/data/map.json` `styles[]` — no calibration or URL changes; the build
 > derives that style's `pixelCalibration` from its dimensions.
+
+---
+
+## Textures domain
+
+Every texture dictionary (`.ytd`) extracted from the game RPFs, and the textures
+inside each one. Data-only (no images). Extracted straight from the RPF7 archives
+(parse + RAGE-decrypt + inflate + read the `pgDictionary<grcTexture>` names) — the
+same names CodeWalker/OpenIV would report.
+
+- **`id`** = the ytd name **without** `.ytd` (what `REQUEST_STREAMED_TEXTURE_DICT` takes).
+- **`hash`** = `joaat(id)`.
+- **texture names** carry **no** format extension.
+- **`category`** = the source RPF archive (`dlc.rpf`, `update.rpf`, `x64v.rpf`, …).
+- Dict names that appear in multiple archives are **merged**: texture lists are
+  unioned and every source archive is listed in `sources`.
+
+### Endpoints
+
+| File | Contents |
+|------|----------|
+| [`api/textures/index.json`](./api/textures/index.json) | Light catalog — one row per dict (`id`, `hash`, `category`, `textureCount`, `sourceCount`, `path`). **No** texture arrays, so it stays browsable. |
+| `api/textures/by-category/<archive>.json` | Full slices grouped by source archive — every dict **with** its `textures[]` and `sources[]`. |
+| [`api/textures/by-category/index.json`](./api/textures/by-category/index.json) | The list of archive groups (also folded into `api/categories.json`). |
+| [`api/textures/hashes.json`](./api/textures/hashes.json) | **Reverse joaat lookup for BOTH dict and texture names** → `{ type: "dict" \| "texture", id, name }` (`category` for dicts). Also merged into the global `api/hashes.json`. |
+
+### Resolve a hash
+
+```js
+const { hashes } = await (await fetch('.../api/textures/hashes.json')).json();
+hashes[joaat('vehshare')]                       // { type:'dict',    id:'vehshare', ... }
+hashes[joaat('vehicle_generic_black_plastic')]  // { type:'texture', id:'vehicle_generic_black_plastic', ... }
+```
+
+### Regenerate
+
+```bash
+# 1. dump from the game (gtav-scripts repo)
+python tools/dump_ytd_textures.py "<GTA install>" -o ytd_textures.json
+# 2. import + build (this repo)
+node tools/import_ytd_textures.mjs "<path>/ytd_textures.json"
+npm run build
+```
 
 ---
 

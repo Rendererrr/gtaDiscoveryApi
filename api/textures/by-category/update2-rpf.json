@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "textures",
+    "label": "Textures",
+    "urlPattern": null,
+    "note": "GTA V texture dictionaries (.ytd) and their textures. dict id = ytd name without .ytd; texture names without format extension. index.json is light (no texture arrays) — full texture lists live in by-category/<archive>.json. hashes.json reverse-maps joaat(dict) AND joaat(texture) -> { type, id, name }."
+  },
+  "group": {
+    "name": "update2.rpf",
+    "slug": "update2-rpf",
+    "count": 1
+  },
+  "count": 1,
+  "items": [
+    {
+      "id": "credits",
+      "name": "credits",
+      "hash": 2689842594,
+      "category": "update2.rpf",
+      "textureCount": 1,
+      "sourceCount": 2,
+      "path": "api/textures/by-category/update2-rpf.json",
+      "sources": [
+        "update/update2.rpf",
+        "x64a.rpf"
+      ],
+      "textures": [
+        "credit_logos"
+      ]
+    }
+  ]
+}

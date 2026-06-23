@@ -1,0 +1,2029 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "textures",
+    "label": "Textures",
+    "urlPattern": null,
+    "note": "GTA V texture dictionaries (.ytd) and their textures. dict id = ytd name without .ytd; texture names without format extension. index.json is light (no texture arrays) — full texture lists live in by-category/<archive>.json. hashes.json reverse-maps joaat(dict) AND joaat(texture) -> { type, id, name }."
+  },
+  "group": {
+    "name": "x64b.rpf",
+    "slug": "x64b-rpf",
+    "count": 113
+  },
+  "count": 113,
+  "items": [
+    {
+      "id": "alt_vlight",
+      "name": "alt_vlight",
+      "hash": 332636413,
+      "category": "x64b.rpf",
+      "textureCount": 4,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/v_clouds.rpf"
+      ],
+      "textures": [
+        "cloudhat_marble02_ap",
+        "detail1_nrm",
+        "skyhat_cirrocumulus01_alt_n",
+        "skyhat_cirrocumulus01_alt2"
+      ]
+    },
+    {
+      "id": "cloudhat_alt_heavy",
+      "name": "cloudhat_alt_heavy",
+      "hash": 10309350,
+      "category": "x64b.rpf",
+      "textureCount": 4,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/v_clouds.rpf"
+      ],
+      "textures": [
+        "cloudhat_marble02_ap",
+        "detail1_nrm",
+        "skyhat_raintop_ap",
+        "skyhat_raintop_n"
+      ]
+    },
+    {
+      "id": "cloudhat_alt_light",
+      "name": "cloudhat_alt_light",
+      "hash": 2730221539,
+      "category": "x64b.rpf",
+      "textureCount": 4,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/v_clouds.rpf"
+      ],
+      "textures": [
+        "cloudhat_altitude_medium",
+        "cloudhat_altitude_medium_n",
+        "cloudhat_marble02_ap",
+        "detail1_nrm"
+      ]
+    },
+    {
+      "id": "cloudhat_alt_med",
+      "name": "cloudhat_alt_med",
+      "hash": 3676573695,
+      "category": "x64b.rpf",
+      "textureCount": 4,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/v_clouds.rpf"
+      ],
+      "textures": [
+        "cloudhat_altitude_medium",
+        "cloudhat_altitude_medium_n",
+        "cloudhat_marble02_ap",
+        "detail1_nrm"
+      ]
+    },
+    {
+      "id": "cloudhat_cirro",
+      "name": "cloudhat_cirro",
+      "hash": 335889176,
+      "category": "x64b.rpf",
+      "textureCount": 2,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/v_clouds.rpf"
+      ],
+      "textures": [
+        "skyhat_cirrocumulus01_ap",
+        "skyhat_cirrocumulus01_nrm"
+      ]
+    },
+    {
+      "id": "cloudhat_cirrus",
+      "name": "cloudhat_cirrus",
+      "hash": 1455206113,
+      "category": "x64b.rpf",
+      "textureCount": 2,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/v_clouds.rpf"
+      ],
+      "textures": [
+        "cloudhat_cirrus_ap",
+        "cloudhat_cirrus_nrm"
+      ]
+    },
+    {
+      "id": "cloudhat_clear01",
+      "name": "cloudhat_clear01",
+      "hash": 3157439754,
+      "category": "x64b.rpf",
+      "textureCount": 4,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/v_clouds.rpf"
+      ],
+      "textures": [
+        "cloudhat_marble02_ap",
+        "detail1_nrm",
+        "new_skyhat_clear01_bot_ap",
+        "new_skyhat_clear01_bot_nrm"
+      ]
+    },
+    {
+      "id": "cloudhat_cloudy",
+      "name": "cloudhat_cloudy",
+      "hash": 3901659008,
+      "category": "x64b.rpf",
+      "textureCount": 4,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/v_clouds.rpf"
+      ],
+      "textures": [
+        "cloudhat_marble02_ap",
+        "detail1_nrm",
+        "trialap",
+        "trialn"
+      ]
+    },
+    {
+      "id": "cloudhat_contrails",
+      "name": "cloudhat_contrails",
+      "hash": 596064127,
+      "category": "x64b.rpf",
+      "textureCount": 2,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/v_clouds.rpf"
+      ],
+      "textures": [
+        "contrails_ap3",
+        "contrails_nrm3"
+      ]
+    },
+    {
+      "id": "cloudhat_horizon",
+      "name": "cloudhat_horizon",
+      "hash": 3341326938,
+      "category": "x64b.rpf",
+      "textureCount": 4,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/v_clouds.rpf"
+      ],
+      "textures": [
+        "cloudhat_marble02_ap",
+        "detail1_nrm",
+        "stripeyclouds_ap",
+        "stripeyclouds_nrm"
+      ]
+    },
+    {
+      "id": "cloudhat_nimbus",
+      "name": "cloudhat_nimbus",
+      "hash": 3497573886,
+      "category": "x64b.rpf",
+      "textureCount": 4,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/v_clouds.rpf"
+      ],
+      "textures": [
+        "cloudhat_marble02_ap",
+        "detail1_nrm",
+        "final_nimbusclouds_ap",
+        "final_nimbusclouds_n"
+      ]
+    },
+    {
+      "id": "cloudhat_puffs",
+      "name": "cloudhat_puffs",
+      "hash": 1941984486,
+      "category": "x64b.rpf",
+      "textureCount": 4,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/v_clouds.rpf"
+      ],
+      "textures": [
+        "cloudhat_marble02_ap",
+        "cloudhat_puffs_ap",
+        "cloudhat_puffs_nrm",
+        "detail1_nrm"
+      ]
+    },
+    {
+      "id": "cloudhat_rain",
+      "name": "cloudhat_rain",
+      "hash": 1353394527,
+      "category": "x64b.rpf",
+      "textureCount": 2,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/v_clouds.rpf"
+      ],
+      "textures": [
+        "skyhat_rain02_ap",
+        "skyhat_rain02_n2"
+      ]
+    },
+    {
+      "id": "cloudhat_shower",
+      "name": "cloudhat_shower",
+      "hash": 2089102404,
+      "category": "x64b.rpf",
+      "textureCount": 2,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/v_clouds.rpf"
+      ],
+      "textures": [
+        "skyhat_showers01_ap",
+        "skyhat_showers01_n"
+      ]
+    },
+    {
+      "id": "cloudhat_stormy01",
+      "name": "cloudhat_stormy01",
+      "hash": 2644347362,
+      "category": "x64b.rpf",
+      "textureCount": 6,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/v_clouds.rpf"
+      ],
+      "textures": [
+        "cloudhat_marble02_ap",
+        "detail1_nrm",
+        "skyhat_rain02_ap",
+        "skyhat_rain02_n2",
+        "stormclouds_ap",
+        "stormclouds_nrm"
+      ]
+    },
+    {
+      "id": "cloudhat_test",
+      "name": "cloudhat_test",
+      "hash": 1096165925,
+      "category": "x64b.rpf",
+      "textureCount": 4,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/v_clouds.rpf"
+      ],
+      "textures": [
+        "cloudhat_marble02_ap",
+        "detail1_nrm",
+        "testwritting",
+        "testwritting_nrm"
+      ]
+    },
+    {
+      "id": "cloudhat_wispy",
+      "name": "cloudhat_wispy",
+      "hash": 440182924,
+      "category": "x64b.rpf",
+      "textureCount": 2,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/v_clouds.rpf"
+      ],
+      "textures": [
+        "wisps_ap",
+        "wisps_nrm"
+      ]
+    },
+    {
+      "id": "darts_scoreboard",
+      "name": "darts_scoreboard",
+      "hash": 3870374243,
+      "category": "x64b.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_minigames.rpf"
+      ],
+      "textures": [
+        "handstyleheist_tag"
+      ]
+    },
+    {
+      "id": "frame1",
+      "name": "frame1",
+      "hash": 1611297771,
+      "category": "x64b.rpf",
+      "textureCount": 3,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/snapmatic.rpf"
+      ],
+      "textures": [
+        "frame_corner",
+        "frame_horizontal",
+        "frame_vertical"
+      ]
+    },
+    {
+      "id": "frame10",
+      "name": "frame10",
+      "hash": 285061695,
+      "category": "x64b.rpf",
+      "textureCount": 3,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/snapmatic.rpf"
+      ],
+      "textures": [
+        "frame_corner",
+        "frame_horizontal",
+        "frame_vertical"
+      ]
+    },
+    {
+      "id": "frame11",
+      "name": "frame11",
+      "hash": 648732057,
+      "category": "x64b.rpf",
+      "textureCount": 3,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/snapmatic.rpf"
+      ],
+      "textures": [
+        "frame_corner",
+        "frame_horizontal",
+        "frame_vertical"
+      ]
+    },
+    {
+      "id": "frame12",
+      "name": "frame12",
+      "hash": 3964332246,
+      "category": "x64b.rpf",
+      "textureCount": 3,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/snapmatic.rpf"
+      ],
+      "textures": [
+        "frame_corner",
+        "frame_horizontal",
+        "frame_vertical"
+      ]
+    },
+    {
+      "id": "frame2",
+      "name": "frame2",
+      "hash": 1296453219,
+      "category": "x64b.rpf",
+      "textureCount": 3,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/snapmatic.rpf"
+      ],
+      "textures": [
+        "frame_corner",
+        "frame_horizontal",
+        "frame_vertical"
+      ]
+    },
+    {
+      "id": "frame3",
+      "name": "frame3",
+      "hash": 2417611785,
+      "category": "x64b.rpf",
+      "textureCount": 3,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/snapmatic.rpf"
+      ],
+      "textures": [
+        "frame_corner",
+        "frame_horizontal",
+        "frame_vertical"
+      ]
+    },
+    {
+      "id": "frame4",
+      "name": "frame4",
+      "hash": 3194269854,
+      "category": "x64b.rpf",
+      "textureCount": 3,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/snapmatic.rpf"
+      ],
+      "textures": [
+        "frame_corner",
+        "frame_horizontal",
+        "frame_vertical"
+      ]
+    },
+    {
+      "id": "frame5",
+      "name": "frame5",
+      "hash": 1957567794,
+      "category": "x64b.rpf",
+      "textureCount": 3,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/snapmatic.rpf"
+      ],
+      "textures": [
+        "frame_corner",
+        "frame_horizontal",
+        "frame_vertical"
+      ]
+    },
+    {
+      "id": "frame6",
+      "name": "frame6",
+      "hash": 2721183801,
+      "category": "x64b.rpf",
+      "textureCount": 5,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/snapmatic.rpf"
+      ],
+      "textures": [
+        "frame_corner",
+        "frame_detail_left",
+        "frame_detail_right",
+        "frame_horizontal",
+        "frame_vertical"
+      ]
+    },
+    {
+      "id": "frame7",
+      "name": "frame7",
+      "hash": 3380168391,
+      "category": "x64b.rpf",
+      "textureCount": 3,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/snapmatic.rpf"
+      ],
+      "textures": [
+        "frame_corner",
+        "frame_horizontal",
+        "frame_vertical"
+      ]
+    },
+    {
+      "id": "frame8",
+      "name": "frame8",
+      "hash": 4172555584,
+      "category": "x64b.rpf",
+      "textureCount": 3,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/snapmatic.rpf"
+      ],
+      "textures": [
+        "frame_corner",
+        "frame_horizontal",
+        "frame_vertical"
+      ]
+    },
+    {
+      "id": "frame9",
+      "name": "frame9",
+      "hash": 2917371804,
+      "category": "x64b.rpf",
+      "textureCount": 3,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/snapmatic.rpf"
+      ],
+      "textures": [
+        "frame_corner",
+        "frame_horizontal",
+        "frame_vertical"
+      ]
+    },
+    {
+      "id": "golf_floating_ui",
+      "name": "golf_floating_ui",
+      "hash": 3560656858,
+      "category": "x64b.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_minigames.rpf"
+      ],
+      "textures": [
+        "golf_floating_ui_g0"
+      ]
+    },
+    {
+      "id": "pause_menu_pages_settings_360",
+      "name": "pause_menu_pages_settings_360",
+      "hash": 1118707662,
+      "category": "x64b.rpf",
+      "textureCount": 2,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_platform_pc.rpf"
+      ],
+      "textures": [
+        "controller",
+        "fblogo"
+      ]
+    },
+    {
+      "id": "pause_menu_store_content_360",
+      "name": "pause_menu_store_content_360",
+      "hash": 3483508103,
+      "category": "x64b.rpf",
+      "textureCount": 5,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_platform_pc.rpf"
+      ],
+      "textures": [
+        "estore_shop_logos",
+        "gtav_savingspinner_g",
+        "gtav_savingspinner_v2",
+        "platform_logo",
+        "points_icon"
+      ]
+    },
+    {
+      "id": "prop_ar",
+      "name": "prop_ar",
+      "hash": 1333661000,
+      "category": "x64b.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/icons.rpf"
+      ],
+      "textures": [
+        "prop_base_white_full"
+      ]
+    },
+    {
+      "id": "prop_icon_01",
+      "name": "prop_icon_01",
+      "hash": 3464001831,
+      "category": "x64b.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/icons.rpf"
+      ],
+      "textures": [
+        "prop_base_white_full"
+      ]
+    },
+    {
+      "id": "prop_mk_chevrons",
+      "name": "prop_mk_chevrons",
+      "hash": 1989007231,
+      "category": "x64b.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/icons.rpf"
+      ],
+      "textures": [
+        "prop_base_white_full"
+      ]
+    },
+    {
+      "id": "prop_mk_nums",
+      "name": "prop_mk_nums",
+      "hash": 2110622836,
+      "category": "x64b.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/icons.rpf"
+      ],
+      "textures": [
+        "prop_base_white_full"
+      ]
+    },
+    {
+      "id": "prop_mk_tri",
+      "name": "prop_mk_tri",
+      "hash": 357896355,
+      "category": "x64b.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/icons.rpf"
+      ],
+      "textures": [
+        "prop_base_white_full"
+      ]
+    },
+    {
+      "id": "prop_mp_air_icons",
+      "name": "prop_mp_air_icons",
+      "hash": 3823054923,
+      "category": "x64b.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/icons.rpf"
+      ],
+      "textures": [
+        "prop_base_white_full"
+      ]
+    },
+    {
+      "id": "prop_mp_creator_icon",
+      "name": "prop_mp_creator_icon",
+      "hash": 1259756331,
+      "category": "x64b.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/icons.rpf"
+      ],
+      "textures": [
+        "prop_base_white_full"
+      ]
+    },
+    {
+      "id": "prop_mp_icon",
+      "name": "prop_mp_icon",
+      "hash": 1728770388,
+      "category": "x64b.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/icons.rpf"
+      ],
+      "textures": [
+        "prop_base_white_full"
+      ]
+    },
+    {
+      "id": "prop_mpicon_01",
+      "name": "prop_mpicon_01",
+      "hash": 2132634444,
+      "category": "x64b.rpf",
+      "textureCount": 0,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/icons.rpf"
+      ],
+      "textures": []
+    },
+    {
+      "id": "slod_human",
+      "name": "slod_human",
+      "hash": 1057201338,
+      "category": "x64b.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/componentpeds_slod.rpf"
+      ],
+      "textures": [
+        "uppr_diff_000_a_uni"
+      ]
+    },
+    {
+      "id": "slod_large_quadped",
+      "name": "slod_large_quadped",
+      "hash": 2238511874,
+      "category": "x64b.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/componentpeds_slod.rpf"
+      ],
+      "textures": [
+        "uppr_diff_000_a_uni"
+      ]
+    },
+    {
+      "id": "slod_small_quadped",
+      "name": "slod_small_quadped",
+      "hash": 762327283,
+      "category": "x64b.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/componentpeds_slod.rpf"
+      ],
+      "textures": [
+        "uppr_diff_000_a_uni"
+      ]
+    },
+    {
+      "id": "tattoo_buttons_360",
+      "name": "tattoo_buttons_360",
+      "hash": 1376157900,
+      "category": "x64b.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_platform_pc.rpf"
+      ],
+      "textures": [
+        "buttons_gridded"
+      ]
+    },
+    {
+      "id": "www_abstinentamerica_com",
+      "name": "www_abstinentamerica_com",
+      "hash": 470528625,
+      "category": "x64b.rpf",
+      "textureCount": 6,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "prop14_image_1",
+        "prop14_image_2",
+        "prop14_image_gradient_blue",
+        "prop14_image_gradient_red",
+        "prop14_image_tour_1",
+        "prop14_image_tour_2"
+      ]
+    },
+    {
+      "id": "www_accept_d_the_d_chaos_com",
+      "name": "www_accept_d_the_d_chaos_com",
+      "hash": 54724103,
+      "category": "x64b.rpf",
+      "textureCount": 10,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "chaos_textures_1",
+        "chaos_textures_10",
+        "chaos_textures_2",
+        "chaos_textures_3",
+        "chaos_textures_4",
+        "chaos_textures_5",
+        "chaos_textures_6",
+        "chaos_textures_7",
+        "chaos_textures_8",
+        "chaos_textures_9"
+      ]
+    },
+    {
+      "id": "www_altruistsunite_com",
+      "name": "www_altruistsunite_com",
+      "hash": 1348047925,
+      "category": "x64b.rpf",
+      "textureCount": 3,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "pattern",
+        "texture1",
+        "texture2"
+      ]
+    },
+    {
+      "id": "www_bedevinweston_com",
+      "name": "www_bedevinweston_com",
+      "hash": 1642789864,
+      "category": "x64b.rpf",
+      "textureCount": 6,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "bedevonweston_texture_1",
+        "bedevonweston_texture_2",
+        "bedevonweston_texture_background",
+        "bedevonweston_texture_grade1",
+        "bedevonweston_texture_grade2",
+        "bedevonweston_texture_team"
+      ]
+    },
+    {
+      "id": "www_beseecher_net",
+      "name": "www_beseecher_net",
+      "hash": 2236211367,
+      "category": "x64b.rpf",
+      "textureCount": 3,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "beseecher_1",
+        "beseecher_2",
+        "beseecher_ad_1"
+      ]
+    },
+    {
+      "id": "www_bleeter_biz",
+      "name": "www_bleeter_biz",
+      "hash": 2815914302,
+      "category": "x64b.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "bleeter_texturesheet"
+      ]
+    },
+    {
+      "id": "www_bullsharktestosterone_com",
+      "name": "www_bullsharktestosterone_com",
+      "hash": 2515718039,
+      "category": "x64b.rpf",
+      "textureCount": 3,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "texture_image_header1",
+        "texture_image1",
+        "texture_image2"
+      ]
+    },
+    {
+      "id": "www_cashfordeaddreams_com",
+      "name": "www_cashfordeaddreams_com",
+      "hash": 4249481831,
+      "category": "x64b.rpf",
+      "textureCount": 4,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "cashfor_image_ads",
+        "cashfor_image_content",
+        "cashfor_image_gold_border",
+        "cashfor_image_headers"
+      ]
+    },
+    {
+      "id": "www_chainsofintimacy_com",
+      "name": "www_chainsofintimacy_com",
+      "hash": 1428081398,
+      "category": "x64b.rpf",
+      "textureCount": 4,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "coi_1",
+        "coi_2",
+        "coi_3",
+        "coi_ads_1"
+      ]
+    },
+    {
+      "id": "www_classicvinewood_com",
+      "name": "www_classicvinewood_com",
+      "hash": 3481998125,
+      "category": "x64b.rpf",
+      "textureCount": 8,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "classicvinewood_texture_1",
+        "classicvinewood_texture_2",
+        "classicvinewood_texture_3",
+        "classicvinewood_texture_4",
+        "classicvinewood_texture_adverts",
+        "classicvinewood_texture_film",
+        "classicvinewood_texture_gradient_gold",
+        "classicvinewood_texture_gradient_grey"
+      ]
+    },
+    {
+      "id": "www_creditcardconsolidationkings_com",
+      "name": "www_creditcardconsolidationkings_com",
+      "hash": 2472276229,
+      "category": "x64b.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "www_creditcardconsolidationkings_com_i2"
+      ]
+    },
+    {
+      "id": "www_cultstoppers_com",
+      "name": "www_cultstoppers_com",
+      "hash": 2479414947,
+      "category": "x64b.rpf",
+      "textureCount": 2,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "texture",
+        "texture_adverts"
+      ]
+    },
+    {
+      "id": "www_dr_d_friedlander_com",
+      "name": "www_dr_d_friedlander_com",
+      "hash": 2502417746,
+      "category": "x64b.rpf",
+      "textureCount": 2,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "texture1",
+        "texture2"
+      ]
+    },
+    {
+      "id": "www_egochaserenergybar_com",
+      "name": "www_egochaserenergybar_com",
+      "hash": 3008321743,
+      "category": "x64b.rpf",
+      "textureCount": 8,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "ego_chaser_1",
+        "ego_chaser_2",
+        "ego_chaser_3",
+        "ego_chaser_4",
+        "ego_chaser_4b",
+        "ego_chaser_5",
+        "ego_chaser_6",
+        "ego_chaser_7"
+      ]
+    },
+    {
+      "id": "www_electrotokesystem_com",
+      "name": "www_electrotokesystem_com",
+      "hash": 3330730116,
+      "category": "x64b.rpf",
+      "textureCount": 4,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "electrotoke_adverts",
+        "electrotoke_howitworks_image",
+        "electrotoke_image",
+        "www_electrotokesystem_com_g0"
+      ]
+    },
+    {
+      "id": "www_epsilonprogram_com",
+      "name": "www_epsilonprogram_com",
+      "hash": 1054444831,
+      "category": "x64b.rpf",
+      "textureCount": 12,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "epsilon_program_eagle",
+        "epsilon_program_eden",
+        "epsilon_program_image_128_1",
+        "epsilon_program_image_512_1",
+        "epsilon_program_image_512_2",
+        "epsilon_program_image_512_3",
+        "epsilon_program_image_512_4",
+        "epsilon_program_image_512_5",
+        "epsilon_program_image_border",
+        "epsilon_program_image_pattern",
+        "epsilon_program_logo",
+        "epsilon_program_mflogo"
+      ]
+    },
+    {
+      "id": "www_fabienlaroucheyoga_com",
+      "name": "www_fabienlaroucheyoga_com",
+      "hash": 2314620533,
+      "category": "x64b.rpf",
+      "textureCount": 7,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "fabienlarouche_texture_1",
+        "fabienlarouche_texture_2",
+        "fabienlarouche_texture_3",
+        "fabienlarouche_texture_4",
+        "fabienlarouche_texture_5",
+        "fabienlarouche_texture_ads",
+        "fabienlarouche_texture_pattern"
+      ]
+    },
+    {
+      "id": "www_fameorshame_net",
+      "name": "www_fameorshame_net",
+      "hash": 2712860287,
+      "category": "x64b.rpf",
+      "textureCount": 6,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "fame_or_shame_texture_video1",
+        "fame_or_shame_texture_video2",
+        "fame_or_shame_texture1",
+        "fame_or_shame_texture2",
+        "fame_or_shame_texture3",
+        "fame_or_shame_texture4"
+      ]
+    },
+    {
+      "id": "www_fleeca_com",
+      "name": "www_fleeca_com",
+      "hash": 2182689036,
+      "category": "x64b.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "fleeca_texture_1"
+      ]
+    },
+    {
+      "id": "www_fruitcomputers_com",
+      "name": "www_fruitcomputers_com",
+      "hash": 3004542532,
+      "category": "x64b.rpf",
+      "textureCount": 2,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "fruitcomputers_512_0",
+        "fruitcomputers_512_1"
+      ]
+    },
+    {
+      "id": "www_grainoftruth_net",
+      "name": "www_grainoftruth_net",
+      "hash": 2502020799,
+      "category": "x64b.rpf",
+      "textureCount": 3,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "web_got_gradient",
+        "web_got_pattern",
+        "web_got_texture1"
+      ]
+    },
+    {
+      "id": "www_hammersteinfaust_com",
+      "name": "www_hammersteinfaust_com",
+      "hash": 2224658328,
+      "category": "x64b.rpf",
+      "textureCount": 9,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "hammerstein_faust_image_1",
+        "hammerstein_faust_image_2",
+        "hammerstein_faust_image_3",
+        "hammerstein_faust_image_gradient_green",
+        "hammerstein_faust_image_gradient_green_small",
+        "hammerstein_faust_image_gradient_grey",
+        "hammerstein_faust_image_gradient_yellow",
+        "hammerstein_faust_image_gradient_yellow_small",
+        "hammerstein_faust_image_pattern"
+      ]
+    },
+    {
+      "id": "www_himplantsenhancementsurgery_com",
+      "name": "www_himplantsenhancementsurgery_com",
+      "hash": 3483176049,
+      "category": "x64b.rpf",
+      "textureCount": 3,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "himplantsenhancementsurgery_texture_ads",
+        "himplantsenhancementsurgery_texture1",
+        "himplantsenhancementsurgery_texture2"
+      ]
+    },
+    {
+      "id": "www_hushsmush_com",
+      "name": "www_hushsmush_com",
+      "hash": 858870124,
+      "category": "x64b.rpf",
+      "textureCount": 5,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "bg",
+        "hush_profiles_1",
+        "hush_profiles_2",
+        "hush_profiles_3",
+        "hushtexture"
+      ]
+    },
+    {
+      "id": "www_iwillsurviveitall_com",
+      "name": "www_iwillsurviveitall_com",
+      "hash": 2489043889,
+      "category": "x64b.rpf",
+      "textureCount": 3,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "iwsittexture1",
+        "iwsittexture2",
+        "texture_ads1"
+      ]
+    },
+    {
+      "id": "www_jackhowitzer_com",
+      "name": "www_jackhowitzer_com",
+      "hash": 3150620242,
+      "category": "x64b.rpf",
+      "textureCount": 6,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "jack_howitzer_texture_video_1",
+        "jack_howitzer_texture1",
+        "jack_howitzer_texture2",
+        "jack_howitzer_texture3",
+        "jack_howitzer_texture4",
+        "jack_howitzer_texture5"
+      ]
+    },
+    {
+      "id": "www_jockcranley_com",
+      "name": "www_jockcranley_com",
+      "hash": 3471932550,
+      "category": "x64b.rpf",
+      "textureCount": 4,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "jockcranley_content",
+        "jockcranley_head1",
+        "jockcranley_head2",
+        "jockcranley_nav"
+      ]
+    },
+    {
+      "id": "www_junkenergydrink_com",
+      "name": "www_junkenergydrink_com",
+      "hash": 2658987911,
+      "category": "x64b.rpf",
+      "textureCount": 9,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "junk_textures_00",
+        "junk_textures_01",
+        "junk_textures_02",
+        "junk_textures_03",
+        "junk_textures_04",
+        "junk_textures_05",
+        "junk_textures_map01",
+        "junk_textures_map02",
+        "junk_textures_map03"
+      ]
+    },
+    {
+      "id": "www_lennyavery_d_realty_com",
+      "name": "www_lennyavery_d_realty_com",
+      "hash": 1223389504,
+      "category": "x64b.rpf",
+      "textureCount": 10,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "avery_texture_gradient",
+        "avery_textures_00",
+        "avery_textures_01",
+        "avery_textures_02",
+        "avery_textures_03",
+        "avery_textures_04",
+        "avery_textures_05",
+        "avery_texturesheet_header",
+        "lar_map_tiny",
+        "lar_map_zoom"
+      ]
+    },
+    {
+      "id": "www_lifeinvader_com",
+      "name": "www_lifeinvader_com",
+      "hash": 3773546051,
+      "category": "x64b.rpf",
+      "textureCount": 7,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "image_background_header",
+        "image_banners",
+        "lfi_franklin_images",
+        "lfi_franklin_images2",
+        "lfi_michaeltrevor_images",
+        "lfi_michaeltrevor_images2",
+        "thumbnail_lifeinvader_com"
+      ]
+    },
+    {
+      "id": "www_lossantoscustoms_com",
+      "name": "www_lossantoscustoms_com",
+      "hash": 4246550570,
+      "category": "x64b.rpf",
+      "textureCount": 2,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "los_santos_customs_texture_1",
+        "los_santos_customs_texture_2"
+      ]
+    },
+    {
+      "id": "www_lossantosfreegans_com",
+      "name": "www_lossantosfreegans_com",
+      "hash": 3118241602,
+      "category": "x64b.rpf",
+      "textureCount": 4,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "lsfreegans_advert1",
+        "lsfreegans_texture_1",
+        "lsfreegans_texture_gradient_grey",
+        "lsfreegans_texture_pattern"
+      ]
+    },
+    {
+      "id": "www_manopauseadventures_com",
+      "name": "www_manopauseadventures_com",
+      "hash": 2032731645,
+      "category": "x64b.rpf",
+      "textureCount": 6,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "manopauseadventures_renders",
+        "manopauseadventures_renders_2",
+        "manopauseadventures_renders_3",
+        "manopauseadventures_texture_1",
+        "manopauseadventures_texture_2",
+        "manopauseadventures_texture_background"
+      ]
+    },
+    {
+      "id": "www_merryweathersecurity_com",
+      "name": "www_merryweathersecurity_com",
+      "hash": 2199128422,
+      "category": "x64b.rpf",
+      "textureCount": 4,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "texturesheet",
+        "texturesheet_2",
+        "texturesheet_3",
+        "texturesheet_map"
+      ]
+    },
+    {
+      "id": "www_ministerinminutes_com",
+      "name": "www_ministerinminutes_com",
+      "hash": 966994814,
+      "category": "x64b.rpf",
+      "textureCount": 12,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "bg",
+        "bg_header",
+        "button",
+        "button_over",
+        "corner_left",
+        "corner_right",
+        "logo",
+        "logo_clock",
+        "man",
+        "panel_bottom",
+        "texturesheet1",
+        "texturesheet2"
+      ]
+    },
+    {
+      "id": "www_minotaurfinance_com",
+      "name": "www_minotaurfinance_com",
+      "hash": 2338563131,
+      "category": "x64b.rpf",
+      "textureCount": 2,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "minotaur_finance_texture_1",
+        "minotaur_finance_texture_2"
+      ]
+    },
+    {
+      "id": "www_monetaryscience_us",
+      "name": "www_monetaryscience_us",
+      "hash": 1466490102,
+      "category": "x64b.rpf",
+      "textureCount": 2,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "sheet1",
+        "sheet2"
+      ]
+    },
+    {
+      "id": "www_mydivinewithin_com",
+      "name": "www_mydivinewithin_com",
+      "hash": 4214190520,
+      "category": "x64b.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "mydivinewithin_texture_1"
+      ]
+    },
+    {
+      "id": "www_myroomonline_net",
+      "name": "www_myroomonline_net",
+      "hash": 281844230,
+      "category": "x64b.rpf",
+      "textureCount": 2,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "myroomonline_image_adverts",
+        "myroomonline_image_logo"
+      ]
+    },
+    {
+      "id": "www_preservexskincream_com",
+      "name": "www_preservexskincream_com",
+      "hash": 912744905,
+      "category": "x64b.rpf",
+      "textureCount": 3,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "preservex_texture_1",
+        "preservex_texture_2",
+        "preservex_texture_gradient_1"
+      ]
+    },
+    {
+      "id": "www_princessrobotbubblegum_com",
+      "name": "www_princessrobotbubblegum_com",
+      "hash": 168455551,
+      "category": "x64b.rpf",
+      "textureCount": 6,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "prb_texture_1",
+        "prb_texture_2",
+        "prb_texture_background",
+        "prb_texture_grade1",
+        "prb_texture_grade2",
+        "prb_texture_video1"
+      ]
+    },
+    {
+      "id": "www_proposition208_com",
+      "name": "www_proposition208_com",
+      "hash": 225901207,
+      "category": "x64b.rpf",
+      "textureCount": 4,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "prop208_image_ads",
+        "prop208_image_content",
+        "prop208_image_dollar",
+        "prop208_image_powder"
+      ]
+    },
+    {
+      "id": "www_proposition43_org",
+      "name": "www_proposition43_org",
+      "hash": 1905925551,
+      "category": "x64b.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "prop_image_content"
+      ]
+    },
+    {
+      "id": "www_psychicshoutout_com",
+      "name": "www_psychicshoutout_com",
+      "hash": 863706233,
+      "category": "x64b.rpf",
+      "textureCount": 4,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "bg",
+        "logline_textures_2",
+        "texture",
+        "texture2"
+      ]
+    },
+    {
+      "id": "www_republicanspacerangers_com",
+      "name": "www_republicanspacerangers_com",
+      "hash": 3644003381,
+      "category": "x64b.rpf",
+      "textureCount": 5,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "rsr_texture_video1",
+        "texture1",
+        "texture2",
+        "texture3",
+        "texture4"
+      ]
+    },
+    {
+      "id": "www_righteousslaughter7_com",
+      "name": "www_righteousslaughter7_com",
+      "hash": 3933627510,
+      "category": "x64b.rpf",
+      "textureCount": 7,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "bg",
+        "rs_texture_videoclip",
+        "texture1",
+        "texture2",
+        "texture3",
+        "textures_ads",
+        "textures4"
+      ]
+    },
+    {
+      "id": "www_sanandreasdmv_com",
+      "name": "www_sanandreasdmv_com",
+      "hash": 1815792800,
+      "category": "x64b.rpf",
+      "textureCount": 3,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "dmv_banner",
+        "dmv_content",
+        "www_sanandreasdmv_com_g0"
+      ]
+    },
+    {
+      "id": "www_sawaterandpower_com",
+      "name": "www_sawaterandpower_com",
+      "hash": 3889257713,
+      "category": "x64b.rpf",
+      "textureCount": 6,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "web_sawp_texture1",
+        "web_sawp_texture2",
+        "web_sawp_texture3_trans",
+        "web_sawp_texture4",
+        "web_sawp_texture5",
+        "web_sawp_video_clip"
+      ]
+    },
+    {
+      "id": "www_sixfiguretemps_com",
+      "name": "www_sixfiguretemps_com",
+      "hash": 2202024781,
+      "category": "x64b.rpf",
+      "textureCount": 2,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "sixfiguretemps_backgrounds",
+        "sixfiguretemps_content"
+      ]
+    },
+    {
+      "id": "www_stoppayingyourmortgage_net",
+      "name": "www_stoppayingyourmortgage_net",
+      "hash": 3976594748,
+      "category": "x64b.rpf",
+      "textureCount": 5,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "banners_cashfodeaddreams",
+        "banners_lennyavery",
+        "image_background_header",
+        "image_background_masthead",
+        "image_foreclosure"
+      ]
+    },
+    {
+      "id": "www_swallowco_com",
+      "name": "www_swallowco_com",
+      "hash": 124078272,
+      "category": "x64b.rpf",
+      "textureCount": 6,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "bg_pattern",
+        "texture1",
+        "texture2",
+        "texture3",
+        "texture4",
+        "texture5"
+      ]
+    },
+    {
+      "id": "www_taco_d_bomb_com",
+      "name": "www_taco_d_bomb_com",
+      "hash": 3279779943,
+      "category": "x64b.rpf",
+      "textureCount": 4,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "bg",
+        "texture1",
+        "texture2",
+        "texture3"
+      ]
+    },
+    {
+      "id": "www_thebankofliberty_com",
+      "name": "www_thebankofliberty_com",
+      "hash": 757655679,
+      "category": "x64b.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "bank_of_liberty_texture_1"
+      ]
+    },
+    {
+      "id": "www_thechildrenofthemountain_com",
+      "name": "www_thechildrenofthemountain_com",
+      "hash": 867476559,
+      "category": "x64b.rpf",
+      "textureCount": 7,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "childrenofthemountain_slide_1",
+        "childrenofthemountain_slide_2",
+        "childrenofthemountain_slide_3",
+        "childrenofthemountain_slide_4",
+        "childrenofthemountain_texture_1",
+        "childrenofthemountain_texture_gradient_1",
+        "childrenofthemountain_texture_gradient_2"
+      ]
+    },
+    {
+      "id": "www_theinternetisahellhole_com",
+      "name": "www_theinternetisahellhole_com",
+      "hash": 1141621629,
+      "category": "x64b.rpf",
+      "textureCount": 2,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "texture1",
+        "texture2"
+      ]
+    },
+    {
+      "id": "www_thepowcleanse_com",
+      "name": "www_thepowcleanse_com",
+      "hash": 125370338,
+      "category": "x64b.rpf",
+      "textureCount": 6,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "bottompattern",
+        "cal1",
+        "cal1_over",
+        "fat_thin",
+        "pow_heads",
+        "textutresheet"
+      ]
+    },
+    {
+      "id": "www_therealitymill_com",
+      "name": "www_therealitymill_com",
+      "hash": 2731565286,
+      "category": "x64b.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "realitymill_content"
+      ]
+    },
+    {
+      "id": "www_toeshoesusa_com",
+      "name": "www_toeshoesusa_com",
+      "hash": 912155692,
+      "category": "x64b.rpf",
+      "textureCount": 9,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "toeshoes_banner_0",
+        "toeshoes_banner_1",
+        "toeshoes_banner_2",
+        "toeshoes_banner_3",
+        "toeshoes_banner_4",
+        "toeshoes_image_512_1",
+        "toeshoes_image_512_2",
+        "toeshoes_image_ptrn_grey",
+        "toeshoes_image_ptrn_orange"
+      ]
+    },
+    {
+      "id": "www_toiletcleaneronline_com",
+      "name": "www_toiletcleaneronline_com",
+      "hash": 1061904324,
+      "category": "x64b.rpf",
+      "textureCount": 6,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "toiletcleaner_texture_1",
+        "toiletcleaner_texture_ads",
+        "toiletcleaner_texture_background",
+        "toiletcleaner_texture_pattern",
+        "www_toiletcleaneronline_com_i40",
+        "www_toiletcleaneronline_com_i43"
+      ]
+    },
+    {
+      "id": "www_universaluniform_net",
+      "name": "www_universaluniform_net",
+      "hash": 2200258769,
+      "category": "x64b.rpf",
+      "textureCount": 4,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "universaluniform_bk_cross",
+        "universaluniform_texture_1",
+        "universaluniform_texture_2",
+        "universaluniform_texture_3"
+      ]
+    },
+    {
+      "id": "www_vanillaunicorn_xxx",
+      "name": "www_vanillaunicorn_xxx",
+      "hash": 2547590443,
+      "category": "x64b.rpf",
+      "textureCount": 3,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "vanilla_unicorn_pattern1",
+        "vanilla_unicorn_texture_1",
+        "vanilla_unicorn_texture_gradient_1"
+      ]
+    },
+    {
+      "id": "www_vinewoodloglinegenerator_com",
+      "name": "www_vinewoodloglinegenerator_com",
+      "hash": 1397752587,
+      "category": "x64b.rpf",
+      "textureCount": 3,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "logline_textures_1",
+        "logline_textures_2",
+        "logline_textures_3"
+      ]
+    },
+    {
+      "id": "www_visitthealamosea_com",
+      "name": "www_visitthealamosea_com",
+      "hash": 2499225316,
+      "category": "x64b.rpf",
+      "textureCount": 10,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "visitalamosea_background1",
+        "visitalamosea_background2",
+        "visitalamosea_texture_1",
+        "visitalamosea_texture_2",
+        "visitalamosea_texture_3",
+        "visitalamosea_texture_navgrade",
+        "visitalamosea_texture_towns1",
+        "visitalamosea_texture_towns2",
+        "visitalamosea_texture_towns3",
+        "visitalamosea_texture_towns4"
+      ]
+    },
+    {
+      "id": "www_whokilledleonorajohnson_com",
+      "name": "www_whokilledleonorajohnson_com",
+      "hash": 3118725231,
+      "category": "x64b.rpf",
+      "textureCount": 9,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "texture_ads",
+        "texture_ads_blood",
+        "texture_blood",
+        "texture1",
+        "texture2",
+        "texture3",
+        "texture4",
+        "texture5",
+        "texture5_jpn"
+      ]
+    },
+    {
+      "id": "www_yourdeadfamily_com",
+      "name": "www_yourdeadfamily_com",
+      "hash": 833017445,
+      "category": "x64b.rpf",
+      "textureCount": 3,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "bg",
+        "image_textures",
+        "texturesheet"
+      ]
+    },
+    {
+      "id": "www_yournewbabysname_com",
+      "name": "www_yournewbabysname_com",
+      "hash": 3586246422,
+      "category": "x64b.rpf",
+      "textureCount": 4,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_web.rpf"
+      ],
+      "textures": [
+        "yournewbaby_image_1",
+        "yournewbaby_image_gradient_pink",
+        "yournewbaby_image_gradient_yellow_long",
+        "yournewbaby_image_gradient_yellow_short"
+      ]
+    },
+    {
+      "id": "yoga_buttons_360",
+      "name": "yoga_buttons_360",
+      "hash": 1698560236,
+      "category": "x64b.rpf",
+      "textureCount": 1,
+      "sourceCount": 1,
+      "path": "api/textures/by-category/x64b-rpf.json",
+      "sources": [
+        "x64b.rpf/scaleform_platform_pc.rpf"
+      ],
+      "textures": [
+        "yoga_buttons_gridded"
+      ]
+    }
+  ]
+}

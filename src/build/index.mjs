@@ -37,6 +37,7 @@ import * as speeches from './speeches.mjs';
 import * as map from './map.mjs';
 import * as teleports from './teleports.mjs';
 import * as outfits from './outfits.mjs';
+import * as textures from './textures.mjs';
 
 const DOMAINS = [
   clothing,
@@ -63,6 +64,7 @@ const DOMAINS = [
   map,
   teleports,
   outfits,
+  textures,
 ];
 
 const ROOT = join(import.meta.dirname, '..', '..');
