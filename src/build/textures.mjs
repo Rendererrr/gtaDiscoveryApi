@@ -8,6 +8,7 @@
 //   api/textures/by-category/<slug>.json  full slices (per source archive) WITH textures
 //   api/textures/by-category/index.json   group listing (folded into api/categories.json)
 //   api/textures/hashes.json           reverse joaat lookup for BOTH dict names and texture names
+//   api/textures/dicthashes.json       lean dict-only reverse (hash -> name); Legacy + Enhanced keys
 //
 // dict id = ytd name without .ytd; texture names carry no format extension.
 // Source: src/data/textures.json (produced by tools/import_ytd_textures.mjs).
@@ -43,7 +44,16 @@ export async function build({ apiDir, log = console.log }) {
   const items = [];
   const groups = new Map(); // category -> { slug, items:[fullDict] }
   const hashes = {};        // joaat -> { type, id, name, category? }
+  const dictHashes = {};    // lean dict-only reverse: hash -> name (both joaat variants); for the in-game menu
   let textureCount = 0;
+
+  // The Enhanced (GTA5_Enhanced) grcTextureStore keys core txds by joaat of the virtual mount PATH
+  // ("platform:/textures/<id>"), not the bare id the Legacy store uses. e.g.
+  //   joaat("skydome")                    = 0x9D63C9B9   (Legacy store key)
+  //   joaat("platform:/textures/skydome") = 0xF9016035   (Enhanced store key)
+  // Verified live (rope/skydome/water). So reverse-map BOTH variants -> name. (Non-platform DLC txds use
+  // other mount roots on Enhanced and won't reverse from this prefix -- acceptable; covers resident core.)
+  const ENH_PREFIX = 'platform:/textures/';
 
   for (const d of dicts) {
     const category = d.category ?? 'unknown';
@@ -60,8 +70,12 @@ export async function build({ apiDir, log = console.log }) {
     };
     items.push(row);
 
-    // dict reverse-hash entry
+    // dict reverse-hash entries: Legacy (bare joaat) + Enhanced (joaat of the platform mount path)
     hashes[hash] = { type: 'dict', id: d.id, name: d.id, category };
+    const pathHash = joaat(ENH_PREFIX + d.id);
+    if (!hashes[pathHash]) hashes[pathHash] = { type: 'dict', id: d.id, name: d.id, category, enhanced: true };
+    dictHashes[hash] = d.id;
+    dictHashes[pathHash] = d.id;
 
     // texture reverse-hash entries
     for (const t of d.textures) {
@@ -113,7 +127,16 @@ export async function build({ apiDir, log = console.log }) {
     'utf-8',
   );
 
-  log(`Done ${DOMAIN}: ${items.length} dicts, ${textureCount} textures across ${categories.length} archives (${Object.keys(hashes).length} hashes).`);
+  // Lean dict-only reverse map (hash -> name, both Legacy + Enhanced variants). This is what the in-game
+  // Custom Textures menu downloads to turn a live store dict hash into a friendly txd name -- a fraction
+  // of hashes.json (no texture entries, no objects).
+  await writeFile(
+    join(domainApi, 'dicthashes.json'),
+    JSON.stringify({ meta, count: Object.keys(dictHashes).length, hashes: dictHashes }, null, 2),
+    'utf-8',
+  );
+
+  log(`Done ${DOMAIN}: ${items.length} dicts, ${textureCount} textures across ${categories.length} archives (${Object.keys(hashes).length} hashes, ${Object.keys(dictHashes).length} dict hashes).`);
 
   return {
     domain: DOMAIN,
@@ -123,6 +146,7 @@ export async function build({ apiDir, log = console.log }) {
     textureCount,
     index: `api/${DOMAIN}/index.json`,
     hashes: `api/${DOMAIN}/hashes.json`,
+    dictHashes: `api/${DOMAIN}/dicthashes.json`,
     byCategory: `api/${DOMAIN}/by-category/index.json`,
   };
 }
