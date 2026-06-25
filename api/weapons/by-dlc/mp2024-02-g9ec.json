@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "generatedFrom": "github.com/Rendererrr/gtaDiscoveryApi",
+    "cdnBase": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main",
+    "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
+    "domain": "weapons",
+    "label": "Weapons",
+    "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
+    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
+  },
+  "group": {
+    "id": "mp2024_02_g9ec",
+    "name": "Agents of Sabotage",
+    "releaseDate": "2024-12-10",
+    "key": "mp2024_02_g9ec",
+    "slug": "mp2024-02-g9ec",
+    "count": 1
+  },
+  "count": 1,
+  "items": [
+    {
+      "id": "strickler",
+      "name": "El Strickler Military Rifle",
+      "codename": "weapon_strickler",
+      "hash": 2378080583,
+      "category": "Rifle",
+      "url": "https://cdn.jsdelivr.net/gh/Rendererrr/gtaDiscoveryApi@main/assets/weapons/images/El-strickler-icon.png",
+      "dlc": {
+        "id": "mp2024_02_g9ec",
+        "name": "Agents of Sabotage",
+        "releaseDate": "2024-12-10"
+      },
+      "stats": {
+        "damage": 38,
+        "fireRate": 55,
+        "accuracy": 45,
+        "range": 45,
+        "maxAmmo": null
+      },
+      "components": [
+        {
+          "id": "COMPONENT_STRICKLER_CLIP_01",
+          "label": "Default Clip",
+          "hash": 3710001315,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_STRICKLER_SIGHT",
+          "label": "Scope",
+          "hash": 291145905,
+          "default": true
+        },
+        {
+          "id": "COMPONENT_STRICKLER_FLSH",
+          "label": "Flashlight",
+          "hash": 1978284360,
+          "default": true
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Red Fountain"
+        }
+      ]
+    }
+  ]
+}

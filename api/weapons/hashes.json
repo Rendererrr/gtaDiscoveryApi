@@ -8,8 +8,13 @@
     "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
     "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
   },
-  "count": 104,
+  "count": 107,
   "hashes": {
+    "62870901": {
+      "id": "snowlauncher",
+      "name": "Snowball Launcher",
+      "category": "Heavy"
+    },
     "94989220": {
       "id": "combatshotgun",
       "name": "Combat Shotgun",
@@ -225,6 +230,11 @@
       "name": "Precision Rifle",
       "category": "Sniper"
     },
+    "1924557585": {
+      "id": "battlerifle",
+      "name": "Battle Rifle",
+      "category": "Rifle"
+    },
     "2017895192": {
       "id": "sawnoffshotgun",
       "name": "Sawed-Off Shotgun",
@@ -274,6 +284,11 @@
       "id": "flashlight",
       "name": "Flashlight",
       "category": "Melee"
+    },
+    "2378080583": {
+      "id": "strickler",
+      "name": "El Strickler Military Rifle",
+      "category": "Rifle"
     },
     "2441047180": {
       "id": "navyrevolver",

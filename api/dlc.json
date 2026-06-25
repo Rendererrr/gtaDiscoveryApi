@@ -5,7 +5,7 @@
     "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
     "note": "Every GTA DLC that introduced a tagged item, merged across domains and ordered by releaseDate (a content timeline). `domains` = item count per domain; `paths` = the by-dlc slice per domain."
   },
-  "count": 59,
+  "count": 60,
   "dlcs": [
     {
       "name": "Base Game",
@@ -671,12 +671,14 @@
       ],
       "releaseDate": "2023-12-12",
       "domains": {
-        "vehicles": 33
+        "vehicles": 33,
+        "weapons": 2
       },
       "paths": {
-        "vehicles": "api/vehicles/by-dlc/mp2023-02.json"
+        "vehicles": "api/vehicles/by-dlc/mp2023-02.json",
+        "weapons": "api/weapons/by-dlc/mp2023-02.json"
       },
-      "total": 33
+      "total": 35
     },
     {
       "name": "Bottom Dollar Bounties",
@@ -689,6 +691,20 @@
       },
       "paths": {
         "weapons": "api/weapons/by-dlc/mp2024-01.json"
+      },
+      "total": 1
+    },
+    {
+      "name": "Agents of Sabotage",
+      "ids": [
+        "mp2024_02_g9ec"
+      ],
+      "releaseDate": "2024-12-10",
+      "domains": {
+        "weapons": 1
+      },
+      "paths": {
+        "weapons": "api/weapons/by-dlc/mp2024-02-g9ec.json"
       },
       "total": 1
     },

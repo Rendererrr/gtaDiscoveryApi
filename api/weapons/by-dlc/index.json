@@ -8,7 +8,7 @@
     "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
     "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
   },
-  "count": 29,
+  "count": 31,
   "groups": [
     {
       "id": "TitleUpdate",
@@ -263,6 +263,15 @@
       "path": "api/weapons/by-dlc/mp2023-01.json"
     },
     {
+      "id": "mp2023_02",
+      "name": "The Chop Shop",
+      "releaseDate": "2023-12-12",
+      "key": "mp2023_02",
+      "slug": "mp2023-02",
+      "count": 2,
+      "path": "api/weapons/by-dlc/mp2023-02.json"
+    },
+    {
       "id": "mp2024_01",
       "name": "Bottom Dollar Bounties",
       "releaseDate": "2024-06-25",
@@ -270,6 +279,15 @@
       "slug": "mp2024-01",
       "count": 1,
       "path": "api/weapons/by-dlc/mp2024-01.json"
+    },
+    {
+      "id": "mp2024_02_g9ec",
+      "name": "Agents of Sabotage",
+      "releaseDate": "2024-12-10",
+      "key": "mp2024_02_g9ec",
+      "slug": "mp2024-02-g9ec",
+      "count": 1,
+      "path": "api/weapons/by-dlc/mp2024-02-g9ec.json"
     }
   ]
 }
