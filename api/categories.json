@@ -3588,16 +3588,22 @@
     ],
     "weapons": [
       {
+        "name": "Handgun",
+        "slug": "handgun",
+        "count": 19,
+        "path": "api/weapons/by-category/handgun.json"
+      },
+      {
         "name": "Melee",
         "slug": "melee",
         "count": 19,
         "path": "api/weapons/by-category/melee.json"
       },
       {
-        "name": "Handgun",
-        "slug": "handgun",
+        "name": "Misc",
+        "slug": "misc",
         "count": 18,
-        "path": "api/weapons/by-category/handgun.json"
+        "path": "api/weapons/by-category/misc.json"
       },
       {
         "name": "Rifle",
@@ -3608,7 +3614,7 @@
       {
         "name": "Heavy",
         "slug": "heavy",
-        "count": 10,
+        "count": 13,
         "path": "api/weapons/by-category/heavy.json"
       },
       {
@@ -3630,15 +3636,9 @@
         "path": "api/weapons/by-category/thrown.json"
       },
       {
-        "name": "Misc",
-        "slug": "misc",
-        "count": 6,
-        "path": "api/weapons/by-category/misc.json"
-      },
-      {
         "name": "Sniper",
         "slug": "sniper",
-        "count": 6,
+        "count": 7,
         "path": "api/weapons/by-category/sniper.json"
       },
       {

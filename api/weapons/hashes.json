@@ -8,8 +8,13 @@
     "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
     "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
   },
-  "count": 107,
+  "count": 124,
   "hashes": {
+    "28811031": {
+      "id": "briefcase_02",
+      "name": "Briefcase 2",
+      "category": "Misc"
+    },
     "62870901": {
       "id": "snowlauncher",
       "name": "Snowball Launcher",
@@ -24,6 +29,11 @@
       "id": "sniperrifle",
       "name": "Sniper Rifle",
       "category": "Sniper"
+    },
+    "101631238": {
+      "id": "fireextinguisher",
+      "name": "Fire Extinguisher",
+      "category": "Misc"
     },
     "125959754": {
       "id": "compactlauncher",
@@ -70,6 +80,11 @@
       "name": "Tactical SMG",
       "category": "SMG"
     },
+    "406929569": {
+      "id": "fertilizercan",
+      "name": "Fertilizer Can",
+      "category": "Misc"
+    },
     "419712736": {
       "id": "wrench",
       "name": "Pipe Wrench",
@@ -84,6 +99,11 @@
       "id": "pistolxm3",
       "name": "WM 29 Pistol",
       "category": "Handgun"
+    },
+    "485882440": {
+      "id": "hackingdevice",
+      "name": "Hacking Device",
+      "category": "Misc"
     },
     "487013001": {
       "id": "pumpshotgun",
@@ -120,6 +140,16 @@
       "name": "Sticky Bomb",
       "category": "Thrown"
     },
+    "849905853": {
+      "id": "tranquilizer",
+      "name": "Tranquilizer",
+      "category": "Handgun"
+    },
+    "856002082": {
+      "id": "remotesniper",
+      "name": "Remote Sniper",
+      "category": "Sniper"
+    },
     "883325847": {
       "id": "petrolcan",
       "name": "Jerry Can",
@@ -155,6 +185,11 @@
       "name": "Golf Club",
       "category": "Melee"
     },
+    "1171102963": {
+      "id": "stungun_mp",
+      "name": "Stun Gun (MP)",
+      "category": "Misc"
+    },
     "1198256469": {
       "id": "raycarbine",
       "name": "Unholy Hellbringer",
@@ -169,6 +204,11 @@
       "id": "flare",
       "name": "Flare",
       "category": "Thrown"
+    },
+    "1305664598": {
+      "id": "grenadelauncher_smoke",
+      "name": "Tear Gas Launcher",
+      "category": "Heavy"
     },
     "1317494643": {
       "id": "hammer",
@@ -214,6 +254,11 @@
       "id": "nightstick",
       "name": "Nightstick",
       "category": "Melee"
+    },
+    "1752584910": {
+      "id": "stinger",
+      "name": "Stinger",
+      "category": "Heavy"
     },
     "1785463520": {
       "id": "marksmanrifle_mk2",
@@ -279,6 +324,11 @@
       "id": "snspistol_mk2",
       "name": "SNS Pistol Mk II",
       "category": "Handgun"
+    },
+    "2294779575": {
+      "id": "briefcase",
+      "name": "Briefcase",
+      "category": "Misc"
     },
     "2343591895": {
       "id": "flashlight",
@@ -350,6 +400,11 @@
       "name": "Bullpup Shotgun",
       "category": "Shotgun"
     },
+    "2663087251": {
+      "id": "newspaper",
+      "name": "Newspaper",
+      "category": "Misc"
+    },
     "2694266206": {
       "id": "bzgas",
       "name": "BZ Gas",
@@ -395,10 +450,20 @@
       "name": "Widowmaker",
       "category": "Heavy"
     },
+    "3094580364": {
+      "id": "briefcase_03",
+      "name": "Briefcase 3",
+      "category": "Misc"
+    },
     "3125143736": {
       "id": "pipebomb",
       "name": "Pipe Bomb",
       "category": "Thrown"
+    },
+    "3126027122": {
+      "id": "hazardcan",
+      "name": "Hazardous Jerry Can",
+      "category": "Misc"
     },
     "3173288789": {
       "id": "minismg",
@@ -450,6 +515,11 @@
       "name": "Battle Axe",
       "category": "Melee"
     },
+    "3494679629": {
+      "id": "handcuffs",
+      "name": "Handcuffs",
+      "category": "Misc"
+    },
     "3520460075": {
       "id": "tacticalrifle",
       "name": "Service Carbine",
@@ -480,6 +550,11 @@
       "name": "Compact EMP Launcher",
       "category": "Heavy"
     },
+    "3684886537": {
+      "id": "metaldetector",
+      "name": "Metal Detector",
+      "category": "Misc"
+    },
     "3686625920": {
       "id": "combatmg_mk2",
       "name": "Combat MG Mk II",
@@ -499,6 +574,11 @@
       "id": "switchblade",
       "name": "Switchblade",
       "category": "Melee"
+    },
+    "3794977420": {
+      "id": "garbagebag",
+      "name": "Garbage Bag",
+      "category": "Misc"
     },
     "3800352039": {
       "id": "assaultshotgun",
@@ -544,6 +624,11 @@
       "id": "smokegrenade",
       "name": "Tear Gas",
       "category": "Thrown"
+    },
+    "4272043364": {
+      "id": "railgunxm3",
+      "name": "Railgun XM3",
+      "category": "Heavy"
     }
   }
 }

@@ -14,9 +14,9 @@
     "releaseDate": "2021-12-15",
     "key": "mpsecurity",
     "slug": "mpsecurity",
-    "count": 2
+    "count": 4
   },
-  "count": 2,
+  "count": 4,
   "items": [
     {
       "id": "emplauncher",
@@ -45,6 +45,55 @@
           "default": true
         }
       ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "fertilizercan",
+      "name": "Fertilizer Can",
+      "codename": "weapon_fertilizercan",
+      "hash": 406929569,
+      "category": "Misc",
+      "url": null,
+      "dlc": {
+        "id": "mpsecurity",
+        "name": "The Contract",
+        "releaseDate": "2021-12-15"
+      },
+      "stats": null,
+      "components": [],
       "tints": [
         {
           "index": 0,
@@ -140,6 +189,62 @@
           "id": "COMPONENT_AT_AR_AFGRIP",
           "label": "Grip",
           "hash": 202788691,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "stungun_mp",
+      "name": "Stun Gun (MP)",
+      "codename": "weapon_stungun_mp",
+      "hash": 1171102963,
+      "category": "Misc",
+      "url": null,
+      "dlc": {
+        "id": "mpsecurity",
+        "name": "The Contract",
+        "releaseDate": "2021-12-15"
+      },
+      "stats": null,
+      "components": [
+        {
+          "id": "COMPONENT_STUNGUN_VARMOD_BAIL",
+          "label": "COMPONENT_STUNGUN_VARMOD_BAIL",
+          "hash": 2619062263,
           "default": false
         }
       ],

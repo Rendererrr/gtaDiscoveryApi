@@ -5,7 +5,7 @@
     "rawBase": "https://raw.githubusercontent.com/Rendererrr/gtaDiscoveryApi/main",
     "note": "Every GTA DLC that introduced a tagged item, merged across domains and ordered by releaseDate (a content timeline). `domains` = item count per domain; `paths` = the by-dlc slice per domain."
   },
-  "count": 60,
+  "count": 61,
   "dlcs": [
     {
       "name": "Base Game",
@@ -17,14 +17,14 @@
       "domains": {
         "peds": 506,
         "vehicles": 298,
-        "weapons": 38
+        "weapons": 44
       },
       "paths": {
         "peds": "api/peds/by-dlc/basegame.json",
         "vehicles": "api/vehicles/by-dlc/titleupdate.json",
         "weapons": "api/weapons/by-dlc/titleupdate.json"
       },
-      "total": 842
+      "total": 848
     },
     {
       "name": "Beach Bum",
@@ -193,14 +193,14 @@
       "domains": {
         "peds": 23,
         "vehicles": 21,
-        "weapons": 1
+        "weapons": 3
       },
       "paths": {
         "peds": "api/peds/by-dlc/mpheist.json",
         "vehicles": "api/vehicles/by-dlc/mpheist.json",
         "weapons": "api/weapons/by-dlc/mpheist.json"
       },
-      "total": 45
+      "total": 47
     },
     {
       "name": "Ill-Gotten Gains Part 1",
@@ -548,13 +548,13 @@
       "releaseDate": "2019-12-12",
       "domains": {
         "vehicles": 19,
-        "weapons": 2
+        "weapons": 4
       },
       "paths": {
         "vehicles": "api/vehicles/by-dlc/mpheist3.json",
         "weapons": "api/weapons/by-dlc/mpheist3.json"
       },
-      "total": 21
+      "total": 23
     },
     {
       "name": "Los Santos Summer Special",
@@ -608,13 +608,13 @@
       "releaseDate": "2021-12-15",
       "domains": {
         "vehicles": 17,
-        "weapons": 2
+        "weapons": 4
       },
       "paths": {
         "vehicles": "api/vehicles/by-dlc/mpsecurity.json",
         "weapons": "api/weapons/by-dlc/mpsecurity.json"
       },
-      "total": 19
+      "total": 21
     },
     {
       "name": "The Criminal Enterprises",
@@ -624,13 +624,13 @@
       "releaseDate": "2022-07-26",
       "domains": {
         "vehicles": 18,
-        "weapons": 2
+        "weapons": 3
       },
       "paths": {
         "vehicles": "api/vehicles/by-dlc/mpsum2.json",
         "weapons": "api/weapons/by-dlc/mpsum2.json"
       },
-      "total": 20
+      "total": 21
     },
     {
       "name": "Los Santos Drug Wars",
@@ -640,13 +640,13 @@
       "releaseDate": "2022-12-13",
       "domains": {
         "vehicles": 17,
-        "weapons": 3
+        "weapons": 4
       },
       "paths": {
         "vehicles": "api/vehicles/by-dlc/mpchristmas3.json",
         "weapons": "api/weapons/by-dlc/mpchristmas3.json"
       },
-      "total": 20
+      "total": 21
     },
     {
       "name": "San Andreas Mercenaries",
@@ -672,13 +672,13 @@
       "releaseDate": "2023-12-12",
       "domains": {
         "vehicles": 33,
-        "weapons": 2
+        "weapons": 3
       },
       "paths": {
         "vehicles": "api/vehicles/by-dlc/mp2023-02.json",
         "weapons": "api/weapons/by-dlc/mp2023-02.json"
       },
-      "total": 35
+      "total": 36
     },
     {
       "name": "Bottom Dollar Bounties",
@@ -716,13 +716,29 @@
       "releaseDate": "2025-06-17",
       "domains": {
         "peds": 18,
-        "vehicles": 19
+        "vehicles": 19,
+        "weapons": 1
       },
       "paths": {
         "peds": "api/peds/by-dlc/mp2025-01.json",
-        "vehicles": "api/vehicles/by-dlc/mp2025-01.json"
+        "vehicles": "api/vehicles/by-dlc/mp2025-01.json",
+        "weapons": "api/weapons/by-dlc/mp2025-01.json"
       },
-      "total": 37
+      "total": 38
+    },
+    {
+      "name": "A Safehouse in the Hills",
+      "ids": [
+        "mp2025_02"
+      ],
+      "releaseDate": "2025-12-10",
+      "domains": {
+        "weapons": 1
+      },
+      "paths": {
+        "weapons": "api/weapons/by-dlc/mp2025-02.json"
+      },
+      "total": 1
     },
     {
       "name": "Multiplayer Patches",

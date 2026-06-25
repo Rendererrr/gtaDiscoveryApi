@@ -127,6 +127,88 @@ export async function build({ assetsDir, apiDir, log = console.log }) {
   log(`  components: ${withComponents}/${files.length}, tints: ${withTints}/${files.length}, dlc: ${withDlc}/${files.length} (DurtyFree).`);
   if (unmatched.length) log(`  ! no reference entry for: ${unmatched.join(', ')}`);
 
+  // --- Expansion: ownable weapons in the DurtyFree dump that ship no icon. The flat catalog is
+  // icon-driven, so a weapon with no art is otherwise dropped entirely. We append the remaining
+  // *ownable* ones (url=null) so the API covers the full hand-held weapon set, excluding classes that
+  // are not buyable/holdable player weapons: vehicle weapons (their own `vehicleweapons` domain),
+  // animals, environmental damage sources, and world objects. Category is derived from the codename.
+  const EXCLUDE = new Set([
+    'WEAPON_ANIMAL', 'WEAPON_ANIMAL_RETRIEVER', 'WEAPON_SMALL_DOG', 'WEAPON_TIGER_SHARK',
+    'WEAPON_HAMMERHEAD_SHARK', 'WEAPON_KILLER_WHALE', 'WEAPON_BOAR', 'WEAPON_PIG', 'WEAPON_COYOTE',
+    'WEAPON_DEER', 'WEAPON_HEN', 'WEAPON_RABBIT', 'WEAPON_CAT', 'WEAPON_COW', 'WEAPON_BIRD_CRAP',
+    'WEAPON_COUGAR', 'WEAPON_DROWNING', 'WEAPON_DROWNING_IN_VEHICLE', 'WEAPON_BLEEDING',
+    'WEAPON_ELECTRIC_FENCE', 'WEAPON_EXPLOSION', 'WEAPON_FALL', 'WEAPON_EXHAUSTION',
+    'WEAPON_HIT_BY_WATER_CANNON', 'WEAPON_RAMMED_BY_CAR', 'WEAPON_RUN_OVER_BY_CAR', 'WEAPON_HELI_CRASH',
+    'WEAPON_FIRE', 'WEAPON_BARBED_WIRE', 'WEAPON_PASSENGER_ROCKET', 'WEAPON_AIRSTRIKE_ROCKET',
+    'WEAPON_VEHICLE_ROCKET', 'WEAPON_AIR_DEFENCE_GUN', 'WEAPON_ARENA_MACHINE_GUN',
+    'WEAPON_ARENA_HOMING_MISSILE', 'OBJECT', 'GADGET_NIGHTVISION', 'WEAPON_DIGISCANNER',
+  ]);
+  const catFor = (cn) => {
+    if (/SNIPER/.test(cn)) return 'Sniper';
+    if (/SHOTGUN/.test(cn)) return 'Shotgun';
+    if (/(RPG|LAUNCHER|RAILGUN|MINIGUN|HOMING|FIREWORK|STINGER|EMPLAUNCHER)/.test(cn)) return 'Heavy';
+    if (/(SMG|MACHINEPISTOL)/.test(cn)) return 'SMG';
+    if (/(RIFLE|CARBINE)/.test(cn)) return 'Rifle';
+    if (/(PISTOL|REVOLVER|TRANQUILIZER)/.test(cn)) return 'Handgun';
+    if (/(COMBATMG|^WEAPON_MG$)/.test(cn)) return 'MG';
+    if (/(GRENADE|MOLOTOV|STICKY|PROXMINE|PIPEBOMB|SNOWBALL|FLARE|BALL)/.test(cn)) return 'Thrown';
+    if (/(KNIFE|BAT|HAMMER|CROWBAR|MACHETE|HATCHET|DAGGER|KNUCKLE|BOTTLE|GOLFCLUB|POOLCUE|WRENCH|BATTLEAXE|SWITCHBLADE|NIGHTSTICK|STONE)/.test(cn)) return 'Melee';
+    return 'Misc';
+  };
+  // Friendly display names for the icon-less additions (titleCase of the codename is unreadable for
+  // these). Anything not listed falls back to the title-cased codename.
+  const NAME_OVERRIDES = {
+    weapon_railgunxm3: 'Railgun XM3',
+    weapon_remotesniper: 'Remote Sniper',
+    weapon_grenadelauncher_smoke: 'Tear Gas Launcher',
+    weapon_stinger: 'Stinger',
+    weapon_stungun_mp: 'Stun Gun (MP)',
+    weapon_tranquilizer: 'Tranquilizer',
+    weapon_fertilizercan: 'Fertilizer Can',
+    weapon_hazardcan: 'Hazardous Jerry Can',
+    weapon_fireextinguisher: 'Fire Extinguisher',
+    weapon_garbagebag: 'Garbage Bag',
+    weapon_hackingdevice: 'Hacking Device',
+    weapon_handcuffs: 'Handcuffs',
+    weapon_metaldetector: 'Metal Detector',
+    weapon_newspaper: 'Newspaper',
+    weapon_briefcase: 'Briefcase',
+    weapon_briefcase_02: 'Briefcase 2',
+    weapon_briefcase_03: 'Briefcase 3',
+  };
+  const have = new Set(items.map((it) => (it.codename || '').toUpperCase()).filter(Boolean));
+  let expanded = 0;
+  for (const cnUpper of Object.keys(COMP)) {
+    if (have.has(cnUpper) || EXCLUDE.has(cnUpper) || cnUpper.startsWith('VEHICLE_WEAPON_')) continue;
+    const codename = cnUpper.toLowerCase();
+    const ves = BY_SPAWN.get(codename);
+    const stats = ves?.stats ?? EXTRA_BY_CODE.get(codename) ?? null;
+    const df = COMP_BY_CODE.get(cnUpper);
+    const components = df?.components?.length ? df.components : (ves?.components ?? []);
+    const tints = df?.tints ?? [];
+    const dlc = df?.dlc
+      ? { id: df.dlc, name: DLC_LABELS[df.dlc]?.name ?? df.dlc, releaseDate: DLC_LABELS[df.dlc]?.releaseDate ?? null }
+      : null;
+    if (stats) withStats++;
+    if (components.length) withComponents++;
+    if (tints.length) withTints++;
+    if (dlc) withDlc++;
+    items.push({
+      id: idFromCodename(codename),
+      name: NAME_OVERRIDES[codename] ?? titleCase(idFromCodename(codename)),
+      codename,
+      hash: joaat(codename),
+      category: catFor(cnUpper),
+      url: null,
+      dlc,
+      stats,
+      components,
+      tints,
+    });
+    expanded++;
+  }
+  log(`  expansion: +${expanded} ownable weapons from DurtyFree without icons (url=null); total ${items.length}.`);
+
   items.sort((a, b) => a.name.localeCompare(b.name));
 
   return writeFlatDomain({

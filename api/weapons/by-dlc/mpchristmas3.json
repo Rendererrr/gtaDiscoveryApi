@@ -14,9 +14,9 @@
     "releaseDate": "2022-12-13",
     "key": "mpchristmas3",
     "slug": "mpchristmas3",
-    "count": 3
+    "count": 4
   },
-  "count": 3,
+  "count": 4,
   "items": [
     {
       "id": "acidpackage",
@@ -81,6 +81,62 @@
       },
       "stats": null,
       "components": [],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "railgunxm3",
+      "name": "Railgun XM3",
+      "codename": "weapon_railgunxm3",
+      "hash": 4272043364,
+      "category": "Heavy",
+      "url": null,
+      "dlc": {
+        "id": "mpchristmas3",
+        "name": "Los Santos Drug Wars",
+        "releaseDate": "2022-12-13"
+      },
+      "stats": null,
+      "components": [
+        {
+          "id": "COMPONENT_RAILGUNXM3_CLIP_01",
+          "label": "Default Clip",
+          "hash": 1130760338,
+          "default": true
+        }
+      ],
       "tints": [
         {
           "index": 0,

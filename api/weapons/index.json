@@ -10,11 +10,15 @@
   },
   "categories": [
     {
+      "name": "Handgun",
+      "count": 19
+    },
+    {
       "name": "Melee",
       "count": 19
     },
     {
-      "name": "Handgun",
+      "name": "Misc",
       "count": 18
     },
     {
@@ -23,7 +27,7 @@
     },
     {
       "name": "Heavy",
-      "count": 10
+      "count": 13
     },
     {
       "name": "Shotgun",
@@ -38,19 +42,15 @@
       "count": 10
     },
     {
-      "name": "Misc",
-      "count": 6
-    },
-    {
       "name": "Sniper",
-      "count": 6
+      "count": 7
     },
     {
       "name": "MG",
       "count": 3
     }
   ],
-  "count": 107,
+  "count": 124,
   "items": [
     {
       "id": "acidpackage",
@@ -1291,6 +1291,153 @@
           "default": false
         }
       ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "briefcase",
+      "name": "Briefcase",
+      "codename": "weapon_briefcase",
+      "hash": 2294779575,
+      "category": "Misc",
+      "url": null,
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": null,
+      "components": [],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "briefcase_02",
+      "name": "Briefcase 2",
+      "codename": "weapon_briefcase_02",
+      "hash": 28811031,
+      "category": "Misc",
+      "url": null,
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": null,
+      "components": [],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "briefcase_03",
+      "name": "Briefcase 3",
+      "codename": "weapon_briefcase_03",
+      "hash": 3094580364,
+      "category": "Misc",
+      "url": null,
+      "dlc": {
+        "id": "mp2025_01",
+        "name": "Money Fronts",
+        "releaseDate": "2025-06-17"
+      },
+      "stats": null,
+      "components": [],
       "tints": [
         {
           "index": 0,
@@ -3445,6 +3592,110 @@
       ]
     },
     {
+      "id": "fertilizercan",
+      "name": "Fertilizer Can",
+      "codename": "weapon_fertilizercan",
+      "hash": 406929569,
+      "category": "Misc",
+      "url": null,
+      "dlc": {
+        "id": "mpsecurity",
+        "name": "The Contract",
+        "releaseDate": "2021-12-15"
+      },
+      "stats": null,
+      "components": [],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "fireextinguisher",
+      "name": "Fire Extinguisher",
+      "codename": "weapon_fireextinguisher",
+      "hash": 101631238,
+      "category": "Misc",
+      "url": null,
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": {
+        "damage": 0,
+        "fireRate": 100,
+        "accuracy": 10,
+        "range": 35,
+        "maxAmmo": 2000
+      },
+      "components": [],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
       "id": "firework",
       "name": "Firework Launcher",
       "codename": "weapon_firework",
@@ -3699,6 +3950,55 @@
           "default": true
         }
       ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "garbagebag",
+      "name": "Garbage Bag",
+      "codename": "weapon_garbagebag",
+      "hash": 3794977420,
+      "category": "Misc",
+      "url": null,
+      "dlc": {
+        "id": "mpheist",
+        "name": "The Heists Update",
+        "releaseDate": "2015-03-10"
+      },
+      "stats": null,
+      "components": [],
       "tints": [
         {
           "index": 0,
@@ -3993,6 +4293,55 @@
       ]
     },
     {
+      "id": "hackingdevice",
+      "name": "Hacking Device",
+      "codename": "weapon_hackingdevice",
+      "hash": 485882440,
+      "category": "Misc",
+      "url": null,
+      "dlc": {
+        "id": "mp2023_02",
+        "name": "The Chop Shop",
+        "releaseDate": "2023-12-12"
+      },
+      "stats": null,
+      "components": [],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
       "id": "hammer",
       "name": "Hammer",
       "codename": "weapon_hammer",
@@ -4048,6 +4397,55 @@
       ]
     },
     {
+      "id": "handcuffs",
+      "name": "Handcuffs",
+      "codename": "weapon_handcuffs",
+      "hash": 3494679629,
+      "category": "Misc",
+      "url": null,
+      "dlc": {
+        "id": "mpheist",
+        "name": "The Heists Update",
+        "releaseDate": "2015-03-10"
+      },
+      "stats": null,
+      "components": [],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
       "id": "hatchet",
       "name": "Hatchet",
       "codename": "weapon_hatchet",
@@ -4066,6 +4464,55 @@
         "range": 0,
         "maxAmmo": 0
       },
+      "components": [],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "hazardcan",
+      "name": "Hazardous Jerry Can",
+      "codename": "weapon_hazardcan",
+      "hash": 3126027122,
+      "category": "Misc",
+      "url": null,
+      "dlc": {
+        "id": "mpheist3",
+        "name": "The Diamond Casino Heist",
+        "releaseDate": "2019-12-12"
+      },
+      "stats": null,
       "components": [],
       "tints": [
         {
@@ -5817,6 +6264,55 @@
       ]
     },
     {
+      "id": "metaldetector",
+      "name": "Metal Detector",
+      "codename": "weapon_metaldetector",
+      "hash": 3684886537,
+      "category": "Misc",
+      "url": null,
+      "dlc": {
+        "id": "mpsum2",
+        "name": "The Criminal Enterprises",
+        "releaseDate": "2022-07-26"
+      },
+      "stats": null,
+      "components": [],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
       "id": "mg",
       "name": "MG",
       "codename": "weapon_mg",
@@ -6376,6 +6872,55 @@
         {
           "index": 0,
           "label": "Black tint"
+        }
+      ]
+    },
+    {
+      "id": "newspaper",
+      "name": "Newspaper",
+      "codename": "weapon_newspaper",
+      "hash": 2663087251,
+      "category": "Misc",
+      "url": null,
+      "dlc": {
+        "id": "mp2025_02",
+        "name": "A Safehouse in the Hills",
+        "releaseDate": "2025-12-10"
+      },
+      "stats": null,
+      "components": [],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
         }
       ]
     },
@@ -7580,6 +8125,111 @@
           "default": true
         }
       ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "railgunxm3",
+      "name": "Railgun XM3",
+      "codename": "weapon_railgunxm3",
+      "hash": 4272043364,
+      "category": "Heavy",
+      "url": null,
+      "dlc": {
+        "id": "mpchristmas3",
+        "name": "Los Santos Drug Wars",
+        "releaseDate": "2022-12-13"
+      },
+      "stats": null,
+      "components": [
+        {
+          "id": "COMPONENT_RAILGUNXM3_CLIP_01",
+          "label": "Default Clip",
+          "hash": 1130760338,
+          "default": true
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "remotesniper",
+      "name": "Remote Sniper",
+      "codename": "weapon_remotesniper",
+      "hash": 856002082,
+      "category": "Sniper",
+      "url": null,
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": null,
+      "components": [],
       "tints": [
         {
           "index": 0,
@@ -9163,6 +9813,62 @@
       ]
     },
     {
+      "id": "stinger",
+      "name": "Stinger",
+      "codename": "weapon_stinger",
+      "hash": 1752584910,
+      "category": "Heavy",
+      "url": null,
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": null,
+      "components": [
+        {
+          "id": "COMPONENT_RPG_CLIP_01",
+          "label": "Default Clip",
+          "hash": 1319465907,
+          "default": true
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
       "id": "stone_hatchet",
       "name": "Stone Hatchet",
       "codename": "weapon_stone_hatchet",
@@ -9237,6 +9943,62 @@
         "maxAmmo": 250
       },
       "components": [],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "stungun_mp",
+      "name": "Stun Gun (MP)",
+      "codename": "weapon_stungun_mp",
+      "hash": 1171102963,
+      "category": "Misc",
+      "url": null,
+      "dlc": {
+        "id": "mpsecurity",
+        "name": "The Contract",
+        "releaseDate": "2021-12-15"
+      },
+      "stats": null,
+      "components": [
+        {
+          "id": "COMPONENT_STUNGUN_VARMOD_BAIL",
+          "label": "COMPONENT_STUNGUN_VARMOD_BAIL",
+          "hash": 2619062263,
+          "default": false
+        }
+      ],
       "tints": [
         {
           "index": 0,
@@ -9544,6 +10306,74 @@
       ]
     },
     {
+      "id": "grenadelauncher_smoke",
+      "name": "Tear Gas Launcher",
+      "codename": "weapon_grenadelauncher_smoke",
+      "hash": 1305664598,
+      "category": "Heavy",
+      "url": null,
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": null,
+      "components": [
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP",
+          "label": "Grip",
+          "hash": 202788691,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_SMALL",
+          "label": "Scope",
+          "hash": 2855028148,
+          "default": false
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
       "id": "stunrod",
       "name": "The Shocker",
       "codename": "weapon_stunrod",
@@ -9554,6 +10384,55 @@
         "id": "mp2024_01",
         "name": "Bottom Dollar Bounties",
         "releaseDate": "2024-06-25"
+      },
+      "stats": null,
+      "components": [],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "tranquilizer",
+      "name": "Tranquilizer",
+      "codename": "weapon_tranquilizer",
+      "hash": 849905853,
+      "category": "Handgun",
+      "url": null,
+      "dlc": {
+        "id": "mpheist3",
+        "name": "The Diamond Casino Heist",
+        "releaseDate": "2019-12-12"
       },
       "stats": null,
       "components": [],

@@ -8,7 +8,7 @@
     "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
     "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
   },
-  "count": 31,
+  "count": 33,
   "groups": [
     {
       "id": "TitleUpdate",
@@ -16,7 +16,7 @@
       "releaseDate": "2013-09-17",
       "key": "TitleUpdate",
       "slug": "titleupdate",
-      "count": 38,
+      "count": 44,
       "path": "api/weapons/by-dlc/titleupdate.json"
     },
     {
@@ -106,7 +106,7 @@
       "releaseDate": "2015-03-10",
       "key": "mpheist",
       "slug": "mpheist",
-      "count": 1,
+      "count": 3,
       "path": "api/weapons/by-dlc/mpheist.json"
     },
     {
@@ -214,7 +214,7 @@
       "releaseDate": "2019-12-12",
       "key": "mpheist3",
       "slug": "mpheist3",
-      "count": 2,
+      "count": 4,
       "path": "api/weapons/by-dlc/mpheist3.json"
     },
     {
@@ -232,7 +232,7 @@
       "releaseDate": "2021-12-15",
       "key": "mpsecurity",
       "slug": "mpsecurity",
-      "count": 2,
+      "count": 4,
       "path": "api/weapons/by-dlc/mpsecurity.json"
     },
     {
@@ -241,7 +241,7 @@
       "releaseDate": "2022-07-26",
       "key": "mpsum2",
       "slug": "mpsum2",
-      "count": 2,
+      "count": 3,
       "path": "api/weapons/by-dlc/mpsum2.json"
     },
     {
@@ -250,7 +250,7 @@
       "releaseDate": "2022-12-13",
       "key": "mpchristmas3",
       "slug": "mpchristmas3",
-      "count": 3,
+      "count": 4,
       "path": "api/weapons/by-dlc/mpchristmas3.json"
     },
     {
@@ -268,7 +268,7 @@
       "releaseDate": "2023-12-12",
       "key": "mp2023_02",
       "slug": "mp2023-02",
-      "count": 2,
+      "count": 3,
       "path": "api/weapons/by-dlc/mp2023-02.json"
     },
     {
@@ -288,6 +288,24 @@
       "slug": "mp2024-02-g9ec",
       "count": 1,
       "path": "api/weapons/by-dlc/mp2024-02-g9ec.json"
+    },
+    {
+      "id": "mp2025_01",
+      "name": "Money Fronts",
+      "releaseDate": "2025-06-17",
+      "key": "mp2025_01",
+      "slug": "mp2025-01",
+      "count": 1,
+      "path": "api/weapons/by-dlc/mp2025-01.json"
+    },
+    {
+      "id": "mp2025_02",
+      "name": "A Safehouse in the Hills",
+      "releaseDate": "2025-12-10",
+      "key": "mp2025_02",
+      "slug": "mp2025-02",
+      "count": 1,
+      "path": "api/weapons/by-dlc/mp2025-02.json"
     }
   ]
 }

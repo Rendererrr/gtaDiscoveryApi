@@ -12,9 +12,9 @@
     "name": "Heavy",
     "key": "Heavy",
     "slug": "heavy",
-    "count": 10
+    "count": 13
   },
-  "count": 10,
+  "count": 13,
   "items": [
     {
       "id": "emplauncher",
@@ -469,6 +469,62 @@
       ]
     },
     {
+      "id": "railgunxm3",
+      "name": "Railgun XM3",
+      "codename": "weapon_railgunxm3",
+      "hash": 4272043364,
+      "category": "Heavy",
+      "url": null,
+      "dlc": {
+        "id": "mpchristmas3",
+        "name": "Los Santos Drug Wars",
+        "releaseDate": "2022-12-13"
+      },
+      "stats": null,
+      "components": [
+        {
+          "id": "COMPONENT_RAILGUNXM3_CLIP_01",
+          "label": "Default Clip",
+          "hash": 1130760338,
+          "default": true
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
       "id": "rpg",
       "name": "RPG",
       "codename": "weapon_rpg",
@@ -556,6 +612,130 @@
         "maxAmmo": null
       },
       "components": [],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "stinger",
+      "name": "Stinger",
+      "codename": "weapon_stinger",
+      "hash": 1752584910,
+      "category": "Heavy",
+      "url": null,
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": null,
+      "components": [
+        {
+          "id": "COMPONENT_RPG_CLIP_01",
+          "label": "Default Clip",
+          "hash": 1319465907,
+          "default": true
+        }
+      ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "grenadelauncher_smoke",
+      "name": "Tear Gas Launcher",
+      "codename": "weapon_grenadelauncher_smoke",
+      "hash": 1305664598,
+      "category": "Heavy",
+      "url": null,
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": null,
+      "components": [
+        {
+          "id": "COMPONENT_AT_AR_FLSH",
+          "label": "Flashlight",
+          "hash": 2076495324,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_AR_AFGRIP",
+          "label": "Grip",
+          "hash": 202788691,
+          "default": false
+        },
+        {
+          "id": "COMPONENT_AT_SCOPE_SMALL",
+          "label": "Scope",
+          "hash": 2855028148,
+          "default": false
+        }
+      ],
       "tints": [
         {
           "index": 0,

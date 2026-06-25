@@ -12,9 +12,9 @@
     "name": "Sniper",
     "key": "Sniper",
     "slug": "sniper",
-    "count": 6
+    "count": 7
   },
-  "count": 6,
+  "count": 7,
   "items": [
     {
       "id": "heavysniper",
@@ -761,6 +761,55 @@
           "default": true
         }
       ],
+      "tints": [
+        {
+          "index": 0,
+          "label": "Black tint"
+        },
+        {
+          "index": 1,
+          "label": "Green tint"
+        },
+        {
+          "index": 2,
+          "label": "Gold tint"
+        },
+        {
+          "index": 3,
+          "label": "Pink tint"
+        },
+        {
+          "index": 4,
+          "label": "Army tint"
+        },
+        {
+          "index": 5,
+          "label": "LSPD tint"
+        },
+        {
+          "index": 6,
+          "label": "Orange tint"
+        },
+        {
+          "index": 7,
+          "label": "Platinum tint"
+        }
+      ]
+    },
+    {
+      "id": "remotesniper",
+      "name": "Remote Sniper",
+      "codename": "weapon_remotesniper",
+      "hash": 856002082,
+      "category": "Sniper",
+      "url": null,
+      "dlc": {
+        "id": "TitleUpdate",
+        "name": "Base Game",
+        "releaseDate": "2013-09-17"
+      },
+      "stats": null,
+      "components": [],
       "tints": [
         {
           "index": 0,
