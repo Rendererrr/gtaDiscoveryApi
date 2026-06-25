@@ -6,7 +6,7 @@
     "domain": "weapons",
     "label": "Weapons",
     "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
-    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
+    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. wt = Ammu-Nation shop token (build transaction WP_<wt>_t{t}_v{v}); null = not purchasable. components[] = { id, label, hash, default }; tints[] = { index, label }."
   },
   "group": {
     "id": "mpchristmas2018",
@@ -37,6 +37,7 @@
         "range": 60,
         "maxAmmo": 250
       },
+      "wt": "WT_RAYCARBINE",
       "components": [],
       "tints": [
         {
@@ -88,6 +89,7 @@
         "range": 20,
         "maxAmmo": 20
       },
+      "wt": "WT_RAYPISTOL",
       "components": [
         {
           "id": "COMPONENT_RAYPISTOL_VARMOD_XMAS18",
@@ -146,6 +148,7 @@
         "range": 55,
         "maxAmmo": 250
       },
+      "wt": "WT_RAYMINIGUN",
       "components": [
         {
           "id": "COMPONENT_MINIGUN_CLIP_01",

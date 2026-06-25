@@ -6,7 +6,7 @@
     "domain": "weapons",
     "label": "Weapons",
     "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
-    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
+    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. wt = Ammu-Nation shop token (build transaction WP_<wt>_t{t}_v{v}); null = not purchasable. components[] = { id, label, hash, default }; tints[] = { index, label }."
   },
   "group": {
     "id": "mpsecurity",
@@ -37,6 +37,7 @@
         "range": 55,
         "maxAmmo": null
       },
+      "wt": "WT_EMPL",
       "components": [
         {
           "id": "COMPONENT_EMPLAUNCHER_CLIP_01",
@@ -93,6 +94,7 @@
         "releaseDate": "2021-12-15"
       },
       "stats": null,
+      "wt": "WT_FERTCAN",
       "components": [],
       "tints": [
         {
@@ -148,6 +150,7 @@
         "range": 45,
         "maxAmmo": null
       },
+      "wt": "WT_HEAVYRIFLE",
       "components": [
         {
           "id": "COMPONENT_HEAVYRIFLE_CLIP_01",
@@ -240,6 +243,7 @@
         "releaseDate": "2021-12-15"
       },
       "stats": null,
+      "wt": "WT_STNGUNMP",
       "components": [
         {
           "id": "COMPONENT_STUNGUN_VARMOD_BAIL",

@@ -6,7 +6,7 @@
     "domain": "weapons",
     "label": "Weapons",
     "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
-    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
+    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. wt = Ammu-Nation shop token (build transaction WP_<wt>_t{t}_v{v}); null = not purchasable. components[] = { id, label, hash, default }; tints[] = { index, label }."
   },
   "group": {
     "id": "mpchristmas2017",
@@ -37,6 +37,7 @@
         "range": 45,
         "maxAmmo": 250
       },
+      "wt": "WT_BULLRIFLE2",
       "components": [
         {
           "id": "COMPONENT_BULLPUPRIFLE_MK2_CLIP_01",
@@ -319,6 +320,7 @@
         "range": 35,
         "maxAmmo": 250
       },
+      "wt": "WT_REV_DA",
       "components": [
         {
           "id": "COMPONENT_DOUBLEACTION_CLIP_01",
@@ -353,6 +355,7 @@
         "range": 35,
         "maxAmmo": 250
       },
+      "wt": "WT_REVOLVER2",
       "components": [
         {
           "id": "COMPONENT_REVOLVER_MK2_CLIP_01",
@@ -563,6 +566,7 @@
         "range": 90,
         "maxAmmo": 250
       },
+      "wt": "WT_MKRIFLE2",
       "components": [
         {
           "id": "COMPONENT_MARKSMANRIFLE_MK2_CLIP_01",
@@ -845,6 +849,7 @@
         "range": 20,
         "maxAmmo": 250
       },
+      "wt": "WT_SG_PMP2",
       "components": [
         {
           "id": "COMPONENT_PUMPSHOTGUN_MK2_CLIP_01",
@@ -1067,6 +1072,7 @@
         "range": 20,
         "maxAmmo": 250
       },
+      "wt": "WT_SNSPISTOL2",
       "components": [
         {
           "id": "COMPONENT_SNSPISTOL_MK2_CLIP_01",
@@ -1283,6 +1289,7 @@
         "range": 40,
         "maxAmmo": 250
       },
+      "wt": "WT_SPCARBINE2",
       "components": [
         {
           "id": "COMPONENT_SPECIALCARBINE_MK2_CLIP_01",

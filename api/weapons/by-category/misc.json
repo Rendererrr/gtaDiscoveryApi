@@ -6,7 +6,7 @@
     "domain": "weapons",
     "label": "Weapons",
     "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
-    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
+    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. wt = Ammu-Nation shop token (build transaction WP_<wt>_t{t}_v{v}); null = not purchasable. components[] = { id, label, hash, default }; tints[] = { index, label }."
   },
   "group": {
     "name": "Misc",
@@ -29,6 +29,7 @@
         "releaseDate": "2022-12-13"
       },
       "stats": null,
+      "wt": null,
       "components": [],
       "tints": [
         {
@@ -78,6 +79,7 @@
         "releaseDate": "2013-09-17"
       },
       "stats": null,
+      "wt": null,
       "components": [],
       "tints": [
         {
@@ -127,6 +129,7 @@
         "releaseDate": "2013-09-17"
       },
       "stats": null,
+      "wt": null,
       "components": [],
       "tints": [
         {
@@ -176,6 +179,7 @@
         "releaseDate": "2025-06-17"
       },
       "stats": null,
+      "wt": null,
       "components": [],
       "tints": [
         {
@@ -225,6 +229,7 @@
         "releaseDate": "2021-12-15"
       },
       "stats": null,
+      "wt": "WT_FERTCAN",
       "components": [],
       "tints": [
         {
@@ -280,6 +285,7 @@
         "range": 35,
         "maxAmmo": 2000
       },
+      "wt": null,
       "components": [],
       "tints": [
         {
@@ -329,6 +335,7 @@
         "releaseDate": "2015-03-10"
       },
       "stats": null,
+      "wt": null,
       "components": [],
       "tints": [
         {
@@ -378,6 +385,7 @@
         "releaseDate": "2023-12-12"
       },
       "stats": null,
+      "wt": null,
       "components": [],
       "tints": [
         {
@@ -427,6 +435,7 @@
         "releaseDate": "2015-03-10"
       },
       "stats": null,
+      "wt": null,
       "components": [],
       "tints": [
         {
@@ -476,6 +485,7 @@
         "releaseDate": "2019-12-12"
       },
       "stats": null,
+      "wt": null,
       "components": [],
       "tints": [
         {
@@ -531,6 +541,7 @@
         "range": 1,
         "maxAmmo": 4500
       },
+      "wt": "WT_PETROL",
       "components": [],
       "tints": [
         {
@@ -580,6 +591,7 @@
         "releaseDate": "2022-07-26"
       },
       "stats": null,
+      "wt": null,
       "components": [],
       "tints": [
         {
@@ -629,6 +641,7 @@
         "releaseDate": "2025-12-10"
       },
       "stats": null,
+      "wt": null,
       "components": [],
       "tints": [
         {
@@ -678,6 +691,7 @@
         "releaseDate": "2013-09-17"
       },
       "stats": null,
+      "wt": null,
       "components": [],
       "tints": [
         {
@@ -733,6 +747,7 @@
         "range": 5,
         "maxAmmo": 250
       },
+      "wt": "WT_STUN",
       "components": [],
       "tints": [
         {
@@ -782,6 +797,7 @@
         "releaseDate": "2021-12-15"
       },
       "stats": null,
+      "wt": "WT_STNGUNMP",
       "components": [
         {
           "id": "COMPONENT_STUNGUN_VARMOD_BAIL",
@@ -838,6 +854,7 @@
         "releaseDate": "2024-06-25"
       },
       "stats": null,
+      "wt": "WT_STUNROD",
       "components": [],
       "tints": [
         {
@@ -893,6 +910,7 @@
         "range": 20,
         "maxAmmo": 20
       },
+      "wt": "WT_RAYPISTOL",
       "components": [
         {
           "id": "COMPONENT_RAYPISTOL_VARMOD_XMAS18",

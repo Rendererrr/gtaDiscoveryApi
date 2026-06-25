@@ -6,7 +6,7 @@
     "domain": "weapons",
     "label": "Weapons",
     "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
-    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
+    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. wt = Ammu-Nation shop token (build transaction WP_<wt>_t{t}_v{v}); null = not purchasable. components[] = { id, label, hash, default }; tints[] = { index, label }."
   },
   "group": {
     "id": "mpbiker",
@@ -37,6 +37,7 @@
         "range": 0,
         "maxAmmo": 0
       },
+      "wt": "WT_BATTLEAXE",
       "components": [],
       "tints": [
         {
@@ -92,6 +93,7 @@
         "range": 55,
         "maxAmmo": 20
       },
+      "wt": "WT_CMPGL",
       "components": [
         {
           "id": "COMPONENT_COMPACTLAUNCHER_CLIP_01",
@@ -154,6 +156,7 @@
         "range": 30,
         "maxAmmo": 250
       },
+      "wt": "WT_MINISMG",
       "components": [
         {
           "id": "COMPONENT_MINISMG_CLIP_01",
@@ -222,6 +225,7 @@
         "range": 15,
         "maxAmmo": 10
       },
+      "wt": "WT_PIPEBOMB",
       "components": [],
       "tints": [
         {
@@ -277,6 +281,7 @@
         "range": 0,
         "maxAmmo": 0
       },
+      "wt": "WT_WRENCH",
       "components": [],
       "tints": [
         {
@@ -332,6 +337,7 @@
         "range": 0,
         "maxAmmo": 0
       },
+      "wt": "WT_POOLCUE",
       "components": [],
       "tints": [
         {
@@ -387,6 +393,7 @@
         "range": 20,
         "maxAmmo": 250
       },
+      "wt": "WT_AUTOSHGN",
       "components": [
         {
           "id": "COMPONENT_AUTOSHOTGUN_CLIP_01",

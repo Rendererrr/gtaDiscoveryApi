@@ -6,7 +6,7 @@
     "domain": "weapons",
     "label": "Weapons",
     "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
-    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
+    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. wt = Ammu-Nation shop token (build transaction WP_<wt>_t{t}_v{v}); null = not purchasable. components[] = { id, label, hash, default }; tints[] = { index, label }."
   },
   "group": {
     "id": "mpapartment",
@@ -37,6 +37,7 @@
         "range": 35,
         "maxAmmo": 250
       },
+      "wt": "WT_REVOLVER",
       "components": [
         {
           "id": "COMPONENT_REVOLVER_CLIP_01",
@@ -117,6 +118,7 @@
         "range": 0,
         "maxAmmo": 0
       },
+      "wt": "WT_SWBLADE",
       "components": [
         {
           "id": "COMPONENT_SWITCHBLADE_VARMOD_BASE",

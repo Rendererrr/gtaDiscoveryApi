@@ -32,6 +32,8 @@ const COMP = JSON.parse(await readFile(join(ROOT, 'src', 'data', 'weapons.compon
 const COMP_BY_CODE = new Map(Object.entries(COMP).map(([cn, v]) => [cn.toUpperCase(), v]));
 // Internal DLC code -> friendly marketing name.
 const DLC_LABELS = JSON.parse(await readFile(join(ROOT, 'src', 'data', 'dlc.labels.json'), 'utf-8')).labels;
+// Shop "WT_*" token per weapon codename (Ammu-Nation purchase). Absent => not purchasable.
+const WT = JSON.parse(await readFile(join(ROOT, 'src', 'data', 'weapons.wt.json'), 'utf-8')).wt;
 
 // stem -> reference entry
 const BY_FILE = new Map(REF.weapons.map((w) => [w.file.toLowerCase(), w]));
@@ -101,6 +103,7 @@ export async function build({ assetsDir, apiDir, log = console.log }) {
         url,
         dlc,
         stats,
+        wt: WT[ref.codename.toLowerCase()] ?? null,
         components,
         tints,
       });
@@ -116,6 +119,7 @@ export async function build({ assetsDir, apiDir, log = console.log }) {
         url,
         dlc: null,
         stats: null,
+        wt: null,
         components: [],
         tints: [],
       });
@@ -202,6 +206,7 @@ export async function build({ assetsDir, apiDir, log = console.log }) {
       url: null,
       dlc,
       stats,
+      wt: WT[codename] ?? null,
       components,
       tints,
     });
@@ -214,7 +219,7 @@ export async function build({ assetsDir, apiDir, log = console.log }) {
   return writeFlatDomain({
     apiDir, domain: DOMAIN, label: LABEL,
     urlPattern: `{cdnBase}/assets/${DOMAIN}/images/{File}-icon.png`,
-    note: 'Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }.',
+    note: 'Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. wt = Ammu-Nation shop token (build transaction WP_<wt>_t{t}_v{v}); null = not purchasable. components[] = { id, label, hash, default }; tints[] = { index, label }.',
     items, log,
   });
 }

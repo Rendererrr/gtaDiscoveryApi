@@ -6,7 +6,7 @@
     "domain": "weapons",
     "label": "Weapons",
     "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
-    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
+    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. wt = Ammu-Nation shop token (build transaction WP_<wt>_t{t}_v{v}); null = not purchasable. components[] = { id, label, hash, default }; tints[] = { index, label }."
   },
   "categories": [
     {
@@ -65,6 +65,7 @@
         "releaseDate": "2022-12-13"
       },
       "stats": null,
+      "wt": null,
       "components": [],
       "tints": [
         {
@@ -120,6 +121,7 @@
         "range": 45,
         "maxAmmo": 250
       },
+      "wt": "WT_RIFLE_ADV",
       "components": [
         {
           "id": "COMPONENT_ADVANCEDRIFLE_CLIP_01",
@@ -212,6 +214,7 @@
         "range": 0,
         "maxAmmo": 0
       },
+      "wt": "WT_DAGGER",
       "components": [],
       "tints": [
         {
@@ -267,6 +270,7 @@
         "range": 30,
         "maxAmmo": 250
       },
+      "wt": "WT_PIST_AP",
       "components": [
         {
           "id": "COMPONENT_APPISTOL_CLIP_01",
@@ -359,6 +363,7 @@
         "range": 45,
         "maxAmmo": 250
       },
+      "wt": "WT_RIFLE_ASL",
       "components": [
         {
           "id": "COMPONENT_ASSAULTRIFLE_CLIP_01",
@@ -469,6 +474,7 @@
         "range": 45,
         "maxAmmo": 250
       },
+      "wt": "WT_RIFLE_ASL2",
       "components": [
         {
           "id": "COMPONENT_ASSAULTRIFLE_MK2_CLIP_01",
@@ -751,6 +757,7 @@
         "range": 15,
         "maxAmmo": 250
       },
+      "wt": "WT_SG_ASL",
       "components": [
         {
           "id": "COMPONENT_ASSAULTSHOTGUN_CLIP_01",
@@ -837,6 +844,7 @@
         "range": 40,
         "maxAmmo": 250
       },
+      "wt": "WT_SMG_ASL",
       "components": [
         {
           "id": "COMPONENT_ASSAULTSMG_CLIP_01",
@@ -929,6 +937,7 @@
         "range": 0,
         "maxAmmo": 1
       },
+      "wt": null,
       "components": [],
       "tints": [
         {
@@ -984,6 +993,7 @@
         "range": 0,
         "maxAmmo": 0
       },
+      "wt": "WT_BAT",
       "components": [
         {
           "id": "COMPONENT_BAT_VARMOD_XM3",
@@ -1100,6 +1110,7 @@
         "range": 0,
         "maxAmmo": 0
       },
+      "wt": "WT_BATTLEAXE",
       "components": [],
       "tints": [
         {
@@ -1155,6 +1166,7 @@
         "range": 45,
         "maxAmmo": null
       },
+      "wt": "WT_BATTLERIFLE",
       "components": [
         {
           "id": "COMPONENT_BATTLERIFLE_CLIP_01",
@@ -1229,6 +1241,7 @@
         "range": 0,
         "maxAmmo": 0
       },
+      "wt": "WT_KNUCKLE",
       "components": [
         {
           "id": "COMPONENT_KNUCKLE_VARMOD_BASE",
@@ -1339,6 +1352,7 @@
         "releaseDate": "2013-09-17"
       },
       "stats": null,
+      "wt": null,
       "components": [],
       "tints": [
         {
@@ -1388,6 +1402,7 @@
         "releaseDate": "2013-09-17"
       },
       "stats": null,
+      "wt": null,
       "components": [],
       "tints": [
         {
@@ -1437,6 +1452,7 @@
         "releaseDate": "2025-06-17"
       },
       "stats": null,
+      "wt": null,
       "components": [],
       "tints": [
         {
@@ -1492,6 +1508,7 @@
         "range": 0,
         "maxAmmo": 0
       },
+      "wt": "WT_BOTTLE",
       "components": [],
       "tints": [
         {
@@ -1547,6 +1564,7 @@
         "range": 45,
         "maxAmmo": 250
       },
+      "wt": "WT_BULLRIFLE",
       "components": [
         {
           "id": "COMPONENT_BULLPUPRIFLE_CLIP_01",
@@ -1651,6 +1669,7 @@
         "range": 45,
         "maxAmmo": 250
       },
+      "wt": "WT_BULLRIFLE2",
       "components": [
         {
           "id": "COMPONENT_BULLPUPRIFLE_MK2_CLIP_01",
@@ -1933,6 +1952,7 @@
         "range": 20,
         "maxAmmo": 250
       },
+      "wt": "WT_SG_BLP",
       "components": [
         {
           "id": "COMPONENT_BULLPUPSHOTGUN_CLIP_01",
@@ -2013,6 +2033,7 @@
         "range": 15,
         "maxAmmo": 25
       },
+      "wt": null,
       "components": [],
       "tints": [
         {
@@ -2062,6 +2083,7 @@
         "releaseDate": "2022-12-13"
       },
       "stats": null,
+      "wt": "WT_CANDYCANE",
       "components": [],
       "tints": [
         {
@@ -2117,6 +2139,7 @@
         "range": 45,
         "maxAmmo": 250
       },
+      "wt": "WT_RIFLE_CBN",
       "components": [
         {
           "id": "COMPONENT_CARBINERIFLE_CLIP_01",
@@ -2239,6 +2262,7 @@
         "range": 45,
         "maxAmmo": 250
       },
+      "wt": "WT_RIFLE_CBN2",
       "components": [
         {
           "id": "COMPONENT_CARBINERIFLE_MK2_CLIP_01",
@@ -2521,6 +2545,7 @@
         "range": 20,
         "maxAmmo": null
       },
+      "wt": "WT_CERPST",
       "components": [
         {
           "id": "COMPONENT_CERAMICPISTOL_CLIP_01",
@@ -2595,6 +2620,7 @@
         "range": 60,
         "maxAmmo": 250
       },
+      "wt": "WT_MG_CBT",
       "components": [
         {
           "id": "COMPONENT_COMBATMG_CLIP_01",
@@ -2687,6 +2713,7 @@
         "range": 60,
         "maxAmmo": 250
       },
+      "wt": "WT_MG_CBT2",
       "components": [
         {
           "id": "COMPONENT_COMBATMG_MK2_CLIP_01",
@@ -2957,6 +2984,7 @@
         "range": 38,
         "maxAmmo": 250
       },
+      "wt": "WT_COMBATPDW",
       "components": [
         {
           "id": "COMPONENT_COMBATPDW_CLIP_01",
@@ -3049,6 +3077,7 @@
         "range": 30,
         "maxAmmo": 250
       },
+      "wt": "WT_PIST_CBT",
       "components": [
         {
           "id": "COMPONENT_COMBATPISTOL_CLIP_01",
@@ -3141,6 +3170,7 @@
         "range": 15,
         "maxAmmo": null
       },
+      "wt": "WT_CMBSHGN",
       "components": [
         {
           "id": "COMPONENT_COMBATSHOTGUN_CLIP_01",
@@ -3215,6 +3245,7 @@
         "range": 55,
         "maxAmmo": null
       },
+      "wt": "WT_EMPL",
       "components": [
         {
           "id": "COMPONENT_EMPLAUNCHER_CLIP_01",
@@ -3277,6 +3308,7 @@
         "range": 55,
         "maxAmmo": 20
       },
+      "wt": "WT_CMPGL",
       "components": [
         {
           "id": "COMPONENT_COMPACTLAUNCHER_CLIP_01",
@@ -3339,6 +3371,7 @@
         "range": 45,
         "maxAmmo": 250
       },
+      "wt": "WT_CMPRIFLE",
       "components": [
         {
           "id": "COMPONENT_COMPACTRIFLE_CLIP_01",
@@ -3413,6 +3446,7 @@
         "range": 0,
         "maxAmmo": 0
       },
+      "wt": "WT_CROWBAR",
       "components": [],
       "tints": [
         {
@@ -3468,6 +3502,7 @@
         "range": 10,
         "maxAmmo": 250
       },
+      "wt": "WT_DBSHGN",
       "components": [
         {
           "id": "COMPONENT_DBSHOTGUN_CLIP_01",
@@ -3530,6 +3565,7 @@
         "range": 35,
         "maxAmmo": 250
       },
+      "wt": "WT_REV_DA",
       "components": [
         {
           "id": "COMPONENT_DOUBLEACTION_CLIP_01",
@@ -3564,6 +3600,7 @@
         "range": 45,
         "maxAmmo": null
       },
+      "wt": "WT_STRKLR",
       "components": [
         {
           "id": "COMPONENT_STRICKLER_CLIP_01",
@@ -3604,6 +3641,7 @@
         "releaseDate": "2021-12-15"
       },
       "stats": null,
+      "wt": "WT_FERTCAN",
       "components": [],
       "tints": [
         {
@@ -3659,6 +3697,7 @@
         "range": 35,
         "maxAmmo": 2000
       },
+      "wt": null,
       "components": [],
       "tints": [
         {
@@ -3714,6 +3753,7 @@
         "range": 60,
         "maxAmmo": 20
       },
+      "wt": "WT_FWRKLNCHR",
       "components": [
         {
           "id": "COMPONENT_FIREWORK_CLIP_01",
@@ -3770,6 +3810,7 @@
         "releaseDate": "2013-09-17"
       },
       "stats": null,
+      "wt": null,
       "components": [],
       "tints": [
         {
@@ -3825,6 +3866,7 @@
         "range": 25,
         "maxAmmo": 25
       },
+      "wt": null,
       "components": [],
       "tints": [
         {
@@ -3880,6 +3922,7 @@
         "range": 10,
         "maxAmmo": 20
       },
+      "wt": "WT_FLAREGUN",
       "components": [
         {
           "id": "COMPONENT_FLAREGUN_CLIP_01",
@@ -3942,6 +3985,7 @@
         "range": 0,
         "maxAmmo": 0
       },
+      "wt": "WT_FLASHLIGHT",
       "components": [
         {
           "id": "COMPONENT_FLASHLIGHT_LIGHT",
@@ -3998,6 +4042,7 @@
         "releaseDate": "2015-03-10"
       },
       "stats": null,
+      "wt": null,
       "components": [],
       "tints": [
         {
@@ -4053,6 +4098,7 @@
         "range": 0,
         "maxAmmo": 0
       },
+      "wt": "WT_GOLFCLUB",
       "components": [],
       "tints": [
         {
@@ -4108,6 +4154,7 @@
         "range": 15,
         "maxAmmo": 25
       },
+      "wt": "WT_GNADE",
       "components": [],
       "tints": [
         {
@@ -4163,6 +4210,7 @@
         "range": 50,
         "maxAmmo": 20
       },
+      "wt": "WT_GL",
       "components": [
         {
           "id": "COMPONENT_GRENADELAUNCHER_CLIP_01",
@@ -4243,6 +4291,7 @@
         "range": 56,
         "maxAmmo": 250
       },
+      "wt": "WT_GUSENBERG",
       "components": [
         {
           "id": "COMPONENT_GUSENBERG_CLIP_01",
@@ -4305,6 +4354,7 @@
         "releaseDate": "2023-12-12"
       },
       "stats": null,
+      "wt": null,
       "components": [],
       "tints": [
         {
@@ -4360,6 +4410,7 @@
         "range": 0,
         "maxAmmo": 0
       },
+      "wt": "WT_HAMMER",
       "components": [],
       "tints": [
         {
@@ -4409,6 +4460,7 @@
         "releaseDate": "2015-03-10"
       },
       "stats": null,
+      "wt": null,
       "components": [],
       "tints": [
         {
@@ -4464,6 +4516,7 @@
         "range": 0,
         "maxAmmo": 0
       },
+      "wt": "WT_HATCHET",
       "components": [],
       "tints": [
         {
@@ -4513,6 +4566,7 @@
         "releaseDate": "2019-12-12"
       },
       "stats": null,
+      "wt": null,
       "components": [],
       "tints": [
         {
@@ -4568,6 +4622,7 @@
         "range": 35,
         "maxAmmo": 250
       },
+      "wt": "WT_HEAVYPSTL",
       "components": [
         {
           "id": "COMPONENT_HEAVYPISTOL_CLIP_01",
@@ -4654,6 +4709,7 @@
         "range": 35,
         "maxAmmo": 250
       },
+      "wt": "WT_REVOLVER",
       "components": [
         {
           "id": "COMPONENT_REVOLVER_CLIP_01",
@@ -4734,6 +4790,7 @@
         "range": 35,
         "maxAmmo": 250
       },
+      "wt": "WT_REVOLVER2",
       "components": [
         {
           "id": "COMPONENT_REVOLVER_MK2_CLIP_01",
@@ -4944,6 +5001,7 @@
         "range": 45,
         "maxAmmo": null
       },
+      "wt": "WT_HEAVYRIFLE",
       "components": [
         {
           "id": "COMPONENT_HEAVYRIFLE_CLIP_01",
@@ -5042,6 +5100,7 @@
         "range": 25,
         "maxAmmo": 250
       },
+      "wt": "WT_HVYSHOT",
       "components": [
         {
           "id": "COMPONENT_HEAVYSHOTGUN_CLIP_01",
@@ -5134,6 +5193,7 @@
         "range": 100,
         "maxAmmo": 250
       },
+      "wt": "WT_SNIP_HVY",
       "components": [
         {
           "id": "COMPONENT_HEAVYSNIPER_CLIP_01",
@@ -5220,6 +5280,7 @@
         "range": 100,
         "maxAmmo": 250
       },
+      "wt": "WT_SNIP_HVY2",
       "components": [
         {
           "id": "COMPONENT_HEAVYSNIPER_MK2_CLIP_01",
@@ -5466,6 +5527,7 @@
         "range": 75,
         "maxAmmo": 10
       },
+      "wt": "WT_HOMLNCH",
       "components": [
         {
           "id": "COMPONENT_HOMINGLAUNCHER_CLIP_01",
@@ -5528,6 +5590,7 @@
         "range": 1,
         "maxAmmo": 4500
       },
+      "wt": "WT_PETROL",
       "components": [],
       "tints": [
         {
@@ -5583,6 +5646,7 @@
         "range": 0,
         "maxAmmo": 0
       },
+      "wt": "WT_KNIFE",
       "components": [
         {
           "id": "COMPONENT_KNIFE_VARMOD_XM3",
@@ -5699,6 +5763,7 @@
         "range": 0,
         "maxAmmo": 0
       },
+      "wt": "WT_MACHETE",
       "components": [],
       "tints": [
         {
@@ -5754,6 +5819,7 @@
         "range": 30,
         "maxAmmo": 250
       },
+      "wt": "WT_MCHPIST",
       "components": [
         {
           "id": "COMPONENT_MACHINEPISTOL_CLIP_01",
@@ -5834,6 +5900,7 @@
         "range": 35,
         "maxAmmo": 250
       },
+      "wt": "WT_MKPISTOL",
       "components": [
         {
           "id": "COMPONENT_MARKSMANPISTOL_CLIP_01",
@@ -5896,6 +5963,7 @@
         "range": 90,
         "maxAmmo": 250
       },
+      "wt": "WT_MKRIFLE",
       "components": [
         {
           "id": "COMPONENT_MARKSMANRIFLE_CLIP_01",
@@ -6000,6 +6068,7 @@
         "range": 90,
         "maxAmmo": 250
       },
+      "wt": "WT_MKRIFLE2",
       "components": [
         {
           "id": "COMPONENT_MARKSMANRIFLE_MK2_CLIP_01",
@@ -6276,6 +6345,7 @@
         "releaseDate": "2022-07-26"
       },
       "stats": null,
+      "wt": null,
       "components": [],
       "tints": [
         {
@@ -6331,6 +6401,7 @@
         "range": 60,
         "maxAmmo": 250
       },
+      "wt": "WT_MG",
       "components": [
         {
           "id": "COMPONENT_MG_CLIP_01",
@@ -6411,6 +6482,7 @@
         "range": 25,
         "maxAmmo": 250
       },
+      "wt": "WT_SMG_MCR",
       "components": [
         {
           "id": "COMPONENT_MICROSMG_CLIP_01",
@@ -6521,6 +6593,7 @@
         "range": 45,
         "maxAmmo": null
       },
+      "wt": "WT_MLTRYRFL",
       "components": [
         {
           "id": "COMPONENT_MILITARYRIFLE_CLIP_01",
@@ -6613,6 +6686,7 @@
         "range": 30,
         "maxAmmo": 250
       },
+      "wt": "WT_MINISMG",
       "components": [
         {
           "id": "COMPONENT_MINISMG_CLIP_01",
@@ -6681,6 +6755,7 @@
         "range": 55,
         "maxAmmo": 250
       },
+      "wt": "WT_MINIGUN",
       "components": [
         {
           "id": "COMPONENT_MINIGUN_CLIP_01",
@@ -6743,6 +6818,7 @@
         "range": 8,
         "maxAmmo": 25
       },
+      "wt": "WT_MOLOTOV",
       "components": [],
       "tints": [
         {
@@ -6798,6 +6874,7 @@
         "range": 85,
         "maxAmmo": 250
       },
+      "wt": "WT_MUSKET",
       "components": [
         {
           "id": "COMPONENT_MUSKET_CLIP_01",
@@ -6860,6 +6937,7 @@
         "range": 35,
         "maxAmmo": null
       },
+      "wt": "WT_REV_NV",
       "components": [
         {
           "id": "COMPONENT_NAVYREVOLVER_CLIP_01",
@@ -6888,6 +6966,7 @@
         "releaseDate": "2025-12-10"
       },
       "stats": null,
+      "wt": null,
       "components": [],
       "tints": [
         {
@@ -6943,6 +7022,7 @@
         "range": 0,
         "maxAmmo": 0
       },
+      "wt": "WT_NGTSTK",
       "components": [],
       "tints": [
         {
@@ -6992,6 +7072,7 @@
         "releaseDate": "2013-09-17"
       },
       "stats": null,
+      "wt": null,
       "components": [],
       "tints": [
         {
@@ -7047,6 +7128,7 @@
         "range": 35,
         "maxAmmo": null
       },
+      "wt": "WT_GDGTPST",
       "components": [
         {
           "id": "COMPONENT_GADGETPISTOL_CLIP_01",
@@ -7109,6 +7191,7 @@
         "range": 15,
         "maxAmmo": 10
       },
+      "wt": "WT_PIPEBOMB",
       "components": [],
       "tints": [
         {
@@ -7164,6 +7247,7 @@
         "range": 0,
         "maxAmmo": 0
       },
+      "wt": "WT_WRENCH",
       "components": [],
       "tints": [
         {
@@ -7219,6 +7303,7 @@
         "range": 25,
         "maxAmmo": 250
       },
+      "wt": "WT_PIST",
       "components": [
         {
           "id": "COMPONENT_PISTOL_CLIP_01",
@@ -7311,6 +7396,7 @@
         "range": 35,
         "maxAmmo": 250
       },
+      "wt": "WT_PIST_50",
       "components": [
         {
           "id": "COMPONENT_PISTOL50_CLIP_01",
@@ -7397,6 +7483,7 @@
         "range": 25,
         "maxAmmo": 250
       },
+      "wt": "WT_PIST2",
       "components": [
         {
           "id": "COMPONENT_PISTOL_MK2_CLIP_01",
@@ -7625,6 +7712,7 @@
         "range": 0,
         "maxAmmo": 0
       },
+      "wt": "WT_POOLCUE",
       "components": [],
       "tints": [
         {
@@ -7680,6 +7768,7 @@
         "range": 95,
         "maxAmmo": null
       },
+      "wt": "WT_PRCSRIFLE",
       "components": [
         {
           "id": "COMPONENT_PRECISIONRIFLE_CLIP_01",
@@ -7742,6 +7831,7 @@
         "range": 20,
         "maxAmmo": 5
       },
+      "wt": "WT_PRXMINE",
       "components": [],
       "tints": [
         {
@@ -7797,6 +7887,7 @@
         "range": 20,
         "maxAmmo": 250
       },
+      "wt": "WT_SG_PMP",
       "components": [
         {
           "id": "COMPONENT_PUMPSHOTGUN_CLIP_01",
@@ -7895,6 +7986,7 @@
         "range": 20,
         "maxAmmo": 250
       },
+      "wt": "WT_SG_PMP2",
       "components": [
         {
           "id": "COMPONENT_PUMPSHOTGUN_MK2_CLIP_01",
@@ -8117,6 +8209,7 @@
         "range": 70,
         "maxAmmo": 20
       },
+      "wt": "WT_RAILGUN",
       "components": [
         {
           "id": "COMPONENT_RAILGUN_CLIP_01",
@@ -8173,6 +8266,7 @@
         "releaseDate": "2022-12-13"
       },
       "stats": null,
+      "wt": "WT_RAILGUNXM3",
       "components": [
         {
           "id": "COMPONENT_RAILGUNXM3_CLIP_01",
@@ -8229,6 +8323,7 @@
         "releaseDate": "2013-09-17"
       },
       "stats": null,
+      "wt": "WT_SNIP_RMT",
       "components": [],
       "tints": [
         {
@@ -8284,6 +8379,7 @@
         "range": 70,
         "maxAmmo": 20
       },
+      "wt": "WT_RPG",
       "components": [
         {
           "id": "COMPONENT_RPG_CLIP_01",
@@ -8352,6 +8448,7 @@
         "range": 15,
         "maxAmmo": 250
       },
+      "wt": "WT_SG_SOF",
       "components": [
         {
           "id": "COMPONENT_SAWNOFFSHOTGUN_CLIP_01",
@@ -8420,6 +8517,7 @@
         "range": 45,
         "maxAmmo": null
       },
+      "wt": "WT_TACRIFLE",
       "components": [
         {
           "id": "COMPONENT_TACTICALRIFLE_CLIP_01",
@@ -8506,6 +8604,7 @@
         "range": 35,
         "maxAmmo": 250
       },
+      "wt": "WT_SMG",
       "components": [
         {
           "id": "COMPONENT_SMG_CLIP_01",
@@ -8610,6 +8709,7 @@
         "range": 35,
         "maxAmmo": 250
       },
+      "wt": "WT_SMG2",
       "components": [
         {
           "id": "COMPONENT_SMG_MK2_CLIP_01",
@@ -8886,6 +8986,7 @@
         "range": 95,
         "maxAmmo": 250
       },
+      "wt": "WT_SNIP_RIF",
       "components": [
         {
           "id": "COMPONENT_SNIPERRIFLE_CLIP_01",
@@ -8972,6 +9073,7 @@
         "range": 0,
         "maxAmmo": 10
       },
+      "wt": null,
       "components": [],
       "tints": [
         {
@@ -9027,6 +9129,7 @@
         "range": 55,
         "maxAmmo": null
       },
+      "wt": "WT_SNOWLNCHR",
       "components": [],
       "tints": [
         {
@@ -9082,6 +9185,7 @@
         "range": 20,
         "maxAmmo": 250
       },
+      "wt": "WT_SNSPISTOL",
       "components": [
         {
           "id": "COMPONENT_SNSPISTOL_CLIP_01",
@@ -9162,6 +9266,7 @@
         "range": 20,
         "maxAmmo": 250
       },
+      "wt": "WT_SNSPISTOL2",
       "components": [
         {
           "id": "COMPONENT_SNSPISTOL_MK2_CLIP_01",
@@ -9378,6 +9483,7 @@
         "range": 40,
         "maxAmmo": 250
       },
+      "wt": "WT_RIFLE_SCBN",
       "components": [
         {
           "id": "COMPONENT_SPECIALCARBINE_CLIP_01",
@@ -9494,6 +9600,7 @@
         "range": 40,
         "maxAmmo": 250
       },
+      "wt": "WT_SPCARBINE2",
       "components": [
         {
           "id": "COMPONENT_SPECIALCARBINE_MK2_CLIP_01",
@@ -9776,6 +9883,7 @@
         "range": 10,
         "maxAmmo": 25
       },
+      "wt": "WT_GNADE_STK",
       "components": [],
       "tints": [
         {
@@ -9825,6 +9933,7 @@
         "releaseDate": "2013-09-17"
       },
       "stats": null,
+      "wt": null,
       "components": [
         {
           "id": "COMPONENT_RPG_CLIP_01",
@@ -9887,6 +9996,7 @@
         "range": 0,
         "maxAmmo": 0
       },
+      "wt": "WT_SHATCHET",
       "components": [],
       "tints": [
         {
@@ -9942,6 +10052,7 @@
         "range": 5,
         "maxAmmo": 250
       },
+      "wt": "WT_STUN",
       "components": [],
       "tints": [
         {
@@ -9991,6 +10102,7 @@
         "releaseDate": "2021-12-15"
       },
       "stats": null,
+      "wt": "WT_STNGUNMP",
       "components": [
         {
           "id": "COMPONENT_STUNGUN_VARMOD_BAIL",
@@ -10053,6 +10165,7 @@
         "range": 20,
         "maxAmmo": 250
       },
+      "wt": "WT_AUTOSHGN",
       "components": [
         {
           "id": "COMPONENT_AUTOSHOTGUN_CLIP_01",
@@ -10115,6 +10228,7 @@
         "range": 0,
         "maxAmmo": 0
       },
+      "wt": "WT_SWBLADE",
       "components": [
         {
           "id": "COMPONENT_SWITCHBLADE_VARMOD_BASE",
@@ -10189,6 +10303,7 @@
         "range": 30,
         "maxAmmo": null
       },
+      "wt": "WT_TECPISTOL",
       "components": [
         {
           "id": "COMPONENT_TECPISTOL_CLIP_01",
@@ -10269,6 +10384,7 @@
         "range": 15,
         "maxAmmo": 25
       },
+      "wt": "WT_GNADE_SMK",
       "components": [],
       "tints": [
         {
@@ -10318,6 +10434,7 @@
         "releaseDate": "2013-09-17"
       },
       "stats": null,
+      "wt": null,
       "components": [
         {
           "id": "COMPONENT_AT_AR_FLSH",
@@ -10386,6 +10503,7 @@
         "releaseDate": "2024-06-25"
       },
       "stats": null,
+      "wt": "WT_STUNROD",
       "components": [],
       "tints": [
         {
@@ -10435,6 +10553,7 @@
         "releaseDate": "2019-12-12"
       },
       "stats": null,
+      "wt": null,
       "components": [],
       "tints": [
         {
@@ -10490,6 +10609,7 @@
         "range": 60,
         "maxAmmo": 250
       },
+      "wt": "WT_RAYCARBINE",
       "components": [],
       "tints": [
         {
@@ -10541,6 +10661,7 @@
         "range": 20,
         "maxAmmo": 20
       },
+      "wt": "WT_RAYPISTOL",
       "components": [
         {
           "id": "COMPONENT_RAYPISTOL_VARMOD_XMAS18",
@@ -10599,6 +10720,7 @@
         "range": 25,
         "maxAmmo": 250
       },
+      "wt": "WT_VPISTOL",
       "components": [
         {
           "id": "COMPONENT_VINTAGEPISTOL_CLIP_01",
@@ -10673,6 +10795,7 @@
         "range": 55,
         "maxAmmo": 250
       },
+      "wt": "WT_RAYMINIGUN",
       "components": [
         {
           "id": "COMPONENT_MINIGUN_CLIP_01",
@@ -10731,6 +10854,7 @@
         "range": 35,
         "maxAmmo": null
       },
+      "wt": "WT_PISTOLXM3",
       "components": [
         {
           "id": "COMPONENT_PISTOLXM3_CLIP_01",

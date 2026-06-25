@@ -6,7 +6,7 @@
     "domain": "weapons",
     "label": "Weapons",
     "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
-    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
+    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. wt = Ammu-Nation shop token (build transaction WP_<wt>_t{t}_v{v}); null = not purchasable. components[] = { id, label, hash, default }; tints[] = { index, label }."
   },
   "group": {
     "id": "mpgunrunning",
@@ -37,6 +37,7 @@
         "range": 45,
         "maxAmmo": 250
       },
+      "wt": "WT_RIFLE_ASL2",
       "components": [
         {
           "id": "COMPONENT_ASSAULTRIFLE_MK2_CLIP_01",
@@ -319,6 +320,7 @@
         "range": 45,
         "maxAmmo": 250
       },
+      "wt": "WT_RIFLE_CBN2",
       "components": [
         {
           "id": "COMPONENT_CARBINERIFLE_MK2_CLIP_01",
@@ -601,6 +603,7 @@
         "range": 60,
         "maxAmmo": 250
       },
+      "wt": "WT_MG_CBT2",
       "components": [
         {
           "id": "COMPONENT_COMBATMG_MK2_CLIP_01",
@@ -871,6 +874,7 @@
         "range": 100,
         "maxAmmo": 250
       },
+      "wt": "WT_SNIP_HVY2",
       "components": [
         {
           "id": "COMPONENT_HEAVYSNIPER_MK2_CLIP_01",
@@ -1117,6 +1121,7 @@
         "range": 25,
         "maxAmmo": 250
       },
+      "wt": "WT_PIST2",
       "components": [
         {
           "id": "COMPONENT_PISTOL_MK2_CLIP_01",
@@ -1345,6 +1350,7 @@
         "range": 35,
         "maxAmmo": 250
       },
+      "wt": "WT_SMG2",
       "components": [
         {
           "id": "COMPONENT_SMG_MK2_CLIP_01",

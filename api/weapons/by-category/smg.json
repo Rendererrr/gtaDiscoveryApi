@@ -6,7 +6,7 @@
     "domain": "weapons",
     "label": "Weapons",
     "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
-    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
+    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. wt = Ammu-Nation shop token (build transaction WP_<wt>_t{t}_v{v}); null = not purchasable. components[] = { id, label, hash, default }; tints[] = { index, label }."
   },
   "group": {
     "name": "SMG",
@@ -35,6 +35,7 @@
         "range": 40,
         "maxAmmo": 250
       },
+      "wt": "WT_SMG_ASL",
       "components": [
         {
           "id": "COMPONENT_ASSAULTSMG_CLIP_01",
@@ -127,6 +128,7 @@
         "range": 38,
         "maxAmmo": 250
       },
+      "wt": "WT_COMBATPDW",
       "components": [
         {
           "id": "COMPONENT_COMBATPDW_CLIP_01",
@@ -219,6 +221,7 @@
         "range": 56,
         "maxAmmo": 250
       },
+      "wt": "WT_GUSENBERG",
       "components": [
         {
           "id": "COMPONENT_GUSENBERG_CLIP_01",
@@ -287,6 +290,7 @@
         "range": 30,
         "maxAmmo": 250
       },
+      "wt": "WT_MCHPIST",
       "components": [
         {
           "id": "COMPONENT_MACHINEPISTOL_CLIP_01",
@@ -367,6 +371,7 @@
         "range": 25,
         "maxAmmo": 250
       },
+      "wt": "WT_SMG_MCR",
       "components": [
         {
           "id": "COMPONENT_MICROSMG_CLIP_01",
@@ -477,6 +482,7 @@
         "range": 30,
         "maxAmmo": 250
       },
+      "wt": "WT_MINISMG",
       "components": [
         {
           "id": "COMPONENT_MINISMG_CLIP_01",
@@ -545,6 +551,7 @@
         "range": 35,
         "maxAmmo": 250
       },
+      "wt": "WT_SMG",
       "components": [
         {
           "id": "COMPONENT_SMG_CLIP_01",
@@ -649,6 +656,7 @@
         "range": 35,
         "maxAmmo": 250
       },
+      "wt": "WT_SMG2",
       "components": [
         {
           "id": "COMPONENT_SMG_MK2_CLIP_01",
@@ -925,6 +933,7 @@
         "range": 30,
         "maxAmmo": null
       },
+      "wt": "WT_TECPISTOL",
       "components": [
         {
           "id": "COMPONENT_TECPISTOL_CLIP_01",
@@ -1005,6 +1014,7 @@
         "range": 60,
         "maxAmmo": 250
       },
+      "wt": "WT_RAYCARBINE",
       "components": [],
       "tints": [
         {

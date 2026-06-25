@@ -6,7 +6,7 @@
     "domain": "weapons",
     "label": "Weapons",
     "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
-    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
+    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. wt = Ammu-Nation shop token (build transaction WP_<wt>_t{t}_v{v}); null = not purchasable. components[] = { id, label, hash, default }; tints[] = { index, label }."
   },
   "group": {
     "id": "mpheist3",
@@ -37,6 +37,7 @@
         "range": 20,
         "maxAmmo": null
       },
+      "wt": "WT_CERPST",
       "components": [
         {
           "id": "COMPONENT_CERAMICPISTOL_CLIP_01",
@@ -105,6 +106,7 @@
         "releaseDate": "2019-12-12"
       },
       "stats": null,
+      "wt": null,
       "components": [],
       "tints": [
         {
@@ -160,6 +162,7 @@
         "range": 35,
         "maxAmmo": null
       },
+      "wt": "WT_REV_NV",
       "components": [
         {
           "id": "COMPONENT_NAVYREVOLVER_CLIP_01",
@@ -188,6 +191,7 @@
         "releaseDate": "2019-12-12"
       },
       "stats": null,
+      "wt": null,
       "components": [],
       "tints": [
         {

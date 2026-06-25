@@ -6,7 +6,7 @@
     "domain": "weapons",
     "label": "Weapons",
     "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
-    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
+    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. wt = Ammu-Nation shop token (build transaction WP_<wt>_t{t}_v{v}); null = not purchasable. components[] = { id, label, hash, default }; tints[] = { index, label }."
   },
   "group": {
     "name": "Heavy",
@@ -35,6 +35,7 @@
         "range": 55,
         "maxAmmo": null
       },
+      "wt": "WT_EMPL",
       "components": [
         {
           "id": "COMPONENT_EMPLAUNCHER_CLIP_01",
@@ -97,6 +98,7 @@
         "range": 55,
         "maxAmmo": 20
       },
+      "wt": "WT_CMPGL",
       "components": [
         {
           "id": "COMPONENT_COMPACTLAUNCHER_CLIP_01",
@@ -159,6 +161,7 @@
         "range": 60,
         "maxAmmo": 20
       },
+      "wt": "WT_FWRKLNCHR",
       "components": [
         {
           "id": "COMPONENT_FIREWORK_CLIP_01",
@@ -221,6 +224,7 @@
         "range": 50,
         "maxAmmo": 20
       },
+      "wt": "WT_GL",
       "components": [
         {
           "id": "COMPONENT_GRENADELAUNCHER_CLIP_01",
@@ -301,6 +305,7 @@
         "range": 75,
         "maxAmmo": 10
       },
+      "wt": "WT_HOMLNCH",
       "components": [
         {
           "id": "COMPONENT_HOMINGLAUNCHER_CLIP_01",
@@ -363,6 +368,7 @@
         "range": 55,
         "maxAmmo": 250
       },
+      "wt": "WT_MINIGUN",
       "components": [
         {
           "id": "COMPONENT_MINIGUN_CLIP_01",
@@ -425,6 +431,7 @@
         "range": 70,
         "maxAmmo": 20
       },
+      "wt": "WT_RAILGUN",
       "components": [
         {
           "id": "COMPONENT_RAILGUN_CLIP_01",
@@ -481,6 +488,7 @@
         "releaseDate": "2022-12-13"
       },
       "stats": null,
+      "wt": "WT_RAILGUNXM3",
       "components": [
         {
           "id": "COMPONENT_RAILGUNXM3_CLIP_01",
@@ -543,6 +551,7 @@
         "range": 70,
         "maxAmmo": 20
       },
+      "wt": "WT_RPG",
       "components": [
         {
           "id": "COMPONENT_RPG_CLIP_01",
@@ -611,6 +620,7 @@
         "range": 55,
         "maxAmmo": null
       },
+      "wt": "WT_SNOWLNCHR",
       "components": [],
       "tints": [
         {
@@ -660,6 +670,7 @@
         "releaseDate": "2013-09-17"
       },
       "stats": null,
+      "wt": null,
       "components": [
         {
           "id": "COMPONENT_RPG_CLIP_01",
@@ -716,6 +727,7 @@
         "releaseDate": "2013-09-17"
       },
       "stats": null,
+      "wt": null,
       "components": [
         {
           "id": "COMPONENT_AT_AR_FLSH",
@@ -790,6 +802,7 @@
         "range": 55,
         "maxAmmo": 250
       },
+      "wt": "WT_RAYMINIGUN",
       "components": [
         {
           "id": "COMPONENT_MINIGUN_CLIP_01",

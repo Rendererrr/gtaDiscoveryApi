@@ -6,7 +6,7 @@
     "domain": "weapons",
     "label": "Weapons",
     "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
-    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
+    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. wt = Ammu-Nation shop token (build transaction WP_<wt>_t{t}_v{v}); null = not purchasable. components[] = { id, label, hash, default }; tints[] = { index, label }."
   },
   "group": {
     "id": "mpchristmas3",
@@ -31,6 +31,7 @@
         "releaseDate": "2022-12-13"
       },
       "stats": null,
+      "wt": null,
       "components": [],
       "tints": [
         {
@@ -80,6 +81,7 @@
         "releaseDate": "2022-12-13"
       },
       "stats": null,
+      "wt": "WT_CANDYCANE",
       "components": [],
       "tints": [
         {
@@ -129,6 +131,7 @@
         "releaseDate": "2022-12-13"
       },
       "stats": null,
+      "wt": "WT_RAILGUNXM3",
       "components": [
         {
           "id": "COMPONENT_RAILGUNXM3_CLIP_01",
@@ -191,6 +194,7 @@
         "range": 35,
         "maxAmmo": null
       },
+      "wt": "WT_PISTOLXM3",
       "components": [
         {
           "id": "COMPONENT_PISTOLXM3_CLIP_01",

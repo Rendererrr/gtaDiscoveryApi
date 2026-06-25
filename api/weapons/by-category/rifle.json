@@ -6,7 +6,7 @@
     "domain": "weapons",
     "label": "Weapons",
     "urlPattern": "{cdnBase}/assets/weapons/images/{File}-icon.png",
-    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. components[] = { id, label, hash, default }; tints[] = { index, label }."
+    "note": "Flat catalog. hash = joaat(codename). dlc = { id, name, releaseDate } (source DLC; null when unknown). stats are 0-100 weapon-wheel values (damage, fireRate, accuracy, range) + maxAmmo; null when unavailable. wt = Ammu-Nation shop token (build transaction WP_<wt>_t{t}_v{v}); null = not purchasable. components[] = { id, label, hash, default }; tints[] = { index, label }."
   },
   "group": {
     "name": "Rifle",
@@ -35,6 +35,7 @@
         "range": 45,
         "maxAmmo": 250
       },
+      "wt": "WT_RIFLE_ADV",
       "components": [
         {
           "id": "COMPONENT_ADVANCEDRIFLE_CLIP_01",
@@ -127,6 +128,7 @@
         "range": 45,
         "maxAmmo": 250
       },
+      "wt": "WT_RIFLE_ASL",
       "components": [
         {
           "id": "COMPONENT_ASSAULTRIFLE_CLIP_01",
@@ -237,6 +239,7 @@
         "range": 45,
         "maxAmmo": 250
       },
+      "wt": "WT_RIFLE_ASL2",
       "components": [
         {
           "id": "COMPONENT_ASSAULTRIFLE_MK2_CLIP_01",
@@ -519,6 +522,7 @@
         "range": 45,
         "maxAmmo": null
       },
+      "wt": "WT_BATTLERIFLE",
       "components": [
         {
           "id": "COMPONENT_BATTLERIFLE_CLIP_01",
@@ -593,6 +597,7 @@
         "range": 45,
         "maxAmmo": 250
       },
+      "wt": "WT_BULLRIFLE",
       "components": [
         {
           "id": "COMPONENT_BULLPUPRIFLE_CLIP_01",
@@ -697,6 +702,7 @@
         "range": 45,
         "maxAmmo": 250
       },
+      "wt": "WT_BULLRIFLE2",
       "components": [
         {
           "id": "COMPONENT_BULLPUPRIFLE_MK2_CLIP_01",
@@ -979,6 +985,7 @@
         "range": 45,
         "maxAmmo": 250
       },
+      "wt": "WT_RIFLE_CBN",
       "components": [
         {
           "id": "COMPONENT_CARBINERIFLE_CLIP_01",
@@ -1101,6 +1108,7 @@
         "range": 45,
         "maxAmmo": 250
       },
+      "wt": "WT_RIFLE_CBN2",
       "components": [
         {
           "id": "COMPONENT_CARBINERIFLE_MK2_CLIP_01",
@@ -1383,6 +1391,7 @@
         "range": 45,
         "maxAmmo": 250
       },
+      "wt": "WT_CMPRIFLE",
       "components": [
         {
           "id": "COMPONENT_COMPACTRIFLE_CLIP_01",
@@ -1457,6 +1466,7 @@
         "range": 45,
         "maxAmmo": null
       },
+      "wt": "WT_STRKLR",
       "components": [
         {
           "id": "COMPONENT_STRICKLER_CLIP_01",
@@ -1503,6 +1513,7 @@
         "range": 45,
         "maxAmmo": null
       },
+      "wt": "WT_HEAVYRIFLE",
       "components": [
         {
           "id": "COMPONENT_HEAVYRIFLE_CLIP_01",
@@ -1601,6 +1612,7 @@
         "range": 45,
         "maxAmmo": null
       },
+      "wt": "WT_MLTRYRFL",
       "components": [
         {
           "id": "COMPONENT_MILITARYRIFLE_CLIP_01",
@@ -1693,6 +1705,7 @@
         "range": 45,
         "maxAmmo": null
       },
+      "wt": "WT_TACRIFLE",
       "components": [
         {
           "id": "COMPONENT_TACTICALRIFLE_CLIP_01",
@@ -1779,6 +1792,7 @@
         "range": 40,
         "maxAmmo": 250
       },
+      "wt": "WT_RIFLE_SCBN",
       "components": [
         {
           "id": "COMPONENT_SPECIALCARBINE_CLIP_01",
@@ -1895,6 +1909,7 @@
         "range": 40,
         "maxAmmo": 250
       },
+      "wt": "WT_SPCARBINE2",
       "components": [
         {
           "id": "COMPONENT_SPECIALCARBINE_MK2_CLIP_01",
